@@ -1,0 +1,31 @@
+
+by_bonfire
+    => nrel_main_idtf: [bonfire] (* <- lang_en;; *);
+    => nrel_main_idtf: [костер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агонь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bonfire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forest_fire;
+    => nrel_associative_connection: by_fire_site;
+    => nrel_associative_connection: by_fire;
+    => nrel_associative_connection: by_fire_safety;
+    => nrel_associative_connection: by_fire_hazardous_season_in_the_forest;
+    => nrel_associative_connection: by_fire_safety_rules;
+    => nrel_associative_connection: by_forecasting_of_forest_fires;
+
+    => nrel_etalon_online_idx: [16366];;

@@ -1,0 +1,27 @@
+
+by_compensatory_competence
+    => nrel_main_idtf: [compensatory competence] (* <- lang_en;; *);
+    => nrel_main_idtf: [компенсаторная компетенция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампенсаторная кампетэнцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensatory_competence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_communicative_competence;
+    => nrel_associative_connection: by_competences_of_personal_selfimprovement;
+    => nrel_associative_connection: by_intercultural_competence;
+
+    => nrel_etalon_online_idx: [36112];;

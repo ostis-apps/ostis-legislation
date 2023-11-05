@@ -1,0 +1,33 @@
+
+by_review_of_archival_documents
+    => nrel_main_idtf: [review of archival documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [обзор архивных документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агляд архіўных дакументаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_review_of_archival_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_document_of_the_national_archive_fund;
+    => nrel_associative_connection: by_documents_review;
+    => nrel_associative_connection: by_archive_documents_users;
+    => nrel_associative_connection: by_permanent_storage_of_archive_documents;
+    => nrel_associative_connection: by_archive_profile;
+    => nrel_associative_connection: by_publication_activity_of_the_archive;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+    => nrel_associative_connection: by_thematic_review;
+
+    => nrel_etalon_online_idx: [18408];;

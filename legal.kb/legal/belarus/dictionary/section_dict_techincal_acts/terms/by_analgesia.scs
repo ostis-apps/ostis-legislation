@@ -1,0 +1,30 @@
+
+by_analgesia
+    => nrel_main_idtf: [analgesia] (* <- lang_en;; *);
+    => nrel_main_idtf: [анальгезия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анальгезія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_analgesia_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anesthesiology;
+    => nrel_associative_connection: by_anesthesiology_and_resuscitation;
+    => nrel_associative_connection: by_anesthesia;
+    => nrel_associative_connection: by_anesthetics;
+    => nrel_associative_connection: by_doctoranesthesiologistreanimatologist;
+    => nrel_associative_connection: by_nurseanesthetist;
+
+    => nrel_etalon_online_idx: [35245];;

@@ -1,0 +1,31 @@
+
+by_pension_insurance
+    => nrel_main_idtf: [pension insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [пенсионное страхование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пенсіённае страхаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pension_insurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archival_pension_case;
+    => nrel_associative_connection: by_early_pension_period_of_the_insured_person;
+    => nrel_associative_connection: by_mandatory_contributions_for_pension_insurance;
+    => nrel_associative_connection: by_pension_system;
+    => nrel_associative_connection: by_pension_coverage_within_this_specialty;
+    => nrel_associative_connection: by_social_insurance;
+    => nrel_associative_connection: by_insurance;
+
+    => nrel_etalon_online_idx: [3050];;

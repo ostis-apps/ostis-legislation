@@ -1,0 +1,28 @@
+
+by_vehicles_with_civil_liability_of_owners_of_which_is_subject_to_mandatory_insurance
+    => nrel_main_idtf: [vehicles with civil liability of owners of which is subject to mandatory insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортные средства, гражданская ответственность владельцев которых подлежит обязательному страхованию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартныя сродкі, грамадзянская адказнасць уладальнікаў якіх падлягае абавязковаму страхаванню] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicles_with_civil_liability_of_owners_of_which_is_subject_to_mandatory_insurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_belarusian_transport_insurance_bureau;
+    => nrel_associative_connection: by_system_green_card;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [25234];;

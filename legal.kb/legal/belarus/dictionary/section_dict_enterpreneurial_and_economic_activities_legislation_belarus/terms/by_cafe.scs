@@ -1,0 +1,54 @@
+
+by_cafe
+    => nrel_main_idtf: [cafe] (* <- lang_en;; *);
+    => nrel_main_idtf: [кафе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кафэ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cafe_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cafe_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internet_cafe;
+    => nrel_associative_connection: by_quick_service_cafe;
+    => nrel_associative_connection: by_cafe_for_conducting_events_on_orders;
+    => nrel_associative_connection: by_cafeteria;
+    => nrel_associative_connection: by_class_of_the_public_catering_object;
+    => nrel_associative_connection: by_food_factory;
+    => nrel_associative_connection: by_summer_seasonal_cafe;
+    => nrel_associative_connection: by_summer_cafe_mini_cafe;
+    => nrel_associative_connection: by_summer_seasonal_cafe;
+    => nrel_associative_connection: by_minicafe;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_fast_food_restaurant_cafe;
+    => nrel_associative_connection: by_public_catering_network;
+    => nrel_associative_connection: by_type_of_the_public_catering_object;
+
+    => nrel_etalon_online_idx: [9229];;

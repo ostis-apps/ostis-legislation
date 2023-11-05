@@ -1,0 +1,45 @@
+
+by_owner_of_experimental_aircraft
+    => nrel_main_idtf: [owner of experimental aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец экспериментального воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік эксперыментальнага паветранага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_experimental_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_experimental_aircraft_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry_of_experimental_aircraft_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_flight_operation_of_an_experimental_aircraft;
+    => nrel_associative_connection: by_wearable_emergency_stock;
+    => nrel_associative_connection: by_identification_marks;
+    => nrel_associative_connection: by_registration_certificate;
+    => nrel_associative_connection: by_structural_subdivision;
+
+    => nrel_etalon_online_idx: [31683];;

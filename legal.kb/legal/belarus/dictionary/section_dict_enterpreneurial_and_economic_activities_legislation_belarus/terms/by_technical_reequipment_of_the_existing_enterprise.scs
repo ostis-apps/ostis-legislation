@@ -1,0 +1,27 @@
+
+by_technical_reequipment_of_the_existing_enterprise
+    => nrel_main_idtf: [technical re-equipment of the existing enterprise] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническое перевооружение действующего предприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічнае пераўзбраенне дзеючага прадпрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_reequipment_of_the_existing_enterprise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_adaptation_of_goods;
+    => nrel_associative_connection: by_financial_results_forecast;
+
+    => nrel_etalon_online_idx: [24929];;

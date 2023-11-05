@@ -1,0 +1,78 @@
+
+by_state_land_registry
+    => nrel_main_idtf: [state land registry] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный земельный кадастр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны зямельны кадастр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_land_registry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_land_registry_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_land_registry_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_land_registry_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry_account_of_lands;
+    => nrel_associative_connection: by_land_and_information_system_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_plot_outline;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_public_cadastral_map;
+    => nrel_associative_connection: by_land_value_register_of_the_state_land_cadastre;
+    => nrel_associative_connection: by_address_register;
+    => nrel_associative_connection: by_registry_of_prices_for_land_plots;
+
+    => nrel_etalon_online_idx: [5606];;

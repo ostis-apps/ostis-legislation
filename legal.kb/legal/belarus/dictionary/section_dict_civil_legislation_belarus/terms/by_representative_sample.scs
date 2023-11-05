@@ -1,0 +1,50 @@
+
+by_representative_sample
+    => nrel_main_idtf: [representative sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [представительная выборка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнічая выбарка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_sample_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_sample_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_analogous_vehicle;
+    => nrel_associative_connection: by_sampling;
+    => nrel_associative_connection: by_permitted_sampling_error;
+    => nrel_associative_connection: by_identical_vehicle;
+    => nrel_associative_connection: by_objectanalogue_of_vehicle;
+    => nrel_associative_connection: by_volume_of_vehicle_sampling;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_rare_vehicle;
+    => nrel_associative_connection: by_representative_sampling;
+    => nrel_associative_connection: by_cost_of_the_basic_analogue_of_the_vehicle;
+    => nrel_associative_connection: by_sampling_unit;
+
+    => nrel_etalon_online_idx: [21112];;

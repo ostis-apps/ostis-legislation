@@ -1,0 +1,72 @@
+
+by_drug_test
+    => nrel_main_idtf: [drug test] (* <- lang_en;; *);
+    => nrel_main_idtf: [допинг-контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [допінг-кантроль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drug_test_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drug_test_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drug_test_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outofcompetition_testing;
+    => nrel_associative_connection: by_prohibited_substance;
+    => nrel_associative_connection: by_marker;
+    => nrel_associative_connection: by_metabolite;
+    => nrel_associative_connection: by_national_antidoping_agency;
+    => nrel_associative_connection: by_explanations;
+    => nrel_associative_connection: by_positive_sample_result;
+    => nrel_associative_connection: by_attempted;
+    => nrel_associative_connection: by_assay;
+    => nrel_associative_connection: by_registered_testing_pool;
+    => nrel_associative_connection: by_competitive_testing;
+    => nrel_associative_connection: by_sport_of__highest__achievement;
+    => nrel_associative_connection: by_sport_disqualification;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_testing;
+    => nrel_associative_connection: by_authorized_person_of_the_institution_national_antidoping_agency;
+    => nrel_associative_connection: by_falsification;
+
+    => nrel_etalon_online_idx: [8840];;

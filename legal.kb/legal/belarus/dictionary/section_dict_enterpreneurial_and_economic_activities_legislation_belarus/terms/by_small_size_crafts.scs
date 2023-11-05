@@ -1,0 +1,45 @@
+
+by_small_size_crafts
+    => nrel_main_idtf: [small size crafts] (* <- lang_en;; *);
+    => nrel_main_idtf: [маломерные суда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маламерныя судны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_size_crafts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_size_crafts_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_base_structure_for_parking_of_small_vessels;
+    => nrel_associative_connection: by_caravan_of_ships;
+    => nrel_associative_connection: by_small_size_craft;
+    => nrel_associative_connection: by_motor_small_vessel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_theft_of_a_vehicle_or_small_watercraft;
+
+    => nrel_etalon_online_idx: [16857];;

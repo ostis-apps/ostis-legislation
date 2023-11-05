@@ -1,0 +1,26 @@
+
+by_material_part_of_air_vehicle
+    => nrel_main_idtf: [material part of air vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [материальная часть воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэрыяльная частка паветранага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_material_part_of_air_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_equipment;
+
+    => nrel_etalon_online_idx: [16941];;

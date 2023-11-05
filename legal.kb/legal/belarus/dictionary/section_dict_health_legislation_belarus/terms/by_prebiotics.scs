@@ -1,0 +1,43 @@
+
+by_prebiotics
+    => nrel_main_idtf: [prebiotics] (* <- lang_en;; *);
+    => nrel_main_idtf: [пребиотики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыбіётыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prebiotics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prebiotics_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_release_of_food_products_in_circulation;
+    => nrel_associative_connection: by_norm_of_physiological_need_for_nutrients_and_energy_norm_of_physiological_need;
+    => nrel_associative_connection: by_nutrients_food_substances;
+    => nrel_associative_connection: by_enriched_food;
+
+    => nrel_etalon_online_idx: [39532];;

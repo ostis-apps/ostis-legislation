@@ -1,0 +1,28 @@
+
+by_ligature_mass
+    => nrel_main_idtf: [ligature mass ] (* <- lang_en;; *);
+    => nrel_main_idtf: [масса лигатурная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маса лігатурная] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ligature_mass_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mass_in_ligature;
+    => nrel_associative_connection: by_precious_metal_mass;
+    => nrel_associative_connection: by_total_mass;
+    => nrel_associative_connection: by_metal_products;
+
+    => nrel_etalon_online_idx: [16913];;

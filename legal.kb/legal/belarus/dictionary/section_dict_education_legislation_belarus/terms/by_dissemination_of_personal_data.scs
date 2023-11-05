@@ -1,0 +1,65 @@
+
+by_dissemination_of_personal_data
+    => nrel_main_idtf: [dissemination of personal data] (* <- lang_en;; *);
+    => nrel_main_idtf: [распространение персональных данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [распаўсюджванне персанальных даных] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dissemination_of_personal_data_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dissemination_of_personal_data_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dissemination_of_personal_data_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personal_data_blocking;
+    => nrel_associative_connection: by_genetic_personal_data;
+    => nrel_associative_connection: by_depersonalized_personal_data;
+    => nrel_associative_connection: by_depersonalization_of_personal_data;
+    => nrel_associative_connection: by_personal_data_processing;
+    => nrel_associative_connection: by_publicly_accessible_personal_data;
+    => nrel_associative_connection: by_personal_data;
+    => nrel_associative_connection: by_dissemination;
+    => nrel_associative_connection: by_special_personal_data;
+    => nrel_associative_connection: by_subject_of_personal_data;
+    => nrel_associative_connection: by_crossborder_transfer_of_personal_data;
+
+    => nrel_etalon_online_idx: [27482];;

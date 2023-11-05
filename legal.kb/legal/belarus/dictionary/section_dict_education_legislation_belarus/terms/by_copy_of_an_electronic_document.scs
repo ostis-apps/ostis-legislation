@@ -1,0 +1,49 @@
+
+by_copy_of_an_electronic_document
+    => nrel_main_idtf: [copy of an electronic document] (* <- lang_en;; *);
+    => nrel_main_idtf: [копия электронного документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [копія электроннага дакумента] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_an_electronic_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_an_electronic_document_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_presentation_of_the_document_in_electronic_view;
+    => nrel_associative_connection: by_copy;
+    => nrel_associative_connection: by_authenticity_of_the_document_in_electronic_form;
+    => nrel_associative_connection: by_original_electronic_document;
+    => nrel_associative_connection: by_user_of_attribute_certificate;
+    => nrel_associative_connection: by_check_of_authenticity_of_electronic_document_email_message;
+    => nrel_associative_connection: by____;
+    => nrel_associative_connection: by_time_stamp;
+    => nrel_associative_connection: by_electronic_copy_of_document_on_paper;
+    => nrel_associative_connection: by_electronic_document;
+
+    => nrel_etalon_online_idx: [6032];;

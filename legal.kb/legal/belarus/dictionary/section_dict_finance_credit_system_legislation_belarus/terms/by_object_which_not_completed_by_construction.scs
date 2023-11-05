@@ -1,0 +1,29 @@
+
+by_object_which_not_completed_by_construction
+    => nrel_main_idtf: [object which not completed by construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект, не завершенный строительством] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект, не завершаны будаўніцтвам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_which_not_completed_by_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_incomplete_mothballed_object;
+    => nrel_associative_connection: by_construction_turn;
+    => nrel_associative_connection: by_termination_of_object_construction;
+    => nrel_associative_connection: by_suspension_of_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [18736];;

@@ -1,0 +1,42 @@
+
+by_overhead_cost
+    => nrel_main_idtf: [overhead cost] (* <- lang_en;; *);
+    => nrel_main_idtf: [накладные расходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накладныя выдаткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overhead_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overhead_cost_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_resourceestimate_standards;
+    => nrel_associative_connection: by_refinancing_of_costs;
+
+    => nrel_etalon_online_idx: [11401];;

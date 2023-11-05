@@ -1,0 +1,30 @@
+
+by_longpassenger_train
+    => nrel_main_idtf: [long-passenger train] (* <- lang_en;; *);
+    => nrel_main_idtf: [поезд пассажирский длинносоставный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягнік пасажырскі доўгасастаўны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_longpassenger_train_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_passenger_carriages;
+    => nrel_associative_connection: by_passenger_train;
+    => nrel_associative_connection: by_highspeed_passenger_train;
+    => nrel_associative_connection: by_passenger_train_with_increased_length;
+    => nrel_associative_connection: by_high_speed_passenger_train;
+    => nrel_associative_connection: by_connected_passenger_train;
+
+    => nrel_etalon_online_idx: [34222];;

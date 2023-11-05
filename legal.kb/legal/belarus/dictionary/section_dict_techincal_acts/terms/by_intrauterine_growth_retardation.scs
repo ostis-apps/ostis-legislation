@@ -1,0 +1,32 @@
+
+by_intrauterine_growth_retardation
+    => nrel_main_idtf: [intrauterine growth retardation ] (* <- lang_en;; *);
+    => nrel_main_idtf: [задержка внутриутробного роста] (* <- lang_ru;; *);
+    => nrel_main_idtf: [затрымка ўнутрывантробнага росту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intrauterine_growth_retardation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antenatal_period;
+    => nrel_associative_connection: by_intrauterine_infection_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_hemolytic_disease_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_haemorrhagic_disease_of_the_newborn;
+    => nrel_associative_connection: by_gestational_age;
+    => nrel_associative_connection: by_diagnostic_studies;
+    => nrel_associative_connection: by_intranatal_period;
+    => nrel_associative_connection: by_perinatal_period;
+
+    => nrel_etalon_online_idx: [33767];;

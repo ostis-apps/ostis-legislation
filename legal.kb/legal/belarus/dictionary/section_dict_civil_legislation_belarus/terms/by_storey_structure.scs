@@ -1,0 +1,33 @@
+
+by_storey_structure
+    => nrel_main_idtf: [storey structure] (* <- lang_en;; *);
+    => nrel_main_idtf: [этажное сооружение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паверхавае збудаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_storey_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_high_building;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_floor_area;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_mansard_floor_mansard;
+    => nrel_associative_connection: by_aboveground_floor;
+    => nrel_associative_connection: by_basement_floor;
+    => nrel_associative_connection: by_technical_floor;
+    => nrel_associative_connection: by_ground_floor;
+
+    => nrel_etalon_online_idx: [28497];;

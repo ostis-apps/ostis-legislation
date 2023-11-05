@@ -1,0 +1,53 @@
+
+by_advertising_services
+    => nrel_main_idtf: [advertising services] (* <- lang_en;; *);
+    => nrel_main_idtf: [рекламные услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэкламныя паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_advertising_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_advertising_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_branding;
+    => nrel_associative_connection: by_counter_advertising;
+    => nrel_associative_connection: by_promotion_object;
+    => nrel_associative_connection: by_operator_of_external_advertising;
+    => nrel_associative_connection: by_advertising_game_organizer;
+    => nrel_associative_connection: by_advertising_consumer;
+    => nrel_associative_connection: by_prismatron;
+    => nrel_associative_connection: by_direct_marketing;
+    => nrel_associative_connection: by_advertising;
+    => nrel_associative_connection: by_advertising_activity;
+    => nrel_associative_connection: by_advertiser;
+    => nrel_associative_connection: by_advertising_producer;
+    => nrel_associative_connection: by_advertising_distributor;
+    => nrel_associative_connection: by_services;
+
+    => nrel_etalon_online_idx: [22504];;

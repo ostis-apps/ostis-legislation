@@ -1,0 +1,36 @@
+
+by_weight_of_service
+    => nrel_main_idtf: [weight of service] (* <- lang_en;; *);
+    => nrel_main_idtf: [вес услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вага паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_weight_of_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_weight;
+    => nrel_associative_connection: by_weight_of_the_goods_servicesrepresentative;
+    => nrel_associative_connection: by_weight_of_servicerepresentative_type_of_communication_service;
+    => nrel_associative_connection: by_representatives;
+    => nrel_associative_connection: by_representative;
+    => nrel_associative_connection: by_service_market;
+    => nrel_associative_connection: by_consolidated_index_of_cargo_transportation_tariffs;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_representative_service;
+    => nrel_associative_connection: by_representative_service_in_road_transport;
+    => nrel_associative_connection: by_representative_service_on_inland_water_transport;
+    => nrel_associative_connection: by_services;
+
+    => nrel_etalon_online_idx: [12944];;

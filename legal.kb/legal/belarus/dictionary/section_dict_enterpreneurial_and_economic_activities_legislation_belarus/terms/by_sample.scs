@@ -1,0 +1,78 @@
+
+by_sample
+    => nrel_main_idtf: [sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [выборочная совокупность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбарачная сукупнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sample_sampling;
+    => nrel_associative_connection: by_sample_of_basic_organizations_in_agriculture;
+    => nrel_associative_connection: by_sample_of_basic_organizations_implementing_transport_of_cargo;
+    => nrel_associative_connection: by_sample_of_carried_goods;
+    => nrel_associative_connection: by_sample_of_agricultural_products;
+    => nrel_associative_connection: by_unit_of_observed_aggregate;
+    => nrel_associative_connection: by_observed_aggregate;
+    => nrel_associative_connection: by_observation;
+    => nrel_associative_connection: by_audited_population;
+
+    => nrel_etalon_online_idx: [13329];;

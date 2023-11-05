@@ -1,0 +1,44 @@
+
+by_artificial_reforestation
+    => nrel_main_idtf: [artificial reforestation] (* <- lang_en;; *);
+    => nrel_main_idtf: [искусственное лесовосстановление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штучнае лесааднаўленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_artificial_reforestation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_artificial_reforestation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_natural_forest_regeneration;
+    => nrel_associative_connection: by_combined_forest_regeneration;
+    => nrel_associative_connection: by_reforestation;
+    => nrel_associative_connection: by_afforestation;
+    => nrel_associative_connection: by_planting_stock_of_forest_plants;
+
+    => nrel_etalon_online_idx: [12082];;

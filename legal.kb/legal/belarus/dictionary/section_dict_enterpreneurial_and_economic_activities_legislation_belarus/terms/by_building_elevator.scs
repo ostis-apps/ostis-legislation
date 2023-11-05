@@ -1,0 +1,43 @@
+
+by_building_elevator
+    => nrel_main_idtf: [building elevator] (* <- lang_en;; *);
+    => nrel_main_idtf: [подъемник строительный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пад'ёмнік будаўнічы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_building_elevator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_the_lift_elevator;
+    => nrel_associative_connection: by_elevator_owner;
+    => nrel_associative_connection: by_cargo_platform;
+    => nrel_associative_connection: by_cargo_lift_rope;
+    => nrel_associative_connection: by_cargo_lift;
+    => nrel_associative_connection: by_mast_lift;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_wall_support;
+    => nrel_associative_connection: by_dangerous_elevator_area;
+    => nrel_associative_connection: by_residual_resource;
+    => nrel_associative_connection: by_refusal;
+    => nrel_associative_connection: by_degradation_refusal;
+    => nrel_associative_connection: by_constructive_refusal;
+    => nrel_associative_connection: by_mobile_cargo_lift;
+    => nrel_associative_connection: by_damage_of_lift_elevator_of_i_degree;
+    => nrel_associative_connection: by_damage_of_lift_elevator_of_ii_degree;
+    => nrel_associative_connection: by_suspended_cradle_with_electric_control_transmission;
+    => nrel_associative_connection: by_building_passengerandfreight_elevator;
+    => nrel_associative_connection: by_technical_diagnostic_of_the_elevator;
+
+    => nrel_etalon_online_idx: [20445];;

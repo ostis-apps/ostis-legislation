@@ -1,0 +1,30 @@
+
+by_bank_service_product
+    => nrel_main_idtf: [bank service (product)] (* <- lang_en;; *);
+    => nrel_main_idtf: [банковская услуга (продукт)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкаўская паслуга (прадукт)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_service_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bankcorrespondent;
+    => nrel_associative_connection: by_respondent_bank;
+    => nrel_associative_connection: by_correspondent_banking_relations;
+    => nrel_associative_connection: by_singletype_financial_operations;
+    => nrel_associative_connection: by_financial_transaction;
+    => nrel_associative_connection: by_suspicious_financial_transaction;
+
+    => nrel_etalon_online_idx: [36592];;

@@ -1,0 +1,28 @@
+
+by_educational_program_for_advanced_training_of_managers_and_specialists
+    => nrel_main_idtf: [educational program for advanced training of managers and specialists] (* <- lang_en;; *);
+    => nrel_main_idtf: [образовательная программа повышения квалификации руководящих работников и специалистов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адукацыйная праграма павышэння кваліфікацыі кіруючых работнікаў і спецыялістаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_program_for_advanced_training_of_managers_and_specialists_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_academy_of_education;
+    => nrel_associative_connection: by_institute_of_professional_education;
+    => nrel_associative_connection: by_continuous_professional_education_of_leading_workers_and_specialists;
+    => nrel_associative_connection: by_educational_program_for_advanced_training_of_workers_employees;
+
+    => nrel_etalon_online_idx: [18500];;

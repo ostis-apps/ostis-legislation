@@ -1,0 +1,28 @@
+
+by_runway_protection_lights
+    => nrel_main_idtf: [runway protection lights] (* <- lang_en;; *);
+    => nrel_main_idtf: [огни защиты взлетно-посадочной полосы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агні абароны ўзлётна-пасадачнай паласы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_runway_protection_lights_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_runway_unequipped;
+    => nrel_associative_connection: by_fire_switching_time;
+    => nrel_associative_connection: by_independent_parallel_takeoffs;
+    => nrel_associative_connection: by_failure_of_fire;
+
+    => nrel_etalon_online_idx: [41085];;

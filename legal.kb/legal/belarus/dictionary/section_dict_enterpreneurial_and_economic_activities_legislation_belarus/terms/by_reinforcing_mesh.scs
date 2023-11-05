@@ -1,0 +1,29 @@
+
+by_reinforcing_mesh
+    => nrel_main_idtf: [reinforcing mesh] (* <- lang_en;; *);
+    => nrel_main_idtf: [армирующая сетка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арміруючая сетка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reinforcing_mesh_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_structure_with_mixed_reinforcement;
+    => nrel_associative_connection: by_fastening_element;
+    => nrel_associative_connection: by_layer_reinforced;
+    => nrel_associative_connection: by_outer_layer;
+    => nrel_associative_connection: by_thermal_insulating_layer;
+
+    => nrel_etalon_online_idx: [35623];;

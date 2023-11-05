@@ -1,0 +1,29 @@
+
+by_instruction_for_the_protection_of_labor
+    => nrel_main_idtf: [instruction for the protection of labor] (* <- lang_en;; *);
+    => nrel_main_idtf: [инструктаж по охране труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інструктаж па ахове працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instruction_for_the_protection_of_labor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_organization__administrative_documents;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_work_site;
+    => nrel_associative_connection: by_testing_knowledge_on_occupational_safety_and_health_issues;
+    => nrel_associative_connection: by_system_of_labor_safety_standards;
+
+    => nrel_etalon_online_idx: [5904];;

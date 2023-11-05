@@ -1,0 +1,33 @@
+
+by_automated_system_of_control_and_accounting_of_electric_power
+    => nrel_main_idtf: [automated system of control and accounting of electric power] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматизированная система контроля и учета электроэнергии (аскуэ)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматызаваная сістэма кантролю і ўліку электраэнергіі (аскуэ)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automated_system_of_control_and_accounting_of_electric_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscriber;
+    => nrel_associative_connection: by_consumer_of_an_energy_supply_organization;
+    => nrel_associative_connection: by_automated_system;
+    => nrel_associative_connection: by_automated_system_for_monitoring_and_record_keeping_of_electrical_energy_power;
+    => nrel_associative_connection: by_power_permitted_to_use;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_tool_for_group_calculation_of_electric_energy_power;
+    => nrel_associative_connection: by_technical_means;
+    => nrel_associative_connection: by_energy_supply_organization;
+
+    => nrel_etalon_online_idx: [12297];;

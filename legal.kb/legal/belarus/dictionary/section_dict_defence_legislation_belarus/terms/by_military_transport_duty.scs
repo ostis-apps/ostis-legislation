@@ -1,0 +1,29 @@
+
+by_military_transport_duty
+    => nrel_main_idtf: [military transport duty] (* <- lang_en;; *);
+    => nrel_main_idtf: [военно-транспортная обязанность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенна-транспартны абавязак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_transport_duty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_martial_law;
+    => nrel_associative_connection: by_mobilization_training;
+    => nrel_associative_connection: by_mobilisation;
+    => nrel_associative_connection: by_provision_of_vehicles;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [8684];;

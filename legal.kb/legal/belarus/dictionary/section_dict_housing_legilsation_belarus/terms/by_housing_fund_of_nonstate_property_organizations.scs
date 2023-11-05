@@ -1,0 +1,31 @@
+
+by_housing_fund_of_nonstate_property_organizations
+    => nrel_main_idtf: [housing fund of non-state property organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилищный фонд организаций негосударственной формы собственности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллёвы фонд арганізацый недзяржаўнай формы ўласнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_fund_of_nonstate_property_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_departmental_housing_fund;
+    => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_housing_fund_of_statefinanced_organization;
+    => nrel_associative_connection: by_citizens_housing_fund;
+    => nrel_associative_connection: by_communal_housing_fund;
+    => nrel_associative_connection: by_republican_housing_fund;
+    => nrel_associative_connection: by_operating_housing_fund_of_citizens;
+
+    => nrel_etalon_online_idx: [14673];;

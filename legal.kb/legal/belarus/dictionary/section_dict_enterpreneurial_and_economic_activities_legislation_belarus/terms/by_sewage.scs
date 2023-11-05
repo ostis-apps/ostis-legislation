@@ -1,0 +1,69 @@
+
+by_sewage
+    => nrel_main_idtf: [sewage] (* <- lang_en;; *);
+    => nrel_main_idtf: [канализация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каналізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sewage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sewage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sewage_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_atmospheric_wastewater;
+    => nrel_associative_connection: by_watersupply_network_watersupply_constructions;
+    => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_engineering_systems;
+    => nrel_associative_connection: by_sewage_network_sewage;
+    => nrel_associative_connection: by_sewer_pipe;
+    => nrel_associative_connection: by_inspection_well;
+    => nrel_associative_connection: by_objects_of_engineering_and_transport_infrastructure;
+    => nrel_associative_connection: by_damage_in_the_water_supply_drainage_sewerage_system;
+    => nrel_associative_connection: by_connection_to_centralized_water_supply_systems_and_or_water_disposal_sewage;
+    => nrel_associative_connection: by_industrial_wastewater_of_the_subscriber_subscriber_discharged_to_the_centralized_water_disposal_sewer_systems;
+    => nrel_associative_connection: by_sewerage_street_distribution_network;
+    => nrel_associative_connection: by_discharging_of_wastewater_by_owners_of_public_and_departmental_sewerage_discharges_from_the_population;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_centralized_water_disposal_sewer;
+
+    => nrel_etalon_online_idx: [9222];;

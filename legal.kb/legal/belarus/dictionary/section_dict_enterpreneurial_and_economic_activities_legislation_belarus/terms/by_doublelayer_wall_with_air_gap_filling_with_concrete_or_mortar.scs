@@ -1,0 +1,32 @@
+
+by_doublelayer_wall_with_air_gap_filling_with_concrete_or_mortar
+    => nrel_main_idtf: [double-layer wall with air gap filling with concrete or mortar] (* <- lang_en;; *);
+    => nrel_main_idtf: [двухслойная стена с заполнением воздушного зазора бетоном или раствором] (* <- lang_ru;; *);
+    => nrel_main_idtf: [двухслойная сцяна з запаўненнем паветранага зазору бетонам або растворам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doublelayer_wall_with_air_gap_filling_with_concrete_or_mortar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_concrete_fpor_the_filling_concrete;
+    => nrel_associative_connection: by_doublelayer_wall_without_air_gap;
+    => nrel_associative_connection: by_doublelayer_wall_with_air_gap;
+    => nrel_associative_connection: by_doublelayer_wall_with_facing_layer;
+    => nrel_associative_connection: by_masonry_mortar;
+    => nrel_associative_connection: by_singlelayer_wall;
+    => nrel_associative_connection: by_singlelayer_wall_with_facing_layer;
+    => nrel_associative_connection: by_wall;
+
+    => nrel_etalon_online_idx: [38040];;

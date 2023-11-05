@@ -1,0 +1,82 @@
+
+by_insurers
+    => nrel_main_idtf: [insurers] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховщики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхоўшчыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurers_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurers_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurers_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_redemption_sum;
+    => nrel_associative_connection: by_state_insurance_organizations__insurance_organizations;
+    => nrel_associative_connection: by_adhesion_agreement_in_insurance_sphere;
+    => nrel_associative_connection: by_income_on_insurance_activity;
+    => nrel_associative_connection: by_insured_persons;
+    => nrel_associative_connection: by_association_of_insurers;
+    => nrel_associative_connection: by_reinsurance_premium;
+    => nrel_associative_connection: by_the_amount_of_monthly_remuneration_to_the_insurance_agent;
+    => nrel_associative_connection: by_expenses_of_insurance_activity;
+    => nrel_associative_connection: by_provision_for_occurred_but_undeclared_losses;
+    => nrel_associative_connection: by_own_funds_of_the_property_owner_founders_participants_of_the_insurer_insurance_broker;
+    => nrel_associative_connection: by_insurance_term;
+    => nrel_associative_connection: by_subrogation;
+
+    => nrel_etalon_online_idx: [24339];;

@@ -1,0 +1,37 @@
+
+by_state_registration_of_real_estate
+    => nrel_main_idtf: [state registration of real estate] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная регистрация недвижимого имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная рэгістрацыя нерухомай маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registration_of_real_estate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registration;
+    => nrel_associative_connection: by_state_registration_of_right_limitations_ecumbrances_to_real_estate_right;
+    => nrel_associative_connection: by_records_on_registered_transactions_with_real_estate;
+    => nrel_associative_connection: by_records_about_other_registered_or_included_in_the_unified_state_register_of_real_estate_rights_to_it_and_transactions_with_it_in_accordance_with_the_legislative_acts_rights_limitations_ecumbrances_on_real_estate_rights;
+    => nrel_associative_connection: by_record_of_registered_real_estate;
+    => nrel_associative_connection: by_record_of_registered_property_right_to_real_estate;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_lack_of_military_personnel_and_civil_personnel_in_ownership_and_use_of_residential_premises;
+    => nrel_associative_connection: by_lack_of_citizens_in_ownership_and_use_of_residential_premises;
+    => nrel_associative_connection: by_lack_of_employees_in_the_possession_and_use_of_residential_premises;
+    => nrel_associative_connection: by_passport_of_the_unused_object;
+    => nrel_associative_connection: by_registration_district;
+    => nrel_associative_connection: by_registration_area;
+
+    => nrel_etalon_online_idx: [8747];;

@@ -1,0 +1,27 @@
+
+by_by_operations
+    => nrel_main_idtf: [by_operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [операционная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыйная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_non_cash_transactions;
+    => nrel_associative_connection: by_financial_activities;
+
+    => nrel_etalon_online_idx: [43507];;

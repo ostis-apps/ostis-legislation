@@ -1,0 +1,32 @@
+
+by_helminthosis
+    => nrel_main_idtf: [helminthosis] (* <- lang_en;; *);
+    => nrel_main_idtf: [гельминтозы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гельмінтозы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_helminthosis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anemia;
+    => nrel_associative_connection: by_doctor_parasitologist;
+    => nrel_associative_connection: by_helminths;
+    => nrel_associative_connection: by_helminthic_infestations_helminthiasis;
+    => nrel_associative_connection: by_jaundice_hyperbilirubinemia;
+    => nrel_associative_connection: by_parasitic_diseases;
+    => nrel_associative_connection: by_parasitism;
+    => nrel_associative_connection: by_parasitology;
+
+    => nrel_etalon_online_idx: [33718];;

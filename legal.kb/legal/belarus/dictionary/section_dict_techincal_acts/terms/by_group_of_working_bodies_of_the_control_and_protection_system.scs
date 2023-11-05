@@ -1,0 +1,27 @@
+
+by_group_of_working_bodies_of_the_control_and_protection_system
+    => nrel_main_idtf: [group of working bodies of the control and protection system] (* <- lang_en;; *);
+    => nrel_main_idtf: [группа рабочих органов системы управления и защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [група рабочых органаў сістэмы кіравання і абароны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_group_of_working_bodies_of_the_control_and_protection_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_control_and_protection_system_actuator;
+    => nrel_associative_connection: by_working_body_of_the_control_and_protection_system;
+    => nrel_associative_connection: by_control_and_protection_system;
+
+    => nrel_etalon_online_idx: [38514];;

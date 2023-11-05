@@ -1,0 +1,29 @@
+
+by_radiation_incident
+    => nrel_main_idtf: [radiation incident] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиационный инцидент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыяцыйны інцыдэнт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiation_incident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_enclosed_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_incident;
+    => nrel_associative_connection: by_radiation_hygienic_monitoring;
+    => nrel_associative_connection: by_radiation_object;
+    => nrel_associative_connection: by_radioactive_waste;
+
+    => nrel_etalon_online_idx: [36742];;

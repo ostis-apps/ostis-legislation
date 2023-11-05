@@ -1,0 +1,34 @@
+
+by_leveling_network
+    => nrel_main_idtf: [leveling network] (* <- lang_en;; *);
+    => nrel_main_idtf: [нивелирная сеть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нівелірная сетка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leveling_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_actual_state_of_the_geodesic_nurvine_or_gravimetric_network;
+    => nrel_associative_connection: by_geodetic_network;
+    => nrel_associative_connection: by_geodesic_and_nevelir_networks_concentration;
+    => nrel_associative_connection: by_geodesy;
+    => nrel_associative_connection: by_main_height_base;
+    => nrel_associative_connection: by_state_geodetic_network;
+    => nrel_associative_connection: by_state_geodesic_network_state_nevelir_network_state_gravymetric_network;
+    => nrel_associative_connection: by_catalogue_of_heights_of_leveling_points;
+    => nrel_associative_connection: by_leveling_point;
+    => nrel_associative_connection: by_special_geodetic_network_special_leveling_network_special_gravimetric_network;
+
+    => nrel_etalon_online_idx: [18198];;

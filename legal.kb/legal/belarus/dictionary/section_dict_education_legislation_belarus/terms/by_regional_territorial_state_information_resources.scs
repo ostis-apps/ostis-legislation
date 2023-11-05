@@ -1,0 +1,32 @@
+
+by_regional_territorial_state_information_resources
+    => nrel_main_idtf: [regional (territorial) state information resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [региональные (территориальные) государственные информационные ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіянальныя (тэрытарыяльныя) дзяржаўныя інфармацыйныя рэсурсы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regional_territorial_state_information_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_state_information_recourses;
+    => nrel_associative_connection: by_owner_of_information_resource_placed_in_a_global_computer_network_internet_information_resources;
+    => nrel_associative_connection: by_state_register_of_information_resources;
+    => nrel_associative_connection: by_integration_of_governmental_information_resources;
+    => nrel_associative_connection: by_national_automated_information_system;
+    => nrel_associative_connection: by_republican_state_information_resources;
+    => nrel_associative_connection: by_republican_databank;
+    => nrel_associative_connection: by_republican_databank_of_adoption_of_orphanced_children_and_children_without_parental_care;
+
+    => nrel_etalon_online_idx: [22298];;

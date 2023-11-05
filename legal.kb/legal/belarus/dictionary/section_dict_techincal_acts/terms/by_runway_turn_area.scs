@@ -1,0 +1,25 @@
+
+by_runway_turn_area
+    => nrel_main_idtf: [runway turn area] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадка разворота на взлетно-посадочной полосе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пляцоўка размаху на ўзлётна-пасадачнай паласе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_runway_turn_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_runway_waiting_point;
+
+    => nrel_etalon_online_idx: [41101];;

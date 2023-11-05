@@ -1,0 +1,28 @@
+
+by_cargo_vehicle_of_general_purpose
+    => nrel_main_idtf: [cargo vehicle of general purpose] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовое транспортное средство общего назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавы транспартны сродак агульнага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_vehicle_of_general_purpose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_specialized_cargo_vehicle;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [13883];;

@@ -1,0 +1,39 @@
+
+by_exchange_trade_participant
+    => nrel_main_idtf: [exchange trade participant] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник биржевой торговли] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік біржавога гандлю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exchange_trade_participant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_charge;
+    => nrel_associative_connection: by_brokerage_activity;
+    => nrel_associative_connection: by_time_of_submission_of_applications_for_participation_in_direct_sale;
+    => nrel_associative_connection: by_application_for_monetary_funds_placement;
+    => nrel_associative_connection: by_visitor_of_stock_exchange_trading_sessions;
+    => nrel_associative_connection: by_professional_and_exchange_activity_on_securities;
+    => nrel_associative_connection: by_trade_subjects;
+    => nrel_associative_connection: by_trade_session;
+    => nrel_associative_connection: by_trade_account_of_the_exchange;
+    => nrel_associative_connection: by_trade_account_of_the_bidder;
+    => nrel_associative_connection: by_authorized_employee_of_the_exchange;
+    => nrel_associative_connection: by_ransom_participant;
+    => nrel_associative_connection: by_futures_contract;
+    => nrel_associative_connection: by_futures_contract;
+    => nrel_associative_connection: by_member_of_the_stock_market_section;
+
+    => nrel_etalon_online_idx: [25738];;

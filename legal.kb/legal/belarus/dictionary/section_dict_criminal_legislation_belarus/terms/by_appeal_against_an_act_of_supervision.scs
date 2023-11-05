@@ -1,0 +1,28 @@
+
+by_appeal_against_an_act_of_supervision
+    => nrel_main_idtf: [appeal against an act of supervision] (* <- lang_en;; *);
+    => nrel_main_idtf: [протест в порядке надзора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пратэст у парадку нагляду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_appeal_against_an_act_of_supervision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_prosecutor;
+    => nrel_associative_connection: by_protest;
+    => nrel_associative_connection: by_court_with_supervisory_authority;
+    => nrel_associative_connection: by_prosecutors_protest_against_incidental_decisions;
+
+    => nrel_etalon_online_idx: [827];;

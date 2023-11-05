@@ -1,0 +1,33 @@
+
+by_commanders_of_military_installations
+    => nrel_main_idtf: [commanders of military installations] (* <- lang_en;; *);
+    => nrel_main_idtf: [командиры воинских частей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камандзіры воінскіх часцей] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commanders_of_military_installations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_unit;
+    => nrel_associative_connection: by_military_units;
+    => nrel_associative_connection: by_commanders;
+    => nrel_associative_connection: by_commanders_heads;
+    => nrel_associative_connection: by_junior_commanders;
+    => nrel_associative_connection: by_illegal_behavior_of_a_serviceman;
+
+    => nrel_etalon_online_idx: [15990];;

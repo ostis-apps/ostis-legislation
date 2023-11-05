@@ -1,0 +1,53 @@
+
+by_audited_subject
+    => nrel_main_idtf: [audited subject] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудируемый субъект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдзіруемы суб'ект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audited_subject_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audited_subject_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audited_bank_head_organization_of_bank_group_and_or_banking_holding;
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_customer_of_sanitary_and_epidemiological_audit;
+    => nrel_associative_connection: by_customers__of_audit;
+    => nrel_associative_connection: by_management_statement_of_the_audited_entity;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_information_on_the_reporting_segments_of_the_accounting_financial_reporting_of_the_auditee;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_organization_implementing_sanitary_and_epidemiological_audit;
+    => nrel_associative_connection: by_full_environmental_audit;
+    => nrel_associative_connection: by_preliminary_environmental_audit;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_management_of_the_audited_entity;
+    => nrel_associative_connection: by_physical_person;
+
+    => nrel_etalon_online_idx: [12564];;

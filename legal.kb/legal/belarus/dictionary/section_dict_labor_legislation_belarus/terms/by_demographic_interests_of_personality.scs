@@ -1,0 +1,30 @@
+
+by_demographic_interests_of_personality
+    => nrel_main_idtf: [demographic interests of personality] (* <- lang_en;; *);
+    => nrel_main_idtf: [демографические интересы личности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэмаграфічныя інтарэсы асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_demographic_interests_of_personality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_demographic_security;
+    => nrel_associative_connection: by_demographic_policy;
+    => nrel_associative_connection: by_demographic_interests_of_the_state_and_society;
+    => nrel_associative_connection: by_demographic_threats;
+    => nrel_associative_connection: by_national_demographic_interests;
+    => nrel_associative_connection: by_main_sociodemographic_groups_of_population;
+
+    => nrel_etalon_online_idx: [14044];;

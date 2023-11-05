@@ -1,0 +1,31 @@
+
+by_requirements_for_industrial_safety
+    => nrel_main_idtf: [requirements for industrial safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [требования промышленной безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патрабаванні прамысловай бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_requirements_for_industrial_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_open_work_method;
+    => nrel_associative_connection: by_training_of_employees_of_the_industrial_safety_subject_on_industrial_safety_issues;
+    => nrel_associative_connection: by_industrial_safety_regulations;
+    => nrel_associative_connection: by_testing_knowledge_on_industrial_safety_issues;
+    => nrel_associative_connection: by_industrial_safety;
+    => nrel_associative_connection: by_employees_of_the_subject_of_industrial_safety;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+
+    => nrel_etalon_online_idx: [10041];;

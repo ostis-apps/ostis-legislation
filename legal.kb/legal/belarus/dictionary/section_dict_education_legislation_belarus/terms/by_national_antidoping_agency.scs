@@ -1,0 +1,31 @@
+
+by_national_antidoping_agency
+    => nrel_main_idtf: [national anti-doping agency] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальное антидопинговое агентство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальнае антыдопінгавае агенцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_antidoping_agency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antidoping_laboratory;
+    => nrel_associative_connection: by_drug_test;
+    => nrel_associative_connection: by_explanations;
+    => nrel_associative_connection: by_systematic_gross_antidoping_rules_violation;
+    => nrel_associative_connection: by_sport_disqualification;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_authorized_person_of_the_institution_national_antidoping_agency;
+
+    => nrel_etalon_online_idx: [9462];;

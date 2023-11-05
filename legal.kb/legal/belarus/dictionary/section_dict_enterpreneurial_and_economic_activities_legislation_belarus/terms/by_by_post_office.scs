@@ -1,0 +1,38 @@
+
+by_by_post_office
+    => nrel_main_idtf: [by_post_office] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт паштовай сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_post_office_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payment_of_pensions_and_allowances_through_the_objects_of_postal_service;
+    => nrel_associative_connection: by_information_technology_postal_system;
+    => nrel_associative_connection: by_marked_postcard;
+    => nrel_associative_connection: by_national_operator_of_mail_services;
+    => nrel_associative_connection: by_postal_communication_object;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_postal_communication_operator;
+    => nrel_associative_connection: by_postal_communication_organization;
+    => nrel_associative_connection: by_postal_office;
+    => nrel_associative_connection: by_mobile_postal_office;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_collective_use_point;
+    => nrel_associative_connection: by_postal_communication_network;
+    => nrel_associative_connection: by_remote_control_point_for_system_of_technical_facilities_to_provide_operational_and_search_measures_in_postal_networks;
+
+    => nrel_etalon_online_idx: [21854];;

@@ -1,0 +1,32 @@
+
+by_by_rundist
+    => nrel_main_idtf: [by_rundist] (* <- lang_en;; *);
+    => nrel_main_idtf: [рундист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рундыст] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_rundist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_diamond_quality_certificate;
+    => nrel_associative_connection: by_certified_brilliant;
+    => nrel_associative_connection: by_diamond;
+    => nrel_associative_connection: by_precious_stones;
+    => nrel_associative_connection: by_caletta;
+    => nrel_associative_connection: by_crown;
+    => nrel_associative_connection: by_evaluation_of_precious_stones;
+    => nrel_associative_connection: by_brilliant_cut_form;
+
+    => nrel_etalon_online_idx: [22736];;

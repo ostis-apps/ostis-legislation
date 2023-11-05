@@ -1,0 +1,31 @@
+
+by_by_taxi_cost
+    => nrel_main_idtf: [by_taxi_cost] (* <- lang_en;; *);
+    => nrel_main_idtf: [таксовая стоимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таксавы кошт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_taxi_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_method_of_forests_taxation;
+    => nrel_associative_connection: by_selectivelymeasuring_or_selectivelyenumeration_method_of_forests_taxation;
+    => nrel_associative_connection: by_ocular_visual_method_of_forests_taxation;
+    => nrel_associative_connection: by_release_of_wood_at_the_root;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_forest_taxation;
+    => nrel_associative_connection: by_estimate_of_the_felling_area;
+
+    => nrel_etalon_online_idx: [24616];;

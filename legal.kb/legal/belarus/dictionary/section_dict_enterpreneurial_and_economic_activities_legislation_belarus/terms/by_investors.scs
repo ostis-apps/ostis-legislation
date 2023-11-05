@@ -1,0 +1,32 @@
+
+by_investors
+    => nrel_main_idtf: [investors] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвесторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвестары] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_investor;
+    => nrel_associative_connection: by_debt_for_goods_works_organization_services_of_direct_investment_to_direct_investor;
+    => nrel_associative_connection: by_debt_for_goods_works_services_of_direct_investor_to_organization_of_direct_investment;
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_investor;
+    => nrel_associative_connection: by_foreign_investors;
+    => nrel_associative_connection: by_legal_personsinvestors;
+
+    => nrel_etalon_online_idx: [15239];;

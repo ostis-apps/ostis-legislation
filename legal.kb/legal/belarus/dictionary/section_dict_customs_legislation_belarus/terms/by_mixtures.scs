@@ -1,0 +1,44 @@
+
+by_mixtures
+    => nrel_main_idtf: [mixtures] (* <- lang_en;; *);
+    => nrel_main_idtf: [смеси] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сумесі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mixtures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mixtures_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explosive_mixture;
+    => nrel_associative_connection: by_gasair_mixture;
+    => nrel_associative_connection: by_coating_process;
+    => nrel_associative_connection: by_mixing_and_charging_machine;
+    => nrel_associative_connection: by_mix_of_explosives;
+
+    => nrel_etalon_online_idx: [23385];;

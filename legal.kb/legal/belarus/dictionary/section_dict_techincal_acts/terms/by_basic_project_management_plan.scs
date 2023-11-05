@@ -1,0 +1,32 @@
+
+by_basic_project_management_plan
+    => nrel_main_idtf: [basic project management plan] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый план управления проектом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы план кіравання праектам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_project_management_plan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architecturalplanning_concept;
+    => nrel_associative_connection: by_business_plan;
+    => nrel_associative_connection: by_projects_budget;
+    => nrel_associative_connection: by_general_project_management_diagram;
+    => nrel_associative_connection: by_assumption;
+    => nrel_associative_connection: by_control_event_of_project;
+    => nrel_associative_connection: by_project_management_plan;
+    => nrel_associative_connection: by_projects_management_process;
+
+    => nrel_etalon_online_idx: [33088];;

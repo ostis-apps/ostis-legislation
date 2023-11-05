@@ -1,0 +1,30 @@
+
+by_visual_information
+    => nrel_main_idtf: [visual information] (* <- lang_en;; *);
+    => nrel_main_idtf: [визуальная информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [візуальная інфармацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visual_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audiovisual_information;
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_visual_media;
+    => nrel_associative_connection: by_sound_media;
+    => nrel_associative_connection: by_means_of_information;
+    => nrel_associative_connection: by_universal_information_plate_with_braille_reliefdotted_font;
+
+    => nrel_etalon_online_idx: [41562];;

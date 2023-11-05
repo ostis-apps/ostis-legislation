@@ -1,0 +1,27 @@
+
+by_claim
+    => nrel_main_idtf: [claim] (* <- lang_en;; *);
+    => nrel_main_idtf: [претензия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прэтэнзія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_claim_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_pretrial_proceeding;
+    => nrel_associative_connection: by_complaint;
+    => nrel_associative_connection: by_application_form;
+
+    => nrel_etalon_online_idx: [28724];;

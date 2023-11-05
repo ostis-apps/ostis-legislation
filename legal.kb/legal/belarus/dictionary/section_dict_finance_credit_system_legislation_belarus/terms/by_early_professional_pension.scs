@@ -1,0 +1,29 @@
+
+by_early_professional_pension
+    => nrel_main_idtf: [early professional pension] (* <- lang_en;; *);
+    => nrel_main_idtf: [досрочная профессиональная пенсия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [датэрміновая прафесійная пенсія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_early_professional_pension_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_occupational_pension;
+    => nrel_associative_connection: by_early_period;
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_occupational_pension;
+    => nrel_associative_connection: by_occupational_pension_insurance;
+
+    => nrel_etalon_online_idx: [1474];;

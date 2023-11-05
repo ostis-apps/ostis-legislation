@@ -1,0 +1,139 @@
+
+by_cargoes_carriage
+    => nrel_main_idtf: [cargoes carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [перевозка грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перавозка грузаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargoes_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargoes_carriage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automotive_transportation;
+    => nrel_associative_connection: by_automotive_transportation_for_own_needs;
+    => nrel_associative_connection: by_automobile_vehicle_av;
+    => nrel_associative_connection: by_road_transportation_in_irregular_traffic;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_nonregular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_ordinary_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_the_speed_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_the_express_regular_communication;
+    => nrel_associative_connection: by_automotive_vehicles;
+    => nrel_associative_connection: by_adsorbed_gas;
+    => nrel_associative_connection: by_big_container;
+    => nrel_associative_connection: by_railroad_freight_cars;
+    => nrel_associative_connection: by_vacuumoperated_waste_tank;
+    => nrel_associative_connection: by_veterinary_certificate;
+    => nrel_associative_connection: by_internal_air_carriage_of_cargoes;
+    => nrel_associative_connection: by_internal_republican_railway_communication;
+    => nrel_associative_connection: by_intrastation_carriages;
+    => nrel_associative_connection: by_aerial_transportation;
+    => nrel_associative_connection: by_railway_station;
+    => nrel_associative_connection: by_entrance_border_station;
+    => nrel_associative_connection: by_sample_of_basic_organizations_implementing_transport_of_cargo;
+    => nrel_associative_connection: by_sample_of_carried_goods;
+    => nrel_associative_connection: by_border_exit_station;
+    => nrel_associative_connection: by_urban_road_carriage_of_goods;
+    => nrel_associative_connection: by_cargo_speed;
+    => nrel_associative_connection: by_vehicle_capacity;
+    => nrel_associative_connection: by_cargo_place;
+    => nrel_associative_connection: by_freight_hauling_direction;
+    => nrel_associative_connection: by_cargo_space_above_deck_main_part;
+    => nrel_associative_connection: by_cargo_space_above_deck_additional_part;
+    => nrel_associative_connection: by_cargo_space_pumproom;
+    => nrel_associative_connection: by_cargo_vehicle;
+    => nrel_associative_connection: by_cargo_vehicle_of_general_purpose;
+    => nrel_associative_connection: by_truck;
+    => nrel_associative_connection: by_cargo_handling_terminal;
+    => nrel_associative_connection: by_cargo_terminal_cargo_railway_terminal;
+    => nrel_associative_connection: by_cargo_places_packaging;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargo_air_carriage_contract;
+    => nrel_associative_connection: by_contract_on_organization_of_carriage_of_goods_by_sea;
+    => nrel_associative_connection: by_contract_of_carriage;
+    => nrel_associative_connection: by_freight_agreement;
+    => nrel_associative_connection: by_tariff_index_for_cargoes_carriage;
+    => nrel_associative_connection: by_individual_tariff_index_for_cargo_transportation;
+    => nrel_associative_connection: by_cabotage_automotive_cargoes_carriage;
+    => nrel_associative_connection: by_bill_of_lading;
+    => nrel_associative_connection: by_container_train;
+    => nrel_associative_connection: by_container_terminal;
+    => nrel_associative_connection: by_containers_for_mass_cargoes;
+    => nrel_associative_connection: by_tank_boiler;
+    => nrel_associative_connection: by_cargo_bay;
+    => nrel_associative_connection: by_manipulation_signs;
+    => nrel_associative_connection: by_international_air_carriage_of_cargoes;
+    => nrel_associative_connection: by_multielement_gas_container;
+    => nrel_associative_connection: by_shipping;
+    => nrel_associative_connection: by_un_list_number;
+    => nrel_associative_connection: by_operator_of_wagons_containers;
+    => nrel_associative_connection: by_operator_of_tank_containers;
+    => nrel_associative_connection: by_senders;
+    => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_shipment;
+    => nrel_associative_connection: by_package_transport;
+    => nrel_associative_connection: by_lightening;
+    => nrel_associative_connection: by_readdressing;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_shipping_by_inland_water_transport_of_general_use;
+    => nrel_associative_connection: by_shipping_by_vehicles_of_general_use;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_public_transport_carriage;
+    => nrel_associative_connection: by_carriage_documents;
+    => nrel_associative_connection: by_transportation_process;
+    => nrel_associative_connection: by_carrier;
+    => nrel_associative_connection: by_pneumatic_transport;
+    => nrel_associative_connection: by_pan;
+    => nrel_associative_connection: by_trailer;
+    => nrel_associative_connection: by_carriage_charge_for_carriage;
+    => nrel_associative_connection: by_carriage_charges;
+    => nrel_associative_connection: by_direct_multimodal_transport;
+    => nrel_associative_connection: by_permission_for_the_traffic_of_vehicles_registered_in_the_republic_of_belarus_on_the_territory_of_foreign_states_in_the_performance_of_international_road_cargo_transportation;
+    => nrel_associative_connection: by_delivery_of_transportation_documents;
+    => nrel_associative_connection: by_sectionkilometer;
+    => nrel_associative_connection: by_sectionhour;
+    => nrel_associative_connection: by_freezing_cargoes;
+    => nrel_associative_connection: by_combined_service;
+    => nrel_associative_connection: by_special_conditions;
+    => nrel_associative_connection: by_cargo_packaging_tool;
+    => nrel_associative_connection: by_station_of_destination;
+    => nrel_associative_connection: by_departure_station;
+    => nrel_associative_connection: by_emergency_container;
+    => nrel_associative_connection: by_tariff_for_transport_service;
+    => nrel_associative_connection: by_transport_activities;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_forwarding_activities;
+    => nrel_associative_connection: by_forwarding_services;
+    => nrel_associative_connection: by_transport_package;
+    => nrel_associative_connection: by_loss_of_goods;
+
+    => nrel_etalon_online_idx: [3058];;

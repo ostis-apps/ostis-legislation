@@ -1,0 +1,31 @@
+
+by_state_town_planning_registry_of_the_republic_of_belarus
+    => nrel_main_idtf: [state town planning registry of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный градостроительный кадастр республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны горадабудаўнічы кадастр рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_town_planning_registry_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architectural_activity;
+    => nrel_associative_connection: by_type_of_construction_works;
+    => nrel_associative_connection: by_townplanning_activity;
+    => nrel_associative_connection: by_urban_development_project_urban_development_documentation;
+    => nrel_associative_connection: by_urban_development_project_of_general_planning;
+    => nrel_associative_connection: by_urban_development_regulation_regulation_of_urban_development_and_use_of_territories;
+    => nrel_associative_connection: by_construction_activities_construction;
+
+    => nrel_etalon_online_idx: [13718];;

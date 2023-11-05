@@ -1,0 +1,44 @@
+
+by_insurance_agent
+    => nrel_main_idtf: [insurance agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховой агент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавы агент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_agent_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intermediary_activity;
+    => nrel_associative_connection: by_intermediary_insurance_activity;
+    => nrel_associative_connection: by_the_amount_of_monthly_remuneration_to_the_insurance_agent;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_activity;
+
+    => nrel_etalon_online_idx: [6966];;

@@ -1,0 +1,32 @@
+
+by_drainage_and_humidifying_system
+    => nrel_main_idtf: [drainage and humidifying system] (* <- lang_en;; *);
+    => nrel_main_idtf: [осушительно-увлажнительная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асушальна-увільгатняльная сістэма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drainage_and_humidifying_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_melioration_system;
+    => nrel_associative_connection: by_meliorative_condition_of_lands;
+    => nrel_associative_connection: by_meliorative_events;
+    => nrel_associative_connection: by_land_melioration;
+    => nrel_associative_connection: by_drained_land_with_peat_soils;
+    => nrel_associative_connection: by_drainage_system;
+    => nrel_associative_connection: by_drainage_and_irrigation_system;
+    => nrel_associative_connection: by_system;
+
+    => nrel_etalon_online_idx: [19457];;

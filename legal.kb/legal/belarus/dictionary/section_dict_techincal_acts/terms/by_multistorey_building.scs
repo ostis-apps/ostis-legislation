@@ -1,0 +1,25 @@
+
+by_multistorey_building
+    => nrel_main_idtf: [multi-storey building] (* <- lang_en;; *);
+    => nrel_main_idtf: [многоэтажное здание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шматпавярховы будынак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multistorey_building_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+
+    => nrel_etalon_online_idx: [37792];;

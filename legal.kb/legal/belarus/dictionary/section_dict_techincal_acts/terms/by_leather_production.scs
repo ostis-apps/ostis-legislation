@@ -1,0 +1,43 @@
+
+by_leather_production
+    => nrel_main_idtf: [leather production] (* <- lang_en;; *);
+    => nrel_main_idtf: [кожевенное производство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарбарная вытворчасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leather_production_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leather_production_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hides_and_skins;
+    => nrel_associative_connection: by_large_hides_and_skins;
+    => nrel_associative_connection: by_small_hides_and_skins;
+    => nrel_associative_connection: by_fur_production;
+
+    => nrel_etalon_online_idx: [33004];;

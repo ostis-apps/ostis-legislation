@@ -1,0 +1,55 @@
+
+by_insured_persons
+    => nrel_main_idtf: [insured persons] (* <- lang_en;; *);
+    => nrel_main_idtf: [застрахованные лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [застрахаваныя асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insured_persons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insured_persons_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_early_pension_period_of_the_insured_person;
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_property_conclusion_on_the_destruction_damage_of_property_belonging_to_the_insured_person_or_its_relatives_in_connection_with_perfomance_of_duties_of_military_service;
+    => nrel_associative_connection: by_individual_account_of_the_insured_person;
+    => nrel_associative_connection: by_payer_of_state_social_insurance_contributions;
+    => nrel_associative_connection: by_previous_activity_of_the_insured_person_before_dismissal;
+    => nrel_associative_connection: by_in_the_line_of_duty;
+    => nrel_associative_connection: by_direct_medical_consequences_of_an_insured_accident;
+    => nrel_associative_connection: by_employees_of_the_insured;
+    => nrel_associative_connection: by_registration_of_insured_person;
+    => nrel_associative_connection: by_repatriation_of_the_insured;
+    => nrel_associative_connection: by_insurance_certificate_of_state_social_insurance;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_insurers;
+    => nrel_associative_connection: by_natural_persons_independently_paying_obligatory_insurance_fees;
+    => nrel_associative_connection: by_family_members_of_the_insured_person;
+
+    => nrel_etalon_online_idx: [14885];;

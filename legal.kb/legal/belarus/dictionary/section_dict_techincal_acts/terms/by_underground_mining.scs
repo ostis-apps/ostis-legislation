@@ -1,0 +1,53 @@
+
+by_underground_mining
+    => nrel_main_idtf: [underground mining] (* <- lang_en;; *);
+    => nrel_main_idtf: [подземные горные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падземныя горныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_underground_mining_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_underground_mining_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_vertical_mining;
+    => nrel_associative_connection: by_horizontal_mining;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_mining_organization;
+    => nrel_associative_connection: by_mining_enterprise;
+    => nrel_associative_connection: by_mining_engineering_operation;
+    => nrel_associative_connection: by_rocks;
+    => nrel_associative_connection: by_mining_operations;
+    => nrel_associative_connection: by_calotte;
+    => nrel_associative_connection: by_markshader_works;
+    => nrel_associative_connection: by_open_work_method;
+    => nrel_associative_connection: by_project_of_work_production;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_tunnel;
+
+    => nrel_etalon_online_idx: [20370];;

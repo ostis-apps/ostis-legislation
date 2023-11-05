@@ -1,0 +1,29 @@
+
+by_international_marketing
+    => nrel_main_idtf: [international marketing] (* <- lang_en;; *);
+    => nrel_main_idtf: [международный маркетинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародны маркетынг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_marketing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marketing;
+    => nrel_associative_connection: by_organization_marketing;
+    => nrel_associative_connection: by_marketing_research;
+    => nrel_associative_connection: by_marketing_communications;
+    => nrel_associative_connection: by_marketing_events;
+
+    => nrel_etalon_online_idx: [40973];;

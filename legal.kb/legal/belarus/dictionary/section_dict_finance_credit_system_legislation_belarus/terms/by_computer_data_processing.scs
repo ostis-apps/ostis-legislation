@@ -1,0 +1,29 @@
+
+by_computer_data_processing
+    => nrel_main_idtf: [computer data processing] (* <- lang_en;; *);
+    => nrel_main_idtf: [компьютерная обработка данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камп'ютэрная апрацоўка даных] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_computer_data_processing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_computer_information;
+    => nrel_associative_connection: by_computer_program;
+    => nrel_associative_connection: by_information_processing_services;
+
+    => nrel_etalon_online_idx: [27988];;

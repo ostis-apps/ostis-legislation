@@ -1,0 +1,28 @@
+
+by_small_sheet
+    => nrel_main_idtf: [small sheet] (* <- lang_en;; *);
+    => nrel_main_idtf: [малый лист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малы ліст] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_sheet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_marks_of_postal_payments;
+    => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_postal_communication;
+
+    => nrel_etalon_online_idx: [16866];;

@@ -1,0 +1,26 @@
+
+by_supply_of_goods_for_production_cooperation
+    => nrel_main_idtf: [supply of goods for production cooperation] (* <- lang_en;; *);
+    => nrel_main_idtf: [поставки товаров по производственной кооперации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастаўкі тавараў па вытворчай кааперацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supply_of_goods_for_production_cooperation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_production_cooperation;
+    => nrel_associative_connection: by_production_cooperative_work_association;
+
+    => nrel_etalon_online_idx: [20745];;

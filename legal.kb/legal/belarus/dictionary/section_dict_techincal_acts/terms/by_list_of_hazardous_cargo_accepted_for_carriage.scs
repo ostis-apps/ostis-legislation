@@ -1,0 +1,37 @@
+
+by_list_of_hazardous_cargo_accepted_for_carriage
+    => nrel_main_idtf: [list of hazardous cargo accepted for carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [перечень опасных грузов, допущенных к перевозке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пералік небяспечных грузаў, дапушчаных да перавозкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_list_of_hazardous_cargo_accepted_for_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_classification_of_dangerous_cargos;
+    => nrel_associative_connection: by_dangerous_products_transportation;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_protection_of_hazardous_cargo;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_list_of_hazardous_cargo;
+    => nrel_associative_connection: by_registration_card_of_the_vehicle_used_in_the_carriage_of_hazardous_goods;
+    => nrel_associative_connection: by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods;
+    => nrel_associative_connection: by_summary_item;
+    => nrel_associative_connection: by_compressed_gas;
+    => nrel_associative_connection: by_high_pressure_liquefied_gas;
+    => nrel_associative_connection: by_low_pressure_liquefied_gas;
+    => nrel_associative_connection: by_support_of_dangerous_goods;
+
+    => nrel_etalon_online_idx: [20081];;

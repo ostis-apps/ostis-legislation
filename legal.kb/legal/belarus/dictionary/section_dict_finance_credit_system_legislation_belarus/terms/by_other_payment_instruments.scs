@@ -1,0 +1,31 @@
+
+by_other_payment_instruments
+    => nrel_main_idtf: [other payment instruments] (* <- lang_en;; *);
+    => nrel_main_idtf: [иные платежные инструменты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншыя плацежныя інструменты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_payment_instruments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payments_to_third_parties;
+    => nrel_associative_connection: by_payments_to_own_address;
+    => nrel_associative_connection: by_payment_document;
+    => nrel_associative_connection: by_payment_instrument;
+    => nrel_associative_connection: by_payment_instrument_that_ensures_the_use_of_the_card;
+    => nrel_associative_connection: by_payment_instrument_for_issuance_and_use_of_the_card;
+    => nrel_associative_connection: by_payment_service;
+
+    => nrel_etalon_online_idx: [41760];;

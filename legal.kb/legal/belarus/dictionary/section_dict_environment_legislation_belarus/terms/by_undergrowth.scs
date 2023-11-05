@@ -1,0 +1,66 @@
+
+by_undergrowth
+    => nrel_main_idtf: [undergrowth] (* <- lang_en;; *);
+    => nrel_main_idtf: [подрост] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрост] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_undergrowth_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_undergrowth_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_undergrowth_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_density_of_forest_plants;
+    => nrel_associative_connection: by_wood_species;
+    => nrel_associative_connection: by_tree_and_shrubbery_vegetation;
+    => nrel_associative_connection: by_stand;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_forest_resources;
+    => nrel_associative_connection: by_brush;
+    => nrel_associative_connection: by_undercanopy_forest_plants;
+    => nrel_associative_connection: by_main_breeds_undergrowth;
+
+    => nrel_etalon_online_idx: [20420];;

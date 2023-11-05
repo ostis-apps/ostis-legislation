@@ -1,0 +1,18 @@
+
+by_fire_chemical_stations_fcs
+    => nrel_main_idtf: [fire chemical stations (fcs)] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарно-химические станции (пхс)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарна-хімічныя станцыі (пхс)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_forest_fire;
+    => nrel_associative_connection: by_liquidation_of_the_forest_fire;
+    => nrel_associative_connection: by_firewarden;
+    => nrel_associative_connection: by_fire_safety_equipment;
+    => nrel_associative_connection: by_fire_teams;
+    => nrel_associative_connection: by_fire_car_of_combined_extinguishing;
+    => nrel_associative_connection: by_fire_car_of_powder_extinguishing;
+    => nrel_associative_connection: by_fire_extinction;
+
+    => nrel_etalon_online_idx: [20471];;

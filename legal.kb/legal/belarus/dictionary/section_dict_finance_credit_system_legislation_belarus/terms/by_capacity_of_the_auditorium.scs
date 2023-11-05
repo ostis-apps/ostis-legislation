@@ -1,0 +1,31 @@
+
+by_capacity_of_the_auditorium
+    => nrel_main_idtf: [capacity of the auditorium] (* <- lang_en;; *);
+    => nrel_main_idtf: [вместимость зрительного зала] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умяшчальнасць глядзельнай залы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_capacity_of_the_auditorium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balcony;
+    => nrel_associative_connection: by_goats;
+    => nrel_associative_connection: by_commercial_capacity_of_the_auditorium;
+    => nrel_associative_connection: by_lodge_in_the_auditorium;
+    => nrel_associative_connection: by_parterre;
+    => nrel_associative_connection: by_premises_of_the_audience_complex;
+    => nrel_associative_connection: by_own_auditorium;
+
+    => nrel_etalon_online_idx: [13065];;

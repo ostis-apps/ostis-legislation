@@ -1,0 +1,35 @@
+
+by_wartime
+    => nrel_main_idtf: [wartime] (* <- lang_en;; *);
+    => nrel_main_idtf: [военное время] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенны час] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wartime_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_war;
+    => nrel_associative_connection: by_internment;
+    => nrel_associative_connection: by_mobilization_training;
+    => nrel_associative_connection: by_beginning_of_wartime;
+    => nrel_associative_connection: by_end_of_military_time;
+    => nrel_associative_connection: by_blocking_the_attack_act_of_armed_aggression;
+    => nrel_associative_connection: by_in_the_postwar_period;
+    => nrel_associative_connection: by_principle_of_military_necessity;
+    => nrel_associative_connection: by_appendice_composition;
+    => nrel_associative_connection: by_state_of_war;
+
+    => nrel_etalon_online_idx: [1224];;

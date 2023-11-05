@@ -1,0 +1,30 @@
+
+by_information_on_the_activity_of_insurance_broker
+    => nrel_main_idtf: [information on the activity of insurance broker] (* <- lang_en;; *);
+    => nrel_main_idtf: [информация о деятельности страхового брокера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыя аб дзейнасці страхавога брокера] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_on_the_activity_of_insurance_broker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interested_users;
+    => nrel_associative_connection: by_information_on_activity;
+    => nrel_associative_connection: by_information_on_the_activity_of_insurance_company;
+    => nrel_associative_connection: by_intermediary_insurance_activity;
+    => nrel_associative_connection: by_expenses_of_insurance_activity;
+    => nrel_associative_connection: by_insurance_activity;
+
+    => nrel_etalon_online_idx: [10346];;

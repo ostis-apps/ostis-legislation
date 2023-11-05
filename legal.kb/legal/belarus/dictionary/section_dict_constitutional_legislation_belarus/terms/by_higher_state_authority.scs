@@ -1,0 +1,30 @@
+
+by_higher_state_authority
+    => nrel_main_idtf: [higher state authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [высший орган государственной власти] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышэйшы орган дзяржаўнай улады] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_higher_state_authority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_state_bodies_and_state_organizations;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_representatives_of_authorities;
+
+    => nrel_etalon_online_idx: [13416];;

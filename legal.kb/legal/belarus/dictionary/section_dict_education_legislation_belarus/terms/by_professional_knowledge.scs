@@ -1,0 +1,35 @@
+
+by_professional_knowledge
+    => nrel_main_idtf: [professional knowledge] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональные знания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесiйныя веды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_knowledge_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_professional_activity;
+    => nrel_associative_connection: by_holder_of_resolution_or_researcher;
+    => nrel_associative_connection: by_competition_of_professional_skill;
+    => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_professional_training;
+    => nrel_associative_connection: by_professional_education;
+    => nrel_associative_connection: by_professionalqualification_standard;
+    => nrel_associative_connection: by_professional_competences_by_professions_specialties;
+    => nrel_associative_connection: by_professional_selection;
+    => nrel_associative_connection: by_permit_for_the_right_to_carry_out_archaeological_research;
+    => nrel_associative_connection: by_sectoral_qualifications_framework;
+
+    => nrel_etalon_online_idx: [20961];;

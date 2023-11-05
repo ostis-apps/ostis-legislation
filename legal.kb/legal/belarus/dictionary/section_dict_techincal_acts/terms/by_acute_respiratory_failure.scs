@@ -1,0 +1,28 @@
+
+by_acute_respiratory_failure
+    => nrel_main_idtf: [acute respiratory failure] (* <- lang_en;; *);
+    => nrel_main_idtf: [острая дыхательная недостаточность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вострая дыхальная недастатковасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acute_respiratory_failure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_body_of_airways;
+    => nrel_associative_connection: by_artificial_lung_ventilation;
+    => nrel_associative_connection: by_maneuver_of_alveolus_opening_recruitment;
+    => nrel_associative_connection: by_excommunication_of_artificial_lung_ventilation;
+
+    => nrel_etalon_online_idx: [19446];;

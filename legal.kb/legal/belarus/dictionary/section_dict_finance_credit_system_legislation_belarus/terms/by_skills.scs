@@ -1,0 +1,41 @@
+
+by_skills
+    => nrel_main_idtf: [skills] (* <- lang_en;; *);
+    => nrel_main_idtf: [навыки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_skills_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_skills_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_descriptor;
+    => nrel_associative_connection: by_competence;
+
+    => nrel_etalon_online_idx: [11391];;

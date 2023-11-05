@@ -1,0 +1,26 @@
+
+by_by_transportation_of_industrial_explosives
+    => nrel_main_idtf: [by_transportation_of_industrial_explosives] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортирование промышленных взрывчатых веществ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартаванне прамысловых выбуховых рэчываў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_transportation_of_industrial_explosives_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explosive_composition_ec;
+    => nrel_associative_connection: by_loss_of_industrial_explosives;
+
+    => nrel_etalon_online_idx: [43415];;

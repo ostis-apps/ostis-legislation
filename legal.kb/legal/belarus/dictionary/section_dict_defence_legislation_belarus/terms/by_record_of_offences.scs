@@ -1,0 +1,30 @@
+
+by_record_of_offences
+    => nrel_main_idtf: [record of offences] (* <- lang_en;; *);
+    => nrel_main_idtf: [учет правонарушений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [улік правапарушэнняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_record_of_offences_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_state_system_of_offences_registration_and__record;
+    => nrel_associative_connection: by_unified_state_databank_on_offences;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+    => nrel_associative_connection: by_regional_databank_on_offences;
+    => nrel_associative_connection: by_registration_of_offences;
+
+    => nrel_etalon_online_idx: [11059];;

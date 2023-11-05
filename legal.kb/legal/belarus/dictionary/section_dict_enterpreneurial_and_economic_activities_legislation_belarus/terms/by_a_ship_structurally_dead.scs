@@ -1,0 +1,28 @@
+
+by_a_ship_structurally_dead
+    => nrel_main_idtf: [a ship structurally dead] (* <- lang_en;; *);
+    => nrel_main_idtf: [судно, конструктивно погибшее] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судна, канструктыўна загінуўшае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_a_ship_structurally_dead_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_lost_destroyed_vehicle;
+    => nrel_associative_connection: by_postdevelopment_characteristics;
+    => nrel_associative_connection: by_missing_vessel;
+
+    => nrel_etalon_online_idx: [24500];;

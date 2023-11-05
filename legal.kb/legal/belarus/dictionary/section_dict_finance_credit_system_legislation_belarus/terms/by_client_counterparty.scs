@@ -1,0 +1,16 @@
+
+by_client_counterparty
+    => nrel_main_idtf: [client (counterparty)] (* <- lang_en;; *);
+    => nrel_main_idtf: [клиент (контрагент)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кліент (контрагент)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_interconnected_claims_and_commitments;
+    => nrel_associative_connection: by_external_customers;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_counterparty;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+
+    => nrel_etalon_online_idx: [15920];;

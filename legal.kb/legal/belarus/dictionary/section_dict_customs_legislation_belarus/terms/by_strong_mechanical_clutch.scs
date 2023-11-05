@@ -1,0 +1,25 @@
+
+by_strong_mechanical_clutch
+    => nrel_main_idtf: [strong mechanical clutch] (* <- lang_en;; *);
+    => nrel_main_idtf: [прочное механическое сцепление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [моцнае механічнае счапленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_strong_mechanical_clutch_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_coating_process;
+
+    => nrel_etalon_online_idx: [21794];;

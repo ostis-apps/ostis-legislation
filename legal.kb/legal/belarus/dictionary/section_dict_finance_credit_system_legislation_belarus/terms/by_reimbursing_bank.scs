@@ -1,0 +1,32 @@
+
+by_reimbursing_bank
+    => nrel_main_idtf: [reimbursing bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [рамбурсирующий банк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамбурсіруючы банк] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reimbursing_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_collecting_bank;
+    => nrel_associative_connection: by_executing_bank;
+    => nrel_associative_connection: by_postfinancing;
+    => nrel_associative_connection: by_representing_bank;
+    => nrel_associative_connection: by_reimbursement;
+    => nrel_associative_connection: by_reimbursement_undertaking;
+    => nrel_associative_connection: by_reimbursement_requirement;
+    => nrel_associative_connection: by_ramburger_powers;
+
+    => nrel_etalon_online_idx: [22111];;

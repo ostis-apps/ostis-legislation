@@ -1,0 +1,30 @@
+
+by_by_actuator_moving_parts
+    => nrel_main_idtf: [by_actuator_moving_parts] (* <- lang_en;; *);
+    => nrel_main_idtf: [подвижные части исполнительного механизма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рухомыя часткі выканаўчага механізма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_actuator_moving_parts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_vibration_resistance;
+    => nrel_associative_connection: by_position_sensor;
+    => nrel_associative_connection: by_actuator_of_reactivity_influencing_bodies_actuator;
+    => nrel_associative_connection: by_complex_tests_of_executive_mechanism;
+    => nrel_associative_connection: by_limit_switch;
+    => nrel_associative_connection: by_authority_of_influence_on_reactivity;
+
+    => nrel_etalon_online_idx: [37732];;

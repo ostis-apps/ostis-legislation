@@ -1,0 +1,35 @@
+
+by_serviceability_serviceable_condition
+    => nrel_main_idtf: [serviceability (serviceable condition)] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправность (исправное состояние)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спраўнасць (спраўны стан)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_serviceability_serviceable_condition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unscheduled_maintenance_of_fire_automation;
+    => nrel_associative_connection: by_external_examination;
+    => nrel_associative_connection: by_technical_condition_control;
+    => nrel_associative_connection: by_inoperative_inoperative_state;
+    => nrel_associative_connection: by_maintenance_operation;
+    => nrel_associative_connection: by_maintenance_frequency;
+    => nrel_associative_connection: by_scheduled_maintenance_of_fire_automation;
+    => nrel_associative_connection: by_fire_automatic;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_technical_state;
+
+    => nrel_etalon_online_idx: [37839];;

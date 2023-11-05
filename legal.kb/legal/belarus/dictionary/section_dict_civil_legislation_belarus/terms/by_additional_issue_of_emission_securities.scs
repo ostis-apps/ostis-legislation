@@ -1,0 +1,31 @@
+
+by_additional_issue_of_emission_securities
+    => nrel_main_idtf: [additional issue of emission securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительный выпуск эмиссионных ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковы выпуск эмісійных каштоўных папер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_issue_of_emission_securities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_release_of_emission_securities;
+    => nrel_associative_connection: by_placement_of_issue_securities;
+    => nrel_associative_connection: by_decision_on_the_issue_additional_issue_of_shares;
+    => nrel_associative_connection: by_security;
+    => nrel_associative_connection: by_bearer_security;
+    => nrel_associative_connection: by_issue_securities;
+    => nrel_associative_connection: by_issue_of_equity_securities;
+
+    => nrel_etalon_online_idx: [27837];;

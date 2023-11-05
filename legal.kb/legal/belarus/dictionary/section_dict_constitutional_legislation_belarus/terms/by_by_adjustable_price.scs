@@ -1,0 +1,13 @@
+
+by_by_adjustable_price
+    => nrel_main_idtf: [by_adjustable_price] (* <- lang_en;; *);
+    => nrel_main_idtf: [регулируемая цена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгулюемы кошт] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_contract_price;
+    => nrel_associative_connection: by_limit_price_tariff;
+    => nrel_associative_connection: by_price_lists;
+
+    => nrel_etalon_online_idx: [22364];;

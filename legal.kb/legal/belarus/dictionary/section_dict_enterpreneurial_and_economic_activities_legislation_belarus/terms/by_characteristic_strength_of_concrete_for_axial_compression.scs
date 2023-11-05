@@ -1,0 +1,28 @@
+
+by_characteristic_strength_of_concrete_for_axial_compression
+    => nrel_main_idtf: [characteristic strength of concrete for axial compression] (* <- lang_en;; *);
+    => nrel_main_idtf: [характеристическая прочность бетона на осевое сжатие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [характарыстычная трываласць бетону на восевае скарачэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_characteristic_strength_of_concrete_for_axial_compression_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mark_of_stressed_concrete_by_selfstressing;
+    => nrel_associative_connection: by_strength_of_concrete_for_axial_compression;
+    => nrel_associative_connection: by_calculated_strength_of_concrete;
+    => nrel_associative_connection: by_partial_coefficient_gc_for_concrete;
+
+    => nrel_etalon_online_idx: [35672];;

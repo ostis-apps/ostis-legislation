@@ -1,0 +1,29 @@
+
+by_coronarography
+    => nrel_main_idtf: [coronarography] (* <- lang_en;; *);
+    => nrel_main_idtf: [коронарография] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каранараграфія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coronarography_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_heart_rate_variability;
+    => nrel_associative_connection: by_heart_diseases;
+    => nrel_associative_connection: by_ischemic_heart_disease;
+    => nrel_associative_connection: by_coronary_bypassing;
+    => nrel_associative_connection: by_heart_rhythm_disorders;
+
+    => nrel_etalon_online_idx: [35362];;

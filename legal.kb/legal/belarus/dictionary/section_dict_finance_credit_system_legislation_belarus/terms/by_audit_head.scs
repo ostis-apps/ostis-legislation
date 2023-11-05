@@ -1,0 +1,15 @@
+
+by_audit_head
+    => nrel_main_idtf: [audit head] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель аудита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік аўдыту] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_management_statement_of_the_audited_entity;
+    => nrel_associative_connection: by_management_of_the_audited_entity;
+
+    => nrel_etalon_online_idx: [28000];;

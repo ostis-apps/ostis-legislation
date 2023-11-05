@@ -1,0 +1,43 @@
+
+by_individually_specific_thing
+    => nrel_main_idtf: [individually specific thing] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуально-определенная вещь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальна-вызначаная рэч] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individually_specific_thing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individually_specific_thing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fungible_things;
+    => nrel_associative_connection: by_main_thing_and_accessories;
+    => nrel_associative_connection: by_indivisible_item;
+    => nrel_associative_connection: by_complex_thing;
+
+    => nrel_etalon_online_idx: [5890];;

@@ -1,0 +1,29 @@
+
+by_household_and_drinking_water
+    => nrel_main_idtf: [household and drinking water] (* <- lang_en;; *);
+    => nrel_main_idtf: [хозяйственно-питьевые нужды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гаспадарча-пітныя патрэбы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_household_and_drinking_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drinking_water_water_of_drinking_quality;
+    => nrel_associative_connection: by_extraction_removal_of_water_for_economic_and_drinking_water_supply_of_population;
+    => nrel_associative_connection: by_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_preparation_of_drinking_water;
+
+    => nrel_etalon_online_idx: [26149];;

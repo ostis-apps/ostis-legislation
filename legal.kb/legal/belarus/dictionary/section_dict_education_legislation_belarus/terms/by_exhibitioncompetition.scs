@@ -1,0 +1,43 @@
+
+by_exhibitioncompetition
+    => nrel_main_idtf: [exhibition-competition] (* <- lang_en;; *);
+    => nrel_main_idtf: [выставка-конкурс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выстаўка-конкурс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exhibitioncompetition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_exhibition;
+    => nrel_associative_connection: by_exhibition_of_documents;
+    => nrel_associative_connection: by_exhibition_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_exhibition_and_sale;
+    => nrel_associative_connection: by_sellingexhibition_of_goods;
+    => nrel_associative_connection: by_exhibition_fair;
+    => nrel_associative_connection: by_exhibition_priority;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_competition_of_creative_works;
+    => nrel_associative_connection: by_competition_of_technical_and_artscrafts_creativity;
+    => nrel_associative_connection: by_competition_commission;
+    => nrel_associative_connection: by_folk_art;
+    => nrel_associative_connection: by_national_pavilion;
+    => nrel_associative_connection: by_work_of_folk_art_the_author_of_which_is_unknown;
+    => nrel_associative_connection: by_professional_artwork_collective;
+    => nrel_associative_connection: by_republican_creative_competition_for_children_and_teenagers_we_observe_road_laws;
+    => nrel_associative_connection: by_creative_worker;
+    => nrel_associative_connection: by_exhibition_organizer;
+    => nrel_associative_connection: by_bas_vlam_participant_of_the_exhibition;
+
+    => nrel_etalon_online_idx: [13405];;

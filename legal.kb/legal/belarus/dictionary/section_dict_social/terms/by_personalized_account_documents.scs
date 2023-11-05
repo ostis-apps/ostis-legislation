@@ -1,0 +1,28 @@
+
+by_personalized_account_documents
+    => nrel_main_idtf: [personalized account documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [документы персонифицированного учета (дпу)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументы персаніфікаванага ўліку (дпу)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personalized_account_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_social_insurance;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_individual_personified_account_in_the_state_social_insurance_system;
+    => nrel_associative_connection: by_registration_of_insured_person;
+
+    => nrel_etalon_online_idx: [8836];;

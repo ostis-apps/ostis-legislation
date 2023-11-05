@@ -1,0 +1,55 @@
+
+by_breeding_products_material
+    => nrel_main_idtf: [breeding products (material)] (* <- lang_en;; *);
+    => nrel_main_idtf: [племенная продукция (материал)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [племянная прадукцыя (матэрыял)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breeding_products_material_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breeding_products_material_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_genetic_certificate;
+    => nrel_associative_connection: by_state_tribal_service;
+    => nrel_associative_connection: by_breeding_genetic_value;
+    => nrel_associative_connection: by_breeding_book;
+    => nrel_associative_connection: by_breeding;
+    => nrel_associative_connection: by_breeding_in_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal;
+    => nrel_associative_connection: by_breeding_certificate;
+    => nrel_associative_connection: by_breeding_herd;
+    => nrel_associative_connection: by_breeding_factory;
+    => nrel_associative_connection: by_breeding_loudspeaker;
+    => nrel_associative_connection: by_custom_commercial_herd;
+    => nrel_associative_connection: by_breeding_advances_in_animal_husbandry;
+    => nrel_associative_connection: by_selection_in_animal_husbandry;
+    => nrel_associative_connection: by_embryo;
+
+    => nrel_etalon_online_idx: [7648];;

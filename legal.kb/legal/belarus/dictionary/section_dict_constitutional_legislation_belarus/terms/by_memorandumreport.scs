@@ -1,0 +1,28 @@
+
+by_memorandumreport
+    => nrel_main_idtf: [memorandum/report] (* <- lang_en;; *);
+    => nrel_main_idtf: [докладная записка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакладная запіска] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_memorandumreport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_records_management;
+    => nrel_associative_connection: by_report;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_organization__administrative_documents;
+
+    => nrel_etalon_online_idx: [10749];;

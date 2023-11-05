@@ -1,0 +1,42 @@
+
+by_deep_laying_line
+    => nrel_main_idtf: [deep laying line] (* <- lang_en;; *);
+    => nrel_main_idtf: [линия глубокого заложения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінія глыбокага залажэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deep_laying_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deep_laying_line_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_drainage_plant_wdp;
+    => nrel_associative_connection: by_main_ways_of_the_line;
+    => nrel_associative_connection: by_shallow_line;
+
+    => nrel_etalon_online_idx: [35953];;

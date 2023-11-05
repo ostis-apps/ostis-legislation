@@ -1,0 +1,32 @@
+
+by_vehicle_account_journal
+    => nrel_main_idtf: [vehicle account journal] (* <- lang_en;; *);
+    => nrel_main_idtf: [журнал учета транспортных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [журнал уліку транспартных сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_account_journal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_owner_of_car_parking;
+    => nrel_associative_connection: by_owner_of_vehicle;
+    => nrel_associative_connection: by_organization_of_car_parks_and_car_parking;
+    => nrel_associative_connection: by_omission;
+    => nrel_associative_connection: by_vehicle_parking;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [14682];;

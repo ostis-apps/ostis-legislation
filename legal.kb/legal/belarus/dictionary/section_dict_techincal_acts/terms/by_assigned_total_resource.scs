@@ -1,0 +1,28 @@
+
+by_assigned_total_resource
+    => nrel_main_idtf: [assigned total resource] (* <- lang_en;; *);
+    => nrel_main_idtf: [назначенный полный ресурс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [назначаны поўны рэсурс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assigned_total_resource_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assigned_full_service_life;
+    => nrel_associative_connection: by_assigned_life_before_first_repair;
+    => nrel_associative_connection: by_appointed_shelf_life;
+    => nrel_associative_connection: by_resource;
+
+    => nrel_etalon_online_idx: [32508];;

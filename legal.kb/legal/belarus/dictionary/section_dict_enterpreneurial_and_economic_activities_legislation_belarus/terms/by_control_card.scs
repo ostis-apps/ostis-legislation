@@ -1,0 +1,30 @@
+
+by_control_card
+    => nrel_main_idtf: [control card] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольная карточка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольная картка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_digital_tachograph_card;
+    => nrel_associative_connection: by_electronic_digital_tachograph_card;
+    => nrel_associative_connection: by_control_of_vehicles_technical_condition;
+    => nrel_associative_connection: by_tachograph;
+    => nrel_associative_connection: by_installing_the_digital_tachograph;
+
+    => nrel_etalon_online_idx: [16243];;

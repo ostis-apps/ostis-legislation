@@ -1,0 +1,28 @@
+
+by_high_level_disinfection
+    => nrel_main_idtf: [high level disinfection] (* <- lang_en;; *);
+    => nrel_main_idtf: [дезинфекция высокого уровня] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэзінфекцыя высокага ўзроўню] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_high_level_disinfection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_disinfection_disinsection_and_deratization_activities;
+    => nrel_associative_connection: by_disinfection_of_used_medical_devices;
+    => nrel_associative_connection: by_modern_cleaning_technologies;
+    => nrel_associative_connection: by_disinfection_station;
+
+    => nrel_etalon_online_idx: [32906];;

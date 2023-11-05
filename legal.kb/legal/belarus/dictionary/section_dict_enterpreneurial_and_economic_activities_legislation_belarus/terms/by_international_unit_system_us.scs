@@ -1,0 +1,46 @@
+
+by_international_unit_system_us
+    => nrel_main_idtf: [international unit system (us)] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная система единиц (си)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародная сістэма адзінак (сі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_unit_system_us_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_unit_system_us_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_magnitude;
+    => nrel_associative_connection: by_weight;
+    => nrel_associative_connection: by_unit_of_value;
+    => nrel_associative_connection: by_unit_of_measurement;
+    => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_packaged_good;
+
+    => nrel_etalon_online_idx: [17102];;

@@ -1,0 +1,28 @@
+
+by_corn_quality
+    => nrel_main_idtf: [corn quality] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество зерна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць збожжа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corn_quality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_corn;
+    => nrel_associative_connection: by_feed;
+    => nrel_associative_connection: by_combined_feed_materials;
+    => nrel_associative_connection: by_grain_hitch;
+
+    => nrel_etalon_online_idx: [30772];;

@@ -1,0 +1,32 @@
+
+by_base_density
+    => nrel_main_idtf: [base density] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовая плотность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавая шчыльнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_density_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_fauna;
+    => nrel_associative_connection: by_density_of_wild_animals;
+    => nrel_associative_connection: by_density_of_hunting_animals;
+    => nrel_associative_connection: by_habitat_of_wild_animals;
+    => nrel_associative_connection: by_habitat_of_wildlife_objects;
+    => nrel_associative_connection: by_equivalent_density;
+
+    => nrel_etalon_online_idx: [11773];;

@@ -1,0 +1,74 @@
+
+by_author
+    => nrel_main_idtf: [author] (* <- lang_en;; *);
+    => nrel_main_idtf: [автор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autobiography;
+    => nrel_associative_connection: by_author_authors_collective;
+    => nrel_associative_connection: by_authors_coauthors_of_the_innovation;
+    => nrel_associative_connection: by_author_coauthors_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_author_coauthors_of_a_plant_variety;
+    => nrel_associative_connection: by_author_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_author_of_topology;
+    => nrel_associative_connection: by_abstract;
+    => nrel_associative_connection: by_authors_note_on_revision;
+    => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_authors_certificate_for_invention;
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_intellectual_property;
+    => nrel_associative_connection: by_collective_management_of_property_rights;
+    => nrel_associative_connection: by_translator;
+    => nrel_associative_connection: by_right_of_authorship;
+    => nrel_associative_connection: by_right_of_authorship_right_to_be_recognized_by_author;
+    => nrel_associative_connection: by_work_of_folk_art_the_author_of_which_is_unknown;
+    => nrel_associative_connection: by_work_for_hire;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [918];;

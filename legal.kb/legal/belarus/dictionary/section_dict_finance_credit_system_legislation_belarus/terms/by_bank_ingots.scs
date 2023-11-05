@@ -1,0 +1,30 @@
+
+by_bank_ingots
+    => nrel_main_idtf: [bank ingots] (* <- lang_en;; *);
+    => nrel_main_idtf: [банковские слитки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкаўскія зліткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_ingots_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_precious_metal;
+    => nrel_associative_connection: by_deposit_metal_account;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_measuring_bullions;
+    => nrel_associative_connection: by_measuring_bullions_of_the_national_bank_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_bullions;
+
+    => nrel_etalon_online_idx: [8349];;

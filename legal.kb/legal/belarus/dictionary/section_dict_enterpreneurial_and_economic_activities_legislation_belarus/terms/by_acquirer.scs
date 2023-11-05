@@ -1,0 +1,46 @@
+
+by_acquirer
+    => nrel_main_idtf: [acquirer] (* <- lang_en;; *);
+    => nrel_main_idtf: [приобретатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [набыўнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acquirer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acquirer_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_predictor_bank;
+    => nrel_associative_connection: by_beneficiaries;
+    => nrel_associative_connection: by_manufacturer_producer;
+    => nrel_associative_connection: by_marking;
+    => nrel_associative_connection: by_handling_products;
+    => nrel_associative_connection: by_physical_persons;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [6693];;

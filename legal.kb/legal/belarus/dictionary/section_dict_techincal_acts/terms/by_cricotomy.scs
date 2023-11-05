@@ -1,0 +1,27 @@
+
+by_cricotomy
+    => nrel_main_idtf: [cricotomy] (* <- lang_en;; *);
+    => nrel_main_idtf: [крикотомия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крікотомія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cricotomy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_research_of_operating_material;
+    => nrel_associative_connection: by_main_disease;
+    => nrel_associative_connection: by_acute_respiratory_viral_infections;
+
+    => nrel_etalon_online_idx: [33704];;

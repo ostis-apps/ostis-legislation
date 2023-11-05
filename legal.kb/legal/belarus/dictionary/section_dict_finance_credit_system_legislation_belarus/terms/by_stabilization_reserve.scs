@@ -1,0 +1,27 @@
+
+by_stabilization_reserve
+    => nrel_main_idtf: [stabilization reserve] (* <- lang_en;; *);
+    => nrel_main_idtf: [стабилизационный резерв] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стабілізацыйны рэзерв] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stabilization_reserve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_provision_for_claimed_but_unsettled_losses;
+    => nrel_associative_connection: by_provision_for_occurred_but_undeclared_losses;
+    => nrel_associative_connection: by_stabilizing_stocks_of_goods;
+
+    => nrel_etalon_online_idx: [24116];;

@@ -1,0 +1,28 @@
+
+by_zone_of_subsequent_resettlement
+    => nrel_main_idtf: [zone of subsequent resettlement] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона последующего отселения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона наступнага адсялення] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zone_of_subsequent_resettlement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_priority_resettlement_zone;
+    => nrel_associative_connection: by_zone_of_residence_with_periodic_radiation_control;
+    => nrel_associative_connection: by_zone_with_the_right_to_resettlement;
+    => nrel_associative_connection: by_evacuation_exclusion_zone;
+
+    => nrel_etalon_online_idx: [41574];;

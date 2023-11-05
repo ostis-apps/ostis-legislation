@@ -1,0 +1,29 @@
+
+by_documentation_of_automated_information_system_representation_of_bank_information
+    => nrel_main_idtf: [documentation of automated information system representation of bank information] (* <- lang_en;; *);
+    => nrel_main_idtf: [документация автоматизированной информационной системы представления банковской информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументацыя аўтаматызаванай інфармацыйнай сістэмы прадстаўлення банкаўскай інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documentation_of_automated_information_system_representation_of_bank_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_information_system_for_presenting_bank_information;
+    => nrel_associative_connection: by_bank_information;
+    => nrel_associative_connection: by_state_system_for_prevention_and_liquidation_of_emergency_situations;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_recipients_of_bank_information;
+
+    => nrel_etalon_online_idx: [30473];;

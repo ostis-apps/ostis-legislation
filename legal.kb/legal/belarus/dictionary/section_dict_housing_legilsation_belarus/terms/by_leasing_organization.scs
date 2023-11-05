@@ -1,0 +1,29 @@
+
+by_leasing_organization
+    => nrel_main_idtf: [leasing organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [лизинговая организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лізінгавая арганізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leasing_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_leasing_activity;
+    => nrel_associative_connection: by_leasing_company__nonresident_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_noncredit_financial_organizations;
+    => nrel_associative_connection: by_organizationleasers;
+    => nrel_associative_connection: by_organization_carrying_out_financial_operations;
+
+    => nrel_etalon_online_idx: [10977];;

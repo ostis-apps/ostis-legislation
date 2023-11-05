@@ -1,0 +1,30 @@
+
+by_periodic_extended_rest_weekends
+    => nrel_main_idtf: [periodic extended rest (weekends)] (* <- lang_en;; *);
+    => nrel_main_idtf: [периодический продленный отдых (выходные дни)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перыядычны прадоўжаны адпачынак (выхадныя дні)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_periodic_extended_rest_weekends_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_daysoff;
+    => nrel_associative_connection: by_days_off_with_summarized_recording_of_working_hours_weekly_uninterrupted_rest;
+    => nrel_associative_connection: by_rest_in_flight;
+    => nrel_associative_connection: by_recreation_room;
+    => nrel_associative_connection: by_service_time;
+    => nrel_associative_connection: by_private_recreation_area;
+
+    => nrel_etalon_online_idx: [42297];;

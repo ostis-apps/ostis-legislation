@@ -1,0 +1,28 @@
+
+by_privacy_of_mail_service
+    => nrel_main_idtf: [privacy of mail service] (* <- lang_en;; *);
+    => nrel_main_idtf: [тайна почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тайна паштовай сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_privacy_of_mail_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_postal_office;
+    => nrel_associative_connection: by_postal_security;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_mails;
+
+    => nrel_etalon_online_idx: [2040];;

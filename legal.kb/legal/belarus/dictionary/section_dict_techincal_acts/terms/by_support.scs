@@ -1,0 +1,64 @@
+
+by_support
+    => nrel_main_idtf: [support] (* <- lang_en;; *);
+    => nrel_main_idtf: [опора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апора] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_support_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_support_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stiffening_diaphragm;
+    => nrel_associative_connection: by_cone;
+    => nrel_associative_connection: by_linear_support_bearing_rope;
+    => nrel_associative_connection: by_wall_support;
+    => nrel_associative_connection: by_support_structure;
+    => nrel_associative_connection: by_support_shoe;
+    => nrel_associative_connection: by_basic_foothold;
+    => nrel_associative_connection: by_railing;
+    => nrel_associative_connection: by_overflight;
+    => nrel_associative_connection: by_point_supports;
+
+    => nrel_etalon_online_idx: [19074];;

@@ -1,0 +1,30 @@
+
+by_carboxytherapy
+    => nrel_main_idtf: [carboxytherapy] (* <- lang_en;; *);
+    => nrel_main_idtf: [карбокситерапия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карбоксітэрапія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_carboxytherapy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aeroionotherapy;
+    => nrel_associative_connection: by_halotherapy;
+    => nrel_associative_connection: by_hypoxytherapy;
+    => nrel_associative_connection: by_inhalation_therapy;
+    => nrel_associative_connection: by_cryotherapy;
+    => nrel_associative_connection: by_ozone_therapy;
+
+    => nrel_etalon_online_idx: [35328];;

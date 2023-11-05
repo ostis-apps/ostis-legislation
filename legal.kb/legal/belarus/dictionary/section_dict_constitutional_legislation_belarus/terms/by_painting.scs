@@ -1,0 +1,28 @@
+
+by_painting
+    => nrel_main_idtf: [painting] (* <- lang_en;; *);
+    => nrel_main_idtf: [роспись] (* <- lang_ru;; *);
+    => nrel_main_idtf: [роспіс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_painting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monumental_and_decorative_sculpture;
+    => nrel_associative_connection: by_monumental_decorative_fabric;
+    => nrel_associative_connection: by_monumental_and_decorative_art;
+    => nrel_associative_connection: by_work_of_monumental_and_decorative_art_of_religious_character;
+
+    => nrel_etalon_online_idx: [39764];;

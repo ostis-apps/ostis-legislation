@@ -1,0 +1,29 @@
+
+by_by_foreign_currency_transaction
+    => nrel_main_idtf: [by_foreign_currency_transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [операция в иностранной валюте] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыя ў замежнай валюце] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_foreign_currency_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_currency_transactions;
+    => nrel_associative_connection: by_currency_transactions_carried_out_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_method_of_application_of_currency_position_accounts;
+    => nrel_associative_connection: by_foreign_currency_operations_which_committed_in_two_different_currencies;
+    => nrel_associative_connection: by_subjects_of_currency_transactions;
+
+    => nrel_etalon_online_idx: [43504];;

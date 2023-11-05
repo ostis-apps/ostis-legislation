@@ -1,0 +1,48 @@
+
+by_power_or_duties_abuse
+    => nrel_main_idtf: [power or duties abuse] (* <- lang_en;; *);
+    => nrel_main_idtf: [злоупотребление властью или служебными полномочиями] (* <- lang_ru;; *);
+    => nrel_main_idtf: [злоўжыванне ўладай або службовымі паўнамоцтвамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_power_or_duties_abuse_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_power_or_duties_abuse_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_actions_committed_in_contravention_of_service_interests;
+    => nrel_associative_connection: by_conflict_of_interests;
+    => nrel_associative_connection: by_corruption;
+    => nrel_associative_connection: by_theft;
+    => nrel_associative_connection: by_petty_theft;
+    => nrel_associative_connection: by_excess_of_power_or_official_authority;
+    => nrel_associative_connection: by_arbitrariness;
+    => nrel_associative_connection: by_theft;
+    => nrel_associative_connection: by_theft_by_abuse_of_official_duties;
+
+    => nrel_etalon_online_idx: [2590];;

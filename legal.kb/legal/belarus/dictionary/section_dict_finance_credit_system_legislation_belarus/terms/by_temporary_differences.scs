@@ -1,0 +1,46 @@
+
+by_temporary_differences
+    => nrel_main_idtf: [temporary differences] (* <- lang_en;; *);
+    => nrel_main_idtf: [временные разницы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [часовыя розніцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_differences_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_differences_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_delayed_tax_liability;
+    => nrel_associative_connection: by_persistent_differences;
+    => nrel_associative_connection: by_time_gap;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_loss;
+
+    => nrel_etalon_online_idx: [13271];;

@@ -1,0 +1,48 @@
+
+by_pressure_chamber
+    => nrel_main_idtf: [pressure chamber] (* <- lang_en;; *);
+    => nrel_main_idtf: [барокамера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [баракамера] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pressure_chamber_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pressure_chamber_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_pressure_chamber_lift;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_allowed_pressure;
+    => nrel_associative_connection: by_design_pressure;
+    => nrel_associative_connection: by_nominal_vessel_capacity;
+    => nrel_associative_connection: by_equipment;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_pressure_vessel;
+
+    => nrel_etalon_online_idx: [5279];;

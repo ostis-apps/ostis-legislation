@@ -1,0 +1,30 @@
+
+by_objects_of_major_pipeline
+    => nrel_main_idtf: [objects of major pipeline] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты магистрального трубопровода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты магістральнага трубаправода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_major_pipeline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commissioning_of_the_main_pipeline_facility;
+    => nrel_associative_connection: by_preservation_of_the_main_pipeline_facility_or_its_part;
+    => nrel_associative_connection: by_liquidation_of_the_main_pipeline_facility;
+    => nrel_associative_connection: by_potentially_hazardous_objects;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_pipeline;
+
+    => nrel_etalon_online_idx: [18764];;

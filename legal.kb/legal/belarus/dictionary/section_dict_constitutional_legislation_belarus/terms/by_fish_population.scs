@@ -1,0 +1,36 @@
+
+by_fish_population
+    => nrel_main_idtf: [fish population] (* <- lang_en;; *);
+    => nrel_main_idtf: [популяция рыбы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папуляцыя рыбы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fish_population_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fish_distribution_area;
+    => nrel_associative_connection: by_fish_species;
+    => nrel_associative_connection: by_density_of_fish_moving;
+    => nrel_associative_connection: by_population;
+    => nrel_associative_connection: by_antifrost_phenomenon;
+    => nrel_associative_connection: by_fishery_stock;
+    => nrel_associative_connection: by_fishery_stock_of_fish;
+    => nrel_associative_connection: by_fish_resettlement;
+    => nrel_associative_connection: by_fish_reintroduction;
+    => nrel_associative_connection: by_fish_seed;
+    => nrel_associative_connection: by_fish_production;
+    => nrel_associative_connection: by_fish_habitat;
+
+    => nrel_etalon_online_idx: [20672];;

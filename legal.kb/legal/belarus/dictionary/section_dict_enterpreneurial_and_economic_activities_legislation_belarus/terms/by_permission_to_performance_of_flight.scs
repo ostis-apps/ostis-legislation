@@ -1,0 +1,40 @@
+
+by_permission_to_performance_of_flight
+    => nrel_main_idtf: [permission to performance of flight] (* <- lang_en;; *);
+    => nrel_main_idtf: [разрешение на выполнение полета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дазвол на выкананне палёту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permission_to_performance_of_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_coordination_of_air_space_use_of_minsk_flight_information_area;
+    => nrel_associative_connection: by_international_aircraft_flight;
+    => nrel_associative_connection: by_air_traffic_support_and_flight_control_bodies;
+    => nrel_associative_connection: by_preparatory_flights;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_visual_flight_rules;
+    => nrel_associative_connection: by_instrument_flight_rules;
+    => nrel_associative_connection: by_prior_authorization;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_flight_control_point;
+    => nrel_associative_connection: by_permission;
+    => nrel_associative_connection: by_permit_to_use_the_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_permission_procedure_for_using_the_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_airplane_mode;
+    => nrel_associative_connection: by_flight_control;
+
+    => nrel_etalon_online_idx: [22070];;

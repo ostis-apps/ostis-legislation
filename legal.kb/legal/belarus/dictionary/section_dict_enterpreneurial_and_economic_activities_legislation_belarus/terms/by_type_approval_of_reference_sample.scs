@@ -1,0 +1,42 @@
+
+by_type_approval_of_reference_sample
+    => nrel_main_idtf: [type approval of reference sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [утверждение типа стандартного образца] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зацвярджэнне тыпа стандартнага ўзору] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_approval_of_reference_sample_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_approval_of_reference_sample_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_standard_specimen;
+    => nrel_associative_connection: by_approval;
+
+    => nrel_etalon_online_idx: [25709];;

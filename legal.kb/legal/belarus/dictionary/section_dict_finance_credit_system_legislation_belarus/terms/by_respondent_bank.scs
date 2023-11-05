@@ -1,0 +1,29 @@
+
+by_respondent_bank
+    => nrel_main_idtf: [respondent bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-респондент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-рэспандэнт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_respondent_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_customers_questionary;
+    => nrel_associative_connection: by_bankcorrespondent;
+    => nrel_associative_connection: by_bank_service_product;
+    => nrel_associative_connection: by_representative_of_the_client;
+    => nrel_associative_connection: by_special_subdivision;
+
+    => nrel_etalon_online_idx: [36591];;

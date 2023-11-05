@@ -1,0 +1,30 @@
+
+by_bacterial_infections
+    => nrel_main_idtf: [bacterial infections] (* <- lang_en;; *);
+    => nrel_main_idtf: [бактериальные инфекции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бактэрыяльныя інфекцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bacterial_infections_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bacteriology;
+    => nrel_associative_connection: by_infectious_disease_physician;
+    => nrel_associative_connection: by_helminthic_infestations_helminthiasis;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_microbiology;
+    => nrel_associative_connection: by_especially_dangerous_infections;
+
+    => nrel_etalon_online_idx: [33961];;

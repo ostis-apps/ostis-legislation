@@ -1,0 +1,29 @@
+
+by_constitutional_complaint
+    => nrel_main_idtf: [constitutional complaint] (* <- lang_en;; *);
+    => nrel_main_idtf: [конституционная жалоба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канстытуцыйная скарга] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_constitutional_complaint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_complaint;
+    => nrel_associative_connection: by_court_request;
+    => nrel_associative_connection: by_constitutional_court_proceeding;
+    => nrel_associative_connection: by_constitutional_court_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_constitution_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [9539];;

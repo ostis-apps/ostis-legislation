@@ -1,0 +1,48 @@
+
+by_branch_of_the_economy
+    => nrel_main_idtf: [branch of the economy] (* <- lang_en;; *);
+    => nrel_main_idtf: [отрасль экономики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галіна эканомікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_of_the_economy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_of_the_economy_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_leverage;
+    => nrel_associative_connection: by_small_and_mediumsized_enterprises;
+    => nrel_associative_connection: by_unobservable_economy;
+    => nrel_associative_connection: by_industry;
+    => nrel_associative_connection: by_branch_of_belarusian_economy_producing_similar_or_directly_competing_good;
+    => nrel_associative_connection: by_branch_of_belarusian_economy_producing_similar_good;
+    => nrel_associative_connection: by_branch_of_the_economy_of_a_foreign_state_unions_of_foreign_states;
+    => nrel_associative_connection: by_sector_of_economy;
+    => nrel_associative_connection: by_serious_damage_to_the_industry_of_the_belarusian_economy_producing_a_similar_or_directly_competiting_product;
+
+    => nrel_etalon_online_idx: [19592];;

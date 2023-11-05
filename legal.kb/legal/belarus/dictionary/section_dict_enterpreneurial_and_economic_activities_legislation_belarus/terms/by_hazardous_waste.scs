@@ -1,0 +1,63 @@
+
+by_hazardous_waste
+    => nrel_main_idtf: [hazardous waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [опасные отходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [небяспечныя адходы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_waste_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_waste_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_waste_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_waste;
+    => nrel_associative_connection: by_packing_group_i_120000_kg;
+    => nrel_associative_connection: by_packing_group_ii_300000_kg;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_industrial_waste;
+    => nrel_associative_connection: by_environmental_protection;
+    => nrel_associative_connection: by_radioactive_waste;
+    => nrel_associative_connection: by_waste_owner;
+    => nrel_associative_connection: by_filtrate;
+
+    => nrel_etalon_online_idx: [2969];;

@@ -1,0 +1,29 @@
+
+by_release_calendar_of_socially_significant_publications
+    => nrel_main_idtf: [release calendar of socially significant publications] (* <- lang_en;; *);
+    => nrel_main_idtf: [план выпуска социально значимых изданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [план выпуску сацыяльна значных выданняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_release_calendar_of_socially_significant_publications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_publishing_activity;
+    => nrel_associative_connection: by_compulsory_free_copies_of_print_editions;
+    => nrel_associative_connection: by_release_calendar_of_educational_publications;
+    => nrel_associative_connection: by_socially_significant_editions;
+    => nrel_associative_connection: by_circulation_of_the_printed_edition;
+
+    => nrel_etalon_online_idx: [26931];;

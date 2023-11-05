@@ -1,0 +1,29 @@
+
+by_by_conformity_assessment_documents_in_the_field_of_atomic_energy_use
+    => nrel_main_idtf: [by_conformity_assessment_documents_in_the_field_of_atomic_energy_use] (* <- lang_en;; *);
+    => nrel_main_idtf: [документы об оценке соответствия в области использования атомной энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументы аб адзнацы адпаведнасці ў вобласці выкарыстання атамнай энергіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_conformity_assessment_documents_in_the_field_of_atomic_energy_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_regulation_in_the_field_of_safety_in_the_use_of_nuclear_energy;
+    => nrel_associative_connection: by_state_management_in_the_field_of_safety_in_the_use_of_nuclear_energy;
+    => nrel_associative_connection: by_activities_in_the_field_of_use_of_atomic_energy;
+    => nrel_associative_connection: by_licensing_of_activity_in_the_area_of_the_use_of_nuclear_power_and_sources_of_ionizing_radiation;
+    => nrel_associative_connection: by_examination_of_documents_justifying_ensuring_nuclear_and_radiation_safety_in_carrying_out_activities_in_the_area_of_use_of_atomic_energy_and_sources_of_ionizing_radiation;
+
+    => nrel_etalon_online_idx: [44031];;

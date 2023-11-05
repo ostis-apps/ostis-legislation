@@ -1,0 +1,30 @@
+
+by_objects_with_onetime_citizens_mass_stay
+    => nrel_main_idtf: [objects with one-time citizens mass stay] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты с единовременным массовым пребыванием граждан] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты з аднаразовым масавым знаходжаннем грамадзян] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_with_onetime_citizens_mass_stay_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_place_of_stay;
+    => nrel_associative_connection: by_authority_for_registering_citizens_by_place_of_stay;
+    => nrel_associative_connection: by_registration_at_the_place_of_stay;
+    => nrel_associative_connection: by_certificate_of_registration_at_the_place_of_stay;
+    => nrel_associative_connection: by_security_system;
+    => nrel_associative_connection: by_country_place_of_temporary_stay_transit;
+
+    => nrel_etalon_online_idx: [18780];;

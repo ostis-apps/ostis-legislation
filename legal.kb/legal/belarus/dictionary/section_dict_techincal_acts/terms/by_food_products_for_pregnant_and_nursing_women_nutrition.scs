@@ -1,0 +1,28 @@
+
+by_food_products_for_pregnant_and_nursing_women_nutrition
+    => nrel_main_idtf: [food products for pregnant and nursing women nutrition] (* <- lang_en;; *);
+    => nrel_main_idtf: [пищевая продукция для питания беременных и кормящих женщин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [харчовая прадукцыя для харчавання цяжарных і кормячых жанчын] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_food_products_for_pregnant_and_nursing_women_nutrition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quality_of_medical_care;
+    => nrel_associative_connection: by_clinical_food;
+    => nrel_associative_connection: by_food_products_for_diabetic_nutrition;
+    => nrel_associative_connection: by_food_products_for_diet_therapeutic_nutrition;
+
+    => nrel_etalon_online_idx: [33547];;

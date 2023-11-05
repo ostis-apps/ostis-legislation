@@ -1,0 +1,27 @@
+
+by_small_organizations
+    => nrel_main_idtf: [small organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [малые организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малыя арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_micro_organizations;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [10450];;

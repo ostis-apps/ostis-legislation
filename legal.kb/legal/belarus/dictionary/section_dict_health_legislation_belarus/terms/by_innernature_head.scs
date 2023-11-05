@@ -1,0 +1,30 @@
+
+by_innernature_head
+    => nrel_main_idtf: [innernature head] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель интернатуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік інтэрнатуры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_innernature_head_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internship_base;
+    => nrel_associative_connection: by_doctorintern_pharmacistintern;
+    => nrel_associative_connection: by_internship;
+    => nrel_associative_connection: by_qualification_examination;
+    => nrel_associative_connection: by_instructional_guide_of_internship;
+    => nrel_associative_connection: by_head_of_the_internship_base;
+
+    => nrel_etalon_online_idx: [29111];;

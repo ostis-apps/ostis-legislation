@@ -1,0 +1,34 @@
+
+by_flanged_connection
+    => nrel_main_idtf: [flanged connection] (* <- lang_en;; *);
+    => nrel_main_idtf: [соединение фланцевое] (* <- lang_ru;; *);
+    => nrel_main_idtf: [злучэнне фланцавае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flanged_connection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargo_loadingunloading_pipes;
+    => nrel_associative_connection: by_major_pipeline;
+    => nrel_associative_connection: by_major_pipeline_transport;
+    => nrel_associative_connection: by_bypass_pipeline;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_pipeline;
+    => nrel_associative_connection: by_combined_drain_and_suction_piping;
+    => nrel_associative_connection: by_operating_conditions_of_the_pipeline;
+    => nrel_associative_connection: by_actual_pipeline_wall_thickness;
+
+    => nrel_etalon_online_idx: [23535];;

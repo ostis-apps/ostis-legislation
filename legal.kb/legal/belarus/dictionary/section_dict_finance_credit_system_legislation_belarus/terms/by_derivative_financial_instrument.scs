@@ -1,0 +1,19 @@
+
+by_derivative_financial_instrument
+    => nrel_main_idtf: [derivative financial instrument] (* <- lang_en;; *);
+    => nrel_main_idtf: [производный финансовый инструмент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчы фінансавы інструмент] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_basic_assets;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_debt_instrument;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_swap;
+    => nrel_associative_connection: by_financial_instruments;
+    => nrel_associative_connection: by_term_transaction_financial_instrument;
+    => nrel_associative_connection: by_term_transactions_financial_instrument;
+
+    => nrel_etalon_online_idx: [9676];;

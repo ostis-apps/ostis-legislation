@@ -1,0 +1,34 @@
+
+by_balance_of_green_space
+    => nrel_main_idtf: [balance of green space] (* <- lang_en;; *);
+    => nrel_main_idtf: [баланс озелененной территории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [баланс азялененай тэрыторыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_of_green_space_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_landscaped_green_space;
+    => nrel_associative_connection: by_intracity_greenery;
+    => nrel_associative_connection: by_intracity_greenery_of_general_use;
+    => nrel_associative_connection: by_intracity_greenery_of_restricted_use;
+    => nrel_associative_connection: by_intracity_greenery_of_other_and_reserve_territories;
+    => nrel_associative_connection: by_intracity_greenery_of_special_purpose;
+    => nrel_associative_connection: by_trees_bushes_pruning;
+    => nrel_associative_connection: by_greenery;
+    => nrel_associative_connection: by_flora;
+    => nrel_associative_connection: by_green_territories_system;
+
+    => nrel_etalon_online_idx: [11778];;

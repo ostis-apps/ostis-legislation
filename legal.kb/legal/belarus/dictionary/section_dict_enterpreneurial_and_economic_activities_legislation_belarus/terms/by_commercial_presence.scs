@@ -1,0 +1,57 @@
+
+by_commercial_presence
+    => nrel_main_idtf: [commercial presence] (* <- lang_en;; *);
+    => nrel_main_idtf: [коммерческое присутствие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камерцыйная прысутнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commercial_presence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commercial_presence_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commercial_presence_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commercial_activity;
+    => nrel_associative_connection: by_commercial_agent;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+
+    => nrel_etalon_online_idx: [11571];;

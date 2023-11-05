@@ -1,0 +1,43 @@
+
+by_netting
+    => nrel_main_idtf: [netting] (* <- lang_en;; *);
+    => nrel_main_idtf: [неттинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нэттынг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_netting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_netting_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_transaction;
+    => nrel_associative_connection: by_acceptance_of_obligations_for_clearing;
+    => nrel_associative_connection: by_clearing;
+    => nrel_associative_connection: by_clearing_pool;
+
+    => nrel_etalon_online_idx: [8229];;

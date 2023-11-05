@@ -1,0 +1,45 @@
+
+by_notary_document
+    => nrel_main_idtf: [notary document] (* <- lang_en;; *);
+    => nrel_main_idtf: [нотариальный документ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [натарыяльны дакумент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notary_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notary_document_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_documents_of_the_notary_office;
+    => nrel_associative_connection: by_requests_for_requesting_information_and_or_documents_required_for_the_performance_of_notarial_actions;
+    => nrel_associative_connection: by_place_of_carrying_out_the_notarial_activities_by_notaries;
+    => nrel_associative_connection: by_notarial_activity;
+    => nrel_associative_connection: by_notarial_district;
+    => nrel_associative_connection: by_territorial_chamber_of_notaries;
+
+    => nrel_etalon_online_idx: [36194];;

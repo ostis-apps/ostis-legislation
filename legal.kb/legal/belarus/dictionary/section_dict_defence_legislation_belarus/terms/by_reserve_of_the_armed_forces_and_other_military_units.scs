@@ -1,0 +1,30 @@
+
+by_reserve_of_the_armed_forces_and_other_military_units
+    => nrel_main_idtf: [reserve of the armed forces and other military units] (* <- lang_en;; *);
+    => nrel_main_idtf: [запас вооруженных сил и других воинских формирований] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запас узброеных сіл і іншых воінскіх фарміраванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reserve_of_the_armed_forces_and_other_military_units_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_person_liable_for_military_service;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_armed_forces_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_reservist;
+
+    => nrel_etalon_online_idx: [2570];;

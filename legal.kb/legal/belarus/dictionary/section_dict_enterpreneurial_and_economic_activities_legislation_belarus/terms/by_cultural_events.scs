@@ -1,0 +1,48 @@
+
+by_cultural_events
+    => nrel_main_idtf: [cultural events] (* <- lang_en;; *);
+    => nrel_main_idtf: [культурные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [культурныя мерапрыемствы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cultural_events_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cultural_events_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_club;
+    => nrel_associative_connection: by_club_formation;
+    => nrel_associative_connection: by_cultural_and_entertainment_event;
+    => nrel_associative_connection: by_culturalandeducating_organizations_of_culture;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_mixed_culture_organization;
+    => nrel_associative_connection: by_own_stage;
+    => nrel_associative_connection: by_participants_of_mass_events_held_on_the_road;
+    => nrel_associative_connection: by_festival;
+
+    => nrel_etalon_online_idx: [16497];;

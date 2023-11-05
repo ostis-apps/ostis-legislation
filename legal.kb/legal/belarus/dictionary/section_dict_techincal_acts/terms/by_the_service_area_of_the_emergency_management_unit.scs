@@ -1,0 +1,27 @@
+
+by_the_service_area_of_the_emergency_management_unit
+    => nrel_main_idtf: [the service area of the emergency management unit] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона обслуживания подразделения по чрезвычайным ситуациям] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона абслугоўвання падраздзялення па надзвычайных сітуацыях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_service_area_of_the_emergency_management_unit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_measures_of_civil_defense;
+    => nrel_associative_connection: by_fireprevention_arrangements;
+    => nrel_associative_connection: by_fire_safety_requirement;
+
+    => nrel_etalon_online_idx: [36999];;

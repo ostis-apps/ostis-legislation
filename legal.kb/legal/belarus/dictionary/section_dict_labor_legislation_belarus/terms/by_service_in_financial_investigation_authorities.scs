@@ -1,0 +1,30 @@
+
+by_service_in_financial_investigation_authorities
+    => nrel_main_idtf: [service in financial investigation authorities] (* <- lang_en;; *);
+    => nrel_main_idtf: [служба в органах финансовых расследований] (* <- lang_ru;; *);
+    => nrel_main_idtf: [служба ў органах фінансавых расследаванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_in_financial_investigation_authorities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_service;
+    => nrel_associative_connection: by_financial_investigation_department_of_the_state_control_committee;
+    => nrel_associative_connection: by_candidate_for_service;
+    => nrel_associative_connection: by_candidate_for_study;
+    => nrel_associative_connection: by_main_service_place;
+    => nrel_associative_connection: by_economic_security;
+
+    => nrel_etalon_online_idx: [23342];;

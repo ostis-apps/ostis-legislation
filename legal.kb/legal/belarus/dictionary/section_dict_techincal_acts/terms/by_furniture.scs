@@ -1,0 +1,30 @@
+
+by_furniture
+    => nrel_main_idtf: [furniture] (* <- lang_en;; *);
+    => nrel_main_idtf: [мебель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мэбля] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_furniture_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_woodworking;
+    => nrel_associative_connection: by_wood;
+    => nrel_associative_connection: by_wood_science;
+    => nrel_associative_connection: by_mountable_furniture;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_etalon_online_idx: [38342];;

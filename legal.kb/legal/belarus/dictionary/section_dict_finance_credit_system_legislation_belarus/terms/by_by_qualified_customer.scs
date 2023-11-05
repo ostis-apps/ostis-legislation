@@ -1,0 +1,28 @@
+
+by_by_qualified_customer
+    => nrel_main_idtf: [by_qualified_customer] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалифицированный клиент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікаваны кліент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_qualified_customer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_representative_of_the_client;
+    => nrel_associative_connection: by_professional_client;
+
+    => nrel_etalon_online_idx: [43433];;

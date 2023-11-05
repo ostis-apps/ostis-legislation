@@ -1,0 +1,28 @@
+
+by_operating_stock
+    => nrel_main_idtf: [operating stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [эксплуатационный запас] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эксплуатацыйны запас] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operating_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stand;
+    => nrel_associative_connection: by_growing_stock;
+    => nrel_associative_connection: by_felling;
+    => nrel_associative_connection: by_ripe_and_overmature_stands;
+
+    => nrel_etalon_online_idx: [27976];;

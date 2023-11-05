@@ -1,0 +1,35 @@
+
+by_loss
+    => nrel_main_idtf: [loss] (* <- lang_en;; *);
+    => nrel_main_idtf: [убыток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_loss_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accounting_profit_loss;
+    => nrel_associative_connection: by_temporary_differences;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets_intangible_assets;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_goods_works_services_property_rights;
+    => nrel_associative_connection: by_provision_for_claimed_but_unsettled_losses;
+    => nrel_associative_connection: by_provision_for_occurred_but_undeclared_losses;
+    => nrel_associative_connection: by_losses;
+    => nrel_associative_connection: by_lossmaking_governmental_organization;
+    => nrel_associative_connection: by_lossmaking_organization_separate_subdivision;
+    => nrel_associative_connection: by_lossmaking_commercial_organization;
+
+    => nrel_etalon_online_idx: [25353];;

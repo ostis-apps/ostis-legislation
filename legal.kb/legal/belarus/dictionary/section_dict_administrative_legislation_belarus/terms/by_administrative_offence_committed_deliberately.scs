@@ -1,0 +1,34 @@
+
+by_administrative_offence_committed_deliberately
+    => nrel_main_idtf: [administrative offence committed deliberately] (* <- lang_en;; *);
+    => nrel_main_idtf: [административное правонарушение, совершенное умышленно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйнае правапарушэнне, здзейсненае наўмысна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_offence_committed_deliberately_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_offence_committed_by_negligence;
+    => nrel_associative_connection: by_proceedings_of_an_administrative_offence;
+    => nrel_associative_connection: by_statements_and_reports_of_administrative_offenses;
+    => nrel_associative_connection: by_significant_administrative_offenses;
+    => nrel_associative_connection: by_executor_of_administrative_violation;
+    => nrel_associative_connection: by_place_of_physical_person_detention_with_respect_to_whom_administrative_detention_is_applied;
+    => nrel_associative_connection: by_attempt;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+
+    => nrel_etalon_online_idx: [7518];;

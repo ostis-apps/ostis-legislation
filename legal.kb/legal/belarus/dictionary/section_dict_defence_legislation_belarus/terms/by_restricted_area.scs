@@ -1,0 +1,61 @@
+
+by_restricted_area
+    => nrel_main_idtf: [restricted area] (* <- lang_en;; *);
+    => nrel_main_idtf: [запретная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забароненая зона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restricted_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restricted_area_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restricted_area_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_the_special_facility;
+    => nrel_associative_connection: by_boundaries_of_restricted_areas_andor_restricted_areas;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_tolerance_zone;
+    => nrel_associative_connection: by_sports_events;
+    => nrel_associative_connection: by_vulnerable_place;
+    => nrel_associative_connection: by_physical_barrier;
+
+    => nrel_etalon_online_idx: [14868];;

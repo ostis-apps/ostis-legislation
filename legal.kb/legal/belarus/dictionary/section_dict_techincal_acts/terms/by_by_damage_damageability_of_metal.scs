@@ -1,0 +1,25 @@
+
+by_by_damage_damageability_of_metal
+    => nrel_main_idtf: [by_damage_damageability_of_metal] (* <- lang_en;; *);
+    => nrel_main_idtf: [повреждение (повреждаемость) металла] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашкоджанне (повреждаемость) металу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_damage_damageability_of_metal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_strength;
+
+    => nrel_etalon_online_idx: [38009];;

@@ -1,0 +1,31 @@
+
+by_enforced_fee
+    => nrel_main_idtf: [enforced fee] (* <- lang_en;; *);
+    => nrel_main_idtf: [принудительный сбор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прымусовы збор] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_enforced_fee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_collection_of_tax_due_duty_penalty;
+    => nrel_associative_connection: by_executory_proceeding;
+    => nrel_associative_connection: by_executive_document;
+    => nrel_associative_connection: by_forced_execution_of_the_execution_document;
+    => nrel_associative_connection: by_expenses_on_execution_of_the_execution_document;
+    => nrel_associative_connection: by_collection;
+    => nrel_associative_connection: by_collection_duty;
+
+    => nrel_etalon_online_idx: [21291];;

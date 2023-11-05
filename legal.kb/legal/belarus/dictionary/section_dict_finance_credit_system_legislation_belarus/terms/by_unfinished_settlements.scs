@@ -1,0 +1,29 @@
+
+by_unfinished_settlements
+    => nrel_main_idtf: [unfinished settlements] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконченные расчеты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няскончаныя разлікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unfinished_settlements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budgetary_assignments;
+    => nrel_associative_connection: by_budgetary_commitments;
+    => nrel_associative_connection: by_budgetary_relations;
+    => nrel_associative_connection: by_budgetary_funds;
+    => nrel_associative_connection: by_accounts;
+
+    => nrel_etalon_online_idx: [10908];;

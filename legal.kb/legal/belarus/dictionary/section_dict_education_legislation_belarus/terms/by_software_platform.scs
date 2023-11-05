@@ -1,0 +1,35 @@
+
+by_software_platform
+    => nrel_main_idtf: [software platform] (* <- lang_en;; *);
+    => nrel_main_idtf: [программная платформа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграмная платформа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_software_platform_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_workplace;
+    => nrel_associative_connection: by_hardware_complex_of_the_republican_center_for_data_processing;
+    => nrel_associative_connection: by_computer_program;
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_program_computer;
+    => nrel_associative_connection: by_software;
+    => nrel_associative_connection: by_software_and_maintenance_of_computer_equipment;
+    => nrel_associative_connection: by_server;
+    => nrel_associative_connection: by_audiovisual_control_server;
+    => nrel_associative_connection: by_monitoring_server;
+    => nrel_associative_connection: by_technical_operator_of_the_monitoring_system;
+
+    => nrel_etalon_online_idx: [21451];;

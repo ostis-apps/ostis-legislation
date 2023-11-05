@@ -1,0 +1,29 @@
+
+by_minimum_urinary_syndrome
+    => nrel_main_idtf: [minimum urinary syndrome] (* <- lang_en;; *);
+    => nrel_main_idtf: [минимальный мочевой синдром] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінімальны мачавы сіндром] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_minimum_urinary_syndrome_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_glomerulonephritis;
+    => nrel_associative_connection: by_interstitial_nephrite;
+    => nrel_associative_connection: by_urinary_tract_infection;
+    => nrel_associative_connection: by_nephrotic_syndrome;
+    => nrel_associative_connection: by_acute_renal_failure;
+
+    => nrel_etalon_online_idx: [34111];;

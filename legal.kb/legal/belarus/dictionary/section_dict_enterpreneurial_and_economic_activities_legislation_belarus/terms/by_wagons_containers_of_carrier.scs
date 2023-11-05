@@ -1,0 +1,33 @@
+
+by_wagons_containers_of_carrier
+    => nrel_main_idtf: [wagons, containers of carrier] (* <- lang_en;; *);
+    => nrel_main_idtf: [вагоны, контейнеры перевозчика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вагоны, кантэйнеры перавозчыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wagons_containers_of_carrier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_big_container;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_wagons_containers_of_consignors_consignees;
+    => nrel_associative_connection: by_container_train;
+    => nrel_associative_connection: by_operator_of_wagons_containers;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_full_wagonload;
+    => nrel_associative_connection: by_prefabricated_wagon_with_regard_to_the_application_of_the_tariff;
+
+    => nrel_etalon_online_idx: [11197];;

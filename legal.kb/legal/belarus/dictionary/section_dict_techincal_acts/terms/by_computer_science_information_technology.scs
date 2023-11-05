@@ -1,0 +1,27 @@
+
+by_computer_science_information_technology
+    => nrel_main_idtf: [computer science (information technology)] (* <- lang_en;; *);
+    => nrel_main_idtf: [информатика (информационные технологии)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфарматыка (інфармацыйныя тэхналогіі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_computer_science_information_technology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_etalon_online_idx: [38305];;

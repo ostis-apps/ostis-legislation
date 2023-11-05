@@ -1,0 +1,28 @@
+
+by_port_authorities
+    => nrel_main_idtf: [port authorities] (* <- lang_en;; *);
+    => nrel_main_idtf: [портовые власти] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партовыя ўлады] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_port_authorities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_port;
+    => nrel_associative_connection: by_public_port;
+    => nrel_associative_connection: by_home_ship_port;
+    => nrel_associative_connection: by_port_payments;
+
+    => nrel_etalon_online_idx: [20693];;

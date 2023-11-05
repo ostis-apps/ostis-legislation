@@ -1,0 +1,44 @@
+
+by_time_stamp
+    => nrel_main_idtf: [time stamp] (* <- lang_en;; *);
+    => nrel_main_idtf: [штамп времени] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штамп часу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_time_stamp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_time_stamp_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_copy_of_an_electronic_document;
+    => nrel_associative_connection: by_recall_of_the_open_key_of_electronic_digital_signature_check;
+    => nrel_associative_connection: by_provider_of_services;
+    => nrel_associative_connection: by_means_of_digital_signature;
+    => nrel_associative_connection: by_integrity_of_the_electronic_document;
+
+    => nrel_etalon_online_idx: [31368];;

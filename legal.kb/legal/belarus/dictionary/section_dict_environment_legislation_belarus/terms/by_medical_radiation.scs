@@ -1,0 +1,82 @@
+
+by_medical_radiation
+    => nrel_main_idtf: [medical radiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинское облучение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскае апраменьванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_radiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_radiation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_radiation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_radiation_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_treatment;
+    => nrel_associative_connection: by_medical_physics;
+    => nrel_associative_connection: by_medical_physician;
+    => nrel_associative_connection: by_medical_examination;
+    => nrel_associative_connection: by_monitoring_of_radiation_doses_of_the_population;
+    => nrel_associative_connection: by_irradiation;
+    => nrel_associative_connection: by_acute_radiation_sickness;
+    => nrel_associative_connection: by_potential_irradiation;
+    => nrel_associative_connection: by_limit_of_irradiation_dose;
+    => nrel_associative_connection: by_professional_irradiation;
+    => nrel_associative_connection: by_representative_person;
+    => nrel_associative_connection: by_average_annual_effective_radiation_dose_of_population;
+    => nrel_associative_connection: by_effective_radioactive_dose;
+
+    => nrel_etalon_online_idx: [17014];;

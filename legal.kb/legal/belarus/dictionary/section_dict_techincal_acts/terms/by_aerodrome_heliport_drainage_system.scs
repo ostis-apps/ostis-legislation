@@ -1,0 +1,28 @@
+
+by_aerodrome_heliport_drainage_system
+    => nrel_main_idtf: [aerodrome (heliport) drainage system] (* <- lang_en;; *);
+    => nrel_main_idtf: [водоотводная система аэродрома (вертодрома)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водаадводная сістэма аэрадрома (вертадрома)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_heliport_drainage_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_drainage_system_of_the_aerodrome_heliport;
+    => nrel_associative_connection: by_engineering_networks;
+    => nrel_associative_connection: by_airfield;
+
+    => nrel_etalon_online_idx: [37424];;

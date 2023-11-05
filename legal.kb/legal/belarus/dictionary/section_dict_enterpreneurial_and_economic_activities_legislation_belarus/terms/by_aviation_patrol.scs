@@ -1,0 +1,32 @@
+
+by_aviation_patrol
+    => nrel_main_idtf: [aviation patrol] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиационное патрулирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяцыйнае патруляванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_patrol_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forest_fire_hazard_class_according_to_weather_conditions;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_fire;
+    => nrel_associative_connection: by_liquidation_of_the_forest_fire;
+    => nrel_associative_connection: by_ministry_of_emergency_situations_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_ministry_of_emergency_situations_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_area_of_performance_of_aviation_works;
+
+    => nrel_etalon_online_idx: [7476];;

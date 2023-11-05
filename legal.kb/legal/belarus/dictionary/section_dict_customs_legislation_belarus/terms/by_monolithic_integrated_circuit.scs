@@ -1,0 +1,32 @@
+
+by_monolithic_integrated_circuit
+    => nrel_main_idtf: [monolithic integrated circuit] (* <- lang_en;; *);
+    => nrel_main_idtf: [монолитная интегральная схема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маналітная інтэгральная схема] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monolithic_integrated_circuit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_main_logic_element_delay_time;
+    => nrel_associative_connection: by_hybrid_integral_scheme;
+    => nrel_associative_connection: by_integrated_circuit;
+    => nrel_associative_connection: by_integrated_circuits;
+    => nrel_associative_connection: by_film_integral_scheme;
+    => nrel_associative_connection: by_certificate_for_the_topology_of_the_integrated_microcircuit;
+    => nrel_associative_connection: by_electronic_assembly;
+    => nrel_associative_connection: by_scheme_element;
+
+    => nrel_etalon_online_idx: [17512];;

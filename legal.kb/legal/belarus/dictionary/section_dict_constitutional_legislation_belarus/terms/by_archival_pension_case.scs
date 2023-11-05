@@ -1,0 +1,28 @@
+
+by_archival_pension_case
+    => nrel_main_idtf: [archival pension case] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивное пенсионное дело] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архіўная пенсійная справа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archival_pension_case_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_application_for_a_pension;
+    => nrel_associative_connection: by_refusal_pensioner_dossier;
+    => nrel_associative_connection: by_pensioner_dossier;
+    => nrel_associative_connection: by_pension_insurance;
+
+    => nrel_etalon_online_idx: [31429];;

@@ -1,0 +1,63 @@
+
+by_general_population_of_households
+    => nrel_main_idtf: [general population of households] (* <- lang_en;; *);
+    => nrel_main_idtf: [генеральная совокупность домашних хозяйств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генеральная сукупнасць хатніх гаспадарак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_population_of_households_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_population_of_households_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_population_of_households_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_probability_sampling;
+    => nrel_associative_connection: by_probability_of_selection;
+    => nrel_associative_connection: by_sample_proportion_of_households;
+    => nrel_associative_connection: by_household_sample;
+    => nrel_associative_connection: by_confidence_range;
+    => nrel_associative_connection: by_household;
+    => nrel_associative_connection: by_individual_weight_of_the_respondent;
+    => nrel_associative_connection: by_coding_respondents_answers;
+    => nrel_associative_connection: by_collective_household;
+
+    => nrel_etalon_online_idx: [31026];;

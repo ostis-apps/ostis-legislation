@@ -1,0 +1,29 @@
+
+by_______coprated_rated_coefficient_of_performance
+    => nrel_main_idtf: [номинальный коэффициент производительности в режиме нагрева; coprated (rated coefficient of performance)] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальный коэффициент производительности в режиме нагрева; coprated (rated coefficient of performance)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальны каэфіцыент прадукцыйнасці ў рэжыме нагрэву; coprated (rated coefficient of performance)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_______coprated_rated_coefficient_of_performance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_capacity_ratio;
+    => nrel_associative_connection: by_power_factor;
+    => nrel_associative_connection: by_electric_backup_heater_capacity;
+    => nrel_associative_connection: by_rated_energy_efficiency_ratio;
+
+    => nrel_etalon_online_idx: [35054];;

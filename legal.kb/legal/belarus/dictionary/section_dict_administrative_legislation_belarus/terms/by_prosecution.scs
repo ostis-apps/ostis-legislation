@@ -1,0 +1,43 @@
+
+by_prosecution
+    => nrel_main_idtf: [prosecution] (* <- lang_en;; *);
+    => nrel_main_idtf: [преследование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праследаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prosecution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prosecution_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accused;
+    => nrel_associative_connection: by_prosecuting_agency;
+    => nrel_associative_connection: by_prosecution_of_citizens_for_criticism;
+    => nrel_associative_connection: by_criminal_prosecution;
+
+    => nrel_etalon_online_idx: [21165];;

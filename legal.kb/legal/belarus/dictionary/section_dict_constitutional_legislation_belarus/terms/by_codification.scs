@@ -1,0 +1,32 @@
+
+by_codification
+    => nrel_main_idtf: [codification] (* <- lang_en;; *);
+    => nrel_main_idtf: [кодификация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кадыфікацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_codification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_legislation;
+    => nrel_associative_connection: by_code_of_the_republic_of_belarus_codified_normative_legal_act;
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_normmaking_activity;
+    => nrel_associative_connection: by_recodification;
+    => nrel_associative_connection: by_systematization_of_legislation;
+    => nrel_associative_connection: by_systematization_of_normative_legal_acts;
+    => nrel_associative_connection: by_arbitration_agreement;
+
+    => nrel_etalon_online_idx: [1655];;

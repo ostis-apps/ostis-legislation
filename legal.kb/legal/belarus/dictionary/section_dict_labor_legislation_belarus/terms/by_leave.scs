@@ -1,0 +1,26 @@
+
+by_leave
+    => nrel_main_idtf: [leave] (* <- lang_en;; *);
+    => nrel_main_idtf: [отпуск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водпуск] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leave_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_vacation_holidays;
+    => nrel_associative_connection: by_recalling_from_leave;
+
+    => nrel_etalon_online_idx: [504];;

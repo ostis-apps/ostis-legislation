@@ -1,0 +1,64 @@
+
+by_afforestation
+    => nrel_main_idtf: [afforestation] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесоразведение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесаразвядзенне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_afforestation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_afforestation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_afforestation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_natural_forest_regeneration;
+    => nrel_associative_connection: by_artificial_reforestation;
+    => nrel_associative_connection: by_planting_area;
+    => nrel_associative_connection: by_forest_culture_fund;
+    => nrel_associative_connection: by_forestseed_zonation;
+    => nrel_associative_connection: by_seat_sowing_seat;
+    => nrel_associative_connection: by_forest_productivity;
+    => nrel_associative_connection: by_method_of_creating_forest_crops;
+    => nrel_associative_connection: by_chemical_care;
+    => nrel_associative_connection: by_rod;
+
+    => nrel_etalon_online_idx: [12107];;

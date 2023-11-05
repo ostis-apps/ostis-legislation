@@ -1,0 +1,29 @@
+
+by_specifications_for_engineering_and_technical_support_of_the_facility
+    => nrel_main_idtf: [specifications for engineering and technical support of the facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [технические условия на инженерно-техническое обеспечение объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічныя ўмовы на інжынерна-тэхнічнае забеспячэнне аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specifications_for_engineering_and_technical_support_of_the_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architecturalplanning_task;
+    => nrel_associative_connection: by_declaration_of_intent;
+    => nrel_associative_connection: by_engineering_systems;
+    => nrel_associative_connection: by_unused_object;
+    => nrel_associative_connection: by_technical_requirements;
+
+    => nrel_etalon_online_idx: [31057];;

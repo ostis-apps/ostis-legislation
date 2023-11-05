@@ -1,0 +1,26 @@
+
+by_cost_of_materials_of_foreign_origin
+    => nrel_main_idtf: [cost of materials of foreign origin] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость материалов иностранного происхождения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт матэрыялаў замежнага паходжання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_materials_of_foreign_origin_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_material;
+    => nrel_associative_connection: by_materials;
+
+    => nrel_etalon_online_idx: [40388];;

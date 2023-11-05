@@ -1,0 +1,44 @@
+
+by_aerodrome_checkpoint
+    => nrel_main_idtf: [aerodrome checkpoint] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольная точка аэродрома] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольная кропка аэрадрома] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_checkpoint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_checkpoint_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_aerodrome_flights;
+    => nrel_associative_connection: by_true_height;
+    => nrel_associative_connection: by_aerodrome_identification_sign;
+    => nrel_associative_connection: by_flight;
+
+    => nrel_etalon_online_idx: [36584];;

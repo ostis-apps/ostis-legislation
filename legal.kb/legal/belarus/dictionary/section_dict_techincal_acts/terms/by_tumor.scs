@@ -1,0 +1,29 @@
+
+by_tumor
+    => nrel_main_idtf: [tumor] (* <- lang_en;; *);
+    => nrel_main_idtf: [опухоль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пухліна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tumor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hygroma;
+    => nrel_associative_connection: by_lymphostasis;
+    => nrel_associative_connection: by_malignization;
+    => nrel_associative_connection: by_metastasis;
+    => nrel_associative_connection: by_nonepithelial_tumors;
+
+    => nrel_etalon_online_idx: [34171];;

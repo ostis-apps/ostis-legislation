@@ -1,0 +1,13 @@
+
+by_degradation
+    => nrel_main_idtf: [degradation] (* <- lang_en;; *);
+    => nrel_main_idtf: [деградация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэградацыя] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_degradation_failure;
+    => nrel_associative_connection: by_aging_mechanism;
+    => nrel_associative_connection: by_inoperable_condition;
+
+    => nrel_etalon_online_idx: [31609];;

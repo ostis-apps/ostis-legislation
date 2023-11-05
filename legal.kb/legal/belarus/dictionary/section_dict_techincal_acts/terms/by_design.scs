@@ -1,0 +1,60 @@
+
+by_design
+    => nrel_main_idtf: [design] (* <- lang_en;; *);
+    => nrel_main_idtf: [дизайн] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дызайн] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architectural_design;
+    => nrel_associative_connection: by_clinical_trial_design;
+    => nrel_associative_connection: by_design_services;
+    => nrel_associative_connection: by_design_engineering;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_universal_design;
+
+    => nrel_etalon_online_idx: [2483];;

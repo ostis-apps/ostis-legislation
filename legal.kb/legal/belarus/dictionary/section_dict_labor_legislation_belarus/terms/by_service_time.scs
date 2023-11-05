@@ -1,0 +1,31 @@
+
+by_service_time
+    => nrel_main_idtf: [service time] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебное время] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовы час] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_time_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_primary_base;
+    => nrel_associative_connection: by_rest_in_flight;
+    => nrel_associative_connection: by_periodic_extended_rest_weekends;
+    => nrel_associative_connection: by_extended_aircraft_crew;
+    => nrel_associative_connection: by_standby_mode;
+    => nrel_associative_connection: by_standby_at_the_airport_mode;
+    => nrel_associative_connection: by_service_hours_at_night;
+
+    => nrel_etalon_online_idx: [42305];;

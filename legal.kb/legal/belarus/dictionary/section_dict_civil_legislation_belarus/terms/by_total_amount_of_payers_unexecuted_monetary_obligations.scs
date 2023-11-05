@@ -1,0 +1,31 @@
+
+by_total_amount_of_payers_unexecuted_monetary_obligations
+    => nrel_main_idtf: [total amount of payers unexecuted monetary obligations] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая сумма неисполненных денежных обязательств плательщика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная сума няздзейсненых грашовых абавязацельстваў плацельшчыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_amount_of_payers_unexecuted_monetary_obligations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monetary_obligation;
+    => nrel_associative_connection: by_bodies_of_state_control;
+    => nrel_associative_connection: by_fund_bodies;
+    => nrel_associative_connection: by_payment_instruction_for_automated_information_system_of_monetary_obligations_execution;
+    => nrel_associative_connection: by_security_procedure;
+    => nrel_associative_connection: by_account;
+    => nrel_associative_connection: by_email;
+
+    => nrel_etalon_online_idx: [31374];;

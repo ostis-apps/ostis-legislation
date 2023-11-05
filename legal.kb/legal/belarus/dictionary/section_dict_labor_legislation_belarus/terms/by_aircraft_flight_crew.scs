@@ -1,0 +1,36 @@
+
+by_aircraft_flight_crew
+    => nrel_main_idtf: [aircraft flight crew] (* <- lang_en;; *);
+    => nrel_main_idtf: [летный экипаж воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лётны экіпаж паветранага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aircraft_flight_crew_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_spare_crew;
+    => nrel_associative_connection: by_cabin_crew_of_aircrafts;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_minimum_required_crew_of_the_aircraft;
+    => nrel_associative_connection: by_minimum_structure_of_flight_crew;
+    => nrel_associative_connection: by_minimum_structure_of_crew;
+    => nrel_associative_connection: by_minimal_circadian_activity_window;
+    => nrel_associative_connection: by_primary_base;
+    => nrel_associative_connection: by_afterflight_training_in_the_crew_flight_debrief;
+    => nrel_associative_connection: by_extended_aircraft_crew;
+    => nrel_associative_connection: by_reserve_crew;
+    => nrel_associative_connection: by_reinforced_composition_of_flight_crew;
+
+    => nrel_etalon_online_idx: [42291];;

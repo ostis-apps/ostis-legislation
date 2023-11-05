@@ -1,0 +1,44 @@
+
+by_objects_for_recycling_of_waste
+    => nrel_main_idtf: [objects for recycling of waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты по использованию отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты па выкарыстанні адходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_for_recycling_of_waste_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_for_recycling_of_waste_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_use_of_waste;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_preparation_of_waste_for_use;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_waste_storage;
+
+    => nrel_etalon_online_idx: [10815];;

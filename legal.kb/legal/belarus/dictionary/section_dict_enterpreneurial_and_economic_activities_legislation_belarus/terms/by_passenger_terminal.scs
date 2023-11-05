@@ -1,0 +1,34 @@
+
+by_passenger_terminal
+    => nrel_main_idtf: [passenger terminal] (* <- lang_en;; *);
+    => nrel_main_idtf: [пассажирский терминал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасажырскі тэрмінал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_terminal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ticket_office;
+    => nrel_associative_connection: by_owner_of_the_passenger_terminal;
+    => nrel_associative_connection: by_railway_station;
+    => nrel_associative_connection: by_traffic_control_station;
+    => nrel_associative_connection: by_cash_office;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_on_which_passengers_are_sending_and_or_receiving;
+    => nrel_associative_connection: by_operator_of_passenger_terminal;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_stopping_point_station;
+    => nrel_associative_connection: by_taxi_terminal;
+
+    => nrel_etalon_online_idx: [19851];;

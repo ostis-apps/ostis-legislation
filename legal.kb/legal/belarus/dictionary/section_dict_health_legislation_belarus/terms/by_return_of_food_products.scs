@@ -1,0 +1,32 @@
+
+by_return_of_food_products
+    => nrel_main_idtf: [return of food products] (* <- lang_en;; *);
+    => nrel_main_idtf: [возврат пищевой продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зварот харчовай прадукцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_return_of_food_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_food_products;
+    => nrel_associative_connection: by_release_of_food_products_in_circulation;
+    => nrel_associative_connection: by_withdrawal_of_food_products;
+    => nrel_associative_connection: by_food_product_of_slaughter;
+    => nrel_associative_connection: by_business_subject_that_issued_food_products_into_circulation;
+    => nrel_associative_connection: by_destruction_of_food_products;
+    => nrel_associative_connection: by_established_requirements;
+    => nrel_associative_connection: by_disposal_of_food_products;
+
+    => nrel_etalon_online_idx: [31694];;

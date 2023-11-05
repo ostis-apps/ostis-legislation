@@ -1,0 +1,62 @@
+
+by_strip_of_air_approaches
+    => nrel_main_idtf: [strip of air approaches] (* <- lang_en;; *);
+    => nrel_main_idtf: [полоса воздушных подходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паласа паветраных падыходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_strip_of_air_approaches_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_strip_of_air_approaches_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_strip_of_air_approaches_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_forced_landing;
+    => nrel_associative_connection: by_main_runway;
+    => nrel_associative_connection: by_taking_off_and_landing_zone;
+    => nrel_associative_connection: by_utilization_ratio;
+    => nrel_associative_connection: by_limitation_of_the_total_intensity_of_aircraft_traffic;
+    => nrel_associative_connection: by_dangerous_area;
+    => nrel_associative_connection: by_separate_drive_radio_station;
+
+    => nrel_etalon_online_idx: [20558];;

@@ -1,0 +1,29 @@
+
+by_persistent_loss_of_professional_workability
+    => nrel_main_idtf: [persistent loss of professional workability] (* <- lang_en;; *);
+    => nrel_main_idtf: [стойкая утрата профессиональной трудоспособности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трывалая страта прафесійнай працаздольнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persistent_loss_of_professional_workability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_jobrelated_accident;
+    => nrel_associative_connection: by_vocational_capacity_to_work;
+    => nrel_associative_connection: by_occupational_disease_chronic_or_acute;
+    => nrel_associative_connection: by_degree_of_loss_of_professional_work_capability;
+    => nrel_associative_connection: by_insured_event;
+
+    => nrel_etalon_online_idx: [24261];;

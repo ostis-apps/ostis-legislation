@@ -1,0 +1,60 @@
+
+by_mechatronic_system
+    => nrel_main_idtf: [mechatronic system] (* <- lang_en;; *);
+    => nrel_main_idtf: [мехатронная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мехатронная сістэма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechatronic_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechatronic_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechatronic_system_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_manipulator;
+    => nrel_associative_connection: by_mechatronics;
+    => nrel_associative_connection: by_mechatronic_module;
+    => nrel_associative_connection: by_adjustment;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_technological_equipment;
+
+    => nrel_etalon_online_idx: [31472];;

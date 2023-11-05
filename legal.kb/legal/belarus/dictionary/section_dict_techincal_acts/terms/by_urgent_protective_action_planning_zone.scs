@@ -1,0 +1,43 @@
+
+by_urgent_protective_action_planning_zone
+    => nrel_main_idtf: [urgent protective action planning zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона планирования срочных защитных мер ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона планавання тэрміновых абаронных мер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urgent_protective_action_planning_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urgent_protective_action_planning_zone_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_long_term_protective_measure;
+    => nrel_associative_connection: by_extended_planning_distance;
+    => nrel_associative_connection: by_urgent_protective_measure;
+    => nrel_associative_connection: by_urgent_preventive_protective_measure;
+
+    => nrel_etalon_online_idx: [28232];;

@@ -1,0 +1,36 @@
+
+by_aircraft_safety_ensuring
+    => nrel_main_idtf: [aircraft safety ensuring] (* <- lang_en;; *);
+    => nrel_main_idtf: [обеспечение безопасности полетов воздушных судов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забеспячэнне бяспекі палётаў паветраных суднаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aircraft_safety_ensuring_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_security;
+    => nrel_associative_connection: by_aviation_mobile_service;
+    => nrel_associative_connection: by_aviation_event;
+    => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_lateral_safety_strip;
+    => nrel_associative_connection: by_aerial_situation;
+    => nrel_associative_connection: by_aerial_line;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_flight_safety_management;
+    => nrel_associative_connection: by_flight_and_information_services;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_service_flight_time;
+
+    => nrel_etalon_online_idx: [4719];;

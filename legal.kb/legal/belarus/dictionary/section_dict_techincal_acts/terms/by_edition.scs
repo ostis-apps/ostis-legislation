@@ -1,0 +1,69 @@
+
+by_edition
+    => nrel_main_idtf: [edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [издание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выданне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_edition_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_adapted_educational_edition;
+    => nrel_associative_connection: by_biologicaltechnical_name;
+    => nrel_associative_connection: by_brochure;
+    => nrel_associative_connection: by_binding_equipment;
+    => nrel_associative_connection: by_binding_processes;
+    => nrel_associative_connection: by_departmental_edition;
+    => nrel_associative_connection: by_insert;
+    => nrel_associative_connection: by_release_of_educational_editions;
+    => nrel_associative_connection: by_newspaper;
+    => nrel_associative_connection: by_magazine;
+    => nrel_associative_connection: by_order_on_educational_editions;
+    => nrel_associative_connection: by_publication_of_maps_and_plans;
+    => nrel_associative_connection: by_publication_of_software;
+    => nrel_associative_connection: by_editions_for_persons_with_disabilities_on_sight_and_visually_impaired;
+    => nrel_associative_connection: by_publishing_desktop_system;
+    => nrel_associative_connection: by_combined_editions;
+    => nrel_associative_connection: by_multicolor_printing;
+    => nrel_associative_connection: by_national_book_publishing;
+    => nrel_associative_connection: by_single_color_printing;
+    => nrel_associative_connection: by_official_edition;
+    => nrel_associative_connection: by_official_editions_of_the_national_intellectual_property_center;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_reviewer;
+    => nrel_associative_connection: by_socially_significant_editions;
+    => nrel_associative_connection: by_wall;
+    => nrel_associative_connection: by_educational_edition;
+    => nrel_associative_connection: by_reading_address;
+    => nrel_associative_connection: by_digital_edition;
+    => nrel_associative_connection: by_electronic_publications;
+
+    => nrel_etalon_online_idx: [15106];;

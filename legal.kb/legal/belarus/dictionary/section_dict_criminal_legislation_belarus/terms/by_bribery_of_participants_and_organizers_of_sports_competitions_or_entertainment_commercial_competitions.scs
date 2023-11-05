@@ -1,0 +1,28 @@
+
+by_bribery_of_participants_and_organizers_of_sports_competitions_or_entertainment_commercial_competitions
+    => nrel_main_idtf: [bribery of participants and organizers of sports competitions or entertainment commercial competitions] (* <- lang_en;; *);
+    => nrel_main_idtf: [подкуп участников и организаторов спортивных соревнований или зрелищных коммерческих конкурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [подкуп удзельнікаў і арганізатараў спартыўных спаборніцтваў альбо відовішчных камерцыйных конкурсаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bribery_of_participants_and_organizers_of_sports_competitions_or_entertainment_commercial_competitions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commercial_bribery;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_competitive_bidding_participant;
+    => nrel_associative_connection: by_participants_of_the_republican_competition;
+
+    => nrel_etalon_online_idx: [20393];;

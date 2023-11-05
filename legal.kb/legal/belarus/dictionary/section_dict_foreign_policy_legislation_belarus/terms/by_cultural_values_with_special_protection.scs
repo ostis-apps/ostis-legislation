@@ -1,0 +1,26 @@
+
+by_cultural_values_with_special_protection
+    => nrel_main_idtf: [cultural values with special protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [культурные ценности, имеющие специальную защиту] (* <- lang_ru;; *);
+    => nrel_main_idtf: [культурныя каштоўнасці, якія маюць спецыяльную абарону] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cultural_values_with_special_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personnel_responsible_for_defence_and_protection_of_cultural_values;
+    => nrel_associative_connection: by_preservation_of_historic_and_cultural_values;
+
+    => nrel_etalon_online_idx: [16500];;

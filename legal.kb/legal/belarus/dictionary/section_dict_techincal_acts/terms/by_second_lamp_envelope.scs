@@ -1,0 +1,30 @@
+
+by_second_lamp_envelope
+    => nrel_main_idtf: [second lamp envelope] (* <- lang_en;; *);
+    => nrel_main_idtf: [вторая оболочка лампы (second lamp envelope)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [другая абалонка лямпы (second lamp envelope)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_second_lamp_envelope_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_household_lamp;
+    => nrel_associative_connection: by_lamp_start_time;
+    => nrel_associative_connection: by_second_lamp_envelope;
+    => nrel_associative_connection: by_compact_fluorescent_lamp;
+    => nrel_associative_connection: by_lamp_lumen_maintenance_factor_llmf;
+    => nrel_associative_connection: by_fluorescent_lamp;
+
+    => nrel_etalon_online_idx: [35131];;

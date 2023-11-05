@@ -1,0 +1,35 @@
+
+by_radiofrequency_supply
+    => nrel_main_idtf: [radiofrequency supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиочастотное обеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыёчастотнае забеспячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiofrequency_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outofband_emissions;
+    => nrel_associative_connection: by_frequency_switching_time;
+    => nrel_associative_connection: by_radio_frequency_assignment_statement;
+    => nrel_associative_connection: by_rejection_of_means_object;
+    => nrel_associative_connection: by_radiofrequency_assignments_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_radio_frequency_services;
+    => nrel_associative_connection: by_rf_band_distribution;
+    => nrel_associative_connection: by_registration_notification_of_radio_frequency_assignment;
+    => nrel_associative_connection: by_frequency_synthesizer;
+    => nrel_associative_connection: by_radio_frequency_or_radio_frequency_channel_negotiation;
+    => nrel_associative_connection: by_special_agreement_on_the_use_of_the_radiofrequency_spectrum;
+
+    => nrel_etalon_online_idx: [21995];;

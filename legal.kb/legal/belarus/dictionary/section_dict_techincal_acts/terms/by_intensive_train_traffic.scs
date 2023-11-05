@@ -1,0 +1,30 @@
+
+by_intensive_train_traffic
+    => nrel_main_idtf: [intensive train traffic] (* <- lang_en;; *);
+    => nrel_main_idtf: [интенсивное движение поездов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэнсіўны рух цягнікоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intensive_train_traffic_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_brake;
+    => nrel_associative_connection: by_air_gap_isolating_coupling;
+    => nrel_associative_connection: by_auxiliary_locomotive;
+    => nrel_associative_connection: by_warranty_area;
+    => nrel_associative_connection: by_freight_train_index;
+    => nrel_associative_connection: by_especially_intensive_train_traffic;
+
+    => nrel_etalon_online_idx: [33894];;

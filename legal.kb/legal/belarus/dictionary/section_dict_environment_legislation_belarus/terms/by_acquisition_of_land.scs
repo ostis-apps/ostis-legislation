@@ -1,0 +1,28 @@
+
+by_acquisition_of_land
+    => nrel_main_idtf: [acquisition of land] (* <- lang_en;; *);
+    => nrel_main_idtf: [отвод земельного участка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адвод зямельнага ўчастка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acquisition_of_land_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_land_plot_border;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_withdrawal_lane;
+    => nrel_associative_connection: by_railway_withdrawal_lane;
+
+    => nrel_etalon_online_idx: [6432];;

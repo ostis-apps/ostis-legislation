@@ -1,0 +1,30 @@
+
+by_turnover_of_food_raw_materials_and_food_products
+    => nrel_main_idtf: [turnover of food raw materials and food products] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборот продовольственного сырья и пищевых продуктов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот харчовай сыравіны і харчовых прадуктаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_turnover_of_food_raw_materials_and_food_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_genetically_modified_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_food_raw_materials;
+    => nrel_associative_connection: by_production_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_traceability_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_development_of_food_products;
+    => nrel_associative_connection: by_falsified_food_materials_and_food_products;
+
+    => nrel_etalon_online_idx: [32585];;

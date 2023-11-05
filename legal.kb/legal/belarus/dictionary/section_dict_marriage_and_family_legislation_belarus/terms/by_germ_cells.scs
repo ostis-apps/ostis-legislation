@@ -1,0 +1,45 @@
+
+by_germ_cells
+    => nrel_main_idtf: [germ cells] (* <- lang_en;; *);
+    => nrel_main_idtf: [половые клетки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палавыя клеткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_germ_cells_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_germ_cells_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_genetic_mother;
+    => nrel_associative_connection: by_main_cell_bank_mcb;
+    => nrel_associative_connection: by_sex_germ_cell_donor;
+    => nrel_associative_connection: by_sex_germ_cell_donorship;
+    => nrel_associative_connection: by_artificial_insemination;
+    => nrel_associative_connection: by_cryopreservation;
+
+    => nrel_etalon_online_idx: [7660];;

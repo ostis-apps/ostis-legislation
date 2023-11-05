@@ -1,0 +1,28 @@
+
+by_attestation_of_the_object_of_informatization
+    => nrel_main_idtf: [attestation of the object of informatization] (* <- lang_en;; *);
+    => nrel_main_idtf: [аттестация объекта информатизации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [атэстацыя аб'екта інфарматызацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_attestation_of_the_object_of_informatization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_certification_of_information_protection_system;
+    => nrel_associative_connection: by_information_security_of_critical_informatization_object;
+    => nrel_associative_connection: by_object_of_informatization;
+
+    => nrel_etalon_online_idx: [8220];;

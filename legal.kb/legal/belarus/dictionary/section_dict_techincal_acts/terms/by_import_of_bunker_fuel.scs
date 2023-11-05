@@ -1,0 +1,27 @@
+
+by_import_of_bunker_fuel
+    => nrel_main_idtf: [import of bunker fuel] (* <- lang_en;; *);
+    => nrel_main_idtf: [импорт бункерного топлива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імпарт бункернага паліва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_import_of_bunker_fuel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bunker_fuel;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_export_of_bunker_fuel;
+
+    => nrel_etalon_online_idx: [15172];;

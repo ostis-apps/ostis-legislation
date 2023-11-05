@@ -1,0 +1,62 @@
+
+by_forests_monitoring
+    => nrel_main_idtf: [forests monitoring] (* <- lang_en;; *);
+    => nrel_main_idtf: [мониторинг лесов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маніторынг лясоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forests_monitoring_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forests_monitoring_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forests_monitoring_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forest_resources;
+    => nrel_associative_connection: by_forestry_practices;
+    => nrel_associative_connection: by_monitoring;
+    => nrel_associative_connection: by_environmental_monitoring;
+    => nrel_associative_connection: by_flora_monitoring;
+    => nrel_associative_connection: by_forests_protection;
+    => nrel_associative_connection: by_observation_point_of_the_national_environmental_monitoring_system_in_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [6212];;

@@ -1,0 +1,29 @@
+
+by_by_manager_of_the_state_extrabudgetary_fund
+    => nrel_main_idtf: [by_manager_of_the_state_extrabudgetary_fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [распорядитель средств государственного внебюджетного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [распарадчык сродкаў дзяржаўнага пазабюджэтнага фонда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_manager_of_the_state_extrabudgetary_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_nonbudgetary_fund;
+    => nrel_associative_connection: by_budget_manager;
+    => nrel_associative_connection: by_management_of_fund_resources;
+    => nrel_associative_connection: by_estimate_of_income_and_expenditure_of_extrabudgetary_funds;
+    => nrel_associative_connection: by_estimate_of_income_and_expenditure_for_extrabudgetary_funds;
+
+    => nrel_etalon_online_idx: [22126];;

@@ -1,0 +1,28 @@
+
+by_technical_conditions_for_connection_to_the_systems_of_water_supply_water_discharge_sewer_rain_sewer
+    => nrel_main_idtf: [technical conditions for connection to the systems of water supply, water discharge (sewer), rain sewer] (* <- lang_en;; *);
+    => nrel_main_idtf: [технические условия на присоединение к системам водоснабжения, водоотведения (канализации), дождевой канализации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічныя ўмовы на далучэнне да сістэм водазабеспячэння, водаадвядзення (каналізацыі), дажджавой каналізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_conditions_for_connection_to_the_systems_of_water_supply_water_discharge_sewer_rain_sewer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_connection_to_centralized_water_supply_systems_and_or_water_disposal_sewage;
+    => nrel_associative_connection: by_unauthorized_connection;
+    => nrel_associative_connection: by_rainwater_drainage_system;
+    => nrel_associative_connection: by_public_water_supply_system;
+
+    => nrel_etalon_online_idx: [24878];;

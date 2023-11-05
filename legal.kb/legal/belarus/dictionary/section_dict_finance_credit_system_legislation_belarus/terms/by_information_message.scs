@@ -1,0 +1,30 @@
+
+by_information_message
+    => nrel_main_idtf: [information message] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационное сообщение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйнае паведамленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_message_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_exchange;
+    => nrel_associative_connection: by_service_provider;
+    => nrel_associative_connection: by_mode_247365;
+    => nrel_associative_connection: by_nearreal_time_mode;
+    => nrel_associative_connection: by_information_support_service_for_instant_payments;
+    => nrel_associative_connection: by_participant_of_information_exchange;
+
+    => nrel_etalon_online_idx: [41807];;

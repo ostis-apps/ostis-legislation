@@ -1,0 +1,32 @@
+
+by_head_organization_of_the_bank_group
+    => nrel_main_idtf: [head organization of the bank group] (* <- lang_en;; *);
+    => nrel_main_idtf: [головная организация банковской группы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галаўная арганізацыя банкаўскай групы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_organization_of_the_bank_group_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audited_bank_head_organization_of_bank_group_and_or_banking_holding;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_bank_group;
+    => nrel_associative_connection: by_leading_organization;
+    => nrel_associative_connection: by_head_organization_of_the_bank_holding;
+    => nrel_associative_connection: by_group;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_bank_representative_office;
+
+    => nrel_etalon_online_idx: [11837];;

@@ -1,0 +1,17 @@
+
+by_housing_and_utilities_organization_huo
+    => nrel_main_idtf: [housing and utilities organization (huo)] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация жилищно-коммунального хозяйства (жкх)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя жыллёва-камунальнай гаспадаркі (жкг)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_departmental_supplier_organization;
+    => nrel_associative_connection: by_housing_and_utilities_service;
+    => nrel_associative_connection: by_housing_fund_not_serviced_by_housing_and_utilities_organizations;
+    => nrel_associative_connection: by_housing_fund_not_serviced_by_hcs_organizations;
+    => nrel_associative_connection: by_lack_of_housing_and_utilities_service;
+    => nrel_associative_connection: by_housing_fund_served_by_housing_and_utilities_organizations;
+    => nrel_associative_connection: by_main_housing_and_communal_services;
+
+    => nrel_etalon_online_idx: [19218];;

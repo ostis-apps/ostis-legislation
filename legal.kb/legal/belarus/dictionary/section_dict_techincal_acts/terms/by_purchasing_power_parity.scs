@@ -1,0 +1,30 @@
+
+by_purchasing_power_parity
+    => nrel_main_idtf: [purchasing power parity] (* <- lang_en;; *);
+    => nrel_main_idtf: [паритет покупательной способности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парытэт пакупной здольнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_purchasing_power_parity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_buyer;
+    => nrel_associative_connection: by_good;
+    => nrel_associative_connection: by_good_work_service;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+    => nrel_etalon_online_idx: [40074];;

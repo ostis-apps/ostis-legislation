@@ -1,0 +1,28 @@
+
+by_enterosoluble_granules
+    => nrel_main_idtf: [enterosoluble granules] (* <- lang_en;; *);
+    => nrel_main_idtf: [гранулы кишечнорастворимые] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранулы кішачнарастваральныя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_enterosoluble_granules_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_homeopathic_granules;
+    => nrel_associative_connection: by_granules_with_modified_release;
+    => nrel_associative_connection: by_coated_granules;
+    => nrel_associative_connection: by_enterosoluble_capsules;
+
+    => nrel_etalon_online_idx: [36784];;

@@ -1,0 +1,29 @@
+
+by_observation_well
+    => nrel_main_idtf: [observation well] (* <- lang_en;; *);
+    => nrel_main_idtf: [наблюдательная скважина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наглядальная свідравіна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_observation_well_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_borehole;
+    => nrel_associative_connection: by_conservation_of_subsoil;
+    => nrel_associative_connection: by_rational_use_of_subsoil;
+    => nrel_associative_connection: by_groundwater_regime;
+    => nrel_associative_connection: by_well;
+
+    => nrel_etalon_online_idx: [40596];;

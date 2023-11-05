@@ -1,0 +1,31 @@
+
+by_hydrotherapy
+    => nrel_main_idtf: [hydrotherapy] (* <- lang_en;; *);
+    => nrel_main_idtf: [гидротерапия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гідратэрапія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrotherapy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balneotherapy;
+    => nrel_associative_connection: by_barotherapy;
+    => nrel_associative_connection: by_vibrotherapy;
+    => nrel_associative_connection: by_halotherapy;
+    => nrel_associative_connection: by_hypoxytherapy;
+    => nrel_associative_connection: by_colonohydrotherapy;
+    => nrel_associative_connection: by_cryotherapy;
+
+    => nrel_etalon_online_idx: [35325];;

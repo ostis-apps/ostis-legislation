@@ -1,0 +1,29 @@
+
+by_monitoring_system_equipment
+    => nrel_main_idtf: [monitoring system equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборудование системы мониторинга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абсталяванне сістэмы маніторынгу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monitoring_system_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monitoring_system_operator;
+    => nrel_associative_connection: by_users_of_monitoring_system;
+    => nrel_associative_connection: by_legal_framework_of_the_monitoring_system;
+    => nrel_associative_connection: by_owner_of_object_of_installation_location;
+    => nrel_associative_connection: by_subjects_of_the_monitoring_system;
+
+    => nrel_etalon_online_idx: [41592];;

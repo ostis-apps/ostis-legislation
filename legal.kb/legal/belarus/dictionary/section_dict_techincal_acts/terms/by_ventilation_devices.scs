@@ -1,0 +1,32 @@
+
+by_ventilation_devices
+    => nrel_main_idtf: [ventilation devices] (* <- lang_en;; *);
+    => nrel_main_idtf: [вентиляционные устройства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вентыляцыйныя прылады] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ventilation_devices_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drilling_machines;
+    => nrel_associative_connection: by_intramine_mine_transport;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_rock_support;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_mining_and_assembly_plot;
+    => nrel_associative_connection: by_mountain_plot;
+    => nrel_associative_connection: by_mining_machines;
+
+    => nrel_etalon_online_idx: [37520];;

@@ -1,0 +1,36 @@
+
+by_time_of_filing_applications
+    => nrel_main_idtf: [time of filing applications] (* <- lang_en;; *);
+    => nrel_main_idtf: [время подачи заявок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [час падачы заявак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_time_of_filing_applications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_redemption_sum;
+    => nrel_associative_connection: by_date_of_accommodation;
+    => nrel_associative_connection: by_early_repayment;
+    => nrel_associative_connection: by_premature_redemption_of_bonds;
+    => nrel_associative_connection: by_early_buyout;
+    => nrel_associative_connection: by_application_for_early_buyingout;
+    => nrel_associative_connection: by_application_for_sale;
+    => nrel_associative_connection: by_notice_for_early_buyingout;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_circulation_term;
+    => nrel_associative_connection: by_bidding;
+    => nrel_associative_connection: by_ransom_participant;
+
+    => nrel_etalon_online_idx: [29112];;

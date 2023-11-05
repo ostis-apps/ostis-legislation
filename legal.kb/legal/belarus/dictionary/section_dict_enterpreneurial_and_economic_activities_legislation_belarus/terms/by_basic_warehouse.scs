@@ -1,0 +1,14 @@
+
+by_basic_warehouse
+    => nrel_main_idtf: [basic warehouse] (* <- lang_en;; *);
+    => nrel_main_idtf: [базисный склад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базісны склад] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_intermediate_warehouse;
+    => nrel_associative_connection: by_consumable_warehouse_cellar;
+    => nrel_associative_connection: by_warehouse;
+    => nrel_associative_connection: by_warehouses_of_all_types;
+
+    => nrel_etalon_online_idx: [8313];;

@@ -1,0 +1,28 @@
+
+by_educational_institutions_implementing_educational_programs
+    => nrel_main_idtf: [educational institutions implementing educational programs] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждения образования, реализующие программы воспитания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установы адукацыі, якія рэалізуюць праграмы выхавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_institutions_implementing_educational_programs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_upbringing_program;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_education_institutions;
+
+    => nrel_etalon_online_idx: [40603];;

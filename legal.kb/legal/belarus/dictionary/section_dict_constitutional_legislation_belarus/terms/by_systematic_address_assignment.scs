@@ -1,0 +1,30 @@
+
+by_systematic_address_assignment
+    => nrel_main_idtf: [systematic address assignment] (* <- lang_en;; *);
+    => nrel_main_idtf: [систематическое присвоение адресов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэматычнае прысваенне адрасоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_systematic_address_assignment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_address;
+    => nrel_associative_connection: by_address_assigned_by_the_systematic_method;
+    => nrel_associative_connection: by_address_system;
+    => nrel_associative_connection: by_initial_formation_of_addresses_registry;
+    => nrel_associative_connection: by_registry_of_addresses_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_register_of_streets_and_roads;
+
+    => nrel_etalon_online_idx: [10825];;

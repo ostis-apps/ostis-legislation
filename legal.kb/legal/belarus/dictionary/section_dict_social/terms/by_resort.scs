@@ -1,0 +1,34 @@
+
+by_resort
+    => nrel_main_idtf: [resort] (* <- lang_en;; *);
+    => nrel_main_idtf: [курорт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [курорт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resort_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_holiday_house_recreation_center;
+    => nrel_associative_connection: by_resort_of_local_meaning;
+    => nrel_associative_connection: by_resort_of_the_republic_meaning;
+    => nrel_associative_connection: by_resort_zone_resort_region;
+    => nrel_associative_connection: by_resort_settlements;
+    => nrel_associative_connection: by_natural_healing_resources;
+    => nrel_associative_connection: by_permit;
+    => nrel_associative_connection: by_recreational_capacity;
+    => nrel_associative_connection: by_recreational_load;
+    => nrel_associative_connection: by_recreational_zones;
+
+    => nrel_etalon_online_idx: [27694];;

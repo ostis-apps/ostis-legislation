@@ -1,0 +1,28 @@
+
+by_reservation_of_seats_for_travelling
+    => nrel_main_idtf: [reservation of seats for travelling] (* <- lang_en;; *);
+    => nrel_main_idtf: [бронирование места для проезда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [браніраванне месца для праезду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reservation_of_seats_for_travelling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reservation;
+    => nrel_associative_connection: by_air_transportation_reservation;
+    => nrel_associative_connection: by_booking_of_travel_documents_tickets;
+    => nrel_associative_connection: by_travel_document;
+
+    => nrel_etalon_online_idx: [8452];;

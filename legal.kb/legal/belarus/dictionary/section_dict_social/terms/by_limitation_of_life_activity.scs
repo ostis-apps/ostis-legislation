@@ -1,0 +1,29 @@
+
+by_limitation_of_life_activity
+    => nrel_main_idtf: [limitation of life activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограничение жизнедеятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежаванне жыццядзейнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limitation_of_life_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accessible_environment;
+    => nrel_associative_connection: by_vital_activity;
+    => nrel_associative_connection: by_life_situation_violating__normal_vital_activity_of_a_family_citizen;
+    => nrel_associative_connection: by_limitations;
+    => nrel_associative_connection: by_syndrome_of_mutual_burdening;
+
+    => nrel_etalon_online_idx: [18843];;

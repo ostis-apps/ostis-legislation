@@ -1,0 +1,29 @@
+
+by_by_organisations__monopolies
+    => nrel_main_idtf: [by_organisations__monopolies] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации-монополисты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі-манапалісты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_organisations__monopolies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry_of_subjects_of_natural_monopolies;
+    => nrel_associative_connection: by_state_registry_of_economic_entities_having_dominant_position_on_the_commodity_markets;
+    => nrel_associative_connection: by_dominating_position;
+    => nrel_associative_connection: by_monopolistic_activity;
+    => nrel_associative_connection: by_subject_of_natural_monopoly;
+
+    => nrel_etalon_online_idx: [43434];;

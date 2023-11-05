@@ -1,0 +1,44 @@
+
+by_cargopassenger_train
+    => nrel_main_idtf: [cargo-passenger train ] (* <- lang_en;; *);
+    => nrel_main_idtf: [поезд грузо-пассажирский] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягнік груза-пасажырскі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargopassenger_train_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railroad_freight_cars;
+    => nrel_associative_connection: by_train_traffic_schedule;
+    => nrel_associative_connection: by_cargo_on_its_own_wheels;
+    => nrel_associative_connection: by_freight_hauling_direction;
+    => nrel_associative_connection: by_units_of_railway_rolling_stock;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_container_train;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_freight_train;
+    => nrel_associative_connection: by_freight_transporting_long_train;
+    => nrel_associative_connection: by_passengerandfreight_train;
+    => nrel_associative_connection: by_passenger_train;
+    => nrel_associative_connection: by_trains_of_city_lines;
+    => nrel_associative_connection: by_trains_of_commercial_lines;
+    => nrel_associative_connection: by_trains_of_international_lines;
+    => nrel_associative_connection: by_trains_of_interregional_lines;
+    => nrel_associative_connection: by_trains_of_regional_lines;
+    => nrel_associative_connection: by_terms_of_railway_transportation_public;
+    => nrel_associative_connection: by_terms_of_carriage_of_passengers_baggage_and_cargo_railway_transport_for_general_use;
+    => nrel_associative_connection: by_prefabricated_wagon_with_regard_to_the_application_of_the_tariff;
+
+    => nrel_etalon_online_idx: [20451];;

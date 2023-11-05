@@ -1,0 +1,18 @@
+
+by_cash_foreign_currency
+    => nrel_main_idtf: [cash foreign currency] (* <- lang_en;; *);
+    => nrel_main_idtf: [наличная иностранная валюта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наяўная замежная валюта] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_noncash_foreign_currency;
+    => nrel_associative_connection: by_currency;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_foreign_currency;
+    => nrel_associative_connection: by_cash_balance_limit;
+    => nrel_associative_connection: by_cash_monetary_circulation;
+    => nrel_associative_connection: by_foreign_currency_operations_which_committed_in_two_different_currencies;
+    => nrel_associative_connection: by_exchange;
+
+    => nrel_etalon_online_idx: [17649];;

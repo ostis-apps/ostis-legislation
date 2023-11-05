@@ -1,0 +1,42 @@
+
+by_customer_of_passenger_transportation
+    => nrel_main_idtf: [customer of passenger transportation] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказчик перевозок пассажиров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказчык перавозак пасажыраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customer_of_passenger_transportation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile_transportation_of_passengers_in_nonregular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_ordinary_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_the_speed_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_the_express_regular_communication;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_by_transport_of_general_use;
+    => nrel_associative_connection: by_passenger_air_carriage_contract;
+    => nrel_associative_connection: by_contract_for_carriage_of_passengers_by_sea;
+    => nrel_associative_connection: by_contract_of_passenger_carriage;
+    => nrel_associative_connection: by_cruise_ship;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_passenger_transportation_at_destination_return_unladen;
+    => nrel_associative_connection: by_passenger_transportation_by_inland_water_transport_of_general_use;
+    => nrel_associative_connection: by_passenger_transportation_by_trams_in_suburban_communication;
+    => nrel_associative_connection: by_carrier;
+    => nrel_associative_connection: by_carrier_of_passengers_by_urban_electric_transport;
+    => nrel_associative_connection: by_carrier_of_passengers_by_metro;
+    => nrel_associative_connection: by_terms_of_carriage_of_passengers_baggage_and_cargo_railway_transport_for_general_use;
+
+    => nrel_etalon_online_idx: [14765];;

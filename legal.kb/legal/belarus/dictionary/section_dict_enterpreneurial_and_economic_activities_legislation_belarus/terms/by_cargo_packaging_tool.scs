@@ -1,0 +1,28 @@
+
+by_cargo_packaging_tool
+    => nrel_main_idtf: [cargo packaging tool] (* <- lang_en;; *);
+    => nrel_main_idtf: [средство пакетирования грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродак пакетавання грузаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_packaging_tool_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_location_of_loading_unloading;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_pan;
+
+    => nrel_etalon_online_idx: [24081];;

@@ -1,0 +1,33 @@
+
+by_prosecutors_office_of_the_republic_of_belarus
+    => nrel_main_idtf: [prosecutor's office of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [прокуратура республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пракуратура рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prosecutors_office_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_prosecutor;
+    => nrel_associative_connection: by_lawfulness;
+    => nrel_associative_connection: by_law_enforcement_bodies;
+    => nrel_associative_connection: by_prosecutor;
+    => nrel_associative_connection: by_prosecutors_office_employee;
+    => nrel_associative_connection: by_public_prosecutors_worker;
+    => nrel_associative_connection: by_heads_of_bodies_of_the_public_prosecutors_office;
+    => nrel_associative_connection: by_specialized_prosecution_offices;
+    => nrel_associative_connection: by_territorial_prosecutors_offices;
+
+    => nrel_etalon_online_idx: [816];;

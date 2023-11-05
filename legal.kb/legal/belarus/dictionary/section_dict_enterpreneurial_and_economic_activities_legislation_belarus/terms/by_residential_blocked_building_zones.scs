@@ -1,0 +1,30 @@
+
+by_residential_blocked_building_zones
+    => nrel_main_idtf: [residential blocked building zones] (* <- lang_en;; *);
+    => nrel_main_idtf: [зоны жилой блокированной застройки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зоны жылой блакаванай забудовы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_blocked_building_zones_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_apartment_building_zones;
+    => nrel_associative_connection: by_residential_estate_building_zones;
+    => nrel_associative_connection: by_mixed_building_zones_publicresidential;
+    => nrel_associative_connection: by_public_zones;
+    => nrel_associative_connection: by_public_specialized_zones;
+    => nrel_associative_connection: by_industrial_and_business_zones;
+
+    => nrel_etalon_online_idx: [30531];;

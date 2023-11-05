@@ -1,0 +1,27 @@
+
+by_external_lamp_control_gear
+    => nrel_main_idtf: [external lamp control gear] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешний пускорегулирующий аппарат (external lamp control gear)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешні пускарэгулюючы апарат (external lamp control gear)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_lamp_control_gear_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_light_source;
+    => nrel_associative_connection: by_final_owner;
+    => nrel_associative_connection: by_control_device;
+
+    => nrel_etalon_online_idx: [35570];;

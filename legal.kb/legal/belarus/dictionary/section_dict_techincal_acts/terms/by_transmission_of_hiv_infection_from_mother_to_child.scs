@@ -1,0 +1,32 @@
+
+by_transmission_of_hiv_infection_from_mother_to_child
+    => nrel_main_idtf: [transmission of hiv infection from mother to child] (* <- lang_en;; *);
+    => nrel_main_idtf: [передача вич-инфекции от матери ребенку] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадача віч-інфекцыі ад маці да дзіцяці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transmission_of_hiv_infection_from_mother_to_child_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antiretroviral_prevention;
+    => nrel_associative_connection: by_antiretroviral_therapy;
+    => nrel_associative_connection: by_antiretroviral_medicine;
+    => nrel_associative_connection: by_antiretroviral_medicines;
+    => nrel_associative_connection: by_virus_suppression;
+    => nrel_associative_connection: by_hiv_infection;
+    => nrel_associative_connection: by_aids_virus_exposed_child;
+    => nrel_associative_connection: by_hiv_patients;
+
+    => nrel_etalon_online_idx: [29069];;

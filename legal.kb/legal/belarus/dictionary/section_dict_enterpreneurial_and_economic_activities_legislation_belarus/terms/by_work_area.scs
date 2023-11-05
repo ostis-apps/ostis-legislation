@@ -1,0 +1,30 @@
+
+by_work_area
+    => nrel_main_idtf: [work area] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочий участок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочы ўчастак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_work_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_agrochemical_passport;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_field;
+    => nrel_associative_connection: by_working_estimated_plot;
+    => nrel_associative_connection: by_scheme_of_passportized_sites;
+    => nrel_associative_connection: by_portion_of_subsurface;
+
+    => nrel_etalon_online_idx: [31856];;

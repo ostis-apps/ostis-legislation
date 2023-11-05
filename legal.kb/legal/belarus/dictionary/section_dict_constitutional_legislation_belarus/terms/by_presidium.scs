@@ -1,0 +1,27 @@
+
+by_presidium
+    => nrel_main_idtf: [presidium] (* <- lang_en;; *);
+    => nrel_main_idtf: [президиум] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прэзідыум] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_presidium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bureau_of_the_academy_of_science_presidium;
+    => nrel_associative_connection: by_presidium_of_the_academy_of_sciences;
+    => nrel_associative_connection: by_chamber_of_commerce_and_industry;
+
+    => nrel_etalon_online_idx: [21144];;

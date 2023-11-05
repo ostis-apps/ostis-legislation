@@ -1,0 +1,32 @@
+
+by_regulation_articles
+    => nrel_main_idtf: [regulation (articles)] (* <- lang_en;; *);
+    => nrel_main_idtf: [положение (устав)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палажэнне (статут)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulation_articles_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_association_of_legal_entities;
+    => nrel_associative_connection: by_organization__administrative_documents;
+    => nrel_associative_connection: by_articles_of_jointstock_company;
+    => nrel_associative_connection: by_electronic_documents_on_state_registration;
+    => nrel_associative_connection: by_legal_entities_with_special_statutory_tasks;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [2150];;

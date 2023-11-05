@@ -1,0 +1,31 @@
+
+by_forest_wall
+    => nrel_main_idtf: [forest wall] (* <- lang_en;; *);
+    => nrel_main_idtf: [стена леса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сцяна лесу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_wall_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_forest_resources;
+    => nrel_associative_connection: by_nonrenewable_forest_plantations;
+    => nrel_associative_connection: by_firebreak_in_the_forest;
+
+    => nrel_etalon_online_idx: [24228];;

@@ -1,0 +1,38 @@
+
+by_bank_representative_office
+    => nrel_main_idtf: [bank representative office] (* <- lang_en;; *);
+    => nrel_main_idtf: [представительство банка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўніцтва банка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_representative_office_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_nonresident_banks;
+    => nrel_associative_connection: by_nonresident_bank;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_head_organization_of_the_bank_holding;
+    => nrel_associative_connection: by_head_organization_of_the_bank_group;
+    => nrel_associative_connection: by_foreign_bank;
+    => nrel_associative_connection: by_separate_structural_subdivision_of_ojsc_asb_belarusbank;
+    => nrel_associative_connection: by_separate_structural_subdivision_of_open_joint_stock_company_savings_bank_belarusbank;
+    => nrel_associative_connection: by_separate_subdivisions;
+    => nrel_associative_connection: by_representative_office;
+    => nrel_associative_connection: by_representative_office_of_legal_entity;
+    => nrel_associative_connection: by_bank_branch;
+
+    => nrel_etalon_online_idx: [21117];;

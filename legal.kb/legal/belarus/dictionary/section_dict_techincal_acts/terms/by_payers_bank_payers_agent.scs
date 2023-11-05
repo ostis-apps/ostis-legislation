@@ -1,0 +1,31 @@
+
+by_payers_bank_payers_agent
+    => nrel_main_idtf: [payer's bank, payer's agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк плательщика, агент плательщика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк плацельшчыка, агент плацельшчыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payers_bank_payers_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payer_accept;
+    => nrel_associative_connection: by_beneficiarys_bank_beneficiarys_agent;
+    => nrel_associative_connection: by_bank_transaction;
+    => nrel_associative_connection: by_sending_bank_payer_bank;
+    => nrel_associative_connection: by_sending_bank_payers_bank;
+    => nrel_associative_connection: by_intermediary_bank_intermediary_agent;
+    => nrel_associative_connection: by_actual_payer;
+
+    => nrel_etalon_online_idx: [42417];;

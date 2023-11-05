@@ -1,0 +1,49 @@
+
+by_state_customer_of_supply_articles
+    => nrel_main_idtf: [state customer of supply articles] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный заказчик предметов снабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны заказчык прадметаў забеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_customer_of_supply_articles_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_customer_of_supply_articles_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_customer;
+    => nrel_associative_connection: by_customer;
+    => nrel_associative_connection: by_identification_of_a_supply_article;
+    => nrel_associative_connection: by_cataloging;
+    => nrel_associative_connection: by_catalogue_description_sheet_of_a_supply_article;
+    => nrel_associative_connection: by_national_cataloguing_system;
+    => nrel_associative_connection: by_national_catalogue_of_supply_articles;
+    => nrel_associative_connection: by_national_nomenclature_number;
+    => nrel_associative_connection: by_national_cataloguing_center;
+    => nrel_associative_connection: by_specialized_organization_on_cataloguing;
+
+    => nrel_etalon_online_idx: [13723];;

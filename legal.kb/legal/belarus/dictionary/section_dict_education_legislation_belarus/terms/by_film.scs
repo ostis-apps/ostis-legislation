@@ -1,0 +1,109 @@
+
+by_film
+    => nrel_main_idtf: [film] (* <- lang_en;; *);
+    => nrel_main_idtf: [фильм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фільм] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_film;
+    => nrel_associative_connection: by_actor;
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_debut_work;
+    => nrel_associative_connection: by_debut_film;
+    => nrel_associative_connection: by_other_films_having_social_and_cultural_importance;
+    => nrel_associative_connection: by_cinematography;
+    => nrel_associative_connection: by_anthology_film;
+    => nrel_associative_connection: by_film_almanac_of_student_films;
+    => nrel_associative_connection: by_film_document;
+    => nrel_associative_connection: by_cinema;
+    => nrel_associative_connection: by_cinema_chronicle;
+    => nrel_associative_connection: by_cinemachinery;
+    => nrel_associative_connection: by_cinemaproject;
+    => nrel_associative_connection: by_filmmaking_cinematography_organizations;
+    => nrel_associative_connection: by_filmdistributing_cinematography_organizations;
+    => nrel_associative_connection: by_film_show;
+    => nrel_associative_connection: by_classification_of_films;
+    => nrel_associative_connection: by_short_film_in_animated_form;
+    => nrel_associative_connection: by_short_film_in_acting_form;
+    => nrel_associative_connection: by_short_film_in_nonacting_form;
+    => nrel_associative_connection: by_bigbudget_film;
+    => nrel_associative_connection: by_micro_and_advertising_short_film_in_animated_form;
+    => nrel_associative_connection: by_national_films;
+    => nrel_associative_connection: by_mobile_cinemachinery;
+    => nrel_associative_connection: by_film_screening;
+    => nrel_associative_connection: by_fulllength_film_in_animated_form;
+    => nrel_associative_connection: by_fulllength_film_in_acting_form;
+    => nrel_associative_connection: by_fulllength_film_in_nonacting_form;
+    => nrel_associative_connection: by_film_producer;
+    => nrel_associative_connection: by_film_production;
+    => nrel_associative_connection: by_film_distribution;
+    => nrel_associative_connection: by_rirprojection_method;
+    => nrel_associative_connection: by_own_auditorium;
+    => nrel_associative_connection: by_stationary_cinemachinery;
+    => nrel_associative_connection: by_subtitles;
+    => nrel_associative_connection: by_film_in_the_animation_form;
+    => nrel_associative_connection: by_film_in_the_fiction_form;
+    => nrel_associative_connection: by_film_in_the_nonfiction_form;
+    => nrel_associative_connection: by_film_in_the_mixed_form;
+
+    => nrel_etalon_online_idx: [7845];;

@@ -1,0 +1,32 @@
+
+by_physical_and_geographic_objects
+    => nrel_main_idtf: [physical and geographic objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [физико-географические объекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фізіка-геаграфічныя аб'екты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_physical_and_geographic_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geographic_basis;
+    => nrel_associative_connection: by_geographic_objects;
+    => nrel_associative_connection: by_geographic_objects_outside_the_territory_of_the_republic_of_belarus_opened_by_belarus_researchers;
+    => nrel_associative_connection: by_geography;
+    => nrel_associative_connection: by_state_record_of_names_of_geographical_sites;
+    => nrel_associative_connection: by_medical_physician;
+    => nrel_associative_connection: by_names_of_geographical_objects;
+    => nrel_associative_connection: by_renaming_of_geographical_objects;
+
+    => nrel_etalon_online_idx: [7127];;

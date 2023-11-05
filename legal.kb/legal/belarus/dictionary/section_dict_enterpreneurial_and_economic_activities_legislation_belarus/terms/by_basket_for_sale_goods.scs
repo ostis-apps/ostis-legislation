@@ -1,0 +1,14 @@
+
+by_basket_for_sale_goods
+    => nrel_main_idtf: [basket for sale goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [корзина для продажи товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошык для продажу тавараў] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_container_for_storage_and_or_sale_of_goods;
+    => nrel_associative_connection: by_shopping_basket;
+    => nrel_associative_connection: by_consumer_goods_basket;
+    => nrel_associative_connection: by_trolley_for_sales_of_goods;
+
+    => nrel_etalon_online_idx: [35535];;

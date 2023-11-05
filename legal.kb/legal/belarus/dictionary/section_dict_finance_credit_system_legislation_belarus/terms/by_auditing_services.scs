@@ -1,0 +1,57 @@
+
+by_auditing_services
+    => nrel_main_idtf: [auditing services] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиторские услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдытарскія паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auditing_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auditing_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auditees;
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditing_engagements;
+    => nrel_associative_connection: by_internal_audit;
+    => nrel_associative_connection: by_customers__of_audit;
+    => nrel_associative_connection: by_customers_of_audit_services;
+    => nrel_associative_connection: by_quality_control_of_the_audit_firm_or_auditor;
+    => nrel_associative_connection: by_audit_plan;
+    => nrel_associative_connection: by_audit_planning;
+    => nrel_associative_connection: by_planning_in_audit;
+    => nrel_associative_connection: by_previous_auditing_organization;
+    => nrel_associative_connection: by_head_of_the_audit_group_on_consolidated_statement_audit;
+    => nrel_associative_connection: by_external_evaluation_specialist;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_service_on_conducting_concerted_procedures_regarding_financial_information;
+
+    => nrel_etalon_online_idx: [1057];;

@@ -1,0 +1,14 @@
+
+by_main_suppliers
+    => nrel_main_idtf: [main suppliers] (* <- lang_en;; *);
+    => nrel_main_idtf: [основные поставщики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўныя пастаўшчыкі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_supplier;
+    => nrel_associative_connection: by_supplier_contractor_executor;
+    => nrel_associative_connection: by_suppliers;
+    => nrel_associative_connection: by_seller_supplier;
+
+    => nrel_etalon_online_idx: [19394];;

@@ -1,0 +1,43 @@
+
+by_another_area
+    => nrel_main_idtf: [another area] (* <- lang_en;; *);
+    => nrel_main_idtf: [другая местность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншая мясцовасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_another_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_another_area_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_place_of_residence_of_citizen;
+    => nrel_associative_connection: by_defenseless_area;
+    => nrel_associative_connection: by_prosecuting_agency;
+    => nrel_associative_connection: by_participants_of_criminal_proceedings;
+
+    => nrel_etalon_online_idx: [3718];;

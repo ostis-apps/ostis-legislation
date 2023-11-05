@@ -1,0 +1,30 @@
+
+by_drain_station
+    => nrel_main_idtf: [drain station] (* <- lang_en;; *);
+    => nrel_main_idtf: [сливная станция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зліўная станцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drain_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_permissible_concentration_of_polluting_substances_in_the_composition_of_industrial_waste_water_of_the_subscriber;
+    => nrel_associative_connection: by_control_sample_of_wastewater;
+    => nrel_associative_connection: by_sewerage_street_distribution_network;
+    => nrel_associative_connection: by_rainwater_drainage_system;
+    => nrel_associative_connection: by_constructions_and_devices_of_centralized_water_supply_water_discharge_sewer;
+    => nrel_associative_connection: by_street_vodorazbor;
+
+    => nrel_etalon_online_idx: [32102];;

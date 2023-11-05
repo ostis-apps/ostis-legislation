@@ -1,0 +1,28 @@
+
+by_synthetic_biology
+    => nrel_main_idtf: [synthetic biology] (* <- lang_en;; *);
+    => nrel_main_idtf: [синтетическая биология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сінтэтычная біялогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_synthetic_biology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_safety;
+    => nrel_associative_connection: by_biological_protection;
+    => nrel_associative_connection: by_biological_risk;
+    => nrel_associative_connection: by_hazardous_biological_factor;
+
+    => nrel_etalon_online_idx: [39948];;

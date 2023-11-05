@@ -1,0 +1,28 @@
+
+by_the_cost_of_a_reserved_seat
+    => nrel_main_idtf: [the cost of a reserved seat] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость плацкарты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт плацкарты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_cost_of_a_reserved_seat_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railroad_passenger_cars;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_agreed_trains;
+    => nrel_associative_connection: by_cost;
+
+    => nrel_etalon_online_idx: [24248];;

@@ -1,0 +1,29 @@
+
+by_industry
+    => nrel_main_idtf: [industry] (* <- lang_en;; *);
+    => nrel_main_idtf: [отрасль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галіна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_production;
+    => nrel_associative_connection: by_artificial_intelligence;
+    => nrel_associative_connection: by_branch_of_the_economy;
+    => nrel_associative_connection: by_indicator_of_the_level_of_digital_development;
+    => nrel_associative_connection: by_universal_vehicles_management_system;
+
+    => nrel_etalon_online_idx: [42552];;

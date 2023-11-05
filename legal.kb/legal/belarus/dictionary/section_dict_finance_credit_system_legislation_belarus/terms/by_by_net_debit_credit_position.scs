@@ -1,0 +1,29 @@
+
+by_by_net_debit_credit_position
+    => nrel_main_idtf: [by_net_debit_credit_position] (* <- lang_en;; *);
+    => nrel_main_idtf: [чистая дебетовая (кредитовая) позиция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чыстая дэбетовая (крэдытавая) пазіцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_net_debit_credit_position_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monetary_obligation;
+    => nrel_associative_connection: by_clearing;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_interbank_settlements_in_reserve_regime;
+    => nrel_associative_connection: by_net_debit_credit_position_of_settlement_agent_belkart;
+
+    => nrel_etalon_online_idx: [26322];;

@@ -1,0 +1,30 @@
+
+by_historianarchivist
+    => nrel_main_idtf: [historian-archivist] (* <- lang_en;; *);
+    => nrel_main_idtf: [историк-архивист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гісторык-архівіст] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_historianarchivist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_business;
+    => nrel_associative_connection: by_historian;
+    => nrel_associative_connection: by_historianmuseologist;
+    => nrel_associative_connection: by_historical_and_archival_reference;
+    => nrel_associative_connection: by_history;
+    => nrel_associative_connection: by_archive_management;
+
+    => nrel_etalon_online_idx: [29278];;

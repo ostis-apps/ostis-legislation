@@ -1,0 +1,65 @@
+
+by_auxiliary_premise
+    => nrel_main_idtf: [auxiliary premise] (* <- lang_en;; *);
+    => nrel_main_idtf: [вспомогательное помещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапаможнае памяшканне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auxiliary_premise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auxiliary_premise_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auxiliary_premise_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_town_house;
+    => nrel_associative_connection: by_group_of_premises_functional;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_isolated_room;
+    => nrel_associative_connection: by_apartment_building;
+    => nrel_associative_connection: by_hall;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_technical_premise;
+    => nrel_associative_connection: by_hallway_front;
+    => nrel_associative_connection: by_sanitary_maintenance_of_auxiliary_rooms_of_a_residential_house;
+    => nrel_associative_connection: by_service_premise;
+
+    => nrel_etalon_online_idx: [10143];;

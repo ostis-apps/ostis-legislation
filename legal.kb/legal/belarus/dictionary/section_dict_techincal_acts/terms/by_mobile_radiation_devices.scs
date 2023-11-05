@@ -1,0 +1,27 @@
+
+by_mobile_radiation_devices
+    => nrel_main_idtf: [mobile radiation devices] (* <- lang_en;; *);
+    => nrel_main_idtf: [мобильные радиационные устройства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мабільныя радыяцыйныя прылады] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_radiation_devices_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_enclosed_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_ionizing_radiation;
+    => nrel_associative_connection: by_source_of_ionizing_radiation;
+
+    => nrel_etalon_online_idx: [36984];;

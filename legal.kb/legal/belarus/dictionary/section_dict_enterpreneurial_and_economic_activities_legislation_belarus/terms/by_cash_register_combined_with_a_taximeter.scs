@@ -1,0 +1,29 @@
+
+by_cash_register_combined_with_a_taximeter
+    => nrel_main_idtf: [cash register combined with a taximeter] (* <- lang_en;; *);
+    => nrel_main_idtf: [кассовый суммирующий аппарат, совмещенный с таксометром] (* <- lang_ru;; *);
+    => nrel_main_idtf: [касавы падсумоўваючы апарат, сумешчаны з таксометрам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cash_register_combined_with_a_taximeter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_taxicab;
+    => nrel_associative_connection: by_passenger_fare;
+    => nrel_associative_connection: by_taxi_terminal;
+    => nrel_associative_connection: by_center_for_maintenance_and_repair_of_cash_registers_including_those_combined_with_taximeters_ticket_printing_machines;
+
+    => nrel_etalon_online_idx: [40697];;

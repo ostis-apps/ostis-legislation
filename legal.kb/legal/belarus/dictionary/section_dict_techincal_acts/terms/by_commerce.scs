@@ -1,0 +1,26 @@
+
+by_commerce
+    => nrel_main_idtf: [commerce] (* <- lang_en;; *);
+    => nrel_main_idtf: [коммерция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камерцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commerce_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_etalon_online_idx: [38299];;

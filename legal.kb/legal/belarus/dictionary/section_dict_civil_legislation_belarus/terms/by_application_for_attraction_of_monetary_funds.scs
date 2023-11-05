@@ -1,0 +1,28 @@
+
+by_application_for_attraction_of_monetary_funds
+    => nrel_main_idtf: [application for attraction of monetary funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявка на привлечение денежных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўка на прыцягненне грашовых сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_application_for_attraction_of_monetary_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_deposit_auction;
+    => nrel_associative_connection: by_application_for_monetary_funds_placement;
+    => nrel_associative_connection: by_announcement_of_deposit_auction;
+    => nrel_associative_connection: by_participant_of_the_deposit_auction;
+
+    => nrel_etalon_online_idx: [32475];;

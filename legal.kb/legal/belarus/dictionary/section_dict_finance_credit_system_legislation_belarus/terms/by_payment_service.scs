@@ -1,0 +1,54 @@
+
+by_payment_service
+    => nrel_main_idtf: [payment service] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежная услуга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежная паслуга] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authentication_data;
+    => nrel_associative_connection: by_outsourcing_of_payment_services;
+    => nrel_associative_connection: by_outsourcing_of_technological_services;
+    => nrel_associative_connection: by_irrevocability_of_payment;
+    => nrel_associative_connection: by_nonresidents_claimant;
+    => nrel_associative_connection: by_completion_of_the_calculation;
+    => nrel_associative_connection: by_identification_of_the_subject_of_payment_relationships;
+    => nrel_associative_connection: by_initiator_of_payment_transfer_of__monetary_funds_electronic_money;
+    => nrel_associative_connection: by_oversight_of_payment_systems;
+    => nrel_associative_connection: by_payment_finality;
+    => nrel_associative_connection: by_payment_system_operator;
+    => nrel_associative_connection: by_payment_aggregator;
+    => nrel_associative_connection: by_payment_instrument;
+    => nrel_associative_connection: by_payment_courier;
+    => nrel_associative_connection: by_payment_market_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_payee_beneficiary;
+    => nrel_associative_connection: by_payment_service_user;
+    => nrel_associative_connection: by_payment_instrument_provider;
+    => nrel_associative_connection: by_payment_service_provider;
+    => nrel_associative_connection: by_recognition_identification_of_an_account_payment_instrument;
+    => nrel_associative_connection: by_calculated_operations;
+    => nrel_associative_connection: by_risk_in_the_payment_system;
+    => nrel_associative_connection: by_payment_market_participant_risk;
+    => nrel_associative_connection: by_technological_services;
+    => nrel_associative_connection: by_technological_functions_in_the_payment_market;
+    => nrel_associative_connection: by_payment_risk_management;
+    => nrel_associative_connection: by_service_critical_for_the_payment_system_payment_market;
+    => nrel_associative_connection: by_participant_of_the_payment_system;
+    => nrel_associative_connection: by_acquiring_payment_transactions;
+    => nrel_associative_connection: by_issue_creation_of_a_payment_instrument;
+
+    => nrel_etalon_online_idx: [40367];;

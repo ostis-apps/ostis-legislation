@@ -1,0 +1,97 @@
+
+by_electronic_ticket
+    => nrel_main_idtf: [electronic ticket] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронный билет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронны білет] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_ticket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_ticket_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_ticket_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_ticket_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_ticket_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_luggage_receipt;
+    => nrel_associative_connection: by_ticket;
+    => nrel_associative_connection: by_ticket_permit;
+    => nrel_associative_connection: by_validator;
+    => nrel_associative_connection: by_ticket_owner;
+    => nrel_associative_connection: by_railway_station;
+    => nrel_associative_connection: by_copy_of_electronic_ticket;
+    => nrel_associative_connection: by_ticket_package;
+    => nrel_associative_connection: by_passenger_fare;
+    => nrel_associative_connection: by_site_of_ticket_operator;
+    => nrel_associative_connection: by_terminal_of_an_employee_of_control_and_auditor_service_on_road_transport;
+    => nrel_associative_connection: by_digital_receipt;
+    => nrel_associative_connection: by_electronic_ticket_package;
+
+    => nrel_etalon_online_idx: [9109];;

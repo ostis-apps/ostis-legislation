@@ -1,0 +1,30 @@
+
+by_technical_strength
+    => nrel_main_idtf: [technical strength] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническая укрепленность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічная ўмацаванасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_strength_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_engineering_and_technical_fortified_of_the_object;
+    => nrel_associative_connection: by_engineering_and_technical_means_of_protection;
+    => nrel_associative_connection: by_carbine;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [24853];;

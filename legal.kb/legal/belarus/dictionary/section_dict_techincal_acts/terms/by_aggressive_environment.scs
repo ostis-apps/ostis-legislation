@@ -1,0 +1,26 @@
+
+by_aggressive_environment
+    => nrel_main_idtf: [aggressive environment] (* <- lang_en;; *);
+    => nrel_main_idtf: [агрессивная среда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агрэсіўнае асяроддзе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggressive_environment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_liquid_aggressive_environment;
+    => nrel_associative_connection: by_corrosion_resistance_of_the_building_structure;
+
+    => nrel_etalon_online_idx: [35417];;

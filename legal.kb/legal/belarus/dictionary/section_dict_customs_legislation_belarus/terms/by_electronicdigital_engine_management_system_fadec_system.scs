@@ -1,0 +1,29 @@
+
+by_electronicdigital_engine_management_system_fadec_system
+    => nrel_main_idtf: [electronic-digital engine management system (fadec system)] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронно-цифровая система управления двигателем (система fadec)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронна-лічбавая сістэма кіравання рухавіком (сістэма fadec)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronicdigital_engine_management_system_fadec_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_active_pixel;
+    => nrel_associative_connection: by_gas_turbine_power_plant;
+    => nrel_associative_connection: by_service_accumulation_of_vehicles_main_engine;
+    => nrel_associative_connection: by_fadec_system;
+    => nrel_associative_connection: by_specific_goods_works_services;
+
+    => nrel_etalon_online_idx: [26631];;

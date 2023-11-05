@@ -1,0 +1,47 @@
+
+by_passenger_stopping_point
+    => nrel_main_idtf: [passenger stopping point] (* <- lang_en;; *);
+    => nrel_main_idtf: [пассажирский остановочный пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасажырскі прыпыначны пункт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_stopping_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_stopping_point_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_route_vehicle;
+    => nrel_associative_connection: by_vehicle_stop;
+    => nrel_associative_connection: by_bus_stop;
+    => nrel_associative_connection: by_stopping_point_of_the_route;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_passenger_carriages;
+    => nrel_associative_connection: by_passenger_transportation_at_destination_return_unladen;
+    => nrel_associative_connection: by_stopping_point_station;
+
+    => nrel_etalon_online_idx: [19848];;

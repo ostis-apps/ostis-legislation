@@ -1,0 +1,34 @@
+
+by_boiler
+    => nrel_main_idtf: [boiler] (* <- lang_en;; *);
+    => nrel_main_idtf: [котел] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кацёл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_boiler_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autonomous_source_of_heat_supply_boiler_room_ashs;
+    => nrel_associative_connection: by_blockmodular_boiler_room;
+    => nrel_associative_connection: by_builtin_boiler;
+    => nrel_associative_connection: by_supercharged_burner;
+    => nrel_associative_connection: by_protective_ignition_device;
+    => nrel_associative_connection: by_boiler_working_with_hightemperature_organic_inorganic_heat_carriers;
+    => nrel_associative_connection: by_boiler_installation;
+    => nrel_associative_connection: by_roof_boiler_house;
+    => nrel_associative_connection: by_mini_boiler_room;
+    => nrel_associative_connection: by_efficiency;
+
+    => nrel_etalon_online_idx: [37153];;

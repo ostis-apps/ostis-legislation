@@ -1,0 +1,32 @@
+
+by_dentoalveolar_anomalies
+    => nrel_main_idtf: [dentoalveolar anomalies] (* <- lang_en;; *);
+    => nrel_main_idtf: [зубочелюстные аномалии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зубасківічныя анамаліі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dentoalveolar_anomalies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anomaly_form_and_size_of_the_tooth;
+    => nrel_associative_connection: by_abnormal_buckles_and_enamel_pearls;
+    => nrel_associative_connection: by_temporomandibular_joint;
+    => nrel_associative_connection: by_dentistorthodontist;
+    => nrel_associative_connection: by_invasive_sealing;
+    => nrel_associative_connection: by_occlusion;
+    => nrel_associative_connection: by_orthodontic_appliance;
+    => nrel_associative_connection: by_orthodontics;
+
+    => nrel_etalon_online_idx: [36665];;

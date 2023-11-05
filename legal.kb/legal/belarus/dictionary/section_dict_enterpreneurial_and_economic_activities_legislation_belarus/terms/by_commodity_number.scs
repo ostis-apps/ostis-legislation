@@ -1,0 +1,27 @@
+
+by_commodity_number
+    => nrel_main_idtf: [commodity number] (* <- lang_en;; *);
+    => nrel_main_idtf: [товарный номер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таварны нумар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commodity_number_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_international_commodity_numbering_system;
+    => nrel_associative_connection: by_ean_system_of_belarus;
+    => nrel_associative_connection: by_ucici_system;
+
+    => nrel_etalon_online_idx: [25023];;

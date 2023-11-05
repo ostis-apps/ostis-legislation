@@ -1,0 +1,28 @@
+
+by_incorrigible_defect
+    => nrel_main_idtf: [incorrigible defect] (* <- lang_en;; *);
+    => nrel_main_idtf: [неисправимый брак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непапраўны брак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incorrigible_defect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marriage;
+    => nrel_associative_connection: by_corrigible_defect;
+    => nrel_associative_connection: by_mechanical_flaw;
+    => nrel_associative_connection: by_manufacturing_defect;
+
+    => nrel_etalon_online_idx: [27981];;

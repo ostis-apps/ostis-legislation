@@ -1,0 +1,41 @@
+
+by_bunker
+    => nrel_main_idtf: [bunker] (* <- lang_en;; *);
+    => nrel_main_idtf: [бункер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бункер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bunker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bunker_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_capacitive_facilities;
+    => nrel_associative_connection: by_granary;
+
+    => nrel_etalon_online_idx: [37207];;

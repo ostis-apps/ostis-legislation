@@ -1,0 +1,29 @@
+
+by_sound_proofing_capability_of_the_floor
+    => nrel_main_idtf: [sound proofing capability of the floor] (* <- lang_en;; *);
+    => nrel_main_idtf: [звукоизолирующая способность пола] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гукаізалюючая здольнасць падлогі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sound_proofing_capability_of_the_floor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_waterproofing_layer;
+    => nrel_associative_connection: by_soundproofing_layer;
+    => nrel_associative_connection: by_intrinsic_floor_safety;
+    => nrel_associative_connection: by_subgrade;
+    => nrel_associative_connection: by_floor;
+
+    => nrel_etalon_online_idx: [35229];;

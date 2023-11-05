@@ -1,0 +1,28 @@
+
+by_special_library
+    => nrel_main_idtf: [special library] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальная библиотека] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльная бібліятэка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_library_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_librarianship;
+    => nrel_associative_connection: by_state_institution_national_library_of_belarus;
+    => nrel_associative_connection: by_public_library;
+    => nrel_associative_connection: by_library_network;
+
+    => nrel_etalon_online_idx: [7977];;

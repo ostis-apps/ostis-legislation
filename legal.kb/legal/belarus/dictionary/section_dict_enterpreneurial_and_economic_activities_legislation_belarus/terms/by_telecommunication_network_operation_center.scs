@@ -1,0 +1,36 @@
+
+by_telecommunication_network_operation_center
+    => nrel_main_idtf: [telecommunication network operation center] (* <- lang_en;; *);
+    => nrel_main_idtf: [центр управления сетью электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтр кіравання сеткай электрасувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telecommunication_network_operation_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_decentralized_management;
+    => nrel_associative_connection: by_zonal_management_centers;
+    => nrel_associative_connection: by_limitation_of_networks_and_telecommunication_means_use;
+    => nrel_associative_connection: by_priority_use_of_networks_and_telecommunications;
+    => nrel_associative_connection: by_priority_users;
+    => nrel_associative_connection: by_suspension_of_use_of_telecommunication_networks_and_facilities;
+    => nrel_associative_connection: by_connection_of_the_telecommunication_network_to_the_unified_republican_data_transmission_network;
+    => nrel_associative_connection: by_telecommunication_distribution_network;
+    => nrel_associative_connection: by_types_of_electric_charging_stations_by_structure;
+    => nrel_associative_connection: by_center;
+    => nrel_associative_connection: by_control_center;
+    => nrel_associative_connection: by_centralized_management;
+
+    => nrel_etalon_online_idx: [26244];;

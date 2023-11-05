@@ -1,0 +1,30 @@
+
+by_by_plan_for_the_production_of_printed_educational_publications
+    => nrel_main_idtf: [by_plan_for_the_production_of_printed_educational_publications] (* <- lang_en;; *);
+    => nrel_main_idtf: [план выпуска печатных учебных изданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [план выпуску друкарскіх навучальных выданняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_plan_for_the_production_of_printed_educational_publications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_order_for_printed_educational_publications;
+    => nrel_associative_connection: by_order_on_educational_editions;
+    => nrel_associative_connection: by_class_kit;
+    => nrel_associative_connection: by_preparation_for_the_release_of_a_printed_educational_publication;
+    => nrel_associative_connection: by_preparation_for_educational_publications_editions;
+    => nrel_associative_connection: by_preparation_for_elearning_publication;
+
+    => nrel_etalon_online_idx: [42579];;

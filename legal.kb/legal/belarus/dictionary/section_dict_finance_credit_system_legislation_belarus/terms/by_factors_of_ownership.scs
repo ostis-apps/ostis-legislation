@@ -1,0 +1,44 @@
+
+by_factors_of_ownership
+    => nrel_main_idtf: [factors of ownership] (* <- lang_en;; *);
+    => nrel_main_idtf: [факторы владения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фактары валодання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_factors_of_ownership_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_factors_of_ownership_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authenticity_of_the_document_in_electronic_form;
+    => nrel_associative_connection: by_authentication_level;
+    => nrel_associative_connection: by_factors_of_knowledge;
+    => nrel_associative_connection: by_factors_object_properties;
+    => nrel_associative_connection: by_digital_manuscript_signature;
+
+    => nrel_etalon_online_idx: [32186];;

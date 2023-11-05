@@ -1,0 +1,50 @@
+
+by_installation_mobile_or_fixed
+    => nrel_main_idtf: [installation (mobile or fixed)] (* <- lang_en;; *);
+    => nrel_main_idtf: [установка (подвижная или стационарная)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [устаноўка (рухомая або стацыянарная)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_installation_mobile_or_fixed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_installation_mobile_or_fixed_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_apparatus;
+    => nrel_associative_connection: by_telecommunication_network_security;
+    => nrel_associative_connection: by_telecommunication_means_security;
+    => nrel_associative_connection: by_issue_of_telecommunication_means_in_circulation;
+    => nrel_associative_connection: by_destabilizing_impact;
+    => nrel_associative_connection: by_component;
+    => nrel_associative_connection: by_intended_use;
+    => nrel_associative_connection: by_network_termination;
+    => nrel_associative_connection: by_telecommunication_message;
+    => nrel_associative_connection: by_technical_means;
+    => nrel_associative_connection: by_sustainability_of_the_telecommunication_network;
+
+    => nrel_etalon_online_idx: [29066];;

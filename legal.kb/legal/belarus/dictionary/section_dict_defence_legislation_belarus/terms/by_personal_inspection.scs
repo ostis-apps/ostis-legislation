@@ -1,0 +1,42 @@
+
+by_personal_inspection
+    => nrel_main_idtf: [personal inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [личный досмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабовы надгляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_inspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_inspection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_inspection_of_belongings;
+    => nrel_associative_connection: by_checkpoint;
+    => nrel_associative_connection: by_protected_objects;
+
+    => nrel_etalon_online_idx: [6086];;

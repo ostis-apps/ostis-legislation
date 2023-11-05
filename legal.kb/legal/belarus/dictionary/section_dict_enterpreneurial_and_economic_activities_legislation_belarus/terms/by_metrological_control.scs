@@ -1,0 +1,42 @@
+
+by_metrological_control
+    => nrel_main_idtf: [metrological control] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологический контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічны кантроль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_metrological_supervision;
+    => nrel_associative_connection: by_calibration;
+    => nrel_associative_connection: by_metrological_evaluation;
+    => nrel_associative_connection: by_metrological_service;
+    => nrel_associative_connection: by_metrological_requirements;
+    => nrel_associative_connection: by_metrological_audit;
+    => nrel_associative_connection: by_metrological_support_of_defense_and_security_of_the_state;
+    => nrel_associative_connection: by_metrological_confirmation_of_the_suitability_of_measurement_techniques;
+    => nrel_associative_connection: by_metrology;
+    => nrel_associative_connection: by_national_metrology_institute;
+    => nrel_associative_connection: by_compulsory_metrological_requirements;
+    => nrel_associative_connection: by_verification_mark;
+    => nrel_associative_connection: by_verification;
+    => nrel_associative_connection: by_mobile_laboratory_of_measurement_technology;
+    => nrel_associative_connection: by_system_of_ensuring_the_unity_of_measurements_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_standardization;
+    => nrel_associative_connection: by_current_control;
+    => nrel_associative_connection: by_authorized_legal_entity;
+
+    => nrel_etalon_online_idx: [6191];;

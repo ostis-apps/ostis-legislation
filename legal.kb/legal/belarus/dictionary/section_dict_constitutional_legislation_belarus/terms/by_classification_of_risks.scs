@@ -1,0 +1,34 @@
+
+by_classification_of_risks
+    => nrel_main_idtf: [classification of risks] (* <- lang_en;; *);
+    => nrel_main_idtf: [классификация рисков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [класіфікацыя рызык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_classification_of_risks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_risk_analysis;
+    => nrel_associative_connection: by_achieved_safety;
+    => nrel_associative_connection: by_risk_factor_control;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_safety_indicator;
+    => nrel_associative_connection: by_proactive_method;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_flight_safety_management_system;
+    => nrel_associative_connection: by_risk_reduction;
+    => nrel_associative_connection: by_requirements_to_provision_flight_safety;
+
+    => nrel_etalon_online_idx: [31544];;

@@ -1,0 +1,32 @@
+
+by_institutions_for_adults
+    => nrel_main_idtf: [institutions for adults] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждения для взрослых] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установы для дарослых] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_institutions_for_adults_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_programs_of_additional_education_for_adults;
+    => nrel_associative_connection: by_higher_education_institution;
+    => nrel_associative_connection: by_institution_of_additional_education_for_adults;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_education_institutions;
+
+    => nrel_etalon_online_idx: [41558];;

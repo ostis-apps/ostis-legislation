@@ -1,0 +1,29 @@
+
+by_disinfection_of_used_medical_devices
+    => nrel_main_idtf: [disinfection of used medical devices] (* <- lang_en;; *);
+    => nrel_main_idtf: [дезинфекция отработанных медицинских изделий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэзінфекцыя адпрацаваных медыцынскіх вырабаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_disinfection_of_used_medical_devices_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_high_level_disinfection;
+    => nrel_associative_connection: by_medical_waste;
+    => nrel_associative_connection: by_used_medical_devices;
+    => nrel_associative_connection: by_modern_cleaning_technologies;
+    => nrel_associative_connection: by_containers_for_waste_medical_devices_body_fluids_medical_waste_cytostatic_drugs;
+
+    => nrel_etalon_online_idx: [32905];;

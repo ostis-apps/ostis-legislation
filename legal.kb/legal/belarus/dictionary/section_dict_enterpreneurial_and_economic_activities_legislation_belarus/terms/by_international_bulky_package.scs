@@ -1,0 +1,28 @@
+
+by_international_bulky_package
+    => nrel_main_idtf: [international bulky package] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная громоздкая посылка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародная грувасткая пасылка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_bulky_package_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bulky_mails;
+    => nrel_associative_connection: by_international_mail;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_simple_mails;
+
+    => nrel_etalon_online_idx: [32565];;

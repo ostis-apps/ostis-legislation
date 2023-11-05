@@ -1,0 +1,30 @@
+
+by_state_securities
+    => nrel_main_idtf: [state securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные ценные бумаги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя каштоўныя паперы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_securities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_securities_issue_questionnaire;
+    => nrel_associative_connection: by_state_compensation_bond;
+    => nrel_associative_connection: by_activities_on_securities_management_trust;
+    => nrel_associative_connection: by_application_for_purchase_of_government_securities;
+    => nrel_associative_connection: by_issue_documents;
+    => nrel_associative_connection: by_issue_securities;
+
+    => nrel_etalon_online_idx: [3752];;

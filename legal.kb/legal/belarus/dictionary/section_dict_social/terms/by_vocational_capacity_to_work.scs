@@ -1,0 +1,61 @@
+
+by_vocational_capacity_to_work
+    => nrel_main_idtf: [vocational capacity to work] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональная трудоспособность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійная працаздольнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vocational_capacity_to_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vocational_capacity_to_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vocational_capacity_to_work_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_qualification;
+    => nrel_associative_connection: by_acute_occupational_disease;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_sectoral_qualifications_framework;
+    => nrel_associative_connection: by_degree_of_loss_of_professional_work_capability;
+    => nrel_associative_connection: by_persistent_loss_of_professional_workability;
+    => nrel_associative_connection: by_chronic_occupational_disease;
+
+    => nrel_etalon_online_idx: [4267];;

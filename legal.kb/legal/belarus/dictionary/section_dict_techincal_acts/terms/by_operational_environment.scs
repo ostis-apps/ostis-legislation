@@ -1,0 +1,42 @@
+
+by_operational_environment
+    => nrel_main_idtf: [operational environment] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативная обстановка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўная абстаноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_environment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_environment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_public_administration;
+    => nrel_associative_connection: by_special_conditions;
+    => nrel_associative_connection: by_planning;
+
+    => nrel_etalon_online_idx: [34268];;

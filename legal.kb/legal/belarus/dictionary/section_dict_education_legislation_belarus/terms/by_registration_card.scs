@@ -1,0 +1,31 @@
+
+by_registration_card
+    => nrel_main_idtf: [registration card] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрационная карточка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыйная картка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registration_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_unified_state_databank_on_offences;
+    => nrel_associative_connection: by_filling_the_registration_card;
+    => nrel_associative_connection: by_operationalreference_card_file;
+    => nrel_associative_connection: by_registration_card_of_the_vehicle_used_in_the_carriage_of_hazardous_goods;
+    => nrel_associative_connection: by_registration_of_offences;
+    => nrel_associative_connection: by_fixation_of_data_on_offences;
+
+    => nrel_etalon_online_idx: [11057];;

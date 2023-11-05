@@ -1,0 +1,28 @@
+
+by_complex_of_ultrasonic_diagnosis_services
+    => nrel_main_idtf: [complex of ultrasonic diagnosis services] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплекс услуг по ультразвуковой диагностике] (* <- lang_ru;; *);
+    => nrel_main_idtf: [комплекс паслуг па ультрагукавой дыягностыцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_of_ultrasonic_diagnosis_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_complex_of_services_for_radiation_diagnosis;
+    => nrel_associative_connection: by_medical_service;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+    => nrel_etalon_online_idx: [40631];;

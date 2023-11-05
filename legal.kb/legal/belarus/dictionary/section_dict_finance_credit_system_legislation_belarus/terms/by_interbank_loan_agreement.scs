@@ -1,0 +1,26 @@
+
+by_interbank_loan_agreement
+    => nrel_main_idtf: [interbank loan agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [межбанковский кредитный договор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжбанкаўскі крэдытны дагавор] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interbank_loan_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_credit_contract;
+
+    => nrel_etalon_online_idx: [4360];;

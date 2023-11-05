@@ -1,0 +1,43 @@
+
+by_added_cost
+    => nrel_main_idtf: [added cost] (* <- lang_en;; *);
+    => nrel_main_idtf: [добавленная стоимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дабаўленая вартасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_added_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_added_cost_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gross_added_value;
+    => nrel_associative_connection: by_gross_profit;
+    => nrel_associative_connection: by_added_cost_indicator;
+    => nrel_associative_connection: by_cost;
+
+    => nrel_etalon_online_idx: [5695];;

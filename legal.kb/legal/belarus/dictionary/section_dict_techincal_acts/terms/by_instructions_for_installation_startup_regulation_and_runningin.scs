@@ -1,0 +1,44 @@
+
+by_instructions_for_installation_startup_regulation_and_runningin
+    => nrel_main_idtf: [instructions for installation, start-up, regulation and running-in] (* <- lang_en;; *);
+    => nrel_main_idtf: [инструкция по монтажу, пуску, регулированию и обкатке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інструкцыя па мантажы, пуску, рэгуляванні і абкатцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instructions_for_installation_startup_regulation_and_runningin_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instructions_for_installation_startup_regulation_and_runningin_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conveyor;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_building_passengerandfreight_elevator;
+    => nrel_associative_connection: by_industrial_safety_regulations;
+    => nrel_associative_connection: by_industrial_safety;
+
+    => nrel_etalon_online_idx: [38906];;

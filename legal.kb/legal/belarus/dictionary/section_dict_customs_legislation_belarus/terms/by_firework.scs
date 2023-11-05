@@ -1,0 +1,52 @@
+
+by_firework
+    => nrel_main_idtf: [firework] (* <- lang_en;; *);
+    => nrel_main_idtf: [пиротехническое изделие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [піратэхнічны выраб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_firework_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_firework_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_area;
+    => nrel_associative_connection: by_explosive_article;
+    => nrel_associative_connection: by_single_product;
+    => nrel_associative_connection: by_individual_explosive;
+    => nrel_associative_connection: by_pyrotechnic_products;
+    => nrel_associative_connection: by_pyrotechnic_substances;
+    => nrel_associative_connection: by_pyrotechnic_composition;
+    => nrel_associative_connection: by_pyrotechnic_element;
+    => nrel_associative_connection: by_pyrotechnic_substance;
+    => nrel_associative_connection: by_consumable_warehouse_cellar;
+    => nrel_associative_connection: by_selfheating_substances_and_articles;
+    => nrel_associative_connection: by_signal_weapon;
+    => nrel_associative_connection: by_fireworks;
+
+    => nrel_etalon_online_idx: [553];;

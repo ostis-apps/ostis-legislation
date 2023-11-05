@@ -1,0 +1,31 @@
+
+by_sanitary_units_of_civil_defense
+    => nrel_main_idtf: [sanitary units of civil defense ] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарные формирования гражданской обороны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарныя фарміраванні грамадзянскай абароны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitary_units_of_civil_defense_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_medical_formations;
+    => nrel_associative_connection: by_objects_of_civil_defense;
+    => nrel_associative_connection: by_organizations_related_to_the_appropriate_categories_for_civil_defense;
+    => nrel_associative_connection: by_primary_health_care;
+    => nrel_associative_connection: by_civil_defense_personnel;
+    => nrel_associative_connection: by_humanitarian_assistance_personnel;
+    => nrel_associative_connection: by_sanitary_vehicles;
+
+    => nrel_etalon_online_idx: [22833];;

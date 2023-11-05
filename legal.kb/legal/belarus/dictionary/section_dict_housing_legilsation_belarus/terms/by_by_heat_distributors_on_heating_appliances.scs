@@ -1,0 +1,29 @@
+
+by_by_heat_distributors_on_heating_appliances
+    => nrel_main_idtf: [by_heat_distributors_on_heating_appliances] (* <- lang_en;; *);
+    => nrel_main_idtf: [распределители тепла на отопительных приборах] (* <- lang_ru;; *);
+    => nrel_main_idtf: [размеркавальнікі цяпла на ацяпляльных прыборах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_heat_distributors_on_heating_appliances_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gas_heating_device;
+    => nrel_associative_connection: by_hot_water_supply;
+    => nrel_associative_connection: by_personal_account_number;
+    => nrel_associative_connection: by_heating_appliances;
+    => nrel_associative_connection: by_water_heating;
+
+    => nrel_etalon_online_idx: [37023];;

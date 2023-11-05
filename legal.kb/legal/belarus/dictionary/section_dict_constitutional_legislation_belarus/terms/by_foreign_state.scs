@@ -1,0 +1,48 @@
+
+by_foreign_state
+    => nrel_main_idtf: [foreign state] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранное государство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежная дзяржава] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_state_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_state_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automotive_vehicles_of_foreign_states;
+    => nrel_associative_connection: by_nonresident_bank;
+    => nrel_associative_connection: by_income_received_in_a_foreign_state;
+    => nrel_associative_connection: by_foreign_currency;
+    => nrel_associative_connection: by_foreign_organisation;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_international_cooperation;
+    => nrel_associative_connection: by_neighboring_country;
+    => nrel_associative_connection: by_subsidy_of_foreign_state_association_of_foreign_states;
+
+    => nrel_etalon_online_idx: [4997];;

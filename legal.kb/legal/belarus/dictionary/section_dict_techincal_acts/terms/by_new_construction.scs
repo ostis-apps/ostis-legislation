@@ -1,0 +1,43 @@
+
+by_new_construction
+    => nrel_main_idtf: [new construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [новое строительство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [новае будаўніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_new_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_new_construction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_improvement_of_the_object;
+    => nrel_associative_connection: by_finished_construction_facility;
+    => nrel_associative_connection: by_engineering_networks;
+    => nrel_associative_connection: by_assessment_object_which_will_come_in_the_future;
+
+    => nrel_etalon_online_idx: [31162];;

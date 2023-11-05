@@ -1,0 +1,32 @@
+
+by_equipment_for_gamble_organizer
+    => nrel_main_idtf: [equipment for gamble organizer] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборудование организатора азартных игр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абсталяванне арганізатара азартных гульняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_equipment_for_gamble_organizer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_game_table;
+    => nrel_associative_connection: by_foreign_segment_of_the_global_computer_network_internet;
+    => nrel_associative_connection: by_equipment_in_the_sphere_of_gambling;
+    => nrel_associative_connection: by_gambling_organizer;
+    => nrel_associative_connection: by_office_zone_of_gambling_establishment;
+    => nrel_associative_connection: by_accounting_in_the_sphere_of_the_gambling_business_of_the_object_of_accounting;
+
+    => nrel_etalon_online_idx: [29142];;

@@ -1,0 +1,26 @@
+
+by_foreign_body_of_the_digestive_tract
+    => nrel_main_idtf: [foreign body of the digestive tract] (* <- lang_en;; *);
+    => nrel_main_idtf: [инородное тело пищеварительного тракта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншароднае цела стрававальнага тракта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_body_of_the_digestive_tract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_planned_endoscopic_intervention;
+
+    => nrel_etalon_online_idx: [38192];;

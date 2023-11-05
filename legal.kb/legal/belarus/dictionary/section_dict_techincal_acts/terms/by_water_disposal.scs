@@ -1,0 +1,73 @@
+
+by_water_disposal
+    => nrel_main_idtf: [water disposal] (* <- lang_en;; *);
+    => nrel_main_idtf: [водоотведение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водаадвядзенне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_disposal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_disposal_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_disposal_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balance_of_water_consumption_and_water_disposal;
+    => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_water_service_input;
+    => nrel_associative_connection: by_water_management_constructions_and_devices;
+    => nrel_associative_connection: by_limit_of_operational_responsibility;
+    => nrel_associative_connection: by_drainage_water;
+    => nrel_associative_connection: by_engineering_systems;
+    => nrel_associative_connection: by_public_utilities_services;
+    => nrel_associative_connection: by_public_utilities_services_provided_to_population;
+    => nrel_associative_connection: by_inspection_well;
+    => nrel_associative_connection: by_local_waste_treatment_facilities;
+    => nrel_associative_connection: by_industrial_waste_waters_not_requiring_treatment;
+    => nrel_associative_connection: by_normative_standards_of_water_disposal_discharge_of_waste_waters;
+    => nrel_associative_connection: by_sectoral_technological_standards_for_water_use;
+    => nrel_associative_connection: by_industrial_wastewater_of_the_subscriber_subscriber_discharged_to_the_centralized_water_disposal_sewer_systems;
+    => nrel_associative_connection: by_onetime_sample_spot;
+    => nrel_associative_connection: by_distribution_network_of_water_supply_drainage_sewerage;
+    => nrel_associative_connection: by_unauthorized_connection;
+    => nrel_associative_connection: by_centralized_water_disposal_sewer;
+
+    => nrel_etalon_online_idx: [3648];;

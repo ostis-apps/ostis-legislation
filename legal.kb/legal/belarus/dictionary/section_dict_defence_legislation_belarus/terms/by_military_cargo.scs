@@ -1,0 +1,27 @@
+
+by_military_cargo
+    => nrel_main_idtf: [military cargo] (* <- lang_en;; *);
+    => nrel_main_idtf: [воинский груз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воінскі груз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_cargo_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_cargo;
+    => nrel_associative_connection: by_armament_and_military_equipment;
+    => nrel_associative_connection: by_cargoes;
+
+    => nrel_etalon_online_idx: [7323];;

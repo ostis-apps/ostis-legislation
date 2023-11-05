@@ -1,0 +1,30 @@
+
+by_contractual_risk
+    => nrel_main_idtf: [contractual risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [договорный риск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагаворная рызыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contractual_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_compliancerisk;
+    => nrel_associative_connection: by_reputation_risk;
+    => nrel_associative_connection: by_risk_of_access;
+    => nrel_associative_connection: by_counterparty_risk;
+    => nrel_associative_connection: by_concentration_risk_and_systemic_risk;
+    => nrel_associative_connection: by_risk_of_technological_failure;
+
+    => nrel_etalon_online_idx: [32777];;

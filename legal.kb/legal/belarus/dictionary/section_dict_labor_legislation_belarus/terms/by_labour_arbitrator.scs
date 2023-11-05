@@ -1,0 +1,26 @@
+
+by_labour_arbitrator
+    => nrel_main_idtf: [labour arbitrator] (* <- lang_en;; *);
+    => nrel_main_idtf: [трудовой арбитр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працоўны арбітр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_labour_arbitrator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_collective_labour_dispute;
+    => nrel_associative_connection: by_labour_arbitration;
+
+    => nrel_etalon_online_idx: [2102];;

@@ -1,0 +1,28 @@
+
+by_shelf_life_of_food_raw_materials_and_food_products
+    => nrel_main_idtf: [shelf life of food raw materials and food products] (* <- lang_en;; *);
+    => nrel_main_idtf: [срок годности продовольственного сырья и пищевых продуктов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмін прыдатнасці харчовай сыравіны і харчовых прадуктаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shelf_life_of_food_raw_materials_and_food_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quality_of_food_raw_materials;
+    => nrel_associative_connection: by_invented_original_name_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_production_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_traceability_of_food_raw_materials_and_food_products;
+
+    => nrel_etalon_online_idx: [32590];;

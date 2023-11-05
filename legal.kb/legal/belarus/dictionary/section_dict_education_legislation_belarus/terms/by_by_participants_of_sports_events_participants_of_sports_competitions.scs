@@ -1,0 +1,28 @@
+
+by_by_participants_of_sports_events_participants_of_sports_competitions
+    => nrel_main_idtf: [by_participants_of_sports_events_participants_of_sports_competitions] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники спортивных мероприятий (участники спортивных соревнований)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі спартыўных мерапрыемстваў (удзельнікі спартыўных спаборніцтваў)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_participants_of_sports_events_participants_of_sports_competitions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_application_for_reference_to_an_official_sporting_event;
+    => nrel_associative_connection: by_organizer_of_sport_event;
+    => nrel_associative_connection: by_sports_events;
+    => nrel_associative_connection: by_participants_of_sports_events;
+
+    => nrel_etalon_online_idx: [42724];;

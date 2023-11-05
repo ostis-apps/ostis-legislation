@@ -1,0 +1,17 @@
+
+by_aerodrome_dispatch_point
+    => nrel_main_idtf: [aerodrome dispatch point] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродромный диспетчерский пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадромны дыспетчарскі пункт] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_emergency_alert__service_of_emergency_alert;
+    => nrel_associative_connection: by_azimuth;
+    => nrel_associative_connection: by_human_factor_aspects;
+    => nrel_associative_connection: by_aerodrome_traffic;
+    => nrel_associative_connection: by_aerodrome_control;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_rejection_of_means_object;
+
+    => nrel_etalon_online_idx: [31101];;

@@ -1,0 +1,29 @@
+
+by_by_agentbased_model
+    => nrel_main_idtf: [by_agentbased_model] (* <- lang_en;; *);
+    => nrel_main_idtf: [агентное моделирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агентнае мадэліраванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_agentbased_model_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geospatial_system;
+    => nrel_associative_connection: by_a_graph;
+    => nrel_associative_connection: by_information_modeling_of_buildings_structures;
+    => nrel_associative_connection: by_building_information_modelin;
+    => nrel_associative_connection: by_modeling;
+
+    => nrel_etalon_online_idx: [43513];;

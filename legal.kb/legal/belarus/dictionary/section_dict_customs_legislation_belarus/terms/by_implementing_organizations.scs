@@ -1,0 +1,28 @@
+
+by_implementing_organizations
+    => nrel_main_idtf: [implementing organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [реализующие организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэалізуючыя арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_implementing_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_organizations;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_implementing_organization;
+    => nrel_associative_connection: by_economic_entity;
+
+    => nrel_etalon_online_idx: [36266];;

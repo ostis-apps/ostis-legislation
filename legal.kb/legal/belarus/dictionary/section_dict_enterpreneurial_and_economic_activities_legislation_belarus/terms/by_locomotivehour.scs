@@ -1,0 +1,34 @@
+
+by_locomotivehour
+    => nrel_main_idtf: [locomotive-hour] (* <- lang_en;; *);
+    => nrel_main_idtf: [локомотиво-час] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лакаматыва-гадзіна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_locomotivehour_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_plyingup_equipment;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_locomotive;
+    => nrel_associative_connection: by_locomotive_team;
+    => nrel_associative_connection: by_service_accumulation;
+    => nrel_associative_connection: by_beginning_of_work_of_locomotive_and_train_brigade_brigade_attetndant_of_special_mobile_structure_workers_of_paramilitary_security_on_accompanying_and_protection_of_cargoes_in_following_transit;
+    => nrel_associative_connection: by_distance_of_train_through_infrastructure;
+    => nrel_associative_connection: by_sectionhour;
+    => nrel_associative_connection: by_tariffs_of_tariff_schemes_nos_i1_i2_and_i3;
+    => nrel_associative_connection: by_tariffs_of_tariff_schemes_no_l1_l2_and_l3;
+
+    => nrel_etalon_online_idx: [16791];;

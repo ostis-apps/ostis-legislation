@@ -1,0 +1,44 @@
+
+by_operational_service_activities
+    => nrel_main_idtf: [operational service activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативно-служебная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўна-службовая дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_service_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_service_activities_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_border_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_border_committee_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_department_for_provision_of_operationalsearch_activities_of_the_ministry_of_internal_affairs;
+    => nrel_associative_connection: by_frontier_service_bodies;
+    => nrel_associative_connection: by_selection_of_candidates_for_service;
+
+    => nrel_etalon_online_idx: [35543];;

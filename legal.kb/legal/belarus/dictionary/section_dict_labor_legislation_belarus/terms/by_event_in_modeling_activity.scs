@@ -1,0 +1,29 @@
+
+by_event_in_modeling_activity
+    => nrel_main_idtf: [event in modeling activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [мероприятие в модельной деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мерапрыемства ў мадэльнай дзейнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_event_in_modeling_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_event;
+    => nrel_associative_connection: by_beauty_contest;
+    => nrel_associative_connection: by_model_internship;
+    => nrel_associative_connection: by_model_contract;
+    => nrel_associative_connection: by_official_event;
+
+    => nrel_etalon_online_idx: [32067];;

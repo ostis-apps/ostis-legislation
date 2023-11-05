@@ -1,0 +1,78 @@
+
+by_stage
+    => nrel_main_idtf: [stage] (* <- lang_en;; *);
+    => nrel_main_idtf: [перегон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перагон] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stage_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ancillary_post;
+    => nrel_associative_connection: by_urban_communication_urban_lines;
+    => nrel_associative_connection: by_traffic_control_station;
+    => nrel_associative_connection: by_railroad_station;
+    => nrel_associative_connection: by_railway_lines;
+    => nrel_associative_connection: by_commercial_communications_commercial_lines;
+    => nrel_associative_connection: by_metro_communications;
+    => nrel_associative_connection: by_line_of_urban_electric_transport;
+    => nrel_associative_connection: by_metro_lines;
+    => nrel_associative_connection: by_interpost_haul;
+    => nrel_associative_connection: by_interregional_communication_interregional_lines;
+    => nrel_associative_connection: by_interstation_transport;
+    => nrel_associative_connection: by_overtaking_station;
+    => nrel_associative_connection: by_bus_stop;
+    => nrel_associative_connection: by_stopping_point_of_the_route;
+    => nrel_associative_connection: by_crosscountry_communication;
+    => nrel_associative_connection: by_jogging_locomotive;
+    => nrel_associative_connection: by_loadingunloading_point;
+    => nrel_associative_connection: by_separate_paragraph;
+    => nrel_associative_connection: by_passing_loop;
+    => nrel_associative_connection: by_regional_communication_regional_lines;
+    => nrel_associative_connection: by_station_tracks;
+    => nrel_associative_connection: by_station_track;
+    => nrel_associative_connection: by_station;
+
+    => nrel_etalon_online_idx: [19978];;

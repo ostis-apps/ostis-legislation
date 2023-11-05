@@ -1,0 +1,31 @@
+
+by_custom_commercial_herd
+    => nrel_main_idtf: [custom (commercial) herd] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользовательское (товарное) стадо] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальніцкі (таварны) статак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_custom_commercial_herd_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_breeding_book;
+    => nrel_associative_connection: by_breeding_products_material;
+    => nrel_associative_connection: by_breeding_in_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_herd;
+    => nrel_associative_connection: by_productivity_of_breeding_animals_breeding_herds;
+    => nrel_associative_connection: by_herd;
+
+    => nrel_etalon_online_idx: [7663];;

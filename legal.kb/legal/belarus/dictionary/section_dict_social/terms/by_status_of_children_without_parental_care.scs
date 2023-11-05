@@ -1,0 +1,28 @@
+
+by_status_of_children_without_parental_care
+    => nrel_main_idtf: [status of children without parental care] (* <- lang_en;; *);
+    => nrel_main_idtf: [статус детей, оставшихся без попечения родителей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [статус дзяцей, якія засталіся без апекі бацькоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_status_of_children_without_parental_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_childrens_home;
+    => nrel_associative_connection: by_foster_care;
+    => nrel_associative_connection: by_adopted_child_children;
+    => nrel_associative_connection: by_republican_databank_of_adoption_of_orphanced_children_and_children_without_parental_care;
+
+    => nrel_etalon_online_idx: [24200];;

@@ -1,0 +1,27 @@
+
+by_component_parts_and_components
+    => nrel_main_idtf: [component parts and components] (* <- lang_en;; *);
+    => nrel_main_idtf: [составные части и компоненты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [састаўныя часткі і кампаненты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_component_parts_and_components_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_component;
+    => nrel_associative_connection: by_components_of_automotive_transport_means;
+    => nrel_associative_connection: by_component_parts_and_components_of_firearms;
+
+    => nrel_etalon_online_idx: [23614];;

@@ -1,0 +1,50 @@
+
+by_standard_planting_stock_of_forest_plants
+    => nrel_main_idtf: [standard planting stock of forest plants] (* <- lang_en;; *);
+    => nrel_main_idtf: [стандартный посадочный материал лесных растений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стандартны пасадачны матэрыял лясных раслін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_planting_stock_of_forest_plants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_planting_stock_of_forest_plants_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_germinating_ability_of_forest_plant_seeds;
+    => nrel_associative_connection: by_output_of_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_inventory_of_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_planting_stock_of_microclonal_propagation;
+    => nrel_associative_connection: by_ballrooted_planting_stock;
+    => nrel_associative_connection: by_barerooted_planting_stock;
+    => nrel_associative_connection: by_sowing_quality_of_forest_plant_seeds;
+    => nrel_associative_connection: by_grafted_planting_stock;
+    => nrel_associative_connection: by_selection_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_standard_planting_stock;
+
+    => nrel_etalon_online_idx: [12197];;

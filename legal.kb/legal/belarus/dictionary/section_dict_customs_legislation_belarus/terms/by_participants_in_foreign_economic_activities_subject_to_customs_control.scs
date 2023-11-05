@@ -1,0 +1,26 @@
+
+by_participants_in_foreign_economic_activities_subject_to_customs_control
+    => nrel_main_idtf: [participants in foreign economic activities subject to customs control] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники внешнеэкономической деятельности, подлежащие таможенному контролю] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі знешнеэканамічнай дзейнасці, якія падлягаюць мытнаму кантролю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participants_in_foreign_economic_activities_subject_to_customs_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_economic_activity;
+    => nrel_associative_connection: by_participants_in_foreign_economic_activities;
+
+    => nrel_etalon_online_idx: [40161];;

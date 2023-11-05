@@ -1,0 +1,44 @@
+
+by_acute_occupational_disease
+    => nrel_main_idtf: [acute occupational disease] (* <- lang_en;; *);
+    => nrel_main_idtf: [острое профессиональное заболевание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вострае прафесійнае захворванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acute_occupational_disease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acute_occupational_disease_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_vocational_capacity_to_work;
+    => nrel_associative_connection: by_occupational_disease_chronic_or_acute;
+    => nrel_associative_connection: by_labor_activity;
+    => nrel_associative_connection: by_chronic_occupational_disease;
+
+    => nrel_etalon_online_idx: [39119];;

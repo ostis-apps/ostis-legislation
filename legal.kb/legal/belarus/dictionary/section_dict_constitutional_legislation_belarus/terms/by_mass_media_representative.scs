@@ -1,0 +1,42 @@
+
+by_mass_media_representative
+    => nrel_main_idtf: [mass media representative] (* <- lang_en;; *);
+    => nrel_main_idtf: [представитель средства массовой информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнік сродку масавай інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mass_media_representative_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mass_media_representative_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_issue_of_mass_media;
+    => nrel_associative_connection: by_mass_media;
+    => nrel_associative_connection: by_mass_media;
+
+    => nrel_etalon_online_idx: [39737];;

@@ -1,0 +1,31 @@
+
+by_dialysis
+    => nrel_main_idtf: [dialysis] (* <- lang_en;; *);
+    => nrel_main_idtf: [диализ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыяліз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dialysis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nephrologist;
+    => nrel_associative_connection: by_hemodialysis;
+    => nrel_associative_connection: by_glomerulonephritis;
+    => nrel_associative_connection: by_interstitial_nephrite;
+    => nrel_associative_connection: by_nephritic_syndrome;
+    => nrel_associative_connection: by_nephrology;
+    => nrel_associative_connection: by_peritoneal_dialysis;
+
+    => nrel_etalon_online_idx: [34106];;

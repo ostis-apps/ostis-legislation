@@ -1,0 +1,45 @@
+
+by_by_noise_sound
+    => nrel_main_idtf: [by_noise_sound] (* <- lang_en;; *);
+    => nrel_main_idtf: [шум (звук)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шум (гук)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_noise_sound_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_airborne_noise;
+    => nrel_associative_connection: by_permissible_noise_level;
+    => nrel_associative_connection: by_sound_noise;
+    => nrel_associative_connection: by_sound_pressure;
+    => nrel_associative_connection: by_airborne_noise_insulation_sound_insulation_db;
+    => nrel_associative_connection: by_insulation_of_impact_noise_by_overlapping_db;
+    => nrel_associative_connection: by_impulsed_noise;
+    => nrel_associative_connection: by_flashing_noise;
+    => nrel_associative_connection: by_low_noise_equipment;
+    => nrel_associative_connection: by_intermittent_noise;
+    => nrel_associative_connection: by_constant_noise;
+    => nrel_associative_connection: by_maximum_noise_level;
+    => nrel_associative_connection: by_interruptive_noise;
+    => nrel_associative_connection: by_certificate_for_noise_on_the_terrain;
+    => nrel_associative_connection: by_tone_noise;
+    => nrel_associative_connection: by_sound_level_with_frequency_correction_a;
+    => nrel_associative_connection: by_sound_pressure_level;
+    => nrel_associative_connection: by_broadband_noise;
+    => nrel_associative_connection: by_noisy_equipment_aggregates;
+    => nrel_associative_connection: by_energyequivalent_sound_level_of_intermittent_noise;
+    => nrel_associative_connection: by_equivalent_sound_level;
+
+    => nrel_etalon_online_idx: [41654];;

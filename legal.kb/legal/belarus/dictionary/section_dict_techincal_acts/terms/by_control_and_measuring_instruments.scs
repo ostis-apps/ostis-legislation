@@ -1,0 +1,41 @@
+
+by_control_and_measuring_instruments
+    => nrel_main_idtf: [control and measuring instruments] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольно-измерительные приборы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольна-вымяральныя прыборы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_and_measuring_instruments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_and_measuring_instruments_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adjustment_works;
+    => nrel_associative_connection: by_limiting_condition;
+
+    => nrel_etalon_online_idx: [38107];;

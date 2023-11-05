@@ -1,0 +1,30 @@
+
+by_preventive_talk
+    => nrel_main_idtf: [preventive talk] (* <- lang_en;; *);
+    => nrel_main_idtf: [профилактическая беседа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафілактычная гутарка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preventive_talk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_individual_preventive_work;
+    => nrel_associative_connection: by_general_crime_prevention;
+    => nrel_associative_connection: by_prevention;
+    => nrel_associative_connection: by_prevention_of_violations;
+    => nrel_associative_connection: by_preventive_record;
+    => nrel_associative_connection: by_preventive_event;
+
+    => nrel_etalon_online_idx: [6727];;

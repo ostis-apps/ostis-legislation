@@ -1,0 +1,34 @@
+
+by_trade_chain
+    => nrel_main_idtf: [trade chain] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговая сеть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвая сетка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_chain_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autonomous_shop;
+    => nrel_associative_connection: by_shopping_center_administration;
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_organisation_of_trade_service;
+    => nrel_associative_connection: by_trade_subject;
+    => nrel_associative_connection: by_trade_area;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_place;
+    => nrel_associative_connection: by_trade_hall;
+    => nrel_associative_connection: by_trade_object;
+
+    => nrel_etalon_online_idx: [7707];;

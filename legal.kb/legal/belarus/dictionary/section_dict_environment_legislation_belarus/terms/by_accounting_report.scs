@@ -1,0 +1,16 @@
+
+by_accounting_report
+    => nrel_main_idtf: [accounting report] (* <- lang_en;; *);
+    => nrel_main_idtf: [учетный отчет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уліковая справаздача] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_inventory_amount_of_nuclear_material;
+    => nrel_associative_connection: by_control_over_nuclear_material;
+    => nrel_associative_connection: by_material_and_balance_report;
+    => nrel_associative_connection: by_accruals_method;
+    => nrel_associative_connection: by_accounting_measurements;
+    => nrel_associative_connection: by_nuclear_material;
+
+    => nrel_etalon_online_idx: [10260];;

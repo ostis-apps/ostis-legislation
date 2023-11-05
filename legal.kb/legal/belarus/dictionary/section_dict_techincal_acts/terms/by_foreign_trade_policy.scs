@@ -1,0 +1,32 @@
+
+by_foreign_trade_policy
+    => nrel_main_idtf: [foreign trade policy] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешнеторговая политика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешнегандлёвая палітыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_trade_policy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_trade_activity;
+    => nrel_associative_connection: by_foreign_economic_activity;
+    => nrel_associative_connection: by_foreign_policy;
+    => nrel_associative_connection: by_department_of_foreign_economic_activities_of_the_ministry_of_foreign_affairs_of_the_republic_of_belarus_with_the_rights_of_a_legal_entity;
+    => nrel_associative_connection: by_common_economic_area;
+    => nrel_associative_connection: by_import;
+    => nrel_associative_connection: by_international_trade;
+    => nrel_associative_connection: by_export;
+
+    => nrel_etalon_online_idx: [1196];;

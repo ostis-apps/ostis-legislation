@@ -1,0 +1,30 @@
+
+by_participants_of_joint_householding
+    => nrel_main_idtf: [participants of joint householding] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники совместного домовладения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі сумеснага домаўладання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participants_of_joint_householding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_common_property_of_combined_housing_estate;
+    => nrel_associative_connection: by_immovable_property_objects;
+    => nrel_associative_connection: by_organization_managing_the_common_property_of_a_joint_household;
+    => nrel_associative_connection: by_combined_housing_estate;
+    => nrel_associative_connection: by_management_of_the_common_property_of_a_share_household;
+    => nrel_associative_connection: by_operation_of_the_common_property_of_joint_home_ownership;
+
+    => nrel_etalon_online_idx: [38257];;

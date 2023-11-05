@@ -1,0 +1,27 @@
+
+by_social_protection_of_veterans
+    => nrel_main_idtf: [social protection of veterans] (* <- lang_en;; *);
+    => nrel_main_idtf: [социальная защита ветеранов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сацыяльная абарона ветэранаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_protection_of_veterans_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterans_of_departments_of_internal_affairs_prosecutors_offices_departments_of_justice_and_courts;
+    => nrel_associative_connection: by_crisis_room;
+    => nrel_associative_connection: by_measures_of_social_defense;
+
+    => nrel_etalon_online_idx: [23660];;

@@ -1,0 +1,47 @@
+
+by_statement_of_a_set_of_spare_parts_tool_and_accessories
+    => nrel_main_idtf: [statement of a set of spare parts, tool and accessories] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомость комплекта запасных частей, инструмента и принадлежностей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасць камплекта запасных частак, інструмента і прыналежнасцей] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_of_a_set_of_spare_parts_tool_and_accessories_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_of_a_set_of_spare_parts_tool_and_accessories_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_statement_of_operational_documents;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_spare_parts_consumption_rates;
+    => nrel_associative_connection: by_passenger_conveyor;
+    => nrel_associative_connection: by_building_passengerandfreight_elevator;
+    => nrel_associative_connection: by_potentially_hazardous_object;
+    => nrel_associative_connection: by_industrial_safety_regulations;
+    => nrel_associative_connection: by_industrial_safety;
+
+    => nrel_etalon_online_idx: [38902];;

@@ -1,0 +1,30 @@
+
+by_production_of_forms_and_documents
+    => nrel_main_idtf: [production of forms and documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [изготовление бланков и документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выраб бланкаў і дакументаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_of_forms_and_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_protection_method;
+    => nrel_associative_connection: by_polygraphic_activity;
+    => nrel_associative_connection: by_polygraphic_process;
+    => nrel_associative_connection: by_system_of_protection_against_fake;
+    => nrel_associative_connection: by_technical_specifications;
+
+    => nrel_etalon_online_idx: [41001];;

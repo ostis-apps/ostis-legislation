@@ -1,0 +1,52 @@
+
+by_stock_exchange_trade
+    => nrel_main_idtf: [stock exchange trade] (* <- lang_en;; *);
+    => nrel_main_idtf: [биржевая торговля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біржавы гандаль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stock_exchange_trade_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_transaction;
+    => nrel_associative_connection: by_stock_exchange_broker;
+    => nrel_associative_connection: by_stock_exchange_contract;
+    => nrel_associative_connection: by_stock_exchange_carrier;
+    => nrel_associative_connection: by_stock_exchange_charge;
+    => nrel_associative_connection: by_stock_exchange_goods;
+    => nrel_associative_connection: by_exchange_trades;
+    => nrel_associative_connection: by_brokerage_activity;
+    => nrel_associative_connection: by_time_of_submission_of_applications_for_participation_in_direct_sale;
+    => nrel_associative_connection: by_annual_exchange_trades;
+    => nrel_associative_connection: by_coordination_council_on_stock_exchange_trade;
+    => nrel_associative_connection: by_separate_stock_exchange_personal_account;
+    => nrel_associative_connection: by_visitor_of_stock_exchange_trading_sessions;
+    => nrel_associative_connection: by_professional_and_exchange_activity_on_securities;
+    => nrel_associative_connection: by_settlement_depositary;
+    => nrel_associative_connection: by_real_goods;
+    => nrel_associative_connection: by_section;
+    => nrel_associative_connection: by_standard_contract;
+    => nrel_associative_connection: by_current_exchange_trades;
+    => nrel_associative_connection: by_commodity_exchange;
+    => nrel_associative_connection: by_trade_session;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_day;
+    => nrel_associative_connection: by_trade_account_of_the_bidder;
+    => nrel_associative_connection: by_remote_trade_terminal;
+    => nrel_associative_connection: by_authorized_employee_of_the_exchange;
+    => nrel_associative_connection: by_futures_contract;
+    => nrel_associative_connection: by_futures_contract;
+
+    => nrel_etalon_online_idx: [4882];;

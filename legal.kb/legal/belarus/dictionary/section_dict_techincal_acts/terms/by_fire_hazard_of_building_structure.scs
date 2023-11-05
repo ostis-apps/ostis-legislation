@@ -1,0 +1,28 @@
+
+by_fire_hazard_of_building_structure
+    => nrel_main_idtf: [fire hazard of building structure] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарная опасность строительной конструкции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарная небяспека будаўнічай канструкцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_hazard_of_building_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_category_of_explosion_fire_fire_hazard;
+    => nrel_associative_connection: by_cladding_of_exterior_surfaces_of_exterior_walls;
+    => nrel_associative_connection: by_fire_hazard_of_substances_materials;
+    => nrel_associative_connection: by_building_structure;
+
+    => nrel_etalon_online_idx: [36046];;

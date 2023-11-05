@@ -1,0 +1,28 @@
+
+by_by_boundaries_of_restricted_areas_andor_restricted_areas
+    => nrel_main_idtf: [by_boundaries_of_restricted_areas_andor_restricted_areas] (* <- lang_en;; *);
+    => nrel_main_idtf: [границы запретных районов и (или) запретных зон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяжы забароненых раёнаў і (або) забароненых зон] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_boundaries_of_restricted_areas_andor_restricted_areas_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_restricted_area;
+    => nrel_associative_connection: by_forbidden_area;
+    => nrel_associative_connection: by_ammo_storage;
+    => nrel_associative_connection: by_special_facility;
+
+    => nrel_etalon_online_idx: [43925];;

@@ -1,0 +1,31 @@
+
+by_intermediary_insurance_activity
+    => nrel_main_idtf: [intermediary insurance activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [посредническая деятельность по страхованию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасрэдніцкая дзейнасць па страхаванні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intermediary_insurance_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_on_the_activity_of_insurance_broker;
+    => nrel_associative_connection: by_sources_of_own_means_of_insurer_insurance_broker;
+    => nrel_associative_connection: by_intermediary_activity;
+    => nrel_associative_connection: by_mediation_services;
+    => nrel_associative_connection: by_insurance_agent;
+    => nrel_associative_connection: by_insurance_broker;
+    => nrel_associative_connection: by_insurance_agents;
+
+    => nrel_etalon_online_idx: [20729];;

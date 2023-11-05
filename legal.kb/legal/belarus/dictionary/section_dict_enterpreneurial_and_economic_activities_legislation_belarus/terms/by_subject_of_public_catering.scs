@@ -1,0 +1,37 @@
+
+by_subject_of_public_catering
+    => nrel_main_idtf: [subject of public catering] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъект общественного питания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'ект грамадскага харчавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subject_of_public_catering_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assortment_of_catering_products;
+    => nrel_associative_connection: by_assortment_list_of_catering_products;
+    => nrel_associative_connection: by_existing_public_catering_objects;
+    => nrel_associative_connection: by_individual_food;
+    => nrel_associative_connection: by_medical_norms_of_foodstuffs_consumption;
+    => nrel_associative_connection: by_nonstationary_public_catering_object;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_mobile_canteen;
+    => nrel_associative_connection: by_products_of_public_catering;
+    => nrel_associative_connection: by_public_catering_network;
+    => nrel_associative_connection: by_stationary_public_catering_object;
+    => nrel_associative_connection: by_trade_subject;
+
+    => nrel_etalon_online_idx: [7693];;

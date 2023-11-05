@@ -1,0 +1,29 @@
+
+by_state_registry_of_economic_entities_having_dominant_position_on_the_commodity_markets
+    => nrel_main_idtf: [state registry of economic entities having dominant position on the commodity markets] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный реестр хозяйствующих субъектов, занимающих доминирующее положение на товарных рынках] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны рэестр гаспадарчых суб'ектаў, якія займаюць дамінуючае становішча на таварных рынках] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registry_of_economic_entities_having_dominant_position_on_the_commodity_markets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_dominating_position;
+    => nrel_associative_connection: by_organisations__monopolies;
+    => nrel_associative_connection: by_product_item;
+    => nrel_associative_connection: by_economic_entities;
+
+    => nrel_etalon_online_idx: [11433];;

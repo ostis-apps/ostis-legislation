@@ -1,0 +1,31 @@
+
+by_main_service_place
+    => nrel_main_idtf: [main service place] (* <- lang_en;; *);
+    => nrel_main_idtf: [место основной службы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца асноўнай службы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_service_place_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_main_work_place;
+    => nrel_associative_connection: by_service_at_the_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_service_in_the_bodies_of_the_internal_affairs;
+    => nrel_associative_connection: by_service_in_bodies_and_units_for_emergency_situations;
+    => nrel_associative_connection: by_service_in_financial_investigation_authorities;
+
+    => nrel_etalon_online_idx: [17269];;

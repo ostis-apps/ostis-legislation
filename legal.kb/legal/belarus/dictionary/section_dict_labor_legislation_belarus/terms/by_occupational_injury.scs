@@ -1,0 +1,47 @@
+
+by_occupational_injury
+    => nrel_main_idtf: [occupational injury] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственная травма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчая траўма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_occupational_injury_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_occupational_injury_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_disability;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_jobrelated_accident;
+    => nrel_associative_connection: by_burn_injury;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_polytrauma;
+    => nrel_associative_connection: by_injury;
+
+    => nrel_etalon_online_idx: [3226];;

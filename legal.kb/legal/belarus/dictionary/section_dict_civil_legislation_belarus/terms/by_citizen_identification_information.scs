@@ -1,0 +1,15 @@
+
+by_citizen_identification_information
+    => nrel_main_idtf: [citizen identification information ] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификационные сведения о гражданине] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыйныя звесткі аб грамадзяніне] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_citizens;
+    => nrel_associative_connection: by_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_citizen;
+    => nrel_associative_connection: by_identification_information;
+    => nrel_associative_connection: by_information;
+
+    => nrel_etalon_online_idx: [15067];;

@@ -1,0 +1,27 @@
+
+by_construction_work_contract_with_an_estimated_price
+    => nrel_main_idtf: [construction work contract with an estimated price] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор строительного подряда с приблизительной ценой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор будаўнічага падраду з прыблізнай цаной] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_work_contract_with_an_estimated_price_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_construction_works_agreement;
+    => nrel_associative_connection: by_construction_works_agreement_with_constant_fixed_price;
+    => nrel_associative_connection: by_contractor_in_construction_activity;
+
+    => nrel_etalon_online_idx: [11280];;

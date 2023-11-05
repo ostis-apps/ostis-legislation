@@ -1,0 +1,26 @@
+
+by_peoples_assessor
+    => nrel_main_idtf: [people's assessor] (* <- lang_en;; *);
+    => nrel_main_idtf: [народный заседатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [народны засядацель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peoples_assessor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_judge;
+    => nrel_associative_connection: by_threat_against_a_judge_or_peoples_assessor;
+
+    => nrel_etalon_online_idx: [38];;

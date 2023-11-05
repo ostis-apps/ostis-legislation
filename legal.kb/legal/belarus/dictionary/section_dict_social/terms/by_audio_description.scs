@@ -1,0 +1,28 @@
+
+by_audio_description
+    => nrel_main_idtf: [audio description] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиодескрипция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдыёдэскрыпцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audio_description_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audiometry;
+    => nrel_associative_connection: by_accessible_environment;
+    => nrel_associative_connection: by_editions_for_persons_with_disabilities_on_sight_and_visually_impaired;
+    => nrel_associative_connection: by_clear_language;
+
+    => nrel_etalon_online_idx: [40718];;

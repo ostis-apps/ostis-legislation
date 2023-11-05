@@ -1,0 +1,32 @@
+
+by_compulsory_medical_examination
+    => nrel_main_idtf: [compulsory medical examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [принудительное медицинское освидетельствование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прымусовы медыцынскі агляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compulsory_medical_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_voluntary_medical_examination;
+    => nrel_associative_connection: by_medical_inspection;
+    => nrel_associative_connection: by_obligatory_medical_examination;
+    => nrel_associative_connection: by_examination;
+    => nrel_associative_connection: by_compulsory_assessment;
+    => nrel_associative_connection: by_compulsory_psychiatric_examination;
+    => nrel_associative_connection: by_psychiatric_examination;
+    => nrel_associative_connection: by_socially_dangerous_disease;
+
+    => nrel_etalon_online_idx: [7683];;

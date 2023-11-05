@@ -1,0 +1,28 @@
+
+by_circulation_of_the_printed_edition
+    => nrel_main_idtf: [circulation of the printed edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [тираж печатного издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тыраж друкаванага выдання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_circulation_of_the_printed_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_publication_of_printed_edition;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_printed_editions_of_all_kinds;
+    => nrel_associative_connection: by_release_calendar_of_socially_significant_publications;
+
+    => nrel_etalon_online_idx: [25338];;

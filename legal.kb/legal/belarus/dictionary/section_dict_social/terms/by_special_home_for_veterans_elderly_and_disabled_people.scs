@@ -1,0 +1,31 @@
+
+by_special_home_for_veterans_elderly_and_disabled_people
+    => nrel_main_idtf: [special home for veterans, elderly and disabled people] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный дом для ветеранов, престарелых и инвалидов ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльны дом для ветэранаў, састарэлых і інвалідаў ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_home_for_veterans_elderly_and_disabled_people_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_disabled;
+    => nrel_associative_connection: by_persons_with_disabilities;
+    => nrel_associative_connection: by_aged;
+    => nrel_associative_connection: by_psychoneurological_residential_institution_for_elderly_and_persons_with_disabilities;
+    => nrel_associative_connection: by_special_residential_premises;
+    => nrel_associative_connection: by_special_residential_institution_department_for_elderly_and_persons_with_disabilities;
+
+    => nrel_etalon_online_idx: [27507];;

@@ -1,0 +1,29 @@
+
+by_nontax_income
+    => nrel_main_idtf: [non-tax income] (* <- lang_en;; *);
+    => nrel_main_idtf: [неналоговые доходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непадатковыя даходы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nontax_income_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_tax_legislation;
+    => nrel_associative_connection: by_tax_legislation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_compulsory_payments;
+
+    => nrel_etalon_online_idx: [18056];;

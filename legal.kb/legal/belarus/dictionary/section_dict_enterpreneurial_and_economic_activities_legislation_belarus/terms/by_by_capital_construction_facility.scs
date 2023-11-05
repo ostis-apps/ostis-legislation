@@ -1,0 +1,32 @@
+
+by_by_capital_construction_facility
+    => nrel_main_idtf: [by_capital_construction_facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект капитального строительства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект капітальнага будаўніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_capital_construction_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investment_in_capital_buildings;
+    => nrel_associative_connection: by_the_life_cycle_of_a_capital_construction_facility;
+    => nrel_associative_connection: by_capital_structure;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_organizations_capital_structure_building_construction;
+    => nrel_associative_connection: by_capital_structures_buildings_constructions;
+    => nrel_associative_connection: by_capital_structures_buildings_constructions_of_legal_entities;
+    => nrel_associative_connection: by_object_of_unfinished_capital_construction;
+
+    => nrel_etalon_online_idx: [42699];;

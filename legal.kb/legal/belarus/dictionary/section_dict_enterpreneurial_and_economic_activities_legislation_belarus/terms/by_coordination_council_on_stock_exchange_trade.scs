@@ -1,0 +1,43 @@
+
+by_coordination_council_on_stock_exchange_trade
+    => nrel_main_idtf: [coordination council on stock exchange trade] (* <- lang_en;; *);
+    => nrel_main_idtf: [координационный совет по биржевой торговле] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каардынацыйны савет па біржавым гандлі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coordination_council_on_stock_exchange_trade_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coordination_council_on_stock_exchange_trade_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_trade;
+    => nrel_associative_connection: by_exchange_committees;
+    => nrel_associative_connection: by_council;
+    => nrel_associative_connection: by_commodity_exchange;
+
+    => nrel_etalon_online_idx: [16310];;

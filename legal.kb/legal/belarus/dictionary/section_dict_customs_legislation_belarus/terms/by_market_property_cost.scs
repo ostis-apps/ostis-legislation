@@ -1,0 +1,38 @@
+
+by_market_property_cost
+    => nrel_main_idtf: [market property cost] (* <- lang_en;; *);
+    => nrel_main_idtf: [рыночная стоимость имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рыначны кошт маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_market_property_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_property_appraiser;
+    => nrel_associative_connection: by_primary_market;
+    => nrel_associative_connection: by_primary_housing_market;
+    => nrel_associative_connection: by_primary_vehicle_market;
+    => nrel_associative_connection: by_initial_cost;
+    => nrel_associative_connection: by_preliminary_cost_of_property;
+    => nrel_associative_connection: by_implementing_organization;
+    => nrel_associative_connection: by_free_price_tariff;
+    => nrel_associative_connection: by_average_market_cost;
+    => nrel_associative_connection: by_average_market_price;
+    => nrel_associative_connection: by_market_property_cost;
+    => nrel_associative_connection: by_market_cost_of_vehicle_vehicle_cost;
+    => nrel_associative_connection: by_utilization_cost;
+    => nrel_associative_connection: by_current_market_cost;
+
+    => nrel_etalon_online_idx: [22761];;

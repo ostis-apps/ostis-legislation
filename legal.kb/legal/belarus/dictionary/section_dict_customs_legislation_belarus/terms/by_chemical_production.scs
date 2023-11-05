@@ -1,0 +1,59 @@
+
+by_chemical_production
+    => nrel_main_idtf: [chemical production] (* <- lang_en;; *);
+    => nrel_main_idtf: [производство химиката] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчасць хімікату] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemical_production_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemical_production_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemical_production_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_chemical_processing;
+    => nrel_associative_connection: by_chemical_consumption;
+    => nrel_associative_connection: by_spill_of_hazardous_chemicals;
+    => nrel_associative_connection: by_coating_process;
+    => nrel_associative_connection: by_chemically_hazardous_object;
+
+    => nrel_etalon_online_idx: [21606];;

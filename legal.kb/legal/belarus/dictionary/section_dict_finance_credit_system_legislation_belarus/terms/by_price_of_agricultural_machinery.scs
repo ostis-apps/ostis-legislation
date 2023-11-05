@@ -1,0 +1,28 @@
+
+by_price_of_agricultural_machinery
+    => nrel_main_idtf: [price of agricultural machinery] (* <- lang_en;; *);
+    => nrel_main_idtf: [цена сельскохозяйственной техники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цана сельскагаспадарчай тэхнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_price_of_agricultural_machinery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_redemption_price_of_agricultural_machinery;
+    => nrel_associative_connection: by_agricultural_machinery;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_tariff;
+
+    => nrel_etalon_online_idx: [26213];;

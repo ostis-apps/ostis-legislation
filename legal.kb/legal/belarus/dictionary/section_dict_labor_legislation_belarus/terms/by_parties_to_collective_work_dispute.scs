@@ -1,0 +1,29 @@
+
+by_parties_to_collective_work_dispute
+    => nrel_main_idtf: [parties to collective work dispute] (* <- lang_en;; *);
+    => nrel_main_idtf: [стороны коллективного трудового спора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бакі калектыўнай працоўнай спрэчкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parties_to_collective_work_dispute_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_collective_labour_dispute;
+    => nrel_associative_connection: by_employer;
+    => nrel_associative_connection: by_employers_association;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_parties;
+
+    => nrel_etalon_online_idx: [4142];;

@@ -1,0 +1,30 @@
+
+by_special_purpose_vehicle
+    => nrel_main_idtf: [special purpose vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобиль специального назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабіль спецыяльнага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_purpose_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_machines_line;
+    => nrel_associative_connection: by_protected_persons;
+    => nrel_associative_connection: by_special_track;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_driving_route;
+
+    => nrel_etalon_online_idx: [7494];;

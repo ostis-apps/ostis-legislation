@@ -1,0 +1,26 @@
+
+by_temporary_resettlement_of_the_population
+    => nrel_main_idtf: [temporary resettlement of the population] (* <- lang_en;; *);
+    => nrel_main_idtf: [временное отселение населения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [часовае адсяленне насельніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_resettlement_of_the_population_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_zone;
+    => nrel_associative_connection: by_population;
+
+    => nrel_etalon_online_idx: [7361];;

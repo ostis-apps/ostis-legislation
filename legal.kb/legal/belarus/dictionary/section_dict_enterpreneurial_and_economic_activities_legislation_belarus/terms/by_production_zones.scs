@@ -1,0 +1,28 @@
+
+by_production_zones
+    => nrel_main_idtf: [production zones] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственные зоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчыя зоны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_zones_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_zones_of_transport_engineering_infrastructure;
+    => nrel_associative_connection: by_public_and_business_zones;
+    => nrel_associative_connection: by_recreational_zones;
+    => nrel_associative_connection: by_agricultural_zones;
+
+    => nrel_etalon_online_idx: [36687];;

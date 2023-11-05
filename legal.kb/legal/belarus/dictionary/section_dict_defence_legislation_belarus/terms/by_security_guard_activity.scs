@@ -1,0 +1,56 @@
+
+by_security_guard_activity
+    => nrel_main_idtf: [security guard activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [охранная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахоўная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_guard_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_guard_activity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_paramilitary_security_service;
+    => nrel_associative_connection: by_state_guard;
+    => nrel_associative_connection: by_engineering_and_technical_means_of_protection;
+    => nrel_associative_connection: by_qualification_occupational_safety_specialist;
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_protection_of_objects;
+    => nrel_associative_connection: by_protection_of_objects_physical_persons;
+    => nrel_associative_connection: by_protective_service_work;
+    => nrel_associative_connection: by_protected_person;
+    => nrel_associative_connection: by_protected_persons;
+    => nrel_associative_connection: by_protected_objects;
+    => nrel_associative_connection: by_pass_control;
+    => nrel_associative_connection: by_alarm_limit_alarm_limit;
+    => nrel_associative_connection: by_special_detectors;
+    => nrel_associative_connection: by_special_security_body;
+    => nrel_associative_connection: by_means_for_protection;
+    => nrel_associative_connection: by_means_of_protection_for_individual_use;
+
+    => nrel_etalon_online_idx: [3038];;

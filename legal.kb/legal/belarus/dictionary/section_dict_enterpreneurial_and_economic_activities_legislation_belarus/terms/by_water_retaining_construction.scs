@@ -1,0 +1,31 @@
+
+by_water_retaining_construction
+    => nrel_main_idtf: [water retaining construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [водоподпорное сооружение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водападпорнае збудаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_retaining_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tail_water;
+    => nrel_associative_connection: by_upper_and_lower_tail_water;
+    => nrel_associative_connection: by_straightening_works;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structures_and_devices;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_navigable_hydraulic_structures;
+
+    => nrel_etalon_online_idx: [13162];;

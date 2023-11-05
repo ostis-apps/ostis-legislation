@@ -1,0 +1,29 @@
+
+by_coupling_element_of_masonry_coupling_element
+    => nrel_main_idtf: [coupling element of masonry (coupling element)] (* <- lang_en;; *);
+    => nrel_main_idtf: [связевой элемент каменной кладки (связевой элемент)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [связявы элемент каменнай кладкі (связевы элемент)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coupling_element_of_masonry_coupling_element_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reinforced_stonemasonry;
+    => nrel_associative_connection: by_masonry;
+    => nrel_associative_connection: by_fireproof_masonry;
+    => nrel_associative_connection: by_binding_of_masonry;
+    => nrel_associative_connection: by_flexural_tensile_strength_of_masonry;
+
+    => nrel_etalon_online_idx: [38073];;

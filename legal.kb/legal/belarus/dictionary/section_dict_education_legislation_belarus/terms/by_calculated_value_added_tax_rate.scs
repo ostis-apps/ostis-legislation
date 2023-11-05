@@ -1,0 +1,29 @@
+
+by_calculated_value_added_tax_rate
+    => nrel_main_idtf: [calculated value added tax rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетная ставка налога на добавленную стоимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковая стаўка падатку на дабаўленую вартасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_value_added_tax_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_taxation_base;
+    => nrel_associative_connection: by_tax_reporting;
+    => nrel_associative_connection: by_tax_rate;
+    => nrel_associative_connection: by_payer_transmitting_tax_deductions;
+    => nrel_associative_connection: by_payer_receiving_tax_deductions;
+
+    => nrel_etalon_online_idx: [22198];;

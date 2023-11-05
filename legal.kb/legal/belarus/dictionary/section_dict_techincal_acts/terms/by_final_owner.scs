@@ -1,0 +1,28 @@
+
+by_final_owner
+    => nrel_main_idtf: [final owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [конечный владелец (final owner)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канчатковы ўладальнік (final owner)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_final_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_lamp_control_gear;
+    => nrel_associative_connection: by_enduser;
+    => nrel_associative_connection: by_final_user;
+    => nrel_associative_connection: by_control_device;
+
+    => nrel_etalon_online_idx: [35573];;

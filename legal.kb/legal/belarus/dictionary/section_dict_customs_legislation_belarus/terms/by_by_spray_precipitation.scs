@@ -1,0 +1,29 @@
+
+by_by_spray_precipitation
+    => nrel_main_idtf: [by_spray_precipitation] (* <- lang_en;; *);
+    => nrel_main_idtf: [осаждение распылением] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асаджэнне распыленнем] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_spray_precipitation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_vacuum_spraying;
+    => nrel_associative_connection: by_gas_spraying;
+    => nrel_associative_connection: by_ion_implantation;
+    => nrel_associative_connection: by_ion_deposition;
+    => nrel_associative_connection: by_centrifugal_spraying;
+
+    => nrel_etalon_online_idx: [19343];;

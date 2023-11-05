@@ -1,0 +1,28 @@
+
+by_persons_accompanying_the_delegation
+    => nrel_main_idtf: [persons accompanying the delegation] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица, сопровождающие делегацию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, якія суправаджаюць дэлегацыю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_accompanying_the_delegation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_delegation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_parliamentary_delegation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_government_delegation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_accompanying_person;
+
+    => nrel_etalon_online_idx: [16684];;

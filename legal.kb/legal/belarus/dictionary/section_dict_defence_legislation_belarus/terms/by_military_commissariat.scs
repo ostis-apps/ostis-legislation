@@ -1,0 +1,29 @@
+
+by_military_commissariat
+    => nrel_main_idtf: [military commissariat] (* <- lang_en;; *);
+    => nrel_main_idtf: [военный комиссариат ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенны камісарыят] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_commissariat_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_apparatus_for_strengthening__of_the_military_commissariat;
+    => nrel_associative_connection: by_military_commissar_of_the_region;
+    => nrel_associative_connection: by_separate_subdivision_of_military_commissariat;
+    => nrel_associative_connection: by_body_of_military_administration;
+    => nrel_associative_connection: by_recruiting_station;
+
+    => nrel_etalon_online_idx: [7790];;

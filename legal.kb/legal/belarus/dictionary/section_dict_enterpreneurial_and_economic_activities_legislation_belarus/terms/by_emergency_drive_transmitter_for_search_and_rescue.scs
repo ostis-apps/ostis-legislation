@@ -1,0 +1,28 @@
+
+by_emergency_drive_transmitter_for_search_and_rescue
+    => nrel_main_idtf: [emergency drive transmitter for search and rescue] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийный приводной передатчик для поиска и спасания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйны прывадны перадатчык для пошуку і ратавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_drive_transmitter_for_search_and_rescue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_airborne_collision_avoidance_system_acas;
+    => nrel_associative_connection: by_onboard_equipment;
+    => nrel_associative_connection: by_secondary_survey_radar_ssr;
+    => nrel_associative_connection: by_mode_s_nonbort_receiver;
+
+    => nrel_etalon_online_idx: [35866];;

@@ -1,0 +1,79 @@
+
+by_protective_zone
+    => nrel_main_idtf: [protective zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [охранная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахоўная зона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_zone_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_zone_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_zone_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_protection_zone;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_landscape_protection_zone;
+    => nrel_associative_connection: by_separate_territory;
+    => nrel_associative_connection: by_protective_zone_along_air_transmission_line;
+    => nrel_associative_connection: by_protective_zone_around_the_stationary_observation_point;
+    => nrel_associative_connection: by_protective_zone_of_the_heat_network;
+    => nrel_associative_connection: by_conservation_zones;
+    => nrel_associative_connection: by_protective_zones_of_gas_distribution_system_objects;
+    => nrel_associative_connection: by_protected_zone;
+
+    => nrel_etalon_online_idx: [19688];;

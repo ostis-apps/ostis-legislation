@@ -1,0 +1,32 @@
+
+by_property_requiring_special_storage_conditions
+    => nrel_main_idtf: [property requiring special storage conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [имущество, требующее специальных условий хранения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маёмасць, якая патрабуе спецыяльных умоў захоўвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_property_requiring_special_storage_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_property_released_from_seizure;
+    => nrel_associative_connection: by_property_the_sale_or_other_use_of_which_is_economically_impractical;
+    => nrel_associative_connection: by_lost_destroyed_property;
+    => nrel_associative_connection: by_implementing_organization;
+    => nrel_associative_connection: by_perishable_property;
+    => nrel_associative_connection: by_specific_property;
+    => nrel_associative_connection: by_destroyed_dead_property;
+
+    => nrel_etalon_online_idx: [15199];;

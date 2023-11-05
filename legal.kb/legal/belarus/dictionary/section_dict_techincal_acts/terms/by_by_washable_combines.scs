@@ -1,0 +1,33 @@
+
+by_by_washable_combines
+    => nrel_main_idtf: [by_washable_combines] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбайны выемочные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбайны выемачныя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_washable_combines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drilling_machines;
+    => nrel_associative_connection: by_intramine_mine_transport;
+    => nrel_associative_connection: by_rock_support;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_mining_machinery_and_equipment;
+    => nrel_associative_connection: by_conveyor;
+    => nrel_associative_connection: by_mining_machines;
+    => nrel_associative_connection: by_cleaning_works;
+    => nrel_associative_connection: by_loading_machines;
+
+    => nrel_etalon_online_idx: [37527];;

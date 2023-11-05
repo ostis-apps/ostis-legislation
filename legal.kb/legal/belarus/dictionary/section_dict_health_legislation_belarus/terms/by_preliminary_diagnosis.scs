@@ -1,0 +1,45 @@
+
+by_preliminary_diagnosis
+    => nrel_main_idtf: [preliminary diagnosis] (* <- lang_en;; *);
+    => nrel_main_idtf: [предварительный диагноз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папярэдні дыягназ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preliminary_diagnosis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preliminary_diagnosis_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_diagnosis;
+    => nrel_associative_connection: by_differential_diagnosis;
+    => nrel_associative_connection: by_final_diagnosis;
+    => nrel_associative_connection: by_clinical_and_functional_diagnosis;
+    => nrel_associative_connection: by_final_diagnosis;
+
+    => nrel_etalon_online_idx: [40645];;

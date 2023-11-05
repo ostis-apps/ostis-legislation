@@ -1,0 +1,36 @@
+
+by_representatives_of_authorities
+    => nrel_main_idtf: [representatives of authorities] (* <- lang_en;; *);
+    => nrel_main_idtf: [представители власти] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнікі ўлады] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representatives_of_authorities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_state_authority;
+    => nrel_associative_connection: by_state_employee;
+    => nrel_associative_connection: by_deputy;
+    => nrel_associative_connection: by_deputy_of_a_local_council_of_deputies;
+    => nrel_associative_connection: by_deputy_of_the_house_of_representatives_of_the_national_assembly_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials_holding_positions_of_responsibility;
+    => nrel_associative_connection: by_assistant_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_public_members;
+    => nrel_associative_connection: by_representatives_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_representative;
+    => nrel_associative_connection: by_member_of_the_council_of_the_republic;
+
+    => nrel_etalon_online_idx: [718];;

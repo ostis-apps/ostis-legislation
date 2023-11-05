@@ -1,0 +1,54 @@
+
+by_seedgrowing
+    => nrel_main_idtf: [seed-growing] (* <- lang_en;; *);
+    => nrel_main_idtf: [семеноводство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [насенняводства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_seedgrowing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_seedgrowing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forest_genetic_fund_genetic_pool;
+    => nrel_associative_connection: by_stool_bed_plantation;
+    => nrel_associative_connection: by_lot_of_forest_plants_seeds;
+    => nrel_associative_connection: by_sowing_qualities_of_plants_seeds;
+    => nrel_associative_connection: by_sample_of_seeds;
+    => nrel_associative_connection: by_producers_of_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_agricultural_plants;
+    => nrel_associative_connection: by_forest_plant_seeds;
+    => nrel_associative_connection: by_plant_seeds;
+    => nrel_associative_connection: by_seed_tree;
+    => nrel_associative_connection: by_seed_material;
+    => nrel_associative_connection: by_varietal_typical_nature_of_agricultural_plants;
+    => nrel_associative_connection: by_varietal_purity_of_agricultural_plants;
+    => nrel_associative_connection: by_varietal_quality_of_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_ecotype_climatype_edaphotype;
+
+    => nrel_etalon_online_idx: [10593];;

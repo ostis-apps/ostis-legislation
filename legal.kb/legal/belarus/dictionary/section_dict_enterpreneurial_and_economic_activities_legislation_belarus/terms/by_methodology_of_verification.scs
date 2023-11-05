@@ -1,0 +1,28 @@
+
+by_methodology_of_verification
+    => nrel_main_idtf: [methodology of verification] (* <- lang_en;; *);
+    => nrel_main_idtf: [методика поверки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [методыка паверкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_methodology_of_verification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_measuring_equipment;
+    => nrel_associative_connection: by_verification;
+    => nrel_associative_connection: by_verification_of_instrumentations;
+    => nrel_associative_connection: by_verification_scheme;
+
+    => nrel_etalon_online_idx: [36091];;

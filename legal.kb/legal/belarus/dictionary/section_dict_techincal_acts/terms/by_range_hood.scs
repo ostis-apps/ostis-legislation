@@ -1,0 +1,44 @@
+
+by_range_hood
+    => nrel_main_idtf: [range hood] (* <- lang_en;; *);
+    => nrel_main_idtf: [воздухоочиститель для кухонь (range hood)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паветраачышчальнік для кухань (range hood)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_range_hood_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_range_hood_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_functioning_mode_during_the_cooking_period;
+    => nrel_associative_connection: by_automatic_functioning_mode_during_the_cooking_period;
+    => nrel_associative_connection: by_kitchen_stove_cooker;
+    => nrel_associative_connection: by_best_efficiency_point;
+    => nrel_associative_connection: by_best_efficiency_point;
+
+    => nrel_etalon_online_idx: [34972];;

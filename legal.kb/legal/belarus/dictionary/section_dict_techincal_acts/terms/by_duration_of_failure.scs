@@ -1,0 +1,30 @@
+
+by_duration_of_failure
+    => nrel_main_idtf: [duration of failure] (* <- lang_en;; *);
+    => nrel_main_idtf: [длительность отказа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працягласць адмовы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_duration_of_failure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_normal_operation;
+    => nrel_associative_connection: by_objects_of_energy_economy;
+    => nrel_associative_connection: by_acute_kidney_damage;
+    => nrel_associative_connection: by_refusal;
+    => nrel_associative_connection: by_damage;
+
+    => nrel_etalon_online_idx: [38383];;

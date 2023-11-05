@@ -1,0 +1,26 @@
+
+by_mechanical_alloying
+    => nrel_main_idtf: [mechanical alloying] (* <- lang_en;; *);
+    => nrel_main_idtf: [механическое легирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [механічнае легіраванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechanical_alloying_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_alloying;
+    => nrel_associative_connection: by_metal_products;
+
+    => nrel_etalon_online_idx: [17341];;

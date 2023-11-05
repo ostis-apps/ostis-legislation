@@ -1,0 +1,71 @@
+
+by_identification_number
+    => nrel_main_idtf: [identification number] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификационный номер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыйны нумар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_number_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_number_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_number_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_number;
+    => nrel_associative_connection: by_identification_of_the_animal_herd;
+    => nrel_associative_connection: by_identification_of_farm_animals_herd;
+    => nrel_associative_connection: by_initializing_of_rfid_tags;
+    => nrel_associative_connection: by_population;
+    => nrel_associative_connection: by_united_nations_organization_number;
+    => nrel_associative_connection: by_united_nations_organization_number;
+    => nrel_associative_connection: by_register_manager;
+    => nrel_associative_connection: by_population_register;
+    => nrel_associative_connection: by_registration_service;
+    => nrel_associative_connection: by_details_of_the_certifying_document;
+    => nrel_associative_connection: by_means_of_identification;
+    => nrel_associative_connection: by_insurance_number;
+    => nrel_associative_connection: by_unique_identification_code;
+    => nrel_associative_connection: by_accounting_number;
+    => nrel_associative_connection: by_payer_account_number_payer_identification_number;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_etalon_online_idx: [9644];;

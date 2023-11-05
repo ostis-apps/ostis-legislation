@@ -1,0 +1,29 @@
+
+by_calculated_strength_of_stressed_reinforcement
+    => nrel_main_idtf: [calculated strength of stressed reinforcement] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетная прочность напрягаемой арматуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковая трываласць напружанай арматуры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_strength_of_stressed_reinforcement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reinforcing_cage;
+    => nrel_associative_connection: by_pretensioned_design;
+    => nrel_associative_connection: by_strength;
+    => nrel_associative_connection: by_working_effective_section_height;
+    => nrel_associative_connection: by_calculated_situation;
+
+    => nrel_etalon_online_idx: [35655];;

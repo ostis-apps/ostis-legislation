@@ -1,0 +1,28 @@
+
+by_forum
+    => nrel_main_idtf: [forum] (* <- lang_en;; *);
+    => nrel_main_idtf: [форум] (* <- lang_ru;; *);
+    => nrel_main_idtf: [форум] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cultural_activity;
+    => nrel_associative_connection: by_cultural_and_leisure_activity;
+    => nrel_associative_connection: by_cultural_event;
+    => nrel_associative_connection: by_creative_activity;
+
+    => nrel_etalon_online_idx: [7853];;

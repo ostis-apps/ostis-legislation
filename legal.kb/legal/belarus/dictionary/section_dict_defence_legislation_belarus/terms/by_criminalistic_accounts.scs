@@ -1,0 +1,28 @@
+
+by_criminalistic_accounts
+    => nrel_main_idtf: [criminalistic accounts] (* <- lang_en;; *);
+    => nrel_main_idtf: [криминалистические учеты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыміналістычныя ўлікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_criminalistic_accounts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_criminalistic_collections;
+    => nrel_associative_connection: by_methodological_materials;
+    => nrel_associative_connection: by_authority_person_that_appointed_the_judicial_examination;
+    => nrel_associative_connection: by_head_of_forensic_expert_activity;
+
+    => nrel_etalon_online_idx: [32445];;

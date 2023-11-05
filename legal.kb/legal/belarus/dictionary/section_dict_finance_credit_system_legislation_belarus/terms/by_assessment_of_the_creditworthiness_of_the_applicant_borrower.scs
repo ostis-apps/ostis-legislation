@@ -1,0 +1,29 @@
+
+by_assessment_of_the_creditworthiness_of_the_applicant_borrower
+    => nrel_main_idtf: [assessment of the creditworthiness of the applicant (borrower)] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценка кредитоспособности заявителя (кредитополучателя)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэнка крэдытаздольнасці заяўніка (крэдытаатрымальніка)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assessment_of_the_creditworthiness_of_the_applicant_borrower_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lending_to_individuals_on_installment_terms;
+    => nrel_associative_connection: by_borrower;
+    => nrel_associative_connection: by_creditability;
+    => nrel_associative_connection: by_organisation_of_trade_service;
+    => nrel_associative_connection: by_family_of_borrowers_or_their_spouses_former_spouses;
+
+    => nrel_etalon_online_idx: [33148];;

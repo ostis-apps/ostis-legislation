@@ -1,0 +1,29 @@
+
+by_repair_of_special_means
+    => nrel_main_idtf: [repair of special means] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонт специальных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонт спецыяльных сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repair_of_special_means_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_of_communication_equipment;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_special_means;
+    => nrel_associative_connection: by_accounting_for_special_facilities;
+
+    => nrel_etalon_online_idx: [22540];;

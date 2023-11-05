@@ -1,0 +1,28 @@
+
+by_companion_animals
+    => nrel_main_idtf: [companion animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [животные-компаньоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жывёлы-кампаньёны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_companion_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_passport_of_the_animal;
+    => nrel_associative_connection: by_cruelty_to_animal;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_animals_used_in_cultural_and_entertainment_events;
+
+    => nrel_etalon_online_idx: [10107];;

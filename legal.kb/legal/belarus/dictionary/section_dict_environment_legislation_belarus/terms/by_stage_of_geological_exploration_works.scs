@@ -1,0 +1,27 @@
+
+by_stage_of_geological_exploration_works
+    => nrel_main_idtf: [stage of geological exploration works] (* <- lang_en;; *);
+    => nrel_main_idtf: [стадия геологоразведочных работ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стадыя геолагаразведачных работ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stage_of_geological_exploration_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explorations_works_on_underground_waters;
+    => nrel_associative_connection: by_geological_exploration_process_of_hydrogeological_study_of_subsoil;
+    => nrel_associative_connection: by_works;
+
+    => nrel_etalon_online_idx: [24125];;

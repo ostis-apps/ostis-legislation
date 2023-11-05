@@ -1,0 +1,29 @@
+
+by_characteristic_value_of_strength_of_masonry
+    => nrel_main_idtf: [characteristic value of strength of masonry] (* <- lang_en;; *);
+    => nrel_main_idtf: [характеристическое значение прочности каменной кладки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [характарыстычнае значэнне моцы каменнай кладкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_characteristic_value_of_strength_of_masonry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bearing_layer_of_masonry;
+    => nrel_associative_connection: by_binding_of_masonry;
+    => nrel_associative_connection: by_flexural_tensile_strength_of_masonry;
+    => nrel_associative_connection: by_masonry_compressive_strength;
+    => nrel_associative_connection: by_steel_reinforcement;
+
+    => nrel_etalon_online_idx: [38083];;

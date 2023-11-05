@@ -1,0 +1,40 @@
+
+by_area_species_of_wild_animals
+    => nrel_main_idtf: [area species of wild animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [ареал вида диких животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арэал віду дзікіх жывёл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_area_species_of_wild_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biotope;
+    => nrel_associative_connection: by_type_of_wild_animals;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_extraction_of_wild_animals;
+    => nrel_associative_connection: by_extraction_of_wild_animals_not_related_to_objects_of_hunting_and_fisheries;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_fauna;
+    => nrel_associative_connection: by_protection_of_wild_animals;
+    => nrel_associative_connection: by_invasive_alien_wild_animals;
+    => nrel_associative_connection: by_introduction_of_wild_animals;
+    => nrel_associative_connection: by_density_of_wild_animals;
+    => nrel_associative_connection: by_population_of_wild_animals;
+    => nrel_associative_connection: by_disposal_of_wild_animals;
+    => nrel_associative_connection: by_habitat_of_wild_animals;
+    => nrel_associative_connection: by_habitat_of_wild_animals_that_are_not_related_to_hunting_and_fishing;
+    => nrel_associative_connection: by_habitat_of_wildlife_objects;
+
+    => nrel_etalon_online_idx: [12519];;

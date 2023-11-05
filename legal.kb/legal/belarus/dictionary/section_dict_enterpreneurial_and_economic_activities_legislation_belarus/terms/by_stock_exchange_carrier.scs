@@ -1,0 +1,29 @@
+
+by_stock_exchange_carrier
+    => nrel_main_idtf: [stock exchange carrier] (* <- lang_en;; *);
+    => nrel_main_idtf: [биржевой перевозчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біржавы перавозчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stock_exchange_carrier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_trade;
+    => nrel_associative_connection: by_exchange_trades;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_carrier;
+    => nrel_associative_connection: by_commodity_exchange;
+
+    => nrel_etalon_online_idx: [8412];;

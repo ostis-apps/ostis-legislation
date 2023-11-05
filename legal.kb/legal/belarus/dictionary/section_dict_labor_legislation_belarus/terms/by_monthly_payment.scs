@@ -1,0 +1,25 @@
+
+by_monthly_payment
+    => nrel_main_idtf: [monthly payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [месячное денежное довольствие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месячнае грашовае забеспячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monthly_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_social_payments;
+
+    => nrel_etalon_online_idx: [42172];;

@@ -1,0 +1,27 @@
+
+by_urban_development_monuments
+    => nrel_main_idtf: [urban development monuments] (* <- lang_en;; *);
+    => nrel_main_idtf: [памятники градостроительства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [помнiкi горадабудаўнiцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_development_monuments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_urban_development_project_of_special_planning_special_project;
+    => nrel_associative_connection: by_architecture_monuments;
+    => nrel_associative_connection: by_history_monuments;
+
+    => nrel_etalon_online_idx: [7960];;

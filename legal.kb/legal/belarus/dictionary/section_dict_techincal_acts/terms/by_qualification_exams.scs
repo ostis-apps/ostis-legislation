@@ -1,0 +1,26 @@
+
+by_qualification_exams
+    => nrel_main_idtf: [qualification exams] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалификационные экзамены] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікацыйныя экзамены] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_exams_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_qualification_examination;
+    => nrel_associative_connection: by_persons_teaching_students_to_drive_mechanical_vehicles_and_combinations_of_vehicles;
+
+    => nrel_etalon_online_idx: [35617];;

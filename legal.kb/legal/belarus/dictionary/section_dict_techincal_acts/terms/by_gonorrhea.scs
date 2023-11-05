@@ -1,0 +1,27 @@
+
+by_gonorrhea
+    => nrel_main_idtf: [gonorrhea] (* <- lang_en;; *);
+    => nrel_main_idtf: [гонорея] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ганарэя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gonorrhea_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bacterial_vaginosis;
+    => nrel_associative_connection: by_dermatovenerologist;
+    => nrel_associative_connection: by_dermatovenerology;
+
+    => nrel_etalon_online_idx: [34088];;

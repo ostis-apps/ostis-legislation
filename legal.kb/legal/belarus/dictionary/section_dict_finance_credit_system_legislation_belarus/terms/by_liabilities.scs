@@ -1,0 +1,36 @@
+
+by_liabilities
+    => nrel_main_idtf: [liabilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязацельствы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liabilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_date_of_determining_the_obligation_amount;
+    => nrel_associative_connection: by_date_of_determining_the_contract_obligation_amount;
+    => nrel_associative_connection: by_debt_on_assets;
+    => nrel_associative_connection: by_debt_on_executed_guarantees_of_local_executive_and_administration_bodies_budget_loans_loans;
+    => nrel_associative_connection: by_debt_on_payments_to_the_fund_budget;
+    => nrel_associative_connection: by_debt_on_payment_of_leasing_payments;
+    => nrel_associative_connection: by_debt_to_pay_penalty_to_the_budget_of_the_fund;
+    => nrel_associative_connection: by_change_in_accounting_estimate;
+    => nrel_associative_connection: by_penalty_fine;
+    => nrel_associative_connection: by_legal_obligation;
+    => nrel_associative_connection: by_solidary_obligation_responsibility;
+    => nrel_associative_connection: by_tour_operators_responsibility_fund;
+
+    => nrel_etalon_online_idx: [18832];;

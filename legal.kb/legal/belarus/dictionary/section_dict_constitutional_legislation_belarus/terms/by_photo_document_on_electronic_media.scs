@@ -1,0 +1,33 @@
+
+by_photo_document_on_electronic_media
+    => nrel_main_idtf: [photo document on electronic media] (* <- lang_en;; *);
+    => nrel_main_idtf: [фотодокумент на электронном носителе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фотадакумент на электронным носьбіце] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_photo_document_on_electronic_media_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_active_pixel;
+    => nrel_associative_connection: by_hologram;
+    => nrel_associative_connection: by_doublenegative;
+    => nrel_associative_connection: by_unit_of_photo_documents_record_keeping;
+    => nrel_associative_connection: by_unit_of_storage_of_photo_documents;
+    => nrel_associative_connection: by_stereo_slide;
+    => nrel_associative_connection: by_photo_album;
+    => nrel_associative_connection: by_photo_contratype;
+    => nrel_associative_connection: by_photographic_plate;
+
+    => nrel_etalon_online_idx: [26095];;

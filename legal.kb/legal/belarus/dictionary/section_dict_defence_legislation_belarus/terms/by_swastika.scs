@@ -1,0 +1,29 @@
+
+by_swastika
+    => nrel_main_idtf: [swastika] (* <- lang_en;; *);
+    => nrel_main_idtf: [свастика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [свастыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_swastika_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attribut_of_the_uniform_of_sd_employees;
+    => nrel_associative_connection: by_attributes_of_the_uniform_of_ss_members_and_ss_troops;
+    => nrel_associative_connection: by_anthem_of_the_national_socialist_workers_party_of_germany;
+    => nrel_associative_connection: by_emblem_of_the_national_fascist_party_of_italy;
+    => nrel_associative_connection: by_ss_emblem;
+
+    => nrel_etalon_online_idx: [32462];;

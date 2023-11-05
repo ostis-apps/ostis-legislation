@@ -1,0 +1,29 @@
+
+by_failed_bidding
+    => nrel_main_idtf: [failed bidding] (* <- lang_en;; *);
+    => nrel_main_idtf: [несостоявшиеся торги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таргі, якія не адбыліся ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_failed_bidding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bidding;
+    => nrel_associative_connection: by_bidder;
+    => nrel_associative_connection: by_bidder_electronic_bidding;
+    => nrel_associative_connection: by_electronic_bidder;
+    => nrel_associative_connection: by_bidders;
+
+    => nrel_etalon_online_idx: [18162];;

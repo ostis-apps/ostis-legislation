@@ -1,0 +1,48 @@
+
+by_backup_copy
+    => nrel_main_idtf: [backup copy] (* <- lang_en;; *);
+    => nrel_main_idtf: [резервная копия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзервовая копія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_backup_copy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_backup_copy_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aggregation;
+    => nrel_associative_connection: by_organization_archive;
+    => nrel_associative_connection: by_document_in_electronic_form;
+    => nrel_associative_connection: by_cloud_service;
+    => nrel_associative_connection: by_storage_object;
+    => nrel_associative_connection: by_replication;
+    => nrel_associative_connection: by_removable_media;
+    => nrel_associative_connection: by_file;
+    => nrel_associative_connection: by_emulation;
+
+    => nrel_etalon_online_idx: [31721];;

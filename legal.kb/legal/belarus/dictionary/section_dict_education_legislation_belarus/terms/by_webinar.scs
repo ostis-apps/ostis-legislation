@@ -1,0 +1,30 @@
+
+by_webinar
+    => nrel_main_idtf: [webinar] (* <- lang_en;; *);
+    => nrel_main_idtf: [вебинар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вэбінар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_webinar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_webinar;
+    => nrel_associative_connection: by_auditorium;
+    => nrel_associative_connection: by_training_courses;
+    => nrel_associative_connection: by_practical_work;
+    => nrel_associative_connection: by_thematic_seminar;
+    => nrel_associative_connection: by_training;
+
+    => nrel_etalon_online_idx: [41599];;

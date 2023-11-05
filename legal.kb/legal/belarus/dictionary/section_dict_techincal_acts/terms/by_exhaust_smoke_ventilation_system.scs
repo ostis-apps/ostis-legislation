@@ -1,0 +1,28 @@
+
+by_exhaust_smoke_ventilation_system
+    => nrel_main_idtf: [exhaust smoke ventilation system] (* <- lang_en;; *);
+    => nrel_main_idtf: [вытяжная система противодымной вентиляции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выцяжная сістэма процідымнай вентыляцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exhaust_smoke_ventilation_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ventilation_exhaust;
+    => nrel_associative_connection: by_smoke_zone;
+    => nrel_associative_connection: by_smoke_hatch;
+    => nrel_associative_connection: by_smoke_hatch_flashlight_or_fanlight;
+
+    => nrel_etalon_online_idx: [37233];;

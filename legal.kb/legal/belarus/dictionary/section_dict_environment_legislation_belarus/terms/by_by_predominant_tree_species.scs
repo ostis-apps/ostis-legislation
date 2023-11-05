@@ -1,0 +1,32 @@
+
+by_by_predominant_tree_species
+    => nrel_main_idtf: [by_predominant_tree_species] (* <- lang_en;; *);
+    => nrel_main_idtf: [преобладающая древесная порода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пераважная драўняная парода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_predominant_tree_species_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wood_species;
+    => nrel_associative_connection: by_tree_and_shrubbery_vegetation;
+    => nrel_associative_connection: by_cultivated_tree_species;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_tree_species_composition;
+    => nrel_associative_connection: by_wood_species_mixing_scheme;
+
+    => nrel_etalon_online_idx: [27968];;

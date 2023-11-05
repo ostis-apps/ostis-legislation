@@ -1,0 +1,44 @@
+
+by_commission_of_crime_by_organized_group
+    => nrel_main_idtf: [commission of crime by organized group] (* <- lang_en;; *);
+    => nrel_main_idtf: [совершение преступления организованной группой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [учыненне злачынства арганізаванай групай] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_of_crime_by_organized_group_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_of_crime_by_organized_group_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_act_committing_time;
+    => nrel_associative_connection: by_organized_crime;
+    => nrel_associative_connection: by_criminal_organization;
+    => nrel_associative_connection: by_accompliceship_in_crime;
+    => nrel_associative_connection: by_purpose_of_organized_group;
+
+    => nrel_etalon_online_idx: [23453];;

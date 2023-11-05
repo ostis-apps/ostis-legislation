@@ -1,0 +1,28 @@
+
+by_landslide
+    => nrel_main_idtf: [landslide] (* <- lang_en;; *);
+    => nrel_main_idtf: [оползень] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апоўзень] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_landslide_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_board_of_the_career;
+    => nrel_associative_connection: by_mining_transport_machines;
+    => nrel_associative_connection: by_bench_slope;
+    => nrel_associative_connection: by_open_mining_operations;
+
+    => nrel_etalon_online_idx: [34191];;

@@ -1,0 +1,28 @@
+
+by_limited_working_state
+    => nrel_main_idtf: [limited working state] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограниченно работоспособное состояние] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежавана працаздольны стан] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limited_working_state_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_inoperable_condition;
+    => nrel_associative_connection: by_technical_state;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_etalon_online_idx: [37332];;

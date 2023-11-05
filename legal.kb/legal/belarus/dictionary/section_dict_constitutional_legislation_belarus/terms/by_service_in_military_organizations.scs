@@ -1,0 +1,29 @@
+
+by_service_in_military_organizations
+    => nrel_main_idtf: [service in military organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [служба в военизированных организациях] (* <- lang_ru;; *);
+    => nrel_main_idtf: [служба ў ваенізаваных арганізацыях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_in_military_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_paramilitary_organizations;
+    => nrel_associative_connection: by_state_service;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_training_of_personnel_in_specialties_for_military_formations_and_parametric_organizations_customs_authorities;
+    => nrel_associative_connection: by_professional_activity;
+
+    => nrel_etalon_online_idx: [40524];;

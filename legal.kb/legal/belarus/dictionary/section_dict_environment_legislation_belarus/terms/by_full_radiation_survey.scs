@@ -1,0 +1,35 @@
+
+by_full_radiation_survey
+    => nrel_main_idtf: [full radiation survey] (* <- lang_en;; *);
+    => nrel_main_idtf: [полное радиационное обследование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [поўнае радыяцыйнае абследаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_full_radiation_survey_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_radiation_control;
+    => nrel_associative_connection: by_ionizing_radiation;
+    => nrel_associative_connection: by_complex_engineering_and_radiation_survey_of_the_point_of_disposal_of_radioactive_wastes;
+    => nrel_associative_connection: by_survey;
+    => nrel_associative_connection: by_objects_of_radiation_control;
+    => nrel_associative_connection: by_primary_radiation_monitoring;
+    => nrel_associative_connection: by_radiation_control_subdivisions;
+    => nrel_associative_connection: by_radiation_inspection_of_lands_of_the_forestry_fund;
+    => nrel_associative_connection: by_radiation_inspection_of_felling_areas;
+    => nrel_associative_connection: by_radiation_control;
+    => nrel_associative_connection: by_radiation_monitoring;
+
+    => nrel_etalon_online_idx: [20534];;

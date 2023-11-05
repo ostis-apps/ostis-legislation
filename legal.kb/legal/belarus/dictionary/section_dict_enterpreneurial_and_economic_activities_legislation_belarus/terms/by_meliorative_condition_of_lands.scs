@@ -1,0 +1,35 @@
+
+by_meliorative_condition_of_lands
+    => nrel_main_idtf: [meliorative condition of lands] (* <- lang_en;; *);
+    => nrel_main_idtf: [мелиоративное состояние земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [меліяратыўны стан зямель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meliorative_condition_of_lands_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intracompany_meliorative_system;
+    => nrel_associative_connection: by_hydrotechnical_reclamation;
+    => nrel_associative_connection: by_twoside_regulation_of_soil_water_regime;
+    => nrel_associative_connection: by_melioration_system;
+    => nrel_associative_connection: by_land_melioration;
+    => nrel_associative_connection: by_drainage_system;
+    => nrel_associative_connection: by_drainage_and_irrigation_system;
+    => nrel_associative_connection: by_drainage_and_humidifying_system;
+    => nrel_associative_connection: by_land_melioration_project;
+    => nrel_associative_connection: by_project_documentation_for_land_melioration;
+    => nrel_associative_connection: by_chemical_melioration;
+
+    => nrel_etalon_online_idx: [11959];;

@@ -1,0 +1,30 @@
+
+by_date_of_law_adoption
+    => nrel_main_idtf: [date of law adoption ] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата принятия закона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата прыняцця закона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_law_adoption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acts_of_legislation;
+    => nrel_associative_connection: by_document_date;
+    => nrel_associative_connection: by_law;
+    => nrel_associative_connection: by_legislative_acts;
+    => nrel_associative_connection: by_legislation;
+    => nrel_associative_connection: by_normative_legal_act;
+
+    => nrel_etalon_online_idx: [30831];;

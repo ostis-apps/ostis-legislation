@@ -1,0 +1,61 @@
+
+by_object_estimate_object_estimate_calculation
+    => nrel_main_idtf: [object estimate (object estimate calculation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [объектная смета (объектный сметный расчет)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ектны каштарыс (аб'ектны каштарысны разлік)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_estimate_object_estimate_calculation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_estimate_object_estimate_calculation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_estimate_object_estimate_calculation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_local_estimate_local_estimated_calculation;
+    => nrel_associative_connection: by_local_estimate_local_estimated_calculation_resource_and_estimate_calculation;
+    => nrel_associative_connection: by_resourceestimate_standards;
+    => nrel_associative_connection: by_consolidated_estimate_calculation_of_the_cost_of_construction;
+    => nrel_associative_connection: by_consolidated_estimate_calculation_of_the_cost_of_construction_of_the_facility;
+    => nrel_associative_connection: by_consolidated_cost_estimate_for_the_construction_of_the_facility_construction_phase;
+    => nrel_associative_connection: by_funds_for_unforeseen_works_and_costs;
+
+    => nrel_etalon_online_idx: [18739];;

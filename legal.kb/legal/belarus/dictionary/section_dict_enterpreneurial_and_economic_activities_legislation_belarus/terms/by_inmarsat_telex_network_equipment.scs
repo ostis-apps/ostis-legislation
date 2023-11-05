@@ -1,0 +1,15 @@
+
+by_inmarsat_telex_network_equipment
+    => nrel_main_idtf: [inmarsat telex network equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [оконечное оборудование сети телекс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцавое абсталяванне сеткі тэлекс] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_subscribers_socket;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_network_of_subscriber_telegraphy_and_telex;
+    => nrel_associative_connection: by_telex;
+    => nrel_associative_connection: by_subscriber_telegraphy_and_telex_service;
+
+    => nrel_etalon_online_idx: [18913];;

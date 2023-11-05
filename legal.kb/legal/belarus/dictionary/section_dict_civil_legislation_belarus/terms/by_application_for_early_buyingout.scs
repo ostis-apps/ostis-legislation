@@ -1,0 +1,38 @@
+
+by_application_for_early_buyingout
+    => nrel_main_idtf: [application for early buying-out] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявка на досрочный выкуп] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўка на датэрміновы выкуп] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_application_for_early_buyingout_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_time_of_filing_applications;
+    => nrel_associative_connection: by_counter_application_for_early_repurchase;
+    => nrel_associative_connection: by_buyout_of_bonds;
+    => nrel_associative_connection: by_redemption_sum;
+    => nrel_associative_connection: by_early_buyout;
+    => nrel_associative_connection: by_application;
+    => nrel_associative_connection: by_application_for_buying_bonds;
+    => nrel_associative_connection: by_application_for_sale;
+    => nrel_associative_connection: by_redemption_notice;
+    => nrel_associative_connection: by_notice_for_early_buyingout;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_bidding;
+    => nrel_associative_connection: by_authorized_representative_of_the_ministry_of_finance;
+    => nrel_associative_connection: by_ransom_participant;
+
+    => nrel_etalon_online_idx: [29116];;

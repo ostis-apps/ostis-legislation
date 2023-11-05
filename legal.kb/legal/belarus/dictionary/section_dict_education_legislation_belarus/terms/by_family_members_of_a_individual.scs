@@ -1,0 +1,28 @@
+
+by_family_members_of_a_individual
+    => nrel_main_idtf: [family members of a individual] (* <- lang_en;; *);
+    => nrel_main_idtf: [члены семьи физического лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [члены сям'і фізічнай асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_family_members_of_a_individual_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interested_persons_in_regard_to_physical_person;
+    => nrel_associative_connection: by_family_members;
+    => nrel_associative_connection: by_family_members_of_a_citizen;
+    => nrel_associative_connection: by_family_members_of_the_lender;
+
+    => nrel_etalon_online_idx: [27246];;

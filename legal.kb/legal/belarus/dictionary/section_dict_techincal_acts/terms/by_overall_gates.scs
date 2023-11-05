@@ -1,0 +1,28 @@
+
+by_overall_gates
+    => nrel_main_idtf: [overall gates] (* <- lang_en;; *);
+    => nrel_main_idtf: [габаритные ворота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [габарытныя вароты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overall_gates_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_overall_figure_eight_circle_for_the_autodrome;
+    => nrel_associative_connection: by_overall_snake;
+    => nrel_associative_connection: by_overall_corridor;
+    => nrel_associative_connection: by_overall_tunnel;
+
+    => nrel_etalon_online_idx: [35601];;

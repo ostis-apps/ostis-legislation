@@ -1,0 +1,31 @@
+
+by_passenger_under_deportation
+    => nrel_main_idtf: [passenger under deportation] (* <- lang_en;; *);
+    => nrel_main_idtf: [депортируемый пассажир] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпартуемы пасажыр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_under_deportation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_penalty;
+    => nrel_associative_connection: by_deportation_from_the_republic_of_belarus;
+    => nrel_associative_connection: by_deportation;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_stateless_person;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_transit_passenger;
+
+    => nrel_etalon_online_idx: [10093];;

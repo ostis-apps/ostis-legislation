@@ -1,0 +1,43 @@
+
+by_actual_inspection_method
+    => nrel_main_idtf: [actual inspection method] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод фактической проверки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад фактычнай праверкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_actual_inspection_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_actual_inspection_method_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_total_inspection_method;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_auditors;
+    => nrel_associative_connection: by_auditor;
+
+    => nrel_etalon_online_idx: [17315];;

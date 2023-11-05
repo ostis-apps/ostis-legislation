@@ -1,0 +1,49 @@
+
+by_recovery
+    => nrel_main_idtf: [recovery] (* <- lang_en;; *);
+    => nrel_main_idtf: [выздоровление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папраўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recovery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recovery_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sick_person;
+    => nrel_associative_connection: by_dispensary_observation;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_health;
+    => nrel_associative_connection: by_outcomes_of_the_disease;
+    => nrel_associative_connection: by_patient;
+    => nrel_associative_connection: by_mental_health;
+    => nrel_associative_connection: by_mental_disorder_disease;
+    => nrel_associative_connection: by_persistent_and_longterm_remission_of_a_mental_disorder_disease;
+    => nrel_associative_connection: by_sustainable_improvement_in_mental_health;
+
+    => nrel_etalon_online_idx: [27782];;

@@ -1,0 +1,27 @@
+
+by_by_trip_form
+    => nrel_main_idtf: [by_trip_form] (* <- lang_en;; *);
+    => nrel_main_idtf: [формуляр поездки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фармуляр паездкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_trip_form_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile_carrier;
+    => nrel_associative_connection: by_international_highway_transportation_operations;
+    => nrel_associative_connection: by_passenger;
+
+    => nrel_etalon_online_idx: [40020];;

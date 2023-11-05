@@ -1,0 +1,41 @@
+
+by_shift_work
+    => nrel_main_idtf: [shift work] (* <- lang_en;; *);
+    => nrel_main_idtf: [сменная работа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зменная праца] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shift_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shift_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_etalon_online_idx: [3374];;

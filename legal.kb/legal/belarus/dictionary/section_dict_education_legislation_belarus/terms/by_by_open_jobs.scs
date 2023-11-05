@@ -1,0 +1,30 @@
+
+by_by_open_jobs
+    => nrel_main_idtf: [by_open_jobs] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытые задания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрытыя заданні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_open_jobs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_education_quality_control;
+    => nrel_associative_connection: by_controldiagnostic_and_other_materials;
+    => nrel_associative_connection: by_education_quality_management;
+    => nrel_associative_connection: by_national_education_quality_survey;
+    => nrel_associative_connection: by_selfcontrol_of_quality_assurance_of_education;
+    => nrel_associative_connection: by_functional_literacy;
+
+    => nrel_etalon_online_idx: [42589];;

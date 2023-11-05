@@ -1,0 +1,52 @@
+
+by_full_wagonload
+    => nrel_main_idtf: [full wagon-load] (* <- lang_en;; *);
+    => nrel_main_idtf: [повагонная отправка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [павагонная адпраўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_full_wagonload_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_full_wagonload_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_railroad_freight_cars;
+    => nrel_associative_connection: by_wagons_containers_of_consignors_consignees;
+    => nrel_associative_connection: by_wagons_containers_of_carrier;
+    => nrel_associative_connection: by_group_sending;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_shipment;
+    => nrel_associative_connection: by_terms_of_railway_transportation_public;
+    => nrel_associative_connection: by_terms_of_carriage_of_passengers_baggage_and_cargo_railway_transport_for_general_use;
+    => nrel_associative_connection: by_team_regarding_the_application_of_the_freight_dispatch_tariff;
+    => nrel_associative_connection: by_combined_wagon_shipment;
+    => nrel_associative_connection: by_prefabricated_wagon_with_regard_to_the_application_of_the_tariff;
+
+    => nrel_etalon_online_idx: [20274];;

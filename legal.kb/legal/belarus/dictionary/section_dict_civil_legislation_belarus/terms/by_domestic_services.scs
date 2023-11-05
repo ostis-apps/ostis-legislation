@@ -1,0 +1,32 @@
+
+by_domestic_services
+    => nrel_main_idtf: [domestic services] (* <- lang_en;; *);
+    => nrel_main_idtf: [бытовые услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бытавыя паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_domestic_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outreach_services_of_consumers_with_rural_complex_reception_point_to_receive_orders_to_provide_domestic_services;
+    => nrel_associative_connection: by_additional_services;
+    => nrel_associative_connection: by_service_zone_of_rural_complex_receiving_point_reception_of_orders_for_the_provision_of_domestic_services;
+    => nrel_associative_connection: by_small_clothing_repair;
+    => nrel_associative_connection: by_sample_of_executor;
+    => nrel_associative_connection: by_paid_services_for_the_population;
+    => nrel_associative_connection: by_gift_certificate_for_domestic_services_provision;
+    => nrel_associative_connection: by_rural_integrated_receiving_point_for_receiving_orders_for_provision_of_household_services;
+
+    => nrel_etalon_online_idx: [27067];;

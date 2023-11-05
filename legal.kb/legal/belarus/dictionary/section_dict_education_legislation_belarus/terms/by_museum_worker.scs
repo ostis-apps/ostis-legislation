@@ -1,0 +1,30 @@
+
+by_museum_worker
+    => nrel_main_idtf: [museum worker] (* <- lang_en;; *);
+    => nrel_main_idtf: [музейный работник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музейны работнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_museum_worker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_museums_mission;
+    => nrel_associative_connection: by_museum;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_excursion_service_for_museums_visitors;
+
+    => nrel_etalon_online_idx: [7945];;

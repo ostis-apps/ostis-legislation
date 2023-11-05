@@ -1,0 +1,31 @@
+
+by_annulment_of_a_domain_name_registration_record
+    => nrel_main_idtf: [annulment of a domain name registration record] (* <- lang_en;; *);
+    => nrel_main_idtf: [аннулирование записи о регистрации доменного имени] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ануляванне запісу аб рэгістрацыі даменнага імя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_annulment_of_a_domain_name_registration_record_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_domain_name_administration;
+    => nrel_associative_connection: by_domain_name_owner;
+    => nrel_associative_connection: by_domain_name_delegation;
+    => nrel_associative_connection: by_domain_zone;
+    => nrel_associative_connection: by_domain_name_domain;
+    => nrel_associative_connection: by_suspension_of_domain_name_administration;
+    => nrel_associative_connection: by_suspension_of_domain_name_delegation;
+
+    => nrel_etalon_online_idx: [32386];;

@@ -1,0 +1,29 @@
+
+by_nearreal_time_mode
+    => nrel_main_idtf: [near-real time mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим времени, приближенный к реальному] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым часу, набліжаны да рэальнаму] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nearreal_time_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_incountry_information_service;
+    => nrel_associative_connection: by_information_message;
+    => nrel_associative_connection: by_finality_of_payment_for_intra_crossborder_instantaneous_payment;
+    => nrel_associative_connection: by_operating_day_of_the_sistem_of_instant_payment;
+    => nrel_associative_connection: by_mode_247365;
+
+    => nrel_etalon_online_idx: [41815];;

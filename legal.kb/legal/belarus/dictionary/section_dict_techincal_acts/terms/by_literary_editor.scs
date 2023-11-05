@@ -1,0 +1,31 @@
+
+by_literary_editor
+    => nrel_main_idtf: [literary editor] (* <- lang_en;; *);
+    => nrel_main_idtf: [литературный редактор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [літаратурны рэдактар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_literary_editor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_belarusian_philology;
+    => nrel_associative_connection: by_editorinchief_editor_of_the_media;
+    => nrel_associative_connection: by_literature_editing;
+    => nrel_associative_connection: by_literature_and_editorial_activity;
+    => nrel_associative_connection: by_literature_and_editorial_employee;
+    => nrel_associative_connection: by_literary_and_artistic_works;
+    => nrel_associative_connection: by_literature_worker_journalist;
+
+    => nrel_etalon_online_idx: [29270];;

@@ -1,0 +1,28 @@
+
+by_subdivision_of_security_department
+    => nrel_main_idtf: [subdivision of security department ] (* <- lang_en;; *);
+    => nrel_main_idtf: [подразделение департамента охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падраздзяленне дэпартамента аховы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subdivision_of_security_department_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_department_of_protection_of_the_ministry_of_internal_affairs_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_ministry_of_internal_affairs;
+    => nrel_associative_connection: by_ministry_of_internal_affairs_of_the_republic_of_belarus_mia;
+    => nrel_associative_connection: by_protective_service_work;
+
+    => nrel_etalon_online_idx: [20416];;

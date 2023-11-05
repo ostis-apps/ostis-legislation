@@ -1,0 +1,33 @@
+
+by_state_committee_of_forensic_expertise
+    => nrel_main_idtf: [state committee of forensic expertise] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный комитет судебных экспертиз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны камітэт судовых экспертыз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_committee_of_forensic_expertise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_organs_of_service;
+    => nrel_associative_connection: by_head_of_forensic_expert_activity;
+    => nrel_associative_connection: by_service_at_the_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_forensic_divisions_of_the_bodies_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_judicial_experts_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_judicial_expert_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_judicial_expert_intern_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_expert_organization;
+    => nrel_associative_connection: by_expert_divisions_of_the_state_forensic_examination_committee;
+
+    => nrel_etalon_online_idx: [11267];;

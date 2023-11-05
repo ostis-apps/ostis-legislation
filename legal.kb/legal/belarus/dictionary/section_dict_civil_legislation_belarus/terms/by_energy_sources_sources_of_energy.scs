@@ -1,0 +1,29 @@
+
+by_energy_sources_sources_of_energy
+    => nrel_main_idtf: [energy sources (sources of energy)] (* <- lang_en;; *);
+    => nrel_main_idtf: [энергоисточники (источники энергии)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [энергакрыніцы (крыніцы энергіі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_energy_sources_sources_of_energy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_renewable_sources_of_energy;
+    => nrel_associative_connection: by_hydroelectric_power_plant_hpp;
+    => nrel_associative_connection: by_electric_power_supply;
+    => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_woodfired_power_source;
+
+    => nrel_etalon_online_idx: [27241];;

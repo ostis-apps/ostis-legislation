@@ -1,0 +1,82 @@
+
+by_reporting_financial_year
+    => nrel_main_idtf: [reporting financial year] (* <- lang_en;; *);
+    => nrel_main_idtf: [отчетный финансовый год] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаздачны фінансавы год] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_financial_year_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_financial_year_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_financial_year_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_financial_year_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_year;
+    => nrel_associative_connection: by_year;
+    => nrel_associative_connection: by_annual_consolidated_statements;
+    => nrel_associative_connection: by_annual_statements;
+    => nrel_associative_connection: by_annual_reporting_formed_in_accordance_with_international_financial_reporting_standards;
+    => nrel_associative_connection: by_reporting_date;
+    => nrel_associative_connection: by_reporting_year;
+    => nrel_associative_connection: by_reporting_month_period;
+    => nrel_associative_connection: by_reporting_single_tax_period;
+    => nrel_associative_connection: by_another_financial_year;
+    => nrel_associative_connection: by_previous_reporting_period;
+    => nrel_associative_connection: by_current_reporting_period;
+    => nrel_associative_connection: by_current_financial_year;
+
+    => nrel_etalon_online_idx: [19639];;

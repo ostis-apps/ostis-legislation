@@ -1,0 +1,18 @@
+
+by_emergency_temperature
+    => nrel_main_idtf: [emergency temperature] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийная температура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйная тэмпература] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_emergency_situation;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_safety_of_transportation_of_dangerous_goods;
+    => nrel_associative_connection: by_critical_temperature;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_autoignition_temperature;
+    => nrel_associative_connection: by_temperature_graph;
+
+    => nrel_etalon_online_idx: [4184];;

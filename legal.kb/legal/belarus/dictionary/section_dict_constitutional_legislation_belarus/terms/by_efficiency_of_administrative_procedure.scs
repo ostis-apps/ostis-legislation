@@ -1,0 +1,29 @@
+
+by_efficiency_of_administrative_procedure
+    => nrel_main_idtf: [efficiency of administrative procedure] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативность административной процедуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўнасць адміністрацыйнай працэдуры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_efficiency_of_administrative_procedure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_day_for_implementation_of_the_administrative_procedure;
+    => nrel_associative_connection: by_day_of_administrative_procedure_completion;
+    => nrel_associative_connection: by_equality_of_interested_persons_before_the_law;
+    => nrel_associative_connection: by_territorial_accessibility_of_the_administrative_procedure;
+
+    => nrel_etalon_online_idx: [18973];;

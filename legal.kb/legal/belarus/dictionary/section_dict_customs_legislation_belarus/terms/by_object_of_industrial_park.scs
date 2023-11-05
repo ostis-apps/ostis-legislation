@@ -1,0 +1,32 @@
+
+by_object_of_industrial_park
+    => nrel_main_idtf: [object of industrial park] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект индустриального парка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект індустрыяльнага парка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_of_industrial_park_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adaptation_of_project_documentation_developed_for_the_objects_of_the_industrial_park;
+    => nrel_associative_connection: by_investor_of_industrial_park;
+    => nrel_associative_connection: by_major_investment_project;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_of_industrial_park;
+    => nrel_associative_connection: by_industrial_park_resident;
+    => nrel_associative_connection: by_republican_specialized_operating_organizations;
+    => nrel_associative_connection: by_component_parts_of_the_industrial_park_great_stone;
+    => nrel_associative_connection: by_subject_of_innovative_activity_of_the_industrial_park;
+
+    => nrel_etalon_online_idx: [18700];;

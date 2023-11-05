@@ -1,0 +1,44 @@
+
+by_party_of_prosecution
+    => nrel_main_idtf: [party of prosecution] (* <- lang_en;; *);
+    => nrel_main_idtf: [сторона обвинения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бок абвінавачання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_party_of_prosecution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_party_of_prosecution_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_prosecutor;
+    => nrel_associative_connection: by_civil_claimant;
+    => nrel_associative_connection: by_charge;
+    => nrel_associative_connection: by_representatives;
+    => nrel_associative_connection: by_private_prosecutor;
+
+    => nrel_etalon_online_idx: [3422];;

@@ -1,0 +1,43 @@
+
+by_commercial_hunting
+    => nrel_main_idtf: [ commercial hunting] (* <- lang_en;; *);
+    => nrel_main_idtf: [промысловая охота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловае паляванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commercial_hunting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hunting_management;
+    => nrel_associative_connection: by_extraction_of_hunting_animals;
+    => nrel_associative_connection: by_driven_hunting;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_amateur_hunting;
+    => nrel_associative_connection: by_optimum_number_of_hunting_animals;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_production_share;
+    => nrel_associative_connection: by_production_measure;
+    => nrel_associative_connection: by_wild_animal_production_measure;
+    => nrel_associative_connection: by_commercial_number;
+    => nrel_associative_connection: by_commercial_fishing;
+    => nrel_associative_connection: by_fishery_stock;
+    => nrel_associative_connection: by_gun_hunting;
+    => nrel_associative_connection: by_the_head_of_hunt;
+    => nrel_associative_connection: by_hunting_season;
+    => nrel_associative_connection: by_hunting_methods;
+    => nrel_associative_connection: by_time_of_hunting;
+    => nrel_associative_connection: by_trophy_book;
+
+    => nrel_etalon_online_idx: [21630];;

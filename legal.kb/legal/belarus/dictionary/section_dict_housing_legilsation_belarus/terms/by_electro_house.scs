@@ -1,0 +1,26 @@
+
+by_electro_house
+    => nrel_main_idtf: [electro house] (* <- lang_en;; *);
+    => nrel_main_idtf: [электродом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электрадом] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electro_house_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_houseetalon;
+
+    => nrel_etalon_online_idx: [42041];;

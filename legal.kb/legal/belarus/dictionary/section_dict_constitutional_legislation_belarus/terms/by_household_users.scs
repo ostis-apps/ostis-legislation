@@ -1,0 +1,15 @@
+
+by_household_users
+    => nrel_main_idtf: [household users] (* <- lang_en;; *);
+    => nrel_main_idtf: [бытовые потребители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бытавыя спажыўцы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_subscribtion_to_provide_domestic_services;
+    => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_household_electricity_consumption;
+    => nrel_associative_connection: by_household_abonent;
+    => nrel_associative_connection: by_consumers;
+
+    => nrel_etalon_online_idx: [8458];;

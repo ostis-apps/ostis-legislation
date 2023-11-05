@@ -1,0 +1,42 @@
+
+by_contract_of_sublease
+    => nrel_main_idtf: [contract of sublease] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор сублизинга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор сублізінгу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_of_sublease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_of_sublease_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lessor;
+    => nrel_associative_connection: by_leasing_recipient;
+    => nrel_associative_connection: by_leasing_agreement_price;
+
+    => nrel_etalon_online_idx: [10947];;

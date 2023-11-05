@@ -1,0 +1,15 @@
+
+by_veterinary_passport_of_the_animal
+    => nrel_main_idtf: [veterinary passport of the animal] (* <- lang_en;; *);
+    => nrel_main_idtf: [ветеринарный паспорт животного] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ветэрынарны пашпарт жывёлы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_veterinary;
+    => nrel_associative_connection: by_veterinary_veterinary_medicine;
+    => nrel_associative_connection: by_veterinary_documents;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_companion_animals;
+
+    => nrel_etalon_online_idx: [8544];;

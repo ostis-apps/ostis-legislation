@@ -1,0 +1,29 @@
+
+by_altitude_exceeding_of_the_aerodrome
+    => nrel_main_idtf: [ altitude (exceeding) of the aerodrome] (* <- lang_en;; *);
+    => nrel_main_idtf: [высота (превышение) аэродрома] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышыня (перавышэнне) аэрадрома] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_altitude_exceeding_of_the_aerodrome_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geoid_wave;
+    => nrel_associative_connection: by_the_height_of_the_lower_boundary_of_the_clouds;
+    => nrel_associative_connection: by_main_runway;
+    => nrel_associative_connection: by_an_obstaclefree_zone;
+    => nrel_associative_connection: by_aerodrome_identification_sign;
+
+    => nrel_etalon_online_idx: [41035];;

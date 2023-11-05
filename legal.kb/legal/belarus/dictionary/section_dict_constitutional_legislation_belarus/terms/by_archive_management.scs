@@ -1,0 +1,32 @@
+
+by_archive_management
+    => nrel_main_idtf: [archive management] (* <- lang_en;; *);
+    => nrel_main_idtf: [управление архивом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраванне архівам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_management_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_business;
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_state_archive;
+    => nrel_associative_connection: by_information_system_of_the_organizations_archive;
+    => nrel_associative_connection: by_historianarchivist;
+    => nrel_associative_connection: by_archive_profile;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+
+    => nrel_etalon_online_idx: [25522];;

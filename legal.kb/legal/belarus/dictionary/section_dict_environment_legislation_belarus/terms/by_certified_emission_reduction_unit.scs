@@ -1,0 +1,39 @@
+
+by_certified_emission_reduction_unit
+    => nrel_main_idtf: [certified emission reduction unit] (* <- lang_en;; *);
+    => nrel_main_idtf: [сертифицированная единица сокращения выбросов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сертыфікаваная адзінка скарачэння выкідаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certified_emission_reduction_unit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_verified_reductions_of_greenhouse_emission;
+    => nrel_associative_connection: by_voluntary_reduction_of_greenhouse_gas_emissions;
+    => nrel_associative_connection: by_additional_reserve_account_of_carbon_units;
+    => nrel_associative_connection: by_unit_of_voluntary_reduction_of_greenhouse_gas_emissions;
+    => nrel_associative_connection: by_unit_of_emissions_reduction;
+    => nrel_associative_connection: by_unit_of_greenhouse_gas_emissions_reduction;
+    => nrel_associative_connection: by_assigned_amount_unit;
+    => nrel_associative_connection: by_normative_standards_of_allowable_emission_and_discharge_of_chemical_and_other_substances;
+    => nrel_associative_connection: by_reserve_account_of_carbon_units;
+    => nrel_associative_connection: by_emission_reduction;
+    => nrel_associative_connection: by_account_of_removals_from_circulation_of_carbon_units;
+    => nrel_associative_connection: by_carbon_cancellation_accounts;
+    => nrel_associative_connection: by_current_carbon_units_account;
+    => nrel_associative_connection: by_carbon_fiber_preforms;
+    => nrel_associative_connection: by_carbon_units;
+
+    => nrel_etalon_online_idx: [23069];;

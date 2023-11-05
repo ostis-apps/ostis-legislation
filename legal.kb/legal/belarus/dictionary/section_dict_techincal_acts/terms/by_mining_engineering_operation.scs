@@ -1,0 +1,30 @@
+
+by_mining_engineering_operation
+    => nrel_main_idtf: [mining engineering operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [горнотехническая эксплуатация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [горнатэхнічная эксплуатацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mining_engineering_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_mining_organization;
+    => nrel_associative_connection: by_mining_enterprise;
+    => nrel_associative_connection: by_underground_mining;
+    => nrel_associative_connection: by_technical_operation_of_buildings;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_etalon_online_idx: [13586];;

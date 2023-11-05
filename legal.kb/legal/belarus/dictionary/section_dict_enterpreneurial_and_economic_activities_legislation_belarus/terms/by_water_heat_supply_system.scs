@@ -1,0 +1,49 @@
+
+by_water_heat_supply_system
+    => nrel_main_idtf: [water heat supply system] (* <- lang_en;; *);
+    => nrel_main_idtf: [водяная система теплоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вадзяная сістэма цеплазабеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_heat_supply_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_heat_supply_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unaccounted_consumers;
+    => nrel_associative_connection: by_water_system_of_heat_supply;
+    => nrel_associative_connection: by_hydraulic_stability_of_the_heat_supply_system;
+    => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_open_water_heating_system;
+    => nrel_associative_connection: by_open_heating_system;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_system_decentralized_local;
+    => nrel_associative_connection: by_heat_supply_system_centralized;
+    => nrel_associative_connection: by_heat_supply;
+
+    => nrel_etalon_online_idx: [13167];;

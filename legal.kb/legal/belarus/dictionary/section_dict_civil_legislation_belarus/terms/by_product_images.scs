@@ -1,0 +1,36 @@
+
+by_product_images
+    => nrel_main_idtf: [product images] (* <- lang_en;; *);
+    => nrel_main_idtf: [изображения изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адлюстраванні вырабу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_product_images_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_product_containing_explosives;
+    => nrel_associative_connection: by_medical_devices;
+    => nrel_associative_connection: by_products_of_national_art_crafts;
+    => nrel_associative_connection: by_image_of_consumer_packaging_of_alcoholic_beverages;
+    => nrel_associative_connection: by_graphic_symbols;
+    => nrel_associative_connection: by_multispectral_image_sensors;
+    => nrel_associative_connection: by_monospectral_image_sensors;
+    => nrel_associative_connection: by_naturalistic_image_description;
+    => nrel_associative_connection: by_images_of_people_or_animals;
+    => nrel_associative_connection: by_pair_item;
+    => nrel_associative_connection: by_image_quality_improvement;
+    => nrel_associative_connection: by_photo_document;
+
+    => nrel_etalon_online_idx: [15137];;

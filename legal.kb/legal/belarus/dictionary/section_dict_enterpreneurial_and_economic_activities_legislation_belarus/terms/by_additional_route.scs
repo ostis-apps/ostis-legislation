@@ -1,0 +1,44 @@
+
+by_additional_route
+    => nrel_main_idtf: [additional route] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительный рейс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковы рэйс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_route_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_voyage_of_foreign_navigation_for_belarusian_vessels;
+    => nrel_associative_connection: by_charter_flight;
+    => nrel_associative_connection: by_excess_flight_flight;
+    => nrel_associative_connection: by_relay_flight;
+
+    => nrel_etalon_online_idx: [14431];;

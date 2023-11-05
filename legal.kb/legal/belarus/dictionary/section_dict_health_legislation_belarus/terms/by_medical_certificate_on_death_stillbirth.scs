@@ -1,0 +1,30 @@
+
+by_medical_certificate_on_death_stillbirth
+    => nrel_main_idtf: [medical certificate on death (stillbirth)] (* <- lang_en;; *);
+    => nrel_main_idtf: [врачебное свидетельство о смерти (мертворождении)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урачэбнае пасведчанне аб смерці (мёртванараджэнні)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_certificate_on_death_stillbirth_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_infant_mortality_rate;
+    => nrel_associative_connection: by_mortality_rate;
+    => nrel_associative_connection: by_persons_who_have_suffered_loss;
+    => nrel_associative_connection: by_certificate;
+    => nrel_associative_connection: by_death;
+    => nrel_associative_connection: by_note;
+
+    => nrel_etalon_online_idx: [11815];;

@@ -1,0 +1,36 @@
+
+by_railroad_freight_cars
+    => nrel_main_idtf: [railroad freight cars] (* <- lang_en;; *);
+    => nrel_main_idtf: [вагоны грузовые] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вагоны грузавыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_railroad_freight_cars_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_wagonkilometer;
+    => nrel_associative_connection: by_railroad_passenger_cars;
+    => nrel_associative_connection: by_cargo_on_own_axes_with_respect_to_tariff_application;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_full_wagonload;
+    => nrel_associative_connection: by_freight_train;
+    => nrel_associative_connection: by_freight_transporting_long_train;
+    => nrel_associative_connection: by_cargopassenger_train;
+    => nrel_associative_connection: by_prefabricated_wagon_with_regard_to_the_application_of_the_tariff;
+    => nrel_associative_connection: by_universal_carriages;
+
+    => nrel_etalon_online_idx: [11792];;

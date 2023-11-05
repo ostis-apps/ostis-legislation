@@ -1,0 +1,36 @@
+
+by_allergology_and_immunology
+    => nrel_main_idtf: [allergology and immunology] (* <- lang_en;; *);
+    => nrel_main_idtf: [аллергология и иммунология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [алергалогія і імуналогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allergology_and_immunology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_allergen;
+    => nrel_associative_connection: by_allergen_specific_immunotherapy;
+    => nrel_associative_connection: by_allergic_reaction;
+    => nrel_associative_connection: by_allergy;
+    => nrel_associative_connection: by_antigen;
+    => nrel_associative_connection: by_antibodies;
+    => nrel_associative_connection: by_doctorallergologistimmunologist;
+    => nrel_associative_connection: by_hypersensitivity;
+    => nrel_associative_connection: by_immunity;
+    => nrel_associative_connection: by_immunodeficiency;
+    => nrel_associative_connection: by_immunocorrection;
+    => nrel_associative_connection: by_urticaria_nos_or_hives;
+
+    => nrel_etalon_online_idx: [33412];;

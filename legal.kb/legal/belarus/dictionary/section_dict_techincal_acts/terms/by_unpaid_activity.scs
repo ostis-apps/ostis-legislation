@@ -1,0 +1,30 @@
+
+by_unpaid_activity
+    => nrel_main_idtf: [unpaid activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [неоплачиваемая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неаплачаная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unpaid_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_volunteer_activity;
+    => nrel_associative_connection: by_salary;
+    => nrel_associative_connection: by_nonpayment;
+    => nrel_associative_connection: by_remuneration_for_labour;
+    => nrel_associative_connection: by_employees_remuneration_for_labour;
+
+    => nrel_etalon_online_idx: [27748];;

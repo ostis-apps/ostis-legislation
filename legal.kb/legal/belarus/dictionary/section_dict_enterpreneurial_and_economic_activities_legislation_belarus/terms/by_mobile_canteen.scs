@@ -1,0 +1,40 @@
+
+by_mobile_canteen
+    => nrel_main_idtf: [mobile canteen] (* <- lang_en;; *);
+    => nrel_main_idtf: [передвижные столовые] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перасоўныя сталовыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_canteen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_class_of_the_public_catering_object;
+    => nrel_associative_connection: by_food_factory;
+    => nrel_associative_connection: by_nonstationary_objects;
+    => nrel_associative_connection: by_nonstationary_public_catering_object;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_food_facility_for_children;
+    => nrel_associative_connection: by_catering_section_kitchen;
+    => nrel_associative_connection: by_public_catering_network;
+    => nrel_associative_connection: by_specialized_public_catering_object;
+    => nrel_associative_connection: by_canteen;
+    => nrel_associative_connection: by_producing_canteens;
+    => nrel_associative_connection: by_dispensing_canteens;
+    => nrel_associative_connection: by_subject_of_public_catering;
+    => nrel_associative_connection: by_type_of_the_public_catering_object;
+    => nrel_associative_connection: by_public_catering_service;
+
+    => nrel_etalon_online_idx: [20008];;

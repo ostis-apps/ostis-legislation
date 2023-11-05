@@ -1,0 +1,39 @@
+
+by_maintainability
+    => nrel_main_idtf: [maintainability] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонтопригодность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонтапрыгоднасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintainability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_onboard_equipment;
+    => nrel_associative_connection: by_towing_cableway;
+    => nrel_associative_connection: by_warranty_hours;
+    => nrel_associative_connection: by_instruments;
+    => nrel_associative_connection: by_suitability_testing;
+    => nrel_associative_connection: by_assigned_overhaul_life;
+    => nrel_associative_connection: by_specified_overhaul_life;
+    => nrel_associative_connection: by_unsuitable_material_product;
+    => nrel_associative_connection: by_passenger_aerial_ropeway;
+    => nrel_associative_connection: by_workable_state;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_materials;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_system_of_scheduled_preventive_repair;
+    => nrel_associative_connection: by_maintenance_service;
+
+    => nrel_etalon_online_idx: [22550];;

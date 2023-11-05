@@ -1,0 +1,26 @@
+
+by_flight_operation_of_an_experimental_aircraft
+    => nrel_main_idtf: [flight operation of an experimental aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [летная эксплуатация экспериментального воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лётная эксплуатацыя эксперыментальнага паветранага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_operation_of_an_experimental_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_experimental_aircraft;
+    => nrel_associative_connection: by_state_registry_of_experimental_aircraft_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [31687];;

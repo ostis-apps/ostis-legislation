@@ -1,0 +1,30 @@
+
+by_mobile_ags
+    => nrel_main_idtf: [mobile ags ] (* <- lang_en;; *);
+    => nrel_main_idtf: [передвижная азс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перасоўная азс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_ags_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_car_filling_station;
+    => nrel_associative_connection: by_fuel_storage_unit;
+    => nrel_associative_connection: by_block_filling_station;
+    => nrel_associative_connection: by_building_premises_for_servicing_drivers_and_passengers;
+    => nrel_associative_connection: by_container_filling_station;
+    => nrel_associative_connection: by_mobile_automobile_gas_fueler;
+
+    => nrel_etalon_online_idx: [35192];;

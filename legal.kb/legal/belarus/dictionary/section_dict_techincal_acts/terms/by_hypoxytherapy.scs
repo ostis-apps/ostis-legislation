@@ -1,0 +1,32 @@
+
+by_hypoxytherapy
+    => nrel_main_idtf: [hypoxytherapy] (* <- lang_en;; *);
+    => nrel_main_idtf: [гипокситерапия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гіпоксітэрапія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hypoxytherapy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aeroionotherapy;
+    => nrel_associative_connection: by_vibrotherapy;
+    => nrel_associative_connection: by_hydrotherapy;
+    => nrel_associative_connection: by_inhalation_therapy;
+    => nrel_associative_connection: by_carboxytherapy;
+    => nrel_associative_connection: by_colonohydrotherapy;
+    => nrel_associative_connection: by_cryotherapy;
+    => nrel_associative_connection: by_ozone_therapy;
+
+    => nrel_etalon_online_idx: [35326];;

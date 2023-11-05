@@ -1,0 +1,27 @@
+
+by_hooligan_motives
+    => nrel_main_idtf: [hooligan motives] (* <- lang_en;; *);
+    => nrel_main_idtf: [хулиганские побуждения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хуліганскія намеры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hooligan_motives_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_malicious_hooliganism;
+    => nrel_associative_connection: by_public_order;
+    => nrel_associative_connection: by_hooliganism;
+
+    => nrel_etalon_online_idx: [5123];;

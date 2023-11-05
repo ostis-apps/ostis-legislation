@@ -1,0 +1,27 @@
+
+by_information_message_of_settlement_center
+    => nrel_main_idtf: [information message of settlement center] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационное сообщение расчетного центра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйнае паведамленне разліковага цэнтра] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_message_of_settlement_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remittance;
+    => nrel_associative_connection: by_calculating_center;
+    => nrel_associative_connection: by_email;
+
+    => nrel_etalon_online_idx: [11327];;

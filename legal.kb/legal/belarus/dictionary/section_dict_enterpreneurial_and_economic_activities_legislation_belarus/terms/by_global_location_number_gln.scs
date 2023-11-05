@@ -1,0 +1,31 @@
+
+by_global_location_number_gln
+    => nrel_main_idtf: [global location number, gln] (* <- lang_en;; *);
+    => nrel_main_idtf: [глобальный номер расположения (global location number, gln)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [глабальны нумар размяшчэння (global location number, gln)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_global_location_number_gln_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sign_of_protection;
+    => nrel_associative_connection: by_global_trade_item_number_gtin;
+    => nrel_associative_connection: by_individual_serial_number_of_goods;
+    => nrel_associative_connection: by_marked_goods;
+    => nrel_associative_connection: by_material_carrier;
+    => nrel_associative_connection: by_means_of_identification;
+    => nrel_associative_connection: by_crossborder_trade;
+
+    => nrel_etalon_online_idx: [31184];;

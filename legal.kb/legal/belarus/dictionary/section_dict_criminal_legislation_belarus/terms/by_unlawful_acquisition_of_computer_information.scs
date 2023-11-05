@@ -1,0 +1,26 @@
+
+by_unlawful_acquisition_of_computer_information
+    => nrel_main_idtf: [unlawful acquisition of computer information] (* <- lang_en;; *);
+    => nrel_main_idtf: [неправомерное завладение компьютерной информацией] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неправамернае завалоданне камп'ютэрнай інфармацыяй] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unlawful_acquisition_of_computer_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_computer_information;
+    => nrel_associative_connection: by_destruction_blocking_or_modification_of_computer_information;
+
+    => nrel_etalon_online_idx: [18103];;

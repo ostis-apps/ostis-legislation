@@ -1,0 +1,15 @@
+
+by_department_store
+    => nrel_main_idtf: [department store] (* <- lang_en;; *);
+    => nrel_main_idtf: [универмаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [універмаг] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_shop_with_combined_assortment_of_goods;
+    => nrel_associative_connection: by_shop_with_universal_assortment_of_goods;
+    => nrel_associative_connection: by_shop_with_mixed_assortment_of_goods;
+    => nrel_associative_connection: by_traditional_service;
+
+    => nrel_etalon_online_idx: [11024];;

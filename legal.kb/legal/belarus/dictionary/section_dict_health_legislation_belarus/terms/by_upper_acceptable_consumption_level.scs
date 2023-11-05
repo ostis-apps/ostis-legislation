@@ -1,0 +1,44 @@
+
+by_upper_acceptable_consumption_level
+    => nrel_main_idtf: [upper acceptable consumption level] (* <- lang_en;; *);
+    => nrel_main_idtf: [верхний допустимый уровень потребления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [верхні дапушчальны ўзровень спажывання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_upper_acceptable_consumption_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_upper_acceptable_consumption_level_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dietary_supplements_to_food_dsf;
+    => nrel_associative_connection: by_top_allowable_nutrient_consumption_level;
+    => nrel_associative_connection: by_norm_of_physiological_need_for_nutrients_and_energy_norm_of_physiological_need;
+    => nrel_associative_connection: by_norms_of_physiological_needs;
+    => nrel_associative_connection: by_foodstuffs;
+
+    => nrel_etalon_online_idx: [31936];;

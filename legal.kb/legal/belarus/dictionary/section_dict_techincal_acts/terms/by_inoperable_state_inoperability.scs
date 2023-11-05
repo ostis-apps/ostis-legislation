@@ -1,0 +1,30 @@
+
+by_inoperable_state_inoperability
+    => nrel_main_idtf: [inoperable state (inoperability)] (* <- lang_en;; *);
+    => nrel_main_idtf: [неработоспособное состояние (неработоспособность)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непрацаздольны стан (непрацаздольнасць)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inoperable_state_inoperability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_actuator;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_malfunction_malfunctional_state;
+    => nrel_associative_connection: by_inoperable_condition;
+    => nrel_associative_connection: by_overfatigue;
+    => nrel_associative_connection: by_workable_state;
+
+    => nrel_etalon_online_idx: [32514];;

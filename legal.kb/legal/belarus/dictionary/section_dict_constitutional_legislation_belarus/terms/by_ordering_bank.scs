@@ -1,0 +1,30 @@
+
+by_ordering_bank
+    => nrel_main_idtf: [ordering bank ] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-заказчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-заказчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ordering_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_paid_services_contract;
+    => nrel_associative_connection: by_materials_of_control_measurements;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_participants_of_the_control_measurement;
+    => nrel_associative_connection: by_participants_of_control_measurements;
+
+    => nrel_etalon_online_idx: [10744];;

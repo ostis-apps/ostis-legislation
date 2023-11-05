@@ -1,0 +1,18 @@
+
+by_repayment
+    => nrel_main_idtf: [repayment] (* <- lang_en;; *);
+    => nrel_main_idtf: [погашение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагашэнне] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_premature_redemption_of_bonds;
+    => nrel_associative_connection: by_monetary_liabilities;
+    => nrel_associative_connection: by_redemption_of_the_national_debt_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_repayment_of_investment_shares;
+    => nrel_associative_connection: by_redemption_of_bonds;
+    => nrel_associative_connection: by_voids_repayment;
+    => nrel_associative_connection: by_intermediate_debt_payment_date;
+    => nrel_associative_connection: by_debt_securities_held_to_maturity;
+
+    => nrel_etalon_online_idx: [20315];;

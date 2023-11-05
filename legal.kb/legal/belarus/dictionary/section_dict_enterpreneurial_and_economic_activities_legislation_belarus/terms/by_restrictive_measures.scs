@@ -1,0 +1,61 @@
+
+by_restrictive_measures
+    => nrel_main_idtf: [restrictive measures] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограничительные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежавальныя мерапрыемствы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restrictive_measures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restrictive_measures_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restrictive_measures_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_welfare;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_mass_noninfectious_diseases;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_compulsory_isolation;
+    => nrel_associative_connection: by_sanitaryantiepidemic_activities;
+
+    => nrel_etalon_online_idx: [10496];;

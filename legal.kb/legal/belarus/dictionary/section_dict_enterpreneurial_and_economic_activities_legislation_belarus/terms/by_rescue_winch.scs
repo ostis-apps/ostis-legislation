@@ -1,0 +1,13 @@
+
+by_rescue_winch
+    => nrel_main_idtf: [rescue winch] (* <- lang_en;; *);
+    => nrel_main_idtf: [спасательная лебедка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выратавальная лябёдка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_cargo_tank;
+    => nrel_associative_connection: by_winch;
+    => nrel_associative_connection: by_rescue_operation;
+
+    => nrel_etalon_online_idx: [23710];;

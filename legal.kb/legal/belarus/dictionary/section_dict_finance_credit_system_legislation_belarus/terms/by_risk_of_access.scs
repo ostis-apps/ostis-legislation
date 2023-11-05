@@ -1,0 +1,30 @@
+
+by_risk_of_access
+    => nrel_main_idtf: [risk of access] (* <- lang_en;; *);
+    => nrel_main_idtf: [риск доступа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рызыка доступу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_of_access_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contractual_risk;
+    => nrel_associative_connection: by_compliancerisk;
+    => nrel_associative_connection: by_reputation_risk;
+    => nrel_associative_connection: by_counterparty_risk;
+    => nrel_associative_connection: by_the_risk_of_not_having_a_strategy_for_withdrawing_from_the_outsourcing_contract;
+    => nrel_associative_connection: by_risk_of_technological_failure;
+
+    => nrel_etalon_online_idx: [32778];;

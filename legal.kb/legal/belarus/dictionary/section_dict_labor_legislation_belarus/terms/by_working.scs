@@ -1,0 +1,61 @@
+
+by_working
+    => nrel_main_idtf: [working] (* <- lang_en;; *);
+    => nrel_main_idtf: [работающие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працуючыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_citizens_permanently_residing_and_working_in_populated_area_with_population_up_to_20_thousand_people_and_in_satellite_cities;
+    => nrel_associative_connection: by_employed_population;
+    => nrel_associative_connection: by_employed_citizens;
+    => nrel_associative_connection: by_parttime_workers_in_terms_of_working_hours;
+    => nrel_associative_connection: by_mobile_work_place_working_seat;
+    => nrel_associative_connection: by_population_engaged_in_economy;
+    => nrel_associative_connection: by_beginning_of_work_change;
+    => nrel_associative_connection: by_unemployed_population;
+    => nrel_associative_connection: by_inconstant_workplace;
+    => nrel_associative_connection: by_nonworking_citizens;
+    => nrel_associative_connection: by_new_work_place;
+    => nrel_associative_connection: by_production_rate;
+    => nrel_associative_connection: by_rate_strength;
+    => nrel_associative_connection: by_community_service;
+    => nrel_associative_connection: by_homogeneous_works_services;
+    => nrel_associative_connection: by_working_citizens;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_mean_of_protection_of_the_worker;
+    => nrel_associative_connection: by_worker_protective_equipment_protective_equipment;
+    => nrel_associative_connection: by_personal_protection_equipment_for_the_worker;
+    => nrel_associative_connection: by_means_of_collective_protection_for_workers;
+    => nrel_associative_connection: by_power_tool;
+
+    => nrel_etalon_online_idx: [21887];;

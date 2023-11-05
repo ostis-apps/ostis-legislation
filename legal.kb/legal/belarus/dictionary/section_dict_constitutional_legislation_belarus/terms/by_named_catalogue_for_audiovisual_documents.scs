@@ -1,0 +1,33 @@
+
+by_named_catalogue_for_audiovisual_documents
+    => nrel_main_idtf: [named catalogue for audiovisual documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [именной каталог на аудиовизуальные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імянны каталог на аўдыявізуальныя дакументы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_named_catalogue_for_audiovisual_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_catalogue;
+    => nrel_associative_connection: by_archive_catalog_archive_cardboard;
+    => nrel_associative_connection: by_audiovisual_information;
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_maintenance_of_catalogue;
+    => nrel_associative_connection: by_cataloging_of_audiovisual_documents;
+    => nrel_associative_connection: by_systematic_catalogues_for_audiovisual_documents;
+    => nrel_associative_connection: by_thematic_list_of_audiovisual_documents_in_the_form_according_to_appendix_83;
+
+    => nrel_etalon_online_idx: [27854];;

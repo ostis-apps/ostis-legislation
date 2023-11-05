@@ -1,0 +1,35 @@
+
+by_valuation_of_enterprises_business
+    => nrel_main_idtf: [valuation of enterprises (business)] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценка стоимости предприятий (бизнеса)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзнака кошту прадпрыемстваў (бізнесу)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_valuation_of_enterprises_business_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_professional_activity;
+    => nrel_associative_connection: by_value_appraisal;
+    => nrel_associative_connection: by_estimation_of_the_cost_of_machinery_and_equipment_vehicles;
+    => nrel_associative_connection: by_valuation_of_real_estate;
+    => nrel_associative_connection: by_appraiser;
+    => nrel_associative_connection: by_property_appraiser;
+    => nrel_associative_connection: by_appraiser_of_machinery_and_equipment_vehicles;
+    => nrel_associative_connection: by_real_estate_appraiser;
+    => nrel_associative_connection: by_appraiser_of_enterprises_business;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_professional_activity;
+
+    => nrel_etalon_online_idx: [40791];;

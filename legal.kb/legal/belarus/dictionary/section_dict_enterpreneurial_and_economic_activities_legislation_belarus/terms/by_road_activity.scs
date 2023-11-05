@@ -1,0 +1,33 @@
+
+by_road_activity
+    => nrel_main_idtf: [road activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [дорожная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дарожная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_road_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_track;
+    => nrel_associative_connection: by_road_facilities_of_belarus;
+    => nrel_associative_connection: by_buildings_and_structures_of_road_service;
+    => nrel_associative_connection: by_national_network_of_intelligent_transport_systems;
+    => nrel_associative_connection: by_road_visibility;
+    => nrel_associative_connection: by_roadside_service_objects;
+    => nrel_associative_connection: by_state_roads_organizations;
+    => nrel_associative_connection: by_overpass;
+    => nrel_associative_connection: by_reserve_area;
+
+    => nrel_etalon_online_idx: [11863];;

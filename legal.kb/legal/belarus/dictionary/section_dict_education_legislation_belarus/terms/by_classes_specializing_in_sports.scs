@@ -1,0 +1,28 @@
+
+by_classes_specializing_in_sports
+    => nrel_main_idtf: [classes specializing in sports] (* <- lang_en;; *);
+    => nrel_main_idtf: [специализированные по спорту классы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялізаваныя па спорце класы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_classes_specializing_in_sports_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_general_secondary_education;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sport_reserve;
+    => nrel_associative_connection: by_educational_and_training_process;
+
+    => nrel_etalon_online_idx: [10658];;

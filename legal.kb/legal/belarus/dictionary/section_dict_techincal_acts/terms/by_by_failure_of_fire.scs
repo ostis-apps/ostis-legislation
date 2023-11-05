@@ -1,0 +1,28 @@
+
+by_by_failure_of_fire
+    => nrel_main_idtf: [by_failure_of_fire] (* <- lang_en;; *);
+    => nrel_main_idtf: [отказ огня] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адмова агню] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_failure_of_fire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_light_system_reliability;
+    => nrel_associative_connection: by_ground_aeronautical_light;
+    => nrel_associative_connection: by_runway_protection_lights;
+    => nrel_associative_connection: by_failure_of_power_supply_to_the_aerodrome_facility;
+
+    => nrel_etalon_online_idx: [41091];;

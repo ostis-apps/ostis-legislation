@@ -1,0 +1,28 @@
+
+by_channel_of_telecommunication_network
+    => nrel_main_idtf: [channel (of telecommunication network)] (* <- lang_en;; *);
+    => nrel_main_idtf: [канал (сети электросвязи)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канал (сеткі электрасувязі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_channel_of_telecommunication_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cable_system;
+    => nrel_associative_connection: by_linear_path_of_transmission_system;
+    => nrel_associative_connection: by_transmission_line;
+    => nrel_associative_connection: by_primary_network_telecommunication;
+
+    => nrel_etalon_online_idx: [37499];;

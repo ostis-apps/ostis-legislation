@@ -1,0 +1,28 @@
+
+by_marginal_shoulder
+    => nrel_main_idtf: [marginal shoulder] (* <- lang_en;; *);
+    => nrel_main_idtf: [маржинальное плечо] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маржынальнае плячо] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marginal_shoulder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_assets;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_position_opening;
+
+    => nrel_etalon_online_idx: [16881];;

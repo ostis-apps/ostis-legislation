@@ -1,0 +1,42 @@
+
+by_main_capital
+    => nrel_main_idtf: [main capital] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной капитал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны капітал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_capital_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_capital_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_intangible_assets;
+    => nrel_associative_connection: by_fixed_assets;
+
+    => nrel_etalon_online_idx: [38203];;

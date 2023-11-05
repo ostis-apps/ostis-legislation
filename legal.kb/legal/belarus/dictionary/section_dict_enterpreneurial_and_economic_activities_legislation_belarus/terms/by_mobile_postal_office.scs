@@ -1,0 +1,37 @@
+
+by_mobile_postal_office
+    => nrel_main_idtf: [mobile postal office] (* <- lang_en;; *);
+    => nrel_main_idtf: [передвижное отделение почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перасоўнае аддзяленне паштовай сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_postal_office_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_postal_communication_object;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_postal_communication_operator;
+    => nrel_associative_connection: by_branch;
+    => nrel_associative_connection: by_postal_office;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_collective_use_point;
+    => nrel_associative_connection: by_post_office;
+    => nrel_associative_connection: by_seasonal_post_office;
+    => nrel_associative_connection: by_postal_communication_network;
+    => nrel_associative_connection: by_stationary_closedtype_post_office;
+    => nrel_associative_connection: by_opentype_fixed_post_office;
+    => nrel_associative_connection: by_mail_services;
+
+    => nrel_etalon_online_idx: [20002];;

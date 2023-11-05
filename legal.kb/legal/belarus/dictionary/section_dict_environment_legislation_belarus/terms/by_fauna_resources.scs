@@ -1,0 +1,43 @@
+
+by_fauna_resources
+    => nrel_main_idtf: [fauna resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [ресурсы животного мира] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэсурсы жывёльнага свету] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fauna_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_wild_animals;
+    => nrel_associative_connection: by_animal_species;
+    => nrel_associative_connection: by_reproduction_of_wild_animals;
+    => nrel_associative_connection: by_moving_in_of_wild_animals;
+    => nrel_associative_connection: by_state_fauna_registry;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_wild_animals_of_resource_species;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_fauna;
+    => nrel_associative_connection: by_wildlife_monitoring;
+    => nrel_associative_connection: by_objects_of_animal_world;
+    => nrel_associative_connection: by_protection_of_fauna_objects;
+    => nrel_associative_connection: by_population_of_wild_animals;
+    => nrel_associative_connection: by_animal_breed;
+    => nrel_associative_connection: by_productive_animals;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_selection_in_animal_husbandry;
+    => nrel_associative_connection: by_type_of_animals;
+    => nrel_associative_connection: by_purebred_animal;
+
+    => nrel_etalon_online_idx: [22608];;

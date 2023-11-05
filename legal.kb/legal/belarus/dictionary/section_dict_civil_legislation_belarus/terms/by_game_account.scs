@@ -1,0 +1,29 @@
+
+by_game_account
+    => nrel_main_idtf: [game account] (* <- lang_en;; *);
+    => nrel_main_idtf: [игровой счет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гульнёвы рахунак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_game_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bonus;
+    => nrel_associative_connection: by_virtual_gambling_establishment;
+    => nrel_associative_connection: by_game_session;
+    => nrel_associative_connection: by_site_of_virtual_gambling_establishment;
+    => nrel_associative_connection: by_system_of_formation_of_additional_winning;
+
+    => nrel_etalon_online_idx: [30913];;

@@ -1,0 +1,30 @@
+
+by_individuals_engaged_in_physical_education_and_sports
+    => nrel_main_idtf: [individuals engaged in physical education and sports] (* <- lang_en;; *);
+    => nrel_main_idtf: [физические лица, занимающиеся физической культурой и спортом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фізічныя асобы, якія займаюцца фізічнай культурай і спортам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individuals_engaged_in_physical_education_and_sports_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_physical_culture_and_sport_trainings;
+    => nrel_associative_connection: by_professional_sportsman;
+    => nrel_associative_connection: by_specialized_sports_injury_register;
+    => nrel_associative_connection: by_sports_injury;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_highest_class_sportsmen;
+
+    => nrel_etalon_online_idx: [30387];;

@@ -1,0 +1,50 @@
+
+by_administrative_responsibility
+    => nrel_main_idtf: [administrative responsibility] (* <- lang_en;; *);
+    => nrel_main_idtf: [административная ответственность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйная адказнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_responsibility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_responsibility_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_penalty;
+    => nrel_associative_connection: by_administrative_detention_of_physical_person;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_ban_to_attend_sports_constructions;
+    => nrel_associative_connection: by_administrative_infraction;
+    => nrel_associative_connection: by_proceedings_of_an_administrative_offence;
+    => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_pollution_of_lands_water_forests_atmosphere_entail_administrative_or_criminal_responsibility;
+    => nrel_associative_connection: by_libel;
+    => nrel_associative_connection: by_justifiable_defense;
+    => nrel_associative_connection: by_aggregate_of_administrative_violations;
+
+    => nrel_etalon_online_idx: [935];;

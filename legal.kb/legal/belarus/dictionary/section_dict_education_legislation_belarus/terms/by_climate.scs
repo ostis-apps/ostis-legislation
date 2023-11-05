@@ -1,0 +1,45 @@
+
+by_climate
+    => nrel_main_idtf: [climate] (* <- lang_en;; *);
+    => nrel_main_idtf: [климат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клімат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_climate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_climate_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_climate_registry;
+    => nrel_associative_connection: by_climatic_description_reference;
+    => nrel_associative_connection: by_climatology;
+    => nrel_associative_connection: by_meteorology;
+    => nrel_associative_connection: by_weather;
+    => nrel_associative_connection: by_weather_forecast;
+
+    => nrel_etalon_online_idx: [9247];;

@@ -1,0 +1,27 @@
+
+by_catalog_sheet
+    => nrel_main_idtf: [catalog sheet] (* <- lang_en;; *);
+    => nrel_main_idtf: [каталожный лист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каталожны аркуш] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_catalog_sheet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_documentation_on_typical_construction_structures_products_knots;
+    => nrel_associative_connection: by_designation_of_standard_design_documentation;
+    => nrel_associative_connection: by_typical_project;
+
+    => nrel_etalon_online_idx: [37857];;

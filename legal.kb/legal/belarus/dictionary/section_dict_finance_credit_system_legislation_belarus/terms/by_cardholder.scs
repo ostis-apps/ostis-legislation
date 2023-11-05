@@ -1,0 +1,46 @@
+
+by_cardholder
+    => nrel_main_idtf: [cardholder] (* <- lang_en;; *);
+    => nrel_main_idtf: [держатель карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трымальнік карткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cardholder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authentication_of_the_card_holder;
+    => nrel_associative_connection: by_bank_payment_card;
+    => nrel_associative_connection: by_card_locking;
+    => nrel_associative_connection: by_virtual_card;
+    => nrel_associative_connection: by_issue_of_card;
+    => nrel_associative_connection: by_debit_card;
+    => nrel_associative_connection: by_holder;
+    => nrel_associative_connection: by_contract_on_the_card_using;
+    => nrel_associative_connection: by_provision_of_card;
+    => nrel_associative_connection: by_identification_plastic_card;
+    => nrel_associative_connection: by_cardholder_identification;
+    => nrel_associative_connection: by_card_use;
+    => nrel_associative_connection: by_cobadging_card;
+    => nrel_associative_connection: by_cobranding_card;
+    => nrel_associative_connection: by_credit_card;
+    => nrel_associative_connection: by_fraudulent_actions_of_card_holder;
+    => nrel_associative_connection: by_operation_not_authorized_by_card_holder;
+    => nrel_associative_connection: by_card_personalization;
+    => nrel_associative_connection: by_pincode;
+    => nrel_associative_connection: by_card_details;
+    => nrel_associative_connection: by_physical_persons;
+    => nrel_associative_connection: by_acquiring;
+
+    => nrel_etalon_online_idx: [331];;

@@ -1,0 +1,28 @@
+
+by_rating_category
+    => nrel_main_idtf: [rating category] (* <- lang_en;; *);
+    => nrel_main_idtf: [рейтинговая категория] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэйтынгавая катэгорыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rating_category_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_international_rating_agency;
+    => nrel_associative_connection: by_national_rating_scale;
+    => nrel_associative_connection: by_ordinance_on_elimination_of_violation_of_legislation_on_rating_activities;
+    => nrel_associative_connection: by_rating_compromise;
+
+    => nrel_etalon_online_idx: [32377];;

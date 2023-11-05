@@ -1,0 +1,16 @@
+
+by_bet_in_gambling
+    => nrel_main_idtf: [bet in gambling] (* <- lang_en;; *);
+    => nrel_main_idtf: [ставка в азартной игре] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стаўка ў азартнай гульні] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_cash_of_bookmaker_offices;
+    => nrel_associative_connection: by_totalizator_cash;
+    => nrel_associative_connection: by_online_card_game;
+    => nrel_associative_connection: by_bet;
+    => nrel_associative_connection: by_visitors_of_gambling_establishment;
+    => nrel_associative_connection: by_the_difference_between_the_amount_of_accepted_gambling_bets_and_the_amount_of_paid_winnings_returned_nonplayed_bets;
+
+    => nrel_etalon_online_idx: [24122];;

@@ -1,0 +1,29 @@
+
+by_immunohematology
+    => nrel_main_idtf: [immunohematology] (* <- lang_en;; *);
+    => nrel_main_idtf: [иммуногематология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імунагематалогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_immunohematology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anemia;
+    => nrel_associative_connection: by_hematology;
+    => nrel_associative_connection: by_hemoblastosis;
+    => nrel_associative_connection: by_hemorrhagic_diatheses;
+    => nrel_associative_connection: by_hematopoietic_depression;
+
+    => nrel_etalon_online_idx: [33936];;

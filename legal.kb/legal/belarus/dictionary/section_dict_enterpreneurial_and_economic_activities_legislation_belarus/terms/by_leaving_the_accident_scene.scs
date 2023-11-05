@@ -1,0 +1,28 @@
+
+by_leaving_the_accident_scene
+    => nrel_main_idtf: [leaving the accident scene] (* <- lang_en;; *);
+    => nrel_main_idtf: [оставление места дорожно-транспортного происшествия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пакіданне месца дарожна-транспартнага выпадку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leaving_the_accident_scene_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_road_accident_place;
+    => nrel_associative_connection: by_eyewitness_of_road_accident;
+    => nrel_associative_connection: by_area_of_concentration_of_road_accident;
+
+    => nrel_etalon_online_idx: [19430];;

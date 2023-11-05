@@ -1,0 +1,31 @@
+
+by_pneumatic_cartridge
+    => nrel_main_idtf: [pneumatic cartridge] (* <- lang_en;; *);
+    => nrel_main_idtf: [пневматический патрон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пнеўматычны патрон] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumatic_cartridge_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ammunition;
+    => nrel_associative_connection: by_ammunition_to_weapons;
+    => nrel_associative_connection: by_type_of_airgun;
+    => nrel_associative_connection: by_bottlegasairgun_and_products_similar_to_airgun;
+    => nrel_associative_connection: by_muzzle_energy;
+    => nrel_associative_connection: by_hunting_pneumatic_weapons;
+    => nrel_associative_connection: by_airgun;
+
+    => nrel_etalon_online_idx: [32953];;

@@ -1,0 +1,33 @@
+
+by_republican_fund
+    => nrel_main_idtf: [republican fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [республиканский фонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэспубліканскі фонд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_high_collegial_body_of_the_fund;
+    => nrel_associative_connection: by_directorate_director_of_the_fund;
+    => nrel_associative_connection: by_property_of_the_fund;
+    => nrel_associative_connection: by_international_fund;
+    => nrel_associative_connection: by_fund_rules;
+    => nrel_associative_connection: by_board_council_foundation;
+    => nrel_associative_connection: by_registry_of_funds;
+    => nrel_associative_connection: by_republican_fund_for_project_documentation;
+    => nrel_associative_connection: by_fund;
+
+    => nrel_etalon_online_idx: [22591];;

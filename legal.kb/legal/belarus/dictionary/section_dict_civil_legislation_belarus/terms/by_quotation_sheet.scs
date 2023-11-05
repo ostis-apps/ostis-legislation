@@ -1,0 +1,30 @@
+
+by_quotation_sheet
+    => nrel_main_idtf: [quotation sheet] (* <- lang_en;; *);
+    => nrel_main_idtf: [котировальный лист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каціравальны ліст] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quotation_sheet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_listing;
+    => nrel_associative_connection: by_securities_market;
+    => nrel_associative_connection: by_bidding;
+    => nrel_associative_connection: by_security;
+    => nrel_associative_connection: by_bearer_security;
+    => nrel_associative_connection: by_issue_securities;
+
+    => nrel_etalon_online_idx: [27817];;

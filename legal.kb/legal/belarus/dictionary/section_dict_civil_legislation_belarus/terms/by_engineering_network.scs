@@ -1,0 +1,34 @@
+
+by_engineering_network
+    => nrel_main_idtf: [engineering network] (* <- lang_en;; *);
+    => nrel_main_idtf: [инженерная сеть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інжынерная сетка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_engineering_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_watersupply_network_water_supply_system;
+    => nrel_associative_connection: by_watersupply_network_watersupply_constructions;
+    => nrel_associative_connection: by_gas_pipeline;
+    => nrel_associative_connection: by_engineering_networks;
+    => nrel_associative_connection: by_sewage_network_sewage;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_linear_construction;
+    => nrel_associative_connection: by_electricity_transmission_line;
+    => nrel_associative_connection: by_telecommunication_line;
+    => nrel_associative_connection: by_heat_network;
+
+    => nrel_etalon_online_idx: [28438];;

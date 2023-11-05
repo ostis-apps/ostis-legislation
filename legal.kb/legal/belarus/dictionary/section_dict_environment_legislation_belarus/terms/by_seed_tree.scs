@@ -1,0 +1,45 @@
+
+by_seed_tree
+    => nrel_main_idtf: [seed tree] (* <- lang_en;; *);
+    => nrel_main_idtf: [семенное дерево] (* <- lang_ru;; *);
+    => nrel_main_idtf: [насеннае дрэва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_seed_tree_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_seed_tree_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_trees_damaged_not_to_the_degree_of_growth_stopping;
+    => nrel_associative_connection: by_reforestation;
+    => nrel_associative_connection: by_forest_plant_seeds;
+    => nrel_associative_connection: by_seed_material;
+    => nrel_associative_connection: by_seedgrowing;
+    => nrel_associative_connection: by_seed_growing_of_forest_plants;
+
+    => nrel_etalon_online_idx: [12184];;

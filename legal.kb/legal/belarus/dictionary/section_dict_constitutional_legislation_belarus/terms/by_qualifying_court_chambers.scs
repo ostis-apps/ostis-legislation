@@ -1,0 +1,26 @@
+
+by_qualifying_court_chambers
+    => nrel_main_idtf: [qualifying court chambers] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалификационные коллегии судей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікацыйныя калегіі суддзяў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualifying_court_chambers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_qualification;
+    => nrel_associative_connection: by_judge;
+
+    => nrel_etalon_online_idx: [2683];;

@@ -1,0 +1,28 @@
+
+by_behavior_independence
+    => nrel_main_idtf: [behavior independence] (* <- lang_en;; *);
+    => nrel_main_idtf: [независимость поведения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незалежнасць паводзін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_behavior_independence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_independent_evaluation;
+    => nrel_associative_connection: by_thinking_independence;
+
+    => nrel_etalon_online_idx: [27991];;

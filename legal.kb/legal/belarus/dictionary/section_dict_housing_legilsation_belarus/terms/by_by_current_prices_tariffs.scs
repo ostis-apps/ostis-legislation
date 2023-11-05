@@ -1,0 +1,33 @@
+
+by_by_current_prices_tariffs
+    => nrel_main_idtf: [by_current_prices_tariffs] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущие цены, тарифы ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цяперашнія кошты, тарыфы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_current_prices_tariffs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bidding_factor;
+    => nrel_associative_connection: by_monitoring_of_prices_tariffs_for_resources;
+    => nrel_associative_connection: by_current_market_cost;
+    => nrel_associative_connection: by_current_price;
+    => nrel_associative_connection: by_current_prices;
+    => nrel_associative_connection: by_consolidated_cost_standards_for_the_type_of_work;
+    => nrel_associative_connection: by_actual_cost_of_works_being_contracted_out;
+    => nrel_associative_connection: by_customer_price;
+    => nrel_associative_connection: by_contractors_offer_price;
+
+    => nrel_etalon_online_idx: [42600];;

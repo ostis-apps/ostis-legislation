@@ -1,0 +1,29 @@
+
+by_by_nutrients
+    => nrel_main_idtf: [by_nutrients] (* <- lang_en;; *);
+    => nrel_main_idtf: [пищевые вещества (нутриенты)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [харчовыя рэчывы (нутриенты)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_nutrients_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nutrients;
+    => nrel_associative_connection: by_nutrients_food_substances;
+    => nrel_associative_connection: by_enriched_food;
+    => nrel_associative_connection: by_food_additives;
+    => nrel_associative_connection: by_foodstuffs;
+
+    => nrel_etalon_online_idx: [43197];;

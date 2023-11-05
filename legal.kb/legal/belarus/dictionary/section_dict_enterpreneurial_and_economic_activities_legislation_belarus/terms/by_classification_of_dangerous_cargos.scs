@@ -1,0 +1,34 @@
+
+by_classification_of_dangerous_cargos
+    => nrel_main_idtf: [classification of dangerous cargos] (* <- lang_en;; *);
+    => nrel_main_idtf: [классификация опасных грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [класіфікацыя небяспечных грузаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_classification_of_dangerous_cargos_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_classification;
+    => nrel_associative_connection: by_dangerous_products_transportation;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_protection_of_hazardous_cargo;
+    => nrel_associative_connection: by_list_of_hazardous_cargo;
+    => nrel_associative_connection: by_list_of_hazardous_cargo_accepted_for_carriage;
+    => nrel_associative_connection: by_pyrotechnic_substance;
+    => nrel_associative_connection: by_safety_plan_in_case_of_an_incident;
+    => nrel_associative_connection: by_summary_item;
+
+    => nrel_etalon_online_idx: [9245];;

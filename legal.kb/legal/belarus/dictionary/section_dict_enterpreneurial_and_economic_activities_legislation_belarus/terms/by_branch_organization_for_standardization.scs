@@ -1,0 +1,30 @@
+
+by_branch_organization_for_standardization
+    => nrel_main_idtf: [branch organization for standardization] (* <- lang_en;; *);
+    => nrel_main_idtf: [отраслевая организация по стандартизации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галіновая арганізацыя па стандартызацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_organization_for_standardization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_standardization_committee_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_international_organization_for_standardization;
+    => nrel_associative_connection: by_objects_of_standardization;
+    => nrel_associative_connection: by_regional_organization_for_standardization;
+    => nrel_associative_connection: by_standardization;
+    => nrel_associative_connection: by_standardization_in_the_healthcare_system;
+
+    => nrel_etalon_online_idx: [19577];;

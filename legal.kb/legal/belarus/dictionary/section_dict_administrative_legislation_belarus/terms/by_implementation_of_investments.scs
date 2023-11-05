@@ -1,0 +1,27 @@
+
+by_implementation_of_investments
+    => nrel_main_idtf: [implementation of investments] (* <- lang_en;; *);
+    => nrel_main_idtf: [осуществление инвестиций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ажыццяўленне інвестыцый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_implementation_of_investments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_investment_operations;
+
+    => nrel_etalon_online_idx: [19459];;

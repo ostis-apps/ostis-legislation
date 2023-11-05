@@ -1,0 +1,29 @@
+
+by_biotope
+    => nrel_main_idtf: [biotope ] (* <- lang_en;; *);
+    => nrel_main_idtf: [биотоп] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біятоп] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biotope_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basin;
+    => nrel_associative_connection: by_area_species_of_wild_animals;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_wild_plants;
+    => nrel_associative_connection: by_natural_object;
+
+    => nrel_etalon_online_idx: [10745];;

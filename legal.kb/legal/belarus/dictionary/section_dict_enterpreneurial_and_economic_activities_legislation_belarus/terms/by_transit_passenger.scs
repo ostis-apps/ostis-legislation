@@ -1,0 +1,30 @@
+
+by_transit_passenger
+    => nrel_main_idtf: [transit passenger] (* <- lang_en;; *);
+    => nrel_main_idtf: [пассажир транзитный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасажыр транзітны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transit_passenger_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_passenger_under_deportation;
+    => nrel_associative_connection: by_contract_of_passenger_carriage;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_transit;
+    => nrel_associative_connection: by_transit_passengers;
+    => nrel_associative_connection: by_transit_of_foreigners_through_the_territory_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [19843];;

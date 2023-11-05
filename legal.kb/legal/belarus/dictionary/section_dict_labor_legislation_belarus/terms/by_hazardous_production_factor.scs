@@ -1,0 +1,65 @@
+
+by_hazardous_production_factor
+    => nrel_main_idtf: [hazardous production factor] (* <- lang_en;; *);
+    => nrel_main_idtf: [опасный производственный фактор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [небяспечны вытворчы фактар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_production_factor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_production_factor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_production_factor_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_working_conditions;
+    => nrel_associative_connection: by_commissioning_of_a_hazardous_production_facility;
+    => nrel_associative_connection: by_explosion_safety;
+    => nrel_associative_connection: by_explosion_hazard;
+    => nrel_associative_connection: by_owner_of_a_hazardous_production_facility;
+    => nrel_associative_connection: by_harmful_industrial_factor;
+    => nrel_associative_connection: by_dangerous_working_conditions;
+    => nrel_associative_connection: by_hazardous_factor;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_industrial_environment;
+    => nrel_associative_connection: by_production_facility;
+
+    => nrel_etalon_online_idx: [6401];;

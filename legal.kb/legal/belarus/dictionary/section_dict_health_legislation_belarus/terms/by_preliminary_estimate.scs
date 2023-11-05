@@ -1,0 +1,28 @@
+
+by_preliminary_estimate
+    => nrel_main_idtf: [preliminary estimate] (* <- lang_en;; *);
+    => nrel_main_idtf: [предварительная оценка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папярэдняя адзнака] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preliminary_estimate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accreditation;
+    => nrel_associative_connection: by_accredited_person_of_interest;
+    => nrel_associative_connection: by_criteria_for_medical_accreditation;
+    => nrel_associative_connection: by_medical_accreditation;
+
+    => nrel_etalon_online_idx: [40043];;

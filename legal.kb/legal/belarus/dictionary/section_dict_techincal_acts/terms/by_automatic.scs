@@ -1,0 +1,30 @@
+
+by_automatic
+    => nrel_main_idtf: [automatic] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_locomotive_signaling_as_an_independent_means_of_signaling_and_communication;
+    => nrel_associative_connection: by_automatic_locomotive_signalling_with_automatic_speed_regulation_automatic_locomotive_signalling;
+    => nrel_associative_connection: by_remote_control;
+    => nrel_associative_connection: by_railway_automation_and_telemechanics;
+    => nrel_associative_connection: by_signal_alarm;
+    => nrel_associative_connection: by_maintenance_service;
+
+    => nrel_etalon_online_idx: [30750];;

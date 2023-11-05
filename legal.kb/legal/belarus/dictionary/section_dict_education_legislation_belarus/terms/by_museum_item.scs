@@ -1,0 +1,37 @@
+
+by_museum_item
+    => nrel_main_idtf: [museum item] (* <- lang_en;; *);
+    => nrel_main_idtf: [музейный предмет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музейны прадмет] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_museum_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cataloguing_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_classification_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_acquisition_of_museum_fund;
+    => nrel_associative_connection: by_museums_mission;
+    => nrel_associative_connection: by_museum;
+    => nrel_associative_connection: by_museum_collections;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_museum_fund;
+    => nrel_associative_connection: by_museums_visitors;
+    => nrel_associative_connection: by_item_of_museum_importance;
+    => nrel_associative_connection: by_subjects_and_documents;
+    => nrel_associative_connection: by_restoration_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_storage_of_museum_items_accessorial_scientific_and_raw_materials;
+
+    => nrel_etalon_online_idx: [7944];;

@@ -1,0 +1,27 @@
+
+by_handle_bushing
+    => nrel_main_idtf: [handle bushing] (* <- lang_en;; *);
+    => nrel_main_idtf: [втулка рукояти] (* <- lang_ru;; *);
+    => nrel_main_idtf: [утулка рукаяці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_handle_bushing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_top;
+    => nrel_associative_connection: by_griff_begrenzung;
+    => nrel_associative_connection: by_handle_plates;
+
+    => nrel_etalon_online_idx: [32964];;

@@ -1,0 +1,30 @@
+
+by_guardian_organization
+    => nrel_main_idtf: [guardian organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация-хранитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя-захавальнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_guardian_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_parent_organizationexecutor;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_executive_organization;
+    => nrel_associative_connection: by_coperforming_organization;
+    => nrel_associative_connection: by_scientist;
+    => nrel_associative_connection: by_keeper;
+
+    => nrel_etalon_online_idx: [37391];;

@@ -1,0 +1,46 @@
+
+by_waste_storage_objects
+    => nrel_main_idtf: [waste storage objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты хранения отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты захоўвання адходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_storage_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_storage_objects_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_authorized_waste_storage;
+    => nrel_associative_connection: by_authorized_waste_storage_places;
+    => nrel_associative_connection: by_waste_collection;
+    => nrel_associative_connection: by_storage_of_communal_waste;
+    => nrel_associative_connection: by_waste_storage;
+    => nrel_associative_connection: by_radioactive_waste_storage;
+
+    => nrel_etalon_online_idx: [18788];;

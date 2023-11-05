@@ -1,0 +1,38 @@
+
+by_toll_highway
+    => nrel_main_idtf: [toll highway] (* <- lang_en;; *);
+    => nrel_main_idtf: [платная дорога] (* <- lang_ru;; *);
+    => nrel_main_idtf: [платная дарога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_toll_highway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_payment_for_travel_at_onetime_tarifve;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_toll_road_user;
+    => nrel_associative_connection: by_prepayment;
+    => nrel_associative_connection: by_travel_with_nonpaid_or_incomplete_paymen;
+    => nrel_associative_connection: by_calculated_segment;
+    => nrel_associative_connection: by_due_for_the_passage;
+    => nrel_associative_connection: by_payment_control_system;
+    => nrel_associative_connection: by_electronic_payment_system;
+    => nrel_associative_connection: by_fuel_card;
+    => nrel_associative_connection: by_electronic_payment_device;
+
+    => nrel_etalon_online_idx: [3073];;

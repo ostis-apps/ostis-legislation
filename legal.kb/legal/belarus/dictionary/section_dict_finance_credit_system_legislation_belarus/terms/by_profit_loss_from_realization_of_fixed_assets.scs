@@ -1,0 +1,29 @@
+
+by_profit_loss_from_realization_of_fixed_assets
+    => nrel_main_idtf: [profit (loss) from realization of fixed assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [прибыль (убыток) от реализации основных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыбытак (страта) ад рэалізацыі асноўных сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_profit_loss_from_realization_of_fixed_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accounting_profit_loss;
+    => nrel_associative_connection: by_fixed_assets;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets_intangible_assets;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_goods_works_services_property_rights;
+    => nrel_associative_connection: by_loss;
+
+    => nrel_etalon_online_idx: [32896];;

@@ -1,0 +1,28 @@
+
+by_details_of_the_certifying_document
+    => nrel_main_idtf: [details of the certifying document] (* <- lang_en;; *);
+    => nrel_main_idtf: [реквизиты удостоверяющего документа ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэквізіты дакумента, які сведчыць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_details_of_the_certifying_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_identity_document;
+    => nrel_associative_connection: by_identity_documents;
+    => nrel_associative_connection: by_identification_number;
+    => nrel_associative_connection: by_identification_number_of_a_natural_person;
+
+    => nrel_etalon_online_idx: [41239];;

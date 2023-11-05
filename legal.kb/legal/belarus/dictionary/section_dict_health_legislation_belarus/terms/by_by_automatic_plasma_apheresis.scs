@@ -1,0 +1,28 @@
+
+by_by_automatic_plasma_apheresis
+    => nrel_main_idtf: [by_automatic_plasma_apheresis] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматический аферез плазмы крови] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычны аферез плазмы крыві] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_automatic_plasma_apheresis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_apheresis_of_leukocytes_granulocytes;
+    => nrel_associative_connection: by_automatic_platelet_apheresis;
+    => nrel_associative_connection: by_manual_plasma_apheresis;
+    => nrel_associative_connection: by_twotime_intermittent_plasmapheresis;
+
+    => nrel_etalon_online_idx: [42644];;

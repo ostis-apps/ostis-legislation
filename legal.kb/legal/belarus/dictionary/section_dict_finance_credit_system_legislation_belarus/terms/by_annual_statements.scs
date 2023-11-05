@@ -1,0 +1,30 @@
+
+by_annual_statements
+    => nrel_main_idtf: [annual statements] (* <- lang_en;; *);
+    => nrel_main_idtf: [годовая отчетность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гадавая справаздачнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_annual_statements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_annual_consolidated_statements;
+    => nrel_associative_connection: by_annual_reporting_formed_in_accordance_with_international_financial_reporting_standards;
+    => nrel_associative_connection: by_reporting;
+    => nrel_associative_connection: by_reporting_year;
+    => nrel_associative_connection: by_reporting_financial_year;
+    => nrel_associative_connection: by_another_financial_year;
+
+    => nrel_etalon_online_idx: [10774];;

@@ -1,0 +1,32 @@
+
+by_users_of_property_that_can_create_radio_interference
+    => nrel_main_idtf: [users of property that can create radio interference] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователи имущества, которое может создавать радиопомехи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнікі маёмасці, якая можа ствараць радыёперашкоды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_users_of_property_that_can_create_radio_interference_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_radio_electronic_means_and_or_highfrequency_device;
+    => nrel_associative_connection: by_highfrequency_devices;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_radio_interference;
+    => nrel_associative_connection: by_radiofrequency;
+    => nrel_associative_connection: by_radio_electronic_means;
+    => nrel_associative_connection: by_telecommunication_services;
+
+    => nrel_etalon_online_idx: [20606];;

@@ -1,0 +1,25 @@
+
+by_transfer_of_item
+    => nrel_main_idtf: [transfer of item] (* <- lang_en;; *);
+    => nrel_main_idtf: [передача вещи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадача рэчы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transfer_of_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_transfer;
+
+    => nrel_etalon_online_idx: [3980];;

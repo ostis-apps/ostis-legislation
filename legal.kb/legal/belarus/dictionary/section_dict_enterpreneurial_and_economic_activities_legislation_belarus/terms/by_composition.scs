@@ -1,0 +1,28 @@
+
+by_composition
+    => nrel_main_idtf: [composition] (* <- lang_en;; *);
+    => nrel_main_idtf: [состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [састаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_composition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_towed_convoy;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_ferry;
+    => nrel_associative_connection: by_vessel_in_the_parking_lot;
+
+    => nrel_etalon_online_idx: [41375];;

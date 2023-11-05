@@ -1,0 +1,47 @@
+
+by_illegal_hunting
+    => nrel_main_idtf: [illegal hunting] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконная охота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незаконнае паляванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegal_hunting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegal_hunting_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_driven_hunting;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_use_of_mechanical_ground_water_or_air_vehicles_in_illegal_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunting_animals_objects_of_hunting;
+    => nrel_associative_connection: by_ecological_security_and_environmental_protection_crimes;
+    => nrel_associative_connection: by_hunting_methods;
+    => nrel_associative_connection: by_time_of_hunting;
+
+    => nrel_etalon_online_idx: [3839];;

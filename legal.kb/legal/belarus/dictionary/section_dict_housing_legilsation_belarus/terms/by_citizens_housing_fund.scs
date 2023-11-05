@@ -1,0 +1,34 @@
+
+by_citizens_housing_fund
+    => nrel_main_idtf: [citizens housing fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилищный фонд граждан] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллёвы фонд грамадзян] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_citizens_housing_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_departmental_housing_fund;
+    => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_housing_fund_of_statefinanced_organization;
+    => nrel_associative_connection: by_housing_fund_of_nonstate_property_organizations;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_communal_housing_fund;
+    => nrel_associative_connection: by_organization_accounting_for_the_assets_of_departmental_housing_fund;
+    => nrel_associative_connection: by_republican_housing_fund;
+    => nrel_associative_connection: by_operating_housing_fund_of_citizens;
+
+    => nrel_etalon_online_idx: [14671];;

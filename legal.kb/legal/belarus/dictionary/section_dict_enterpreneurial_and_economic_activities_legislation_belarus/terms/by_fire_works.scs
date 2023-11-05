@@ -1,0 +1,29 @@
+
+by_fire_works
+    => nrel_main_idtf: [fire works] (* <- lang_en;; *);
+    => nrel_main_idtf: [работы огневые] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работы агнявыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_work_at_height;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_works_at_height;
+
+    => nrel_etalon_online_idx: [27715];;

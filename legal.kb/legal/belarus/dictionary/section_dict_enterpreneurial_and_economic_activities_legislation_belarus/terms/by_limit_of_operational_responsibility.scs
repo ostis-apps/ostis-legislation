@@ -1,0 +1,28 @@
+
+by_limit_of_operational_responsibility
+    => nrel_main_idtf: [limit of operational responsibility] (* <- lang_en;; *);
+    => nrel_main_idtf: [граница эксплуатационной ответственности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяжа эксплуатацыйнай адказнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_of_operational_responsibility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_disposal;
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_border_of_operational_responsibility_of_the_parties;
+    => nrel_associative_connection: by_system_of_scheduled_preventive_repair;
+
+    => nrel_etalon_online_idx: [11843];;

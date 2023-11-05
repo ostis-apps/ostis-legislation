@@ -1,0 +1,29 @@
+
+by_flexitime
+    => nrel_main_idtf: [flexitime] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим гибкого рабочего времени] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым гнуткага працоўнага часу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flexitime_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_full_working_day;
+    => nrel_associative_connection: by_working_hours;
+    => nrel_associative_connection: by_working_day;
+    => nrel_associative_connection: by_mode_of_operation;
+    => nrel_associative_connection: by_photo_of_working_time;
+
+    => nrel_etalon_online_idx: [3310];;

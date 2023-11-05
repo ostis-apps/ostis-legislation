@@ -1,0 +1,61 @@
+
+by_temperature_graph
+    => nrel_main_idtf: [temperature graph] (* <- lang_en;; *);
+    => nrel_main_idtf: [температурный график] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэмпературны графік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temperature_graph_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temperature_graph_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temperature_graph_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_temperature;
+    => nrel_associative_connection: by_dynamic_optimal_temperature_schedule_of_heat_energy_output;
+    => nrel_associative_connection: by_control_temperature;
+    => nrel_associative_connection: by_critical_temperature;
+    => nrel_associative_connection: by_critical_temperature_specific_super_conducting_material;
+    => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_heat_source;
+
+    => nrel_etalon_online_idx: [24789];;

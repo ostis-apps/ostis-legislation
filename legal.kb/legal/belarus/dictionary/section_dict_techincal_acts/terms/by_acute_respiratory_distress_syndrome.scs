@@ -1,0 +1,27 @@
+
+by_acute_respiratory_distress_syndrome
+    => nrel_main_idtf: [acute respiratory distress syndrome] (* <- lang_en;; *);
+    => nrel_main_idtf: [острый респираторный дистресс-синдром] (* <- lang_ru;; *);
+    => nrel_main_idtf: [востры рэспіраторны дыстрэс-сіндром] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acute_respiratory_distress_syndrome_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_artificial_lung_ventilation;
+    => nrel_associative_connection: by_pneumonia;
+    => nrel_associative_connection: by_heavy_flow_pneumonia;
+
+    => nrel_etalon_online_idx: [19452];;

@@ -1,0 +1,18 @@
+
+by_increased_flying_time_per_month
+    => nrel_main_idtf: [increased flying time per month] (* <- lang_en;; *);
+    => nrel_main_idtf: [увеличенная продолжительность полетного времени за месяц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [павялічаная працягласць палётнага часу за месяц] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_turnaround_rest_time;
+    => nrel_associative_connection: by_aircraft_flight_time;
+    => nrel_associative_connection: by_postflight_rest_time;
+    => nrel_associative_connection: by_post_flight_time_of_work;
+    => nrel_associative_connection: by_time_of_preflight_rest;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flying_hours;
+    => nrel_associative_connection: by_daily_duration_of_service_flight_time;
+
+    => nrel_etalon_online_idx: [25363];;

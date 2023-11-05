@@ -1,0 +1,46 @@
+
+by_subject_of_the_innovation_activity
+    => nrel_main_idtf: [subject of the innovation activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъект инновационной деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'ект інавацыйнай дзейнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subject_of_the_innovation_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subject_of_the_innovation_activity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_innovations;
+    => nrel_associative_connection: by_innovative_organization;
+    => nrel_associative_connection: by_innovative_industrial_cluster;
+    => nrel_associative_connection: by_innovation_project;
+    => nrel_associative_connection: by_resident_of_technopark;
+    => nrel_associative_connection: by_risk_of_innovative_activity;
+    => nrel_associative_connection: by_subject_of_the_innovation_infrastructure;
+
+    => nrel_etalon_online_idx: [10634];;

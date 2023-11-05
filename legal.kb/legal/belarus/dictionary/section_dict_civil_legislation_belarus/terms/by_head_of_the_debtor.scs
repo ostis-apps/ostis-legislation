@@ -1,0 +1,17 @@
+
+by_head_of_the_debtor
+    => nrel_main_idtf: [head of the debtor] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель должника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік даўжніка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_interested_persons;
+    => nrel_associative_connection: by_absent_debtor;
+    => nrel_associative_connection: by_representative_of_the_debtors_employees;
+    => nrel_associative_connection: by_head_of_the_debtor__legal_entity;
+    => nrel_associative_connection: by_head_of_the_creditor__legal_entity;
+    => nrel_associative_connection: by_head_of_the_legal_entity;
+
+    => nrel_etalon_online_idx: [10580];;

@@ -1,0 +1,32 @@
+
+by_planned_accumulations
+    => nrel_main_idtf: [planned accumulations] (* <- lang_en;; *);
+    => nrel_main_idtf: [плановые накопления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [планавыя накапленні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_planned_accumulations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_share_accumulations;
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_planned_revenue;
+    => nrel_associative_connection: by_planned_profit;
+    => nrel_associative_connection: by_economy_mode;
+    => nrel_associative_connection: by_financial_assets;
+    => nrel_associative_connection: by_financial_asset;
+    => nrel_associative_connection: by_accumulation_fund;
+
+    => nrel_etalon_online_idx: [20196];;

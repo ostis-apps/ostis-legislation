@@ -1,0 +1,30 @@
+
+by_hemorrhoidectomy
+    => nrel_main_idtf: [hemorrhoidectomy] (* <- lang_en;; *);
+    => nrel_main_idtf: [геморроидэктомия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гемараідэктамія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hemorrhoidectomy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hirschsprungs_disease;
+    => nrel_associative_connection: by_hemorrhoids;
+    => nrel_associative_connection: by_glossalgia;
+    => nrel_associative_connection: by_diverticulum;
+    => nrel_associative_connection: by_diverticular_disease;
+    => nrel_associative_connection: by_diffuse_familial_adenomatous_polyposis_of_the_colon;
+
+    => nrel_etalon_online_idx: [36281];;

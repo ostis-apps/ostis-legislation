@@ -1,0 +1,26 @@
+
+by_automated_control_of_nuclear_power_plants
+    => nrel_main_idtf: [automated control of nuclear power plants] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматизированное управление атомных электростанций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматызаванае кіраванне атамных электрастанцый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automated_control_of_nuclear_power_plants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_interface_manmachine;
+
+    => nrel_etalon_online_idx: [38541];;

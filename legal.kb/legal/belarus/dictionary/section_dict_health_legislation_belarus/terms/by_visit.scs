@@ -1,0 +1,37 @@
+
+by_visit
+    => nrel_main_idtf: [visit] (* <- lang_en;; *);
+    => nrel_main_idtf: [посещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наведванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_address_of_ambulance_brigade_call;
+    => nrel_associative_connection: by_active_visit;
+    => nrel_associative_connection: by_ambulatory_call_of_ambulance_brigade;
+    => nrel_associative_connection: by_ambulance_brigade_exit;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_service;
+    => nrel_associative_connection: by_medical_institutions;
+    => nrel_associative_connection: by_medical_personnel;
+    => nrel_associative_connection: by_health_care_specialist;
+    => nrel_associative_connection: by_patient;
+    => nrel_associative_connection: by_initial_visit;
+    => nrel_associative_connection: by_recurrent_visit;
+    => nrel_associative_connection: by_urgent_call_for_ambulance_emergency_medical_assistance_team;
+
+    => nrel_etalon_online_idx: [20716];;

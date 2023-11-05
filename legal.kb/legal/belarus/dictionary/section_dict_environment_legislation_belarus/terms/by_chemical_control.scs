@@ -1,0 +1,28 @@
+
+by_chemical_control
+    => nrel_main_idtf: [chemical control] (* <- lang_en;; *);
+    => nrel_main_idtf: [химический контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хімічны кантроль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemical_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_individual_dosimetric_control;
+    => nrel_associative_connection: by_radiation_and_chemical_observation_post;
+    => nrel_associative_connection: by_radiation_control;
+    => nrel_associative_connection: by_radiometric_control;
+
+    => nrel_etalon_online_idx: [36708];;

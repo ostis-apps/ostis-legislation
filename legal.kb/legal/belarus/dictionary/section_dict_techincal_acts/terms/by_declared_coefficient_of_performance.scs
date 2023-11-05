@@ -1,0 +1,30 @@
+
+by_declared_coefficient_of_performance
+    => nrel_main_idtf: [declared coefficient of performance] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявленный коэффициент производительности; copd(tj) (declared coefficient of performance)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўлены каэфіцыент прадукцыйнасці; copd(tj) (declared coefficient of performance)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_declared_coefficient_of_performance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_declared_capacity;
+    => nrel_associative_connection: by_declared_energy_efficiency_ratio;
+    => nrel_associative_connection: by_capacity_ratio;
+    => nrel_associative_connection: by_power_factor;
+    => nrel_associative_connection: by_degradation_coefficient;
+    => nrel_associative_connection: by_oscillating_mechanism;
+
+    => nrel_etalon_online_idx: [35038];;

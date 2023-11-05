@@ -1,0 +1,32 @@
+
+by_gene_pool_small_breed
+    => nrel_main_idtf: [gene pool (small) breed] (* <- lang_en;; *);
+    => nrel_main_idtf: [генофондная (малочисленная) порода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генафондная (малалікая) парода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gene_pool_small_breed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_breed_reproduction;
+    => nrel_associative_connection: by_genetic_pool;
+    => nrel_associative_connection: by_gene_pool_economy;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_animal_breed;
+    => nrel_associative_connection: by_breed_group;
+    => nrel_associative_connection: by_selection_in_animal_husbandry;
+    => nrel_associative_connection: by_family;
+
+    => nrel_etalon_online_idx: [10151];;

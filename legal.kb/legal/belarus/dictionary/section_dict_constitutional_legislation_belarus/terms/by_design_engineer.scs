@@ -1,0 +1,27 @@
+
+by_design_engineer
+    => nrel_main_idtf: [design engineer] (* <- lang_en;; *);
+    => nrel_main_idtf: [проектировщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праекціроўшчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_engineer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_general_designer;
+    => nrel_associative_connection: by_construction_project;
+    => nrel_associative_connection: by_subdesigner;
+
+    => nrel_etalon_online_idx: [6712];;

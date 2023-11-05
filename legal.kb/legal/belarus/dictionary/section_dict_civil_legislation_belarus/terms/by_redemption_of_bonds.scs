@@ -1,0 +1,34 @@
+
+by_redemption_of_bonds
+    => nrel_main_idtf: [redemption of bonds] (* <- lang_en;; *);
+    => nrel_main_idtf: [погашение облигаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагашэнне аблігацый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_redemption_of_bonds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_global_certificate;
+    => nrel_associative_connection: by_premature_redemption_of_bonds;
+    => nrel_associative_connection: by_early_buyout;
+    => nrel_associative_connection: by_bond_collateral;
+    => nrel_associative_connection: by_bonds;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_repayment;
+    => nrel_associative_connection: by_permanent_interest_income;
+    => nrel_associative_connection: by_interest_bonds;
+    => nrel_associative_connection: by_debt_securities_held_to_maturity;
+
+    => nrel_etalon_online_idx: [6517];;

@@ -1,0 +1,29 @@
+
+by_acoustic_screen_screen
+    => nrel_main_idtf: [acoustic screen (screen)] (* <- lang_en;; *);
+    => nrel_main_idtf: [акустический экран (экран)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акустычны экран (экран)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acoustic_screen_screen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acoustic_design;
+    => nrel_associative_connection: by_hall_for_multipurpose_acoustic_purposes;
+    => nrel_associative_connection: by_airborne_noise_insulation_index_of_the_enclosing_structure_rw_db;
+    => nrel_associative_connection: by_normalized_octave_sound_pressure_level_equivalent_to_octave_sound_pressure_level_ldop_db;
+    => nrel_associative_connection: by_sound_pressure_octave_level_l_db;
+
+    => nrel_etalon_online_idx: [35709];;

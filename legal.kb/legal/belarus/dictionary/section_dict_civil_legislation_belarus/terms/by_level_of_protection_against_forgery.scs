@@ -1,0 +1,43 @@
+
+by_level_of_protection_against_forgery
+    => nrel_main_idtf: [level of protection against forgery] (* <- lang_en;; *);
+    => nrel_main_idtf: [уровень защиты от подделки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узровень абароны ад падробкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_level_of_protection_against_forgery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_level_of_protection_against_forgery_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_protection_method;
+    => nrel_associative_connection: by_system_of_protection_against_fake;
+    => nrel_associative_connection: by_mean_of_protection;
+    => nrel_associative_connection: by_protection_element;
+
+    => nrel_etalon_online_idx: [41011];;

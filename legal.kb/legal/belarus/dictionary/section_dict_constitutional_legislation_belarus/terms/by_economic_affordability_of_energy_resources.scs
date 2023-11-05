@@ -1,0 +1,26 @@
+
+by_economic_affordability_of_energy_resources
+    => nrel_main_idtf: [economic affordability of energy resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [экономическая доступность энергоресурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эканамічная даступнасць энергарэсурсаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_economic_affordability_of_energy_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_debt_for_energy_resources;
+    => nrel_associative_connection: by_debt_of_consumers_for_energy_resources;
+
+    => nrel_etalon_online_idx: [26477];;

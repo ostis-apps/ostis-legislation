@@ -1,0 +1,29 @@
+
+by_nonbank_financial_organization
+    => nrel_main_idtf: [non-bank financial organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [небанковская финансовая организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нябанкаўская фінансавая арганізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonbank_financial_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_identification_code;
+    => nrel_associative_connection: by_trust_fund_manager;
+    => nrel_associative_connection: by_nonbank_financial_organizations;
+    => nrel_associative_connection: by_participants_of_calculations;
+    => nrel_associative_connection: by_financial_organization;
+
+    => nrel_etalon_online_idx: [17895];;

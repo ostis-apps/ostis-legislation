@@ -1,0 +1,45 @@
+
+by_adhesive_bridge_prosthesis
+    => nrel_main_idtf: [adhesive bridge prosthesis] (* <- lang_en;; *);
+    => nrel_main_idtf: [адгезивный мостовидный протез] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адгезіўны мостападобны пратэз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adhesive_bridge_prosthesis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adhesive_bridge_prosthesis_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adhesive_tire;
+    => nrel_associative_connection: by_dental_implants;
+    => nrel_associative_connection: by_chewing_apparatus;
+    => nrel_associative_connection: by_support_elements;
+    => nrel_associative_connection: by_parodontal_periodontal;
+    => nrel_associative_connection: by_periodontium;
+
+    => nrel_etalon_online_idx: [36639];;

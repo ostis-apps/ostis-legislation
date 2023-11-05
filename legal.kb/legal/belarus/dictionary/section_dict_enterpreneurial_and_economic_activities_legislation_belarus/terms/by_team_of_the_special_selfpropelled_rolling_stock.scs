@@ -1,0 +1,28 @@
+
+by_team_of_the_special_selfpropelled_rolling_stock
+    => nrel_main_idtf: [team of the special self-propelled rolling stock ] (* <- lang_en;; *);
+    => nrel_main_idtf: [бригада специального самоходного подвижного состава] (* <- lang_ru;; *);
+    => nrel_main_idtf: [брыгада спецыяльнага самаходнага рухомага саставу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_team_of_the_special_selfpropelled_rolling_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_side_track;
+    => nrel_associative_connection: by_clearance_gauge_of_rolling_stock;
+    => nrel_associative_connection: by_unit_of_rolling_stock;
+    => nrel_associative_connection: by_rolling_stock;
+
+    => nrel_etalon_online_idx: [11790];;

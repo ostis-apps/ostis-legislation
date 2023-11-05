@@ -1,0 +1,26 @@
+
+by_payers_of_patent_taxes
+    => nrel_main_idtf: [payers of patent taxes] (* <- lang_en;; *);
+    => nrel_main_idtf: [плательщики патентных пошлин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацельшчыкі патэнтных пошлін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payers_of_patent_taxes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payers;
+    => nrel_associative_connection: by_tax_payers;
+
+    => nrel_etalon_online_idx: [3938];;

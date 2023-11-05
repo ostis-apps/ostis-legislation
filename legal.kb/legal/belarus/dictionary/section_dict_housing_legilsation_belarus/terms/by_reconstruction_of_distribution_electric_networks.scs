@@ -1,0 +1,29 @@
+
+by_reconstruction_of_distribution_electric_networks
+    => nrel_main_idtf: [reconstruction of distribution electric networks] (* <- lang_en;; *);
+    => nrel_main_idtf: [реконструкция распределительных электрических сетей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэканструкцыя размеркавальных электрычных сетак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reconstruction_of_distribution_electric_networks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_electric_network_owner;
+    => nrel_associative_connection: by_new_consumers_of_electric_energy;
+    => nrel_associative_connection: by_protective_zone_of_the_electric_network;
+    => nrel_associative_connection: by_distribution_power_grids;
+    => nrel_associative_connection: by_electric_network;
+
+    => nrel_etalon_online_idx: [42268];;

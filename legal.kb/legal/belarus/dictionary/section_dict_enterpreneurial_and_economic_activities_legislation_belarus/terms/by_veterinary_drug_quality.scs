@@ -1,0 +1,28 @@
+
+by_veterinary_drug_quality
+    => nrel_main_idtf: [veterinary drug quality ] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество ветеринарного препарата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць ветэрынарнага прэпарата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_veterinary_drug_quality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_means;
+    => nrel_associative_connection: by_veterinary_medicine;
+    => nrel_associative_connection: by_state_registry_of_veterinary_drugs;
+    => nrel_associative_connection: by_adulterated_veterinary_drug;
+
+    => nrel_etalon_online_idx: [10416];;

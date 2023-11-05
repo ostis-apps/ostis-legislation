@@ -1,0 +1,27 @@
+
+by_diplomatic_mission_of_the_republic_of_belarus
+    => nrel_main_idtf: [diplomatic mission of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [дипломатическое представительство республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыпламатычнае прадстаўніцтва рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diplomatic_mission_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_diplomatic_missions_embassies_permanent_representatives_at_international_organizations_missions_and_consular_offices;
+    => nrel_associative_connection: by_overseas;
+    => nrel_associative_connection: by_representative_office;
+
+    => nrel_etalon_online_idx: [14177];;

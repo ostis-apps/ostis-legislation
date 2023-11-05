@@ -1,0 +1,31 @@
+
+by_pair_item
+    => nrel_main_idtf: [pair item] (* <- lang_en;; *);
+    => nrel_main_idtf: [парное изделие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парны выраб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pair_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_single_product;
+    => nrel_associative_connection: by_product_images;
+    => nrel_associative_connection: by_componentary;
+    => nrel_associative_connection: by_medical_items;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_jewellery_and_other_household_goods;
+
+    => nrel_etalon_online_idx: [19801];;

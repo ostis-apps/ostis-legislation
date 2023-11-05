@@ -1,0 +1,28 @@
+
+by_special_targeted_inspections
+    => nrel_main_idtf: [special (targeted) inspections] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальные (целевые) осмотры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльныя (мэтавыя) агляды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_targeted_inspections_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defect_of_travel_clothing;
+    => nrel_associative_connection: by_stormwater_well_rainwater_intake;
+    => nrel_associative_connection: by_patrol_inspection;
+    => nrel_associative_connection: by_season_inspection;
+
+    => nrel_etalon_online_idx: [31457];;

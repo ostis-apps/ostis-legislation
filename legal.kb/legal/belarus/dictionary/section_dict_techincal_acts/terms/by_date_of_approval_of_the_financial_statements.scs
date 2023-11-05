@@ -1,0 +1,28 @@
+
+by_date_of_approval_of_the_financial_statements
+    => nrel_main_idtf: [date of approval of the financial statements] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата утверждения финансовой отчетности к выпуску ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата зацвярджэння фінансавай справаздачнасці да выпуску] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_approval_of_the_financial_statements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_release;
+    => nrel_associative_connection: by_statutory_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_reporting;
+
+    => nrel_etalon_online_idx: [28021];;

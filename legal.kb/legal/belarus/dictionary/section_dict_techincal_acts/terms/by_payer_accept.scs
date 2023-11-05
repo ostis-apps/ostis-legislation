@@ -1,0 +1,15 @@
+
+by_payer_accept
+    => nrel_main_idtf: [payer accept] (* <- lang_en;; *);
+    => nrel_main_idtf: [акцепт плательщика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акцэпт плацельшчыка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_automated_bank_system;
+    => nrel_associative_connection: by_acceptance;
+    => nrel_associative_connection: by_acceptance_of_payment_request;
+    => nrel_associative_connection: by_acceptance;
+    => nrel_associative_connection: by_payers_bank_payers_agent;
+
+    => nrel_etalon_online_idx: [32556];;

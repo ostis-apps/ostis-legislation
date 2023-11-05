@@ -1,0 +1,40 @@
+
+by_state_specialized_organization
+    => nrel_main_idtf: [state specialized organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная специализированная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная спецыялізаваная арганізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_specialized_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_organizations;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_specialized_organizations;
+    => nrel_associative_connection: by_specialized_organization_on_cataloguing;
+    => nrel_associative_connection: by_specialized_organization_for_inspection_of_buildings;
+    => nrel_associative_connection: by_specialized_organizations;
+    => nrel_associative_connection: by_specialized_organizations_for_maintenance_of_urban_electric_transport;
+    => nrel_associative_connection: by_specialized_landscaping_organizations;
+    => nrel_associative_connection: by_specialized_organizations_for_sanitary_cleaning_of_the_territory;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_operation_of_underground_engineering_utilities;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_of_outdoor_lighting;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_of_technical_means_of_road_traffic_organization_construction_and_installation_operating_organizations;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_of_the_street_and_road_network;
+    => nrel_associative_connection: by_specialized_cleaning_organizations;
+
+    => nrel_etalon_online_idx: [13652];;

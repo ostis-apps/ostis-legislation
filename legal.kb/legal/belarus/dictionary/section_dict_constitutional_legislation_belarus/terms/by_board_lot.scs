@@ -1,0 +1,48 @@
+
+by_board_lot
+    => nrel_main_idtf: [board lot] (* <- lang_en;; *);
+    => nrel_main_idtf: [лот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лот] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_board_lot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_board_lot_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_date_of_the_auction;
+    => nrel_associative_connection: by_auction_organizer;
+    => nrel_associative_connection: by_competition_organizer_auction;
+    => nrel_associative_connection: by_subject_of_the_auction;
+    => nrel_associative_connection: by_subject_of_the_order;
+    => nrel_associative_connection: by_bidding;
+    => nrel_associative_connection: by_auction_bidder;
+    => nrel_associative_connection: by_auction_participants;
+
+    => nrel_etalon_online_idx: [11032];;

@@ -1,0 +1,32 @@
+
+by_debtor_in_liquidation
+    => nrel_main_idtf: [debtor in liquidation] (* <- lang_en;; *);
+    => nrel_main_idtf: [ликвидируемый должник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліквідуемы даўжнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_debtor_in_liquidation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_bankruptcy_creditors;
+    => nrel_associative_connection: by_liquidation_proceeding;
+    => nrel_associative_connection: by_absent_debtor;
+    => nrel_associative_connection: by_representative_of_the_debtors_employees;
+    => nrel_associative_connection: by_economic_failure;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [10444];;

@@ -1,0 +1,34 @@
+
+by_traceability
+    => nrel_main_idtf: [traceability] (* <- lang_en;; *);
+    => nrel_main_idtf: [обеспечение единства измерений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забеспячэнне адзінства вымярэнняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_traceability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unit_of_measurement;
+    => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_technique_method_of_measurements;
+    => nrel_associative_connection: by_technique_of_measurement_execution;
+    => nrel_associative_connection: by_metrological_service;
+    => nrel_associative_connection: by_transmission_of_a_units_of_value;
+    => nrel_associative_connection: by_reference_methodology_method_of_measurements;
+    => nrel_associative_connection: by_system_of_ensuring_the_unity_of_measurements_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_the_content_of_the_standard_of_the_unit_of_magnitude;
+    => nrel_associative_connection: by_packaged_good;
+
+    => nrel_etalon_online_idx: [27859];;

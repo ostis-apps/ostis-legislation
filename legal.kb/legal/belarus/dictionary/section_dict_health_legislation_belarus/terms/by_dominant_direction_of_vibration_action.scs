@@ -1,0 +1,36 @@
+
+by_dominant_direction_of_vibration_action
+    => nrel_main_idtf: [dominant direction of vibration action] (* <- lang_en;; *);
+    => nrel_main_idtf: [доминирующее направление действия вибрации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дамінуючы напрамак дзеяння вібрацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dominant_direction_of_vibration_action_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_frequency_corrected_vibration_parameter_level;
+    => nrel_associative_connection: by_general_vibration;
+    => nrel_associative_connection: by_general_vibration_of_the_1st_category;
+    => nrel_associative_connection: by_general_vibration_of_the_2nd_category;
+    => nrel_associative_connection: by_general_vibration_of_the_3rd_category_of_type_a;
+    => nrel_associative_connection: by_general_vibration_of_the_3rd_category_of_type_b;
+    => nrel_associative_connection: by_total_transport_vibration_general_and_local;
+    => nrel_associative_connection: by_vibration_maximum_levels;
+    => nrel_associative_connection: by_industrial_vibration;
+    => nrel_associative_connection: by_background_vibration;
+    => nrel_associative_connection: by_energyequivalent_frequencycorrected_variable_vibration_level;
+    => nrel_associative_connection: by_energyequivalent_frequencycorrected_level_of_variable_vibration_parameter_acting_in_x_y_z_directions_during_evaluation;
+
+    => nrel_etalon_online_idx: [41705];;

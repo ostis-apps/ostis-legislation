@@ -1,0 +1,29 @@
+
+by_manufacturing_defect
+    => nrel_main_idtf: [manufacturing defect] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственный брак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчы брак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manufacturing_defect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defect_of_goods_work_service;
+    => nrel_associative_connection: by_incorrigible_defect;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_concealed_defects_of_goods;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [3228];;

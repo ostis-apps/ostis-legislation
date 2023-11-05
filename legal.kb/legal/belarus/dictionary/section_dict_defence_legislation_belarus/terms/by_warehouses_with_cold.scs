@@ -1,0 +1,16 @@
+
+by_warehouses_with_cold
+    => nrel_main_idtf: [warehouses with cold] (* <- lang_en;; *);
+    => nrel_main_idtf: [склады с холодом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [склады з холадам] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_ammonia_refrigeration_unit;
+    => nrel_associative_connection: by_storewarehouse;
+    => nrel_associative_connection: by_uncooled_storage;
+    => nrel_associative_connection: by_warehouse;
+    => nrel_associative_connection: by_warehouses_of_all_types;
+    => nrel_associative_connection: by_commodity_warehouse;
+
+    => nrel_etalon_online_idx: [23293];;

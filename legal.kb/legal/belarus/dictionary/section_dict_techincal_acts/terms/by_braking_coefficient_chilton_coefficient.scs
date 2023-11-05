@@ -1,0 +1,43 @@
+
+by_braking_coefficient_chilton_coefficient
+    => nrel_main_idtf: [braking coefficient (chilton coefficient)] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент торможения (коэффициент чилтона)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент тармажэння (каэфіцыент чілтана)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_braking_coefficient_chilton_coefficient_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_braking_coefficient_chilton_coefficient_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_objectanalogue;
+    => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_objectanalogue;
+    => nrel_associative_connection: by_building_structure;
+
+    => nrel_etalon_online_idx: [31174];;

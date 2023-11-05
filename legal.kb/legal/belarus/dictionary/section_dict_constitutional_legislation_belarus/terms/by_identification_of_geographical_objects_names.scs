@@ -1,0 +1,32 @@
+
+by_identification_of_geographical_objects_names
+    => nrel_main_idtf: [identification of geographical objects names] (* <- lang_en;; *);
+    => nrel_main_idtf: [выявление наименований географических объектов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выяўленне найменняў геаграфічных аб'ектаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_of_geographical_objects_names_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_identified_name_of_geographic_object;
+    => nrel_associative_connection: by_geographic_objects;
+    => nrel_associative_connection: by_state_record_of_names_of_geographical_sites;
+    => nrel_associative_connection: by_names_of_geographical_objects;
+    => nrel_associative_connection: by_normalization_of_names_of_geographical_objects;
+    => nrel_associative_connection: by_normalization_of_name_of_geographical_objects;
+    => nrel_associative_connection: by_normalized_name_of_geographic_object;
+    => nrel_associative_connection: by_naming_of_geographical_objects;
+
+    => nrel_etalon_online_idx: [10147];;

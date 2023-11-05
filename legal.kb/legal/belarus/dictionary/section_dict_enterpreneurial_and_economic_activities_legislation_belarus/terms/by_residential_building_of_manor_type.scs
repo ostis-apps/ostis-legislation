@@ -1,0 +1,44 @@
+
+by_residential_building_of_manor_type
+    => nrel_main_idtf: [residential building of manor type] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилой дом усадебного типа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жылы дом сядзібнага тыпа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_building_of_manor_type_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_town_house;
+    => nrel_associative_connection: by_day_of_completion_of_house_construction;
+    => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_residential_part_of_house;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_a_residential_building_that_is_in_disrepair_or_threatens_to_collapse;
+    => nrel_associative_connection: by_residential_buildings_of_improved_comfort;
+    => nrel_associative_connection: by_residential_buildings;
+    => nrel_associative_connection: by_persons_who_have_the_right_to_own_and_use_a_residential_building;
+    => nrel_associative_connection: by_apartment_building;
+    => nrel_associative_connection: by_total_area_of_oneapartment_including_stately_and_blocked_residential_house;
+    => nrel_associative_connection: by_total_area_of_oneapartment_stately_residential_house;
+    => nrel_associative_connection: by_oneapartment_residential_house;
+    => nrel_associative_connection: by_empty_residential_building;
+    => nrel_associative_connection: by_destroyed_apartment_building;
+    => nrel_associative_connection: by_demolition;
+    => nrel_associative_connection: by_construction_volume_of_residential_building_residential_part_of_the_house;
+    => nrel_associative_connection: by_individuals_permanently_residing_in_a_residential_building;
+    => nrel_associative_connection: by_economy_dwelling_house_with_typical_consumer_qualities;
+    => nrel_associative_connection: by_energyefficient_residential_house;
+
+    => nrel_etalon_online_idx: [14676];;

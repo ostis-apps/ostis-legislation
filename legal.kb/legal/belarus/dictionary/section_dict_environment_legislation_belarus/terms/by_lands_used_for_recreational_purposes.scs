@@ -1,0 +1,48 @@
+
+by_lands_used_for_recreational_purposes
+    => nrel_main_idtf: [lands used for recreational purposes] (* <- lang_en;; *);
+    => nrel_main_idtf: [земли рекреационного назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [землі рэкрэацыйнага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lands_used_for_recreational_purposes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lands_used_for_recreational_purposes_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_land;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_land;
+    => nrel_associative_connection: by_beach;
+    => nrel_associative_connection: by_naturalrecreation_zone_recreation_area_of_local_importance;
+    => nrel_associative_connection: by_naturalrecreation_zone_recreation_zone_of_republican_significance;
+    => nrel_associative_connection: by_recreational_zones;
+    => nrel_associative_connection: by_special_tourist_and_recreation_park;
+    => nrel_associative_connection: by_tourist_and_recreational_territory;
+
+    => nrel_etalon_online_idx: [4573];;

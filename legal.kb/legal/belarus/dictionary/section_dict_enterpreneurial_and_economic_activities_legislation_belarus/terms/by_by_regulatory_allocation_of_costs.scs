@@ -1,0 +1,28 @@
+
+by_by_regulatory_allocation_of_costs
+    => nrel_main_idtf: [by_regulatory_allocation_of_costs] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормативное распределение затрат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыўнае размеркаванне выдаткаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_regulatory_allocation_of_costs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_integrated_development_of_residential_areas_quarters;
+    => nrel_associative_connection: by_estimate_estimate_documentation;
+    => nrel_associative_connection: by_estimated_cost_of_construction;
+    => nrel_associative_connection: by_cost_of_construction_of_a_residential_building_at_the_current_price_level;
+
+    => nrel_etalon_online_idx: [42620];;

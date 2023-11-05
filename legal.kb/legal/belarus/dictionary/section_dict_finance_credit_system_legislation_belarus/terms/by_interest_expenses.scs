@@ -1,0 +1,33 @@
+
+by_interest_expenses
+    => nrel_main_idtf: [interest expenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [процентные расходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэнтныя расходы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interest_expenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commission_charges;
+    => nrel_associative_connection: by_accrued_charge;
+    => nrel_associative_connection: by_passive_bank_operations;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interest_risk_of_the_bank_portfolio;
+    => nrel_associative_connection: by_interest_risk_of_the_trade_portfolio;
+    => nrel_associative_connection: by_other_bank_income_and_other_bank_expenses;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_deferred_expenses;
+
+    => nrel_etalon_online_idx: [21778];;

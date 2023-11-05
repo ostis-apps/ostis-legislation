@@ -1,0 +1,35 @@
+
+by_study_guide
+    => nrel_main_idtf: [study guide] (* <- lang_en;; *);
+    => nrel_main_idtf: [учебно-методическое пособие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вучэбна-метадычны дапаможнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_study_guide_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adapted_educational_edition;
+    => nrel_associative_connection: by_adapted_educational_edition_original_for_publishing_on_the_basis_of_reliefdot_brail_system;
+    => nrel_associative_connection: by_release_calendar_of_educational_publications;
+    => nrel_associative_connection: by_workbook;
+    => nrel_associative_connection: by_textbook;
+    => nrel_associative_connection: by_educational_visual_aid;
+    => nrel_associative_connection: by_academic_methodological_documentation;
+    => nrel_associative_connection: by_educational_and_methodical_methodological_manual;
+    => nrel_associative_connection: by_educationalmethodological_management_part_department;
+    => nrel_associative_connection: by_teaching_aids_for_students_and_teaching_aids_for_pupils;
+    => nrel_associative_connection: by_chrestomathy;
+
+    => nrel_etalon_online_idx: [4175];;

@@ -1,0 +1,26 @@
+
+by_samples_of_automobile_equipment
+    => nrel_main_idtf: [samples of automobile equipment	] (* <- lang_en;; *);
+    => nrel_main_idtf: [образцы автомобильной техники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узоры аўтамабільнай тэхнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_samples_of_automobile_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_arm_military_equipment;
+
+    => nrel_etalon_online_idx: [18520];;

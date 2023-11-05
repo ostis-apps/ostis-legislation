@@ -1,0 +1,35 @@
+
+by_manufacture_explosives
+    => nrel_main_idtf: [manufacture explosives] (* <- lang_en;; *);
+    => nrel_main_idtf: [производство взрывчатых веществ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчасць выбуховых рэчываў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manufacture_explosives_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explosive_substance_es;
+    => nrel_associative_connection: by_explosive_substances;
+    => nrel_associative_connection: by_explosive_composition_ec;
+    => nrel_associative_connection: by_manufacturing_of_industrial_explosives;
+    => nrel_associative_connection: by_product_containing_explosives;
+    => nrel_associative_connection: by_use_of_explosive_substances_and_products_containing_them;
+    => nrel_associative_connection: by_condensed_explosive;
+    => nrel_associative_connection: by_pyrotechnic_substance_pyrotechnic_composition;
+    => nrel_associative_connection: by_industrial_explosive_substances_ies;
+    => nrel_associative_connection: by_mix_of_explosives;
+    => nrel_associative_connection: by_loss_of_industrial_explosives;
+
+    => nrel_etalon_online_idx: [21591];;

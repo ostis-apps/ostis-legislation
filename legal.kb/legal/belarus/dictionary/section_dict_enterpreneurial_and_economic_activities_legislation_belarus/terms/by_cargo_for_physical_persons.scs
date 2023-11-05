@@ -1,0 +1,29 @@
+
+by_cargo_for_physical_persons
+    => nrel_main_idtf: [cargo for physical persons ] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузы физических лиц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузы фізічных асоб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_for_physical_persons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargo_luggage;
+    => nrel_associative_connection: by_cargo_owner;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_physical_persons;
+    => nrel_associative_connection: by_physical_person;
+
+    => nrel_etalon_online_idx: [13902];;

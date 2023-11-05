@@ -1,0 +1,28 @@
+
+by_parties_to_labor_agreement
+    => nrel_main_idtf: [parties to labor agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [стороны трудового договора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бакі працоўнага дагавора] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parties_to_labor_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_employer;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_parties;
+    => nrel_associative_connection: by_labor_agreement;
+
+    => nrel_etalon_online_idx: [4143];;

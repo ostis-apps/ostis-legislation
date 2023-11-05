@@ -1,0 +1,36 @@
+
+by_interface_usernetwork
+    => nrel_main_idtf: [interface "user-network"] (* <- lang_en;; *);
+    => nrel_main_idtf: [интерфейс "пользователь – сеть"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрфейс "карыстальнік – сетка"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interface_usernetwork_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscriber_consumer;
+    => nrel_associative_connection: by_apparatus;
+    => nrel_associative_connection: by_telecommunication_means_security;
+    => nrel_associative_connection: by_issue_of_telecommunication_means_in_circulation;
+    => nrel_associative_connection: by_destabilizing_impact;
+    => nrel_associative_connection: by_interface;
+    => nrel_associative_connection: by_interface_joint;
+    => nrel_associative_connection: by_user_interface;
+    => nrel_associative_connection: by_network_termination;
+    => nrel_associative_connection: by_telecommunication_message;
+    => nrel_associative_connection: by_technical_means;
+    => nrel_associative_connection: by_sustainability_of_the_telecommunication_network;
+
+    => nrel_etalon_online_idx: [29062];;

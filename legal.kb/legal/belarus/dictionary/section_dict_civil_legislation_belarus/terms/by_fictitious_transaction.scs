@@ -1,0 +1,28 @@
+
+by_fictitious_transaction
+    => nrel_main_idtf: [fictitious transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [мнимая сделка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уяўная здзелка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fictitious_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_use_of_a_business_entity_in_the_commission_of_an_offense;
+    => nrel_associative_connection: by_fraudulent_transaction;
+    => nrel_associative_connection: by_transaction;
+    => nrel_associative_connection: by_comparable_deal;
+
+    => nrel_etalon_online_idx: [140];;

@@ -1,0 +1,26 @@
+
+by_by_selfpropelled_energysaturated_equipment
+    => nrel_main_idtf: [by_selfpropelled_energysaturated_equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [самоходная энергонасыщенная техника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [самаходная энерганасычаная тэхніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_selfpropelled_energysaturated_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_selfpropelled_vehicle;
+
+    => nrel_etalon_online_idx: [42759];;

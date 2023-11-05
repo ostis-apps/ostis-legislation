@@ -1,0 +1,31 @@
+
+by_waterski_base
+    => nrel_main_idtf: [water-ski base] (* <- lang_en;; *);
+    => nrel_main_idtf: [воднолыжная база] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вадналыжная база] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waterski_base_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_waterski_channel_behind_the_boat;
+    => nrel_associative_connection: by_waterski_channel_behind_electric_driving;
+    => nrel_associative_connection: by_water_ski_stadium_behind_the_boat_behind_electric_drive;
+    => nrel_associative_connection: by_rowing_base;
+    => nrel_associative_connection: by_rowing_basin;
+    => nrel_associative_connection: by_ski_base;
+    => nrel_associative_connection: by_skier;
+
+    => nrel_etalon_online_idx: [34052];;

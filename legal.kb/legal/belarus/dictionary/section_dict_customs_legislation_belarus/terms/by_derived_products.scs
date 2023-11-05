@@ -1,0 +1,28 @@
+
+by_derived_products
+    => nrel_main_idtf: [derived products] (* <- lang_en;; *);
+    => nrel_main_idtf: [продукты переработки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадукты перапрацоўкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_derived_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_derivative;
+    => nrel_associative_connection: by_recycling;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [4729];;

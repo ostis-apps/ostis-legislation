@@ -1,0 +1,33 @@
+
+by_registry_of_state_registration_of_technical_conditions
+    => nrel_main_idtf: [registry of state registration of technical conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [реестр государственной регистрации технических условий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэестр дзяржаўнай рэгістрацыі тэхнічных умоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registry_of_state_registration_of_technical_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registration;
+    => nrel_associative_connection: by_state_registration_of_technical_conditions;
+    => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_identification_of_technical_conditions;
+    => nrel_associative_connection: by_original_specifications;
+    => nrel_associative_connection: by_verification_of_technical_specifications;
+    => nrel_associative_connection: by_developer_of_technical_conditions;
+    => nrel_associative_connection: by_registry;
+    => nrel_associative_connection: by_registered_copy_of_the_specifications;
+
+    => nrel_etalon_online_idx: [27589];;

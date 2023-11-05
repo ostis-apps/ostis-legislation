@@ -1,0 +1,28 @@
+
+by_bike_crossing
+    => nrel_main_idtf: [bike crossing] (* <- lang_en;; *);
+    => nrel_main_idtf: [велосипедный переезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [веласіпедны пераезд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bike_crossing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bicycle_cycle_mobile;
+    => nrel_associative_connection: by_cycle_track;
+    => nrel_associative_connection: by_carriageway;
+    => nrel_associative_connection: by_personal_mobility_tool;
+
+    => nrel_etalon_online_idx: [40599];;

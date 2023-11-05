@@ -1,0 +1,29 @@
+
+by_by_radiation_hazard_zone
+    => nrel_main_idtf: [by_radiation_hazard_zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиационно-опасная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыяцыйна-небяспечная зона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_radiation_hazard_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_zone_of_residence_with_periodic_radiation_control;
+    => nrel_associative_connection: by_free_access_zone;
+    => nrel_associative_connection: by_nonremovable_fixed_radioactive_contamination_of_the_surface;
+    => nrel_associative_connection: by_dangerous_area;
+    => nrel_associative_connection: by_radiation_situation;
+
+    => nrel_etalon_online_idx: [42381];;

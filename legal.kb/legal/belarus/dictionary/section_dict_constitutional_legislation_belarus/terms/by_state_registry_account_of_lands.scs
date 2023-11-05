@@ -1,0 +1,23 @@
+
+by_state_registry_account_of_lands
+    => nrel_main_idtf: [state registry account of lands] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный кадастровый учет земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны кадастравы ўлік зямель] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_state_land_registry;
+    => nrel_associative_connection: by_state_control_over_land_use_and_protection;
+    => nrel_associative_connection: by_land_plots_parts_of_a_land_plot_occupied_by_construction_objects_not_finished_within_normative_time_limits;
+    => nrel_associative_connection: by_plot_outline;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_cadastral_valuation_of_lands_land_plots;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_cadastral_number;
+    => nrel_associative_connection: by_public_cadastral_map;
+    => nrel_associative_connection: by_land_value_register_of_the_state_land_cadastre;
+    => nrel_associative_connection: by_address_register;
+    => nrel_associative_connection: by_registry_of_prices_for_land_plots;
+    => nrel_associative_connection: by_improvement_of_land;
+
+    => nrel_etalon_online_idx: [13728];;

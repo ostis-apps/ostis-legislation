@@ -1,0 +1,36 @@
+
+by_divergence_of_vessels
+    => nrel_main_idtf: [divergence of vessels] (* <- lang_en;; *);
+    => nrel_main_idtf: [расхождение судов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разыходжанне судоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_divergence_of_vessels_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_counter_swimming;
+    => nrel_associative_connection: by_additional_fairway;
+    => nrel_associative_connection: by_fairway_hem;
+    => nrel_associative_connection: by_overtaking;
+    => nrel_associative_connection: by_main_fairway;
+    => nrel_associative_connection: by_axis_of_fairway;
+    => nrel_associative_connection: by_crossing_courses;
+    => nrel_associative_connection: by_lane;
+    => nrel_associative_connection: by_vessel_pass;
+    => nrel_associative_connection: by_radius_of_curvature_of_the_channel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_fairway;
+
+    => nrel_etalon_online_idx: [22193];;

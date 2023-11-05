@@ -1,0 +1,44 @@
+
+by_surrogate_motherhood
+    => nrel_main_idtf: [surrogate motherhood] (* <- lang_en;; *);
+    => nrel_main_idtf: [суррогатное материнство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сурагатнае мацярынства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_surrogate_motherhood_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_surrogate_motherhood_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_infertility;
+    => nrel_associative_connection: by_assisted_reproductive_technology;
+    => nrel_associative_connection: by_reproductive_rights;
+    => nrel_associative_connection: by_surrogate_mother;
+    => nrel_associative_connection: by_embryo;
+
+    => nrel_etalon_online_idx: [2034];;

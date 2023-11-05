@@ -1,0 +1,28 @@
+
+by_contract_for_the_assessment_of_infrastructure_services_for_transport
+    => nrel_main_idtf: [contract for the assessment of infrastructure services for transport] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор на оказание услуг инфраструктуры для осуществления перевозок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор на аказанне паслуг інфраструктуры для ажыццяўлення перавозак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_for_the_assessment_of_infrastructure_services_for_transport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract_for_the_assessment_of_infrastructure_services_associated_with_transport_process;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_transportation_infrastructure_services;
+    => nrel_associative_connection: by_infrastructure_services_related_to_the_transportation_process;
+
+    => nrel_etalon_online_idx: [14271];;

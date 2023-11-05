@@ -1,0 +1,27 @@
+
+by_obstruction_light_beacon
+    => nrel_main_idtf: [obstruction light beacon] (* <- lang_en;; *);
+    => nrel_main_idtf: [заградительный светомаяк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [загараджальны святламаяк] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obstruction_light_beacon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aeronautical_information;
+    => nrel_associative_connection: by_aeronautical_beacon;
+    => nrel_associative_connection: by_identification_lighthouse;
+
+    => nrel_etalon_online_idx: [41040];;

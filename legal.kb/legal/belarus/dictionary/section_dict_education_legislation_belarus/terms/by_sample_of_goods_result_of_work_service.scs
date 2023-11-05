@@ -1,0 +1,28 @@
+
+by_sample_of_goods_result_of_work_service
+    => nrel_main_idtf: [sample of goods (result of work, service)] (* <- lang_en;; *);
+    => nrel_main_idtf: [образец товара (результата работы, услуги)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узор тавару (выніку работы, паслугі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_of_goods_result_of_work_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_location_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_advertising;
+    => nrel_associative_connection: by_good;
+    => nrel_associative_connection: by_good_work_service;
+
+    => nrel_etalon_online_idx: [38397];;

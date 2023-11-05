@@ -1,0 +1,29 @@
+
+by_by_labor_rate_setting
+    => nrel_main_idtf: [by_labor_rate_setting] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормирование труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарміраванне працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_labor_rate_setting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interbranch_standards_for_labor_normalization;
+    => nrel_associative_connection: by_method_of_labor_normalization;
+    => nrel_associative_connection: by_normative_materials_for_labor_normalization;
+    => nrel_associative_connection: by_worktime_standards;
+    => nrel_associative_connection: by_branch_normatives_for_labor_normalization;
+
+    => nrel_etalon_online_idx: [43565];;

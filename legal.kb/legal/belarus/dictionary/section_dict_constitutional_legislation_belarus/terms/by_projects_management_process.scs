@@ -1,0 +1,32 @@
+
+by_projects_management_process
+    => nrel_main_idtf: [projects management process] (* <- lang_en;; *);
+    => nrel_main_idtf: [процесс управления проектами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэс кіравання праектамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_projects_management_process_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_project_management_plan;
+    => nrel_associative_connection: by_general_project_management_diagram;
+    => nrel_associative_connection: by_project_management_plan;
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_contractor_project_management;
+    => nrel_associative_connection: by_project;
+    => nrel_associative_connection: by_reengineering_of_business_processes_of_administrative_procedures;
+    => nrel_associative_connection: by_resources;
+
+    => nrel_etalon_online_idx: [41610];;

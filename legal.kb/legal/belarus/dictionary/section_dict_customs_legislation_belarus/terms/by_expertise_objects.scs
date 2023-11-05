@@ -1,0 +1,42 @@
+
+by_expertise_objects
+    => nrel_main_idtf: [expertise objects ] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты экспертизы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты экспертызы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_objects_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_expertise;
+    => nrel_associative_connection: by_customer_of_examination;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_etalon_online_idx: [18790];;

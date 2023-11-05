@@ -1,0 +1,45 @@
+
+by_commission_contract
+    => nrel_main_idtf: [commission contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор комиссии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор камісіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_contract_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_del_credere;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_commission_agent;
+    => nrel_associative_connection: by_commission_section;
+    => nrel_associative_connection: by_commission_trade;
+    => nrel_associative_connection: by_consignor;
+
+    => nrel_etalon_online_idx: [5029];;

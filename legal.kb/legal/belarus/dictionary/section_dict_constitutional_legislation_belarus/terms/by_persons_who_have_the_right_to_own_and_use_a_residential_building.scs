@@ -1,0 +1,29 @@
+
+by_persons_who_have_the_right_to_own_and_use_a_residential_building
+    => nrel_main_idtf: [persons who have the right to own and use a residential building] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица, имеющие право владения и пользования жилым домом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, якія маюць права валодання і карыстання жылым домам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_who_have_the_right_to_own_and_use_a_residential_building_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_residential_building_of_manor_type;
+    => nrel_associative_connection: by_possessors_of_right;
+    => nrel_associative_connection: by_empty_residential_building;
+    => nrel_associative_connection: by_destroyed_apartment_building;
+
+    => nrel_etalon_online_idx: [36914];;

@@ -1,0 +1,27 @@
+
+by_price_tariff_index_for_medical_services
+    => nrel_main_idtf: [price (tariff) index for medical services] (* <- lang_en;; *);
+    => nrel_main_idtf: [индекс цен (тарифов) на медицинские услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індэкс коштаў (тарыфаў) на медыцынскія паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_price_tariff_index_for_medical_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_period_of_the_index;
+    => nrel_associative_connection: by_individual_price_tariff_index_relative_price_for_service_providers;
+    => nrel_associative_connection: by_representative_service;
+
+    => nrel_etalon_online_idx: [39544];;

@@ -1,0 +1,29 @@
+
+by_traceability_of_the_animal_herd
+    => nrel_main_idtf: [traceability of the animal (herd)] (* <- lang_en;; *);
+    => nrel_main_idtf: [прослеживаемость животного (стада)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [празлежвальнасць жывёльнага (статка)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_traceability_of_the_animal_herd_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydrobiont_animals;
+    => nrel_associative_connection: by_identification_of_the_animal_herd;
+    => nrel_associative_connection: by_animal_passport_herd;
+    => nrel_associative_connection: by_migration_of_farm_animal_herd;
+    => nrel_associative_connection: by_means_of_identification;
+
+    => nrel_etalon_online_idx: [38266];;

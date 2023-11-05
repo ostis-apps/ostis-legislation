@@ -1,0 +1,46 @@
+
+by_staircase
+    => nrel_main_idtf: [staircase] (* <- lang_en;; *);
+    => nrel_main_idtf: [лестничная клетка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесвічная клетка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_staircase_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_staircase_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_stairs;
+    => nrel_associative_connection: by_landing;
+    => nrel_associative_connection: by_flight_of_stairs;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [28446];;

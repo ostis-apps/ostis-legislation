@@ -1,0 +1,31 @@
+
+by_interbank_payment_instruction
+    => nrel_main_idtf: [interbank payment instruction] (* <- lang_en;; *);
+    => nrel_main_idtf: [межбанковская платежная инструкция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжбанкаўская плацежная інструкцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interbank_payment_instruction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_copy_of_electronic_payment_instruction_other_electronic_document_message;
+    => nrel_associative_connection: by_interbank_transfer;
+    => nrel_associative_connection: by_proper_beneficiary;
+    => nrel_associative_connection: by_inadequate_beneficiary;
+    => nrel_associative_connection: by_obligatory_requisites;
+    => nrel_associative_connection: by_payment_instruction;
+    => nrel_associative_connection: by_payment_instruction_for_automated_information_system_of_monetary_obligations_execution;
+
+    => nrel_etalon_online_idx: [32558];;

@@ -1,0 +1,29 @@
+
+by_special_length_of_service
+    => nrel_main_idtf: [special length of service] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный стаж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльны стаж] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_length_of_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_occupational_pension;
+    => nrel_associative_connection: by_occupational_pension_insurance;
+    => nrel_associative_connection: by_insurance_experience;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_etalon_online_idx: [1962];;

@@ -1,0 +1,26 @@
+
+by_by_assigned_overhaul_life
+    => nrel_main_idtf: [by_assigned_overhaul_life] (* <- lang_en;; *);
+    => nrel_main_idtf: [назначенный межремонтный ресурс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [назначаны міжрамонтны рэсурс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_assigned_overhaul_life_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_maintainability;
+    => nrel_associative_connection: by_resource;
+
+    => nrel_etalon_online_idx: [32512];;

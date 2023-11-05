@@ -1,0 +1,52 @@
+
+by_enclosed_source_of_ionizing_radiation
+    => nrel_main_idtf: [enclosed source of ionizing radiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [закрытый источник ионизирующего излучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [закрытая крыніца, іанізуюваючага выпраменьвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_enclosed_source_of_ionizing_radiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_enclosed_source_of_ionizing_radiation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_the_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_dose_constraint;
+    => nrel_associative_connection: by_ionizing_radiation;
+    => nrel_associative_connection: by_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_mobile_radiation_devices;
+    => nrel_associative_connection: by_handling_of_ionizing_radiation_sources;
+    => nrel_associative_connection: by_open_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_preparation_for_putting_into_operation_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_users_of_sources_of_ionizing_radiation;
+    => nrel_associative_connection: by_user_of_the_ionizing_radiation_source;
+    => nrel_associative_connection: by_radiation_accident;
+    => nrel_associative_connection: by_radiation_device;
+    => nrel_associative_connection: by_radiation_incident;
+
+    => nrel_etalon_online_idx: [36732];;

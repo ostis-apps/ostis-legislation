@@ -1,0 +1,27 @@
+
+by_typical_curriculum_of_preschool_education
+    => nrel_main_idtf: [typical curriculum of preschool education ] (* <- lang_en;; *);
+    => nrel_main_idtf: [типовой учебный план дошкольного образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тыпавы навучальны план дашкольнай адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_typical_curriculum_of_preschool_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_preschool_institutions;
+    => nrel_associative_connection: by_maximum_permitted_teaching_load_per_week_per_student_in_each_class;
+    => nrel_associative_connection: by_typical_curriculum_of_general_secondary_education;
+
+    => nrel_etalon_online_idx: [24988];;

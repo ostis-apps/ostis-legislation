@@ -1,0 +1,26 @@
+
+by_basic_element
+    => nrel_main_idtf: [basic element] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной элемент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны элемент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_element_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_main_logic_element_delay_time;
+    => nrel_associative_connection: by_blank_optical_elements;
+
+    => nrel_etalon_online_idx: [19386];;

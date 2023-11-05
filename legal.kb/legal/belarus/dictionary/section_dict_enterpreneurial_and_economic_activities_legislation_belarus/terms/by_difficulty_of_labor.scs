@@ -1,0 +1,29 @@
+
+by_difficulty_of_labor
+    => nrel_main_idtf: [difficulty of labor] (* <- lang_en;; *);
+    => nrel_main_idtf: [сложность труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [складанасць працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_difficulty_of_labor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_execution_of_job_responsibilities;
+    => nrel_associative_connection: by_qualification_requirements;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_complexity_of_the_functions_performed;
+
+    => nrel_etalon_online_idx: [23328];;

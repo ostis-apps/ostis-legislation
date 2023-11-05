@@ -1,0 +1,46 @@
+
+by_incoming_documents
+    => nrel_main_idtf: [incoming documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [входящие документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уваходныя дакументы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incoming_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incoming_documents_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_records_management;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_document_exchange_and_redistribution_of_documents;
+    => nrel_associative_connection: by_circulation_of_documents;
+    => nrel_associative_connection: by_outgoing_documents;
+    => nrel_associative_connection: by_letter;
+    => nrel_associative_connection: by_registration_of_documents;
+
+    => nrel_etalon_online_idx: [11042];;

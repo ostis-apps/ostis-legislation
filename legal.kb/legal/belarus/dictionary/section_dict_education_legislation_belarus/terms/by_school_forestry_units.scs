@@ -1,0 +1,31 @@
+
+by_school_forestry_units
+    => nrel_main_idtf: [school forestry units] (* <- lang_en;; *);
+    => nrel_main_idtf: [школьные лесничества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [школьныя лясніцтвы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_school_forestry_units_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_education;
+    => nrel_associative_connection: by_additional_education_for_children_and_youth;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forest_resources;
+    => nrel_associative_connection: by_schoolchildren;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_institution_of_general_secondary_education;
+
+    => nrel_etalon_online_idx: [11487];;

@@ -1,0 +1,29 @@
+
+by_taxing_characteristics
+    => nrel_main_idtf: [taxing characteristics] (* <- lang_en;; *);
+    => nrel_main_idtf: [таксационная характеристика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таксацыйная характарыстыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taxing_characteristics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_method_of_forests_taxation;
+    => nrel_associative_connection: by_selectivelymeasuring_or_selectivelyenumeration_method_of_forests_taxation;
+    => nrel_associative_connection: by_ocular_visual_method_of_forests_taxation;
+    => nrel_associative_connection: by_forest_taxation;
+    => nrel_associative_connection: by_characteristic;
+
+    => nrel_etalon_online_idx: [24614];;

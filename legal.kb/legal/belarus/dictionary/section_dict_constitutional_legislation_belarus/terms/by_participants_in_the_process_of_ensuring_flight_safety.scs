@@ -1,0 +1,32 @@
+
+by_participants_in_the_process_of_ensuring_flight_safety
+    => nrel_main_idtf: [participants in the process of ensuring flight safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники процесса обеспечения безопасности полетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі працэсу забеспячэння бяспекі палётаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participants_in_the_process_of_ensuring_flight_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_guarantees;
+    => nrel_associative_connection: by_state_aviation_inspector;
+    => nrel_associative_connection: by_aviation_department;
+    => nrel_associative_connection: by_set_level_of_security;
+    => nrel_associative_connection: by_flight_safety_management;
+    => nrel_associative_connection: by_systematic_approach_in_the_area_of_flight_safety_management;
+    => nrel_associative_connection: by_security_situation;
+    => nrel_associative_connection: by_requirements_to_provision_flight_safety;
+
+    => nrel_etalon_online_idx: [31555];;

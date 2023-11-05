@@ -1,0 +1,30 @@
+
+by_gas_turbine_power_plant
+    => nrel_main_idtf: [gas turbine power plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [газотурбинная электростанция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газатурбінная электрастанцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_turbine_power_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gas_turbine_plant;
+    => nrel_associative_connection: by_steam_turbine_power_plant;
+    => nrel_associative_connection: by_mobile_automobile_gas_fueler;
+    => nrel_associative_connection: by_thermal_power_plant;
+    => nrel_associative_connection: by_electric_power_plant_power_plant;
+    => nrel_associative_connection: by_electronicdigital_engine_management_system_fadec_system;
+
+    => nrel_etalon_online_idx: [7550];;

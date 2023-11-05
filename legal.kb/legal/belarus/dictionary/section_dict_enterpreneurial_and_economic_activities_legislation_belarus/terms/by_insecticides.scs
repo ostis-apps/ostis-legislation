@@ -1,0 +1,31 @@
+
+by_insecticides
+    => nrel_main_idtf: [insecticides] (* <- lang_en;; *);
+    => nrel_main_idtf: [инсектициды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інсектыцыды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insecticides_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_plant_protection_product;
+    => nrel_associative_connection: by_herbicides;
+    => nrel_associative_connection: by_active_substance_of_a_plant_protection_product;
+    => nrel_associative_connection: by_plant_protection;
+    => nrel_associative_connection: by_preparation_type_of_a_plant_protection_product_fertilizer;
+    => nrel_associative_connection: by_fungicides;
+    => nrel_associative_connection: by_economic_efficiency_of_a_plant_protection_product_and_fertilizer;
+
+    => nrel_etalon_online_idx: [15363];;

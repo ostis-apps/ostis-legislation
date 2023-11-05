@@ -1,0 +1,26 @@
+
+by_anaerobic_infection
+    => nrel_main_idtf: [anaerobic infection] (* <- lang_en;; *);
+    => nrel_main_idtf: [анаэробная инфекция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анаэробная інфекцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_anaerobic_infection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_diagnostics;
+    => nrel_associative_connection: by_medical_care;
+
+    => nrel_etalon_online_idx: [31427];;

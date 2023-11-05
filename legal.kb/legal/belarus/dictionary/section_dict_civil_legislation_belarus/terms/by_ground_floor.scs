@@ -1,0 +1,34 @@
+
+by_ground_floor
+    => nrel_main_idtf: [ground floor] (* <- lang_en;; *);
+    => nrel_main_idtf: [этаж цокольный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паверх цокальны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ground_floor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_floor_area;
+    => nrel_associative_connection: by_basement_floor;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_mansard_floor_mansard;
+    => nrel_associative_connection: by_aboveground_floor;
+    => nrel_associative_connection: by_basement_floor;
+    => nrel_associative_connection: by_technical_floor;
+    => nrel_associative_connection: by_storey_structure;
+
+    => nrel_etalon_online_idx: [28496];;

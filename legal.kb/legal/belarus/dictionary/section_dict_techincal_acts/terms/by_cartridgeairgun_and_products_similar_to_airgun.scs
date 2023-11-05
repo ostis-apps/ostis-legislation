@@ -1,0 +1,31 @@
+
+by_cartridgeairgun_and_products_similar_to_airgun
+    => nrel_main_idtf: [cartridge	air-gun and products similar to air-gun ] (* <- lang_en;; *);
+    => nrel_main_idtf: [патронные пневматическое оружие и конструктивно сходные с пневматическим оружием изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патронныя пнеўматычная зброя і канструктыўна сходныя з пнеўматычнай зброяй вырабы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cartridgeairgun_and_products_similar_to_airgun_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_airgun;
+    => nrel_associative_connection: by_bottlegasairgun_and_products_similar_to_airgun;
+    => nrel_associative_connection: by_compression_pneumatic_gun_and_products_structurally_similar_to_pneumatic_gun;
+    => nrel_associative_connection: by_products_structurally_similar_to_pneumatic_weapons;
+    => nrel_associative_connection: by_multiplecharged_pneumatic_weapons_and_products_structurally_similar_to_pneumatic_weapons;
+    => nrel_associative_connection: by_singlecharged_pneumatic_weapons_and_products_structurally_similar_to_pneumatic_weapons;
+    => nrel_associative_connection: by_airgun;
+
+    => nrel_etalon_online_idx: [32952];;

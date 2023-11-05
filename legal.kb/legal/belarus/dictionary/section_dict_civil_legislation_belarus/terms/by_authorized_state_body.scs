@@ -1,0 +1,92 @@
+
+by_authorized_state_body
+    => nrel_main_idtf: [authorized state body] (* <- lang_en;; *);
+    => nrel_main_idtf: [уполномоченный государственный орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [упаўнаважаны дзяржаўны орган] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_state_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_state_body_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_state_body_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_state_body_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_state_body_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_organregulator;
+    => nrel_associative_connection: by_enforcement_bodies;
+    => nrel_associative_connection: by_authorized_organization;
+    => nrel_associative_connection: by_authorized_state_bodies;
+    => nrel_associative_connection: by_authorized_state_body_or_organization_in_the_field_of_publicprivate_partnership;
+    => nrel_associative_connection: by_authorized_bodies;
+
+    => nrel_etalon_online_idx: [25501];;

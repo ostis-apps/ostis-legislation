@@ -1,0 +1,29 @@
+
+by_by_finality_of_payment_for_intra_crossborder_instantaneous_payment
+    => nrel_main_idtf: [by_finality_of_payment_for_intra_crossborder_instantaneous_payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [окончательность платежа по внутристрановому (трансграничному) мгновенному платежу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [окончательность выплаты па внутристрановому (трансгранічнаму) імгненнай выплаце] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_finality_of_payment_for_intra_crossborder_instantaneous_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_irrevocability_of_instant_payment;
+    => nrel_associative_connection: by_incountry_information_service;
+    => nrel_associative_connection: by_foreign_system_of_instant_fast_payments;
+    => nrel_associative_connection: by_mode_247365;
+    => nrel_associative_connection: by_nearreal_time_mode;
+
+    => nrel_etalon_online_idx: [41811];;

@@ -1,0 +1,27 @@
+
+by_projected_dose
+    => nrel_main_idtf: [projected dose] (* <- lang_en;; *);
+    => nrel_main_idtf: [прогнозируемая доза (projected dose) ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прагназаваная доза (projected dose)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_projected_dose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dose_received;
+    => nrel_associative_connection: by_equivalent_dose;
+    => nrel_associative_connection: by_effective_dose;
+
+    => nrel_etalon_online_idx: [28239];;

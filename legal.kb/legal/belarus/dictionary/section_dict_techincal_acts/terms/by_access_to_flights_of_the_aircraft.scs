@@ -1,0 +1,30 @@
+
+by_access_to_flights_of_the_aircraft
+    => nrel_main_idtf: [access to flights of the aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [допуск воздушного судна к полетам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [допуск паветранага судна да палётаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_access_to_flights_of_the_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_time_of_preparation_of_the_state_aircraft_for_reflight;
+    => nrel_associative_connection: by_warranty_hours;
+    => nrel_associative_connection: by_readiness_for_intended_use;
+    => nrel_associative_connection: by_access_to_operation_of_the_aircraft;
+    => nrel_associative_connection: by_pilot_protective_equipment;
+    => nrel_associative_connection: by_means_of_control;
+
+    => nrel_etalon_online_idx: [32547];;

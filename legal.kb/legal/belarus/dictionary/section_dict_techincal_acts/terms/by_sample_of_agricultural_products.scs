@@ -1,0 +1,32 @@
+
+by_sample_of_agricultural_products
+    => nrel_main_idtf: [sample of agricultural products] (* <- lang_en;; *);
+    => nrel_main_idtf: [выборочная совокупность сельскохозяйственной продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбарачная сукупнасць сельскагаспадарчай прадукцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_of_agricultural_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sample;
+    => nrel_associative_connection: by_sample_sampling;
+    => nrel_associative_connection: by_activity_on_production_of_agricultural_products;
+    => nrel_associative_connection: by_composite_producer_price_index_of_agricultural_products;
+    => nrel_associative_connection: by_agriculture;
+    => nrel_associative_connection: by_agricultural_products;
+    => nrel_associative_connection: by_agricultural_organizations;
+    => nrel_associative_connection: by_agricultural_commodity_producers;
+
+    => nrel_etalon_online_idx: [13334];;

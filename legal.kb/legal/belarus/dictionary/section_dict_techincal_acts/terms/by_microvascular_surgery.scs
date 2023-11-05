@@ -1,0 +1,32 @@
+
+by_microvascular_surgery
+    => nrel_main_idtf: [microvascular surgery] (* <- lang_en;; *);
+    => nrel_main_idtf: [микрососудистая хирургия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мікрасасудзістая хірургія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_microvascular_surgery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_angiosurgeon;
+    => nrel_associative_connection: by_collapse;
+    => nrel_associative_connection: by_lymphatic_system;
+    => nrel_associative_connection: by_skin_lymphomas;
+    => nrel_associative_connection: by_malignization;
+    => nrel_associative_connection: by_metastasis;
+    => nrel_associative_connection: by_acute_vascular_failure;
+    => nrel_associative_connection: by_peritoneal_dialysis;
+
+    => nrel_etalon_online_idx: [34133];;

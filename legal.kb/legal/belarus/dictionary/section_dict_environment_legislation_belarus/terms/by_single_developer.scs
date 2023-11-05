@@ -1,0 +1,29 @@
+
+by_single_developer
+    => nrel_main_idtf: [single developer] (* <- lang_en;; *);
+    => nrel_main_idtf: [единый застройщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіны забудоўшчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_single_developer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_customers_property_developers;
+    => nrel_associative_connection: by_property_developer;
+    => nrel_associative_connection: by_property_developer_in_construction_activity;
+    => nrel_associative_connection: by_organization_of_builders;
+    => nrel_associative_connection: by_members_of_the_builders_organization;
+
+    => nrel_etalon_online_idx: [41268];;

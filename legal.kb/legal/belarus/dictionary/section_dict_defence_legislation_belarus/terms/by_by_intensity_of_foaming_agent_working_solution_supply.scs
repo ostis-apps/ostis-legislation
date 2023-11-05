@@ -1,0 +1,32 @@
+
+by_by_intensity_of_foaming_agent_working_solution_supply
+    => nrel_main_idtf: [by_intensity_of_foaming_agent_working_solution_supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [интенсивность подачи рабочего раствора пенообразователя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэнсіўнасць падачы рабочага раствору пенаўтваральніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_intensity_of_foaming_agent_working_solution_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_normative_intensity_of_foam_supply;
+    => nrel_associative_connection: by_blowing_agents;
+    => nrel_associative_connection: by_blowing_agents_of_intended_purpose;
+    => nrel_associative_connection: by_sublayer_fire_extinguishing_in_the_reservoir;
+    => nrel_associative_connection: by_foaming_agent_working_solution;
+    => nrel_associative_connection: by_wetting_power;
+    => nrel_associative_connection: by_foam_stability;
+    => nrel_associative_connection: by_fluorosynthic_filmforming_foaming_agent;
+
+    => nrel_etalon_online_idx: [15406];;

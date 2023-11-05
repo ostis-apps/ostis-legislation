@@ -1,0 +1,32 @@
+
+by_by_slide
+    => nrel_main_idtf: [by_slide] (* <- lang_en;; *);
+    => nrel_main_idtf: [ползун] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўзун] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_slide_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_link;
+    => nrel_associative_connection: by_formingsulling_mechanism;
+    => nrel_associative_connection: by_crankslide_mechanism;
+    => nrel_associative_connection: by_culssulling_mechanism;
+    => nrel_associative_connection: by_engineering_industry;
+    => nrel_associative_connection: by_national_classifier;
+    => nrel_associative_connection: by_national_classifier_of_the_republic_of_belarus_specialities_and_qualifications;
+    => nrel_associative_connection: by_progressive_pair;
+
+    => nrel_etalon_online_idx: [39677];;

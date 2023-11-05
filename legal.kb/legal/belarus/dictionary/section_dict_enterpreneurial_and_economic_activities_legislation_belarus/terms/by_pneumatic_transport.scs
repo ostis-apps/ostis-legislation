@@ -1,0 +1,33 @@
+
+by_pneumatic_transport
+    => nrel_main_idtf: [pneumatic transport] (* <- lang_en;; *);
+    => nrel_main_idtf: [пневматический транспорт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пнеўматычны транспарт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumatic_transport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automotive_transportation;
+    => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_automobile_vehicle_av;
+    => nrel_associative_connection: by_automotive_vehicles;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_compressed_gas;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_vehicles_of_continuous_operation;
+
+    => nrel_etalon_online_idx: [20268];;

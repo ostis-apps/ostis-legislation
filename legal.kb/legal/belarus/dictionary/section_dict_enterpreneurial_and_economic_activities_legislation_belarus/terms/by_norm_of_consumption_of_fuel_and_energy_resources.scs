@@ -1,0 +1,32 @@
+
+by_norm_of_consumption_of_fuel_and_energy_resources
+    => nrel_main_idtf: [norm of consumption of fuel and energy resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [норма расхода топливно-энергетических ресурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [норма расходу паліўна-энергетычных рэсурсаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_norm_of_consumption_of_fuel_and_energy_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_norm_of_fuel_consumption;
+    => nrel_associative_connection: by_issue_of_fuel_cards;
+    => nrel_associative_connection: by_additional_fuel_consumption;
+    => nrel_associative_connection: by_fuel_consumption_rate_on_haul_with_load;
+    => nrel_associative_connection: by_erroneous_norms;
+    => nrel_associative_connection: by_maximum_level_of_consumption_of_fuel_and_energy_resources;
+    => nrel_associative_connection: by_progressive_consumption_rates_of__fuel_and_energy_resources;
+    => nrel_associative_connection: by_current_rates_of_fuel_and_energy_resources;
+
+    => nrel_etalon_online_idx: [11416];;

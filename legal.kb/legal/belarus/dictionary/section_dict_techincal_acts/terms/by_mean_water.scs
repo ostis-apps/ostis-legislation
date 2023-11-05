@@ -1,0 +1,27 @@
+
+by_mean_water
+    => nrel_main_idtf: [mean water] (* <- lang_en;; *);
+    => nrel_main_idtf: [межень] (* <- lang_ru;; *);
+    => nrel_main_idtf: [межань] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mean_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_local_waste_treatment_facilities;
+    => nrel_associative_connection: by_wastewater_treatment_plant;
+    => nrel_associative_connection: by_shoal;
+
+    => nrel_etalon_online_idx: [32639];;

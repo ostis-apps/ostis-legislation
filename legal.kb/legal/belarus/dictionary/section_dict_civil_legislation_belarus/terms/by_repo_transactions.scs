@@ -1,0 +1,21 @@
+
+by_repo_transactions
+    => nrel_main_idtf: [repo transactions] (* <- lang_en;; *);
+    => nrel_main_idtf: [сделки репо] (* <- lang_ru;; *);
+    => nrel_main_idtf: [здзелкі рэпо] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_release_of_emission_securities;
+    => nrel_associative_connection: by_securities_turnover;
+    => nrel_associative_connection: by_handling_of_emission_securities;
+    => nrel_associative_connection: by_acquisition_of_securities;
+    => nrel_associative_connection: by_placement_of_issue_securities;
+    => nrel_associative_connection: by_decision_on_issue_additional_issue_of_issue_securities;
+    => nrel_associative_connection: by_transaction;
+    => nrel_associative_connection: by_repo_transaction;
+    => nrel_associative_connection: by_bearer_security;
+    => nrel_associative_connection: by_issue_securities;
+    => nrel_associative_connection: by_issue_of_equity_securities;
+
+    => nrel_etalon_online_idx: [22961];;

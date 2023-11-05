@@ -1,0 +1,29 @@
+
+by_nondirectional_lamp
+    => nrel_main_idtf: [non-directional lamp] (* <- lang_en;; *);
+    => nrel_main_idtf: [лампа с ненаправленным светоизлучением (non-directional lamp)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лямпа з ненакіраваным святловыпраменьваннем (non-directional lamp)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nondirectional_lamp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_directional_lamp;
+    => nrel_associative_connection: by_nonclear_lamp;
+    => nrel_associative_connection: by_filament_lamp;
+    => nrel_associative_connection: by_clear_lamp;
+    => nrel_associative_connection: by_blended_lamp;
+
+    => nrel_etalon_online_idx: [35139];;

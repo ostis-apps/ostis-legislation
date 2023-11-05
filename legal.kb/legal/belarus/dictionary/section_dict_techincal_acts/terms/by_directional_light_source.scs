@@ -1,0 +1,30 @@
+
+by_directional_light_source
+    => nrel_main_idtf: [directional light source] (* <- lang_en;; *);
+    => nrel_main_idtf: [направленный источник света; dsl (directional light source)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накіраваная крыніца святла; dsl (directional light source)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_directional_light_source_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_insolation;
+    => nrel_associative_connection: by_artificial_light_source;
+    => nrel_associative_connection: by_accent_lighting;
+    => nrel_associative_connection: by_obtrusive_light;
+    => nrel_associative_connection: by_illumination_e_lc;
+    => nrel_associative_connection: by_luminous_flux;
+
+    => nrel_etalon_online_idx: [34940];;

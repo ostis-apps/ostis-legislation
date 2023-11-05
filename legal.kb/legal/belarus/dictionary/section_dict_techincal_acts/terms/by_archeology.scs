@@ -1,0 +1,48 @@
+
+by_archeology
+    => nrel_main_idtf: [archeology] (* <- lang_en;; *);
+    => nrel_main_idtf: [археология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [археалогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archeology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archeology_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archaeological_intelligence;
+    => nrel_associative_connection: by_archaeological_survey;
+    => nrel_associative_connection: by_archaeological_objects;
+    => nrel_associative_connection: by_archaeological_supervision;
+    => nrel_associative_connection: by_archaeological_heritage;
+    => nrel_associative_connection: by_scientific_report_on_completed_archaeological_field_works;
+    => nrel_associative_connection: by_archeology_monuments;
+    => nrel_associative_connection: by_search_for_archaeological_objects_and_or_archaeological_artifacts;
+    => nrel_associative_connection: by_rescue_security_archaeological_research;
+
+    => nrel_etalon_online_idx: [9748];;

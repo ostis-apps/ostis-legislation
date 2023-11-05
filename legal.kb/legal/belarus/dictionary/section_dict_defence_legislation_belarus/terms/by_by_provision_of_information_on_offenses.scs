@@ -1,0 +1,28 @@
+
+by_by_provision_of_information_on_offenses
+    => nrel_main_idtf: [by_provision_of_information_on_offenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоставление сведений о правонарушениях] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даванне звестак аб правапарушэннях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_provision_of_information_on_offenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_state_databank_on_offences;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+    => nrel_associative_connection: by_information;
+
+    => nrel_etalon_online_idx: [41361];;

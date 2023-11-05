@@ -1,0 +1,29 @@
+
+by_concentration_of_pollutant_in_exhaust_gases_mgm3
+    => nrel_main_idtf: [concentration of pollutant in exhaust gases, mg/m3] (* <- lang_en;; *);
+    => nrel_main_idtf: [концентрация загрязняющего вещества в отходящих газах, мг/м3] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцэнтрацыя забруджваючага рэчыва у адыходзячых газах, мг/м3] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concentration_of_pollutant_in_exhaust_gases_mgm3_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_operation_of_a_source_of_release_of_pollutants_into_the_atmospheric_air;
+    => nrel_associative_connection: by_emission_of_pollutants;
+    => nrel_associative_connection: by_gaseous_fuel;
+    => nrel_associative_connection: by_permissible_concentration_of_polluting_substances_in_the_composition_of_industrial_waste_water_of_the_subscriber;
+    => nrel_associative_connection: by_permissible_daily_dose_of_the_active_substance;
+
+    => nrel_etalon_online_idx: [32635];;

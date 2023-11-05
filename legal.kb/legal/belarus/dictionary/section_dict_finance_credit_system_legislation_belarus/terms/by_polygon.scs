@@ -1,0 +1,27 @@
+
+by_polygon
+    => nrel_main_idtf: [polygon] (* <- lang_en;; *);
+    => nrel_main_idtf: [полигон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палігон] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_polygon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_waste_neutralization;
+    => nrel_associative_connection: by_special_polygon;
+    => nrel_associative_connection: by_training_ground_training_ground;
+
+    => nrel_etalon_online_idx: [20521];;

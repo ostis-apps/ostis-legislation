@@ -1,0 +1,46 @@
+
+by_corn
+    => nrel_main_idtf: [corn] (* <- lang_en;; *);
+    => nrel_main_idtf: [зерно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зерне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corn_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corn_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_corn_quality;
+    => nrel_associative_connection: by_feed;
+    => nrel_associative_connection: by_combined_feed_materials;
+    => nrel_associative_connection: by_grain_hitch;
+    => nrel_associative_connection: by_crop_production_of_the_2016_harvest_supplied_for_republican_state_needs;
+    => nrel_associative_connection: by_plant_products;
+    => nrel_associative_connection: by_flora;
+
+    => nrel_etalon_online_idx: [14991];;

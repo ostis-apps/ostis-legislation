@@ -1,0 +1,54 @@
+
+by_roof
+    => nrel_main_idtf: [roof] (* <- lang_en;; *);
+    => nrel_main_idtf: [крыша] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roof_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roof_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drainpipe;
+    => nrel_associative_connection: by_gutter;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_protective_layer;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_organizations_capital_structure_building_construction;
+    => nrel_associative_connection: by_cornice;
+    => nrel_associative_connection: by_roof;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_attic;
+    => nrel_associative_connection: by_warm_attic;
+    => nrel_associative_connection: by_cold_attic;
+    => nrel_associative_connection: by_operated_roof;
+    => nrel_associative_connection: by_mansard_floor_mansard;
+
+    => nrel_etalon_online_idx: [28444];;

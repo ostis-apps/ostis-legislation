@@ -1,0 +1,28 @@
+
+by_compulsory_isolation
+    => nrel_main_idtf: [compulsory isolation] (* <- lang_en;; *);
+    => nrel_main_idtf: [принудительная изоляция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прымусовая ізаляцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compulsory_isolation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_isolation_of_persons_being_under_arrest;
+    => nrel_associative_connection: by_active_therapy_center;
+    => nrel_associative_connection: by_restrictive_measures;
+    => nrel_associative_connection: by_employees_of_active_therapy_center;
+
+    => nrel_etalon_online_idx: [7682];;

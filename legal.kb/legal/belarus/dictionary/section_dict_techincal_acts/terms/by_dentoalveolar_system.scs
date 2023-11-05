@@ -1,0 +1,31 @@
+
+by_dentoalveolar_system
+    => nrel_main_idtf: [dentoalveolar system] (* <- lang_en;; *);
+    => nrel_main_idtf: [зубочелюстная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зубасківічная сістэма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dentoalveolar_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporomandibular_joint;
+    => nrel_associative_connection: by_glossalgia;
+    => nrel_associative_connection: by_dental_implants;
+    => nrel_associative_connection: by_dentures;
+    => nrel_associative_connection: by_materials_science_in_stomatology;
+    => nrel_associative_connection: by_osteomyelitis_of_the_jaw;
+    => nrel_associative_connection: by_papilloma;
+
+    => nrel_etalon_online_idx: [36301];;

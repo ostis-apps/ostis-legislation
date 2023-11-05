@@ -1,0 +1,20 @@
+
+by_cash_receipt
+    => nrel_main_idtf: [cash receipt] (* <- lang_en;; *);
+    => nrel_main_idtf: [кассовый чек] (* <- lang_ru;; *);
+    => nrel_main_idtf: [касавы чэк] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_document_confirming_the_payment;
+    => nrel_associative_connection: by_document_confirming_the_fact_of_purchasing_the_goods_work_performance_service_provision;
+    => nrel_associative_connection: by_cardcheck;
+    => nrel_associative_connection: by_cash_equipment;
+    => nrel_associative_connection: by_payment_document;
+    => nrel_associative_connection: by_payment_terminal;
+    => nrel_associative_connection: by_cash_emission_point;
+    => nrel_associative_connection: by_dispenser;
+    => nrel_associative_connection: by_accounts;
+    => nrel_associative_connection: by_receipt;
+
+    => nrel_etalon_online_idx: [10728];;

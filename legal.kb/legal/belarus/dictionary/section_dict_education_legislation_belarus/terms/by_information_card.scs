@@ -1,0 +1,62 @@
+
+by_information_card
+    => nrel_main_idtf: [information card] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационная карта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйная карта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_card_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_card_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_copying;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_cardcircuit;
+    => nrel_associative_connection: by_information_map_route;
+    => nrel_associative_connection: by_information;
+    => nrel_associative_connection: by_electronic_document;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [15438];;

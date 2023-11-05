@@ -1,0 +1,31 @@
+
+by_transmitting_radio_technical_object
+    => nrel_main_idtf: [transmitting radio technical object] (* <- lang_en;; *);
+    => nrel_main_idtf: [передающий радиотехнический объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыётэхнічны аб'ект, які перадае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transmitting_radio_technical_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antenna;
+    => nrel_associative_connection: by_external_electromagnetic_radiation_of_radio_frequency;
+    => nrel_associative_connection: by_radio_transmitter_output_power;
+    => nrel_associative_connection: by_antenna_gain_coefficient;
+    => nrel_associative_connection: by_first_building_line;
+    => nrel_associative_connection: by_radio_equipment;
+    => nrel_associative_connection: by_sanitary_passport_of_the_transmitting_radio_engineering_facility;
+
+    => nrel_etalon_online_idx: [31267];;

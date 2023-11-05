@@ -1,0 +1,29 @@
+
+by_cooker
+    => nrel_main_idtf: [cooker] (* <- lang_en;; *);
+    => nrel_main_idtf: [плита (cooker)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пліта (cooker)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cooker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mixed_hob;
+    => nrel_associative_connection: by_oven;
+    => nrel_associative_connection: by_small_oven;
+    => nrel_associative_connection: by_microwave_heating;
+    => nrel_associative_connection: by_portable_oven;
+
+    => nrel_etalon_online_idx: [34963];;

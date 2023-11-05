@@ -1,0 +1,28 @@
+
+by_medical_preventive_inspection
+    => nrel_main_idtf: [medical preventive inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинский профилактический осмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскі прафілактычны агляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_preventive_inspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_inspection;
+    => nrel_associative_connection: by_preventive_record;
+    => nrel_associative_connection: by_psychoactive_substance;
+    => nrel_associative_connection: by_psychoactive_substances;
+
+    => nrel_etalon_online_idx: [33502];;

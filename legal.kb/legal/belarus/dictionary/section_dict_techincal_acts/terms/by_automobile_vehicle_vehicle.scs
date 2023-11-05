@@ -1,0 +1,32 @@
+
+by_automobile_vehicle_vehicle
+    => nrel_main_idtf: [automobile vehicle (vehicle)] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобильное транспортное средство (транспортное средство, тс)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабільны транспартны сродак (транспартны сродак, тс)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automobile_vehicle_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bus;
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_automobile_vehicle_av;
+    => nrel_associative_connection: by_truck;
+    => nrel_associative_connection: by_components_vehicle;
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [32945];;

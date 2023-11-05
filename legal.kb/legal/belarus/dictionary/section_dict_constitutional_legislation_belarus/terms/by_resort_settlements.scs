@@ -1,0 +1,37 @@
+
+by_resort_settlements
+    => nrel_main_idtf: [resort settlements] (* <- lang_en;; *);
+    => nrel_main_idtf: [курортные поселки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [курортныя пасёлкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resort_settlements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_resort;
+    => nrel_associative_connection: by_resort_of_local_meaning;
+    => nrel_associative_connection: by_resort_of_the_republic_meaning;
+    => nrel_associative_connection: by_resort_zone_resort_region;
+    => nrel_associative_connection: by_places_of_mass_recreation_of_the_population;
+    => nrel_associative_connection: by_object_of_resort_levy_taxation;
+    => nrel_associative_connection: by_settlements_villages;
+    => nrel_associative_connection: by_working_villages;
+    => nrel_associative_connection: by_recreational_zones;
+    => nrel_associative_connection: by_sanatorium_and_resort_care;
+    => nrel_associative_connection: by_resort_and_recreation_treatment;
+    => nrel_associative_connection: by_health_recreation_and_resort_organizations;
+    => nrel_associative_connection: by_resort_and_recreation_services;
+
+    => nrel_etalon_online_idx: [16507];;

@@ -1,0 +1,33 @@
+
+by_wellness_technologies
+    => nrel_main_idtf: [wellness technologies] (* <- lang_en;; *);
+    => nrel_main_idtf: [оздоровительные технологии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аздараўленчыя тэхналогіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wellness_technologies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_restoration;
+    => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_educational_activity;
+    => nrel_associative_connection: by_educational_standard;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_state;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_labor_activity;
+    => nrel_associative_connection: by_physical_education;
+
+    => nrel_etalon_online_idx: [38360];;

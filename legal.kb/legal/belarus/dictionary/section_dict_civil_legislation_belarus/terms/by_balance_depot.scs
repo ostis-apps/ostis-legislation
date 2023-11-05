@@ -1,0 +1,40 @@
+
+by_balance_depot
+    => nrel_main_idtf: [balance "depot"] (* <- lang_en;; *);
+    => nrel_main_idtf: [баланс "депо"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [баланс "дэпо"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_depot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balances;
+    => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_statement_of_depo_account;
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_depository_activity;
+    => nrel_associative_connection: by_depository_accounting_of_rights_in_securities;
+    => nrel_associative_connection: by_bailor;
+    => nrel_associative_connection: by_deponent_of_the_central_securities_depository;
+    => nrel_associative_connection: by_depot_account_entry;
+    => nrel_associative_connection: by_interdepositary_transfer_of_securities;
+    => nrel_associative_connection: by_storage_account_depot;
+    => nrel_associative_connection: by_depot_account_operator;
+    => nrel_associative_connection: by_balance_of_payment;
+    => nrel_associative_connection: by_instruction_depot;
+    => nrel_associative_connection: by_depot_account_section;
+    => nrel_associative_connection: by_depot_account;
+
+    => nrel_etalon_online_idx: [12637];;

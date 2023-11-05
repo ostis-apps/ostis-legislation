@@ -1,0 +1,35 @@
+
+by_film_producer
+    => nrel_main_idtf: [film producer] (* <- lang_en;; *);
+    => nrel_main_idtf: [производитель фильма (продюсер)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворца фільма (прадзюсар)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_producer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_manufacturer_producer;
+    => nrel_associative_connection: by_cinematographic_activity;
+    => nrel_associative_connection: by_cinematography;
+    => nrel_associative_connection: by_filmmaking_cinematography_organizations;
+    => nrel_associative_connection: by_producer_risks;
+    => nrel_associative_connection: by_producer;
+    => nrel_associative_connection: by_film_production;
+    => nrel_associative_connection: by_cinematography_worker;
+    => nrel_associative_connection: by_film_crew;
+    => nrel_associative_connection: by_subtitles;
+    => nrel_associative_connection: by_film;
+
+    => nrel_etalon_online_idx: [7886];;

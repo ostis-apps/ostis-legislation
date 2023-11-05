@@ -1,0 +1,28 @@
+
+by_nanomaterials
+    => nrel_main_idtf: [nanomaterials] (* <- lang_en;; *);
+    => nrel_main_idtf: [наноматериалы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нанаматэрыялы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nanomaterials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_nanotechnologies;
+    => nrel_associative_connection: by_educational_standard;
+    => nrel_associative_connection: by_optoelectronics;
+
+    => nrel_etalon_online_idx: [38335];;

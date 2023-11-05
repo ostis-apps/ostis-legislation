@@ -1,0 +1,31 @@
+
+by_calendar
+    => nrel_main_idtf: [calendar] (* <- lang_en;; *);
+    => nrel_main_idtf: [календарь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каляндар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calendar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_credit_rating;
+    => nrel_associative_connection: by_undisclosed_credit_rating;
+    => nrel_associative_connection: by_object_of_rating;
+    => nrel_associative_connection: by_portal_of_rating_assessment;
+    => nrel_associative_connection: by_rating_of_evaluation_objects;
+    => nrel_associative_connection: by_rating_actions;
+    => nrel_associative_connection: by_rating_analyst;
+
+    => nrel_etalon_online_idx: [32362];;

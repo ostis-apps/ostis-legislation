@@ -1,0 +1,34 @@
+
+by_residential_premises_in_a_dormitory
+    => nrel_main_idtf: [residential premises in a dormitory] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилое помещение в общежитии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жылое памяшканне ў інтэрнаце] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_premises_in_a_dormitory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_functional_block_of_premises_functional_area;
+    => nrel_associative_connection: by_accommodation_rent_contract;
+    => nrel_associative_connection: by_residential_building_for_special_purpose;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises_of_the_republican_housing_stock;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_dormitory;
+    => nrel_associative_connection: by_dormitory_of_internal_affairs_body;
+    => nrel_associative_connection: by_dormitories_of_internal_affairs_body;
+    => nrel_associative_connection: by_residential_dormitory_cell;
+
+    => nrel_etalon_online_idx: [10110];;

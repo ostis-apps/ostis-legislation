@@ -1,0 +1,30 @@
+
+by_outside_event
+    => nrel_main_idtf: [outside event] (* <- lang_en;; *);
+    => nrel_main_idtf: [выездное мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выязное мерапрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_outside_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_visiting_fairs;
+    => nrel_associative_connection: by_cultural_event;
+    => nrel_associative_connection: by_mass_event;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_official_event;
+    => nrel_associative_connection: by_centralized_delivery;
+
+    => nrel_etalon_online_idx: [42437];;

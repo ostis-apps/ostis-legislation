@@ -1,0 +1,30 @@
+
+by_card_plan_object
+    => nrel_main_idtf: [card (plan) object ] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект карты (плана)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект карты (плана)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_card_plan_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_copying;
+    => nrel_associative_connection: by_publication_of_maps_and_plans;
+    => nrel_associative_connection: by_cardcircuit;
+    => nrel_associative_connection: by_cartography;
+    => nrel_associative_connection: by_regulations_of_territory_use;
+    => nrel_associative_connection: by_semantic_information;
+
+    => nrel_etalon_online_idx: [18704];;

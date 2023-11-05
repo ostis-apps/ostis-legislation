@@ -1,0 +1,29 @@
+
+by_confirming_bank
+    => nrel_main_idtf: [confirming bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [подтверждающий банк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пацвярджаючы банк] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_confirming_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_issuer;
+    => nrel_associative_connection: by_documentary_operations;
+    => nrel_associative_connection: by_letter_of_credit_execution;
+    => nrel_associative_connection: by_postfinancing;
+    => nrel_associative_connection: by_representing_bank;
+
+    => nrel_etalon_online_idx: [20438];;

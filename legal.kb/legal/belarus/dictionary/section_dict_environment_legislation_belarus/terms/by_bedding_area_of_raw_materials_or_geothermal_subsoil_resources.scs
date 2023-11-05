@@ -1,0 +1,38 @@
+
+by_bedding_area_of_raw_materials_or_geothermal_subsoil_resources
+    => nrel_main_idtf: [bedding area of raw materials or geothermal subsoil resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадь залегания полезного ископаемого или геотермальных ресурсов недр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плошча залягання карыснага выкапня або геатэрмальных рэсурсаў нетраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bedding_area_of_raw_materials_or_geothermal_subsoil_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_state_balances_of_mineral_reserves_and_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_mining_operations;
+    => nrel_associative_connection: by_mineral_resources_and_or_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_mineral_resources_of_category_a_b_c1;
+    => nrel_associative_connection: by_mineral_resources_of_category_c2;
+    => nrel_associative_connection: by_development_of_areas_of_occurrence_of_minerals;
+    => nrel_associative_connection: by_conditions_of_raw_materials_and_or_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_widespread_mineral_deposits;
+    => nrel_associative_connection: by_conditions_parameters;
+    => nrel_associative_connection: by_mineral_solid;
+    => nrel_associative_connection: by_raw_materials;
+    => nrel_associative_connection: by_raw_materials_of_limited_distribution;
+    => nrel_associative_connection: by_passing_raw_materials;
+
+    => nrel_etalon_online_idx: [20263];;

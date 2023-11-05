@@ -1,0 +1,63 @@
+
+by_assortment_of_goods
+    => nrel_main_idtf: [assortment of goods ] (* <- lang_en;; *);
+    => nrel_main_idtf: [ассортимент товаров ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асартымент тавараў ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assortment_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assortment_of_goods_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assortment_of_goods_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assortment_of_catering_products;
+    => nrel_associative_connection: by_assortment_list_of_catering_products;
+    => nrel_associative_connection: by_assortment_list_of_goods;
+    => nrel_associative_connection: by_merchandising;
+    => nrel_associative_connection: by_nonspecialized_shop_with_combined_assortment_of_goods;
+    => nrel_associative_connection: by_nonspecialized_shop_with_universal_assortment_of_goods;
+    => nrel_associative_connection: by_nonspecialized_shop_with_mixed_assortment_of_goods;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_trade;
+
+    => nrel_etalon_online_idx: [4798];;

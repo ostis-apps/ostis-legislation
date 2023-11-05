@@ -1,0 +1,30 @@
+
+by_government_information_site
+    => nrel_main_idtf: [government information site] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационный правительственный сайт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйны ўрадавы сайт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_government_information_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internet_resource;
+    => nrel_associative_connection: by_official_site;
+    => nrel_associative_connection: by_government;
+    => nrel_associative_connection: by_government__the_council_of_ministers_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_information;
+    => nrel_associative_connection: by_council_of_ministers_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [15478];;

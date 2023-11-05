@@ -1,0 +1,27 @@
+
+by_idiopathic_thrombocytopenic_purple
+    => nrel_main_idtf: [idiopathic thrombocytopenic purple] (* <- lang_en;; *);
+    => nrel_main_idtf: [идиопатическая тромбоцитопеническая пурпура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідыяпатычная трамбацытапенічная пурпура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_idiopathic_thrombocytopenic_purple_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_atypical_hemolyticuremic_syndrome;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_thrombocytes_concentrate;
+
+    => nrel_etalon_online_idx: [15087];;

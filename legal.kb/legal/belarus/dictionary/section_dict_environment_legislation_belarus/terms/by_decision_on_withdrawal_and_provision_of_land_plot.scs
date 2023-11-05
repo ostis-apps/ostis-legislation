@@ -1,0 +1,33 @@
+
+by_decision_on_withdrawal_and_provision_of_land_plot
+    => nrel_main_idtf: [decision on withdrawal and provision of land plot] (* <- lang_en;; *);
+    => nrel_main_idtf: [решение об изъятии и предоставлении земельного участка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рашэнне аб адабранні і прадастаўленні зямельнага участка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_decision_on_withdrawal_and_provision_of_land_plot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_land_plots_parts_of_a_land_plot_occupied_by_construction_objects_not_finished_within_normative_time_limits;
+    => nrel_associative_connection: by_land_use_use_of_land_plots;
+    => nrel_associative_connection: by_withdrawal_of_land_plots;
+    => nrel_associative_connection: by_transfer_of_materials_about_withdrawal_and_provision_of_land_plot_and_draft_decision_of_the_local_executive_committee_about_withdrawal_and_provision_of_this_land_plot_in_electronic_form;
+    => nrel_associative_connection: by_users_of_land_plots_and_or_water_objects;
+    => nrel_associative_connection: by_users_of_land_plots_or_water_objects;
+    => nrel_associative_connection: by_equivalent_land_plot;
+    => nrel_associative_connection: by_decision_on_the_upcoming_withdrawal_of_a_land_plot_for_state_needs_and_the_demolation_of_real_estate_objects_located_on_it;
+    => nrel_associative_connection: by_intended_purpose_of_the_land_plot;
+
+    => nrel_etalon_online_idx: [22627];;

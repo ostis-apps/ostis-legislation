@@ -1,0 +1,27 @@
+
+by_by_mental_illness
+    => nrel_main_idtf: [by_mental_illness] (* <- lang_en;; *);
+    => nrel_main_idtf: [психические заболевания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псіхічныя захворванні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_mental_illness_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mental_health;
+    => nrel_associative_connection: by_mental_disorder_disease;
+    => nrel_associative_connection: by_chronic_mental_disorder_disease;
+
+    => nrel_etalon_online_idx: [41561];;

@@ -1,0 +1,28 @@
+
+by_share_in_property_right
+    => nrel_main_idtf: [share in property right] (* <- lang_en;; *);
+    => nrel_main_idtf: [доля в имущественном праве] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доля ў маёмасным праве] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_share_in_property_right_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_asset;
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37927];;

@@ -1,0 +1,37 @@
+
+by_marks_of_postal_payments
+    => nrel_main_idtf: [marks of postal payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [знаки почтовой оплаты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знакі паштовай аплаты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marks_of_postal_payments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_extinguishing;
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_state_sign_of_postal_payment;
+    => nrel_associative_connection: by_envelopes_with_other_signs_of_post_payment;
+    => nrel_associative_connection: by_small_sheet;
+    => nrel_associative_connection: by_marking_franking_machine;
+    => nrel_associative_connection: by_marked_envelope;
+    => nrel_associative_connection: by_print_of_the_marking_franching_machine;
+    => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_postal_block;
+    => nrel_associative_connection: by_special_extinguishing;
+
+    => nrel_etalon_online_idx: [10648];;

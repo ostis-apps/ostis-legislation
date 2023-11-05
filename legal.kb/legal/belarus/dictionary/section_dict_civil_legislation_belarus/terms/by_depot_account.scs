@@ -1,0 +1,33 @@
+
+by_depot_account
+    => nrel_main_idtf: ["depot" account] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет "депо"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак "дэпо"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depot_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balance_depot;
+    => nrel_associative_connection: by_statement_of_depo_account;
+    => nrel_associative_connection: by_depositary_operations;
+    => nrel_associative_connection: by_depot_account_entry;
+    => nrel_associative_connection: by_storage_account_depot;
+    => nrel_associative_connection: by_nominee;
+    => nrel_associative_connection: by_depot_account_operator;
+    => nrel_associative_connection: by_instruction_depot;
+    => nrel_associative_connection: by_depot_account_section;
+
+    => nrel_etalon_online_idx: [27833];;

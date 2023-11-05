@@ -1,0 +1,28 @@
+
+by_document_on_higher_education
+    => nrel_main_idtf: [document on higher education] (* <- lang_en;; *);
+    => nrel_main_idtf: [документ о высшем образовании] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакумент аб вышэйшай адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_document_on_higher_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_document_on_higher_legal_or_economic_education;
+    => nrel_associative_connection: by_educational_certificate;
+    => nrel_associative_connection: by_education;
+
+    => nrel_etalon_online_idx: [41346];;

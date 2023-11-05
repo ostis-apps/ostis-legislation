@@ -1,0 +1,30 @@
+
+by_plant_raw_material
+    => nrel_main_idtf: [plant raw material] (* <- lang_en;; *);
+    => nrel_main_idtf: [растительный материал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раслінны матэрыял] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_raw_material_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_distinctness_of_variety;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_plant_products;
+    => nrel_associative_connection: by_reproduction_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_agricultural_plants;
+    => nrel_associative_connection: by_plant_seeds;
+
+    => nrel_etalon_online_idx: [10177];;

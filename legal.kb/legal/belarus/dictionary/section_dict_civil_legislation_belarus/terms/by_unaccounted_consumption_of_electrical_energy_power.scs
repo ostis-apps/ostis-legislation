@@ -1,0 +1,31 @@
+
+by_unaccounted_consumption_of_electrical_energy_power
+    => nrel_main_idtf: [unaccounted consumption of electrical energy (power)] (* <- lang_en;; *);
+    => nrel_main_idtf: [безучетное потребление электрической энергии (мощности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [безуліковае спажыванне электрычнай энергіі (магутнасці)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unaccounted_consumption_of_electrical_energy_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_block_station;
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_electricity_supply_contract_with_the_owner_of_the_block_station;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy_capacity;
+    => nrel_associative_connection: by_means_for_calculation_of_electric_energy_power;
+    => nrel_associative_connection: by_means_for_calculation_of_electric_energy_and_or_power;
+
+    => nrel_etalon_online_idx: [39199];;

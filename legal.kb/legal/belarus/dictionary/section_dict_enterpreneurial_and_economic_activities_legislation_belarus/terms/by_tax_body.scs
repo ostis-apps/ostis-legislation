@@ -1,0 +1,47 @@
+
+by_tax_body
+    => nrel_main_idtf: [tax body] (* <- lang_en;; *);
+    => nrel_main_idtf: [налоговый орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падатковы орган] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_heraldic_sign__emblem_of_tax_bodies;
+    => nrel_associative_connection: by_state_tax_post;
+    => nrel_associative_connection: by_officials_of_control_supervision_bodies;
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_tax_collection_duty;
+    => nrel_associative_connection: by_tax_bill_income_tax_return;
+    => nrel_associative_connection: by_tax_reporting;
+    => nrel_associative_connection: by_tax_legislation;
+    => nrel_associative_connection: by_tax_legislation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tax_obligation;
+    => nrel_associative_connection: by_tax_agents;
+    => nrel_associative_connection: by_tax_consultants;
+    => nrel_associative_connection: by_tax_privileges;
+    => nrel_associative_connection: by_tax_authorities;
+    => nrel_associative_connection: by_tax_residents_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tax_agent;
+    => nrel_associative_connection: by_tax_consultant;
+    => nrel_associative_connection: by_tax_control;
+    => nrel_associative_connection: by_taxable_period;
+    => nrel_associative_connection: by_tax_period_of_single_tax;
+    => nrel_associative_connection: by_register_with_the_tax_authorities;
+    => nrel_associative_connection: by_taxation;
+    => nrel_associative_connection: by_means_of_tax_authorities_control;
+
+    => nrel_etalon_online_idx: [17669];;

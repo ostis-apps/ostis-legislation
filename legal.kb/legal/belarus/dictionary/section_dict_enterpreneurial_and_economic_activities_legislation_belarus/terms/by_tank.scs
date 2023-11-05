@@ -1,0 +1,36 @@
+
+by_tank
+    => nrel_main_idtf: [tank] (* <- lang_en;; *);
+    => nrel_main_idtf: [цистерна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цыстэрна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tankwagon;
+    => nrel_associative_connection: by_vacuumoperated_waste_tank;
+    => nrel_associative_connection: by_vacuum_breaker;
+    => nrel_associative_connection: by_vacuum_valvevalve;
+    => nrel_associative_connection: by_bulkhead_watertight__means;
+    => nrel_associative_connection: by_hermetically_closed_tank;
+    => nrel_associative_connection: by_filling_pressure;
+    => nrel_associative_connection: by_capacitive_facilities;
+    => nrel_associative_connection: by_leakproofness_test;
+    => nrel_associative_connection: by_maximum_permissible_gross_mass;
+    => nrel_associative_connection: by_maximum_operating_pressure_monometric_pressure;
+    => nrel_associative_connection: by_portable_tank;
+
+    => nrel_etalon_online_idx: [26287];;

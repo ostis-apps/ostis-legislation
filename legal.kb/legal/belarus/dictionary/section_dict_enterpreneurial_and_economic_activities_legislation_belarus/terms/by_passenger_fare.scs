@@ -1,0 +1,42 @@
+
+by_passenger_fare
+    => nrel_main_idtf: [passenger fare] (* <- lang_en;; *);
+    => nrel_main_idtf: [плата за проезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плата за праезд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_fare_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ticket;
+    => nrel_associative_connection: by_ticket_office;
+    => nrel_associative_connection: by_contract_of_passenger_carriage;
+    => nrel_associative_connection: by_collateral_cost;
+    => nrel_associative_connection: by_cash_register_combined_with_a_taximeter;
+    => nrel_associative_connection: by_control_vehicle;
+    => nrel_associative_connection: by_total_fare;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_payment_for_travel_at_onetime_tarifve;
+    => nrel_associative_connection: by_trainkilometre;
+    => nrel_associative_connection: by_procedure_for_technological_operation;
+    => nrel_associative_connection: by_travel_with_nonpaid_or_incomplete_paymen;
+    => nrel_associative_connection: by_travel_document;
+    => nrel_associative_connection: by_travel_document_ticket;
+    => nrel_associative_connection: by_regime_of_pay;
+    => nrel_associative_connection: by_due_for_the_passage;
+    => nrel_associative_connection: by_terminal_of_an_employee_of_control_and_auditor_service_on_road_transport;
+    => nrel_associative_connection: by_electronic_ticket;
+
+    => nrel_etalon_online_idx: [20209];;

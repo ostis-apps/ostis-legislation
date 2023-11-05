@@ -1,0 +1,28 @@
+
+by_by_identifiable_asset
+    => nrel_main_idtf: [by_identifiable_asset] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентифицируемый актив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфіцыруемы актыў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_identifiable_asset_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_asset;
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_generating_unit;
+    => nrel_associative_connection: by_identifiable_assets_and_liabilities;
+
+    => nrel_etalon_online_idx: [43442];;

@@ -1,0 +1,33 @@
+
+by_resort_levy_payers
+    => nrel_main_idtf: [resort levy payers] (* <- lang_en;; *);
+    => nrel_main_idtf: [плательщики курортного сбора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацельшчыкі курортнага збору] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resort_levy_payers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_local_taxes_and_dues;
+    => nrel_associative_connection: by_tax_collection_duty;
+    => nrel_associative_connection: by_object_of_resort_levy_taxation;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_payers;
+    => nrel_associative_connection: by_payers_of_local_taxes_and_fees;
+    => nrel_associative_connection: by_tax_payers;
+    => nrel_associative_connection: by_collection;
+    => nrel_associative_connection: by_collection_duty;
+
+    => nrel_etalon_online_idx: [20228];;

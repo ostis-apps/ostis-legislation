@@ -1,0 +1,27 @@
+
+by_band_creation
+    => nrel_main_idtf: [band creation] (* <- lang_en;; *);
+    => nrel_main_idtf: [создание банды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стварэнне банды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_band_creation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gang;
+    => nrel_associative_connection: by_banditry;
+    => nrel_associative_connection: by_criminal_organization;
+
+    => nrel_etalon_online_idx: [23539];;

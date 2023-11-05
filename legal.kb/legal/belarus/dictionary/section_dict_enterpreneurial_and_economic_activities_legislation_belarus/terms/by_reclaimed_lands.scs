@@ -1,0 +1,30 @@
+
+by_reclaimed_lands
+    => nrel_main_idtf: [reclaimed lands] (* <- lang_en;; *);
+    => nrel_main_idtf: [мелиорированные земли] (* <- lang_ru;; *);
+    => nrel_main_idtf: [меліяраваныя землі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reclaimed_lands_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_land;
+    => nrel_associative_connection: by_land;
+    => nrel_associative_connection: by_land_melioration;
+    => nrel_associative_connection: by_meliorized_lands;
+    => nrel_associative_connection: by_land_melioration_project;
+    => nrel_associative_connection: by_project_documentation_for_land_melioration;
+
+    => nrel_etalon_online_idx: [17187];;

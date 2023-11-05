@@ -1,0 +1,29 @@
+
+by_liquid_from_crown
+    => nrel_main_idtf: [liquid from crown] (* <- lang_en;; *);
+    => nrel_main_idtf: [ликвид из кроны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліквід з кроны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liquid_from_crown_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fuelwood;
+    => nrel_associative_connection: by_firewood;
+    => nrel_associative_connection: by_kroning;
+    => nrel_associative_connection: by_felling_area;
+    => nrel_associative_connection: by_liquid_wood;
+
+    => nrel_etalon_online_idx: [16598];;

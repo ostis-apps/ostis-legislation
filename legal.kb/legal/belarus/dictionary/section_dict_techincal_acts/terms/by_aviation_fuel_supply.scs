@@ -1,0 +1,28 @@
+
+by_aviation_fuel_supply
+    => nrel_main_idtf: [aviation fuel supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиатопливообеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяпалівазабеспячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_fuel_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_airfls;
+    => nrel_associative_connection: by_the_guaranteed_shelf_life_of_aviation_fuels_and_lubricants;
+    => nrel_associative_connection: by_aircraft_fueling;
+    => nrel_associative_connection: by_aviagsm_quality;
+
+    => nrel_etalon_online_idx: [36223];;

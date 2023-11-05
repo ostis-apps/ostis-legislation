@@ -1,0 +1,31 @@
+
+by_urban_settlements
+    => nrel_main_idtf: [urban settlements] (* <- lang_en;; *);
+    => nrel_main_idtf: [городские поселки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарадскія пасёлкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_settlements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_small_urban_settlements;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_settlements_villages;
+    => nrel_associative_connection: by_working_villages;
+    => nrel_associative_connection: by_rural_area;
+    => nrel_associative_connection: by_system_of_resettlement;
+    => nrel_associative_connection: by_territory_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [8730];;

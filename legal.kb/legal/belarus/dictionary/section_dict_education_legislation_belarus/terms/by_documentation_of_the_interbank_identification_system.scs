@@ -1,0 +1,29 @@
+
+by_documentation_of_the_interbank_identification_system
+    => nrel_main_idtf: [documentation of the interbank identification system] (* <- lang_en;; *);
+    => nrel_main_idtf: [документация межбанковской системы идентификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументацыя міжбанкаўскай сістэмы ідэнтыфікацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documentation_of_the_interbank_identification_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_the_interbank_system_of_identification;
+    => nrel_associative_connection: by_operator_of_state_information_resources_systems;
+    => nrel_associative_connection: by_regulation_for_informational_interaction_with_the_interbank_identification_system;
+    => nrel_associative_connection: by_site_of_the_interbank_identification_system;
+    => nrel_associative_connection: by_subjects_of_interbank_identification_system;
+
+    => nrel_etalon_online_idx: [32282];;

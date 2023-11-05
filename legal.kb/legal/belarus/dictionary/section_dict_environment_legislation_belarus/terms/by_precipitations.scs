@@ -1,0 +1,13 @@
+
+by_precipitations
+    => nrel_main_idtf: [precipitations] (* <- lang_en;; *);
+    => nrel_main_idtf: [атмосферные осадки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [атмасферныя ападкі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_rain_waste_water;
+    => nrel_associative_connection: by_excessive_brines;
+    => nrel_associative_connection: by_test_of_the_sample_of_atmospheric_air_precipitations_and_snow_cover;
+
+    => nrel_etalon_online_idx: [8213];;

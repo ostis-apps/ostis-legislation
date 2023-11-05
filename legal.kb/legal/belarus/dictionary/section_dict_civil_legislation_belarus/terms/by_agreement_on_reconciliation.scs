@@ -1,0 +1,26 @@
+
+by_agreement_on_reconciliation
+    => nrel_main_idtf: [agreement on reconciliation] (* <- lang_en;; *);
+    => nrel_main_idtf: [соглашение о примирении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагадненне аб прымірэнні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agreement_on_reconciliation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conciliation_procedure;
+    => nrel_associative_connection: by_agreement;
+
+    => nrel_etalon_online_idx: [10192];;

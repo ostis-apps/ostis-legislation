@@ -1,0 +1,32 @@
+
+by_interest_rate_cutoff
+    => nrel_main_idtf: [interest rate cut-off] (* <- lang_en;; *);
+    => nrel_main_idtf: [процентная ставка отсечения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэнтная стаўка адсячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interest_rate_cutoff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_application_for_purchase_of_foreign_currency_bonds;
+    => nrel_associative_connection: by_application_for_sale_of_currency_bonds;
+    => nrel_associative_connection: by_circulation_of_currency_bonds;
+    => nrel_associative_connection: by_interest_bonds;
+    => nrel_associative_connection: by_percent;
+    => nrel_associative_connection: by_placement_of_currency_bonds;
+    => nrel_associative_connection: by_cutoff_price;
+    => nrel_associative_connection: by_interest_rate_step;
+
+    => nrel_etalon_online_idx: [21775];;

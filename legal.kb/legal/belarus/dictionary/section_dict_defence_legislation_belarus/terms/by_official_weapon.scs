@@ -1,0 +1,28 @@
+
+by_official_weapon
+    => nrel_main_idtf: [official weapon] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебное оружие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовая зброя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_official_weapon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_firearms;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_legal_entities_with_special_statutory_tasks;
+
+    => nrel_etalon_online_idx: [3371];;

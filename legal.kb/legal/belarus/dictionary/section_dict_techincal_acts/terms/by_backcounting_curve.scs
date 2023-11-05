@@ -1,0 +1,28 @@
+
+by_backcounting_curve
+    => nrel_main_idtf: [back-counting curve] (* <- lang_en;; *);
+    => nrel_main_idtf: [кривая обратного счета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крывая адваротнага рахунка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_backcounting_curve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_ride;
+    => nrel_associative_connection: by_radiation_safety;
+    => nrel_associative_connection: by_stand_critical;
+    => nrel_associative_connection: by_nuclear_security;
+
+    => nrel_etalon_online_idx: [40116];;

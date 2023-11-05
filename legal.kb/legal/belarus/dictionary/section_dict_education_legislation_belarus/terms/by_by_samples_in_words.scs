@@ -1,0 +1,29 @@
+
+by_by_samples_in_words
+    => nrel_main_idtf: [by_samples_in_words] (* <- lang_en;; *);
+    => nrel_main_idtf: [пропись] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пропісь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_samples_in_words_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_adapted_educational_edition_original_for_publishing_on_the_basis_of_reliefdot_brail_system;
+    => nrel_associative_connection: by_original_layout_of_the_printed_educational_edition;
+    => nrel_associative_connection: by_original_layout_of_educational_edition;
+    => nrel_associative_connection: by_preparation_for_the_release_of_a_printed_educational_publication;
+
+    => nrel_etalon_online_idx: [42583];;

@@ -1,0 +1,30 @@
+
+by_price_tag
+    => nrel_main_idtf: [price tag] (* <- lang_en;; *);
+    => nrel_main_idtf: [ценник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэннік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_price_tag_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_used_nonfood_goods;
+    => nrel_associative_connection: by_tent;
+    => nrel_associative_connection: by_products_of_public_catering;
+    => nrel_associative_connection: by_goods_sale;
+    => nrel_associative_connection: by_technically_complex_household_goods;
+    => nrel_associative_connection: by_price_of_goods;
+
+    => nrel_etalon_online_idx: [10258];;

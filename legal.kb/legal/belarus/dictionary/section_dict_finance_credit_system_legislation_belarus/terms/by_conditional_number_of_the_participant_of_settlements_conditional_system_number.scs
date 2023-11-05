@@ -1,0 +1,29 @@
+
+by_conditional_number_of_the_participant_of_settlements_conditional_system_number
+    => nrel_main_idtf: [conditional number of the participant of settlements (conditional system number)] (* <- lang_en;; *);
+    => nrel_main_idtf: [условный номер участника расчетов (условный системный номер)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умоўны нумар удзельніка разлікаў (умоўны сістэмны нумар)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conditional_number_of_the_participant_of_settlements_conditional_system_number_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_identification_code;
+    => nrel_associative_connection: by_businessidentification_code;
+    => nrel_associative_connection: by_accounts;
+    => nrel_associative_connection: by_unique_number;
+    => nrel_associative_connection: by_participants_of_calculations;
+
+    => nrel_etalon_online_idx: [25608];;

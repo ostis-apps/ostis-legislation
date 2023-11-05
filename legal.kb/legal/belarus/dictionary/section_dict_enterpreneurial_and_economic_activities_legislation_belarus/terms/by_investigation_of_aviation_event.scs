@@ -1,0 +1,45 @@
+
+by_investigation_of_aviation_event
+    => nrel_main_idtf: [investigation of aviation event] (* <- lang_en;; *);
+    => nrel_main_idtf: [расследование авиационного события] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расследаванне авіяцыйнай падзеі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investigation_of_aviation_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investigation_of_aviation_event_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_accident;
+    => nrel_associative_connection: by_aviation_event;
+    => nrel_associative_connection: by_aviation_incident;
+    => nrel_associative_connection: by_audit_iin_the_area_of_compliance_with_safety_requirements;
+    => nrel_associative_connection: by_state_aviation_inspector;
+    => nrel_associative_connection: by_aviation_department;
+
+    => nrel_etalon_online_idx: [6766];;

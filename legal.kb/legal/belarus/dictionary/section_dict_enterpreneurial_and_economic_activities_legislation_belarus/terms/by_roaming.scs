@@ -1,0 +1,50 @@
+
+by_roaming
+    => nrel_main_idtf: [roaming] (* <- lang_en;; *);
+    => nrel_main_idtf: [роуминг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [роўмінг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roaming_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roaming_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_telephone_service;
+    => nrel_associative_connection: by_tarification_unit;
+    => nrel_associative_connection: by_operator_of_mobile_cellular_telecommunications;
+    => nrel_associative_connection: by_package_of_telecommunication_services;
+    => nrel_associative_connection: by_data_transfer;
+    => nrel_associative_connection: by_telecommunication_services_user;
+    => nrel_associative_connection: by_tariff_plan;
+    => nrel_associative_connection: by_universal_telecommunication_services;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_service;
+    => nrel_associative_connection: by_telephone_service;
+    => nrel_associative_connection: by_telecommunication_services;
+
+    => nrel_etalon_online_idx: [22678];;

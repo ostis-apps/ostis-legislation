@@ -1,0 +1,30 @@
+
+by_protective_ignition_device
+    => nrel_main_idtf: [protective ignition device] (* <- lang_en;; *);
+    => nrel_main_idtf: [защитно-запальное устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абаронна-запальная прылада] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_ignition_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commissioning_the_boiler;
+    => nrel_associative_connection: by_boiler;
+    => nrel_associative_connection: by_boilerboiler;
+    => nrel_associative_connection: by_waste_heat_recovery_boiler;
+    => nrel_associative_connection: by_steam_boiler;
+    => nrel_associative_connection: by_steam_gas_installation;
+
+    => nrel_etalon_online_idx: [42188];;

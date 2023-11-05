@@ -1,0 +1,26 @@
+
+by_fire_pool
+    => nrel_main_idtf: [fire pool] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарный водоем] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарны вадаём] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_pool_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_firefighting_water_supply;
+
+    => nrel_etalon_online_idx: [40850];;

@@ -1,0 +1,28 @@
+
+by_assessment_of_professional_risk
+    => nrel_main_idtf: [assessment of professional risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценка профессионального риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэнка прафесійнай рызыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assessment_of_professional_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_labor_intensity;
+    => nrel_associative_connection: by_production_facility;
+    => nrel_associative_connection: by_productive_factor;
+    => nrel_associative_connection: by_labor_process_factors;
+
+    => nrel_etalon_online_idx: [32625];;

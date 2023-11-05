@@ -1,0 +1,32 @@
+
+by_by_filling_compartment
+    => nrel_main_idtf: [by_filling_compartment] (* <- lang_en;; *);
+    => nrel_main_idtf: [разливочное отделение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разлівачнае аддзяленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_filling_compartment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_petroleum_products_storage_container;
+    => nrel_associative_connection: by_receiving_point_of_oil_and_or_oil_products;
+    => nrel_associative_connection: by_delivery_point_of_oil_and_or_oil_products;
+    => nrel_associative_connection: by_packaging_department;
+    => nrel_associative_connection: by_reservoir_park;
+    => nrel_associative_connection: by_retail_trade_of_petroleum_products;
+    => nrel_associative_connection: by_warehouses_of_petroleum_products;
+    => nrel_associative_connection: by_draining_and_filling_device;
+
+    => nrel_etalon_online_idx: [42245];;

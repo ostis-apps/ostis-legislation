@@ -1,0 +1,38 @@
+
+by_person_liable_for_military_service
+    => nrel_main_idtf: [person liable for military service] (* <- lang_en;; *);
+    => nrel_main_idtf: [военнообязанный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваеннаабавязаны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_person_liable_for_military_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_medical_expertise;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_service_id;
+    => nrel_associative_connection: by_military_obligation;
+    => nrel_associative_connection: by_military_registration_and_enlistment_system;
+    => nrel_associative_connection: by_military_mobilization;
+    => nrel_associative_connection: by_time_of_performance_of_the_duties_of_alternative_service;
+    => nrel_associative_connection: by_document_of_military_registration;
+    => nrel_associative_connection: by_reserve_of_the_armed_forces_and_other_military_units;
+    => nrel_associative_connection: by_military_registration_and_enlistment_system_organization;
+    => nrel_associative_connection: by_appendice_composition;
+    => nrel_associative_connection: by_reservist;
+    => nrel_associative_connection: by_special_fees;
+
+    => nrel_etalon_online_idx: [1228];;

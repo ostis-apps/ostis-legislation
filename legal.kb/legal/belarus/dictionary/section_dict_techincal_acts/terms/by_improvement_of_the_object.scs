@@ -1,0 +1,29 @@
+
+by_improvement_of_the_object
+    => nrel_main_idtf: [improvement of the object] (* <- lang_en;; *);
+    => nrel_main_idtf: [благоустройство объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [добраўпарадкаванне аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_improvement_of_the_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investment_in_land_plot;
+    => nrel_associative_connection: by_investment_in_real_estate_improvements;
+    => nrel_associative_connection: by_auxiliary_improvements;
+    => nrel_associative_connection: by_perennial_plantings;
+    => nrel_associative_connection: by_new_construction;
+
+    => nrel_etalon_online_idx: [31152];;

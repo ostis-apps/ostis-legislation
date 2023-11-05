@@ -1,0 +1,30 @@
+
+by_defectivity_of_semifinished_products_and_special_materials_produced
+    => nrel_main_idtf: [defectivity of semi-finished products and special materials produced] (* <- lang_en;; *);
+    => nrel_main_idtf: [брак полуфабрикатов и произведенных специальных материалов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [брак паўфабрыкатаў і вырабленых спецыяльных матэрыялаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_defectivity_of_semifinished_products_and_special_materials_produced_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defective_semifinished_products_and_manufactured_forms_and_documents;
+    => nrel_associative_connection: by_material;
+    => nrel_associative_connection: by_materials;
+    => nrel_associative_connection: by_organizationmanufacturer_of_special_materials;
+    => nrel_associative_connection: by_semifinished_products_of_forms_and_documents;
+    => nrel_associative_connection: by_semifinished_products_of_special_materials;
+
+    => nrel_etalon_online_idx: [41019];;

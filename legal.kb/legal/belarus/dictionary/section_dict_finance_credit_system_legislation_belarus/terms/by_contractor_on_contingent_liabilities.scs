@@ -1,0 +1,32 @@
+
+by_contractor_on_contingent_liabilities
+    => nrel_main_idtf: [contractor on contingent liabilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрагент по условным обязательствам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [контрагент па ўмоўных абавязацельствах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contractor_on_contingent_liabilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_counterparty;
+    => nrel_associative_connection: by_counterparty_risk;
+    => nrel_associative_connection: by_contingent_commitments;
+    => nrel_associative_connection: by_risk_free_contingent_commitments;
+    => nrel_associative_connection: by_highrisk_contingent_commitments;
+    => nrel_associative_connection: by_lowrisk_contingent_commitments;
+    => nrel_associative_connection: by_mediumrisk_contingent_commitments;
+    => nrel_associative_connection: by_central_counterparty;
+
+    => nrel_etalon_online_idx: [11139];;

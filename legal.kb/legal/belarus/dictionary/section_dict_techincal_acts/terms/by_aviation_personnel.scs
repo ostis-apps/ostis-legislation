@@ -1,0 +1,56 @@
+
+by_aviation_personnel
+    => nrel_main_idtf: [aviation personnel] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиационный персонал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяцыйны персанал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_personnel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_personnel_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_position;
+    => nrel_associative_connection: by_aviation_subdivision;
+    => nrel_associative_connection: by_aviation_works;
+    => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_turnaround_rest_time;
+    => nrel_associative_connection: by_chief_navigator;
+    => nrel_associative_connection: by_citizens;
+    => nrel_associative_connection: by_cabin_crew_of_aircrafts;
+    => nrel_associative_connection: by_class_qualification;
+    => nrel_associative_connection: by_flight_controllers;
+    => nrel_associative_connection: by_medical_worker_of_the_organizationowner_of_the_experimental_aircraft;
+    => nrel_associative_connection: by_medical_conclusion;
+    => nrel_associative_connection: by_flight_hours;
+    => nrel_associative_connection: by_operator_of_drone_aircraft;
+    => nrel_associative_connection: by_development_of_the_type_modification_of_the_state_aircraft;
+    => nrel_associative_connection: by_personnel;
+
+    => nrel_etalon_online_idx: [4390];;

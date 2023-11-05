@@ -1,0 +1,31 @@
+
+by_biotechnical_activities
+    => nrel_main_idtf: [biotechnical activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [биотехнические мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біятэхнічныя мерапрыемствы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biotechnical_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biotechnical_complex;
+    => nrel_associative_connection: by_biotechnical_object;
+    => nrel_associative_connection: by_biotechnical_construction;
+    => nrel_associative_connection: by_biotechnology;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_hunting_lands;
+
+    => nrel_etalon_online_idx: [8409];;

@@ -1,0 +1,32 @@
+
+by_dentist
+    => nrel_main_idtf: [dentist] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-стоматолог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-стаматолаг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dentist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_doctorspecialist;
+    => nrel_associative_connection: by_peidatric_dentist;
+    => nrel_associative_connection: by_dentistorthodontist;
+    => nrel_associative_connection: by_dentisttherapist;
+    => nrel_associative_connection: by_dentistsurgeon;
+    => nrel_associative_connection: by_dentures;
+    => nrel_associative_connection: by_seal_in_stomatology;
+    => nrel_associative_connection: by_dental_care;
+
+    => nrel_etalon_online_idx: [37597];;

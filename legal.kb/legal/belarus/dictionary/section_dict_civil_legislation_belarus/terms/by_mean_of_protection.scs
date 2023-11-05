@@ -1,0 +1,45 @@
+
+by_mean_of_protection
+    => nrel_main_idtf: [mean of protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [средство защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродак абароны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mean_of_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mean_of_protection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_protection_method;
+    => nrel_associative_connection: by_semifinished_products_of_forms_and_documents;
+    => nrel_associative_connection: by_semifinished_products_of_special_materials;
+    => nrel_associative_connection: by_system_of_protection_against_fake;
+    => nrel_associative_connection: by_level_of_protection_against_forgery;
+    => nrel_associative_connection: by_protection_element;
+
+    => nrel_etalon_online_idx: [41008];;

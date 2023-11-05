@@ -1,0 +1,26 @@
+
+by_by_unrealized_part_of_the_allocated_quota
+    => nrel_main_idtf: [by_unrealized_part_of_the_allocated_quota] (* <- lang_en;; *);
+    => nrel_main_idtf: [нереализованная часть выделенной квоты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нерэалізаваная частка выдзеленай квоты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_unrealized_part_of_the_allocated_quota_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quota;
+    => nrel_associative_connection: by_unclaimed_quota;
+
+    => nrel_etalon_online_idx: [39906];;

@@ -1,0 +1,31 @@
+
+by_combined_wagon_shipment
+    => nrel_main_idtf: [combined wagon shipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [сборная повагонная отправка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зборная павагонная адпраўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_wagon_shipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_shipment;
+    => nrel_associative_connection: by_full_wagonload;
+    => nrel_associative_connection: by_terms_of_railway_transportation_public;
+    => nrel_associative_connection: by_team_regarding_the_application_of_the_freight_dispatch_tariff;
+    => nrel_associative_connection: by_collection_of_transportation_rules_and_tariffs_of__public_railway_transport;
+    => nrel_associative_connection: by_prefabricated_wagon_with_regard_to_the_application_of_the_tariff;
+
+    => nrel_etalon_online_idx: [22859];;

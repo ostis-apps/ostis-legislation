@@ -1,0 +1,60 @@
+
+by_medical_formations
+    => nrel_main_idtf: [medical formations] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинские формирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскія фарміраванні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_formations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_formations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_formations_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_public_health_facilities;
+    => nrel_associative_connection: by_medical_institutions;
+    => nrel_associative_connection: by_injured_and_sick;
+    => nrel_associative_connection: by_sanitary_vehicles;
+    => nrel_associative_connection: by_sanitary_and_safety_zones_localities;
+    => nrel_associative_connection: by_sanitary_units_of_civil_defense;
+
+    => nrel_etalon_online_idx: [17006];;

@@ -1,0 +1,29 @@
+
+by_control_characteristics
+    => nrel_main_idtf: [control characteristics] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольная характеристика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольная характарыстыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_characteristics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_object;
+    => nrel_associative_connection: by_information_package;
+    => nrel_associative_connection: by_file;
+    => nrel_associative_connection: by_file_format;
+    => nrel_associative_connection: by_electronic_case;
+
+    => nrel_etalon_online_idx: [31718];;

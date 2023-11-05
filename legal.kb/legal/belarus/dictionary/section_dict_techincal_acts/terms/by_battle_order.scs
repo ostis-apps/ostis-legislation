@@ -1,0 +1,40 @@
+
+by_battle_order
+    => nrel_main_idtf: [battle order] (* <- lang_en;; *);
+    => nrel_main_idtf: [боевой порядок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [баявы парадак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_battle_order_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_battle_order_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_combat_application;
+
+    => nrel_etalon_online_idx: [34343];;

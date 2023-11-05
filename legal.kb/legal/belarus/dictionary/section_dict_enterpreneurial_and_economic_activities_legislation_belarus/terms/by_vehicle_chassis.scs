@@ -1,0 +1,34 @@
+
+by_vehicle_chassis
+    => nrel_main_idtf: [vehicle (chassis)] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортное средство (шасси)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартны сродак (шасі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_chassis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_automotive_vehicles;
+    => nrel_associative_connection: by_single_vehicle;
+    => nrel_associative_connection: by_foreign_vehicle;
+    => nrel_associative_connection: by_mass_road_vehicles;
+    => nrel_associative_connection: by_automotive_vehicle;
+    => nrel_associative_connection: by_new_vehicle;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_unique_vehicle;
+
+    => nrel_etalon_online_idx: [41751];;

@@ -1,0 +1,27 @@
+
+by_by_passenger_service_facilities
+    => nrel_main_idtf: [by_passenger_service_facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты попутного обслуживания пассажиров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты спадарожнага абслугоўвання пасажыраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_passenger_service_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lobby;
+    => nrel_associative_connection: by_passenger_service;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_on_which_passengers_are_sending_and_or_receiving;
+
+    => nrel_etalon_online_idx: [43998];;

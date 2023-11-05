@@ -1,0 +1,29 @@
+
+by_by_rod
+    => nrel_main_idtf: [by_rod] (* <- lang_en;; *);
+    => nrel_main_idtf: [черенок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чаранок] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_rod_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tree;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_reforestation;
+    => nrel_associative_connection: by_afforestation;
+    => nrel_associative_connection: by_plants;
+
+    => nrel_etalon_online_idx: [40203];;

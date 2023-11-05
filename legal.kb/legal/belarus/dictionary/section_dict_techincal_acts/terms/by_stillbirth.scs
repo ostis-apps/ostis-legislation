@@ -1,0 +1,30 @@
+
+by_stillbirth
+    => nrel_main_idtf: [stillbirth] (* <- lang_en;; *);
+    => nrel_main_idtf: [мертворождение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мёртванараджэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stillbirth_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fullterm_child;
+    => nrel_associative_connection: by_premature_baby;
+    => nrel_associative_connection: by_neonatal_period;
+    => nrel_associative_connection: by_neonatology;
+    => nrel_associative_connection: by_original_cause_of_death;
+    => nrel_associative_connection: by_postterm_baby;
+
+    => nrel_etalon_online_idx: [33769];;

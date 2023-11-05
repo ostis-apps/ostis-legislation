@@ -1,0 +1,27 @@
+
+by_medicinal_expiry_date
+    => nrel_main_idtf: [medicinal expiry date] (* <- lang_en;; *);
+    => nrel_main_idtf: [срок годности лекарственного препарата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмін прыдатнасці лекавага прэпарата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medicinal_expiry_date_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_the_medicine;
+    => nrel_associative_connection: by_general_characteristic_of_the_medicinal_product;
+    => nrel_associative_connection: by_expiry_date_of_medication;
+
+    => nrel_etalon_online_idx: [35512];;

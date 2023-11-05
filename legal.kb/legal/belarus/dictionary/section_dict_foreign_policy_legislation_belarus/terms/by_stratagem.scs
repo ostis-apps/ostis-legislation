@@ -1,0 +1,39 @@
+
+by_stratagem
+    => nrel_main_idtf: [stratagem] (* <- lang_en;; *);
+    => nrel_main_idtf: [военная хитрость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вайсковая хітрасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stratagem_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_objects;
+    => nrel_associative_connection: by_military_trophies;
+    => nrel_associative_connection: by_war;
+    => nrel_associative_connection: by_military_unit;
+    => nrel_associative_connection: by_armed_forces;
+    => nrel_associative_connection: by_armed_forces_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_armed_forces_of_the_party_in_armed_conflict;
+    => nrel_associative_connection: by_armed_conflict;
+    => nrel_associative_connection: by_commanders;
+    => nrel_associative_connection: by_commanders_heads;
+    => nrel_associative_connection: by_combatants_warring;
+    => nrel_associative_connection: by_principle_of_military_necessity;
+    => nrel_associative_connection: by_spies;
+
+    => nrel_etalon_online_idx: [13168];;

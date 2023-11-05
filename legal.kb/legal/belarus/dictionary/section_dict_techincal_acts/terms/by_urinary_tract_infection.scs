@@ -1,0 +1,29 @@
+
+by_urinary_tract_infection
+    => nrel_main_idtf: [urinary tract infection] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфекция мочевых путей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфекцыя мачавых шляхоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urinary_tract_infection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nephrologist;
+    => nrel_associative_connection: by_glomerulonephritis;
+    => nrel_associative_connection: by_interstitial_nephrite;
+    => nrel_associative_connection: by_minimum_urinary_syndrome;
+    => nrel_associative_connection: by_nephrology;
+
+    => nrel_etalon_online_idx: [34110];;

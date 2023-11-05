@@ -1,0 +1,29 @@
+
+by_planning_works
+    => nrel_main_idtf: [planning works] (* <- lang_en;; *);
+    => nrel_main_idtf: [планировочные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [планіровачныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_planning_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_board_of_the_career;
+    => nrel_associative_connection: by_flattening_slopes;
+    => nrel_associative_connection: by_pile_collapse_of_blasted_rock;
+    => nrel_associative_connection: by_bench_slope;
+    => nrel_associative_connection: by_open_mining_operations;
+
+    => nrel_etalon_online_idx: [34194];;

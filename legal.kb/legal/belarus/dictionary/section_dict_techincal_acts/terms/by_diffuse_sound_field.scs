@@ -1,0 +1,31 @@
+
+by_diffuse_sound_field
+    => nrel_main_idtf: [diffuse sound field] (* <- lang_en;; *);
+    => nrel_main_idtf: [диффузное звуковое поле] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыфузнае гукавое поле] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diffuse_sound_field_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acoustic_design;
+    => nrel_associative_connection: by_sound_noise;
+    => nrel_associative_connection: by_sound_power_of_the_source_p_w;
+    => nrel_associative_connection: by_soundproofing_layer;
+    => nrel_associative_connection: by_soundproofing_of_windows_ra_tran_dba;
+    => nrel_associative_connection: by_airborne_noise_insulation_sound_insulation_db;
+    => nrel_associative_connection: by_support_sound_pressure;
+
+    => nrel_etalon_online_idx: [35714];;

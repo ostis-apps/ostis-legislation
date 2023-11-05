@@ -1,0 +1,25 @@
+
+by_commissions
+    => nrel_main_idtf: [commissions] (* <- lang_en;; *);
+    => nrel_main_idtf: [комиссии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камісіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commissions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_electoral_commissions;
+
+    => nrel_etalon_online_idx: [42347];;

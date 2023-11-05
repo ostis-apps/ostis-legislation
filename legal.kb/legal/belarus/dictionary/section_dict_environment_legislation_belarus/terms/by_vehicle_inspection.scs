@@ -1,0 +1,16 @@
+
+by_vehicle_inspection
+    => nrel_main_idtf: [vehicle inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [досмотр транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [надгляд транспартнага сродку] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_inspection_of_belongings;
+    => nrel_associative_connection: by_inspection_of_belongings_fishing_tackles_fishing_products;
+    => nrel_associative_connection: by_transport_examination;
+    => nrel_associative_connection: by_history_of_vehicle_damages;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [14463];;

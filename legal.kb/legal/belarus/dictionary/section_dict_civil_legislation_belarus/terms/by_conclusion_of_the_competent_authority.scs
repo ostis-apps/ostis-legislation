@@ -1,0 +1,26 @@
+
+by_conclusion_of_the_competent_authority
+    => nrel_main_idtf: [conclusion of the competent authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [заключение компетентного органа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заключэнне кампетэнтнага органа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conclusion_of_the_competent_authority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_competent_authority;
+
+    => nrel_etalon_online_idx: [14782];;

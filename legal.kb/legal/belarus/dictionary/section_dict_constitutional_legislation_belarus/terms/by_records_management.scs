@@ -1,0 +1,34 @@
+
+by_records_management
+    => nrel_main_idtf: [records management] (* <- lang_en;; *);
+    => nrel_main_idtf: [делопроизводство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаводства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_records_management_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_copy;
+    => nrel_associative_connection: by_incoming_documents;
+    => nrel_associative_connection: by_memorandumreport;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_interval;
+    => nrel_associative_connection: by_outgoing_documents;
+    => nrel_associative_connection: by_nomenclature_of_organization_cases;
+    => nrel_associative_connection: by_protocol;
+    => nrel_associative_connection: by_data_documents_on_accomplishment_of_notarial_actions;
+    => nrel_associative_connection: by_typical_and_example_nomenclature_of_cases;
+
+    => nrel_etalon_online_idx: [2465];;

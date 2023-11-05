@@ -1,0 +1,26 @@
+
+by_ways_of_keeping_accounting
+    => nrel_main_idtf: [ways of keeping accounting] (* <- lang_en;; *);
+    => nrel_main_idtf: [способы ведения бухгалтерского учета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спосабы вядзення бухгалтарскага ўліку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ways_of_keeping_accounting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_change_in_accounting_estimate;
+    => nrel_associative_connection: by_accounting_plan;
+
+    => nrel_etalon_online_idx: [23947];;

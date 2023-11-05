@@ -1,0 +1,61 @@
+
+by_metrological_expertise
+    => nrel_main_idtf: [metrological expertise] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологическая экспертиза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічная экспертыза] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_expertise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_expertise_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_expertise_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_metrological_characteristics_of_measuring_instruments;
+    => nrel_associative_connection: by_metrological_requirements;
+    => nrel_associative_connection: by_metrological_audit;
+    => nrel_associative_connection: by_metrological_failure;
+    => nrel_associative_connection: by_metrology;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_etalon_online_idx: [17325];;

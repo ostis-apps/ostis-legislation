@@ -1,0 +1,44 @@
+
+by_fire_protection_and_fire_extinguishing_equipment
+    => nrel_main_idtf: [fire protection and fire extinguishing equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства противопожарной защиты и пожаротушения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі супрацьпажарнай абароны і пажаратушэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_protection_and_fire_extinguishing_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_protection_and_fire_extinguishing_equipment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autonomous_fire_detector;
+    => nrel_associative_connection: by_basic_firefighting_capability;
+    => nrel_associative_connection: by_fire_detector;
+    => nrel_associative_connection: by_fire_drill;
+    => nrel_associative_connection: by_fire_safety_and_fire_extinguishing_equipment;
+
+    => nrel_etalon_online_idx: [33177];;

@@ -1,0 +1,29 @@
+
+by_by_candidate_for_service
+    => nrel_main_idtf: [by_candidate_for_service] (* <- lang_en;; *);
+    => nrel_main_idtf: [кандидат на службу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кандыдат на службу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_candidate_for_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personnel_division;
+    => nrel_associative_connection: by_candidate_for_study;
+    => nrel_associative_connection: by_selection_of_candidates_for_service;
+    => nrel_associative_connection: by_professional_selection;
+    => nrel_associative_connection: by_service_in_financial_investigation_authorities;
+
+    => nrel_etalon_online_idx: [42775];;

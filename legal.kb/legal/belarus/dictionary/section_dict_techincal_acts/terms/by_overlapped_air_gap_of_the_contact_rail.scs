@@ -1,0 +1,27 @@
+
+by_overlapped_air_gap_of_the_contact_rail
+    => nrel_main_idtf: [overlapped air gap of the contact rail] (* <- lang_en;; *);
+    => nrel_main_idtf: [перекрываемый воздушный промежуток контактного рельса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перекрываемый паветраны прамежак кантактнай рэйкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overlapped_air_gap_of_the_contact_rail_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contact_rail;
+    => nrel_associative_connection: by_metro;
+    => nrel_associative_connection: by_metro_territory;
+
+    => nrel_etalon_online_idx: [37128];;

@@ -1,0 +1,48 @@
+
+by_delayed_tax_liability
+    => nrel_main_idtf: [delayed tax liability] (* <- lang_en;; *);
+    => nrel_main_idtf: [отложенное налоговое обязательство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкладзенае падатковае абавязацельства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_delayed_tax_liability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_delayed_tax_liability_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_differences;
+    => nrel_associative_connection: by_tax_obligation;
+    => nrel_associative_connection: by_taxable_period;
+    => nrel_associative_connection: by_delayed_profit_tax;
+    => nrel_associative_connection: by_delayed_tax_asset;
+    => nrel_associative_connection: by_permanent_tax_obligation;
+    => nrel_associative_connection: by_charge_income_for_profit_tax;
+    => nrel_associative_connection: by_current_income_tax;
+    => nrel_associative_connection: by_accounting_profit_loss;
+
+    => nrel_etalon_online_idx: [19547];;

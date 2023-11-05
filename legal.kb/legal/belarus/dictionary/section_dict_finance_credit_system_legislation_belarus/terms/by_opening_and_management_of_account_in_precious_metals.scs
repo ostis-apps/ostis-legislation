@@ -1,0 +1,34 @@
+
+by_opening_and_management_of_account_in_precious_metals
+    => nrel_main_idtf: [opening and management of account in precious metals] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытие и ведение счетов в драгоценных металлах] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрыццё і вядзенне рахункаў у каштоўных металах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_opening_and_management_of_account_in_precious_metals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_nonresident_banks;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_name_of_precious_metal;
+    => nrel_associative_connection: by_depersonalized_precious_metals;
+    => nrel_associative_connection: by_depersonalized_metal_account;
+    => nrel_associative_connection: by_transfer_of_precious_metals;
+    => nrel_associative_connection: by_account_in_precious_metals;
+    => nrel_associative_connection: by_safety_account_for_precious_metals;
+
+    => nrel_etalon_online_idx: [39788];;

@@ -1,0 +1,30 @@
+
+by_thermohygrometer
+    => nrel_main_idtf: [thermohygrometer] (* <- lang_en;; *);
+    => nrel_main_idtf: [термогигрометр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмагігрометр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_thermohygrometer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accident_situation_in_a_cold_chain;
+    => nrel_associative_connection: by_pharmaceutical_warehouse;
+    => nrel_associative_connection: by_thermal_container;
+    => nrel_associative_connection: by_thermal_bag_thermal_container;
+    => nrel_associative_connection: by_refrigerant_element;
+    => nrel_associative_connection: by_cold_chain;
+
+    => nrel_etalon_online_idx: [35527];;

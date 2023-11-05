@@ -1,0 +1,29 @@
+
+by_material_valuation_of_the_felling_area
+    => nrel_main_idtf: [material valuation of the felling area] (* <- lang_en;; *);
+    => nrel_main_idtf: [материальная оценка лесосеки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэрыяльная ацэнка лесасекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_material_valuation_of_the_felling_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_felling_area;
+    => nrel_associative_connection: by_evaluationassessment;
+    => nrel_associative_connection: by_calculated_woodcutting_area;
+    => nrel_associative_connection: by_plotting_of_the_felling_area;
+    => nrel_associative_connection: by_estimate_of_the_felling_area;
+
+    => nrel_etalon_online_idx: [12113];;

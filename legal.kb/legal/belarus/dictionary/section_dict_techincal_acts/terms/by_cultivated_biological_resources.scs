@@ -1,0 +1,26 @@
+
+by_cultivated_biological_resources
+    => nrel_main_idtf: [cultivated biological resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [культивируемые биологические ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [культывіруемыя біялагічныя рэсурсы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cultivated_biological_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_finished_products_and_goods;
+    => nrel_associative_connection: by_work_in_progress;
+
+    => nrel_etalon_online_idx: [38200];;

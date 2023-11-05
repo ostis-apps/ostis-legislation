@@ -1,0 +1,28 @@
+
+by_contact_persons
+    => nrel_main_idtf: [contact persons] (* <- lang_en;; *);
+    => nrel_main_idtf: [контактные лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантактныя асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contact_persons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_infectious_disease;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_contact_person;
+    => nrel_associative_connection: by_infectious_agent_carrier;
+
+    => nrel_etalon_online_idx: [42252];;

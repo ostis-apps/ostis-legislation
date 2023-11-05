@@ -1,0 +1,37 @@
+
+by_mobile_application
+    => nrel_main_idtf: [mobile application] (* <- lang_en;; *);
+    => nrel_main_idtf: [мобильное приложение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мабільны дадатак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_application_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authorisation;
+    => nrel_associative_connection: by_authentication;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_participating_bank;
+    => nrel_associative_connection: by_remittance;
+    => nrel_associative_connection: by_personal_area;
+    => nrel_associative_connection: by_national_site_of_the_money_transfer_system;
+    => nrel_associative_connection: by_payment_mobile_app_of_the_system_of_the_membering_bank;
+    => nrel_associative_connection: by_qr_code_payload;
+    => nrel_associative_connection: by_website_of_the_participating_bank;
+    => nrel_associative_connection: by_money_transfer_system_website;
+    => nrel_associative_connection: by_money_transfer_services;
+    => nrel_associative_connection: by_participants_of_the_money_transfer_system;
+
+    => nrel_etalon_online_idx: [37381];;

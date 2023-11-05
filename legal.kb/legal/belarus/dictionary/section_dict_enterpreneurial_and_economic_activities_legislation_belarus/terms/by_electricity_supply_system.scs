@@ -1,0 +1,18 @@
+
+by_electricity_supply_system
+    => nrel_main_idtf: [electricity supply system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система электроснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [cістэма электразабеспячэння] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_emergency_reserved_quota_of_electricity_supply;
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_electricity_supply_contract_with_a_legal_entity_of_the_republic_of_belarus_individual_entrepreneur_having_ownership_management_or_operational_management_of_a_block_station;
+    => nrel_associative_connection: by_trunking_grid_of_electricity_supply;
+    => nrel_associative_connection: by_works_on_electricity_supply;
+    => nrel_associative_connection: by_rupoblenergo;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_technological_reservation_of_electricity_supply;
+
+    => nrel_etalon_online_idx: [27908];;

@@ -1,0 +1,27 @@
+
+by_risk_concentration
+    => nrel_main_idtf: [risk concentration] (* <- lang_en;; *);
+    => nrel_main_idtf: [концентрация риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцэнтрацыя рызыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_concentration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_risk_profile;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_concentration_risk;
+
+    => nrel_etalon_online_idx: [8113];;

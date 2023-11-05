@@ -1,0 +1,31 @@
+
+by_cabin_crew_of_aircrafts
+    => nrel_main_idtf: [cabin crew of aircrafts] (* <- lang_en;; *);
+    => nrel_main_idtf: [кабинный экипаж воздушных судов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кабінны экіпаж паветраных судоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cabin_crew_of_aircrafts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_personnel;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_aircraft_flight_crew;
+    => nrel_associative_connection: by_minimum_required_crew_of_the_aircraft;
+    => nrel_associative_connection: by_contingency;
+    => nrel_associative_connection: by_afterflight_training_in_the_crew_flight_debrief;
+    => nrel_associative_connection: by_extended_aircraft_crew;
+
+    => nrel_etalon_online_idx: [42290];;

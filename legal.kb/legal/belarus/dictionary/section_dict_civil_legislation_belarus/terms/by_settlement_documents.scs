@@ -1,0 +1,46 @@
+
+by_settlement_documents
+    => nrel_main_idtf: [settlement documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковыя дакументы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_settlement_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_settlement_documents_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_obligatory_requisites_of_settlement_documents;
+    => nrel_associative_connection: by_settlement_documents_of_the_bank;
+    => nrel_associative_connection: by_settlement_documents_of_recoverers;
+    => nrel_associative_connection: by_calculated_document;
+    => nrel_associative_connection: by_accounts;
+    => nrel_associative_connection: by_calculation_window_mode;
+
+    => nrel_etalon_online_idx: [6772];;

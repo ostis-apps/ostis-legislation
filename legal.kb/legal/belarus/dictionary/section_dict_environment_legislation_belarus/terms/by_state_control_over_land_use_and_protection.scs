@@ -1,0 +1,30 @@
+
+by_state_control_over_land_use_and_protection
+    => nrel_main_idtf: [state control over land use and protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный контроль за использованием и охраной земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны кантроль за выкарыстаннем і аховай зямель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_control_over_land_use_and_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry_account_of_lands;
+    => nrel_associative_connection: by_land_plots_parts_of_a_land_plot_occupied_by_construction_objects_not_finished_within_normative_time_limits;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_land_monitoring;
+    => nrel_associative_connection: by_protection_of_lands;
+    => nrel_associative_connection: by_efficient_use_of_land;
+
+    => nrel_etalon_online_idx: [13742];;

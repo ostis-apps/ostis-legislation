@@ -1,0 +1,31 @@
+
+by_pharmacy_of_the_first_category
+    => nrel_main_idtf: [pharmacy of the first category] (* <- lang_en;; *);
+    => nrel_main_idtf: [аптека первой категории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптэка першай катэгорыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmacy_of_the_first_category_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_pharmacy;
+    => nrel_associative_connection: by_pharmacy_of_second_category;
+    => nrel_associative_connection: by_pharmacy_of_the_fifth_category;
+    => nrel_associative_connection: by_pharmacy_of_the_third_category;
+    => nrel_associative_connection: by_pharmacy_of_the_fourth_category;
+    => nrel_associative_connection: by_online_pharmacy;
+    => nrel_associative_connection: by_central_district_city_hospital_polyclinic_pharmacy;
+
+    => nrel_etalon_online_idx: [12510];;

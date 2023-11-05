@@ -1,0 +1,75 @@
+
+by_budget_quaterly_report
+    => nrel_main_idtf: [budget quaterly report] (* <- lang_en;; *);
+    => nrel_main_idtf: [бюджетная роспись] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бюджэтны роспіс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_quaterly_report_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_quaterly_report_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_quaterly_report_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_quaterly_report_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budget_estimate;
+    => nrel_associative_connection: by_budgetary_provisions;
+    => nrel_associative_connection: by_budget_income;
+    => nrel_associative_connection: by_budgetary_funds_recipient;
+    => nrel_associative_connection: by_budget_expenses;
+
+    => nrel_etalon_online_idx: [2314];;

@@ -1,0 +1,37 @@
+
+by_trafficking_in_firearms_and_ammunition
+    => nrel_main_idtf: [trafficking in firearms and ammunition] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборот оружия и боеприпасов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот зброі і боепрыпасаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trafficking_in_firearms_and_ammunition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ammunition;
+    => nrel_associative_connection: by_ammunition_to_weapons;
+    => nrel_associative_connection: by_turnover;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_firearms_tracking;
+    => nrel_associative_connection: by_cool_weapon;
+    => nrel_associative_connection: by_ammunition_lot;
+    => nrel_associative_connection: by_weapons_lot;
+    => nrel_associative_connection: by_patron;
+    => nrel_associative_connection: by_confirmation_of_weapons_and_ammunition_conformity;
+    => nrel_associative_connection: by_production_data_of_ammunition;
+    => nrel_associative_connection: by_arms_and_ammunition_production;
+    => nrel_associative_connection: by_sport_arms;
+
+    => nrel_etalon_online_idx: [6359];;

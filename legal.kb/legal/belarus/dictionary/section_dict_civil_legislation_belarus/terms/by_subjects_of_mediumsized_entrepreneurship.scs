@@ -1,0 +1,30 @@
+
+by_subjects_of_mediumsized_entrepreneurship
+    => nrel_main_idtf: [subjects of medium-sized entrepreneurship] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты среднего предпринимательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты сярэдняга прадпрымальніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_mediumsized_entrepreneurship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_individual_entrepreneurs;
+    => nrel_associative_connection: by_micro_organization;
+    => nrel_associative_connection: by_society_for_mutual_financing_of_small_and_mediumsized_businesses;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_subject_of_entrepreneurial_activities;
+    => nrel_associative_connection: by_subjects_of_infrastructure_support_of_small_and_mediumsized_entrepreneurship;
+
+    => nrel_etalon_online_idx: [24460];;

@@ -1,0 +1,26 @@
+
+by_inflatable_game_equipment
+    => nrel_main_idtf: [inflatable game equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборудование игровое надувное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абсталяванне гульнявое надзіманае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inflatable_game_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_park_amusement;
+    => nrel_associative_connection: by_amusement_complex;
+
+    => nrel_etalon_online_idx: [42125];;

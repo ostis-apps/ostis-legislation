@@ -1,0 +1,30 @@
+
+by_payment_market_of_the_republic_of_belarus
+    => nrel_main_idtf: [payment market of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный рынок республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны рынак рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_market_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monetary_transfer_of_electronic_money;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_payment_market_participant_risk;
+    => nrel_associative_connection: by_service_critical_for_the_payment_system_payment_market;
+
+    => nrel_etalon_online_idx: [40371];;

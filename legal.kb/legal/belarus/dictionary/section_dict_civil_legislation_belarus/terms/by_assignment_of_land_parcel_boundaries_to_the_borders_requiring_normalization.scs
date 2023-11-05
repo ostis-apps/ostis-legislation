@@ -1,0 +1,35 @@
+
+by_assignment_of_land_parcel_boundaries_to_the_borders_requiring_normalization
+    => nrel_main_idtf: [assignment of land parcel boundaries to the borders requiring normalization] (* <- lang_en;; *);
+    => nrel_main_idtf: [отнесение границ земельных участков к границам, требующим нормализации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднясенне меж зямельных участкаў да меж, якія патрабуюць нармалізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assignment_of_land_parcel_boundaries_to_the_borders_requiring_normalization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_land_plot_border;
+    => nrel_associative_connection: by_land_plot_borders_requiring_normalization;
+    => nrel_associative_connection: by_land_dispute;
+    => nrel_associative_connection: by_land_planning;
+    => nrel_associative_connection: by_change_of_land_plot_borders;
+    => nrel_associative_connection: by_unfixed_boundary_of_the_land_plot;
+    => nrel_associative_connection: by_normalization_of_land_boundaries;
+    => nrel_associative_connection: by_normalized_borders_of_land_plots;
+    => nrel_associative_connection: by_normalized_borders_of_land_plots;
+    => nrel_associative_connection: by_comparison_monitoring_of_borders_of_land_plots;
+    => nrel_associative_connection: by_fixed_border_of_the_land_plot;
+
+    => nrel_etalon_online_idx: [19552];;

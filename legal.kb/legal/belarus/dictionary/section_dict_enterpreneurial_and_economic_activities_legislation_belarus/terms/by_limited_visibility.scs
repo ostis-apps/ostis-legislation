@@ -1,0 +1,47 @@
+
+by_limited_visibility
+    => nrel_main_idtf: [limited visibility] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограниченная видимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежаваная бачнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limited_visibility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limited_visibility_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_visibility;
+    => nrel_associative_connection: by_visibility_vertical;
+    => nrel_associative_connection: by_visibility_of_the_road;
+    => nrel_associative_connection: by_visibility_meteorological;
+    => nrel_associative_connection: by_visibility_in_flight;
+    => nrel_associative_connection: by_visibility_landing;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_insufficient_visibility_of_road;
+
+    => nrel_etalon_online_idx: [18850];;

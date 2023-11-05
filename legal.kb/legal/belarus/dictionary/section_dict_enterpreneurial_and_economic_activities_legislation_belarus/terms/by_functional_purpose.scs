@@ -1,0 +1,28 @@
+
+by_functional_purpose
+    => nrel_main_idtf: [functional purpose] (* <- lang_en;; *);
+    => nrel_main_idtf: [функциональное назначение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [функцыянальнае прызначэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_functional_purpose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_equivalent;
+    => nrel_associative_connection: by_interchangeable_similar_goods;
+    => nrel_associative_connection: by_composition_of_consumer_properties_and_indicators_of_the_goods_its_substitutes;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [26111];;

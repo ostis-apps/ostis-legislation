@@ -1,0 +1,31 @@
+
+by_industrial_property_processing
+    => nrel_main_idtf: [industrial property processing] (* <- lang_en;; *);
+    => nrel_main_idtf: [промышленная переработка имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловая перапрацоўка маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_property_processing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_loss_of_property;
+    => nrel_associative_connection: by_quality_of_property;
+    => nrel_associative_connection: by_recycling;
+    => nrel_associative_connection: by_perishable_property;
+    => nrel_associative_connection: by_commodity_examination;
+    => nrel_associative_connection: by_destruction_of_property;
+    => nrel_associative_connection: by_disposal_of_property;
+
+    => nrel_etalon_online_idx: [21640];;

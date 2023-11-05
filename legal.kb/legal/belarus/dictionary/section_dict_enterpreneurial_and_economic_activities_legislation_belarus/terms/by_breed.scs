@@ -1,0 +1,60 @@
+
+by_breed
+    => nrel_main_idtf: [breed] (* <- lang_en;; *);
+    => nrel_main_idtf: [порода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breed_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breed_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_approbation;
+    => nrel_associative_connection: by_gene_pool_economy;
+    => nrel_associative_connection: by_cross;
+    => nrel_associative_connection: by_line;
+    => nrel_associative_connection: by_productivity;
+    => nrel_associative_connection: by_type;
+
+    => nrel_etalon_online_idx: [34301];;

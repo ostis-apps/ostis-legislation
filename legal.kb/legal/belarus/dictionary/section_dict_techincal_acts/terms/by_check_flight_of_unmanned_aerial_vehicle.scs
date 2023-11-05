@@ -1,0 +1,30 @@
+
+by_check_flight_of_unmanned_aerial_vehicle
+    => nrel_main_idtf: [check flight of unmanned aerial vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольный полет беспилотного летательного аппарата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольны палёт беспілотнага лятальнага апарата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_check_flight_of_unmanned_aerial_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_map_of_control_reports;
+    => nrel_associative_connection: by_control_flight;
+    => nrel_associative_connection: by_aircraft_control_flight;
+    => nrel_associative_connection: by_state_aircraft_check_flight;
+    => nrel_associative_connection: by_test_flight_control_flight;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle_overflight;
+
+    => nrel_etalon_online_idx: [40944];;

@@ -1,0 +1,31 @@
+
+by_landing
+    => nrel_main_idtf: [landing] (* <- lang_en;; *);
+    => nrel_main_idtf: [лестничная площадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесвічная пляцоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_landing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_stairs;
+    => nrel_associative_connection: by_staircase;
+    => nrel_associative_connection: by_flight_of_stairs;
+    => nrel_associative_connection: by_site_technological_site;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [28447];;

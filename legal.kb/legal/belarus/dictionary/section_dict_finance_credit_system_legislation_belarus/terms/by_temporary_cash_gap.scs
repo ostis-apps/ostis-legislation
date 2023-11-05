@@ -1,0 +1,45 @@
+
+by_temporary_cash_gap
+    => nrel_main_idtf: [temporary cash gap] (* <- lang_en;; *);
+    => nrel_main_idtf: [временный кассовый разрыв] (* <- lang_ru;; *);
+    => nrel_main_idtf: [часовы касавы разрыў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_cash_gap_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_cash_gap_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_cash_service_for_budget_execution;
+    => nrel_associative_connection: by_cash_charges;
+    => nrel_associative_connection: by_cash_budget_expenses;
+    => nrel_associative_connection: by_charges;
+
+    => nrel_etalon_online_idx: [13277];;

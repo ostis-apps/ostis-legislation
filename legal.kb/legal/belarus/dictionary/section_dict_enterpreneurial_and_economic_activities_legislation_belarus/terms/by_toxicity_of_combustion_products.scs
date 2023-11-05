@@ -1,0 +1,28 @@
+
+by_toxicity_of_combustion_products
+    => nrel_main_idtf: [toxicity of combustion products] (* <- lang_en;; *);
+    => nrel_main_idtf: [токсичность продуктов горения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таксічнасць прадуктаў гарэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_toxicity_of_combustion_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_smoke;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_reactivity;
+    => nrel_associative_connection: by_toxicity;
+
+    => nrel_etalon_online_idx: [25051];;

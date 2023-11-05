@@ -1,0 +1,49 @@
+
+by_shooting_weapon
+    => nrel_main_idtf: [shooting weapon] (* <- lang_en;; *);
+    => nrel_main_idtf: [стрелковое оружие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стралковая зброя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shooting_weapon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shooting_weapon_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_movement_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_a_product_structurally_similar_to_handheld_small_arms;
+    => nrel_associative_connection: by_propelling_weapons;
+    => nrel_associative_connection: by_nomenclature_of_arms_and_ammunition;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_small_arms_cartridge;
+    => nrel_associative_connection: by_sports_shooting_range;
+    => nrel_associative_connection: by_shooting_sections;
+    => nrel_associative_connection: by_shooting_stand;
+    => nrel_associative_connection: by_shooting_range;
+
+    => nrel_etalon_online_idx: [24346];;

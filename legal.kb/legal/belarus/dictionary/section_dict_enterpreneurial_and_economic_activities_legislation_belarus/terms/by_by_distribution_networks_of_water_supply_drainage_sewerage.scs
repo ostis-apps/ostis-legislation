@@ -1,0 +1,28 @@
+
+by_by_distribution_networks_of_water_supply_drainage_sewerage
+    => nrel_main_idtf: [by_distribution_networks_of_water_supply_drainage_sewerage] (* <- lang_en;; *);
+    => nrel_main_idtf: [распределительные сети водоснабжения, водоотведения (канализации)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [размеркавальныя сеткі водазабеспячэння, водаадвядзення (каналізацыі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_distribution_networks_of_water_supply_drainage_sewerage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_sewage_network_sewage;
+    => nrel_associative_connection: by_organization_of_watersewer_economy__wse_organization;
+    => nrel_associative_connection: by_distribution_water_supply_network;
+
+    => nrel_etalon_online_idx: [30632];;

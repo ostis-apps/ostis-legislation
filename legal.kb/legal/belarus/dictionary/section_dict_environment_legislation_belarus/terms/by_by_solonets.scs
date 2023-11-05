@@ -1,0 +1,28 @@
+
+by_by_solonets
+    => nrel_main_idtf: [by_solonets] (* <- lang_en;; *);
+    => nrel_main_idtf: [солонец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [саланец] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_solonets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_artificial_nesting;
+    => nrel_associative_connection: by_main_type_of_hunting_animals;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_number_of_hunting_animals;
+
+    => nrel_etalon_online_idx: [23553];;

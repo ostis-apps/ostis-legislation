@@ -1,0 +1,28 @@
+
+by_event_on_scientific_support_of_the_program_subprogram
+    => nrel_main_idtf: [event on scientific support of the program (subprogram)] (* <- lang_en;; *);
+    => nrel_main_idtf: [мероприятие по научному обеспечению программы (подпрограммы)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мерапрыемства па навуковым забеспячэнні праграмы (падпраграмы)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_event_on_scientific_support_of_the_program_subprogram_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_technological_works;
+
+    => nrel_etalon_online_idx: [10306];;

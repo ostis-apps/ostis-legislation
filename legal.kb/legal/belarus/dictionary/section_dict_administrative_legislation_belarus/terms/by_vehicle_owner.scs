@@ -1,0 +1,48 @@
+
+by_vehicle_owner
+    => nrel_main_idtf: [vehicle owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [собственник транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уласнік транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_owner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owner_of_the_vehicle_used_for_transport_of_dangerous_goods;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_primary_vehicle_market;
+    => nrel_associative_connection: by_payers_of_motor_vehicle_purchase_tax;
+    => nrel_associative_connection: by_provision_of_vehicles;
+    => nrel_associative_connection: by_person_authorized_by_the_owner_proprietor;
+    => nrel_associative_connection: by_physical_person;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [23443];;

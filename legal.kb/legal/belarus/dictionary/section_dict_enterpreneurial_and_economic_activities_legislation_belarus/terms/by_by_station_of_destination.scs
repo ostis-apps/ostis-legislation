@@ -1,0 +1,29 @@
+
+by_by_station_of_destination
+    => nrel_main_idtf: [by_station_of_destination] (* <- lang_en;; *);
+    => nrel_main_idtf: [станция назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [станцыя прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_station_of_destination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_destination;
+    => nrel_associative_connection: by_station;
+    => nrel_associative_connection: by_departure_station;
+
+    => nrel_etalon_online_idx: [42677];;

@@ -1,0 +1,34 @@
+
+by_aeroionotherapy
+    => nrel_main_idtf: [aeroionotherapy] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэроионотерапия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэраіонатэрапія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aeroionotherapy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balneotherapy;
+    => nrel_associative_connection: by_barotherapy;
+    => nrel_associative_connection: by_halotherapy;
+    => nrel_associative_connection: by_hypoxytherapy;
+    => nrel_associative_connection: by_inhalation_therapy;
+    => nrel_associative_connection: by_carboxytherapy;
+    => nrel_associative_connection: by_airion_concentration;
+    => nrel_associative_connection: by_unipolarity_coefficient_u;
+    => nrel_associative_connection: by_curorthology;
+    => nrel_associative_connection: by_ozone_therapy;
+
+    => nrel_etalon_online_idx: [35318];;

@@ -1,0 +1,30 @@
+
+by_hook
+    => nrel_main_idtf: [hook] (* <- lang_en;; *);
+    => nrel_main_idtf: [крюк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крук] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hook_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_major_axis;
+    => nrel_associative_connection: by_closed_carbine;
+    => nrel_associative_connection: by_locking_joint;
+    => nrel_associative_connection: by_contactor;
+    => nrel_associative_connection: by_shutter;
+    => nrel_associative_connection: by_minor_axis;
+
+    => nrel_etalon_online_idx: [32005];;

@@ -1,0 +1,30 @@
+
+by_agreement_on_marine_mediation_services
+    => nrel_main_idtf: [agreement on marine mediation services] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор оказания морских посреднических услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор аказання марскіх пасрэдніцкіх паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agreement_on_marine_mediation_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_towage_contract;
+    => nrel_associative_connection: by_service_contract_the_marine_agent;
+    => nrel_associative_connection: by_freight_agreement;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_intermediary_activity;
+    => nrel_associative_connection: by_mediation_services;
+
+    => nrel_etalon_online_idx: [14284];;

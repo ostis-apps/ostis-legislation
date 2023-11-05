@@ -1,0 +1,26 @@
+
+by_ineffective_treatment
+    => nrel_main_idtf: [ineffective treatment] (* <- lang_en;; *);
+    => nrel_main_idtf: [неэффективное лечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неэфектыўнае лячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ineffective_treatment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sick_person_with_tuberculosis;
+    => nrel_associative_connection: by_cure_for_a_cohort_of_patients_with_rifampicinresistant_tuberculosis;
+
+    => nrel_etalon_online_idx: [37704];;

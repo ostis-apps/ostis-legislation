@@ -1,0 +1,14 @@
+
+by_by_maximum_permissible_gross_mass
+    => nrel_main_idtf: [by_maximum_permissible_gross_mass] (* <- lang_en;; *);
+    => nrel_main_idtf: [максимально допустимая масса брутто цистерн] (* <- lang_ru;; *);
+    => nrel_main_idtf: [максімальна дапушчальная маса брута цыстэран] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_maximum_permissible_gross_weight_of_intermediate_bulk_container_other_than_flexible_intermediate_bulk_containers;
+    => nrel_associative_connection: by_allowable_load_limit;
+    => nrel_associative_connection: by_portable_tank;
+    => nrel_associative_connection: by_tank;
+
+    => nrel_etalon_online_idx: [16843];;

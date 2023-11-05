@@ -1,0 +1,27 @@
+
+by_bookmark_of_economic_books
+    => nrel_main_idtf: [bookmark of economic books] (* <- lang_en;; *);
+    => nrel_main_idtf: [закладка похозяйственных книг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [закладка пагаспадаркавых кніг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bookmark_of_economic_books_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_household;
+    => nrel_associative_connection: by_household;
+    => nrel_associative_connection: by_book;
+
+    => nrel_etalon_online_idx: [14777];;

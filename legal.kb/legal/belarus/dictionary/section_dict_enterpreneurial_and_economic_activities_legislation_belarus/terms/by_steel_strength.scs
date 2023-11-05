@@ -1,0 +1,36 @@
+
+by_steel_strength
+    => nrel_main_idtf: [steel strength] (* <- lang_en;; *);
+    => nrel_main_idtf: [прочность стали] (* <- lang_ru;; *);
+    => nrel_main_idtf: [моц сталі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_steel_strength_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_builtin_humidity_relay;
+    => nrel_associative_connection: by_builtin_conductive_humidity_sensor;
+    => nrel_associative_connection: by_integrated_float_switch;
+    => nrel_associative_connection: by_number_of_powerup_cycles;
+    => nrel_associative_connection: by_coefficient_of_operating_conditions_of_structures_and_structural_elements;
+    => nrel_associative_connection: by_pump_with_a_cutter_mechanism;
+    => nrel_associative_connection: by_submersible_installation_of_pump_units_submersible_installation;
+    => nrel_associative_connection: by_semisubmersible_installation_of_pump_units_semisubmersible_installation;
+    => nrel_associative_connection: by_calculated_length;
+    => nrel_associative_connection: by_calculated_value_of_the_steel_strength;
+    => nrel_associative_connection: by_dry_installation_of_pumping_units_dry_installation;
+    => nrel_associative_connection: by_characteristic_value_of_the_strength_of_steel;
+
+    => nrel_etalon_online_idx: [38821];;

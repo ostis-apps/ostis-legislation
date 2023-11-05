@@ -1,0 +1,29 @@
+
+by_combined_artificial_lighting
+    => nrel_main_idtf: [combined artificial lighting] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбинированное искусственное освещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбінаванае штучнае асвятленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_artificial_lighting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_natural_lighting;
+    => nrel_associative_connection: by_artificial_lighting;
+    => nrel_associative_connection: by_accent_lighting;
+    => nrel_associative_connection: by_general_lighting;
+    => nrel_associative_connection: by_combined_lighting;
+
+    => nrel_etalon_online_idx: [41746];;

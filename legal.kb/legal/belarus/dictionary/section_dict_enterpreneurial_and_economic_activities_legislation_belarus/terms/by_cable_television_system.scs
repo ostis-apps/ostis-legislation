@@ -1,0 +1,32 @@
+
+by_cable_television_system
+    => nrel_main_idtf: [cable television system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система кабельного телевидения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма кабельнага тэлебачання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cable_television_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscribers_socket;
+    => nrel_associative_connection: by_media_dimensions;
+    => nrel_associative_connection: by_organization_of_air_or_cable_broadcasting;
+    => nrel_associative_connection: by_transfer_of_organization_of_air_or_cable_broadcasting;
+    => nrel_associative_connection: by_cable_transmission_cable_broadcasting;
+    => nrel_associative_connection: by_ott_service_provider;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_television_broadcasting_service;
+
+    => nrel_etalon_online_idx: [23171];;

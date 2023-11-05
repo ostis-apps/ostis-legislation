@@ -1,0 +1,34 @@
+
+by_zonal_navigation
+    => nrel_main_idtf: [zonal navigation] (* <- lang_en;; *);
+    => nrel_main_idtf: [зональная навигация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [занальная навігацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zonal_navigation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_airnavigation_data;
+    => nrel_associative_connection: by_air_navigation;
+    => nrel_associative_connection: by_aerial_navigation;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_zonal_navigation_route;
+    => nrel_associative_connection: by_navigational_activity;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigational_technologies;
+    => nrel_associative_connection: by_navigation;
+    => nrel_associative_connection: by_navigation_tools;
+
+    => nrel_etalon_online_idx: [15046];;

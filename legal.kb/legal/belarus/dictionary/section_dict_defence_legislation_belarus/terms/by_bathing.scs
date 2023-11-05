@@ -1,0 +1,29 @@
+
+by_bathing
+    => nrel_main_idtf: [bathing] (* <- lang_en;; *);
+    => nrel_main_idtf: [купание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [купанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bathing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_swimming_season;
+    => nrel_associative_connection: by_baths;
+    => nrel_associative_connection: by_bathing_place;
+    => nrel_associative_connection: by_protection_of_human_life_on_water;
+    => nrel_associative_connection: by_rescue_station;
+
+    => nrel_etalon_online_idx: [9323];;

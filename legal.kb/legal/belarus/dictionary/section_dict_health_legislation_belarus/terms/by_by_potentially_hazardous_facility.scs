@@ -1,0 +1,29 @@
+
+by_by_potentially_hazardous_facility
+    => nrel_main_idtf: [by_potentially_hazardous_facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [потенциально опасный биологический объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патэнцыяльна небяспечны біялагічны аб'ект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_potentially_hazardous_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_safety;
+    => nrel_associative_connection: by_biological_protection;
+    => nrel_associative_connection: by_source_of_biological_hazard;
+    => nrel_associative_connection: by_hazardous_biological_factor;
+    => nrel_associative_connection: by_pathogenic_biological_agents;
+
+    => nrel_etalon_online_idx: [39947];;

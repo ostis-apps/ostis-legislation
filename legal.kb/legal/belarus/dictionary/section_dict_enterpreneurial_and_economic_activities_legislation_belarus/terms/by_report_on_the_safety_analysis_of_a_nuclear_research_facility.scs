@@ -1,0 +1,28 @@
+
+by_report_on_the_safety_analysis_of_a_nuclear_research_facility
+    => nrel_main_idtf: [report on the safety analysis of a nuclear research facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [отчет по обоснованию безопасности исследовательской ядерной установки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаздача па абгрунтаванні бяспекі даследчай ядзернай устаноўкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_report_on_the_safety_analysis_of_a_nuclear_research_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_nuclear_research_facilities_nuclear_radiation;
+    => nrel_associative_connection: by_research_nuclear_installation;
+    => nrel_associative_connection: by_dose_quota_for_nuclear_research_facility;
+    => nrel_associative_connection: by_disturbance_of_normal_exploitation_of_a_nuclear_research_facility;
+
+    => nrel_etalon_online_idx: [38573];;

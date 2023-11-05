@@ -1,0 +1,32 @@
+
+by_center_of_reference_legal_information
+    => nrel_main_idtf: [center of reference legal information] (* <- lang_en;; *);
+    => nrel_main_idtf: [центр эталонной правовой информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтр эталоннай прававой інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_center_of_reference_legal_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_system_of_legal_information_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_legal_information;
+    => nrel_associative_connection: by_provision_of_legal_information;
+    => nrel_associative_connection: by_public_legal_information_center;
+    => nrel_associative_connection: by_regional_legal_information_centers;
+    => nrel_associative_connection: by_center;
+    => nrel_associative_connection: by_standard_legal_information;
+    => nrel_associative_connection: by_standard_databank_of_legal_information_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [26245];;

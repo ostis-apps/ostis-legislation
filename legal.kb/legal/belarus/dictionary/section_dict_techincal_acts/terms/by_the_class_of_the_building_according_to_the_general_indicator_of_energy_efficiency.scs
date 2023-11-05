@@ -1,0 +1,31 @@
+
+by_the_class_of_the_building_according_to_the_general_indicator_of_energy_efficiency
+    => nrel_main_idtf: [the class of the building according to the general indicator of energy efficiency] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс здания по общему показателю энергетической эффективности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас будынка па агульным паказчыку энергетычнай эфектыўнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_class_of_the_building_according_to_the_general_indicator_of_energy_efficiency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_base_value_of_energy_indicator;
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_class_of_the_building_in_terms_of_specific_energy_consumption_for_heating_and_ventilation;
+    => nrel_associative_connection: by_building_class_by_specific_energy_consumption_for_heating_water_in_the_hot_water_supply_system;
+    => nrel_associative_connection: by_heating;
+
+    => nrel_etalon_online_idx: [37267];;

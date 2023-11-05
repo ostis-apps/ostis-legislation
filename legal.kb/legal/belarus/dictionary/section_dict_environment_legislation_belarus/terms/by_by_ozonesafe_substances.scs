@@ -1,0 +1,27 @@
+
+by_by_ozonesafe_substances
+    => nrel_main_idtf: [by_ozonesafe_substances] (* <- lang_en;; *);
+    => nrel_main_idtf: [озонобезопасные вещества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [азонабяспечныя рэчывы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_ozonesafe_substances_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ozonesafe_technologies;
+    => nrel_associative_connection: by_ozonedepleting_substances;
+    => nrel_associative_connection: by_protection_of_the_ozone_layer;
+
+    => nrel_etalon_online_idx: [41504];;

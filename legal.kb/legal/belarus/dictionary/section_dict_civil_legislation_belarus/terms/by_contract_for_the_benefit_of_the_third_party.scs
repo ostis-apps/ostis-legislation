@@ -1,0 +1,42 @@
+
+by_contract_for_the_benefit_of_the_third_party
+    => nrel_main_idtf: [contract for the benefit of the third party] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор в пользу третьего лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор на карысць трэцяй асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_for_the_benefit_of_the_third_party_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_for_the_benefit_of_the_third_party_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_third_party;
+
+    => nrel_etalon_online_idx: [1437];;

@@ -1,0 +1,27 @@
+
+by_planned_current_repair_of_technical_means_of_computer_equipment
+    => nrel_main_idtf: [planned current repair of technical means of computer equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [плановый текущий ремонт технических средств вычислительной техники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [планавы цяперашні рамонт тэхнічных сродкаў вылічальнай тэхнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_planned_current_repair_of_technical_means_of_computer_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_repair_of_technical_means_of_computer_equipment;
+    => nrel_associative_connection: by_architecture_of_the_computer_machine;
+    => nrel_associative_connection: by_complex_centralized_service_of_means_of_computer_equipment;
+
+    => nrel_etalon_online_idx: [33161];;

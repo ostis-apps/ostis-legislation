@@ -1,0 +1,15 @@
+
+by_safety_requirements
+    => nrel_main_idtf: [safety requirements] (* <- lang_en;; *);
+    => nrel_main_idtf: [требования безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патрабаванні бяспекі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_protective_device;
+    => nrel_associative_connection: by_cab_work_light;
+    => nrel_associative_connection: by_essential_safety_requirements;
+    => nrel_associative_connection: by_navigation_safety_requirements;
+
+    => nrel_etalon_online_idx: [25263];;

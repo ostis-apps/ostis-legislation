@@ -1,0 +1,34 @@
+
+by_expert_assessor
+    => nrel_main_idtf: [expert assessor] (* <- lang_en;; *);
+    => nrel_main_idtf: [эксперт-оценщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эксперт-ацэншчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expert_assessor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_harm_assessment_executor;
+    => nrel_associative_connection: by_valuation_activity;
+    => nrel_associative_connection: by_appraiser;
+    => nrel_associative_connection: by_property_appraiser;
+    => nrel_associative_connection: by_property_appraiser_except_vehicles;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_appraisertrainee_of_the_vehicle;
+    => nrel_associative_connection: by_preliminary_assessment_of_property;
+    => nrel_associative_connection: by_preliminary_cost_of_property;
+    => nrel_associative_connection: by_applicant_for_obtaining_the_certificate_on_appraiser_attestation;
+
+    => nrel_etalon_online_idx: [26505];;

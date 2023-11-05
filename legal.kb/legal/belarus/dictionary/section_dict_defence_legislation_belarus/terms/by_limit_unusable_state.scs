@@ -1,0 +1,42 @@
+
+by_limit_unusable_state
+    => nrel_main_idtf: [limit (unusable) state] (* <- lang_en;; *);
+    => nrel_main_idtf: [предельное (негодное) состояние] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранічны (нягодны) стан] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_unusable_state_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_and_technical_property_mtp;
+    => nrel_associative_connection: by_arm_military_equipment;
+    => nrel_associative_connection: by_wear;
+    => nrel_associative_connection: by_spent_resource;
+    => nrel_associative_connection: by_assigned_technical_resource;
+    => nrel_associative_connection: by_designated_service_life_period;
+    => nrel_associative_connection: by_accumulated_wear;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_limiting_condition;
+    => nrel_associative_connection: by_workable_state;
+    => nrel_associative_connection: by_resource_consumption;
+    => nrel_associative_connection: by_writing_off_of_measuring_instruments;
+    => nrel_associative_connection: by_writeoff_of_means_of_communication;
+    => nrel_associative_connection: by_service_life_period;
+    => nrel_associative_connection: by_shelf_life;
+    => nrel_associative_connection: by_service_life;
+    => nrel_associative_connection: by_technical_certification;
+    => nrel_associative_connection: by_physical_deterioration;
+
+    => nrel_etalon_online_idx: [21010];;

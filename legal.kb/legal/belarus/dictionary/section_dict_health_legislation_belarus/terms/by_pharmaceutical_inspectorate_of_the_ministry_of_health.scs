@@ -1,0 +1,28 @@
+
+by_pharmaceutical_inspectorate_of_the_ministry_of_health
+    => nrel_main_idtf: [pharmaceutical inspectorate of the ministry of health] (* <- lang_en;; *);
+    => nrel_main_idtf: [фармацевтический инспекторат министерства здравоохранения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фармацэўтычны инспекторат міністэрствы аховы здароўя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmaceutical_inspectorate_of_the_ministry_of_health_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_production_site_dossier;
+    => nrel_associative_connection: by_inspection_of_the_production_site;
+    => nrel_associative_connection: by_online_pharmacy;
+    => nrel_associative_connection: by_certificate_of_conformity_of_the_industrial_manufacture_of_drugs_to_the_requirements_of_good_manufacturing_practice_gmp;
+
+    => nrel_etalon_online_idx: [36177];;

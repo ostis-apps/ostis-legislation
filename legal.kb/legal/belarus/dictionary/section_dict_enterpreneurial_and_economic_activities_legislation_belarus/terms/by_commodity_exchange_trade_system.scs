@@ -1,0 +1,15 @@
+
+by_commodity_exchange_trade_system
+    => nrel_main_idtf: [commodity exchange trade system] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговая система товарной биржи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвая сістэма таварнай біржы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_information_trade_system_of_commodity_exchange;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_commodity_exchange;
+    => nrel_associative_connection: by_trade_system;
+    => nrel_associative_connection: by_exchange_trade_system;
+
+    => nrel_etalon_online_idx: [25081];;

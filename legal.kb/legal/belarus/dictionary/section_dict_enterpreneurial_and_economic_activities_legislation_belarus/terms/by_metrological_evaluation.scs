@@ -1,0 +1,31 @@
+
+by_metrological_evaluation
+    => nrel_main_idtf: [metrological evaluation] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологическая оценка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічная ацэнка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_evaluation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_metrological_service;
+    => nrel_associative_connection: by_metrological_characteristics_of_measuring_instruments;
+    => nrel_associative_connection: by_metrological_requirements;
+    => nrel_associative_connection: by_metrological_control;
+    => nrel_associative_connection: by_metrology;
+    => nrel_associative_connection: by_verification_of_the_measuring_instrument_verification;
+    => nrel_associative_connection: by_authorized_legal_entity;
+
+    => nrel_etalon_online_idx: [32077];;

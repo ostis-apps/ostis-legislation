@@ -1,0 +1,37 @@
+
+by_recipient_bank_beneficiary_bank
+    => nrel_main_idtf: [recipient bank (beneficiary bank)] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-получатель (банк бенефициара)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-атрымальнік (банк бенефіцыяра)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recipient_bank_beneficiary_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_beneficiary_bank;
+    => nrel_associative_connection: by_beneficiarys_bank_beneficiarys_agent;
+    => nrel_associative_connection: by_recoverer_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_sending_bank_paying_bank;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_beneficiary;
+    => nrel_associative_connection: by_intrastate_bank_transfer;
+    => nrel_associative_connection: by_foreign_banks;
+    => nrel_associative_connection: by_foreign_bank;
+    => nrel_associative_connection: by_bank_transfer_participant;
+
+    => nrel_etalon_online_idx: [41228];;

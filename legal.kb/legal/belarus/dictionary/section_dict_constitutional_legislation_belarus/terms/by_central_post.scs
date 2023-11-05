@@ -1,0 +1,31 @@
+
+by_central_post
+    => nrel_main_idtf: [central post] (* <- lang_en;; *);
+    => nrel_main_idtf: [центральный пост] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтральны пост] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_central_post_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tokenoperated_control_system;
+    => nrel_associative_connection: by_protected_zone;
+    => nrel_associative_connection: by_post;
+    => nrel_associative_connection: by_post_of_television_operation_of_station_work;
+    => nrel_associative_connection: by_centralization_post;
+    => nrel_associative_connection: by_pointsman;
+    => nrel_associative_connection: by_head_of_paramilitary_and_or_guard;
+
+    => nrel_etalon_online_idx: [26267];;

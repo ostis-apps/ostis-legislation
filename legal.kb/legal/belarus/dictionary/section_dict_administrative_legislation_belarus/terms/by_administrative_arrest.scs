@@ -1,0 +1,28 @@
+
+by_administrative_arrest
+    => nrel_main_idtf: [administrative arrest] (* <- lang_en;; *);
+    => nrel_main_idtf: [административный арест] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйны арышт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_arrest_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_detainees;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_ban_to_attend_sports_constructions;
+    => nrel_associative_connection: by_detention;
+
+    => nrel_etalon_online_idx: [946];;

@@ -1,0 +1,14 @@
+
+by_overthecounter_market
+    => nrel_main_idtf: [over-the-counter market] (* <- lang_en;; *);
+    => nrel_main_idtf: [внебиржевой рынок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пазабіржавы рынак] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_stock_exchange_market;
+    => nrel_associative_connection: by_overthecounter_deal;
+    => nrel_associative_connection: by_overthecounter_foreign_exchange_market;
+    => nrel_associative_connection: by_visitor_of_stock_exchange_trading_sessions;
+
+    => nrel_etalon_online_idx: [8588];;

@@ -1,0 +1,27 @@
+
+by_measurement_port
+    => nrel_main_idtf: [measurement port] (* <- lang_en;; *);
+    => nrel_main_idtf: [измерительный порт ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вымяральны порт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_measurement_port_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_measuring_line;
+    => nrel_associative_connection: by_measuring_plane;
+    => nrel_associative_connection: by_measuring_point;
+
+    => nrel_etalon_online_idx: [42454];;

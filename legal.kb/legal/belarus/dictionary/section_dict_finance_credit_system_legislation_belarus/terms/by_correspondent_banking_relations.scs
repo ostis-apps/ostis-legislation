@@ -1,0 +1,28 @@
+
+by_correspondent_banking_relations
+    => nrel_main_idtf: [correspondent banking relations] (* <- lang_en;; *);
+    => nrel_main_idtf: [корреспондентские банковские отношения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карэспандэнцкія банкаўскія адносіны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_correspondent_banking_relations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_service_product;
+    => nrel_associative_connection: by_client_performing_onetime_operation;
+    => nrel_associative_connection: by_singletype_financial_operations;
+    => nrel_associative_connection: by_suspicious_financial_transaction;
+
+    => nrel_etalon_online_idx: [36593];;

@@ -1,0 +1,39 @@
+
+by_archive_catalogue
+    => nrel_main_idtf: [archive catalogue] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивный каталог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архіўны каталог] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_catalogue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_abstract;
+    => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_archive_catalog_archive_cardboard;
+    => nrel_associative_connection: by_archive_stock;
+    => nrel_associative_connection: by_archival_science;
+    => nrel_associative_connection: by_maintenance_of_catalogue;
+    => nrel_associative_connection: by_state_cataloguing_products_system;
+    => nrel_associative_connection: by_state_archive;
+    => nrel_associative_connection: by_named_catalogue_for_audiovisual_documents;
+    => nrel_associative_connection: by_catalogue_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_archive_profile;
+    => nrel_associative_connection: by_guidebook;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+
+    => nrel_etalon_online_idx: [5267];;

@@ -1,0 +1,30 @@
+
+by_refresh
+    => nrel_main_idtf: [refresh] (* <- lang_en;; *);
+    => nrel_main_idtf: [подновка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refresh_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_vzdymka;
+    => nrel_associative_connection: by_the_height_of_the_carry;
+    => nrel_associative_connection: by_the_depth_of_the_newcoming;
+    => nrel_associative_connection: by_vzdymky_pause;
+    => nrel_associative_connection: by_browning;
+    => nrel_associative_connection: by_carra_worktop;
+
+    => nrel_etalon_online_idx: [30583];;

@@ -1,0 +1,46 @@
+
+by_nursery
+    => nrel_main_idtf: [nursery] (* <- lang_en;; *);
+    => nrel_main_idtf: [питомник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гадавальнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nursery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nursery_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wild_animalsr_elated_to_rare_and_under_threatened_species_of_wild_animals;
+    => nrel_associative_connection: by_lands_used_for_nature_protection_purposes;
+    => nrel_associative_connection: by_red_book_of_republic_of_belarus;
+    => nrel_associative_connection: by_forest_nursery;
+    => nrel_associative_connection: by_environmental_environmental_activity_protection;
+    => nrel_associative_connection: by_seedling_section_of_the_forest_nursery;
+    => nrel_associative_connection: by_transplant_section_of_the_forest_nursery;
+
+    => nrel_etalon_online_idx: [20149];;

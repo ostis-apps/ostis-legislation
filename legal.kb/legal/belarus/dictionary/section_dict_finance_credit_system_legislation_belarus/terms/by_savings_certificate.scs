@@ -1,0 +1,29 @@
+
+by_savings_certificate
+    => nrel_main_idtf: [savings certificate] (* <- lang_en;; *);
+    => nrel_main_idtf: [сберегательный сертификат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ашчадны сертыфікат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_savings_certificate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bearer_savings_bank_book;
+    => nrel_associative_connection: by_certificate_owner;
+    => nrel_associative_connection: by_bank_deposit_contract;
+    => nrel_associative_connection: by_nominal_savings_book;
+    => nrel_associative_connection: by_certificate;
+
+    => nrel_etalon_online_idx: [6852];;

@@ -1,0 +1,28 @@
+
+by_reference_level
+    => nrel_main_idtf: [reference level] (* <- lang_en;; *);
+    => nrel_main_idtf: [референтный уровень] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэферэнтны ўзровень] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reference_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_diagnostic_reference_level;
+    => nrel_associative_connection: by_free_access_zone;
+    => nrel_associative_connection: by_planned_exposure_situation;
+    => nrel_associative_connection: by_effective_radioactive_dose;
+
+    => nrel_etalon_online_idx: [42382];;

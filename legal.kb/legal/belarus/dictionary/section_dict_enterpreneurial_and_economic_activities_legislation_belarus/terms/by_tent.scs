@@ -1,0 +1,63 @@
+
+by_tent
+    => nrel_main_idtf: [tent] (* <- lang_en;; *);
+    => nrel_main_idtf: [палатка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палатка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tent_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stall;
+    => nrel_associative_connection: by_stall;
+    => nrel_associative_connection: by_method_of_customer_service;
+    => nrel_associative_connection: by_method_of_goods_sale;
+    => nrel_associative_connection: by_pavilion;
+    => nrel_associative_connection: by_counter;
+    => nrel_associative_connection: by_seller;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_trade_subject;
+    => nrel_associative_connection: by_trade_subjects;
+    => nrel_associative_connection: by_technically_complex_household_goods;
+    => nrel_associative_connection: by_sales_receipt;
+    => nrel_associative_connection: by_product_label_label;
+    => nrel_associative_connection: by_trade_area;
+    => nrel_associative_connection: by_trade_in_markets;
+    => nrel_associative_connection: by_trade_at_fairs;
+    => nrel_associative_connection: by_trade_place;
+    => nrel_associative_connection: by_trade_equipment;
+    => nrel_associative_connection: by_trade_services;
+    => nrel_associative_connection: by_trade_object;
+    => nrel_associative_connection: by_shopping_row;
+    => nrel_associative_connection: by_services_related_to_the_sale_of_goods;
+    => nrel_associative_connection: by_form_of_retail_trade;
+    => nrel_associative_connection: by_price_tag;
+
+    => nrel_etalon_online_idx: [19769];;

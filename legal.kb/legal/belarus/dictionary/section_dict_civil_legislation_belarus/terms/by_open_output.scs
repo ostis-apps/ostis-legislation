@@ -1,0 +1,28 @@
+
+by_open_output
+    => nrel_main_idtf: [open output] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытый объем выпуска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрыты аб'ём выпуску] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_output_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_issue_of_securities;
+    => nrel_associative_connection: by_securities_turnover;
+    => nrel_associative_connection: by_bond_issuance_amount;
+    => nrel_associative_connection: by_established_volume_of_issue;
+
+    => nrel_etalon_online_idx: [19536];;

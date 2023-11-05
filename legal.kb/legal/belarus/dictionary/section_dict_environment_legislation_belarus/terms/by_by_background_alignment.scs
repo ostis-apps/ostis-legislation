@@ -1,0 +1,27 @@
+
+by_by_background_alignment
+    => nrel_main_idtf: [by_background_alignment] (* <- lang_en;; *);
+    => nrel_main_idtf: [фоновый створ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фонавы створ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_background_alignment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_surface_water_object;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_waste_waters;
+
+    => nrel_etalon_online_idx: [26069];;

@@ -1,0 +1,27 @@
+
+by_method_of_expert_assessments
+    => nrel_main_idtf: [method of expert assessments] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод экспертных оценок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад экспертных адзнак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_method_of_expert_assessments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_power_supply;
+    => nrel_associative_connection: by_design_and_estimate_documents;
+    => nrel_associative_connection: by_residual_period;
+
+    => nrel_etalon_online_idx: [35160];;

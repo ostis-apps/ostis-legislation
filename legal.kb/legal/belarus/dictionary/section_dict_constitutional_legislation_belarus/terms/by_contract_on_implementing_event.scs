@@ -1,0 +1,34 @@
+
+by_contract_on_implementing_event
+    => nrel_main_idtf: [contract on implementing event] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор на реализацию мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор на рэалізацыю мерапрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_on_implementing_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_contract_on_holding_event;
+    => nrel_associative_connection: by_notification_on_holding_competitive_bidding_for_selecting_event_performers;
+    => nrel_associative_connection: by_competitive_bid_for_participation_in_the_competitive_bidding_for_selecting_event_performers;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_competitive_bidding_number;
+    => nrel_associative_connection: by_competition_organizer;
+    => nrel_associative_connection: by_official_site_of_the_competitive_bidding_organizer;
+    => nrel_associative_connection: by_participant;
+
+    => nrel_etalon_online_idx: [8090];;

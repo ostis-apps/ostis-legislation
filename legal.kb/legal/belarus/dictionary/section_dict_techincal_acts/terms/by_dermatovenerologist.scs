@@ -1,0 +1,33 @@
+
+by_dermatovenerologist
+    => nrel_main_idtf: [dermatovenerologist] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-дерматовенеролог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-дэрматавенеролаг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dermatovenerologist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anogenital_wart;
+    => nrel_associative_connection: by_bacterial_vaginosis;
+    => nrel_associative_connection: by_gonorrhea;
+    => nrel_associative_connection: by_dermatitis;
+    => nrel_associative_connection: by_dermatovenerology;
+    => nrel_associative_connection: by_dermatomycosis;
+    => nrel_associative_connection: by_true_pemphigus;
+    => nrel_associative_connection: by_candidiasis;
+    => nrel_associative_connection: by_limited_scleroderma;
+
+    => nrel_etalon_online_idx: [34087];;

@@ -1,0 +1,27 @@
+
+by_automated_border_control_gates
+    => nrel_main_idtf: [automated border control gates] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматические средства пограничного контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычныя сродкі пагранічнага кантролю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automated_border_control_gates_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_frontier_belt;
+    => nrel_associative_connection: by_frontier_control;
+    => nrel_associative_connection: by_checkpoint;
+
+    => nrel_etalon_online_idx: [36146];;

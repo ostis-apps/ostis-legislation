@@ -1,0 +1,27 @@
+
+by_high_treason
+    => nrel_main_idtf: [high treason] (* <- lang_en;; *);
+    => nrel_main_idtf: [измена государству] (* <- lang_ru;; *);
+    => nrel_main_idtf: [здрада дзяржаве] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_high_treason_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_secret;
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_espionage_activities;
+
+    => nrel_etalon_online_idx: [1575];;

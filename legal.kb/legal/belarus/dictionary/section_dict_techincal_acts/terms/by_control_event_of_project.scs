@@ -1,0 +1,28 @@
+
+by_control_event_of_project
+    => nrel_main_idtf: [control event of project] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольное событие проекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольная падзея праекта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_event_of_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_project_management_plan;
+    => nrel_associative_connection: by_interested_parties_of_the_project;
+    => nrel_associative_connection: by_limitation;
+    => nrel_associative_connection: by_project_management_plan;
+
+    => nrel_etalon_online_idx: [33095];;

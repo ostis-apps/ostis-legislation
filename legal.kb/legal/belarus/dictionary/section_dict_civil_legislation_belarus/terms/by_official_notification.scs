@@ -1,0 +1,31 @@
+
+by_official_notification
+    => nrel_main_idtf: [official notification] (* <- lang_en;; *);
+    => nrel_main_idtf: [официальное извещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афіцыйнае апавяшчэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_official_notification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auction_documents;
+    => nrel_associative_connection: by_date_of_accommodation;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_notice;
+    => nrel_associative_connection: by_current_cost;
+    => nrel_associative_connection: by_trade_system;
+    => nrel_associative_connection: by_cutoff_price;
+
+    => nrel_etalon_online_idx: [10769];;

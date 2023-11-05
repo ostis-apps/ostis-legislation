@@ -1,0 +1,29 @@
+
+by_unused_objects
+    => nrel_main_idtf: [unused objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [неиспользуемые объекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [невыкарыстоўваемыя аб'екты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unused_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unused_gas_treatment_plant;
+    => nrel_associative_connection: by_unused_property;
+    => nrel_associative_connection: by_unused_property_in_republic_property;
+    => nrel_associative_connection: by_immovable_property_not_used;
+    => nrel_associative_connection: by_idle_lands;
+
+    => nrel_etalon_online_idx: [18034];;

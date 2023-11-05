@@ -1,0 +1,34 @@
+
+by_evidentiary_material
+    => nrel_main_idtf: [evidentiary material] (* <- lang_en;; *);
+    => nrel_main_idtf: [доказательственные материалы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доказныя матэрыялы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_evidentiary_material_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_evidence;
+    => nrel_associative_connection: by_evidence_in_the_case;
+    => nrel_associative_connection: by_admissible_evidence;
+    => nrel_associative_connection: by_sufficient_evidence;
+    => nrel_associative_connection: by_credible_evidence;
+    => nrel_associative_connection: by_sources_of_evidence;
+    => nrel_associative_connection: by_incompetent_evidence;
+    => nrel_associative_connection: by_written_evidence;
+    => nrel_associative_connection: by_fact_to_be_proven;
+    => nrel_associative_connection: by_subjects_and_documents;
+
+    => nrel_etalon_online_idx: [14315];;

@@ -1,0 +1,31 @@
+
+by_designations_without_differences_signs
+    => nrel_main_idtf: [designations without differences signs] (* <- lang_en;; *);
+    => nrel_main_idtf: [обозначения, не имеющие признаков различия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абазначэнні, якія не маюць адзнак адрознення] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_designations_without_differences_signs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_designations_related_to_universal_use_as_a_designation_of_specific_type_of_goods;
+    => nrel_associative_connection: by_designations_exclusively_composed_from_signs_or_directions_used_to_identify_the_kind_quality_quantity_properties_purpose_values_of_goods_and_also_time_place_and_way_of_their_production_or_sales;
+    => nrel_associative_connection: by_designations_that_are_false_or_capable_to_mislead_the_consumer_about_item_place_of_its_origin_or_its_manufacturer;
+    => nrel_associative_connection: by_designations_which_are_generally_accepted_symbols;
+    => nrel_associative_connection: by_designations_which_are_generally_accepted_terms;
+    => nrel_associative_connection: by_trademark;
+    => nrel_associative_connection: by_trademark_and_service_mark;
+
+    => nrel_etalon_online_idx: [18443];;

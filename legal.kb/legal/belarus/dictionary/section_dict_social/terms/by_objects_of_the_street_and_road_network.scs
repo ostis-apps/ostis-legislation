@@ -1,0 +1,29 @@
+
+by_objects_of_the_street_and_road_network
+    => nrel_main_idtf: [objects of the street and road network] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты улично-дорожной сети] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты вуліка-дарожнай сеткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_the_street_and_road_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_complex_approach;
+    => nrel_associative_connection: by_objects_of_social_infrastructure;
+    => nrel_associative_connection: by_assessment_of_the_level_of_highway_maintenance;
+    => nrel_associative_connection: by_maintenance_operation_of_objects_of_the_street_and_road_network_of_settlements;
+
+    => nrel_etalon_online_idx: [36220];;

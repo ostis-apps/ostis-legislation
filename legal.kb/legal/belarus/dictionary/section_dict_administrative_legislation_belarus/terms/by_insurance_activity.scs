@@ -1,0 +1,52 @@
+
+by_insurance_activity
+    => nrel_main_idtf: [insurance activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавая дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_information_system_on_compulsory_insurance_of_civil_liability_of_vehicle_owners_of_the_belarusian_bureau;
+    => nrel_associative_connection: by_state_insurance_register;
+    => nrel_associative_connection: by_adhesion_agreement_in_insurance_sphere;
+    => nrel_associative_connection: by_income_on_insurance_activity;
+    => nrel_associative_connection: by_individual_account_of_the_insured_person;
+    => nrel_associative_connection: by_information_on_the_activity_of_insurance_broker;
+    => nrel_associative_connection: by_information_on_the_activity_of_insurance_company;
+    => nrel_associative_connection: by_source_of_insurance_history_formation;
+    => nrel_associative_connection: by_international_assistance;
+    => nrel_associative_connection: by_taxation_base_of_insurance_organizations;
+    => nrel_associative_connection: by_association_of_insurers;
+    => nrel_associative_connection: by_object_for_insurance_contribution;
+    => nrel_associative_connection: by_insurance_object;
+    => nrel_associative_connection: by_governing_body_of_the_insurance_organization;
+    => nrel_associative_connection: by_reinsurance;
+    => nrel_associative_connection: by_payer_of_state_social_insurance_contributions;
+    => nrel_associative_connection: by_damage_to_the_health_of_the_insured;
+    => nrel_associative_connection: by_subsystem_for_concluding_insurance_contracts_in_electronic_form_ais_bureau;
+    => nrel_associative_connection: by_expenses_of_insurance_activity;
+    => nrel_associative_connection: by_insurance_term;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_of_export_risk_with_state_support;
+    => nrel_associative_connection: by_insurance_payout;
+    => nrel_associative_connection: by_insurance_cost;
+    => nrel_associative_connection: by_insurance_agent;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_insurance_agents;
+    => nrel_associative_connection: by_electronic_journal_of_current_insurance_contracts_green_card;
+
+    => nrel_etalon_online_idx: [1982];;

@@ -1,0 +1,31 @@
+
+by_national_spatial_data_infrastructure
+    => nrel_main_idtf: [national spatial data infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальная инфраструктура пространственных данных ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальная інфраструктура прасторавых даных] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_spatial_data_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_spatial_data;
+    => nrel_associative_connection: by_spatial_dataset;
+    => nrel_associative_connection: by_national_geoportal;
+    => nrel_associative_connection: by_list_of_mandatory_spatial_data_sets;
+    => nrel_associative_connection: by_spatial_data;
+    => nrel_associative_connection: by_spatial_dataset_services;
+    => nrel_associative_connection: by_thematic_spatial_data;
+
+    => nrel_etalon_online_idx: [41154];;

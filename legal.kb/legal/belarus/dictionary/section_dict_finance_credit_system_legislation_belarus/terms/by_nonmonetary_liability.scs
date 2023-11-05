@@ -1,0 +1,28 @@
+
+by_nonmonetary_liability
+    => nrel_main_idtf: [non-monetary liability] (* <- lang_en;; *);
+    => nrel_main_idtf: [немонетарное обязательство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неманетарныя абавязацельства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonmonetary_liability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_exchange_differences;
+    => nrel_associative_connection: by_monetary_assets;
+    => nrel_associative_connection: by_monetary_liabilities;
+    => nrel_associative_connection: by_nonmonetary_asset;
+
+    => nrel_etalon_online_idx: [42005];;

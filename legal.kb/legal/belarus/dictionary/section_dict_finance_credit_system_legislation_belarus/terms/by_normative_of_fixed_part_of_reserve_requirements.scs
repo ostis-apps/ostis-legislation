@@ -1,0 +1,30 @@
+
+by_normative_of_fixed_part_of_reserve_requirements
+    => nrel_main_idtf: [normative of fixed part of reserve requirements] (* <- lang_en;; *);
+    => nrel_main_idtf: [норматив фиксированной части резервных требований] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыў фіксаванай часткі рэзервовых патрабаванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_normative_of_fixed_part_of_reserve_requirements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reservation_base;
+    => nrel_associative_connection: by_period_of_fulfillment_of_reserve_requirements;
+    => nrel_associative_connection: by_reserve;
+    => nrel_associative_connection: by_reserve_requirements_mandatory_reserves;
+    => nrel_associative_connection: by_averaged_part_of_reserve_claims;
+    => nrel_associative_connection: by_fixed_part_of_the_reserve_claim;
+
+    => nrel_etalon_online_idx: [18287];;

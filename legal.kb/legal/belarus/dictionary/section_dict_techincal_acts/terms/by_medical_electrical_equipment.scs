@@ -1,0 +1,28 @@
+
+by_medical_electrical_equipment
+    => nrel_main_idtf: [medical electrical equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинское электрооборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскае электраабсталяванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_electrical_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_equipment_qualification;
+    => nrel_associative_connection: by_treatment;
+    => nrel_associative_connection: by_medical_observation;
+    => nrel_associative_connection: by_procedure;
+
+    => nrel_etalon_online_idx: [40933];;

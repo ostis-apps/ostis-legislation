@@ -1,0 +1,48 @@
+
+by_by_
+    => nrel_main_idtf: [by_] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабатка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабатка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by__0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by__1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_alpinary;
+    => nrel_associative_connection: by_lawn;
+    => nrel_associative_connection: by_group_flowers;
+    => nrel_associative_connection: by_flowerbed;
+    => nrel_associative_connection: by_ribbon_flower_beds;
+    => nrel_associative_connection: by_microlandscape_compositions;
+    => nrel_associative_connection: by_volumespatial_compositions_based_on_shorted_greens;
+    => nrel_associative_connection: by_damaged_lawns_flower_gardens;
+    => nrel_associative_connection: by_destroyed_lawns_flower_gardens;
+
+    => nrel_etalon_online_idx: [21885];;

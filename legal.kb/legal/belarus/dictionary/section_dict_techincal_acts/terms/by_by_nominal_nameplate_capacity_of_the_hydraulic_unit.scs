@@ -1,0 +1,25 @@
+
+by_by_nominal_nameplate_capacity_of_the_hydraulic_unit
+    => nrel_main_idtf: [by_nominal_nameplate_capacity_of_the_hydraulic_unit] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная (паспортная) мощность гидроагрегата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная (пашпартная) магутнасць гідраагрэгата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_nominal_nameplate_capacity_of_the_hydraulic_unit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydro_unit;
+
+    => nrel_etalon_online_idx: [37100];;

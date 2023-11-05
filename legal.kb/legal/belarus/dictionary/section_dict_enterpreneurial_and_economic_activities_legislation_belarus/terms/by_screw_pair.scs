@@ -1,0 +1,37 @@
+
+by_screw_pair
+    => nrel_main_idtf: [screw pair] (* <- lang_en;; *);
+    => nrel_main_idtf: [винтовая пара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шрубавая пара] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_screw_pair_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_screw_mechanism;
+    => nrel_associative_connection: by_wave_screw_transmission_sealed_translational_drive;
+    => nrel_associative_connection: by_rotating_pair_rotating_pair;
+    => nrel_associative_connection: by_link;
+    => nrel_associative_connection: by_beltscrew_transmission;
+    => nrel_associative_connection: by_engineering_industry;
+    => nrel_associative_connection: by_national_classifier;
+    => nrel_associative_connection: by_national_classifier_of_the_republic_of_belarus_specialities_and_qualifications;
+    => nrel_associative_connection: by_planetary_screw_gear;
+    => nrel_associative_connection: by_planar_pair;
+    => nrel_associative_connection: by_progressive_pair;
+    => nrel_associative_connection: by_beltscrew_transmission;
+    => nrel_associative_connection: by_cylindrical_steam;
+
+    => nrel_etalon_online_idx: [39672];;

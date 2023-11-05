@@ -1,0 +1,37 @@
+
+by_users_of_melioration_system
+    => nrel_main_idtf: [users of melioration system] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователи мелиоративных систем] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнікі меліяратыўных сістэм] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_users_of_melioration_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intracompany_meliorative_system;
+    => nrel_associative_connection: by_land_users;
+    => nrel_associative_connection: by_inventory_of_land_reclamation_systems_and_separately_located_hydraulic_engineering_structures;
+    => nrel_associative_connection: by_channels_of_melioration_systems;
+    => nrel_associative_connection: by_interfarm_meliorative_system;
+    => nrel_associative_connection: by_melioration_system;
+    => nrel_associative_connection: by_survey_of_land_reclamation_systems_and_separately_located_hydraulic_engineering_structures;
+    => nrel_associative_connection: by_organization_for_construction_and_operation_of_melioration_systems;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_users_of_land_plots_and_or_water_objects;
+    => nrel_associative_connection: by_users_of_land_plots_or_water_objects;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_reconstruction_of_melioration_system;
+
+    => nrel_etalon_online_idx: [20608];;

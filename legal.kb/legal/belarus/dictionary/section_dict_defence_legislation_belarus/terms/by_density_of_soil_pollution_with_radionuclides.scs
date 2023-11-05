@@ -1,0 +1,31 @@
+
+by_density_of_soil_pollution_with_radionuclides
+    => nrel_main_idtf: [density of soil pollution with radionuclides] (* <- lang_en;; *);
+    => nrel_main_idtf: [плотность загрязнения почв радионуклидами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шчыльнасць забруджвання глеб радыенуклідамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_density_of_soil_pollution_with_radionuclides_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_pollution_of_lands_water_forests_atmosphere_entail_administrative_or_criminal_responsibility;
+    => nrel_associative_connection: by_soil_pollution;
+    => nrel_associative_connection: by_polluting_substances;
+    => nrel_associative_connection: by_information_on_the_state_of_the_environment_and_its_pollution;
+    => nrel_associative_connection: by_control_of_radioactive_pollution;
+    => nrel_associative_connection: by_radioactive_pollution_control_rules;
+    => nrel_associative_connection: by_radioactive_contamination;
+
+    => nrel_etalon_online_idx: [7656];;

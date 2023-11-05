@@ -1,0 +1,17 @@
+
+by_carriage_in_bulk
+    => nrel_main_idtf: [carriage in bulk] (* <- lang_en;; *);
+    => nrel_main_idtf: [перевозка навалом/насыпью] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перавозка навалам/насыпам] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_wagons_containers_of_consignors_consignees;
+    => nrel_associative_connection: by_wagons_containers_of_carrier;
+    => nrel_associative_connection: by_cargo_place;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_loadingunloading_point;
+
+    => nrel_etalon_online_idx: [19958];;

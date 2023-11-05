@@ -1,0 +1,28 @@
+
+by_time_constant
+    => nrel_main_idtf: [time constant] (* <- lang_en;; *);
+    => nrel_main_idtf: [постоянная времени] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастаянная часу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_time_constant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quick_restructuring_of_radio_station_frequency;
+    => nrel_associative_connection: by_frequency_switching_time;
+    => nrel_associative_connection: by_settling_time;
+    => nrel_associative_connection: by_timing;
+
+    => nrel_etalon_online_idx: [20764];;

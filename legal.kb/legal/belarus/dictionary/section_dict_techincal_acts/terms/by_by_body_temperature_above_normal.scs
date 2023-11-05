@@ -1,0 +1,28 @@
+
+by_by_body_temperature_above_normal
+    => nrel_main_idtf: [by_body_temperature_above_normal] (* <- lang_en;; *);
+    => nrel_main_idtf: [лихорадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліхаманка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_body_temperature_above_normal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hyperthermic_syndrome;
+    => nrel_associative_connection: by_acute_respiratory_infection;
+    => nrel_associative_connection: by_acute_respiratory_viral_infections;
+    => nrel_associative_connection: by_acute_respiratory_diseases;
+
+    => nrel_etalon_online_idx: [43536];;

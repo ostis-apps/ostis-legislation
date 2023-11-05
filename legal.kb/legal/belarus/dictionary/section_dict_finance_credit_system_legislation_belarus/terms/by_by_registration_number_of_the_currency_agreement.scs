@@ -1,0 +1,27 @@
+
+by_by_registration_number_of_the_currency_agreement
+    => nrel_main_idtf: [by_registration_number_of_the_currency_agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрационный номер валютного договора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыйны нумар валютнага дагавора] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_registration_number_of_the_currency_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_actions_aimed_at_fulfilling_obligations_under_the_currency_agreement;
+    => nrel_associative_connection: by_resident_dashboard;
+    => nrel_associative_connection: by_registration_of_a_currency_agreement;
+
+    => nrel_etalon_online_idx: [43779];;

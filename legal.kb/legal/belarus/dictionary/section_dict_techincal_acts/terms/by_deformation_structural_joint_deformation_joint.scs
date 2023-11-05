@@ -1,0 +1,28 @@
+
+by_deformation_structural_joint_deformation_joint
+    => nrel_main_idtf: [deformation structural joint (deformation joint)] (* <- lang_en;; *);
+    => nrel_main_idtf: [деформационный конструкционный шов (деформационный шов)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэфармацыйны канструкцыйны шоў (дэфармацыйны шоў)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deformation_structural_joint_deformation_joint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_concrete_structure;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structures_for_special_purpose;
+    => nrel_associative_connection: by_hydroelectric_power_plant_hpp;
+
+    => nrel_etalon_online_idx: [37097];;

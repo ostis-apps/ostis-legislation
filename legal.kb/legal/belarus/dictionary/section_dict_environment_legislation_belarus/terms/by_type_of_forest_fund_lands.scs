@@ -1,0 +1,30 @@
+
+by_type_of_forest_fund_lands
+    => nrel_main_idtf: [type of forest fund lands ] (* <- lang_en;; *);
+    => nrel_main_idtf: [вид земель лесного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [від зямель ляснога фонду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_of_forest_fund_lands_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lands_of_forest_fund;
+    => nrel_associative_connection: by_land;
+    => nrel_associative_connection: by_inventory_of_forest_fund;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_plantations;
+
+    => nrel_etalon_online_idx: [27952];;

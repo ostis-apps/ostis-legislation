@@ -1,0 +1,28 @@
+
+by_basic_creep_of_concrete
+    => nrel_main_idtf: [basic creep of concrete] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовая ползучесть бетона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавая паўзучасць бетону] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_creep_of_concrete_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_shrinkage_of_concrete;
+    => nrel_associative_connection: by_concrete_structure;
+    => nrel_associative_connection: by_protective_layer_of_concrete;
+    => nrel_associative_connection: by_concrete_carbonization;
+
+    => nrel_etalon_online_idx: [35659];;

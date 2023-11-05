@@ -1,0 +1,27 @@
+
+by_subjects_of_tourist_industry
+    => nrel_main_idtf: [subjects of tourist industry] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты туристической индустрии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты турыстычнай індустрыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_tourist_industry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reliable_information_about_travel_services;
+    => nrel_associative_connection: by_tourist_group_leader;
+    => nrel_associative_connection: by_tour_operators_site;
+
+    => nrel_etalon_online_idx: [24466];;

@@ -1,0 +1,46 @@
+
+by_physical_harm
+    => nrel_main_idtf: [physical harm] (* <- lang_en;; *);
+    => nrel_main_idtf: [физический вред] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фізічная шкода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_physical_harm_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_physical_harm_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_health;
+    => nrel_associative_connection: by_moral_harm;
+    => nrel_associative_connection: by_violation_of_labor_pension_housing_and_other_rights_of_an_individual;
+    => nrel_associative_connection: by_physical_persons;
+    => nrel_associative_connection: by_physical_suffering;
+    => nrel_associative_connection: by_selfmaiming;
+
+    => nrel_etalon_online_idx: [3557];;

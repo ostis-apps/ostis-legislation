@@ -1,0 +1,17 @@
+
+by_flammable_component_for_aerosols
+    => nrel_main_idtf: [flammable component (for aerosols)] (* <- lang_en;; *);
+    => nrel_main_idtf: [легковоспламеняющийся компонент (для аэрозолей)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лёгкаўзгаральны кампанент (для аэразоляў)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_aerosol_or_aerosol_spray;
+    => nrel_associative_connection: by_flame_spread_concentration_limit_upper_lower;
+    => nrel_associative_connection: by_flammable_liquid;
+    => nrel_associative_connection: by_flammable_gases;
+    => nrel_associative_connection: by_pyrophoric_substances;
+    => nrel_associative_connection: by_flash_point;
+    => nrel_associative_connection: by_autoignition_temperature;
+
+    => nrel_etalon_online_idx: [16539];;

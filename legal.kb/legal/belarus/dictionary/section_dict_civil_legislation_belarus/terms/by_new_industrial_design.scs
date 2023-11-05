@@ -1,0 +1,31 @@
+
+by_new_industrial_design
+    => nrel_main_idtf: [new industrial design] (* <- lang_en;; *);
+    => nrel_main_idtf: [новый промышленный образец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [новы прамысловы ўзор] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_new_industrial_design_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_industrial_designs_group;
+    => nrel_associative_connection: by_date_of_submitted_application_for_industrial_design;
+    => nrel_associative_connection: by_application_date_for_industrial_design;
+    => nrel_associative_connection: by_one_industrial_design;
+    => nrel_associative_connection: by_original_industrial_design;
+    => nrel_associative_connection: by_industrial_design;
+    => nrel_associative_connection: by_coauthors_of_invention_utility_model_industrial_design;
+
+    => nrel_etalon_online_idx: [18222];;

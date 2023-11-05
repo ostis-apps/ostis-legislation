@@ -1,0 +1,28 @@
+
+by_criminalistic_collections
+    => nrel_main_idtf: [criminalistic collections] (* <- lang_en;; *);
+    => nrel_main_idtf: [криминалистические коллекции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыміналістычныя калекцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_criminalistic_collections_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_criminalistic_accounts;
+    => nrel_associative_connection: by_authority_person_that_appointed_the_judicial_examination;
+    => nrel_associative_connection: by_head_of_forensic_expert_activity;
+    => nrel_associative_connection: by_forensic_expertise;
+
+    => nrel_etalon_online_idx: [32444];;

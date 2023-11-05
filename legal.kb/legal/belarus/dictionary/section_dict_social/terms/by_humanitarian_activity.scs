@@ -1,0 +1,31 @@
+
+by_humanitarian_activity
+    => nrel_main_idtf: [humanitarian activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [гуманитарная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гуманітарная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_humanitarian_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_humanitarian_program;
+    => nrel_associative_connection: by_department_on_humanitarian_activity_of_the_administrative_department_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_material_assistance;
+    => nrel_associative_connection: by_international_humanitarian_aid;
+    => nrel_associative_connection: by_international_cooperation;
+    => nrel_associative_connection: by_civil_defense_personnel;
+    => nrel_associative_connection: by_humanitarian_assistance_personnel;
+
+    => nrel_etalon_online_idx: [7813];;

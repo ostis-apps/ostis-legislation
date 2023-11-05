@@ -1,0 +1,59 @@
+
+by_uninterruptible_power_supply
+    => nrel_main_idtf: [uninterruptible power supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник бесперебойного питания (uninterruptible power supply)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца бесперабойнага харчавання (uninterruptible power supply)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_uninterruptible_power_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_uninterruptible_power_supply_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_uninterruptible_power_supply_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_household_and_similar_appliances;
+    => nrel_associative_connection: by_external_power_supply;
+    => nrel_associative_connection: by_low_voltage_external_power_supply;
+    => nrel_associative_connection: by_cable_facility_cable_tunnel_collector_corridor_floor_shaft_compartment_camera;
+    => nrel_associative_connection: by_low_voltage_external_power_supply;
+
+    => nrel_etalon_online_idx: [35119];;

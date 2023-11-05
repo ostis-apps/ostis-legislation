@@ -1,0 +1,46 @@
+
+by_state_digital_platform
+    => nrel_main_idtf: [state digital platform] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная цифровая платформа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная лічбавая платформа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_digital_platform_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_digital_platform_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_option_for_use;
+    => nrel_associative_connection: by_information_relations;
+    => nrel_associative_connection: by_iteration_approach;
+    => nrel_associative_connection: by_iteration;
+    => nrel_associative_connection: by_microservice_architecture;
+    => nrel_associative_connection: by_queue_of_state_digital_platforms_state_information_systems_of_state_bodies_and_organizations;
+    => nrel_associative_connection: by_ecosystem_of_the_digital_economy;
+
+    => nrel_etalon_online_idx: [36622];;

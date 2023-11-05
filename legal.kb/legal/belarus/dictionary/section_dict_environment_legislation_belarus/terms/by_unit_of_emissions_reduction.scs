@@ -1,0 +1,33 @@
+
+by_unit_of_emissions_reduction
+    => nrel_main_idtf: [unit of emissions reduction] (* <- lang_en;; *);
+    => nrel_main_idtf: [единица сокращения выбросов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінка скарачэння выкідаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unit_of_emissions_reduction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_verified_reductions_of_greenhouse_emission;
+    => nrel_associative_connection: by_unit_of_absorption;
+    => nrel_associative_connection: by_unit_of_voluntary_reduction_of_greenhouse_gas_emissions;
+    => nrel_associative_connection: by_unit_of_greenhouse_gas_emissions_reduction;
+    => nrel_associative_connection: by_assigned_amount_unit;
+    => nrel_associative_connection: by_greenhouse_gases;
+    => nrel_associative_connection: by_reserve_account_of_carbon_units;
+    => nrel_associative_connection: by_certified_emission_reduction_unit;
+    => nrel_associative_connection: by_carbon_units;
+
+    => nrel_etalon_online_idx: [14568];;

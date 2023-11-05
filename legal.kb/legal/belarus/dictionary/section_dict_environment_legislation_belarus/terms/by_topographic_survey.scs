@@ -1,0 +1,29 @@
+
+by_topographic_survey
+    => nrel_main_idtf: [topographic survey] (* <- lang_en;; *);
+    => nrel_main_idtf: [топографическая съемка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тапаграфічная здымка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_topographic_survey_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerial_photography;
+    => nrel_associative_connection: by_survey_geodetic_network;
+    => nrel_associative_connection: by_topographic_information;
+    => nrel_associative_connection: by_topographic_map;
+    => nrel_associative_connection: by_topographic_plan;
+
+    => nrel_etalon_online_idx: [25072];;

@@ -1,0 +1,47 @@
+
+by_gas_supplier
+    => nrel_main_idtf: [gas supplier] (* <- lang_en;; *);
+    => nrel_main_idtf: [поставщик газа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастаўшчык газу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_supplier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_supplier_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_trade_contract;
+    => nrel_associative_connection: by_gas;
+    => nrel_associative_connection: by_supply_agreement;
+    => nrel_associative_connection: by_major_pipeline;
+    => nrel_associative_connection: by_supplier;
+    => nrel_associative_connection: by_gas_consumer;
+    => nrel_associative_connection: by_seller_supplier;
+    => nrel_associative_connection: by_production_losses_of_gas;
+
+    => nrel_etalon_online_idx: [6582];;

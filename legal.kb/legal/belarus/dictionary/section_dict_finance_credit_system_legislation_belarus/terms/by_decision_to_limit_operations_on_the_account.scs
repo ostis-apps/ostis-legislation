@@ -1,0 +1,28 @@
+
+by_decision_to_limit_operations_on_the_account
+    => nrel_main_idtf: [decision to limit operations on the account] (* <- lang_en;; *);
+    => nrel_main_idtf: [решение об ограничении операций по счету] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рашэнне аб абмежаванні аперацый па рахунку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_decision_to_limit_operations_on_the_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_limitation_of_operations;
+    => nrel_associative_connection: by_suspension_of_operations_of_the_payer_other_obligor_on_bank_accounts;
+    => nrel_associative_connection: by_suspension_of_financial_operations_by_the_body_of_financial_monitoring;
+
+    => nrel_etalon_online_idx: [32560];;

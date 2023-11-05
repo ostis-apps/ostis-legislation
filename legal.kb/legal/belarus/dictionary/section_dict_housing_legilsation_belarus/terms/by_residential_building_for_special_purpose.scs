@@ -1,0 +1,54 @@
+
+by_residential_building_for_special_purpose
+    => nrel_main_idtf: [residential building for special purpose] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилое здание специального назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жылы будынак спецыяльнага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_building_for_special_purpose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_building_for_special_purpose_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_housing;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises_in_a_dormitory;
+    => nrel_associative_connection: by_residential_premises_of_commercial_use;
+    => nrel_associative_connection: by_residential_premises_of_mobile_fund;
+    => nrel_associative_connection: by_residential_premises_of_the_republican_housing_stock;
+    => nrel_associative_connection: by_social_housing_premise;
+    => nrel_associative_connection: by_residential_premises_of_special_housing_fund;
+    => nrel_associative_connection: by_residential_premise_of_typical_consumer_properties;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_residential_buildings;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_public_buildings;
+    => nrel_associative_connection: by_special_residential_premises;
+    => nrel_associative_connection: by_residential_dormitory_cell;
+
+    => nrel_etalon_online_idx: [14674];;

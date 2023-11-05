@@ -1,0 +1,34 @@
+
+by_cinemaproject
+    => nrel_main_idtf: [cinemaproject] (* <- lang_en;; *);
+    => nrel_main_idtf: [кинопроект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кінапраект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cinemaproject_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_debut_work;
+    => nrel_associative_connection: by_cinematography;
+    => nrel_associative_connection: by_anthology_film;
+    => nrel_associative_connection: by_cinemachinery;
+    => nrel_associative_connection: by_filmdistributing_cinematography_organizations;
+    => nrel_associative_connection: by_film_show;
+    => nrel_associative_connection: by_bigbudget_film;
+    => nrel_associative_connection: by_mobile_cinemachinery;
+    => nrel_associative_connection: by_project;
+    => nrel_associative_connection: by_film;
+
+    => nrel_etalon_online_idx: [10266];;

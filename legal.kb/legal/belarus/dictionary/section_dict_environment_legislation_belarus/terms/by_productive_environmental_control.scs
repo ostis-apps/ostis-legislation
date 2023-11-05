@@ -1,0 +1,26 @@
+
+by_productive_environmental_control
+    => nrel_main_idtf: [productive environmental control] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственный экологический контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчы экалагічны кантроль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_productive_environmental_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_environmental_safety;
+    => nrel_associative_connection: by_environmental_audit;
+
+    => nrel_etalon_online_idx: [28006];;

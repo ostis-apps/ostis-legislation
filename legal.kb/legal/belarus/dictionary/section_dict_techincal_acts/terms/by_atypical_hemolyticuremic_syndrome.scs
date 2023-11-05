@@ -1,0 +1,29 @@
+
+by_atypical_hemolyticuremic_syndrome
+    => nrel_main_idtf: [atypical hemolytic-uremic syndrome] (* <- lang_en;; *);
+    => nrel_main_idtf: [атипичный гемолитико-уремический синдром] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нетыповы гемалітыка-урэмічны сіндром] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_atypical_hemolyticuremic_syndrome_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hemolytic_and_uremic_syndrome;
+    => nrel_associative_connection: by_hemolytic_disease_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_idiopathic_thrombocytopenic_purple;
+    => nrel_associative_connection: by_thrombocytes_concentrate;
+
+    => nrel_etalon_online_idx: [27052];;

@@ -1,0 +1,30 @@
+
+by_wood_species_mixing_scheme
+    => nrel_main_idtf: [wood species mixing scheme] (* <- lang_en;; *);
+    => nrel_main_idtf: [схема смешения древесных пород] (* <- lang_ru;; *);
+    => nrel_main_idtf: [схема блытаніны драўняных парод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_species_mixing_scheme_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tree;
+    => nrel_associative_connection: by_wood_species;
+    => nrel_associative_connection: by_cultivated_tree_species;
+    => nrel_associative_connection: by_bush;
+    => nrel_associative_connection: by_bushes;
+    => nrel_associative_connection: by_predominant_tree_species;
+
+    => nrel_etalon_online_idx: [40200];;

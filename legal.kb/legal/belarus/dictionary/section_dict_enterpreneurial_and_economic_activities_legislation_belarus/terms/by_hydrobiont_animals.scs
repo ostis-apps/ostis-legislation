@@ -1,0 +1,28 @@
+
+by_hydrobiont_animals
+    => nrel_main_idtf: [hydrobiont animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [животные-гидробионты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жывёльныя-гідрабіёнты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrobiont_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_identification_of_the_animal_herd;
+    => nrel_associative_connection: by_animal_passport_herd;
+    => nrel_associative_connection: by_traceability_of_the_animal_herd;
+    => nrel_associative_connection: by_means_of_identification;
+
+    => nrel_etalon_online_idx: [38263];;

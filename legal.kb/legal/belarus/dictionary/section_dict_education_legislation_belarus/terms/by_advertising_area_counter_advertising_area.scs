@@ -1,0 +1,34 @@
+
+by_advertising_area_counter_advertising_area
+    => nrel_main_idtf: [advertising area (counter advertising area)] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадь рекламы (контррекламы)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плошча рэкламы (контррэкламы)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_advertising_area_counter_advertising_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_promotional_sign;
+    => nrel_associative_connection: by_counter_advertising;
+    => nrel_associative_connection: by_multimedia_advertising_counter_advertising;
+    => nrel_associative_connection: by_overroof_advertising_construction;
+    => nrel_associative_connection: by_outdoor_advertising;
+    => nrel_associative_connection: by_wall_advertising_construction;
+    => nrel_associative_connection: by_poster_or_other_remote_advertising_construction;
+    => nrel_associative_connection: by_placement_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_advertising;
+    => nrel_associative_connection: by_advertising_space;
+
+    => nrel_etalon_online_idx: [10961];;

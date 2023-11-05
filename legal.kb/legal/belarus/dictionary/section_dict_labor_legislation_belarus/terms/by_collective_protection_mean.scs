@@ -1,0 +1,32 @@
+
+by_collective_protection_mean
+    => nrel_main_idtf: [collective protection mean] (* <- lang_en;; *);
+    => nrel_main_idtf: [средство коллективной защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродак калектыўнай абароны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_collective_protection_mean_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_working_conditions;
+    => nrel_associative_connection: by_protective_device;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_mean_of_protection_of_the_worker;
+    => nrel_associative_connection: by_personal_protection_means;
+    => nrel_associative_connection: by_personal_protection_equipment_for_the_worker;
+    => nrel_associative_connection: by_personal_protection_means_with_higher_additional_protective_properties_and_hygienic_characteristics;
+    => nrel_associative_connection: by_means_of_collective_protection_for_workers;
+
+    => nrel_etalon_online_idx: [24074];;

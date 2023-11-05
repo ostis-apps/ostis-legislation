@@ -1,0 +1,28 @@
+
+by_by_throughput_of_the_electrical_network
+    => nrel_main_idtf: [by_throughput_of_the_electrical_network] (* <- lang_en;; *);
+    => nrel_main_idtf: [пропускная способность электрической сети] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прапускная здольнасць электрычнай сеткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_throughput_of_the_electrical_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_active_electric_power;
+    => nrel_associative_connection: by_available_throughput_of_electric_network;
+    => nrel_associative_connection: by_currentr_and_or_voltage_measuring_transformer;
+    => nrel_associative_connection: by_quality_of_electrical_energy;
+
+    => nrel_etalon_online_idx: [35006];;

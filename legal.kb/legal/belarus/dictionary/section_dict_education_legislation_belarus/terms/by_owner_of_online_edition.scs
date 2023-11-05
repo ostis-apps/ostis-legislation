@@ -1,0 +1,36 @@
+
+by_owner_of_online_edition
+    => nrel_main_idtf: [owner of online edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец сетевого издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік сеткавага выдання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_online_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_mass_media;
+    => nrel_associative_connection: by_video_and_film_chronic_program_radio_and_television_program;
+    => nrel_associative_connection: by_owner_of_internet_resource;
+    => nrel_associative_connection: by_internet_resource;
+    => nrel_associative_connection: by_monitoring_of_publicly_available_information;
+    => nrel_associative_connection: by_mass_media_production;
+    => nrel_associative_connection: by_distribution_of_mass_media_production;
+    => nrel_associative_connection: by_online_edition;
+    => nrel_associative_connection: by_online_electronic_edition;
+    => nrel_associative_connection: by_subjects_of_legal_relations_in_the_sphere_of_mass_media;
+    => nrel_associative_connection: by_television_mass_media;
+    => nrel_associative_connection: by_legal_entity_entrusted_with_the_functions_of_the_editorial_office_of_the_mass_media;
+
+    => nrel_etalon_online_idx: [30567];;

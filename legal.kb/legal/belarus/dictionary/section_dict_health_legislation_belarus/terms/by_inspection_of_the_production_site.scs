@@ -1,0 +1,28 @@
+
+by_inspection_of_the_production_site
+    => nrel_main_idtf: [inspection of the production site] (* <- lang_en;; *);
+    => nrel_main_idtf: [инспектирование производственной площадки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інспектаванне вытворчай пляцоўкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inspection_of_the_production_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_production_site_dossier;
+    => nrel_associative_connection: by_certificate_of_conformity_of_the_industrial_manufacture_of_drugs_to_the_requirements_of_good_manufacturing_practice_gmp;
+    => nrel_associative_connection: by_technical_expert;
+    => nrel_associative_connection: by_pharmaceutical_inspectorate_of_the_ministry_of_health;
+
+    => nrel_etalon_online_idx: [36175];;

@@ -1,0 +1,28 @@
+
+by_vapor_permeability
+    => nrel_main_idtf: [vapor permeability] (* <- lang_en;; *);
+    => nrel_main_idtf: [паропроницаемость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парапранікальнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vapor_permeability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reference_value_of_reduced_heat_transfer_resistance;
+    => nrel_associative_connection: by_coefficient_of_thermal_homogeneity;
+    => nrel_associative_connection: by_enveloped_structure;
+    => nrel_associative_connection: by_heat_technical_inhomogeneity_hti;
+
+    => nrel_etalon_online_idx: [37067];;

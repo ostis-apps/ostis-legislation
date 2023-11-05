@@ -1,0 +1,65 @@
+
+by_total_area_of_residential_premises
+    => nrel_main_idtf: [total area of residential premises] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая площадь жилого помещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная плошча жылога памяшкання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_area_of_residential_premises_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_area_of_residential_premises_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_area_of_residential_premises_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_living_space;
+    => nrel_associative_connection: by_housing;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_normalized_size_of_residential_premises_total_area;
+    => nrel_associative_connection: by_total_area_of_apartments_project_apartment_building_residential_part_of_house;
+    => nrel_associative_connection: by_total_area_of_oneapartment_including_stately_and_blocked_residential_house;
+    => nrel_associative_connection: by_lack_of_military_personnel_and_civil_personnel_in_ownership_and_use_of_residential_premises;
+    => nrel_associative_connection: by_lack_of_citizens_in_ownership_and_use_of_residential_premises;
+    => nrel_associative_connection: by_lack_of_employees_in_the_possession_and_use_of_residential_premises;
+    => nrel_associative_connection: by_premise;
+
+    => nrel_etalon_online_idx: [10484];;

@@ -1,0 +1,33 @@
+
+by_quick_service_cafe
+    => nrel_main_idtf: [quick service cafe] (* <- lang_en;; *);
+    => nrel_main_idtf: [кафе быстрого обслуживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кафэ хуткага абслугоўвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quick_service_cafe_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cafe;
+    => nrel_associative_connection: by_cafeteria;
+    => nrel_associative_connection: by_summer_cafe_mini_cafe;
+    => nrel_associative_connection: by_summer_seasonal_cafe;
+    => nrel_associative_connection: by_minicafe;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_quick_service_restaurant;
+    => nrel_associative_connection: by_public_catering_network;
+
+    => nrel_etalon_online_idx: [39140];;

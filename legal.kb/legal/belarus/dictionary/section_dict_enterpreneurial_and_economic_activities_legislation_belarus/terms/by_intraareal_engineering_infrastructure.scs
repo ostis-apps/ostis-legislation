@@ -1,0 +1,32 @@
+
+by_intraareal_engineering_infrastructure
+    => nrel_main_idtf: [intraareal engineering infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутриплощадочная инженерная инфраструктура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутрыпляцовачная інжынерная інфраструктура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intraareal_engineering_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_engineering_systems;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_organizations_capital_structure_building_construction;
+    => nrel_associative_connection: by_capital_structures_buildings_constructions;
+    => nrel_associative_connection: by_objects_of_transport_and_engineering_infrastructure;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [13142];;

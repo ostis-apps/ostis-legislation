@@ -1,0 +1,28 @@
+
+by_operator_of_cryptoplatform
+    => nrel_main_idtf: [operator of cryptoplatform] (* <- lang_en;; *);
+    => nrel_main_idtf: [оператор криптоплатформы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператар крыптаплатформы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_of_cryptoplatform_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_virtual_purse;
+    => nrel_associative_connection: by_cryptocurrency;
+    => nrel_associative_connection: by_cryptography;
+    => nrel_associative_connection: by_operator_of_cryptocurrency_exchange;
+
+    => nrel_etalon_online_idx: [27572];;

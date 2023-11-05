@@ -1,0 +1,31 @@
+
+by_software_verification_tools
+    => nrel_main_idtf: [software verification tools] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства верификации программного обеспечения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі верыфікацыі праграмнага забеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_software_verification_tools_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bonus;
+    => nrel_associative_connection: by_external_system;
+    => nrel_associative_connection: by_game_machine_initialization;
+    => nrel_associative_connection: by_gaming_machine_cash;
+    => nrel_associative_connection: by_management_bodies_of_game_machine;
+    => nrel_associative_connection: by_software;
+    => nrel_associative_connection: by_ticket;
+
+    => nrel_etalon_online_idx: [30930];;

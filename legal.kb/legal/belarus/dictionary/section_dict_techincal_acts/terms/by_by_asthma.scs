@@ -1,0 +1,31 @@
+
+by_by_asthma
+    => nrel_main_idtf: [by_asthma] (* <- lang_en;; *);
+    => nrel_main_idtf: [бронхиальная астма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бранхіяльная астма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_asthma_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bronchodilator_test;
+    => nrel_associative_connection: by_bronchiectatic_disease;
+    => nrel_associative_connection: by_inhalation_therapy;
+    => nrel_associative_connection: by_inhalation_injury;
+    => nrel_associative_connection: by_obstructive_diseases_of_the_bronchopulmonary_system;
+    => nrel_associative_connection: by_acute_stenosing_laryngotracheitis_false_croup;
+    => nrel_associative_connection: by_pulmonary_edema_cardiogenic;
+
+    => nrel_etalon_online_idx: [43529];;

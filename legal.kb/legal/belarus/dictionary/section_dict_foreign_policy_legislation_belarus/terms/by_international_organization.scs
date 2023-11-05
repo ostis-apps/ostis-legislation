@@ -1,0 +1,48 @@
+
+by_international_organization
+    => nrel_main_idtf: [international organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародная арганізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_organization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_foreign_person;
+    => nrel_associative_connection: by_foreign_subjects;
+    => nrel_associative_connection: by_international_organization_for_standardization;
+    => nrel_associative_connection: by_international_atomic_energy_agency;
+    => nrel_associative_connection: by_international_cooperation;
+    => nrel_associative_connection: by_succession_with_regard_to_international_treaty;
+    => nrel_associative_connection: by_participant_of_international_treaty;
+    => nrel_associative_connection: by_participant_of_negotiations;
+
+    => nrel_etalon_online_idx: [91];;

@@ -1,0 +1,33 @@
+
+by_taxicab
+    => nrel_main_idtf: [taxicab] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобиль-такси] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабіль-таксі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taxicab_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_dispatch_of_road_transportation_of_passengers_by_vehiclestaxi;
+    => nrel_associative_connection: by_taxi_dispatch;
+    => nrel_associative_connection: by_cash_register_combined_with_a_taximeter;
+    => nrel_associative_connection: by_taxi_operator;
+    => nrel_associative_connection: by_passenger_vehicle;
+    => nrel_associative_connection: by_taximeter;
+    => nrel_associative_connection: by_taxi_terminal;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [7498];;

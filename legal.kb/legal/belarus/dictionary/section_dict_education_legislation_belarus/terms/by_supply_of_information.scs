@@ -1,0 +1,53 @@
+
+by_supply_of_information
+    => nrel_main_idtf: [supply of information] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоставление информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадастаўленне інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supply_of_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supply_of_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_trade_in_information;
+    => nrel_associative_connection: by_impact_on_information;
+    => nrel_associative_connection: by_state_information_policy;
+    => nrel_associative_connection: by_access_to_information;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_information_mediator;
+    => nrel_associative_connection: by_official_distribution_provision;
+    => nrel_associative_connection: by_provision_of_knowingly_false_information;
+    => nrel_associative_connection: by_provision_of_legal_information;
+    => nrel_associative_connection: by_provision_of_environmental_information;
+    => nrel_associative_connection: by_dissemination_of_information;
+    => nrel_associative_connection: by_thematic_requests;
+    => nrel_associative_connection: by_services_to_provide_information;
+    => nrel_associative_connection: by_information_services;
+
+    => nrel_etalon_online_idx: [3145];;

@@ -1,0 +1,31 @@
+
+by_national_exposition
+    => nrel_main_idtf: [national exposition] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальная экспозиция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальная экспазіцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_exposition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_international_exhibition;
+    => nrel_associative_connection: by_international_exhibition_expo;
+    => nrel_associative_connection: by_national_exhibition;
+    => nrel_associative_connection: by_organizing_committee;
+    => nrel_associative_connection: by_coorganizer;
+    => nrel_associative_connection: by_side_event;
+    => nrel_associative_connection: by_exhibitor;
+
+    => nrel_etalon_online_idx: [33617];;

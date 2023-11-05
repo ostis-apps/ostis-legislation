@@ -1,0 +1,27 @@
+
+by_by_organizationleasers
+    => nrel_main_idtf: [by_organizationleasers] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации-лизингодатели] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі-лізінгадавальнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_organizationleasers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_leasing_organization;
+    => nrel_associative_connection: by_lessors;
+    => nrel_associative_connection: by_lessor;
+
+    => nrel_etalon_online_idx: [43747];;

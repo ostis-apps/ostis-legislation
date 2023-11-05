@@ -1,0 +1,28 @@
+
+by_permission_documentation
+    => nrel_main_idtf: [permission documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [разрешительная документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дазвольная дакументацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permission_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_normative_documents;
+    => nrel_associative_connection: by_state_supervision_bodies;
+    => nrel_associative_connection: by_project_documentation;
+    => nrel_associative_connection: by_working_commission;
+
+    => nrel_etalon_online_idx: [36621];;

@@ -1,0 +1,47 @@
+
+by_discomfort_metric_m
+    => nrel_main_idtf: [discomfort metric m] (* <- lang_en;; *);
+    => nrel_main_idtf: [показатель дискомфорта м] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паказчык дыскамфорту м] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_discomfort_metric_m_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_discomfort_metric_m_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_color_rendering_index;
+    => nrel_associative_connection: by_contrast_of_the_object_of_difference_with_the_background_k;
+    => nrel_associative_connection: by_safety_factor;
+    => nrel_associative_connection: by_coefficient_of_illumination_pulsation_kp_;
+    => nrel_associative_connection: by_coefficient_of_illumination_pulsation_of_kp_;
+    => nrel_associative_connection: by_light_climate_coefficient_m;
+    => nrel_associative_connection: by_unified_glare_rating_ugr;
+    => nrel_associative_connection: by_indicator_of_roughness_p;
+
+    => nrel_etalon_online_idx: [37311];;

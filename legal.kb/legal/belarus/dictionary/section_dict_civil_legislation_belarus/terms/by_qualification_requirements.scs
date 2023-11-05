@@ -1,0 +1,34 @@
+
+by_qualification_requirements
+    => nrel_main_idtf: [qualification requirements] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалификационные требования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікацыйныя патрабаванні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_requirements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highly_qualified_specialists;
+    => nrel_associative_connection: by_standard_wagerates_and_qualification_reference_book_of_works_and_jobs_of_workers;
+    => nrel_associative_connection: by_qualification_mark;
+    => nrel_associative_connection: by_qualification_directory__state_positions_of_public_service;
+    => nrel_associative_connection: by_qualification_examination;
+    => nrel_associative_connection: by_qualification;
+    => nrel_associative_connection: by_advanced_training;
+    => nrel_associative_connection: by_professionalqualification_standard;
+    => nrel_associative_connection: by_complexity_of_the_functions_performed;
+    => nrel_associative_connection: by_difficulty_of_labor;
+
+    => nrel_etalon_online_idx: [5967];;

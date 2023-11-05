@@ -1,0 +1,29 @@
+
+by_legal_documents
+    => nrel_main_idtf: [legal documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [правовые документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прававыя дакументы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrativeterritorial_division_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_administrativeterritorial_units;
+    => nrel_associative_connection: by_administrative_acts;
+    => nrel_associative_connection: by_local_act_of_normmaking_body_official;
+    => nrel_associative_connection: by_establishment_of_borders_of_administrativeterritorial_and_territorial_units_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [20936];;

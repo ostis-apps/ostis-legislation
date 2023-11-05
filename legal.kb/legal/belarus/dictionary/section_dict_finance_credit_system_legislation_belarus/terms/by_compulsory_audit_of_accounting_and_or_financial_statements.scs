@@ -1,0 +1,29 @@
+
+by_compulsory_audit_of_accounting_and_or_financial_statements
+    => nrel_main_idtf: [compulsory audit of accounting and (or) financial statements] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательный аудит бухгалтерской и (или) финансовой отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязковы аўдыт бухгалтарскай і (або) фінансавай справаздачнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compulsory_audit_of_accounting_and_or_financial_statements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accountanteconomist_within_the_framework_of_this_specialty;
+    => nrel_associative_connection: by_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_audit_of_accounting_and_or_financial_statements;
+    => nrel_associative_connection: by_statutory_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_assessment_of_quality_of_work_of_auditor_auditor__individual_entrepreneur_audit_organization;
+
+    => nrel_etalon_online_idx: [32348];;

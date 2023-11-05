@@ -1,0 +1,72 @@
+
+by_major_pipeline
+    => nrel_main_idtf: [major pipeline] (* <- lang_en;; *);
+    => nrel_main_idtf: [магистральный трубопровод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магістральны трубаправод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_major_pipeline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_major_pipeline_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_major_pipeline_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_suction_piping;
+    => nrel_associative_connection: by_decommissioning_of_the_trunk_pipeline_facility;
+    => nrel_associative_connection: by_property_complex;
+    => nrel_associative_connection: by_conservation_of_pipeline;
+    => nrel_associative_connection: by_preservation_of_the_main_pipeline_facility_or_its_part;
+    => nrel_associative_connection: by_liquidation_of_the_main_pipeline_facility;
+    => nrel_associative_connection: by_major_pipeline_transport;
+    => nrel_associative_connection: by_minimum_distance_to_the_object_of_the_main_pipeline;
+    => nrel_associative_connection: by_object_of_main_pipeline;
+    => nrel_associative_connection: by_gas_supplier;
+    => nrel_associative_connection: by_product_consumer;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_system_of_main_pipelines;
+    => nrel_associative_connection: by_owner_of_major_pipeline_or_major_pipeline_system;
+    => nrel_associative_connection: by_flanged_connection;
+    => nrel_associative_connection: by_creation_of_the_main_pipeline;
+    => nrel_associative_connection: by_technical_corridor;
+    => nrel_associative_connection: by_technical_corridor_of_main_pipelines;
+
+    => nrel_etalon_online_idx: [1742];;

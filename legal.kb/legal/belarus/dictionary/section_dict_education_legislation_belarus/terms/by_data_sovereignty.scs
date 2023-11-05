@@ -1,0 +1,29 @@
+
+by_data_sovereignty
+    => nrel_main_idtf: [data sovereignty] (* <- lang_en;; *);
+    => nrel_main_idtf: [суверенитет данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суверэнітэт даных] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_data_sovereignty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_impact_on_information;
+    => nrel_associative_connection: by_information_sovereignty_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_international_information_security;
+    => nrel_associative_connection: by_unauthorized_influence_on_information;
+    => nrel_associative_connection: by_ensure_information_security;
+
+    => nrel_etalon_online_idx: [31351];;

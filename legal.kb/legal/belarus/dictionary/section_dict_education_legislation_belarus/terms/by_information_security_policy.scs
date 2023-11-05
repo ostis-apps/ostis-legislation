@@ -1,0 +1,34 @@
+
+by_information_security_policy
+    => nrel_main_idtf: [information security policy] (* <- lang_en;; *);
+    => nrel_main_idtf: [политика информационной безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палітыка інфармацыйнай бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_security_policy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_access_to_state_secrets;
+    => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_information_and_propaganda_work;
+    => nrel_associative_connection: by_cryptographic_key_compromise;
+    => nrel_associative_connection: by_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_international_information_security;
+    => nrel_associative_connection: by_ensure_information_security;
+    => nrel_associative_connection: by_organization_information_security_policy;
+    => nrel_associative_connection: by_technical_protection_of_state_secrets;
+    => nrel_associative_connection: by_technical_protection_of_information;
+
+    => nrel_etalon_online_idx: [20525];;

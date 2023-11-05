@@ -1,0 +1,28 @@
+
+by_small_means_of_accommodation
+    => nrel_main_idtf: [small means of accommodation] (* <- lang_en;; *);
+    => nrel_main_idtf: [малое средство размещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малы сродак размяшчэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_means_of_accommodation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_date_of_accommodation;
+    => nrel_associative_connection: by_additional_placement;
+    => nrel_associative_connection: by_placement_limit;
+    => nrel_associative_connection: by_accommodation_facilities;
+
+    => nrel_etalon_online_idx: [16854];;

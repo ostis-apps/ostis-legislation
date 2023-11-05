@@ -1,0 +1,31 @@
+
+by_departmental_supplier_organization
+    => nrel_main_idtf: [departmental supplier organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомственная организация-поставщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасная арганізацыя-пастаўшчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_departmental_supplier_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_housing_and_utilities_service;
+    => nrel_associative_connection: by_housing_and_utilities_services;
+    => nrel_associative_connection: by_public_utilities_services;
+    => nrel_associative_connection: by_public_utilities_services_provided_to_citizens;
+    => nrel_associative_connection: by_public_utilities_services_provided_to_population;
+    => nrel_associative_connection: by_housing_and_utilities_organization_huo;
+    => nrel_associative_connection: by_seller_supplier;
+
+    => nrel_etalon_online_idx: [12915];;

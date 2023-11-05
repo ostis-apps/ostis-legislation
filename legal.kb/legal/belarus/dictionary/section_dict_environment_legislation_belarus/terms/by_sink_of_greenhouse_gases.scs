@@ -1,0 +1,32 @@
+
+by_sink_of_greenhouse_gases
+    => nrel_main_idtf: [sink of greenhouse gases] (* <- lang_en;; *);
+    => nrel_main_idtf: [поглотитель парниковых газов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паглынальнік парніковых газаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sink_of_greenhouse_gases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_base_level_of_greenhouse_gases_absorption_by_absorbent;
+    => nrel_associative_connection: by_gases_with_indirect_greenhouse_effect;
+    => nrel_associative_connection: by_gases_with_direct_greenhouse_effect;
+    => nrel_associative_connection: by_inventory_of_greenhouse_gases;
+    => nrel_associative_connection: by_cadastral_year;
+    => nrel_associative_connection: by_greenhouse_gases;
+    => nrel_associative_connection: by_joint_implementation;
+    => nrel_associative_connection: by_actual_level_of_greenhouse_gas_absorption_by_sinks;
+
+    => nrel_etalon_online_idx: [20324];;

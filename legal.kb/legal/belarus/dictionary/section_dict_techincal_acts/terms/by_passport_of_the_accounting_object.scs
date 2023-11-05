@@ -1,0 +1,28 @@
+
+by_passport_of_the_accounting_object
+    => nrel_main_idtf: [passport of the accounting object] (* <- lang_en;; *);
+    => nrel_main_idtf: [паспорт объекта учета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашпарт аб'екта ўліку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passport_of_the_accounting_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dynamic_level;
+    => nrel_associative_connection: by_a_deposit_the_body_of_a_mineral;
+    => nrel_associative_connection: by_catalog_of_accounting_objects;
+    => nrel_associative_connection: by_hydrocarbon_recovery_factor;
+
+    => nrel_etalon_online_idx: [42474];;

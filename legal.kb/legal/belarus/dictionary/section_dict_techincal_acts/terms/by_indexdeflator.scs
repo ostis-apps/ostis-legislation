@@ -1,0 +1,31 @@
+
+by_indexdeflator
+    => nrel_main_idtf: [index-deflator] (* <- lang_en;; *);
+    => nrel_main_idtf: [индекс-дефлятор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індэкс-дэфлятар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_indexdeflator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_period;
+    => nrel_associative_connection: by_basic_period_year;
+    => nrel_associative_connection: by_basic_period_of_the_index;
+    => nrel_associative_connection: by_physical_volume_index;
+    => nrel_associative_connection: by_reporting_month_period;
+    => nrel_associative_connection: by_statistical_indicator;
+    => nrel_associative_connection: by_price;
+
+    => nrel_etalon_online_idx: [27643];;

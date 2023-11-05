@@ -1,0 +1,29 @@
+
+by_towing_vehicle
+    => nrel_main_idtf: [towing vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [буксировщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буксіроўшчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_towing_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tow;
+    => nrel_associative_connection: by_towed_convoy;
+    => nrel_associative_connection: by_towage_contract;
+    => nrel_associative_connection: by_towing_period;
+    => nrel_associative_connection: by_trailer;
+
+    => nrel_etalon_online_idx: [8453];;

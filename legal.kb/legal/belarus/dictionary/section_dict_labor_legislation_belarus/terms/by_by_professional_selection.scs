@@ -1,0 +1,33 @@
+
+by_by_professional_selection
+    => nrel_main_idtf: [by_professional_selection] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональный подбор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійны падбор] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_professional_selection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unemployed;
+    => nrel_associative_connection: by_unemployed_registered_in_the_bodies_of_labor_employment_and_social_protection;
+    => nrel_associative_connection: by_unemployed;
+    => nrel_associative_connection: by_professional_activity;
+    => nrel_associative_connection: by_professional_industrial_and_social_adaptation;
+    => nrel_associative_connection: by_professional_informing;
+    => nrel_associative_connection: by_professional_education;
+    => nrel_associative_connection: by_professional_selection;
+    => nrel_associative_connection: by_sectoral_qualifications_framework;
+
+    => nrel_etalon_online_idx: [21739];;

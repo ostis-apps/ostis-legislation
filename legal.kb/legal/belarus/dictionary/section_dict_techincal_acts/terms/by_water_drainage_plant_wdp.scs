@@ -1,0 +1,44 @@
+
+by_water_drainage_plant_wdp
+    => nrel_main_idtf: [water drainage plant, wdp] (* <- lang_en;; *);
+    => nrel_main_idtf: [водоотливная установка, воу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водаадліўная ўстаноўка, воу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_drainage_plant_wdp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_drainage_plant_wdp_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sewage_network_sewage;
+    => nrel_associative_connection: by_deep_laying_line;
+    => nrel_associative_connection: by_shallow_line;
+    => nrel_associative_connection: by_tunnel_lining;
+    => nrel_associative_connection: by_exhaust_network;
+
+    => nrel_etalon_online_idx: [35991];;

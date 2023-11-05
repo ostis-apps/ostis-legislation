@@ -1,0 +1,29 @@
+
+by_account_for_accounting_of_local_budget_funds
+    => nrel_main_idtf: [account for accounting of local budget funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет по учету средств местного бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак па ўліку сродкаў мясцовага бюджэту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_account_for_accounting_of_local_budget_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_local_budgets;
+    => nrel_associative_connection: by_means;
+    => nrel_associative_connection: by_account;
+    => nrel_associative_connection: by_cash_account;
+    => nrel_associative_connection: by_credit_accounting_account;
+
+    => nrel_etalon_online_idx: [24579];;

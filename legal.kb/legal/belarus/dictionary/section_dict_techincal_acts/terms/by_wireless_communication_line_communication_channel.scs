@@ -1,0 +1,29 @@
+
+by_wireless_communication_line_communication_channel
+    => nrel_main_idtf: [wireless communication line (communication channel)] (* <- lang_en;; *);
+    => nrel_main_idtf: [линия связи (канал связи) беспроводная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінія сувязі (канал сувязі) бесправадная] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wireless_communication_line_communication_channel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fire_safety_norms;
+    => nrel_associative_connection: by_equipment_of_fire_automation;
+    => nrel_associative_connection: by_fire_automatic;
+    => nrel_associative_connection: by_fire_safety;
+    => nrel_associative_connection: by_fire_safety_requirement;
+
+    => nrel_etalon_online_idx: [40870];;

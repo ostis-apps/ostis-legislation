@@ -1,0 +1,29 @@
+
+by_portfolio_of_homogeneous_credits
+    => nrel_main_idtf: [portfolio of homogeneous credits] (* <- lang_en;; *);
+    => nrel_main_idtf: [портфель однородных кредитов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партфель аднародных крэдытаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_portfolio_of_homogeneous_credits_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_country_portfolio;
+
+    => nrel_etalon_online_idx: [8255];;

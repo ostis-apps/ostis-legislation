@@ -1,0 +1,29 @@
+
+by_lack_of_residential_premises_in_ownership_and_use
+    => nrel_main_idtf: [lack of residential premises in ownership and use] (* <- lang_en;; *);
+    => nrel_main_idtf: [отсутствие во владении и пользовании жилых помещений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адсутнасць у валоданні і карыстанні жылых памяшканняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lack_of_residential_premises_in_ownership_and_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_normalized_residential_space;
+    => nrel_associative_connection: by_official_residential_premises;
+    => nrel_associative_connection: by_deterioration_of_living_conditions;
+    => nrel_associative_connection: by_members_of_the_employers_family;
+
+    => nrel_etalon_online_idx: [31400];;

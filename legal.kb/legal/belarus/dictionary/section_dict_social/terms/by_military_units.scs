@@ -1,0 +1,82 @@
+
+by_military_units
+    => nrel_main_idtf: [military units] (* <- lang_en;; *);
+    => nrel_main_idtf: [воинские части] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воінскія часці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_units_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_units_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_units_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_units_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_account_specialty_mas;
+    => nrel_associative_connection: by_military_educational_institutions;
+    => nrel_associative_connection: by_military_unit;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_commanders_of_military_installations;
+    => nrel_associative_connection: by_metrological_support_of_military_installation;
+    => nrel_associative_connection: by_search_military_unit;
+    => nrel_associative_connection: by_appendice_composition;
+    => nrel_associative_connection: by_illegal_behavior_of_a_serviceman;
+    => nrel_associative_connection: by_specialized_searching_military_installation;
+
+    => nrel_etalon_online_idx: [13209];;

@@ -1,0 +1,30 @@
+
+by_quality_of_property
+    => nrel_main_idtf: [quality of property] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quality_of_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_property;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_damaged_property;
+    => nrel_associative_connection: by_buyer;
+    => nrel_associative_connection: by_preliminary_assessment_of_property;
+    => nrel_associative_connection: by_industrial_property_processing;
+
+    => nrel_etalon_online_idx: [15832];;

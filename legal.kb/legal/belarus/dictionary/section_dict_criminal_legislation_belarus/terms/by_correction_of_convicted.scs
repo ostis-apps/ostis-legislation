@@ -1,0 +1,29 @@
+
+by_correction_of_convicted
+    => nrel_main_idtf: [correction of convicted] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправление осужденных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпраўленне асуджаных] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_correction_of_convicted_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_upbringing_work_with_persons_convicted_to_improsonment;
+    => nrel_associative_connection: by_group_upringing_event_with_convicted_person;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_convicted_person_who_has_gone_firmly_on_the_path_of_correction;
+    => nrel_associative_connection: by_amateur_organizations_of_convicts;
+
+    => nrel_etalon_online_idx: [4969];;

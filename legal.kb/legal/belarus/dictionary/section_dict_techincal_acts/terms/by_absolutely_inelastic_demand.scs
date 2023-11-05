@@ -1,0 +1,25 @@
+
+by_absolutely_inelastic_demand
+    => nrel_main_idtf: [absolutely inelastic demand] (* <- lang_en;; *);
+    => nrel_main_idtf: [абсолютно неэластичный спрос] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абсалютна неэластычны попыт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_absolutely_inelastic_demand_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_elasticity_coefficient;
+
+    => nrel_etalon_online_idx: [37880];;

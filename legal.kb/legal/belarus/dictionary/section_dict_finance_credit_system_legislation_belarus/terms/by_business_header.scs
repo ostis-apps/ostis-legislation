@@ -1,0 +1,30 @@
+
+by_business_header
+    => nrel_main_idtf: [business header] (* <- lang_en;; *);
+    => nrel_main_idtf: [бизнес-заголовок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бізнес-загаловак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_business_header_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_business_content;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_interbank_processing_center;
+    => nrel_associative_connection: by_biss_system_operational_day;
+    => nrel_associative_connection: by_financial_message;
+
+    => nrel_etalon_online_idx: [42544];;

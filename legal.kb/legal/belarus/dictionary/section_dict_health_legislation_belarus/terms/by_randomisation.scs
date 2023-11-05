@@ -1,0 +1,42 @@
+
+by_randomisation
+    => nrel_main_idtf: [randomisation] (* <- lang_en;; *);
+    => nrel_main_idtf: [рандомизация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рандамізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_randomisation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_randomisation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_testee;
+    => nrel_associative_connection: by_clinical_trials;
+    => nrel_associative_connection: by_written_consent_informed_consent;
+
+    => nrel_etalon_online_idx: [9381];;

@@ -1,0 +1,30 @@
+
+by_licensing_bodies
+    => nrel_main_idtf: [licensing bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицензирующие органы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліцэнзавальныя органы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_licensing_requirements_and_conditions;
+    => nrel_associative_connection: by_licence_contract;
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_licensing_body;
+    => nrel_associative_connection: by_license;
+    => nrel_associative_connection: by_evasion_of_the_license_applicant_from_passing_the_assessment_or_examination;
+
+    => nrel_etalon_online_idx: [16699];;

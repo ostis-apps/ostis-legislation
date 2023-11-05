@@ -1,0 +1,39 @@
+
+by_preliminary_assessment_of_property
+    => nrel_main_idtf: [preliminary assessment of property] (* <- lang_en;; *);
+    => nrel_main_idtf: [предварительная оценка имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папярэдняя ацэнка маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preliminary_assessment_of_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_property_turned_to_the_states_revenue;
+    => nrel_associative_connection: by_quality_of_property;
+    => nrel_associative_connection: by_starting_price_for_sale;
+    => nrel_associative_connection: by_evaluationassessment;
+    => nrel_associative_connection: by_assessment_of_property;
+    => nrel_associative_connection: by_property_appraiser;
+    => nrel_associative_connection: by_subsequent_property_records;
+    => nrel_associative_connection: by_preliminary_payment;
+    => nrel_associative_connection: by_preliminary_cost;
+    => nrel_associative_connection: by_preliminary_cost_of_property;
+    => nrel_associative_connection: by_implementing_organization;
+    => nrel_associative_connection: by_price_of_realization;
+    => nrel_associative_connection: by_expert_appraisal_of_property;
+    => nrel_associative_connection: by_expert_report;
+    => nrel_associative_connection: by_expert_assessor;
+
+    => nrel_etalon_online_idx: [20971];;

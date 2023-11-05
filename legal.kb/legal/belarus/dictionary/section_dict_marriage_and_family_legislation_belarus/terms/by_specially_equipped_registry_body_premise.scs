@@ -1,0 +1,25 @@
+
+by_specially_equipped_registry_body_premise
+    => nrel_main_idtf: [specially equipped registry body premise] (* <- lang_en;; *);
+    => nrel_main_idtf: [специально оборудованное помещение органа загса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльна абсталяванае памяшканне органа загса] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specially_equipped_registry_body_premise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_civil_registration_authorities;
+
+    => nrel_etalon_online_idx: [23791];;

@@ -1,0 +1,33 @@
+
+by_instrument_landing_system_reference_point_t_point
+    => nrel_main_idtf: [instrument landing system reference point ("t" point)] (* <- lang_en;; *);
+    => nrel_main_idtf: [опорная точка системы посадки по приборам (точка "т")] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апорная кропка сістэмы пасадкі па прыборах (кропка "т")] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instrument_landing_system_reference_point_t_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_forced_landing;
+    => nrel_associative_connection: by_instrument_approach_runway;
+    => nrel_associative_connection: by_forced_landing;
+    => nrel_associative_connection: by_instrument_approach;
+    => nrel_associative_connection: by_type_a_instrument_approach;
+    => nrel_associative_connection: by_type_b_instrument_approach;
+    => nrel_associative_connection: by_failure_of_power_supply_to_the_aerodrome_facility;
+    => nrel_associative_connection: by_instrument_flight;
+    => nrel_associative_connection: by_instrument_flight_rules;
+
+    => nrel_etalon_online_idx: [41095];;

@@ -1,0 +1,35 @@
+
+by_test_flight_control_flight
+    => nrel_main_idtf: [test flight (control flight)] (* <- lang_en;; *);
+    => nrel_main_idtf: [облет (контрольный полет)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аблёт (кантрольны палёт)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_test_flight_control_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_test_flight;
+    => nrel_associative_connection: by_map_of_control_reports;
+    => nrel_associative_connection: by_control_department_of_the_operator_of_the_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_check_flight_of_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_aircraft_control_flight;
+    => nrel_associative_connection: by_state_aircraft_check_flight;
+    => nrel_associative_connection: by_person_organizing_flights;
+    => nrel_associative_connection: by_overflight_of_a_state_aircraft;
+    => nrel_associative_connection: by_organization_of_flights;
+    => nrel_associative_connection: by_flight;
+    => nrel_associative_connection: by_flight_task;
+
+    => nrel_etalon_online_idx: [30974];;

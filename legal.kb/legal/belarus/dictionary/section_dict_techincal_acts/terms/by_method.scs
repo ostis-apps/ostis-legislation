@@ -1,0 +1,28 @@
+
+by_method
+    => nrel_main_idtf: [method] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_assessment_objects;
+    => nrel_associative_connection: by_value_appraisal;
+    => nrel_associative_connection: by_permission_to_use_the_method;
+
+    => nrel_etalon_online_idx: [37937];;

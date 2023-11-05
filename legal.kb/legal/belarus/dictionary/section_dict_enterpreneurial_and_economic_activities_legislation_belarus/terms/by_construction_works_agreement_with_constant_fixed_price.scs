@@ -1,0 +1,30 @@
+
+by_construction_works_agreement_with_constant_fixed_price
+    => nrel_main_idtf: [construction works agreement with constant (fixed) price] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор строительного подряда с неизменной (твердой) ценой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор будаўнічага падраду з нязменным (цвёрдай) цаной] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_works_agreement_with_constant_fixed_price_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_construction_works_agreement;
+    => nrel_associative_connection: by_construction_work_contract_with_an_estimated_price;
+    => nrel_associative_connection: by_constant_contractual_contract_price;
+    => nrel_associative_connection: by_unchanged_contractual_price_for_performance_of_contract_works;
+    => nrel_associative_connection: by_contractor_in_construction_activity;
+    => nrel_associative_connection: by_construction_activities_construction;
+
+    => nrel_etalon_online_idx: [14292];;

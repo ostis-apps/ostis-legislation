@@ -1,0 +1,27 @@
+
+by_market_price_range
+    => nrel_main_idtf: [market price range] (* <- lang_en;; *);
+    => nrel_main_idtf: [диапазон рыночных цен] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыяпазон рыначных коштаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_market_price_range_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_market_price;
+    => nrel_associative_connection: by_average_market_price;
+    => nrel_associative_connection: by_current_market_cost;
+
+    => nrel_etalon_online_idx: [36601];;

@@ -1,0 +1,49 @@
+
+by_metrological_support
+    => nrel_main_idtf: [metrological support] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологическое обеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічнае забеспячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_support_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_metrological_characteristics_of_measuring_instruments;
+    => nrel_associative_connection: by_metrological_support_of_military_installation;
+    => nrel_associative_connection: by_metrological_support_of_arms_and_military_equipment;
+    => nrel_associative_connection: by_metrological_support_of_defense_and_security_of_the_state;
+    => nrel_associative_connection: by_metrology;
+    => nrel_associative_connection: by_verification_mark;
+    => nrel_associative_connection: by_mobile_laboratory_of_measurement_technology;
+    => nrel_associative_connection: by_system_of_ensuring_the_unity_of_measurements_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_measurement_management_system;
+    => nrel_associative_connection: by_sphere_of_legislative_metrology;
+
+    => nrel_etalon_online_idx: [17327];;

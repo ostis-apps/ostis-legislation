@@ -1,0 +1,28 @@
+
+by_illegal_obtaining_of_funds_from_the_budget
+    => nrel_main_idtf: [illegal obtaining of funds from the budget] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконное получение средств из бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незаконнае атрыманне сродкаў з бюджэту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegal_obtaining_of_funds_from_the_budget_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budgetary_funds;
+    => nrel_associative_connection: by_excess_of_power_or_official_authority;
+    => nrel_associative_connection: by_crime;
+
+    => nrel_etalon_online_idx: [17990];;

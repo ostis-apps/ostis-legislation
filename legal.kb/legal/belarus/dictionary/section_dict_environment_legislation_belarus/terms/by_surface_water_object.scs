@@ -1,0 +1,53 @@
+
+by_surface_water_object
+    => nrel_main_idtf: [surface water object] (* <- lang_en;; *);
+    => nrel_main_idtf: [поверхностный водный объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паверхневы водны аб'ект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_surface_water_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_surface_water_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road_transport_infrastructure;
+    => nrel_associative_connection: by_noncontact_types_of_impact_on_surface_water_bodies;
+    => nrel_associative_connection: by_improvement_of_surface_water_bodies;
+    => nrel_associative_connection: by_buffer_strip_zone;
+    => nrel_associative_connection: by_filtering_part;
+    => nrel_associative_connection: by_permissible_recreational_load_on_surface_water_body;
+    => nrel_associative_connection: by_recreation_zone_of_surface_water_object;
+    => nrel_associative_connection: by_artificial_water_basin;
+    => nrel_associative_connection: by_water_depletion_of_water_bodies;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_contact_types_of_impact_to_surface_water_bodies;
+    => nrel_associative_connection: by_hit_intake_of_waste_in_a_surface_water_object;
+    => nrel_associative_connection: by_maintenance_of_surface_water_bodies_in_good_condition;
+    => nrel_associative_connection: by_background_alignment;
+
+    => nrel_etalon_online_idx: [20279];;

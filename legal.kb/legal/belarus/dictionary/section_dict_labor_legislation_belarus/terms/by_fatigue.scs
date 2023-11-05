@@ -1,0 +1,65 @@
+
+by_fatigue
+    => nrel_main_idtf: [fatigue] (* <- lang_en;; *);
+    => nrel_main_idtf: [утомление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стомленасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fatigue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fatigue_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fatigue_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acclimatization;
+    => nrel_associative_connection: by_contingency;
+    => nrel_associative_connection: by_inoperable_condition;
+    => nrel_associative_connection: by_rest_in_flight;
+    => nrel_associative_connection: by_break;
+    => nrel_associative_connection: by_overfatigue;
+    => nrel_associative_connection: by_recreation_room;
+    => nrel_associative_connection: by_workable_state;
+    => nrel_associative_connection: by_management_system_for_risk_factors_associated_with_fatigue;
+    => nrel_associative_connection: by_circadian_diurnal_biological_clock;
+    => nrel_associative_connection: by_private_recreation_area;
+
+    => nrel_etalon_online_idx: [38810];;

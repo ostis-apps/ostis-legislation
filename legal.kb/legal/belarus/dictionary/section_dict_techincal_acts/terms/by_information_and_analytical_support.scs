@@ -1,0 +1,60 @@
+
+by_information_and_analytical_support
+    => nrel_main_idtf: [information and analytical support] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационно-аналитическое обеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйна-аналітычнае забеспячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_and_analytical_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_and_analytical_support_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_and_analytical_support_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_analyst;
+    => nrel_associative_connection: by_state_information_policy;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_information_and_analytical_work_in_the_system_of_government_bodies;
+    => nrel_associative_connection: by_information_confrontation;
+    => nrel_associative_connection: by_information_flow;
+
+    => nrel_etalon_online_idx: [31566];;

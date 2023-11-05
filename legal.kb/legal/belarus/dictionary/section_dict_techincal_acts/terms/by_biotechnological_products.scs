@@ -1,0 +1,27 @@
+
+by_biotechnological_products
+    => nrel_main_idtf: [biotechnological products] (* <- lang_en;; *);
+    => nrel_main_idtf: [биотехнологическая продукция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біятэхналагічная прадукцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biotechnological_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biotechnical_complex;
+    => nrel_associative_connection: by_biotechnologies;
+    => nrel_associative_connection: by_biotechnology;
+
+    => nrel_etalon_online_idx: [33134];;

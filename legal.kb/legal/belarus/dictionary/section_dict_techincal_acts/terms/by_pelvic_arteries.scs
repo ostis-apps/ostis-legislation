@@ -1,0 +1,29 @@
+
+by_pelvic_arteries
+    => nrel_main_idtf: [pelvic arteries] (* <- lang_en;; *);
+    => nrel_main_idtf: [артерии таза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [артэрыі таза] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pelvic_arteries_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_arterial_thrombosis;
+    => nrel_associative_connection: by_arteries_of_the_upper_extremities;
+    => nrel_associative_connection: by_arteries_of_the_lower_extremities;
+    => nrel_associative_connection: by_brachiocephalic_arteries;
+    => nrel_associative_connection: by_visceral_arteries;
+
+    => nrel_etalon_online_idx: [34126];;

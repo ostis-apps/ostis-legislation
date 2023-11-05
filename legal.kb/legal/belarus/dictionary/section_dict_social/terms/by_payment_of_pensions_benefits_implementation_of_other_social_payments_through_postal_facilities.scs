@@ -1,0 +1,31 @@
+
+by_payment_of_pensions_benefits_implementation_of_other_social_payments_through_postal_facilities
+    => nrel_main_idtf: [payment of pensions, benefits, implementation of other social payments through postal facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [выплата пенсий, пособий, осуществление других социальных выплат через объекты почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выплата пенсій, дапамог, ажыццяўленне другіх сацыяльных выплат праз аб'екты паштовай сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_of_pensions_benefits_implementation_of_other_social_payments_through_postal_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_statement_for_the_payment_of_pensions_benefits_the_implementation_of_other_social_payments;
+    => nrel_associative_connection: by_other_social_payments;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_pension;
+    => nrel_associative_connection: by_recipient_of_a_pension_allowance_other_social_payment;
+    => nrel_associative_connection: by_allowance;
+    => nrel_associative_connection: by_recipients_representative;
+
+    => nrel_etalon_online_idx: [40711];;

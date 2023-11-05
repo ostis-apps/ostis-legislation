@@ -1,0 +1,27 @@
+
+by_national_segment_of_the_internet
+    => nrel_main_idtf: [national segment of the internet ] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальный сегмент сети интернет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальны сегмент сеткі інтэрнэт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_segment_of_the_internet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_segment_of_the_unified_republican_data_transmission_network;
+    => nrel_associative_connection: by_network_address_space;
+    => nrel_associative_connection: by_network_address;
+
+    => nrel_etalon_online_idx: [17850];;

@@ -1,0 +1,28 @@
+
+by_state_organizations_authorized_to_conduct_the_state_statistics
+    => nrel_main_idtf: [state organizations authorized to conduct the state statistics] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные организации, уполномоченные на ведение государственной статистики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя арганізацыі, упаўнаважаныя на вядзенне дзяржаўнай статыстыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_organizations_authorized_to_conduct_the_state_statistics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_statistics;
+    => nrel_associative_connection: by_state_statistical_activity;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies_and_state_organizations;
+
+    => nrel_etalon_online_idx: [10281];;

@@ -1,0 +1,60 @@
+
+by_variable_interest_income
+    => nrel_main_idtf: [variable interest income] (* <- lang_en;; *);
+    => nrel_main_idtf: [переменный процентный доход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пераменны працэнтны даход] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_interest_income_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_interest_income_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_interest_income_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_permanent_interest_income;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interest_risk_of_the_bank_portfolio;
+    => nrel_associative_connection: by_current_cost;
+
+    => nrel_etalon_online_idx: [8249];;

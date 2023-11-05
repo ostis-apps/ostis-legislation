@@ -1,0 +1,27 @@
+
+by_threat_of_murder_or_grievous_bodily_harm_in_extortion
+    => nrel_main_idtf: [threat of murder or grievous bodily harm in extortion] (* <- lang_en;; *);
+    => nrel_main_idtf: [угроза убийством или причинением тяжкого телесного повреждения при вымогательстве] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагроза забойствам або прычыненнем цяжкага цялеснага пашкоджання пры вымаганні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_threat_of_murder_or_grievous_bodily_harm_in_extortion_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_extortion;
+    => nrel_associative_connection: by_physical_injury;
+    => nrel_associative_connection: by_homicide;
+
+    => nrel_etalon_online_idx: [25397];;

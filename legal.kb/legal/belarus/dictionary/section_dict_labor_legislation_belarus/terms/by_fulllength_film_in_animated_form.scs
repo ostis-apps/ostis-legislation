@@ -1,0 +1,48 @@
+
+by_fulllength_film_in_animated_form
+    => nrel_main_idtf: [full-length film in animated form] (* <- lang_en;; *);
+    => nrel_main_idtf: [полнометражный фильм в анимационной форме] (* <- lang_ru;; *);
+    => nrel_main_idtf: [поўнаметражны фільм у анімацыйнай форме] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fulllength_film_in_animated_form_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fulllength_film_in_animated_form_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_short_film_in_animated_form;
+    => nrel_associative_connection: by_micro_and_advertising_short_film_in_animated_form;
+    => nrel_associative_connection: by_fulllength_film_in_acting_form;
+    => nrel_associative_connection: by_fulllength_film_in_nonacting_form;
+    => nrel_associative_connection: by_film_production;
+    => nrel_associative_connection: by_film;
+    => nrel_associative_connection: by_film_in_the_animation_form;
+    => nrel_associative_connection: by_film_in_the_nonfiction_form;
+    => nrel_associative_connection: by_film_in_the_mixed_form;
+
+    => nrel_etalon_online_idx: [12149];;

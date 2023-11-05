@@ -1,0 +1,27 @@
+
+by_culturetechnical_unsettled_territory
+    => nrel_main_idtf: [culturetechnical unsettled territory] (* <- lang_en;; *);
+    => nrel_main_idtf: [культуртехническая неустроенность территории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [культуртэхнічная неўладкаванасць тэрыторыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_culturetechnical_unsettled_territory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_land_degradation;
+    => nrel_associative_connection: by_degraded_lands;
+    => nrel_associative_connection: by_culturetechnical_amelioration;
+
+    => nrel_etalon_online_idx: [9320];;

@@ -1,0 +1,29 @@
+
+by_by_noncore_documents
+    => nrel_main_idtf: [by_noncore_documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [непрофильные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няпрофільныя дакументы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_noncore_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_documents_on_removable_media;
+    => nrel_associative_connection: by_name;
+    => nrel_associative_connection: by_batch_of_documents;
+    => nrel_associative_connection: by_replenishment_of_the_library_foundation;
+    => nrel_associative_connection: by_documents_obsolete_in_content;
+
+    => nrel_etalon_online_idx: [41912];;

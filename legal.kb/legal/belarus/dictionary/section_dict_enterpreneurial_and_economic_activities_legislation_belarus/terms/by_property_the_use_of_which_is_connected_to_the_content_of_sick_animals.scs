@@ -1,0 +1,28 @@
+
+by_property_the_use_of_which_is_connected_to_the_content_of_sick_animals
+    => nrel_main_idtf: [property, the use of which is connected to the content of sick animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [имущество, использование которого связано с содержанием больных животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маёмасць, выкарыстанне якога звязана з утрыманнем хворых жывёл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_property_the_use_of_which_is_connected_to_the_content_of_sick_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_animal_disease;
+    => nrel_associative_connection: by_receptive_animals;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_property;
+
+    => nrel_etalon_online_idx: [15194];;

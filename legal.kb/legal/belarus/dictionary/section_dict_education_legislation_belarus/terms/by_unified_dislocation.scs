@@ -1,0 +1,42 @@
+
+by_unified_dislocation
+    => nrel_main_idtf: [unified dislocation] (* <- lang_en;; *);
+    => nrel_main_idtf: [единая дислокация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіная дыслакацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unified_dislocation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unified_dislocation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_public_order;
+    => nrel_associative_connection: by_bodies_of_internal_affairs;
+    => nrel_associative_connection: by_protection_of_public_order;
+
+    => nrel_etalon_online_idx: [14552];;

@@ -1,0 +1,27 @@
+
+by_by_industrial_explosives_warehouse
+    => nrel_main_idtf: [by_industrial_explosives_warehouse] (* <- lang_en;; *);
+    => nrel_main_idtf: [склад промышленных взрывчатых веществ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [склад прамысловых выбуховых рэчываў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_industrial_explosives_warehouse_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explosive_substances;
+    => nrel_associative_connection: by_pyrotechnic_substance_pyrotechnic_composition;
+    => nrel_associative_connection: by_industrial_explosive_substances_ies;
+
+    => nrel_etalon_online_idx: [43931];;

@@ -1,0 +1,75 @@
+
+by_repair_works
+    => nrel_main_idtf: [repair works] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонтные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонтныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repair_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repair_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_refurbishment_of_property_repair;
+    => nrel_associative_connection: by_refurbishment_of_vehicle;
+    => nrel_associative_connection: by_guarantee_repair_of_ship;
+    => nrel_associative_connection: by_exploitation_defect;
+    => nrel_associative_connection: by_capital_repairs;
+    => nrel_associative_connection: by_workshop;
+    => nrel_associative_connection: by_normative_time_labor_content_of_repair_works;
+    => nrel_associative_connection: by_operational_repair_team;
+    => nrel_associative_connection: by_production_refusal;
+    => nrel_associative_connection: by_mobile_service_complex;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_of_buildings;
+    => nrel_associative_connection: by_repair_of_medical_equipment;
+    => nrel_associative_connection: by_repair_of_a_sample_of_arms_and_military_equipment;
+    => nrel_associative_connection: by_repair_of_the_object;
+    => nrel_associative_connection: by_repair_of_subscriber_terminals;
+    => nrel_associative_connection: by__rolling_stock_repair;
+    => nrel_associative_connection: by_repair_of_special_means;
+    => nrel_associative_connection: by_repair_of_measuring_instruments;
+    => nrel_associative_connection: by_repair_of_communication_equipment;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_digital_tachograph_repair;
+    => nrel_associative_connection: by_repair_organization;
+    => nrel_associative_connection: by_repair_materials;
+    => nrel_associative_connection: by_maintainability;
+    => nrel_associative_connection: by_system_of_scheduled_preventive_repair;
+    => nrel_associative_connection: by_system_of_technical_service_and_repair_of_measuring_instruments;
+    => nrel_associative_connection: by_repair_service;
+    => nrel_associative_connection: by_inspection_pit;
+    => nrel_associative_connection: by_vehicle_renewal_cost;
+    => nrel_associative_connection: by_cost_of_one_normohour_of_repair_work;
+    => nrel_associative_connection: by_cost_of_property_repair;
+    => nrel_associative_connection: by_cost_of_vehicle_repair;
+    => nrel_associative_connection: by_cost_of_elimination_of_defects_in_operation;
+    => nrel_associative_connection: by_current_repair;
+
+    => nrel_etalon_online_idx: [22549];;

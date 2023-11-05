@@ -1,0 +1,27 @@
+
+by_university
+    => nrel_main_idtf: [university] (* <- lang_en;; *);
+    => nrel_main_idtf: [университет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [універсітэт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_university_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_classic_university;
+    => nrel_associative_connection: by_profile_university_academy_conservatory;
+    => nrel_associative_connection: by_higher_education_institution;
+
+    => nrel_etalon_online_idx: [406];;

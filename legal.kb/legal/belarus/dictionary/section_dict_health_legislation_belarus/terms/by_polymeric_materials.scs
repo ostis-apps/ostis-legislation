@@ -1,0 +1,30 @@
+
+by_polymeric_materials
+    => nrel_main_idtf: [polymeric materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [полимерные материалы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палімерныя матэрыялы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_polymeric_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fibrous_polymer_materials;
+    => nrel_associative_connection: by_fiberforming_polymers;
+    => nrel_associative_connection: by_fusible_nonfluorinated_polymer;
+    => nrel_associative_connection: by_plastic;
+    => nrel_associative_connection: by_polymer_material;
+    => nrel_associative_connection: by_shape_formation_under_superplasticity_conditions;
+
+    => nrel_etalon_online_idx: [20523];;

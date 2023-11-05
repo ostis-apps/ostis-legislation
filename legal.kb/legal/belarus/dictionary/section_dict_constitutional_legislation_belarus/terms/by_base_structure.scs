@@ -1,0 +1,42 @@
+
+by_base_structure
+    => nrel_main_idtf: [base structure] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовая структура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавая структура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_structure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_narcotic_drugs_psychotropic_substances;
+    => nrel_associative_connection: by_narcotic_drugs_psychotropic_substances_precursors;
+    => nrel_associative_connection: by_nonnarcotic_substances;
+
+    => nrel_etalon_online_idx: [9750];;

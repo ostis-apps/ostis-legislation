@@ -1,0 +1,29 @@
+
+by_bivalent_temperature
+    => nrel_main_idtf: [bivalent temperature] (* <- lang_en;; *);
+    => nrel_main_idtf: [бивалентная температура; tbiv, °c (bivalent temperature)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бівалентная тэмпература; tbiv, °c (bivalent temperature)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bivalent_temperature_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reference_annual_heating_demand;
+    => nrel_associative_connection: by_declared_energy_efficiency_ratio;
+    => nrel_associative_connection: by_capacity_ratio;
+    => nrel_associative_connection: by_electric_backup_heater_capacity;
+    => nrel_associative_connection: by_cycling_interval_capacity;
+
+    => nrel_etalon_online_idx: [35027];;

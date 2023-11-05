@@ -1,0 +1,27 @@
+
+by_rootstock
+    => nrel_main_idtf: [rootstock] (* <- lang_en;; *);
+    => nrel_main_idtf: [подвой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прышчэпа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rootstock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_protective_plantations;
+    => nrel_associative_connection: by_perennial_plantings;
+    => nrel_associative_connection: by_fruit_perennial_plantings;
+
+    => nrel_etalon_online_idx: [33867];;

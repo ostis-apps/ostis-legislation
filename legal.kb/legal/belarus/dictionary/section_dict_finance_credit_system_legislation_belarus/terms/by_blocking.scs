@@ -1,0 +1,58 @@
+
+by_blocking
+    => nrel_main_idtf: [blocking] (* <- lang_en;; *);
+    => nrel_main_idtf: [блокирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блакіраванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personal_data_blocking;
+    => nrel_associative_connection: by_financial_operation_blocking;
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_financing;
+
+    => nrel_etalon_online_idx: [12794];;

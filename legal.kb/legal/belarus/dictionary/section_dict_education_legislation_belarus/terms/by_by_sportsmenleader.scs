@@ -1,0 +1,30 @@
+
+by_by_sportsmenleader
+    => nrel_main_idtf: [by_sportsmenleader] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортсмен-лидер ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартсмен-лідэр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_sportsmenleader_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_professional_sportsman;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_highest_class_sportsmen;
+
+    => nrel_etalon_online_idx: [41467];;

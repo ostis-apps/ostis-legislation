@@ -1,0 +1,34 @@
+
+by_neurosurgical_team_of_emergency_specialized_medical_care
+    => nrel_main_idtf: [neurosurgical team of emergency specialized medical care] (* <- lang_en;; *);
+    => nrel_main_idtf: [нейрохирургическая бригада экстренной специализированной медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нейрахірургічная брыгада экстраннай спецыялізаванай медыцынскай дапамогі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neurosurgical_team_of_emergency_specialized_medical_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_emergency_medicine;
+    => nrel_associative_connection: by_medical_activity;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_care_in_specialized_healthcare_organizations;
+    => nrel_associative_connection: by_republican_operational_antiepidemic_team;
+    => nrel_associative_connection: by_republican_sanitarypreventive_team;
+    => nrel_associative_connection: by_specialized_medical_aid;
+    => nrel_associative_connection: by_trauma_team_of_constant_readiness;
+    => nrel_associative_connection: by_surgical_team_of_emergency_specialized_medical_care;
+
+    => nrel_etalon_online_idx: [18041];;

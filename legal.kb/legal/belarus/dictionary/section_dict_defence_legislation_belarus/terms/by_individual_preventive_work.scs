@@ -1,0 +1,46 @@
+
+by_individual_preventive_work
+    => nrel_main_idtf: [individual preventive work] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальная профилактическая работа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальная прафілактычная работа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_preventive_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_preventive_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_individual_crime_prevention;
+    => nrel_associative_connection: by_prevention_of_child_neglect_and_juvenile_delinquency;
+    => nrel_associative_connection: by_prevention_of_violations;
+    => nrel_associative_connection: by_preventive_talk;
+    => nrel_associative_connection: by_preventive_record;
+    => nrel_associative_connection: by_family_at_social_risk;
+    => nrel_associative_connection: by_social_risk_of_a_child;
+
+    => nrel_etalon_online_idx: [11015];;

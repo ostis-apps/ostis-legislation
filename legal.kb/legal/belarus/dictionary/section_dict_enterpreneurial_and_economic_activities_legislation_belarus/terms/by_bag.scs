@@ -1,0 +1,15 @@
+
+by_bag
+    => nrel_main_idtf: [bag] (* <- lang_en;; *);
+    => nrel_main_idtf: [мешок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяшок] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_container;
+    => nrel_associative_connection: by_container_packaging;
+    => nrel_associative_connection: by_containers_for_linen;
+    => nrel_associative_connection: by_pipeline;
+    => nrel_associative_connection: by_packaging;
+
+    => nrel_etalon_online_idx: [17348];;

@@ -1,0 +1,31 @@
+
+by_rescuing_people_in_a_fire
+    => nrel_main_idtf: [rescuing people in a fire] (* <- lang_en;; *);
+    => nrel_main_idtf: [спасание людей при пожаре] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ратаванне людзей пры пажары] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rescuing_people_in_a_fire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fire_evacuation_plan;
+    => nrel_associative_connection: by_killed_on_fire;
+    => nrel_associative_connection: by_fire_in_housing_fund;
+    => nrel_associative_connection: by_fire_teams;
+    => nrel_associative_connection: by_housing_fires;
+    => nrel_associative_connection: by_affected_in_emergency_situation;
+    => nrel_associative_connection: by_evacuation_route;
+
+    => nrel_etalon_online_idx: [23708];;

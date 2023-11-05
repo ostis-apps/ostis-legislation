@@ -1,0 +1,45 @@
+
+by_transport_package
+    => nrel_main_idtf: [transport package] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортный пакет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартны пакет] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transport_package_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transport_package_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_undocumented_cargo;
+    => nrel_associative_connection: by_cargo_place;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_pan;
+    => nrel_associative_connection: by_transport_index;
+
+    => nrel_etalon_online_idx: [25244];;

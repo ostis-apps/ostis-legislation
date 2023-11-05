@@ -1,0 +1,29 @@
+
+by_creating_an_infrastructure_facility
+    => nrel_main_idtf: [creating an infrastructure facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [создание объекта инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стварэнне аб'екта інфраструктуры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_creating_an_infrastructure_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_infrastructure_owner;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_modernization_of_infrastructure_object;
+    => nrel_associative_connection: by_infrastructure_object;
+    => nrel_associative_connection: by_infrastructure_objects;
+
+    => nrel_etalon_online_idx: [41505];;

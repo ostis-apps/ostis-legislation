@@ -1,0 +1,45 @@
+
+by_sports_core
+    => nrel_main_idtf: [sports core] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивное ядро] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўнае ядро] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sports_core_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sports_core_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sports_field;
+    => nrel_associative_connection: by_sportsandentertainment_physicalculture_and_sports_facilities_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_educationandtraining_physicalculture_and_sports_facilities_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_sport_and_recreation_activities;
+    => nrel_associative_connection: by_physicalculture_and_recreational_physicalculture_and_sports_facilities_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_sports_constructions;
+
+    => nrel_etalon_online_idx: [23908];;

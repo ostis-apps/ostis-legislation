@@ -1,0 +1,31 @@
+
+by_products_of_national_art_crafts
+    => nrel_main_idtf: [products of national art crafts] (* <- lang_en;; *);
+    => nrel_main_idtf: [изделия народных художественных ремесел] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вырабы народных мастацкіх рамёстваў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_products_of_national_art_crafts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_product_images;
+    => nrel_associative_connection: by_master_of_national_art_crafts;
+    => nrel_associative_connection: by_folk_art_handicrafts;
+    => nrel_associative_connection: by_handicraft_teaching;
+    => nrel_associative_connection: by_organizations_of_national_art_crafts;
+    => nrel_associative_connection: by_craft_activity;
+    => nrel_associative_connection: by_expert_commission_on_folk_art_handicrafts;
+
+    => nrel_etalon_online_idx: [7885];;

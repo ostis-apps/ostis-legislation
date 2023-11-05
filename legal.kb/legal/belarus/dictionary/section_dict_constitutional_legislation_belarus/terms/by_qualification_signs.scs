@@ -1,0 +1,29 @@
+
+by_qualification_signs
+    => nrel_main_idtf: [qualification signs] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалификационные знаки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікацыйныя знакі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_signs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_signs_of_difference_on_uniform_clothes;
+    => nrel_associative_connection: by_award_badges;
+    => nrel_associative_connection: by_lapel_badge;
+    => nrel_associative_connection: by_identification_mark;
+    => nrel_associative_connection: by_commemoral_signs;
+
+    => nrel_etalon_online_idx: [41370];;

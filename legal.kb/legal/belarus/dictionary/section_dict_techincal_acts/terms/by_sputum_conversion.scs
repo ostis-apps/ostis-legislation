@@ -1,0 +1,30 @@
+
+by_sputum_conversion
+    => nrel_main_idtf: [sputum conversion] (* <- lang_en;; *);
+    => nrel_main_idtf: [конверсия мокроты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канверсія макраты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sputum_conversion_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sick_person_with_tuberculosis;
+    => nrel_associative_connection: by_first_identified_new_sick_person_case;
+    => nrel_associative_connection: by_infectious_control;
+    => nrel_associative_connection: by_cohort;
+    => nrel_associative_connection: by_pulmonary_tuberculosis_who_definition;
+    => nrel_associative_connection: by_multidrug_resistance;
+
+    => nrel_etalon_online_idx: [31622];;

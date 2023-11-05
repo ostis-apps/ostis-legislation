@@ -1,0 +1,34 @@
+
+by_contract_of_passenger_carriage
+    => nrel_main_idtf: [contract of passenger carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор перевозки пассажира] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор перавозкі пасажыра] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_of_passenger_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_passenger_air_carriage_contract;
+    => nrel_associative_connection: by_contract_for_carriage_of_passengers_by_sea;
+    => nrel_associative_connection: by_customer_of_passenger_transportation;
+    => nrel_associative_connection: by_price_index_tariffs_for_passenger_transportation;
+    => nrel_associative_connection: by_individual_index_of_prices_tariffs_for_passenger_transportation;
+    => nrel_associative_connection: by_transit_passenger;
+    => nrel_associative_connection: by_transfer_passenger;
+    => nrel_associative_connection: by_passenger_transportation_at_destination_return_unladen;
+    => nrel_associative_connection: by_passenger_transportation_by_inland_water_transport_of_general_use;
+    => nrel_associative_connection: by_passenger_fare;
+
+    => nrel_etalon_online_idx: [14288];;

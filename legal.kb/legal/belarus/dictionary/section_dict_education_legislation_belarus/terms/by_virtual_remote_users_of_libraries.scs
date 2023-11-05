@@ -1,0 +1,26 @@
+
+by_virtual_remote_users_of_libraries
+    => nrel_main_idtf: [virtual (remote) users of libraries] (* <- lang_en;; *);
+    => nrel_main_idtf: [виртуальные (удаленные) пользователи библиотек] (* <- lang_ru;; *);
+    => nrel_main_idtf: [віртуальныя (аддаленыя) карыстальнікі бібліятэк] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_virtual_remote_users_of_libraries_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_library_users;
+    => nrel_associative_connection: by_consolidated_electronic_catalogue_of_libraries_of_belarus;
+
+    => nrel_etalon_online_idx: [41257];;

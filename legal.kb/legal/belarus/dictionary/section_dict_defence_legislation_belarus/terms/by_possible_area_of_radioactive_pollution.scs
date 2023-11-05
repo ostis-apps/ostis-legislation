@@ -1,0 +1,28 @@
+
+by_possible_area_of_radioactive_pollution
+    => nrel_main_idtf: [possible area of radioactive pollution] (* <- lang_en;; *);
+    => nrel_main_idtf: [возможная зона радиоактивного загрязнения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магчымая зона радыеактыўнага забруджвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_possible_area_of_radioactive_pollution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_radioactive_contamination;
+    => nrel_associative_connection: by_radiological_emergency_situation;
+    => nrel_associative_connection: by_radioactive_pollution_control_system;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_etalon_online_idx: [13203];;

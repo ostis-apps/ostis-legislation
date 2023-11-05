@@ -1,0 +1,20 @@
+
+by_unencumbered_assets
+    => nrel_main_idtf: [unencumbered assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [необремененные активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неабцяжараныя актывы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_long_term_assets;
+    => nrel_associative_connection: by_encumbered_assets;
+    => nrel_associative_connection: by_equity;
+    => nrel_associative_connection: by_security;
+
+    => nrel_etalon_online_idx: [27674];;

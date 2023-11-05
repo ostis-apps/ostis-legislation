@@ -1,0 +1,29 @@
+
+by_external_heat_supply
+    => nrel_main_idtf: [external heat supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешнее теплоснабжение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешняе цеплазабеспячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_heat_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hot_water_supply;
+    => nrel_associative_connection: by_border_of_balance_belonging;
+    => nrel_associative_connection: by_trunking_heat_network;
+    => nrel_associative_connection: by_organization_transfering__thermal_energy;
+    => nrel_associative_connection: by_open_heating_system;
+
+    => nrel_etalon_online_idx: [32052];;

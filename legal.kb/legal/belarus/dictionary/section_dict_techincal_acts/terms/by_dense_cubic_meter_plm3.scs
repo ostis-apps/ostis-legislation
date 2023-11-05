@@ -1,0 +1,27 @@
+
+by_dense_cubic_meter_plm3
+    => nrel_main_idtf: [dense cubic meter (pl.m3)] (* <- lang_en;; *);
+    => nrel_main_idtf: [плотный метр кубический (пл. м3)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [моцны метр кубічны (пл. м3)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dense_cubic_meter_plm3_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wood;
+    => nrel_associative_connection: by_round_timber;
+    => nrel_associative_connection: by_lumber;
+
+    => nrel_etalon_online_idx: [35911];;

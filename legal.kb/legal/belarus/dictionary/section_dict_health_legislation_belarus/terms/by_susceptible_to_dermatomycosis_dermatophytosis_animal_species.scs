@@ -1,0 +1,30 @@
+
+by_susceptible_to_dermatomycosis_dermatophytosis_animal_species
+    => nrel_main_idtf: [susceptible to dermatomycosis (dermatophytosis) animal species] (* <- lang_en;; *);
+    => nrel_main_idtf: [восприимчивые к дерматомикозам (дерматофитозам) виды животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [успрыімлівыя да дэрматамікозаў (дэрматафітозаў) віды жывёл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_susceptible_to_dermatomycosis_dermatophytosis_animal_species_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_object_favorable_for_dermatophitosis;
+    => nrel_associative_connection: by_susceptible_to_dermatomycosis_animal_species;
+    => nrel_associative_connection: by_dermatomycosis;
+    => nrel_associative_connection: by_troubled_by_dermatomycosis_dermatophytosis_object;
+    => nrel_associative_connection: by_dermatophytosisdeficient_object;
+    => nrel_associative_connection: by_episootic_focus_of_dermatomycosis_dermatophytosis;
+
+    => nrel_etalon_online_idx: [39550];;

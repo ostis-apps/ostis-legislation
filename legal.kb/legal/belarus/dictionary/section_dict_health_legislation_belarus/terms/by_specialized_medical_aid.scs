@@ -1,0 +1,41 @@
+
+by_specialized_medical_aid
+    => nrel_main_idtf: [specialized medical aid] (* <- lang_en;; *);
+    => nrel_main_idtf: [специализированная медицинская помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялізаваная медыцынская дапамога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialized_medical_aid_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_obstetricgynecologic_brigade_of_emergency_specialised_medical_care_besma;
+    => nrel_associative_connection: by_hightech_medical_care;
+    => nrel_associative_connection: by_infectious_disease_specialized_assistance_team;
+    => nrel_associative_connection: by_emergency_medicine;
+    => nrel_associative_connection: by_neurosurgical_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_first_aid_teaching;
+    => nrel_associative_connection: by_burning_team_of_constant_readiness;
+    => nrel_associative_connection: by_primary_health_care;
+    => nrel_associative_connection: by_psychiatric_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_republican_operational_antiepidemic_team;
+    => nrel_associative_connection: by_republican_sanitarypreventive_team;
+    => nrel_associative_connection: by_emergency_medical_service;
+    => nrel_associative_connection: by_emergency_medical_service_in_emergency_situations;
+    => nrel_associative_connection: by_dental_care;
+    => nrel_associative_connection: by_trauma_team_of_constant_readiness;
+    => nrel_associative_connection: by_surgical_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_emergency_medical_care;
+
+    => nrel_etalon_online_idx: [23729];;

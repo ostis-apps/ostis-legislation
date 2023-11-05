@@ -1,0 +1,32 @@
+
+by_street_content_quality
+    => nrel_main_idtf: [street content quality] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество содержания улиц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць догляду вуліц] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_street_content_quality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owners_of_populated_area_streets;
+    => nrel_associative_connection: by_defect_of_travel_clothing;
+    => nrel_associative_connection: by_critical_defects;
+    => nrel_associative_connection: by_housing_and_utilities_infrastructure;
+    => nrel_associative_connection: by_destruction_of_travel_clothing;
+    => nrel_associative_connection: by_street_of_the_settlement;
+    => nrel_associative_connection: by_street_of_the_settlement_street;
+    => nrel_associative_connection: by_street_and_road_activity;
+
+    => nrel_etalon_online_idx: [31451];;

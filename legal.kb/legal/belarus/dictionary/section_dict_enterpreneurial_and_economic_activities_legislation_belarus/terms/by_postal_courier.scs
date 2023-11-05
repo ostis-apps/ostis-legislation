@@ -1,0 +1,29 @@
+
+by_postal_courier
+    => nrel_main_idtf: [postal courier] (* <- lang_en;; *);
+    => nrel_main_idtf: [почтовый курьер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паштовы кур'ер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postal_courier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_postal_route;
+    => nrel_associative_connection: by_letter_box;
+    => nrel_associative_connection: by_postal_communication_network;
+    => nrel_associative_connection: by_special_post_box;
+
+    => nrel_etalon_online_idx: [32354];;

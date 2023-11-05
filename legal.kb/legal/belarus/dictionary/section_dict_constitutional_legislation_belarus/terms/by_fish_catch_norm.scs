@@ -1,0 +1,16 @@
+
+by_fish_catch_norm
+    => nrel_main_idtf: [fish catch norm] (* <- lang_en;; *);
+    => nrel_main_idtf: [норма вылова рыбы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [норма вылаву рыбы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_fish_extraction;
+    => nrel_associative_connection: by_norms_of_permissible_fish_catch;
+    => nrel_associative_connection: by_fish_catch;
+    => nrel_associative_connection: by_erroneous_norms;
+    => nrel_associative_connection: by_search_of_fish;
+    => nrel_associative_connection: by_fishery_stock_of_fish;
+
+    => nrel_etalon_online_idx: [18245];;

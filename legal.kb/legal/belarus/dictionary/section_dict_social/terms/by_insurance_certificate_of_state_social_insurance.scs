@@ -1,0 +1,29 @@
+
+by_insurance_certificate_of_state_social_insurance
+    => nrel_main_idtf: [insurance certificate of state social insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховое свидетельство государственного социального страхования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавое пасведчанне дзяржаўнага сацыяльнага страхавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_certificate_of_state_social_insurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_insured_persons;
+    => nrel_associative_connection: by_individual_personified_account_in_the_state_social_insurance_system;
+    => nrel_associative_connection: by_registration_of_insured_person;
+    => nrel_associative_connection: by_social_insurance;
+    => nrel_associative_connection: by_insurance_experience;
+
+    => nrel_etalon_online_idx: [24329];;

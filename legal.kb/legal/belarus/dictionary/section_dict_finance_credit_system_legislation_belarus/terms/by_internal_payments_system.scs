@@ -1,0 +1,14 @@
+
+by_internal_payments_system
+    => nrel_main_idtf: [internal payments system] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренняя платежная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраная плацежная сістэма] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner_of_payment_system;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_system_rules;
+    => nrel_associative_connection: by_system;
+
+    => nrel_etalon_online_idx: [8631];;

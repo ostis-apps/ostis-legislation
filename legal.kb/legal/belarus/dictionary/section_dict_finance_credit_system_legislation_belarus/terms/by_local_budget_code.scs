@@ -1,0 +1,27 @@
+
+by_local_budget_code
+    => nrel_main_idtf: [local budget code] (* <- lang_en;; *);
+    => nrel_main_idtf: [код местного бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [код мясцовага бюджэту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_budget_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_code;
+    => nrel_associative_connection: by_local_budgets;
+
+    => nrel_etalon_online_idx: [15960];;

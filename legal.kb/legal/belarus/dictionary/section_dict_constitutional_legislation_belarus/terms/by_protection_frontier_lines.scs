@@ -1,0 +1,27 @@
+
+by_protection_frontier_lines
+    => nrel_main_idtf: [protection frontier lines] (* <- lang_en;; *);
+    => nrel_main_idtf: [рубежи охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рубяжы аховы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_frontier_lines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_natural_boundary_front;
+    => nrel_associative_connection: by_infrastructure_of_the_state_border;
+    => nrel_associative_connection: by_protection_of_the_state_border;
+
+    => nrel_etalon_online_idx: [10839];;

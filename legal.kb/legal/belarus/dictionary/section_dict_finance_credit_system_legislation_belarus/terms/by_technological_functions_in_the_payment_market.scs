@@ -1,0 +1,28 @@
+
+by_technological_functions_in_the_payment_market
+    => nrel_main_idtf: [technological functions in the payment market] (* <- lang_en;; *);
+    => nrel_main_idtf: [технологические функции на платежном рынке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхналагічныя функцыі на плацежным рынку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technological_functions_in_the_payment_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_technological_services;
+
+    => nrel_etalon_online_idx: [40381];;

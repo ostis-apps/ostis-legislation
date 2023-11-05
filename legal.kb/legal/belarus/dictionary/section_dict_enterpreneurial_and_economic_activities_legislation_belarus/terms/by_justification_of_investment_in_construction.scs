@@ -1,0 +1,28 @@
+
+by_justification_of_investment_in_construction
+    => nrel_main_idtf: [justification of investment in construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [обоснование инвестирования в строительство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абгрунтаванне інвеставання ў будаўніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_justification_of_investment_in_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_predesign_preinvestment_documentation;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [18467];;

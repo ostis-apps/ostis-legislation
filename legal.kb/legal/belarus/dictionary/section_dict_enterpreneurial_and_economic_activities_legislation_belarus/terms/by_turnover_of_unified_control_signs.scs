@@ -1,0 +1,28 @@
+
+by_turnover_of_unified_control_signs
+    => nrel_main_idtf: [turnover of unified control signs] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборот унифицированных контрольных знаков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот уніфікаваных кантрольных знакаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_turnover_of_unified_control_signs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_turnover_of_protected_material_carriers_protected_material_carriers_with_applied_means_of_identification_protection_signs;
+    => nrel_associative_connection: by_turnover_of_control_identification_signs;
+    => nrel_associative_connection: by_turnover_of_identification_means_marking_codes;
+    => nrel_associative_connection: by_unified_control_sign_control_identification_sign;
+
+    => nrel_etalon_online_idx: [38274];;

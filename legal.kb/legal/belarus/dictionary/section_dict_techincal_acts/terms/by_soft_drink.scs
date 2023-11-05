@@ -1,0 +1,30 @@
+
+by_soft_drink
+    => nrel_main_idtf: [soft drink] (* <- lang_en;; *);
+    => nrel_main_idtf: [безалкогольный напиток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [безалкагольны напой] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_soft_drink_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_alcohol_beverage;
+    => nrel_associative_connection: by_other_lowalcohol_drinks;
+    => nrel_associative_connection: by_strong_alcoholic_beverages;
+    => nrel_associative_connection: by_fruit_and_berry_alcoholized_juice;
+    => nrel_associative_connection: by_lowalcohol_drinks;
+    => nrel_associative_connection: by_lowalcohol_drink;
+
+    => nrel_etalon_online_idx: [31660];;

@@ -1,0 +1,28 @@
+
+by_maneuvering_in_limited_time_conditions
+    => nrel_main_idtf: [maneuvering (in limited time conditions)] (* <- lang_en;; *);
+    => nrel_main_idtf: [маневрирование (в условиях ограниченного времени)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [манеўраванне (ва ўмовах абмежаванага часу)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maneuvering_in_limited_time_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_overall_figure_eight_circle_for_the_autodrome;
+    => nrel_associative_connection: by_overall_figure_eight_for_the_motodrome;
+    => nrel_associative_connection: by_cone;
+    => nrel_associative_connection: by_main_camera_of_video_recorder;
+
+    => nrel_etalon_online_idx: [35610];;

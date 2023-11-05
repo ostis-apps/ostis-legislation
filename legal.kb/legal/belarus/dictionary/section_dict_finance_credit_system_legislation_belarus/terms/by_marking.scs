@@ -1,0 +1,43 @@
+
+by_marking
+    => nrel_main_idtf: [marking] (* <- lang_en;; *);
+    => nrel_main_idtf: [клеймение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клеймаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marking_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_monopoly_on_assaying_and_marking_with_state_assay_mark_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_hallmark;
+    => nrel_associative_connection: by_state_assay_mark_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_nominee;
+
+    => nrel_etalon_online_idx: [7762];;

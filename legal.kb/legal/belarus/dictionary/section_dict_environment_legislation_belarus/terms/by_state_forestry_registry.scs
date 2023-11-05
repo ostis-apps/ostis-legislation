@@ -1,0 +1,40 @@
+
+by_state_forestry_registry
+    => nrel_main_idtf: [state forestry registry] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный лесной кадастр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны лясны кадастр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_forestry_registry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_forestry_registry_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_system_of_the_state_forestry_registry;
+
+    => nrel_etalon_online_idx: [5617];;

@@ -1,0 +1,33 @@
+
+by_payment_agent
+    => nrel_main_idtf: [payment agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный агент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны агент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_information_system_of_settlements_for_housingandcommunal_and_other_services_consumed_by_the_population;
+    => nrel_associative_connection: by_ais_calculation;
+    => nrel_associative_connection: by_prepaid_payment;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payments_to_the_budget;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_calculated_agent;
+    => nrel_associative_connection: by_payment_made;
+    => nrel_associative_connection: by_participants_of_the_single_settlement_and_information_space;
+
+    => nrel_etalon_online_idx: [20216];;

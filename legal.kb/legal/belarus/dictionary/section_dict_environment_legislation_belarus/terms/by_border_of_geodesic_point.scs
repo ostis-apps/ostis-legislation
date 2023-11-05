@@ -1,0 +1,46 @@
+
+by_border_of_geodesic_point
+    => nrel_main_idtf: [border of geodesic point] (* <- lang_en;; *);
+    => nrel_main_idtf: [граница геодезического пункта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяжа геадэзічнага пункта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_border_of_geodesic_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_border_of_geodesic_point_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geodetic_works;
+    => nrel_associative_connection: by_geodetic_station;
+    => nrel_associative_connection: by_source_geodesic_coordinate_system_dates;
+    => nrel_associative_connection: by_catalogue_of_geodesic_points_coordinates;
+    => nrel_associative_connection: by_permanent_geodetic_point;
+    => nrel_associative_connection: by_geodetic_point;
+    => nrel_associative_connection: by_center_of_geodesic_point;
+
+    => nrel_etalon_online_idx: [13834];;

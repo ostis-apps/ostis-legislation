@@ -1,0 +1,27 @@
+
+by_vessel_on_the_move
+    => nrel_main_idtf: [vessel on the move] (* <- lang_en;; *);
+    => nrel_main_idtf: [судно на ходу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судна на хаду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vessel_on_the_move_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_high_speed_vessel;
+    => nrel_associative_connection: by_floating_establishment;
+    => nrel_associative_connection: by_floating_equipment;
+
+    => nrel_etalon_online_idx: [24493];;

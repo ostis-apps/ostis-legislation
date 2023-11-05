@@ -1,0 +1,31 @@
+
+by_navigational_period_navigation
+    => nrel_main_idtf: [navigational period (navigation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [навигационный период (навигация)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навігацыйны перыяд (навігацыя)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigational_period_navigation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_navigation_resources;
+    => nrel_associative_connection: by_internavigation_period;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigational_error;
+    => nrel_associative_connection: by_navigational_period;
+    => nrel_associative_connection: by_navigation;
+    => nrel_associative_connection: by_object_of_navigation_activity;
+
+    => nrel_etalon_online_idx: [17589];;

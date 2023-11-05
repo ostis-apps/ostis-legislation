@@ -1,0 +1,27 @@
+
+by_false_economic_failure_bankruptcy
+    => nrel_main_idtf: [false economic failure (bankruptcy)] (* <- lang_en;; *);
+    => nrel_main_idtf: [ложная экономическая несостоятельность (банкротство)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фальшывая эканамічная неплацежаздольнасць (банкруцтва)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_false_economic_failure_bankruptcy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_deliberate_economic_insolvency_bankruptcy;
+    => nrel_associative_connection: by_nondisclosure_of_economic_insolvency_bankruptcy;
+
+    => nrel_etalon_online_idx: [16772];;

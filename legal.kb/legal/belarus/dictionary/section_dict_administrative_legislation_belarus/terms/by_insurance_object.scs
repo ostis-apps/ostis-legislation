@@ -1,0 +1,44 @@
+
+by_insurance_object
+    => nrel_main_idtf: [insurance object] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект страхования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект страхавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_property_appraiser;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_activity;
+    => nrel_associative_connection: by_buildings_for_the_purposes_of_this_compulsory_insurance;
+
+    => nrel_etalon_online_idx: [18727];;

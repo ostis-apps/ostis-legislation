@@ -1,0 +1,32 @@
+
+by_age_class_of_the_stand
+    => nrel_main_idtf: [age class of the stand] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс возраста древостоя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас узросту дрэвастою] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_age_class_of_the_stand_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_age_of_forest_plantations;
+    => nrel_associative_connection: by_age_group;
+    => nrel_associative_connection: by_wood_species;
+    => nrel_associative_connection: by_stand;
+    => nrel_associative_connection: by_growing_stock;
+    => nrel_associative_connection: by_age_class;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry;
+
+    => nrel_etalon_online_idx: [15883];;

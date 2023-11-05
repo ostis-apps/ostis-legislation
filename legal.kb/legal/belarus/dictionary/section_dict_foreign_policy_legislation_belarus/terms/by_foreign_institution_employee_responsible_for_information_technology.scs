@@ -1,0 +1,35 @@
+
+by_foreign_institution_employee_responsible_for_information_technology
+    => nrel_main_idtf: [foreign institution employee responsible for information technology] (* <- lang_en;; *);
+    => nrel_main_idtf: [работник загранучреждения, ответственный за информационные технологии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работнік замежустановы, адказны за інфармацыйныя тэхналогіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_institution_employee_responsible_for_information_technology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_and_technical_personnel;
+    => nrel_associative_connection: by_overseas;
+    => nrel_associative_connection: by_overseas_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employee_of_a_foreign_institution_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_foreign_establishments_employees;
+    => nrel_associative_connection: by_workstation;
+    => nrel_associative_connection: by_regional_information_technology_specialist;
+    => nrel_associative_connection: by_residence;
+    => nrel_associative_connection: by_overseas_head;
+
+    => nrel_etalon_online_idx: [21892];;

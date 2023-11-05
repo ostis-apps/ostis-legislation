@@ -1,0 +1,32 @@
+
+by_small_oven
+    => nrel_main_idtf: [small oven] (* <- lang_en;; *);
+    => nrel_main_idtf: [духовка малого объема (small oven)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [духоўка малога аб'ёму (small oven)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_oven_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_downdraft_system;
+    => nrel_associative_connection: by_covered_gas_burners;
+    => nrel_associative_connection: by_mixed_hob;
+    => nrel_associative_connection: by_oven;
+    => nrel_associative_connection: by_multicavity_oven;
+    => nrel_associative_connection: by_microwave_heating;
+    => nrel_associative_connection: by_portable_oven;
+    => nrel_associative_connection: by_cooker;
+
+    => nrel_etalon_online_idx: [34957];;

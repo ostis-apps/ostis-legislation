@@ -1,0 +1,25 @@
+
+by_white_light_source
+    => nrel_main_idtf: [white light source] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник белого света (white light source)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца белага святла (white light source)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_white_light_source_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_luminous_flux;
+
+    => nrel_etalon_online_idx: [34930];;

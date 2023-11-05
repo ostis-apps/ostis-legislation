@@ -1,0 +1,28 @@
+
+by_objects_of_export_control
+    => nrel_main_idtf: [objects of export control] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты экспортного контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты экспартнага кантролю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_export_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intrafirm_system_of_export_control;
+    => nrel_associative_connection: by_export;
+    => nrel_associative_connection: by_export_of_goods;
+    => nrel_associative_connection: by_export_of_goods_work_services;
+
+    => nrel_etalon_online_idx: [11624];;

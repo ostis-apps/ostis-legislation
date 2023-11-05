@@ -1,0 +1,34 @@
+
+by_client_identification
+    => nrel_main_idtf: [client identification ] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификация клиента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыя кліента] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_client_identification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_agents_on_identification;
+    => nrel_associative_connection: by_customers_questionary;
+    => nrel_associative_connection: by_identification_information;
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_cardholder_identification;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_publicly_accessible_personal_data;
+    => nrel_associative_connection: by_senders_representative;
+    => nrel_associative_connection: by_professional_client;
+
+    => nrel_etalon_online_idx: [11073];;

@@ -1,0 +1,28 @@
+
+by_instant_messaging_service_messenger
+    => nrel_main_idtf: [instant messaging service (messenger)] (* <- lang_en;; *);
+    => nrel_main_idtf: [сервис мгновенного обмена сообщениями (мессенджер)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сервіс імгненнага абмену паведамленнямі (мессенджер)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instant_messaging_service_messenger_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sending_smsmessages;
+    => nrel_associative_connection: by_technical_support_service;
+    => nrel_associative_connection: by_reference_and_information_service;
+    => nrel_associative_connection: by_reference_and_information_services;
+
+    => nrel_etalon_online_idx: [41953];;

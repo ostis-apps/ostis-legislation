@@ -1,0 +1,29 @@
+
+by_heat_consumption_mode
+    => nrel_main_idtf: [heat consumption mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим теплопотребления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым цепласпажывання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_consumption_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_reservation_of_heat_supply;
+    => nrel_associative_connection: by_border_of_balance_belonging;
+    => nrel_associative_connection: by_heat_consumption_facility;
+    => nrel_associative_connection: by_open_heating_system_hot_water_supply;
+    => nrel_associative_connection: by_thermal_energy_meter_metering_tool;
+
+    => nrel_etalon_online_idx: [32061];;

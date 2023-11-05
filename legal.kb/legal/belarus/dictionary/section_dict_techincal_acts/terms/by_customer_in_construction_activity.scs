@@ -1,0 +1,45 @@
+
+by_customer_in_construction_activity
+    => nrel_main_idtf: [customer in construction activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказчик в строительной деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказчык у будаўнічай дзейнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customer_in_construction_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customer_in_construction_activity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_construction_works;
+    => nrel_associative_connection: by_state_customer_in_construction_activity;
+    => nrel_associative_connection: by_customers_property_developers;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction_works;
+    => nrel_associative_connection: by_turnkey_construction_object;
+
+    => nrel_etalon_online_idx: [14757];;

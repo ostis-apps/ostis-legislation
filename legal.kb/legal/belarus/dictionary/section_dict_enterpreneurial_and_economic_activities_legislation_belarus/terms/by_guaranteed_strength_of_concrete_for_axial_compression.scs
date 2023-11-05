@@ -1,0 +1,29 @@
+
+by_guaranteed_strength_of_concrete_for_axial_compression
+    => nrel_main_idtf: [guaranteed strength of concrete for axial compression] (* <- lang_en;; *);
+    => nrel_main_idtf: [гарантированная прочность бетона на осевое сжатие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарантаваная трываласць бетону на восевае скарачэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_guaranteed_strength_of_concrete_for_axial_compression_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_shrinkage_of_concrete;
+    => nrel_associative_connection: by_reinforced_concrete_structure;
+    => nrel_associative_connection: by_reinforced_concrete_prefabricated_monolithic_structure;
+    => nrel_associative_connection: by_protective_layer_of_concrete;
+    => nrel_associative_connection: by_compressive_strength_class_of_concrete_concrete_class;
+
+    => nrel_etalon_online_idx: [35661];;

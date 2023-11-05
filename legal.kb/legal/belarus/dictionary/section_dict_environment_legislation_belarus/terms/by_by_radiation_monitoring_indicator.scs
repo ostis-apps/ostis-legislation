@@ -1,0 +1,32 @@
+
+by_by_radiation_monitoring_indicator
+    => nrel_main_idtf: [by_radiation_monitoring_indicator] (* <- lang_en;; *);
+    => nrel_main_idtf: [показатель радиационного контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паказчык радыяцыйнага кантролю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_radiation_monitoring_indicator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_control_of_radioactive_pollution;
+    => nrel_associative_connection: by_objects_of_control_of_radioactive_pollution;
+    => nrel_associative_connection: by_scope_of_radioactive_contamination_control;
+    => nrel_associative_connection: by_radioactive_pollution_control_rules;
+    => nrel_associative_connection: by_radiation_control;
+    => nrel_associative_connection: by_radioactive_contamination;
+    => nrel_associative_connection: by_radioactive_pollution_control_system;
+    => nrel_associative_connection: by_level_of_exemption_from_supervision_in_the_field_of_nuclear_and_radiation_safety;
+
+    => nrel_etalon_online_idx: [41205];;

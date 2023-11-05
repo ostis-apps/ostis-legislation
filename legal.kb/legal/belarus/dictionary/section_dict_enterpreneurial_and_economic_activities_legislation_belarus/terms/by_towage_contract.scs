@@ -1,0 +1,32 @@
+
+by_towage_contract
+    => nrel_main_idtf: [towage contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор буксировки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор буксіроўкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_towage_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_truck_tracktor;
+    => nrel_associative_connection: by_tow;
+    => nrel_associative_connection: by_towing_vehicle;
+    => nrel_associative_connection: by_towed_convoy;
+    => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_agreement_on_marine_mediation_services;
+    => nrel_associative_connection: by_towing_period;
+
+    => nrel_etalon_online_idx: [5701];;

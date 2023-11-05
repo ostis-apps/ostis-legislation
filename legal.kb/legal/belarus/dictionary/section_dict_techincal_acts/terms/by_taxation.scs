@@ -1,0 +1,88 @@
+
+by_taxation
+    => nrel_main_idtf: [taxation] (* <- lang_en;; *);
+    => nrel_main_idtf: [налогообложение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падаткаабкладанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taxation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taxation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taxation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taxation_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_collection_of_tax_due_duty_penalty;
+    => nrel_associative_connection: by_state_monopoly;
+    => nrel_associative_connection: by_income_received_in_a_foreign_state;
+    => nrel_associative_connection: by_location_of_taxation_objects_by_real_estate_tax;
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_product_taxes;
+    => nrel_associative_connection: by_tax_base_of_the_asset_liability;
+    => nrel_associative_connection: by_taxation_base_of_tax;
+    => nrel_associative_connection: by_tax_legislation;
+    => nrel_associative_connection: by_tax_legislation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tax_privileges;
+    => nrel_associative_connection: by_tax_authorities;
+    => nrel_associative_connection: by_tax_control;
+    => nrel_associative_connection: by_tax_body;
+    => nrel_associative_connection: by_taxable_profit;
+    => nrel_associative_connection: by_taxation_object;
+    => nrel_associative_connection: by_object_of_republican_single_payment_taxation;
+    => nrel_associative_connection: by_objects_of_taxation;
+    => nrel_associative_connection: by_special_tax_treatment;
+
+    => nrel_etalon_online_idx: [30];;

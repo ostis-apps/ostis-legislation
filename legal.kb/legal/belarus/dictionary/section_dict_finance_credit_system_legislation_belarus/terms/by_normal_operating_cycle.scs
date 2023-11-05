@@ -1,0 +1,29 @@
+
+by_normal_operating_cycle
+    => nrel_main_idtf: [normal operating cycle] (* <- lang_en;; *);
+    => nrel_main_idtf: [обычный операционный цикл] (* <- lang_ru;; *);
+    => nrel_main_idtf: [звычайны аперацыйны цыкл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_normal_operating_cycle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reserves;
+    => nrel_associative_connection: by_deviations;
+    => nrel_associative_connection: by_reporting_date;
+    => nrel_associative_connection: by_conditional_valuation;
+    => nrel_associative_connection: by_net_realization_cost;
+
+    => nrel_etalon_online_idx: [42001];;

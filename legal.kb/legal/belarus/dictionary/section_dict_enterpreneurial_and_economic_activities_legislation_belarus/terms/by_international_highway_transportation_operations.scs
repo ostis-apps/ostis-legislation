@@ -1,0 +1,48 @@
+
+by_international_highway_transportation_operations
+    => nrel_main_idtf: [international highway transportation operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [международные автомобильные перевозки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародныя аўтамабільныя перавозкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_highway_transportation_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_highway_transportation_operations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bus_station;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_by_transport_of_general_use;
+    => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_customer_of_automotive_transportation;
+    => nrel_associative_connection: by_foreign_vehicle;
+    => nrel_associative_connection: by_driver_qualification_card;
+    => nrel_associative_connection: by_international_carriage;
+    => nrel_associative_connection: by_international_carriage_of_goods_by_road;
+    => nrel_associative_connection: by_trip_form;
+
+    => nrel_etalon_online_idx: [2784];;

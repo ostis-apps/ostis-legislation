@@ -1,0 +1,41 @@
+
+by_legal_insanity
+    => nrel_main_idtf: [legal insanity] (* <- lang_en;; *);
+    => nrel_main_idtf: [невменяемость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бессвядомасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_insanity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_insanity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_passion;
+    => nrel_associative_connection: by_reduced_sanity;
+
+    => nrel_etalon_online_idx: [69];;

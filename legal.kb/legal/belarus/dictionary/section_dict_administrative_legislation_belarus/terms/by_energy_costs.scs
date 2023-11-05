@@ -1,0 +1,27 @@
+
+by_energy_costs
+    => nrel_main_idtf: [energy costs] (* <- lang_en;; *);
+    => nrel_main_idtf: [расходы на электроэнергию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расходы на электраэнергію] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_energy_costs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_housing_and_utilities_service;
+    => nrel_associative_connection: by_housing_and_utilities_services;
+
+    => nrel_etalon_online_idx: [41323];;

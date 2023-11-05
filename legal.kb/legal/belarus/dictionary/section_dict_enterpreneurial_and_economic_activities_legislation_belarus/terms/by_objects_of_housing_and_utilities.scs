@@ -1,0 +1,28 @@
+
+by_objects_of_housing_and_utilities
+    => nrel_main_idtf: [objects of housing and utilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты жилищно-коммунального хозяйства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты жыллёва-камунальнай гаспадаркі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_housing_and_utilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_housing_and_utilities_infrastructure;
+    => nrel_associative_connection: by_housing_and_utilities_organization;
+    => nrel_associative_connection: by_parallel_design_and_construction_of_the_facility;
+    => nrel_associative_connection: by_technological_objects_of_industry;
+
+    => nrel_etalon_online_idx: [40047];;

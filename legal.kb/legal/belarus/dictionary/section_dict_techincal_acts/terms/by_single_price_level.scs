@@ -1,0 +1,26 @@
+
+by_single_price_level
+    => nrel_main_idtf: [single price level] (* <- lang_en;; *);
+    => nrel_main_idtf: [единый уровень цен] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіны ўзровень коштаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_single_price_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_price_level;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37941];;

@@ -1,0 +1,29 @@
+
+by_pipelines_of_the_heat_supply_system
+    => nrel_main_idtf: [pipelines of the heat supply system] (* <- lang_en;; *);
+    => nrel_main_idtf: [трубопроводы системы теплоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трубаправоды сістэмы цеплазабеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pipelines_of_the_heat_supply_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bed;
+    => nrel_associative_connection: by_powder;
+    => nrel_associative_connection: by_trial_test_pressure;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_trench;
+
+    => nrel_etalon_online_idx: [33922];;

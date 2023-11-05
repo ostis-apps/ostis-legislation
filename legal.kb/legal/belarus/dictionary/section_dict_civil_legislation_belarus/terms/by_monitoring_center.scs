@@ -1,0 +1,42 @@
+
+by_monitoring_center
+    => nrel_main_idtf: [monitoring center] (* <- lang_en;; *);
+    => nrel_main_idtf: [мониторинговый центр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маніторынгавы цэнтр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monitoring_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monitoring_center_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monitoring;
+    => nrel_associative_connection: by_objects_of_special_monitoring;
+    => nrel_associative_connection: by_center;
+
+    => nrel_etalon_online_idx: [17511];;

@@ -1,0 +1,30 @@
+
+by_cost_of_the_accounting_object
+    => nrel_main_idtf: [cost of the accounting object] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость объекта учета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт аб'екта ўліку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_the_accounting_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_accounting_object;
+    => nrel_associative_connection: by_accounting_object_part_of_construction_object;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [24246];;

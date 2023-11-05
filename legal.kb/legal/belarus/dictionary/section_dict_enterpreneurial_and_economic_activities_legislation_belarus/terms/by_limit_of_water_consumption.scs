@@ -1,0 +1,48 @@
+
+by_limit_of_water_consumption
+    => nrel_main_idtf: [limit of water consumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [лимит водопотребления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліміт водаспажывання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_of_water_consumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_of_water_consumption_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscriber;
+    => nrel_associative_connection: by_watersupply_networks;
+    => nrel_associative_connection: by_noncentralized_drinking_water_supply_system;
+    => nrel_associative_connection: by_water_consumption_rate;
+    => nrel_associative_connection: by_drinking_water_safety_standards;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_drinking_water_supply;
+    => nrel_associative_connection: by_surface_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_street_drinking_water_networks;
+
+    => nrel_etalon_online_idx: [31359];;

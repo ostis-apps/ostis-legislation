@@ -1,0 +1,28 @@
+
+by_general_project_management_diagram
+    => nrel_main_idtf: [general project management diagram] (* <- lang_en;; *);
+    => nrel_main_idtf: [генподрядная схема управления проектом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генпадрадная схема кіравання праектам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_project_management_diagram_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architecturalplanning_concept;
+    => nrel_associative_connection: by_basic_project_management_plan;
+    => nrel_associative_connection: by_contractor_project_management;
+    => nrel_associative_connection: by_projects_management_process;
+
+    => nrel_etalon_online_idx: [33090];;

@@ -1,0 +1,31 @@
+
+by_use_of_documented_information_from_public_information_resources
+    => nrel_main_idtf: [use of documented information from public information resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользование документированной информацией из государственных информационных ресурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстанне дакументаванай інфармацыяй з дзяржаўных інфармацыйных рэсурсаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_use_of_documented_information_from_public_information_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_information_resource;
+    => nrel_associative_connection: by_documented_information;
+    => nrel_associative_connection: by_use_of_documents;
+    => nrel_associative_connection: by_database_users;
+    => nrel_associative_connection: by_user_of_information_system_and_or_information_network;
+    => nrel_associative_connection: by_republican_state_information_resources;
+    => nrel_associative_connection: by_participants_of_information_resources;
+
+    => nrel_etalon_online_idx: [20597];;

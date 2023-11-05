@@ -1,0 +1,32 @@
+
+by_office_zone_of_gambling_establishment
+    => nrel_main_idtf: [office zone of gambling establishment] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебная зона игорного заведения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовая зона ігральнай установы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_office_zone_of_gambling_establishment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gambling_establishment;
+    => nrel_associative_connection: by_equipment_in_the_sphere_of_gambling;
+    => nrel_associative_connection: by_equipment_for_gamble_organizer;
+    => nrel_associative_connection: by_equipment_for_gamble_organizers_connected_to_a_special_computer_cash_system;
+    => nrel_associative_connection: by_gambling_organizer;
+    => nrel_associative_connection: by_back_office;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_visitors_of_gambling_establishment;
+
+    => nrel_etalon_online_idx: [23354];;

@@ -1,0 +1,40 @@
+
+by_direct_practice_leader
+    => nrel_main_idtf: [direct practice leader] (* <- lang_en;; *);
+    => nrel_main_idtf: [непосредственный руководитель практики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непасрэдны кіраўнік практыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_direct_practice_leader_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_practice_base;
+    => nrel_associative_connection: by_direct_practice_leader_from_organization;
+    => nrel_associative_connection: by_practice;
+    => nrel_associative_connection: by_trainee;
+    => nrel_associative_connection: by_production_practice;
+    => nrel_associative_connection: by_head_of_the_practice_base;
+    => nrel_associative_connection: by_head_of_practice_place;
+    => nrel_associative_connection: by_head_of_the_practice_from_military_educational_institution;
+    => nrel_associative_connection: by_head_of_the_practice_fromdepartment;
+    => nrel_associative_connection: by_head_of_the_practice_from_pedagogy_department;
+    => nrel_associative_connection: by_head_of_the_practice_from_psychology_department;
+    => nrel_associative_connection: by_head_of_practice_from_medical_university;
+    => nrel_associative_connection: by_head_of_practice_from_the_organization;
+    => nrel_associative_connection: by_head_of_the_practice_from_faculty;
+    => nrel_associative_connection: by_head_of_practice_from_the_faculty_of_medical_university;
+    => nrel_associative_connection: by_training_practice;
+
+    => nrel_etalon_online_idx: [18096];;

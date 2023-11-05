@@ -1,0 +1,32 @@
+
+by_regional_emergency_situation
+    => nrel_main_idtf: [regional emergency situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [региональная чрезвычайная ситуация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіянальная надзвычайная сітуацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regional_emergency_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_zone;
+    => nrel_associative_connection: by_information_on_emergency_situations;
+    => nrel_associative_connection: by_local_emergency_situation;
+    => nrel_associative_connection: by_local_emergency_situation;
+    => nrel_associative_connection: by_republican_state_emergency_situation;
+    => nrel_associative_connection: by_emergency_response_forces;
+    => nrel_associative_connection: by_crossborder_emergency;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_etalon_online_idx: [22295];;

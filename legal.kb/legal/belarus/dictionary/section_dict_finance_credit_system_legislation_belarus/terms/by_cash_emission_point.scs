@@ -1,0 +1,40 @@
+
+by_cash_emission_point
+    => nrel_main_idtf: [cash emission point] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт выдачи наличных денежных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт выдачы наяўных грашовых сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cash_emission_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_cash_office;
+    => nrel_associative_connection: by_cash_operations;
+    => nrel_associative_connection: by_cash_receipt;
+    => nrel_associative_connection: by_cash_monetary_circulation;
+    => nrel_associative_connection: by_cash_monetary_means;
+    => nrel_associative_connection: by_cash;
+    => nrel_associative_connection: by_exchange_office;
+    => nrel_associative_connection: by_circulating_cash_balances;
+    => nrel_associative_connection: by_operation_of_cash_reception_from_an_atm_or_infokiosk;
+    => nrel_associative_connection: by_processing;
+    => nrel_associative_connection: by_service_station;
+    => nrel_associative_connection: by_dispenser;
+    => nrel_associative_connection: by_cash_pickup_point_terminal_cppt;
+    => nrel_associative_connection: by_bank_branch;
+
+    => nrel_etalon_online_idx: [340];;

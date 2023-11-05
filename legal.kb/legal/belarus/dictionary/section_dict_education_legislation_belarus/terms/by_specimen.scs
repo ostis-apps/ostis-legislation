@@ -1,0 +1,47 @@
+
+by_specimen
+    => nrel_main_idtf: [specimen] (* <- lang_en;; *);
+    => nrel_main_idtf: [экземпляр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экзэмпляр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specimen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specimen_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defective_documents;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_database_duplicate;
+    => nrel_associative_connection: by_unit_of_storage_of_the_library_fund;
+    => nrel_associative_connection: by_publishing_activity;
+    => nrel_associative_connection: by_batch_of_documents;
+    => nrel_associative_connection: by_copy_of_the_work;
+    => nrel_associative_connection: by_copy_of_the_phonogram;
+
+    => nrel_etalon_online_idx: [323];;

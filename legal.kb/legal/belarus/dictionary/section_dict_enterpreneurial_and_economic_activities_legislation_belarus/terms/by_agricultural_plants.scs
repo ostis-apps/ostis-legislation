@@ -1,0 +1,51 @@
+
+by_agricultural_plants
+    => nrel_main_idtf: [agricultural plants] (* <- lang_en;; *);
+    => nrel_main_idtf: [сельскохозяйственные растения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сельскагаспадарчыя расліны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agricultural_plants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_author_coauthors_of_a_plant_variety;
+    => nrel_associative_connection: by_aprobator;
+    => nrel_associative_connection: by_botanical_taxon;
+    => nrel_associative_connection: by_vegetation_period;
+    => nrel_associative_connection: by_state_registry_of_varieties;
+    => nrel_associative_connection: by_ground_control;
+    => nrel_associative_connection: by_procurement_officers;
+    => nrel_associative_connection: by_clone_of_the_plant;
+    => nrel_associative_connection: by_control_variety;
+    => nrel_associative_connection: by_objects_of_vegetable_world;
+    => nrel_associative_connection: by_homogeneity_of_a_variety;
+    => nrel_associative_connection: by_description_of_the_variety;
+    => nrel_associative_connection: by_original_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_buyer_of_agricultural_products;
+    => nrel_associative_connection: by_producers_of_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_plant_raw_material;
+    => nrel_associative_connection: by_registry_of_producers_of_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_reconstruction_of_crops;
+    => nrel_associative_connection: by_reproduction_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_seedgrowing;
+    => nrel_associative_connection: by_mixed_sowing;
+    => nrel_associative_connection: by_weeds;
+    => nrel_associative_connection: by_varietal_typical_nature_of_agricultural_plants;
+    => nrel_associative_connection: by_varietal_purity_of_agricultural_plants;
+    => nrel_associative_connection: by_varietal_quality_of_seeds_of_agricultural_plants;
+    => nrel_associative_connection: by_variety_renewal_of_agricultural_plants_seeds;
+
+    => nrel_etalon_online_idx: [10591];;

@@ -1,0 +1,44 @@
+
+by_by_selection_of_candidates_for_service
+    => nrel_main_idtf: [by_selection_of_candidates_for_service] (* <- lang_en;; *);
+    => nrel_main_idtf: [отбор кандидатов на службу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адбор кандыдатаў на службу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_selection_of_candidates_for_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_selection_of_candidates_for_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_close_relatives;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_candidate;
+    => nrel_associative_connection: by_candidate_for_service;
+    => nrel_associative_connection: by_operational_service_activities;
+
+    => nrel_etalon_online_idx: [42160];;

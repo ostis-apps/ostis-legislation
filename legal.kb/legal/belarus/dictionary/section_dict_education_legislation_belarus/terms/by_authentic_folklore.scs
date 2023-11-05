@@ -1,0 +1,42 @@
+
+by_authentic_folklore
+    => nrel_main_idtf: [authentic folklore] (* <- lang_en;; *);
+    => nrel_main_idtf: [аутентичный фольклор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтэнтычны фальклор] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authentic_folklore_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authentic_folklore_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authentic_folklore_artwork_collective;
+    => nrel_associative_connection: by_activity_of_authentic_folklore_collectives_of_artistic_creativity;
+    => nrel_associative_connection: by_folk_art;
+
+    => nrel_etalon_online_idx: [7880];;

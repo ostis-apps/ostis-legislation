@@ -1,0 +1,29 @@
+
+by_court_ruling_in_economic_cases
+    => nrel_main_idtf: [court ruling in economic cases] (* <- lang_en;; *);
+    => nrel_main_idtf: [постановление суда, рассматривающего экономические дела] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастанова суда, разглядаючага эканамічныя справы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_court_ruling_in_economic_cases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acts_of_the_supreme_economic_court_of_the_republic_of_belarus_resolutions_of_the_plenum_of_the_supreme_economic_court_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_decision_of_the_court_considering_economic_cases;
+    => nrel_associative_connection: by_judicial_decision;
+    => nrel_associative_connection: by_economic_dispute;
+    => nrel_associative_connection: by_economic_cases;
+
+    => nrel_etalon_online_idx: [20756];;

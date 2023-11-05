@@ -1,0 +1,30 @@
+
+by_rewaterlogged_peatland
+    => nrel_main_idtf: [re-waterlogged peatland] (* <- lang_en;; *);
+    => nrel_main_idtf: [повторно заболоченный торфяник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўторна забалочаны тарфянік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rewaterlogged_peatland_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_border_of_peatland;
+    => nrel_associative_connection: by_protection_of_peatlands;
+    => nrel_associative_connection: by_rational_sustainable_use_of_peatlands;
+    => nrel_associative_connection: by_peatbog;
+    => nrel_associative_connection: by_peat_born_swamp_peat_deposits_drained_lands_with_peat_soils;
+    => nrel_associative_connection: by_ecological_rehabilitation_of_peatlands;
+
+    => nrel_etalon_online_idx: [36190];;

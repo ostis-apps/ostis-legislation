@@ -1,0 +1,16 @@
+
+by_intermediate_warehouse
+    => nrel_main_idtf: [intermediate warehouse] (* <- lang_en;; *);
+    => nrel_main_idtf: [промежуточный склад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамежкавы склад] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_basic_warehouse;
+    => nrel_associative_connection: by_storewarehouse;
+    => nrel_associative_connection: by_consumable_warehouse_cellar;
+    => nrel_associative_connection: by_warehouse;
+    => nrel_associative_connection: by_specialized_warehouses;
+    => nrel_associative_connection: by_commodity_warehouse;
+
+    => nrel_etalon_online_idx: [21622];;

@@ -1,0 +1,27 @@
+
+by_date_of_registration_of_the_independent_valuation_opinion
+    => nrel_main_idtf: [date of registration of the independent valuation opinion] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата регистрации заключения о независимой оценке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата рэгістрацыі заключэння аб незалежнай адзнацы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_registration_of_the_independent_valuation_opinion_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assignment_for_estimating_the_cost;
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37920];;

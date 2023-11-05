@@ -1,0 +1,31 @@
+
+by_production_needs
+    => nrel_main_idtf: [production needs] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственные нужды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчыя патрэбы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_needs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auxiliary_production_and_operational_needs;
+    => nrel_associative_connection: by_local_needs;
+    => nrel_associative_connection: by_main_production_needs;
+    => nrel_associative_connection: by_repeated_consistently_used_water;
+    => nrel_associative_connection: by_production_capacity;
+    => nrel_associative_connection: by_electricity_consumption_for_the_production_needs_of_the_energy_system;
+    => nrel_associative_connection: by_technological_expenses_of_water_in_systems_of_public_water_supply_own_needs_of_water_supply_companies;
+
+    => nrel_etalon_online_idx: [21582];;

@@ -1,0 +1,31 @@
+
+by_high_collegial_body_of_the_fund
+    => nrel_main_idtf: [high collegial body of the fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [высший коллегиальный орган фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышэйшы калегіяльны орган фонда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_high_collegial_body_of_the_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_directorate_director_of_the_fund;
+    => nrel_associative_connection: by_income_of_the_fund;
+    => nrel_associative_connection: by_property_of_the_fund;
+    => nrel_associative_connection: by_fund_rules;
+    => nrel_associative_connection: by_board_council_foundation;
+    => nrel_associative_connection: by_republican_fund;
+    => nrel_associative_connection: by_fund;
+
+    => nrel_etalon_online_idx: [13414];;

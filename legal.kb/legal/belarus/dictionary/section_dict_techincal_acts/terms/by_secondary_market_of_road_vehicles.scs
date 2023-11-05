@@ -1,0 +1,29 @@
+
+by_secondary_market_of_road_vehicles
+    => nrel_main_idtf: [secondary market of road vehicles ] (* <- lang_en;; *);
+    => nrel_main_idtf: [вторичный рынок дорожных транспортных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [другасны рынак дарожных транспартных сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_secondary_market_of_road_vehicles_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_trim_level_of_road_vehicles;
+    => nrel_associative_connection: by_road_vehicles_with_basic_serial_trim_level;
+    => nrel_associative_connection: by_road_vehicles_road_transport;
+    => nrel_associative_connection: by_identification_of_the_objectanalogue_of_road_vehicles;
+    => nrel_associative_connection: by_mass_road_vehicles;
+
+    => nrel_etalon_online_idx: [31220];;

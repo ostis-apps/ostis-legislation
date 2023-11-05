@@ -1,0 +1,25 @@
+
+by_payment_instruction
+    => nrel_main_idtf: [payment instruction] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежная инструкция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежная інструкцыя] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_bank_transaction;
+    => nrel_associative_connection: by_output_documents;
+    => nrel_associative_connection: by_bank_transfer_initiator;
+    => nrel_associative_connection: by_collection_of_cash_monetary_means_precious_metals_and_precious_stones_and_other_values;
+    => nrel_associative_connection: by_copy_of_electronic_payment_instruction_other_electronic_document_message;
+    => nrel_associative_connection: by_interbank_payment_instruction;
+    => nrel_associative_connection: by_interbank_payment_order;
+    => nrel_associative_connection: by_local_financial_bodies;
+    => nrel_associative_connection: by_proper_beneficiary;
+    => nrel_associative_connection: by_inadequate_beneficiary;
+    => nrel_associative_connection: by_carriage_of_cash_monetary_means_payment_instructions_precious_metals_and_precious_stones_and_other_values;
+    => nrel_associative_connection: by_payment_order;
+    => nrel_associative_connection: by_calculated_document;
+    => nrel_associative_connection: by_related_document;
+    => nrel_associative_connection: by_message_mt103;
+
+    => nrel_etalon_online_idx: [10771];;

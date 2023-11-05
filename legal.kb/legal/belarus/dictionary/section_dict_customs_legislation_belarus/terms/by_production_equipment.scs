@@ -1,0 +1,49 @@
+
+by_production_equipment
+    => nrel_main_idtf: [production equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственное оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчае абсталяванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_equipment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aspiration_systems;
+    => nrel_associative_connection: by_additional_equipment;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_equipment;
+    => nrel_associative_connection: by_acquisition_of_printing_equipment;
+    => nrel_associative_connection: by_equipment_production;
+    => nrel_associative_connection: by_working_bodies;
+    => nrel_associative_connection: by_radiation_resistant;
+    => nrel_associative_connection: by_complicated_machines_and_equipment;
+    => nrel_associative_connection: by_factors_in_the_working_environment;
+
+    => nrel_etalon_online_idx: [21579];;

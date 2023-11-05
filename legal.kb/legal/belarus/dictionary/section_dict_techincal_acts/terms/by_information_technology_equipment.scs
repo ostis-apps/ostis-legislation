@@ -1,0 +1,26 @@
+
+by_information_technology_equipment
+    => nrel_main_idtf: [information technology equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборудование информационных технологий (information technology equipment)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абсталяванне інфармацыйных тэхналогій (information technology equipment)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_technology_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_active_mode;
+    => nrel_associative_connection: by_domestic_environment;
+
+    => nrel_etalon_online_idx: [32255];;

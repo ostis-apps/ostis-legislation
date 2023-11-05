@@ -1,0 +1,28 @@
+
+by_state_association_concern_industrial_scientific_and_industrial_or_other_association
+    => nrel_main_idtf: [state association (concern, industrial, scientific and industrial or other association)] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственное объединение (концерн, производственное, научно-производственное или иное объединение)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўнае аб'яднанне (канцэрн, вытворчае, навукова-вытворчае або іншае аб'яднанне)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_association_concern_industrial_scientific_and_industrial_or_other_association_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_association_of_legal_entities;
+    => nrel_associative_connection: by_legal_entities;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [13657];;

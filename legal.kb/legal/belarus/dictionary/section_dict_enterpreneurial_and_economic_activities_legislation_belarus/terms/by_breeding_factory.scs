@@ -1,0 +1,58 @@
+
+by_breeding_factory
+    => nrel_main_idtf: [breeding factory] (* <- lang_en;; *);
+    => nrel_main_idtf: [племенной завод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [племянны завод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breeding_factory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breeding_factory_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_genetic_potential;
+    => nrel_associative_connection: by_state_information_system_in_the_area_of_breeding;
+    => nrel_associative_connection: by_state_registry_of_breeding_animals_breeding_herds;
+    => nrel_associative_connection: by_breeding_genetic_value;
+    => nrel_associative_connection: by_breeding_book;
+    => nrel_associative_connection: by_breeding_products_material;
+    => nrel_associative_connection: by_breeding_in_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal;
+    => nrel_associative_connection: by_breeding_certificate;
+    => nrel_associative_connection: by_breeding_herd;
+    => nrel_associative_connection: by_breeding_farm;
+    => nrel_associative_connection: by_breeding_producer;
+    => nrel_associative_connection: by_breeding_loudspeaker;
+    => nrel_associative_connection: by_productivity_of_breeding_animals_breeding_herds;
+    => nrel_associative_connection: by_regional_breeding_station;
+    => nrel_associative_connection: by_registry_of_subjects_of_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_advances_in_animal_husbandry;
+    => nrel_associative_connection: by_breeding_subjects_and_breeding_farms;
+
+    => nrel_etalon_online_idx: [20245];;

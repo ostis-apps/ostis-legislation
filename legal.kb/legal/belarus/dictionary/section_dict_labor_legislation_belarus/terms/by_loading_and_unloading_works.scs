@@ -1,0 +1,33 @@
+
+by_loading_and_unloading_works
+    => nrel_main_idtf: [loading and unloading works] (* <- lang_en;; *);
+    => nrel_main_idtf: [погрузочно-разгрузочные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагрузачна-разгрузачныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_loading_and_unloading_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_insrument_and_tools;
+    => nrel_associative_connection: by_place_front_of_loading_unloading;
+    => nrel_associative_connection: by_loader;
+    => nrel_associative_connection: by_lifting_and_transport_equipment;
+    => nrel_associative_connection: by_lifting_accessories;
+    => nrel_associative_connection: by_loadingunloading_point;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_means_of_mechanization;
+
+    => nrel_etalon_online_idx: [27797];;

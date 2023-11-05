@@ -1,0 +1,30 @@
+
+by_stocks
+    => nrel_main_idtf: [stocks] (* <- lang_en;; *);
+    => nrel_main_idtf: [базисные препараты (stocks)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базісныя прэпараты (stocks)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stocks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_glycerin_macerates_soaking;
+    => nrel_associative_connection: by_homeopathic_dosage_form_based_on_oil;
+    => nrel_associative_connection: by_homeopathic_medication;
+    => nrel_associative_connection: by_homeopathic_granules;
+    => nrel_associative_connection: by_granules_with_modified_release;
+    => nrel_associative_connection: by_modified_release_capsules;
+
+    => nrel_etalon_online_idx: [36838];;

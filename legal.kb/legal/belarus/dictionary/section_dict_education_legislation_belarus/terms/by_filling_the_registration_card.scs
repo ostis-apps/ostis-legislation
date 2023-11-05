@@ -1,0 +1,34 @@
+
+by_filling_the_registration_card
+    => nrel_main_idtf: [filling the registration card] (* <- lang_en;; *);
+    => nrel_main_idtf: [заполнение регистрационной карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запаўненне рэгістрацыйнай карткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_filling_the_registration_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_databank_on_registration_information_of_the_offenses;
+    => nrel_associative_connection: by_operationalreference_card_file;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+    => nrel_associative_connection: by_regional_databank_on_offences;
+    => nrel_associative_connection: by_registration_card;
+    => nrel_associative_connection: by_registration_of_documents;
+    => nrel_associative_connection: by_registration_of_offences;
+    => nrel_associative_connection: by_fixation_of_data_on_offences;
+
+    => nrel_etalon_online_idx: [14857];;

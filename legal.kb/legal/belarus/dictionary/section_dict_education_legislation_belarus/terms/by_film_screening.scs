@@ -1,0 +1,51 @@
+
+by_film_screening
+    => nrel_main_idtf: [film screening] (* <- lang_en;; *);
+    => nrel_main_idtf: [показ фильма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паказ фільма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_screening_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_screening_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_demonstration;
+    => nrel_associative_connection: by_cinema;
+    => nrel_associative_connection: by_filmexhibiting_cinematography_organizations;
+    => nrel_associative_connection: by_filmdistributing_cinematography_organizations;
+    => nrel_associative_connection: by_bigbudget_film;
+    => nrel_associative_connection: by_presession_servicing_event;
+    => nrel_associative_connection: by_producer_risks;
+    => nrel_associative_connection: by_public_showing;
+    => nrel_associative_connection: by_film_distribution;
+    => nrel_associative_connection: by_own_auditorium;
+    => nrel_associative_connection: by_subtitles;
+    => nrel_associative_connection: by_film;
+
+    => nrel_etalon_online_idx: [10290];;

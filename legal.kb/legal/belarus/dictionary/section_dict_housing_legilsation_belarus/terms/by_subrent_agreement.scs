@@ -1,0 +1,15 @@
+
+by_subrent_agreement
+    => nrel_main_idtf: [subrent agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор поднайма жилого помещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор паднайму жылога памяшкання] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_accommodation_rent_contract;
+    => nrel_associative_connection: by_accommodation_rent_contract_lease_contract;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_renter;
+    => nrel_associative_connection: by_providing_places_for_shortterm_residence;
+
+    => nrel_etalon_online_idx: [5722];;

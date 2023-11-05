@@ -1,0 +1,43 @@
+
+by_geomatics
+    => nrel_main_idtf: [geomatics] (* <- lang_en;; *);
+    => nrel_main_idtf: [геоматика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геаматыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geomatics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geomatics_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geographic_information_system_for_special_purposes;
+    => nrel_associative_connection: by_state_geographic_information_system;
+    => nrel_associative_connection: by_scientific_and_technical_activity;
+    => nrel_associative_connection: by_scientific_and_technical_information;
+
+    => nrel_etalon_online_idx: [33036];;

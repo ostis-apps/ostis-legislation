@@ -1,0 +1,29 @@
+
+by_recreation_zone_of_surface_water_object
+    => nrel_main_idtf: [recreation zone of surface water object] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона рекреации поверхностного водного объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона рэкрэацыі паверхневага воднага аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recreation_zone_of_surface_water_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acaricidal_events;
+    => nrel_associative_connection: by_organization_for_adults;
+    => nrel_associative_connection: by_organization_for_children;
+    => nrel_associative_connection: by_holidaymaker;
+    => nrel_associative_connection: by_surface_water_object;
+
+    => nrel_etalon_online_idx: [34566];;

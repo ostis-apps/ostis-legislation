@@ -1,0 +1,37 @@
+
+by_bank_payment_card
+    => nrel_main_idtf: [bank payment card] (* <- lang_en;; *);
+    => nrel_main_idtf: [банковская платежная карточка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкаўская плацежная картка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_authorisation;
+    => nrel_associative_connection: by_bank_plastic_card;
+    => nrel_associative_connection: by_atm;
+    => nrel_associative_connection: by_contactless_card;
+    => nrel_associative_connection: by_card_locking;
+    => nrel_associative_connection: by_virtual_card;
+    => nrel_associative_connection: by_issue_of_card;
+    => nrel_associative_connection: by_debit_card;
+    => nrel_associative_connection: by_cardholder;
+    => nrel_associative_connection: by_contract_on_the_card_using;
+    => nrel_associative_connection: by_provision_of_card;
+    => nrel_associative_connection: by_infokiosk;
+    => nrel_associative_connection: by_card_payment_terminal;
+    => nrel_associative_connection: by_cobadging_card;
+    => nrel_associative_connection: by_cobranding_card;
+    => nrel_associative_connection: by_credit_card;
+    => nrel_associative_connection: by_interbank_processing_center;
+    => nrel_associative_connection: by_card_personalization;
+    => nrel_associative_connection: by_pincode;
+    => nrel_associative_connection: by_payment_document;
+    => nrel_associative_connection: by_payment_terminal;
+    => nrel_associative_connection: by_selfservice_payment_terminal;
+    => nrel_associative_connection: by_qr_code_payload;
+    => nrel_associative_connection: by_prepaid_card;
+    => nrel_associative_connection: by_distribution_of_a_payment_instrument_ensuring_the_issue_and_use_of_a_card_or_the_use_of_a_card;
+    => nrel_associative_connection: by_card_details;
+    => nrel_associative_connection: by_electronic_purse;
+
+    => nrel_etalon_online_idx: [4832];;

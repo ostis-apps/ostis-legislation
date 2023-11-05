@@ -1,0 +1,42 @@
+
+by_management_reporting
+    => nrel_main_idtf: [management reporting] (* <- lang_en;; *);
+    => nrel_main_idtf: [управленческая отчетность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўніцкая справаздачнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_management_reporting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_management_reporting_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_users_of_reporting;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_reporting;
+
+    => nrel_etalon_online_idx: [9721];;

@@ -1,0 +1,47 @@
+
+by_counter_check
+    => nrel_main_idtf: [counter check] (* <- lang_en;; *);
+    => nrel_main_idtf: [встречная проверка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сустрэчная праверка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_counter_check_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_counter_check_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_review;
+    => nrel_associative_connection: by_representative_of_the_verified_subject;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_audited_entities;
+    => nrel_associative_connection: by_auditors;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_joint_verification;
+    => nrel_associative_connection: by_subjects_verified_subjects;
+
+    => nrel_etalon_online_idx: [27670];;

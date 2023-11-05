@@ -1,0 +1,34 @@
+
+by_production_of_confectionery
+    => nrel_main_idtf: [production of confectionery] (* <- lang_en;; *);
+    => nrel_main_idtf: [производство кондитерских изделий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчасць кандытарскіх вырабаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_of_confectionery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quality_inspection_____________________________________________________________________;
+    => nrel_associative_connection: by_confectionery;
+    => nrel_associative_connection: by_lot_of_food_commodity_and_food_products;
+    => nrel_associative_connection: by_nutritional_value_of_food_materials_and_food_products;
+    => nrel_associative_connection: by_foodstuffs;
+    => nrel_associative_connection: by_production_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_technological_documentation;
+    => nrel_associative_connection: by_technological_instruction;
+    => nrel_associative_connection: by_technological_regulation;
+    => nrel_associative_connection: by_trade_turnover_of_food_raw_materials_and_food_products;
+
+    => nrel_etalon_online_idx: [21592];;

@@ -1,0 +1,27 @@
+
+by_balance_of_payment
+    => nrel_main_idtf: [balance of payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный баланс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны баланс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_of_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balance_depot;
+    => nrel_associative_connection: by_balances;
+    => nrel_associative_connection: by_accounting;
+
+    => nrel_etalon_online_idx: [6509];;

@@ -1,0 +1,32 @@
+
+by_search_for_archaeological_objects_and_or_archaeological_artifacts
+    => nrel_main_idtf: [search for archaeological objects and (or) archaeological artifacts] (* <- lang_en;; *);
+    => nrel_main_idtf: [поиск археологических объектов и (или) археологических артефактов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пошук археалагічных аб'ектаў і (або) археалагічных артэфактаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_search_for_archaeological_objects_and_or_archaeological_artifacts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archaeological_artefacts;
+    => nrel_associative_connection: by_archaeological_research;
+    => nrel_associative_connection: by_archaeological_objects;
+    => nrel_associative_connection: by_archaeological_excavations;
+    => nrel_associative_connection: by_archaeological_supervision;
+    => nrel_associative_connection: by_archeology;
+    => nrel_associative_connection: by_protection_of_the_archaeological_heritage;
+    => nrel_associative_connection: by_archeology_monuments;
+
+    => nrel_etalon_online_idx: [26933];;

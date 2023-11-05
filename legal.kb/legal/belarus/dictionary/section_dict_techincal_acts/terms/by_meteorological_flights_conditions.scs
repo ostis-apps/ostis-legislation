@@ -1,0 +1,49 @@
+
+by_meteorological_flights_conditions
+    => nrel_main_idtf: [meteorological flights conditions ] (* <- lang_en;; *);
+    => nrel_main_idtf: [метеорологические условия полетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метэаралагічныя ўмовы палётаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meteorological_flights_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meteorological_flights_conditions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_task_on_the_flight;
+    => nrel_associative_connection: by_weather_observer;
+    => nrel_associative_connection: by_meteorological_information;
+    => nrel_associative_connection: by_meteorological_values_meteovalues;
+    => nrel_associative_connection: by_adverse_weather_conditions;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_authorized_meteorological_authority;
+    => nrel_associative_connection: by_preflight_training;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_service_flight_time;
+
+    => nrel_etalon_online_idx: [17293];;

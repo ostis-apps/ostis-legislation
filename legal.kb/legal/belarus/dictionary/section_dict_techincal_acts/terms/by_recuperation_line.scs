@@ -1,0 +1,42 @@
+
+by_recuperation_line
+    => nrel_main_idtf: [recuperation line] (* <- lang_en;; *);
+    => nrel_main_idtf: [линия рекуперации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінія рэкуперацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recuperation_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recuperation_line_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_line_of_issuance;
+    => nrel_associative_connection: by_deaeration_line;
+    => nrel_associative_connection: by_filling_line;
+
+    => nrel_etalon_online_idx: [35185];;

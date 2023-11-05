@@ -1,0 +1,28 @@
+
+by_zone_of_possible_weak_destructions
+    => nrel_main_idtf: [zone of possible weak destructions] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона возможных слабых разрушений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона магчымых слабых разбурэнняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zone_of_possible_weak_destructions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_zone_of_possible_severe_destructions;
+    => nrel_associative_connection: by_higher_danger_zone;
+    => nrel_associative_connection: by_emergency_zone;
+    => nrel_associative_connection: by_potentially_hazardous_object;
+
+    => nrel_etalon_online_idx: [37222];;

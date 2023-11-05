@@ -1,0 +1,28 @@
+
+by_localization_of_burials_of_foreign_servicemen
+    => nrel_main_idtf: [localization of burials of foreign servicemen] (* <- lang_en;; *);
+    => nrel_main_idtf: [локализация захоронений иностранных военнослужащих] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лакалізацыя пахаванняў замежных ваеннаслужачых] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_localization_of_burials_of_foreign_servicemen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_burials_of_foreign_servicemen;
+    => nrel_associative_connection: by_burial_ground;
+    => nrel_associative_connection: by_primary_accounting_of_military_buries_buries_of_war_victims;
+
+    => nrel_etalon_online_idx: [11944];;

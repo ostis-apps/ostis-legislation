@@ -1,0 +1,33 @@
+
+by_aerodrome_flight_support
+    => nrel_main_idtf: [aerodrome flight support] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродромное обеспечение полетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадромнае забеспячэнне палётаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_flight_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_aerodrome_flight_maintenance;
+    => nrel_associative_connection: by_aerodrome_and_operational_equipment;
+    => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_artificial_base;
+    => nrel_associative_connection: by_commandant_of_the_aerodrome_heliport;
+    => nrel_associative_connection: by_airstrip;
+    => nrel_associative_connection: by_airfield;
+    => nrel_associative_connection: by_subdivision_of_support;
+
+    => nrel_etalon_online_idx: [37420];;

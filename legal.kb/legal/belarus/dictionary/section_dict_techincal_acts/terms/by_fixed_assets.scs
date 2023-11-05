@@ -1,0 +1,67 @@
+
+by_fixed_assets
+    => nrel_main_idtf: [fixed assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [основные средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўныя сродкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fixed_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fixed_assets_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fixed_assets_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_depreciation_of_fixed_assets;
+    => nrel_associative_connection: by_commissioning_of_new_fixed_assets;
+    => nrel_associative_connection: by_disposal_of_fixed_assets;
+    => nrel_associative_connection: by_wear_of_fixed_assets;
+    => nrel_associative_connection: by_capital_investments_on_production_purpose;
+    => nrel_associative_connection: by_conservation_of_fixed_assets;
+    => nrel_associative_connection: by_liquidation_writeoff_of_fixed_assets;
+    => nrel_associative_connection: by_objects_of_external_improvement_related_to_fixed_assets;
+    => nrel_associative_connection: by_main_capital;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets_intangible_assets;
+    => nrel_associative_connection: by_depreservation_of_fixed_assets;
+    => nrel_associative_connection: by_amount_of_increase_decrease_in_the_initial_cost_of_fixed_assets;
+
+    => nrel_etalon_online_idx: [324];;

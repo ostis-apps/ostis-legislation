@@ -1,0 +1,70 @@
+
+by_medicines
+    => nrel_main_idtf: [medicines] (* <- lang_en;; *);
+    => nrel_main_idtf: [лекарственные препараты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лекавыя прэпараты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medicines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medicines_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adjuvant_medicinal_products;
+    => nrel_associative_connection: by_antiretroviral_therapy;
+    => nrel_associative_connection: by_antiretroviral_medicine;
+    => nrel_associative_connection: by_vaccines;
+    => nrel_associative_connection: by_introduction_of_hemostatic_medications_on_request;
+    => nrel_associative_connection: by_allocated_living_cultures;
+    => nrel_associative_connection: by_generic_medicine;
+    => nrel_associative_connection: by_state_registration_of_medicine;
+    => nrel_associative_connection: by_finished_products_finished_product;
+    => nrel_associative_connection: by_finished_medicinal_product;
+    => nrel_associative_connection: by_day_of_introduction;
+    => nrel_associative_connection: by_holder_of_the_registration_certificate;
+    => nrel_associative_connection: by_instruction_for_medical_use_leaflet;
+    => nrel_associative_connection: by_informing_employees;
+    => nrel_associative_connection: by_initial_materials;
+    => nrel_associative_connection: by_quality_of_medicinal_product;
+    => nrel_associative_connection: by_medicines_for_parenteral_use_of_large_volume;
+    => nrel_associative_connection: by_medicines_for_parenteral_use_of_small_volume;
+    => nrel_associative_connection: by_plant_medicine;
+    => nrel_associative_connection: by_mass_balance;
+    => nrel_associative_connection: by_general_characteristic_of_the_medicinal_product;
+    => nrel_associative_connection: by_orphan_rare_medicinal_product;
+    => nrel_associative_connection: by_responsible_selfmedication;
+    => nrel_associative_connection: by_complete_production_cycle;
+    => nrel_associative_connection: by_manufacturer_of_medicinal_products;
+    => nrel_associative_connection: by_industrial_production_of_medicinal_products;
+    => nrel_associative_connection: by_radiopharmaceutical_medicine;
+    => nrel_associative_connection: by_permission_to_use_a_medicinal_product;
+    => nrel_associative_connection: by_retail_sale_of_medicines_by_remote_method;
+    => nrel_associative_connection: by_summary_protocol_for_a_batch_of_an_immunological_medicinal_product;
+    => nrel_associative_connection: by_cytostatic_drugs;
+
+    => nrel_etalon_online_idx: [16546];;

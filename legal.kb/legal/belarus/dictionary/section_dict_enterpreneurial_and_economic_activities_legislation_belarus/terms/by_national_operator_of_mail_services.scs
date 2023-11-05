@@ -1,0 +1,50 @@
+
+by_national_operator_of_mail_services
+    => nrel_main_idtf: [national operator of mail services] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальный оператор почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальны аператар паштовай сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_operator_of_mail_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_operator_of_mail_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_post_office_box;
+    => nrel_associative_connection: by_letterbox_mail_station;
+    => nrel_associative_connection: by_outsourcing_of_payment_services;
+    => nrel_associative_connection: by_courier_services;
+    => nrel_associative_connection: by_national_postal_electronic_system;
+    => nrel_associative_connection: by_postal_communication_operator;
+    => nrel_associative_connection: by_postal_communication_organization;
+    => nrel_associative_connection: by_postal_security;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_post_office;
+    => nrel_associative_connection: by_mail_services;
+
+    => nrel_etalon_online_idx: [6291];;

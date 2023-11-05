@@ -1,0 +1,30 @@
+
+by_botanical_garden
+    => nrel_main_idtf: [botanical garden] (* <- lang_en;; *);
+    => nrel_main_idtf: [ботанический сад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [батанічны сад] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_botanical_garden_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_botanical_monuments_of_nature;
+    => nrel_associative_connection: by_wild_plants;
+    => nrel_associative_connection: by_culture_and_leisure_parks_city_gardens_zoological_parks_zoological_gardens;
+    => nrel_associative_connection: by_damaged_lawns_flower_gardens;
+    => nrel_associative_connection: by_plant_community;
+    => nrel_associative_connection: by_flora;
+
+    => nrel_etalon_online_idx: [9592];;

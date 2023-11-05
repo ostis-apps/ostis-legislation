@@ -1,0 +1,27 @@
+
+by_class_b_medical_equipment_product
+    => nrel_main_idtf: [class b medical equipment product] (* <- lang_en;; *);
+    => nrel_main_idtf: [изделие медицинской техники класса б] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выраб медыцынскай тэхнікі класа б] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_class_b_medical_equipment_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_class_a_medical_equipment_product;
+    => nrel_associative_connection: by_medical_equipment;
+    => nrel_associative_connection: by_patient;
+
+    => nrel_etalon_online_idx: [40916];;

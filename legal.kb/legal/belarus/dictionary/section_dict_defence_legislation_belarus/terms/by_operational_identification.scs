@@ -1,0 +1,27 @@
+
+by_operational_identification
+    => nrel_main_idtf: [operational identification] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативное отождествление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўнае атаясамліванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_identification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_study_of_objects_and_documents;
+    => nrel_associative_connection: by_operational_search_activiy;
+    => nrel_associative_connection: by_operational_search_mean;
+
+    => nrel_etalon_online_idx: [18969];;

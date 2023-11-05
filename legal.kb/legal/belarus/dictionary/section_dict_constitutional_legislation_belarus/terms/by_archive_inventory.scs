@@ -1,0 +1,15 @@
+
+by_archive_inventory
+    => nrel_main_idtf: [archive inventory] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивная опись] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архіўны вопіс] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_of_the_electronic_documents_of_the_bank;
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_inventory_of_acts;
+    => nrel_associative_connection: by_inventory_processing;
+
+    => nrel_etalon_online_idx: [8135];;

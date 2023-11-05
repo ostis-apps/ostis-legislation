@@ -1,0 +1,26 @@
+
+by_explanation_of_the_witness
+    => nrel_main_idtf: [explanation of the witness] (* <- lang_en;; *);
+    => nrel_main_idtf: [объяснение свидетеля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тлумачэнне сведкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_explanation_of_the_witness_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_eyewitness_of_road_accident;
+
+    => nrel_etalon_online_idx: [18814];;

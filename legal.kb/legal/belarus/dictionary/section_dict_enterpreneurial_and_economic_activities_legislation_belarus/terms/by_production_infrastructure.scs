@@ -1,0 +1,37 @@
+
+by_production_infrastructure
+    => nrel_main_idtf: [production infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственная инфраструктура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчая інфраструктура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rural_settlement_with_improved_infrastructure;
+    => nrel_associative_connection: by_attestation_of_the_production;
+    => nrel_associative_connection: by_infrastructure_owner;
+    => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_defence_infrastructure;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_production_site;
+    => nrel_associative_connection: by_production_buildings;
+    => nrel_associative_connection: by_production_facility;
+    => nrel_associative_connection: by_industrial_site;
+    => nrel_associative_connection: by_factors_in_the_working_environment;
+
+    => nrel_etalon_online_idx: [21575];;

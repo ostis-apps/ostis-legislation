@@ -1,0 +1,29 @@
+
+by_the_height_of_the_lower_boundary_of_the_clouds
+    => nrel_main_idtf: [the height of the lower boundary of the clouds] (* <- lang_en;; *);
+    => nrel_main_idtf: [высота нижней границы облаков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышыня ніжняй мяжы аблокаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_height_of_the_lower_boundary_of_the_clouds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geoid_wave;
+    => nrel_associative_connection: by_altitude_exceeding_of_the_aerodrome;
+    => nrel_associative_connection: by_landing_zone;
+    => nrel_associative_connection: by_an_obstaclefree_zone;
+    => nrel_associative_connection: by_course_line;
+
+    => nrel_etalon_online_idx: [41036];;

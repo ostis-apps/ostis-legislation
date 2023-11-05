@@ -1,0 +1,26 @@
+
+by_by_bank_of_data_on_persons_on_the_international_wanted_list_for_the_purpose_of_issuing
+    => nrel_main_idtf: [by_bank_of_data_on_persons_on_the_international_wanted_list_for_the_purpose_of_issuing] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк данных о лицах, находящихся в международном розыске с целью выдачи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банка даных аб асобах, якія знаходзяцца ў міжнародным вышуку з мэтай выдачы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_bank_of_data_on_persons_on_the_international_wanted_list_for_the_purpose_of_issuing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_state_databank_on_offences;
+    => nrel_associative_connection: by_person_being_internationally_wanted_for_the_purpose_of_extradition;
+
+    => nrel_etalon_online_idx: [42771];;

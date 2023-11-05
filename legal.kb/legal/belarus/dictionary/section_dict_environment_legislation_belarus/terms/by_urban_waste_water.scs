@@ -1,0 +1,33 @@
+
+by_urban_waste_water
+    => nrel_main_idtf: [urban waste water] (* <- lang_en;; *);
+    => nrel_main_idtf: [городские сточные воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарадскія сцёкавыя воды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_waste_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_atmospheric_wastewater;
+    => nrel_associative_connection: by_wastewater_release;
+    => nrel_associative_connection: by_rain_waste_water;
+    => nrel_associative_connection: by_wastewater_treatment_facilities_of_the_settlement_wastewater_treatment_plant;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_discharging_of_wastewater_by_owners_of_public_and_departmental_sewerage_discharges_from_the_population;
+    => nrel_associative_connection: by_waste_waters_composition;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_melt_wastewater;
+
+    => nrel_etalon_online_idx: [13590];;

@@ -1,0 +1,15 @@
+
+by_by_truck_flat_body
+    => nrel_main_idtf: [by_truck_flat_body] (* <- lang_en;; *);
+    => nrel_main_idtf: [бортовая платформа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бартавая платформа] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_cargo_platform;
+    => nrel_associative_connection: by_cargo_vehicle;
+    => nrel_associative_connection: by_cargo_bay;
+    => nrel_associative_connection: by_semitrailer;
+    => nrel_associative_connection: by_trailer;
+
+    => nrel_etalon_online_idx: [12815];;

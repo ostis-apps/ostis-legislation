@@ -1,0 +1,35 @@
+
+by_breeding_farm
+    => nrel_main_idtf: [breeding farm] (* <- lang_en;; *);
+    => nrel_main_idtf: [племенное хозяйство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [племянная гаспадарка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breeding_farm_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_tribal_service;
+    => nrel_associative_connection: by_labeling;
+    => nrel_associative_connection: by_passport_of_breeding_animal_husbandry_subject;
+    => nrel_associative_connection: by_breeding_in_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_certificate;
+    => nrel_associative_connection: by_breeding_factory;
+    => nrel_associative_connection: by_breeding_loudspeaker;
+    => nrel_associative_connection: by_district_group_on_artificial_insemination_of_animals;
+    => nrel_associative_connection: by_regional_breeding_station;
+    => nrel_associative_connection: by_breeding_advances_in_animal_husbandry;
+
+    => nrel_etalon_online_idx: [7654];;

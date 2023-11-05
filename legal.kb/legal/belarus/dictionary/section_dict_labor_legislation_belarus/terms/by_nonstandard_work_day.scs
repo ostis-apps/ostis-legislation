@@ -1,0 +1,41 @@
+
+by_nonstandard_work_day
+    => nrel_main_idtf: [non-standard work day] (* <- lang_en;; *);
+    => nrel_main_idtf: [ненормированный рабочий день] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ненарміраваны працоўны дзень] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonstandard_work_day_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonstandard_work_day_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_full_working_day;
+    => nrel_associative_connection: by_working_day;
+
+    => nrel_etalon_online_idx: [177];;

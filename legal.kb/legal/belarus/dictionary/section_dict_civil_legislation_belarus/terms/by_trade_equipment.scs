@@ -1,0 +1,50 @@
+
+by_trade_equipment
+    => nrel_main_idtf: [trade equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговое оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвае абсталяванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_equipment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_electronic_device_vending_machine;
+    => nrel_associative_connection: by_shop_window;
+    => nrel_associative_connection: by_container_for_storage_and_or_sale_of_goods;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_shopping_basket;
+    => nrel_associative_connection: by_tent;
+    => nrel_associative_connection: by_counter;
+    => nrel_associative_connection: by_vending_machine_control_system_vmcs;
+    => nrel_associative_connection: by_technically_complex_household_goods;
+    => nrel_associative_connection: by_commodity_department_section;
+    => nrel_associative_connection: by_trade_services;
+
+    => nrel_etalon_online_idx: [10262];;

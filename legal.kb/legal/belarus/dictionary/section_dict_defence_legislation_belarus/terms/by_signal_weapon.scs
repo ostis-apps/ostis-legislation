@@ -1,0 +1,60 @@
+
+by_signal_weapon
+    => nrel_main_idtf: [signal weapon] (* <- lang_en;; *);
+    => nrel_main_idtf: [сигнальное оружие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сігнальная зброя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_signal_weapon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_signal_weapon_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_signal_weapon_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_pyrotechnic_products;
+    => nrel_associative_connection: by_pyrotechnic_element;
+    => nrel_associative_connection: by_firework;
+    => nrel_associative_connection: by_signal;
+    => nrel_associative_connection: by_sport_arms;
+
+    => nrel_etalon_online_idx: [23125];;

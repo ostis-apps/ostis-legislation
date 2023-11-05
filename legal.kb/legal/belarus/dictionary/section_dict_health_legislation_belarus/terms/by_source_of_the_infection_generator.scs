@@ -1,0 +1,31 @@
+
+by_source_of_the_infection_generator
+    => nrel_main_idtf: [source of the infection generator] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник возбудителя инфекции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца узбуджальніка інфекцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_source_of_the_infection_generator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_animal_of_a_susceptible_species;
+    => nrel_associative_connection: by_the_focus_of_footandmouth_disease_epizootic_focus;
+    => nrel_associative_connection: by_route_of_causative_agent_transmission;
+    => nrel_associative_connection: by_a_case_of_footandmouth_disease_or_an_animal_infected_with_footandmouth_disease;
+    => nrel_associative_connection: by_factors_of_pathenger_transmission;
+    => nrel_associative_connection: by_footandmouth_disease;
+
+    => nrel_etalon_online_idx: [40643];;

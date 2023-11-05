@@ -1,0 +1,27 @@
+
+by_murder_involved_with_rape_or_violent_sexual_acts
+    => nrel_main_idtf: [murder involved with rape or violent sexual acts] (* <- lang_en;; *);
+    => nrel_main_idtf: [убийство, сопряженное с изнасилованием или насильственными действиями сексуального характера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забойства, звязанае са згвалтаваннем або гвалтоўнымі дзеяннямі сексуальнага характару] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_murder_involved_with_rape_or_violent_sexual_acts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rape;
+    => nrel_associative_connection: by_sexual_battery;
+    => nrel_associative_connection: by_homicide;
+
+    => nrel_etalon_online_idx: [25348];;

@@ -1,0 +1,31 @@
+
+by_methodology_of_teaching_foreign_languages
+    => nrel_main_idtf: [methodology of teaching foreign languages] (* <- lang_en;; *);
+    => nrel_main_idtf: [методика преподавания иностранных языков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [методыка выкладання замежных моў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_methodology_of_teaching_foreign_languages_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_language;
+    => nrel_associative_connection: by_inofon;
+    => nrel_associative_connection: by_linguist_translator;
+    => nrel_associative_connection: by_linguistic_and_methodological_model_of_development_of_language_and_speech_abilities_of_inofons;
+    => nrel_associative_connection: by_methods_of_teaching_foreign_languages;
+    => nrel_associative_connection: by_methodology_of_teaching_russian_as_a_foreign_language;
+    => nrel_associative_connection: by_translatorreferent;
+
+    => nrel_etalon_online_idx: [35222];;

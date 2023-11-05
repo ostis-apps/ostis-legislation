@@ -1,0 +1,30 @@
+
+by_wastewater_treatment
+    => nrel_main_idtf: [wastewater treatment] (* <- lang_en;; *);
+    => nrel_main_idtf: [очистка сточных вод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ачыстка сцёкавых вод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wastewater_treatment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_basin;
+    => nrel_associative_connection: by_water_treatment;
+    => nrel_associative_connection: by_water_treatment;
+    => nrel_associative_connection: by_water_pollution;
+    => nrel_associative_connection: by_waste_water_consumption;
+    => nrel_associative_connection: by_waste_waters;
+
+    => nrel_etalon_online_idx: [37999];;

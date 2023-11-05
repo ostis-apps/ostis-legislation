@@ -1,0 +1,21 @@
+
+by_owner_of_payment_system
+    => nrel_main_idtf: [owner of payment system] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец платежной системы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік плацежнай сістэмы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_internal_payments_system;
+    => nrel_associative_connection: by_foreign_organisation;
+    => nrel_associative_connection: by_payment_system_operator;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_system_rules;
+    => nrel_associative_connection: by_participant_of_payment_system;
+    => nrel_associative_connection: by_private_payment_system;
+    => nrel_associative_connection: by_members_of_payment_system;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [439];;

@@ -1,0 +1,31 @@
+
+by_state_quarantine_phytosanitary_control_supervision
+    => nrel_main_idtf: [state quarantine phytosanitary control (supervision)] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный карантинный фитосанитарный контроль (надзор)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны каранцінны фітасанітарны кантроль (нагляд)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_quarantine_phytosanitary_control_supervision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conclusion_of_the_quarantine_phytosanitary_examination;
+    => nrel_associative_connection: by_plant_protection;
+    => nrel_associative_connection: by_quarantine;
+    => nrel_associative_connection: by_quarantine_phytosanitary_safety;
+    => nrel_associative_connection: by_quarantine_objects;
+    => nrel_associative_connection: by_subquarantine_products;
+    => nrel_associative_connection: by_subquarantine_objects;
+
+    => nrel_etalon_online_idx: [13729];;

@@ -1,0 +1,30 @@
+
+by_branch_of_belarusian_economy_producing_similar_good
+    => nrel_main_idtf: [branch of belarusian economy, producing similar good] (* <- lang_en;; *);
+    => nrel_main_idtf: [отрасль белорусской экономики, производящая аналогичный товар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галіна беларускай эканомікі, якая вырабляе аналагічны тавар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_of_belarusian_economy_producing_similar_good_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_similar_goods;
+    => nrel_associative_connection: by_identical_goods;
+    => nrel_associative_connection: by_branch_of_belarusian_economy_producing_similar_or_directly_competing_good;
+    => nrel_associative_connection: by_branch_of_the_economy;
+    => nrel_associative_connection: by_serious_damage_to_the_industry_of_the_belarusian_economy_producing_a_similar_or_directly_competiting_product;
+    => nrel_associative_connection: by_the_threat_of_serious_damage_to_the_industry_of_the_belarusian_economy_producing_a_similar_or_directly_competiting_product;
+
+    => nrel_etalon_online_idx: [19590];;

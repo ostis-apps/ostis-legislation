@@ -1,0 +1,37 @@
+
+by_beginning_of_work_change
+    => nrel_main_idtf: [beginning of work (change)] (* <- lang_en;; *);
+    => nrel_main_idtf: [начало работы (смены)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пачатак работы (змены)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_beginning_of_work_change_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_machinehour;
+    => nrel_associative_connection: by_beginning_of_work;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_working;
+    => nrel_associative_connection: by_working_citizens;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_workable_state;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_mode_of_operation;
+    => nrel_associative_connection: by_labor_activity;
+    => nrel_associative_connection: by_labour_discipline;
+    => nrel_associative_connection: by_ablebodied_persons;
+
+    => nrel_etalon_online_idx: [17868];;

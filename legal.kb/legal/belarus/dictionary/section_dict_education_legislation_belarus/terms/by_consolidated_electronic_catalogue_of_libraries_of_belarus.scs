@@ -1,0 +1,29 @@
+
+by_consolidated_electronic_catalogue_of_libraries_of_belarus
+    => nrel_main_idtf: [consolidated electronic catalogue of libraries of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [сводный электронный каталог библиотек беларуси] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зводны электронны каталог бібліятэк беларусі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consolidated_electronic_catalogue_of_libraries_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_librarianship;
+    => nrel_associative_connection: by_virtual_remote_users_of_libraries;
+    => nrel_associative_connection: by_delivery_of_documents;
+    => nrel_associative_connection: by_interlibrary_loan;
+    => nrel_associative_connection: by_library_network;
+
+    => nrel_etalon_online_idx: [7905];;

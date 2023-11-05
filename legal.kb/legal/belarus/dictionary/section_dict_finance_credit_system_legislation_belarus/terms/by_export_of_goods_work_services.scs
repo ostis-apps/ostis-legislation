@@ -1,0 +1,15 @@
+
+by_export_of_goods_work_services
+    => nrel_main_idtf: [export of goods (work, services)] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспорт товаров (работ, услуг)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспарт тавараў (работ, паслуг)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_other_goods;
+    => nrel_associative_connection: by_objects_of_export_control;
+    => nrel_associative_connection: by_periodic_statistical_declaration;
+    => nrel_associative_connection: by_export_of_educational_services;
+    => nrel_associative_connection: by_export_of_goods_works_services;
+
+    => nrel_etalon_online_idx: [26574];;

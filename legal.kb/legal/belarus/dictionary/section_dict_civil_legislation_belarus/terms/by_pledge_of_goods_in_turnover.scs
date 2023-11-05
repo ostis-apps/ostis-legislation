@@ -1,0 +1,29 @@
+
+by_pledge_of_goods_in_turnover
+    => nrel_main_idtf: [pledge of goods in turnover] (* <- lang_en;; *);
+    => nrel_main_idtf: [залог товара в обороте] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заклад тавару ў абароце] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pledge_of_goods_in_turnover_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_pledge;
+    => nrel_associative_connection: by_collateral_cost;
+    => nrel_associative_connection: by__pledged_property;
+    => nrel_associative_connection: by_circulation_of_goods;
+    => nrel_associative_connection: by_priority_of_the_pledge_holder;
+
+    => nrel_etalon_online_idx: [14823];;

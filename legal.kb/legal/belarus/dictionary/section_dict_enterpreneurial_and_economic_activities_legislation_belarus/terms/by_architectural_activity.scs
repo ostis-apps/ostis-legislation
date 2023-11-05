@@ -1,0 +1,41 @@
+
+by_architectural_activity
+    => nrel_main_idtf: [architectural activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [архитектурная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архітэктурная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_architectural_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architect;
+    => nrel_associative_connection: by_architecture;
+    => nrel_associative_connection: by_architectural__and_landscape_objects;
+    => nrel_associative_connection: by_architectural_and_planning_concept_of_the_construction_object;
+    => nrel_associative_connection: by_architectural_and_construction_objects;
+    => nrel_associative_connection: by_improvement_of_construction_object;
+    => nrel_associative_connection: by_general_plan_of_the_chinesebelarusian_industrial_park_great_stone;
+    => nrel_associative_connection: by_state_town_planning_registry_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_decorative_finishing_forms;
+    => nrel_associative_connection: by_capital_repairs;
+    => nrel_associative_connection: by_ministry_of_architecture_and_construction_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_contractor_in_construction_activity;
+    => nrel_associative_connection: by_reconstruction;
+    => nrel_associative_connection: by_object_restoration_restoration_and_recreation_works;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_technical_committee_for_standardization_of_the_republic_of_belarus_in_the_area_of_architectural_urban_planning_and_construction_activities;
+    => nrel_associative_connection: by_fund_for_the_development_of_construction_science_formed_by_the_ministry_of_architecture;
+
+    => nrel_etalon_online_idx: [12545];;

@@ -1,0 +1,29 @@
+
+by_secondary_vehicle_market
+    => nrel_main_idtf: [secondary vehicle market] (* <- lang_en;; *);
+    => nrel_main_idtf: [вторичный рынок транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [другасны рынак транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_secondary_vehicle_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_secondary_market;
+    => nrel_associative_connection: by_primary_vehicle_market;
+    => nrel_associative_connection: by_payers_of_motor_vehicle_purchase_tax;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [13321];;

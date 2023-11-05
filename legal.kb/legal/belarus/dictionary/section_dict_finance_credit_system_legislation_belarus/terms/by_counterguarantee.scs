@@ -1,0 +1,45 @@
+
+by_counterguarantee
+    => nrel_main_idtf: [counter-guarantee] (* <- lang_en;; *);
+    => nrel_main_idtf: [контргарант] (* <- lang_ru;; *);
+    => nrel_main_idtf: [контргарант] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_counterguarantee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_counterguarantee_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_guarantor;
+    => nrel_associative_connection: by_instructing_party;
+    => nrel_associative_connection: by_counterguarantee;
+
+    => nrel_etalon_online_idx: [16190];;

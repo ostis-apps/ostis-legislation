@@ -1,0 +1,53 @@
+
+by_audit_plan
+    => nrel_main_idtf: [audit plan] (* <- lang_en;; *);
+    => nrel_main_idtf: [план аудита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [план аўдыту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audit_plan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audit_plan_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditory_procedure;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_auditors_report;
+    => nrel_associative_connection: by_overall_audit_strategy;
+    => nrel_associative_connection: by_audit_volume;
+    => nrel_associative_connection: by_volume_of_audit_procedure;
+    => nrel_associative_connection: by_primary_audit;
+    => nrel_associative_connection: by_audit_planning;
+    => nrel_associative_connection: by_planning_in_audit;
+    => nrel_associative_connection: by_working_documentation;
+
+    => nrel_etalon_online_idx: [20165];;

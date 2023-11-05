@@ -1,0 +1,28 @@
+
+by_deliberate_economic_insolvency_bankruptcy
+    => nrel_main_idtf: [deliberate economic insolvency (bankruptcy)] (* <- lang_en;; *);
+    => nrel_main_idtf: [преднамеренная экономическая несостоятельность (банкротство)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наўмысная эканамічная неплацежаздольнасць (банкруцтва)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deliberate_economic_insolvency_bankruptcy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_false_economic_failure_bankruptcy;
+    => nrel_associative_connection: by_insolvency;
+    => nrel_associative_connection: by_nondisclosure_of_economic_insolvency_bankruptcy;
+    => nrel_associative_connection: by_economic_failure;
+
+    => nrel_etalon_online_idx: [21041];;

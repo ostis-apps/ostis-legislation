@@ -1,0 +1,29 @@
+
+by_single_suspension_cradle
+    => nrel_main_idtf: [single suspension cradle] (* <- lang_en;; *);
+    => nrel_main_idtf: [одноподвесная люлька] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднападвесная люлька] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_single_suspension_cradle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_double_suspended_cradle;
+    => nrel_associative_connection: by_catcher_rope_safety;
+    => nrel_associative_connection: by_mobile_work_place_working_seat;
+    => nrel_associative_connection: by_suspended_cradle_with_electric_control_transmission;
+    => nrel_associative_connection: by_prigruz;
+
+    => nrel_etalon_online_idx: [18875];;

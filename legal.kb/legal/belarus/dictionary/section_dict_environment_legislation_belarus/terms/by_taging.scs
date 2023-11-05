@@ -1,0 +1,31 @@
+
+by_taging
+    => nrel_main_idtf: [taging] (* <- lang_en;; *);
+    => nrel_main_idtf: [биркование ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біркаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_taging_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_group_method_for_determining_the_volume_of_round_timber;
+    => nrel_associative_connection: by_roundwood;
+    => nrel_associative_connection: by_timber;
+    => nrel_associative_connection: by_marking_of_round_timber_wood_whips;
+    => nrel_associative_connection: by_piece_method_for_determining_the_volume_of_round_timber_wood_whips;
+    => nrel_associative_connection: by_intermediary_landing;
+    => nrel_associative_connection: by_stack_of_round_timber_wood_whips;
+
+    => nrel_etalon_online_idx: [38503];;

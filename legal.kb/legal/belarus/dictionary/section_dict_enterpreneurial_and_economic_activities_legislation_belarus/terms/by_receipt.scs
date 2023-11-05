@@ -1,0 +1,33 @@
+
+by_receipt
+    => nrel_main_idtf: [receipt] (* <- lang_en;; *);
+    => nrel_main_idtf: [квитанция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [квітанцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_receipt_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_luggage_receipt;
+    => nrel_associative_connection: by_ticket_permit;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_document_confirming_the_payment;
+    => nrel_associative_connection: by_document_confirming_the_fact_of_purchasing_the_goods_work_performance_service_provision;
+    => nrel_associative_connection: by_weighing_receipt;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_prepayment;
+    => nrel_associative_connection: by_digital_receipt;
+
+    => nrel_etalon_online_idx: [5969];;

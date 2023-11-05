@@ -1,0 +1,80 @@
+
+by_pharmaceutical_substance
+    => nrel_main_idtf: [pharmaceutical substance] (* <- lang_en;; *);
+    => nrel_main_idtf: [фармацевтическая субстанция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фармацэўтычная субстанцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmaceutical_substance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmaceutical_substance_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmaceutical_substance_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmaceutical_substance_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adjuvant;
+    => nrel_associative_connection: by_quality_of_medicinal_product;
+    => nrel_associative_connection: by_concentrate;
+    => nrel_associative_connection: by_coloring_pharmaceutical_substances;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_international_nonproprietary_name_of_medicine;
+    => nrel_associative_connection: by_odorous_pharmaceutical_substances;
+    => nrel_associative_connection: by_complete_production_cycle;
+    => nrel_associative_connection: by_pharmacological_activity;
+    => nrel_associative_connection: by_stanglas;
+
+    => nrel_etalon_online_idx: [5233];;

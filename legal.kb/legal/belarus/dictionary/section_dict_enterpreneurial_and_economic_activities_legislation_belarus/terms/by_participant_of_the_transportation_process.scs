@@ -1,0 +1,45 @@
+
+by_participant_of_the_transportation_process
+    => nrel_main_idtf: [participant of the transportation process] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник перевозочного процесса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік перавозачнага працэсу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participant_of_the_transportation_process_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participant_of_the_transportation_process_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract_for_the_assessment_of_infrastructure_services_associated_with_transport_process;
+    => nrel_associative_connection: by_carriage_documents;
+    => nrel_associative_connection: by_transportation_process;
+    => nrel_associative_connection: by_safety_rules_for_traffic_and_operation_of_railway_transport;
+    => nrel_associative_connection: by_security_management_system;
+    => nrel_associative_connection: by_infrastructure_services_related_to_the_transportation_process;
+
+    => nrel_etalon_online_idx: [25750];;

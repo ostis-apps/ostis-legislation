@@ -1,0 +1,31 @@
+
+by_type_a_instrument_approach
+    => nrel_main_idtf: [type a instrument approach] (* <- lang_en;; *);
+    => nrel_main_idtf: [заход на посадку по приборам типа а] (* <- lang_ru;; *);
+    => nrel_main_idtf: [захад на пасадку па прыборах тыпа а] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_a_instrument_approach_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_category_iii_precision_approach_runway;
+    => nrel_associative_connection: by_dependent_parallel_landing_approaches;
+    => nrel_associative_connection: by_approach_in_circle;
+    => nrel_associative_connection: by_instrument_approach;
+    => nrel_associative_connection: by_type_b_instrument_approach;
+    => nrel_associative_connection: by_independent_parallel_approaches;
+    => nrel_associative_connection: by_instrument_landing_system_reference_point_t_point;
+
+    => nrel_etalon_online_idx: [41041];;

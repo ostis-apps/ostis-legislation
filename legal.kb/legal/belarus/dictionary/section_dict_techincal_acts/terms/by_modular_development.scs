@@ -1,0 +1,27 @@
+
+by_modular_development
+    => nrel_main_idtf: [modular development] (* <- lang_en;; *);
+    => nrel_main_idtf: [модульная застройка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [модульная забудова] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_modular_development_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_development;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_populated_area_settlement;
+
+    => nrel_etalon_online_idx: [39013];;

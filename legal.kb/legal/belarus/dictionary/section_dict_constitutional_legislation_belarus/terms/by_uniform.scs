@@ -1,0 +1,29 @@
+
+by_uniform
+    => nrel_main_idtf: [uniform] (* <- lang_en;; *);
+    => nrel_main_idtf: [форменная одежда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [форменнае адзенне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_uniform_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_set;
+    => nrel_associative_connection: by_loadbearing_capacity_of_road_covering;
+    => nrel_associative_connection: by_prosecutors_office_employee;
+    => nrel_associative_connection: by_public_prosecutors_worker;
+
+    => nrel_etalon_online_idx: [2191];;

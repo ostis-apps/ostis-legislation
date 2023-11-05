@@ -1,0 +1,28 @@
+
+by_situational_assistance
+    => nrel_main_idtf: [situational assistance] (* <- lang_en;; *);
+    => nrel_main_idtf: [ситуационная помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сітуацыйная дапамога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_situational_assistance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_habilitation_of_disabled;
+    => nrel_associative_connection: by_rehabilitation_of_disabled;
+    => nrel_associative_connection: by_rehabilitation_of_persons_with_disabilities;
+    => nrel_associative_connection: by_social_support_for_persons_with_disabilities;
+
+    => nrel_etalon_online_idx: [41566];;

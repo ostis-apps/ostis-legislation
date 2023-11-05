@@ -1,0 +1,27 @@
+
+by_requirements_for_the_performance_of_works_and_or_provision_of_services
+    => nrel_main_idtf: [requirements for the performance of works and (or) provision of services] (* <- lang_en;; *);
+    => nrel_main_idtf: [требования к выполнению работ и (или) оказанию услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патрабаванні да выканання работ і (або) аказання паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_requirements_for_the_performance_of_works_and_or_provision_of_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quality_of_service;
+    => nrel_associative_connection: by_permit_to_work_with_increased_danger;
+    => nrel_associative_connection: by_control_system;
+
+    => nrel_etalon_online_idx: [41753];;

@@ -1,0 +1,42 @@
+
+by_temporal_disability_expertise
+    => nrel_main_idtf: [temporal disability expertise] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспертиза временной нетрудоспособности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспертыза часовай непрацаздольнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporal_disability_expertise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporal_disability_expertise_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_document_certificating_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_etalon_online_idx: [10057];;

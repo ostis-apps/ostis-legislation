@@ -1,0 +1,40 @@
+
+by_group_shelterwood_felling
+    => nrel_main_idtf: [group shelterwood felling] (* <- lang_en;; *);
+    => nrel_main_idtf: [группово-постепенная рубка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [групава-паступовая высечка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_group_shelterwood_felling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_selective_sanitary_felling;
+    => nrel_associative_connection: by_protracted_gradual_felling;
+    => nrel_associative_connection: by_voluntaryselection_felling;
+    => nrel_associative_connection: by_allotment_of_felling_area_for_performance_of_felling;
+    => nrel_associative_connection: by_gradual_strip_felling;
+    => nrel_associative_connection: by_severance_felling;
+    => nrel_associative_connection: by_other_felling;
+    => nrel_associative_connection: by_prolongedgradual_felling;
+    => nrel_associative_connection: by_principal_felling;
+    => nrel_associative_connection: by_felling;
+    => nrel_associative_connection: by_coppicing;
+    => nrel_associative_connection: by_intermediate_cuts;
+    => nrel_associative_connection: by_reconstruction_logs;
+    => nrel_associative_connection: by_scaffolding_maintenance_logging;
+    => nrel_associative_connection: by_cleavage_of_formation_reformation;
+    => nrel_associative_connection: by_clear_felling_clear_cut;
+
+    => nrel_etalon_online_idx: [12061];;

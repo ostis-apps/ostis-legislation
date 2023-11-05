@@ -1,0 +1,30 @@
+
+by_activities_of_specialized_depository_of_the_investment_fund
+    => nrel_main_idtf: [activities of specialized depository of the investment fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [деятельность специализированного депозитария инвестиционного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзейнасць спецыялізаванага дэпазітарыя інвестыцыйнага фонда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_activities_of_specialized_depository_of_the_investment_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_activity_of_specialized_depositary_of_identified_assets;
+    => nrel_associative_connection: by_property_of_investment_fund;
+    => nrel_associative_connection: by_investment_fund;
+    => nrel_associative_connection: by_specialized_depositary;
+    => nrel_associative_connection: by_net_assets_of_the_investment_fund;
+
+    => nrel_etalon_online_idx: [14149];;

@@ -1,0 +1,26 @@
+
+by_technical_specifications
+    => nrel_main_idtf: [technical specifications] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническое задание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічнае заданне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_specifications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_production_of_forms_and_documents;
+
+    => nrel_etalon_online_idx: [41002];;

@@ -1,0 +1,50 @@
+
+by_gross_income
+    => nrel_main_idtf: [gross income] (* <- lang_en;; *);
+    => nrel_main_idtf: [валовой доход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [валавы даход] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_income_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_income_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_earnings;
+    => nrel_associative_connection: by_gross_profit;
+    => nrel_associative_connection: by_gross_capital_formation;
+    => nrel_associative_connection: by_gross_savings;
+    => nrel_associative_connection: by_gross_domestic_product_in_basic_prices;
+    => nrel_associative_connection: by_gross_domestic_product_in_market_prices;
+    => nrel_associative_connection: by_gross_national_income_gnp;
+    => nrel_associative_connection: by_income_payment;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_gross_income_coefficient_gross_yield_multiplier;
+    => nrel_associative_connection: by_riskcorrected_return_on_equity;
+
+    => nrel_etalon_online_idx: [8482];;

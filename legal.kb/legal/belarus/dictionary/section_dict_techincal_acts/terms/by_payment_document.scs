@@ -1,0 +1,115 @@
+
+by_payment_document
+    => nrel_main_idtf: [payment document] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный документ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны дакумент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_document_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_document_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_document_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_document_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_document_5.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_payment_card;
+    => nrel_associative_connection: by_document_confirming_the_payment;
+    => nrel_associative_connection: by_other_payment_instruments;
+    => nrel_associative_connection: by_cash_receipt;
+    => nrel_associative_connection: by_conversion_of_payment_documents_in_foreign_currency;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_carriage_of_cash_monetary_means_payment_instructions_precious_metals_and_precious_stones_and_other_values;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_order;
+    => nrel_associative_connection: by_payment_request;
+    => nrel_associative_connection: by_payment_documents_in_foreign_currency;
+    => nrel_associative_connection: by_software_complex_reserve_input_of_electronic_payment_documents;
+    => nrel_associative_connection: by_intermediate_calculation;
+    => nrel_associative_connection: by_point_of_payment;
+    => nrel_associative_connection: by_single_payment;
+    => nrel_associative_connection: by_electronic_payment_document;
+
+    => nrel_etalon_online_idx: [561];;

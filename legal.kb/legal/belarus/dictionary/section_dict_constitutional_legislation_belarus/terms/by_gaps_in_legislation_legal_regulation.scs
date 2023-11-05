@@ -1,0 +1,27 @@
+
+by_gaps_in_legislation_legal_regulation
+    => nrel_main_idtf: [gaps in legislation (legal regulation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [пробелы в законодательстве (правовом регулировании)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прабелы ў заканадаўстве (прававым рэгуляванні)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gaps_in_legislation_legal_regulation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_legislation;
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_legal_uncertainty;
+
+    => nrel_etalon_online_idx: [30812];;

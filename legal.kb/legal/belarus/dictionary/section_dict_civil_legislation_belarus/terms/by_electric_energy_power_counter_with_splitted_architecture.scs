@@ -1,0 +1,30 @@
+
+by_electric_energy_power_counter_with_splitted_architecture
+    => nrel_main_idtf: [electric energy (power) counter with splitted architecture] (* <- lang_en;; *);
+    => nrel_main_idtf: [счетчик электрической энергии (мощности) с расщепленной архитектурой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лічыльнік электрычнай энергіі (магутнасці) з пашчапанай архітэктурай] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_energy_power_counter_with_splitted_architecture_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_consumer_of_electric_energy_power;
+    => nrel_associative_connection: by_means_for_calculation_of_electric_energy_power;
+    => nrel_associative_connection: by_electric_energy_counter;
+    => nrel_associative_connection: by_tariff_on_electric_energy;
+    => nrel_associative_connection: by_electric_network;
+    => nrel_associative_connection: by_electric_energy_active;
+
+    => nrel_etalon_online_idx: [35013];;

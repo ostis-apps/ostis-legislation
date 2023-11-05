@@ -1,0 +1,26 @@
+
+by_by_geotechnical_works
+    => nrel_main_idtf: [by_geotechnical_works] (* <- lang_en;; *);
+    => nrel_main_idtf: [геотехнические работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геатэхнічныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_geotechnical_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_base_active_zone;
+    => nrel_associative_connection: by_geotechnical_monitoring_gm;
+
+    => nrel_etalon_online_idx: [43817];;

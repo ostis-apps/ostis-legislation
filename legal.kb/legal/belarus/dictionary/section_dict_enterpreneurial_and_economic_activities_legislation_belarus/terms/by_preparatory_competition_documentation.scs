@@ -1,0 +1,30 @@
+
+by_preparatory_competition_documentation
+    => nrel_main_idtf: [preparatory competition documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [подготовительная конкурсная документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрыхтоўчая конкурсная дакументацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preparatory_competition_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_final_competition_documentation;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_tender_documentation;
+    => nrel_associative_connection: by_selected_participant_of_the_competition;
+    => nrel_associative_connection: by_preliminary_competition_documentation;
+    => nrel_associative_connection: by_preliminary_offer;
+
+    => nrel_etalon_online_idx: [41342];;

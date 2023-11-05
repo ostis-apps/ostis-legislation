@@ -1,0 +1,105 @@
+
+by_ticket
+    => nrel_main_idtf: [ticket] (* <- lang_en;; *);
+    => nrel_main_idtf: [билет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [білет] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_season_ticket;
+    => nrel_associative_connection: by_ticket_permit;
+    => nrel_associative_connection: by_ticket_office;
+    => nrel_associative_connection: by_ticket_program;
+    => nrel_associative_connection: by_booking_of_travel_documents_tickets;
+    => nrel_associative_connection: by_ticket_owner;
+    => nrel_associative_connection: by_railway_station;
+    => nrel_associative_connection: by_ticket_sales_information_system;
+    => nrel_associative_connection: by_punch;
+    => nrel_associative_connection: by_conductor;
+    => nrel_associative_connection: by_official_ticket_operator_of_the_championship;
+    => nrel_associative_connection: by_official_tourist_operator_of_the_championship;
+    => nrel_associative_connection: by_ticket_package;
+    => nrel_associative_connection: by_parterre;
+    => nrel_associative_connection: by_carrier_of_passengers_by_urban_electric_transport;
+    => nrel_associative_connection: by_passenger_fare;
+    => nrel_associative_connection: by_ticket_operator_system;
+    => nrel_associative_connection: by_smartcard;
+    => nrel_associative_connection: by_shipping_ticket;
+    => nrel_associative_connection: by_electronic_ticket;
+    => nrel_associative_connection: by_electronic_ticket_package;
+
+    => nrel_etalon_online_idx: [8399];;

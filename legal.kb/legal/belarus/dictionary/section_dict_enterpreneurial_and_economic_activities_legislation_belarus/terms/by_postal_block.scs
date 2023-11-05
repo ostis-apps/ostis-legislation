@@ -1,0 +1,34 @@
+
+by_postal_block
+    => nrel_main_idtf: [postal block] (* <- lang_en;; *);
+    => nrel_main_idtf: [почтовый блок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паштовы блок] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postal_block_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_marks_of_postal_payments;
+    => nrel_associative_connection: by_envelopes_with_other_signs_of_post_payment;
+    => nrel_associative_connection: by_overprint_on_postage_stamp;
+    => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_special_postmark_with_a_fixed_oneday_or_multiday_calendar_date;
+    => nrel_associative_connection: by_special_stamp_first_day;
+    => nrel_associative_connection: by_standard_postal_stamp;
+    => nrel_associative_connection: by_mail_services;
+    => nrel_associative_connection: by_art_postage_stamps;
+
+    => nrel_etalon_online_idx: [20874];;

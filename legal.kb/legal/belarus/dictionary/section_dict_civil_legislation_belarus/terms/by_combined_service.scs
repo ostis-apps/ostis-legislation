@@ -1,0 +1,46 @@
+
+by_combined_service
+    => nrel_main_idtf: [combined service] (* <- lang_en;; *);
+    => nrel_main_idtf: [смешанная перевозка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змешаная перавозка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerial_transportation;
+    => nrel_associative_connection: by_international_carriage;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_portable_tank;
+    => nrel_associative_connection: by_direct_multimodal_transport;
+    => nrel_associative_connection: by_transit_carriages;
+
+    => nrel_etalon_online_idx: [4051];;

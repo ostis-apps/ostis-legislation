@@ -1,0 +1,24 @@
+
+by_electric_lift
+    => nrel_main_idtf: [electric lift] (* <- lang_en;; *);
+    => nrel_main_idtf: [лифт электрический] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліфт электрычны] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner_of_the_lift_elevator;
+    => nrel_associative_connection: by_grouped_control;
+    => nrel_associative_connection: by_cabin;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_small_cargo_lift;
+    => nrel_associative_connection: by_lift_modernization;
+    => nrel_associative_connection: by_nominal_load_capacity;
+    => nrel_associative_connection: by_nominal_burden;
+    => nrel_associative_connection: by_nominal_speed;
+    => nrel_associative_connection: by_potentially_hazardous_objects;
+    => nrel_associative_connection: by_cab_work_light;
+    => nrel_associative_connection: by_mixed_management;
+    => nrel_associative_connection: by_maintenance_service_of_lift;
+
+    => nrel_etalon_online_idx: [11940];;

@@ -1,0 +1,30 @@
+
+by_reproduction_visualization
+    => nrel_main_idtf: [reproduction (visualization)] (* <- lang_en;; *);
+    => nrel_main_idtf: [воспроизведение (визуализация)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узнаўленне (візуалізацыя)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reproduction_visualization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archival_copy_of_information_resource;
+    => nrel_associative_connection: by_document_in_electronic_form;
+    => nrel_associative_connection: by_removable_media;
+    => nrel_associative_connection: by_file_format;
+    => nrel_associative_connection: by_electronic_case;
+    => nrel_associative_connection: by_emulation;
+
+    => nrel_etalon_online_idx: [31715];;

@@ -1,0 +1,27 @@
+
+by_consular_record_keeping
+    => nrel_main_idtf: [consular record keeping] (* <- lang_en;; *);
+    => nrel_main_idtf: [консульский учет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [консульскі ўлік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consular_record_keeping_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_consular_district;
+    => nrel_associative_connection: by_to_be_exchanged__series_passport;
+
+    => nrel_etalon_online_idx: [9286];;

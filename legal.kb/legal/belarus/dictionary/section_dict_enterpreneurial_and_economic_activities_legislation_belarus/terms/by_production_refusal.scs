@@ -1,0 +1,18 @@
+
+by_production_refusal
+    => nrel_main_idtf: [production refusal] (* <- lang_en;; *);
+    => nrel_main_idtf: [отказ производственный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адмова вытворчая] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_refusal;
+    => nrel_associative_connection: by_degradation_refusal;
+    => nrel_associative_connection: by_constructive_refusal;
+    => nrel_associative_connection: by_operational_refusal;
+    => nrel_associative_connection: by_work_mode;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_of_buildings;
+    => nrel_associative_connection: by_repair_works;
+
+    => nrel_etalon_online_idx: [19513];;

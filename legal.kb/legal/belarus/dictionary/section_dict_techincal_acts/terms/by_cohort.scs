@@ -1,0 +1,30 @@
+
+by_cohort
+    => nrel_main_idtf: [cohort] (* <- lang_en;; *);
+    => nrel_main_idtf: [когорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кагорта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cohort_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sick_person_after_unsuccessful_treatment;
+    => nrel_associative_connection: by_sick_person_after_unsuccessful_treatment_ineffective_course_of_chemotherapy;
+    => nrel_associative_connection: by_isolate;
+    => nrel_associative_connection: by_sputum_conversion;
+    => nrel_associative_connection: by_multiresistance_multidrug_resistance;
+    => nrel_associative_connection: by_aggravating_factors;
+
+    => nrel_etalon_online_idx: [31621];;

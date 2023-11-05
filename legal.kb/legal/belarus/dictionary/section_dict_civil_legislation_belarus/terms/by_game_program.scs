@@ -1,0 +1,51 @@
+
+by_game_program
+    => nrel_main_idtf: [game program] (* <- lang_en;; *);
+    => nrel_main_idtf: [игровая программа  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гульнёвая праграма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_game_program_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_game_program_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_bookmaker_game;
+    => nrel_associative_connection: by_external_system;
+    => nrel_associative_connection: by_jackpot_system;
+    => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_game_session;
+    => nrel_associative_connection: by_gambling_equipment;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_game_table;
+    => nrel_associative_connection: by_game_machine_initialization;
+    => nrel_associative_connection: by_personal_account_of_gamble_participant;
+    => nrel_associative_connection: by_bet_in_the_game_on_game_machines_bet;
+
+    => nrel_etalon_online_idx: [30916];;

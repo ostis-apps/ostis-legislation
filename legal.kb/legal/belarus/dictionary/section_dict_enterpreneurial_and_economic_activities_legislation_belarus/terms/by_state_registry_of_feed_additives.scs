@@ -1,0 +1,31 @@
+
+by_state_registry_of_feed_additives
+    => nrel_main_idtf: [state registry of feed additives] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный реестр кормовых добавок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны рэестр кармавых дабавак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registry_of_feed_additives_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_withdrawal_from_circulation_of_substandard_and_falsified_feed_and_feed_additives_and_also_with_expired_shelf_life;
+    => nrel_associative_connection: by_feed_and_feed_additives;
+    => nrel_associative_connection: by_feed_field;
+    => nrel_associative_connection: by_substandard_feed_and_feed_additives;
+    => nrel_associative_connection: by_registry;
+    => nrel_associative_connection: by_clean_feeds;
+
+    => nrel_etalon_online_idx: [13764];;

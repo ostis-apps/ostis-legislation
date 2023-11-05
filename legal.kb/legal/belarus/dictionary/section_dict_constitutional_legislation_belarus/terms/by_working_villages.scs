@@ -1,0 +1,32 @@
+
+by_working_villages
+    => nrel_main_idtf: [working villages] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочие поселки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочыя пасёлкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_villages_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_urban_settlements;
+    => nrel_associative_connection: by_citizens_permanently_residing_and_working_in_populated_area_with_population_up_to_20_thousand_people_and_in_satellite_cities;
+    => nrel_associative_connection: by_resort_settlements;
+    => nrel_associative_connection: by_small_urban_settlements;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_populated_area_with_population_number_up_to_20_thousand_people;
+    => nrel_associative_connection: by_settlements_villages;
+    => nrel_associative_connection: by_system_of_resettlement;
+
+    => nrel_etalon_online_idx: [21944];;

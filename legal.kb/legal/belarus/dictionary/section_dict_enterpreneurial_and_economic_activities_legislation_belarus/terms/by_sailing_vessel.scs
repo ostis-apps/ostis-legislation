@@ -1,0 +1,48 @@
+
+by_sailing_vessel
+    => nrel_main_idtf: [sailing vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [парусное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паруснае судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sailing_vessel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sailing_vessel_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_counter_swimming;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_small_size_craft;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_motor_small_vessel;
+    => nrel_associative_connection: by_sailing_base;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_vessel_owner;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+
+    => nrel_etalon_online_idx: [19830];;

@@ -1,0 +1,29 @@
+
+by_lands_of_water_fund
+    => nrel_main_idtf: [lands of water fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [земли водного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [землі воднага фонду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lands_of_water_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_land;
+    => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_water_management_constructions_and_technical_devices_of_systems_of_water_supply_water_disposal_sewerage;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_land;
+
+    => nrel_etalon_online_idx: [4289];;

@@ -1,0 +1,26 @@
+
+by_colour_combinations
+    => nrel_main_idtf: [colour combinations] (* <- lang_en;; *);
+    => nrel_main_idtf: [сочетания цветов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спалучэння колераў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_colour_combinations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_colors;
+    => nrel_associative_connection: by_cmyk_cyan_magenta_yellow_key_color_black;
+
+    => nrel_etalon_online_idx: [23704];;

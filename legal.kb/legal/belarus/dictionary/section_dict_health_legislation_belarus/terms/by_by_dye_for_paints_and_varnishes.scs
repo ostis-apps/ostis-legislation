@@ -1,0 +1,37 @@
+
+by_by_dye_for_paints_and_varnishes
+    => nrel_main_idtf: [by_dye_for_paints_and_varnishes] (* <- lang_en;; *);
+    => nrel_main_idtf: [краситель для лакокрасочных материалов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фарбавальнік для лакафарбавых матэрыялаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_dye_for_paints_and_varnishes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_paint_and_varnish_additive;
+    => nrel_associative_connection: by_colour;
+    => nrel_associative_connection: by_paint_system;
+    => nrel_associative_connection: by_paintwork;
+    => nrel_associative_connection: by_paint_material;
+    => nrel_associative_connection: by_multicomponent_paint_material;
+    => nrel_associative_connection: by_paint_filler;
+    => nrel_associative_connection: by_paint_and_varnish_pigment;
+    => nrel_associative_connection: by_plasticizer_for_paint_and_varnish_material;
+    => nrel_associative_connection: by_paintwork_material_diluent;
+    => nrel_associative_connection: by_liquefier;
+    => nrel_associative_connection: by_siccative;
+    => nrel_associative_connection: by_dental_enamel;
+
+    => nrel_etalon_online_idx: [43161];;

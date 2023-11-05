@@ -1,0 +1,46 @@
+
+by_waiting_area
+    => nrel_main_idtf: [waiting area] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона ожидания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона чакання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waiting_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waiting_area_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reserved_in_the_electronic_queue_system_time_of_vehicles_entrance_at_the_checkpoint;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_operator_of_waiting_area;
+    => nrel_associative_connection: by_electronic_queue_system;
+    => nrel_associative_connection: by_waiting_period;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [15027];;

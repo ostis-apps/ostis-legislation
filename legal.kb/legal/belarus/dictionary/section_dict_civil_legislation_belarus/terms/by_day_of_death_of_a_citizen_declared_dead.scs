@@ -1,0 +1,26 @@
+
+by_day_of_death_of_a_citizen_declared_dead
+    => nrel_main_idtf: [day of death of a citizen declared dead] (* <- lang_en;; *);
+    => nrel_main_idtf: [день смерти гражданина, объявленного умершим] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзень смерці грамадзяніна, аб’яўленага памерлым] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_day_of_death_of_a_citizen_declared_dead_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_citizen;
+    => nrel_associative_connection: by_death;
+
+    => nrel_etalon_online_idx: [7834];;

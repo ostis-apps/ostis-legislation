@@ -1,0 +1,28 @@
+
+by_gestational_age
+    => nrel_main_idtf: [gestational age ] (* <- lang_en;; *);
+    => nrel_main_idtf: [гестационный возраст] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гестацыйны ўзрост] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gestational_age_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_children;
+    => nrel_associative_connection: by_fullterm_child;
+    => nrel_associative_connection: by_intrauterine_growth_retardation;
+    => nrel_associative_connection: by_premature_baby;
+
+    => nrel_etalon_online_idx: [33763];;

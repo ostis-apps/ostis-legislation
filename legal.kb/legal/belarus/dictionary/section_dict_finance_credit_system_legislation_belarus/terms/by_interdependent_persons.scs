@@ -1,0 +1,62 @@
+
+by_interdependent_persons
+    => nrel_main_idtf: [interdependent persons] (* <- lang_en;; *);
+    => nrel_main_idtf: [взаимозависимые лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узаемазалежныя асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interdependent_persons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interdependent_persons_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interdependent_persons_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_affiliates;
+    => nrel_associative_connection: by_connected_debtors;
+    => nrel_associative_connection: by_dependent_business_entity;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_organization_implementing_comparable_activity;
+    => nrel_associative_connection: by_subjects_of_management;
+    => nrel_associative_connection: by_physical_persons;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [3640];;

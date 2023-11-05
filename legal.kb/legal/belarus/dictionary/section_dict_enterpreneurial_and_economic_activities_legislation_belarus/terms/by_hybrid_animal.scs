@@ -1,0 +1,31 @@
+
+by_hybrid_animal
+    => nrel_main_idtf: [hybrid animal] (* <- lang_en;; *);
+    => nrel_main_idtf: [гибридное животное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гібрыдная жывёла] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hybrid_animal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hybridization;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_combining_ability;
+    => nrel_associative_connection: by_laboratory_animals;
+    => nrel_associative_connection: by_animal_breed;
+    => nrel_associative_connection: by_cross_breeding;
+    => nrel_associative_connection: by_type_of_animals;
+
+    => nrel_etalon_online_idx: [10153];;

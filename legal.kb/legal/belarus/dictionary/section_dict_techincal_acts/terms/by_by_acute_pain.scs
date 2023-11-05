@@ -1,0 +1,29 @@
+
+by_by_acute_pain
+    => nrel_main_idtf: [by_acute_pain] (* <- lang_en;; *);
+    => nrel_main_idtf: [острая боль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [востры боль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_acute_pain_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adequate_pain_control;
+    => nrel_associative_connection: by_atypical_facial_pain;
+    => nrel_associative_connection: by_pain;
+    => nrel_associative_connection: by_trigeminal_neuralgia;
+    => nrel_associative_connection: by_pathological_symptom;
+
+    => nrel_etalon_online_idx: [42715];;

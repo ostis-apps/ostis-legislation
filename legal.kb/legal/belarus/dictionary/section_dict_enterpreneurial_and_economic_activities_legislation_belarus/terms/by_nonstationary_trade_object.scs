@@ -1,0 +1,38 @@
+
+by_nonstationary_trade_object
+    => nrel_main_idtf: [non-stationary trade object] (* <- lang_en;; *);
+    => nrel_main_idtf: [нестационарный торговый объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нестацыянарны гандлёвы аб'ект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonstationary_trade_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stall;
+    => nrel_associative_connection: by_stall;
+    => nrel_associative_connection: by_traffic_route;
+    => nrel_associative_connection: by_nonstationary_objects;
+    => nrel_associative_connection: by_pavilion;
+    => nrel_associative_connection: by_periodicity_of_movement_on_the_route;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_own_trading_facility;
+    => nrel_associative_connection: by_stationary_trade_object;
+    => nrel_associative_connection: by_trade_subject;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_without_outside_trade_objects;
+    => nrel_associative_connection: by_trade_at_nonstationary_trade_objects;
+    => nrel_associative_connection: by_trade_object;
+
+    => nrel_etalon_online_idx: [10474];;

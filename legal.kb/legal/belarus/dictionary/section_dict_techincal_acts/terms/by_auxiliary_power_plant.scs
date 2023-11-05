@@ -1,0 +1,27 @@
+
+by_auxiliary_power_plant
+    => nrel_main_idtf: [auxiliary power plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [вспомогательная силовая установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапаможная сілавая ўстаноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auxiliary_power_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_onboard_equipment;
+    => nrel_associative_connection: by_onboard_electronic_equipment;
+    => nrel_associative_connection: by_suitability_to_operations;
+
+    => nrel_etalon_online_idx: [32856];;

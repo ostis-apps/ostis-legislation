@@ -1,0 +1,26 @@
+
+by_subjects_of_information_relations
+    => nrel_main_idtf: [subjects of information relations] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты информационных отношений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты інфармацыйных адносін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_information_relations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_mediator;
+    => nrel_associative_connection: by_users_of_the_unified_state_automated_information_system_for_accounting_of_wood_and_transactions_with_it;
+
+    => nrel_etalon_online_idx: [24432];;

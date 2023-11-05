@@ -1,0 +1,17 @@
+
+by_working_time_on_the_ground
+    => nrel_main_idtf: [working time on the ground] (* <- lang_en;; *);
+    => nrel_main_idtf: [время работы на земле] (* <- lang_ru;; *);
+    => nrel_main_idtf: [час работы на зямлі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_turnaround_rest_time;
+    => nrel_associative_connection: by_postflight_rest_time;
+    => nrel_associative_connection: by_post_flight_time_of_work;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_machinehour;
+    => nrel_associative_connection: by_working_hours;
+    => nrel_associative_connection: by_crew_of_the_vessel;
+
+    => nrel_etalon_online_idx: [13291];;

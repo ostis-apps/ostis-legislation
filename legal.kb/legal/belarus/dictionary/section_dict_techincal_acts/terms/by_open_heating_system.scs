@@ -1,0 +1,21 @@
+
+by_open_heating_system
+    => nrel_main_idtf: [open heating system] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытая система теплоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрытая сістэма цеплазабеспячэння] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_emergency_reservation_of_heat_supply;
+    => nrel_associative_connection: by_unaccounted_consumers;
+    => nrel_associative_connection: by_external_heat_supply;
+    => nrel_associative_connection: by_water_system_of_heat_supply;
+    => nrel_associative_connection: by_water_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_contract;
+    => nrel_associative_connection: by_closed_water_heating_system;
+    => nrel_associative_connection: by_open_water_heating_system;
+    => nrel_associative_connection: by_open_heating_system_hot_water_supply;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply;
+
+    => nrel_etalon_online_idx: [31887];;

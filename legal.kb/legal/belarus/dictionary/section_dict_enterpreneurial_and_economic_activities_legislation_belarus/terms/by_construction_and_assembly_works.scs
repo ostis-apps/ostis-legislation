@@ -1,0 +1,59 @@
+
+by_construction_and_assembly_works
+    => nrel_main_idtf: [construction and assembly works] (* <- lang_en;; *);
+    => nrel_main_idtf: [строительно-монтажные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [будаўніча-мантажныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_and_assembly_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_and_assembly_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_construction_works_agreement;
+    => nrel_associative_connection: by_temporary_buildings_and_constructions;
+    => nrel_associative_connection: by_capital_repairs;
+    => nrel_associative_connection: by_capital_repairs_of_construction_object;
+    => nrel_associative_connection: by_control_measurements_of_volumes_of_construction_and_assembly_works_and_costs_incurred_during_the_construction_reconstruction_of_objects;
+    => nrel_associative_connection: by_control_measurement_of_volumes_of_construction_and_assembly_works_and_costs_incurred_during_the_construction_objects_including_reconstruction_repair_restoration_improvement;
+    => nrel_associative_connection: by_modernization_of_buildings_structures_engineering_and_transport_communications;
+    => nrel_associative_connection: by_installation_works;
+    => nrel_associative_connection: by_start_of_construction;
+    => nrel_associative_connection: by_main_construction_and_assembly_works;
+    => nrel_associative_connection: by_suspended_cradle_with_electric_control_transmission;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_object_reconstruction;
+    => nrel_associative_connection: by_repair_of_the_object;
+    => nrel_associative_connection: by_special_construction_and_installation_works;
+    => nrel_associative_connection: by_construction_materials;
+    => nrel_associative_connection: by_construction_works;
+    => nrel_associative_connection: by_essential_violations_of_townplanning_and_construction_rules_and_regulations;
+    => nrel_associative_connection: by_current_repair;
+    => nrel_associative_connection: by_economic_method_of_construction;
+
+    => nrel_etalon_online_idx: [9987];;

@@ -1,0 +1,27 @@
+
+by_service_in_the_investigative_committee_of_the_republic_of_belarus
+    => nrel_main_idtf: [service in the investigative committee of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [прохождение службы в следственном комитете республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праходжанне службы ў следчым камітэце рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_in_the_investigative_committee_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personnel_department_of_the_investigation_committee;
+    => nrel_associative_connection: by_investigation_committee_subdivisions;
+    => nrel_associative_connection: by_investigation_committee_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [11096];;

@@ -1,0 +1,29 @@
+
+by_preparatory_period_in_construction_preparatory_period
+    => nrel_main_idtf: [preparatory period in construction (preparatory period)] (* <- lang_en;; *);
+    => nrel_main_idtf: [подготовительный период в строительстве (подготовительный период)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрыхтоўчы перыяд у будаўніцтве (падрыхтоўчы перыяд)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preparatory_period_in_construction_preparatory_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engineering_networks_and_communications_of_the_construction_site;
+    => nrel_associative_connection: by_linear_facility_of_engineering_infrastructure_linear_facility;
+    => nrel_associative_connection: by_2_objects_of_industrial_purpose;
+    => nrel_associative_connection: by_construction_turn;
+    => nrel_associative_connection: by_reapplicable_individual_project_reapplicable_project;
+
+    => nrel_etalon_online_idx: [36096];;

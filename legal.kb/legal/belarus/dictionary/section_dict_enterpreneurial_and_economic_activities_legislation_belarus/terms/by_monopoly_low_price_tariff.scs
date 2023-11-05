@@ -1,0 +1,44 @@
+
+by_monopoly_low_price_tariff
+    => nrel_main_idtf: [monopoly low price (tariff)] (* <- lang_en;; *);
+    => nrel_main_idtf: [монопольно низкая цена (тариф)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [манапольна нізкая цана (тарыф)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monopoly_low_price_tariff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monopoly_low_price_tariff_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monopolistically_high_price;
+    => nrel_associative_connection: by_monopoly_high_price_tariff;
+    => nrel_associative_connection: by_monopolistically_low_price;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_tariff;
+
+    => nrel_etalon_online_idx: [41315];;

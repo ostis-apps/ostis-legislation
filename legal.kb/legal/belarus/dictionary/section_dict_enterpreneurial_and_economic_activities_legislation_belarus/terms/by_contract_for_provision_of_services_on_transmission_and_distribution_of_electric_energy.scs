@@ -1,0 +1,29 @@
+
+by_contract_for_provision_of_services_on_transmission_and_distribution_of_electric_energy
+    => nrel_main_idtf: [contract for provision of services on transmission and distribution of electric energy] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор оказания услуг по передаче и распределению электрической энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор аказання паслуг па перадачы і размеркаванні электрычнай энергіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_for_provision_of_services_on_transmission_and_distribution_of_electric_energy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_block_station;
+    => nrel_associative_connection: by_owner_of_the_block_station;
+    => nrel_associative_connection: by_purchase_and_sale_contract_of_electric_energy;
+    => nrel_associative_connection: by_service_contract_for_distribution_of_electric_energy;
+    => nrel_associative_connection: by_energy_supply_organization;
+
+    => nrel_etalon_online_idx: [38950];;

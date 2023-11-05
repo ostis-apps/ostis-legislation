@@ -1,0 +1,63 @@
+
+by_contingent_liability
+    => nrel_main_idtf: [contingent liability] (* <- lang_en;; *);
+    => nrel_main_idtf: [условное обязательство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умоўнае абавязацельства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contingent_liability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contingent_liability_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contingent_liability_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_a_transaction_made_under_a_suspensive_condition;
+    => nrel_associative_connection: by_a_transaction_made_under_a_revocable_condition;
+    => nrel_associative_connection: by_traditional_obligation;
+    => nrel_associative_connection: by_conditional_event;
+    => nrel_associative_connection: by_contingent_commitments;
+    => nrel_associative_connection: by_risk_free_contingent_commitments;
+    => nrel_associative_connection: by_highrisk_contingent_commitments;
+    => nrel_associative_connection: by_lowrisk_contingent_commitments;
+    => nrel_associative_connection: by_mediumrisk_contingent_commitments;
+
+    => nrel_etalon_online_idx: [25602];;

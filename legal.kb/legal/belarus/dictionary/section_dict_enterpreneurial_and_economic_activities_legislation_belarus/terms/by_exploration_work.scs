@@ -1,0 +1,49 @@
+
+by_exploration_work
+    => nrel_main_idtf: [exploration work] (* <- lang_en;; *);
+    => nrel_main_idtf: [поисковые работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пошукавыя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exploration_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exploration_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_event;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_search;
+    => nrel_associative_connection: by_search_military_unit;
+    => nrel_associative_connection: by_search_work;
+    => nrel_associative_connection: by_search_and_rescue_air_vehicle;
+    => nrel_associative_connection: by_field_search_works;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_search_and_rescue_region;
+    => nrel_associative_connection: by_specialized_searching_military_installation;
+
+    => nrel_etalon_online_idx: [4623];;

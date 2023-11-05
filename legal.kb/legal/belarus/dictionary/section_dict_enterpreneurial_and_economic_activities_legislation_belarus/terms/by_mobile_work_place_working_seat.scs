@@ -1,0 +1,35 @@
+
+by_mobile_work_place_working_seat
+    => nrel_main_idtf: [mobile work place (working seat)] (* <- lang_en;; *);
+    => nrel_main_idtf: [мобильное рабочее место (рабочее сиденье)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мабільнае рабочае месца (рабочае сядзенне)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_work_place_working_seat_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_double_suspended_cradle;
+    => nrel_associative_connection: by_personal_equipment;
+    => nrel_associative_connection: by_mobile_workplace;
+    => nrel_associative_connection: by_single_suspension_cradle;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_working;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_work_place;
+    => nrel_associative_connection: by_permanent_workplace;
+    => nrel_associative_connection: by_physical_workplace;
+
+    => nrel_etalon_online_idx: [17444];;

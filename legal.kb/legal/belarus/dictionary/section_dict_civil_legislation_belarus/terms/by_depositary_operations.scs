@@ -1,0 +1,33 @@
+
+by_depositary_operations
+    => nrel_main_idtf: [depositary operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [депозитарные операции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпазітарныя аперацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depositary_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intradepositive_transfer_of_securities;
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_depository_activity;
+    => nrel_associative_connection: by_transaction_day_of_the_central_securities_depository;
+    => nrel_associative_connection: by_settlement_depositary;
+    => nrel_associative_connection: by_specialized_depositary;
+    => nrel_associative_connection: by_depot_account;
+    => nrel_associative_connection: by_authorized_depository;
+    => nrel_associative_connection: by_security;
+
+    => nrel_etalon_online_idx: [27816];;

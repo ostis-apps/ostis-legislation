@@ -1,0 +1,47 @@
+
+by_clinical_death
+    => nrel_main_idtf: [clinical death] (* <- lang_en;; *);
+    => nrel_main_idtf: [клиническая смерть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клінічная смерць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_death_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_death_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anesthesia;
+    => nrel_associative_connection: by_biological_death;
+    => nrel_associative_connection: by_vegetative_state;
+    => nrel_associative_connection: by_intensive_therapy;
+    => nrel_associative_connection: by_critical_state;
+    => nrel_associative_connection: by_measures_of_intensive_care;
+    => nrel_associative_connection: by_nonviolent_death;
+    => nrel_associative_connection: by_original_cause_of_death;
+
+    => nrel_etalon_online_idx: [33494];;

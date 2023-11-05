@@ -1,0 +1,28 @@
+
+by_vessels_of_the__iii_group
+    => nrel_main_idtf: [ vessels of the  iii group] (* <- lang_en;; *);
+    => nrel_main_idtf: [суда iii группы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судны iii групы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vessels_of_the__iii_group_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_permissible_noise_level;
+    => nrel_associative_connection: by_engine_power_compartment;
+    => nrel_associative_connection: by_vessels_of_the_i_group;
+    => nrel_associative_connection: by_vessels_of_the__ii_group;
+
+    => nrel_etalon_online_idx: [41663];;

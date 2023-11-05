@@ -1,0 +1,41 @@
+
+by_route_scheme
+    => nrel_main_idtf: [route scheme] (* <- lang_en;; *);
+    => nrel_main_idtf: [схема маршрута] (* <- lang_ru;; *);
+    => nrel_main_idtf: [схема маршрута] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_scheme_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_scheme_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_route_sending;
+    => nrel_associative_connection: by_snow_gauge_route;
+
+    => nrel_etalon_online_idx: [24560];;

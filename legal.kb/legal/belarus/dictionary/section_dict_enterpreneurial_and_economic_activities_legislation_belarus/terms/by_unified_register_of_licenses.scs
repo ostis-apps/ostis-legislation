@@ -1,0 +1,26 @@
+
+by_unified_register_of_licenses
+    => nrel_main_idtf: [unified register of licenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [единый реестр лицензий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіны рэестр ліцэнзій] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unified_register_of_licenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assessment_of_conformity_of_the_capabilities_of_the_license_applicant_with_the_prelicensing_requirements_the_licensee_with_the_license_requirements;
+    => nrel_associative_connection: by_registry_of_licenses;
+
+    => nrel_etalon_online_idx: [41380];;

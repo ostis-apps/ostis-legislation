@@ -1,0 +1,29 @@
+
+by_by_ssn_social_safety_net
+    => nrel_main_idtf: [by_ssn_social_safety_net] (* <- lang_en;; *);
+    => nrel_main_idtf: [чистая текущая стоимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чысты бягучы кошт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_ssn_social_safety_net_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investment_costs_of_own_and_borrowed_funds_of_the_enterprise;
+    => nrel_associative_connection: by_present_discounted_cost;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_current_present_discounted_present_cost;
+    => nrel_associative_connection: by_current_market_cost;
+
+    => nrel_etalon_online_idx: [26323];;

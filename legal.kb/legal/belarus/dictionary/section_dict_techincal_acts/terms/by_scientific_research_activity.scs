@@ -1,0 +1,44 @@
+
+by_scientific_research_activity
+    => nrel_main_idtf: [scientific research activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [научно-исследовательская деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукова-даследчая дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_research_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_approbation_of_results_of_scientific_research;
+    => nrel_associative_connection: by_budgetfinanced_scientific_organization;
+    => nrel_associative_connection: by_state_grant_for_science;
+    => nrel_associative_connection: by_doctors_dissertation_in_the_form_of_scientific_report;
+    => nrel_associative_connection: by_contract_research_organization;
+    => nrel_associative_connection: by_scientific_activity;
+    => nrel_associative_connection: by_scientific_organization;
+    => nrel_associative_connection: by_research_scientific_documentation;
+    => nrel_associative_connection: by_research_activity_of_students;
+    => nrel_associative_connection: by_research_activity_of_achiever_students_achiever_undergraduates;
+    => nrel_associative_connection: by_research_part_sector_department;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_scientific_and_practical_center;
+    => nrel_associative_connection: by_scientific_and_technical_activity;
+    => nrel_associative_connection: by_researches;
+    => nrel_associative_connection: by_researches_research_works;
+    => nrel_associative_connection: by_scientific_worker;
+    => nrel_associative_connection: by_guideline_for_researcher;
+    => nrel_associative_connection: by_center_for_shared_use_of_unique_scientific_equipment;
+    => nrel_associative_connection: by_examination_of_sectoral_research_works;
+
+    => nrel_etalon_online_idx: [6274];;

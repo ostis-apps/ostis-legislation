@@ -1,0 +1,31 @@
+
+by_registration_point_for_passing_centralized_testing
+    => nrel_main_idtf: [registration point for passing centralized testing] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт регистрации для прохождения централизованного тестирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт рэгістрацыі для праходжання цэнтралізаванага тэсціравання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registration_point_for_passing_centralized_testing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_testing_point;
+    => nrel_associative_connection: by_centralized_testing_certificate;
+    => nrel_associative_connection: by_support_of_centralized_testing;
+    => nrel_associative_connection: by_testing;
+    => nrel_associative_connection: by_centralized_testing;
+    => nrel_associative_connection: by_exam_materials;
+
+    => nrel_etalon_online_idx: [21857];;

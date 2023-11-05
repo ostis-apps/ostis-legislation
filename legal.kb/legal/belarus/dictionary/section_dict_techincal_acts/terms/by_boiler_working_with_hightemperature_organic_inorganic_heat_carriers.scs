@@ -1,0 +1,27 @@
+
+by_boiler_working_with_hightemperature_organic_inorganic_heat_carriers
+    => nrel_main_idtf: [boiler working with high-temperature organic (inorganic) heat carriers] (* <- lang_en;; *);
+    => nrel_main_idtf: [котел, работающий с высокотемпературными органическими (неорганическими) теплоносителями] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кацёл, які працуе з высокатэмпературнымі арганічнымі (неарганічнымі) цепланасіцелямі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_boiler_working_with_hightemperature_organic_inorganic_heat_carriers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_separate_steam_superheater;
+    => nrel_associative_connection: by_boiler;
+    => nrel_associative_connection: by_steam_boiler;
+
+    => nrel_etalon_online_idx: [42504];;

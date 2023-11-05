@@ -1,0 +1,49 @@
+
+by_roof
+    => nrel_main_idtf: [roof] (* <- lang_en;; *);
+    => nrel_main_idtf: [кровля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roof_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roof_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drainage_tray;
+    => nrel_associative_connection: by_drainpipe;
+    => nrel_associative_connection: by_endova;
+    => nrel_associative_connection: by_gutter;
+    => nrel_associative_connection: by_protective_layer;
+    => nrel_associative_connection: by_cornice;
+    => nrel_associative_connection: by_roof;
+    => nrel_associative_connection: by_roof_base;
+    => nrel_associative_connection: by_basic_waterproof_carpet_as_part_of_rolled_and_mastic_roofs;
+    => nrel_associative_connection: by_building_coverage;
+
+    => nrel_etalon_online_idx: [30683];;

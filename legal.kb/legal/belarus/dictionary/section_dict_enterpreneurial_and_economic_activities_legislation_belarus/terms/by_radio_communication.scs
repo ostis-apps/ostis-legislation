@@ -1,0 +1,66 @@
+
+by_radio_communication
+    => nrel_main_idtf: [radio communication] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиосвязь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыёсувязь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radio_communication_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radio_communication_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radio_communication_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_secondary_radar;
+    => nrel_associative_connection: by_railway_telecommunication;
+    => nrel_associative_connection: by_telecommunication_lines;
+    => nrel_associative_connection: by_amateur_service;
+    => nrel_associative_connection: by_telecommunication_objects;
+    => nrel_associative_connection: by_telecommunications_operator;
+    => nrel_associative_connection: by_train_radio_communications;
+    => nrel_associative_connection: by_radio_service;
+    => nrel_associative_connection: by_radio_frequency_services;
+    => nrel_associative_connection: by_telecommunications_network;
+    => nrel_associative_connection: by_telecommunication_means;
+    => nrel_associative_connection: by_telecommunication_services;
+
+    => nrel_etalon_online_idx: [21985];;

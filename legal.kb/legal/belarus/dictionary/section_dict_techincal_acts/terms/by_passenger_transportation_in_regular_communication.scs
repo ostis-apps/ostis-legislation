@@ -1,0 +1,44 @@
+
+by_passenger_transportation_in_regular_communication
+    => nrel_main_idtf: [passenger transportation in regular communication] (* <- lang_en;; *);
+    => nrel_main_idtf: [перевозка пассажиров в регулярном сообщении  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перавозка пасажыраў у рэгулярных зносінах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_transportation_in_regular_communication_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_transportation_in_regular_communication_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road_transportation_in_irregular_traffic;
+    => nrel_associative_connection: by_automobile_transportation_of_passengers_in_nonregular_communication;
+    => nrel_associative_connection: by_urban_transport;
+    => nrel_associative_connection: by_dispatcher_of_passengers_road_transportation_in_the_irregular_message;
+    => nrel_associative_connection: by_passenger_transportation_in_irregular_communication;
+
+    => nrel_etalon_online_idx: [29166];;

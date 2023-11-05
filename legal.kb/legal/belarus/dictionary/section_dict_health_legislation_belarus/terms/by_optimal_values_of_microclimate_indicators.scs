@@ -1,0 +1,28 @@
+
+by_optimal_values_of_microclimate_indicators
+    => nrel_main_idtf: [optimal values of microclimate indicators] (* <- lang_en;; *);
+    => nrel_main_idtf: [оптимальные значения показателей микроклимата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптымальныя значэнні паказчыкаў мікраклімату] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_optimal_values_of_microclimate_indicators_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_permissible_values_of_microclimate_indicators;
+    => nrel_associative_connection: by_medium_shift_air_temperature;
+    => nrel_associative_connection: by_average_daily_outdoor_air_temperature;
+    => nrel_associative_connection: by_tnsindex;
+
+    => nrel_etalon_online_idx: [41676];;

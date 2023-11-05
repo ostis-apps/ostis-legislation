@@ -1,0 +1,30 @@
+
+by_express_mail
+    => nrel_main_idtf: [express mail] (* <- lang_en;; *);
+    => nrel_main_idtf: [ускоренная почта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паскораная пошта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_express_mail_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_national_postal_electronic_system;
+    => nrel_associative_connection: by_express_mail_item;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_postal_communication_of_common_use;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_mail_services;
+
+    => nrel_etalon_online_idx: [10712];;

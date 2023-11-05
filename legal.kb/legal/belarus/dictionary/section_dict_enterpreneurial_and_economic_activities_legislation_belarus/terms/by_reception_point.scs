@@ -1,0 +1,45 @@
+
+by_reception_point
+    => nrel_main_idtf: [reception point] (* <- lang_en;; *);
+    => nrel_main_idtf: [приемный пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыёмны пункт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reception_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reception_point_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_service_zone_of_rural_complex_receiving_point_reception_of_orders_for_the_provision_of_domestic_services;
+    => nrel_associative_connection: by_workshop_for_repair_of_terminal_subscriber_devices;
+    => nrel_associative_connection: by_small_clothing_repair;
+    => nrel_associative_connection: by_mobile_service_complex;
+    => nrel_associative_connection: by_repair_of_subscriber_terminals;
+    => nrel_associative_connection: by_rural_integrated_receiving_point_for_receiving_orders_for_provision_of_household_services;
+
+    => nrel_etalon_online_idx: [21237];;

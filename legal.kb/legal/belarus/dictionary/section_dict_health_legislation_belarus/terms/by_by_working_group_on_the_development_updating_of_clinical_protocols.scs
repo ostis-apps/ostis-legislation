@@ -1,0 +1,29 @@
+
+by_by_working_group_on_the_development_updating_of_clinical_protocols
+    => nrel_main_idtf: [by_working_group_on_the_development_updating_of_clinical_protocols] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочая группа по разработке (актуализации) клинических протоколов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочая група па распрацоўцы (актуалізацыі) клінічных пратаколаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_working_group_on_the_development_updating_of_clinical_protocols_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_diagnostic_criteria;
+    => nrel_associative_connection: by_clinical_protocol;
+    => nrel_associative_connection: by_treatment;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_medical_care;
+
+    => nrel_etalon_online_idx: [38929];;

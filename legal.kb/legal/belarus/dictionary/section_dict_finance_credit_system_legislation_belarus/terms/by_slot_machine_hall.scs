@@ -1,0 +1,35 @@
+
+by_slot_machine_hall
+    => nrel_main_idtf: [slot machine hall] (* <- lang_en;; *);
+    => nrel_main_idtf: [зал игровых автоматов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зала гульнявых аўтаматаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_slot_machine_hall_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_slot_machine_owner;
+    => nrel_associative_connection: by_gambling_establishment;
+    => nrel_associative_connection: by_game_on_slot_machines;
+    => nrel_associative_connection: by_gambling_equipment;
+    => nrel_associative_connection: by_playing_field;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_game_table;
+    => nrel_associative_connection: by_model_of_game_machine;
+    => nrel_associative_connection: by_accumulated_counters;
+    => nrel_associative_connection: by_visitors_of_gambling_establishment;
+    => nrel_associative_connection: by_actually_pledged_average_percentage_of_cash_winning_of_the_game_machine;
+
+    => nrel_etalon_online_idx: [5801];;

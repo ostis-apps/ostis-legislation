@@ -1,0 +1,31 @@
+
+by_caravan_of_ships
+    => nrel_main_idtf: [caravan of ships] (* <- lang_en;; *);
+    => nrel_main_idtf: [караван судов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чарада судоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_caravan_of_ships_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_inland_water_transport;
+    => nrel_associative_connection: by_small_size_crafts;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+    => nrel_associative_connection: by_vessel_of_mixed_river__sea_navigation;
+    => nrel_associative_connection: by_shipping;
+
+    => nrel_etalon_online_idx: [15750];;

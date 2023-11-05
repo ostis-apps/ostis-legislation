@@ -1,0 +1,28 @@
+
+by_forest_road
+    => nrel_main_idtf: [forest road] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесная дорога] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лясная дарога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_road_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_logging_works;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [37345];;

@@ -1,0 +1,27 @@
+
+by_organization_using_railway_of_restricted_use_belonging_to_infrastructure_owner
+    => nrel_main_idtf: [organization using railway of restricted use, belonging to infrastructure owner ] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация, использующая железнодорожный путь необщего пользования, принадлежащий владельцу инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя, якая скарыстоўвае чыгуначны шлях неагульнага карыстання, які належыць уладальніку інфраструктуры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_using_railway_of_restricted_use_belonging_to_infrastructure_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railways_of_restricted_use;
+    => nrel_associative_connection: by_railway_transport_of_restricted_use;
+    => nrel_associative_connection: by_places_of_uncommon_use;
+
+    => nrel_etalon_online_idx: [19241];;

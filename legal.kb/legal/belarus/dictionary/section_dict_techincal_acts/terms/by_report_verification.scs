@@ -1,0 +1,27 @@
+
+by_report_verification
+    => nrel_main_idtf: [report verification] (* <- lang_en;; *);
+    => nrel_main_idtf: [верификация отчета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [верыфікацыя справаздачы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_report_verification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_verification_body;
+    => nrel_associative_connection: by_co2_emissions_report;
+    => nrel_associative_connection: by_co2_monitoring_plan;
+
+    => nrel_etalon_online_idx: [36161];;

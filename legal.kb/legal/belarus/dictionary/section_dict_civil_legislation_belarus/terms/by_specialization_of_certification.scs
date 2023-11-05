@@ -1,0 +1,29 @@
+
+by_specialization_of_certification
+    => nrel_main_idtf: [specialization of certification] (* <- lang_en;; *);
+    => nrel_main_idtf: [специализация аттестации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялізацыя атэстацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialization_of_certification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_qualification_certificate;
+    => nrel_associative_connection: by_competence;
+    => nrel_associative_connection: by_professional_activity;
+    => nrel_associative_connection: by_certificate_of_competence;
+
+    => nrel_etalon_online_idx: [23721];;

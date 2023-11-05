@@ -1,0 +1,29 @@
+
+by_escaped_convict
+    => nrel_main_idtf: [escaped convict] (* <- lang_en;; *);
+    => nrel_main_idtf: [скрывшийся осужденный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асуджаны, які знік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_escaped_convict_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_convicted_persons_who_have_been_maliciously_disrupting_the_order_of_service_of_sentence_for_one_year;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_convicted_person_maliciously_disrupting_order_and_conditions_of_service_of_sentence;
+    => nrel_associative_connection: by_convicted_person_maliciously_evading_service_of_sentence_in_form_of_correctional_works;
+    => nrel_associative_connection: by_convicted_person_maliciously_evading_service_of_sentence_in_the_form_of_community_service;
+
+    => nrel_etalon_online_idx: [4045];;

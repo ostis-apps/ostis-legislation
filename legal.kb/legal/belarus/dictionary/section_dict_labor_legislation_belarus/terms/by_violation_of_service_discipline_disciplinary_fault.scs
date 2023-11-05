@@ -1,0 +1,30 @@
+
+by_violation_of_service_discipline_disciplinary_fault
+    => nrel_main_idtf: [violation of service discipline (disciplinary fault)] (* <- lang_en;; *);
+    => nrel_main_idtf: [нарушение служебной дисциплины (дисциплинарный проступок)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парушэнне службовай дысцыпліны (дысцыплінарная правіннасць)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_violation_of_service_discipline_disciplinary_fault_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_day_of_disciplinary_fault_detection;
+    => nrel_associative_connection: by_disciplinary_fault;
+    => nrel_associative_connection: by_misconduct_incompatible_with_employment;
+    => nrel_associative_connection: by_office_discipline;
+    => nrel_associative_connection: by_service_discipline_in_the_bodies_of_the_internal_affairs;
+    => nrel_associative_connection: by_service_discipline_in_public_prosecution_bodies;
+
+    => nrel_etalon_online_idx: [17724];;

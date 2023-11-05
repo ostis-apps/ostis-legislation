@@ -1,0 +1,56 @@
+
+by_representatives
+    => nrel_main_idtf: [representatives] (* <- lang_en;; *);
+    => nrel_main_idtf: [представители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representatives_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representatives_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_close_relatives;
+    => nrel_associative_connection: by_weight_of_service;
+    => nrel_associative_connection: by_weight_of_servicerepresentative_type_of_communication_service;
+    => nrel_associative_connection: by_civil_claimant;
+    => nrel_associative_connection: by_civil_defendant;
+    => nrel_associative_connection: by_legal_representatives;
+    => nrel_associative_connection: by_commercial_agent;
+    => nrel_associative_connection: by_casualty;
+    => nrel_associative_connection: by_representative;
+    => nrel_associative_connection: by_representative_of_the_sender_recipient;
+    => nrel_associative_connection: by_party_of_defence;
+    => nrel_associative_connection: by_party_of_prosecution;
+    => nrel_associative_connection: by_authorized_person;
+    => nrel_associative_connection: by_authorized_representative_of_payer;
+    => nrel_associative_connection: by_participants_of_administrative_process;
+    => nrel_associative_connection: by_participants_of_criminal_proceedings;
+    => nrel_associative_connection: by_family_members;
+
+    => nrel_etalon_online_idx: [717];;

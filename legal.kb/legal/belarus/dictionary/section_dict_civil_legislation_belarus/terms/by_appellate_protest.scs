@@ -1,0 +1,42 @@
+
+by_appellate_protest
+    => nrel_main_idtf: [appellate protest] (* <- lang_en;; *);
+    => nrel_main_idtf: [апелляционный протест] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апеляцыйны пратэст] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_appellate_protest_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_appellate_protest_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_appeal;
+    => nrel_associative_connection: by_appeal_council_at_the_patent_body;
+    => nrel_associative_connection: by_court_of_appellate_second_instance;
+
+    => nrel_etalon_online_idx: [29005];;

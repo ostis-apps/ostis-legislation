@@ -1,0 +1,30 @@
+
+by_drainage_device
+    => nrel_main_idtf: [drainage device] (* <- lang_en;; *);
+    => nrel_main_idtf: [дренажное устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дрэнажны лад] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drainage_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structure_of_general_purpose;
+    => nrel_associative_connection: by_drainage;
+    => nrel_associative_connection: by_inverse_filter;
+    => nrel_associative_connection: by_dam_slope;
+    => nrel_associative_connection: by_drainage_receiver;
+
+    => nrel_etalon_online_idx: [37618];;

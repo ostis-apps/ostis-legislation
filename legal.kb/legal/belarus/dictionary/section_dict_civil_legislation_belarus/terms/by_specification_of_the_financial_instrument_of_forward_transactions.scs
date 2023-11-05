@@ -1,0 +1,28 @@
+
+by_specification_of_the_financial_instrument_of_forward_transactions
+    => nrel_main_idtf: [specification of the financial instrument of forward transactions] (* <- lang_en;; *);
+    => nrel_main_idtf: [спецификация финансового инструмента срочных сделок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыфікацыя фінансавага інструмента тэрміновых здзелак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specification_of_the_financial_instrument_of_forward_transactions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forward_transaction;
+    => nrel_associative_connection: by_financial_instruments;
+    => nrel_associative_connection: by_term_transaction_financial_instrument;
+    => nrel_associative_connection: by_term_transactions_financial_instrument;
+
+    => nrel_etalon_online_idx: [23864];;

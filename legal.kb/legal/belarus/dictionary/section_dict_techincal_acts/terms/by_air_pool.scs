@@ -1,0 +1,28 @@
+
+by_air_pool
+    => nrel_main_idtf: [air pool] (* <- lang_en;; *);
+    => nrel_main_idtf: [воздушный бассейн] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паветраны басейн] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_pool_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ventilation_system;
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_heat_network;
+    => nrel_associative_connection: by_heat_supply;
+
+    => nrel_etalon_online_idx: [31596];;

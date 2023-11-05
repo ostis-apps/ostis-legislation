@@ -1,0 +1,28 @@
+
+by_passenger_ship_route
+    => nrel_main_idtf: [passenger ship route] (* <- lang_en;; *);
+    => nrel_main_idtf: [маршрут пассажирского судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маршрут пасажырскага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_ship_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_passenger_transportation_by_inland_water_transport_of_general_use;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+
+    => nrel_etalon_online_idx: [16899];;

@@ -1,0 +1,35 @@
+
+by_costs_associated_with_determining_the_mass_of_waste
+    => nrel_main_idtf: [costs associated with determining the mass of waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [затраты, связанные с определением массы отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдаткі, звязаныя з вызначэннем масы адыходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_costs_associated_with_determining_the_mass_of_waste_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_waste;
+    => nrel_associative_connection: by_costs_associated_with_environmental_sampling_and_measurements;
+    => nrel_associative_connection: by_waste_disposal;
+    => nrel_associative_connection: by_waste_inventory;
+    => nrel_associative_connection: by_use_of_waste;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_preparation_of_waste;
+    => nrel_associative_connection: by_waste_collection;
+    => nrel_associative_connection: by_waste_removal;
+    => nrel_associative_connection: by_waste_accounting;
+    => nrel_associative_connection: by_waste_storage;
+
+    => nrel_etalon_online_idx: [40029];;

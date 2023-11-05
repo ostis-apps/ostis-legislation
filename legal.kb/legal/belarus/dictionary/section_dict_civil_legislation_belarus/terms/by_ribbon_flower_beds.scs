@@ -1,0 +1,29 @@
+
+by_ribbon_flower_beds
+    => nrel_main_idtf: [ribbon flower beds] (* <- lang_en;; *);
+    => nrel_main_idtf: [ленточные цветники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стужачныя кветнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ribbon_flower_beds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lawn;
+    => nrel_associative_connection: by_group_flowers;
+    => nrel_associative_connection: by_damaged_lawns_flower_gardens;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_destroyed_lawns_flower_gardens;
+
+    => nrel_etalon_online_idx: [16557];;

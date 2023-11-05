@@ -1,0 +1,15 @@
+
+by_depositary_code
+    => nrel_main_idtf: [depositary code] (* <- lang_en;; *);
+    => nrel_main_idtf: [код депозитария] (* <- lang_ru;; *);
+    => nrel_main_idtf: [код дэпазітарыя] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_depository_of_bar_codes;
+    => nrel_associative_connection: by_depository_activity;
+    => nrel_associative_connection: by_deposits;
+    => nrel_associative_connection: by_code;
+
+    => nrel_etalon_online_idx: [15959];;

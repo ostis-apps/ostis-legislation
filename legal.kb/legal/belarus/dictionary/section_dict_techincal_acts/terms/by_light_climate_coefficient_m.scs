@@ -1,0 +1,30 @@
+
+by_light_climate_coefficient_m
+    => nrel_main_idtf: [light climate coefficient m] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент светового климата m] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент светлавога клімату m] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_light_climate_coefficient_m_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geometric_coefficient_of_natural_illumination_e_;
+    => nrel_associative_connection: by_color_rendering_index;
+    => nrel_associative_connection: by_daylight_factor_df;
+    => nrel_associative_connection: by_reflected_shine_shine;
+    => nrel_associative_connection: by_discomfort_metric_m;
+    => nrel_associative_connection: by_indicator_of_roughness_p;
+
+    => nrel_etalon_online_idx: [37302];;

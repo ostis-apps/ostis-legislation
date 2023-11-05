@@ -1,0 +1,32 @@
+
+by_property_used_seasonally
+    => nrel_main_idtf: [property used seasonally] (* <- lang_en;; *);
+    => nrel_main_idtf: [имущество, используемое сезонно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маёмасць, якая выкарыстоўваецца сезонна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_property_used_seasonally_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_personal_property;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_suspension;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_represervation;
+    => nrel_associative_connection: by_extension_of_the_preservation_period;
+    => nrel_associative_connection: by_depreservation;
+
+    => nrel_etalon_online_idx: [38371];;

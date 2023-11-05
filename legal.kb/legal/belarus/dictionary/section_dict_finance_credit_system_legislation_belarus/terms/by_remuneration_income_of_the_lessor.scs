@@ -1,0 +1,30 @@
+
+by_remuneration_income_of_the_lessor
+    => nrel_main_idtf: [remuneration (income) of the lessor] (* <- lang_en;; *);
+    => nrel_main_idtf: [вознаграждение (доход) лизингодателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узнагароджанне (даход) лізінгадавальніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_remuneration_income_of_the_lessor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_import_leasing;
+    => nrel_associative_connection: by_international_interstate_leasing;
+    => nrel_associative_connection: by_operational_leasing;
+    => nrel_associative_connection: by_transit_leasing;
+    => nrel_associative_connection: by_financial_leasing;
+    => nrel_associative_connection: by_export_leasing;
+
+    => nrel_etalon_online_idx: [32553];;

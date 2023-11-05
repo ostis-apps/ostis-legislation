@@ -1,0 +1,26 @@
+
+by_reengineering_of_business_processes_of_administrative_procedures
+    => nrel_main_idtf: [reengineering of business processes of administrative procedures] (* <- lang_en;; *);
+    => nrel_main_idtf: [реинжиниринг бизнес-процессов осуществления административных процедур] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэінжынірынг бізнеспрацэсаў ажыццяўлення адміністрацыйных працэдур] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reengineering_of_business_processes_of_administrative_procedures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_projects_management_process;
+
+    => nrel_etalon_online_idx: [39353];;

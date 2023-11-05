@@ -1,0 +1,27 @@
+
+by_systems_elements_of_normal_operation
+    => nrel_main_idtf: [systems (elements) of normal operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [системы (элементы) нормальной эксплуатации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэмы (элементы) нармальнай эксплуатацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_systems_elements_of_normal_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_passive_system_element;
+    => nrel_associative_connection: by_systems_elements_of_normal_operation_control;
+    => nrel_associative_connection: by_systems_elements_important_to_safety;
+
+    => nrel_etalon_online_idx: [33330];;

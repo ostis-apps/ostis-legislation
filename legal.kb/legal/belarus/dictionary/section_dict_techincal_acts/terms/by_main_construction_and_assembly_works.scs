@@ -1,0 +1,30 @@
+
+by_main_construction_and_assembly_works
+    => nrel_main_idtf: [main construction and assembly works] (* <- lang_en;; *);
+    => nrel_main_idtf: [основные строительно-монтажные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўныя будаўніча-мантажныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_construction_and_assembly_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_installation_works;
+    => nrel_associative_connection: by_nonheating_furnace;
+    => nrel_associative_connection: by_hot_works;
+    => nrel_associative_connection: by_fire_hazardous_works;
+    => nrel_associative_connection: by_special_construction_and_installation_works;
+    => nrel_associative_connection: by_construction_and_assembly_works;
+
+    => nrel_etalon_online_idx: [33602];;

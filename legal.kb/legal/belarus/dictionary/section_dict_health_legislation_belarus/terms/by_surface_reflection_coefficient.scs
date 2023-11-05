@@ -1,0 +1,29 @@
+
+by_surface_reflection_coefficient
+    => nrel_main_idtf: [surface reflection coefficient] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент отражения поверхности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент адлюстравання паверхні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_surface_reflection_coefficient_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_uncomfortable_shine;
+    => nrel_associative_connection: by_nominal_risk_coefficient;
+    => nrel_associative_connection: by_coefficient_of_illumination_pulsation_kp_;
+    => nrel_associative_connection: by_coefficient_of_illumination_pulsation_of_kp_;
+    => nrel_associative_connection: by_illumination_e_lc;
+
+    => nrel_etalon_online_idx: [41748];;

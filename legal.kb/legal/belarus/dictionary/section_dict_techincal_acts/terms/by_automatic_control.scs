@@ -1,0 +1,28 @@
+
+by_automatic_control
+    => nrel_main_idtf: [automatic control] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматическое управление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычнае кіраванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatization;
+    => nrel_associative_connection: by_blocked_control_point;
+    => nrel_associative_connection: by_kind_of_management;
+    => nrel_associative_connection: by_interface_manmachine;
+
+    => nrel_etalon_online_idx: [8073];;

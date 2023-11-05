@@ -1,0 +1,34 @@
+
+by_trade_through_distributors
+    => nrel_main_idtf: [trade through distributors] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговля через распространителей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандаль праз распаўсюджвальнікаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_through_distributors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remote_trade;
+    => nrel_associative_connection: by_commission_trade;
+    => nrel_associative_connection: by_itinerant_trade;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_at_nonstationary_trade_objects;
+    => nrel_associative_connection: by_trade_at_stationary_trade_objects;
+    => nrel_associative_connection: by_auction_trade;
+    => nrel_associative_connection: by_trade_on_trade_places;
+    => nrel_associative_connection: by_trade_at_fairs;
+
+    => nrel_etalon_online_idx: [39104];;

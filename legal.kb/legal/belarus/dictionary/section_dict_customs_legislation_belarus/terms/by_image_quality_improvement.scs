@@ -1,0 +1,28 @@
+
+by_image_quality_improvement
+    => nrel_main_idtf: [image quality improvement] (* <- lang_en;; *);
+    => nrel_main_idtf: [улучшение качества изображения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляпшэнне якасці адлюстравання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_image_quality_improvement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_product_images;
+    => nrel_associative_connection: by_graphic_symbols;
+    => nrel_associative_connection: by_naturalistic_image_description;
+    => nrel_associative_connection: by_cmyk_cyan_magenta_yellow_key_color_black;
+
+    => nrel_etalon_online_idx: [25448];;

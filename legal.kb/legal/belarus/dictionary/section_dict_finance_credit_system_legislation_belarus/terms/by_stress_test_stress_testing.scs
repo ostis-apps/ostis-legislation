@@ -1,0 +1,28 @@
+
+by_stress_test_stress_testing
+    => nrel_main_idtf: [stress test (stress testing)] (* <- lang_en;; *);
+    => nrel_main_idtf: [стресс-тест (стресс-тестирование)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стрэс-тэст (стрэс-тэставанне)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stress_test_stress_testing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_testing;
+
+    => nrel_etalon_online_idx: [9708];;

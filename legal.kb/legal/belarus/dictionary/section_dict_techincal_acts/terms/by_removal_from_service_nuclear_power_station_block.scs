@@ -1,0 +1,30 @@
+
+by_removal_from_service_nuclear_power_station_block
+    => nrel_main_idtf: [removal from service nuclear power station block] (* <- lang_en;; *);
+    => nrel_main_idtf: [вывод блока атомной электростанции из эксплуатации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вывад блока атамнай электрастанцыі з эксплуатацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_removal_from_service_nuclear_power_station_block_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_nuclear_power_station_block;
+    => nrel_associative_connection: by_putting_into_operation_nuclear_power_station_block;
+    => nrel_associative_connection: by_conservative_approach;
+    => nrel_associative_connection: by_facility_of_the_startup_complex_of_the_unit_of_the_nuclear_power_plant;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_etalon_online_idx: [33283];;

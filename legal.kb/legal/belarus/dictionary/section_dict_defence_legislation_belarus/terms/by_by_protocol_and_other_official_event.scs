@@ -1,0 +1,29 @@
+
+by_by_protocol_and_other_official_event
+    => nrel_main_idtf: [by_protocol_and_other_official_event] (* <- lang_en;; *);
+    => nrel_main_idtf: [протокольное и иное официальное мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пратакольнае і іншае афіцыйнае мерапрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_protocol_and_other_official_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_organizational_and_management_duties;
+    => nrel_associative_connection: by_official_event;
+    => nrel_associative_connection: by_parliamentary_delegation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_a_gift_received_during_a_protocol_and_other_official_event;
+    => nrel_associative_connection: by_government_delegation_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [42029];;

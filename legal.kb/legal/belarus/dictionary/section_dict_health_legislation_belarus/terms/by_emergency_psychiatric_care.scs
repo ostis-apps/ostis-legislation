@@ -1,0 +1,31 @@
+
+by_emergency_psychiatric_care
+    => nrel_main_idtf: [emergency psychiatric care] (* <- lang_en;; *);
+    => nrel_main_idtf: [скорая психиатрическая помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хуткая псіхіятрычная дапамога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_psychiatric_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ambulance;
+    => nrel_associative_connection: by_noresults_departure_of_an_ambulance_team;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_appeal_to_the_urgent_emergency_medical_care;
+    => nrel_associative_connection: by_psychiatric_psychoneurological_organization;
+    => nrel_associative_connection: by_psychiatric_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_etalon_online_idx: [23298];;

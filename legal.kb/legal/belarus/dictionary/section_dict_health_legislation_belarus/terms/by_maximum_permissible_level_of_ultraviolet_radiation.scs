@@ -1,0 +1,31 @@
+
+by_maximum_permissible_level_of_ultraviolet_radiation
+    => nrel_main_idtf: [maximum permissible level of ultraviolet radiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [предельно допустимый уровень ультрафиолетового излучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранічна дапушчальны ўзровень ультрафіялетавага выпраменьвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maximum_permissible_level_of_ultraviolet_radiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dose_of_uv_irradiation;
+    => nrel_associative_connection: by_allowable_dose_of_uv_radiation;
+    => nrel_associative_connection: by_allowable_intensity_of_uv_radiation_irradiation;
+    => nrel_associative_connection: by_intensity_of_ultraviolet_radiation_irradiation;
+    => nrel_associative_connection: by_exposure_limits;
+    => nrel_associative_connection: by_laser_exposure_limits_for_chronic_exposure;
+    => nrel_associative_connection: by_ultraviolet_radiation;
+
+    => nrel_etalon_online_idx: [41685];;

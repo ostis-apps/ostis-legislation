@@ -1,0 +1,28 @@
+
+by_personal_area_of_auditor_auditor__individual_entrepreneur_auditing_organization
+    => nrel_main_idtf: [personal area of auditor, auditor - individual entrepreneur, auditing organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [личным кабинет аудитора, аудитора – индивидуального предпринимателя, аудиторской организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабістым кабінет аўдытара, аўдытара – індывідуальнага прадпрымальніка, аўдытарскай арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_area_of_auditor_auditor__individual_entrepreneur_auditing_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_registry;
+
+    => nrel_etalon_online_idx: [40102];;

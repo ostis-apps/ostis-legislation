@@ -1,0 +1,27 @@
+
+by_impact_tooth
+    => nrel_main_idtf: [impact tooth] (* <- lang_en;; *);
+    => nrel_main_idtf: [импактный зуб] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імпактны зуб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_impact_tooth_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dislocation_of_a_tooth;
+    => nrel_associative_connection: by_invaginated_tooth;
+    => nrel_associative_connection: by_human_teeth;
+
+    => nrel_etalon_online_idx: [42320];;

@@ -1,0 +1,34 @@
+
+by_land_users
+    => nrel_main_idtf: [land users] (* <- lang_en;; *);
+    => nrel_main_idtf: [землепользователи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [землекарыстальнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_users_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_land;
+    => nrel_associative_connection: by_land_use_use_of_land_plots;
+    => nrel_associative_connection: by_land_management_documentation;
+    => nrel_associative_connection: by_land_management_business;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_users_of_land_plots_and_or_water_objects;
+    => nrel_associative_connection: by_users_of_land_plots_or_water_objects;
+    => nrel_associative_connection: by_users_of_melioration_system;
+    => nrel_associative_connection: by_legal_predecessor_of_organizationland_user;
+    => nrel_associative_connection: by_user_of_natural_resources;
+
+    => nrel_etalon_online_idx: [5834];;

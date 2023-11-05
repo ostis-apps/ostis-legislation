@@ -1,0 +1,38 @@
+
+by_purebred_animal
+    => nrel_main_idtf: [purebred animal] (* <- lang_en;; *);
+    => nrel_main_idtf: [чистопородное животное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чыстапародная жывёла] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_purebred_animal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highvalue_animal;
+    => nrel_associative_connection: by_animal_husbandry;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_factory_type;
+    => nrel_associative_connection: by_breeding_animal;
+    => nrel_associative_connection: by_breeding_loudspeaker;
+    => nrel_associative_connection: by_animal_breed;
+    => nrel_associative_connection: by_breed_group;
+    => nrel_associative_connection: by_fauna_resources;
+    => nrel_associative_connection: by_breeding_advances_in_animal_husbandry;
+    => nrel_associative_connection: by_selection_in_animal_husbandry;
+    => nrel_associative_connection: by_family;
+    => nrel_associative_connection: by_type_of_animals;
+    => nrel_associative_connection: by_purebred_culture;
+
+    => nrel_etalon_online_idx: [7740];;

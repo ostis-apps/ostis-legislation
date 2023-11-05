@@ -1,0 +1,36 @@
+
+by_own_stage
+    => nrel_main_idtf: [own stage ] (* <- lang_en;; *);
+    => nrel_main_idtf: [собственная сценическая площадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уласная сцэнічная пляцоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_own_stage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tour_events;
+    => nrel_associative_connection: by_cultural_activity;
+    => nrel_associative_connection: by_cultural_and_leisure_activity;
+    => nrel_associative_connection: by_cultural_event;
+    => nrel_associative_connection: by_cultural_and_entertainment_event;
+    => nrel_associative_connection: by_cultural_events;
+    => nrel_associative_connection: by_cultural_infrastructure_objects;
+    => nrel_associative_connection: by_scene_tablet;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_ramp;
+    => nrel_associative_connection: by_technical_holds;
+    => nrel_associative_connection: by_furki;
+
+    => nrel_etalon_online_idx: [23423];;

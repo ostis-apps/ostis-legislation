@@ -1,0 +1,15 @@
+
+by_completion_of_vehicle
+    => nrel_main_idtf: [completion of vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [достройка транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дабудаванне транспартнага сродку] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_vehicle_reequipment;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_repair_services_for_motor_vehicles_and_their_components;
+    => nrel_associative_connection: by_vehicle_part_component;
+
+    => nrel_etalon_online_idx: [14470];;

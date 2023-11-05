@@ -1,0 +1,29 @@
+
+by_open_joint_stock_companies_processing_agricultural_products
+    => nrel_main_idtf: [open joint stock companies processing agricultural products] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытые акционерные общества, перерабатывающие сельскохозяйственную продукцию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрытыя акцыянерныя таварыствы, перапрацоўваючыя сельскагаспадарчую прадукцыю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_joint_stock_companies_processing_agricultural_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_open_joint_stock_company;
+    => nrel_associative_connection: by_enterprises_processing_agricultural_products_and_servicing_agriculture;
+    => nrel_associative_connection: by_agricultural_producers;
+    => nrel_associative_connection: by_agricultural_products;
+    => nrel_associative_connection: by_business_entities_that_process_agricultural_products;
+
+    => nrel_etalon_online_idx: [19528];;

@@ -1,0 +1,31 @@
+
+by_basic_level_of_studying_the_educational_area_theme_educational_subject_or_educational_discipline
+    => nrel_main_idtf: [basic level of studying the educational area, theme, educational subject or educational discipline] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый уровень изучения образовательной области, темы, учебного предмета или учебной дисциплины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы ўзровень вывучэння адукацыйнай вобласці, тэмы, навучальнага прадмета або навучальнай дысцыпліны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_level_of_studying_the_educational_area_theme_educational_subject_or_educational_discipline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_level_of_studying_an_academic_subject_module;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_educational_activity;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_increased_level_of_study_of_education_area_topic_subject_or_training_discipline;
+    => nrel_associative_connection: by_increased_level_of_school_subject_learning;
+    => nrel_associative_connection: by_learning_activities;
+
+    => nrel_etalon_online_idx: [12629];;

@@ -1,0 +1,28 @@
+
+by_militia
+    => nrel_main_idtf: [militia] (* <- lang_en;; *);
+    => nrel_main_idtf: [милиция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міліцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_militia_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internal_troops;
+    => nrel_associative_connection: by_operational_search_activiy;
+    => nrel_associative_connection: by_bodies_of_internal_affairs;
+    => nrel_associative_connection: by_law_enforcement_bodies;
+
+    => nrel_etalon_online_idx: [131];;

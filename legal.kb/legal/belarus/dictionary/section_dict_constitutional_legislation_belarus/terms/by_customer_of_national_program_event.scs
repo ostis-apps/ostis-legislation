@@ -1,0 +1,32 @@
+
+by_customer_of_national_program_event
+    => nrel_main_idtf: [customer of national program event] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказчик мероприятия национальной программы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказчык мерапрыемства нацыянальнай праграмы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customer_of_national_program_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_state_program;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_state_customer;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_customer_of_the_program_subprogram;
+    => nrel_associative_connection: by_events;
+
+    => nrel_etalon_online_idx: [14760];;

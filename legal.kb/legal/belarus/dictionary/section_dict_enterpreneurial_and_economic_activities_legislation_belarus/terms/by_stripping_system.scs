@@ -1,0 +1,18 @@
+
+by_stripping_system
+    => nrel_main_idtf: [stripping system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система зачистки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма зачысткі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_independent_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank_gasfree;
+    => nrel_associative_connection: by_cargo_tank_empty;
+    => nrel_associative_connection: by_cargo_tank_unloaded;
+    => nrel_associative_connection: by_cargo_loadingunloading_pipes;
+    => nrel_associative_connection: by_loadingunloading_point;
+    => nrel_associative_connection: by_system;
+
+    => nrel_etalon_online_idx: [23164];;

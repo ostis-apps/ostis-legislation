@@ -1,0 +1,38 @@
+
+by_programming_system
+    => nrel_main_idtf: [programming system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система программирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма праграмавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_programming_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_source_program_source_code;
+    => nrel_associative_connection: by_compilation;
+    => nrel_associative_connection: by_objectoriented_programming;
+    => nrel_associative_connection: by_problemoriented_language;
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_program_computer;
+    => nrel_associative_connection: by_software;
+    => nrel_associative_connection: by_software_module;
+    => nrel_associative_connection: by_software_product;
+    => nrel_associative_connection: by_robot;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_specification_of_program;
+    => nrel_associative_connection: by_stage_of_software_creation;
+    => nrel_associative_connection: by_broadcast_of_the_programme;
+
+    => nrel_etalon_online_idx: [23224];;

@@ -1,0 +1,60 @@
+
+by_security_management_system
+    => nrel_main_idtf: [security management system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система управления безопасностью] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма кіравання бяспекай] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_management_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_management_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_management_system_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_validation_certification;
+    => nrel_associative_connection: by_service_using_surveillance;
+    => nrel_associative_connection: by_safety_rules_for_traffic_and_operation_of_railway_transport;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_management_system;
+    => nrel_associative_connection: by_participant_of_the_transportation_process;
+
+    => nrel_etalon_online_idx: [23246];;

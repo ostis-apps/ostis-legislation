@@ -1,0 +1,29 @@
+
+by_monetary_income_of_the_population
+    => nrel_main_idtf: [monetary income of the population] (* <- lang_en;; *);
+    => nrel_main_idtf: [денежные доходы населения ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грашовыя даходы насельніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monetary_income_of_the_population_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_remuneration_for_labour;
+    => nrel_associative_connection: by_employees_remuneration_for_labour;
+    => nrel_associative_connection: by_professional_income;
+
+    => nrel_etalon_online_idx: [27600];;

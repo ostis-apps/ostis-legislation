@@ -1,0 +1,28 @@
+
+by_layer_decorativeprotective
+    => nrel_main_idtf: [layer decorative-protective] (* <- lang_en;; *);
+    => nrel_main_idtf: [слой декоративно-защитный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [слой дэкаратыўна-абаронны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_layer_decorativeprotective_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ventilated_air_space;
+    => nrel_associative_connection: by_complex_heatinsulating_material;
+    => nrel_associative_connection: by_outer_layer;
+    => nrel_associative_connection: by_thermal_insulating_layer;
+
+    => nrel_etalon_online_idx: [35640];;

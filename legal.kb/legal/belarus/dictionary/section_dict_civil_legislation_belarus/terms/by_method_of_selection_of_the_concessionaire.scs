@@ -1,0 +1,33 @@
+
+by_method_of_selection_of_the_concessionaire
+    => nrel_main_idtf: [method of selection of the concessionaire] (* <- lang_en;; *);
+    => nrel_main_idtf: [способ выбора концессионера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спосаб выбару канцэсіянера] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_method_of_selection_of_the_concessionaire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_investor;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_concessionaires;
+    => nrel_associative_connection: by_concession_agreement;
+    => nrel_associative_connection: by_concession;
+    => nrel_associative_connection: by_subject_of_the_bidding_or_auction_for_selection_of_the_investor_for_concluding_a_concession_contract;
+    => nrel_associative_connection: by_method;
+
+    => nrel_etalon_online_idx: [10626];;

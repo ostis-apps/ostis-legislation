@@ -1,0 +1,30 @@
+
+by_natural_persons_independently_paying_obligatory_insurance_fees
+    => nrel_main_idtf: [natural persons independently paying obligatory insurance fees] (* <- lang_en;; *);
+    => nrel_main_idtf: [физические лица, самостоятельно уплачивающие обязательные страховые взносы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фізічныя асобы, якія самастойна плацяць абавязковыя страхавыя ўзносы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_natural_persons_independently_paying_obligatory_insurance_fees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_insurance_organizations__insurance_organizations;
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_insured_persons;
+    => nrel_associative_connection: by_individual_entrepreneurs;
+    => nrel_associative_connection: by_insurance_contribution;
+    => nrel_associative_connection: by_insurance_contributions;
+
+    => nrel_etalon_online_idx: [12214];;

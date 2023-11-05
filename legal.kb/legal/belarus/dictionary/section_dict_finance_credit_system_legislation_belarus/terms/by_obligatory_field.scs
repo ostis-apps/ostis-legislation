@@ -1,0 +1,27 @@
+
+by_obligatory_field
+    => nrel_main_idtf: [obligatory field] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательное поле] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязковае поле] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obligatory_field_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_navigational_field;
+    => nrel_associative_connection: by_optional_field;
+    => nrel_associative_connection: by_swift_system_worldwide_interbank_financial_telecommunications;
+
+    => nrel_etalon_online_idx: [18824];;

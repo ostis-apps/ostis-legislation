@@ -1,0 +1,28 @@
+
+by_cone
+    => nrel_main_idtf: [cone] (* <- lang_en;; *);
+    => nrel_main_idtf: [конус] (* <- lang_ru;; *);
+    => nrel_main_idtf: [конус] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_maneuvering_in_limited_time_conditions;
+    => nrel_associative_connection: by_the_limiter_of_the_elements_of_the_autodrome_special_area;
+    => nrel_associative_connection: by_support;
+    => nrel_associative_connection: by_support_structure;
+
+    => nrel_etalon_online_idx: [35604];;

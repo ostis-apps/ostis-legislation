@@ -1,0 +1,28 @@
+
+by_local_electric_communication_networks
+    => nrel_main_idtf: [local electric communication networks] (* <- lang_en;; *);
+    => nrel_main_idtf: [местная сеть электросвязи ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовая сетка электрасувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_electric_communication_networks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_electric_communication_network_of_the_republic_of_belarus_uecn_rb;
+    => nrel_associative_connection: by_zone_of_confident_reception_coverage_area;
+    => nrel_associative_connection: by_telecommunications_network;
+    => nrel_associative_connection: by_telecommunication_connection;
+
+    => nrel_etalon_online_idx: [41949];;

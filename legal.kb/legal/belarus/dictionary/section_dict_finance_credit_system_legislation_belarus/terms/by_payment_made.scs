@@ -1,0 +1,31 @@
+
+by_payment_made
+    => nrel_main_idtf: [payment made] (* <- lang_en;; *);
+    => nrel_main_idtf: [совершенный платеж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [здзейснены плацеж] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_made_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ais_calculation;
+    => nrel_associative_connection: by_customer_payments_effected_untimely_counterparties;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_operation_operation;
+    => nrel_associative_connection: by_payment_agent;
+    => nrel_associative_connection: by_point_of_payment;
+    => nrel_associative_connection: by_regulation_of_information_interaction_of_participants_of_unified_calculation_and_information_space_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [23455];;

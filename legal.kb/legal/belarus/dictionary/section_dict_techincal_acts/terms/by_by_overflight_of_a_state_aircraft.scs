@@ -1,0 +1,27 @@
+
+by_by_overflight_of_a_state_aircraft
+    => nrel_main_idtf: [by_overflight_of_a_state_aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [облет государственного воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аблёт дзяржаўнага паветранага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_overflight_of_a_state_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_test_flight_control_flight;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle_overflight;
+    => nrel_associative_connection: by_aircraft_test_flight;
+
+    => nrel_etalon_online_idx: [42096];;

@@ -1,0 +1,29 @@
+
+by_restitution_of_execution_of_court_ruling
+    => nrel_main_idtf: [restitution of execution of court ruling] (* <- lang_en;; *);
+    => nrel_main_idtf: [поворот исполнения судебного постановления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паварот выканання судовай пастановы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restitution_of_execution_of_court_ruling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_executory_proceeding;
+    => nrel_associative_connection: by_enforcement_executive_actions;
+    => nrel_associative_connection: by_resolution_of_the_court_executor;
+    => nrel_associative_connection: by_forced_execution_of_the_execution_document;
+    => nrel_associative_connection: by_judicial_decision;
+
+    => nrel_etalon_online_idx: [568];;

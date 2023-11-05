@@ -1,0 +1,33 @@
+
+by_chairperson_of_executive_committee_of_primary_level
+    => nrel_main_idtf: [chairperson of executive committee of primary level] (* <- lang_en;; *);
+    => nrel_main_idtf: [председатель исполкома первичного уровня] (* <- lang_ru;; *);
+    => nrel_main_idtf: [старшыня выканкама першаснага узроўню] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chairperson_of_executive_committee_of_primary_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_head_of_the_local_administration;
+    => nrel_associative_connection: by_cities_of_district_subordination;
+    => nrel_associative_connection: by_executive_committee;
+    => nrel_associative_connection: by_executive_committees;
+    => nrel_associative_connection: by_local_government;
+    => nrel_associative_connection: by_chairperson_of_executive_committee_of_the_basic_level;
+    => nrel_associative_connection: by_chairperson_of_executive_committee_of_regional_and_basic_level_head_of_local_administration;
+    => nrel_associative_connection: by_chairperson_of_executive_committee_of_regional_level;
+    => nrel_associative_connection: by_council_of_heads_of_local_bodies_of_executive_power;
+
+    => nrel_etalon_online_idx: [21090];;

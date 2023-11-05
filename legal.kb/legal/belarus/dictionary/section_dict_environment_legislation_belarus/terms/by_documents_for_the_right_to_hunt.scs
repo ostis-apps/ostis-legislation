@@ -1,0 +1,29 @@
+
+by_documents_for_the_right_to_hunt
+    => nrel_main_idtf: [documents for the right to hunt] (* <- lang_en;; *);
+    => nrel_main_idtf: [документы на право охоты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументы на права палявання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documents_for_the_right_to_hunt_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunting_area_management;
+    => nrel_associative_connection: by_hunting_documentation;
+    => nrel_associative_connection: by_hunting_method;
+    => nrel_associative_connection: by_hunting_methods;
+
+    => nrel_etalon_online_idx: [36221];;

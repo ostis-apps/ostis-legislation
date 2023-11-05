@@ -1,0 +1,29 @@
+
+by_energy_security_level
+    => nrel_main_idtf: [energy security level] (* <- lang_en;; *);
+    => nrel_main_idtf: [уровень энергетической безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узровень энергетычнай бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_energy_security_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_energy_security_indicators;
+    => nrel_associative_connection: by_maintenance_of_energy_security;
+    => nrel_associative_connection: by_threshold_values_of_energy_security_indicator;
+    => nrel_associative_connection: by_threats_to_the_energy_security_of_the_country_region;
+    => nrel_associative_connection: by_energy_safety;
+
+    => nrel_etalon_online_idx: [25565];;

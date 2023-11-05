@@ -1,0 +1,28 @@
+
+by_by_teacher_guide
+    => nrel_main_idtf: [by_teacher_guide] (* <- lang_en;; *);
+    => nrel_main_idtf: [педагог. экскурсовод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [педагог. экскурсавод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_teacher_guide_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_teacher;
+    => nrel_associative_connection: by_educators;
+    => nrel_associative_connection: by_teacherpsychologist;
+    => nrel_associative_connection: by_guide;
+
+    => nrel_etalon_online_idx: [43527];;

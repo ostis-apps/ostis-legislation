@@ -1,0 +1,29 @@
+
+by_attestation_of_eligibility_for_auditor_qualification_certificate
+    => nrel_main_idtf: [attestation of eligibility for auditor qualification certificate] (* <- lang_en;; *);
+    => nrel_main_idtf: [аттестация на право получения квалификационного аттестата аудитора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [атэстацыя на права атрымання кваліфікацыйнага атэстата аўдытара] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_attestation_of_eligibility_for_auditor_qualification_certificate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_qualification_examinations_for_the_right_to_carry_out_audit_activities;
+    => nrel_associative_connection: by_qualification_certificate;
+
+    => nrel_etalon_online_idx: [8217];;

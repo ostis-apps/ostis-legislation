@@ -1,0 +1,28 @@
+
+by_by_skewed
+    => nrel_main_idtf: [by_skewed] (* <- lang_en;; *);
+    => nrel_main_idtf: [перекос] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перакос] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_skewed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auxiliary_pressure_voltage;
+    => nrel_associative_connection: by_draught;
+    => nrel_associative_connection: by_variable_exposure_q;
+    => nrel_associative_connection: by_foundation;
+
+    => nrel_etalon_online_idx: [43830];;

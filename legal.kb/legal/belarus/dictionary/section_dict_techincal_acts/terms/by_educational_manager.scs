@@ -1,0 +1,43 @@
+
+by_educational_manager
+    => nrel_main_idtf: [educational manager] (* <- lang_en;; *);
+    => nrel_main_idtf: [менеджер в сфере образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [менеджэр у сферы адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_manager_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_manager_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_education_quality_control;
+    => nrel_associative_connection: by_manager;
+    => nrel_associative_connection: by_education_quality_management;
+    => nrel_associative_connection: by_educational_management;
+
+    => nrel_etalon_online_idx: [37399];;

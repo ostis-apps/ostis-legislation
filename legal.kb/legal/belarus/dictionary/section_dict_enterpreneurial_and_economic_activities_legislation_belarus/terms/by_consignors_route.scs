@@ -1,0 +1,29 @@
+
+by_consignors_route
+    => nrel_main_idtf: [consignor’s route] (* <- lang_en;; *);
+    => nrel_main_idtf: [отправительский маршрут] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адпраўляльніцкі маршрут] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignors_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargo_vehicle;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_railways_of_restricted_use;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_carrier;
+
+    => nrel_etalon_online_idx: [27977];;

@@ -1,0 +1,15 @@
+
+by_documents_review
+    => nrel_main_idtf: [documents review] (* <- lang_en;; *);
+    => nrel_main_idtf: [обзор документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агляд дакументаў] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_documentation;
+    => nrel_associative_connection: by_review_of_archival_documents;
+    => nrel_associative_connection: by_thematic_review;
+
+    => nrel_etalon_online_idx: [18409];;

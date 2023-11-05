@@ -1,0 +1,26 @@
+
+by_contour
+    => nrel_main_idtf: [contour] (* <- lang_en;; *);
+    => nrel_main_idtf: [абрис] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абрыс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contour_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_real_estate;
+
+    => nrel_etalon_online_idx: [4664];;

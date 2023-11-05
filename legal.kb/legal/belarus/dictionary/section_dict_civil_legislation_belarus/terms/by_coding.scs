@@ -1,0 +1,30 @@
+
+by_coding
+    => nrel_main_idtf: [coding] (* <- lang_en;; *);
+    => nrel_main_idtf: [кодирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кадаваньне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_maintenance_of_register_classifier;
+    => nrel_associative_connection: by_code;
+    => nrel_associative_connection: by_object_of_classification;
+    => nrel_associative_connection: by_subsystem_of_classification_and_coding;
+    => nrel_associative_connection: by_system_classifier;
+    => nrel_associative_connection: by_handbook;
+
+    => nrel_etalon_online_idx: [30999];;

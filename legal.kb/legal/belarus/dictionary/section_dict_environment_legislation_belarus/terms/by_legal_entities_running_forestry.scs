@@ -1,0 +1,31 @@
+
+by_legal_entities_running_forestry
+    => nrel_main_idtf: [legal entities running forestry] (* <- lang_en;; *);
+    => nrel_main_idtf: [юридические лица, ведущие лесное хозяйство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [юрыдычныя асобы, якія вядуць лясную гаспадарку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_entities_running_forestry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_supervision_for_the_implementation_of_forest_building_project;
+    => nrel_associative_connection: by_forestry_engineer;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_aesthetic_forestry;
+    => nrel_associative_connection: by_forestry_practices;
+    => nrel_associative_connection: by_legal_entities;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [26800];;

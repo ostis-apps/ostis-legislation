@@ -1,0 +1,44 @@
+
+by_complex_hygienic_assessment_of_working_conditions
+    => nrel_main_idtf: [complex hygienic assessment of working conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплексная гигиеническая оценка условий труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [комплексная гігіенічная ацэнка умоў працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_hygienic_assessment_of_working_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_hygienic_assessment_of_working_conditions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_breathing_zone;
+    => nrel_associative_connection: by_general_medical_contraindications;
+    => nrel_associative_connection: by_assessment_of_working_conditions;
+    => nrel_associative_connection: by_professional_selection;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_etalon_online_idx: [31797];;

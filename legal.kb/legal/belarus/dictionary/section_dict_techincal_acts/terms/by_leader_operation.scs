@@ -1,0 +1,26 @@
+
+by_leader_operation
+    => nrel_main_idtf: [leader operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [лидерная эксплуатация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лідэрная эксплуатацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leader_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_durability;
+    => nrel_associative_connection: by_reliability;
+
+    => nrel_etalon_online_idx: [32506];;

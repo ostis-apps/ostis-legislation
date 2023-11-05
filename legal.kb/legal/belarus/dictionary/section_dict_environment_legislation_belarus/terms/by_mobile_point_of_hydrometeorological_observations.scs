@@ -1,0 +1,35 @@
+
+by_mobile_point_of_hydrometeorological_observations
+    => nrel_main_idtf: [mobile point of hydrometeorological observations] (* <- lang_en;; *);
+    => nrel_main_idtf: [подвижной пункт гидрометеорологических наблюдений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рухомы пункт гідраметэаралагічных назіранняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_point_of_hydrometeorological_observations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydrometeorological_meteorological_service;
+    => nrel_associative_connection: by_hydrometeorological_activity;
+    => nrel_associative_connection: by_hydrometeorological_service;
+    => nrel_associative_connection: by_hydrometeorological_observations;
+    => nrel_associative_connection: by_hydrometeorological_objects;
+    => nrel_associative_connection: by_state_hydrometeorological_service;
+    => nrel_associative_connection: by_state_network_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_mobile_laboratory_of_measurement_technology;
+    => nrel_associative_connection: by_hydrometeorological_observation_point;
+    => nrel_associative_connection: by_network_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_stationary_point_for_hydrometeorological_observations;
+
+    => nrel_etalon_online_idx: [20348];;

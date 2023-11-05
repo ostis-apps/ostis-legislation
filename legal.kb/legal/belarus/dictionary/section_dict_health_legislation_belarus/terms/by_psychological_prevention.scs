@@ -1,0 +1,31 @@
+
+by_psychological_prevention
+    => nrel_main_idtf: [psychological prevention] (* <- lang_en;; *);
+    => nrel_main_idtf: [психологическая профилактика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псіхалагічная прафілактыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychological_prevention_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_preventive_event;
+    => nrel_associative_connection: by_psychological_diagnostics;
+    => nrel_associative_connection: by_psychological_correction;
+    => nrel_associative_connection: by_psychological_help;
+    => nrel_associative_connection: by_psychological_problem;
+    => nrel_associative_connection: by_psychological_counseling;
+    => nrel_associative_connection: by_psychological_education;
+
+    => nrel_etalon_online_idx: [6735];;

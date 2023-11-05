@@ -1,0 +1,34 @@
+
+by_nonoperator_mode_of_operation
+    => nrel_main_idtf: [non-operator mode of operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [безоператорный режим работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [безаператарны рэжым працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonoperator_mode_of_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contactless_information_carrier;
+    => nrel_associative_connection: by_output_documents;
+    => nrel_associative_connection: by_user_interface;
+    => nrel_associative_connection: by_operating_mode;
+    => nrel_associative_connection: by_main_menu;
+    => nrel_associative_connection: by_peripheral_equipment_for_payment_operations_peripheral_equipment;
+    => nrel_associative_connection: by_payment_operation_operation;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_system_rules;
+    => nrel_associative_connection: by_selfservice_machine;
+
+    => nrel_etalon_online_idx: [30662];;

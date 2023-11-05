@@ -1,0 +1,33 @@
+
+by_sale_of_public_property_by_competition
+    => nrel_main_idtf: [sale of public property by competition] (* <- lang_en;; *);
+    => nrel_main_idtf: [продажа объекта государственной собственности по конкурсу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [продаж аб'екта дзяржаўнай уласнасці па конкурсе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sale_of_public_property_by_competition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_notification_on_holding_the_competitive_bidding;
+    => nrel_associative_connection: by_commission_for_holding_a_competition_auction;
+    => nrel_associative_connection: by_bid;
+    => nrel_associative_connection: by_objects_of_state_property_privatization;
+    => nrel_associative_connection: by_subject_of_the_competition;
+    => nrel_associative_connection: by_privatization_of_state_property;
+    => nrel_associative_connection: by_sale_of_public_property_at_the_auction;
+    => nrel_associative_connection: by_disposal_of_state_property;
+    => nrel_associative_connection: by_subjects_of_state_property_privatization;
+
+    => nrel_etalon_online_idx: [21469];;

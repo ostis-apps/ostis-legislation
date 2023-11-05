@@ -1,0 +1,59 @@
+
+by_technological_norm
+    => nrel_main_idtf: [technological norm] (* <- lang_en;; *);
+    => nrel_main_idtf: [технологический норматив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхналагічны нарматыў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technological_norm_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technological_norm_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technological_norm_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_air_pollutant_emissions;
+    => nrel_associative_connection: by_standards_for_acceptable_physical_actions;
+    => nrel_associative_connection: by_environment;
+    => nrel_associative_connection: by_environmental_protection;
+    => nrel_associative_connection: by_waste_waters;
+
+    => nrel_etalon_online_idx: [7038];;

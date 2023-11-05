@@ -1,0 +1,60 @@
+
+by_automatic_mode
+    => nrel_main_idtf: [automatic mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматический режим ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычны рэжым] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_mode_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_mode_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_disbarrier;
+    => nrel_associative_connection: by_disinfection;
+    => nrel_associative_connection: by_outsize_vehicle;
+    => nrel_associative_connection: by_operator;
+    => nrel_associative_connection: by_manual_mode;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [38163];;

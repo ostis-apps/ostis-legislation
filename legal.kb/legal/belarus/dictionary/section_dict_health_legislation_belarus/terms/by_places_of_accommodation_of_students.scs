@@ -1,0 +1,33 @@
+
+by_places_of_accommodation_of_students
+    => nrel_main_idtf: [places of accommodation of students] (* <- lang_en;; *);
+    => nrel_main_idtf: [места проживания обучающихся] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месцы пражывання навучэнцаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_places_of_accommodation_of_students_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_other_place_of_residence;
+    => nrel_associative_connection: by_training;
+    => nrel_associative_connection: by_power_object;
+    => nrel_associative_connection: by_food_facility_for_adults;
+    => nrel_associative_connection: by_food_facility_for_children;
+    => nrel_associative_connection: by_point_of_correctional_and_pedagogical_assistance;
+    => nrel_associative_connection: by_institutions_for_children;
+    => nrel_associative_connection: by_institutions_for_orphaned_children;
+    => nrel_associative_connection: by_electronic_teaching_tools;
+
+    => nrel_etalon_online_idx: [31441];;

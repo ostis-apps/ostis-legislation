@@ -1,0 +1,32 @@
+
+by_councils
+    => nrel_main_idtf: [councils] (* <- lang_en;; *);
+    => nrel_main_idtf: [советы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [саветы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_councils_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_coordinating_council_on_approximation_of_the_legislation_of_the_republic_of_belarus_with_international_financial_reporting_standards;
+    => nrel_associative_connection: by_interdepartmental_infrastructural_coordination_council;
+    => nrel_associative_connection: by_interdepartmental_coordination_council_for_cynological_divisions_interaction_of_the_state_security_system_bodies;
+    => nrel_associative_connection: by_interdepartmental_coordination_council_for_military_and_technical_questions;
+    => nrel_associative_connection: by_interdepartmental_coordination_council_for_enforced_psychiatric_care;
+    => nrel_associative_connection: by_interdepartmental_scientific_and_technical_council_of_the_ministry_of_industry_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_public_coordination_council_in_the_sphere_of_mass_information;
+    => nrel_associative_connection: by_council;
+
+    => nrel_etalon_online_idx: [1914];;

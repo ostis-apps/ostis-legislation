@@ -1,0 +1,30 @@
+
+by_checkup_examination
+    => nrel_main_idtf: [check-up examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольное освидетельствование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольны агляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_checkup_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_voluntary_medical_examination;
+    => nrel_associative_connection: by_medical_inspection;
+    => nrel_associative_connection: by_medical_reexamination;
+    => nrel_associative_connection: by_narcological_examination;
+    => nrel_associative_connection: by_refusal_to_undergo_examination_in_due_course;
+    => nrel_associative_connection: by_refusal_to_undergo_examination;
+
+    => nrel_etalon_online_idx: [12099];;

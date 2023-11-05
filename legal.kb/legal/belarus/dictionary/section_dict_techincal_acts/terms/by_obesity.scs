@@ -1,0 +1,26 @@
+
+by_obesity
+    => nrel_main_idtf: [obesity] (* <- lang_en;; *);
+    => nrel_main_idtf: [ожирение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [атлусценне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obesity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gigantism;
+    => nrel_associative_connection: by_hyperosmolary_hyperglycemic_condition;
+
+    => nrel_etalon_online_idx: [33467];;

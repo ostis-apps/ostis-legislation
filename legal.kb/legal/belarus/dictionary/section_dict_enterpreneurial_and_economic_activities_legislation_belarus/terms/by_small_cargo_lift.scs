@@ -1,0 +1,18 @@
+
+by_small_cargo_lift
+    => nrel_main_idtf: [small cargo lift ] (* <- lang_en;; *);
+    => nrel_main_idtf: [лифт малый грузовой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліфт малы грузавы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner_of_the_lift_elevator;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_lift_modernization;
+    => nrel_associative_connection: by_cab_work_light;
+    => nrel_associative_connection: by_mixed_management;
+    => nrel_associative_connection: by_maintenance_service_of_lift;
+
+    => nrel_etalon_online_idx: [16642];;

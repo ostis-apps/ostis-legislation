@@ -1,0 +1,29 @@
+
+by_workers_and_employees
+    => nrel_main_idtf: [workers and employees] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочие и служащие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочыя і служачыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_workers_and_employees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_persons_of_commanding_and_ordinary_staff;
+    => nrel_associative_connection: by_professional_and_qualification_groups;
+    => nrel_associative_connection: by_parents_and_wives;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_etalon_online_idx: [33263];;

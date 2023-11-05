@@ -1,0 +1,42 @@
+
+by_incentive_payments
+    => nrel_main_idtf: [incentive payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [стимулирующие выплаты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стымулюючыя выплаты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incentive_payments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incentive_payments_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remunerations_premiums_bonuses_and_other_payments;
+    => nrel_associative_connection: by_extra_payment;
+    => nrel_associative_connection: by_compensatory_payments;
+
+    => nrel_etalon_online_idx: [39486];;

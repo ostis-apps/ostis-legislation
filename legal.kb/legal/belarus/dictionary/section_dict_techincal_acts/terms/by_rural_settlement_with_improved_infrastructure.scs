@@ -1,0 +1,29 @@
+
+by_rural_settlement_with_improved_infrastructure
+    => nrel_main_idtf: [rural settlement with improved infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [агрогородок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аграгарадок] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rural_settlement_with_improved_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_populated_area_settlement;
+    => nrel_associative_connection: by_production_infrastructure;
+    => nrel_associative_connection: by_transport_infrastructure;
+
+    => nrel_etalon_online_idx: [39007];;

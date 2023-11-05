@@ -1,0 +1,29 @@
+
+by_services_of_own_production_of_banks_nonbank_creditfinancial_and_insurance_organizations
+    => nrel_main_idtf: [services of own production of banks, non-bank credit-financial and insurance organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги собственного производства банков, небанковских кредитно-финансовых и страховых организаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі ўласнай вытворчасці банкаў, нябанкаўскіх крэдытна-фінансавых і страхавых арганізацый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_services_of_own_production_of_banks_nonbank_creditfinancial_and_insurance_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_products_of_own_production;
+    => nrel_associative_connection: by_sufficiently_processed_products;
+    => nrel_associative_connection: by_works_and_services_of_own_production;
+
+    => nrel_etalon_online_idx: [25653];;

@@ -1,0 +1,30 @@
+
+by_by_migration_of_harmful_substances
+    => nrel_main_idtf: [by_migration_of_harmful_substances] (* <- lang_en;; *);
+    => nrel_main_idtf: [миграция вредных веществ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міграцыя шкодных рэчываў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_migration_of_harmful_substances_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_paint_and_varnish_additive;
+    => nrel_associative_connection: by_paintwork;
+    => nrel_associative_connection: by_paint_filler;
+    => nrel_associative_connection: by_plasticizer_for_paint_and_varnish_material;
+    => nrel_associative_connection: by_powder_paint_material;
+    => nrel_associative_connection: by_paint_and_varnish_material_solvent;
+
+    => nrel_etalon_online_idx: [43166];;

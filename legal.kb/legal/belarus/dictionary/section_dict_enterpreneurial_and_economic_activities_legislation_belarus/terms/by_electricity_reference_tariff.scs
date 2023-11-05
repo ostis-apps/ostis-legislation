@@ -1,0 +1,33 @@
+
+by_electricity_reference_tariff
+    => nrel_main_idtf: [electricity reference tariff ] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый тариф на электрическую энергию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы тарыф на электрычную энергію] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electricity_reference_tariff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_differentiated_by_temporary_periods_electric_energy_tariff;
+    => nrel_associative_connection: by_additional_rate_of_doublerate_tariff;
+    => nrel_associative_connection: by_consumer_of_electric_energy;
+    => nrel_associative_connection: by_consumer_of_electic_power;
+    => nrel_associative_connection: by_electricity_metering_device;
+    => nrel_associative_connection: by_calculated_period_of_regulation;
+    => nrel_associative_connection: by_regulated_activities;
+    => nrel_associative_connection: by_overflow_market;
+    => nrel_associative_connection: by_energy_supply_organization;
+
+    => nrel_etalon_online_idx: [10125];;

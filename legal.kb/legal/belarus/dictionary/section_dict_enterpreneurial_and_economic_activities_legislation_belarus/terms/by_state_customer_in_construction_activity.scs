@@ -1,0 +1,17 @@
+
+by_state_customer_in_construction_activity
+    => nrel_main_idtf: [state customer in construction activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный заказчик в строительной деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны заказчык у будаўнічай дзейнасці] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_state_customer;
+    => nrel_associative_connection: by_townplanning_activity;
+    => nrel_associative_connection: by_customer;
+    => nrel_associative_connection: by_customer_in_construction_activity;
+    => nrel_associative_connection: by_customers_property_developers;
+    => nrel_associative_connection: by_property_developer_in_construction_activity;
+    => nrel_associative_connection: by_construction_activities_construction;
+
+    => nrel_etalon_online_idx: [13720];;

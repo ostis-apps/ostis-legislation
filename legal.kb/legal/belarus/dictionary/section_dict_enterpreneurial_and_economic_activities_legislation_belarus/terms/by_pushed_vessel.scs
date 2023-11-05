@@ -1,0 +1,29 @@
+
+by_pushed_vessel
+    => nrel_main_idtf: [pushed vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [толкаемое судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штурхаемае судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pushed_vessel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_selfpropelled_vehicle;
+    => nrel_associative_connection: by_special_nonselfpropelled_rolling_stock;
+    => nrel_associative_connection: by_pushed_construction;
+
+    => nrel_etalon_online_idx: [25057];;

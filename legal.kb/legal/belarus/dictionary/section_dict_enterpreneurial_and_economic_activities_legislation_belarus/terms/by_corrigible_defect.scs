@@ -1,0 +1,28 @@
+
+by_corrigible_defect
+    => nrel_main_idtf: [corrigible defect] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправимый брак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папраўны брак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corrigible_defect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mechanical_flaw;
+    => nrel_associative_connection: by_incorrigible_defect;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_production;
+
+    => nrel_etalon_online_idx: [27135];;

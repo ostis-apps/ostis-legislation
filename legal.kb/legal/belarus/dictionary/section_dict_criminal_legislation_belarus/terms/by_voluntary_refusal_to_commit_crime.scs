@@ -1,0 +1,28 @@
+
+by_voluntary_refusal_to_commit_crime
+    => nrel_main_idtf: [voluntary refusal to commit crime] (* <- lang_en;; *);
+    => nrel_main_idtf: [добровольный отказ от преступления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [добраахвотная адмова ад злачынства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_voluntary_refusal_to_commit_crime_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_voluntary_delivery_of_drugs_psychotropic_substances_or_precursors_potent_and_poisonous_substances;
+    => nrel_associative_connection: by_attempt_to_commit_crime;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_preparation_for_crime;
+
+    => nrel_etalon_online_idx: [1430];;

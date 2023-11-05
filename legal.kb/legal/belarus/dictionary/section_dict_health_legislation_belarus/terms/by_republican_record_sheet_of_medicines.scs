@@ -1,0 +1,44 @@
+
+by_republican_record_sheet_of_medicines
+    => nrel_main_idtf: [republican record sheet of medicines ] (* <- lang_en;; *);
+    => nrel_main_idtf: [республиканский формуляр лекарственных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэспубліканскі фармуляр лекавых сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_record_sheet_of_medicines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_record_sheet_of_medicines_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry_of_medications_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_wholesale_sale_of_medicines_distribution;
+    => nrel_associative_connection: by_republican_record_sheet_of_medical_items;
+    => nrel_associative_connection: by_specifications_and_maintenance_schedule_form;
+
+    => nrel_etalon_online_idx: [11040];;

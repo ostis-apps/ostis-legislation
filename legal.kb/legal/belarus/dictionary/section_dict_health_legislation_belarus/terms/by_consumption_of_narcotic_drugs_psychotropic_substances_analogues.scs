@@ -1,0 +1,32 @@
+
+by_consumption_of_narcotic_drugs_psychotropic_substances_analogues
+    => nrel_main_idtf: [consumption of narcotic drugs, psychotropic substances, analogues] (* <- lang_en;; *);
+    => nrel_main_idtf: [потребление наркотических средств, психотропных веществ, аналогов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спажыванне наркатычных сродкаў, псіхатропных рэчываў, аналагаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consumption_of_narcotic_drugs_psychotropic_substances_analogues_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_analogues_of_narcotic_drugs_and_psychotropic_substances;
+    => nrel_associative_connection: by_drug_addiction;
+    => nrel_associative_connection: by_illegal_storage_of_drugs_psychotropic_substances_or__precursors_potent_or_poisonous_substances;
+    => nrel_associative_connection: by_carriage_of_narcotic_drugs_psychotropic_substances_their_precursors_analogues;
+    => nrel_associative_connection: by_analogues_production;
+    => nrel_associative_connection: by_production_of_narcotic_drugs_psychotropic_substances;
+    => nrel_associative_connection: by_state_caused_by_consumption_of_narcotic_drugs_psychotropic_toxic_or_other_intoxicating_substances;
+    => nrel_associative_connection: by_the_fact_of_consumption_of_narcotic_drugs_psychotropic_substances_their_analogues_toxic_or_other_intoxicating_substances;
+
+    => nrel_etalon_online_idx: [7671];;

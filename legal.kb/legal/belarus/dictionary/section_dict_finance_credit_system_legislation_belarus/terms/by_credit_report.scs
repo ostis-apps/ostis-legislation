@@ -1,0 +1,44 @@
+
+by_credit_report
+    => nrel_main_idtf: [credit report] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредитный отчет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдытная справаздача] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_credit_report_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_credit_report_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_record_of_credit_history;
+    => nrel_associative_connection: by_source_of_credit_history_formation;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credit_history_user;
+    => nrel_associative_connection: by_subject_of_credit_history;
+
+    => nrel_etalon_online_idx: [29106];;

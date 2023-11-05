@@ -1,0 +1,27 @@
+
+by_by_drinking_water_for_baby_food
+    => nrel_main_idtf: [by_drinking_water_for_baby_food] (* <- lang_en;; *);
+    => nrel_main_idtf: [питьевая вода для детского питания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пітная вада для дзіцячага харчавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_drinking_water_for_baby_food_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drinking_water_water_of_drinking_quality;
+    => nrel_associative_connection: by_natural_potable_water;
+    => nrel_associative_connection: by_packaged_drinking_water;
+
+    => nrel_etalon_online_idx: [43188];;

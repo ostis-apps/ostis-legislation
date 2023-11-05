@@ -1,0 +1,31 @@
+
+by_cabin
+    => nrel_main_idtf: [cabin] (* <- lang_en;; *);
+    => nrel_main_idtf: [кабина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кабіна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cabin_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_machine_room;
+    => nrel_associative_connection: by_guide_rails;
+    => nrel_associative_connection: by_nominal_speed;
+    => nrel_associative_connection: by_cab_work_light;
+
+    => nrel_etalon_online_idx: [11904];;

@@ -1,0 +1,27 @@
+
+by_direction_of_management_department_of_education
+    => nrel_main_idtf: [direction of management (department) of education] (* <- lang_en;; *);
+    => nrel_main_idtf: [направление управления (отдела) образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накіраванне кіравання (аддзела) адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_direction_of_management_department_of_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commission_on_consideration_of_applications_for_financing_expenses;
+    => nrel_associative_connection: by_department_department_of_education;
+    => nrel_associative_connection: by_education_institutions;
+
+    => nrel_etalon_online_idx: [40686];;

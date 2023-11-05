@@ -1,0 +1,30 @@
+
+by_collective_effective_dose
+    => nrel_main_idtf: [collective effective dose] (* <- lang_en;; *);
+    => nrel_main_idtf: [коллективная эффективная доза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [калектыўная эфектыўная доза] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_collective_effective_dose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monitoring_of_radiation_doses_of_the_population;
+    => nrel_associative_connection: by_limit_of_irradiation_dose;
+    => nrel_associative_connection: by_working_effective_section_height;
+    => nrel_associative_connection: by_average_annual_effective_radiation_dose_of_population;
+    => nrel_associative_connection: by_effective_dose;
+    => nrel_associative_connection: by_effective_radioactive_dose;
+
+    => nrel_etalon_online_idx: [42373];;

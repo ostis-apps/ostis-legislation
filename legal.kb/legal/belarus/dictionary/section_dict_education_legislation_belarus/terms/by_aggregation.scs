@@ -1,0 +1,32 @@
+
+by_aggregation
+    => nrel_main_idtf: [aggregation] (* <- lang_en;; *);
+    => nrel_main_idtf: [агрегация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агрэгацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggregation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_object;
+    => nrel_associative_connection: by_information_package;
+    => nrel_associative_connection: by_conversion;
+    => nrel_associative_connection: by_storage_object;
+    => nrel_associative_connection: by_backup_copy;
+    => nrel_associative_connection: by_replication;
+    => nrel_associative_connection: by_electronic_case;
+    => nrel_associative_connection: by_emulation;
+
+    => nrel_etalon_online_idx: [31712];;

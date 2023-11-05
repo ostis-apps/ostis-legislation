@@ -1,0 +1,50 @@
+
+by_travel_services
+    => nrel_main_idtf: [travel services] (* <- lang_en;; *);
+    => nrel_main_idtf: [туристические услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [турыстычныя паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_travel_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract_of_sea_cruise;
+    => nrel_associative_connection: by_additional_travel_services;
+    => nrel_associative_connection: by_reliable_information_about_travel_services;
+    => nrel_associative_connection: by_import_of_travel_services;
+    => nrel_associative_connection: by_camping;
+    => nrel_associative_connection: by_complex_of_tourist_services;
+    => nrel_associative_connection: by_tourist_travel_route;
+    => nrel_associative_connection: by_necessary_information_about_travel_services;
+    => nrel_associative_connection: by_objects_of_the_tourism_industry;
+    => nrel_associative_connection: by_official_tourist_operator_of_the_championship;
+    => nrel_associative_connection: by_system_of_touristic_orienting_information;
+    => nrel_associative_connection: by_touristic_agent;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_touristic_industry;
+    => nrel_associative_connection: by_tourist_service;
+    => nrel_associative_connection: by_tourist_information_center;
+    => nrel_associative_connection: by_touristic_travel;
+    => nrel_associative_connection: by_tour_operator;
+    => nrel_associative_connection: by_tour_operating_activity;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_transfer_services;
+    => nrel_associative_connection: by_expenses_actually_incured;
+    => nrel_associative_connection: by_excursion_service;
+    => nrel_associative_connection: by_excursion;
+    => nrel_associative_connection: by_guide;
+
+    => nrel_etalon_online_idx: [7090];;

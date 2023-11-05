@@ -1,0 +1,32 @@
+
+by_set_level_of_security
+    => nrel_main_idtf: [set level of security] (* <- lang_en;; *);
+    => nrel_main_idtf: [заданный уровень безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зададзены ўзровень бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_set_level_of_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_analysis_of_safety_aspects;
+    => nrel_associative_connection: by_achieved_safety;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_safety_indicator;
+    => nrel_associative_connection: by_acceptable_level_of_security;
+    => nrel_associative_connection: by_flight_safety_program;
+    => nrel_associative_connection: by_requirements_to_provision_flight_safety;
+    => nrel_associative_connection: by_participants_in_the_process_of_ensuring_flight_safety;
+
+    => nrel_etalon_online_idx: [31543];;

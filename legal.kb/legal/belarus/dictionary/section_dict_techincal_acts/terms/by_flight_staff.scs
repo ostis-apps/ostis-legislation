@@ -1,0 +1,34 @@
+
+by_flight_staff
+    => nrel_main_idtf: [flight staff] (* <- lang_en;; *);
+    => nrel_main_idtf: [летный состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лётны склад] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_staff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highcompensation_suit;
+    => nrel_associative_connection: by_control_department_of_the_operator_of_the_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_flight_work;
+    => nrel_associative_connection: by_flight_change;
+    => nrel_associative_connection: by_person_organizing_flights;
+    => nrel_associative_connection: by_medical_worker_of_the_organizationowner_of_the_experimental_aircraft;
+    => nrel_associative_connection: by_operator_of_drone_aircraft;
+    => nrel_associative_connection: by_organization_of_flights;
+    => nrel_associative_connection: by_management_and_flight_management_bodies;
+    => nrel_associative_connection: by_variable_flight_composition;
+
+    => nrel_etalon_online_idx: [31677];;

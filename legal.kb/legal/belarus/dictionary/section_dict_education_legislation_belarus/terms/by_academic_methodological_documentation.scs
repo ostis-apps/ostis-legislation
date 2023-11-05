@@ -1,0 +1,27 @@
+
+by_academic_methodological_documentation
+    => nrel_main_idtf: [academic methodological documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [учебно-методическая документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вучэбна-метадычная дакументацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_academic_methodological_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_documentation;
+    => nrel_associative_connection: by_study_guide;
+    => nrel_associative_connection: by_educationalmethodological_management_part_department;
+
+    => nrel_etalon_online_idx: [4174];;

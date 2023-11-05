@@ -1,0 +1,29 @@
+
+by_dissemination_of_hydrometeorological_information
+    => nrel_main_idtf: [dissemination of hydrometeorological information] (* <- lang_en;; *);
+    => nrel_main_idtf: [распространение гидрометеорологической информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [распаўсюджванне гідраметэаралагічнай інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dissemination_of_hydrometeorological_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydrometeorological_activity;
+    => nrel_associative_connection: by_hydrometeorological_information;
+    => nrel_associative_connection: by_hydrometeorological_observations;
+    => nrel_associative_connection: by_holders_of_hydrometeorological_information;
+    => nrel_associative_connection: by_hydrometeorological_information_producers;
+
+    => nrel_etalon_online_idx: [38866];;

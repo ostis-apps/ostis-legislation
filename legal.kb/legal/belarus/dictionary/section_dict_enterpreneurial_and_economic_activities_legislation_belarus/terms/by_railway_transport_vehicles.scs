@@ -1,0 +1,30 @@
+
+by_railway_transport_vehicles
+    => nrel_main_idtf: [railway transport vehicles] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортные средства железнодорожного транспорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартныя сродкі чыгуначнага транспарту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_railway_transport_vehicles_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railway_transport_lands_of_general_use;
+    => nrel_associative_connection: by_infrastructure_of_railway_transport_of_general_use;
+    => nrel_associative_connection: by_organization_of_public_rail_transport;
+    => nrel_associative_connection: by_collection_of_transportation_rules_and_tariffs_of__public_railway_transport;
+    => nrel_associative_connection: by_technological_railway_transport_of_organizations;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [36723];;

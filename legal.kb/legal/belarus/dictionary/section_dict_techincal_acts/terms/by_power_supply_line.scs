@@ -1,0 +1,28 @@
+
+by_power_supply_line
+    => nrel_main_idtf: [power supply (line)] (* <- lang_en;; *);
+    => nrel_main_idtf: [питающая сеть (линия)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сілкуючая сетка (лінія)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_power_supply_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_introductory_device;
+    => nrel_associative_connection: by_main_switchboard;
+    => nrel_associative_connection: by_supply_lines_of_the_fire_alarm_system;
+    => nrel_associative_connection: by_distribution_device;
+
+    => nrel_etalon_online_idx: [40936];;

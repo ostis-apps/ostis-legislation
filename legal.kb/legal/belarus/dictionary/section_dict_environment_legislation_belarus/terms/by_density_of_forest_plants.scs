@@ -1,0 +1,51 @@
+
+by_density_of_forest_plants
+    => nrel_main_idtf: [density of forest plants] (* <- lang_en;; *);
+    => nrel_main_idtf: [густота лесных культур] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гушчыня лясных культур] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_density_of_forest_plants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_density_of_forest_plants_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_age_of_forest_plantations;
+    => nrel_associative_connection: by_geographical_plants;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_soil_cultivation_for_forest_plantations;
+    => nrel_associative_connection: by_plus_forest_plantations;
+    => nrel_associative_connection: by_damage_to_forest_crops;
+    => nrel_associative_connection: by_undergrowth;
+    => nrel_associative_connection: by_main_breeds_undergrowth;
+    => nrel_associative_connection: by_survival_of_forest_plants;
+    => nrel_associative_connection: by_forest_productivity;
+    => nrel_associative_connection: by_reconstruction_of_forest_crops;
+    => nrel_associative_connection: by_reconstruction_of_lowvalue_forest_plantations;
+
+    => nrel_etalon_online_idx: [12062];;

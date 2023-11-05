@@ -1,0 +1,28 @@
+
+by_balance_account_of_the_library_foundation
+    => nrel_main_idtf: [balance account of the library foundation] (* <- lang_en;; *);
+    => nrel_main_idtf: [балансовый счет библиотечного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [балансавы кошт бібліятэчнага фонду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_account_of_the_library_foundation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_movement_of_library_foundation;
+    => nrel_associative_connection: by_acquisition_of_library_stocks;
+    => nrel_associative_connection: by_library_stock_management;
+    => nrel_associative_connection: by_formation_of_library_stocks;
+
+    => nrel_etalon_online_idx: [41902];;

@@ -1,0 +1,33 @@
+
+by_beam_diameter_of_laser_radiation
+    => nrel_main_idtf: [beam diameter of laser radiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [диаметр пучка лазерного излучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыяметр пучка лазернага выпраменьвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_beam_diameter_of_laser_radiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aperture;
+    => nrel_associative_connection: by_eyesafe_laser_distance;
+    => nrel_associative_connection: by_dosimetry_of_laser_radiation;
+    => nrel_associative_connection: by_pulse_laser_radiation;
+    => nrel_associative_connection: by_laser_hazard_zone;
+    => nrel_associative_connection: by_laser_system_installation;
+    => nrel_associative_connection: by_maximum_levels_of_laser_product;
+    => nrel_associative_connection: by_laser_exposure_limits_for_chronic_exposure;
+    => nrel_associative_connection: by_dissipation;
+
+    => nrel_etalon_online_idx: [41708];;

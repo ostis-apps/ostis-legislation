@@ -1,0 +1,43 @@
+
+by_by_jetty_facilities
+    => nrel_main_idtf: [by_jetty_facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [причал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прычал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_jetty_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_jetty_facilities_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bill_of_lading;
+    => nrel_associative_connection: by_floating_object;
+    => nrel_associative_connection: by_fairway;
+    => nrel_associative_connection: by_shipping;
+
+    => nrel_etalon_online_idx: [34914];;

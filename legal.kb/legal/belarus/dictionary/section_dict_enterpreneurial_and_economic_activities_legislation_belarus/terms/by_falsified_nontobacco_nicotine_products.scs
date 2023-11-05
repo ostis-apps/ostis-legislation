@@ -1,0 +1,28 @@
+
+by_falsified_nontobacco_nicotine_products
+    => nrel_main_idtf: [falsified nontobacco nicotine products] (* <- lang_en;; *);
+    => nrel_main_idtf: [фальсифицированные нетабачные никотиносодержащие изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фальсіфікаваныя нетытунёвыя змяшчаючыя нікацін вырабы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_falsified_nontobacco_nicotine_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nontobacco_nicotinecontaining_product;
+    => nrel_associative_connection: by_falsified_liquids_for_electronic_smoking_systems;
+    => nrel_associative_connection: by_falsified_tobacco_products;
+    => nrel_associative_connection: by_electronic_smoking_system;
+
+    => nrel_etalon_online_idx: [41394];;

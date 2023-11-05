@@ -1,0 +1,29 @@
+
+by_ribbon
+    => nrel_main_idtf: [ribbon] (* <- lang_en;; *);
+    => nrel_main_idtf: [лента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стужка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ribbon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_oakum;
+    => nrel_associative_connection: by_strand;
+    => nrel_associative_connection: by_yarn;
+    => nrel_associative_connection: by_roving;
+    => nrel_associative_connection: by_insurance_element_rope_rope_rope_hale_tape_and_other;
+
+    => nrel_etalon_online_idx: [16556];;

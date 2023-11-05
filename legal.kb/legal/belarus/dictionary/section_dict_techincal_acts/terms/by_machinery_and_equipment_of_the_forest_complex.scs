@@ -1,0 +1,26 @@
+
+by_machinery_and_equipment_of_the_forest_complex
+    => nrel_main_idtf: [machinery and equipment of the forest complex] (* <- lang_en;; *);
+    => nrel_main_idtf: [машины и оборудование лесного комплекса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [машыны і абсталяванне ляснога комплексу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_machinery_and_equipment_of_the_forest_complex_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forestry_management;
+    => nrel_associative_connection: by_forest_complex;
+
+    => nrel_etalon_online_idx: [35779];;

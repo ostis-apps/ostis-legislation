@@ -1,0 +1,29 @@
+
+by_commission_for_determining_priority_purchases
+    => nrel_main_idtf: [commission for determining priority purchases] (* <- lang_en;; *);
+    => nrel_main_idtf: [комиссия по определению первоочередных закупок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камісія па вызначэнні першачарговых закупак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_for_determining_priority_purchases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_medical_devices;
+    => nrel_associative_connection: by_commission;
+    => nrel_associative_connection: by_medicinal_product;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_medical_equipment;
+
+    => nrel_etalon_online_idx: [16019];;

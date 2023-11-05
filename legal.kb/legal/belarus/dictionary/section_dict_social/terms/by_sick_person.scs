@@ -1,0 +1,22 @@
+
+by_sick_person
+    => nrel_main_idtf: [sick person] (* <- lang_en;; *);
+    => nrel_main_idtf: [больной] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хворы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_sick_person_after_unsuccessful_treatment_ineffective_course_of_chemotherapy;
+    => nrel_associative_connection: by_first_identified_new_sick_person_case;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_health;
+    => nrel_associative_connection: by_healthcare;
+    => nrel_associative_connection: by_bender_of_therapy;
+    => nrel_associative_connection: by_partial_remission;
+    => nrel_associative_connection: by_retreated_patient;
+    => nrel_associative_connection: by_management_protocol;
+    => nrel_associative_connection: by_tuberculosis_incidence_rate;
+    => nrel_associative_connection: by_care_of_a_sick_family_member;
+
+    => nrel_etalon_online_idx: [10275];;

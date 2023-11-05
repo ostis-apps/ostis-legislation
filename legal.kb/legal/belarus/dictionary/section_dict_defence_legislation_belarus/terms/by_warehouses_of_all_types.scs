@@ -1,0 +1,21 @@
+
+by_warehouses_of_all_types
+    => nrel_main_idtf: [warehouses of all types] (* <- lang_en;; *);
+    => nrel_main_idtf: [склады всех типов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [склады усіх тыпаў] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_pharmaceutical_warehouse;
+    => nrel_associative_connection: by_basic_warehouse;
+    => nrel_associative_connection: by_stock_exchange_warehouse;
+    => nrel_associative_connection: by_storewarehouse;
+    => nrel_associative_connection: by_warehouse;
+    => nrel_associative_connection: by_temporary_storage_warehouse;
+    => nrel_associative_connection: by_public_warehouse;
+    => nrel_associative_connection: by_warehouses_with_cold;
+    => nrel_associative_connection: by_specialized_warehouses;
+    => nrel_associative_connection: by_customs_warehouse;
+    => nrel_associative_connection: by_commodity_warehouse;
+
+    => nrel_etalon_online_idx: [23288];;

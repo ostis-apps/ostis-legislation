@@ -1,0 +1,29 @@
+
+by_habitat_object
+    => nrel_main_idtf: [habitat object] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект среды обитания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект асяроддзя пражывання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_habitat_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_living_cell;
+    => nrel_associative_connection: by_information_equipment_of_the_habitat;
+    => nrel_associative_connection: by_information_equipment_of_the_habitat_information_equipment;
+    => nrel_associative_connection: by_contrast_in_color;
+    => nrel_associative_connection: by_a_public_habitat;
+
+    => nrel_etalon_online_idx: [36073];;

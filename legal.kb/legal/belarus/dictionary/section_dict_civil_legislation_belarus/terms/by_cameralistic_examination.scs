@@ -1,0 +1,26 @@
+
+by_cameralistic_examination
+    => nrel_main_idtf: [cameralistic examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [камеральные проверки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камеральныя праверкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cameralistic_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_day_of_inspection_appointment_except_cameral_tax_inspection;
+    => nrel_associative_connection: by_check;
+
+    => nrel_etalon_online_idx: [33180];;

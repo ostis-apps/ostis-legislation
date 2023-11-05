@@ -1,0 +1,29 @@
+
+by_facility_of_the_startup_complex_of_the_unit_of_the_nuclear_power_plant
+    => nrel_main_idtf: [facility of the start-up complex of the unit of the nuclear power plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект пускового комплекса блока атомной электростанции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект пускавага комплексу блока атамнай электрастанцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_facility_of_the_startup_complex_of_the_unit_of_the_nuclear_power_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nuclear_power_station_block;
+    => nrel_associative_connection: by_putting_into_operation_nuclear_power_station_block;
+    => nrel_associative_connection: by_commissioning_of_the_startup_complex_of_the_nuclear_power_plant_unit;
+    => nrel_associative_connection: by_removal_from_service_nuclear_power_station_block;
+    => nrel_associative_connection: by_integrated_testing_of_a_nuclear_power_plant_unit_at_rated_power;
+
+    => nrel_etalon_online_idx: [36618];;

@@ -1,0 +1,28 @@
+
+by_autodonor
+    => nrel_main_idtf: [autodonor] (* <- lang_en;; *);
+    => nrel_main_idtf: [аутодонор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтадонар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_autodonor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autodonation;
+    => nrel_associative_connection: by_auxiliary_medical_technologies_used_in_blood_donation_and_its_components;
+    => nrel_associative_connection: by_donor_function;
+    => nrel_associative_connection: by_preoperative_autologous_blood_collection;
+
+    => nrel_etalon_online_idx: [42652];;

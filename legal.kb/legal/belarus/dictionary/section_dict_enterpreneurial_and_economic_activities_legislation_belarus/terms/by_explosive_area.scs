@@ -1,0 +1,26 @@
+
+by_explosive_area
+    => nrel_main_idtf: [explosive area] (* <- lang_en;; *);
+    => nrel_main_idtf: [взрывоопасная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбухованебяспечная зона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_explosive_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explosion_safety;
+    => nrel_associative_connection: by_dangerous_area;
+
+    => nrel_etalon_online_idx: [39718];;

@@ -1,0 +1,30 @@
+
+by_reputation_risk
+    => nrel_main_idtf: [reputation risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [репутационный риск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэпутацыйная рызыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reputation_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contractual_risk;
+    => nrel_associative_connection: by_compliancerisk;
+    => nrel_associative_connection: by_risk_of_access;
+    => nrel_associative_connection: by_counterparty_risk;
+    => nrel_associative_connection: by_country_risk;
+    => nrel_associative_connection: by_strategic_risk;
+
+    => nrel_etalon_online_idx: [32773];;

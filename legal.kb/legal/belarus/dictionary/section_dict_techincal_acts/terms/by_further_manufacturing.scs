@@ -1,0 +1,28 @@
+
+by_further_manufacturing
+    => nrel_main_idtf: [further manufacturing] (* <- lang_en;; *);
+    => nrel_main_idtf: [доизготовление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [давыраб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_further_manufacturing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_npp_safety_nuclear_and_radiation_safety_of_npp;
+    => nrel_associative_connection: by_radiation_safety;
+    => nrel_associative_connection: by_nuclear_security;
+
+    => nrel_etalon_online_idx: [41485];;

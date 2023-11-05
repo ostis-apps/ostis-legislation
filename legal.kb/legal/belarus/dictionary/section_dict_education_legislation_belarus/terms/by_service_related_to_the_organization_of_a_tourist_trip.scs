@@ -1,0 +1,31 @@
+
+by_service_related_to_the_organization_of_a_tourist_trip
+    => nrel_main_idtf: [service related to the organization of a tourist trip] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуга, связанная с организацией туристического путешествия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслуга, звязаная з арганізацыяй турыстычнага падарожжа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_related_to_the_organization_of_a_tourist_trip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subjects_of_tourist_activities;
+    => nrel_associative_connection: by_tour;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_tourist;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_touristic_travel;
+    => nrel_associative_connection: by_participants_of_tourist_activities;
+
+    => nrel_etalon_online_idx: [41263];;

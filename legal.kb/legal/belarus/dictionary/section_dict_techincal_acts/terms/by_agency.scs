@@ -1,0 +1,31 @@
+
+by_agency
+    => nrel_main_idtf: [agency] (* <- lang_en;; *);
+    => nrel_main_idtf: [агентство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агенцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_agent;
+    => nrel_associative_connection: by_agent_on_real_estate_operations;
+    => nrel_associative_connection: by_agency_services;
+    => nrel_associative_connection: by_employment_agency;
+    => nrel_associative_connection: by_applicant_agency;
+    => nrel_associative_connection: by_information_agency;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [7454];;

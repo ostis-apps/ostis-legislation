@@ -1,0 +1,32 @@
+
+by_componentary
+    => nrel_main_idtf: [componentary] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплектующие изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камплектуючыя вырабы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_componentary_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_serial_trim_level_of_the_vehicle;
+    => nrel_associative_connection: by_equipment;
+    => nrel_associative_connection: by_organizationmanufacturer;
+    => nrel_associative_connection: by_pair_item;
+    => nrel_associative_connection: by_reconstruction;
+    => nrel_associative_connection: by_independent_part_of_product;
+    => nrel_associative_connection: by_assembly_production;
+    => nrel_associative_connection: by_fuselage;
+
+    => nrel_etalon_online_idx: [16102];;

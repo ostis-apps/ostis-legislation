@@ -1,0 +1,26 @@
+
+by_knowledge_assessment_officers
+    => nrel_main_idtf: [knowledge assessment officers] (* <- lang_en;; *);
+    => nrel_main_idtf: [должностные лица, проводящие оценку знаний] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовыя асобы, якія праводзяць адзнаку ведаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_knowledge_assessment_officers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_testing;
+
+    => nrel_etalon_online_idx: [41629];;

@@ -1,0 +1,27 @@
+
+by_choreographic_art
+    => nrel_main_idtf: [choreographic art] (* <- lang_en;; *);
+    => nrel_main_idtf: [искусство хореографическое] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мастацтва харэаграфічнае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_choreographic_art_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ballroom_dance;
+    => nrel_associative_connection: by_classical_dance;
+    => nrel_associative_connection: by_folk_dance;
+
+    => nrel_etalon_online_idx: [35760];;

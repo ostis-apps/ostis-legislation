@@ -1,0 +1,41 @@
+
+by_large_industrial_object
+    => nrel_main_idtf: [large industrial object] (* <- lang_en;; *);
+    => nrel_main_idtf: [крупный промышленный объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буйны прамысловы аб'ект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_large_industrial_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_large_industrial_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_organizations;
+    => nrel_associative_connection: by_enterprise;
+
+    => nrel_etalon_online_idx: [16478];;

@@ -1,0 +1,28 @@
+
+by_by_upstream
+    => nrel_main_idtf: [by_upstream] (* <- lang_en;; *);
+    => nrel_main_idtf: [верхний бьеф] (* <- lang_ru;; *);
+    => nrel_main_idtf: [верхні бьеф] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_upstream_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_downstream;
+    => nrel_associative_connection: by_freshet;
+    => nrel_associative_connection: by_flood;
+    => nrel_associative_connection: by_supercalculated_floods_high_water;
+
+    => nrel_etalon_online_idx: [40225];;

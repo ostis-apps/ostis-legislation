@@ -1,0 +1,29 @@
+
+by_intersettlement_territories
+    => nrel_main_idtf: [intersettlement territories] (* <- lang_en;; *);
+    => nrel_main_idtf: [межселенные территории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрыторыі, якія знаходзяцца паміж населенымі пунктамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intersettlement_territories_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_border_of_populated_area;
+    => nrel_associative_connection: by_lands_of_population_settlements_horticultural_partnerships_countryside_cooperatives;
+    => nrel_associative_connection: by_large_populated_area;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_components_of_settlements;
+
+    => nrel_etalon_online_idx: [17181];;

@@ -1,0 +1,30 @@
+
+by_other_investment_expenditures_of_the_lessor
+    => nrel_main_idtf: [other investment expenditures of the lessor] (* <- lang_en;; *);
+    => nrel_main_idtf: [иные инвестиционные расходы лизингодателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншыя інвестыцыйныя выдаткi лізінгадавальніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_investment_expenditures_of_the_lessor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_investment_expenditures_of_the_lessor;
+    => nrel_associative_connection: by_leasing_activity;
+    => nrel_associative_connection: by_lessor;
+    => nrel_associative_connection: by_leasing_recipients;
+    => nrel_associative_connection: by_leasing_recipient;
+
+    => nrel_etalon_online_idx: [27127];;

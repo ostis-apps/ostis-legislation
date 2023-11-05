@@ -1,0 +1,39 @@
+
+by_housing_fund_of_statefinanced_organization
+    => nrel_main_idtf: [housing fund of state-financed organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилищный фонд бюджетных организаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллёвы фонд бюджэтных арганізацый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_fund_of_statefinanced_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_statefinanced_organization;
+    => nrel_associative_connection: by_departmental_housing_fund;
+    => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_citizens_housing_fund;
+    => nrel_associative_connection: by_housing_fund_of_nonstate_property_organizations;
+    => nrel_associative_connection: by_communal_housing_fund;
+    => nrel_associative_connection: by_housing_fund_not_serviced_by_housing_and_utilities_organizations;
+    => nrel_associative_connection: by_housing_fund_not_serviced_by_hcs_organizations;
+    => nrel_associative_connection: by_housing_fund_served_by_housing_and_utilities_organizations;
+    => nrel_associative_connection: by_organization_accounting_for_the_assets;
+    => nrel_associative_connection: by_organization_accounting_for_the_assets_of_departmental_housing_fund;
+    => nrel_associative_connection: by_management_of_the_state_housing_fund;
+    => nrel_associative_connection: by_republican_housing_fund;
+    => nrel_associative_connection: by_fund;
+    => nrel_associative_connection: by_operating_housing_fund_of_citizens;
+
+    => nrel_etalon_online_idx: [14670];;

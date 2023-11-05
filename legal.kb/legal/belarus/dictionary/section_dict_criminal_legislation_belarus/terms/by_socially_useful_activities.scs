@@ -1,0 +1,25 @@
+
+by_socially_useful_activities
+    => nrel_main_idtf: [socially useful activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [общественно полезные действия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадска карысныя дзеянні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_socially_useful_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_socially_useful_work;
+
+    => nrel_etalon_online_idx: [8917];;

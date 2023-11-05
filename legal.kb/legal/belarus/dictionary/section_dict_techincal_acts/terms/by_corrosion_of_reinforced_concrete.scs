@@ -1,0 +1,32 @@
+
+by_corrosion_of_reinforced_concrete
+    => nrel_main_idtf: [corrosion of reinforced concrete] (* <- lang_en;; *);
+    => nrel_main_idtf: [коррозия железобетона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карозія жалезабетону] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corrosion_of_reinforced_concrete_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_concrete_structure;
+    => nrel_associative_connection: by_secondary_corrosion_protection;
+    => nrel_associative_connection: by_reinforced_concrete_structure;
+    => nrel_associative_connection: by_reinforced_concrete_prestressed_structure;
+    => nrel_associative_connection: by_concrete_carbonization;
+    => nrel_associative_connection: by_corrosion_resistance_of_building_material;
+    => nrel_associative_connection: by_corrosion_of_building_material;
+    => nrel_associative_connection: by_primary_corrosion_protection;
+
+    => nrel_etalon_online_idx: [35428];;

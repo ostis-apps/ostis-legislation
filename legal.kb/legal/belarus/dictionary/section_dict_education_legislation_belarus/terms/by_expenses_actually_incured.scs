@@ -1,0 +1,15 @@
+
+by_expenses_actually_incured
+    => nrel_main_idtf: [expenses actually incured] (* <- lang_en;; *);
+    => nrel_main_idtf: [фактически понесенные расходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фактычна панесеныя расходы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_travel_services;
+    => nrel_associative_connection: by_actual_losses;
+    => nrel_associative_connection: by_actual_expenses;
+    => nrel_associative_connection: by_actual_expenses_of_budgetary_organizations;
+
+    => nrel_etalon_online_idx: [25904];;

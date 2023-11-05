@@ -1,0 +1,45 @@
+
+by_protection_of_lands
+    => nrel_main_idtf: [protection of lands] (* <- lang_en;; *);
+    => nrel_main_idtf: [охрана земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахова зямель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_lands_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_lands_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_control_over_land_use_and_protection;
+    => nrel_associative_connection: by_land_degradation;
+    => nrel_associative_connection: by_environmental_environmental_activity_protection;
+    => nrel_associative_connection: by_land_monitoring_observation_point_passport;
+    => nrel_associative_connection: by_soil_damage;
+    => nrel_associative_connection: by_efficient_use_of_land;
+
+    => nrel_etalon_online_idx: [9933];;

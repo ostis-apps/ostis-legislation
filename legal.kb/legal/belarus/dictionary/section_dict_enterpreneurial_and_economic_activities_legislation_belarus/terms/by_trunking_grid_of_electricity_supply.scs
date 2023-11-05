@@ -1,0 +1,28 @@
+
+by_trunking_grid_of_electricity_supply
+    => nrel_main_idtf: [trunking grid of electricity supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [магистральная сеть электроснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магістральная сетка электразабеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trunking_grid_of_electricity_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_air_transmission_line_to_1_kv_or_above;
+    => nrel_associative_connection: by_trunking_telecommunication_network;
+    => nrel_associative_connection: by_data_transmission_networks;
+    => nrel_associative_connection: by_electricity_supply_system;
+
+    => nrel_etalon_online_idx: [16818];;

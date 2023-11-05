@@ -1,0 +1,27 @@
+
+by_theft_of_a_vehicle_or_small_watercraft
+    => nrel_main_idtf: [theft of a vehicle or small watercraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [угон транспортного средства или маломерного водного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [угон транспартнага сродку або маламернага воднага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_theft_of_a_vehicle_or_small_watercraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_small_size_craft;
+    => nrel_associative_connection: by_small_size_crafts;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [25374];;

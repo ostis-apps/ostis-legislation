@@ -1,0 +1,26 @@
+
+by_state_registry_of_book_monuments_of_the_republic_of_belarus
+    => nrel_main_idtf: [state registry of book monuments of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный реестр книжных памятников республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны рэестр кніжных помнікаў рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registry_of_book_monuments_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_book_monuments;
+
+    => nrel_etalon_online_idx: [7898];;

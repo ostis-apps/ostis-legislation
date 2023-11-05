@@ -1,0 +1,71 @@
+
+by_aggregate_price_index
+    => nrel_main_idtf: [aggregate price index] (* <- lang_en;; *);
+    => nrel_main_idtf: [агрегатный индекс цен] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агрэгатны індэкс цэн] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggregate_price_index_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggregate_price_index_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggregate_price_index_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_consumer_price_index;
+    => nrel_associative_connection: by_price_index;
+    => nrel_associative_connection: by_basic_price_index_tariffs;
+    => nrel_associative_connection: by_price_index_tariffs_for_passenger_transportation;
+    => nrel_associative_connection: by_reporting_price_index_tariffs;
+    => nrel_associative_connection: by_housing_market_price_index;
+    => nrel_associative_connection: by_wholesale_price_index_of_goods_products;
+    => nrel_associative_connection: by_producer_price_index_of_industrial_products_services;
+    => nrel_associative_connection: by_producer_price_index_of_agricultural_products;
+    => nrel_associative_connection: by_individual_index_of_prices;
+    => nrel_associative_connection: by_individual_index_of_prices_tariffs;
+    => nrel_associative_connection: by_individual_index_of_prices_tariffs_for_passenger_transportation;
+    => nrel_associative_connection: by_individual_wholesale_price_index;
+    => nrel_associative_connection: by_individual_producer_price_index;
+    => nrel_associative_connection: by_statistical_indicator;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_tariff;
+
+    => nrel_etalon_online_idx: [27628];;

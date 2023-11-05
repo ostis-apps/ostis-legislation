@@ -1,0 +1,28 @@
+
+by_lollipops_and_lozenges
+    => nrel_main_idtf: [lollipops and lozenges] (* <- lang_en;; *);
+    => nrel_main_idtf: [леденцы и пастилки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ледзянцы і пасцілкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lollipops_and_lozenges_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lollipops;
+    => nrel_associative_connection: by_medicinal_chewing_gums;
+    => nrel_associative_connection: by_liniments;
+    => nrel_associative_connection: by_;
+
+    => nrel_etalon_online_idx: [36803];;

@@ -1,0 +1,28 @@
+
+by_by_turnover_of_control_identification_signs
+    => nrel_main_idtf: [by_turnover_of_control_identification_signs] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборот контрольных (идентификационных) знаков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот кантрольных (ідэнтыфікацыйных) знакаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_turnover_of_control_identification_signs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marking_code;
+    => nrel_associative_connection: by_turnover_of_identification_means_marking_codes;
+    => nrel_associative_connection: by_turnover_of_unified_control_signs;
+    => nrel_associative_connection: by_unified_control_sign_control_identification_sign;
+
+    => nrel_etalon_online_idx: [38272];;

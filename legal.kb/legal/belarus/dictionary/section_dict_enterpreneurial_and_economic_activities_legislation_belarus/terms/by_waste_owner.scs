@@ -1,0 +1,67 @@
+
+by_waste_owner
+    => nrel_main_idtf: [waste owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [собственник отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уласнік адходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_owner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_reusable_waste;
+    => nrel_associative_connection: by_business_waste_of_ferrous_and_nonferrous_metals;
+    => nrel_associative_connection: by_communal_waste;
+    => nrel_associative_connection: by_scrap_and_waste_of_precious_metals;
+    => nrel_associative_connection: by_scrap_and_waste_of_ferrous_and_nonferrous_metals;
+    => nrel_associative_connection: by_waste_handling;
+    => nrel_associative_connection: by_hazardous_waste;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_waste_of_precious_stones;
+    => nrel_associative_connection: by_waste_of_largesized_electric_and_electronic_equipment;
+    => nrel_associative_connection: by_waste_of_smallsized_electric_and_electronic_equipment;
+    => nrel_associative_connection: by_consumption_residue;
+    => nrel_associative_connection: by_industrial_waste;
+    => nrel_associative_connection: by_waste_of_mediumsized_electric_and_electronic_equipment;
+    => nrel_associative_connection: by_waste_goods;
+    => nrel_associative_connection: by_products_waste__and_packaging_waste;
+    => nrel_associative_connection: by_packaging_waste;
+    => nrel_associative_connection: by_waste_generated_as_a_result_of_destruction_of_mercury_bearing_articles;
+    => nrel_associative_connection: by_waste_containing_precious_metals;
+    => nrel_associative_connection: by_waste_carriage;
+    => nrel_associative_connection: by_waste_collection;
+    => nrel_associative_connection: by_collected_municipal_waste;
+    => nrel_associative_connection: by_municipal_solid_waste_msw;
+    => nrel_associative_connection: by_communal_solid_waste_csw;
+    => nrel_associative_connection: by_physical_person;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [23438];;

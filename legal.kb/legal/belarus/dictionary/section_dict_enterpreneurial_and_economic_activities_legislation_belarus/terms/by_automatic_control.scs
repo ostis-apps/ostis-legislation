@@ -1,0 +1,28 @@
+
+by_automatic_control
+    => nrel_main_idtf: [automatic control] (* <- lang_en;; *);
+    => nrel_main_idtf: [управление автоматическое] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраванне аўтаматычнае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_nuclear_research_facilities_nuclear_radiation;
+    => nrel_associative_connection: by_research_nuclear_installation;
+    => nrel_associative_connection: by_automated_control;
+    => nrel_associative_connection: by_nuclear_security;
+
+    => nrel_etalon_online_idx: [38606];;

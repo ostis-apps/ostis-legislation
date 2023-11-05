@@ -1,0 +1,29 @@
+
+by_deponents_questionnaire
+    => nrel_main_idtf: [deponent's questionnaire] (* <- lang_en;; *);
+    => nrel_main_idtf: [анкета депонента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкета дэпанента] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deponents_questionnaire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_questionnaire_for_emission_securities_issue;
+    => nrel_associative_connection: by_customers_questionary;
+    => nrel_associative_connection: by_depository_activity;
+    => nrel_associative_connection: by_bailor;
+    => nrel_associative_connection: by_deponent_of_the_central_securities_depository;
+
+    => nrel_etalon_online_idx: [12476];;

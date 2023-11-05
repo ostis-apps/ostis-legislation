@@ -1,0 +1,30 @@
+
+by_telematic_service
+    => nrel_main_idtf: [telematic service] (* <- lang_en;; *);
+    => nrel_main_idtf: [телематическая услуга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэлематычная паслуга] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telematic_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internet_cafe;
+    => nrel_associative_connection: by_service_of_portability_of_subscriber_numbers_of_cellular_mobile_telecommunications;
+    => nrel_associative_connection: by_service_for_providing_access_to_the_network_of_stationary_telecommunications_using_a_terminal_subscriber_device;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_service;
+    => nrel_associative_connection: by_telecommunication_services;
+    => nrel_associative_connection: by_public_telecommunication_services;
+
+    => nrel_etalon_online_idx: [24768];;

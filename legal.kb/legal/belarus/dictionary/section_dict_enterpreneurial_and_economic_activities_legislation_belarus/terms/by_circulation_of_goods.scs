@@ -1,0 +1,83 @@
+
+by_circulation_of_goods
+    => nrel_main_idtf: [circulation of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборот товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот тавараў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_circulation_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_circulation_of_goods_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_circulation_of_goods_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_circulation_of_goods_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_importation_of_goods;
+    => nrel_associative_connection: by_intrafactory_turnover;
+    => nrel_associative_connection: by_pledge_of_goods_in_turnover;
+    => nrel_associative_connection: by_sign_of_protection;
+    => nrel_associative_connection: by_global_trade_item_number_gtin;
+    => nrel_associative_connection: by_individual_serial_number_of_goods;
+    => nrel_associative_connection: by_release_of_goods_works_services;
+    => nrel_associative_connection: by_payer_transferring_turnover_on_sale;
+    => nrel_associative_connection: by_payer_receiving_turnover_on_sale;
+    => nrel_associative_connection: by_purchase_of_goods_works_services;
+    => nrel_associative_connection: by_products_made_on_the_territory_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_production_of_goods;
+    => nrel_associative_connection: by_system_of_traceability_of_goods;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [8050];;

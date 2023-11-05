@@ -1,0 +1,44 @@
+
+by_operating_instructions
+    => nrel_main_idtf: [operating instructions] (* <- lang_en;; *);
+    => nrel_main_idtf: [инструкция по эксплуатации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інструкцыя па эксплуатацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operating_instructions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operating_instructions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_permit_for_operation;
+    => nrel_associative_connection: by_boiler_room_modular;
+    => nrel_associative_connection: by_boiler_installation;
+    => nrel_associative_connection: by_boiler_installation;
+    => nrel_associative_connection: by_adjustment_works;
+
+    => nrel_etalon_online_idx: [38103];;

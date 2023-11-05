@@ -1,0 +1,29 @@
+
+by_organizations_who_act_as_customers_for_construction_reconstruction_of_residential_premises
+    => nrel_main_idtf: [organizations who act as customers for construction (reconstruction) of residential premises] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации, выполняющие функции заказчиков по строительству (реконструкции) жилых помещений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі, якія выконваюць функцыі заказчыкаў па будаўніцтве (рэканструкцыі) жылых памяшканняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizations_who_act_as_customers_for_construction_reconstruction_of_residential_premises_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_buildings;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_reconstruction_of_an_apartment_blocked_oneapartment_residential_building_residential_and_or_nonresidential_premises_in_its_composition_as_well_as_nonresidential_buildings;
+    => nrel_associative_connection: by_object_reconstruction;
+    => nrel_associative_connection: by_repair_of_buildings;
+
+    => nrel_etalon_online_idx: [19187];;

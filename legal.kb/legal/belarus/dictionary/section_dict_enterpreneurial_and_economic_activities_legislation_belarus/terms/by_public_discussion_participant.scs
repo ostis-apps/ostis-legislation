@@ -1,0 +1,27 @@
+
+by_public_discussion_participant
+    => nrel_main_idtf: [public discussion participant] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник общественного обсуждения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік грамадскага абмеркавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_discussion_participant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_public_discussion;
+    => nrel_associative_connection: by_public_discussion_of_projects_of_environmentally_significant_decisions_reports_on_environmental_impact_assessment;
+    => nrel_associative_connection: by_public_discussion_organizer;
+
+    => nrel_etalon_online_idx: [25747];;

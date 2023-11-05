@@ -1,0 +1,48 @@
+
+by_dietology
+    => nrel_main_idtf: [dietology] (* <- lang_en;; *);
+    => nrel_main_idtf: [диетология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыеталогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dietology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dietology_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_healthy_food_safety;
+    => nrel_associative_connection: by_doctornutritionist;
+    => nrel_associative_connection: by_dietetics;
+    => nrel_associative_connection: by_dose_of_nutrient;
+    => nrel_associative_connection: by_nurse_on_dietology;
+    => nrel_associative_connection: by_nutrients;
+    => nrel_associative_connection: by_nutritiology;
+    => nrel_associative_connection: by_food_products_for_diabetic_nutrition;
+    => nrel_associative_connection: by_food_products_for_diet_therapeutic_nutrition;
+
+    => nrel_etalon_online_idx: [33538];;

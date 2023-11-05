@@ -1,0 +1,29 @@
+
+by_the_life_cycle_of_a_construction_facility
+    => nrel_main_idtf: [the life cycle of a construction facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [жизненный цикл строительного объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыццёвы цыкл будаўнічага аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_life_cycle_of_a_construction_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automation_of_design_and_management_in_construction;
+    => nrel_associative_connection: by_the_life_cycle_of_a_capital_construction_facility;
+    => nrel_associative_connection: by_information_model_of_the_construction_object;
+    => nrel_associative_connection: by_information_support_of_the_life_cycle_of_the_construction_object;
+    => nrel_associative_connection: by_basics_framework_of_a_construction_object_in_the_framework_of_this_specialty;
+
+    => nrel_etalon_online_idx: [35402];;

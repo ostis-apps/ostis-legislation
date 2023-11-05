@@ -1,0 +1,34 @@
+
+by_research_nuclear_installation_site
+    => nrel_main_idtf: [research nuclear installation site] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадка исследовательской ядерной установки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пляцоўка даследчай ядзернай ўстаноўкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_research_nuclear_installation_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accident_situation_at_a_nuclear_research_installation_general;
+    => nrel_associative_connection: by_accident_situation_in_the_territory_of_the_research_nuclear_installation_site;
+    => nrel_associative_connection: by_accident_situation_on_installation;
+    => nrel_associative_connection: by_emergency_zone;
+    => nrel_associative_connection: by_research_nuclear_installation;
+    => nrel_associative_connection: by_research_nuclear_facilities;
+    => nrel_associative_connection: by_urgent_works_in_emergency_situation_zone;
+    => nrel_associative_connection: by_radiation_situation;
+    => nrel_associative_connection: by_radioactive_contamination;
+    => nrel_associative_connection: by_nuclear_installation;
+
+    => nrel_etalon_online_idx: [30435];;

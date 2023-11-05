@@ -1,0 +1,28 @@
+
+by_phytosanitary_observations
+    => nrel_main_idtf: [phytosanitary observations] (* <- lang_en;; *);
+    => nrel_main_idtf: [фитосанитарные наблюдения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фітасанітарныя назіранні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_phytosanitary_observations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quarantine_phytosanitary_safety;
+    => nrel_associative_connection: by_quarantine_phytosanitary_observations;
+    => nrel_associative_connection: by_phytosanitary_observations_to_detect_pests_that_are_not_quarantine_objects;
+    => nrel_associative_connection: by_phytosanitary_certificate;
+
+    => nrel_etalon_online_idx: [26024];;

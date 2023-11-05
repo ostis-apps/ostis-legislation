@@ -1,0 +1,53 @@
+
+by_author_of_invention_utility_model_industrial_design
+    => nrel_main_idtf: [author of invention, utility model, industrial design] (* <- lang_en;; *);
+    => nrel_main_idtf: [автор изобретения, полезной модели, промышленного образца] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтар вынаходства, карыснай мадэлі, прамысловага ўзору] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_of_invention_utility_model_industrial_design_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_of_invention_utility_model_industrial_design_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_author;
+    => nrel_associative_connection: by_authors_certificate_for_invention;
+    => nrel_associative_connection: by_invention_to_which_legal_protection_is_granted;
+    => nrel_associative_connection: by_intellectual_property;
+    => nrel_associative_connection: by_new_utility_model;
+    => nrel_associative_connection: by_new_invention;
+    => nrel_associative_connection: by_patent_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_utility_model;
+    => nrel_associative_connection: by_right_of_authorship;
+    => nrel_associative_connection: by_right_of_authorship_right_to_be_recognized_by_author;
+    => nrel_associative_connection: by_industrially_applicable_utility_model;
+    => nrel_associative_connection: by_industrial_applicable_invention;
+    => nrel_associative_connection: by_industrial_design;
+    => nrel_associative_connection: by_creative_activity;
+
+    => nrel_etalon_online_idx: [12330];;

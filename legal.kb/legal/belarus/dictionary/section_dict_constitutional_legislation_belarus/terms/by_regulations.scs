@@ -1,0 +1,87 @@
+
+by_regulations
+    => nrel_main_idtf: [regulations] (* <- lang_en;; *);
+    => nrel_main_idtf: [правила] (* <- lang_ru;; *);
+    => nrel_main_idtf: [правілы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulations_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulations_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_regulations;
+    => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_internal_labor_plan;
+    => nrel_associative_connection: by_proper_pharmacy_practice;
+    => nrel_associative_connection: by_proper_clinical_practice;
+    => nrel_associative_connection: by_proper_laboratory_practice;
+    => nrel_associative_connection: by_proper_wholesale_distribution_practice;
+    => nrel_associative_connection: by_proper_pharmacological_control_practice;
+    => nrel_associative_connection: by_proper_manufacturing_practice;
+    => nrel_associative_connection: by_normative_documents;
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_custom;
+    => nrel_associative_connection: by_homogeneity_of_rights_requirements;
+    => nrel_associative_connection: by_internal_labor_regulations;
+    => nrel_associative_connection: by_terms_of_railway_transportation_public;
+    => nrel_associative_connection: by_terms_of_carriage_of_passengers_baggage_and_cargo_railway_transport_for_general_use;
+    => nrel_associative_connection: by_collection_of_transportation_rules_and_tariffs_of__public_railway_transport;
+    => nrel_associative_connection: by_technical_regulations_normative_rules;
+
+    => nrel_etalon_online_idx: [649];;

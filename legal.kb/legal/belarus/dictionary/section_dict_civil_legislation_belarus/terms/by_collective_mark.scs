@@ -1,0 +1,27 @@
+
+by_collective_mark
+    => nrel_main_idtf: [collective mark] (* <- lang_en;; *);
+    => nrel_main_idtf: [коллективный знак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [калектыўны знак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_collective_mark_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_association_of_legal_entities;
+    => nrel_associative_connection: by_trademark;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [5026];;

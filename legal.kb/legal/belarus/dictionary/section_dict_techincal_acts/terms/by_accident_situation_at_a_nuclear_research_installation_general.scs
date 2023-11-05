@@ -1,0 +1,33 @@
+
+by_accident_situation_at_a_nuclear_research_installation_general
+    => nrel_main_idtf: [accident situation at a nuclear research installation (general)] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийная ситуация на исследовательской ядерной установке (общая)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйная сітуацыя на даследчай ядзернай устаноўцы (агульная)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accident_situation_at_a_nuclear_research_installation_general_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accident_situation;
+    => nrel_associative_connection: by_accident_situation_in_the_territory_of_the_research_nuclear_installation_site;
+    => nrel_associative_connection: by_accident_situation_on_installation;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_internal_impacts;
+    => nrel_associative_connection: by_emergency_zone;
+    => nrel_associative_connection: by_research_nuclear_installation;
+    => nrel_associative_connection: by_research_nuclear_installation_site;
+    => nrel_associative_connection: by_radiation_situation;
+
+    => nrel_etalon_online_idx: [30430];;

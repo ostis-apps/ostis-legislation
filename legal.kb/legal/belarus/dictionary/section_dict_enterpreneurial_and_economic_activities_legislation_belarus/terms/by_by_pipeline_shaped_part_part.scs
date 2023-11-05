@@ -1,0 +1,32 @@
+
+by_by_pipeline_shaped_part_part
+    => nrel_main_idtf: [by_pipeline_shaped_part_part] (* <- lang_en;; *);
+    => nrel_main_idtf: [фасонная часть (деталь) трубопровода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фасонная частка (дэталь) трубаправода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pipeline_shaped_part_part_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_process_pipeline_border;
+    => nrel_associative_connection: by_piping_detail;
+    => nrel_associative_connection: by_challenge;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_pipeline;
+    => nrel_associative_connection: by_operating_conditions_of_the_pipeline;
+    => nrel_associative_connection: by_actual_pipeline_wall_thickness;
+
+    => nrel_etalon_online_idx: [25934];;

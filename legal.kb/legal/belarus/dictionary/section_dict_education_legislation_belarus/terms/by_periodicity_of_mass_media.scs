@@ -1,0 +1,36 @@
+
+by_periodicity_of_mass_media
+    => nrel_main_idtf: [periodicity of mass media] (* <- lang_en;; *);
+    => nrel_main_idtf: [периодичность средства массовой информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перыядычнасць сродку масавай інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_periodicity_of_mass_media_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_issue_of_mass_media;
+    => nrel_associative_connection: by_delivery_of_print_media;
+    => nrel_associative_connection: by_foreign_mass_media;
+    => nrel_associative_connection: by_subscription_catalog_for_printed_mass_media;
+    => nrel_associative_connection: by_monitoring_of_publicly_available_information;
+    => nrel_associative_connection: by_print_mass_media;
+    => nrel_associative_connection: by_printed_mass_media;
+    => nrel_associative_connection: by_subscription_to_print_mass_media;
+    => nrel_associative_connection: by_subscriber;
+    => nrel_associative_connection: by_distribution_of_mass_media_production;
+    => nrel_associative_connection: by_mass_media;
+    => nrel_associative_connection: by_television_mass_media;
+
+    => nrel_etalon_online_idx: [20110];;

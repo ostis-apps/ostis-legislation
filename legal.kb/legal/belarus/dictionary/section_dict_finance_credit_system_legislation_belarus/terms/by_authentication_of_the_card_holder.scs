@@ -1,0 +1,17 @@
+
+by_authentication_of_the_card_holder
+    => nrel_main_idtf: [authentication of the card holder] (* <- lang_en;; *);
+    => nrel_main_idtf: [аутентификация держателя карточки ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтэнтыфікацыя трымальніка карткі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_authentication;
+    => nrel_associative_connection: by_contactless_card;
+    => nrel_associative_connection: by_issue_of_card;
+    => nrel_associative_connection: by_cardholder;
+    => nrel_associative_connection: by_contract_on_the_card_using;
+    => nrel_associative_connection: by_card_use;
+    => nrel_associative_connection: by_operation_not_authorized_by_card_holder;
+
+    => nrel_etalon_online_idx: [33389];;

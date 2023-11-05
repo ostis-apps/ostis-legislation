@@ -1,0 +1,27 @@
+
+by_statistical_atlas
+    => nrel_main_idtf: [statistical atlas] (* <- lang_en;; *);
+    => nrel_main_idtf: [статистический атлас] (* <- lang_ru;; *);
+    => nrel_main_idtf: [статыстычны атлас] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statistical_atlas_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_statistical_bulletin;
+    => nrel_associative_connection: by_statistical_digest;
+    => nrel_associative_connection: by_statistical_reference_book;
+
+    => nrel_etalon_online_idx: [11289];;

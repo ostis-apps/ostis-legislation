@@ -1,0 +1,30 @@
+
+by_telecommunication_connection
+    => nrel_main_idtf: [telecommunication connection] (* <- lang_en;; *);
+    => nrel_main_idtf: [соединение электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [злучэнне электрасувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telecommunication_connection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscriber_telecommunication_line;
+    => nrel_associative_connection: by_address_data_of_users_of_telecommunication_services;
+    => nrel_associative_connection: by_zone_of_confident_reception_coverage_area;
+    => nrel_associative_connection: by_local_electric_communication_networks;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_service;
+    => nrel_associative_connection: by_stationary_telecommunication_service;
+
+    => nrel_etalon_online_idx: [41954];;

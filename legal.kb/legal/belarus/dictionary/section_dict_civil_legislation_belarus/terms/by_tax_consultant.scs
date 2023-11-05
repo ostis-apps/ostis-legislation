@@ -1,0 +1,48 @@
+
+by_tax_consultant
+    => nrel_main_idtf: [tax consultant] (* <- lang_en;; *);
+    => nrel_main_idtf: [налоговый консультант] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падатковы кансультант] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_consultant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_consultant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_registry_of_tax_consultants;
+    => nrel_associative_connection: by_qualification_certificate_of_tax_consultant;
+    => nrel_associative_connection: by_consultation_services;
+    => nrel_associative_connection: by_consultated_person;
+    => nrel_associative_connection: by_persons_rendering_services_on_behalf_of_the_office_of_the_united_nations_high_commissioner_for_refugees;
+    => nrel_associative_connection: by_tax_legislation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tax_consultants;
+    => nrel_associative_connection: by_tax_body;
+    => nrel_associative_connection: by_operating_rules_in_the_area_of_tax_counseling;
+
+    => nrel_etalon_online_idx: [11403];;

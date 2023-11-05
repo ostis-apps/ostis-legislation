@@ -1,0 +1,28 @@
+
+by_external_users_of_reporting
+    => nrel_main_idtf: [external users of reporting] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешние пользователи отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешнія карыстальнікі справаздачнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_users_of_reporting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document_in_electronic_form;
+    => nrel_associative_connection: by_reporting;
+    => nrel_associative_connection: by_event_after_the_reporting_date;
+    => nrel_associative_connection: by_management_reporting;
+
+    => nrel_etalon_online_idx: [32412];;

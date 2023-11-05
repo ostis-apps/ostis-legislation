@@ -1,0 +1,33 @@
+
+by_saddle_road_train
+    => nrel_main_idtf: [saddle road train] (* <- lang_en;; *);
+    => nrel_main_idtf: [седельный автопоезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [седлавы аўтапоезд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_saddle_road_train_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_truck_tracktor;
+    => nrel_associative_connection: by_roadtrain;
+    => nrel_associative_connection: by_permitted_total_mass_of_the_roadtrain;
+    => nrel_associative_connection: by_semitrailer;
+    => nrel_associative_connection: by_saddle_tractor;
+    => nrel_associative_connection: by_special_permission_for_traffic_of_heavy_and_or_large_vehicles_on_roads;
+    => nrel_associative_connection: by_technically_permissible_total_mass_of_the_road_train;
+    => nrel_associative_connection: by_technical_opinion_on_the_assessment_of_the_possibility_and_conditions_of_passing_heavy_and_or_largescale_vehicles_on_roads_and_artificial_structures;
+    => nrel_associative_connection: by_heavy_and_or_largesized_vehicle;
+
+    => nrel_etalon_online_idx: [22966];;

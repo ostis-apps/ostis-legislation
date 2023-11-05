@@ -1,0 +1,30 @@
+
+by_by_subfeeding_point
+    => nrel_main_idtf: [by_subfeeding_point] (* <- lang_en;; *);
+    => nrel_main_idtf: [подкормочная точка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падкормачны пункт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_subfeeding_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biotechnical_object;
+    => nrel_associative_connection: by_yard_for_young_individual_hunting_animals;
+    => nrel_associative_connection: by_feed_storage_bin;
+    => nrel_associative_connection: by_feeder;
+    => nrel_associative_connection: by_canopy;
+    => nrel_associative_connection: by_fertilizing_area;
+
+    => nrel_etalon_online_idx: [20392];;

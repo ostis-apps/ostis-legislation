@@ -1,0 +1,45 @@
+
+by_manual_alarm_system
+    => nrel_main_idtf: [manual alarm system] (* <- lang_en;; *);
+    => nrel_main_idtf: [ручная система тревожной сигнализации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ручная сістэма трывожнай сігналізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manual_alarm_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manual_alarm_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_multibarrier_alarm_system;
+    => nrel_associative_connection: by_protection_of_objects;
+    => nrel_associative_connection: by_protected_objects;
+    => nrel_associative_connection: by_alarm_limit_alarm_limit;
+    => nrel_associative_connection: by_head_of_paramilitary_and_or_guard;
+    => nrel_associative_connection: by_alarm_signal;
+
+    => nrel_etalon_online_idx: [22740];;

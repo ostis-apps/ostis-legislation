@@ -1,0 +1,31 @@
+
+by_normative_legal_act_subject_to_legal_examination
+    => nrel_main_idtf: [normative legal act, subject to legal examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормативный правовой акт, подлежащий юридической экспертизе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыўны прававы акт, які падлягае юрыдычнай экспертызе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_normative_legal_act_subject_to_legal_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_brief_and_accuracy_presentation_of_normative_legal_regulations;
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_official_texts_of_normative_legal_acts;
+    => nrel_associative_connection: by_forecasting_the_consequences_of_the_adoption_issue_of_normative_legal_acts;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+    => nrel_associative_connection: by_technical_normative_legal_acts_in_the_area_of_technical_regulation_and_standardization;
+    => nrel_associative_connection: by_model_approved_normative_legal_act;
+
+    => nrel_etalon_online_idx: [18301];;

@@ -1,0 +1,58 @@
+
+by_observer
+    => nrel_main_idtf: [observer] (* <- lang_en;; *);
+    => nrel_main_idtf: [наблюдатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [назіральнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_observer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_observer_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_observer_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_international_observer;
+    => nrel_associative_connection: by_observation_by_the_chronometer_method;
+    => nrel_associative_connection: by_observations_for_rock_pinch_in_the_area_of_their_possible_deformations;
+    => nrel_associative_connection: by_fixing_points;
+
+    => nrel_etalon_online_idx: [17563];;

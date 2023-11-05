@@ -1,0 +1,30 @@
+
+by_security_systems
+    => nrel_main_idtf: [security systems] (* <- lang_en;; *);
+    => nrel_main_idtf: [системы охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэмы аховы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_systems_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_multilevel_protection;
+    => nrel_associative_connection: by_protected_zone;
+    => nrel_associative_connection: by_protected_objects;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_means_of_protection_for_individual_use;
+
+    => nrel_etalon_online_idx: [23275];;

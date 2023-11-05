@@ -1,0 +1,27 @@
+
+by_by_commissioning_of_nuclear_facility_and_or_storage_facility_disposal_facility
+    => nrel_main_idtf: [by_commissioning_of_nuclear_facility_and_or_storage_facility_disposal_facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [ввод в эксплуатацию ядерной установки и (или) пункта хранения, пункта захоронения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [увод у эксплуатацыю ядзернай устаноўкі і (або) пункта захоўвання, пункта пахавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_commissioning_of_nuclear_facility_and_or_storage_facility_disposal_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_research_nuclear_facilities;
+    => nrel_associative_connection: by_nuclear_fuel;
+    => nrel_associative_connection: by_nuclear_reactor;
+
+    => nrel_etalon_online_idx: [43933];;

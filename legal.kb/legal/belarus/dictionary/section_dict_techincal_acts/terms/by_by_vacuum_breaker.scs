@@ -1,0 +1,20 @@
+
+by_by_vacuum_breaker
+    => nrel_main_idtf: [by_vacuum_breaker] (* <- lang_en;; *);
+    => nrel_main_idtf: [вакуумный клапан] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вакуумны клапан] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_tankwagon;
+    => nrel_associative_connection: by_vacuum_valvevalve;
+    => nrel_associative_connection: by_bulkhead_watertight__means;
+    => nrel_associative_connection: by_hermetically_closed_tank;
+    => nrel_associative_connection: by_containertank;
+    => nrel_associative_connection: by_portable_tank;
+    => nrel_associative_connection: by_safety_valve;
+    => nrel_associative_connection: by_design_pressure;
+    => nrel_associative_connection: by_demountable_tank;
+    => nrel_associative_connection: by_tank;
+
+    => nrel_etalon_online_idx: [12863];;

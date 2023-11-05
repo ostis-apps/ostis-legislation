@@ -1,0 +1,15 @@
+
+by_relay_flight
+    => nrel_main_idtf: [relay flight] (* <- lang_en;; *);
+    => nrel_main_idtf: [эстафетный рейс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эстафетны рэйс] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_additional_route;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_charter_flight;
+    => nrel_associative_connection: by_excess_flight_flight;
+
+    => nrel_etalon_online_idx: [26741];;

@@ -1,0 +1,26 @@
+
+by_survival_knife
+    => nrel_main_idtf: [survival knife] (* <- lang_en;; *);
+    => nrel_main_idtf: [нож для выживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нож для выжывання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_survival_knife_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_combat_unit_cold_arms;
+    => nrel_associative_connection: by_tooth_tip;
+
+    => nrel_etalon_online_idx: [32998];;

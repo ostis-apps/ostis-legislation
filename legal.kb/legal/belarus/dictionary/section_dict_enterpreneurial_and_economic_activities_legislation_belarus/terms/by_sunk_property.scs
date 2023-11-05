@@ -1,0 +1,25 @@
+
+by_sunk_property
+    => nrel_main_idtf: [sunk property] (* <- lang_en;; *);
+    => nrel_main_idtf: [затонувшее имущество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патанулая маёмасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sunk_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_destruction_of_sunk_property;
+
+    => nrel_etalon_online_idx: [9162];;

@@ -1,0 +1,35 @@
+
+by_flulike_disease
+    => nrel_main_idtf: [flu-like disease] (* <- lang_en;; *);
+    => nrel_main_idtf: [гриппоподобное заболевание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грыпападобнае захворванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flulike_disease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_probable_flu_case_pandemic_viruses_only;
+    => nrel_associative_connection: by_outbreak_of_acute_respiratory_infections_flulike_illnesses_or_severe_acute_respiratory_infections;
+    => nrel_associative_connection: by_outbreak_of_acute_respiratory_infections_flulike_illnesses_or_severe_acute_respiratory_infections_in_institutions_with_24hour_stay_for_children_and_adults;
+    => nrel_associative_connection: by_sentinel_epidemiological_surveillance;
+    => nrel_associative_connection: by_weekly_seasonal_incidence_rate_for_acute_respiratory_infections_flulike_diseases;
+    => nrel_associative_connection: by_live_flu_vaccine;
+    => nrel_associative_connection: by_inactivated_flu_vaccine;
+    => nrel_associative_connection: by_interepidemic_period;
+    => nrel_associative_connection: by_acute_respiratory_infection;
+    => nrel_associative_connection: by_suspected_flu_case_only_for_viruses_with_pandemic_potential;
+    => nrel_associative_connection: by_confirmed_case_of_flu;
+
+    => nrel_etalon_online_idx: [38872];;

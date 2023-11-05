@@ -1,0 +1,29 @@
+
+by_public_buildings_and_constructions
+    => nrel_main_idtf: [public buildings and constructions] (* <- lang_en;; *);
+    => nrel_main_idtf: [здания и сооружения общественные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [будынкі і збудаванні грамадскія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_buildings_and_constructions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_buildings_and_constructions;
+    => nrel_associative_connection: by_industrial_buildings;
+    => nrel_associative_connection: by_public_buildings;
+    => nrel_associative_connection: by_public_zones;
+    => nrel_associative_connection: by_social_service;
+
+    => nrel_etalon_online_idx: [30679];;

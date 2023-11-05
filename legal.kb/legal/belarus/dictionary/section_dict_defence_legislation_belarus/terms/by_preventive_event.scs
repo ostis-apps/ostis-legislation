@@ -1,0 +1,36 @@
+
+by_preventive_event
+    => nrel_main_idtf: [preventive event] (* <- lang_en;; *);
+    => nrel_main_idtf: [профилактическое мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафілактычнае мерапрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preventive_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_secondary_prevention;
+    => nrel_associative_connection: by_active_therapy_center;
+    => nrel_associative_connection: by_medical_prevention;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_motivating_expendables;
+    => nrel_associative_connection: by_general_crime_prevention;
+    => nrel_associative_connection: by_prevention_of_violations;
+    => nrel_associative_connection: by_preventive_talk;
+    => nrel_associative_connection: by_vaccinations;
+    => nrel_associative_connection: by_prophylactic_observation;
+    => nrel_associative_connection: by_psychological_prevention;
+
+    => nrel_etalon_online_idx: [10544];;

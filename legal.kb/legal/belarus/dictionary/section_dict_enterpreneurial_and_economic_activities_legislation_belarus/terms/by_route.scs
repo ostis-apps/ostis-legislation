@@ -1,0 +1,96 @@
+
+by_route
+    => nrel_main_idtf: [route ] (* <- lang_en;; *);
+    => nrel_main_idtf: [маршрут] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маршрут] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_route_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_shuttle_transportation;
+    => nrel_associative_connection: by_nontrade_route;
+    => nrel_associative_connection: by_military_highway;
+    => nrel_associative_connection: by_train_traffic_in_the_right_direction;
+    => nrel_associative_connection: by_critical_fuel_reserve_for_flights_with_extended_departure_time_to_the_emergency_aerodrome_edto;
+    => nrel_associative_connection: by_line_of_urban_electric_transport;
+    => nrel_associative_connection: by_route_sending;
+    => nrel_associative_connection: by_consignors_route;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_fixing_points;
+    => nrel_associative_connection: by_ecological_trail;
+
+    => nrel_etalon_online_idx: [11003];;

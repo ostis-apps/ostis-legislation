@@ -1,0 +1,45 @@
+
+by_shock_absorber
+    => nrel_main_idtf: [shock absorber] (* <- lang_en;; *);
+    => nrel_main_idtf: [амортизатор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [амартызатар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shock_absorber_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shock_absorber_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_shock_absorber_device;
+    => nrel_associative_connection: by_shock_absorber_absorber;
+    => nrel_associative_connection: by_executor;
+    => nrel_associative_connection: by_carbine_holder;
+    => nrel_associative_connection: by_pouch;
+    => nrel_associative_connection: by_special_equipment;
+
+    => nrel_etalon_online_idx: [12451];;

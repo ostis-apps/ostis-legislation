@@ -1,0 +1,15 @@
+
+by_internal_vessel
+    => nrel_main_idtf: [internal vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренний сосуд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраны сасуд] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_cryogenic_vessel;
+    => nrel_associative_connection: by_nominal_vessel_capacity;
+    => nrel_associative_connection: by_intermediate_vessel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_pressure_vessel;
+
+    => nrel_etalon_online_idx: [13123];;

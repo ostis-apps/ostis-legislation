@@ -1,0 +1,27 @@
+
+by_dump
+    => nrel_main_idtf: [dump] (* <- lang_en;; *);
+    => nrel_main_idtf: [отвал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адвал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dump_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_deposit;
+    => nrel_associative_connection: by_mineral_wealth;
+    => nrel_associative_connection: by_estimated_deposits;
+
+    => nrel_etalon_online_idx: [19466];;

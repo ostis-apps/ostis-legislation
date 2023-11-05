@@ -1,0 +1,58 @@
+
+by_marine_vessel
+    => nrel_main_idtf: [marine vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [морское судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [марское судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marine_vessel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gross_time;
+    => nrel_associative_connection: by_counter_swimming;
+    => nrel_associative_connection: by_forced_entry_into_port;
+    => nrel_associative_connection: by_hydrocycle;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_state_regulation_in_the_area_of_merchant_shipping;
+    => nrel_associative_connection: by_demurrage;
+    => nrel_associative_connection: by_contract_for_carriage_of_goods_by_sea;
+    => nrel_associative_connection: by_contract_for_carriage_of_passengers_by_sea;
+    => nrel_associative_connection: by_contract_on_organization_of_carriage_of_goods_by_sea;
+    => nrel_associative_connection: by_caravan_of_ships;
+    => nrel_associative_connection: by_classification_society;
+    => nrel_associative_connection: by_contrasting_time;
+    => nrel_associative_connection: by_passenger_ship_route;
+    => nrel_associative_connection: by_international_carriage;
+    => nrel_associative_connection: by_seaworthiness_of_ship;
+    => nrel_associative_connection: by_marine_transport;
+    => nrel_associative_connection: by_immovable_things;
+    => nrel_associative_connection: by_draught;
+    => nrel_associative_connection: by_ship_stop;
+    => nrel_associative_connection: by_carry_out_activity_to_operation_of_marine_vessels;
+    => nrel_associative_connection: by_ferry;
+    => nrel_associative_connection: by_sailing_vessel;
+    => nrel_associative_connection: by_lightening;
+    => nrel_associative_connection: by_towing_period;
+    => nrel_associative_connection: by_floating_equipment;
+    => nrel_associative_connection: by_postdevelopment_characteristics;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_selfpropelled_vehicle;
+    => nrel_associative_connection: by_vessel_owner;
+    => nrel_associative_connection: by_composition;
+    => nrel_associative_connection: by_ships_fire;
+    => nrel_associative_connection: by_nominal_ship_volume;
+    => nrel_associative_connection: by_fleet;
+
+    => nrel_etalon_online_idx: [6214];;

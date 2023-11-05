@@ -1,0 +1,29 @@
+
+by_clearing_part_of_ais_calculation
+    => nrel_main_idtf: [clearing part of ais "calculation"] (* <- lang_en;; *);
+    => nrel_main_idtf: [клиринговая часть аис "расчет"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клірынгавая частка аіс "разлік"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clearing_part_of_ais_calculation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ais_documentation_calculation;
+    => nrel_associative_connection: by_individual_clearing_support;
+    => nrel_associative_connection: by_clearing;
+    => nrel_associative_connection: by_clearing_activity;
+    => nrel_associative_connection: by_regional_node;
+
+    => nrel_etalon_online_idx: [15941];;

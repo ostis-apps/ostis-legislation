@@ -1,0 +1,32 @@
+
+by_garage_cooperative_cooperative_conducting_car_parking_operation
+    => nrel_main_idtf: [garage cooperative, cooperative, conducting car parking operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [гаражный кооператив, кооператив, осуществляющий эксплуатацию автомобильной стоянки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гаражны кааператыў, кааператыў, які ажыццяўляе эксплуатацыю аўтамабільнай стаянкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_garage_cooperative_cooperative_conducting_car_parking_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_garages_block;
+    => nrel_associative_connection: by_owner_of_car_parking;
+    => nrel_associative_connection: by_garage;
+    => nrel_associative_connection: by_individual_isolated_garage;
+    => nrel_associative_connection: by_vehicle_parking;
+
+    => nrel_etalon_online_idx: [13434];;

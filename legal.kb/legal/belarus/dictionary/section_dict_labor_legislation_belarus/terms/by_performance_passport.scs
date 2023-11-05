@@ -1,0 +1,28 @@
+
+by_performance_passport
+    => nrel_main_idtf: [performance passport ] (* <- lang_en;; *);
+    => nrel_main_idtf: [паспорт спектакля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашпарт спектакля] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_performance_passport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_capital_updated_production;
+    => nrel_associative_connection: by_passport;
+    => nrel_associative_connection: by_filler_material;
+    => nrel_associative_connection: by_director_of_the_performance;
+
+    => nrel_etalon_online_idx: [19838];;

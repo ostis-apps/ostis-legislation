@@ -1,0 +1,31 @@
+
+by_provision_of_real_estate_property
+    => nrel_main_idtf: [provision of real estate property] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоставление недвижимого имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадастаўленне нерухомай маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_provision_of_real_estate_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rentable_area;
+    => nrel_associative_connection: by_newly_formed_real_estate_property;
+    => nrel_associative_connection: by_diplomatic_missions_embassies_permanent_representatives_at_international_organizations_missions_and_consular_offices;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_immovable_property_objects;
+    => nrel_associative_connection: by_real_estate_objects;
+    => nrel_associative_connection: by_rental_rate;
+
+    => nrel_etalon_online_idx: [21048];;

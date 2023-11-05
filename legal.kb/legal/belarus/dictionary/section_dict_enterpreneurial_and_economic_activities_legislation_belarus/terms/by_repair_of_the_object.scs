@@ -1,0 +1,32 @@
+
+by_repair_of_the_object
+    => nrel_main_idtf: [repair of the object ] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонт объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонт аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repair_of_the_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_depot_repair;
+    => nrel_associative_connection: by_capital_repairs_of_construction_object;
+    => nrel_associative_connection: by_object_in_the_territory_of_orshan_district;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_of_buildings;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_construction_and_assembly_works;
+    => nrel_associative_connection: by_current_repair_of_the_object;
+
+    => nrel_etalon_online_idx: [22536];;

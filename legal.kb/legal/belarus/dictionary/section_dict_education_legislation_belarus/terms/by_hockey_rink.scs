@@ -1,0 +1,44 @@
+
+by_hockey_rink
+    => nrel_main_idtf: [hockey rink] (* <- lang_en;; *);
+    => nrel_main_idtf: [хоккейная коробка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хакейная скрынка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hockey_rink_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hockey_rink_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sports_ground;
+    => nrel_associative_connection: by_sports_ground_multiprofile;
+    => nrel_associative_connection: by_sport_event;
+    => nrel_associative_connection: by_sports_events;
+    => nrel_associative_connection: by_sports_constructions;
+
+    => nrel_etalon_online_idx: [26158];;

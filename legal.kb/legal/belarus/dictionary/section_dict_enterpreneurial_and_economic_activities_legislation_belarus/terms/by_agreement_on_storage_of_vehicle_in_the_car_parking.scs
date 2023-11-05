@@ -1,0 +1,31 @@
+
+by_agreement_on_storage_of_vehicle_in_the_car_parking
+    => nrel_main_idtf: [agreement on storage of vehicle in the car parking] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор хранения транспортного средства на автомобильной стоянке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор захоўвання транспартнага сродку на аўтамабільнай стаянцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agreement_on_storage_of_vehicle_in_the_car_parking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_owner_of_car_parking;
+    => nrel_associative_connection: by_owner_of_vehicle;
+    => nrel_associative_connection: by_bailment_for_hire;
+    => nrel_associative_connection: by_vehicle_parking;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [14297];;

@@ -1,0 +1,36 @@
+
+by_natural_gas_reference_price
+    => nrel_main_idtf: [natural gas reference price] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовая цена на природный газ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавая цана на прыродны газ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_natural_gas_reference_price_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_car_gas_filling_station;
+    => nrel_associative_connection: by_liquefied_gas_reference_price;
+    => nrel_associative_connection: by_gas;
+    => nrel_associative_connection: by_gas_supply_organization;
+    => nrel_associative_connection: by_debt_for_energy_resources;
+    => nrel_associative_connection: by_debt_of_consumers_for_energy_resources;
+    => nrel_associative_connection: by_required_receipts_from_the_release_of_natural_and_liquefied_gas;
+    => nrel_associative_connection: by_gas_user;
+    => nrel_associative_connection: by_gas_consumer;
+    => nrel_associative_connection: by_calculated_period_of_regulation;
+    => nrel_associative_connection: by_regulated_activities;
+    => nrel_associative_connection: by_price_tariff;
+
+    => nrel_etalon_online_idx: [10121];;

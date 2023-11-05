@@ -1,0 +1,32 @@
+
+by_optimal_operating_mode_of_gci
+    => nrel_main_idtf: [optimal operating mode of gci] (* <- lang_en;; *);
+    => nrel_main_idtf: [оптимальный режим работы гоу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптымальны рэжым працы гау] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_optimal_operating_mode_of_gci_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gas_cleaning_apparatus;
+    => nrel_associative_connection: by_ventilation_system;
+    => nrel_associative_connection: by_gci_owner;
+    => nrel_associative_connection: by_gas_cleaning_installations;
+    => nrel_associative_connection: by_control_of_technical_condition_of_gas_cleaning_installations;
+    => nrel_associative_connection: by_faulty_gci;
+    => nrel_associative_connection: by_ineffective_gci;
+    => nrel_associative_connection: by_gas_cleaning_step;
+
+    => nrel_etalon_online_idx: [31072];;

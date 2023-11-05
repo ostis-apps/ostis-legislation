@@ -1,0 +1,28 @@
+
+by_main_specialist_of_the_organization
+    => nrel_main_idtf: [main specialist of the organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [главный специалист организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галоўны спецыяліст арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_specialist_of_the_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_chief_specialist_on_oncology_of_the_ministry_of_health_regional_city_health_care_management_department;
+    => nrel_associative_connection: by_state_position;
+    => nrel_associative_connection: by_position;
+    => nrel_associative_connection: by_specialist;
+
+    => nrel_etalon_online_idx: [8715];;

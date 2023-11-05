@@ -1,0 +1,58 @@
+
+by_waste_water_discharge
+    => nrel_main_idtf: [waste water discharge] (* <- lang_en;; *);
+    => nrel_main_idtf: [сброс сточных вод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скід сцёкавых вод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_water_discharge_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_water_discharge_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_atmospheric_wastewater;
+    => nrel_associative_connection: by_water_release;
+    => nrel_associative_connection: by_wastewater_release;
+    => nrel_associative_connection: by_urban_waste_water;
+    => nrel_associative_connection: by_rain_waste_water;
+    => nrel_associative_connection: by_industrial_waste_waters_not_requiring_treatment;
+    => nrel_associative_connection: by_industrial_waste_waters_treated_to_standard_quality;
+    => nrel_associative_connection: by_normative_standards_of_water_disposal_discharge_of_waste_waters;
+    => nrel_associative_connection: by_normalized_pollutant_substances_in_the_composition_of_waste_water;
+    => nrel_associative_connection: by_sewage_fields;
+    => nrel_associative_connection: by_waste_water_consumption;
+    => nrel_associative_connection: by_waste_water_disposal_mode;
+    => nrel_associative_connection: by_discharging_of_wastewater_by_owners_of_public_and_departmental_sewerage_discharges_from_the_population;
+    => nrel_associative_connection: by_specific_pollutant;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_melt_wastewater;
+    => nrel_associative_connection: by_metering_station_for_consumed_water_or_discharged_wastewater;
+    => nrel_associative_connection: by_conditionally_clean_industrial_wastewater;
+    => nrel_associative_connection: by_background_alignment;
+
+    => nrel_etalon_online_idx: [22869];;

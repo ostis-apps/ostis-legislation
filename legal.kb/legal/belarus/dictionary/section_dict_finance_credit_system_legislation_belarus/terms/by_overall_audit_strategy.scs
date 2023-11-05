@@ -1,0 +1,31 @@
+
+by_overall_audit_strategy
+    => nrel_main_idtf: [overall audit strategy] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая стратегия аудита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная стратэгія аўдыту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overall_audit_strategy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_plan;
+    => nrel_associative_connection: by_audit_planning;
+    => nrel_associative_connection: by_planning_in_audit;
+    => nrel_associative_connection: by_audited_population;
+    => nrel_associative_connection: by_other_information;
+
+    => nrel_etalon_online_idx: [18586];;

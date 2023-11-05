@@ -1,0 +1,43 @@
+
+by_safety_device
+    => nrel_main_idtf: [safety device] (* <- lang_en;; *);
+    => nrel_main_idtf: [устройство безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыстасаванне бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_device_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_stop;
+    => nrel_associative_connection: by_protective_device;
+    => nrel_associative_connection: by_catcher_rope_safety;
+    => nrel_associative_connection: by_insurance_rope;
+
+    => nrel_etalon_online_idx: [25701];;

@@ -1,0 +1,26 @@
+
+by_best_efficiency_point
+    => nrel_main_idtf: [best efficiency point] (* <- lang_en;; *);
+    => nrel_main_idtf: [оптимальная точка (best efficiency point); вер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптымальная кропка (best efficiency point); вер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_best_efficiency_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_range_hood;
+    => nrel_associative_connection: by_conventional_mode;
+
+    => nrel_etalon_online_idx: [34976];;

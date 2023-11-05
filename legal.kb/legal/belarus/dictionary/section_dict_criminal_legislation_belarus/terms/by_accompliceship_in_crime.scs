@@ -1,0 +1,36 @@
+
+by_accompliceship_in_crime
+    => nrel_main_idtf: [accompliceship in crime] (* <- lang_en;; *);
+    => nrel_main_idtf: [соучастие в преступлении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [саўдзел у злачынстве] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accompliceship_in_crime_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_executor;
+    => nrel_associative_connection: by_executor_of_crime;
+    => nrel_associative_connection: by_organizer;
+    => nrel_associative_connection: by_especially_grave_crimes;
+    => nrel_associative_connection: by_instigator_of_crime;
+    => nrel_associative_connection: by_accomplice_of_crime;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_preparation_for_crime;
+    => nrel_associative_connection: by_commission_of_crime_by_organized_group;
+    => nrel_associative_connection: by_grave_crimes;
+    => nrel_associative_connection: by_murder_committed_by_a_group_of_persons;
+    => nrel_associative_connection: by_criminal_liability;
+
+    => nrel_etalon_online_idx: [1932];;

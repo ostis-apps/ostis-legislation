@@ -1,0 +1,33 @@
+
+by_control_medical_examination
+    => nrel_main_idtf: [control medical examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольное медицинское обследование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольнае медыцынскае абследаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_medical_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_diagnostics;
+    => nrel_associative_connection: by_health;
+    => nrel_associative_connection: by_control_laboratory_examination;
+    => nrel_associative_connection: by_medical_examination;
+    => nrel_associative_connection: by_compulsory_medical_examination;
+    => nrel_associative_connection: by_repeated_control_laboratory_examination;
+    => nrel_associative_connection: by_indepth_medical_examination;
+
+    => nrel_etalon_online_idx: [27689];;

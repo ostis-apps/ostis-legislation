@@ -1,0 +1,28 @@
+
+by_power_factor
+    => nrel_main_idtf: [power factor] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент мощности (power factor)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент магутнасці (power factor)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_power_factor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_declared_coefficient_of_performance;
+    => nrel_associative_connection: by_lamp_survival_factor;
+    => nrel_associative_connection: by_lamp_lumen_maintenance_factor_llmf;
+    => nrel_associative_connection: by_______coprated_rated_coefficient_of_performance;
+
+    => nrel_etalon_online_idx: [35135];;

@@ -1,0 +1,31 @@
+
+by_arrangement_of_library_stock
+    => nrel_main_idtf: [arrangement of library stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация библиотечных фондов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганiзацыя бібліятэчных фондаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_arrangement_of_library_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_librarianship;
+    => nrel_associative_connection: by_library_stock;
+    => nrel_associative_connection: by_movement_of_library_foundation;
+    => nrel_associative_connection: by_exclusion_of_documents_from_the_library_fund_recommending;
+    => nrel_associative_connection: by_acquisition_of_library_stocks;
+    => nrel_associative_connection: by_library_stock_management;
+    => nrel_associative_connection: by_formation_of_library_stocks;
+
+    => nrel_etalon_online_idx: [7868];;

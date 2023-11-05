@@ -1,0 +1,29 @@
+
+by_by_it_tutor
+    => nrel_main_idtf: [by_it_tutor] (* <- lang_en;; *);
+    => nrel_main_idtf: [ит-тьютор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іт-тьютар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_it_tutor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_virtual_network;
+    => nrel_associative_connection: by_computer_classroom;
+    => nrel_associative_connection: by_automated_process_control_system;
+    => nrel_associative_connection: by_sectoral_information_environment_of_the_education_system;
+    => nrel_associative_connection: by_elearning_tool;
+
+    => nrel_etalon_online_idx: [43923];;

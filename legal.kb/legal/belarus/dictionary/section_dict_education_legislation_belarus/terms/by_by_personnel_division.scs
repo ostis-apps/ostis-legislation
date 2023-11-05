@@ -1,0 +1,30 @@
+
+by_by_personnel_division
+    => nrel_main_idtf: [by_personnel_division] (* <- lang_en;; *);
+    => nrel_main_idtf: [кадровое подразделение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кадравае падраздзяленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_personnel_division_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_regular_personnel_service;
+    => nrel_associative_connection: by_hr_records_management;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_candidate_for_service;
+    => nrel_associative_connection: by_candidate_for_study;
+    => nrel_associative_connection: by_heads_of_divisions;
+
+    => nrel_etalon_online_idx: [42774];;

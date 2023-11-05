@@ -1,0 +1,28 @@
+
+by_treatment_completed
+    => nrel_main_idtf: [treatment completed] (* <- lang_en;; *);
+    => nrel_main_idtf: [лечение завершено] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лячэнне завершана] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_treatment_completed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cure_for_a_cohort_of_patients_with_drugsusceptible_tuberculosis;
+    => nrel_associative_connection: by_cure_for_a_cohort_of_patients_with_rifampicinresistant_tuberculosis;
+    => nrel_associative_connection: by_curing_a_patient_with_tuberculosis;
+    => nrel_associative_connection: by_drug_susceptibility_tuberculosis;
+
+    => nrel_etalon_online_idx: [37702];;

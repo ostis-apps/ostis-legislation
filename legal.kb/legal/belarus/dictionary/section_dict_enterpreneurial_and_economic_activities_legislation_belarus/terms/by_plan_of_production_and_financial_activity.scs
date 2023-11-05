@@ -1,0 +1,30 @@
+
+by_plan_of_production_and_financial_activity
+    => nrel_main_idtf: [plan of production and financial activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [план производственно-финансовой деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [план вытворча-фінансавай дзейнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plan_of_production_and_financial_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_business_plan;
+    => nrel_associative_connection: by_logistics_and_support_plan;
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_planning_and_settlement_price;
+    => nrel_associative_connection: by_project_capacity;
+    => nrel_associative_connection: by_production_capacity;
+
+    => nrel_etalon_online_idx: [5158];;

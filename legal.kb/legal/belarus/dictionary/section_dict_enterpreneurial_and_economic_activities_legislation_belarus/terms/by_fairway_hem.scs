@@ -1,0 +1,29 @@
+
+by_fairway_hem
+    => nrel_main_idtf: [fairway hem] (* <- lang_en;; *);
+    => nrel_main_idtf: [кромка судового хода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пруг суднавага хода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fairway_hem_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_radius_of_curvature_of_the_channel;
+    => nrel_associative_connection: by_divergence_of_vessels;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_vessel_of_mixed_river__sea_navigation;
+    => nrel_associative_connection: by_fairway;
+
+    => nrel_etalon_online_idx: [16459];;

@@ -1,0 +1,28 @@
+
+by_anchor_device
+    => nrel_main_idtf: [anchor device] (* <- lang_en;; *);
+    => nrel_main_idtf: [анкерное устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкернае прыстасаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_anchor_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anchor_fastening;
+    => nrel_associative_connection: by_anchoring_device_without_hinges;
+    => nrel_associative_connection: by_hinged_anchoring_device;
+    => nrel_associative_connection: by_characteristic_anchor_resistance_force;
+
+    => nrel_etalon_online_idx: [35619];;

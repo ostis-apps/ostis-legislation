@@ -1,0 +1,29 @@
+
+by_wheel_chassis_base
+    => nrel_main_idtf: [wheel chassis base] (* <- lang_en;; *);
+    => nrel_main_idtf: [база колесного шасси] (* <- lang_ru;; *);
+    => nrel_main_idtf: [база колавага шасі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wheel_chassis_base_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_runway_unequipped;
+    => nrel_associative_connection: by_end_braking_strip;
+    => nrel_associative_connection: by_airstrip;
+    => nrel_associative_connection: by_platform;
+
+    => nrel_etalon_online_idx: [41015];;

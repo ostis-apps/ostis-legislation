@@ -1,0 +1,28 @@
+
+by_combat_mission
+    => nrel_main_idtf: [combat mission] (* <- lang_en;; *);
+    => nrel_main_idtf: [боевая задача] (* <- lang_ru;; *);
+    => nrel_main_idtf: [баявая задача] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combat_mission_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_base_horizontal_surface;
+    => nrel_associative_connection: by_military_operations;
+    => nrel_associative_connection: by_listnitsashurturmovka;
+    => nrel_associative_connection: by_fire_extinction;
+
+    => nrel_etalon_online_idx: [32593];;

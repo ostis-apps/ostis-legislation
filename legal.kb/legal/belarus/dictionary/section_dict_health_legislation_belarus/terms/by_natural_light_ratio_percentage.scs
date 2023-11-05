@@ -1,0 +1,27 @@
+
+by_natural_light_ratio_percentage
+    => nrel_main_idtf: [natural light ratio (percentage)] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент естественной освещенности (в процентах)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент натуральнай асветленасці (у працэнтах)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_natural_light_ratio_percentage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geometric_coefficient_of_natural_illumination_e_;
+    => nrel_associative_connection: by_daylight_factor_df;
+    => nrel_associative_connection: by_illumination_e_lc;
+
+    => nrel_etalon_online_idx: [41747];;

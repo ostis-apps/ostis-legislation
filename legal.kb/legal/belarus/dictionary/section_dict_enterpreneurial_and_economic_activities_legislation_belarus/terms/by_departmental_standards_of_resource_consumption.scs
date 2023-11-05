@@ -1,0 +1,31 @@
+
+by_departmental_standards_of_resource_consumption
+    => nrel_main_idtf: [departmental standards of resource consumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомственные нормативы расхода ресурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасныя нарматывы расходу рэсурсаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_departmental_standards_of_resource_consumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_normative_costs;
+    => nrel_associative_connection: by_norms_of_resources_consumption;
+    => nrel_associative_connection: by_standards_of_consumption_of_resources_in_kind;
+    => nrel_associative_connection: by_nationwide_standards_of_resource_expenditure;
+    => nrel_associative_connection: by_general_public_standards_of_consumption_of_resources_in_physical_terms;
+    => nrel_associative_connection: by_production_standards_of_resource_consumption;
+    => nrel_associative_connection: by_resource_consumption;
+
+    => nrel_etalon_online_idx: [27438];;

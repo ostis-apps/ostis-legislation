@@ -1,0 +1,51 @@
+
+by_repo_transaction
+    => nrel_main_idtf: [repo transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [сделка репо] (* <- lang_ru;; *);
+    => nrel_main_idtf: [здзелка рэпо] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repo_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repo_transaction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_release_of_emission_securities;
+    => nrel_associative_connection: by_qualified_investors_in_the_securities_market;
+    => nrel_associative_connection: by_handling_of_emission_securities;
+    => nrel_associative_connection: by_acquisition_of_securities;
+    => nrel_associative_connection: by_placement_of_issue_securities;
+    => nrel_associative_connection: by_decision_on_issue_additional_issue_of_issue_securities;
+    => nrel_associative_connection: by_transaction;
+    => nrel_associative_connection: by_repo_transactions;
+    => nrel_associative_connection: by_bearer_security;
+    => nrel_associative_connection: by_issue_securities;
+    => nrel_associative_connection: by_issue;
+    => nrel_associative_connection: by_issue_of_equity_securities;
+
+    => nrel_etalon_online_idx: [22958];;

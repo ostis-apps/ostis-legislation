@@ -1,0 +1,36 @@
+
+by_towed_convoy
+    => nrel_main_idtf: [towed convoy] (* <- lang_en;; *);
+    => nrel_main_idtf: [буксируемый состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буксіруемы састаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_towed_convoy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tow;
+    => nrel_associative_connection: by_towing_vehicle;
+    => nrel_associative_connection: by_towage_contract;
+    => nrel_associative_connection: by_crossing_courses;
+    => nrel_associative_connection: by_towing_period;
+    => nrel_associative_connection: by_floating_establishment;
+    => nrel_associative_connection: by_floating_equipment;
+    => nrel_associative_connection: by_floating_object;
+    => nrel_associative_connection: by_forced_towing_evacuation_of_the_vehicle;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_selfpropelled_vehicle;
+    => nrel_associative_connection: by_composition;
+
+    => nrel_etalon_online_idx: [12832];;

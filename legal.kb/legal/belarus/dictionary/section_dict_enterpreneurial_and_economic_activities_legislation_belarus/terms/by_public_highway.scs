@@ -1,0 +1,39 @@
+
+by_public_highway
+    => nrel_main_idtf: [public highway] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобильная дорога общего пользования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабільная дарога агульнага карыстання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_highway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_road_traffic_safety;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_road_facilities_of_belarus;
+    => nrel_associative_connection: by_communications;
+    => nrel_associative_connection: by_loadbearing_capacity_of_road_covering;
+    => nrel_associative_connection: by_withdrawal_lane_of_public_highway;
+    => nrel_associative_connection: by_users_of_highways;
+    => nrel_associative_connection: by_demining_of_railway_and_highways_their_sites_objects;
+    => nrel_associative_connection: by_calculated_segment;
+    => nrel_associative_connection: by_reserve_area;
+    => nrel_associative_connection: by_maintenance_of_roads;
+    => nrel_associative_connection: by_advanced_coating;
+    => nrel_associative_connection: by_road_owner_price;
+
+    => nrel_etalon_online_idx: [915];;

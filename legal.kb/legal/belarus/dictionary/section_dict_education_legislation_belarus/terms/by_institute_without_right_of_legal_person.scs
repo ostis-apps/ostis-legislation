@@ -1,0 +1,28 @@
+
+by_institute_without_right_of_legal_person
+    => nrel_main_idtf: [institute without right of legal person] (* <- lang_en;; *);
+    => nrel_main_idtf: [институт без права юридического лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інстытут без права юрыдычнай асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_institute_without_right_of_legal_person_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_institute;
+    => nrel_associative_connection: by_council_of_the_institute_of_the_faculty;
+    => nrel_associative_connection: by_higher_education_institution;
+
+    => nrel_etalon_online_idx: [9200];;

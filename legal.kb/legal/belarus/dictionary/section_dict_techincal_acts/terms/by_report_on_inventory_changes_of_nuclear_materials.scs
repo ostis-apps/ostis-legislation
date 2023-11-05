@@ -1,0 +1,27 @@
+
+by_report_on_inventory_changes_of_nuclear_materials
+    => nrel_main_idtf: [report on inventory changes of nuclear materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [отчет об изменении инвентарного количества ядерных материалов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаздача аб змяненні інвентарнай колькасці ядзерных матэрыялаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_report_on_inventory_changes_of_nuclear_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_amount_of_unaccounted_material;
+    => nrel_associative_connection: by_interbalance_period;
+    => nrel_associative_connection: by_report_on_actual_inventory_number_of_nuclear_materials;
+
+    => nrel_etalon_online_idx: [31330];;

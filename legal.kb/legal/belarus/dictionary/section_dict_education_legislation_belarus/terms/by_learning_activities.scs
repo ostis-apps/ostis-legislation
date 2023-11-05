@@ -1,0 +1,41 @@
+
+by_learning_activities
+    => nrel_main_idtf: [learning activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [учебная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навучальная дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_learning_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auditory_lessons;
+    => nrel_associative_connection: by_basic_level_of_studying_the_educational_area_theme_educational_subject_or_educational_discipline;
+    => nrel_associative_connection: by_high_rate_of_educational_activity;
+    => nrel_associative_connection: by_duration_of_stay_in_educational_institution;
+    => nrel_associative_connection: by_days_of_study;
+    => nrel_associative_connection: by_additional_control_of_students_educational_activity;
+    => nrel_associative_connection: by_credit_unit_credit;
+    => nrel_associative_connection: by_final_examination;
+    => nrel_associative_connection: by_main_learning_place;
+    => nrel_associative_connection: by_modular_organization_of_educational_process;
+    => nrel_associative_connection: by_weapons_brought_to_weapons_of_training_type;
+    => nrel_associative_connection: by_secondary_special_educational_institutions;
+    => nrel_associative_connection: by_technical_teaching_technical_studies;
+    => nrel_associative_connection: by_educational_and_methodological_management_center_part_department;
+    => nrel_associative_connection: by_educationalmethodological_management_part_department;
+    => nrel_associative_connection: by_days;
+    => nrel_associative_connection: by_student;
+
+    => nrel_etalon_online_idx: [25810];;

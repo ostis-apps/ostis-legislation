@@ -1,0 +1,28 @@
+
+by_conversion_of_bonds
+    => nrel_main_idtf: [conversion of bonds] (* <- lang_en;; *);
+    => nrel_main_idtf: [конвертация облигаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канвертацыя аблігацый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conversion_of_bonds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conversion;
+    => nrel_associative_connection: by_bonds;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_bond_swapping;
+
+    => nrel_etalon_online_idx: [11913];;

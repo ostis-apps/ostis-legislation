@@ -1,0 +1,28 @@
+
+by_soil_damage
+    => nrel_main_idtf: [soil damage] (* <- lang_en;; *);
+    => nrel_main_idtf: [порча земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псаванне зямель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_soil_damage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_land_degradation;
+    => nrel_associative_connection: by_degraded_lands;
+    => nrel_associative_connection: by_protection_of_lands;
+    => nrel_associative_connection: by_ecological_security_and_environmental_protection_crimes;
+
+    => nrel_etalon_online_idx: [625];;

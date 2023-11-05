@@ -1,0 +1,28 @@
+
+by_financial_organizations
+    => nrel_main_idtf: [financial organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [финансовые организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фінансавыя арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_local_financial_bodies;
+    => nrel_associative_connection: by_nonbank_financial_organizations;
+    => nrel_associative_connection: by_noncredit_financial_organizations;
+    => nrel_associative_connection: by_nonfinancial_organizations;
+
+    => nrel_etalon_online_idx: [41407];;

@@ -1,0 +1,28 @@
+
+by_coperformance
+    => nrel_main_idtf: [co-performance] (* <- lang_en;; *);
+    => nrel_main_idtf: [соисполнительство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сувыкананне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coperformance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_executor_of_crime;
+    => nrel_associative_connection: by_coperforming_organization;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_subsupplier_subcontractor_coperformer;
+
+    => nrel_etalon_online_idx: [23545];;

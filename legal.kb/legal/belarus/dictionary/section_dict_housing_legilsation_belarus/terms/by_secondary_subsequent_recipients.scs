@@ -1,0 +1,30 @@
+
+by_secondary_subsequent_recipients
+    => nrel_main_idtf: [secondary (subsequent) recipients] (* <- lang_en;; *);
+    => nrel_main_idtf: [вторичные (последующие) получатели] (* <- lang_ru;; *);
+    => nrel_main_idtf: [другасныя (наступныя) атрымальнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_secondary_subsequent_recipients_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_charitable_account;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_misuse_of_aid;
+    => nrel_associative_connection: by_senders;
+    => nrel_associative_connection: by_recipients;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_etalon_online_idx: [33232];;

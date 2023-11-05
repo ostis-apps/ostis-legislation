@@ -1,0 +1,29 @@
+
+by_software_complex_reserve_input
+    => nrel_main_idtf: [software complex "reserve input"] (* <- lang_en;; *);
+    => nrel_main_idtf: [программный комплекс "резервный ввод"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграмны комплекс "рэзервовы ўвод"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_software_complex_reserve_input_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_interbank_settlements_in_reserve_regime;
+    => nrel_associative_connection: by_reserve_board;
+    => nrel_associative_connection: by_reserve_input;
+
+    => nrel_etalon_online_idx: [42548];;

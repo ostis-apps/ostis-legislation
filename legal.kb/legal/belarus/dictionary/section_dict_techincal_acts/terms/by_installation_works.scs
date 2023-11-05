@@ -1,0 +1,33 @@
+
+by_installation_works
+    => nrel_main_idtf: [installation works] (* <- lang_en;; *);
+    => nrel_main_idtf: [монтажные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мантажныя работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_installation_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_installation_of_equipment;
+    => nrel_associative_connection: by_equipment_installation_works;
+    => nrel_associative_connection: by_object_of_professional_activity;
+    => nrel_associative_connection: by_construction_object;
+    => nrel_associative_connection: by_main_construction_and_assembly_works;
+    => nrel_associative_connection: by_special_construction_and_installation_works;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction_site;
+    => nrel_associative_connection: by_construction_and_assembly_works;
+
+    => nrel_etalon_online_idx: [31597];;

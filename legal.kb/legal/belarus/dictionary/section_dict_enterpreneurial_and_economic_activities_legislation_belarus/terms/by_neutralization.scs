@@ -1,0 +1,59 @@
+
+by_neutralization
+    => nrel_main_idtf: [neutralization] (* <- lang_en;; *);
+    => nrel_main_idtf: [обезвреживание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абясшкоджванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neutralization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neutralization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neutralization_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_neutralization_of_ozonedepleting_substances;
+    => nrel_associative_connection: by_waste_neutralization;
+    => nrel_associative_connection: by_hunting_produce_neutralization;
+    => nrel_associative_connection: by_neutralization_of_plant_protection_products;
+    => nrel_associative_connection: by_waste_neutralization_objects;
+
+    => nrel_etalon_online_idx: [18365];;

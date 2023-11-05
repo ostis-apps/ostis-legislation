@@ -1,0 +1,28 @@
+
+by_registry_of_holders_of_securities_register_of_shareholders_register_of_bond_holders
+    => nrel_main_idtf: [registry of holders of securities (register of shareholders, register of bond holders)] (* <- lang_en;; *);
+    => nrel_main_idtf: [реестр владельцев ценных бумаг (реестр акционеров, реестр владельцев облигаций)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэестр уладальнікаў каштоўных папер (рэестр акцыянераў, рэестр уладальнікаў аблігацый)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registry_of_holders_of_securities_register_of_shareholders_register_of_bond_holders_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_registry;
+    => nrel_associative_connection: by_security;
+    => nrel_associative_connection: by_issue_securities;
+
+    => nrel_etalon_online_idx: [27828];;

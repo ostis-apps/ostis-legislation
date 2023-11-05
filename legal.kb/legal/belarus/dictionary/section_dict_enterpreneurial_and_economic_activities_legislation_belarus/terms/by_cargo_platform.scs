@@ -1,0 +1,31 @@
+
+by_cargo_platform
+    => nrel_main_idtf: [cargo platform] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовая платформа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавая платформа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_platform_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_truck_flat_body;
+    => nrel_associative_connection: by_cargo_lift;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_mobile_cargo_lift;
+    => nrel_associative_connection: by_building_elevator;
+    => nrel_associative_connection: by_counterweight;
+    => nrel_associative_connection: by_freezing_cargoes;
+
+    => nrel_etalon_online_idx: [13873];;

@@ -1,0 +1,15 @@
+
+by_holding_company
+    => nrel_main_idtf: [holding company] (* <- lang_en;; *);
+    => nrel_main_idtf: [холдинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [холдынг] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_affiliates_of_the_economic_society;
+    => nrel_associative_connection: by_bank_holding;
+    => nrel_associative_connection: by_head_organization_of_the_bank_holding;
+    => nrel_associative_connection: by_possession_control_authorities;
+    => nrel_associative_connection: by_participant_of_bank_holding;
+
+    => nrel_etalon_online_idx: [7171];;

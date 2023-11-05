@@ -1,0 +1,29 @@
+
+by_transport_column
+    => nrel_main_idtf: [transport column] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортная колонна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартная калона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transport_column_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_column;
+    => nrel_associative_connection: by_column;
+    => nrel_associative_connection: by_organized_transport_column;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [25200];;

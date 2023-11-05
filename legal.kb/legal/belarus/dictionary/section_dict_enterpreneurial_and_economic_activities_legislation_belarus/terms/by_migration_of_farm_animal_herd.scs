@@ -1,0 +1,45 @@
+
+by_migration_of_farm_animal_herd
+    => nrel_main_idtf: [migration of farm animal (herd)] (* <- lang_en;; *);
+    => nrel_main_idtf: [перемещение сельскохозяйственного животного (стада)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перамяшчэнне сельскагаспадарчай жывёлы (статка)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_migration_of_farm_animal_herd_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_migration_of_farm_animal_herd_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_farm_animals_herd;
+    => nrel_associative_connection: by_livestock_facilities;
+    => nrel_associative_connection: by_passport_of_farm_animals_herd;
+    => nrel_associative_connection: by_shift;
+    => nrel_associative_connection: by_traceability_of_the_animal_herd;
+    => nrel_associative_connection: by_traceability_of_farm_animals_herd;
+
+    => nrel_etalon_online_idx: [5154];;

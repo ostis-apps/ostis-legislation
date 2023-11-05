@@ -1,0 +1,30 @@
+
+by_doctorobstetriciangynecologist
+    => nrel_main_idtf: [doctor-obstetrician-gynecologist] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-акушер-гинеколог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-акушэр-гінеколаг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doctorobstetriciangynecologist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_obstetrics_and_gynecology;
+    => nrel_associative_connection: by_asphyxia_of_the_newborn;
+    => nrel_associative_connection: by_infertility;
+    => nrel_associative_connection: by_ectopic_pregnancy;
+    => nrel_associative_connection: by_cesarean_section;
+    => nrel_associative_connection: by_pelvioperitonitis;
+
+    => nrel_etalon_online_idx: [33951];;

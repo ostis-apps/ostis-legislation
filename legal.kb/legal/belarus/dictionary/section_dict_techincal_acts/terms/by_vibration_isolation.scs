@@ -1,0 +1,29 @@
+
+by_vibration_isolation
+    => nrel_main_idtf: [vibration isolation] (* <- lang_en;; *);
+    => nrel_main_idtf: [виброизоляция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вібраізаляцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vibration_isolation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_airborne_noise;
+    => nrel_associative_connection: by_soundproofing_layer;
+    => nrel_associative_connection: by_soundproofing_of_windows_ra_tran_dba;
+    => nrel_associative_connection: by_airborne_noise_insulation_sound_insulation_db;
+    => nrel_associative_connection: by_low_noise_equipment;
+
+    => nrel_etalon_online_idx: [35713];;

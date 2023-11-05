@@ -1,0 +1,28 @@
+
+by_cost_of_the_subject_of_the_administrative_infringement
+    => nrel_main_idtf: [cost of the subject of the administrative infringement] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость предмета административного правонарушения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт прадмета адміністрацыйнага правапарушэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_the_subject_of_the_administrative_infringement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+    => nrel_associative_connection: by_cost;
+
+    => nrel_etalon_online_idx: [41326];;

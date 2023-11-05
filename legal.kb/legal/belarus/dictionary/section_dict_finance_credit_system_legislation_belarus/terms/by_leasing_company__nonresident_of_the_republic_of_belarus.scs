@@ -1,0 +1,28 @@
+
+by_leasing_company__nonresident_of_the_republic_of_belarus
+    => nrel_main_idtf: [leasing company - non-resident of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [лизинговая компания–нерезидент республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лізінгавая кампанія–нерэзідэнт рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leasing_company__nonresident_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investment_of_leasing_company__nonresident_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_leasing_activity;
+    => nrel_associative_connection: by_leasing_organization;
+    => nrel_associative_connection: by_leasing_payments;
+
+    => nrel_etalon_online_idx: [41332];;

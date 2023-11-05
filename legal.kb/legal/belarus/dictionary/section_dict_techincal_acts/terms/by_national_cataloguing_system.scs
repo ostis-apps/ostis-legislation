@@ -1,0 +1,54 @@
+
+by_national_cataloguing_system
+    => nrel_main_idtf: [national cataloguing system] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальная система каталогизации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальная сістэма каталагізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_cataloguing_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_cataloguing_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_cataloguing_products_system;
+    => nrel_associative_connection: by_state_customer_of_supply_articles;
+    => nrel_associative_connection: by_identification_of_a_supply_article;
+    => nrel_associative_connection: by_cataloging;
+    => nrel_associative_connection: by_cataloging_of_audiovisual_documents;
+    => nrel_associative_connection: by_cataloguing_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_product_cataloging;
+    => nrel_associative_connection: by_catalogue_description_sheet_of_a_supply_article;
+    => nrel_associative_connection: by_national_catalogue_of_supply_articles;
+    => nrel_associative_connection: by_national_nomenclature_number;
+    => nrel_associative_connection: by_national_cataloguing_body;
+    => nrel_associative_connection: by_national_cataloguing_center;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_specialized_organization_on_cataloguing;
+
+    => nrel_etalon_online_idx: [17789];;

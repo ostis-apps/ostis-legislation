@@ -1,0 +1,33 @@
+
+by_doctor_pathologist
+    => nrel_main_idtf: [doctor pathologist] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-патологоанатом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-патолагаанатам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doctor_pathologist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biopsy_operating_material;
+    => nrel_associative_connection: by_doctor_parasitologist;
+    => nrel_associative_connection: by_posterior_study;
+    => nrel_associative_connection: by_materials_of_pathologoanatomical_expertise;
+    => nrel_associative_connection: by_medical_laboratory;
+    => nrel_associative_connection: by_objects_of_pathologoanatomical_expertise;
+    => nrel_associative_connection: by_pathological_anatomy;
+    => nrel_associative_connection: by_postmortem_examination;
+    => nrel_associative_connection: by_sectioning_material;
+
+    => nrel_etalon_online_idx: [33736];;

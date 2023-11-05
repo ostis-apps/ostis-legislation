@@ -1,0 +1,26 @@
+
+by_convention_priority
+    => nrel_main_idtf: [convention priority] (* <- lang_en;; *);
+    => nrel_main_idtf: [конвенционный приоритет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канвенцыйны прыярытэт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_convention_priority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_trademark;
+    => nrel_associative_connection: by_trademark_and_service_mark;
+
+    => nrel_etalon_online_idx: [16116];;

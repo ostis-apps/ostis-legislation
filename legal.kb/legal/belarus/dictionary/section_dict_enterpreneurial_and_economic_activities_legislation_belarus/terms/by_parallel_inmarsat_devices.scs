@@ -1,0 +1,17 @@
+
+by_parallel_inmarsat_devices
+    => nrel_main_idtf: [parallel inmarsat devices] (* <- lang_en;; *);
+    => nrel_main_idtf: [оконечные устройства параллельные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцавыя прыстасаванні паралельныя] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_workshop_for_repair_of_terminal_subscriber_devices;
+    => nrel_associative_connection: by_inmarsat_subscribers_unit;
+    => nrel_associative_connection: by_inmarsat_subscribers_unit_terminal;
+    => nrel_associative_connection: by_apartment_inmarsat_devices_of_individual_use;
+    => nrel_associative_connection: by_apartment_inmarsat_devices_of_collective_use;
+    => nrel_associative_connection: by_main_inmarsat_devices;
+    => nrel_associative_connection: by_repair_of_subscriber_terminals;
+
+    => nrel_etalon_online_idx: [18917];;

@@ -1,0 +1,19 @@
+
+by_excess_flight_flight
+    => nrel_main_idtf: [excess flight (flight)] (* <- lang_en;; *);
+    => nrel_main_idtf: [сверхнормативный полет (рейс)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [звышнарматыўны палёт (рэйс)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_aircraft_flight_time;
+    => nrel_associative_connection: by_additional_route;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_regulated_technological_break_in_the_work_of_a_crew_member_in_an_excess_flight;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_charter_flight;
+    => nrel_associative_connection: by_service_flight_time;
+    => nrel_associative_connection: by_relay_flight;
+
+    => nrel_etalon_online_idx: [22888];;

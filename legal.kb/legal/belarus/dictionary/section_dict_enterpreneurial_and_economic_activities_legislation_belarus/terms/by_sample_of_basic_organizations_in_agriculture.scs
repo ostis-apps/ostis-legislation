@@ -1,0 +1,32 @@
+
+by_sample_of_basic_organizations_in_agriculture
+    => nrel_main_idtf: [sample of basic organizations in agriculture] (* <- lang_en;; *);
+    => nrel_main_idtf: [выборочная совокупность базовых организаций в сельском хозяйстве] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбарачная сукупнасць базавых арганізацый у сельскай гаспадарцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_of_basic_organizations_in_agriculture_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sample;
+    => nrel_associative_connection: by_sample_sampling;
+    => nrel_associative_connection: by_sampling_population_of_basic_organizations;
+    => nrel_associative_connection: by_objects_of_agricultural_purpose;
+    => nrel_associative_connection: by_agriculture;
+    => nrel_associative_connection: by_agricultural_organization;
+    => nrel_associative_connection: by_agricultural_products;
+    => nrel_associative_connection: by_agricultural_organizations;
+
+    => nrel_etalon_online_idx: [13331];;

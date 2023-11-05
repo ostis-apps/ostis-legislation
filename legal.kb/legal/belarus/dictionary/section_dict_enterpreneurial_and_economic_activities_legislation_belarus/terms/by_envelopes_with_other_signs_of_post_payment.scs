@@ -1,0 +1,30 @@
+
+by_envelopes_with_other_signs_of_post_payment
+    => nrel_main_idtf: [envelopes with other signs of post payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [конверты с иными знаками почтовой оплаты ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канверты з іншымі знакамі паштовай аплаты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_envelopes_with_other_signs_of_post_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_marks_of_postal_payments;
+    => nrel_associative_connection: by_envelope_with_original_stamp;
+    => nrel_associative_connection: by_marked_envelope;
+    => nrel_associative_connection: by_print_of_the_marking_franching_machine;
+    => nrel_associative_connection: by_postal_block;
+
+    => nrel_etalon_online_idx: [9277];;

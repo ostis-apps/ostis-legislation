@@ -1,0 +1,31 @@
+
+by_castling_long
+    => nrel_main_idtf: [castling long] (* <- lang_en;; *);
+    => nrel_main_idtf: [длинная рокировка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доўгая ракіроўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_castling_long_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_large_diagonal;
+    => nrel_associative_connection: by_double_blow;
+    => nrel_associative_connection: by_diagonal;
+    => nrel_associative_connection: by_short_diagonal;
+    => nrel_associative_connection: by_short_castling;
+    => nrel_associative_connection: by_material_advantage;
+    => nrel_associative_connection: by_pawn_end;
+
+    => nrel_etalon_online_idx: [34020];;

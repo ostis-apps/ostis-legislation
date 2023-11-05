@@ -1,0 +1,28 @@
+
+by_contract_on_cooperation_between_education_institution_and_recruitment_organization
+    => nrel_main_idtf: [contract on cooperation between education institution and recruitment organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор о взаимодействии учреждения образования с организацией-заказчиком кадров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор аб узаемадзеянні ўстановы адукацыі з арганізацыяй-заказчыкам кадраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_on_cooperation_between_education_institution_and_recruitment_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract_on_cooperation;
+    => nrel_associative_connection: by_educational_relations;
+    => nrel_associative_connection: by_personnel_acquiring_organization;
+    => nrel_associative_connection: by_education_institution;
+
+    => nrel_etalon_online_idx: [4098];;

@@ -1,0 +1,30 @@
+
+by_area_of_responsibility_of_the_air_traffic_support_body_flight_control
+    => nrel_main_idtf: [area of responsibility of the air traffic support body (flight control)] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона ответственности органа обслуживания воздушного движения (управления полетами)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона адказнасці органа абслугоўвання паветранага руху (кіраванні палётамі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_area_of_responsibility_of_the_air_traffic_support_body_flight_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_responsibility_zone_of_the_flight_control_body;
+    => nrel_associative_connection: by_true_height;
+    => nrel_associative_connection: by_common_flight_management;
+    => nrel_associative_connection: by_direct_flight_control;
+    => nrel_associative_connection: by_term_flights;
+    => nrel_associative_connection: by_flight_control;
+
+    => nrel_etalon_online_idx: [36582];;

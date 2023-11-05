@@ -1,0 +1,34 @@
+
+by_freight_agreement
+    => nrel_main_idtf: [freight agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор фрахтования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор фрахтавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_freight_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_lease_contract_freight_for_a_time__of_ship_with_crew_time_charter;
+    => nrel_associative_connection: by_lease_contract_of_ship_without_crew_berbout_charter;
+    => nrel_associative_connection: by_lease_contract_aircraft_freighting_charter;
+    => nrel_associative_connection: by_agreement_on_marine_mediation_services;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_steel_time;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_freight;
+
+    => nrel_etalon_online_idx: [3692];;

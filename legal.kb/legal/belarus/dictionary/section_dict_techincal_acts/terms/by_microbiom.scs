@@ -1,0 +1,29 @@
+
+by_microbiom
+    => nrel_main_idtf: [microbiom] (* <- lang_en;; *);
+    => nrel_main_idtf: [микробиом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мікрабіём] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_microbiom_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biometrics;
+    => nrel_associative_connection: by_probability;
+    => nrel_associative_connection: by_gastroenterology;
+    => nrel_associative_connection: by_dose;
+    => nrel_associative_connection: by_microbiota;
+
+    => nrel_etalon_online_idx: [33436];;

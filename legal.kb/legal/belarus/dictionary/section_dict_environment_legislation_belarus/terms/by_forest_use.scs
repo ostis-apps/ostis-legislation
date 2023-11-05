@@ -1,0 +1,46 @@
+
+by_forest_use
+    => nrel_main_idtf: [forest use] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесопользование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесакарыстанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_use_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forestry_management;
+    => nrel_associative_connection: by_combined_forest_regeneration;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forest_resources;
+    => nrel_associative_connection: by_forest_user;
+    => nrel_associative_connection: by_multifunctional_forest_management;
+    => nrel_associative_connection: by_forests_protection;
+
+    => nrel_etalon_online_idx: [2735];;

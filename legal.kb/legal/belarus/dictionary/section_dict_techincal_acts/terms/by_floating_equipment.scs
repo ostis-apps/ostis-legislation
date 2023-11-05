@@ -1,0 +1,72 @@
+
+by_floating_equipment
+    => nrel_main_idtf: [floating equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [плавучее средство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плывучы сродак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_floating_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_floating_equipment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_floating_equipment_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_towed_convoy;
+    => nrel_associative_connection: by_inland_water_transport;
+    => nrel_associative_connection: by_use_of_mechanical_ground_water_or_air_vehicles_in_illegal_hunting;
+    => nrel_associative_connection: by_use_of_mechanical_vehicles_that_are_not_subject_to_use_on_roads_as_well_as_floating_objects;
+    => nrel_associative_connection: by_marine_vessels;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_marine_transport;
+    => nrel_associative_connection: by_person_responsible_for_the_passage_of_ships_and_floating_objects;
+    => nrel_associative_connection: by_crossing_courses;
+    => nrel_associative_connection: by_floating_establishment;
+    => nrel_associative_connection: by_floating_object;
+    => nrel_associative_connection: by_maintenance_of_motor_vehicles_that_are_not_subject_to_use_on_roads_as_well_as_floating_objects;
+    => nrel_associative_connection: by_connection_of_floating_material;
+    => nrel_associative_connection: by_rack_unit;
+    => nrel_associative_connection: by_vessel_in_the_parking_lot;
+    => nrel_associative_connection: by_vessel_on_the_move;
+    => nrel_associative_connection: by_boatmaster;
+    => nrel_associative_connection: by_successful_group;
+
+    => nrel_etalon_online_idx: [20157];;

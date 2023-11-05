@@ -1,0 +1,42 @@
+
+by_use_of_vehicle
+    => nrel_main_idtf: [use of vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [использование транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкарыстанне транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_use_of_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_use_of_vehicle_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_permit_for_admission_of_a_vehicle_to_participate_in_road_traffic;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_etalon_online_idx: [11900];;

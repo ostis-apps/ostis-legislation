@@ -1,0 +1,17 @@
+
+by_diesel_locomotive
+    => nrel_main_idtf: [diesel locomotive] (* <- lang_en;; *);
+    => nrel_main_idtf: [тепловоз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цеплавоз] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_rolling_stock;
+    => nrel_associative_connection: by_jogging_locomotive;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_economic_train;
+    => nrel_associative_connection: by_train_signals;
+    => nrel_associative_connection: by_locomotive_turnover_point;
+    => nrel_associative_connection: by_maneuver_manager;
+
+    => nrel_etalon_online_idx: [24790];;

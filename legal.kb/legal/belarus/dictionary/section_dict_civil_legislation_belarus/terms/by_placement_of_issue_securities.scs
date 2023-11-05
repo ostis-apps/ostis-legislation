@@ -1,0 +1,36 @@
+
+by_placement_of_issue_securities
+    => nrel_main_idtf: [placement of issue securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [размещение эмиссионных ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [размяшчэнне эмісійных каштоўных папер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_placement_of_issue_securities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_undocumented_form_of_emission_securities;
+    => nrel_associative_connection: by_release_of_emission_securities;
+    => nrel_associative_connection: by_documentary_form_of_emission_securities;
+    => nrel_associative_connection: by_additional_issue_of_emission_securities;
+    => nrel_associative_connection: by_nominal_emission_securities;
+    => nrel_associative_connection: by_handling_of_emission_securities;
+    => nrel_associative_connection: by_decision_on_issue_additional_issue_of_issue_securities;
+    => nrel_associative_connection: by_repo_transaction;
+    => nrel_associative_connection: by_repo_transactions;
+    => nrel_associative_connection: by_bearer_security;
+    => nrel_associative_connection: by_issue_securities;
+    => nrel_associative_connection: by_issue_of_equity_securities;
+
+    => nrel_etalon_online_idx: [27827];;

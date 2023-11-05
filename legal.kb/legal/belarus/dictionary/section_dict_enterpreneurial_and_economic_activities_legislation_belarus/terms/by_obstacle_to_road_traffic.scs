@@ -1,0 +1,32 @@
+
+by_obstacle_to_road_traffic
+    => nrel_main_idtf: [obstacle to road traffic] (* <- lang_en;; *);
+    => nrel_main_idtf: [препятствие для дорожного движения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перашкода для дарожнага руху] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obstacle_to_road_traffic_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_compelled_stop_of_a_vehicle;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_road_surface;
+    => nrel_associative_connection: by_shunting;
+    => nrel_associative_connection: by_maneuvering_maneuver;
+    => nrel_associative_connection: by_danger_to_traffic;
+    => nrel_associative_connection: by_vehicle_stop;
+    => nrel_associative_connection: by_advantage;
+
+    => nrel_etalon_online_idx: [21163];;

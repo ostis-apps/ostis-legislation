@@ -1,0 +1,28 @@
+
+by_product_label_label_of_jewelery_containing_elements_means_of_protection_against_forgery_and_intended_to_apply_identification_code
+    => nrel_main_idtf: [product label (label) of jewelery containing elements (means) of protection against forgery and intended to apply identification code] (* <- lang_en;; *);
+    => nrel_main_idtf: [товарный ярлык (этикетка) ювелирного изделия, содержащий элементы (средства) защиты от подделки и предназначенный для нанесения кода идентификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таварны ярлык (этыкетка) ювелірнага вырабу, які змяшчае элементы (сродкі) абароны ад падробкі і прызначаны для нанясення кода ідэнтыфікацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_product_label_label_of_jewelery_containing_elements_means_of_protection_against_forgery_and_intended_to_apply_identification_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_product_owner;
+    => nrel_associative_connection: by_marked_goods;
+    => nrel_associative_connection: by_product_label_label;
+    => nrel_associative_connection: by_product_label_label_of_jewelery;
+
+    => nrel_etalon_online_idx: [31801];;

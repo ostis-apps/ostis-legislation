@@ -1,0 +1,45 @@
+
+by_combined_forest_regeneration
+    => nrel_main_idtf: [combined forest regeneration] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбинированное возобновление лесов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбінаванае аднаўленне лясоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_forest_regeneration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_forest_regeneration_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reproduction_of_forests;
+    => nrel_associative_connection: by_reinforcement_planting;
+    => nrel_associative_connection: by_natural_forest_regeneration;
+    => nrel_associative_connection: by_artificial_reforestation;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forest_use;
+
+    => nrel_etalon_online_idx: [12096];;

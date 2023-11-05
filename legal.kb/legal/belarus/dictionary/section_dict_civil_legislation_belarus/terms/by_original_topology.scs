@@ -1,0 +1,28 @@
+
+by_original_topology
+    => nrel_main_idtf: [original topology] (* <- lang_en;; *);
+    => nrel_main_idtf: [оригинальная топология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арыгінальная тапалогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_original_topology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_author_of_topology;
+    => nrel_associative_connection: by_use_of_topology;
+    => nrel_associative_connection: by_original_topology_of_integrated_microcircuit;
+    => nrel_associative_connection: by_coauthorship_in_topology_creation;
+
+    => nrel_etalon_online_idx: [19310];;

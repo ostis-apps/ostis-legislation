@@ -1,0 +1,46 @@
+
+by_nominal_accrued_average_monthly_salary
+    => nrel_main_idtf: [nominal accrued average monthly salary] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная начисленная среднемесячная заработная плата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная налічаная сярэднямесячная заработная плата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_accrued_average_monthly_salary_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_accrued_average_monthly_salary_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_salary;
+    => nrel_associative_connection: by_monthly_minimum_salary;
+    => nrel_associative_connection: by_minimum_salary_monthly_and_hourly;
+    => nrel_associative_connection: by_employees_remuneration_for_labour;
+    => nrel_associative_connection: by_maximum_amount_of_payments;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_etalon_online_idx: [27601];;

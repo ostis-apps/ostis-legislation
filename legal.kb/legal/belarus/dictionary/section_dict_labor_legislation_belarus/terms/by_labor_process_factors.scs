@@ -1,0 +1,30 @@
+
+by_labor_process_factors
+    => nrel_main_idtf: [labor process factors] (* <- lang_en;; *);
+    => nrel_main_idtf: [факторы трудового процесса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фактары працоўнага працэсу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_labor_process_factors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_labor_intensity;
+    => nrel_associative_connection: by_assessment_of_professional_risk;
+    => nrel_associative_connection: by_industrial_environment;
+    => nrel_associative_connection: by_productive_factor;
+    => nrel_associative_connection: by_heavy_of_labor;
+    => nrel_associative_connection: by_factors_in_the_working_environment;
+
+    => nrel_etalon_online_idx: [32628];;

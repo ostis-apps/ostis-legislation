@@ -1,0 +1,41 @@
+
+by_full_rent
+    => nrel_main_idtf: [full rent] (* <- lang_en;; *);
+    => nrel_main_idtf: [полная аренда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [поўная арэнда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_full_rent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_full_rent_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contractual_rent;
+    => nrel_associative_connection: by_hourly_rent;
+
+    => nrel_etalon_online_idx: [31165];;

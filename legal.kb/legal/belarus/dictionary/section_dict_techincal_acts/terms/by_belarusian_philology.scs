@@ -1,0 +1,32 @@
+
+by_belarusian_philology
+    => nrel_main_idtf: [belarusian philology] (* <- lang_en;; *);
+    => nrel_main_idtf: [белорусская филология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [беларуская філалогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_belarusian_philology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_east_philology;
+    => nrel_associative_connection: by_business_communication;
+    => nrel_associative_connection: by_classical_philology;
+    => nrel_associative_connection: by_literature_editing;
+    => nrel_associative_connection: by_literature_and_editorial_activity;
+    => nrel_associative_connection: by_literature_and_editorial_employee;
+    => nrel_associative_connection: by_literature_worker_journalist;
+    => nrel_associative_connection: by_literary_editor;
+
+    => nrel_etalon_online_idx: [29236];;

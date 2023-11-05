@@ -1,0 +1,18 @@
+
+by_critical_temperature
+    => nrel_main_idtf: [critical temperature] (* <- lang_en;; *);
+    => nrel_main_idtf: [критическая температура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крытычная тэмпература] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_emergency_temperature;
+    => nrel_associative_connection: by_critical_temperature_specific_super_conducting_material;
+    => nrel_associative_connection: by_dangerous_substances;
+    => nrel_associative_connection: by_temperature_limit;
+    => nrel_associative_connection: by_flash_point;
+    => nrel_associative_connection: by_autoignition_temperature;
+    => nrel_associative_connection: by_selfaccelerating_decomposition_temperature;
+    => nrel_associative_connection: by_temperature_graph;
+
+    => nrel_etalon_online_idx: [16447];;

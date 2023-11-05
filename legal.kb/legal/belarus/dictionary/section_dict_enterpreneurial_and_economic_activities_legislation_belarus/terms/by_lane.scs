@@ -1,0 +1,83 @@
+
+by_lane
+    => nrel_main_idtf: [lane] (* <- lang_en;; *);
+    => nrel_main_idtf: [полоса движения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паласа руху] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lane_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lane_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lane_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lane_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_functional_block_of_premises;
+    => nrel_associative_connection: by_house_of_night_stay;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_reach_area;
+    => nrel_associative_connection: by_functional_zone_zone_of_a_particular_purpose;
+    => nrel_associative_connection: by_extreme_right_left_position_on_the_carriageway;
+    => nrel_associative_connection: by_overtaking;
+    => nrel_associative_connection: by_ergonomic_overall_parameters;
+    => nrel_associative_connection: by_intersection;
+    => nrel_associative_connection: by_carriageway;
+    => nrel_associative_connection: by_vessel_pass;
+    => nrel_associative_connection: by_medium;
+    => nrel_associative_connection: by_divergence_of_vessels;
+    => nrel_associative_connection: by_reversible_traffic_lights;
+
+    => nrel_etalon_online_idx: [20559];;

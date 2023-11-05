@@ -1,0 +1,34 @@
+
+by_foster_family_familytype_childrens_home
+    => nrel_main_idtf: [foster family, family-type children's home] (* <- lang_en;; *);
+    => nrel_main_idtf: [приемная семья, детский дом семейного типа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыёмная сям'я, дзіцячы дом сямейнага тыпа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foster_family_familytype_childrens_home_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_guarantees_for_social_protection_of_orphaned_children_children_without_parental_care_and_also_persons_from_the_number_of_orphaned_children_and_children_without_parental_care;
+    => nrel_associative_connection: by_children_without_parental_care;
+    => nrel_associative_connection: by_orphaned_children;
+    => nrel_associative_connection: by_orphanage;
+    => nrel_associative_connection: by_familytype_orphanage;
+    => nrel_associative_connection: by_persons_from_the_number_of_orphans_and_children_without_parental_care;
+    => nrel_associative_connection: by_placing_children_on_the_state_care;
+    => nrel_associative_connection: by_adoption_family;
+    => nrel_associative_connection: by_adopting_parents;
+    => nrel_associative_connection: by_adopted_child_children;
+
+    => nrel_etalon_online_idx: [21233];;

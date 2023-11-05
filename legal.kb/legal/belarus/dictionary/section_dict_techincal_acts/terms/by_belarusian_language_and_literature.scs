@@ -1,0 +1,26 @@
+
+by_belarusian_language_and_literature
+    => nrel_main_idtf: [belarusian language and literature] (* <- lang_en;; *);
+    => nrel_main_idtf: [белорусский язык и литература] (* <- lang_ru;; *);
+    => nrel_main_idtf: [беларуская мова і літаратура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_belarusian_language_and_literature_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_educational_standard;
+    => nrel_associative_connection: by_retraining;
+
+    => nrel_etalon_online_idx: [40773];;

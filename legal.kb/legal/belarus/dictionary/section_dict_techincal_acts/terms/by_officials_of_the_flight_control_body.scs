@@ -1,0 +1,28 @@
+
+by_officials_of_the_flight_control_body
+    => nrel_main_idtf: [officials of the flight control body] (* <- lang_en;; *);
+    => nrel_main_idtf: [должностные лица органа управления полетами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовыя асобы органа кіравання палётамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_officials_of_the_flight_control_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_flights_management_body;
+    => nrel_associative_connection: by_radio_interference;
+    => nrel_associative_connection: by_radiofrequency;
+    => nrel_associative_connection: by_radio_spectrum;
+
+    => nrel_etalon_online_idx: [39908];;

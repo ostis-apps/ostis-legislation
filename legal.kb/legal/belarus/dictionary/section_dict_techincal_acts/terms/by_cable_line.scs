@@ -1,0 +1,30 @@
+
+by_cable_line
+    => nrel_main_idtf: [cable line] (* <- lang_en;; *);
+    => nrel_main_idtf: [кабельная линия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кабельная лінія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cable_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_main_switchboard;
+    => nrel_associative_connection: by_team_network;
+    => nrel_associative_connection: by_cable_construction;
+    => nrel_associative_connection: by_housing_flapboard;
+    => nrel_associative_connection: by_line_connector;
+    => nrel_associative_connection: by_electrical_installation;
+
+    => nrel_etalon_online_idx: [31274];;

@@ -1,0 +1,31 @@
+
+by_prospective_financial_information
+    => nrel_main_idtf: [prospective financial information] (* <- lang_en;; *);
+    => nrel_main_idtf: [прогнозная финансовая информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прагнозная фінансавая інфармацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prospective_financial_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income_of_the_future_periods;
+    => nrel_associative_connection: by_development_forecast;
+    => nrel_associative_connection: by_financial_results_forecast;
+    => nrel_associative_connection: by_budgeted_balance_sheet;
+    => nrel_associative_connection: by_deferred_expenses;
+    => nrel_associative_connection: by_financial_information_transfer_system;
+    => nrel_associative_connection: by_financial_information_compilation_service;
+
+    => nrel_etalon_online_idx: [21424];;

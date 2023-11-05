@@ -1,0 +1,32 @@
+
+by_local_estimate_local_estimated_calculation
+    => nrel_main_idtf: [local estimate (local estimated calculation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [локальная смета (локальный сметный расчет)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лакальны каштарыс (лакальны каштарысны разлік)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_estimate_local_estimated_calculation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_local_estimate_local_estimated_calculation_resource_and_estimate_calculation;
+    => nrel_associative_connection: by_object_estimate_object_estimate_calculation;
+    => nrel_associative_connection: by_resourceestimate_standards;
+    => nrel_associative_connection: by_consolidated_estimate_calculation_of_the_cost_of_construction;
+    => nrel_associative_connection: by_consolidated_estimate_calculation_of_the_cost_of_construction_of_the_facility;
+    => nrel_associative_connection: by_consolidated_cost_estimate_for_the_construction_of_the_facility_construction_phase;
+    => nrel_associative_connection: by_estimate_estimate_documentation;
+    => nrel_associative_connection: by_technological_structure_of_the_facility_construction;
+
+    => nrel_etalon_online_idx: [16782];;

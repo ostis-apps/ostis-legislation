@@ -1,0 +1,32 @@
+
+by_immunity
+    => nrel_main_idtf: [immunity] (* <- lang_en;; *);
+    => nrel_main_idtf: [иммунитет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імунітэт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_immunity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_allergic_reaction;
+    => nrel_associative_connection: by_allergy;
+    => nrel_associative_connection: by_allergology_and_immunology;
+    => nrel_associative_connection: by_antibodies;
+    => nrel_associative_connection: by_immunodeficiency;
+    => nrel_associative_connection: by_immunocorrection;
+    => nrel_associative_connection: by_immunotherapy;
+    => nrel_associative_connection: by_pollinosis;
+
+    => nrel_etalon_online_idx: [33418];;

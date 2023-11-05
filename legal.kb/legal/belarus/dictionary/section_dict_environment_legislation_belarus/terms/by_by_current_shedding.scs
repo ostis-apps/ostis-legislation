@@ -1,0 +1,29 @@
+
+by_by_current_shedding
+    => nrel_main_idtf: [by_current_shedding] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущий отпад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучы отпад] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_current_shedding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_laying_out_of_trapping_wood_trees;
+    => nrel_associative_connection: by_forest_protection_measures;
+    => nrel_associative_connection: by_total_shedding;
+    => nrel_associative_connection: by_lost_forest_plantations;
+    => nrel_associative_connection: by_sanitary_requirements;
+
+    => nrel_etalon_online_idx: [36577];;

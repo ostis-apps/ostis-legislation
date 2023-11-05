@@ -1,0 +1,100 @@
+
+by_cargoes
+    => nrel_main_idtf: [cargoes] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargoes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargoes_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargoes_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railroad_freight_cars;
+    => nrel_associative_connection: by_air_carriage_of_hazardous_cargo;
+    => nrel_associative_connection: by_military_cargo;
+    => nrel_associative_connection: by_sample_of_carried_goods;
+    => nrel_associative_connection: by_freight_outhang;
+    => nrel_associative_connection: by_loading_gauge;
+    => nrel_associative_connection: by_urban_road_carriage_of_goods;
+    => nrel_associative_connection: by_cargo_sending;
+    => nrel_associative_connection: by_cargo_platform;
+    => nrel_associative_connection: by_cargo_owner;
+    => nrel_associative_connection: by_vehicle_capacity;
+    => nrel_associative_connection: by_cargo_place;
+    => nrel_associative_connection: by_freight_hauling_direction;
+    => nrel_associative_connection: by_cargo_space_above_deck_main_part;
+    => nrel_associative_connection: by_cargo_space_above_deck_additional_part;
+    => nrel_associative_connection: by_cargo_space_pumproom;
+    => nrel_associative_connection: by_cargo_vehicle_of_general_purpose;
+    => nrel_associative_connection: by_truck;
+    => nrel_associative_connection: by_cargo_handling_terminal;
+    => nrel_associative_connection: by_loadcarrying_device;
+    => nrel_associative_connection: by_shipper;
+    => nrel_associative_connection: by_consignee;
+    => nrel_associative_connection: by_consignee_receiver;
+    => nrel_associative_connection: by_shipping_documents;
+    => nrel_associative_connection: by_cargo_for_physical_persons;
+    => nrel_associative_connection: by_wooden_intermediate_bulk_container;
+    => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_zone_and_degree_of_negligibility;
+    => nrel_associative_connection: by_swinging_conveyor;
+    => nrel_associative_connection: by_classification_of_dangerous_cargos;
+    => nrel_associative_connection: by_tank_boiler;
+    => nrel_associative_connection: by_manipulation_signs;
+    => nrel_associative_connection: by_international_carriage_of_goods_by_road;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_package_transport;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_carriage_in_bulk;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_less_container_load;
+    => nrel_associative_connection: by_perishable_cargoes;
+    => nrel_associative_connection: by_freezing_cargoes;
+    => nrel_associative_connection: by_special_cargoes;
+    => nrel_associative_connection: by_cargo_packaging_tool;
+    => nrel_associative_connection: by_transport_and_technological_operations;
+    => nrel_associative_connection: by_transport_package;
+
+    => nrel_etalon_online_idx: [4346];;

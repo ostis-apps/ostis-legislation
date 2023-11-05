@@ -1,0 +1,72 @@
+
+by_housing
+    => nrel_main_idtf: [housing] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилище] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллё] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rental_accommodation;
+    => nrel_associative_connection: by_departmental_housing_fund;
+    => nrel_associative_connection: by_old_houses;
+    => nrel_associative_connection: by_living_room;
+    => nrel_associative_connection: by_housingconstruction_cooperative;
+    => nrel_associative_connection: by_residential_building_for_special_purpose;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_social_housing_premise;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_residential_buildings;
+    => nrel_associative_connection: by_isolated_living_room;
+    => nrel_associative_connection: by_apartment_building;
+    => nrel_associative_connection: by_unsettled_residential_premises;
+    => nrel_associative_connection: by_uninsulated_living_room;
+    => nrel_associative_connection: by_total_area_of_residential_premises;
+    => nrel_associative_connection: by_oneapartment_residential_house;
+    => nrel_associative_connection: by_primary_housing_market;
+    => nrel_associative_connection: by_back_office;
+
+    => nrel_etalon_online_idx: [3720];;

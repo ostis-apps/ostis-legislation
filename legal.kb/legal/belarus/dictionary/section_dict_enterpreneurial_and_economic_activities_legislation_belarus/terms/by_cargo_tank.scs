@@ -1,0 +1,17 @@
+
+by_cargo_tank
+    => nrel_main_idtf: [cargo tank] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовой танк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавы танк] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_independent_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank_gasfree;
+    => nrel_associative_connection: by_cargo_tank_empty;
+    => nrel_associative_connection: by_cargo_tank_unloaded;
+    => nrel_associative_connection: by_stripping_system;
+    => nrel_associative_connection: by_rescue_winch;
+    => nrel_associative_connection: by_tanker;
+
+    => nrel_etalon_online_idx: [13887];;

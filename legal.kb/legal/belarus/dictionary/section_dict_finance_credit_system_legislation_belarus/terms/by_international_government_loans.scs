@@ -1,0 +1,32 @@
+
+by_international_government_loans
+    => nrel_main_idtf: [international government loans] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешние государственные займы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешнія дзяржаўныя пазыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_government_loans_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_agent_bank_of_the_government_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_external_loans;
+    => nrel_associative_connection: by_external_public_debt_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_domestic_government_loans;
+    => nrel_associative_connection: by_state_borrowings;
+    => nrel_associative_connection: by_state_loans;
+    => nrel_associative_connection: by_state_debt_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_user_of_external_loan;
+
+    => nrel_etalon_online_idx: [1200];;

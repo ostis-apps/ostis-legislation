@@ -1,0 +1,28 @@
+
+by_control_and_diagnostic_slaughter
+    => nrel_main_idtf: [control and diagnostic slaughter] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольно-диагностический убой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольна-дыягнастычны забой] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_and_diagnostic_slaughter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_animal_infected_with_bovine_enzootic_leukemia_virus;
+    => nrel_associative_connection: by_source_of_causative_agents_of_animal_infectious_diseases;
+    => nrel_associative_connection: by_quarantining;
+    => nrel_associative_connection: by_herd;
+
+    => nrel_etalon_online_idx: [40154];;

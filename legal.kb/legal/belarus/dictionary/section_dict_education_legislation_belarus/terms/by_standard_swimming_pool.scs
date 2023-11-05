@@ -1,0 +1,44 @@
+
+by_standard_swimming_pool
+    => nrel_main_idtf: [standard swimming pool] (* <- lang_en;; *);
+    => nrel_main_idtf: [стандартный плавательный бассейн] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стандартны плавальны басейн] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_swimming_pool_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_swimming_pool_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_swimming_pool_for_jumps_in_water;
+    => nrel_associative_connection: by_mini_pool;
+    => nrel_associative_connection: by_nonstandard_swimming_pool;
+    => nrel_associative_connection: by_swimming;
+    => nrel_associative_connection: by_imm_75;
+
+    => nrel_etalon_online_idx: [24169];;

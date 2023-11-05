@@ -1,0 +1,16 @@
+
+by_order_price
+    => nrel_main_idtf: [order price ] (* <- lang_en;; *);
+    => nrel_main_idtf: [цена заказа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цана заказу] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_selling_price;
+    => nrel_associative_connection: by_subject_of_the_order;
+    => nrel_associative_connection: by_price_tariff;
+    => nrel_associative_connection: by_customer_price;
+    => nrel_associative_connection: by_price_of_goods;
+    => nrel_associative_connection: by_price_step;
+
+    => nrel_etalon_online_idx: [5234];;

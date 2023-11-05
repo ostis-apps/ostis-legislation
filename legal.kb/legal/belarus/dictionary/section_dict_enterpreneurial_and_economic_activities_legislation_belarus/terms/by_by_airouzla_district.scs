@@ -1,0 +1,32 @@
+
+by_by_airouzla_district
+    => nrel_main_idtf: [by_airouzla_district] (* <- lang_en;; *);
+    => nrel_main_idtf: [район аэроузла] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раён аэравузла] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_airouzla_district_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_aerodrome_traffic;
+    => nrel_associative_connection: by_airnode;
+    => nrel_associative_connection: by_aerodrome_area;
+    => nrel_associative_connection: by_airshow_area;
+    => nrel_associative_connection: by_area_of_performance_of_aviation_works;
+    => nrel_associative_connection: by_flight_information_region;
+    => nrel_associative_connection: by_aerodrome_territory;
+
+    => nrel_etalon_online_idx: [22099];;

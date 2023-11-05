@@ -1,0 +1,27 @@
+
+by_foreign_scientific_publications
+    => nrel_main_idtf: [foreign scientific publications] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранные научные издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежныя навуковыя выданні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_scientific_publications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dissertation;
+    => nrel_associative_connection: by_doctors_dissertation_in_the_form_of_scientific_report;
+    => nrel_associative_connection: by_masters_dissertation;
+
+    => nrel_etalon_online_idx: [40621];;

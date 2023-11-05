@@ -1,0 +1,44 @@
+
+by_value_computation_method
+    => nrel_main_idtf: [value computation method] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод расчета стоимости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад разліку кошту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_value_computation_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_value_computation_method_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_value_appraisal;
+    => nrel_associative_connection: by_assessed_cost;
+    => nrel_associative_connection: by_initial_cost;
+    => nrel_associative_connection: by_accounts;
+    => nrel_associative_connection: by_cost;
+
+    => nrel_etalon_online_idx: [17311];;

@@ -1,0 +1,34 @@
+
+by_assessment_of_working_conditions_at_certification
+    => nrel_main_idtf: [assessment of working conditions at certification] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценка условий труда при аттестации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэнка умоў працы пры атэстацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assessment_of_working_conditions_at_certification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attestation_of_working_condition_at_workplaces;
+    => nrel_associative_connection: by_safe_working_conditions;
+    => nrel_associative_connection: by_harmful_working_conditions;
+    => nrel_associative_connection: by_card_of_work_places_attestation_on_labor_conditions;
+    => nrel_associative_connection: by_dangerous_working_conditions;
+    => nrel_associative_connection: by_evaluationassessment;
+    => nrel_associative_connection: by_assessment_of_working_conditions;
+    => nrel_associative_connection: by_certification_of_the_sanitary_and_technical_condition_of_working_conditions_and_safety;
+    => nrel_associative_connection: by_occupational_disease_chronic_or_acute;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_etalon_online_idx: [19721];;

@@ -1,0 +1,29 @@
+
+by_subrogation
+    => nrel_main_idtf: [subrogation] (* <- lang_en;; *);
+    => nrel_main_idtf: [суброгация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [субрагацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subrogation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_compensation_for_losses;
+    => nrel_associative_connection: by_insurants;
+    => nrel_associative_connection: by_insurant;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_insurers;
+
+    => nrel_etalon_online_idx: [1992];;

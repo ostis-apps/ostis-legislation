@@ -1,0 +1,28 @@
+
+by_gridirons
+    => nrel_main_idtf: [gridirons] (* <- lang_en;; *);
+    => nrel_main_idtf: [колосники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каласнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gridirons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_perches;
+    => nrel_associative_connection: by_scene_tablet;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_stage;
+
+    => nrel_etalon_online_idx: [15985];;

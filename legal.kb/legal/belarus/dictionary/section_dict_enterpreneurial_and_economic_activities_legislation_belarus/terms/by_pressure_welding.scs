@@ -1,0 +1,30 @@
+
+by_pressure_welding
+    => nrel_main_idtf: [pressure welding] (* <- lang_en;; *);
+    => nrel_main_idtf: [сварка давлением] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зварка ціскам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pressure_welding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_competent_organizations_in_the_field_of_research_certification_of_the_technological_process_of_welding_and_determination_of_results_and_the_field_of_dissemination_of_industrial_certification_of_welding_technology;
+    => nrel_associative_connection: by_engineering_industry;
+    => nrel_associative_connection: by_national_classifier;
+    => nrel_associative_connection: by_national_classifier_of_the_republic_of_belarus_specialities_and_qualifications;
+    => nrel_associative_connection: by_fusion_welding;
+    => nrel_associative_connection: by_;
+
+    => nrel_etalon_online_idx: [39687];;

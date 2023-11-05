@@ -1,0 +1,28 @@
+
+by_foreign_anonymous_donors
+    => nrel_main_idtf: [foreign anonymous donors] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранные анонимные жертвователи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежныя ананімныя ахвярадаўцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_anonymous_donors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_charitable_account;
+    => nrel_associative_connection: by_donation_of_a_citizen;
+    => nrel_associative_connection: by_donation_of_a_legal_person;
+    => nrel_associative_connection: by_donation;
+
+    => nrel_etalon_online_idx: [41539];;

@@ -1,0 +1,46 @@
+
+by_cyberincident
+    => nrel_main_idtf: [cyberincident] (* <- lang_en;; *);
+    => nrel_main_idtf: [киберинцидент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіберінцыдэнт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cyberincident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cyberincident_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_destructive_information_impact;
+    => nrel_associative_connection: by_cyber_attack;
+    => nrel_associative_connection: by_cybersecurity;
+    => nrel_associative_connection: by_cyber_terrorism;
+    => nrel_associative_connection: by_cyberresilience;
+    => nrel_associative_connection: by_objects_of_information_infrastructure;
+    => nrel_associative_connection: by_crimes_in_the_information_sphere;
+
+    => nrel_etalon_online_idx: [31347];;

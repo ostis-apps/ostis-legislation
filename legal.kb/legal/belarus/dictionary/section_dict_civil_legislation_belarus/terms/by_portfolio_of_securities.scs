@@ -1,0 +1,30 @@
+
+by_portfolio_of_securities
+    => nrel_main_idtf: [portfolio of securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [портфель ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партфель каштоўных папер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_portfolio_of_securities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_qualified_investors_in_the_securities_market;
+    => nrel_associative_connection: by_securities_turnover;
+    => nrel_associative_connection: by_purchase_price_of_securities;
+    => nrel_associative_connection: by_portfolio_investments;
+    => nrel_associative_connection: by_public_announcement;
+    => nrel_associative_connection: by_country_portfolio;
+
+    => nrel_etalon_online_idx: [8962];;

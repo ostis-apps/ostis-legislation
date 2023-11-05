@@ -1,0 +1,66 @@
+
+by_search_work
+    => nrel_main_idtf: [search work] (* <- lang_en;; *);
+    => nrel_main_idtf: [поисковая работа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пошукавая работа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_search_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_search_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_search_work_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_war_casualties;
+    => nrel_associative_connection: by_undocumented_military_buryings_buryings_of_war_victims;
+    => nrel_associative_connection: by_arrangement_of_military_burials_and_burials_of_war_victims;
+    => nrel_associative_connection: by_search;
+    => nrel_associative_connection: by_search_military_unit;
+    => nrel_associative_connection: by_exploration_work;
+    => nrel_associative_connection: by_field_search_works;
+    => nrel_associative_connection: by_search_and_rescue_region;
+    => nrel_associative_connection: by_maintenance_of_military__burials_and_burials_of_war_victims;
+    => nrel_associative_connection: by_preserving_the_memory_of_the_victims_of_war;
+    => nrel_associative_connection: by_specialized_searching_military_installation;
+    => nrel_associative_connection: by_permanenting_the_memory_of_the_die_in_the_defense_of_the_fatherland;
+
+    => nrel_etalon_online_idx: [20485];;

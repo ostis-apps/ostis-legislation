@@ -1,0 +1,27 @@
+
+by_neuroleukosis
+    => nrel_main_idtf: [neuroleukosis] (* <- lang_en;; *);
+    => nrel_main_idtf: [нейролейкоз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нейралейкоз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neuroleukosis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_blood_components;
+    => nrel_associative_connection: by_blood;
+    => nrel_associative_connection: by_acute_myeloid_leukemia;
+
+    => nrel_etalon_online_idx: [18039];;

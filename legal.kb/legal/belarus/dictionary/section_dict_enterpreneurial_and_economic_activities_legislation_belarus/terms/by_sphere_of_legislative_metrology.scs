@@ -1,0 +1,30 @@
+
+by_sphere_of_legislative_metrology
+    => nrel_main_idtf: [sphere of legislative metrology] (* <- lang_en;; *);
+    => nrel_main_idtf: [сфера законодательной метрологии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сфера заканадаўчай метралогіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sphere_of_legislative_metrology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_metrological_service;
+    => nrel_associative_connection: by_metrological_support;
+    => nrel_associative_connection: by_metrology;
+    => nrel_associative_connection: by_national_metrology_institute;
+    => nrel_associative_connection: by_authorized_legal_entity;
+
+    => nrel_etalon_online_idx: [27863];;

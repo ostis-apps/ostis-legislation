@@ -1,0 +1,34 @@
+
+by_openair_cage
+    => nrel_main_idtf: [open-air cage] (* <- lang_en;; *);
+    => nrel_main_idtf: [вольер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вальер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_openair_cage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviary_for_overexposure;
+    => nrel_associative_connection: by_openair_cage_hunting;
+    => nrel_associative_connection: by_aviaries;
+    => nrel_associative_connection: by_demonstration_aviary;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_zoo_zoological_park;
+    => nrel_associative_connection: by_contact_zoos;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunting_aviary;
+    => nrel_associative_connection: by_hunting_animals;
+
+    => nrel_etalon_online_idx: [7331];;

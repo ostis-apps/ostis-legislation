@@ -1,0 +1,48 @@
+
+by_project_capacity
+    => nrel_main_idtf: [project capacity] (* <- lang_en;; *);
+    => nrel_main_idtf: [проектная мощность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праектная магутнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_project_capacity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_project_capacity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_release_of_products;
+    => nrel_associative_connection: by_reaching_the_design_capacity;
+    => nrel_associative_connection: by_project_customer;
+    => nrel_associative_connection: by_project_performer;
+    => nrel_associative_connection: by_plan_of_production_and_financial_activity;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_production_capacity;
+    => nrel_associative_connection: by_production;
+    => nrel_associative_connection: by_average_power_output;
+
+    => nrel_etalon_online_idx: [21537];;

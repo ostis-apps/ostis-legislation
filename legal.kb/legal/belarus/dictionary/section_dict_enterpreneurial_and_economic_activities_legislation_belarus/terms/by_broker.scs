@@ -1,0 +1,28 @@
+
+by_broker
+    => nrel_main_idtf: [broker] (* <- lang_en;; *);
+    => nrel_main_idtf: [маклер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маклер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_broker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_broker;
+    => nrel_associative_connection: by_stock_exchange_contract;
+    => nrel_associative_connection: by_real_goods;
+    => nrel_associative_connection: by_commodity_exchange;
+
+    => nrel_etalon_online_idx: [6124];;

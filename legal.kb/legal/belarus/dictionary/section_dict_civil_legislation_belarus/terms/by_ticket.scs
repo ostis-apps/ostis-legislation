@@ -1,0 +1,44 @@
+
+by_ticket
+    => nrel_main_idtf: [ticket] (* <- lang_en;; *);
+    => nrel_main_idtf: [тикет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тікет] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_game_machine_initialization;
+    => nrel_associative_connection: by_gaming_machine_cash;
+    => nrel_associative_connection: by_software_verification_tools;
+    => nrel_associative_connection: by_bet_in_the_game_on_game_machines_bet;
+    => nrel_associative_connection: by_actually_pledged_average_percentage_of_cash_winning_of_the_game_machine;
+
+    => nrel_etalon_online_idx: [30932];;

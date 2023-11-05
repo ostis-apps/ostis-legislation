@@ -1,0 +1,30 @@
+
+by_international_network_of_auditing_organizations
+    => nrel_main_idtf: [international network of auditing organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная сеть аудиторских организаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародная сетка аўдытарскіх арганізацый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_network_of_auditing_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_engagement_team;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditing_engagements;
+
+    => nrel_etalon_online_idx: [39925];;

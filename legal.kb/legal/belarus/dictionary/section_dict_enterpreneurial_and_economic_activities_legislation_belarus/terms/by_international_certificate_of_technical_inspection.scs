@@ -1,0 +1,16 @@
+
+by_international_certificate_of_technical_inspection
+    => nrel_main_idtf: [international certificate of technical inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [международный сертификат технического осмотра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародны сертыфікат тэхнічнага агляду] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_certificate_owner;
+    => nrel_associative_connection: by_technical_control_point;
+    => nrel_associative_connection: by_certificate;
+    => nrel_associative_connection: by_technical_inspection;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [17155];;

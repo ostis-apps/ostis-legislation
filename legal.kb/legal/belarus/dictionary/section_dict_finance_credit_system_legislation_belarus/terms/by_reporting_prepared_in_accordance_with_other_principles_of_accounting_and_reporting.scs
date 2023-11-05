@@ -1,0 +1,27 @@
+
+by_reporting_prepared_in_accordance_with_other_principles_of_accounting_and_reporting
+    => nrel_main_idtf: [reporting prepared in accordance with other principles of accounting and reporting] (* <- lang_en;; *);
+    => nrel_main_idtf: [отчетность, подготовленная в соответствии с иными принципами учета и отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаздачнасць, падрыхтаваная у адпаведнасці з іншымі прынцыпамі уліку і справаздачнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_prepared_in_accordance_with_other_principles_of_accounting_and_reporting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auditors_report;
+    => nrel_associative_connection: by_audit_report_on_the_special_audit_engagement;
+    => nrel_associative_connection: by_reporting;
+
+    => nrel_etalon_online_idx: [19633];;

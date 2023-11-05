@@ -1,0 +1,28 @@
+
+by_term_deposits
+    => nrel_main_idtf: [term deposits] (* <- lang_en;; *);
+    => nrel_main_idtf: [срочные депозиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрміновыя дэпазіты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_term_deposits_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_bank_deposit_of_precious_metals_andor_precious_stones;
+    => nrel_associative_connection: by_deposits;
+    => nrel_associative_connection: by_bank_deposit_contract;
+
+    => nrel_etalon_online_idx: [24112];;

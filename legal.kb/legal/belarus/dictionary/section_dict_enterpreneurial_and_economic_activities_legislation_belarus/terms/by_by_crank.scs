@@ -1,0 +1,29 @@
+
+by_by_crank
+    => nrel_main_idtf: [by_crank] (* <- lang_en;; *);
+    => nrel_main_idtf: [кривошип] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крывашып] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_crank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_twocrank_mechanism;
+    => nrel_associative_connection: by_link;
+    => nrel_associative_connection: by_creadingforming_mechanism;
+    => nrel_associative_connection: by_crankandslot_mechanism;
+    => nrel_associative_connection: by_crankslide_mechanism;
+
+    => nrel_etalon_online_idx: [39649];;

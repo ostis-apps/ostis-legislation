@@ -1,0 +1,28 @@
+
+by_suspected_pigs_for_the_disease
+    => nrel_main_idtf: [suspected pigs for the disease] (* <- lang_en;; *);
+    => nrel_main_idtf: [подозрительные по заболеванию свиньи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падазроныя на захворванне свінні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspected_pigs_for_the_disease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_african_swine_fever;
+    => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_dysfunctional_african_swine_fever_outbreak;
+    => nrel_associative_connection: by_dysfunctional_site;
+
+    => nrel_etalon_online_idx: [40636];;

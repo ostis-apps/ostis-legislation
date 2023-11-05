@@ -1,0 +1,43 @@
+
+by_control_and_management_of_access
+    => nrel_main_idtf: [control and management of access ] (* <- lang_en;; *);
+    => nrel_main_idtf: [контроль и управление доступом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантроль і кіраванне доступам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_and_management_of_access_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_and_management_of_access_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_a_culture_of_preservation;
+    => nrel_associative_connection: by_unauthorized_access;
+    => nrel_associative_connection: by_access_control_and_management_system;
+    => nrel_associative_connection: by_vulnerabilities;
+
+    => nrel_etalon_online_idx: [31665];;

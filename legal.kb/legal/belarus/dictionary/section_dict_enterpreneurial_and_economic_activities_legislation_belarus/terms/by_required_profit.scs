@@ -1,0 +1,28 @@
+
+by_required_profit
+    => nrel_main_idtf: [required profit] (* <- lang_en;; *);
+    => nrel_main_idtf: [необходимая прибыль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неабходны прыбытак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_required_profit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gross_profit;
+    => nrel_associative_connection: by_planned_profit;
+    => nrel_associative_connection: by_limit_normative_of_return;
+    => nrel_associative_connection: by_regulated_activities;
+
+    => nrel_etalon_online_idx: [18068];;

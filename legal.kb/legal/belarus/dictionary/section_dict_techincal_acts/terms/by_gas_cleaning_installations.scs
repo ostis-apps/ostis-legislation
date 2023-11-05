@@ -1,0 +1,29 @@
+
+by_gas_cleaning_installations
+    => nrel_main_idtf: [gas cleaning installations] (* <- lang_en;; *);
+    => nrel_main_idtf: [газоочистные установки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газаачышчальные ўстаноўкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_cleaning_installations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gci_owner;
+    => nrel_associative_connection: by_control_of_technical_condition_of_gas_cleaning_installations;
+    => nrel_associative_connection: by_faulty_gci;
+    => nrel_associative_connection: by_ineffective_gci;
+    => nrel_associative_connection: by_optimal_operating_mode_of_gci;
+
+    => nrel_etalon_online_idx: [31068];;

@@ -1,0 +1,29 @@
+
+by_linguist_foreign_language_teacher
+    => nrel_main_idtf: [linguist, foreign language teacher] (* <- lang_en;; *);
+    => nrel_main_idtf: [лингвист, преподаватель иностранных языков  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінгвіст, выкладчык замежных моў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_linguist_foreign_language_teacher_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_language;
+    => nrel_associative_connection: by_linguist_translator;
+    => nrel_associative_connection: by_linguistics;
+    => nrel_associative_connection: by_linguodidactics;
+    => nrel_associative_connection: by_pedagogical_activity_in_english;
+
+    => nrel_etalon_online_idx: [29250];;

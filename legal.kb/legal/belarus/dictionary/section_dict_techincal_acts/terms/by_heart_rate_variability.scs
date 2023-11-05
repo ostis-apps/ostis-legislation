@@ -1,0 +1,31 @@
+
+by_heart_rate_variability
+    => nrel_main_idtf: [heart rate variability] (* <- lang_en;; *);
+    => nrel_main_idtf: [вариабельность сердечного ритма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [варыябельнасць сардэчнага рытму] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heart_rate_variability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_arrhythmias;
+    => nrel_associative_connection: by_arterial_hypertension;
+    => nrel_associative_connection: by_heart_diseases;
+    => nrel_associative_connection: by_coronary_bypassing;
+    => nrel_associative_connection: by_coronarography;
+    => nrel_associative_connection: by_heart_rhythm_disorders;
+    => nrel_associative_connection: by_supraventricular_tachycardia;
+
+    => nrel_etalon_online_idx: [35348];;

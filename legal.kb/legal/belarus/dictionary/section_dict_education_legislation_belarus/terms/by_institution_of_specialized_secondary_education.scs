@@ -1,0 +1,38 @@
+
+by_institution_of_specialized_secondary_education
+    => nrel_main_idtf: [institution of specialized secondary education] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждение среднего специального образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установа сярэдняй спецыяльнай адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_institution_of_specialized_secondary_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_departments;
+    => nrel_associative_connection: by_military_departments_of_civil_institutions_providing_the_higher_and_secondary_special_education;
+    => nrel_associative_connection: by_grant_to_study;
+    => nrel_associative_connection: by_additional_education_for_children_and_youth;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_program_for_preparing_individuals_for_admission_to_education_institutions_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_educational_service;
+    => nrel_associative_connection: by_upbringing_program;
+    => nrel_associative_connection: by_professional_and_technical_education;
+    => nrel_associative_connection: by_specialized_education;
+    => nrel_associative_connection: by_specialized_secondary_education;
+    => nrel_associative_connection: by_olympic_reserve_school;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_institutions_of_secondary_special_education;
+
+    => nrel_etalon_online_idx: [4116];;

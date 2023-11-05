@@ -1,0 +1,29 @@
+
+by_information_and_analytical_system_unified_expertise
+    => nrel_main_idtf: [information and analytical system "unified expertise"] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационно-аналитическая система "единая экспертиза"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйна-аналітычная сістэма "адзіная экспертыза"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_and_analytical_system_unified_expertise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_departmental_scientific_and_technical_expertise;
+    => nrel_associative_connection: by_state_expert_council;
+    => nrel_associative_connection: by_national_state_expertise_operator;
+    => nrel_associative_connection: by_operator_of_state_information_and_analytical_system;
+    => nrel_associative_connection: by_operator_of_state_information_resources_systems;
+
+    => nrel_etalon_online_idx: [32453];;

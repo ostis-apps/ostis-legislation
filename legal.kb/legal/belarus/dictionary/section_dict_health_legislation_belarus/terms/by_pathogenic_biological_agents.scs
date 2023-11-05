@@ -1,0 +1,41 @@
+
+by_pathogenic_biological_agents
+    => nrel_main_idtf: [pathogenic biological agents] (* <- lang_en;; *);
+    => nrel_main_idtf: [патогенные биологические агенты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патагенныя біялагічныя агенты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pathogenic_biological_agents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pathogenic_biological_agents_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hazardous_biological_factor;
+    => nrel_associative_connection: by_potentially_hazardous_facility;
+
+    => nrel_etalon_online_idx: [19872];;

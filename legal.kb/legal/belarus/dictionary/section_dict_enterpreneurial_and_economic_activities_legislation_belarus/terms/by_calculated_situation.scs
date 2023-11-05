@@ -1,0 +1,28 @@
+
+by_calculated_situation
+    => nrel_main_idtf: [calculated situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетная ситуация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковая сітуацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_limiting_condition;
+    => nrel_associative_connection: by_calculation_model;
+    => nrel_associative_connection: by_calculated_strength_of_stressed_reinforcement;
+    => nrel_associative_connection: by_calculated_strength_of_nonstressed_reinforcement;
+
+    => nrel_etalon_online_idx: [35692];;

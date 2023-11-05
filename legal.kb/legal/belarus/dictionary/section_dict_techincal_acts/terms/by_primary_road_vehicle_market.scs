@@ -1,0 +1,27 @@
+
+by_primary_road_vehicle_market
+    => nrel_main_idtf: [primary road vehicle market] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичный рынок дорожных транспортных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасны рынак дарожных транспартных сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_road_vehicle_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_identification_of_the_objectanalogue_of_road_vehicles;
+    => nrel_associative_connection: by_inventory_object;
+    => nrel_associative_connection: by_model_range_of_road_vehicles;
+
+    => nrel_etalon_online_idx: [31219];;

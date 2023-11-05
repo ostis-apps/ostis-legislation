@@ -1,0 +1,34 @@
+
+by_by_test_pressure
+    => nrel_main_idtf: [by_test_pressure] (* <- lang_en;; *);
+    => nrel_main_idtf: [пробное давление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пробны ціск] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_test_pressure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internal_pressure_external_pressure;
+    => nrel_associative_connection: by_isostatic_presses;
+    => nrel_associative_connection: by_strength_tests;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_competent_organizations_in_the_area_of_certification_qualification_of_the_technological_process_of_welding_and_approval_of_results_and_the_area_of_dissemination_of_industrial_certification_qualification_of_welding_technology;
+    => nrel_associative_connection: by_tests_technique;
+    => nrel_associative_connection: by_testing_programme;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_conditional_pressure;
+
+    => nrel_etalon_online_idx: [21392];;

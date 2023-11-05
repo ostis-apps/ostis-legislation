@@ -1,0 +1,28 @@
+
+by_by_toll_roads
+    => nrel_main_idtf: [by_toll_roads] (* <- lang_en;; *);
+    => nrel_main_idtf: [платные автомобильные дороги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [платныя аўтамабільныя дарогі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_toll_roads_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nonresident__issuer_of_fuel_cards;
+    => nrel_associative_connection: by_assessment_of_the_level_of_highway_maintenance;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_toll_road_user;
+
+    => nrel_etalon_online_idx: [42766];;

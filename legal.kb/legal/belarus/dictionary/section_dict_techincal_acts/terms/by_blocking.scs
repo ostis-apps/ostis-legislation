@@ -1,0 +1,41 @@
+
+by_blocking
+    => nrel_main_idtf: [blocking] (* <- lang_en;; *);
+    => nrel_main_idtf: [блокировка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блакіроўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_entering_into_the_work_of_protection_locks;
+    => nrel_associative_connection: by_decommissioning_protection_blocking;
+
+    => nrel_etalon_online_idx: [38543];;

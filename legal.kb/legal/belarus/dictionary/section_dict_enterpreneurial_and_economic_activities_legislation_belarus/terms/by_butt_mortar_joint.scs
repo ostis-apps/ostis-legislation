@@ -1,0 +1,30 @@
+
+by_butt_mortar_joint
+    => nrel_main_idtf: [butt mortar joint] (* <- lang_en;; *);
+    => nrel_main_idtf: [стыковой растворный шов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стыкавы растворны шоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_butt_mortar_joint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_vertical_mortar_seam;
+    => nrel_associative_connection: by_horizontal_mortar_seam;
+    => nrel_associative_connection: by_unfilled_mortar_joint;
+    => nrel_associative_connection: by_longitudinal_mortar_joint;
+    => nrel_associative_connection: by_dissolved_seam;
+    => nrel_associative_connection: by_thinlayer_mortar_seam;
+
+    => nrel_etalon_online_idx: [38080];;

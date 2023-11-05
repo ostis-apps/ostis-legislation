@@ -1,0 +1,27 @@
+
+by_designated_universal_service_operator
+    => nrel_main_idtf: [designated universal service operator] (* <- lang_en;; *);
+    => nrel_main_idtf: [назначенный оператор универсального обслуживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [назначаны аператар універсальнага абслугоўвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_designated_universal_service_operator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_national_operator;
+    => nrel_associative_connection: by_national_telecommunication_operator;
+    => nrel_associative_connection: by_telecommunication_services;
+
+    => nrel_etalon_online_idx: [40046];;

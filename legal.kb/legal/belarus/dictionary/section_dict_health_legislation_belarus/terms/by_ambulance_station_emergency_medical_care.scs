@@ -1,0 +1,15 @@
+
+by_ambulance_station_emergency_medical_care
+    => nrel_main_idtf: [ambulance station (emergency) medical care] (* <- lang_en;; *);
+    => nrel_main_idtf: [станция скорой (неотложной) медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [станцыя хуткай (неадкладнай) медыцынскай дапамогі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_ambulance_brigade_exit;
+    => nrel_associative_connection: by_ambulance_brigade_call;
+    => nrel_associative_connection: by_reason_for_calling_the_ambulance_brigade;
+    => nrel_associative_connection: by_ambulance_emergency_medical_care_substation;
+    => nrel_associative_connection: by_station;
+
+    => nrel_etalon_online_idx: [24180];;

@@ -1,0 +1,43 @@
+
+by_acceptance
+    => nrel_main_idtf: [acceptance] (* <- lang_en;; *);
+    => nrel_main_idtf: [акцепт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акцэпт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acceptance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acceptance_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_acceptance_of_payment_request;
+    => nrel_associative_connection: by_payer_accept;
+    => nrel_associative_connection: by_bank_payment_obligation;
+    => nrel_associative_connection: by_offer;
+
+    => nrel_etalon_online_idx: [979];;

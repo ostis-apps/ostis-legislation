@@ -1,0 +1,30 @@
+
+by_initial_price_of_electronic_auction
+    => nrel_main_idtf: [initial price of electronic auction ] (* <- lang_en;; *);
+    => nrel_main_idtf: [начальная цена электронного аукциона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пачатковая цана электроннага аўкцыёну] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_initial_price_of_electronic_auction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_initial_cost;
+    => nrel_associative_connection: by_starting_size_of_the_single_payment;
+    => nrel_associative_connection: by_price_tariff;
+    => nrel_associative_connection: by_cutoff_price;
+    => nrel_associative_connection: by_price_of_the_offer;
+
+    => nrel_etalon_online_idx: [10467];;

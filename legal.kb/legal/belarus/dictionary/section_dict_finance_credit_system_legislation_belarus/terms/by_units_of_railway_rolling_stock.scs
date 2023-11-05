@@ -1,0 +1,37 @@
+
+by_units_of_railway_rolling_stock
+    => nrel_main_idtf: [units of railway rolling stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [единицы железнодорожного подвижного состава] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінкі чыгуначнага рухомага саставу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_units_of_railway_rolling_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_capacity_of_rolling_stock;
+    => nrel_associative_connection: by_unit_of_rolling_stock;
+    => nrel_associative_connection: by_railway_vehicle;
+    => nrel_associative_connection: by_railway_rolling_stock;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_shunting_locomotive;
+    => nrel_associative_connection: by_rolling_stock;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_freight_train;
+    => nrel_associative_connection: by_cargopassenger_train;
+    => nrel_associative_connection: by_passenger_train;
+    => nrel_associative_connection: by__rolling_stock_repair;
+
+    => nrel_etalon_online_idx: [14579];;

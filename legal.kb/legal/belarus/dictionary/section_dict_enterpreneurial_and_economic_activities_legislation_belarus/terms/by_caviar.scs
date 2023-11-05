@@ -1,0 +1,32 @@
+
+by_caviar
+    => nrel_main_idtf: [caviar] (* <- lang_en;; *);
+    => nrel_main_idtf: [икра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ікра] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_caviar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fish_extraction;
+    => nrel_associative_connection: by_sturgeon_fish_species;
+    => nrel_associative_connection: by_fish_catch;
+    => nrel_associative_connection: by_caviar_lot;
+    => nrel_associative_connection: by_caviar_repacking;
+    => nrel_associative_connection: by_production_of_sturgeon_fish_and_or_products_from_them_including_caviar;
+    => nrel_associative_connection: by_country_of_origin_of_caviar;
+    => nrel_associative_connection: by___;
+
+    => nrel_etalon_online_idx: [15158];;

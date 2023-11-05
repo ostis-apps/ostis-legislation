@@ -1,0 +1,29 @@
+
+by_orientalistinternational
+    => nrel_main_idtf: [orientalist-international] (* <- lang_en;; *);
+    => nrel_main_idtf: [востоковед-международник  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [усходазнавец-міжнароднік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_orientalistinternational_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_policy_of_the_state;
+    => nrel_associative_connection: by_east_philology;
+    => nrel_associative_connection: by_linguistic_regional_geography;
+    => nrel_associative_connection: by_foreign_affairs;
+    => nrel_associative_connection: by_translatorreferent;
+
+    => nrel_etalon_online_idx: [29260];;

@@ -1,0 +1,28 @@
+
+by_by_special_packaging
+    => nrel_main_idtf: [by_special_packaging] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальная упаковка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльная ўпакоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_special_packaging_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_consumer_packaging;
+    => nrel_associative_connection: by_manufacturers_of_precious_stones_diamonds;
+    => nrel_associative_connection: by_manufacturers_of_measured_ingots;
+    => nrel_associative_connection: by_packaging;
+
+    => nrel_etalon_online_idx: [42762];;

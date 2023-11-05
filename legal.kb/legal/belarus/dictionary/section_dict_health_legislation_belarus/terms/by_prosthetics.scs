@@ -1,0 +1,34 @@
+
+by_prosthetics
+    => nrel_main_idtf: [prosthetics] (* <- lang_en;; *);
+    => nrel_main_idtf: [протезирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пратэзаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prosthetics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_arthrosis;
+    => nrel_associative_connection: by_i_stage_of_arthrosis;
+    => nrel_associative_connection: by_dental_implants;
+    => nrel_associative_connection: by_dentures;
+    => nrel_associative_connection: by_dental_products;
+    => nrel_associative_connection: by_method_of_medical_care;
+    => nrel_associative_connection: by_singlepole_endoprosthetics_of_hip;
+    => nrel_associative_connection: by_repeated_revision_endoprosthetics;
+    => nrel_associative_connection: by_total_endoprosthetics;
+    => nrel_associative_connection: by_digital_card_of_a_patient_in_need_of_large_joint_replacement;
+
+    => nrel_etalon_online_idx: [21684];;

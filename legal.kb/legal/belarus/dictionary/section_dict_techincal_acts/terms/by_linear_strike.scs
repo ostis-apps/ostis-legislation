@@ -1,0 +1,29 @@
+
+by_linear_strike
+    => nrel_main_idtf: [linear strike] (* <- lang_en;; *);
+    => nrel_main_idtf: [линейный удар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінейны ўдар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_linear_strike_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_double_blow;
+    => nrel_associative_connection: by_matte_threat;
+    => nrel_associative_connection: by_mill;
+    => nrel_associative_connection: by_attack;
+    => nrel_associative_connection: by_lot;
+
+    => nrel_etalon_online_idx: [34026];;

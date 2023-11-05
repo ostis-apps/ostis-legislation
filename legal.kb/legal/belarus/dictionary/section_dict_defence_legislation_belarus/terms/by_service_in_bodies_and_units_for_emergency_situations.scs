@@ -1,0 +1,33 @@
+
+by_service_in_bodies_and_units_for_emergency_situations
+    => nrel_main_idtf: [service in bodies and units for emergency situations] (* <- lang_en;; *);
+    => nrel_main_idtf: [служба в органах и подразделениях по чрезвычайным ситуациям] (* <- lang_ru;; *);
+    => nrel_main_idtf: [служба ў органах і падраздзяленнях па надзвычайных сітуацыях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_in_bodies_and_units_for_emergency_situations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_service;
+    => nrel_associative_connection: by_department_on_liquidation_of_consequences_of_the_catastrophe_at_the_chernobyl_nuclear_power_plant_of_the_ministry_on_emergency_situations_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_department_for_material_reserves_of_the_ministry_for_emergency_situations_of_the_republic_of_belarus_state_reserve;
+    => nrel_associative_connection: by_department_for_supervision_of_safe_work_in_the_industry_of_the_ministry_for_emergency_situations_of_the_republic_of_belarus_state_industry_supervision;
+    => nrel_associative_connection: by_contract_on_service;
+    => nrel_associative_connection: by_main_service_place;
+    => nrel_associative_connection: by_ministry_of_emergency_situations_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_organs_of_service;
+    => nrel_associative_connection: by_emergency_response_forces;
+
+    => nrel_etalon_online_idx: [10809];;

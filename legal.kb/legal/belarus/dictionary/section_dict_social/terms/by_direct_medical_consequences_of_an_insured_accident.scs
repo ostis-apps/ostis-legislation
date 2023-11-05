@@ -1,0 +1,29 @@
+
+by_direct_medical_consequences_of_an_insured_accident
+    => nrel_main_idtf: [direct (medical) consequences of an insured accident] (* <- lang_en;; *);
+    => nrel_main_idtf: [прямые (медицинские) последствия страхового случая] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамыя (медыцынскія) наступствы страхавога выпадку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_direct_medical_consequences_of_an_insured_accident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_insured_persons;
+    => nrel_associative_connection: by_insured_event;
+    => nrel_associative_connection: by_injury;
+
+    => nrel_etalon_online_idx: [12175];;

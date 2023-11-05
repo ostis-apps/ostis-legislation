@@ -1,0 +1,27 @@
+
+by_chemical_process_engineer
+    => nrel_main_idtf: [chemical process engineer] (* <- lang_en;; *);
+    => nrel_main_idtf: [инженер-химик-технолог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інжынер-хімік-тэхнолаг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemical_process_engineer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engineer;
+    => nrel_associative_connection: by_petrochemical;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_etalon_online_idx: [40803];;

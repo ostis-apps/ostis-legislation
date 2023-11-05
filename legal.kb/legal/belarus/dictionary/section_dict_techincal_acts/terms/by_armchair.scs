@@ -1,0 +1,28 @@
+
+by_armchair
+    => nrel_main_idtf: [armchair] (* <- lang_en;; *);
+    => nrel_main_idtf: [кресло] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэсла] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_armchair_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_passenger_transportation_at_destination_return_unladen;
+    => nrel_associative_connection: by_carrier_of_passengers_by_urban_electric_transport;
+    => nrel_associative_connection: by_carrier_of_passengers_by_metro;
+
+    => nrel_etalon_online_idx: [16423];;

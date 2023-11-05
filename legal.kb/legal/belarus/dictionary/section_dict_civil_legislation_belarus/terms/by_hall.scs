@@ -1,0 +1,30 @@
+
+by_hall
+    => nrel_main_idtf: [hall] (* <- lang_en;; *);
+    => nrel_main_idtf: [холл] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хол] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hall_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_apartment;
+    => nrel_associative_connection: by_lobby_bar;
+    => nrel_associative_connection: by_oneapartment_residential_house;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_hallway_front;
+
+    => nrel_etalon_online_idx: [28485];;

@@ -1,0 +1,38 @@
+
+by_territory_of_the_republic_of_belarus
+    => nrel_main_idtf: [territory of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [территория республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрыторыя рэспублікі беларусь] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_territory_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrativeterritorial_unit;
+    => nrel_associative_connection: by_administrativeterritorial_division_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_administrativeterritorial_units;
+    => nrel_associative_connection: by_administrative_center_of_administrativeterritorial_unit;
+    => nrel_associative_connection: by_address_system;
+    => nrel_associative_connection: by_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_geographic_objects_outside_the_territory_of_the_republic_of_belarus_opened_by_belarus_researchers;
+    => nrel_associative_connection: by_cities_of_regional_subordination;
+    => nrel_associative_connection: by_cities_of_district_subordination;
+    => nrel_associative_connection: by_urban_settlements;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_border_territory;
+    => nrel_associative_connection: by_rural_territory;
+    => nrel_associative_connection: by_goods_produced_on_the_territory_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [2064];;

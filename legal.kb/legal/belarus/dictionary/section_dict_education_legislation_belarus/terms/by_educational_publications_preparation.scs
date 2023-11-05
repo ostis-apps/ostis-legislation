@@ -1,0 +1,43 @@
+
+by_educational_publications_preparation
+    => nrel_main_idtf: [educational publications preparation] (* <- lang_en;; *);
+    => nrel_main_idtf: [подготовка учебных изданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрыхтоўка навучальных выданняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_publications_preparation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_authors_original_electronic_training_edition;
+    => nrel_associative_connection: by_adapted_educational_edition;
+    => nrel_associative_connection: by_release_of_educational_editions;
+    => nrel_associative_connection: by_order_for_printed_educational_publications;
+    => nrel_associative_connection: by_order_on_educational_editions;
+    => nrel_associative_connection: by_class_kit;
+    => nrel_associative_connection: by_educational_program_for_professional_training_of_workers_employees;
+    => nrel_associative_connection: by_original_layout_of_educational_edition;
+    => nrel_associative_connection: by_release_calendar_of_educational_publications;
+    => nrel_associative_connection: by_preparation_for_educational_publications_editions;
+    => nrel_associative_connection: by_workbook;
+    => nrel_associative_connection: by_reviewer;
+    => nrel_associative_connection: by_recension;
+    => nrel_associative_connection: by_review;
+    => nrel_associative_connection: by_textbook;
+    => nrel_associative_connection: by_educational_edition;
+    => nrel_associative_connection: by_training_manual_including_those_made_on_the_basis_of_the_reliefpoint_braille_system;
+    => nrel_associative_connection: by_work_book_for_preschoolage_children;
+
+    => nrel_etalon_online_idx: [20360];;

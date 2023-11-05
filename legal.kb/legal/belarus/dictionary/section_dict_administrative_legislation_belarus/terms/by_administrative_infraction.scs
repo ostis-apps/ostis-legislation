@@ -1,0 +1,29 @@
+
+by_administrative_infraction
+    => nrel_main_idtf: [administrative infraction] (* <- lang_en;; *);
+    => nrel_main_idtf: [административный проступок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйная правіннасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_infraction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_responsibility;
+    => nrel_associative_connection: by_administrative_penalty;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_data;
+    => nrel_associative_connection: by_disciplinary_fault;
+
+    => nrel_etalon_online_idx: [948];;

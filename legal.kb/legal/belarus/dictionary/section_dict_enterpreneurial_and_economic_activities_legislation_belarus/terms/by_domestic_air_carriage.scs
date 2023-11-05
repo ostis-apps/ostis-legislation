@@ -1,0 +1,28 @@
+
+by_domestic_air_carriage
+    => nrel_main_idtf: [domestic air carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренняя воздушная перевозка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраная паветраная перавозка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_domestic_air_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internal_air_carriage_of_cargoes;
+    => nrel_associative_connection: by_aerial_transportation;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_passenger_air_carriage_contract;
+
+    => nrel_etalon_online_idx: [5384];;

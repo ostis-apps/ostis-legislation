@@ -1,0 +1,31 @@
+
+by_civil_aircraft
+    => nrel_main_idtf: [civil aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [гражданский летательный аппарат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадзянскі лятальны апарат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_civil_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balloon;
+    => nrel_associative_connection: by_unmanned_air_aircraft_ua;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_civil_aviation;
+    => nrel_associative_connection: by_air_and_space_craft;
+    => nrel_associative_connection: by_air_and_space_craft_asc;
+    => nrel_associative_connection: by_ultra_light_aircraft;
+
+    => nrel_etalon_online_idx: [13822];;

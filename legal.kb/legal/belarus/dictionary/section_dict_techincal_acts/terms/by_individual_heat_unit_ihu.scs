@@ -1,0 +1,13 @@
+
+by_individual_heat_unit_ihu
+    => nrel_main_idtf: [individual heat unit (ihu)] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный тепловой пункт (итп)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальны цеплавы пункт (итп)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_individual_heat_point;
+    => nrel_associative_connection: by_heat_item;
+    => nrel_associative_connection: by_central_heating_point;
+
+    => nrel_etalon_online_idx: [31884];;

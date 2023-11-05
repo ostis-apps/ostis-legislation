@@ -1,0 +1,28 @@
+
+by_activity_for_distribution_of_a_printed_edition
+    => nrel_main_idtf: [activity for distribution of a printed edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [деятельность по распространению печатного издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзейнасць па распаўсюджванні друкаванага выдання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_activity_for_distribution_of_a_printed_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_product_of_printed_edition;
+    => nrel_associative_connection: by_compulsory_free_copies_of_print_editions;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_dissemination;
+
+    => nrel_etalon_online_idx: [26875];;

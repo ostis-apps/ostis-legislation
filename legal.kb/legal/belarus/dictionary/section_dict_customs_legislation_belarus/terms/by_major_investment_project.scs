@@ -1,0 +1,30 @@
+
+by_major_investment_project
+    => nrel_main_idtf: [major investment project] (* <- lang_en;; *);
+    => nrel_main_idtf: [крупный инвестиционный проект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буйны інвестыцыйны праект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_major_investment_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investment_project;
+    => nrel_associative_connection: by_object_of_industrial_park;
+    => nrel_associative_connection: by_industrial_park_resident;
+    => nrel_associative_connection: by_construction_of_industrial_park_objects;
+    => nrel_associative_connection: by_subject_of_innovative_activity_of_the_industrial_park;
+    => nrel_associative_connection: by_participant_in_construction_of_industrial_park_objects;
+
+    => nrel_etalon_online_idx: [38890];;

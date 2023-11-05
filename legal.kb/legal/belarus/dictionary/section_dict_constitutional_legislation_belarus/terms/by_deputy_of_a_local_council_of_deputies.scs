@@ -1,0 +1,30 @@
+
+by_deputy_of_a_local_council_of_deputies
+    => nrel_main_idtf: [deputy of a local council of deputies] (* <- lang_en;; *);
+    => nrel_main_idtf: [депутат местного совета депутатов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпутат мясцовага савета дэпутатаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deputy_of_a_local_council_of_deputies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_elections;
+    => nrel_associative_connection: by_state_officials;
+    => nrel_associative_connection: by_deputy;
+    => nrel_associative_connection: by_persons_equated_to_state_officials_equated_to_them_persons;
+    => nrel_associative_connection: by_appeal_by_the_deputy_of_the_council;
+    => nrel_associative_connection: by_representatives_of_authorities;
+
+    => nrel_etalon_online_idx: [1397];;

@@ -1,0 +1,27 @@
+
+by_projects_budget
+    => nrel_main_idtf: [project's budget] (* <- lang_en;; *);
+    => nrel_main_idtf: [бюджет проекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бюджэт праекта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_projects_budget_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_project_management_plan;
+    => nrel_associative_connection: by_business_plan;
+    => nrel_associative_connection: by_project_management_plan;
+
+    => nrel_etalon_online_idx: [33089];;

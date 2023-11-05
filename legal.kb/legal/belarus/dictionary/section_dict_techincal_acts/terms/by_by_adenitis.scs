@@ -1,0 +1,28 @@
+
+by_by_adenitis
+    => nrel_main_idtf: [by_adenitis] (* <- lang_en;; *);
+    => nrel_main_idtf: [лимфаденит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лімфадэніт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_adenitis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lymphangitis;
+    => nrel_associative_connection: by_lymphatic_system;
+    => nrel_associative_connection: by_skin_lymphomas;
+    => nrel_associative_connection: by_lymphostasis;
+
+    => nrel_etalon_online_idx: [42708];;

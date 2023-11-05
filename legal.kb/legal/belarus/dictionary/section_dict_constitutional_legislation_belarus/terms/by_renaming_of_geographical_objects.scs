@@ -1,0 +1,28 @@
+
+by_renaming_of_geographical_objects
+    => nrel_main_idtf: [renaming of geographical objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [переименование географических объектов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перайменаванне геаграфічных аб'ектаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_renaming_of_geographical_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geographic_objects;
+    => nrel_associative_connection: by_names_of_geographical_objects;
+    => nrel_associative_connection: by_naming_of_geographical_objects;
+    => nrel_associative_connection: by_physical_and_geographic_objects;
+
+    => nrel_etalon_online_idx: [6485];;

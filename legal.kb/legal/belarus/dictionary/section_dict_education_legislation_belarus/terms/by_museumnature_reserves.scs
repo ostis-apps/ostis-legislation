@@ -1,0 +1,33 @@
+
+by_museumnature_reserves
+    => nrel_main_idtf: [museum-nature reserves] (* <- lang_en;; *);
+    => nrel_main_idtf: [музеи-заповедники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музеі-запаведнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_museumnature_reserves_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nature_reserve;
+    => nrel_associative_connection: by_conservation_places;
+    => nrel_associative_connection: by_historical_and_cultural_nature_reserve;
+    => nrel_associative_connection: by_museum;
+    => nrel_associative_connection: by_openair_museums;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_museum_fund;
+    => nrel_associative_connection: by_system_of_specially_protected_natural_territories;
+    => nrel_associative_connection: by_excursion_service_for_museums_visitors;
+
+    => nrel_etalon_online_idx: [17539];;

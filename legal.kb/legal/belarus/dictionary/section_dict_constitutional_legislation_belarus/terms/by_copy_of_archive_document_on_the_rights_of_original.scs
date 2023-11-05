@@ -1,0 +1,29 @@
+
+by_copy_of_archive_document_on_the_rights_of_original
+    => nrel_main_idtf: [copy of archive document on the rights of original] (* <- lang_en;; *);
+    => nrel_main_idtf: [копия архивного документа на правах подлинника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [копія архіўнага дакумента на правах аўтэнтыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_archive_document_on_the_rights_of_original_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_documents;
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_script;
+    => nrel_associative_connection: by_authenticity_of_the_document;
+
+    => nrel_etalon_online_idx: [40676];;

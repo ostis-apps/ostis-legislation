@@ -1,0 +1,26 @@
+
+by_membership_fee
+    => nrel_main_idtf: [membership fee] (* <- lang_en;; *);
+    => nrel_main_idtf: [членские взносы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [членскія ўзносы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_membership_fee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_contributions;
+    => nrel_associative_connection: by_initial_payment;
+
+    => nrel_etalon_online_idx: [26344];;

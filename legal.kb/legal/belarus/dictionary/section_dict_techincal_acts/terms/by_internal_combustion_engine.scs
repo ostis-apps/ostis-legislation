@@ -1,0 +1,63 @@
+
+by_internal_combustion_engine
+    => nrel_main_idtf: [internal combustion engine] (* <- lang_en;; *);
+    => nrel_main_idtf: [двигатель внутреннего сгорания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рухавік унутранага згарання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_combustion_engine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_combustion_engine_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_combustion_engine_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engine;
+    => nrel_associative_connection: by_squirrel_cage_motor;
+    => nrel_associative_connection: by_tests;
+    => nrel_associative_connection: by_wheeled_vehicle;
+    => nrel_associative_connection: by_assembly;
+    => nrel_associative_connection: by_technological_operation;
+    => nrel_associative_connection: by_technological_equipment;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [37773];;

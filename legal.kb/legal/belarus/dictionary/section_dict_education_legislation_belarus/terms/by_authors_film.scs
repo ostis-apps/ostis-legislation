@@ -1,0 +1,28 @@
+
+by_authors_film
+    => nrel_main_idtf: [author's film] (* <- lang_en;; *);
+    => nrel_main_idtf: [авторский фильм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтарскі фільм] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authors_film_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_debut_film;
+    => nrel_associative_connection: by_film_almanac_of_student_films;
+    => nrel_associative_connection: by_cinema_chronicle;
+    => nrel_associative_connection: by_film;
+
+    => nrel_etalon_online_idx: [38917];;

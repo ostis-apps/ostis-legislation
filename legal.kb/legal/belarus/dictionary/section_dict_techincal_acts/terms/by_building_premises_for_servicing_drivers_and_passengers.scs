@@ -1,0 +1,46 @@
+
+by_building_premises_for_servicing_drivers_and_passengers
+    => nrel_main_idtf: [building (premises) for servicing drivers and passengers] (* <- lang_en;; *);
+    => nrel_main_idtf: [здание (помещение) сервисного обслуживания водителей и пассажиров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [будынак (памяшканне) сэрвіснага абслугоўвання вадзіцеляў і пасажыраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_building_premises_for_servicing_drivers_and_passengers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_building_premises_for_servicing_drivers_and_passengers_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building_premises_of_service_maintenance_of_vehicles;
+    => nrel_associative_connection: by_fuel_storage_container;
+    => nrel_associative_connection: by_places_of_mass_stay_of_people;
+    => nrel_associative_connection: by_multifuel_filling_station;
+    => nrel_associative_connection: by_multifuel_filling_station;
+    => nrel_associative_connection: by_modular_filling_station;
+    => nrel_associative_connection: by_mobile_ags;
+
+    => nrel_etalon_online_idx: [35177];;

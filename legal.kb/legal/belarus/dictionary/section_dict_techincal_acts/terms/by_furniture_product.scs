@@ -1,0 +1,44 @@
+
+by_furniture_product
+    => nrel_main_idtf: [furniture product] (* <- lang_en;; *);
+    => nrel_main_idtf: [мебельное изделие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мэблевы выраб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_furniture_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_furniture_product_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydrothermal_wood_treatment;
+    => nrel_associative_connection: by_wood;
+    => nrel_associative_connection: by_protectivedecorative_coating;
+    => nrel_associative_connection: by_furniture_products;
+    => nrel_associative_connection: by_mountable_furniture;
+
+    => nrel_etalon_online_idx: [33587];;

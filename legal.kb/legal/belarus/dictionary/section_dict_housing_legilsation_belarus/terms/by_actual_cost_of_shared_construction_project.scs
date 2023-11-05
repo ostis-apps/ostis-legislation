@@ -1,0 +1,28 @@
+
+by_actual_cost_of_shared_construction_project
+    => nrel_main_idtf: [actual cost of shared construction project] (* <- lang_en;; *);
+    => nrel_main_idtf: [фактическая стоимость объекта долевого строительства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фактычны кошт аб'екта долевага будаўніцтва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_actual_cost_of_shared_construction_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defect_of_shared_construction_project;
+    => nrel_associative_connection: by_shared_construction_object;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_price_of_shared_construction_object_price_of_contract;
+
+    => nrel_etalon_online_idx: [10668];;

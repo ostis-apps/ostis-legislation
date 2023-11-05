@@ -1,0 +1,73 @@
+
+by_infrastructure
+    => nrel_main_idtf: [infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфраструктура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфраструктура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infrastructure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road_transport_infrastructure;
+    => nrel_associative_connection: by_infrastructure_owner;
+    => nrel_associative_connection: by_intraareal_engineering_infrastructure;
+    => nrel_associative_connection: by_access_to_infrastructure_services;
+    => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_innovative_infrastructure;
+    => nrel_associative_connection: by_infrastructure_of_the_state_border;
+    => nrel_associative_connection: by_infrastructure_of_the_state_personnel_policy;
+    => nrel_associative_connection: by_infrastructure_of_unified_republican_data_communication_network;
+    => nrel_associative_connection: by_infrastructure_of_railway_transport_of_general_use;
+    => nrel_associative_connection: by_infrastructure_of_the_border_area;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_critical_infrastructure;
+    => nrel_associative_connection: by_trunk_engineering_telecommunication_infrastructure;
+    => nrel_associative_connection: by_interdepartmental_infrastructural_coordination_council;
+    => nrel_associative_connection: by_modernization_of_infrastructure_object;
+    => nrel_associative_connection: by_national_infrastructure_plan;
+    => nrel_associative_connection: by_cloud_infrastructure;
+    => nrel_associative_connection: by_defence_infrastructure;
+    => nrel_associative_connection: by_infrastructure_object;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_production_infrastructure_objects;
+    => nrel_associative_connection: by_objects_of_transport_and_engineering_infrastructure;
+    => nrel_associative_connection: by_operator_of_infrastructure;
+    => nrel_associative_connection: by_production_infrastructure;
+    => nrel_associative_connection: by_telecommunication_distribution_engineering_infrastructure;
+    => nrel_associative_connection: by_creating_an_infrastructure_facility;
+    => nrel_associative_connection: by_social_infrastructure;
+    => nrel_associative_connection: by_specialized_cluster_development_infrastructure;
+    => nrel_associative_connection: by_customs_infrastructure;
+    => nrel_associative_connection: by_tankcontainer_infrastructure;
+    => nrel_associative_connection: by_technical_maintenance_of_infrastructure_object;
+    => nrel_associative_connection: by_transport_infrastructure;
+    => nrel_associative_connection: by_infrastructure_services;
+
+    => nrel_etalon_online_idx: [15504];;

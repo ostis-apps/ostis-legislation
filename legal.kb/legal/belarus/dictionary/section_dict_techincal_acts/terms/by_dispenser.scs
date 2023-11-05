@@ -1,0 +1,27 @@
+
+by_dispenser
+    => nrel_main_idtf: [dispenser] (* <- lang_en;; *);
+    => nrel_main_idtf: [дозатор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дазатар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dispenser_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_blowing_agents;
+    => nrel_associative_connection: by_foaming_agent;
+    => nrel_associative_connection: by_fire_automatic;
+
+    => nrel_etalon_online_idx: [40859];;

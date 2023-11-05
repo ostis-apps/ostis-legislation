@@ -1,0 +1,29 @@
+
+by_support_for_graduates
+    => nrel_main_idtf: [support for graduates] (* <- lang_en;; *);
+    => nrel_main_idtf: [поддержка выпускников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падтрымка выпускнікоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_support_for_graduates_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_young_specialists_young_workers_employees;
+    => nrel_associative_connection: by_job_placement_for_graduates;
+    => nrel_associative_connection: by_first_job;
+    => nrel_associative_connection: by_support;
+    => nrel_associative_connection: by_distribution;
+
+    => nrel_etalon_online_idx: [9887];;

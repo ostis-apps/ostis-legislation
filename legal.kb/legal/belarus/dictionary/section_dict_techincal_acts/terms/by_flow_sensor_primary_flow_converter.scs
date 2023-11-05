@@ -1,0 +1,16 @@
+
+by_flow_sensor_primary_flow_converter
+    => nrel_main_idtf: [flow sensor (primary flow converter)] (* <- lang_en;; *);
+    => nrel_main_idtf: [датчик потока (первичный преобразователь расхода)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [датчык патоку (першасны ператваральнік расходу)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_operating_hours_of_metering_devices;
+    => nrel_associative_connection: by_sensor;
+    => nrel_associative_connection: by_single_heat_meter;
+    => nrel_associative_connection: by_measuring_system;
+    => nrel_associative_connection: by_thermal_energy_metering_device;
+    => nrel_associative_connection: by_central_heating_point;
+
+    => nrel_etalon_online_idx: [31877];;

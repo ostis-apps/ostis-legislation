@@ -1,0 +1,27 @@
+
+by_products_of_sexual_purpose
+    => nrel_main_idtf: [products of sexual purpose] (* <- lang_en;; *);
+    => nrel_main_idtf: [продукция сексуального назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадукцыя сексуальнага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_products_of_sexual_purpose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_products_containing_erotica_elements;
+    => nrel_associative_connection: by_erotica;
+    => nrel_associative_connection: by_erotic_products;
+
+    => nrel_etalon_online_idx: [11293];;

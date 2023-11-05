@@ -1,0 +1,30 @@
+
+by_individual_child_development_profile
+    => nrel_main_idtf: [individual child development profile] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный профиль развития ребенка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальны профіль развіцця дзіцяці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_child_development_profile_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_individual_early_intervention_program;
+    => nrel_associative_connection: by_interdisciplinary_team;
+    => nrel_associative_connection: by_interdisciplinary_assistance;
+    => nrel_associative_connection: by_developmental_disturbance;
+    => nrel_associative_connection: by_risk_of_developmental_disturbances_appearance;
+    => nrel_associative_connection: by_early_intervention_center;
+
+    => nrel_etalon_online_idx: [38923];;

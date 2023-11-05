@@ -1,0 +1,35 @@
+
+by_product_cataloging
+    => nrel_main_idtf: [product cataloging] (* <- lang_en;; *);
+    => nrel_main_idtf: [каталогизация продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каталагізацыя прадукцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_product_cataloging_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_cataloguing_products_system;
+    => nrel_associative_connection: by_state_product_catalogue;
+    => nrel_associative_connection: by_national_cataloguing_system;
+    => nrel_associative_connection: by_national_cataloguing_body;
+    => nrel_associative_connection: by_national_cataloguing_center;
+    => nrel_associative_connection: by_product_consumer;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_standardization;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+    => nrel_associative_connection: by_technical_requirements;
+    => nrel_associative_connection: by_output_rates_setting;
+
+    => nrel_etalon_online_idx: [15802];;

@@ -1,0 +1,30 @@
+
+by_day_of_rendering_resort_and_recreation_services_provided_to_health_recreation_and_resort_organizations
+    => nrel_main_idtf: [day of rendering resort and recreation services provided to health recreation and resort organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [день оказания санаторно-курортных и оздоровительных услуг, предоставляемых санаторно-курортными и оздоровительными организациями] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзень аказання санаторна-курортных і аздараўленчых паслуг, якія даюцца санаторна-курортнымі і аздараўленчымі арганізацыямі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_day_of_rendering_resort_and_recreation_services_provided_to_health_recreation_and_resort_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_recreational_organizations;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_sanatorium_and_resort_care;
+    => nrel_associative_connection: by_resort_and_recreation_treatment;
+    => nrel_associative_connection: by_health_recreation_and_resort_organizations;
+    => nrel_associative_connection: by_resort_and_recreation_services;
+
+    => nrel_etalon_online_idx: [14065];;

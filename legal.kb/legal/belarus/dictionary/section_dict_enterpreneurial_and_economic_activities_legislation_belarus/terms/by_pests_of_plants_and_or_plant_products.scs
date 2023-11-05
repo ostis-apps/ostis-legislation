@@ -1,0 +1,32 @@
+
+by_pests_of_plants_and_or_plant_products
+    => nrel_main_idtf: [pests of plants and (or) plant products] (* <- lang_en;; *);
+    => nrel_main_idtf: [вредители растений и (или) растительной продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шкоднікі раслін і (або) расліннай прадукцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pests_of_plants_and_or_plant_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_efficacy_of_plant_protection_products;
+    => nrel_associative_connection: by_plant_diseases;
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_harmful_effects_on_flora_objects_and_their_environment;
+    => nrel_associative_connection: by_harmful_bodies;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_plant_products;
+    => nrel_associative_connection: by_flora;
+
+    => nrel_etalon_online_idx: [13246];;

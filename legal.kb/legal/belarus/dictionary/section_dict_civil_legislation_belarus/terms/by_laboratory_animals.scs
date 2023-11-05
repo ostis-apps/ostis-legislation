@@ -1,0 +1,27 @@
+
+by_laboratory_animals
+    => nrel_main_idtf: [laboratory animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [лабораторные животные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лабараторныя жывёлы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_laboratory_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hybrid_animal;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_fauna;
+
+    => nrel_etalon_online_idx: [16516];;

@@ -1,0 +1,41 @@
+
+by_manipulation_signs
+    => nrel_main_idtf: [manipulation signs] (* <- lang_en;; *);
+    => nrel_main_idtf: [манипуляционные знаки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маніпуляцыйныя знакі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manipulation_signs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manipulation_signs_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+
+    => nrel_etalon_online_idx: [16877];;

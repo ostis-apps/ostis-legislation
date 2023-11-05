@@ -1,0 +1,31 @@
+
+by_authorized_employee_of_the_exchange
+    => nrel_main_idtf: [authorized employee of the exchange] (* <- lang_en;; *);
+    => nrel_main_idtf: [уполномоченный сотрудник биржи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [упаўнаважаны супрацоўнік біржы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_employee_of_the_exchange_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_stock_exchange_trade;
+    => nrel_associative_connection: by_securities_market;
+    => nrel_associative_connection: by_commodity_exchange;
+    => nrel_associative_connection: by_trader;
+    => nrel_associative_connection: by_authorized_representative_of_the_ministry_of_finance;
+    => nrel_associative_connection: by_exchange_trade_participant;
+    => nrel_associative_connection: by_open_sale_participant;
+
+    => nrel_etalon_online_idx: [25520];;

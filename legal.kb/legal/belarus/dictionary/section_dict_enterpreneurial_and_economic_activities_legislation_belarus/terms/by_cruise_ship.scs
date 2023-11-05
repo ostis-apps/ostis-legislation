@@ -1,0 +1,45 @@
+
+by_cruise_ship
+    => nrel_main_idtf: [cruise ship] (* <- lang_en;; *);
+    => nrel_main_idtf: [круизное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [круізнае судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cruise_ship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cruise_ship_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gross_time;
+    => nrel_associative_connection: by_counter_swimming;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_customer_of_passenger_transportation;
+    => nrel_associative_connection: by_ship_stop;
+    => nrel_associative_connection: by_ferry;
+
+    => nrel_etalon_online_idx: [16466];;

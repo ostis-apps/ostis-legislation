@@ -1,0 +1,28 @@
+
+by_hazardous_production_facility_identification
+    => nrel_main_idtf: [hazardous production facility identification ] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификация опасного производственного объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыя небяспечнага вытворчага аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_production_facility_identification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_objects;
+    => nrel_associative_connection: by_production_facility;
+    => nrel_associative_connection: by_means_of_identification;
+
+    => nrel_etalon_online_idx: [8096];;

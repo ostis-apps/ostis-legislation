@@ -1,0 +1,25 @@
+
+by_divorce_rate
+    => nrel_main_idtf: [divorce rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент разводимости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент разводнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_divorce_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marriage;
+
+    => nrel_etalon_online_idx: [16382];;

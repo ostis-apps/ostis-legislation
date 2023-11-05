@@ -1,0 +1,31 @@
+
+by_prehospital_stage
+    => nrel_main_idtf: [prehospital stage] (* <- lang_en;; *);
+    => nrel_main_idtf: [догоспитальный этап] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дашпітальны этап] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prehospital_stage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_medical_team;
+    => nrel_associative_connection: by_emergency_brigade;
+    => nrel_associative_connection: by_emergency_doctor;
+    => nrel_associative_connection: by_calling_an_ambulance_team;
+    => nrel_associative_connection: by_therapeutic_and_diagnostic_process_at_the_prehospital_stage;
+    => nrel_associative_connection: by_medical_emergency;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_etalon_online_idx: [37590];;

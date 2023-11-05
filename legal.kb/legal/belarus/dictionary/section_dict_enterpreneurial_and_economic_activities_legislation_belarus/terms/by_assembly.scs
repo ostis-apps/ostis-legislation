@@ -1,0 +1,58 @@
+
+by_assembly
+    => nrel_main_idtf: [assembly] (* <- lang_en;; *);
+    => nrel_main_idtf: [сборка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зборка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assembly_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assembly_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assembly_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automotive_industry;
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_internal_combustion_engine;
+    => nrel_associative_connection: by_installation_of_equipment;
+
+    => nrel_etalon_online_idx: [32938];;

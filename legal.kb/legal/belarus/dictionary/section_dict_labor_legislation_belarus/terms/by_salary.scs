@@ -1,0 +1,74 @@
+
+by_salary
+    => nrel_main_idtf: [salary] (* <- lang_en;; *);
+    => nrel_main_idtf: [заработная плата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заработная плата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_salary_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_salary_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_salary_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_monetary_maintenance;
+    => nrel_associative_connection: by_remote_work;
+    => nrel_associative_connection: by_salary_within_the_statutory_minimum;
+    => nrel_associative_connection: by_shortterm_bonuses;
+    => nrel_associative_connection: by_main_work_place;
+    => nrel_associative_connection: by_monthly_minimum_salary;
+    => nrel_associative_connection: by_minimum_salary_monthly_and_hourly;
+    => nrel_associative_connection: by_unpaid_activity;
+    => nrel_associative_connection: by_nominal_accrued_average_monthly_salary;
+    => nrel_associative_connection: by_salary;
+    => nrel_associative_connection: by_remuneration_for_labour;
+    => nrel_associative_connection: by_employees_remuneration_for_labour;
+    => nrel_associative_connection: by_maximum_amount_of_payments;
+    => nrel_associative_connection: by_delay;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_reserve_salary_fund;
+    => nrel_associative_connection: by_conditional_variable_costs;
+    => nrel_associative_connection: by_hourly_minimum_salary;
+    => nrel_associative_connection: by_economic_workplace;
+
+    => nrel_etalon_online_idx: [1545];;

@@ -1,0 +1,46 @@
+
+by_building_height_parts_of_the_building
+    => nrel_main_idtf: [building height (parts of the building)] (* <- lang_en;; *);
+    => nrel_main_idtf: [высота здания (части здания)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышыня будынка (частцы будынка)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_building_height_parts_of_the_building_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_building_height_parts_of_the_building_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architectural_height_of_the_building;
+    => nrel_associative_connection: by_internal_corner_of_the_building;
+    => nrel_associative_connection: by_insert_installation;
+    => nrel_associative_connection: by_mobile_building;
+    => nrel_associative_connection: by_finishing_facing_of_external_surfaces_of_external_walls;
+    => nrel_associative_connection: by_finishing_exterior_surfaces_of_external_walls;
+    => nrel_associative_connection: by_underground_floor;
+
+    => nrel_etalon_online_idx: [36023];;

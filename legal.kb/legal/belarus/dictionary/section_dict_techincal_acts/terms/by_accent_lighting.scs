@@ -1,0 +1,74 @@
+
+by_accent_lighting
+    => nrel_main_idtf: [accent lighting] (* <- lang_en;; *);
+    => nrel_main_idtf: [акцентирующее освещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акцэнтуючае асвятленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accent_lighting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accent_lighting_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accent_lighting_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_lighting;
+    => nrel_associative_connection: by_side_natural_lighting;
+    => nrel_associative_connection: by_overhead_natural_lighting;
+    => nrel_associative_connection: by_geometric_coefficient_of_natural_illumination_e_;
+    => nrel_associative_connection: by_duty_lighting;
+    => nrel_associative_connection: by_additional_artificial_lighting;
+    => nrel_associative_connection: by_natural_lighting;
+    => nrel_associative_connection: by_flood_lighting;
+    => nrel_associative_connection: by_combined_natural_lighting;
+    => nrel_associative_connection: by_combined_lighting;
+    => nrel_associative_connection: by_daylight_factor_df;
+    => nrel_associative_connection: by_local_lighting;
+    => nrel_associative_connection: by_accent_lighting;
+    => nrel_associative_connection: by_general_lighting;
+    => nrel_associative_connection: by_safety_lighting;
+    => nrel_associative_connection: by_safety_lighting_backup_lighting;
+    => nrel_associative_connection: by_protective_lighting;
+    => nrel_associative_connection: by_indicator_of_roughness_p;
+    => nrel_associative_connection: by_working_lighting;
+    => nrel_associative_connection: by_combined_lighting;
+
+    => nrel_etalon_online_idx: [37289];;

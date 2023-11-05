@@ -1,0 +1,33 @@
+
+by_characteristic
+    => nrel_main_idtf: [characteristic] (* <- lang_en;; *);
+    => nrel_main_idtf: [характеристика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [характарыстыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_characteristic_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autobiography;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_identification_characteristics;
+    => nrel_associative_connection: by_interface_joint;
+    => nrel_associative_connection: by_general_characteristic_of_the_medicinal_product;
+    => nrel_associative_connection: by_personal_protection_means_with_higher_additional_protective_properties_and_hygienic_characteristics;
+    => nrel_associative_connection: by_taxing_characteristics;
+    => nrel_associative_connection: by_required_technology;
+    => nrel_associative_connection: by_labor_activity;
+
+    => nrel_etalon_online_idx: [26123];;

@@ -1,0 +1,27 @@
+
+by_nonresident_organizations
+    => nrel_main_idtf: [non-resident organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации, не являющиеся резидентами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі, не з'яўляючыюся рэзідэнтамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonresident_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auditing_organizationnonresident;
+    => nrel_associative_connection: by_nonresident;
+    => nrel_associative_connection: by_organizationnonresident;
+
+    => nrel_etalon_online_idx: [37487];;

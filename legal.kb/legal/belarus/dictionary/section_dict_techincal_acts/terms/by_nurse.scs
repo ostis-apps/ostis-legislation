@@ -1,0 +1,29 @@
+
+by_nurse
+    => nrel_main_idtf: [nurse] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинская сестра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынская сястра] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nurse_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_medical_manipulation;
+    => nrel_associative_connection: by_health_care_specialist;
+    => nrel_associative_connection: by_medical_worker_of_the_organizationowner_of_the_experimental_aircraft;
+    => nrel_associative_connection: by_interdisciplinary_team_of_specialists;
+    => nrel_associative_connection: by_patient;
+
+    => nrel_etalon_online_idx: [35857];;

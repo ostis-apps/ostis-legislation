@@ -1,0 +1,43 @@
+
+by_refining_of_precious_metals
+    => nrel_main_idtf: [refining of precious metals ] (* <- lang_en;; *);
+    => nrel_main_idtf: [аффинаж драгоценных металлов ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афiнаж каштоўных металаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refining_of_precious_metals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refining_of_precious_metals_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_makeweight;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_production_of_precious_metals;
+    => nrel_associative_connection: by_precious_metals_examination;
+
+    => nrel_etalon_online_idx: [7448];;

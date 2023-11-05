@@ -1,0 +1,31 @@
+
+by_service_on_conducting_concerted_procedures_regarding_financial_information
+    => nrel_main_idtf: [service on conducting concerted procedures regarding financial information] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуга по проведению согласованных процедур в отношении финансовой информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслуга па правядзенні ўзгодненых працэдур у дачыненні фінансавай інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_on_conducting_concerted_procedures_regarding_financial_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditory_procedure;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_customers_of_audit_services;
+    => nrel_associative_connection: by_financial_information_compilation_service;
+
+    => nrel_etalon_online_idx: [11475];;

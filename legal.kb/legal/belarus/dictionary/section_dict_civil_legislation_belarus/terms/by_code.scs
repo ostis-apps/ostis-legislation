@@ -1,0 +1,71 @@
+
+by_code
+    => nrel_main_idtf: [code] (* <- lang_en;; *);
+    => nrel_main_idtf: [код] (* <- lang_ru;; *);
+    => nrel_main_idtf: [код] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_code_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_code_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_identification;
+    => nrel_associative_connection: by_bank_identification_code;
+    => nrel_associative_connection: by_businessidentification_code;
+    => nrel_associative_connection: by_maintenance_of_register_classifier;
+    => nrel_associative_connection: by_departmental_classifier;
+    => nrel_associative_connection: by_depository_of_bar_codes;
+    => nrel_associative_connection: by_identification_code;
+    => nrel_associative_connection: by_test_identification_code;
+    => nrel_associative_connection: by_source_program_source_code;
+    => nrel_associative_connection: by_depositary_code;
+    => nrel_associative_connection: by_local_budget_code;
+    => nrel_associative_connection: by_coding;
+    => nrel_associative_connection: by_objective_code;
+    => nrel_associative_connection: by_pincode;
+    => nrel_associative_connection: by_postal_code;
+    => nrel_associative_connection: by_smart_contract;
+    => nrel_associative_connection: by_unique_identification_code;
+
+    => nrel_etalon_online_idx: [15958];;

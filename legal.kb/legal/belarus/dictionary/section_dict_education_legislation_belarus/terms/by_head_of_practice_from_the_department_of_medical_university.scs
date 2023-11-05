@@ -1,0 +1,32 @@
+
+by_head_of_practice_from_the_department_of_medical_university
+    => nrel_main_idtf: [head of practice from the department of medical university] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель практики от кафедры медицинского университета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік практыкі ад кафедры медыцынскага універсітэта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_of_practice_from_the_department_of_medical_university_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_head_of_the_practice_base;
+    => nrel_associative_connection: by_head_of_the_practice_fromdepartment;
+    => nrel_associative_connection: by_head_of_the_practice_from_pedagogy_department;
+    => nrel_associative_connection: by_head_of_the_practice_from_psychology_department;
+    => nrel_associative_connection: by_head_of_practice_from_medical_university;
+    => nrel_associative_connection: by_head_of_practice_from_the_organization;
+    => nrel_associative_connection: by_head_of_the_practice_from_faculty;
+    => nrel_associative_connection: by_head_of_practice_from_the_faculty_of_medical_university;
+
+    => nrel_etalon_online_idx: [42169];;

@@ -1,0 +1,30 @@
+
+by_provided_service
+    => nrel_main_idtf: [provided service] (* <- lang_en;; *);
+    => nrel_main_idtf: [оказываемая услуга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аказваемая паслуга] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_provided_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automotive_vehicles;
+    => nrel_associative_connection: by_homogeneous_transactions;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_management_services;
+    => nrel_associative_connection: by_services_to_provide_information;
+    => nrel_associative_connection: by_repair_services_for_motor_vehicles_and_their_components;
+
+    => nrel_etalon_online_idx: [30889];;

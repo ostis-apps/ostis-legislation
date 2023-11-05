@@ -1,0 +1,27 @@
+
+by_uncertainty
+    => nrel_main_idtf: [uncertainty] (* <- lang_en;; *);
+    => nrel_main_idtf: [неопределенность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нявызначанасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_uncertainty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_undefined_obligations_of_the_audited_person;
+    => nrel_associative_connection: by_considerable_uncertainty;
+
+    => nrel_etalon_online_idx: [27993];;

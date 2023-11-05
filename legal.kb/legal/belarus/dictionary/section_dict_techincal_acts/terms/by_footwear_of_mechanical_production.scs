@@ -1,0 +1,45 @@
+
+by_footwear_of_mechanical_production
+    => nrel_main_idtf: [footwear of mechanical production] (* <- lang_en;; *);
+    => nrel_main_idtf: [обувь механического производства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абутак механічнай вытворчасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_footwear_of_mechanical_production_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_footwear_of_mechanical_production_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quality_of_goods_work_services;
+    => nrel_associative_connection: by_leather_galvanized_production;
+    => nrel_associative_connection: by_design_of_footwear_and_leather_goods;
+    => nrel_associative_connection: by_footwear;
+    => nrel_associative_connection: by_handmade_shoes;
+    => nrel_associative_connection: by_orthopedic_shoes;
+
+    => nrel_etalon_online_idx: [33632];;

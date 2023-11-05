@@ -1,0 +1,28 @@
+
+by_social_insufficiency
+    => nrel_main_idtf: [social insufficiency] (* <- lang_en;; *);
+    => nrel_main_idtf: [социальная недостаточность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сацыяльная недастатковасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_insufficiency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_habilitation;
+    => nrel_associative_connection: by_anatomic_defect;
+    => nrel_associative_connection: by_social_support_for_persons_with_disabilities;
+    => nrel_associative_connection: by_injury;
+
+    => nrel_etalon_online_idx: [23666];;

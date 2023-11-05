@@ -1,0 +1,25 @@
+
+by_expansion_of_service_area_increased_work
+    => nrel_main_idtf: [expansion of service area (increased work)] (* <- lang_en;; *);
+    => nrel_main_idtf: [расширение зон обслуживания (увеличение объема работы)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашырэнне зон абслугоўвання (павелічэнне аб'ёму работы)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expansion_of_service_area_increased_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_labor_agreement;
+
+    => nrel_etalon_online_idx: [40842];;

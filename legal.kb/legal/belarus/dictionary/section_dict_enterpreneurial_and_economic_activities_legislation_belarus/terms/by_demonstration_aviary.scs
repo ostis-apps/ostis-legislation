@@ -1,0 +1,31 @@
+
+by_demonstration_aviary
+    => nrel_main_idtf: [demonstration aviary] (* <- lang_en;; *);
+    => nrel_main_idtf: [демонстрационный вольер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэманстрацыйная вальера] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_demonstration_aviary_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_openair_cage_owner;
+    => nrel_associative_connection: by_openair_cage;
+    => nrel_associative_connection: by_aviary_for_overexposure;
+    => nrel_associative_connection: by_aviary_for_baiting;
+    => nrel_associative_connection: by_openair_cage_hunting;
+    => nrel_associative_connection: by_aviaries;
+    => nrel_associative_connection: by_hunting_aviary;
+
+    => nrel_etalon_online_idx: [33992];;

@@ -1,0 +1,43 @@
+
+by_conciliation_procedure
+    => nrel_main_idtf: [conciliation procedure] (* <- lang_en;; *);
+    => nrel_main_idtf: [примирительная процедура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прымірыцельная працэдура] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conciliation_procedure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conciliation_procedure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outofcourt_settlement_in_the_proceedings_on_economic_insolvency_bankruptcy;
+    => nrel_associative_connection: by_conciliator;
+    => nrel_associative_connection: by_procedure;
+    => nrel_associative_connection: by_agreement_on_reconciliation;
+
+    => nrel_etalon_online_idx: [8990];;

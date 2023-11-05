@@ -1,0 +1,34 @@
+
+by_attraction_motorcycle_races
+    => nrel_main_idtf: [attraction "motorcycle races"] (* <- lang_en;; *);
+    => nrel_main_idtf: [аттракцион "мотогонки"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [атракцыён "мотагонкі"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_attraction_motorcycle_races_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antipode_trinks;
+    => nrel_associative_connection: by_antipode_trinks_in_ikarian_games;
+    => nrel_associative_connection: by_park_amusement;
+    => nrel_associative_connection: by_mechanized_park_amusement;
+    => nrel_associative_connection: by_unpowered_park_amusement;
+    => nrel_associative_connection: by_amusement_complex;
+    => nrel_associative_connection: by_attraction_owner;
+    => nrel_associative_connection: by_water_slide;
+    => nrel_associative_connection: by_attractions_attendant;
+    => nrel_associative_connection: by_modernization_of_attraction;
+
+    => nrel_etalon_online_idx: [12563];;

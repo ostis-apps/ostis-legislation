@@ -1,0 +1,52 @@
+
+by_reinforcing_cage
+    => nrel_main_idtf: [reinforcing cage] (* <- lang_en;; *);
+    => nrel_main_idtf: [арматурный каркас] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арматурны каркас] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reinforcing_cage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reinforcing_cage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fittings;
+    => nrel_associative_connection: by_mesh_reinforcement;
+    => nrel_associative_connection: by_reinforcement_product;
+    => nrel_associative_connection: by_embedded_product;
+    => nrel_associative_connection: by_reinforcement_class_for_tensile_strength_reinforcement_class;
+    => nrel_associative_connection: by_compressive_strength_class_of_concrete_concrete_class;
+    => nrel_associative_connection: by_structural_fittings;
+    => nrel_associative_connection: by_tensioned_reinforcement;
+    => nrel_associative_connection: by_transmission_strength;
+    => nrel_associative_connection: by_working_effective_section_height;
+    => nrel_associative_connection: by_working_fittings;
+    => nrel_associative_connection: by_calculated_strength_of_stressed_reinforcement;
+    => nrel_associative_connection: by_calculated_strength_of_nonstressed_reinforcement;
+
+    => nrel_etalon_online_idx: [35650];;

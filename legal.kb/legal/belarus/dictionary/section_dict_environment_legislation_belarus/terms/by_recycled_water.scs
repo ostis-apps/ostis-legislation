@@ -1,0 +1,26 @@
+
+by_recycled_water
+    => nrel_main_idtf: [recycled water] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборотная вода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абаротная вада] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recycled_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_use;
+    => nrel_associative_connection: by_repeated_consistently_used_water;
+
+    => nrel_etalon_online_idx: [18456];;

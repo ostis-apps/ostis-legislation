@@ -1,0 +1,29 @@
+
+by_exit_to_the_designated_object
+    => nrel_main_idtf: [exit to the designated object] (* <- lang_en;; *);
+    => nrel_main_idtf: [выход на заданный объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выхад на зададзены аб'ект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exit_to_the_designated_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerial_navigation;
+    => nrel_associative_connection: by_chief_navigator;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigational_and_temporary_provision;
+    => nrel_associative_connection: by_navigational_field;
+
+    => nrel_etalon_online_idx: [39797];;

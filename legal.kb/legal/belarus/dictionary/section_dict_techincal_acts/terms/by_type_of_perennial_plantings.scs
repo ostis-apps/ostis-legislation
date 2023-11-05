@@ -1,0 +1,31 @@
+
+by_type_of_perennial_plantings
+    => nrel_main_idtf: [type of perennial plantings] (* <- lang_en;; *);
+    => nrel_main_idtf: [вид многолетних насаждений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [від шматгадовых насаджэнняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_of_perennial_plantings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bonity_of_garden;
+    => nrel_associative_connection: by_curb;
+    => nrel_associative_connection: by_vines;
+    => nrel_associative_connection: by_deciduous_species;
+    => nrel_associative_connection: by_perennial_plantings;
+    => nrel_associative_connection: by_accumulated_depreciation_of_perennial_plantings;
+    => nrel_associative_connection: by_fruit_perennial_plantings;
+
+    => nrel_etalon_online_idx: [33866];;

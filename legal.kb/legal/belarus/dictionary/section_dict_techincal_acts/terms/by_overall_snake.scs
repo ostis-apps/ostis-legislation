@@ -1,0 +1,29 @@
+
+by_overall_snake
+    => nrel_main_idtf: [overall snake] (* <- lang_en;; *);
+    => nrel_main_idtf: [габаритная змейка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [габарытная змейка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overall_snake_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_overall_figure_eight_circle_for_the_autodrome;
+    => nrel_associative_connection: by_overall_gates;
+    => nrel_associative_connection: by_overall_corridor;
+    => nrel_associative_connection: by_overall_tunnel;
+    => nrel_associative_connection: by_circular_route;
+
+    => nrel_etalon_online_idx: [35592];;

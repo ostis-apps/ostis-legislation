@@ -1,0 +1,48 @@
+
+by_participants_of_criminal_proceedings
+    => nrel_main_idtf: [participants of criminal proceedings] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники уголовного процесса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі крымінальнага працэсу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participants_of_criminal_proceedings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_prosecutor;
+    => nrel_associative_connection: by_civil_claimant;
+    => nrel_associative_connection: by_civil_defendant;
+    => nrel_associative_connection: by_another_area;
+    => nrel_associative_connection: by_legal_representatives;
+    => nrel_associative_connection: by_defence_counsel_in_criminal_proceedings;
+    => nrel_associative_connection: by_defendants;
+    => nrel_associative_connection: by_chief_of_inquiry_agency;
+    => nrel_associative_connection: by_chief_of_investigative_force;
+    => nrel_associative_connection: by_accused;
+    => nrel_associative_connection: by_custodians;
+    => nrel_associative_connection: by_acquitted_person;
+    => nrel_associative_connection: by_translator;
+    => nrel_associative_connection: by_suspect;
+    => nrel_associative_connection: by_identifying_witness;
+    => nrel_associative_connection: by_casualty;
+    => nrel_associative_connection: by_representatives;
+    => nrel_associative_connection: by_prosecutor;
+    => nrel_associative_connection: by_investigator;
+    => nrel_associative_connection: by_specialist;
+    => nrel_associative_connection: by_judge;
+    => nrel_associative_connection: by_participant;
+    => nrel_associative_connection: by_private_prosecutor;
+    => nrel_associative_connection: by_expert;
+
+    => nrel_etalon_online_idx: [2169];;

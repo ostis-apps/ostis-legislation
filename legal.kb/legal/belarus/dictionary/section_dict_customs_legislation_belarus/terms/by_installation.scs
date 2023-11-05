@@ -1,0 +1,75 @@
+
+by_installation
+    => nrel_main_idtf: [installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [устаноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_installation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_installation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_installation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drilling_rig;
+    => nrel_associative_connection: by_ventilation_installation;
+    => nrel_associative_connection: by_removal_from_service_a_nuclear_installation_and_or_storage_point;
+    => nrel_associative_connection: by_gas_cleaning_installation;
+    => nrel_associative_connection: by_gas_turbine_plant;
+    => nrel_associative_connection: by_boiler_installation;
+    => nrel_associative_connection: by_installation;
+    => nrel_associative_connection: by_installation_of_equipment;
+    => nrel_associative_connection: by_outdoor_ip66;
+    => nrel_associative_connection: by_steam_gas_installation;
+    => nrel_associative_connection: by_steam_turbine_installation;
+    => nrel_associative_connection: by_floating_establishment;
+    => nrel_associative_connection: by_working_bodies;
+    => nrel_associative_connection: by_reactor_plant;
+    => nrel_associative_connection: by_reservoir_installation;
+    => nrel_associative_connection: by_heat_installation;
+    => nrel_associative_connection: by_technical_means;
+    => nrel_associative_connection: by_refrigerant;
+    => nrel_associative_connection: by_refrigeration_unit;
+    => nrel_associative_connection: by_electrolysis_installation;
+    => nrel_associative_connection: by_electrical_installation;
+
+    => nrel_etalon_online_idx: [25668];;

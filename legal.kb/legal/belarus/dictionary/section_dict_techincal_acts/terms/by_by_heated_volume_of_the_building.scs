@@ -1,0 +1,26 @@
+
+by_by_heated_volume_of_the_building
+    => nrel_main_idtf: [by_heated_volume_of_the_building] (* <- lang_en;; *);
+    => nrel_main_idtf: [отапливаемый объем здания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацяпляльны аб'ём будынка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_heated_volume_of_the_building_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_enclosing_structure;
+    => nrel_associative_connection: by_heated_area_of_the_building;
+
+    => nrel_etalon_online_idx: [37271];;

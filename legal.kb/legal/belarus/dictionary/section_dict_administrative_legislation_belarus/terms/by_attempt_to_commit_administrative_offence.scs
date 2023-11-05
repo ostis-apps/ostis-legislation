@@ -1,0 +1,15 @@
+
+by_attempt_to_commit_administrative_offence
+    => nrel_main_idtf: [attempt to commit administrative offence] (* <- lang_en;; *);
+    => nrel_main_idtf: [покушение на административное правонарушение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замах на адміністрацыйнае правапарушэнне] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_executor_of_administrative_violation;
+    => nrel_associative_connection: by_attempt;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+
+    => nrel_etalon_online_idx: [4080];;

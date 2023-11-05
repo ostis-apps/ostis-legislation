@@ -1,0 +1,32 @@
+
+by_linguodidactics
+    => nrel_main_idtf: [linguodidactics] (* <- lang_en;; *);
+    => nrel_main_idtf: [лингводидактика ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінгвадыдактыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_linguodidactics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_language;
+    => nrel_associative_connection: by_communication;
+    => nrel_associative_connection: by_linguist_translator;
+    => nrel_associative_connection: by_linguist_foreign_language_teacher;
+    => nrel_associative_connection: by_linguistics;
+    => nrel_associative_connection: by_linguistic_security_of_intercultural_communication;
+    => nrel_associative_connection: by_linguistic_and_methodological_model_of_development_of_language_and_speech_abilities_of_inofons;
+    => nrel_associative_connection: by_linguistic_regional_geography;
+
+    => nrel_etalon_online_idx: [29182];;

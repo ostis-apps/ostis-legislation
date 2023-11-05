@@ -1,0 +1,17 @@
+
+by_reactivity
+    => nrel_main_idtf: [reactivity] (* <- lang_en;; *);
+    => nrel_main_idtf: [реакционная способность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэакцыйная здольнасць] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_explosion_hazard;
+    => nrel_associative_connection: by_inventory_of_industrial_waste;
+    => nrel_associative_connection: by_infectivity;
+    => nrel_associative_connection: by_industrial_waste;
+    => nrel_associative_connection: by_fire_hazard;
+    => nrel_associative_connection: by_toxicity;
+    => nrel_associative_connection: by_toxicity_of_combustion_products;
+
+    => nrel_etalon_online_idx: [22249];;

@@ -1,0 +1,27 @@
+
+by_sample_purchase
+    => nrel_main_idtf: [sample purchase] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольная закупка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольная закупка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_purchase_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sample_purchase_of_inventory_values_control_registration_of_orders_for_performance_of_works_rendering_services;
+    => nrel_associative_connection: by_purchase_operation;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [5092];;

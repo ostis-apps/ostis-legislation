@@ -1,0 +1,31 @@
+
+by_information_user
+    => nrel_main_idtf: [information user] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователь информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнік інфармацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_user_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_relations;
+    => nrel_associative_connection: by_information_mediator;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_user_consumer_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_user_of_information_system_and_or_information_network;
+    => nrel_associative_connection: by_system_of_information_protection;
+
+    => nrel_etalon_online_idx: [3095];;

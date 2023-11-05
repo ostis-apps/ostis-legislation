@@ -1,0 +1,31 @@
+
+by_readiness_to_connect
+    => nrel_main_idtf: [readiness to connect] (* <- lang_en;; *);
+    => nrel_main_idtf: [готовность соединения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гатоўнасць злучэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_readiness_to_connect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_time_to_restore_communication;
+    => nrel_associative_connection: by_global_computer_network_internet_network;
+    => nrel_associative_connection: by_quality_of_service_for_users_of_data_transmission_services;
+    => nrel_associative_connection: by_quality_of_operation_of_the_data_network;
+    => nrel_associative_connection: by_data_transfer;
+    => nrel_associative_connection: by_data_communication_network;
+    => nrel_associative_connection: by_data_transmission_service;
+
+    => nrel_etalon_online_idx: [40036];;

@@ -1,0 +1,30 @@
+
+by_mast
+    => nrel_main_idtf: [mast] (* <- lang_en;; *);
+    => nrel_main_idtf: [мачта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мачта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mast_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_shroud_sailing;
+    => nrel_associative_connection: by_cargo_lift;
+    => nrel_associative_connection: by_loadcarrying_device;
+    => nrel_associative_connection: by_mast_lift;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_wall_support;
+
+    => nrel_etalon_online_idx: [16967];;

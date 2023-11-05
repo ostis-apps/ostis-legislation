@@ -1,0 +1,29 @@
+
+by_side_track
+    => nrel_main_idtf: [side track] (* <- lang_en;; *);
+    => nrel_main_idtf: [боковой путь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бакавы шлях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_side_track_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_team_of_the_special_selfpropelled_rolling_stock;
+    => nrel_associative_connection: by_exhaust_track;
+    => nrel_associative_connection: by_clearance_gauge_of_rolling_stock;
+    => nrel_associative_connection: by_main_way;
+    => nrel_associative_connection: by_safety_dead_end;
+
+    => nrel_etalon_online_idx: [11789];;

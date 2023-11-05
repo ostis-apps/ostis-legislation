@@ -1,0 +1,26 @@
+
+by_prohibition_of_certain_actions
+    => nrel_main_idtf: [prohibition of certain actions] (* <- lang_en;; *);
+    => nrel_main_idtf: [запрет определенных действий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забарона пэўных дзеянняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prohibition_of_certain_actions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accused;
+    => nrel_associative_connection: by_suspect;
+
+    => nrel_etalon_online_idx: [40355];;

@@ -1,0 +1,29 @@
+
+by_separate_territory
+    => nrel_main_idtf: [separate territory] (* <- lang_en;; *);
+    => nrel_main_idtf: [обособленная территория] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адасобленая тэрыторыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_separate_territory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_war_casualties;
+    => nrel_associative_connection: by_landscape_protection_zone;
+    => nrel_associative_connection: by_burial_ground;
+    => nrel_associative_connection: by_protective_zone;
+    => nrel_associative_connection: by_site_for_burial;
+
+    => nrel_etalon_online_idx: [30354];;

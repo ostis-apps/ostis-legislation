@@ -1,0 +1,35 @@
+
+by_penalty
+    => nrel_main_idtf: [penalty] (* <- lang_en;; *);
+    => nrel_main_idtf: [наказание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пакаранне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_penalty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_guilt;
+    => nrel_associative_connection: by_minor_crimes;
+    => nrel_associative_connection: by_disturbance_of_the_procedure_and_conditions_for_serving_a_sentence_in_the_form_of_restriction_of_liberty;
+    => nrel_associative_connection: by_public_works;
+    => nrel_associative_connection: by_bodies_and_institutions_enforcing_penalties;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_crimes_with_minor_social_danger;
+    => nrel_associative_connection: by_sentence;
+    => nrel_associative_connection: by_judicial_decision;
+    => nrel_associative_connection: by_criminal_liability;
+
+    => nrel_etalon_online_idx: [21];;

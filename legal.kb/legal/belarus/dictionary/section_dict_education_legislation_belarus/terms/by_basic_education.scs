@@ -1,0 +1,38 @@
+
+by_basic_education
+    => nrel_main_idtf: [basic education] (* <- lang_en;; *);
+    => nrel_main_idtf: [основное образование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўная адукацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_preschool_education;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_educational_activity;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_programs_of_basic_education;
+    => nrel_associative_connection: by_general_secondary_education;
+    => nrel_associative_connection: by_pedagogic_process;
+    => nrel_associative_connection: by_postgraduate_education;
+    => nrel_associative_connection: by_professional_and_technical_education;
+    => nrel_associative_connection: by_listeners;
+    => nrel_associative_connection: by_specialized_secondary_education;
+    => nrel_associative_connection: by_education_level;
+    => nrel_associative_connection: by_level_of_basic_education;
+
+    => nrel_etalon_online_idx: [482];;

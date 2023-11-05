@@ -1,0 +1,30 @@
+
+by_firewood
+    => nrel_main_idtf: [firewood] (* <- lang_en;; *);
+    => nrel_main_idtf: [дрова] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дровы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_firewood_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wood_for_own_production_and_or_consumption;
+    => nrel_associative_connection: by_kora;
+    => nrel_associative_connection: by_roundwood;
+    => nrel_associative_connection: by_a_pile_of_timber;
+    => nrel_associative_connection: by_timber;
+    => nrel_associative_connection: by_round_timber;
+
+    => nrel_etalon_online_idx: [35898];;

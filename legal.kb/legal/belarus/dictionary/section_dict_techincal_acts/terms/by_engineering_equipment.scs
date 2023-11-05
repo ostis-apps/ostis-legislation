@@ -1,0 +1,59 @@
+
+by_engineering_equipment
+    => nrel_main_idtf: [engineering equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [инженерное оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інжынернае абсталяванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_engineering_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_engineering_equipment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_engineering_equipment_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engineering_communication;
+    => nrel_associative_connection: by_engineering_systems;
+    => nrel_associative_connection: by_lowering_well;
+    => nrel_associative_connection: by_reconstruction;
+    => nrel_associative_connection: by_current_repair;
+
+    => nrel_etalon_online_idx: [30325];;

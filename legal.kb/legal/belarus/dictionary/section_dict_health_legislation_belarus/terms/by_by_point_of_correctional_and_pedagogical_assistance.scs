@@ -1,0 +1,32 @@
+
+by_by_point_of_correctional_and_pedagogical_assistance
+    => nrel_main_idtf: [by_point_of_correctional_and_pedagogical_assistance] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт коррекционно-педагогической помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт карэкцыйна-педагагічнай дапамогі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_point_of_correctional_and_pedagogical_assistance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_correctional_sessions;
+    => nrel_associative_connection: by_places_of_accommodation_of_students;
+    => nrel_associative_connection: by_training;
+    => nrel_associative_connection: by_training;
+    => nrel_associative_connection: by_food_facility_for_adults;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_institutions_for_children;
+    => nrel_associative_connection: by_institutions_for_orphaned_children;
+
+    => nrel_etalon_online_idx: [31437];;

@@ -1,0 +1,84 @@
+
+by_suspicious_financial_operation
+    => nrel_main_idtf: [suspicious financial operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [подозрительная финансовая операция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падазроная фінансавая аперацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspicious_financial_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspicious_financial_operation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspicious_financial_operation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspicious_financial_operation_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_financial_operation_blocking;
+    => nrel_associative_connection: by_legalization_laundering__of_funds_obtained_by_criminal_means;
+    => nrel_associative_connection: by_legalization_of_incomes_gained_by_illegal_means;
+    => nrel_associative_connection: by_persons_carrying_out_financial_operations;
+    => nrel_associative_connection: by_illegal_financial_operations;
+    => nrel_associative_connection: by_singletype_financial_operations;
+    => nrel_associative_connection: by_suspension_of_operations_of_the_payer_other_obligor_on_bank_accounts;
+    => nrel_associative_connection: by_suspension_of_financial_operations_by_the_body_of_financial_monitoring;
+    => nrel_associative_connection: by_systematic_nature_of_financial_operations_performance;
+    => nrel_associative_connection: by_sum_of_the_financial_operation;
+    => nrel_associative_connection: by_participant_of_financial_transaction;
+    => nrel_associative_connection: by_terrorist_activity_financing;
+    => nrel_associative_connection: by_financing_of_extremist_activity;
+    => nrel_associative_connection: by_financial_transaction;
+    => nrel_associative_connection: by_suspicious_financial_transaction;
+
+    => nrel_etalon_online_idx: [20407];;

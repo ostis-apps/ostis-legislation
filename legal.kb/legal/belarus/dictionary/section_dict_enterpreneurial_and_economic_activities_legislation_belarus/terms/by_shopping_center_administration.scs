@@ -1,0 +1,31 @@
+
+by_shopping_center_administration
+    => nrel_main_idtf: [shopping center administration] (* <- lang_en;; *);
+    => nrel_main_idtf: [администрация торгового центра ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыя гандлёвага цэнтра] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shopping_center_administration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_trade_chain;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_object;
+    => nrel_associative_connection: by_shopping_center;
+    => nrel_associative_connection: by_form_of_trade;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [38172];;

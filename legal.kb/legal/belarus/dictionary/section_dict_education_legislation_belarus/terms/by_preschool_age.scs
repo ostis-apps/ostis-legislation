@@ -1,0 +1,62 @@
+
+by_preschool_age
+    => nrel_main_idtf: [preschool age] (* <- lang_en;; *);
+    => nrel_main_idtf: [дошкольный возраст] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дашкольны ўзрост] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preschool_age_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preschool_age_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preschool_age_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_upbringer_of_preschool_education;
+    => nrel_associative_connection: by_children;
+    => nrel_associative_connection: by_preschool_education;
+    => nrel_associative_connection: by_preschool_institutions;
+    => nrel_associative_connection: by_preschool_childrens_development_center;
+    => nrel_associative_connection: by_republican_center_for_preschool_children_with_hearing_impairment;
+    => nrel_associative_connection: by_special_kindergarten;
+    => nrel_associative_connection: by_preschool_institution;
+
+    => nrel_etalon_online_idx: [4451];;

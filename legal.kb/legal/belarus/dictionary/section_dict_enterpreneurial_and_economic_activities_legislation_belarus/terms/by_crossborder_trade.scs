@@ -1,0 +1,75 @@
+
+by_crossborder_trade
+    => nrel_main_idtf: [cross-border trade] (* <- lang_en;; *);
+    => nrel_main_idtf: [трансграничная торговля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трансгранічны гандаль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crossborder_trade_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crossborder_trade_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crossborder_trade_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crossborder_trade_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_global_location_number_gln;
+    => nrel_associative_connection: by_global_trade_item_number_gtin;
+    => nrel_associative_connection: by_marked_goods;
+    => nrel_associative_connection: by_material_carrier;
+    => nrel_associative_connection: by_wholesale_trade;
+    => nrel_associative_connection: by_transboundary_movement;
+
+    => nrel_etalon_online_idx: [25157];;

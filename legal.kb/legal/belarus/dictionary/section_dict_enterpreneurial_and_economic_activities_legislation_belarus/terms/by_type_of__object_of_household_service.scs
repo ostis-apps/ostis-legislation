@@ -1,0 +1,31 @@
+
+by_type_of__object_of_household_service
+    => nrel_main_idtf: [type of  object of household service] (* <- lang_en;; *);
+    => nrel_main_idtf: [вид объекта бытового обслуживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [від аб'екта бытавога абслугоўвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_of__object_of_household_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_type_of_personal_services;
+    => nrel_associative_connection: by_service_zone_of_rural_complex_receiving_point_reception_of_orders_for_the_provision_of_domestic_services;
+    => nrel_associative_connection: by_object_of_consumer_services;
+    => nrel_associative_connection: by_rural_integrated_receiving_point_for_receiving_orders_for_provision_of_household_services;
+    => nrel_associative_connection: by_subject_providing_household_services;
+    => nrel_associative_connection: by_form_of_household_service;
+
+    => nrel_etalon_online_idx: [12988];;

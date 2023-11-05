@@ -1,0 +1,29 @@
+
+by_new_loan
+    => nrel_main_idtf: [new loan] (* <- lang_en;; *);
+    => nrel_main_idtf: [новый кредит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [новы крэдыт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_new_loan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interbank_loan_deposit;
+    => nrel_associative_connection: by_interest_rate_for_use_of_interbank_credit_contribution_deposit;
+    => nrel_associative_connection: by_interest_rate_for_the_use_of_a_new_loan_for_a_new_bank_deposit_deposit_in_the_reporting_period;
+    => nrel_associative_connection: by_arithmetic_mean_of_daily_balance_sheets_in_currency_units;
+    => nrel_associative_connection: by_arithmetic_mean_of_daily_balance_balances_in_the_equivalent_of_belarusian_rubles;
+
+    => nrel_etalon_online_idx: [41872];;

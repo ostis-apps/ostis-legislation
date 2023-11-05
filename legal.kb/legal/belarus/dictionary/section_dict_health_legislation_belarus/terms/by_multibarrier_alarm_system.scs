@@ -1,0 +1,29 @@
+
+by_multibarrier_alarm_system
+    => nrel_main_idtf: [multibarrier alarm system] (* <- lang_en;; *);
+    => nrel_main_idtf: [многорубежная система охранной сигнализации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мнагарубежная сістэма ахоўнай сігналізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multibarrier_alarm_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_locomotive_signalling_with_automatic_speed_regulation_automatic_locomotive_signalling;
+    => nrel_associative_connection: by_engineering_and_technical_fortified_of_the_object;
+    => nrel_associative_connection: by_centralized_security_point;
+    => nrel_associative_connection: by_alarm_limit_alarm_limit;
+    => nrel_associative_connection: by_manual_alarm_system;
+
+    => nrel_etalon_online_idx: [17429];;

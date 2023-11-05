@@ -1,0 +1,30 @@
+
+by_housing_fund_maintenance
+    => nrel_main_idtf: [housing fund maintenance] (* <- lang_en;; *);
+    => nrel_main_idtf: [эксплуатация жилищного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эксплуатацыя жыллёвага фонду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_fund_maintenance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_housing_and_utilities_infrastructure;
+    => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_republican_housing_fund;
+    => nrel_associative_connection: by_operating_services;
+    => nrel_associative_connection: by_exploited_housing_fund;
+    => nrel_associative_connection: by_operating_housing_fund_of_citizens;
+
+    => nrel_etalon_online_idx: [7237];;

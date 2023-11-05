@@ -1,0 +1,31 @@
+
+by_refusal_to_undergo_examination_in_due_course
+    => nrel_main_idtf: [refusal to undergo examination in due course 	] (* <- lang_en;; *);
+    => nrel_main_idtf: [отказ от прохождения в установленном порядке освидетельствования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адмова ад праходжання ва ўстаноўленым парадку агляду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refusal_to_undergo_examination_in_due_course_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_checkup_examination;
+    => nrel_associative_connection: by_medical_inspection;
+    => nrel_associative_connection: by_obligatory_medical_examination;
+    => nrel_associative_connection: by_compulsory_medical_reexamination;
+    => nrel_associative_connection: by_examination;
+    => nrel_associative_connection: by_refusal_to_undergo_examination;
+    => nrel_associative_connection: by_technical_certification;
+
+    => nrel_etalon_online_idx: [19510];;

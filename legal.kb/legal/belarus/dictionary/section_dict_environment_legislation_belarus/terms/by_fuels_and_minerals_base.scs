@@ -1,0 +1,30 @@
+
+by_fuels_and_minerals_base
+    => nrel_main_idtf: [fuels and minerals base] (* <- lang_en;; *);
+    => nrel_main_idtf: [минерально-сырьевая база] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінеральна-сыравінная база] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fuels_and_minerals_base_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conditions_of_raw_materials_and_or_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_mineral_wealth;
+    => nrel_associative_connection: by_mineral_solid;
+    => nrel_associative_connection: by_raw_materials;
+    => nrel_associative_connection: by_expenses_for_delivery_of_mineral_fertilizers;
+    => nrel_associative_connection: by_subsoil_resources;
+
+    => nrel_etalon_online_idx: [17385];;

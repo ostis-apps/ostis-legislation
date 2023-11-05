@@ -1,0 +1,37 @@
+
+by_swimming
+    => nrel_main_idtf: [swimming] (* <- lang_en;; *);
+    => nrel_main_idtf: [плавание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_swimming_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_swimming_pool_for_jumps_in_water;
+    => nrel_associative_connection: by_kind_of_sports;
+    => nrel_associative_connection: by_counter_swimming;
+    => nrel_associative_connection: by_swimming_season;
+    => nrel_associative_connection: by_bathing_place;
+    => nrel_associative_connection: by_mini_pool;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_imm_75;
+    => nrel_associative_connection: by_rescue_station;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_standard_swimming_pool;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+    => nrel_associative_connection: by_vessel_of_mixed_river__sea_navigation;
+
+    => nrel_etalon_online_idx: [20153];;

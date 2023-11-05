@@ -1,0 +1,32 @@
+
+by_string_fal_restraint
+    => nrel_main_idtf: [string (fal) restraint] (* <- lang_en;; *);
+    => nrel_main_idtf: [строп (фал) ограничительный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [строп (фал) абмежавальны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_string_fal_restraint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_steeplejacking;
+    => nrel_associative_connection: by_safety_uphill_device;
+    => nrel_associative_connection: by_safety_strapless_belt;
+    => nrel_associative_connection: by_safety_strap_belt;
+    => nrel_associative_connection: by_work_at_height;
+    => nrel_associative_connection: by_works_at_height;
+    => nrel_associative_connection: by_mean_of_protection_of_the_worker;
+    => nrel_associative_connection: by_worker_protective_equipment_protective_equipment;
+
+    => nrel_etalon_online_idx: [27706];;

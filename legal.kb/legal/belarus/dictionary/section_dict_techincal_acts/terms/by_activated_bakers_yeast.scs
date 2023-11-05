@@ -1,0 +1,28 @@
+
+by_activated_bakers_yeast
+    => nrel_main_idtf: [activated baker's yeast] (* <- lang_en;; *);
+    => nrel_main_idtf: [активированные хлебопекарные дрожжи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [актывізаваныя хлебапякарныя дрожджы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_activated_bakers_yeast_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bakery_product;
+    => nrel_associative_connection: by_additional_raw_materials_for_bakery_product;
+    => nrel_associative_connection: by_freezing_a_bakery_product;
+    => nrel_associative_connection: by_main_raw_material_for_bakery_product;
+
+    => nrel_etalon_online_idx: [35461];;

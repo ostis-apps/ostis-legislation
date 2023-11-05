@@ -1,0 +1,41 @@
+
+by_small_size_craft
+    => nrel_main_idtf: [small size craft] (* <- lang_en;; *);
+    => nrel_main_idtf: [маломерное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маламернае судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_size_craft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_base_structure_for_parking_of_small_vessels;
+    => nrel_associative_connection: by_hydrocycle;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_small_size_crafts;
+    => nrel_associative_connection: by_seaworthiness_of_ship;
+    => nrel_associative_connection: by_motor_small_vessel;
+    => nrel_associative_connection: by_ship_stop;
+    => nrel_associative_connection: by_sailing_vessel;
+    => nrel_associative_connection: by_lightening;
+    => nrel_associative_connection: by_postdevelopment_characteristics;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_selfpropelled_vehicle;
+    => nrel_associative_connection: by_vessel_owner;
+    => nrel_associative_connection: by_small_vessel_skipper;
+    => nrel_associative_connection: by_shipping_ticket;
+    => nrel_associative_connection: by_theft_of_a_vehicle_or_small_watercraft;
+    => nrel_associative_connection: by_nominal_ship_volume;
+
+    => nrel_etalon_online_idx: [16856];;

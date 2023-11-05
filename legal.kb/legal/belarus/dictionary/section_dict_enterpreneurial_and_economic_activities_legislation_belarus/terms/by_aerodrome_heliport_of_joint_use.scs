@@ -1,0 +1,35 @@
+
+by_aerodrome_heliport_of_joint_use
+    => nrel_main_idtf: [aerodrome (heliport) of joint use] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродром (вертодром) совместного использования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадром (вертадром) сумеснага выкарыстання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_heliport_of_joint_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_temporary_aerodrome_heliport;
+    => nrel_associative_connection: by_aerodrome_heliport_of_state_aviation;
+    => nrel_associative_connection: by_permanent_aerodrome_heliport;
+    => nrel_associative_connection: by_aerodrome_heliport_cobasing;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_owner_of_aerodrome_heliport_of_state_aviation;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_state_registry_of_aerodrome_heliport_of_state_aviation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_aerodrome_area;
+
+    => nrel_etalon_online_idx: [8283];;

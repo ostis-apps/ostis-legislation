@@ -1,0 +1,63 @@
+
+by_animal_breed
+    => nrel_main_idtf: [ animal breed] (* <- lang_en;; *);
+    => nrel_main_idtf: [порода животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парода жывёл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_animal_breed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_animal_breed_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_animal_species;
+    => nrel_associative_connection: by_intrabreed_zonal_type;
+    => nrel_associative_connection: by_breed_reproduction;
+    => nrel_associative_connection: by_highvalue_animal;
+    => nrel_associative_connection: by_genetic_potential;
+    => nrel_associative_connection: by_gene_pool_small_breed;
+    => nrel_associative_connection: by_gene_pool_economy;
+    => nrel_associative_connection: by_hybridization;
+    => nrel_associative_connection: by_hybrid_animal;
+    => nrel_associative_connection: by_animal_husbandry;
+    => nrel_associative_connection: by_factory_line;
+    => nrel_associative_connection: by_factory_type;
+    => nrel_associative_connection: by_feed;
+    => nrel_associative_connection: by_breed_group;
+    => nrel_associative_connection: by_fauna_resources;
+    => nrel_associative_connection: by_breeding_advances_in_animal_husbandry;
+    => nrel_associative_connection: by_selection_in_animal_husbandry;
+    => nrel_associative_connection: by_family;
+    => nrel_associative_connection: by_cross_breeding;
+    => nrel_associative_connection: by_specialized_synthetic_line;
+    => nrel_associative_connection: by_specialized_type;
+    => nrel_associative_connection: by_type_of_animals;
+    => nrel_associative_connection: by_purebred_animal;
+    => nrel_associative_connection: by_purebred_culture;
+
+    => nrel_etalon_online_idx: [7664];;

@@ -1,0 +1,32 @@
+
+by_aerodrome_heliport_basing
+    => nrel_main_idtf: [aerodrome (heliport) basing] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродром (вертодром) базирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадром (вертадром) базіравання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_heliport_basing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerodrome_suitable_for_meteorological_conditions;
+    => nrel_associative_connection: by_airport_basing;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_state_of_the_aerodrome;
+    => nrel_associative_connection: by_civil_aircraft;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_isolated_aerodrome;
+    => nrel_associative_connection: by_maximum_departure_time_to_the_emergency_aerodrome;
+
+    => nrel_etalon_online_idx: [38405];;

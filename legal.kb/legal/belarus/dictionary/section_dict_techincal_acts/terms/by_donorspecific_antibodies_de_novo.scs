@@ -1,0 +1,26 @@
+
+by_donorspecific_antibodies_de_novo
+    => nrel_main_idtf: [donor-specific antibodies de novo] (* <- lang_en;; *);
+    => nrel_main_idtf: [донор-специфические антитела de novo] (* <- lang_ru;; *);
+    => nrel_main_idtf: [донар-спецыфічныя антыцелы de novo] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_donorspecific_antibodies_de_novo_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antibodies;
+    => nrel_associative_connection: by_donor;
+
+    => nrel_etalon_online_idx: [34007];;

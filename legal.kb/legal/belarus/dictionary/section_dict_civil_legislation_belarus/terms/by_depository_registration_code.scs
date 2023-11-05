@@ -1,0 +1,30 @@
+
+by_depository_registration_code
+    => nrel_main_idtf: [depository registration code] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрационный код депозитария] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыйны код дэпазітарыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depository_registration_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intradepositive_transfer_of_securities;
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_depository_accounting_of_rights_in_securities;
+    => nrel_associative_connection: by_interdepositary_transfer_of_securities;
+    => nrel_associative_connection: by_synthetic_depository_account_plan;
+    => nrel_associative_connection: by_authorized_depositories;
+
+    => nrel_etalon_online_idx: [31061];;

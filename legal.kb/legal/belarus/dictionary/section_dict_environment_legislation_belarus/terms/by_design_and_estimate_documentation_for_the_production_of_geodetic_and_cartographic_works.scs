@@ -1,0 +1,30 @@
+
+by_design_and_estimate_documentation_for_the_production_of_geodetic_and_cartographic_works
+    => nrel_main_idtf: [design and estimate documentation for the production of geodetic and cartographic works] (* <- lang_en;; *);
+    => nrel_main_idtf: [проектно-сметная документация на производство геодезических и картографических работ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праектна-каштарысная дакументацыя на вытворчасць геадэзічных і картаграфічных работ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_and_estimate_documentation_for_the_production_of_geodetic_and_cartographic_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geodesic_and_mapping_activity;
+    => nrel_associative_connection: by_geodesic_and_cartographic_materials_and_data;
+    => nrel_associative_connection: by_cartographic_activities;
+    => nrel_associative_connection: by_project_documentation;
+    => nrel_associative_connection: by_system_of_geodesic_mapping_standards_and_rules;
+    => nrel_associative_connection: by_estimate;
+
+    => nrel_etalon_online_idx: [41160];;

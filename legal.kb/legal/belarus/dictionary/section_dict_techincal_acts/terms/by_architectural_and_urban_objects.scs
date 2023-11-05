@@ -1,0 +1,31 @@
+
+by_architectural_and_urban_objects
+    => nrel_main_idtf: [architectural and urban objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [архитектурно-градостроительные объекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архітэктурна-горадабудаўнічыя аб'екты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_architectural_and_urban_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architect;
+    => nrel_associative_connection: by_architecture;
+    => nrel_associative_connection: by_architectural_design;
+    => nrel_associative_connection: by_architectural__and_landscape_objects;
+    => nrel_associative_connection: by_architectural_and_construction_objects;
+    => nrel_associative_connection: by_architectural_and_territorial_objects;
+    => nrel_associative_connection: by_zones_of_urban_planning_development_of_settlements;
+
+    => nrel_etalon_online_idx: [33031];;

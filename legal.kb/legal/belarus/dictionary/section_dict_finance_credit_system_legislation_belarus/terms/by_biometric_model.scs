@@ -1,0 +1,46 @@
+
+by_biometric_model
+    => nrel_main_idtf: [biometric model] (* <- lang_en;; *);
+    => nrel_main_idtf: [биометрическая модель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біяметрычная мадэль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biometric_model_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biometric_model_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biometrical_data;
+    => nrel_associative_connection: by_biometric_data_of_clients_their_representatives;
+    => nrel_associative_connection: by_biometric_personal_data;
+    => nrel_associative_connection: by_biometric_sample;
+    => nrel_associative_connection: by_biometrics;
+    => nrel_associative_connection: by_blocking_of_data_about_the_client_its_representative;
+    => nrel_associative_connection: by_signs_of_biometric_sample;
+
+    => nrel_etalon_online_idx: [32446];;

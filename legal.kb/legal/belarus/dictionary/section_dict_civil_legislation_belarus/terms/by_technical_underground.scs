@@ -1,0 +1,27 @@
+
+by_technical_underground
+    => nrel_main_idtf: [technical underground] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническое подполье] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічнае падполле] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_underground_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_above_ground_floor;
+    => nrel_associative_connection: by_basement_floor;
+    => nrel_associative_connection: by_technical_attic;
+
+    => nrel_etalon_online_idx: [40683];;

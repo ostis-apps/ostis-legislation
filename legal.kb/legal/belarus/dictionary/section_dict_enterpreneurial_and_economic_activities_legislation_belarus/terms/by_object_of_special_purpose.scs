@@ -1,0 +1,27 @@
+
+by_object_of_special_purpose
+    => nrel_main_idtf: [object of special purpose] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект специального назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект спецыяльнага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_of_special_purpose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_construction_object;
+    => nrel_associative_connection: by_immovable_property_objects;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [11428];;

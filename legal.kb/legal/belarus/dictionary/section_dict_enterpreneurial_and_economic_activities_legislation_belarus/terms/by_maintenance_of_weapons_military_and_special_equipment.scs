@@ -1,0 +1,29 @@
+
+by_maintenance_of_weapons_military_and_special_equipment
+    => nrel_main_idtf: [maintenance of weapons, military and special equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [содержание вооружения, военной и специальной техники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [утрыманне ўзбраення, ваеннай іспецыяльнай тэхнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintenance_of_weapons_military_and_special_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_armament_and_military_equipment;
+    => nrel_associative_connection: by_arm_military_equipment;
+    => nrel_associative_connection: by_control_of_the_technical_condition_of_arms_and_military_equipment_samples;
+    => nrel_associative_connection: by_development_of_arms_military_and_special_equipment;
+    => nrel_associative_connection: by_regulated_maintenance_of_weapons_and_military_equipment;
+
+    => nrel_etalon_online_idx: [23525];;

@@ -1,0 +1,29 @@
+
+by_free_access_zone
+    => nrel_main_idtf: [free access zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона свободного доступа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона свабоднага доступу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_free_access_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_class_of_work_with_open_sources_of_ionizing_radiation;
+    => nrel_associative_connection: by_radiation_hazard_zone;
+    => nrel_associative_connection: by_radioactive_material;
+    => nrel_associative_connection: by_representative_person;
+    => nrel_associative_connection: by_reference_level;
+
+    => nrel_etalon_online_idx: [42371];;

@@ -1,0 +1,28 @@
+
+by_certificate_of_attestation_of_a_person_providing_legal_services
+    => nrel_main_idtf: [certificate of attestation of a person providing legal services] (* <- lang_en;; *);
+    => nrel_main_idtf: [свидетельство об аттестации лица, оказывающего юридические услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасведчанне аб атэстацыі асобы, якая аказвае юрыдычныя паслугі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_of_attestation_of_a_person_providing_legal_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assessment_of_conformity_of_the_capabilities_of_the_license_applicant_with_the_prelicensing_requirements_the_licensee_with_the_license_requirements;
+    => nrel_associative_connection: by_assessment_of_licensee_s_compliance_with_licensing_requirements_and_conditions_licensee_s_compliance_with_licensing_requirements_and_conditions;
+    => nrel_associative_connection: by_information_necessary_making_significance_for_decisionmaking_on_granting_changing_the_license;
+    => nrel_associative_connection: by_legal_services;
+
+    => nrel_etalon_online_idx: [41387];;

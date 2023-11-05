@@ -1,0 +1,26 @@
+
+by_variable_flight_composition
+    => nrel_main_idtf: [variable flight composition] (* <- lang_en;; *);
+    => nrel_main_idtf: [переменный летный состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пераменны лётны састаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_flight_composition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_flight_staff;
+    => nrel_associative_connection: by_reinforced_composition_of_flight_crew;
+
+    => nrel_etalon_online_idx: [42065];;

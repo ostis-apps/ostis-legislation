@@ -1,0 +1,33 @@
+
+by_sports_injury
+    => nrel_main_idtf: [sports injury] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивная травма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўная траўма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sports_injury_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lifegenerating_effects_of_injuries;
+    => nrel_associative_connection: by_physical_culture_and_sport_trainings;
+    => nrel_associative_connection: by_inj_multiple;
+    => nrel_associative_connection: by_polytrauma;
+    => nrel_associative_connection: by_professional_sportsman;
+    => nrel_associative_connection: by_specialized_sports_injury_register;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_injury;
+    => nrel_associative_connection: by_individuals_engaged_in_physical_education_and_sports;
+
+    => nrel_etalon_online_idx: [30386];;

@@ -1,0 +1,33 @@
+
+by_state_scientific_and_state_scientific_and_technical_examination
+    => nrel_main_idtf: [state scientific and state scientific and technical examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная научная и государственная научно-техническая экспертизы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная навуковая і дзяржаўная навукова-тэхнічная экспертызы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_scientific_and_state_scientific_and_technical_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_departmental_scientific_and_technical_expertise;
+    => nrel_associative_connection: by_state_scientific_and_technical_examination;
+    => nrel_associative_connection: by_state_scientific_and_technical_examination_of_innovation_projects;
+    => nrel_associative_connection: by_state_expertise;
+    => nrel_associative_connection: by_unified_system_of_state_scientific_and_state_scientific_and_technical_expertise;
+    => nrel_associative_connection: by_customer_of_state_expertise;
+    => nrel_associative_connection: by_scientific_expertise;
+    => nrel_associative_connection: by_scientific_and_technical_activity;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_etalon_online_idx: [13623];;

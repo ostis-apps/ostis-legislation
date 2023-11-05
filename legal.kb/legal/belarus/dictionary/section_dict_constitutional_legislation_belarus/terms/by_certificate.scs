@@ -1,0 +1,97 @@
+
+by_certificate
+    => nrel_main_idtf: [certificate ] (* <- lang_en;; *);
+    => nrel_main_idtf: [свидетельство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасведчанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_certificate_for_invention;
+    => nrel_associative_connection: by_attestation_of_the_applicant_for_obtaining_the_certificate_on_appraiser_attestation;
+    => nrel_associative_connection: by_medical_certificate_on_death_stillbirth;
+    => nrel_associative_connection: by_ground_training_time_for_instruments;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_educational_certificate;
+    => nrel_associative_connection: by_teaching_certificate;
+    => nrel_associative_connection: by_document_confirming_the_fact_of_creating_a_service_facility_of_industrial_property_right;
+    => nrel_associative_connection: by_delibarately_false_documents_and_certificates;
+    => nrel_associative_connection: by_driver_qualification_card;
+    => nrel_associative_connection: by_certificate_holder;
+    => nrel_associative_connection: by_authority_for_certificates_issuing;
+    => nrel_associative_connection: by_electronic_documents_on_state_registration;
+
+    => nrel_etalon_online_idx: [3350];;

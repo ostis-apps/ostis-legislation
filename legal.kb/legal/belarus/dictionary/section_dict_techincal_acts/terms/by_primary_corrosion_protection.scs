@@ -1,0 +1,30 @@
+
+by_primary_corrosion_protection
+    => nrel_main_idtf: [primary corrosion protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичная защита от коррозии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасная абарона ад карозіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_corrosion_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_secondary_corrosion_protection;
+    => nrel_associative_connection: by_protective_covering;
+    => nrel_associative_connection: by_corrosion_resistance_of_building_material;
+    => nrel_associative_connection: by_corrosion_resistance_of_the_building_structure;
+    => nrel_associative_connection: by_corrosion_of_reinforced_concrete;
+    => nrel_associative_connection: by_corrosion_of_building_material;
+
+    => nrel_etalon_online_idx: [35434];;

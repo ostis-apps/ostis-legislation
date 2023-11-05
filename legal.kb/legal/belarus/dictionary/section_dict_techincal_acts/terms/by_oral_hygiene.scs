@@ -1,0 +1,60 @@
+
+by_oral_hygiene
+    => nrel_main_idtf: [oral hygiene] (* <- lang_en;; *);
+    => nrel_main_idtf: [гигиена полости рта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гігіена поласці рота] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_oral_hygiene_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_oral_hygiene_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_oral_hygiene_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gingivitis;
+    => nrel_associative_connection: by_defects_of_the_dental_arch;
+    => nrel_associative_connection: by_dental_caries;
+    => nrel_associative_connection: by_medicines_for_the_mucosa_of_the_oral_cavity;
+    => nrel_associative_connection: by_noninvasive_sealing;
+    => nrel_associative_connection: by_noncarious_lesions_of_teeth;
+
+    => nrel_etalon_online_idx: [36641];;

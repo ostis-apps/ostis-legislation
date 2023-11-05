@@ -1,0 +1,31 @@
+
+by_base_year_of_the_index
+    => nrel_main_idtf: [base year of the index] (* <- lang_en;; *);
+    => nrel_main_idtf: [базисный год индекса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базісны год індэкса] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_year_of_the_index_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_year;
+    => nrel_associative_connection: by_basic_period;
+    => nrel_associative_connection: by_basic_period_year;
+    => nrel_associative_connection: by_basic_period_of_the_index;
+    => nrel_associative_connection: by_production_index;
+    => nrel_associative_connection: by_large_and_medium_organizations;
+    => nrel_associative_connection: by_overlap_period;
+
+    => nrel_etalon_online_idx: [30763];;

@@ -1,0 +1,31 @@
+
+by_lack_of_citizens_in_ownership_and_use_of_residential_premises
+    => nrel_main_idtf: [lack of citizens in ownership and use of residential premises] (* <- lang_en;; *);
+    => nrel_main_idtf: [отсутствие у граждан во владении и пользовании жилых помещений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адсутнасць у грамадзян ва валоданні і карыстанні жылых памяшканняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lack_of_citizens_in_ownership_and_use_of_residential_premises_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_support_for_the_construction_reconstruction_or_purchase_of_residential_premises;
+    => nrel_associative_connection: by_state_registration_of_real_estate;
+    => nrel_associative_connection: by_citizens_implementing_construction_reconstruction_of_residential_premises;
+    => nrel_associative_connection: by_living_space;
+    => nrel_associative_connection: by_apartment;
+    => nrel_associative_connection: by_total_area_of_residential_premises;
+    => nrel_associative_connection: by_shared_construction_object;
+
+    => nrel_etalon_online_idx: [19601];;

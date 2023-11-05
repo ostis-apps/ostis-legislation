@@ -1,0 +1,34 @@
+
+by_subsoil_resources
+    => nrel_main_idtf: [subsoil resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [ресурсы недр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэсурсы нетраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subsoil_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_overburden_rocks;
+    => nrel_associative_connection: by_geological_exploration_process_of_hydrogeological_study_of_subsoil;
+    => nrel_associative_connection: by_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_state_balances_of_mineral_reserves_and_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_state_inventory_of_mineral_wealth;
+    => nrel_associative_connection: by_fuels_and_minerals_base;
+    => nrel_associative_connection: by_mineral_wealth;
+    => nrel_associative_connection: by_raw_materials;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_resources;
+
+    => nrel_etalon_online_idx: [4030];;

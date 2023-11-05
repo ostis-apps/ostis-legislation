@@ -1,0 +1,28 @@
+
+by_by_mesh_pitch_structural_mesh_size
+    => nrel_main_idtf: [by_mesh_pitch_structural_mesh_size] (* <- lang_en;; *);
+    => nrel_main_idtf: [шаг ячеи (конструктивный размер ячеи)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крок вочка (канструктыўны памер вочка)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_mesh_pitch_structural_mesh_size_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_fish_catch;
+    => nrel_associative_connection: by_fishing_net;
+    => nrel_associative_connection: by_fishery;
+
+    => nrel_etalon_online_idx: [38191];;

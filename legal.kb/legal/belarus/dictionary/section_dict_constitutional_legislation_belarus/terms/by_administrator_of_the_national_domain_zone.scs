@@ -1,0 +1,36 @@
+
+by_administrator_of_the_national_domain_zone
+    => nrel_main_idtf: [administrator of the national domain zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [администратор национальной доменной зоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністратар нацыянальнай даменнай зоны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrator_of_the_national_domain_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrator;
+    => nrel_associative_connection: by_domain_administrator;
+    => nrel_associative_connection: by_domain_name_administration;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_domain_delegating;
+    => nrel_associative_connection: by_domain_zone;
+    => nrel_associative_connection: by_domain_name_domain;
+    => nrel_associative_connection: by_national_domain_zone;
+    => nrel_associative_connection: by_suspension_of_the_domain_delegating;
+    => nrel_associative_connection: by_suspension_of_domain_name_delegation;
+    => nrel_associative_connection: by_recorder;
+    => nrel_associative_connection: by_registry_of_the_national_domain_zone;
+
+    => nrel_etalon_online_idx: [7523];;

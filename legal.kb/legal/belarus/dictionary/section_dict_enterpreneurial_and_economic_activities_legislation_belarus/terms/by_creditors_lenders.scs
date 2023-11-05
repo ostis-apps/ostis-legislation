@@ -1,0 +1,29 @@
+
+by_creditors_lenders
+    => nrel_main_idtf: [creditors (lenders)] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредитодатели (заимодавцы)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдытадавальнікі (пазыкадаўцы)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_creditors_lenders_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cancellation_of_credit_history_record;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_lender_account;
+
+    => nrel_etalon_online_idx: [16415];;

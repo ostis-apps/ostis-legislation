@@ -1,0 +1,27 @@
+
+by_closed_bank_storage
+    => nrel_main_idtf: [closed bank storage] (* <- lang_en;; *);
+    => nrel_main_idtf: [закрытое банковское хранение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [закрытае банкаўскае захоўванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_closed_bank_storage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_open_bank_storage;
+    => nrel_associative_connection: by_protected_place_to_store;
+    => nrel_associative_connection: by_safe_bank_keeping;
+
+    => nrel_etalon_online_idx: [10386];;

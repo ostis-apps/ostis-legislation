@@ -1,0 +1,30 @@
+
+by_short_diagonal
+    => nrel_main_idtf: [short diagonal] (* <- lang_en;; *);
+    => nrel_main_idtf: [короткая диагональ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кароткая дыяганаль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_short_diagonal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_large_diagonal;
+    => nrel_associative_connection: by_vertical;
+    => nrel_associative_connection: by_opened_check;
+    => nrel_associative_connection: by_debut_start;
+    => nrel_associative_connection: by_diagonal;
+    => nrel_associative_connection: by_castling_long;
+
+    => nrel_etalon_online_idx: [34024];;

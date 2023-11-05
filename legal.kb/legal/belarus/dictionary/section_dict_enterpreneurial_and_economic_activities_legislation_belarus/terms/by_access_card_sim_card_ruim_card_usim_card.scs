@@ -1,0 +1,35 @@
+
+by_access_card_sim_card_ruim_card_usim_card
+    => nrel_main_idtf: [access card (sim card, ruim card, usim card)] (* <- lang_en;; *);
+    => nrel_main_idtf: [карта доступа (sim-карта, ruim-карта, usim-карта)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карта доступу (sim-карта, ruim-карта, usim-карта)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_access_card_sim_card_ruim_card_usim_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscribtion_on_the_right_to_use_the_subscriber_number_of_local_telephone_network;
+    => nrel_associative_connection: by_subscriber;
+    => nrel_associative_connection: by_local_telephone_network_subscriber;
+    => nrel_associative_connection: by_subscriber_number;
+    => nrel_associative_connection: by_subscribers_unit;
+    => nrel_associative_connection: by_local_telephone_network;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_network;
+    => nrel_associative_connection: by_stationary_electric_communication_network;
+    => nrel_associative_connection: by_cell_phone;
+    => nrel_associative_connection: by_tariff_plan;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_service;
+
+    => nrel_etalon_online_idx: [15778];;

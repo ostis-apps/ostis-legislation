@@ -1,0 +1,29 @@
+
+by_airtight_packing
+    => nrel_main_idtf: [airtight packing] (* <- lang_en;; *);
+    => nrel_main_idtf: [герметическая тара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [герметычная тара] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airtight_packing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_leakproofness_test;
+    => nrel_associative_connection: by_canister;
+    => nrel_associative_connection: by_canisters;
+    => nrel_associative_connection: by_large_packaging;
+    => nrel_associative_connection: by_consumer_container;
+
+    => nrel_etalon_online_idx: [12058];;

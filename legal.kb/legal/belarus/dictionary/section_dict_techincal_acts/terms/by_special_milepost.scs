@@ -1,0 +1,43 @@
+
+by_special_milepost
+    => nrel_main_idtf: [special milepost] (* <- lang_en;; *);
+    => nrel_main_idtf: [особые путевые знаки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобыя пуцявыя знакі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_milepost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_milepost_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railways;
+    => nrel_associative_connection: by_railway_crossing;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_track_sign;
+
+    => nrel_etalon_online_idx: [19424];;

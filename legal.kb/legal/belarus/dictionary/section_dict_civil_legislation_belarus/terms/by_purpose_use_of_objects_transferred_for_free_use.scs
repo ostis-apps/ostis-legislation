@@ -1,0 +1,28 @@
+
+by_purpose_use_of_objects_transferred_for_free_use
+    => nrel_main_idtf: [purpose use of objects transferred for free use] (* <- lang_en;; *);
+    => nrel_main_idtf: [целевое использование объектов, переданных в безвозмездное пользование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мэтавае выкарыстанне аб'ектаў, перададзеных у бязвыплатнае карыстанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_purpose_use_of_objects_transferred_for_free_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_uncompensated_use_contract_loan_contract;
+    => nrel_associative_connection: by_hourly_free_use;
+    => nrel_associative_connection: by_maintenance_costs_for_buildings_structures_premises_transferred_for_free_use;
+    => nrel_associative_connection: by_expenses_on_maintenance_of_the_premises_transferred_for_free_use;
+
+    => nrel_etalon_online_idx: [26185];;

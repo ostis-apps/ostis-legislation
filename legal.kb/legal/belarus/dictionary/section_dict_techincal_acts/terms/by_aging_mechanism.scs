@@ -1,0 +1,28 @@
+
+by_aging_mechanism
+    => nrel_main_idtf: [aging mechanism] (* <- lang_en;; *);
+    => nrel_main_idtf: [механизм старения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [механізм старэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aging_mechanism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_degradation_failure;
+    => nrel_associative_connection: by_degradation;
+    => nrel_associative_connection: by_condition_monitoring;
+    => nrel_associative_connection: by_inoperable_condition;
+
+    => nrel_etalon_online_idx: [31610];;

@@ -1,0 +1,31 @@
+
+by_state_compensation_bond
+    => nrel_main_idtf: [state compensation bond] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная компенсационная облигация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная кампенсацыйная аблігацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_compensation_bond_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bondholder;
+    => nrel_associative_connection: by_issue_of_securities;
+    => nrel_associative_connection: by_state_securities;
+    => nrel_associative_connection: by_bonds;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_bond_circulation;
+    => nrel_associative_connection: by_security;
+
+    => nrel_etalon_online_idx: [13616];;

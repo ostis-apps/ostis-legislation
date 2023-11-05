@@ -1,0 +1,30 @@
+
+by_credit_accounting_account
+    => nrel_main_idtf: [credit accounting account] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет по учету кредитов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак па ўліку крэдытаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_credit_accounting_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_overdue_debt_under_the_loan_agreement;
+    => nrel_associative_connection: by_account;
+    => nrel_associative_connection: by_cash_account;
+    => nrel_associative_connection: by_account_for_accounting_of_local_budget_funds;
+
+    => nrel_etalon_online_idx: [24578];;

@@ -1,0 +1,35 @@
+
+by_fish_seed
+    => nrel_main_idtf: [fish seed] (* <- lang_en;; *);
+    => nrel_main_idtf: [рыбопосадочный материал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рыбапасадачны матэрыял] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fish_seed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fish_species;
+    => nrel_associative_connection: by_reproduction_of_fish_resources;
+    => nrel_associative_connection: by_moving_in_of_fish_seeding;
+    => nrel_associative_connection: by_fish_protection;
+    => nrel_associative_connection: by_introduction_of_fish;
+    => nrel_associative_connection: by_fish_lot;
+    => nrel_associative_connection: by_fish_population;
+    => nrel_associative_connection: by_fish_resettlement;
+    => nrel_associative_connection: by_pisciculture;
+    => nrel_associative_connection: by_fishing_grounds;
+    => nrel_associative_connection: by_fish_production;
+
+    => nrel_etalon_online_idx: [22748];;

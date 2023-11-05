@@ -1,0 +1,30 @@
+
+by_by_ramburger_powers
+    => nrel_main_idtf: [by_ramburger_powers] (* <- lang_en;; *);
+    => nrel_main_idtf: [рамбурсные полномочия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамбурсныя паўнамоцтвы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_ramburger_powers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_letter_of_credit;
+    => nrel_associative_connection: by_letter_of_credit_execution;
+    => nrel_associative_connection: by_reimbursement;
+    => nrel_associative_connection: by_reimbursing_bank;
+    => nrel_associative_connection: by_reimbursement_undertaking;
+    => nrel_associative_connection: by_reimbursement_requirement;
+
+    => nrel_etalon_online_idx: [22114];;

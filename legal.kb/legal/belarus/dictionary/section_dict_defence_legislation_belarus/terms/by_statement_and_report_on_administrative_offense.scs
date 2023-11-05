@@ -1,0 +1,31 @@
+
+by_statement_and_report_on_administrative_offense
+    => nrel_main_idtf: [statement and report on administrative offense] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявление и сообщение об административном правонарушении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заява і паведамленне аб адміністрацыйным правапарушэнні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_and_report_on_administrative_offense_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anonymous_application_and_report_of_crime_administrative_offense;
+    => nrel_associative_connection: by_statement_and_report_on_crime;
+    => nrel_associative_connection: by_incident_information;
+    => nrel_associative_connection: by_concealment_of_statements_and_reports_on_crimes_administrative_offenses_and_information_on_incidents_from_registration;
+    => nrel_associative_connection: by_concealment_of_crimes_administrative_offenses;
+    => nrel_associative_connection: by_accounting_of_statements_and_reports_of_crimes_and_administrative_offenses;
+    => nrel_associative_connection: by_account_of_applications_and_reports_about_crime_administrative_violations_and_information_about_incidents;
+
+    => nrel_etalon_online_idx: [31005];;

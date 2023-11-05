@@ -1,0 +1,31 @@
+
+by_ecological_commitments
+    => nrel_main_idtf: [ecological commitments] (* <- lang_en;; *);
+    => nrel_main_idtf: [экологические обязательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экалагічныя абавязацельствы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ecological_commitments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_favourable_environment;
+    => nrel_associative_connection: by_environmental_pollution;
+    => nrel_associative_connection: by_environmental_protection;
+    => nrel_associative_connection: by_risk_of_environmental_issues;
+    => nrel_associative_connection: by_environmental_rules_and_regulations;
+    => nrel_associative_connection: by_environmental_harm;
+    => nrel_associative_connection: by_environmental_legislation;
+
+    => nrel_etalon_online_idx: [7634];;

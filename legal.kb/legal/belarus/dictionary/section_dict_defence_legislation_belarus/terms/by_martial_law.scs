@@ -1,0 +1,44 @@
+
+by_martial_law
+    => nrel_main_idtf: [martial law] (* <- lang_en;; *);
+    => nrel_main_idtf: [военное положение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваеннае становішча] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_martial_law_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_threat;
+    => nrel_associative_connection: by_military_censorship;
+    => nrel_associative_connection: by_military_transport_duty;
+    => nrel_associative_connection: by_war;
+    => nrel_associative_connection: by_military_mobilization;
+    => nrel_associative_connection: by_armed_conflict;
+    => nrel_associative_connection: by_forced_migration;
+    => nrel_associative_connection: by_volunteer_of_the_peoples_militia;
+    => nrel_associative_connection: by_internment;
+    => nrel_associative_connection: by_curfew;
+    => nrel_associative_connection: by_the_peopleaposs_militia;
+    => nrel_associative_connection: by_defense_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_public_safety;
+    => nrel_associative_connection: by_end_of_military_time;
+    => nrel_associative_connection: by_blocking_the_attack_act_of_armed_aggression;
+    => nrel_associative_connection: by_militia_detachment;
+    => nrel_associative_connection: by_parliamentthe_national_assembly_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_principle_of_military_necessity;
+    => nrel_associative_connection: by_state_of_war;
+    => nrel_associative_connection: by_state_of_emergency;
+
+    => nrel_etalon_online_idx: [1227];;

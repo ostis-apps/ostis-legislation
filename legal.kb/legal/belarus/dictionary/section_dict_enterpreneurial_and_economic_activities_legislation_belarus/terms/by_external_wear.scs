@@ -1,0 +1,49 @@
+
+by_external_wear
+    => nrel_main_idtf: [external wear] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешний износ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешні знос] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_wear_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_wear_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accident_wear_and_tear;
+    => nrel_associative_connection: by_wear;
+    => nrel_associative_connection: by_wear_of_personal_protective_equipment;
+    => nrel_associative_connection: by_obsolescence;
+    => nrel_associative_connection: by_accumulated_wear;
+    => nrel_associative_connection: by_writeoff_of_a_protective_structure;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_physical_deterioration;
+    => nrel_associative_connection: by_functional_wear;
+
+    => nrel_etalon_online_idx: [13093];;

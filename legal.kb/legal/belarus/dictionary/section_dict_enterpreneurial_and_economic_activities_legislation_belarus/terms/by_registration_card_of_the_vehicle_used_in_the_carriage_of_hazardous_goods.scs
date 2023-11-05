@@ -1,0 +1,32 @@
+
+by_registration_card_of_the_vehicle_used_in_the_carriage_of_hazardous_goods
+    => nrel_main_idtf: [registration card of the vehicle used in the carriage of hazardous goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрационная карточка транспортного средства, используемого при перевозке опасных грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыйная картка транспартнага сродку, які выкарыстоўваецца пры перавозцы небяспечных грузаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registration_card_of_the_vehicle_used_in_the_carriage_of_hazardous_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_owner_of_the_vehicle_used_for_transport_of_dangerous_goods;
+    => nrel_associative_connection: by_list_of_hazardous_cargo_accepted_for_carriage;
+    => nrel_associative_connection: by_registration_card;
+    => nrel_associative_connection: by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods;
+    => nrel_associative_connection: by_vehicles_type_at;
+    => nrel_associative_connection: by_vehicles_type_fl;
+    => nrel_associative_connection: by_vehicles_type_memu;
+    => nrel_associative_connection: by_vehicles_type_ox;
+
+    => nrel_etalon_online_idx: [22316];;

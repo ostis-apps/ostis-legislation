@@ -1,0 +1,27 @@
+
+by_provision_of_knowingly_false_information
+    => nrel_main_idtf: [provision of knowingly false information] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоставление заведомо ложных сведений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадастаўленне заведама хлуслівых звестак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_provision_of_knowingly_false_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_delibarately_false_documents_and_certificates;
+    => nrel_associative_connection: by_deliberately_false_facts;
+    => nrel_associative_connection: by_supply_of_information;
+
+    => nrel_etalon_online_idx: [4948];;

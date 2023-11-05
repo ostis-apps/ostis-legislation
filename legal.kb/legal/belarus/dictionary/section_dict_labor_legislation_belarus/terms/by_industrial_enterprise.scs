@@ -1,0 +1,43 @@
+
+by_industrial_enterprise
+    => nrel_main_idtf: [industrial enterprise] (* <- lang_en;; *);
+    => nrel_main_idtf: [промышленное предприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловае прадпрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_enterprise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_enterprise_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_townforming_organization;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_organization_equated_to_a_cityforming_organization;
+    => nrel_associative_connection: by_production_buildings;
+
+    => nrel_etalon_online_idx: [37084];;

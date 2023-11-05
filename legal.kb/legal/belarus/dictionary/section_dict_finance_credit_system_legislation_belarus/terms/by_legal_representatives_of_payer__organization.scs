@@ -1,0 +1,30 @@
+
+by_legal_representatives_of_payer__organization
+    => nrel_main_idtf: [legal representatives of payer - organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [законные представители плательщика-организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [законныя прадстаўнікі плацельшчыка-арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_representatives_of_payer__organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_legal_representatives;
+    => nrel_associative_connection: by_legal_representatives_of_the_payer__physical_person;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_payers;
+    => nrel_associative_connection: by_authorized_representative_of_payer;
+
+    => nrel_etalon_online_idx: [3696];;

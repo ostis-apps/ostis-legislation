@@ -1,0 +1,31 @@
+
+by_volume_of_vehicle_sampling
+    => nrel_main_idtf: [volume of vehicle sampling] (* <- lang_en;; *);
+    => nrel_main_idtf: [объем выборки транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ём выбаркі транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_volume_of_vehicle_sampling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sampling;
+    => nrel_associative_connection: by_history_of_vehicle_damages;
+    => nrel_associative_connection: by_sampling_volume;
+    => nrel_associative_connection: by_representative_sample;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_sampling_unit;
+
+    => nrel_etalon_online_idx: [18797];;

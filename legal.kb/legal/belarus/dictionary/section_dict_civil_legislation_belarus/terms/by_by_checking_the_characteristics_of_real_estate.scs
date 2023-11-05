@@ -1,0 +1,27 @@
+
+by_by_checking_the_characteristics_of_real_estate
+    => nrel_main_idtf: [by_checking_the_characteristics_of_real_estate] (* <- lang_en;; *);
+    => nrel_main_idtf: [проверка характеристик недвижимого имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праверка характарыстык нерухомай маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_checking_the_characteristics_of_real_estate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_immovable_property_objects;
+    => nrel_associative_connection: by_real_estate_objects;
+
+    => nrel_etalon_online_idx: [28464];;

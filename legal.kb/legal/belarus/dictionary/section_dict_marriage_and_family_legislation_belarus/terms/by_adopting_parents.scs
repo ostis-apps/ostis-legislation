@@ -1,0 +1,30 @@
+
+by_adopting_parents
+    => nrel_main_idtf: [adopting parents] (* <- lang_en;; *);
+    => nrel_main_idtf: [приемные родители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыёмныя бацькі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adopting_parents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_children_without_parental_care;
+    => nrel_associative_connection: by_orphaned_children;
+    => nrel_associative_connection: by_person_replacing_parents;
+    => nrel_associative_connection: by_adoption_family;
+    => nrel_associative_connection: by_foster_family_familytype_childrens_home;
+    => nrel_associative_connection: by_adopted_child_children;
+
+    => nrel_etalon_online_idx: [3995];;

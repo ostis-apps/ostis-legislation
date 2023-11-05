@@ -1,0 +1,28 @@
+
+by_employees_of_the_state_protection_body
+    => nrel_main_idtf: [employees of the state protection body] (* <- lang_en;; *);
+    => nrel_main_idtf: [сотрудники органа государственной охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [супрацоўнікі органа дзяржаўнай аховы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_employees_of_the_state_protection_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_state_guard;
+    => nrel_associative_connection: by_safety_maintenance_of_protected_persons_and_protected_objects;
+    => nrel_associative_connection: by_staff;
+
+    => nrel_etalon_online_idx: [23635];;

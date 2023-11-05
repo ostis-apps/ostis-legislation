@@ -1,0 +1,44 @@
+
+by_drivers_license
+    => nrel_main_idtf: [driver's license] (* <- lang_en;; *);
+    => nrel_main_idtf: [водительское удостоверение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вадзіцельскае пасведчанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drivers_license_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drivers_license_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_registration_and_examination_division_of_the_state_automobile_inspection_of_the_ministry_of_internal_affairs_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_certificate;
+    => nrel_associative_connection: by_vehicle_control;
+
+    => nrel_etalon_online_idx: [1207];;

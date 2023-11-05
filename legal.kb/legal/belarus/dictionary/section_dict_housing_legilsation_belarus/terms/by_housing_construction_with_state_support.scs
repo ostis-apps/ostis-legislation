@@ -1,0 +1,33 @@
+
+by_housing_construction_with_state_support
+    => nrel_main_idtf: [housing construction with state support] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилищное строительство с государственной поддержкой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллёвае будаўніцтва з дзяржаўнай падтрымкай] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_construction_with_state_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_support;
+    => nrel_associative_connection: by_state_support_for_the_construction_reconstruction_or_purchase_of_residential_premises;
+    => nrel_associative_connection: by_day_of_completion_of_house_construction;
+    => nrel_associative_connection: by_lowincome_employable_citizens_who_have_the_right_to_receive_preferential_credits_subsidies_and_other_forms_of_state_support_for_construction_reconstruction_or_purchase_of_residential_premise;
+    => nrel_associative_connection: by_construction_turn;
+    => nrel_associative_connection: by_primary_housing_market;
+    => nrel_associative_connection: by_support;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_participants_in_the_construction_of_the_residential_complex;
+
+    => nrel_etalon_online_idx: [14669];;

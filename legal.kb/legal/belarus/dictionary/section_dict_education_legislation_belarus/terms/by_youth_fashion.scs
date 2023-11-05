@@ -1,0 +1,27 @@
+
+by_youth_fashion
+    => nrel_main_idtf: [youth fashion] (* <- lang_en;; *);
+    => nrel_main_idtf: [молодежная мода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маладзёжная мода] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_youth_fashion_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_design_services;
+    => nrel_associative_connection: by_young_specialist_young_worker_employee;
+    => nrel_associative_connection: by_creative_worker;
+
+    => nrel_etalon_online_idx: [17482];;

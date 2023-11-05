@@ -1,0 +1,48 @@
+
+by_producer_price_index_of_industrial_products_services
+    => nrel_main_idtf: [producer price index of industrial products (services)] (* <- lang_en;; *);
+    => nrel_main_idtf: [индекс цен производителей промышленной продукции (услуг)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індэкс цэн вытворцаў прамысловай прадукцыі (паслуг)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_producer_price_index_of_industrial_products_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_producer_price_index_of_industrial_products_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aggregate_price_index;
+    => nrel_associative_connection: by_weight_of_producer_price_index_of_industrial_products_services;
+    => nrel_associative_connection: by_production_index;
+    => nrel_associative_connection: by_individual_production_index;
+    => nrel_associative_connection: by_individual_producer_price_index;
+    => nrel_associative_connection: by_manufacturing_volume;
+    => nrel_associative_connection: by_producer;
+    => nrel_associative_connection: by_statistical_indicator;
+    => nrel_associative_connection: by_price;
+
+    => nrel_etalon_online_idx: [27638];;

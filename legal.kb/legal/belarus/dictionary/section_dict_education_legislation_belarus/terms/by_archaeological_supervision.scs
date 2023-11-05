@@ -1,0 +1,34 @@
+
+by_archaeological_supervision
+    => nrel_main_idtf: [archaeological supervision] (* <- lang_en;; *);
+    => nrel_main_idtf: [археологический надзор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [археалагічны нагляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archaeological_supervision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archaeological_research;
+    => nrel_associative_connection: by_archaeological_excavations;
+    => nrel_associative_connection: by_archaeological_heritage;
+    => nrel_associative_connection: by_archeology;
+    => nrel_associative_connection: by_protection_of_the_archaeological_heritage;
+    => nrel_associative_connection: by_archeology_monuments;
+    => nrel_associative_connection: by_damaged_cultural_layer;
+    => nrel_associative_connection: by_search_for_archaeological_objects_and_or_archaeological_artifacts;
+    => nrel_associative_connection: by_permit_for_the_right_to_carry_out_archaeological_research;
+    => nrel_associative_connection: by_registry_of_archeological_objects;
+
+    => nrel_etalon_online_idx: [12534];;

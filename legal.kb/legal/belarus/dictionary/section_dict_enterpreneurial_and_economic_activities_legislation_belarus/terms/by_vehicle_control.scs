@@ -1,0 +1,35 @@
+
+by_vehicle_control
+    => nrel_main_idtf: [vehicle control] (* <- lang_en;; *);
+    => nrel_main_idtf: [управление транспортным средством] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраванне транспартным сродкам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_drivers_license;
+    => nrel_associative_connection: by_animaldrawn_vehicle;
+    => nrel_associative_connection: by_driver_card;
+    => nrel_associative_connection: by_master;
+    => nrel_associative_connection: by_educational_program_for_retraining_drivers_of_motor_vehicles_selfpropelled_vehicles;
+    => nrel_associative_connection: by_intersection;
+    => nrel_associative_connection: by_preassessment;
+    => nrel_associative_connection: by_pretrip_pretrip_medical_examination;
+    => nrel_associative_connection: by_participant_of_road_traffic;
+    => nrel_associative_connection: by_road_users;
+
+    => nrel_etalon_online_idx: [25538];;

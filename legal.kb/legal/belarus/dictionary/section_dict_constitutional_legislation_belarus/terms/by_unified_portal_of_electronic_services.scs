@@ -1,0 +1,35 @@
+
+by_unified_portal_of_electronic_services
+    => nrel_main_idtf: [unified portal of electronic services] (* <- lang_en;; *);
+    => nrel_main_idtf: [единый портал электронных услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіны партал электронных паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unified_portal_of_electronic_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_information_system;
+    => nrel_associative_connection: by_automated_system;
+    => nrel_associative_connection: by_administrative_appeal;
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_administrative_electronic_regulations;
+    => nrel_associative_connection: by_administrative_electronic_regulations_for_the_implementation_of_administrative_procedures_in_electronic_form;
+    => nrel_associative_connection: by_basic_electronic_service;
+    => nrel_associative_connection: by_national_automated_information_system;
+    => nrel_associative_connection: by_openness_of_administrative_procedure;
+    => nrel_associative_connection: by_electronic_service;
+    => nrel_associative_connection: by_electronic_administrative_regulations;
+
+    => nrel_etalon_online_idx: [14604];;

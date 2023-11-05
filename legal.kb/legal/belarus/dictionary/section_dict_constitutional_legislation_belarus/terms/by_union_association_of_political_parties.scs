@@ -1,0 +1,26 @@
+
+by_union_association_of_political_parties
+    => nrel_main_idtf: [union (association) of political parties] (* <- lang_en;; *);
+    => nrel_main_idtf: [союз (ассоциация) политических партий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [саюз (асацыяцыя) палітычных партый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_union_association_of_political_parties_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_political_party;
+    => nrel_associative_connection: by_union_association_of_public_associations;
+
+    => nrel_etalon_online_idx: [6922];;

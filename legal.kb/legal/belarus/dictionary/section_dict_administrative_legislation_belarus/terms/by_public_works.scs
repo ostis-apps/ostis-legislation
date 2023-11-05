@@ -1,0 +1,60 @@
+
+by_public_works
+    => nrel_main_idtf: [public works] (* <- lang_en;; *);
+    => nrel_main_idtf: [общественные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадскія работы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_works_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_employment;
+    => nrel_associative_connection: by_penalty;
+    => nrel_associative_connection: by_paid_public_works;
+    => nrel_associative_connection: by_convicted_person_maliciously_evading_service_of_sentence_in_the_form_of_community_service;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_works;
+
+    => nrel_etalon_online_idx: [3912];;

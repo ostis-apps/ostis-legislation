@@ -1,0 +1,33 @@
+
+by_optimum_number_of_wild_animals
+    => nrel_main_idtf: [optimum number of wild animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [оптимальная численность диких животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптымальная колькасць дзікіх жывёл] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_optimum_number_of_wild_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_reserve;
+    => nrel_associative_connection: by_type_of_wild_animals;
+    => nrel_associative_connection: by_density_of_wild_animals;
+    => nrel_associative_connection: by_population_of_wild_animals;
+    => nrel_associative_connection: by_wild_animal_production_measure;
+    => nrel_associative_connection: by_commercial_number;
+    => nrel_associative_connection: by_fishery_stock;
+    => nrel_associative_connection: by_disposal_of_wild_animals;
+    => nrel_associative_connection: by_reintroduction_of_wild_animals;
+
+    => nrel_etalon_online_idx: [19087];;

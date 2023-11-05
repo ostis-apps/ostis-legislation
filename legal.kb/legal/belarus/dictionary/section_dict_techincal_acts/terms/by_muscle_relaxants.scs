@@ -1,0 +1,31 @@
+
+by_muscle_relaxants
+    => nrel_main_idtf: [muscle relaxants] (* <- lang_en;; *);
+    => nrel_main_idtf: [миорелаксанты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міярэлаксанты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_muscle_relaxants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anesthesia;
+    => nrel_associative_connection: by_vegetative_state;
+    => nrel_associative_connection: by_hemodynamic_support;
+    => nrel_associative_connection: by_detoxification;
+    => nrel_associative_connection: by_intensive_therapy;
+    => nrel_associative_connection: by_critical_state;
+    => nrel_associative_connection: by_acute_exogenous_poisoning;
+
+    => nrel_etalon_online_idx: [33496];;

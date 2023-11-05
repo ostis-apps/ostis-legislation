@@ -1,0 +1,29 @@
+
+by_cooling_period
+    => nrel_main_idtf: [cooling period] (* <- lang_en;; *);
+    => nrel_main_idtf: [период охлаждения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перыяд ахаладжэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cooling_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_insurance_agreement;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurant;
+    => nrel_associative_connection: by_insurance_contribution;
+    => nrel_associative_connection: by_insured_event;
+
+    => nrel_etalon_online_idx: [39876];;

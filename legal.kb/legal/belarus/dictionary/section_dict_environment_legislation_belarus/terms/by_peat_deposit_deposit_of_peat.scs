@@ -1,0 +1,47 @@
+
+by_peat_deposit_deposit_of_peat
+    => nrel_main_idtf: [peat deposit (deposit of peat)] (* <- lang_en;; *);
+    => nrel_main_idtf: [торфяное месторождение (месторождение торфа)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тарфяное месцанараджэнне (месцанараджэнне торфу)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peat_deposit_deposit_of_peat_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peat_deposit_deposit_of_peat_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_swamp_ecological_system;
+    => nrel_associative_connection: by_exhausted_peat_deposit;
+    => nrel_associative_connection: by_drained_land_with_peat_soils;
+    => nrel_associative_connection: by_protection_of_peatlands;
+    => nrel_associative_connection: by_rational_sustainable_use_of_peatlands;
+    => nrel_associative_connection: by_turf;
+    => nrel_associative_connection: by_peatbog;
+    => nrel_associative_connection: by_ecological_rehabilitation_of_peatlands;
+
+    => nrel_etalon_online_idx: [25101];;

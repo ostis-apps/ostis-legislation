@@ -1,0 +1,30 @@
+
+by_dependent_parallel_landing_approaches
+    => nrel_main_idtf: [dependent parallel landing approaches] (* <- lang_en;; *);
+    => nrel_main_idtf: [зависимые параллельные заходы на посадку] (* <- lang_ru;; *);
+    => nrel_main_idtf: [залежныя паралельныя захады на пасадку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dependent_parallel_landing_approaches_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_glideslope_of_landing_system;
+    => nrel_associative_connection: by_approach_in_circle;
+    => nrel_associative_connection: by_instrument_approach;
+    => nrel_associative_connection: by_type_a_instrument_approach;
+    => nrel_associative_connection: by_type_b_instrument_approach;
+    => nrel_associative_connection: by_independent_parallel_approaches;
+
+    => nrel_etalon_online_idx: [41039];;

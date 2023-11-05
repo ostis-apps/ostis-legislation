@@ -1,0 +1,60 @@
+
+by_harmful_industrial_factor
+    => nrel_main_idtf: [harmful industrial factor] (* <- lang_en;; *);
+    => nrel_main_idtf: [вредный производственный фактор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шкодны вытворчы фактар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_harmful_industrial_factor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_harmful_industrial_factor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_harmful_industrial_factor_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_working_conditions;
+    => nrel_associative_connection: by_explosion_safety;
+    => nrel_associative_connection: by_harmful_working_conditions;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_hazardous_production_factor;
+    => nrel_associative_connection: by_occupational_disease_chronic_or_acute;
+
+    => nrel_etalon_online_idx: [5471];;

@@ -1,0 +1,29 @@
+
+by_parametric_series
+    => nrel_main_idtf: [parametric series] (* <- lang_en;; *);
+    => nrel_main_idtf: [параметрический ряд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [параметрычны радок] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parametric_series_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_objectanalogue;
+    => nrel_associative_connection: by_assessment_objects;
+    => nrel_associative_connection: by_value_appraisal;
+    => nrel_associative_connection: by_parametric_methods;
+
+    => nrel_etalon_online_idx: [37974];;

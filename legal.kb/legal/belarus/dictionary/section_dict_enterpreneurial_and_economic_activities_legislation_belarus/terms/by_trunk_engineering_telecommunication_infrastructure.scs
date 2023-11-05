@@ -1,0 +1,30 @@
+
+by_trunk_engineering_telecommunication_infrastructure
+    => nrel_main_idtf: [trunk engineering telecommunication infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [магистральная инженерная инфраструктура электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магістральная інжынерная інфраструктура электрасувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trunk_engineering_telecommunication_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_telecommunication_lines;
+    => nrel_associative_connection: by_trunking_telecommunication_network;
+    => nrel_associative_connection: by_primary_network_telecommunication;
+    => nrel_associative_connection: by_telecommunication_distribution_engineering_infrastructure;
+
+    => nrel_etalon_online_idx: [40139];;

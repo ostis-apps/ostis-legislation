@@ -1,0 +1,33 @@
+
+by_study_of_objects_and_documents
+    => nrel_main_idtf: [study of objects and documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [исследование предметов и документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даследаванне прадметаў і дакументаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_study_of_objects_and_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_use_of_documents;
+    => nrel_associative_connection: by_materials_of_operational_search_activity;
+    => nrel_associative_connection: by_operational_identification;
+    => nrel_associative_connection: by_operational_search_activiy;
+    => nrel_associative_connection: by_operational_search_mean;
+    => nrel_associative_connection: by_subjects_and_documents;
+    => nrel_associative_connection: by_purchase_operation;
+    => nrel_associative_connection: by_sample_collection;
+
+    => nrel_etalon_online_idx: [15625];;

@@ -1,0 +1,28 @@
+
+by_meteorological_subdivision
+    => nrel_main_idtf: [meteorological subdivision] (* <- lang_en;; *);
+    => nrel_main_idtf: [метеорологическое подразделение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метэаралагічнае падраздзяленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meteorological_subdivision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hydrological_regime;
+    => nrel_associative_connection: by_information_on_the_state_of_the_environment_and_its_pollution;
+    => nrel_associative_connection: by_meteorology;
+    => nrel_associative_connection: by_shaper;
+
+    => nrel_etalon_online_idx: [17295];;

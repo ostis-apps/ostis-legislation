@@ -1,0 +1,32 @@
+
+by_smartcard
+    => nrel_main_idtf: [smart-card] (* <- lang_en;; *);
+    => nrel_main_idtf: [смарт-карта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [смарт-карта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_smartcard_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ticket;
+    => nrel_associative_connection: by_smart_system_owner;
+    => nrel_associative_connection: by_comment;
+    => nrel_associative_connection: by_total_fare;
+    => nrel_associative_connection: by_travel_document;
+    => nrel_associative_connection: by_smart_contract_developer;
+    => nrel_associative_connection: by_smart_system;
+    => nrel_associative_connection: by_agreed_trains;
+
+    => nrel_etalon_online_idx: [5207];;

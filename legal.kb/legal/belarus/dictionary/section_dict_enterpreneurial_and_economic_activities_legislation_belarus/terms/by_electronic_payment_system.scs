@@ -1,0 +1,33 @@
+
+by_electronic_payment_system
+    => nrel_main_idtf: [electronic payment system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система электронного сбора платы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма электроннага збору платы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_payment_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_collateral_cost;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_border_service_station;
+    => nrel_associative_connection: by_service_station;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_payment_control_system;
+    => nrel_associative_connection: by_fuel_card;
+    => nrel_associative_connection: by_electronic_payment_device;
+
+    => nrel_etalon_online_idx: [10808];;

@@ -1,0 +1,27 @@
+
+by_periodic_rental
+    => nrel_main_idtf: [periodic rental] (* <- lang_en;; *);
+    => nrel_main_idtf: [периодическая аренда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перыядычная арэнда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_periodic_rental_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_base;
+    => nrel_associative_connection: by_periodic_free_use;
+    => nrel_associative_connection: by_hourly_rent;
+
+    => nrel_etalon_online_idx: [42514];;

@@ -1,0 +1,27 @@
+
+by_amounts_of_benefits_and_or_preferences
+    => nrel_main_idtf: [amounts of benefits and (or) preferences] (* <- lang_en;; *);
+    => nrel_main_idtf: [суммы льгот и (или) преференций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сумы льгот і (або) прэферэнцый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_amounts_of_benefits_and_or_preferences_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_preference;
+    => nrel_associative_connection: by_tax_collection_duty;
+    => nrel_associative_connection: by_collection;
+
+    => nrel_etalon_online_idx: [24529];;

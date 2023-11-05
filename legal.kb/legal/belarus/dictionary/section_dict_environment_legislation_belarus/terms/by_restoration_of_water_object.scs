@@ -1,0 +1,28 @@
+
+by_restoration_of_water_object
+    => nrel_main_idtf: [restoration of water object] (* <- lang_en;; *);
+    => nrel_main_idtf: [восстановление водного объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднаўленне воднага аб'екта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restoration_of_water_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_water_depletion_of_water_bodies;
+    => nrel_associative_connection: by_hit_intake_of_waste_in_a_surface_water_object;
+    => nrel_associative_connection: by_technological_water_objects;
+
+    => nrel_etalon_online_idx: [13237];;

@@ -1,0 +1,30 @@
+
+by_arteries_of_the_upper_extremities
+    => nrel_main_idtf: [arteries of the upper extremities] (* <- lang_en;; *);
+    => nrel_main_idtf: [артерии верхних конечностей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [артэрыі верхніх канечнасцей] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_arteries_of_the_upper_extremities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_arterial_thrombosis;
+    => nrel_associative_connection: by_arteries_of_the_lower_extremities;
+    => nrel_associative_connection: by_pelvic_arteries;
+    => nrel_associative_connection: by_brachiocephalic_arteries;
+    => nrel_associative_connection: by_visceral_arteries;
+    => nrel_associative_connection: by_peritoneal_dialysis;
+
+    => nrel_etalon_online_idx: [34124];;

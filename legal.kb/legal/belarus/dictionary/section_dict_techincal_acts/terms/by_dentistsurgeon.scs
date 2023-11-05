@@ -1,0 +1,33 @@
+
+by_dentistsurgeon
+    => nrel_main_idtf: [dentist-surgeon] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-стоматолог-хирург] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-стаматолаг-хірург] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dentistsurgeon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ankylosis_of_the_temporomandandibular_joint;
+    => nrel_associative_connection: by_bruxism;
+    => nrel_associative_connection: by_temporomandibular_joint;
+    => nrel_associative_connection: by_dentist;
+    => nrel_associative_connection: by_peidatric_dentist;
+    => nrel_associative_connection: by_dentisttherapist;
+    => nrel_associative_connection: by_dental_implants;
+    => nrel_associative_connection: by_dentures;
+    => nrel_associative_connection: by_dental_care;
+
+    => nrel_etalon_online_idx: [36298];;

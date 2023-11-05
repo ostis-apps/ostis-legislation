@@ -1,0 +1,47 @@
+
+by_information_about_accounts_contracts
+    => nrel_main_idtf: [information about accounts (contracts)] (* <- lang_en;; *);
+    => nrel_main_idtf: [информация о счетах (договорах)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыя аб рахунках (дагаворах)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_about_accounts_contracts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_about_accounts_contracts_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_account_owner_contractual_customer;
+    => nrel_associative_connection: by_account_number;
+    => nrel_associative_connection: by_base_account_transfer_transaction;
+    => nrel_associative_connection: by_separate_personal_accounts;
+    => nrel_associative_connection: by_cash_flow_statement;
+    => nrel_associative_connection: by_account;
+    => nrel_associative_connection: by_account_of_client;
+    => nrel_associative_connection: by_personal_account;
+
+    => nrel_etalon_online_idx: [15493];;

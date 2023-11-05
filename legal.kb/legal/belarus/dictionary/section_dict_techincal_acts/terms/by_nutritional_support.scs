@@ -1,0 +1,62 @@
+
+by_nutritional_support
+    => nrel_main_idtf: [nutritional support] (* <- lang_en;; *);
+    => nrel_main_idtf: [нутритивная поддержка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нутратыўная падтрымка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nutritional_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nutritional_support_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nutritional_support_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hemodynamic_support;
+    => nrel_associative_connection: by_detoxification;
+    => nrel_associative_connection: by_communal_prevention;
+    => nrel_associative_connection: by_treatment;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_medical_activity;
+    => nrel_associative_connection: by_acute_exogenous_poisoning;
+    => nrel_associative_connection: by_support;
+
+    => nrel_etalon_online_idx: [18360];;

@@ -1,0 +1,52 @@
+
+by_accused
+    => nrel_main_idtf: [accused] (* <- lang_en;; *);
+    => nrel_main_idtf: [обвиняемый] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абвінавачаны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accused_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_guilt;
+    => nrel_associative_connection: by_state_prosecutor;
+    => nrel_associative_connection: by_civil_defendant;
+    => nrel_associative_connection: by_home_arrest;
+    => nrel_associative_connection: by_detention;
+    => nrel_associative_connection: by_prohibition_of_certain_actions;
+    => nrel_associative_connection: by_defendants;
+    => nrel_associative_connection: by_person_who_subjected_to_bringing_as_a_suspect_accused;
+    => nrel_associative_connection: by_measures_of_restraint;
+    => nrel_associative_connection: by_attachment_of_property;
+    => nrel_associative_connection: by_charge;
+    => nrel_associative_connection: by_examination;
+    => nrel_associative_connection: by_dismissal_from_office;
+    => nrel_associative_connection: by_recognizance_not_to_leave_and_proper_behavior;
+    => nrel_associative_connection: by_testimony_of_accused;
+    => nrel_associative_connection: by_representatives_of_the_deceased_suspect_accused_person_to_be_involved_as_a_suspect_accused;
+    => nrel_associative_connection: by_prosecution;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_prejudice;
+    => nrel_associative_connection: by_attachment;
+    => nrel_associative_connection: by_sentence;
+    => nrel_associative_connection: by_mental_deficiencies_due_to_which_the_suspect_the_accused_cannot_independently_exercise_their_right_to_defense;
+    => nrel_associative_connection: by_investigation;
+    => nrel_associative_connection: by_special_production;
+    => nrel_associative_connection: by_stationary_monitoring_console;
+    => nrel_associative_connection: by_party_of_defence;
+    => nrel_associative_connection: by_participant_of_court_meeting;
+    => nrel_associative_connection: by_participants_of_criminal_proceedings;
+
+    => nrel_etalon_online_idx: [202];;

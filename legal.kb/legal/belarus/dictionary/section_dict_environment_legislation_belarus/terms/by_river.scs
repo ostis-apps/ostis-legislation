@@ -1,0 +1,63 @@
+
+by_river
+    => nrel_main_idtf: [river] (* <- lang_en;; *);
+    => nrel_main_idtf: [река] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рака] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_river_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_river_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_river_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tail_water;
+    => nrel_associative_connection: by_upper_and_lower_tail_water;
+    => nrel_associative_connection: by_water_basin;
+    => nrel_associative_connection: by_water_storage_basin;
+    => nrel_associative_connection: by_pond;
+    => nrel_associative_connection: by_pond__earth_reservoir;
+    => nrel_associative_connection: by_river_basin;
+    => nrel_associative_connection: by_spring;
+    => nrel_associative_connection: by_stream;
+
+    => nrel_etalon_online_idx: [10573];;

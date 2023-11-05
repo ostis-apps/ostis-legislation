@@ -1,0 +1,33 @@
+
+by_by_technical_condition_of_automatic_fire_extinguishing_systems
+    => nrel_main_idtf: [by_technical_condition_of_automatic_fire_extinguishing_systems] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническое состояние систем пожаротушения автоматических] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічны стан сістэм пажаратушэння аўтаматычных] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_technical_condition_of_automatic_fire_extinguishing_systems_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatic_fire_extinguishing_installation_afei;
+    => nrel_associative_connection: by_inoperative_condition_inoperability_of_fire_extinguishing_systems_of_automatic_or_their_elements;
+    => nrel_associative_connection: by_failure_of_the_automatic_fire_extinguishing_system;
+    => nrel_associative_connection: by_frequency_of_maintenance_of_automatic_fire_extinguishing_systems;
+    => nrel_associative_connection: by_checking_the_operability_of_automatic_fire_extinguishing_systems;
+    => nrel_associative_connection: by_operational_state_operability_of_fire_extinguishing_systems_of_automatic_or_their_elements;
+    => nrel_associative_connection: by_repair_of_automatic_fire_extinguishing_systems;
+    => nrel_associative_connection: by_routine_repair_of_automatic_fire_extinguishing_systems;
+    => nrel_associative_connection: by_maintenance_of_automatic_fire_extinguishing_systems;
+
+    => nrel_etalon_online_idx: [42539];;

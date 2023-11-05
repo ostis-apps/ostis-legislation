@@ -1,0 +1,31 @@
+
+by_sampling_method
+    => nrel_main_idtf: [sampling method] (* <- lang_en;; *);
+    => nrel_main_idtf: [выборочный способ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбарачны спосаб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sampling_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditory_procedure;
+    => nrel_associative_connection: by_sampling;
+    => nrel_associative_connection: by_audited_population;
+    => nrel_associative_connection: by_risk_not_associated_with_the_selective_method;
+    => nrel_associative_connection: by_risk_associated_with_the_selective_method;
+    => nrel_associative_connection: by_method;
+
+    => nrel_etalon_online_idx: [10375];;

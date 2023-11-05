@@ -1,0 +1,29 @@
+
+by_sanitarywashing_points_stations_for_disinfecting_clothing_and_transport
+    => nrel_main_idtf: [sanitary-washing points, stations for disinfecting clothing and transport] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарно-обмывочные пункты, станции обеззараживания одежды и транспорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарна-абмывальныя пункты, станцыі абеззаражвання адзення і транспарту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitarywashing_points_stations_for_disinfecting_clothing_and_transport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_civil_defense;
+    => nrel_associative_connection: by_protection_of_civil_defense_construction;
+    => nrel_associative_connection: by_disinfection_of__subquarantine_objects;
+    => nrel_associative_connection: by_objects_of_civil_defense;
+    => nrel_associative_connection: by_wc;
+
+    => nrel_etalon_online_idx: [22821];;

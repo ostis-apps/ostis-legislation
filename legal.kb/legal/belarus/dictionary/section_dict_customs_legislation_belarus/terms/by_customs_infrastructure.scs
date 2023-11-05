@@ -1,0 +1,14 @@
+
+by_customs_infrastructure
+    => nrel_main_idtf: [customs infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [таможенная инфраструктура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мытная інфраструктура] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_infrastructure_owner;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_customs_clearance_station;
+    => nrel_associative_connection: by_customs_warehouse;
+
+    => nrel_etalon_online_idx: [7698];;

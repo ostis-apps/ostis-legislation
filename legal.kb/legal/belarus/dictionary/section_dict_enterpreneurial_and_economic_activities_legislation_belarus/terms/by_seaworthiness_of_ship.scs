@@ -1,0 +1,32 @@
+
+by_seaworthiness_of_ship
+    => nrel_main_idtf: [seaworthiness of ship] (* <- lang_en;; *);
+    => nrel_main_idtf: [мореходность судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мараходнасць судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_seaworthiness_of_ship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_regulation_in_the_area_of_merchant_shipping;
+    => nrel_associative_connection: by_small_size_craft;
+    => nrel_associative_connection: by_shipping;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_merchant_shipping;
+    => nrel_associative_connection: by_navigation_safety_requirements;
+    => nrel_associative_connection: by_nominal_ship_volume;
+
+    => nrel_etalon_online_idx: [17522];;

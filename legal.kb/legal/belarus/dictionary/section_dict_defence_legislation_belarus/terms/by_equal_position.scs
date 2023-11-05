@@ -1,0 +1,31 @@
+
+by_equal_position
+    => nrel_main_idtf: [equal position] (* <- lang_en;; *);
+    => nrel_main_idtf: [равная должность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [роўная пасада] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_equal_position_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highest_position;
+    => nrel_associative_connection: by_state_position;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_position;
+    => nrel_associative_connection: by_lower_position;
+    => nrel_associative_connection: by_first_position;
+
+    => nrel_etalon_online_idx: [21954];;

@@ -1,0 +1,28 @@
+
+by_underground_speleotherapy_department
+    => nrel_main_idtf: [underground speleotherapy department] (* <- lang_en;; *);
+    => nrel_main_idtf: [подземное отделение спелеолечения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падземнае аддзяленне спелеалячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_underground_speleotherapy_department_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_medical_and_recreation_locality;
+    => nrel_associative_connection: by_basic_natural_medical_factors;
+    => nrel_associative_connection: by_branch;
+    => nrel_associative_connection: by_natural_healing_resources;
+
+    => nrel_etalon_online_idx: [20367];;

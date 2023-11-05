@@ -1,0 +1,29 @@
+
+by_archival_certificate_in_the_form_according_to_annex_57
+    => nrel_main_idtf: [archival certificate in the form according to annex 57] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивная справка по форме согласно приложению 57] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архіўная даведка па форме згодна дадатку 57] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archival_certificate_in_the_form_according_to_annex_57_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_extract;
+    => nrel_associative_connection: by_archive_certificate;
+    => nrel_associative_connection: by_archive_documents;
+    => nrel_associative_connection: by_thematic_list_of_documents_in_the_form_according_to_appendix_58;
+
+    => nrel_etalon_online_idx: [41755];;

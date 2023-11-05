@@ -1,0 +1,44 @@
+
+by_professional_and_qualification_groups
+    => nrel_main_idtf: [professional and qualification groups] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессионально-квалификационные группы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійна-кваліфікацыйныя групы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_and_qualification_groups_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_and_qualification_groups_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_official_position;
+    => nrel_associative_connection: by_professional_activity;
+    => nrel_associative_connection: by_professional_training;
+    => nrel_associative_connection: by_workers_and_employees;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_etalon_online_idx: [33674];;

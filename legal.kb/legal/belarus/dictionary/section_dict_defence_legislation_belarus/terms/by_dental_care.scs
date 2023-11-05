@@ -1,0 +1,46 @@
+
+by_dental_care
+    => nrel_main_idtf: [dental care] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоматологическая помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стаматалагічная дапамога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dental_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dental_care_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dentist;
+    => nrel_associative_connection: by_peidatric_dentist;
+    => nrel_associative_connection: by_dentisttherapist;
+    => nrel_associative_connection: by_dentistsurgeon;
+    => nrel_associative_connection: by_dental_products;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_specialized_medical_aid;
+
+    => nrel_etalon_online_idx: [6960];;

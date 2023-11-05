@@ -1,0 +1,28 @@
+
+by_wrong_decision
+    => nrel_main_idtf: [wrong decision] (* <- lang_en;; *);
+    => nrel_main_idtf: [ошибочное решение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памылковае рашэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wrong_decision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_probability_safety_analysis;
+    => nrel_associative_connection: by_safety_criteria;
+    => nrel_associative_connection: by_habitability;
+    => nrel_associative_connection: by_staff_error;
+
+    => nrel_etalon_online_idx: [33308];;

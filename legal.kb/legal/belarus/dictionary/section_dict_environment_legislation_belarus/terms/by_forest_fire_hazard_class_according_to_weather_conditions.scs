@@ -1,0 +1,31 @@
+
+by_forest_fire_hazard_class_according_to_weather_conditions
+    => nrel_main_idtf: [forest fire hazard class according to weather conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс пожарной опасности лесов по условиям погоды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас пажарнай небяспекі лясоў па ўмовах пагоды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_fire_hazard_class_according_to_weather_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_patrol;
+    => nrel_associative_connection: by_burning_of_forests;
+    => nrel_associative_connection: by_category_of_explosion_fire_fire_hazard;
+    => nrel_associative_connection: by_hazard_class;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_fire_hazardous_season_in_the_forest;
+    => nrel_associative_connection: by_actual_weather;
+
+    => nrel_etalon_online_idx: [15890];;

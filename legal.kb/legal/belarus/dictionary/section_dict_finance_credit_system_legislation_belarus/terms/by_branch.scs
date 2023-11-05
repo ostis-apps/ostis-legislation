@@ -1,0 +1,37 @@
+
+by_branch
+    => nrel_main_idtf: [branch] (* <- lang_en;; *);
+    => nrel_main_idtf: [отделение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аддзяленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_institution_department_of_high_comfort_for_elderly_and_people_with_disabilities;
+    => nrel_associative_connection: by_engine_room;
+    => nrel_associative_connection: by_postal_office;
+    => nrel_associative_connection: by_emergency_department_of_medical_care;
+    => nrel_associative_connection: by_mobile_postal_office;
+    => nrel_associative_connection: by_underground_speleotherapy_department;
+    => nrel_associative_connection: by_seedling_section_of_the_forest_nursery;
+    => nrel_associative_connection: by_medical_rehabilitation_centre_department;
+    => nrel_associative_connection: by_seasonal_post_office;
+    => nrel_associative_connection: by_special_residential_institution_department_for_elderly_and_persons_with_disabilities;
+    => nrel_associative_connection: by_stationary_closedtype_post_office;
+    => nrel_associative_connection: by_opentype_fixed_post_office;
+    => nrel_associative_connection: by_transplant_section_of_the_forest_nursery;
+
+    => nrel_etalon_online_idx: [19483];;

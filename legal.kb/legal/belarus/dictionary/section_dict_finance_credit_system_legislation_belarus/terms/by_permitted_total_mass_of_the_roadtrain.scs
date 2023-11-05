@@ -1,0 +1,31 @@
+
+by_permitted_total_mass_of_the_roadtrain
+    => nrel_main_idtf: [permitted total mass of the roadtrain] (* <- lang_en;; *);
+    => nrel_main_idtf: [допустимая общая масса автопоезда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапушчальная агульная маса аўтапоезда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permitted_total_mass_of_the_roadtrain_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_roadtrain;
+    => nrel_associative_connection: by_permitted_total_mass_of_the_automobile_vehicle;
+    => nrel_associative_connection: by_permitted_total_mass_of_the_vehicle;
+    => nrel_associative_connection: by_saddle_road_train;
+    => nrel_associative_connection: by_saddle_tractor;
+    => nrel_associative_connection: by_technically_permissible_total_mass_of_the_road_train;
+    => nrel_associative_connection: by_technically_permissible_total_mass_of_the_vehicle;
+
+    => nrel_etalon_online_idx: [14437];;

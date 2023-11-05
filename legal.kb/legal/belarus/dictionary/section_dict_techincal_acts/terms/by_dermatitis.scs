@@ -1,0 +1,32 @@
+
+by_dermatitis
+    => nrel_main_idtf: [dermatitis] (* <- lang_en;; *);
+    => nrel_main_idtf: [дерматит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэрматыт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dermatitis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_atopic_dermatitis;
+    => nrel_associative_connection: by_dermatovenerologist;
+    => nrel_associative_connection: by_dermatovenerology;
+    => nrel_associative_connection: by_dermatomycosis;
+    => nrel_associative_connection: by_true_pemphigus;
+    => nrel_associative_connection: by_skin_lymphomas;
+    => nrel_associative_connection: by_limited_scleroderma;
+    => nrel_associative_connection: by_pathomimia;
+
+    => nrel_etalon_online_idx: [34089];;

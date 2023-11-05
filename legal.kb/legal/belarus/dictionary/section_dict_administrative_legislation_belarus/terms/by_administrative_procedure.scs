@@ -1,0 +1,53 @@
+
+by_administrative_procedure
+    => nrel_main_idtf: [administrative procedure] (* <- lang_en;; *);
+    => nrel_main_idtf: [административный процесс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйны працэс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_procedure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_procedure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrativedelict_law;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_case;
+    => nrel_associative_connection: by_proceedings_of_an_administrative_offence;
+    => nrel_associative_connection: by_evidence;
+    => nrel_associative_connection: by_isolation;
+    => nrel_associative_connection: by_person_subject_to_administrative_process;
+    => nrel_associative_connection: by_explanation_of_person_subject_to_the_administrative_procedure;
+    => nrel_associative_connection: by_explanation_of_the_witness;
+    => nrel_associative_connection: by_authority_in_charge_of_administrative_procedure;
+    => nrel_associative_connection: by_related_to_the_case_of_administrative_violation_evidence;
+    => nrel_associative_connection: by_attachment;
+    => nrel_associative_connection: by_collection_of_evidence;
+    => nrel_associative_connection: by_participants_of_administrative_process;
+
+    => nrel_etalon_online_idx: [949];;

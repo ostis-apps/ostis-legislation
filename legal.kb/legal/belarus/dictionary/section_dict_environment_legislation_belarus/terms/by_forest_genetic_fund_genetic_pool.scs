@@ -1,0 +1,29 @@
+
+by_forest_genetic_fund_genetic_pool
+    => nrel_main_idtf: [forest genetic fund, genetic pool] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесной генетический фонд, генофонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лясны генетычны фонд, генафонд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_genetic_fund_genetic_pool_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_genetic_pool;
+    => nrel_associative_connection: by_forest_genetic_reserves;
+    => nrel_associative_connection: by_plantation_forest_plants;
+    => nrel_associative_connection: by_seedgrowing;
+    => nrel_associative_connection: by_seed_growing_of_forest_plants;
+
+    => nrel_etalon_online_idx: [16563];;

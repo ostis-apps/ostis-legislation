@@ -1,0 +1,28 @@
+
+by_information_modeling_of_buildings_structures
+    => nrel_main_idtf: [information modeling of buildings (structures)] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационное моделирование зданий (сооружений)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйнае мадэліраванне будынкаў (збудаванняў)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_modeling_of_buildings_structures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automation_of_design_and_management_in_construction;
+    => nrel_associative_connection: by_agentbased_model;
+    => nrel_associative_connection: by_building_information_modelin;
+    => nrel_associative_connection: by_basics_framework_of_a_construction_object_in_the_framework_of_this_specialty;
+
+    => nrel_etalon_online_idx: [35405];;

@@ -1,0 +1,43 @@
+
+by_stanglas
+    => nrel_main_idtf: [stanglas] (* <- lang_en;; *);
+    => nrel_main_idtf: [штанглас] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штанглас] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stanglas_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stanglas_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adjuvant;
+    => nrel_associative_connection: by_container_for_storage_and_or_sale_of_goods;
+    => nrel_associative_connection: by_pharmaceutical_plantbased_raw_material;
+    => nrel_associative_connection: by_pharmaceutical_substance;
+
+    => nrel_etalon_online_idx: [5235];;

@@ -1,0 +1,31 @@
+
+by_total
+    => nrel_main_idtf: [total] (* <- lang_en;; *);
+    => nrel_main_idtf: [итоговые данные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выніковыя даныя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_statistics;
+    => nrel_associative_connection: by_depersonalized_personal_data;
+    => nrel_associative_connection: by_official_statistical_information;
+    => nrel_associative_connection: by_primary_statistical_data;
+    => nrel_associative_connection: by_census_of_population;
+    => nrel_associative_connection: by_personal_data;
+    => nrel_associative_connection: by_personal_data_of_physical_persons;
+
+    => nrel_etalon_online_idx: [15689];;

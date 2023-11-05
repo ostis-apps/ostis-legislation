@@ -1,0 +1,29 @@
+
+by_illegal_deprivation_of_freedom
+    => nrel_main_idtf: [illegal deprivation of freedom] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконное лишение свободы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незаконнае пазбаўленне волі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegal_deprivation_of_freedom_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_act_of_terrorism_in_relation_to_state_or_public_activist;
+    => nrel_associative_connection: by_deprivation;
+    => nrel_associative_connection: by_kidnapping;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_crimes_related_to_human_trafficking;
+
+    => nrel_etalon_online_idx: [163];;

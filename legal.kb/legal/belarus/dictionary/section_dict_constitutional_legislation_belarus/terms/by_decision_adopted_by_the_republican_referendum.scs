@@ -1,0 +1,26 @@
+
+by_decision_adopted_by_the_republican_referendum
+    => nrel_main_idtf: [decision adopted by the republican referendum] (* <- lang_en;; *);
+    => nrel_main_idtf: [решение, принятое республиканским референдумом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рашэнне, прынятае рэспубліканскім рэферэндумам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_decision_adopted_by_the_republican_referendum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_referendum;
+    => nrel_associative_connection: by_referendum_participant;
+
+    => nrel_etalon_online_idx: [30819];;

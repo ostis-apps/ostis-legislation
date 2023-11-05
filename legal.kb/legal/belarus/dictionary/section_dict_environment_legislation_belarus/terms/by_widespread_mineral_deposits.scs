@@ -1,0 +1,31 @@
+
+by_widespread_mineral_deposits
+    => nrel_main_idtf: [widespread mineral deposits] (* <- lang_en;; *);
+    => nrel_main_idtf: [общераспространенные полезные ископаемые] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульнараспаўсюджаныя карысныя выкапні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_widespread_mineral_deposits_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mineral_resources_and_or_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_bedding_area_of_raw_materials_or_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_mineral_solid;
+    => nrel_associative_connection: by_raw_materials;
+    => nrel_associative_connection: by_raw_materials_of_limited_distribution;
+    => nrel_associative_connection: by_predicted_mineral_resources;
+    => nrel_associative_connection: by_operating_loss_of_minerals;
+
+    => nrel_etalon_online_idx: [3864];;

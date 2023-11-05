@@ -1,0 +1,19 @@
+
+by_ambulance
+    => nrel_main_idtf: [ambulance] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобиль скорой (неотложной) медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабіль хуткай (неадкладнай) медыцынскай дапамогі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_automobile_vehicle_av;
+    => nrel_associative_connection: by_obstetricgynecologic_brigade_of_emergency_specialised_medical_care_besma;
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_ambulance_emergency_medical_care_substation;
+    => nrel_associative_connection: by_emergency;
+    => nrel_associative_connection: by_emergency_psychiatric_care;
+    => nrel_associative_connection: by_transportation_of_patients;
+
+    => nrel_etalon_online_idx: [12310];;

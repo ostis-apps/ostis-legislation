@@ -1,0 +1,83 @@
+
+by_jointstock_company
+    => nrel_main_idtf: [joint-stock company] (* <- lang_en;; *);
+    => nrel_main_idtf: [акционерное общество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акцыянернае таварыства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_jointstock_company_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_jointstock_company_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_jointstock_company_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_jointstock_company_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_share;
+    => nrel_associative_connection: by_affiliates;
+    => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_closed_joint_stock_company;
+    => nrel_associative_connection: by_cumulative_voting;
+    => nrel_associative_connection: by_publicly_relevant_organizations;
+    => nrel_associative_connection: by_additional_liability_company;
+    => nrel_associative_connection: by_limited_liability_company;
+    => nrel_associative_connection: by_open_joint_stock_company;
+    => nrel_associative_connection: by_offer_to_purchase_shares;
+    => nrel_associative_connection: by_share_repurchase_offer;
+    => nrel_associative_connection: by_articles_of_jointstock_company;
+    => nrel_associative_connection: by_authorized_fund;
+    => nrel_associative_connection: by_economic_partnerships_and_societies;
+
+    => nrel_etalon_online_idx: [980];;

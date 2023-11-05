@@ -1,0 +1,16 @@
+
+by_production_rate
+    => nrel_main_idtf: [production rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [норма выработки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [норма вырабу] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_machinehour;
+    => nrel_associative_connection: by_beginning_of_work;
+    => nrel_associative_connection: by_erroneous_norms;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_working;
+    => nrel_associative_connection: by_working_hours;
+
+    => nrel_etalon_online_idx: [18246];;

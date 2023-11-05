@@ -1,0 +1,32 @@
+
+by_internet_cafe
+    => nrel_main_idtf: [internet cafe] (* <- lang_en;; *);
+    => nrel_main_idtf: [интернет-кафе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрнэт-кафэ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internet_cafe_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cafe;
+    => nrel_associative_connection: by_computer_club;
+    => nrel_associative_connection: by_summer_seasonal_cafe;
+    => nrel_associative_connection: by_summer_cafe_mini_cafe;
+    => nrel_associative_connection: by_internet_user;
+    => nrel_associative_connection: by_fast_food_restaurant_cafe;
+    => nrel_associative_connection: by_telematic_service;
+    => nrel_associative_connection: by_data_transmission_service;
+
+    => nrel_etalon_online_idx: [15418];;

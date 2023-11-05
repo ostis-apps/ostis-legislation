@@ -1,0 +1,33 @@
+
+by_construction_forests
+    => nrel_main_idtf: [construction forests] (* <- lang_en;; *);
+    => nrel_main_idtf: [леса строительные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рыштаванні будаўнічыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_forests_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_steeplejacking;
+    => nrel_associative_connection: by_capital_repairs;
+    => nrel_associative_connection: by_stairs;
+    => nrel_associative_connection: by_start_of_construction;
+    => nrel_associative_connection: by_work_at_height;
+    => nrel_associative_connection: by_works_at_height;
+    => nrel_associative_connection: by_construction_works;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_turnkey_construction_object;
+
+    => nrel_etalon_online_idx: [16561];;

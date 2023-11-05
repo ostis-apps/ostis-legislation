@@ -1,0 +1,31 @@
+
+by_electromagnetic_field
+    => nrel_main_idtf: [electromagnetic field] (* <- lang_en;; *);
+    => nrel_main_idtf: [электромагнитное поле] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электрамагнітнае поле] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electromagnetic_field_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_electromagnetic_radiation_of_radio_frequency;
+    => nrel_associative_connection: by_secondary_radiation;
+    => nrel_associative_connection: by_magnetic_field;
+    => nrel_associative_connection: by_permanent_magnetic_field;
+    => nrel_associative_connection: by_sanitary_passport_of_the_transmitting_radio_engineering_facility;
+    => nrel_associative_connection: by_electric_field;
+    => nrel_associative_connection: by_electrostatic_field;
+
+    => nrel_etalon_online_idx: [31261];;

@@ -1,0 +1,33 @@
+
+by_applicant_to_conduct_test
+    => nrel_main_idtf: [applicant to conduct test] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявитель на проведение испытаний] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўнік на правядзенне выпрабаванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_applicant_to_conduct_test_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accredited_testing_laboratory_center;
+    => nrel_associative_connection: by_applicants;
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_applicant_to_conduct_accreditation;
+    => nrel_associative_connection: by_applicant_to_conduct_certification;
+    => nrel_associative_connection: by_test;
+    => nrel_associative_connection: by_test_laboratory_center;
+    => nrel_associative_connection: by_tests_technique;
+    => nrel_associative_connection: by_test_report_passport_report_or_other_test_document;
+
+    => nrel_etalon_online_idx: [14933];;

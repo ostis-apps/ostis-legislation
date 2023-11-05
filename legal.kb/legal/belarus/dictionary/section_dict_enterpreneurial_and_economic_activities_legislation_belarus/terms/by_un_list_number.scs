@@ -1,0 +1,30 @@
+
+by_un_list_number
+    => nrel_main_idtf: [un list number] (* <- lang_en;; *);
+    => nrel_main_idtf: [номер по списку оон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нумар па спісе аан] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_un_list_number_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_air_carriage_of_hazardous_cargo;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_shipment;
+    => nrel_associative_connection: by_protection_of_hazardous_cargo;
+    => nrel_associative_connection: by_cargoes_carriage;
+
+    => nrel_etalon_online_idx: [40949];;

@@ -1,0 +1,27 @@
+
+by_search_and_emergency_rescue_operations_search_and_rescue_operations
+    => nrel_main_idtf: [search and emergency rescue operations (search and rescue operations)] (* <- lang_en;; *);
+    => nrel_main_idtf: [поисковые и аварийно-спасательные работы (поисково-спасательные операции)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пошукавыя і аварыйна-выратавальныя работы (пошукава-выратавальныя аперацыі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_search_and_emergency_rescue_operations_search_and_rescue_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ground_search_and_rescue_group_team;
+    => nrel_associative_connection: by_search_and_rescue_air_vehicle;
+    => nrel_associative_connection: by_search_and_rescue_region;
+
+    => nrel_etalon_online_idx: [36205];;

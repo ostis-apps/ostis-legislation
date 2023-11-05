@@ -1,0 +1,32 @@
+
+by_by_public_cadastral_map
+    => nrel_main_idtf: [by_public_cadastral_map] (* <- lang_en;; *);
+    => nrel_main_idtf: [публичная кадастровая карта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [публічная кадастравая карта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_public_cadastral_map_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geoinformation_data_resource_of_earth_remote_sensing;
+    => nrel_associative_connection: by_geoportal_of_the_land_and_information_system;
+    => nrel_associative_connection: by_state_land_registry;
+    => nrel_associative_connection: by_state_registry_account_of_lands;
+    => nrel_associative_connection: by_cadastral_map;
+    => nrel_associative_connection: by_cadastral_cost_of_lands;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_publicity;
+
+    => nrel_etalon_online_idx: [21827];;

@@ -1,0 +1,27 @@
+
+by_by_net_profit
+    => nrel_main_idtf: [by_net_profit] (* <- lang_en;; *);
+    => nrel_main_idtf: [чистая прибыль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чысты прыбытак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_net_profit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accounting_profit_loss;
+    => nrel_associative_connection: by_planned_profit;
+    => nrel_associative_connection: by_accounting_profit_loss;
+
+    => nrel_etalon_online_idx: [43437];;

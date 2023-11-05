@@ -1,0 +1,27 @@
+
+by_legal_entity_carrying_out_microfinance_activities
+    => nrel_main_idtf: [legal entity carrying out microfinance activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [юридическое лицо, осуществляющее микрофинансовую деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [юрыдычная асоба, якая ажыццяўляе мікрафінансавую дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_entity_carrying_out_microfinance_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_pledge;
+    => nrel_associative_connection: by_legal_entities;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [40932];;

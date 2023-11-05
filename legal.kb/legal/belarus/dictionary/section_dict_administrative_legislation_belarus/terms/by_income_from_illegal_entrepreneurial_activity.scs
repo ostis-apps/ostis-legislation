@@ -1,0 +1,28 @@
+
+by_income_from_illegal_entrepreneurial_activity
+    => nrel_main_idtf: [income from illegal entrepreneurial activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [доход от незаконной предпринимательской деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даход ад незаконнай прадпрымальніцкай дзейнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_income_from_illegal_entrepreneurial_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_false_entrepreneurship;
+    => nrel_associative_connection: by_illegal_entrepreneurial_activity;
+    => nrel_associative_connection: by_illegal_participation_in_entrepreneurial_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+
+    => nrel_etalon_online_idx: [14494];;

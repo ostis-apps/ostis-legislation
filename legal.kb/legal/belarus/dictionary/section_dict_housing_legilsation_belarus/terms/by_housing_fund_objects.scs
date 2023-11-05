@@ -1,0 +1,27 @@
+
+by_housing_fund_objects
+    => nrel_main_idtf: [housing fund objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты жилищного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты жыллёвага фонда] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_fund_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_departmental_housing_fund;
+    => nrel_associative_connection: by_construction_and_repair;
+    => nrel_associative_connection: by_operating_services;
+
+    => nrel_etalon_online_idx: [32010];;

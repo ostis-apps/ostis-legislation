@@ -1,0 +1,26 @@
+
+by_measuring_current_voltage_transformer
+    => nrel_main_idtf: [measuring current (voltage) transformer] (* <- lang_en;; *);
+    => nrel_main_idtf: [измерительный трансформатор тока (напряжения)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вымяральны трансфарматар току (напружання)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_measuring_current_voltage_transformer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_currentr_and_or_voltage_measuring_transformer;
+    => nrel_associative_connection: by_transformer_substation;
+
+    => nrel_etalon_online_idx: [39202];;

@@ -1,0 +1,44 @@
+
+by_pneumothorax
+    => nrel_main_idtf: [pneumothorax] (* <- lang_en;; *);
+    => nrel_main_idtf: [пневмоторакс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пнеўматоракс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumothorax_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumothorax_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lung_abscess;
+    => nrel_associative_connection: by_gas_syndrome;
+    => nrel_associative_connection: by_hemopneumothorax;
+    => nrel_associative_connection: by_purulent_diseases_of_the_lungs_and_pleura;
+    => nrel_associative_connection: by_acute_and_chronic_purulent_lung_destruction;
+
+    => nrel_etalon_online_idx: [37685];;

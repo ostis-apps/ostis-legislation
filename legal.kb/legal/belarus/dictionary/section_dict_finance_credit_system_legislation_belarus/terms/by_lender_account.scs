@@ -1,0 +1,30 @@
+
+by_lender_account
+    => nrel_main_idtf: [lender account] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет кредитодателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак крэдытадавальніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lender_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_correspondent_metal_account;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_creditors_lenders;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_borrower;
+    => nrel_associative_connection: by_account_of_the_borrower;
+
+    => nrel_etalon_online_idx: [24575];;

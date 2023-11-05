@@ -1,0 +1,32 @@
+
+by_audit_report_on_the_special_audit_engagement
+    => nrel_main_idtf: [audit report on the special audit engagement] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиторское заключение по специальному аудиторскому заданию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдытарскае заключэнне па спецыяльным аўдытарскім заданні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audit_report_on_the_special_audit_engagement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditing_engagements;
+    => nrel_associative_connection: by_auditors_report;
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_reporting_prepared_in_accordance_with_other_principles_of_accounting_and_reporting;
+    => nrel_associative_connection: by_working_documentation;
+    => nrel_associative_connection: by_engagement_partner;
+    => nrel_associative_connection: by_evaluation_audit_certificate;
+
+    => nrel_etalon_online_idx: [8266];;

@@ -1,0 +1,37 @@
+
+by_authorized_fund
+    => nrel_main_idtf: [authorized fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [уставный фонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [статутны фонд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_jointstock_company;
+    => nrel_associative_connection: by_mutual_participation_in_the_authorized_fund;
+    => nrel_associative_connection: by_contribution_to_the_authorized_fund_of_the_economic_company;
+    => nrel_associative_connection: by_additional_fund;
+    => nrel_associative_connection: by_branch_business_company;
+    => nrel_associative_connection: by_dependent_business_entity;
+    => nrel_associative_connection: by_noncash_items;
+    => nrel_associative_connection: by_additional_liability_company;
+    => nrel_associative_connection: by_limited_liability_company;
+    => nrel_associative_connection: by_participation_in_the_authorized_fund;
+    => nrel_associative_connection: by_fund;
+    => nrel_associative_connection: by_economic_partnerships_and_societies;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [3542];;

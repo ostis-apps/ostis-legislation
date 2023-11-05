@@ -1,0 +1,18 @@
+
+by_registry_of_prices_for_land_plots
+    => nrel_main_idtf: [registry of prices for land plots] (* <- lang_en;; *);
+    => nrel_main_idtf: [реестр цен на земельные участки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэестр цэн на зямельныя ўчасткі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_state_land_registry;
+    => nrel_associative_connection: by_state_registry_account_of_lands;
+    => nrel_associative_connection: by_cadastral_valuation_of_lands_land_plots;
+    => nrel_associative_connection: by_cadastral_cost_of_lands;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_equivalent_land_plot;
+    => nrel_associative_connection: by_land_value_register_of_the_state_land_cadastre;
+    => nrel_associative_connection: by_registry;
+
+    => nrel_etalon_online_idx: [22416];;

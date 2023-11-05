@@ -1,0 +1,28 @@
+
+by_quality_assessment_of_content_and_operational_status_of_streets
+    => nrel_main_idtf: [quality assessment of content and operational status of streets] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценка качества содержания и эксплуатационного состояния улиц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэнка якасці догляду і эксплуатацыйнага стану вуліц] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quality_assessment_of_content_and_operational_status_of_streets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_critical_defects;
+    => nrel_associative_connection: by_stormwater_well_rainwater_intake;
+    => nrel_associative_connection: by_patrol_inspection;
+    => nrel_associative_connection: by_street_of_the_settlement_street;
+
+    => nrel_etalon_online_idx: [31453];;

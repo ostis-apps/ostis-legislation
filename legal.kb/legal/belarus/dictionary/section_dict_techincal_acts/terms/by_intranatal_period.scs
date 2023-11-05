@@ -1,0 +1,30 @@
+
+by_intranatal_period
+    => nrel_main_idtf: [intranatal period] (* <- lang_en;; *);
+    => nrel_main_idtf: [интранатальный период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтранатальны перыяд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intranatal_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intrauterine_infection_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_hemolytic_disease_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_haemorrhagic_disease_of_the_newborn;
+    => nrel_associative_connection: by_children;
+    => nrel_associative_connection: by_fullterm_child;
+    => nrel_associative_connection: by_intrauterine_growth_retardation;
+
+    => nrel_etalon_online_idx: [33768];;

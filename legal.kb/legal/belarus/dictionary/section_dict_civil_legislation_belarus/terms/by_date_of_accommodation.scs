@@ -1,0 +1,33 @@
+
+by_date_of_accommodation
+    => nrel_main_idtf: [date of accommodation] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата размещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата размяшчэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_accommodation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_time_of_filing_applications;
+    => nrel_associative_connection: by_early_repayment;
+    => nrel_associative_connection: by_small_means_of_accommodation;
+    => nrel_associative_connection: by_official_notification;
+    => nrel_associative_connection: by_placement_of_currency_bonds;
+    => nrel_associative_connection: by_bond_placement;
+    => nrel_associative_connection: by_placement_of_securities;
+    => nrel_associative_connection: by_circulation_term;
+    => nrel_associative_connection: by_current_cost;
+
+    => nrel_etalon_online_idx: [13976];;

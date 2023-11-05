@@ -1,0 +1,28 @@
+
+by_technological_heat_supply_armor
+    => nrel_main_idtf: [technological heat supply armor] (* <- lang_en;; *);
+    => nrel_main_idtf: [технологическая броня теплоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхналагічная браня цеплазабеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technological_heat_supply_armor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_reservation_of_heat_supply;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_heat_supply;
+    => nrel_associative_connection: by_heat_installation;
+
+    => nrel_etalon_online_idx: [38178];;

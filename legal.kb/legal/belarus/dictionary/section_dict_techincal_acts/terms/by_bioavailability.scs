@@ -1,0 +1,28 @@
+
+by_bioavailability
+    => nrel_main_idtf: [bioavailability] (* <- lang_en;; *);
+    => nrel_main_idtf: [биодоступность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біядаступнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bioavailability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_removal;
+    => nrel_associative_connection: by_biotransformation;
+    => nrel_associative_connection: by_deterministic_effects;
+    => nrel_associative_connection: by_dose_of_medicine;
+
+    => nrel_etalon_online_idx: [35386];;

@@ -1,0 +1,20 @@
+
+by_by_housing_fires
+    => nrel_main_idtf: [by_housing_fires] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожары в жилищном фонде] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажары у жыллёвым фондзе] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_fire_site;
+    => nrel_associative_connection: by_fire_evacuation_plan;
+    => nrel_associative_connection: by_killed_on_fire;
+    => nrel_associative_connection: by_fire_in_housing_fund;
+    => nrel_associative_connection: by_fire_safety_of_the_object;
+    => nrel_associative_connection: by_fire_hazard_of_the_object;
+    => nrel_associative_connection: by_rescuing_people_in_a_fire;
+    => nrel_associative_connection: by_fire_extinction;
+    => nrel_associative_connection: by_evacuation_of_people_in_the_fire;
+
+    => nrel_etalon_online_idx: [20477];;

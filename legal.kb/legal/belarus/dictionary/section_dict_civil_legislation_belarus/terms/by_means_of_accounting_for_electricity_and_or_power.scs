@@ -1,0 +1,26 @@
+
+by_means_of_accounting_for_electricity_and_or_power
+    => nrel_main_idtf: [means of accounting for electricity and (or) power] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства учета электроэнергии и (или) мощности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі ўліку электраэнергіі і (або) магутнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_accounting_for_electricity_and_or_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_debt_for_energy_resources;
+    => nrel_associative_connection: by_calculated_commercial_electricity_metering;
+
+    => nrel_etalon_online_idx: [24055];;

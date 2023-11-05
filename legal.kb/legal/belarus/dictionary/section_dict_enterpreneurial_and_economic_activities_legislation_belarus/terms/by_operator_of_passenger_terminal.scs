@@ -1,0 +1,14 @@
+
+by_operator_of_passenger_terminal
+    => nrel_main_idtf: [operator of passenger terminal] (* <- lang_en;; *);
+    => nrel_main_idtf: [оператор пассажирского терминала] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператар пасажырскага тэрмінала] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner_of_the_passenger_terminal;
+    => nrel_associative_connection: by_operator_of_system_of_electronic_turn;
+    => nrel_associative_connection: by_passenger_terminal;
+    => nrel_associative_connection: by_terminal;
+
+    => nrel_etalon_online_idx: [19008];;

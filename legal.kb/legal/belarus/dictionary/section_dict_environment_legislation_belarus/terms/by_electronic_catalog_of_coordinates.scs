@@ -1,0 +1,30 @@
+
+by_electronic_catalog_of_coordinates
+    => nrel_main_idtf: [electronic catalog of coordinates] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронный каталог координат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронны каталог каардынат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_catalog_of_coordinates_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_database_of_land_plots_with_established_boundaries;
+    => nrel_associative_connection: by_catalogue_of_geodesic_points_coordinates;
+    => nrel_associative_connection: by_not_combining_the_borders_of_land_plots;
+    => nrel_associative_connection: by_unfixed_boundary_of_the_land_plot;
+    => nrel_associative_connection: by_system_of_geodesic_coordinates;
+    => nrel_associative_connection: by_fixed_border_of_the_land_plot;
+
+    => nrel_etalon_online_idx: [42273];;

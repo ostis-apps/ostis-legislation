@@ -1,0 +1,30 @@
+
+by_independent_examination
+    => nrel_main_idtf: [independent examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [независимая экспертиза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незалежная экспертыза] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_independent_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_expertise;
+    => nrel_associative_connection: by_independent_evaluation;
+    => nrel_associative_connection: by_professional_independent_expertise;
+    => nrel_associative_connection: by_forensic_expertise;
+    => nrel_associative_connection: by_expert;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_etalon_online_idx: [6306];;

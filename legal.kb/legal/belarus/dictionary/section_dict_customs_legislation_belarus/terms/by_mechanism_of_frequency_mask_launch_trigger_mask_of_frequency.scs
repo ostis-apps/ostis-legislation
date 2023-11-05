@@ -1,0 +1,28 @@
+
+by_mechanism_of_frequency_mask_launch_trigger_mask_of_frequency
+    => nrel_main_idtf: [mechanism of frequency mask launch (trigger mask of frequency)] (* <- lang_en;; *);
+    => nrel_main_idtf: [механизм запуска маски частоты (триггер маски частоты)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [механізм запуску маскі частаты (трыгер маскі частаты)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechanism_of_frequency_mask_launch_trigger_mask_of_frequency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_signal_analyzers;
+    => nrel_associative_connection: by_frequency_switching_time;
+    => nrel_associative_connection: by_mechanism;
+    => nrel_associative_connection: by_specific_goods_works_services;
+
+    => nrel_etalon_online_idx: [17335];;

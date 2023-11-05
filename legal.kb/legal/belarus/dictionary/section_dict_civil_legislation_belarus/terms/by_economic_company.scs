@@ -1,0 +1,69 @@
+
+by_economic_company
+    => nrel_main_idtf: [economic company] (* <- lang_en;; *);
+    => nrel_main_idtf: [хозяйственное общество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гаспадарчае таварыства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_economic_company_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_economic_company_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_affiliates_of_the_economic_society;
+    => nrel_associative_connection: by_separation_from_the_economic_company;
+    => nrel_associative_connection: by_supreme_governing_body_of_an_economic_company;
+    => nrel_associative_connection: by_group_of_persons;
+    => nrel_associative_connection: by_documents_of_the_governing_body_of_the_economic_company;
+    => nrel_associative_connection: by_branch_business_company;
+    => nrel_associative_connection: by_dependent_business_entity;
+    => nrel_associative_connection: by_closed_joint_stock_company;
+    => nrel_associative_connection: by_property_owned_by_business_companies;
+    => nrel_associative_connection: by_executive_body_of_economic_company;
+    => nrel_associative_connection: by_control_body_of_economic_society;
+    => nrel_associative_connection: by_large_bargain_of_economic_company;
+    => nrel_associative_connection: by_persons_participated_in_general_meeting_of_participants_of_the_economic_society;
+    => nrel_associative_connection: by_additional_liability_company;
+    => nrel_associative_connection: by_limited_liability_company;
+    => nrel_associative_connection: by_open_joint_stock_company;
+    => nrel_associative_connection: by_full_form_of_general_meeting_of_participants_of_business_entity_implementation;
+    => nrel_associative_connection: by_authorized_meeting_of_the_board_of_economic_company_directors;
+    => nrel_associative_connection: by_authorized_general_meeting_of_participants_of_economic_company;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_representative_office_of_economic_company;
+    => nrel_associative_connection: by_transformation_of_economic_company;
+    => nrel_associative_connection: by_mixed_form_of_holding_a_general_meeting_of_partners_of_a_business_company;
+    => nrel_associative_connection: by_borrowers;
+    => nrel_associative_connection: by_branch_of_economic_company;
+    => nrel_associative_connection: by_business_entities;
+    => nrel_associative_connection: by_economic_companies_with_state_participation;
+    => nrel_associative_connection: by_business_entities_established_in_accordance_with_the_legislation_on_privatization;
+    => nrel_associative_connection: by_economic_partnerships_and_societies;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [7620];;

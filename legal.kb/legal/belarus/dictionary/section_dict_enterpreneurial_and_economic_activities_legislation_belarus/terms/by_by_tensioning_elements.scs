@@ -1,0 +1,29 @@
+
+by_by_tensioning_elements
+    => nrel_main_idtf: [by_tensioning_elements] (* <- lang_en;; *);
+    => nrel_main_idtf: [напрягающие элементы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [напружваючыя элементы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_tensioning_elements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anchor_fastening;
+    => nrel_associative_connection: by_construction_element;
+    => nrel_associative_connection: by_calculated_strength_of_nonstressed_reinforcement;
+    => nrel_associative_connection: by_characteristic_reinforcement_strength;
+    => nrel_associative_connection: by_partial_coefficient_gs_for_reinforcement;
+
+    => nrel_etalon_online_idx: [35682];;

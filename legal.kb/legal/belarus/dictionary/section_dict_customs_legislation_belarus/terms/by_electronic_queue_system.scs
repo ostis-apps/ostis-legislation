@@ -1,0 +1,30 @@
+
+by_electronic_queue_system
+    => nrel_main_idtf: [electronic queue system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система электронной очереди] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма электроннай чаргі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_queue_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reserved_in_the_electronic_queue_system_time_of_vehicles_entrance_at_the_checkpoint;
+    => nrel_associative_connection: by_waiting_area;
+    => nrel_associative_connection: by_operator_of_waiting_area;
+    => nrel_associative_connection: by_operator_of_system_of_electronic_turn;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_technical_means;
+
+    => nrel_etalon_online_idx: [23260];;

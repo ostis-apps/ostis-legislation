@@ -1,0 +1,21 @@
+
+by_foreign_currency_conversion
+    => nrel_main_idtf: [foreign currency conversion] (* <- lang_en;; *);
+    => nrel_main_idtf: [конверсия иностранной валюты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канверсія замежнай валюты] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_currency;
+    => nrel_associative_connection: by_currency_exchange_transactions;
+    => nrel_associative_connection: by_currency_transactions;
+    => nrel_associative_connection: by_currency_transactions_carried_out_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_rate_of_exchange;
+    => nrel_associative_connection: by_external_currency_market;
+    => nrel_associative_connection: by_internal_currency_market;
+    => nrel_associative_connection: by_conversion_of_payment_documents_in_foreign_currency;
+    => nrel_associative_connection: by_transfer_of_cash_with_conversion_purchase_sales;
+    => nrel_associative_connection: by_purchase_of_foreign_currency;
+    => nrel_associative_connection: by_term_market;
+
+    => nrel_etalon_online_idx: [6000];;

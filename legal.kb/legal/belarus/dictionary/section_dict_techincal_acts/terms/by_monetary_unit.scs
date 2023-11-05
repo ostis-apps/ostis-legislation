@@ -1,0 +1,29 @@
+
+by_monetary_unit
+    => nrel_main_idtf: [monetary unit] (* <- lang_en;; *);
+    => nrel_main_idtf: [денежная единица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грашовая адзінка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monetary_unit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_valuation_currency;
+    => nrel_associative_connection: by_currency_of_settlement;
+    => nrel_associative_connection: by_borrowed_capital;
+    => nrel_associative_connection: by_the_smallest_denomination_of_a_banknote;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37956];;

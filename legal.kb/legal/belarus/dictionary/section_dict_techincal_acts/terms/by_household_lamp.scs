@@ -1,0 +1,33 @@
+
+by_household_lamp
+    => nrel_main_idtf: [household lamp] (* <- lang_en;; *);
+    => nrel_main_idtf: [бытовая лампа (household lamp)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бытавая лямпа (household lamp)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_household_lamp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lamp_warmup_time;
+    => nrel_associative_connection: by_second_lamp_envelope;
+    => nrel_associative_connection: by_second_lamp_envelope;
+    => nrel_associative_connection: by_compact_fluorescent_lamp;
+    => nrel_associative_connection: by_lamp;
+    => nrel_associative_connection: by_incandescent_lamp;
+    => nrel_associative_connection: by_nonclear_lamp;
+    => nrel_associative_connection: by_lamp_holder_or_socket;
+    => nrel_associative_connection: by_metal_halide_lamp;
+
+    => nrel_etalon_online_idx: [35128];;

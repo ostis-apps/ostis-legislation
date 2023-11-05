@@ -1,0 +1,44 @@
+
+by_property_interests
+    => nrel_main_idtf: [property interests] (* <- lang_en;; *);
+    => nrel_main_idtf: [имущественные интересы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маёмасныя інтарэсы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_property_interests_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_property_interests_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investments_in_real_estate_object;
+    => nrel_associative_connection: by_share_in_the_property_right_to_real_estate_object;
+    => nrel_associative_connection: by_single_object_of_real_estate_property;
+    => nrel_associative_connection: by_property_rights;
+    => nrel_associative_connection: by_other_immovable_property_object;
+
+    => nrel_etalon_online_idx: [31171];;

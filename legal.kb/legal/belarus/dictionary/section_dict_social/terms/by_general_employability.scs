@@ -1,0 +1,28 @@
+
+by_general_employability
+    => nrel_main_idtf: [general employability] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая трудоспособность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная працаздольнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_employability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_habilitation;
+    => nrel_associative_connection: by_assessment_of_the_quality_of_medical_care_and_medical_examinations;
+    => nrel_associative_connection: by_labor_activity;
+    => nrel_associative_connection: by_ablebodied_persons;
+
+    => nrel_etalon_online_idx: [18587];;

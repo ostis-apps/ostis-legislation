@@ -1,0 +1,47 @@
+
+by_electronic_publications
+    => nrel_main_idtf: [electronic publications] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронные издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронныя выданні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_publications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_publications_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_masterdisc_of_electronic_educational_edition;
+    => nrel_associative_connection: by_official_edition;
+    => nrel_associative_connection: by_official_editions_of_the_national_intellectual_property_center;
+    => nrel_associative_connection: by_online_electronic_edition;
+    => nrel_associative_connection: by_digital_edition;
+    => nrel_associative_connection: by_electronic_databank;
+    => nrel_associative_connection: by_electronic_document;
+
+    => nrel_etalon_online_idx: [26640];;

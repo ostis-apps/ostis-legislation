@@ -1,0 +1,30 @@
+
+by_water_service_input
+    => nrel_main_idtf: [water service input] (* <- lang_en;; *);
+    => nrel_main_idtf: [водопроводный ввод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водаправодны ўвод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_service_input_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_balance_of_water_consumption_and_water_disposal;
+    => nrel_associative_connection: by_water_disposal;
+    => nrel_associative_connection: by_sewage_outlet;
+    => nrel_associative_connection: by_potable_water_consumption_limit;
+    => nrel_associative_connection: by_bypass_pipeline;
+    => nrel_associative_connection: by_waste_waters_composition;
+
+    => nrel_etalon_online_idx: [32094];;

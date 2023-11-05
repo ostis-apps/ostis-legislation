@@ -1,0 +1,31 @@
+
+by_by_laser_alignment
+    => nrel_main_idtf: [by_laser_alignment] (* <- lang_en;; *);
+    => nrel_main_idtf: [юстировка лазера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [юсціроўка лазера] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_laser_alignment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dosimetry_of_laser_radiation;
+    => nrel_associative_connection: by_mirror_reflected_laser_radiation;
+    => nrel_associative_connection: by_laser;
+    => nrel_associative_connection: by_laser_safety;
+    => nrel_associative_connection: by_laser_product;
+    => nrel_associative_connection: by_maximum_levels_of_laser_product;
+    => nrel_associative_connection: by_laser_exposure_limits_for_chronic_exposure;
+
+    => nrel_etalon_online_idx: [41740];;

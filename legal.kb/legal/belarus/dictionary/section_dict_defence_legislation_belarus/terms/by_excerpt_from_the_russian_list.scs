@@ -1,0 +1,29 @@
+
+by_excerpt_from_the_russian_list
+    => nrel_main_idtf: [excerpt from the russian list] (* <- lang_en;; *);
+    => nrel_main_idtf: [выписка из российского перечня] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпіска з расійскага пераліку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_excerpt_from_the_russian_list_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_belarusian_list;
+    => nrel_associative_connection: by_importation_of_goods;
+    => nrel_associative_connection: by_military_goods;
+    => nrel_associative_connection: by_russian_organizations;
+    => nrel_associative_connection: by_russian_list;
+
+    => nrel_etalon_online_idx: [7410];;

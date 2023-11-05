@@ -1,0 +1,32 @@
+
+by_reference_and_information_fund_archive
+    => nrel_main_idtf: [reference and information fund archive] (* <- lang_en;; *);
+    => nrel_main_idtf: [справочно-информационный фонд архива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даведачна-інфармацыйны фонд архіва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reference_and_information_fund_archive_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_catalog_archive_cardboard;
+    => nrel_associative_connection: by_archive_fund_of_organizations;
+    => nrel_associative_connection: by_archive_profile;
+    => nrel_associative_connection: by_guidebook;
+    => nrel_associative_connection: by_resources_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+    => nrel_associative_connection: by_reference_and_information_service;
+    => nrel_associative_connection: by_reference_and_information_funds;
+
+    => nrel_etalon_online_idx: [23960];;

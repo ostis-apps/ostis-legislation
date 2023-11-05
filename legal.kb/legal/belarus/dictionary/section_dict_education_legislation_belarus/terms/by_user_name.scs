@@ -1,0 +1,13 @@
+
+by_user_name
+    => nrel_main_idtf: [user name] (* <- lang_en;; *);
+    => nrel_main_idtf: [имя пользователя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імя карыстальніка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_authentication;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_user;
+
+    => nrel_etalon_online_idx: [11556];;

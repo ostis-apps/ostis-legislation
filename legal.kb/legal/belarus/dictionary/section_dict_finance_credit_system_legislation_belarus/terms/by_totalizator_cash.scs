@@ -1,0 +1,39 @@
+
+by_totalizator_cash
+    => nrel_main_idtf: [totalizator cash] (* <- lang_en;; *);
+    => nrel_main_idtf: [касса тотализатора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каса таталізатара] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_totalizator_cash_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_winning_fund_of_totalizator;
+    => nrel_associative_connection: by_gambling_establishment;
+    => nrel_associative_connection: by_totalizator_game;
+    => nrel_associative_connection: by_totalizator_card_coupon;
+    => nrel_associative_connection: by_cash_office;
+    => nrel_associative_connection: by_equipment_to_carryout_totalizator_game;
+    => nrel_associative_connection: by_online_totalizator_game;
+    => nrel_associative_connection: by_gambling_organizer;
+    => nrel_associative_connection: by_bet;
+    => nrel_associative_connection: by_visitors_of_gambling_establishment;
+    => nrel_associative_connection: by_pool;
+    => nrel_associative_connection: by_bet_in_gambling;
+    => nrel_associative_connection: by_totalizator;
+    => nrel_associative_connection: by_participant_in_the_gambling;
+
+    => nrel_etalon_online_idx: [15791];;

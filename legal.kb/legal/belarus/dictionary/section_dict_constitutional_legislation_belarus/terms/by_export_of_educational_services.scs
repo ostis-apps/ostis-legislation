@@ -1,0 +1,42 @@
+
+by_export_of_educational_services
+    => nrel_main_idtf: [export of educational services] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспорт образовательных услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспарт адукацыйных паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_export_of_educational_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_export_of_educational_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_export;
+    => nrel_associative_connection: by_export_of_goods_work_services;
+    => nrel_associative_connection: by_exporter_importer;
+
+    => nrel_etalon_online_idx: [26572];;

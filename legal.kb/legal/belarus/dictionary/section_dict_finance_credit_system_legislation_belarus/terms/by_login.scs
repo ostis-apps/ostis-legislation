@@ -1,0 +1,28 @@
+
+by_login
+    => nrel_main_idtf: [login] (* <- lang_en;; *);
+    => nrel_main_idtf: [логин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [логін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_login_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authorisation;
+    => nrel_associative_connection: by_dynamic_password;
+    => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_password;
+
+    => nrel_etalon_online_idx: [32456];;

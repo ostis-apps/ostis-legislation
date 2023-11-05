@@ -1,0 +1,29 @@
+
+by_forgery_of_decision_on_issue_or_prospectus_of_securities_issue
+    => nrel_main_idtf: [forgery of decision on issue or prospectus of securities issue] (* <- lang_en;; *);
+    => nrel_main_idtf: [подлог решения о выпуске либо проспекта эмиссии ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падлог рашэння аб выпуску або праспекта эмісіі каштоўных папер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forgery_of_decision_on_issue_or_prospectus_of_securities_issue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_deliberately_false_facts;
+    => nrel_associative_connection: by_start_of_emission;
+    => nrel_associative_connection: by_illegal_issue_of_securities;
+    => nrel_associative_connection: by_issue_prospectus;
+    => nrel_associative_connection: by_issue;
+
+    => nrel_etalon_online_idx: [20397];;

@@ -1,0 +1,28 @@
+
+by_individual_that_can_be_identified
+    => nrel_main_idtf: [individual that can be identified] (* <- lang_en;; *);
+    => nrel_main_idtf: [физическое лицо, которое может быть идентифицировано] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фізічная асоба, якая можа ідэнтыфікавана] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_that_can_be_identified_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personal_data_processing;
+    => nrel_associative_connection: by_publicly_accessible_personal_data;
+    => nrel_associative_connection: by_subject_of_personal_data;
+    => nrel_associative_connection: by_removal_of_personal_data;
+
+    => nrel_etalon_online_idx: [39067];;

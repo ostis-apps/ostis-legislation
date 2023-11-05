@@ -1,0 +1,14 @@
+
+by_accounting_method
+    => nrel_main_idtf: [accounting method] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод учета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад уліку] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_accounting_object;
+    => nrel_associative_connection: by_primary_accounting;
+    => nrel_associative_connection: by_accepted_number_of_hunting_animals_of_a_certain_species;
+    => nrel_associative_connection: by_index_card;
+
+    => nrel_etalon_online_idx: [17314];;

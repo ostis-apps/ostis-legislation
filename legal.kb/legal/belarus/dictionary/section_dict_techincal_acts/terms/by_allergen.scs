@@ -1,0 +1,80 @@
+
+by_allergen
+    => nrel_main_idtf: [allergen] (* <- lang_en;; *);
+    => nrel_main_idtf: [аллерген] (* <- lang_ru;; *);
+    => nrel_main_idtf: [алерген] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allergen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allergen_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allergen_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allergen_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_allergen_specific_immunotherapy;
+    => nrel_associative_connection: by_allergic_reaction;
+    => nrel_associative_connection: by_allergy;
+    => nrel_associative_connection: by_allergology_and_immunology;
+    => nrel_associative_connection: by_anaphylactic_shock;
+    => nrel_associative_connection: by_antibodies;
+    => nrel_associative_connection: by_biological_medicine;
+    => nrel_associative_connection: by_hypersensitivity;
+    => nrel_associative_connection: by_urticaria_nos_or_hives;
+    => nrel_associative_connection: by_medicinal_product;
+    => nrel_associative_connection: by_medicine;
+
+    => nrel_etalon_online_idx: [12441];;

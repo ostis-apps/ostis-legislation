@@ -1,0 +1,31 @@
+
+by_by_onetime_sample_spot
+    => nrel_main_idtf: [by_onetime_sample_spot] (* <- lang_en;; *);
+    => nrel_main_idtf: [разовая проба (точечная)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разавая проба (кропкавая)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_onetime_sample_spot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_disposal;
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_control_assay;
+    => nrel_associative_connection: by_control_sample_of_wastewater;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_centralized_water_supply_system;
+    => nrel_associative_connection: by_centralized_water_supply_drainage_system;
+
+    => nrel_etalon_online_idx: [41549];;

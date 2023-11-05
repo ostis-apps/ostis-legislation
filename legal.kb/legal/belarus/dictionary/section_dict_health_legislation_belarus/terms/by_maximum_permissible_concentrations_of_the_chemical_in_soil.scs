@@ -1,0 +1,28 @@
+
+by_maximum_permissible_concentrations_of_the_chemical_in_soil
+    => nrel_main_idtf: [maximum permissible concentrations of the chemical in soil] (* <- lang_en;; *);
+    => nrel_main_idtf: [предельно допустимые концентрации химического вещества в почве] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранічна дапушчальныя канцэнтрацыі хімічнага рэчыва ў глебе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maximum_permissible_concentrations_of_the_chemical_in_soil_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_harmful_substances_with_irritating_effect;
+    => nrel_associative_connection: by_pollution_of_land_including_soil_with_a_chemical_land_pollution_including_soil;
+    => nrel_associative_connection: by_soil_contamination_with_chemical_substance_soil_contamination;
+    => nrel_associative_connection: by_approximate_permissible_concentrations_of_chemical_substance_in_soil;
+
+    => nrel_etalon_online_idx: [41668];;

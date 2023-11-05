@@ -1,0 +1,28 @@
+
+by_by_reduced_length_of_stay
+    => nrel_main_idtf: [by_reduced_length_of_stay] (* <- lang_en;; *);
+    => nrel_main_idtf: [сокращенный срок пребывания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скарочаны тэрмін знаходжання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_reduced_length_of_stay_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hospitalization;
+    => nrel_associative_connection: by_diagnostic_studies;
+    => nrel_associative_connection: by_therapeutic_and_diagnostic_process_at_the_prehospital_stage;
+    => nrel_associative_connection: by_compulsory_hospitalization_and_treatment;
+
+    => nrel_etalon_online_idx: [43463];;

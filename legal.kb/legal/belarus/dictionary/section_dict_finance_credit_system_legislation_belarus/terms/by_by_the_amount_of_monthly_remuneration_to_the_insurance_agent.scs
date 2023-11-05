@@ -1,0 +1,36 @@
+
+by_by_the_amount_of_monthly_remuneration_to_the_insurance_agent
+    => nrel_main_idtf: [by_the_amount_of_monthly_remuneration_to_the_insurance_agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [размер ежемесячного вознаграждения страховому агенту] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памер штомесячнага ўзнагароджання страхавому агенту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_the_amount_of_monthly_remuneration_to_the_insurance_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_insurance_agreement;
+    => nrel_associative_connection: by_insurance_tariff_index;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_agent;
+    => nrel_associative_connection: by_insurance_broker;
+    => nrel_associative_connection: by_insurance_contribution;
+    => nrel_associative_connection: by_insurance_contribution_insurance_premium;
+    => nrel_associative_connection: by_insurance_rate;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_insurers;
+    => nrel_associative_connection: by_insurance_contributions;
+
+    => nrel_etalon_online_idx: [22038];;

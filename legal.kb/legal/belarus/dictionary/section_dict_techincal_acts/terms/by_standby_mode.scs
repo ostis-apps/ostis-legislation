@@ -1,0 +1,26 @@
+
+by_standby_mode
+    => nrel_main_idtf: [standby mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [дежурный режим] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяжурны рэжым] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standby_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_integrated_firefighting_water_pipe;
+    => nrel_associative_connection: by_integrated_firefighting_high_pressure_water_pipe;
+
+    => nrel_etalon_online_idx: [40846];;

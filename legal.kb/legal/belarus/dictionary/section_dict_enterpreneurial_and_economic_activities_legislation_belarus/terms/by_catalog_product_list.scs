@@ -1,0 +1,27 @@
+
+by_catalog_product_list
+    => nrel_main_idtf: [catalog product list] (* <- lang_en;; *);
+    => nrel_main_idtf: [каталожный лист продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каталожны ліст прадукцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_catalog_product_list_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_identification_of_technical_conditions;
+    => nrel_associative_connection: by_national_catalogue_of_supply_articles;
+    => nrel_associative_connection: by_products;
+
+    => nrel_etalon_online_idx: [27498];;

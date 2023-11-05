@@ -1,0 +1,38 @@
+
+by_cellular_mobile_telecommunication_service
+    => nrel_main_idtf: [cellular mobile telecommunication service] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуга сотовой подвижной электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслуга сотавай рухомай электрасувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cellular_mobile_telecommunication_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_address_data_of_users_of_telecommunication_services;
+    => nrel_associative_connection: by_unit_tarification_connections;
+    => nrel_associative_connection: by_access_card_sim_card_ruim_card_usim_card;
+    => nrel_associative_connection: by_telecommunication_services_user;
+    => nrel_associative_connection: by_sending_smsmessages;
+    => nrel_associative_connection: by_roaming;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_network;
+    => nrel_associative_connection: by_cellular_mobile_network_connection;
+    => nrel_associative_connection: by_telecommunication_connection;
+    => nrel_associative_connection: by_reference_and_information_service;
+    => nrel_associative_connection: by_telematic_service;
+    => nrel_associative_connection: by_service_for_providing_access_to_the_network_of_stationary_telecommunications_using_a_terminal_subscriber_device;
+    => nrel_associative_connection: by_stationary_telecommunication_service;
+    => nrel_associative_connection: by_communication_services;
+
+    => nrel_etalon_online_idx: [25628];;

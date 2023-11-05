@@ -1,0 +1,30 @@
+
+by_public_utilities_services_provided_to_citizens
+    => nrel_main_idtf: [public utilities services provided to citizens] (* <- lang_en;; *);
+    => nrel_main_idtf: [коммунальные услуги, оказываемые гражданам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камунальныя паслугі, якія аказваюцца грамадзянам] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_utilities_services_provided_to_citizens_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_departmental_supplier_organization;
+    => nrel_associative_connection: by_housing_and_utilities_service;
+    => nrel_associative_connection: by_housing_and_utilities_infrastructure;
+    => nrel_associative_connection: by_housing_and_utilities_services;
+    => nrel_associative_connection: by_public_utilities_services;
+    => nrel_associative_connection: by_public_utilities_services_provided_to_population;
+
+    => nrel_etalon_online_idx: [16043];;

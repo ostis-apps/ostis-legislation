@@ -1,0 +1,29 @@
+
+by_automatically_detachable_flight_recorder
+    => nrel_main_idtf: [automatically detachable flight recorder] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматически отделяемый бортовой самописец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычна аддзяляемы бартавы самапісец] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatically_detachable_flight_recorder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_flight_data_analysis;
+    => nrel_associative_connection: by_flight_recorder;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_civil_aircraft;
+    => nrel_associative_connection: by_flight_data_monitoring;
+
+    => nrel_etalon_online_idx: [38403];;

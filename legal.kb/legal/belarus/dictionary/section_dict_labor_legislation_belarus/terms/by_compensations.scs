@@ -1,0 +1,46 @@
+
+by_compensations
+    => nrel_main_idtf: [compensations] (* <- lang_en;; *);
+    => nrel_main_idtf: [компенсации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампенсацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_compensation_of_expenses;
+    => nrel_associative_connection: by_all_available_payments;
+    => nrel_associative_connection: by_compensation_payments;
+    => nrel_associative_connection: by_countervailing_measures;
+    => nrel_associative_connection: by_nationalization;
+    => nrel_associative_connection: by_criminal_legal_compensation;
+    => nrel_associative_connection: by_damage;
+
+    => nrel_etalon_online_idx: [2701];;

@@ -1,0 +1,33 @@
+
+by_management_bodies_of_game_machine
+    => nrel_main_idtf: [management bodies of game machine] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы управления игрового автомата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы кіравання гульнявога аўтамата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_management_bodies_of_game_machine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_external_system;
+    => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_game_machine_initialization;
+    => nrel_associative_connection: by_gaming_machine_cash;
+    => nrel_associative_connection: by_game_machine_credit;
+    => nrel_associative_connection: by_accumulated_counters;
+    => nrel_associative_connection: by_remote_control;
+    => nrel_associative_connection: by_software_verification_tools;
+
+    => nrel_etalon_online_idx: [30928];;

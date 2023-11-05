@@ -1,0 +1,30 @@
+
+by_car_service
+    => nrel_main_idtf: [car service] (* <- lang_en;; *);
+    => nrel_main_idtf: [автосервис] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтасэрвіс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_car_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrator_of_the_server_of_market_prices_of_vehicle_parts_materials_and_cost_of_standard_hour_of_work_on_repair_of_vehicles_in_car_service_organizations;
+    => nrel_associative_connection: by_building_premises_of_service_maintenance_of_vehicles;
+    => nrel_associative_connection: by_maintenance_vehicles;
+    => nrel_associative_connection: by_organization_of_car_service;
+    => nrel_associative_connection: by_reasonable_availability_of_car_service_organization;
+    => nrel_associative_connection: by_server_of_market_prices_of_vehicle_parts_materials_and_cost_of_normohour_of_work_on_repair_of_vehicles_in_car_service_organizations;
+
+    => nrel_etalon_online_idx: [31803];;

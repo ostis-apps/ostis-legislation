@@ -1,0 +1,35 @@
+
+by_senders
+    => nrel_main_idtf: [senders] (* <- lang_en;; *);
+    => nrel_main_idtf: [отправители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адпраўшчыкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_senders_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sending_bank;
+    => nrel_associative_connection: by_secondary_subsequent_recipients;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_courier_sendings;
+    => nrel_associative_connection: by_international_postal_item;
+    => nrel_associative_connection: by_international_mail;
+    => nrel_associative_connection: by_sender;
+    => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_representative_of_the_sender_recipient;
+
+    => nrel_etalon_online_idx: [19564];;

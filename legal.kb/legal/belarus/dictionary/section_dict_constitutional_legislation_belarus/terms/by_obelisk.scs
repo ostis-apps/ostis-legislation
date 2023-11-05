@@ -1,0 +1,28 @@
+
+by_obelisk
+    => nrel_main_idtf: [obelisk] (* <- lang_en;; *);
+    => nrel_main_idtf: [обелиск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абеліск] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obelisk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monumental_sculpture;
+    => nrel_associative_connection: by_monumental_and_decorative_sculpture;
+    => nrel_associative_connection: by_monument;
+    => nrel_associative_connection: by_monumentbust;
+
+    => nrel_etalon_online_idx: [39752];;

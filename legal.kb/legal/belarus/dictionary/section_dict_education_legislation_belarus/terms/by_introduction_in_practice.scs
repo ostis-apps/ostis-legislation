@@ -1,0 +1,28 @@
+
+by_introduction_in_practice
+    => nrel_main_idtf: [introduction in practice] (* <- lang_en;; *);
+    => nrel_main_idtf: [внедрение в практику] (* <- lang_ru;; *);
+    => nrel_main_idtf: [укараненне ў практыку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_introduction_in_practice_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_scientific_activity;
+    => nrel_associative_connection: by_practice;
+    => nrel_associative_connection: by_experimental_activity;
+    => nrel_associative_connection: by_experimental_activities_in_the_sphere_of_education;
+
+    => nrel_etalon_online_idx: [13073];;

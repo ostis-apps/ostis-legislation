@@ -1,0 +1,35 @@
+
+by_doctor__maxillofacial_surgeon_dms
+    => nrel_main_idtf: [doctor - maxillofacial surgeon (dms)] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач - челюстно-лицевой хирург (вчлх)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач - сківічна-асабовы хірург (усах)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doctor__maxillofacial_surgeon_dms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporomandibular_joint;
+    => nrel_associative_connection: by_doctorspecialist;
+    => nrel_associative_connection: by_dental_implants;
+    => nrel_associative_connection: by_attending_doctor;
+    => nrel_associative_connection: by_medical_activity;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_care_in_specialized_healthcare_organizations;
+    => nrel_associative_connection: by_medical_service;
+    => nrel_associative_connection: by_papilloma;
+    => nrel_associative_connection: by_specialist;
+    => nrel_associative_connection: by_specialists;
+
+    => nrel_etalon_online_idx: [13242];;

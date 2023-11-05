@@ -1,0 +1,30 @@
+
+by_accrued_charge
+    => nrel_main_idtf: [accrued charge] (* <- lang_en;; *);
+    => nrel_main_idtf: [начисленный расход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [налічаны расход] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accrued_charge_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accrued_income;
+    => nrel_associative_connection: by_accrual_principle;
+    => nrel_associative_connection: by_interest_expenses;
+    => nrel_associative_connection: by_other_bank_income_and_other_bank_expenses;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_deferred_expenses;
+
+    => nrel_etalon_online_idx: [17885];;

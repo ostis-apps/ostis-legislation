@@ -1,0 +1,29 @@
+
+by_gas_contamination_zone_in_case_of_mass_fires_in_the_area_where_shelters_are_located
+    => nrel_main_idtf: [ gas contamination zone in case of mass fires in the area where shelters are located] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона загазованности при массовых пожарах в районе расположения убежищ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона загазаванасці пры масавых пажарах у раёне распалажэння сховішч] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_contamination_zone_in_case_of_mass_fires_in_the_area_where_shelters_are_located_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_protective_construction;
+    => nrel_associative_connection: by_protective_shelter;
+    => nrel_associative_connection: by_fire;
+    => nrel_associative_connection: by_territory;
+    => nrel_associative_connection: by_refuge;
+
+    => nrel_etalon_online_idx: [37243];;

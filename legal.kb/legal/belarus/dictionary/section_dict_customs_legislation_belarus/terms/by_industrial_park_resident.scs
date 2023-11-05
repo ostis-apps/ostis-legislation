@@ -1,0 +1,39 @@
+
+by_industrial_park_resident
+    => nrel_main_idtf: [industrial park resident] (* <- lang_en;; *);
+    => nrel_main_idtf: [резидент индустриального парка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзідэнт індустрыяльнага парка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_park_resident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adaptation_of_project_documentation_developed_for_the_objects_of_the_industrial_park;
+    => nrel_associative_connection: by_investor_of_industrial_park;
+    => nrel_associative_connection: by_complex_service_by_principle_one_station;
+    => nrel_associative_connection: by_major_investment_project;
+    => nrel_associative_connection: by_object_of_industrial_park;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_of_industrial_park;
+    => nrel_associative_connection: by_sale_of_goods_works_services_of_own_production;
+    => nrel_associative_connection: by_resident;
+    => nrel_associative_connection: by_resident_of_the_science_and_technology_park;
+    => nrel_associative_connection: by_resident_of_technopark;
+    => nrel_associative_connection: by_residents;
+    => nrel_associative_connection: by_component_parts_of_the_industrial_park_great_stone;
+    => nrel_associative_connection: by_construction_of_industrial_park_objects;
+    => nrel_associative_connection: by_subject_of_innovative_activity_of_the_industrial_park;
+    => nrel_associative_connection: by_participant_in_construction_of_industrial_park_objects;
+
+    => nrel_etalon_online_idx: [22464];;

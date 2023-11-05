@@ -1,0 +1,28 @@
+
+by_aerodrome_sign_with_variable_information
+    => nrel_main_idtf: [aerodrome sign with variable information] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродромный знак с переменной информацией] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадромны знак з пераменнай інфармацыяй] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_sign_with_variable_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerodrome_sign;
+    => nrel_associative_connection: by_aerodrome_sign_with_permanent_information;
+    => nrel_associative_connection: by_important_data;
+    => nrel_associative_connection: by_critical_data;
+
+    => nrel_etalon_online_idx: [40997];;

@@ -1,0 +1,26 @@
+
+by_overall_dimensions_of_the_boiler
+    => nrel_main_idtf: [overall dimensions of the boiler] (* <- lang_en;; *);
+    => nrel_main_idtf: [габаритные размеры котла] (* <- lang_ru;; *);
+    => nrel_main_idtf: [габарытныя памеры катла] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overall_dimensions_of_the_boiler_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commissioning_the_boiler;
+    => nrel_associative_connection: by_boiler_water;
+
+    => nrel_etalon_online_idx: [38099];;

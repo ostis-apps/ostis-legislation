@@ -1,0 +1,35 @@
+
+by_bank_holding
+    => nrel_main_idtf: [bank holding ] (* <- lang_en;; *);
+    => nrel_main_idtf: [банковский холдинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкаўскі холдынг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_holding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_head_organization_of_the_bank_holding;
+    => nrel_associative_connection: by_group;
+    => nrel_associative_connection: by_information_on_activity;
+    => nrel_associative_connection: by_information_on_activity_of_the_bank;
+    => nrel_associative_connection: by_information_on_activity_of_a_bank_group_and_or_bank_holding;
+    => nrel_associative_connection: by_consolidated_reporting_on_the_activity_of_bank_group_and_or_bank_holding;
+    => nrel_associative_connection: by_large_risk_of_bank_group_bank_holding;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_total_amount_of_claims_of_bank_group_bank_holding_against_one_debtor_related_debtors_of_bank_group_bank_holding;
+    => nrel_associative_connection: by_holding_company;
+
+    => nrel_etalon_online_idx: [5278];;

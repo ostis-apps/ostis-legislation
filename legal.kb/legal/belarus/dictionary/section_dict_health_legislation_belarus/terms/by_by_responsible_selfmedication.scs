@@ -1,0 +1,29 @@
+
+by_by_responsible_selfmedication
+    => nrel_main_idtf: [by_responsible_selfmedication] (* <- lang_en;; *);
+    => nrel_main_idtf: [ответственное самолечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адказнае самалячэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_responsible_selfmedication_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_other_pharmacy_products;
+    => nrel_associative_connection: by_medicines;
+    => nrel_associative_connection: by_rational_use_of_medicines;
+    => nrel_associative_connection: by_pharmaceutical_counseling_for_healthcare_professionals;
+    => nrel_associative_connection: by_pharmaceutical_consultation_to_the_population;
+
+    => nrel_etalon_online_idx: [36136];;

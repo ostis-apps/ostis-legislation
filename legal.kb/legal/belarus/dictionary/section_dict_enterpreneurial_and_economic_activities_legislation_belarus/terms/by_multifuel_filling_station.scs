@@ -1,0 +1,35 @@
+
+by_multifuel_filling_station
+    => nrel_main_idtf: [multi-fuel filling station] (* <- lang_en;; *);
+    => nrel_main_idtf: [многотопливная автозаправочная станция (мазс)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мнагапаліўная аўтазаправачная станцыя (мазс)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multifuel_filling_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_filling_station;
+    => nrel_associative_connection: by_automated_filling_station;
+    => nrel_associative_connection: by_car_gas_filling_station;
+    => nrel_associative_connection: by_car_gas_filling_station_modularblock;
+    => nrel_associative_connection: by_car_fuel;
+    => nrel_associative_connection: by_building_premises_for_servicing_drivers_and_passengers;
+    => nrel_associative_connection: by_container_filling_station;
+    => nrel_associative_connection: by_modular_car_filling_station;
+    => nrel_associative_connection: by_mobile_filling_station;
+    => nrel_associative_connection: by_car_fuel_sales_tax_payers;
+    => nrel_associative_connection: by_sale_of_automotive_fuel_when_calculating_automotive_fuel_sales_tax;
+
+    => nrel_etalon_online_idx: [17433];;

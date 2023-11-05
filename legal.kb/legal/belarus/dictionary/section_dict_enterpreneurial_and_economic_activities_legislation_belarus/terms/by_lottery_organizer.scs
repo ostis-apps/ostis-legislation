@@ -1,0 +1,31 @@
+
+by_lottery_organizer
+    => nrel_main_idtf: [lottery organizer] (* <- lang_en;; *);
+    => nrel_main_idtf: [организатор лотереи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізатар латарэі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lottery_organizer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_game_combination;
+    => nrel_associative_connection: by_local_lottery;
+    => nrel_associative_connection: by_passive_lottery;
+    => nrel_associative_connection: by_prize_fund_of_the_lottery;
+    => nrel_associative_connection: by_carrying_out_the_lottery;
+    => nrel_associative_connection: by_lottery_implementer;
+    => nrel_associative_connection: by_republican_lottery;
+
+    => nrel_etalon_online_idx: [19159];;

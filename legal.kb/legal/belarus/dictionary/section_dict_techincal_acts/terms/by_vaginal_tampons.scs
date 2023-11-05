@@ -1,0 +1,26 @@
+
+by_vaginal_tampons
+    => nrel_main_idtf: [vaginal tampons] (* <- lang_en;; *);
+    => nrel_main_idtf: [вагинальные тампоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вагінальныя тампоны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vaginal_tampons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sticks;
+    => nrel_associative_connection: by_pessary_vaginal;
+
+    => nrel_etalon_online_idx: [36792];;

@@ -1,0 +1,51 @@
+
+by_development
+    => nrel_main_idtf: [development] (* <- lang_en;; *);
+    => nrel_main_idtf: [застройка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забудова] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_development_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_development_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_master_plan_of_the_settlement_general_plan;
+    => nrel_associative_connection: by_border_of_the_existing_development_of_the_settlement;
+    => nrel_associative_connection: by_customers;
+    => nrel_associative_connection: by_development_of_areas_of_occurrence_of_minerals;
+    => nrel_associative_connection: by_environmental_changes;
+    => nrel_associative_connection: by_modular_development;
+    => nrel_associative_connection: by_planning_limitations;
+    => nrel_associative_connection: by_builtup_area_of_building;
+    => nrel_associative_connection: by_project_organizations;
+    => nrel_associative_connection: by_distribution_engineering_infrastructure;
+    => nrel_associative_connection: by_unauthorized_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [31385];;

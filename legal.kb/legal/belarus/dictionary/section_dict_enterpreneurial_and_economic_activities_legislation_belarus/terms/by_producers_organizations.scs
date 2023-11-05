@@ -1,0 +1,28 @@
+
+by_producers_organizations
+    => nrel_main_idtf: [producers' organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации-производители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі-вытворцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_producers_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intraindustry_cooperation;
+    => nrel_associative_connection: by_organizationmanufacturer_of_tobacco_products;
+    => nrel_associative_connection: by_representative_of_manufacturer_seller_supplier;
+    => nrel_associative_connection: by_producer;
+
+    => nrel_etalon_online_idx: [19170];;

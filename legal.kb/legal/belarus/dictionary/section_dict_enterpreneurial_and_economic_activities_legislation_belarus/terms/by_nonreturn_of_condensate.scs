@@ -1,0 +1,31 @@
+
+by_nonreturn_of_condensate
+    => nrel_main_idtf: [non-return of condensate ] (* <- lang_en;; *);
+    => nrel_main_idtf: [невозврат конденсата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [невяртанне кандэнсату] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonreturn_of_condensate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_control_valve;
+    => nrel_associative_connection: by_condensate;
+    => nrel_associative_connection: by_condensation_department;
+    => nrel_associative_connection: by_condensing_electricial_power_station;
+    => nrel_associative_connection: by_condensed_explosive;
+    => nrel_associative_connection: by_thermal_power_plant;
+    => nrel_associative_connection: by_thermal_energy;
+
+    => nrel_etalon_online_idx: [17909];;

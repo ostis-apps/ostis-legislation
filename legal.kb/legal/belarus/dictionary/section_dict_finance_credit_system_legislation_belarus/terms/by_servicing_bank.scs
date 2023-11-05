@@ -1,0 +1,43 @@
+
+by_servicing_bank
+    => nrel_main_idtf: [servicing bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [обслуживающий банк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абслуговы банк] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_servicing_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_servicing_bank_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_balance_of_cash_belarusian_rubles_cash_foreign_currency;
+
+    => nrel_etalon_online_idx: [10702];;

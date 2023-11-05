@@ -1,0 +1,43 @@
+
+by_tests_technique
+    => nrel_main_idtf: [tests technique] (* <- lang_en;; *);
+    => nrel_main_idtf: [методика испытаний] (* <- lang_ru;; *);
+    => nrel_main_idtf: [методыка выпрабаванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tests_technique_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tests_technique_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_certification_of_methodology_methods_of_measurements;
+    => nrel_associative_connection: by_applicant_to_conduct_test;
+    => nrel_associative_connection: by_test;
+    => nrel_associative_connection: by_test_pressure;
+
+    => nrel_etalon_online_idx: [17319];;

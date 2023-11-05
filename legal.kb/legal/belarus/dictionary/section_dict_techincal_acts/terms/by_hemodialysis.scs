@@ -1,0 +1,30 @@
+
+by_hemodialysis
+    => nrel_main_idtf: [hemodialysis] (* <- lang_en;; *);
+    => nrel_main_idtf: [гемодиализ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гемадыяліз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hemodialysis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_congenital_dysfunction_of_the_adrenal_cortex;
+    => nrel_associative_connection: by_dialysis;
+    => nrel_associative_connection: by_isolated_hematuria;
+    => nrel_associative_connection: by_kidney_transplant_waiting_list;
+    => nrel_associative_connection: by_acute_renal_failure;
+    => nrel_associative_connection: by_acute_kidney_damage;
+
+    => nrel_etalon_online_idx: [34104];;

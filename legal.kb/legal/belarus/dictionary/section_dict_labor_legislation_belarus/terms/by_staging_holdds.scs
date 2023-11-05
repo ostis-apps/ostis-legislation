@@ -1,0 +1,29 @@
+
+by_staging_holdds
+    => nrel_main_idtf: [staging holdds] (* <- lang_en;; *);
+    => nrel_main_idtf: [постановочные трюмы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастановачныя трумы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_staging_holdds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_decoration;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_technical_holds;
+    => nrel_associative_connection: by_hold;
+    => nrel_associative_connection: by_story;
+
+    => nrel_etalon_online_idx: [20760];;

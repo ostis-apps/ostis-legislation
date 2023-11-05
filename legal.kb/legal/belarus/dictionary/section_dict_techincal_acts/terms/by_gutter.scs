@@ -1,0 +1,30 @@
+
+by_gutter
+    => nrel_main_idtf: [gutter] (* <- lang_en;; *);
+    => nrel_main_idtf: [желоб ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жолаб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gutter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drainage_tray;
+    => nrel_associative_connection: by_cornice;
+    => nrel_associative_connection: by_roof;
+    => nrel_associative_connection: by_roof;
+    => nrel_associative_connection: by_basic_waterproof_carpet_as_part_of_rolled_and_mastic_roofs;
+    => nrel_associative_connection: by_operated_roof;
+
+    => nrel_etalon_online_idx: [30676];;

@@ -1,0 +1,30 @@
+
+by_curb_mass
+    => nrel_main_idtf: [curb mass] (* <- lang_en;; *);
+    => nrel_main_idtf: [снаряженная масса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрыхтаваная маса] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_curb_mass_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_automobile_vehicle_av;
+    => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_total_mass;
+    => nrel_associative_connection: by_automotive_vehicle;
+    => nrel_associative_connection: by_gross_operating_weight;
+
+    => nrel_etalon_online_idx: [23411];;

@@ -1,0 +1,28 @@
+
+by_point_cloud
+    => nrel_main_idtf: [point cloud] (* <- lang_en;; *);
+    => nrel_main_idtf: [облако точек] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воблака кропак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_point_cloud_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hypermodel_bimx;
+    => nrel_associative_connection: by_interactive_passport;
+    => nrel_associative_connection: by_information_layer_of_interactive_passport;
+    => nrel_associative_connection: by_system_of_geodesic_coordinates;
+
+    => nrel_etalon_online_idx: [41784];;

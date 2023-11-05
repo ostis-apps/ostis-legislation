@@ -1,0 +1,28 @@
+
+by_operating_staff_of_the_nuclear_power_plant
+    => nrel_main_idtf: [operating staff of the nuclear power plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативный персонал атомной электростанции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўны персанал атамнай электрастанцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operating_staff_of_the_nuclear_power_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_technological_process;
+
+    => nrel_etalon_online_idx: [40975];;

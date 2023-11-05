@@ -1,0 +1,32 @@
+
+by_head_of_the_audit_group_on_consolidated_statement_audit
+    => nrel_main_idtf: [head of the audit group on consolidated statement audit] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель аудиторской группы по аудиту консолидированной отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік аўдытарскай групы па аўдыту кансалідаванай справаздачнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_of_the_audit_group_on_consolidated_statement_audit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_group_audit_organization;
+    => nrel_associative_connection: by_auditing_organization_of_the_component;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_auditors_report;
+    => nrel_associative_connection: by_consolidated_statements;
+    => nrel_associative_connection: by_consolidated_financial_statements;
+    => nrel_associative_connection: by_facilities_of_control_at_the_level_of_the_group_of_organizations;
+
+    => nrel_etalon_online_idx: [30783];;

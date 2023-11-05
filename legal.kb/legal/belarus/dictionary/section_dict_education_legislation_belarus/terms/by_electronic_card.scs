@@ -1,0 +1,43 @@
+
+by_electronic_card
+    => nrel_main_idtf: [electronic card] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронная карточка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронная картка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_card_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_virtual_card;
+    => nrel_associative_connection: by_provision_of_card;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_electronic_control;
+
+    => nrel_etalon_online_idx: [10659];;

@@ -1,0 +1,82 @@
+
+by_foodstuffs
+    => nrel_main_idtf: [foodstuffs] (* <- lang_en;; *);
+    => nrel_main_idtf: [пищевые продукты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [харчовыя прадукты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foodstuffs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foodstuffs_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foodstuffs_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dietary_supplements_to_food_dsf;
+    => nrel_associative_connection: by_upper_acceptable_consumption_level;
+    => nrel_associative_connection: by_genetically_modified_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_dietary_eggs;
+    => nrel_associative_connection: by_additional_alimentation;
+    => nrel_associative_connection: by_food_products_quality;
+    => nrel_associative_connection: by_quality_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_confectionery;
+    => nrel_associative_connection: by_critical_control_point;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_lot_of_food_commodity_and_food_products;
+    => nrel_associative_connection: by_food_additive;
+    => nrel_associative_connection: by_food_products_of_pulpit_lead;
+    => nrel_associative_connection: by_food_industry;
+    => nrel_associative_connection: by_nutritional_value;
+    => nrel_associative_connection: by_nutritional_value_of_food_materials_and_food_products;
+    => nrel_associative_connection: by_food_product;
+    => nrel_associative_connection: by_nutrients;
+    => nrel_associative_connection: by_food_additives;
+    => nrel_associative_connection: by_food_raw_materials;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_products_of_animal_origin;
+    => nrel_associative_connection: by_production_of_confectionery;
+    => nrel_associative_connection: by_production_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_development_of_food_products;
+    => nrel_associative_connection: by_sale_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_raw_material;
+    => nrel_associative_connection: by_central_tasting_commission;
+
+    => nrel_etalon_online_idx: [6503];;

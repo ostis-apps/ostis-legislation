@@ -1,0 +1,75 @@
+
+by_similar_goods_works_services
+    => nrel_main_idtf: [similar goods (works, services)] (* <- lang_en;; *);
+    => nrel_main_idtf: [однородные товары (работы, услуги)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднародныя тавары (работы, паслугі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_similar_goods_works_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_similar_goods_works_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_similar_goods_works_services_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_similar_goods_works_services_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_equivalent;
+    => nrel_associative_connection: by_similar_goods;
+    => nrel_associative_connection: by_interchangeable_similar_goods;
+    => nrel_associative_connection: by_product_group;
+    => nrel_associative_connection: by_identical_goods;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [10498];;

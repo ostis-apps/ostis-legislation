@@ -1,0 +1,26 @@
+
+by_by_petrochemical
+    => nrel_main_idtf: [by_petrochemical] (* <- lang_en;; *);
+    => nrel_main_idtf: [нефтехимический синтез] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нафтахімічны сінтэз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_petrochemical_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_chemical_process_engineer;
+    => nrel_associative_connection: by_production_of_organic_products;
+
+    => nrel_etalon_online_idx: [40804];;

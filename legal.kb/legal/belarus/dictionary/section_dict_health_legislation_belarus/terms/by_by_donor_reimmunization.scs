@@ -1,0 +1,31 @@
+
+by_by_donor_reimmunization
+    => nrel_main_idtf: [by_donor_reimmunization] (* <- lang_en;; *);
+    => nrel_main_idtf: [реиммунизация донора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэімунізацыя донара] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_donor_reimmunization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_isoimmunization;
+    => nrel_associative_connection: by_isoimmune_antibodies;
+    => nrel_associative_connection: by_donor_immunization;
+    => nrel_associative_connection: by_immune_antibodies;
+    => nrel_associative_connection: by_blood_isoimmune;
+    => nrel_associative_connection: by_mobilization_of_donor_leukopoiesis;
+    => nrel_associative_connection: by_plasma_isoimmune;
+
+    => nrel_etalon_online_idx: [43413];;

@@ -1,0 +1,27 @@
+
+by_electronic_copy_of_document
+    => nrel_main_idtf: [electronic copy of document] (* <- lang_en;; *);
+    => nrel_main_idtf: [копия документа в электронном виде] (* <- lang_ru;; *);
+    => nrel_main_idtf: [копія дакумента ў электронным відзе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_copy_of_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document_in_electronic_form;
+    => nrel_associative_connection: by_electronic_copy_of_identity_document;
+    => nrel_associative_connection: by_electronic_copy_of_document_on_paper;
+
+    => nrel_etalon_online_idx: [32413];;

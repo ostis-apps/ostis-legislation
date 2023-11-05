@@ -1,0 +1,33 @@
+
+by_aids_virus_exposed_child
+    => nrel_main_idtf: [aids virus exposed child] (* <- lang_en;; *);
+    => nrel_main_idtf: [вич-экспонированный ребенок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [віч-экспанаванае дзіця] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aids_virus_exposed_child_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_antiretroviral_prevention;
+    => nrel_associative_connection: by_antiretroviral_therapy;
+    => nrel_associative_connection: by_antiretroviral_medicine;
+    => nrel_associative_connection: by_antiretroviral_medicines;
+    => nrel_associative_connection: by_virus_suppression;
+    => nrel_associative_connection: by_hivpositive_patient_status;
+    => nrel_associative_connection: by_people_living_with_hiv;
+    => nrel_associative_connection: by_hiv_patients;
+    => nrel_associative_connection: by_transmission_of_hiv_infection_from_mother_to_child;
+
+    => nrel_etalon_online_idx: [29071];;

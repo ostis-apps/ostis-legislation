@@ -1,0 +1,37 @@
+
+by_boarding_house
+    => nrel_main_idtf: [boarding house] (* <- lang_en;; *);
+    => nrel_main_idtf: [пансионат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пансіянат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_boarding_house_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_children_in_need_of_recreation;
+    => nrel_associative_connection: by_treatment;
+    => nrel_associative_connection: by_objects_of_social_purpose;
+    => nrel_associative_connection: by_recreational_organizations;
+    => nrel_associative_connection: by_recreational_camp;
+    => nrel_associative_connection: by_recreational_center_complex;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_prophylactorium;
+    => nrel_associative_connection: by_permit;
+    => nrel_associative_connection: by_resort_center;
+    => nrel_associative_connection: by_resort_and_recreation_treatment;
+    => nrel_associative_connection: by_health_recreation_and_resort_organizations;
+    => nrel_associative_connection: by_resort_and_recreation_services;
+
+    => nrel_etalon_online_idx: [19783];;

@@ -1,0 +1,30 @@
+
+by_partition_of_the_masonry_product
+    => nrel_main_idtf: [partition of the masonry product] (* <- lang_en;; *);
+    => nrel_main_idtf: [перегородка кладочного изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перагародка кладачнага вырабу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_partition_of_the_masonry_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_exterior_wall_of_paving_block;
+    => nrel_associative_connection: by_gripper_hole;
+    => nrel_associative_connection: by_partition;
+    => nrel_associative_connection: by_compressive_strength_of_masonry_mortar;
+    => nrel_associative_connection: by_emptiness;
+    => nrel_associative_connection: by_wall_with_strip_filling_of_horizontal_mortar_joints_with_masonry_mortar;
+
+    => nrel_etalon_online_idx: [38059];;

@@ -1,0 +1,46 @@
+
+by_gross_regional_product_grp
+    => nrel_main_idtf: [gross regional product (grp)] (* <- lang_en;; *);
+    => nrel_main_idtf: [валовой региональный продукт (врп)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [валавы рэгіянальны прадукт (врп)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_regional_product_grp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_regional_product_grp_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gross_domestic_product_gdp;
+    => nrel_associative_connection: by_gross_domestic_product_in_basic_prices;
+    => nrel_associative_connection: by_gross_domestic_product_in_market_prices;
+    => nrel_associative_connection: by_gross_regional_product_in_basic_prices;
+    => nrel_associative_connection: by_gross_regional_product_in_market_prices;
+    => nrel_associative_connection: by_release_of_goods_and_or_services;
+    => nrel_associative_connection: by_product;
+
+    => nrel_etalon_online_idx: [12033];;

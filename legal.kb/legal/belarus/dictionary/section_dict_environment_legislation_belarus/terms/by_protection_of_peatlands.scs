@@ -1,0 +1,31 @@
+
+by_protection_of_peatlands
+    => nrel_main_idtf: [protection of peatlands] (* <- lang_en;; *);
+    => nrel_main_idtf: [охрана торфяников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахова тарфянікаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_peatlands_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_exhausted_peat_deposit;
+    => nrel_associative_connection: by_border_of_peatland;
+    => nrel_associative_connection: by_rewaterlogged_peatland;
+    => nrel_associative_connection: by_peatbog;
+    => nrel_associative_connection: by_peat_born_swamp_peat_deposits_drained_lands_with_peat_soils;
+    => nrel_associative_connection: by_peat_deposit_deposit_of_peat;
+    => nrel_associative_connection: by_ecological_rehabilitation_of_peatlands;
+
+    => nrel_etalon_online_idx: [36188];;

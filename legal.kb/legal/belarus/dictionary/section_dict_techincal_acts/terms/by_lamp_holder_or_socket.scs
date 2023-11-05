@@ -1,0 +1,28 @@
+
+by_lamp_holder_or_socket
+    => nrel_main_idtf: [lamp holder or socket] (* <- lang_en;; *);
+    => nrel_main_idtf: [ламповый патрон или разъем (lamp holder or socket)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лямпавы патрон або раздым (lamp holder or socket)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lamp_holder_or_socket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_household_lamp;
+    => nrel_associative_connection: by_lamp;
+    => nrel_associative_connection: by_filament_lamp;
+    => nrel_associative_connection: by_patron;
+
+    => nrel_etalon_online_idx: [35144];;

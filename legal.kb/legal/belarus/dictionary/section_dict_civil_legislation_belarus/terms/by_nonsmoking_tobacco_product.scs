@@ -1,0 +1,40 @@
+
+by_nonsmoking_tobacco_product
+    => nrel_main_idtf: [non-smoking tobacco product] (* <- lang_en;; *);
+    => nrel_main_idtf: [некурительное табачное изделие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [некурыльны тытунёвы выраб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonsmoking_tobacco_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_excise_stamp;
+    => nrel_associative_connection: by_import_to_the_republic_of_belarus;
+    => nrel_associative_connection: by_kind_of_the_tobacco_article;
+    => nrel_associative_connection: by_contract_production_of_tobacco_articles;
+    => nrel_associative_connection: by_smoking_tobacco_product;
+    => nrel_associative_connection: by_smoking_tobacco_articles;
+    => nrel_associative_connection: by_sheet_insert;
+    => nrel_associative_connection: by_nonsmoking_tobacco_articles;
+    => nrel_associative_connection: by_nonsmoking_tobacco_products_intended_for_sucking_and_or_chewing;
+    => nrel_associative_connection: by_customer_organization_of_tobacco_products;
+    => nrel_associative_connection: by_organizationmanufacturer_of_tobacco_products;
+    => nrel_associative_connection: by_retail_trade_of_tobacco_products_electronic_smoking_systems_liquids_for_electronic_smoking_systems_systems_for_the_consumption_of_tobacco;
+    => nrel_associative_connection: by_tobacco_product;
+    => nrel_associative_connection: by_tobacco_raw_material;
+    => nrel_associative_connection: by_tobacco_goods;
+    => nrel_associative_connection: by_falsified_tobacco_products;
+
+    => nrel_etalon_online_idx: [39821];;

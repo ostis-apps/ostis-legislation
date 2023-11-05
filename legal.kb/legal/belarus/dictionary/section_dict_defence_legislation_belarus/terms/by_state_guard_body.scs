@@ -1,0 +1,26 @@
+
+by_state_guard_body
+    => nrel_main_idtf: [state guard body] (* <- lang_en;; *);
+    => nrel_main_idtf: [орган государственной охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [орган дзяржаўнай аховы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_guard_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_guard;
+    => nrel_associative_connection: by_special_security_body;
+
+    => nrel_etalon_online_idx: [19123];;

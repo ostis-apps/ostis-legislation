@@ -1,0 +1,43 @@
+
+by_components_of_bacterial_preparations
+    => nrel_main_idtf: [components of bacterial preparations] (* <- lang_en;; *);
+    => nrel_main_idtf: [компоненты бактериальных препаратов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампаненты бактэрыяльных прэпаратаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_components_of_bacterial_preparations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_components_of_bacterial_preparations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bacterial_preparations;
+    => nrel_associative_connection: by_limitative_hazard_index_lhi;
+    => nrel_associative_connection: by_maximum_single_maximum_permissible_concentration_of_pollutants_in_atmospheric_air;
+    => nrel_associative_connection: by_microorganizmesproducents;
+
+    => nrel_etalon_online_idx: [38024];;

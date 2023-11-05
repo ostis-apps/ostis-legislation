@@ -1,0 +1,29 @@
+
+by_inventory_of_planting_stock_of_forest_plants
+    => nrel_main_idtf: [inventory of planting stock of forest plants] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвентаризация посадочного материала лесных растений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвентарызацыя пасадачнага матэрыялу лясных раслін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inventory_of_planting_stock_of_forest_plants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_output_of_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_sowing_quality_of_forest_plant_seeds;
+    => nrel_associative_connection: by_selection_planting_stock_of_forest_plants;
+    => nrel_associative_connection: by_standard_planting_stock_of_forest_plants;
+
+    => nrel_etalon_online_idx: [12080];;

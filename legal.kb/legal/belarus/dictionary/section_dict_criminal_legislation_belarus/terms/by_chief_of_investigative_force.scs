@@ -1,0 +1,30 @@
+
+by_chief_of_investigative_force
+    => nrel_main_idtf: [chief of investigative force] (* <- lang_en;; *);
+    => nrel_main_idtf: [начальник следственного подразделения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [начальнік следчага падраздзялення] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chief_of_investigative_force_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_personnel_department_of_the_investigation_committee;
+    => nrel_associative_connection: by_chief_officers;
+    => nrel_associative_connection: by_heads_of_divisions;
+    => nrel_associative_connection: by_chiefs_of_investigation_committee_units;
+    => nrel_associative_connection: by_preliminary_investigation;
+    => nrel_associative_connection: by_participants_of_criminal_proceedings;
+
+    => nrel_etalon_online_idx: [2870];;

@@ -1,0 +1,30 @@
+
+by_persons_of_no_fixed_abode
+    => nrel_main_idtf: [persons of no fixed abode] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица без определенного места жительства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы без вызначанага месца жыхарства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_of_no_fixed_abode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_shelter;
+    => nrel_associative_connection: by_house_of_night_stay;
+    => nrel_associative_connection: by_place_of_residence;
+    => nrel_associative_connection: by_place_of_residence_of_citizen;
+    => nrel_associative_connection: by_place_of_residence_of_physical_person;
+    => nrel_associative_connection: by_points_of_registration_and_registration_of_persons_without_a_certain_residence;
+
+    => nrel_etalon_online_idx: [16646];;

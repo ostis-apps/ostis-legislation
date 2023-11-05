@@ -1,0 +1,29 @@
+
+by_repair_and_restoration_works_performed_on_material_historical_and_cultural_values
+    => nrel_main_idtf: [repair and restoration works performed on material historical and cultural values] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонтно-реставрационные работы, выполняемые на материальных историко-культурных ценностях] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонтна-рэстаўрацыйныя работы, якія выконваюцца на матэрыяльных гістарычна-культурных каштоўнасцях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repair_and_restoration_works_performed_on_material_historical_and_cultural_values_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_historical_and_cultural_value;
+    => nrel_associative_connection: by_material_historical_and_cultural_values;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_restoration;
+    => nrel_associative_connection: by_preservation_of_historic_and_cultural_values;
+
+    => nrel_etalon_online_idx: [41404];;

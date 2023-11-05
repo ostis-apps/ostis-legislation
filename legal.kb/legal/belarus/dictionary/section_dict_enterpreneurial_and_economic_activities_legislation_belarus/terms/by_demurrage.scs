@@ -1,0 +1,28 @@
+
+by_demurrage
+    => nrel_main_idtf: [demurrage] (* <- lang_en;; *);
+    => nrel_main_idtf: [демередж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [демередж] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_demurrage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_carrier;
+    => nrel_associative_connection: by_delay;
+
+    => nrel_etalon_online_idx: [7830];;

@@ -1,0 +1,17 @@
+
+by_working_speed
+    => nrel_main_idtf: [working speed] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочая скорость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочая хуткасць] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_cargo_speed;
+    => nrel_associative_connection: by_nominal_burden;
+    => nrel_associative_connection: by_limiting_condition;
+    => nrel_associative_connection: by_work_mode;
+    => nrel_associative_connection: by_digital_transmission_speed;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_operating_conditions;
+
+    => nrel_etalon_online_idx: [21930];;

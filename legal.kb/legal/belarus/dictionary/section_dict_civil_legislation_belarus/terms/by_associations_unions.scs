@@ -1,0 +1,28 @@
+
+by_associations_unions
+    => nrel_main_idtf: [associations (unions)] (* <- lang_en;; *);
+    => nrel_main_idtf: [ассоциации (союзы)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асацыяцыі (саюзы)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_associations_unions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_association_of_legal_entities;
+    => nrel_associative_connection: by_consumer_cooperative;
+    => nrel_associative_connection: by_subjects_of_management;
+    => nrel_associative_connection: by_federation_union_association_in_kind_s_of_sports;
+
+    => nrel_etalon_online_idx: [3803];;

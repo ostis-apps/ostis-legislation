@@ -1,0 +1,33 @@
+
+by_association_of_legal_entities
+    => nrel_main_idtf: [association of legal entities] (* <- lang_en;; *);
+    => nrel_main_idtf: [объединения юридических лиц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'яднанне юрыдычных асоб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_association_of_legal_entities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_associations_unions;
+    => nrel_associative_connection: by_state_association_concern_industrial_scientific_and_industrial_or_other_association;
+    => nrel_associative_connection: by_acquisition_date;
+    => nrel_associative_connection: by_collective_mark;
+    => nrel_associative_connection: by_employers_association;
+    => nrel_associative_connection: by_regulation_articles;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_subjects_of_civil_society;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [2955];;

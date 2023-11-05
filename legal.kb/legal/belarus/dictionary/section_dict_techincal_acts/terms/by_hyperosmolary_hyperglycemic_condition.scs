@@ -1,0 +1,31 @@
+
+by_hyperosmolary_hyperglycemic_condition
+    => nrel_main_idtf: [hyperosmolary hyperglycemic condition] (* <- lang_en;; *);
+    => nrel_main_idtf: [гиперосмолярное гипергликемическое состояние] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гіперасмалярны гіперглікемічны стан] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hyperosmolary_hyperglycemic_condition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_congenital_dysfunction_of_the_adrenal_cortex;
+    => nrel_associative_connection: by_gigantism;
+    => nrel_associative_connection: by_primary_hyperaldosteronism;
+    => nrel_associative_connection: by_hypopituitarism;
+    => nrel_associative_connection: by_insidentaloma;
+    => nrel_associative_connection: by_corticosteroma;
+    => nrel_associative_connection: by_obesity;
+
+    => nrel_etalon_online_idx: [33456];;

@@ -1,0 +1,29 @@
+
+by_by_video_display_terminal
+    => nrel_main_idtf: [by_video_display_terminal] (* <- lang_en;; *);
+    => nrel_main_idtf: [видеодисплейный терминал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [відэадысплейны тэрмінал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_video_display_terminal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_optical_electronic_computer;
+    => nrel_associative_connection: by_personal_electronic_computing_machine_pecm_personal_computer;
+    => nrel_associative_connection: by_personal_computer;
+    => nrel_associative_connection: by_digital_electronic_computer;
+    => nrel_associative_connection: by_electronic_computer_with_systolic_matrix;
+
+    => nrel_etalon_online_idx: [43879];;

@@ -1,0 +1,34 @@
+
+by_additional_review
+    => nrel_main_idtf: [additional review] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительная проверка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковая праверка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_review_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_counter_check;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_checking_the_technical_condition_and_structure_of_the_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods;
+    => nrel_associative_connection: by_joint_verification;
+    => nrel_associative_connection: by_vehicles_type_at;
+    => nrel_associative_connection: by_vehicles_type_fl;
+    => nrel_associative_connection: by_vehicles_type_memu;
+    => nrel_associative_connection: by_vehicles_type_ox;
+    => nrel_associative_connection: by_vehicles_types_exii_exiii;
+
+    => nrel_etalon_online_idx: [14414];;

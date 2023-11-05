@@ -1,0 +1,29 @@
+
+by_sex_germ_cell_donorship
+    => nrel_main_idtf: [sex (germ) cell donorship ] (* <- lang_en;; *);
+    => nrel_main_idtf: [донорство половых клеток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [донарства палавых клетак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sex_germ_cell_donorship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_donor;
+    => nrel_associative_connection: by_sex_germ_cell_donor;
+    => nrel_associative_connection: by_donor_operator;
+    => nrel_associative_connection: by_germ_cells;
+    => nrel_associative_connection: by_reproductive_rights;
+
+    => nrel_etalon_online_idx: [10102];;

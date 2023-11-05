@@ -1,0 +1,28 @@
+
+by_personal_data
+    => nrel_main_idtf: [personal data] (* <- lang_en;; *);
+    => nrel_main_idtf: [анкетные данные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкетныя даныя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_data_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_questionnaire_survey;
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_registration_of_insured_person;
+    => nrel_associative_connection: by_insurance;
+
+    => nrel_etalon_online_idx: [11765];;

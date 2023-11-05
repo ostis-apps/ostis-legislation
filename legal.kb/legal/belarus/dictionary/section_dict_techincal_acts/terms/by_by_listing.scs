@@ -1,0 +1,26 @@
+
+by_by_listing
+    => nrel_main_idtf: [by_listing] (* <- lang_en;; *);
+    => nrel_main_idtf: [котировка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каціроўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_listing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quarterly_stock_exchange_quotation;
+    => nrel_associative_connection: by_price_quotation;
+
+    => nrel_etalon_online_idx: [43490];;

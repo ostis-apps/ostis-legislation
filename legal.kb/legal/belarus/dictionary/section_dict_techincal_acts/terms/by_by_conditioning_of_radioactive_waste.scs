@@ -1,0 +1,27 @@
+
+by_by_conditioning_of_radioactive_waste
+    => nrel_main_idtf: [by_conditioning_of_radioactive_waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [кондиционирование радиоактивных отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кандыцыяніраванне радыеактыўных адходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_conditioning_of_radioactive_waste_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_deep_disposal_of_radioactive_waste;
+    => nrel_associative_connection: by_radioactive_waste_disposal;
+    => nrel_associative_connection: by_radioactive_waste_storage;
+
+    => nrel_etalon_online_idx: [43380];;

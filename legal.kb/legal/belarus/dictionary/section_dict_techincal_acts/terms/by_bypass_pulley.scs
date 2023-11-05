@@ -1,0 +1,28 @@
+
+by_bypass_pulley
+    => nrel_main_idtf: [bypass pulley ] (* <- lang_en;; *);
+    => nrel_main_idtf: [обводной шкив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абводны шкіў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bypass_pulley_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sending_pulley_block_roller;
+    => nrel_associative_connection: by_rolling_stock;
+    => nrel_associative_connection: by_drive_sheave;
+    => nrel_associative_connection: by_overflight;
+
+    => nrel_etalon_online_idx: [18363];;

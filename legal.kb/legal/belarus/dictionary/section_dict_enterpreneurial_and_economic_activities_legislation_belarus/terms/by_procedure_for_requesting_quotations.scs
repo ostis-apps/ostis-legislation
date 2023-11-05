@@ -1,0 +1,36 @@
+
+by_procedure_for_requesting_quotations
+    => nrel_main_idtf: [procedure for requesting quotations] (* <- lang_en;; *);
+    => nrel_main_idtf: [процедура запроса ценовых предложений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэдура запыту цэнавых прапаноў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_procedure_for_requesting_quotations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_procurement;
+    => nrel_associative_connection: by_state_information_and_analytical_system_of_public_procurement_management;
+    => nrel_associative_connection: by_state_procurements_of_goods_works_services;
+    => nrel_associative_connection: by_criteria_for_assessing_price_offer;
+    => nrel_associative_connection: by_estimated_cost_of_state_procurement;
+    => nrel_associative_connection: by_estimated_cost_of_procurement;
+    => nrel_associative_connection: by_subject_of_state_procurement;
+    => nrel_associative_connection: by_procedure;
+    => nrel_associative_connection: by_public_procurement_procedure;
+    => nrel_associative_connection: by_procurement_procedure;
+    => nrel_associative_connection: by_single_source_procurement_procedure;
+    => nrel_associative_connection: by_price_of_the_offer;
+
+    => nrel_etalon_online_idx: [21766];;

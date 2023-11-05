@@ -1,0 +1,28 @@
+
+by_fish_length
+    => nrel_main_idtf: [fish length] (* <- lang_en;; *);
+    => nrel_main_idtf: [длина рыбы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даўжыня рыбы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fish_length_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fish_species;
+    => nrel_associative_connection: by_wild_animals_being_objects_of_fishery;
+    => nrel_associative_connection: by_fish_catch;
+    => nrel_associative_connection: by_fishery;
+
+    => nrel_etalon_online_idx: [38180];;

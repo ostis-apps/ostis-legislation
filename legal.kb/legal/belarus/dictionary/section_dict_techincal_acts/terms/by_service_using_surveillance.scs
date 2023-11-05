@@ -1,0 +1,28 @@
+
+by_service_using_surveillance
+    => nrel_main_idtf: [service using surveillance] (* <- lang_en;; *);
+    => nrel_main_idtf: [обслуживание с использованием средств наблюдения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абслугоўванне з выкарыстаннем сродкаў назірання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_using_surveillance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_air_navigation_system;
+    => nrel_associative_connection: by_servicing_of_air_traffic;
+    => nrel_associative_connection: by_air_traffic_organization;
+    => nrel_associative_connection: by_security_management_system;
+
+    => nrel_etalon_online_idx: [33274];;

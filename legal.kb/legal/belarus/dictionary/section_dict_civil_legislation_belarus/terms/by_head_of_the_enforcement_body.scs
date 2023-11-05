@@ -1,0 +1,29 @@
+
+by_head_of_the_enforcement_body
+    => nrel_main_idtf: [head of the enforcement body] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель органа принудительного исполнения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік органа прымусовага выканання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_of_the_enforcement_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_resolution_of_the_court_executor;
+    => nrel_associative_connection: by_forced_execution_of_the_execution_document;
+    => nrel_associative_connection: by_service_of_bailiffs_of_economic_courts_in_the_republic_of_belarus;
+    => nrel_associative_connection: by_judicial_executors;
+    => nrel_associative_connection: by_officer_of_justice;
+
+    => nrel_etalon_online_idx: [22710];;

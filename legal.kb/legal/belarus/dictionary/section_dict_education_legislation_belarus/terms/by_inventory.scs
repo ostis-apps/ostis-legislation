@@ -1,0 +1,39 @@
+
+by_inventory
+    => nrel_main_idtf: [inventory] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвентаризация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвентарызацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inventory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_statement_of_technical_characteristics;
+    => nrel_associative_connection: by_geocode;
+    => nrel_associative_connection: by_defective_documents;
+    => nrel_associative_connection: by_worn_documents;
+    => nrel_associative_connection: by_inventory_of_forest_fund;
+    => nrel_associative_connection: by_waste_inventory;
+    => nrel_associative_connection: by_inventory_of_industrial_waste;
+    => nrel_associative_connection: by_inventory_of_greenhouse_gases;
+    => nrel_associative_connection: by_inventory_book;
+    => nrel_associative_connection: by_inventory_number;
+    => nrel_associative_connection: by_material_and_balance_report;
+    => nrel_associative_connection: by_separate_inventory_object;
+    => nrel_associative_connection: by_technical_inventarisation_of_real_estate;
+    => nrel_associative_connection: by_physical_inventory;
+
+    => nrel_etalon_online_idx: [2615];;

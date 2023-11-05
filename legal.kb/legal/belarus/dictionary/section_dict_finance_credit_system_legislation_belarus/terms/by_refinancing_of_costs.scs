@@ -1,0 +1,27 @@
+
+by_refinancing_of_costs
+    => nrel_main_idtf: [refinancing of costs] (* <- lang_en;; *);
+    => nrel_main_idtf: [рефинансирование затрат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэфінансаванне затрат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refinancing_of_costs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_overhead_cost;
+    => nrel_associative_connection: by_bank_refinancing;
+    => nrel_associative_connection: by_loan_refinancing;
+
+    => nrel_etalon_online_idx: [11230];;

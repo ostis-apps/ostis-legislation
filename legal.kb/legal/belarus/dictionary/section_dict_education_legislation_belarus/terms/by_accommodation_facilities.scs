@@ -1,0 +1,75 @@
+
+by_accommodation_facilities
+    => nrel_main_idtf: [accommodation facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [средство размещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродак размяшчэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accommodation_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accommodation_facilities_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accommodation_facilities_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accommodation_facilities_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hotel;
+    => nrel_associative_connection: by_hotel_industry;
+    => nrel_associative_connection: by_category_of_hotel_motel;
+    => nrel_associative_connection: by_small_means_of_accommodation;
+    => nrel_associative_connection: by_motel;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [24082];;

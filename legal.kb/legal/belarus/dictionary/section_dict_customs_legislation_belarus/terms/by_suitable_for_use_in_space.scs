@@ -1,0 +1,27 @@
+
+by_suitable_for_use_in_space
+    => nrel_main_idtf: [suitable for use in space] (* <- lang_en;; *);
+    => nrel_main_idtf: [пригодное для применения в космосе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыдатнае для прымянення у космасе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suitable_for_use_in_space_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerospace_means;
+    => nrel_associative_connection: by_space_devices_sd;
+    => nrel_associative_connection: by_nondestructive_control_method;
+
+    => nrel_etalon_online_idx: [21209];;

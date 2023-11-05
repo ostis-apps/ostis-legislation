@@ -1,0 +1,64 @@
+
+by_plant_protection_products
+    => nrel_main_idtf: [plant protection products] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства защиты растений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі абароны раслін] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_protection_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_protection_products_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_protection_products_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biological_efficacy_of_plant_protection_products;
+    => nrel_associative_connection: by_biological_efficiency_of_fertilizer;
+    => nrel_associative_connection: by_plant_protection;
+    => nrel_associative_connection: by_inventory_check_of_plant_protection_products;
+    => nrel_associative_connection: by_neutralization_of_plant_protection_products;
+    => nrel_associative_connection: by_treatment_of_plant_protection_products;
+    => nrel_associative_connection: by_preparation_type_of_a_plant_protection_product_fertilizer;
+    => nrel_associative_connection: by_permission_to_use_pesticide_or_agrochemical;
+    => nrel_associative_connection: by_owner_possessor_of_plant_protection_products;
+    => nrel_associative_connection: by_toxicological_and_hygienic_assessment_of_plant_protection_means;
+
+    => nrel_etalon_online_idx: [24016];;

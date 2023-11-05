@@ -1,0 +1,44 @@
+
+by_security_procedure
+    => nrel_main_idtf: [security procedure] (* <- lang_en;; *);
+    => nrel_main_idtf: [процедура безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэдура бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_procedure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_procedure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_total_amount_of_payers_unexecuted_monetary_obligations;
+    => nrel_associative_connection: by_fund_bodies;
+    => nrel_associative_connection: by_check_of_authenticity_of_electronic_document_email_message;
+    => nrel_associative_connection: by_procedure;
+
+    => nrel_etalon_online_idx: [21761];;

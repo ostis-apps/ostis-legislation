@@ -1,0 +1,43 @@
+
+by_green_bonds
+    => nrel_main_idtf: [green bonds] (* <- lang_en;; *);
+    => nrel_main_idtf: ["зеленые" облигации] (* <- lang_ru;; *);
+    => nrel_main_idtf: ["зялёныя" аблігацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_green_bonds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_green_industry;
+    => nrel_associative_connection: by_green_economy;
+    => nrel_associative_connection: by_green_construction;
+    => nrel_associative_connection: by_green_financing;
+    => nrel_associative_connection: by_green_investments;
+    => nrel_associative_connection: by_green_enterprises;
+    => nrel_associative_connection: by_green_workplaces;
+    => nrel_associative_connection: by_green_marketing;
+    => nrel_associative_connection: by_platforms_for_exchange_and_joint_consumption;
+    => nrel_associative_connection: by_extension_of_the_life_cycle_of_the_product;
+    => nrel_associative_connection: by_product_as_a_service;
+    => nrel_associative_connection: by_industrial_symbiosis;
+    => nrel_associative_connection: by_rating_of_environmental_development_of_the_regions;
+    => nrel_associative_connection: by_resourceefficient_production;
+    => nrel_associative_connection: by_sustainable_urban_mobility;
+    => nrel_associative_connection: by_sustainable_consumption_and_production;
+    => nrel_associative_connection: by_sustainable_financing_climate_or_responsible_financing;
+    => nrel_associative_connection: by_circular_business_models;
+    => nrel_associative_connection: by_circular_suppliers;
+
+    => nrel_etalon_online_idx: [39465];;

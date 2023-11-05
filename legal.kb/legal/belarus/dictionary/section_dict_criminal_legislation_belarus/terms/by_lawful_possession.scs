@@ -1,0 +1,25 @@
+
+by_lawful_possession
+    => nrel_main_idtf: [lawful possession] (* <- lang_en;; *);
+    => nrel_main_idtf: [законное владение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [законнае ўладанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lawful_possession_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_public_possession;
+
+    => nrel_etalon_online_idx: [3729];;

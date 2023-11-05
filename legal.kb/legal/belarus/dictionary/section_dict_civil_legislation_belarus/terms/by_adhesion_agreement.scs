@@ -1,0 +1,42 @@
+
+by_adhesion_agreement
+    => nrel_main_idtf: [adhesion agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор присоединения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор далучэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adhesion_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adhesion_agreement_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_adhesion_agreement_in_insurance_sphere;
+    => nrel_associative_connection: by_primary_joining_period;
+
+    => nrel_etalon_online_idx: [3685];;

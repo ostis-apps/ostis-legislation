@@ -1,0 +1,29 @@
+
+by_reserve_input
+    => nrel_main_idtf: [reserve input] (* <- lang_en;; *);
+    => nrel_main_idtf: [резервный ввод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзервовы ўвод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reserve_input_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_intersystem_interaction_belkartmir;
+    => nrel_associative_connection: by_software_complex_reserve_input;
+    => nrel_associative_connection: by_system_biss_belarus_interbank_settlement_system;
+    => nrel_associative_connection: by_electronic_payment_document;
+    => nrel_associative_connection: by_electronic_payment_document_electronic_order_for_payment_electronic_payment_request_electronic_payment_order;
+
+    => nrel_etalon_online_idx: [28129];;

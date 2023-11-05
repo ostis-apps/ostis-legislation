@@ -1,0 +1,47 @@
+
+by_air_and_space_craft
+    => nrel_main_idtf: [air and space craft] (* <- lang_en;; *);
+    => nrel_main_idtf: [летательный аппарат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лятальны апарат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_and_space_craft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gyroplane;
+    => nrel_associative_connection: by_automatic_target_tracking;
+    => nrel_associative_connection: by_active_flight_control_systems;
+    => nrel_associative_connection: by_aerodynamic_profiles_with_changed_geometry;
+    => nrel_associative_connection: by_balloon;
+    => nrel_associative_connection: by_airnode;
+    => nrel_associative_connection: by_aerial_photography;
+    => nrel_associative_connection: by_safe_height;
+    => nrel_associative_connection: by_unmanned_air_aircraft_ua;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_bunker_fuel;
+    => nrel_associative_connection: by_airship;
+    => nrel_associative_connection: by_seaplane;
+    => nrel_associative_connection: by_civil_aircraft;
+    => nrel_associative_connection: by_airship;
+    => nrel_associative_connection: by_air_and_space_craft_lighter_than_air;
+    => nrel_associative_connection: by_air_and_space_craft_asc;
+    => nrel_associative_connection: by_aircraft_heavier_than_air;
+    => nrel_associative_connection: by_airworthiness;
+    => nrel_associative_connection: by_motodeltaplane_deltalet;
+    => nrel_associative_connection: by_operator_of_drone_aircraft;
+    => nrel_associative_connection: by_glider;
+    => nrel_associative_connection: by_ultra_light_aircraft;
+
+    => nrel_etalon_online_idx: [16571];;

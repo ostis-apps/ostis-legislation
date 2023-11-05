@@ -1,0 +1,26 @@
+
+by_by_navigational_lock_chamber_lock_chamber
+    => nrel_main_idtf: [by_navigational_lock_chamber_lock_chamber] (* <- lang_en;; *);
+    => nrel_main_idtf: [камера судоходного шлюза (камера шлюза)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камера суднаходнага шлюза (камера шлюза)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_navigational_lock_chamber_lock_chamber_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_the_head_of_the_shipping_lock_the_head_of_the_lock;
+    => nrel_associative_connection: by_approach_channel_of_gateway;
+
+    => nrel_etalon_online_idx: [37098];;

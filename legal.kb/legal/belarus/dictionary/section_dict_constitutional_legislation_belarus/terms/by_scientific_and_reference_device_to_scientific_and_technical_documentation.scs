@@ -1,0 +1,31 @@
+
+by_scientific_and_reference_device_to_scientific_and_technical_documentation
+    => nrel_main_idtf: [scientific and reference device to scientific and technical documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [научно-справочный аппарат к научно-технической документации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукова-даведачны апарат да навукова-тэхнічнай дакументацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_and_reference_device_to_scientific_and_technical_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_scientific_and_reference_apparatus_of_the_archive;
+    => nrel_associative_connection: by_documented_scientific_and_technical_information;
+    => nrel_associative_connection: by_use_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_historical_and_archival_reference;
+    => nrel_associative_connection: by_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_storage_modes_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+
+    => nrel_etalon_online_idx: [17762];;

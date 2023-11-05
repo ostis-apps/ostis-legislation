@@ -1,0 +1,26 @@
+
+by_wine_storage_appliance
+    => nrel_main_idtf: [wine storage appliance] (* <- lang_en;; *);
+    => nrel_main_idtf: [винный шкаф (wine storage appliance)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вінная шафа (wine storage appliance):] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wine_storage_appliance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_builtin_appliance;
+    => nrel_associative_connection: by_multiuse_appliance;
+
+    => nrel_etalon_online_idx: [35583];;

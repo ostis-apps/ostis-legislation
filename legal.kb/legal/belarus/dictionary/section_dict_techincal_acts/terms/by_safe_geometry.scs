@@ -1,0 +1,31 @@
+
+by_safe_geometry
+    => nrel_main_idtf: [safe geometry] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасная геометрия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспечная геаметрыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safe_geometry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_placement_of_fresh_nuclear_fuel;
+    => nrel_associative_connection: by_complex_of_storage_and_transportation_systems_for_fresh_nuclear_fuel;
+    => nrel_associative_connection: by_disturbance_of_normal_exploitation;
+    => nrel_associative_connection: by_standard_of_storage_transportation_of_fresh_nuclear_fuel;
+    => nrel_associative_connection: by_normal_operation;
+    => nrel_associative_connection: by_limits_for_safe_operation;
+    => nrel_associative_connection: by_project_accident;
+
+    => nrel_etalon_online_idx: [38745];;

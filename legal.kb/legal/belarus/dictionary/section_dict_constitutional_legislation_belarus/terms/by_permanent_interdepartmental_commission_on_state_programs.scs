@@ -1,0 +1,27 @@
+
+by_permanent_interdepartmental_commission_on_state_programs
+    => nrel_main_idtf: [permanent interdepartmental commission on state programs] (* <- lang_en;; *);
+    => nrel_main_idtf: [постоянная межведомственная комиссия по государственным программам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастаянная міжведамасная камісія по дзяржаўных праграмах] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permanent_interdepartmental_commission_on_state_programs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_program;
+    => nrel_associative_connection: by_commission;
+    => nrel_associative_connection: by_interdepartmental_commission;
+
+    => nrel_etalon_online_idx: [11461];;

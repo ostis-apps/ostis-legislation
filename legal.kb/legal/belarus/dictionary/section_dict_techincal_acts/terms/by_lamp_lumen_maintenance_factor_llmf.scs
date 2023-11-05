@@ -1,0 +1,31 @@
+
+by_lamp_lumen_maintenance_factor_llmf
+    => nrel_main_idtf: [lamp lumen maintenance factor; llmf] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент стабильности (спада) светового потока лампы; llmf (lamp lumen maintenance factor; llmf):] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент стабільнасці (спаду) светлавога патоку лямпы; llmf (lamp lumen maintenance factor; llmf)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lamp_lumen_maintenance_factor_llmf_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lamp_start_time;
+    => nrel_associative_connection: by_lamp_warmup_time;
+    => nrel_associative_connection: by_second_lamp_envelope;
+    => nrel_associative_connection: by_second_lamp_envelope;
+    => nrel_associative_connection: by_lamp_survival_factor;
+    => nrel_associative_connection: by_power_factor;
+    => nrel_associative_connection: by_lamp_lumen_maintenance_factor;
+
+    => nrel_etalon_online_idx: [35134];;

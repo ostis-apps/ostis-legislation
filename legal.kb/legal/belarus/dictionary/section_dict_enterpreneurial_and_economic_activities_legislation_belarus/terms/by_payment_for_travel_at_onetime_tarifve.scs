@@ -1,0 +1,28 @@
+
+by_payment_for_travel_at_onetime_tarifve
+    => nrel_main_idtf: [payment for travel at one-time tarifve] (* <- lang_en;; *);
+    => nrel_main_idtf: [плата за проезд по разовому тарифу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плата за праезд па разавым тарыфе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_for_travel_at_onetime_tarifve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_passenger_fare;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_toll_road_user;
+
+    => nrel_etalon_online_idx: [33181];;

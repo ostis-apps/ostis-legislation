@@ -1,0 +1,63 @@
+
+by_pneumonia
+    => nrel_main_idtf: [pneumonia] (* <- lang_en;; *);
+    => nrel_main_idtf: [пневмония] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пнеўманія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumonia_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumonia_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pneumonia_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_coronavirus_infections;
+    => nrel_associative_connection: by_atresia_hoan;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_infectious_disease;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_artificial_lung_ventilation;
+    => nrel_associative_connection: by_source_of_infectious_diseases;
+    => nrel_associative_connection: by_acute_respiratory_distress_syndrome;
+    => nrel_associative_connection: by_heavy_flow_pneumonia;
+
+    => nrel_etalon_online_idx: [20269];;

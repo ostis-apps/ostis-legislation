@@ -1,0 +1,31 @@
+
+by_by_illegal_behavior_of_a_serviceman
+    => nrel_main_idtf: [by_illegal_behavior_of_a_serviceman] (* <- lang_en;; *);
+    => nrel_main_idtf: [противоправное поведение военнослужащего] (* <- lang_ru;; *);
+    => nrel_main_idtf: [проціпраўныя паводзіны ваеннаслужачага] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_illegal_behavior_of_a_serviceman_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_units;
+    => nrel_associative_connection: by_commanders_of_military_installations;
+    => nrel_associative_connection: by_custody_of_servicemen_held_under_arrest;
+    => nrel_associative_connection: by_illegal_behavior_of_a_person_of_ordinary_or_commanding_staff_of_the_investigative_committee;
+    => nrel_associative_connection: by_employee_misconduct;
+
+    => nrel_etalon_online_idx: [21701];;

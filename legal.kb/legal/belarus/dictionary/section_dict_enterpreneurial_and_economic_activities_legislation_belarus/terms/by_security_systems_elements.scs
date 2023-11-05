@@ -1,0 +1,38 @@
+
+by_security_systems_elements
+    => nrel_main_idtf: [security systems (elements)] (* <- lang_en;; *);
+    => nrel_main_idtf: [системы (элементы) безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэмы (элементы) бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_systems_elements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_emergency_protection_of_the_subcritical_stand;
+    => nrel_associative_connection: by_deterministic_safety_analysis;
+    => nrel_associative_connection: by_dependent_refusal;
+    => nrel_associative_connection: by_independent_systems_elements;
+    => nrel_associative_connection: by_undetected_failure;
+    => nrel_associative_connection: by_passive_system_element;
+    => nrel_associative_connection: by_design_limits;
+    => nrel_associative_connection: by_operating_limits;
+    => nrel_associative_connection: by_sparing_philosophy;
+    => nrel_associative_connection: by_protective_systems_elements_of_safety;
+    => nrel_associative_connection: by_localizing_systems_elements_of_safety;
+    => nrel_associative_connection: by_safety_systems_elements_providing;
+    => nrel_associative_connection: by_safety_control_systems_elements;
+    => nrel_associative_connection: by_systems_elements_important_to_safety;
+
+    => nrel_etalon_online_idx: [33329];;

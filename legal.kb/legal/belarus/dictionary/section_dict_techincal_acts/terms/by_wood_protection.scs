@@ -1,0 +1,61 @@
+
+by_wood_protection
+    => nrel_main_idtf: [wood protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [защита древесины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарона драўніны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_protection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_protection_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_moisture_content;
+    => nrel_associative_connection: by_hydrothermal_wood_treatment;
+    => nrel_associative_connection: by_wooden_building_product;
+    => nrel_associative_connection: by_wood;
+    => nrel_associative_connection: by_engineer;
+    => nrel_associative_connection: by_furniture_products_furniture;
+    => nrel_associative_connection: by_mechanical_processing_of_wood;
+
+    => nrel_etalon_online_idx: [33129];;

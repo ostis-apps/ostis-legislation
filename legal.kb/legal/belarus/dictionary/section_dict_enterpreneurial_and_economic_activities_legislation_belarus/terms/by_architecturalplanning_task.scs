@@ -1,0 +1,32 @@
+
+by_architecturalplanning_task
+    => nrel_main_idtf: [architectural-planning task] (* <- lang_en;; *);
+    => nrel_main_idtf: [архитектурно-планировочное задание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архітэктурна-планіровачнае заданне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_architecturalplanning_task_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architectural_project;
+    => nrel_associative_connection: by_declaration_of_intent;
+    => nrel_associative_connection: by_mixed_building_zones_publicresidential;
+    => nrel_associative_connection: by_development_regulation_lines;
+    => nrel_associative_connection: by_outdoor_advertising;
+    => nrel_associative_connection: by_unused_object;
+    => nrel_associative_connection: by_placement_diagram_of_the_construction_facility_charging_stations;
+    => nrel_associative_connection: by_specifications_for_engineering_and_technical_support_of_the_facility;
+
+    => nrel_etalon_online_idx: [31053];;

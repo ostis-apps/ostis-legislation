@@ -1,0 +1,30 @@
+
+by_individual_weight_of_the_respondent
+    => nrel_main_idtf: [individual weight of the respondent] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный вес респондента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальная вага рэспандэнта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_weight_of_the_respondent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_probability_sampling;
+    => nrel_associative_connection: by_household_sample;
+    => nrel_associative_connection: by_general_population_of_households;
+    => nrel_associative_connection: by_general_set_of_population;
+    => nrel_associative_connection: by_coding_respondents_answers;
+    => nrel_associative_connection: by_collective_household;
+
+    => nrel_etalon_online_idx: [31031];;

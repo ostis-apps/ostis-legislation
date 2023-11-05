@@ -1,0 +1,28 @@
+
+by_contributory_cost
+    => nrel_main_idtf: [contributory cost] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрибуционная стоимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрыбуцыйны кошт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contributory_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unit_of_account;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_market_property_cost;
+    => nrel_associative_connection: by_merchant_shipping;
+
+    => nrel_etalon_online_idx: [9290];;

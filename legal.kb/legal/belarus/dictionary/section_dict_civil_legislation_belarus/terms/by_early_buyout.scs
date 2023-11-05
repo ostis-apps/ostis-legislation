@@ -1,0 +1,37 @@
+
+by_early_buyout
+    => nrel_main_idtf: [early buyout] (* <- lang_en;; *);
+    => nrel_main_idtf: [досрочный выкуп  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [датэрміновы выкуп] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_early_buyout_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bondholder;
+    => nrel_associative_connection: by_time_of_filing_applications;
+    => nrel_associative_connection: by_counter_application_for_early_repurchase;
+    => nrel_associative_connection: by_buyout_of_bonds;
+    => nrel_associative_connection: by_early_repayment;
+    => nrel_associative_connection: by_application_for_early_buyingout;
+    => nrel_associative_connection: by_notice_for_early_buyingout;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_bond_circulation;
+    => nrel_associative_connection: by_bond_issuance_amount;
+    => nrel_associative_connection: by_redemption_of_bonds;
+    => nrel_associative_connection: by_circulation_term;
+    => nrel_associative_connection: by_authorized_representative_of_the_ministry_of_finance;
+
+    => nrel_etalon_online_idx: [29114];;

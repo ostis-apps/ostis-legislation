@@ -1,0 +1,46 @@
+
+by_budget_deficit
+    => nrel_main_idtf: [budget deficit] (* <- lang_en;; *);
+    => nrel_main_idtf: [дефицит бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэфіцыт бюджэту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_deficit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_deficit_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budget_classification_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_deficit_of_monetary_funds;
+    => nrel_associative_connection: by_budget_income;
+    => nrel_associative_connection: by_classification_of_financing__budget_deficit;
+    => nrel_associative_connection: by_budget_surplus;
+    => nrel_associative_connection: by_budget_expenses;
+
+    => nrel_etalon_online_idx: [2481];;

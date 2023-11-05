@@ -1,0 +1,30 @@
+
+by_maintenance_and_improvement_of_burial_places
+    => nrel_main_idtf: [maintenance and improvement of burial places] (* <- lang_en;; *);
+    => nrel_main_idtf: [содержание и благоустройство места погребения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [утрыманне і ўпарадкаванне месца пахавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintenance_and_improvement_of_burial_places_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_customer_of_ritual_services;
+    => nrel_associative_connection: by_person_taking_over_burial_organization;
+    => nrel_associative_connection: by_burial_ground;
+    => nrel_associative_connection: by_arrangement_of_military_burials_and_burials_of_war_victims;
+    => nrel_associative_connection: by_objects_of_external_improvement;
+    => nrel_associative_connection: by_funeral_business;
+
+    => nrel_etalon_online_idx: [11470];;

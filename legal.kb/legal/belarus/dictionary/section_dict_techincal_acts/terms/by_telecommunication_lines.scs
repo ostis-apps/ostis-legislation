@@ -1,0 +1,38 @@
+
+by_telecommunication_lines
+    => nrel_main_idtf: [telecommunication lines] (* <- lang_en;; *);
+    => nrel_main_idtf: [линии электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лініі электрасувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telecommunication_lines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_telecommunication_means_security;
+    => nrel_associative_connection: by_commissioning_of_fiber_optic_communication_lines;
+    => nrel_associative_connection: by_introductory_device;
+    => nrel_associative_connection: by_railway_telecommunication;
+    => nrel_associative_connection: by_telecommunication_network_control;
+    => nrel_associative_connection: by_telecommunication_line;
+    => nrel_associative_connection: by_trunk_engineering_telecommunication_infrastructure;
+    => nrel_associative_connection: by_national_control_center_of_the_republican_unitary_telecommunication_enterprise_beltelecom;
+    => nrel_associative_connection: by_accession_to_the_telecommunications_network_of_public_use_on_interurban_level;
+    => nrel_associative_connection: by_accession_to_the_telecommunications_network_of_public_use_on_international_level;
+    => nrel_associative_connection: by_accession_to_the_telecommunications_network_of_public_use_at_the_level_of_local_telecommunications;
+    => nrel_associative_connection: by_radio_communication;
+    => nrel_associative_connection: by_telecommunication_distribution_engineering_infrastructure;
+    => nrel_associative_connection: by_repair_service;
+
+    => nrel_etalon_online_idx: [16631];;

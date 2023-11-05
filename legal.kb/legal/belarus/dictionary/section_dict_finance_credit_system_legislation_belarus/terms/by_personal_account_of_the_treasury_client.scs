@@ -1,0 +1,29 @@
+
+by_personal_account_of_the_treasury_client
+    => nrel_main_idtf: [personal account of the treasury client] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицевой счет клиента казначейства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабовы рахунак кліента казначэйства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_account_of_the_treasury_client_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unified_treasury_account;
+    => nrel_associative_connection: by_treasury_client;
+    => nrel_associative_connection: by_division_personal_account;
+    => nrel_associative_connection: by_separate_personal_accounts;
+    => nrel_associative_connection: by_treasury_client_payer_account;
+
+    => nrel_etalon_online_idx: [16690];;

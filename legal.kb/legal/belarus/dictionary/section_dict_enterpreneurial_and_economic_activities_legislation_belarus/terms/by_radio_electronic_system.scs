@@ -1,0 +1,43 @@
+
+by_radio_electronic_system
+    => nrel_main_idtf: [radio electronic system] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиоэлектронная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыёэлектронная сістэма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radio_electronic_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radio_electronic_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_decentralized_radio_electronic_complex;
+    => nrel_associative_connection: by_educational_standard;
+    => nrel_associative_connection: by_centralized_radioelectronic_complex;
+
+    => nrel_etalon_online_idx: [38326];;

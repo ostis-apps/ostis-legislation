@@ -1,0 +1,32 @@
+
+by_by_installment_payment_under_the_loan_agreement
+    => nrel_main_idtf: [by_installment_payment_under_the_loan_agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [рассрочка платежа по кредитному договору] (* <- lang_ru;; *);
+    => nrel_main_idtf: [растэрміноўка выплаты па крэдытным дагаворы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_installment_payment_under_the_loan_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_credit_indebtedness;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credit_contract;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_lending_to_individuals_on_installment_terms;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_credit_contract_payment;
+
+    => nrel_etalon_online_idx: [28266];;

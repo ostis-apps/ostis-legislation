@@ -1,0 +1,32 @@
+
+by_intrastate_bank_transfer
+    => nrel_main_idtf: [intra-state bank transfer] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутригосударственный банковский перевод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутрыдзяржаўны банкаўскі перавод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intrastate_bank_transfer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_bank_transaction;
+    => nrel_associative_connection: by_sending_bank;
+    => nrel_associative_connection: by_sending_bank_payer_bank;
+    => nrel_associative_connection: by_receiving_bank;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_interbank_transfer;
+
+    => nrel_etalon_online_idx: [41230];;

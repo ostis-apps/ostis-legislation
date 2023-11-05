@@ -1,0 +1,17 @@
+
+by_nominal_burden
+    => nrel_main_idtf: [nominal burden] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная нагрузка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная нагрузка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_nominal_load_capacity;
+    => nrel_associative_connection: by_nominal_speed;
+    => nrel_associative_connection: by_working_speed;
+    => nrel_associative_connection: by_work_mode;
+
+    => nrel_etalon_online_idx: [11986];;

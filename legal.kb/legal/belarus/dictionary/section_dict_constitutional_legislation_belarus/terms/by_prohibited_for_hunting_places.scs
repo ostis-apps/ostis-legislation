@@ -1,0 +1,34 @@
+
+by_prohibited_for_hunting_places
+    => nrel_main_idtf: [prohibited for hunting places] (* <- lang_en;; *);
+    => nrel_main_idtf: [запрещенные для охоты места] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забароненыя для палявання месца] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prohibited_for_hunting_places_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_extraction_of_hunting_animals;
+    => nrel_associative_connection: by_prohibited_place_for_hunting;
+    => nrel_associative_connection: by_use_of_mechanical_ground_water_or_air_vehicles_in_illegal_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunter;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_hunting_lands;
+    => nrel_associative_connection: by_user_of_hunting_lands;
+    => nrel_associative_connection: by_hunting_methods;
+
+    => nrel_etalon_online_idx: [14871];;

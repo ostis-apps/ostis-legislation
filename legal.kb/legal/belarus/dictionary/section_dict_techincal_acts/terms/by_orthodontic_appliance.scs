@@ -1,0 +1,27 @@
+
+by_orthodontic_appliance
+    => nrel_main_idtf: [orthodontic appliance] (* <- lang_en;; *);
+    => nrel_main_idtf: [ортодонтический аппарат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [артадантычны апарат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_orthodontic_appliance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dentistorthodontist;
+    => nrel_associative_connection: by_dentoalveolar_anomalies;
+    => nrel_associative_connection: by_orthopantomogram;
+
+    => nrel_etalon_online_idx: [36667];;

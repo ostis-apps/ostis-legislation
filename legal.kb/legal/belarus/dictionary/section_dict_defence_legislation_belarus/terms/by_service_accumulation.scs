@@ -1,0 +1,63 @@
+
+by_service_accumulation
+    => nrel_main_idtf: [service accumulation] (* <- lang_en;; *);
+    => nrel_main_idtf: [наработка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [напрацоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_accumulation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_accumulation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_accumulation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reliability;
+    => nrel_associative_connection: by_wagonkilometer;
+    => nrel_associative_connection: by_refinement;
+    => nrel_associative_connection: by_locomotivehour;
+    => nrel_associative_connection: by_machinehour;
+    => nrel_associative_connection: by_axiskillometer;
+    => nrel_associative_connection: by_trainkilometre;
+    => nrel_associative_connection: by_resource_consumption;
+    => nrel_associative_connection: by_tonkilometer;
+
+    => nrel_etalon_online_idx: [17696];;

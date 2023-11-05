@@ -1,0 +1,26 @@
+
+by_by_lower_heat_value_of_gas_fuel
+    => nrel_main_idtf: [by_lower_heat_value_of_gas_fuel] (* <- lang_en;; *);
+    => nrel_main_idtf: [низшая теплотворная способность топлива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ніжэйшая цеплатворная здольнасць паліва] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_lower_heat_value_of_gas_fuel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unit_of_conditional_fuel;
+    => nrel_associative_connection: by_fuel_conversion_factor_to_tons_of_conditional_fuel;
+
+    => nrel_etalon_online_idx: [39869];;

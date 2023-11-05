@@ -1,0 +1,57 @@
+
+by_radiofrequency
+    => nrel_main_idtf: [radiofrequency ] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиочастота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыёчастата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiofrequency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiofrequency_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outofband_emissions;
+    => nrel_associative_connection: by_range_of_radio_frequencies;
+    => nrel_associative_connection: by_officials_of_the_flight_control_body;
+    => nrel_associative_connection: by_radio_frequency_assignment_statement;
+    => nrel_associative_connection: by_usage;
+    => nrel_associative_connection: by_conversion_of_radio_spectrum;
+    => nrel_associative_connection: by_provision_of_operational_readiness_of_radio_spectrum;
+    => nrel_associative_connection: by_flights_management_body;
+    => nrel_associative_connection: by_basic_radio_frequency;
+    => nrel_associative_connection: by_users_of_property_that_can_create_radio_interference;
+    => nrel_associative_connection: by_radio_frequency_spectrum_user;
+    => nrel_associative_connection: by_radio_interference;
+    => nrel_associative_connection: by_radiofrequency;
+    => nrel_associative_connection: by_radio_frequency_services;
+    => nrel_associative_connection: by_radio_spectrum;
+    => nrel_associative_connection: by_rf_band_distribution;
+    => nrel_associative_connection: by_frequency_synthesizer;
+    => nrel_associative_connection: by_special_user_of_radio_frequency_spectrum;
+
+    => nrel_etalon_online_idx: [10895];;

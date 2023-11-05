@@ -1,0 +1,30 @@
+
+by_urban_development_project_of_detailed_planning_detail_plan
+    => nrel_main_idtf: [urban development project of detailed planning (detail plan)] (* <- lang_en;; *);
+    => nrel_main_idtf: [градостроительный проект детального планирования (детальный план)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [горадабудаўнічы праект дэталёвага планавання (дэталёвы план)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_development_project_of_detailed_planning_detail_plan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_master_plan_of_the_settlement_general_plan;
+    => nrel_associative_connection: by_urban_development_project_urban_development_documentation;
+    => nrel_associative_connection: by_substantiation_part_of_the_urban_planning_project;
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_planning_limitations;
+    => nrel_associative_connection: by_planning_area;
+
+    => nrel_etalon_online_idx: [37140];;

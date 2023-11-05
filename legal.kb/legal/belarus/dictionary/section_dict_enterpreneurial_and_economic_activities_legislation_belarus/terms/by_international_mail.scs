@@ -1,0 +1,68 @@
+
+by_international_mail
+    => nrel_main_idtf: [international mail] (* <- lang_en;; *);
+    => nrel_main_idtf: [международные почтовые отправления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародныя паштовыя адпраўленні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_mail_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_mail_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_mail_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interior_mails;
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_bulky_mails;
+    => nrel_associative_connection: by_international_bulky_package;
+    => nrel_associative_connection: by_international_postal_communication;
+    => nrel_associative_connection: by_senders;
+    => nrel_associative_connection: by_sender;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_postal_route;
+    => nrel_associative_connection: by_registered_postal_item;
+    => nrel_associative_connection: by_registered_postal_items;
+    => nrel_associative_connection: by_secogram;
+    => nrel_associative_connection: by_system_of_automated_postal_items_sorting;
+
+    => nrel_etalon_online_idx: [4599];;

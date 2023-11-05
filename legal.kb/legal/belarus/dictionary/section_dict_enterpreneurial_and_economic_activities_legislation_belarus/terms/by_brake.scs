@@ -1,0 +1,28 @@
+
+by_brake
+    => nrel_main_idtf: [brake] (* <- lang_en;; *);
+    => nrel_main_idtf: [тормоз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тормаз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_brake_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_descent_braking_devices;
+    => nrel_associative_connection: by_service_braking;
+    => nrel_associative_connection: by_brake_shoe;
+    => nrel_associative_connection: by_braking_distance;
+
+    => nrel_etalon_online_idx: [25097];;

@@ -1,0 +1,30 @@
+
+by_print_of_the_marking_franching_machine
+    => nrel_main_idtf: [print of the marking (franching) machine] (* <- lang_en;; *);
+    => nrel_main_idtf: [оттиск маркировальной (франкировальной) машины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адбітак маркіравальнай (франкіравальнай) машыны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_print_of_the_marking_franching_machine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_marks_of_postal_payments;
+    => nrel_associative_connection: by_envelopes_with_other_signs_of_post_payment;
+    => nrel_associative_connection: by_marking_franking_machine;
+    => nrel_associative_connection: by_written_correspondence_items;
+    => nrel_associative_connection: by_postage_stamp;
+
+    => nrel_etalon_online_idx: [19605];;

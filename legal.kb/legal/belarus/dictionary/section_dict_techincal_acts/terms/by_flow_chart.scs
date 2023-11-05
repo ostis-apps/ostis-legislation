@@ -1,0 +1,27 @@
+
+by_flow_chart
+    => nrel_main_idtf: [flow chart] (* <- lang_en;; *);
+    => nrel_main_idtf: [блок-схема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блок-схема] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flow_chart_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hardware;
+    => nrel_associative_connection: by_data_protection;
+    => nrel_associative_connection: by_information_processing;
+
+    => nrel_etalon_online_idx: [31833];;

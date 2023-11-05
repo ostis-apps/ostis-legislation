@@ -1,0 +1,32 @@
+
+by_means_for_calculation_of_electric_energy_power
+    => nrel_main_idtf: [means for calculation of electric energy (power)] (* <- lang_en;; *);
+    => nrel_main_idtf: [средство расчетного учета электрической энергии (мощности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродак разліковага ўліку электрычнай энергіі (магутнасці)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_for_calculation_of_electric_energy_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_unaccounted_consumption_of_electrical_energy_power;
+    => nrel_associative_connection: by_interference_in_the_operation_of_the_means_of_calculating_accounting_of_electrical_energy_capacity;
+    => nrel_associative_connection: by_unified_operational_dispatch_control_in_the_electric_power_industry;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy_capacity;
+    => nrel_associative_connection: by_tool_for_group_calculation_of_electric_energy_power;
+    => nrel_associative_connection: by_group_metering_tool_for_electric_energy;
+    => nrel_associative_connection: by_electric_energy_power_counter_with_splitted_architecture;
+    => nrel_associative_connection: by_electric_energy_active;
+
+    => nrel_etalon_online_idx: [35012];;

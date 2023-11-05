@@ -1,0 +1,31 @@
+
+by_cash_service_for_budget_execution
+    => nrel_main_idtf: [cash service for budget execution] (* <- lang_en;; *);
+    => nrel_main_idtf: [кассовое обслуживание исполнения бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [касавае абслугоўванне выканання бюджэту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cash_service_for_budget_execution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budgetary_process;
+    => nrel_associative_connection: by_temporary_cash_gap;
+    => nrel_associative_connection: by_unified_treasury_account;
+    => nrel_associative_connection: by_cash_operations;
+    => nrel_associative_connection: by_cash_charges;
+    => nrel_associative_connection: by_cash_budget_expenses;
+
+    => nrel_etalon_online_idx: [15793];;

@@ -1,0 +1,28 @@
+
+by_painful_manifestations
+    => nrel_main_idtf: [painful manifestations] (* <- lang_en;; *);
+    => nrel_main_idtf: [болезненные проявления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хваравітыя выяўленні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_painful_manifestations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_mental_disorder_disease;
+    => nrel_associative_connection: by_persistent_painful_manifestations;
+    => nrel_associative_connection: by_severe_painful_manifestations;
+    => nrel_associative_connection: by_frequently_exacerbated_painful_manifestations;
+
+    => nrel_etalon_online_idx: [41061];;

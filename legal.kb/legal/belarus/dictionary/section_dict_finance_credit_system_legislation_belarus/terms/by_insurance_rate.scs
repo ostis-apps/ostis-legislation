@@ -1,0 +1,74 @@
+
+by_insurance_rate
+    => nrel_main_idtf: [insurance rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховой тариф] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавы тарыф] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_rate_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_rate_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_rate_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_insurance_tariff_index;
+    => nrel_associative_connection: by_payer_of_state_social_insurance_contributions;
+    => nrel_associative_connection: by_the_amount_of_monthly_remuneration_to_the_insurance_agent;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_contribution_insurance_premium;
+
+    => nrel_etalon_online_idx: [6968];;

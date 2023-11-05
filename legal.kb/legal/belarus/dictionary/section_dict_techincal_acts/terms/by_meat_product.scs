@@ -1,0 +1,47 @@
+
+by_meat_product
+    => nrel_main_idtf: [meat product] (* <- lang_en;; *);
+    => nrel_main_idtf: [мясной продукт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясны прадукт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meat_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meat_product_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_products_processes_of_its_development_production_operation_use_storage_transportation_realization_and_disposal_or_providing_services;
+    => nrel_associative_connection: by_meat_products;
+    => nrel_associative_connection: by_meat_ingredient;
+    => nrel_associative_connection: by_meat_semifinished_product;
+    => nrel_associative_connection: by_meat;
+    => nrel_associative_connection: by_poultry_meat;
+    => nrel_associative_connection: by_meat_processing_organization;
+    => nrel_associative_connection: by_party_of_animals;
+
+    => nrel_etalon_online_idx: [31587];;

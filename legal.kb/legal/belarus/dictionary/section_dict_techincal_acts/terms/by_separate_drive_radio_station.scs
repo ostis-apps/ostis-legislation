@@ -1,0 +1,27 @@
+
+by_separate_drive_radio_station
+    => nrel_main_idtf: [separate drive radio station] (* <- lang_en;; *);
+    => nrel_main_idtf: [отдельная приводная радиостанция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобная прывадная радыёстанцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_separate_drive_radio_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_approach_in_circle;
+    => nrel_associative_connection: by_instrument_approach;
+    => nrel_associative_connection: by_strip_of_air_approaches;
+
+    => nrel_etalon_online_idx: [41090];;

@@ -1,0 +1,29 @@
+
+by_turnover_of_precursors
+    => nrel_main_idtf: [turnover of precursors] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборот прекурсоров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот прэкурсораў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_turnover_of_precursors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_use_of_narcotic_drugs_psychotropic_substances_their_precursors_analogues;
+    => nrel_associative_connection: by_turnover;
+    => nrel_associative_connection: by_carriage_of_narcotic_drugs_psychotropic_substances_their_precursors_analogues;
+    => nrel_associative_connection: by_precursor;
+    => nrel_associative_connection: by_precursors_of_narcotic_drugs_psychotropic_substances;
+
+    => nrel_etalon_online_idx: [10482];;

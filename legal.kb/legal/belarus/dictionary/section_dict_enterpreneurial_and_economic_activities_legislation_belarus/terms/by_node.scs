@@ -1,0 +1,46 @@
+
+by_node
+    => nrel_main_idtf: [node] (* <- lang_en;; *);
+    => nrel_main_idtf: [узел] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вузел] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_node_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_node_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auxiliary_rope_repchnur;
+    => nrel_associative_connection: by_the_hydraulic_system;
+    => nrel_associative_connection: by_instrumental_fault_defection_of_aggregates_knots_and_details;
+    => nrel_associative_connection: by_cash_register;
+    => nrel_associative_connection: by_loops;
+    => nrel_associative_connection: by_repshnur;
+    => nrel_associative_connection: by_basement;
+
+    => nrel_etalon_online_idx: [25425];;

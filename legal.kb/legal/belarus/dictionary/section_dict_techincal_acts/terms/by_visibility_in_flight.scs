@@ -1,0 +1,30 @@
+
+by_visibility_in_flight
+    => nrel_main_idtf: [visibility in flight] (* <- lang_en;; *);
+    => nrel_main_idtf: [видимость полетная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бачнасць палётная] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visibility_in_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_visibility;
+    => nrel_associative_connection: by_visibility_vertical;
+    => nrel_associative_connection: by_visibility_meteorological;
+    => nrel_associative_connection: by_runway_visibility_runway_visibility_range;
+    => nrel_associative_connection: by_visibility_landing;
+    => nrel_associative_connection: by_limited_visibility;
+
+    => nrel_etalon_online_idx: [42047];;

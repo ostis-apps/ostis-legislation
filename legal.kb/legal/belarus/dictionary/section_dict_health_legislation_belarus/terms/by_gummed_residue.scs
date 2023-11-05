@@ -1,0 +1,28 @@
+
+by_gummed_residue
+    => nrel_main_idtf: [gummed residue] (* <- lang_en;; *);
+    => nrel_main_idtf: [гуммированный остаток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гуміраваная рэшта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gummed_residue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_microorganisms;
+
+    => nrel_etalon_online_idx: [40658];;

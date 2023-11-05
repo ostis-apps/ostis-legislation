@@ -1,0 +1,29 @@
+
+by_by_nomenclature_of_resources
+    => nrel_main_idtf: [by_nomenclature_of_resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [номенклатура ресурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наменклатура рэсурсаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_nomenclature_of_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_similar_material_for_construction;
+    => nrel_associative_connection: by_identical_material_for_construction;
+    => nrel_associative_connection: by_information_and_reference_system_for_monitoring_prices_for_materials_for_the_construction_of_the_state_information_system_gosstroyportal;
+    => nrel_associative_connection: by_catalogclassifier_of_materials_for_construction;
+    => nrel_associative_connection: by_materials_for_construction;
+
+    => nrel_etalon_online_idx: [42489];;

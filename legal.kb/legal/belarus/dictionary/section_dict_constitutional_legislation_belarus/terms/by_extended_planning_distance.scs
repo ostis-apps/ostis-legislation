@@ -1,0 +1,32 @@
+
+by_extended_planning_distance
+    => nrel_main_idtf: [extended planning distance] (* <- lang_en;; *);
+    => nrel_main_idtf: [расстояние (радиус зоны) расширенного планирования (extended planning distance)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адлегласць (радыус зоны) пашыранага планавання (extended planning distance)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_extended_planning_distance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_accident_situation;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_long_term_protective_measure;
+    => nrel_associative_connection: by_urgent_protective_action_planning_zone;
+    => nrel_associative_connection: by_precautionary_action_zone;
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_dose_received;
+    => nrel_associative_connection: by_ingestion_and_commodities_planning_distance;
+
+    => nrel_etalon_online_idx: [28241];;

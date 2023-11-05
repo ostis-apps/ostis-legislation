@@ -1,0 +1,28 @@
+
+by_safe_country
+    => nrel_main_idtf: [safe country] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасная страна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспечная краіна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safe_country_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_place_of_temporary_settlement;
+    => nrel_associative_connection: by_temporary_settlement_station;
+    => nrel_associative_connection: by_third_safe_country;
+
+    => nrel_etalon_online_idx: [8374];;

@@ -1,0 +1,27 @@
+
+by_balance_of_prepayment_means
+    => nrel_main_idtf: [balance of prepayment means] (* <- lang_en;; *);
+    => nrel_main_idtf: [остаток средств предоплаты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэшта сродкаў перадаплаты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_of_prepayment_means_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_extra_payment;
+    => nrel_associative_connection: by_balances;
+    => nrel_associative_connection: by_prepayment;
+
+    => nrel_etalon_online_idx: [19440];;

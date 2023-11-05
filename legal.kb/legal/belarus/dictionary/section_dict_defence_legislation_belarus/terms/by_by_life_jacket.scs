@@ -1,0 +1,28 @@
+
+by_by_life_jacket
+    => nrel_main_idtf: [by_life_jacket] (* <- lang_en;; *);
+    => nrel_main_idtf: [спасательный жилет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выратавальная камізэлька] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_life_jacket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rescue_area;
+    => nrel_associative_connection: by_a_person_in_distress_on_the_water;
+    => nrel_associative_connection: by_rescue_on_the_water;
+    => nrel_associative_connection: by_life_saving;
+
+    => nrel_etalon_online_idx: [43097];;

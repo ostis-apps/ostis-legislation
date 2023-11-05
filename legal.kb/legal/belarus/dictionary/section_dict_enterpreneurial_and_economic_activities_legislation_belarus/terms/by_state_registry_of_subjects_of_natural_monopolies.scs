@@ -1,0 +1,32 @@
+
+by_state_registry_of_subjects_of_natural_monopolies
+    => nrel_main_idtf: [state registry of subjects of natural monopolies] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный реестр субъектов естественных монополий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны рэестр суб'ектаў натуральных манаполій] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registry_of_subjects_of_natural_monopolies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_natural_monopoly;
+    => nrel_associative_connection: by_competition;
+    => nrel_associative_connection: by_restriction_of_competition;
+    => nrel_associative_connection: by_organisations__monopolies;
+    => nrel_associative_connection: by_registry;
+    => nrel_associative_connection: by_head_of_natural_monopoly_subject;
+    => nrel_associative_connection: by_subject_of_natural_monopoly;
+
+    => nrel_etalon_online_idx: [8765];;

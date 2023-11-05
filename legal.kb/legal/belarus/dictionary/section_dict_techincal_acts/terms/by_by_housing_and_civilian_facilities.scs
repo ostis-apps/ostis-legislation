@@ -1,0 +1,26 @@
+
+by_by_housing_and_civilian_facilities
+    => nrel_main_idtf: [by_housing_and_civilian_facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты жилищного и гражданского назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты жыллёвага і грамадзянскага прызначэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_housing_and_civilian_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_modernization_of_buildings_structures_utilities_and_transport_communications_modernization;
+    => nrel_associative_connection: by_2_objects_of_industrial_purpose;
+
+    => nrel_etalon_online_idx: [44028];;

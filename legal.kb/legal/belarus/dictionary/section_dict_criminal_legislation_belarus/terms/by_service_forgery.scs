@@ -1,0 +1,26 @@
+
+by_service_forgery
+    => nrel_main_idtf: [service forgery] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебный подлог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовы падлог] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_forgery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_deliberately_false_facts;
+
+    => nrel_etalon_online_idx: [1901];;

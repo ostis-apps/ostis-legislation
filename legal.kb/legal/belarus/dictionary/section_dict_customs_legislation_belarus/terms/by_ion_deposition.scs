@@ -1,0 +1,30 @@
+
+by_ion_deposition
+    => nrel_main_idtf: [ion deposition] (* <- lang_en;; *);
+    => nrel_main_idtf: [ионное осаждение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іоннае асаджэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ion_deposition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ion_implantation;
+    => nrel_associative_connection: by_spray_precipitation;
+    => nrel_associative_connection: by_plasma_spraying;
+    => nrel_associative_connection: by_titanium_alloys;
+    => nrel_associative_connection: by_physical_vapour_deposition_obtained_by_heating;
+    => nrel_associative_connection: by_chemical_vapor_deposition_cvd;
+
+    => nrel_etalon_online_idx: [15532];;

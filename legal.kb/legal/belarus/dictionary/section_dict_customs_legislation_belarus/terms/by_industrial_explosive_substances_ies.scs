@@ -1,0 +1,51 @@
+
+by_industrial_explosive_substances_ies
+    => nrel_main_idtf: [industrial explosive substances (ies)] (* <- lang_en;; *);
+    => nrel_main_idtf: [промышленные взрывчатые вещества (пвв)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловыя выбуховыя рэчывы (пвр)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_explosive_substances_ies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_explosive_substances_ies_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_explosive_substance_es;
+    => nrel_associative_connection: by_explosive_substances;
+    => nrel_associative_connection: by_manufacturing_of_industrial_explosives;
+    => nrel_associative_connection: by_product_containing_explosives;
+    => nrel_associative_connection: by_individual_explosive;
+    => nrel_associative_connection: by_use_of_explosive_substances_and_products_containing_them;
+    => nrel_associative_connection: by_condensed_explosive;
+    => nrel_associative_connection: by_use_of_explosives_and_items_containing_them;
+    => nrel_associative_connection: by_blasting_operations;
+    => nrel_associative_connection: by_manufacture_explosives;
+    => nrel_associative_connection: by_industrial_explosives_warehouse;
+    => nrel_associative_connection: by_loss_of_industrial_explosives;
+
+    => nrel_etalon_online_idx: [21650];;

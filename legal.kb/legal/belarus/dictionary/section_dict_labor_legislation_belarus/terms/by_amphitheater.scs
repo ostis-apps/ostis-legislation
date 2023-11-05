@@ -1,0 +1,29 @@
+
+by_amphitheater
+    => nrel_main_idtf: [amphitheater] (* <- lang_en;; *);
+    => nrel_main_idtf: [амфитеатр ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [амфітэатр] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_amphitheater_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dress_circle;
+    => nrel_associative_connection: by_gallery;
+    => nrel_associative_connection: by_lodge_in_the_auditorium;
+    => nrel_associative_connection: by_new_theater_perfomance_concert_program_circus_perfomance;
+    => nrel_associative_connection: by_ramp;
+
+    => nrel_etalon_online_idx: [5256];;

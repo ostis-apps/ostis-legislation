@@ -1,0 +1,62 @@
+
+by_land_monitoring
+    => nrel_main_idtf: [land monitoring] (* <- lang_en;; *);
+    => nrel_main_idtf: [мониторинг земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маніторынг зямель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_monitoring_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_monitoring_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_monitoring_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_database_of_land_plots_with_established_boundaries;
+    => nrel_associative_connection: by_state_control_over_land_use_and_protection;
+    => nrel_associative_connection: by_land_resources;
+    => nrel_associative_connection: by_information_resource_of_land_monitoring;
+    => nrel_associative_connection: by_monitoring;
+    => nrel_associative_connection: by_environmental_monitoring;
+    => nrel_associative_connection: by_land_monitoring_observation_point_passport;
+    => nrel_associative_connection: by_observation_point_of_the_national_environmental_monitoring_system_in_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [6211];;

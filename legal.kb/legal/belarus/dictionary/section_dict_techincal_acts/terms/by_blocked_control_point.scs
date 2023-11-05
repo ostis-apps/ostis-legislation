@@ -1,0 +1,29 @@
+
+by_blocked_control_point
+    => nrel_main_idtf: [blocked control point] (* <- lang_en;; *);
+    => nrel_main_idtf: [блочный пункт управления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блокавы пункт кіравання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocked_control_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automatization;
+    => nrel_associative_connection: by_automatic_control;
+    => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_command_centre;
+    => nrel_associative_connection: by_control_points;
+
+    => nrel_etalon_online_idx: [8079];;

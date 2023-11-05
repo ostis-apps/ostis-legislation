@@ -1,0 +1,65 @@
+
+by_compensation_payments
+    => nrel_main_idtf: [compensation payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [компенсационные выплаты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампенсацыйныя выплаты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensation_payments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensation_payments_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensation_payments_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_environmental_impact;
+    => nrel_associative_connection: by_harmful;
+    => nrel_associative_connection: by_all_available_payments;
+    => nrel_associative_connection: by_compensations;
+    => nrel_associative_connection: by_compensation_payments_of_the_value_of_plant_world_objects_being_withdrawn;
+    => nrel_associative_connection: by_compensation_measures;
+    => nrel_associative_connection: by_countervailing_measures;
+    => nrel_associative_connection: by_compensatory_planting;
+    => nrel_associative_connection: by_compensatory_payments;
+    => nrel_associative_connection: by_duration_of_harmful_effects;
+    => nrel_associative_connection: by_insurance_payout;
+
+    => nrel_etalon_online_idx: [9437];;

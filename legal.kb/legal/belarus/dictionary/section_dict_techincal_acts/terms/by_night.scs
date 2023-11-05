@@ -1,0 +1,45 @@
+
+by_night
+    => nrel_main_idtf: [night] (* <- lang_en;; *);
+    => nrel_main_idtf: [ночь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ноч] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dispatcher_of_air_traffic_management;
+    => nrel_associative_connection: by_night_day_flight_time;
+    => nrel_associative_connection: by_night;
+    => nrel_associative_connection: by_flying_without_the_help_of_a_night_vision_imaging_system;
+    => nrel_associative_connection: by_flight_on_the_route;
+    => nrel_associative_connection: by_standard_crew_night_biological_night;
+
+    => nrel_etalon_online_idx: [30405];;

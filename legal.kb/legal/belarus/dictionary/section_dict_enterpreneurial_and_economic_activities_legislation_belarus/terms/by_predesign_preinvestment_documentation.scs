@@ -1,0 +1,52 @@
+
+by_predesign_preinvestment_documentation
+    => nrel_main_idtf: [pre-design (pre-investment) documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [предпроектная (предынвестиционная) документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадпраектная (предынвестиционная) дакументацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_predesign_preinvestment_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_predesign_preinvestment_documentation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_erection_of_construction_object;
+    => nrel_associative_connection: by_urban_planning;
+    => nrel_associative_connection: by_urban_development_project_urban_development_documentation;
+    => nrel_associative_connection: by_documentation;
+    => nrel_associative_connection: by_documentation_on_typical_construction_structures_products_knots;
+    => nrel_associative_connection: by_investment_project;
+    => nrel_associative_connection: by_justification_of_investment_in_construction;
+    => nrel_associative_connection: by_preinvestment_stage;
+    => nrel_associative_connection: by_project_recommended_for_reuse;
+    => nrel_associative_connection: by_project_documentation;
+    => nrel_associative_connection: by_project_documentation_for_erection_reconstruction_restoration_capital_repairs_improvement_of_the_object_demolition;
+    => nrel_associative_connection: by_construction_project;
+    => nrel_associative_connection: by_typical_project;
+
+    => nrel_etalon_online_idx: [21083];;

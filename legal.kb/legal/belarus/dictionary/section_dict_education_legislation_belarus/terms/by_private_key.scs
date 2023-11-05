@@ -1,0 +1,34 @@
+
+by_private_key
+    => nrel_main_idtf: [private key ] (* <- lang_en;; *);
+    => nrel_main_idtf: [личный ключ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабісты ключ] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_private_key_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_electronic_service;
+    => nrel_associative_connection: by_personal_key_owner;
+    => nrel_associative_connection: by_open_key_owner;
+    => nrel_associative_connection: by_digital_signature_verification_public_key_card_public_key_card;
+    => nrel_associative_connection: by_authenticity_of_an_electronic_document;
+    => nrel_associative_connection: by_user_of_attribute_certificate;
+    => nrel_associative_connection: by_means_of_digital_signature;
+    => nrel_associative_connection: by_digital_manuscript_signature;
+    => nrel_associative_connection: by_electronic_digital_signature;
+    => nrel_associative_connection: by_electronic_document;
+
+    => nrel_etalon_online_idx: [6087];;

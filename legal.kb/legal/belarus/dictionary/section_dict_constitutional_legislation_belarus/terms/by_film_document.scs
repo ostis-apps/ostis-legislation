@@ -1,0 +1,45 @@
+
+by_film_document
+    => nrel_main_idtf: [film document] (* <- lang_en;; *);
+    => nrel_main_idtf: [кинодокумент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кінадакумент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_film_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_video_and_film_chronic_program_radio_and_television_program;
+    => nrel_associative_connection: by_video_document;
+    => nrel_associative_connection: by_debut_work;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_other_films_having_social_and_cultural_importance;
+    => nrel_associative_connection: by_unit_of_film_documents_record_keeping;
+    => nrel_associative_connection: by_unit_of_storage_of_film_documents;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_interpositive;
+    => nrel_associative_connection: by_cinematographic_activity;
+    => nrel_associative_connection: by_cinematography;
+    => nrel_associative_connection: by_cinema_chronicle;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by_positive;
+    => nrel_associative_connection: by_positive_on_reversable_film;
+    => nrel_associative_connection: by_intermediate_positive;
+    => nrel_associative_connection: by_film;
+    => nrel_associative_connection: by_screening;
+
+    => nrel_etalon_online_idx: [8865];;

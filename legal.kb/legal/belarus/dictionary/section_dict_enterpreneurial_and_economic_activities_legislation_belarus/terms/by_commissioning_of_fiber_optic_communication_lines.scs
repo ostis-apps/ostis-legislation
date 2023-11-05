@@ -1,0 +1,29 @@
+
+by_commissioning_of_fiber_optic_communication_lines
+    => nrel_main_idtf: [commissioning of fiber optic communication lines] (* <- lang_en;; *);
+    => nrel_main_idtf: [ввод в эксплуатацию оптоволоконных линий связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [увод у эксплуатацыю оптавалакновых ліній сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commissioning_of_fiber_optic_communication_lines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_putting_into_operation;
+    => nrel_associative_connection: by_commissioning_of_communication_facilities;
+    => nrel_associative_connection: by_telecommunication_lines;
+    => nrel_associative_connection: by_network_address_space;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_etalon_online_idx: [12885];;

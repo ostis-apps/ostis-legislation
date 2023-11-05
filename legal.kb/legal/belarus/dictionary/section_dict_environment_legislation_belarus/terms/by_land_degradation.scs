@@ -1,0 +1,43 @@
+
+by_land_degradation
+    => nrel_main_idtf: [land degradation] (* <- lang_en;; *);
+    => nrel_main_idtf: [деградация земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэградацыя зямель] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_degradation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_degradation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_degraded_lands;
+    => nrel_associative_connection: by_culturetechnical_unsettled_territory;
+    => nrel_associative_connection: by_protection_of_lands;
+    => nrel_associative_connection: by_soil_damage;
+
+    => nrel_etalon_online_idx: [8808];;

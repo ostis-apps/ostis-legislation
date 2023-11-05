@@ -1,0 +1,30 @@
+
+by_budgetary_relations
+    => nrel_main_idtf: [budgetary relations] (* <- lang_en;; *);
+    => nrel_main_idtf: [бюджетные отношения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бюджэтныя адносіны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budgetary_relations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budgetary_commitments;
+    => nrel_associative_connection: by_budget_services;
+    => nrel_associative_connection: by_budgetary_process;
+    => nrel_associative_connection: by_unfinished_settlements;
+    => nrel_associative_connection: by_budget_manager;
+
+    => nrel_etalon_online_idx: [4959];;

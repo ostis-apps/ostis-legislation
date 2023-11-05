@@ -1,0 +1,28 @@
+
+by_correctional_institution
+    => nrel_main_idtf: [correctional institution] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправительное учреждение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папраўчая ўстанова] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_correctional_institution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_documents_on_hold;
+    => nrel_associative_connection: by_correctional_process;
+    => nrel_associative_connection: by_pension_body;
+    => nrel_associative_connection: by_executive_order;
+
+    => nrel_etalon_online_idx: [30658];;

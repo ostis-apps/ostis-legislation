@@ -1,0 +1,79 @@
+
+by_water_use
+    => nrel_main_idtf: [water use] (* <- lang_en;; *);
+    => nrel_main_idtf: [водопользование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водакарыстанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_use_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_use_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_use_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_water_consumers;
+    => nrel_associative_connection: by_water_pollution;
+    => nrel_associative_connection: by_recycled_water;
+    => nrel_associative_connection: by_isolated_water_consumption;
+    => nrel_associative_connection: by_public_water_consumption;
+    => nrel_associative_connection: by_sectoral_technological_standards_for_water_use;
+    => nrel_associative_connection: by_repeated_consistently_used_water;
+    => nrel_associative_connection: by_special_water_consumption;
+    => nrel_associative_connection: by_technological_standards_for_water_disposal;
+
+    => nrel_etalon_online_idx: [2360];;

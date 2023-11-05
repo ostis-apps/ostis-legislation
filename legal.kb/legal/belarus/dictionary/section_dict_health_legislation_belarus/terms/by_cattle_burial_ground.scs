@@ -1,0 +1,28 @@
+
+by_cattle_burial_ground
+    => nrel_main_idtf: [cattle burial ground] (* <- lang_en;; *);
+    => nrel_main_idtf: [скотомогильник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жывёльны могільнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cattle_burial_ground_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_land_plot;
+
+    => nrel_etalon_online_idx: [40661];;

@@ -1,0 +1,27 @@
+
+by_means_of_warning_and_information
+    => nrel_main_idtf: [means of warning and information] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства оповещения и информирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі апавяшчэння і інфармавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_warning_and_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_on_emergency_situations;
+    => nrel_associative_connection: by_alert_system;
+    => nrel_associative_connection: by_subjects_of_the_warning_system;
+
+    => nrel_etalon_online_idx: [24040];;

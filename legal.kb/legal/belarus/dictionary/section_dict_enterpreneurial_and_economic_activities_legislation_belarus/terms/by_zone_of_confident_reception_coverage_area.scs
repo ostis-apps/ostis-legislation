@@ -1,0 +1,30 @@
+
+by_zone_of_confident_reception_coverage_area
+    => nrel_main_idtf: [zone of confident reception (coverage area)] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона уверенного приема (зона покрытия)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона ўпэўненага прыёму (зона пакрыцця)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zone_of_confident_reception_coverage_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_address_data_of_users_of_telecommunication_services;
+    => nrel_associative_connection: by_service_zone;
+    => nrel_associative_connection: by_local_electric_communication_networks;
+    => nrel_associative_connection: by_operator_of_mobile_cellular_telecommunications;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_network;
+    => nrel_associative_connection: by_telecommunication_connection;
+
+    => nrel_etalon_online_idx: [41948];;

@@ -1,0 +1,52 @@
+
+by_insurance_contribution_insurance_premium
+    => nrel_main_idtf: [insurance contribution (insurance premium)] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховой взнос (страховая премия)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавы ўзнос (страхавая прэмія)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_contribution_insurance_premium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_contribution_insurance_premium_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contributions_to_the_pension_insurance;
+    => nrel_associative_connection: by_guarantor;
+    => nrel_associative_connection: by_personal_insurance_contract;
+    => nrel_associative_connection: by_insurance_agreement;
+    => nrel_associative_connection: by_income_on_insurance_activity;
+    => nrel_associative_connection: by_object_for_insurance_contribution;
+    => nrel_associative_connection: by_payer_of_state_social_insurance_contributions;
+    => nrel_associative_connection: by_the_amount_of_monthly_remuneration_to_the_insurance_agent;
+    => nrel_associative_connection: by_reduction_of_insurance_payment_limit_of_responsibility;
+    => nrel_associative_connection: by_unearned_premiums_reserve;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_payment;
+    => nrel_associative_connection: by_insurance_rate;
+
+    => nrel_etalon_online_idx: [1984];;

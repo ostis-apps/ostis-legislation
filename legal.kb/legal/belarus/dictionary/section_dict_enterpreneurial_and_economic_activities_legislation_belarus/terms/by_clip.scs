@@ -1,0 +1,31 @@
+
+by_clip
+    => nrel_main_idtf: [clip] (* <- lang_en;; *);
+    => nrel_main_idtf: [зажим] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заціск] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_clips_catchers;
+    => nrel_associative_connection: by_linear_support_bearing_rope;
+    => nrel_associative_connection: by_nonsubstant_traction_rope;
+    => nrel_associative_connection: by_carrying_rope;
+    => nrel_associative_connection: by_detachable_clamp;
+    => nrel_associative_connection: by_rolling_stock;
+    => nrel_associative_connection: by_the_pull_rope;
+
+    => nrel_etalon_online_idx: [14732];;

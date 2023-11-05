@@ -1,0 +1,28 @@
+
+by_largescale_damage
+    => nrel_main_idtf: [large-scale damage] (* <- lang_en;; *);
+    => nrel_main_idtf: [ущерб в крупном размере] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урон у буйным памеры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_largescale_damage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_large_and_exceptionally_large_damage_size;
+    => nrel_associative_connection: by_large_damage_size;
+    => nrel_associative_connection: by_actual_damage;
+    => nrel_associative_connection: by_damage;
+
+    => nrel_etalon_online_idx: [25883];;

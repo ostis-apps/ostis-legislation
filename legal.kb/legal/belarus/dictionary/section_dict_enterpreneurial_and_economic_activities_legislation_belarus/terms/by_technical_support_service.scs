@@ -1,0 +1,63 @@
+
+by_technical_support_service
+    => nrel_main_idtf: [technical support service] (* <- lang_en;; *);
+    => nrel_main_idtf: [служба технической поддержки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [служба тэхнічнай падтрымкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_support_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_support_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_support_service_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_border_service_station;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_users_of_highways;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_procedure_for_technological_operation;
+    => nrel_associative_connection: by_service_station;
+    => nrel_associative_connection: by_instant_messaging_service_messenger;
+    => nrel_associative_connection: by_technical_assistance;
+
+    => nrel_etalon_online_idx: [23348];;

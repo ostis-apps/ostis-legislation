@@ -1,0 +1,28 @@
+
+by_deferment_of_payment_on_a_credit_contract
+    => nrel_main_idtf: [deferment of payment on a credit contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [отсрочка платежа по кредитному договору] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адтэрміноўка выплаты па крэдытным дагаворы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deferment_of_payment_on_a_credit_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_payment_obligation;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credit_contract;
+    => nrel_associative_connection: by_credits;
+
+    => nrel_etalon_online_idx: [28264];;

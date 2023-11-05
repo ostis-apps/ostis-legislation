@@ -1,0 +1,43 @@
+
+by_by_mxconnection
+    => nrel_main_idtf: [by_mxconnection] (* <- lang_en;; *);
+    => nrel_main_idtf: [мх-сообщение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мх-паведамленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_mxconnection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_mxconnection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_control_of_mx_messages;
+    => nrel_associative_connection: by_documentation_of_the_automated_system_central_archive_of_interbank_settlements;
+    => nrel_associative_connection: by_financial_message;
+    => nrel_associative_connection: by_email;
+
+    => nrel_etalon_online_idx: [41819];;

@@ -1,0 +1,43 @@
+
+by_occupational_hazard
+    => nrel_main_idtf: [occupational hazard] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональный риск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійная рызыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_occupational_hazard_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_occupational_hazard_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_class_of_professional_risk;
+    => nrel_associative_connection: by_jobrelated_accident;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_risk;
+
+    => nrel_etalon_online_idx: [6725];;

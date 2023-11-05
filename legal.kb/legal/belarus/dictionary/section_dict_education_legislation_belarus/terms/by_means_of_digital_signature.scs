@@ -1,0 +1,61 @@
+
+by_means_of_digital_signature
+    => nrel_main_idtf: [means of digital signature] (* <- lang_en;; *);
+    => nrel_main_idtf: [средство электронной цифровой подписи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродак электроннага лічбавага подпісу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_digital_signature_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_digital_signature_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_digital_signature_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_digital_signature_verification_public_key_card_public_key_card;
+    => nrel_associative_connection: by_private_key;
+    => nrel_associative_connection: by_check_of_authenticity_of_electronic_document_email_message;
+    => nrel_associative_connection: by_digital_manuscript_signature;
+    => nrel_associative_connection: by_time_stamp;
+    => nrel_associative_connection: by_electronic_digital_signature;
+
+    => nrel_etalon_online_idx: [10983];;

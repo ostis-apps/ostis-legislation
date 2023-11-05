@@ -1,0 +1,27 @@
+
+by_liquidity_ratio
+    => nrel_main_idtf: [liquidity ratio] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент ликвидности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент ліквіднасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liquidity_ratio_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_liquidation_cost;
+    => nrel_associative_connection: by_liquidity;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37886];;

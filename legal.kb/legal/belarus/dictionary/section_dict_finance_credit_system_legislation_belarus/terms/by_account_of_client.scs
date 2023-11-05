@@ -1,0 +1,33 @@
+
+by_account_of_client
+    => nrel_main_idtf: [account of client] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет клиента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак кліента] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_account_of_client_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_account_owner_contractual_customer;
+    => nrel_associative_connection: by_debit_card;
+    => nrel_associative_connection: by_current_settlement_bank_account_agreement;
+    => nrel_associative_connection: by_information_about_accounts_contracts;
+    => nrel_associative_connection: by_client_performing_onetime_operation;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_payment_between_individuals;
+    => nrel_associative_connection: by_representative_of_the_client;
+    => nrel_associative_connection: by_card_details;
+
+    => nrel_etalon_online_idx: [411];;

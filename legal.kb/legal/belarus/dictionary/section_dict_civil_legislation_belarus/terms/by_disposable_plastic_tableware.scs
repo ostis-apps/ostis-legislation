@@ -1,0 +1,28 @@
+
+by_disposable_plastic_tableware
+    => nrel_main_idtf: [disposable plastic tableware] (* <- lang_en;; *);
+    => nrel_main_idtf: [одноразовая пластиковая посуда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднаразовы пластыкавы посуд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_disposable_plastic_tableware_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_used_nonfood_goods;
+    => nrel_associative_connection: by_criteria_of_relating_public_catering_objects_to_classes_and_divisions_them_to_types;
+    => nrel_associative_connection: by_servicing_in_public_catering;
+    => nrel_associative_connection: by_services_related_to_the_sale_of_goods;
+
+    => nrel_etalon_online_idx: [37363];;

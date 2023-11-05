@@ -1,0 +1,27 @@
+
+by_operational_leasing
+    => nrel_main_idtf: [operational leasing] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативный лизинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўны лізінг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_leasing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remuneration_income_of_the_lessor;
+    => nrel_associative_connection: by_leasing_activity;
+    => nrel_associative_connection: by_transit_leasing;
+
+    => nrel_etalon_online_idx: [10863];;

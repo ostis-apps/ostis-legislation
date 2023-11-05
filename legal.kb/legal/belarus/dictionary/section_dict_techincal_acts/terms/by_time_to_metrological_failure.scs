@@ -1,0 +1,31 @@
+
+by_time_to_metrological_failure
+    => nrel_main_idtf: [time to metrological failure] (* <- lang_en;; *);
+    => nrel_main_idtf: [время до метрологического отказа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [час да метралагічнай адмовы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_time_to_metrological_failure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_absolute_error_of_the_measurement_instrument;
+    => nrel_associative_connection: by_metrological_failure;
+    => nrel_associative_connection: by_faulty_out_of_service_measuring_instrument;
+    => nrel_associative_connection: by_error_of_the_measuring_instrument;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_type_of_measuring_instrument;
+
+    => nrel_etalon_online_idx: [39021];;

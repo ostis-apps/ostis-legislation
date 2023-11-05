@@ -1,0 +1,31 @@
+
+by_regulatory_revenues_of_the_republican_budget_and_local_budgets
+    => nrel_main_idtf: [regulatory revenues of the republican budget and local budgets] (* <- lang_en;; *);
+    => nrel_main_idtf: [регулирующие доходы республиканского бюджета и местных бюджетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгулюючыя даходы рэспубліканскага бюджэту і мясцовых бюджэтаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulatory_revenues_of_the_republican_budget_and_local_budgets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higherranking_budget;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_budget_income;
+    => nrel_associative_connection: by_local_budgets;
+    => nrel_associative_connection: by_inferior_budget;
+    => nrel_associative_connection: by_program_and_target_method_in_budget_process;
+
+    => nrel_etalon_online_idx: [22375];;

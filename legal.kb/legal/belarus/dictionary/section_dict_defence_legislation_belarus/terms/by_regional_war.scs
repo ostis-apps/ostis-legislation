@@ -1,0 +1,28 @@
+
+by_regional_war
+    => nrel_main_idtf: [regional war] (* <- lang_en;; *);
+    => nrel_main_idtf: [региональная война] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіянальная вайна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regional_war_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_and_political_situation;
+    => nrel_associative_connection: by_war;
+    => nrel_associative_connection: by_armed_conflict;
+    => nrel_associative_connection: by_local_war;
+
+    => nrel_etalon_online_idx: [1808];;

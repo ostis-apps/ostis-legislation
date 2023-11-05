@@ -1,0 +1,30 @@
+
+by_heavy_of_labor
+    => nrel_main_idtf: [heavy of labor] (* <- lang_en;; *);
+    => nrel_main_idtf: [тяжесть труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цяжар працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heavy_of_labor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_breathing_zone;
+    => nrel_associative_connection: by_labor_intensity;
+    => nrel_associative_connection: by_production_facility;
+    => nrel_associative_connection: by_working_area;
+    => nrel_associative_connection: by_professional_risk_management;
+    => nrel_associative_connection: by_labor_process_factors;
+
+    => nrel_etalon_online_idx: [32626];;

@@ -1,0 +1,28 @@
+
+by_judicial_correspondence
+    => nrel_main_idtf: [judicial correspondence] (* <- lang_en;; *);
+    => nrel_main_idtf: [судебная корреспонденция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судовая карэспандэнцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_judicial_correspondence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_notice;
+    => nrel_associative_connection: by_judicial_summons;
+    => nrel_associative_connection: by_court_proceeding;
+    => nrel_associative_connection: by_judicial_documents;
+
+    => nrel_etalon_online_idx: [2004];;

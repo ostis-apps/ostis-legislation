@@ -1,0 +1,29 @@
+
+by_families_with_many_children
+    => nrel_main_idtf: [families with many children] (* <- lang_en;; *);
+    => nrel_main_idtf: [многодетные семьи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мнагадзетныя сем'і] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_families_with_many_children_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lowincome_citizens_families;
+    => nrel_associative_connection: by_family_with_many_children;
+    => nrel_associative_connection: by_family;
+    => nrel_associative_connection: by_family_member;
+    => nrel_associative_connection: by_family_members;
+
+    => nrel_etalon_online_idx: [17423];;

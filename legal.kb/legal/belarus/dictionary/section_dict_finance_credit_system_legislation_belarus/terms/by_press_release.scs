@@ -1,0 +1,25 @@
+
+by_press_release
+    => nrel_main_idtf: [press release] (* <- lang_en;; *);
+    => nrel_main_idtf: [пресс-релиз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прэс-рэліз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_press_release_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    
+
+    => nrel_etalon_online_idx: [11084];;

@@ -1,0 +1,29 @@
+
+by_informationsearch_language
+    => nrel_main_idtf: [information-search language] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационно-поисковый язык] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйна-пошукавая мова] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_informationsearch_language_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automated_libraryinformation_system;
+    => nrel_associative_connection: by_engineerprogrammer_within_this_specialty;
+    => nrel_associative_connection: by_information_support;
+    => nrel_associative_connection: by_latin_alphabet;
+    => nrel_associative_connection: by_electronic_document;
+
+    => nrel_etalon_online_idx: [31903];;

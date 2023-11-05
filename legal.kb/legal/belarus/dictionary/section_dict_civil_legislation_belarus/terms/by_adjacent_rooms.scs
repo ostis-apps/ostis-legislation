@@ -1,0 +1,31 @@
+
+by_adjacent_rooms
+    => nrel_main_idtf: [adjacent rooms] (* <- lang_en;; *);
+    => nrel_main_idtf: [смежные помещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сумежныя памяшканні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adjacent_rooms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_partition;
+    => nrel_associative_connection: by_overlap;
+    => nrel_associative_connection: by_back_offices;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_wall;
+
+    => nrel_etalon_online_idx: [28474];;

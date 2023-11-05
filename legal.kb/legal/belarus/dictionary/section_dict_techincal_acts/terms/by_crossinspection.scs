@@ -1,0 +1,27 @@
+
+by_crossinspection
+    => nrel_main_idtf: [cross-inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [перекрестный осмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перакрыжаваны агляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crossinspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_readiness_for_intended_use;
+    => nrel_associative_connection: by_engineering_and_aviation_service;
+    => nrel_associative_connection: by_assigned_full_service_life;
+
+    => nrel_etalon_online_idx: [32519];;

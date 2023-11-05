@@ -1,0 +1,29 @@
+
+by_falsified_alcoholic_beverages
+    => nrel_main_idtf: [falsified alcoholic beverages] (* <- lang_en;; *);
+    => nrel_main_idtf: [фальсифицированные алкогольные напитки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фальсіфікаваныя алкагольныя напіткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_falsified_alcoholic_beverages_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_alcoholic_beverages;
+    => nrel_associative_connection: by_owner_of_alcoholic_beverages_and_or_beer;
+    => nrel_associative_connection: by_owner_of_alcoholic_beverages_and_beer;
+    => nrel_associative_connection: by_other_lowalcohol_drinks;
+    => nrel_associative_connection: by_original_alcoholic_beverages;
+
+    => nrel_etalon_online_idx: [10695];;

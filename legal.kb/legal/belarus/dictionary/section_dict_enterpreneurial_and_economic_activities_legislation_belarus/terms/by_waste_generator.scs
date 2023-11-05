@@ -1,0 +1,64 @@
+
+by_waste_generator
+    => nrel_main_idtf: [waste generator] (* <- lang_en;; *);
+    => nrel_main_idtf: [производитель отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворца адходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_generator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_generator_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_generator_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_provision_of_secondary_material_resources;
+    => nrel_associative_connection: by_manufacturer_producer;
+    => nrel_associative_connection: by_source_of_industrial_waste_production;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_consumption_residue;
+    => nrel_associative_connection: by_industrial_waste;
+    => nrel_associative_connection: by_waste_carriage;
+    => nrel_associative_connection: by_preparation_of_waste;
+    => nrel_associative_connection: by_producer;
+    => nrel_associative_connection: by_producer_of_communal_waste;
+
+    => nrel_etalon_online_idx: [10934];;

@@ -1,0 +1,28 @@
+
+by_methodological_recommendations_for_cost_evaluation
+    => nrel_main_idtf: [methodological recommendations for cost evaluation] (* <- lang_en;; *);
+    => nrel_main_idtf: [методические рекомендации об оценке стоимости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метадычныя рэкамендацыі аб адзнацы кошту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_methodological_recommendations_for_cost_evaluation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sufficient_information;
+    => nrel_associative_connection: by_instructional_recommendations;
+    => nrel_associative_connection: by_methodological_guide_on_cost_evaluation;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37954];;

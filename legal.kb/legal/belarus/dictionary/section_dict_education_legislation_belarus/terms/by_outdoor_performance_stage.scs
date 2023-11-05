@@ -1,0 +1,28 @@
+
+by_outdoor_performance_stage
+    => nrel_main_idtf: [outdoor performance stage] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытая площадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрытая пляцоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_outdoor_performance_stage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_discotheque;
+    => nrel_associative_connection: by_enclosed_performance_stage;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_site_technological_site;
+
+    => nrel_etalon_online_idx: [7865];;

@@ -1,0 +1,45 @@
+
+by_foreign_investments
+    => nrel_main_idtf: [foreign investments] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранные инвестиции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежныя інвестыцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_investments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_investments_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_investor;
+    => nrel_associative_connection: by_a_foreign_company;
+    => nrel_associative_connection: by_foreign_investors;
+    => nrel_associative_connection: by_persons_from_foreign_states_committing_unfriendly_acts;
+
+    => nrel_etalon_online_idx: [2625];;

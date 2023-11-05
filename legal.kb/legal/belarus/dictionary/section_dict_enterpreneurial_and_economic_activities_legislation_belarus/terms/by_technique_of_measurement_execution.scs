@@ -1,0 +1,50 @@
+
+by_technique_of_measurement_execution
+    => nrel_main_idtf: [technique of measurement execution] (* <- lang_en;; *);
+    => nrel_main_idtf: [методика выполнения измерений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [методыка выканання вымярэнняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technique_of_measurement_execution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technique_of_measurement_execution_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_customer_of_the_development_of_technique_method_of_measurements;
+    => nrel_associative_connection: by_measuring_system_measuring_complex;
+    => nrel_associative_connection: by_measuring_equipment;
+    => nrel_associative_connection: by_technique_method_of_measurements;
+    => nrel_associative_connection: by_metrological_confirmation_of_the_suitability_of_measurement_techniques;
+    => nrel_associative_connection: by_traceability;
+    => nrel_associative_connection: by_primary_reference_method_of_measurements;
+    => nrel_associative_connection: by_user_of_the_measurement_technique_method;
+    => nrel_associative_connection: by_developer_of_the_measurement_technique_method;
+    => nrel_associative_connection: by_accuracy_of_measurements;
+    => nrel_associative_connection: by_equalization;
+
+    => nrel_etalon_online_idx: [17318];;

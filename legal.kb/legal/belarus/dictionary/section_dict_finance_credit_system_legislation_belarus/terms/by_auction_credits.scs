@@ -1,0 +1,29 @@
+
+by_auction_credits
+    => nrel_main_idtf: [auction credits] (* <- lang_en;; *);
+    => nrel_main_idtf: [аукционные кредиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўкцыённыя крэдыты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auction_credits_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_national_bank;
+    => nrel_associative_connection: by_national_bank_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [27654];;

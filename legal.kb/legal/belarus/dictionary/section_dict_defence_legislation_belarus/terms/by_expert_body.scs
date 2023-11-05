@@ -1,0 +1,59 @@
+
+by_expert_body
+    => nrel_main_idtf: [expert body] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспертный орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспертны орган] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expert_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expert_body_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expert_body_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_independent_expert_organization;
+    => nrel_associative_connection: by_attestation_field;
+    => nrel_associative_connection: by_expert;
+    => nrel_associative_connection: by_expertise;
+    => nrel_associative_connection: by_expert_organization;
+
+    => nrel_etalon_online_idx: [9738];;

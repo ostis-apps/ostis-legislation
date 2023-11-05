@@ -1,0 +1,51 @@
+
+by_aircraft_control_flight
+    => nrel_main_idtf: [aircraft control flight] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольный полет воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольны палёт паветранага судна] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aircraft_control_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aircraft_control_flight_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_regulations;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_time_of_preparation_of_the_aircraft_for_redeparture;
+    => nrel_associative_connection: by_aircraft_flight_time;
+    => nrel_associative_connection: by_map_of_control_reports;
+    => nrel_associative_connection: by_check_flight_of_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_state_aircraft_check_flight;
+    => nrel_associative_connection: by_person_organizing_flights;
+    => nrel_associative_connection: by_test_flight_control_flight;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle_overflight;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_operations;
+
+    => nrel_etalon_online_idx: [16266];;

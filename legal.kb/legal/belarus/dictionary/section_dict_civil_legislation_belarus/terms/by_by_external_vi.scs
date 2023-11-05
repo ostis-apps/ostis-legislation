@@ -1,0 +1,28 @@
+
+by_by_external_vi
+    => nrel_main_idtf: [by_external_vi] (* <- lang_en;; *);
+    => nrel_main_idtf: [пристройка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыбудова] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_external_vi_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_wall;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [28466];;

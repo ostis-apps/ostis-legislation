@@ -1,0 +1,28 @@
+
+by_state_supervision_bodies
+    => nrel_main_idtf: [state supervision bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы государственного надзора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы дзяржаўнага нагляду] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_supervision_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_general_contractor;
+    => nrel_associative_connection: by_normative_documents;
+    => nrel_associative_connection: by_working_commission;
+    => nrel_associative_connection: by_permission_documentation;
+
+    => nrel_etalon_online_idx: [36619];;

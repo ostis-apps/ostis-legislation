@@ -1,0 +1,44 @@
+
+by_sport_and_tourist_area
+    => nrel_main_idtf: [sport and tourist area] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивно-туристская площадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўна-турысцкая пляцоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_and_tourist_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_and_tourist_area_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_waterski_channel_behind_electric_driving;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_sports_ground;
+    => nrel_associative_connection: by_sports_ground_multiprofile;
+    => nrel_associative_connection: by_sports_events;
+
+    => nrel_etalon_online_idx: [23903];;

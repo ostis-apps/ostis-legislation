@@ -1,0 +1,44 @@
+
+by_team_network
+    => nrel_main_idtf: [team network] (* <- lang_en;; *);
+    => nrel_main_idtf: [групповая сеть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [групавая сетка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_team_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_team_network_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_air_transmission_line;
+    => nrel_associative_connection: by_grounding;
+    => nrel_associative_connection: by_cable_line;
+    => nrel_associative_connection: by_electricity_transmission_line;
+    => nrel_associative_connection: by_maximum_permissible_level;
+
+    => nrel_etalon_online_idx: [31272];;

@@ -1,0 +1,29 @@
+
+by_settling_time
+    => nrel_main_idtf: [settling time] (* <- lang_en;; *);
+    => nrel_main_idtf: [время установления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [час устанаўлення] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_settling_time_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_signal_analyzers;
+    => nrel_associative_connection: by_coordinated_universal_time_utc;
+    => nrel_associative_connection: by_signal_processing;
+    => nrel_associative_connection: by_time_constant;
+    => nrel_associative_connection: by_signal;
+
+    => nrel_etalon_online_idx: [13294];;

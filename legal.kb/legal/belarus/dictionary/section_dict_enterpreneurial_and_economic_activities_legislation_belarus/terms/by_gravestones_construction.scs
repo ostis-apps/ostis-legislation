@@ -1,0 +1,30 @@
+
+by_gravestones_construction
+    => nrel_main_idtf: [gravestones construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [надмогильное сооружение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [надмагільнае збудаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gravestones_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_previously_identified_unknown_graves;
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_person_taking_over_organization_of_installation_of_gravestones_consrtuction;
+    => nrel_associative_connection: by_temporary_waste_storage_places;
+    => nrel_associative_connection: by_tombstone;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_etalon_online_idx: [28293];;

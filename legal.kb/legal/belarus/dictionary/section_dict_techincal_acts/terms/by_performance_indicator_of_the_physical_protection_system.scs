@@ -1,0 +1,28 @@
+
+by_performance_indicator_of_the_physical_protection_system
+    => nrel_main_idtf: [performance indicator of the physical protection system] (* <- lang_en;; *);
+    => nrel_main_idtf: [показатель эффективности системы физической защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паказчык эфектыўнасці сістэмы фізічнай абароны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_performance_indicator_of_the_physical_protection_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_probability_of_detection;
+    => nrel_associative_connection: by_complex_of_technical_means_of_physical_protection;
+    => nrel_associative_connection: by_evaluation_of_the_effectiveness_of_the_physical_protection_system;
+    => nrel_associative_connection: by_efficiency_of_physical_protection_system;
+
+    => nrel_etalon_online_idx: [35938];;

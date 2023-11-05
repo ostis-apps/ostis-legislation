@@ -1,0 +1,30 @@
+
+by_education_institution_of_the_ministry_of_internal_affairs
+    => nrel_main_idtf: [education institution of the ministry of internal affairs] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждение образования министерства внутренних дел] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установа адукацыі міністэрства ўнутраных спраў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_education_institution_of_the_ministry_of_internal_affairs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adjunct;
+    => nrel_associative_connection: by_postgraduate_student_adjunct;
+    => nrel_associative_connection: by_postgraduate_school_adjunct_school;
+    => nrel_associative_connection: by_ministry_of_internal_affairs;
+    => nrel_associative_connection: by_ministry_of_internal_affairs_of_the_republic_of_belarus_mia;
+    => nrel_associative_connection: by_education_institution;
+
+    => nrel_etalon_online_idx: [25870];;

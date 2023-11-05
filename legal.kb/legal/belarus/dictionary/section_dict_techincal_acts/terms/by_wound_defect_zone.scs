@@ -1,0 +1,59 @@
+
+by_wound_defect_zone
+    => nrel_main_idtf: [wound defect zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона раневого дефекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона ранавага дэфекту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wound_defect_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wound_defect_zone_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wound_defect_zone_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_secondary_necrosis_zone;
+    => nrel_associative_connection: by_zone_of_primary_necrosis;
+    => nrel_associative_connection: by_firearm_wound_shell;
+    => nrel_associative_connection: by_resecondary_surgical_treatment;
+    => nrel_associative_connection: by_repeated_primary_surgical_treatment;
+
+    => nrel_etalon_online_idx: [32230];;

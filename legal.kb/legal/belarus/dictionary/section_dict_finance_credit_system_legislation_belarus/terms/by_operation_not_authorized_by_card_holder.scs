@@ -1,0 +1,16 @@
+
+by_operation_not_authorized_by_card_holder
+    => nrel_main_idtf: [operation not authorized by card holder] (* <- lang_en;; *);
+    => nrel_main_idtf: [операция, не санкционированная держателем карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыя, не санкцыянаваная трымальнікам карткі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_authentication_of_the_card_holder;
+    => nrel_associative_connection: by_cardholder;
+    => nrel_associative_connection: by_contract_on_the_card_using;
+    => nrel_associative_connection: by_card_use;
+    => nrel_associative_connection: by_cobranding_card;
+    => nrel_associative_connection: by_card_compromise;
+
+    => nrel_etalon_online_idx: [33390];;

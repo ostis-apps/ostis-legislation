@@ -1,0 +1,27 @@
+
+by_current_certification
+    => nrel_main_idtf: [current certification] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущая аттестация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучая атэстацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_current_certification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_final_examination;
+    => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_pedagogic_test;
+
+    => nrel_etalon_online_idx: [24726];;

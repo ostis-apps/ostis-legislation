@@ -1,0 +1,30 @@
+
+by_artificial_nesting
+    => nrel_main_idtf: [artificial nesting] (* <- lang_en;; *);
+    => nrel_main_idtf: [искусственное гнездовье] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штучнае гняздоўе] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_artificial_nesting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biotechnical_object;
+    => nrel_associative_connection: by_biotechnical_construction;
+    => nrel_associative_connection: by_canopy;
+    => nrel_associative_connection: by_main_type_of_hunting_animals;
+    => nrel_associative_connection: by_remise;
+    => nrel_associative_connection: by_solonets;
+
+    => nrel_etalon_online_idx: [15543];;

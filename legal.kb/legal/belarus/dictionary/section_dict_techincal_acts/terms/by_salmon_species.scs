@@ -1,0 +1,29 @@
+
+by_salmon_species
+    => nrel_main_idtf: [salmon species] (* <- lang_en;; *);
+    => nrel_main_idtf: [лососевые виды рыб (лат. salmonidae)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ласосевыя віды рыб (лац. salmonidae)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_salmon_species_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fish_distribution_area;
+    => nrel_associative_connection: by_fish_species;
+    => nrel_associative_connection: by_reproduction_of_fish_resources;
+    => nrel_associative_connection: by_fish_extraction;
+    => nrel_associative_connection: by_salmonlike_lat_salmoniformes;
+
+    => nrel_etalon_online_idx: [32637];;

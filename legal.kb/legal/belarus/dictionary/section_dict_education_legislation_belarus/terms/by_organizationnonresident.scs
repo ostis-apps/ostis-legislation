@@ -1,0 +1,30 @@
+
+by_organizationnonresident
+    => nrel_main_idtf: [organization-non-resident] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация-нерезидент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя-нерэзідэнт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizationnonresident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_trade_contract;
+    => nrel_associative_connection: by_foreign_organisation;
+    => nrel_associative_connection: by_nonresident;
+    => nrel_associative_connection: by_nonresidents_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_nonresident_organizations;
+    => nrel_associative_connection: by_specific_goods_works_services;
+
+    => nrel_etalon_online_idx: [10381];;

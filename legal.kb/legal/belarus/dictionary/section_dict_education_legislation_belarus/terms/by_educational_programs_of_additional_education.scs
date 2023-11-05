@@ -1,0 +1,33 @@
+
+by_educational_programs_of_additional_education
+    => nrel_main_idtf: [educational programs of additional education] (* <- lang_en;; *);
+    => nrel_main_idtf: [образовательные программы дополнительного образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адукацыйныя праграмы дадатковай адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_programs_of_additional_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_education;
+    => nrel_associative_connection: by_additional_education_for_adults;
+    => nrel_associative_connection: by_additional_education_for_children_and_youth;
+    => nrel_associative_connection: by_unified_programs;
+    => nrel_associative_connection: by_individual_entrepreneurs_who_are_given_the_right_to_carry_out_educational_activity_in_accordance_with_the_legislation;
+    => nrel_associative_connection: by_educational_activity;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_programs_of_additional_education_for_adults;
+    => nrel_associative_connection: by_additional_education_at_home;
+
+    => nrel_etalon_online_idx: [18514];;

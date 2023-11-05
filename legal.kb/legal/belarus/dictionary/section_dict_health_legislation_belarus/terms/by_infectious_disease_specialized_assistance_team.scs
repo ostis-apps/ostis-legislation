@@ -1,0 +1,38 @@
+
+by_infectious_disease_specialized_assistance_team
+    => nrel_main_idtf: [infectious disease specialized assistance team] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфекционная бригада по оказанию специализированной помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфекцыйная брыгада па аказанні спецыялізаванай дапамогі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_disease_specialized_assistance_team_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ambulance_brigade;
+    => nrel_associative_connection: by_doctorspecialist;
+    => nrel_associative_connection: by_infectious_disease;
+    => nrel_associative_connection: by_infectivity;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_source_of_infection;
+    => nrel_associative_connection: by_source_of_infectious_diseases;
+    => nrel_associative_connection: by_emergency_medicine;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_personnel;
+    => nrel_associative_connection: by_health_care_specialist;
+    => nrel_associative_connection: by_republican_operational_antiepidemic_team;
+    => nrel_associative_connection: by_republican_sanitarypreventive_team;
+    => nrel_associative_connection: by_specialized_medical_aid;
+
+    => nrel_etalon_online_idx: [15429];;

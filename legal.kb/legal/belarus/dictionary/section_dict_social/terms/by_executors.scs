@@ -1,0 +1,33 @@
+
+by_executors
+    => nrel_main_idtf: [executors] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выканаўцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_executors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_belarusian_performers;
+    => nrel_associative_connection: by_foreign_performers;
+    => nrel_associative_connection: by_executors_of_will;
+    => nrel_associative_connection: by_executors_of_works;
+    => nrel_associative_connection: by_sample_of_executor;
+    => nrel_associative_connection: by_responsible_executor;
+    => nrel_associative_connection: by_separate_artists;
+    => nrel_associative_connection: by_supplier_contractor_executor;
+    => nrel_associative_connection: by_judicial_executors;
+
+    => nrel_etalon_online_idx: [15561];;

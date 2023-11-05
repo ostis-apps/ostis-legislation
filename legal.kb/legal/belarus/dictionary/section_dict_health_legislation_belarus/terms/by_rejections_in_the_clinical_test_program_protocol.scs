@@ -1,0 +1,33 @@
+
+by_rejections_in_the_clinical_test_program_protocol
+    => nrel_main_idtf: [rejections in the clinical test program (protocol)] (* <- lang_en;; *);
+    => nrel_main_idtf: [отклонения в программе (протоколе) клинического испытания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адхіленні ў праграме (пратаколе) клінічнага выпрабавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rejections_in_the_clinical_test_program_protocol_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_clinical_trials;
+    => nrel_associative_connection: by_clinical_trials_of_medications;
+    => nrel_associative_connection: by_clinical_trial;
+    => nrel_associative_connection: by_multicenter_clinical_test;
+    => nrel_associative_connection: by_multicenter_clinical_trials;
+    => nrel_associative_connection: by_amendment_to_the_test_program_protocol;
+    => nrel_associative_connection: by_amendment_to_the_program_of_clinical_trials;
+    => nrel_associative_connection: by_testing_programme;
+    => nrel_associative_connection: by_program_of_clinical_trials;
+
+    => nrel_etalon_online_idx: [19519];;

@@ -1,0 +1,43 @@
+
+by_scientific_report
+    => nrel_main_idtf: [scientific report] (* <- lang_en;; *);
+    => nrel_main_idtf: [научный отчет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навуковая справаздача] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_report_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_report_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_attestation_commission;
+    => nrel_associative_connection: by_researches;
+    => nrel_associative_connection: by_scientific_report_on_completed_archaeological_field_works;
+    => nrel_associative_connection: by_results_of_scientific_and_scientific_and_technical_activity;
+
+    => nrel_etalon_online_idx: [11406];;

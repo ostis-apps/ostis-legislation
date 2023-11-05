@@ -1,0 +1,45 @@
+
+by_proving
+    => nrel_main_idtf: [proving] (* <- lang_en;; *);
+    => nrel_main_idtf: [доказывание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даказванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_proving_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_proving_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_physical_proofs;
+    => nrel_associative_connection: by_evidence;
+    => nrel_associative_connection: by_fact_to_be_proven;
+    => nrel_associative_connection: by_collection_of_evidence;
+    => nrel_associative_connection: by_means_of_proof;
+    => nrel_associative_connection: by_criminal_case;
+
+    => nrel_etalon_online_idx: [1456];;

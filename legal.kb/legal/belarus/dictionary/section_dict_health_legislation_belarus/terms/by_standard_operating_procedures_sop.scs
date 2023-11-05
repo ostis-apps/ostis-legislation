@@ -1,0 +1,42 @@
+
+by_standard_operating_procedures_sop
+    => nrel_main_idtf: [standard operating procedures (sop)] (* <- lang_en;; *);
+    => nrel_main_idtf: [стандартные операционные процедуры (соп)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стандартныя аперацыйныя працэдуры (сап)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_operating_procedures_sop_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_operating_procedures_sop_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_procedure;
+    => nrel_associative_connection: by_working_instructions_standard_operating_procedures;
+    => nrel_associative_connection: by_standard_operating_procedures;
+
+    => nrel_etalon_online_idx: [24160];;

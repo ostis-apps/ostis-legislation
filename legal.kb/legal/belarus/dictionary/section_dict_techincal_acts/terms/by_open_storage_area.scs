@@ -1,0 +1,28 @@
+
+by_open_storage_area
+    => nrel_main_idtf: [open storage area] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадка открытого хранения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пляцоўка адкрытага захоўвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_storage_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_storage_location;
+    => nrel_associative_connection: by_dangerous_substances;
+    => nrel_associative_connection: by_industrial_safety_regulations;
+    => nrel_associative_connection: by_territory;
+
+    => nrel_etalon_online_idx: [40056];;

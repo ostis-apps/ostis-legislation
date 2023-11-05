@@ -1,0 +1,29 @@
+
+by_original
+    => nrel_main_idtf: [original] (* <- lang_en;; *);
+    => nrel_main_idtf: [оригинал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арыгінал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_original_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_binding_equipment;
+    => nrel_associative_connection: by_original_layout;
+    => nrel_associative_connection: by_polygraphic_equipment;
+    => nrel_associative_connection: by_polygraphic_production;
+    => nrel_associative_connection: by_polygraphy;
+
+    => nrel_etalon_online_idx: [33564];;

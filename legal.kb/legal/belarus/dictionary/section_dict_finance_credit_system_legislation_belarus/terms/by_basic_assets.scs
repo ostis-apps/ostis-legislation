@@ -1,0 +1,32 @@
+
+by_basic_assets
+    => nrel_main_idtf: [basic assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовые активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавыя актывы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_allocated_assets;
+    => nrel_associative_connection: by_long_term_assets;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_foreign_currency;
+    => nrel_associative_connection: by_marginal_shoulder;
+    => nrel_associative_connection: by_derivative_financial_instrument;
+    => nrel_associative_connection: by_swap;
+    => nrel_associative_connection: by_equity;
+
+    => nrel_etalon_online_idx: [8320];;

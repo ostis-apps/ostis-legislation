@@ -1,0 +1,58 @@
+
+by_heat_supply_contract
+    => nrel_main_idtf: [heat supply contract ] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор теплоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор цеплазабеспячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_supply_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_supply_contract_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscriber_consumer;
+    => nrel_associative_connection: by_emergency_reservation_of_heat_supply;
+    => nrel_associative_connection: by_unaccounted_consumers;
+    => nrel_associative_connection: by_unaccounted_consumer;
+    => nrel_associative_connection: by_hydraulic_stability_of_the_heat_supply_system;
+    => nrel_associative_connection: by_dynamic_optimal_temperature_schedule_of_heat_energy_output;
+    => nrel_associative_connection: by_quality_of_thermal_energy;
+    => nrel_associative_connection: by_quantity_regulation_of_thermal_energy_supply;
+    => nrel_associative_connection: by_parameter_const_value_const_value;
+    => nrel_associative_connection: by_open_heating_system;
+    => nrel_associative_connection: by_consumer_subscriber;
+    => nrel_associative_connection: by_thermal_energy_metering_device;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_system_decentralized_local;
+    => nrel_associative_connection: by_heat_supply_system_centralized;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_heat_supply;
+    => nrel_associative_connection: by_energy_supply_organization;
+    => nrel_associative_connection: by_energy_supply_organization_heat_energy_supplier;
+
+    => nrel_etalon_online_idx: [14293];;

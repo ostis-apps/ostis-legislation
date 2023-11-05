@@ -1,0 +1,37 @@
+
+by_merchant_shipping
+    => nrel_main_idtf: [merchant shipping] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговое мореплавание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвае мараплаўства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_merchant_shipping_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marine_insurance_contract;
+    => nrel_associative_connection: by_cabin_luggage;
+    => nrel_associative_connection: by_contributory_cost;
+    => nrel_associative_connection: by_seaworthiness_of_ship;
+    => nrel_associative_connection: by_maritime_transport_organization_of_general_use;
+    => nrel_associative_connection: by_marine_vessels;
+    => nrel_associative_connection: by_maritime_transport_of_general_use;
+    => nrel_associative_connection: by_seafarers_national_identity_card_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_towing_period;
+    => nrel_associative_connection: by_voyage_of_foreign_navigation_for_belarusian_vessels;
+    => nrel_associative_connection: by_subjects_of_merchant_shipping;
+    => nrel_associative_connection: by_subjects_of_merchant_shipping_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_missing_vessel;
+
+    => nrel_etalon_online_idx: [25088];;

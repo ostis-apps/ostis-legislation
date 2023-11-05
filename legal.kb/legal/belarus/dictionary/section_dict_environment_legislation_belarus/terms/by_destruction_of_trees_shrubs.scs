@@ -1,0 +1,33 @@
+
+by_destruction_of_trees_shrubs
+    => nrel_main_idtf: [destruction of trees, shrubs] (* <- lang_en;; *);
+    => nrel_main_idtf: [уничтожение деревьев, кустарников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знішчэнне дрэў, хмызнякоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_destruction_of_trees_shrubs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_tree;
+    => nrel_associative_connection: by_trees_bushes_in_inappropriate_quality_condition;
+    => nrel_associative_connection: by_trees_damaged_to_the_degree_of_growth_cessation;
+    => nrel_associative_connection: by_trees_damaged_not_to_the_degree_of_growth_stopping;
+    => nrel_associative_connection: by_bush;
+    => nrel_associative_connection: by_bushes;
+    => nrel_associative_connection: by_bushes_damaged_to_the_degree_of_cessation_of_growth;
+    => nrel_associative_connection: by_bushes_damaged_not_to_the_degree_of_cessation_of_growth;
+    => nrel_associative_connection: by_trees_bushes_pruning;
+
+    => nrel_etalon_online_idx: [40028];;

@@ -1,0 +1,29 @@
+
+by_person_replacing_parents
+    => nrel_main_idtf: [person replacing parents] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицо, заменяющее родителей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асоба, якая замяняе бацькоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_person_replacing_parents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_persons_on_which_the_legislation_is_entrusted_fulfilment_of_duties_of_custodians_trustee;
+    => nrel_associative_connection: by_single_parent;
+    => nrel_associative_connection: by_custodial_family;
+    => nrel_associative_connection: by_custodians;
+    => nrel_associative_connection: by_adopting_parents;
+
+    => nrel_etalon_online_idx: [16716];;

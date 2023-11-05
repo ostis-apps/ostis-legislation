@@ -1,0 +1,27 @@
+
+by_unobservable_economy
+    => nrel_main_idtf: [unobservable economy] (* <- lang_en;; *);
+    => nrel_main_idtf: [ненаблюдаемая экономика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неназіраная эканоміка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unobservable_economy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_domestic_workers;
+    => nrel_associative_connection: by_illegal_economic_activity;
+    => nrel_associative_connection: by_branch_of_the_economy;
+
+    => nrel_etalon_online_idx: [27485];;

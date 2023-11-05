@@ -1,0 +1,28 @@
+
+by_by_coating_process
+    => nrel_main_idtf: [by_coating_process] (* <- lang_en;; *);
+    => nrel_main_idtf: [процесс нанесения покрытия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэс нанясення пакрыцця] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_coating_process_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_chemical_production;
+    => nrel_associative_connection: by_strong_mechanical_clutch;
+    => nrel_associative_connection: by_mixtures;
+    => nrel_associative_connection: by_titanium_alloys;
+
+    => nrel_etalon_online_idx: [31017];;

@@ -1,0 +1,31 @@
+
+by_by_inspection_of_foundation_soils
+    => nrel_main_idtf: [by_inspection_of_foundation_soils] (* <- lang_en;; *);
+    => nrel_main_idtf: [обследование грунтов оснований] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абследаванне грунтоў падстаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_inspection_of_foundation_soils_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geodetic_network_for_special_purpose;
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_engineering_and_geological_survey;
+    => nrel_associative_connection: by_engineering_and_topographic_plan;
+    => nrel_associative_connection: by_survey_of_underground_and_aboveground_structures_and_utilities_during_engineering_and_geodetic_surveys;
+    => nrel_associative_connection: by_survey_report;
+    => nrel_associative_connection: by_site_for_construction_object_location_site;
+
+    => nrel_etalon_online_idx: [33905];;

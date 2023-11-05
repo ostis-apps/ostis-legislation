@@ -1,0 +1,29 @@
+
+by_sale
+    => nrel_main_idtf: [sale] (* <- lang_en;; *);
+    => nrel_main_idtf: [распродажа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [распродаж] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sale_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sellingexhibition_of_goods;
+    => nrel_associative_connection: by_sale_of_goods_as_per_specimens;
+    => nrel_associative_connection: by_variety_of_goods;
+    => nrel_associative_connection: by_goods_sale;
+    => nrel_associative_connection: by_commodity_department_section;
+
+    => nrel_etalon_online_idx: [37365];;

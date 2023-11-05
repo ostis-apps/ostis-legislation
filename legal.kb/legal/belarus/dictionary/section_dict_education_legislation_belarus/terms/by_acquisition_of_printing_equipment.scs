@@ -1,0 +1,32 @@
+
+by_acquisition_of_printing_equipment
+    => nrel_main_idtf: [acquisition of printing equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [приобретение печатного оборудования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [набыццё друкарскага абсталявання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acquisition_of_printing_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_printed_edition_manufacturer;
+    => nrel_associative_connection: by_product_of_printed_edition;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_polygraphic_activity;
+    => nrel_associative_connection: by_purchase_of_goods_works_services;
+    => nrel_associative_connection: by_production_equipment;
+    => nrel_associative_connection: by_demand;
+
+    => nrel_etalon_online_idx: [21323];;

@@ -1,0 +1,61 @@
+
+by_transmission_line
+    => nrel_main_idtf: [transmission line] (* <- lang_en;; *);
+    => nrel_main_idtf: [линия передачи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінія перадачы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transmission_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transmission_line_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transmission_line_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_analogue_data_signal_analogue_signal;
+    => nrel_associative_connection: by_antenna;
+    => nrel_associative_connection: by_cable_system;
+    => nrel_associative_connection: by_channel_of_telecommunication_network;
+    => nrel_associative_connection: by_transmission_channel;
+    => nrel_associative_connection: by_linear_tract;
+    => nrel_associative_connection: by_linear_path_of_transmission_system;
+
+    => nrel_etalon_online_idx: [33638];;

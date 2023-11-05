@@ -1,0 +1,26 @@
+
+by_tooth_fracture
+    => nrel_main_idtf: [tooth fracture] (* <- lang_en;; *);
+    => nrel_main_idtf: [перелом зуба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пералом зуба] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tooth_fracture_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dislocation_of_a_tooth;
+    => nrel_associative_connection: by_hereditary_disorders_of_tooth_structure;
+
+    => nrel_etalon_online_idx: [42366];;

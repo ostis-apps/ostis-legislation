@@ -1,0 +1,31 @@
+
+by_swift_system_worldwide_interbank_financial_telecommunications
+    => nrel_main_idtf: [swift system (worldwide interbank financial telecommunications)] (* <- lang_en;; *);
+    => nrel_main_idtf: [система swift (сообщество всемирных межбанковских финансовых телекоммуникаций)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма swift (таварыства сусветных міжбанкаўскіх фінансавых тэлекамунікацый)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_swift_system_worldwide_interbank_financial_telecommunications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_swift_message;
+    => nrel_associative_connection: by_optional_field;
+    => nrel_associative_connection: by_obligatory_field;
+    => nrel_associative_connection: by_format_description;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_message_mt103;
+    => nrel_associative_connection: by_structure_of_swiftmessage;
+
+    => nrel_etalon_online_idx: [23147];;

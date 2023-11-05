@@ -1,0 +1,52 @@
+
+by_airworthiness
+    => nrel_main_idtf: [airworthiness] (* <- lang_en;; *);
+    => nrel_main_idtf: [летная годность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [летная прыгоднасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airworthiness_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airworthiness_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_airworthiness_directive;
+    => nrel_associative_connection: by_controlled_zone;
+    => nrel_associative_connection: by_controlled_flight;
+    => nrel_associative_connection: by_air_and_space_craft;
+    => nrel_associative_connection: by_modification;
+    => nrel_associative_connection: by_nonconformity_of_category_1;
+    => nrel_associative_connection: by_airworthiness_norms;
+    => nrel_associative_connection: by_maintenance_of_airworthiness;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_preflight_inspection;
+    => nrel_associative_connection: by_airworthiness_certificate;
+
+    => nrel_etalon_online_idx: [30625];;

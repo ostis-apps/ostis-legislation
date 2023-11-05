@@ -1,0 +1,50 @@
+
+by_long_term_assets
+    => nrel_main_idtf: [long term assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [долгосрочные активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доўгатэрміновыя актывы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_long_term_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_long_term_assets_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_asset;
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_basic_assets;
+    => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_allocated_assets;
+    => nrel_associative_connection: by_disposal_group;
+    => nrel_associative_connection: by_longterm_asset;
+    => nrel_associative_connection: by_intangible_assets;
+    => nrel_associative_connection: by_unencumbered_assets;
+    => nrel_associative_connection: by_encumbered_assets;
+    => nrel_associative_connection: by_financial_assets;
+
+    => nrel_etalon_online_idx: [14363];;

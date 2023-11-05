@@ -1,0 +1,32 @@
+
+by_overflight
+    => nrel_main_idtf: [overflight] (* <- lang_en;; *);
+    => nrel_main_idtf: [пролет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пралёт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overflight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_towing_cableway;
+    => nrel_associative_connection: by_towing_track;
+    => nrel_associative_connection: by_sending_pulley_block_roller;
+    => nrel_associative_connection: by_bypass_pulley;
+    => nrel_associative_connection: by_support;
+    => nrel_associative_connection: by_passenger_aerial_ropeway;
+    => nrel_associative_connection: by_lights_square_sf_m2;
+    => nrel_associative_connection: by_the_pull_rope;
+
+    => nrel_etalon_online_idx: [21610];;

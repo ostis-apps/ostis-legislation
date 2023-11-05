@@ -1,0 +1,27 @@
+
+by_base_value_of_energy_indicator
+    => nrel_main_idtf: [base value of energy indicator] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовое значение энергетического показателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавае значэнне энергетычнага паказчыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_value_of_energy_indicator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_the_class_of_the_building_according_to_the_general_indicator_of_energy_efficiency;
+    => nrel_associative_connection: by_class_of_the_building_in_terms_of_specific_energy_consumption_for_heating_and_ventilation;
+    => nrel_associative_connection: by_building_class_by_specific_energy_consumption_for_heating_water_in_the_hot_water_supply_system;
+
+    => nrel_etalon_online_idx: [37263];;

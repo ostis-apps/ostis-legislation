@@ -1,0 +1,28 @@
+
+by_operating_mode
+    => nrel_main_idtf: [operating mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [операторный режим работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператарны рэжым працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operating_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nonoperator_mode_of_operation;
+    => nrel_associative_connection: by_contactless_information_carrier;
+    => nrel_associative_connection: by_main_menu;
+    => nrel_associative_connection: by_peripheral_equipment_for_payment_operations_peripheral_equipment;
+
+    => nrel_etalon_online_idx: [30666];;

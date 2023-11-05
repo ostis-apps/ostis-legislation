@@ -1,0 +1,64 @@
+
+by_reorganization
+    => nrel_main_idtf: [reorganization] (* <- lang_en;; *);
+    => nrel_main_idtf: [санация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reorganization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reorganization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reorganization_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_crisis_manager;
+    => nrel_associative_connection: by_department_for_sanation_and_bankruptcy_of_the_ministry_of_economy_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_protect_period;
+    => nrel_associative_connection: by_bankruptcy_proceeding;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_insolvency;
+    => nrel_associative_connection: by_economic_failure;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [1859];;

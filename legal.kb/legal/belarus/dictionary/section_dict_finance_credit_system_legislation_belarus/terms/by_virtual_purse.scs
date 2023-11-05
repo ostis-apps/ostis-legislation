@@ -1,0 +1,36 @@
+
+by_virtual_purse
+    => nrel_main_idtf: [virtual purse] (* <- lang_en;; *);
+    => nrel_main_idtf: [виртуальный кошелек ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [віртуальны кашалёк] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_virtual_purse_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_virtual_card;
+    => nrel_associative_connection: by_digital_sign_owner_token;
+    => nrel_associative_connection: by_cryptocurrency;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_operator_of_cryptoplatform;
+    => nrel_associative_connection: by_platform__of_virtual_gambling_establishment;
+    => nrel_associative_connection: by_soft_and_hardware_item;
+    => nrel_associative_connection: by_placement_of_digital_sign_token;
+    => nrel_associative_connection: by_decision_on_limitation_of_account_transactions_electronic_wallet;
+    => nrel_associative_connection: by_system_of_calculations_using_electronic_money;
+    => nrel_associative_connection: by_digital_sign_token;
+    => nrel_associative_connection: by_electronic_purse;
+
+    => nrel_etalon_online_idx: [27573];;

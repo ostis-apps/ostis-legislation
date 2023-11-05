@@ -1,0 +1,28 @@
+
+by_by_forest_pest_and_disease_pockets
+    => nrel_main_idtf: [by_forest_pest_and_disease_pockets] (* <- lang_en;; *);
+    => nrel_main_idtf: [очаги вредителей и болезней лесов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ачагі шкоднікаў і хвароб лясоў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_forest_pest_and_disease_pockets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_forest_protection_measures;
+    => nrel_associative_connection: by_forest_pathological_state_of_forest_plants;
+    => nrel_associative_connection: by__sanitary_felling;
+    => nrel_associative_connection: by_expeditional_forest_pathological_survey;
+
+    => nrel_etalon_online_idx: [36579];;

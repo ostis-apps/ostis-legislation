@@ -1,0 +1,31 @@
+
+by_provision_for_claimed_but_unsettled_losses
+    => nrel_main_idtf: [provision for claimed but unsettled losses] (* <- lang_en;; *);
+    => nrel_main_idtf: [резерв заявленных, но неурегулированных убытков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзерв заяўленых, але неўрэгуляваных страт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_provision_for_claimed_but_unsettled_losses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sources_of_own_means_of_insurer_insurance_broker;
+    => nrel_associative_connection: by_unearned_premiums_reserve;
+    => nrel_associative_connection: by_provision_for_occurred_but_undeclared_losses;
+    => nrel_associative_connection: by_own_funds_of_the_property_owner_founders_participants_of_the_insurer_insurance_broker;
+    => nrel_associative_connection: by_stabilization_reserve;
+    => nrel_associative_connection: by_losses;
+    => nrel_associative_connection: by_loss;
+
+    => nrel_etalon_online_idx: [22441];;

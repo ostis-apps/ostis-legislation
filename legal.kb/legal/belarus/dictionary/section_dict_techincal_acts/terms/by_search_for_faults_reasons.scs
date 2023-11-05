@@ -1,0 +1,28 @@
+
+by_search_for_faults_reasons
+    => nrel_main_idtf: [search for faults reasons] (* <- lang_en;; *);
+    => nrel_main_idtf: [поиск причин неисправностей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пошук прычын няспраўнасцей] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_search_for_faults_reasons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defect;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_malfunction;
+    => nrel_associative_connection: by_malfunction_malfunctional_state;
+
+    => nrel_etalon_online_idx: [32871];;

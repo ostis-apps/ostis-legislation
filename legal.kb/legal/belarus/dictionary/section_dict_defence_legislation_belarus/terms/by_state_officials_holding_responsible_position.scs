@@ -1,0 +1,34 @@
+
+by_state_officials_holding_responsible_position
+    => nrel_main_idtf: [state officials holding responsible position] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные должностные лица, занимающие ответственное положение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя службовыя асобы, займаючыя адказнае палажэнне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_officials_holding_responsible_position_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_position;
+    => nrel_associative_connection: by_state_officials;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_officials_holding_positions_of_responsibility;
+    => nrel_associative_connection: by_position;
+    => nrel_associative_connection: by_prosecutor;
+    => nrel_associative_connection: by_investigator;
+    => nrel_associative_connection: by_judges;
+    => nrel_associative_connection: by_judge;
+
+    => nrel_etalon_online_idx: [13674];;

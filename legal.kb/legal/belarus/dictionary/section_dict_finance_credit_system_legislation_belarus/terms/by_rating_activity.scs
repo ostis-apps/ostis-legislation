@@ -1,0 +1,30 @@
+
+by_rating_activity
+    => nrel_main_idtf: [rating activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [рейтинговая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэйтынгавая дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rating_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_leading_rating_analyst;
+    => nrel_associative_connection: by_foreign_international_rating_agency;
+    => nrel_associative_connection: by_international_rating_scale;
+    => nrel_associative_connection: by_ordinance_on_elimination_of_violation_of_legislation_on_rating_activities;
+    => nrel_associative_connection: by_rating_agency;
+    => nrel_associative_connection: by_rating_actions;
+
+    => nrel_etalon_online_idx: [32376];;

@@ -1,0 +1,27 @@
+
+by_primary_stability
+    => nrel_main_idtf: [primary stability] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичная устойчивость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасная ўстойлівасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_stability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_phthisiologist;
+    => nrel_associative_connection: by_cure_for_a_cohort_of_patients_with_drugsusceptible_tuberculosis;
+    => nrel_associative_connection: by_drugresistant_tuberculosis_drtb;
+
+    => nrel_etalon_online_idx: [37707];;

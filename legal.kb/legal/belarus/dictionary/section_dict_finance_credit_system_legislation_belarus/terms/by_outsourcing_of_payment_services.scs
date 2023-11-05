@@ -1,0 +1,31 @@
+
+by_outsourcing_of_payment_services
+    => nrel_main_idtf: [outsourcing of payment services] (* <- lang_en;; *);
+    => nrel_main_idtf: [аутсорсинг платежных услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аутсорсінг плацежных паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_outsourcing_of_payment_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outsourcing_of_technological_services;
+    => nrel_associative_connection: by_paid_services_contract;
+    => nrel_associative_connection: by_cash_monetary_means;
+    => nrel_associative_connection: by_national_operator_of_mail_services;
+    => nrel_associative_connection: by_organisation_of_trade_service;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_calculating_center;
+
+    => nrel_etalon_online_idx: [40357];;

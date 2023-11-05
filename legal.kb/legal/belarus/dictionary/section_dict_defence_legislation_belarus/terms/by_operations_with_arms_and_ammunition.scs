@@ -1,0 +1,30 @@
+
+by_operations_with_arms_and_ammunition
+    => nrel_main_idtf: [operations with arms and ammunition] (* <- lang_en;; *);
+    => nrel_main_idtf: [операции с оружием и боеприпасами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыі са зброяй і боепрыпасамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operations_with_arms_and_ammunition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ammunition;
+    => nrel_associative_connection: by_light_weapons;
+    => nrel_associative_connection: by_storage_areas_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_component_parts_and_components_of_the_weapon;
+    => nrel_associative_connection: by_preservation_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_technical_safety_measures;
+
+    => nrel_etalon_online_idx: [31986];;

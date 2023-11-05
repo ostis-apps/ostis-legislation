@@ -1,0 +1,31 @@
+
+by_by_metering_station_for_consumed_water_or_discharged_wastewater
+    => nrel_main_idtf: [by_metering_station_for_consumed_water_or_discharged_wastewater] (* <- lang_en;; *);
+    => nrel_main_idtf: [узел учета потребляемой воды или отводимых сточных вод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вузел уліку спажываемай вады або адвадзімых сцёкавых вод] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_metering_station_for_consumed_water_or_discharged_wastewater_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_liquid_municipal_waste;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_metering_device;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_metering_station;
+
+    => nrel_etalon_online_idx: [25428];;

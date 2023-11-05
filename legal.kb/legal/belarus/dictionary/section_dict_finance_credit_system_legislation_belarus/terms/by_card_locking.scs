@@ -1,0 +1,34 @@
+
+by_card_locking
+    => nrel_main_idtf: [card locking] (* <- lang_en;; *);
+    => nrel_main_idtf: [блокировка карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блакіроўка карткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_card_locking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_bank_payment_card;
+    => nrel_associative_connection: by_contactless_card;
+    => nrel_associative_connection: by_virtual_card;
+    => nrel_associative_connection: by_issue_of_card;
+    => nrel_associative_connection: by_cardholder;
+    => nrel_associative_connection: by_provision_of_card;
+    => nrel_associative_connection: by_card_use;
+    => nrel_associative_connection: by_card_details;
+
+    => nrel_etalon_online_idx: [12797];;

@@ -1,0 +1,40 @@
+
+by_toll_road_user
+    => nrel_main_idtf: [toll road user] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователь платной дороги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнік платнай дарогі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_toll_road_user_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_collateral_cost;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_payment_for_travel_at_onetime_tarifve;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_toll_roads;
+    => nrel_associative_connection: by_border_service_station;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_procedure_for_technological_operation;
+    => nrel_associative_connection: by_travel_with_nonpaid_or_incomplete_paymen;
+    => nrel_associative_connection: by_service_station;
+    => nrel_associative_connection: by_calculated_segment;
+    => nrel_associative_connection: by_due_for_the_passage;
+    => nrel_associative_connection: by_participant_of_road_traffic;
+
+    => nrel_etalon_online_idx: [10803];;

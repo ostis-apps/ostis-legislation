@@ -1,0 +1,61 @@
+
+by_petroleum_products
+    => nrel_main_idtf: [petroleum products] (* <- lang_en;; *);
+    => nrel_main_idtf: [нефтепродукты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нафтапрадукты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_petroleum_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_petroleum_products_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_petroleum_products_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_petroleum_products_storage_container;
+    => nrel_associative_connection: by_oiler;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_delivery_point_of_oil_and_or_oil_products;
+    => nrel_associative_connection: by_warehouses_of_petroleum_products;
+    => nrel_associative_connection: by_the_average_level_of_prices_for_urals_crude_oil_in_the_world_markets_of_crude_oil_for_the_past_tax_period;
+    => nrel_associative_connection: by_legal_entities_of_the_petroleum_supply_system_of_the_republic_of_belarus;
+
+    => nrel_etalon_online_idx: [18187];;

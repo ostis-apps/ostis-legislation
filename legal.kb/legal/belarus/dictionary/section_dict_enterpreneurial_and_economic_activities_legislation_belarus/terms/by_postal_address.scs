@@ -1,0 +1,29 @@
+
+by_postal_address
+    => nrel_main_idtf: [postal address] (* <- lang_en;; *);
+    => nrel_main_idtf: [почтовый адрес ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паштовы адрас] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postal_address_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_postal_code;
+    => nrel_associative_connection: by_postal_route;
+    => nrel_associative_connection: by_universal_services_of_postal_communication;
+    => nrel_associative_connection: by_mail_services;
+    => nrel_associative_connection: by_2_philatelic_products;
+
+    => nrel_etalon_online_idx: [32353];;

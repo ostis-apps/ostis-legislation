@@ -1,0 +1,60 @@
+
+by_familytype_orphanage
+    => nrel_main_idtf: [family-type orphanage] (* <- lang_en;; *);
+    => nrel_main_idtf: [детский дом семейного типа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзіцячы дом сямейнага тыпу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_familytype_orphanage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_familytype_orphanage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_familytype_orphanage_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_children_without_parental_care;
+    => nrel_associative_connection: by_orphaned_children;
+    => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_foster_family_familytype_childrens_home;
+    => nrel_associative_connection: by_special_residential_premises;
+    => nrel_associative_connection: by_preschool_institution;
+
+    => nrel_etalon_online_idx: [5677];;

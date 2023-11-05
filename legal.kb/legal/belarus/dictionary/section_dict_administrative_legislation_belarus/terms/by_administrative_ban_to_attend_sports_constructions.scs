@@ -1,0 +1,27 @@
+
+by_administrative_ban_to_attend_sports_constructions
+    => nrel_main_idtf: [administrative ban to attend sports constructions] (* <- lang_en;; *);
+    => nrel_main_idtf: [административный запрет на посещение физкультурно-спортивных сооружений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйная забарона на наведванне фізкультурна-спартыўных збудаванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_ban_to_attend_sports_constructions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_responsibility;
+    => nrel_associative_connection: by_administrative_arrest;
+    => nrel_associative_connection: by_administrative_control;
+
+    => nrel_etalon_online_idx: [31829];;

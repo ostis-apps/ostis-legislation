@@ -1,0 +1,29 @@
+
+by_model_range_of_road_vehicles
+    => nrel_main_idtf: [model range of road vehicles] (* <- lang_en;; *);
+    => nrel_main_idtf: [модельный ряд дорожных транспортных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мадэльны радок дарожных транспартных сродкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_model_range_of_road_vehicles_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road_vehicle_model;
+    => nrel_associative_connection: by_new_road_vehicle;
+    => nrel_associative_connection: by_normative_time_labor_content_of_repair_works;
+    => nrel_associative_connection: by_primary_road_vehicle_market;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_etalon_online_idx: [31226];;

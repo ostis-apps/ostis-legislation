@@ -1,0 +1,29 @@
+
+by_by_damper
+    => nrel_main_idtf: [by_damper] (* <- lang_en;; *);
+    => nrel_main_idtf: [шибер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шыбер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_damper_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_wild_animals_in_captivity;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_zoo_zoological_park;
+    => nrel_associative_connection: by_culture_and_leisure_parks_city_gardens_zoological_parks_zoological_gardens;
+
+    => nrel_etalon_online_idx: [26395];;

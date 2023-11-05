@@ -1,0 +1,28 @@
+
+by_freezing_cargoes
+    => nrel_main_idtf: [freezing cargoes ] (* <- lang_en;; *);
+    => nrel_main_idtf: [смерзающиеся грузы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змярзаючыя грузы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_freezing_cargoes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cargo_platform;
+    => nrel_associative_connection: by_truck;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+
+    => nrel_etalon_online_idx: [23383];;

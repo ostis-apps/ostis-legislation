@@ -1,0 +1,31 @@
+
+by_wet_runway
+    => nrel_main_idtf: [wet runway] (* <- lang_en;; *);
+    => nrel_main_idtf: [мокрая взлетно-посадочная полоса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мокрая ўзлётна-пасадачная паласа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wet_runway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_runway_unequipped;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_main_runway;
+    => nrel_associative_connection: by_runway_surface_state_descriptors;
+    => nrel_associative_connection: by_contaminated_runway;
+    => nrel_associative_connection: by_final_approach_section;
+
+    => nrel_etalon_online_idx: [38436];;

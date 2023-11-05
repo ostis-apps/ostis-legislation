@@ -1,0 +1,52 @@
+
+by_book
+    => nrel_main_idtf: [book] (* <- lang_en;; *);
+    => nrel_main_idtf: [книга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кніга] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_book_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_book_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_brochure;
+    => nrel_associative_connection: by_newspaper;
+    => nrel_associative_connection: by_magazine;
+    => nrel_associative_connection: by_bookmark_of_economic_books;
+    => nrel_associative_connection: by_inventory_book;
+    => nrel_associative_connection: by_comments_and_suggestions_book;
+    => nrel_associative_connection: by_book_of_honor_of_the_state_security_bodies_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_red_book_of_republic_of_belarus;
+    => nrel_associative_connection: by_multicolor_printing;
+    => nrel_associative_connection: by_printed_editions_of_all_kinds;
+    => nrel_associative_connection: by_release_calendar_of_educational_publications;
+    => nrel_associative_connection: by_breeding_book;
+    => nrel_associative_connection: by_registration_book;
+
+    => nrel_etalon_online_idx: [15952];;

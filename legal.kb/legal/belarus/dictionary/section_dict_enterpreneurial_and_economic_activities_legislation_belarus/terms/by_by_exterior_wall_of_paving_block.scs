@@ -1,0 +1,32 @@
+
+by_by_exterior_wall_of_paving_block
+    => nrel_main_idtf: [by_exterior_wall_of_paving_block] (* <- lang_en;; *);
+    => nrel_main_idtf: [наружная стенка кладочного изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вонкавая сценка кладачнага вырабу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_exterior_wall_of_paving_block_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_reinforced_stonemasonry;
+    => nrel_associative_connection: by_masonry;
+    => nrel_associative_connection: by_masonry_product_product_for_masonry;
+    => nrel_associative_connection: by_unreinforced_masonry;
+    => nrel_associative_connection: by_partition_of_the_masonry_product;
+    => nrel_associative_connection: by_compressive_strength_of_masonry_products;
+    => nrel_associative_connection: by_emptiness;
+    => nrel_associative_connection: by_wall_with_strip_filling_of_horizontal_mortar_joints_with_masonry_mortar;
+
+    => nrel_etalon_online_idx: [38051];;

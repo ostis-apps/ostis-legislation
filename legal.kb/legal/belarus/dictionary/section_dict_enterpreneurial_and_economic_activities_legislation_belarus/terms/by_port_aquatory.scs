@@ -1,0 +1,48 @@
+
+by_port_aquatory
+    => nrel_main_idtf: [port aquatory] (* <- lang_en;; *);
+    => nrel_main_idtf: [акватория порта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акваторыя порта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_port_aquatory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_port_aquatory_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basin;
+    => nrel_associative_connection: by_inland_waterways;
+    => nrel_associative_connection: by_inland_water_transport;
+    => nrel_associative_connection: by_inland_public_water_transport;
+    => nrel_associative_connection: by_port;
+    => nrel_associative_connection: by_public_port;
+    => nrel_associative_connection: by_raid;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+
+    => nrel_etalon_online_idx: [12398];;

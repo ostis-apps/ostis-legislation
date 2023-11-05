@@ -1,0 +1,30 @@
+
+by_control_assay
+    => nrel_main_idtf: [control assay] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольная проба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольная проба] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_assay_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_united_assay;
+    => nrel_associative_connection: by_assay;
+    => nrel_associative_connection: by_sample_of_seeds;
+    => nrel_associative_connection: by_test_of_forest_plant_seeds;
+    => nrel_associative_connection: by_test_of_agricultural_plants_seeds;
+    => nrel_associative_connection: by_onetime_sample_spot;
+
+    => nrel_etalon_online_idx: [16244];;

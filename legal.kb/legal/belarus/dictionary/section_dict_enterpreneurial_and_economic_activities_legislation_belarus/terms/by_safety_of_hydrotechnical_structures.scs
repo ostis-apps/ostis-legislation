@@ -1,0 +1,43 @@
+
+by_safety_of_hydrotechnical_structures
+    => nrel_main_idtf: [safety of hydrotechnical structures] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасность гидротехнических сооружений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспека гідратэхнічных збудаванняў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_of_hydrotechnical_structures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_of_hydrotechnical_structures_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structures_and_devices;
+    => nrel_associative_connection: by_permissible_level_of_accident_risk_of_hydraulic_engineering_structure;
+
+    => nrel_etalon_online_idx: [8378];;

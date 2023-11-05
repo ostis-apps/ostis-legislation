@@ -1,0 +1,32 @@
+
+by_other_employees_of_education_institutions
+    => nrel_main_idtf: [other employees of education institutions] (* <- lang_en;; *);
+    => nrel_main_idtf: [иные работники учреждений образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншыя работнікі ўстаноў адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_employees_of_education_institutions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_other_employees_of_the_institution_of_professional_and_technical_education;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_educators;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_rally;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_education_institutions;
+
+    => nrel_etalon_online_idx: [15528];;

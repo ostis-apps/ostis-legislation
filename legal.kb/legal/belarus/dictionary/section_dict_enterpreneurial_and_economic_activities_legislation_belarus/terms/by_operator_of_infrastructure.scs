@@ -1,0 +1,60 @@
+
+by_operator_of_infrastructure
+    => nrel_main_idtf: [operator of infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [оператор инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператар інфраструктуры] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_of_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_of_infrastructure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_of_infrastructure_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_access_to_infrastructure_services;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_infrastructure_object;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_infrastructure_services;
+
+    => nrel_etalon_online_idx: [18996];;

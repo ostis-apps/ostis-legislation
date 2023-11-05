@@ -1,0 +1,27 @@
+
+by_center_for_attributes_certificates
+    => nrel_main_idtf: [center for attributes certificates] (* <- lang_en;; *);
+    => nrel_main_idtf: [центр атрибутных сертификатов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтр атрыбутных сертыфікатаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_center_for_attributes_certificates_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attributed_certificate;
+    => nrel_associative_connection: by_certificate_owner;
+    => nrel_associative_connection: by_center;
+
+    => nrel_etalon_online_idx: [26222];;

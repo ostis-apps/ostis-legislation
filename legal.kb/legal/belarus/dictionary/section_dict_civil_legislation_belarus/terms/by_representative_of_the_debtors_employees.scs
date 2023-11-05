@@ -1,0 +1,35 @@
+
+by_representative_of_the_debtors_employees
+    => nrel_main_idtf: [representative of the debtor's employees] (* <- lang_en;; *);
+    => nrel_main_idtf: [представитель работников должника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнік работнікаў даўжніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_of_the_debtors_employees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_interested_persons_in_regard_to_debtor__individual_entrepreneur;
+    => nrel_associative_connection: by_interested_parties_in_relation_to_the_debtor__individual_entrepreneur;
+    => nrel_associative_connection: by_interested_parties_in_relation_to_the_debtor__legal_entity;
+    => nrel_associative_connection: by_debtor_in_liquidation;
+    => nrel_associative_connection: by_objects_of_intellectual_property;
+    => nrel_associative_connection: by_representative;
+    => nrel_associative_connection: by_head_of_the_debtor;
+    => nrel_associative_connection: by_head_of_the_debtor__legal_entity;
+    => nrel_associative_connection: by_economic_failure;
+
+    => nrel_etalon_online_idx: [7676];;

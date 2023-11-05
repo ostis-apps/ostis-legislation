@@ -1,0 +1,58 @@
+
+by_medical_inspection
+    => nrel_main_idtf: [medical inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинский осмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскі агляд] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_inspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_inspection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_address_of_ambulance_brigade_call;
+    => nrel_associative_connection: by_ambulatory_call_of_ambulance_brigade;
+    => nrel_associative_connection: by_noresults_departure_of_an_ambulance_team;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_medical_expertise;
+    => nrel_associative_connection: by_diagnosis;
+    => nrel_associative_connection: by_dispensary_observation;
+    => nrel_associative_connection: by_dispensary_medical_checkup;
+    => nrel_associative_connection: by_healthcare;
+    => nrel_associative_connection: by_clinical_diagnosis;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_medical_activity;
+    => nrel_associative_connection: by_medical_intervention;
+    => nrel_associative_connection: by_patient;
+    => nrel_associative_connection: by_the_first_group_of_health_i;
+    => nrel_associative_connection: by_periodic_mandatory_medical_inspection_of_workers;
+    => nrel_associative_connection: by_periodical_medical_inspection;
+    => nrel_associative_connection: by_planned_routine_medical_care;
+    => nrel_associative_connection: by_indepth_medical_examination;
+
+    => nrel_etalon_online_idx: [1758];;

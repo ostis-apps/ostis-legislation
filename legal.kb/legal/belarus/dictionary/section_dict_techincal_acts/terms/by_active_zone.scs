@@ -1,0 +1,29 @@
+
+by_active_zone
+    => nrel_main_idtf: [active zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [активная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [актыўная зона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_active_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_maximum_reactivity_margin;
+    => nrel_associative_connection: by_modification_restructuring_of_a_subcritical_assembly;
+    => nrel_associative_connection: by_core_overload_overload;
+    => nrel_associative_connection: by_reactor_plant;
+    => nrel_associative_connection: by_nuclear_fuel;
+
+    => nrel_etalon_online_idx: [38513];;

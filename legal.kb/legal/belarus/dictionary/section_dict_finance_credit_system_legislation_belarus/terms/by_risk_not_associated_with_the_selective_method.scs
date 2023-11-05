@@ -1,0 +1,40 @@
+
+by_risk_not_associated_with_the_selective_method
+    => nrel_main_idtf: [risk not associated with the selective method] (* <- lang_en;; *);
+    => nrel_main_idtf: [риск, не связанный с применением выборочного способа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рызыка, не звязаная з прымяненнем выбарачнага спосабу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_not_associated_with_the_selective_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audit_risk;
+    => nrel_associative_connection: by_sampling_method;
+    => nrel_associative_connection: by_error;
+    => nrel_associative_connection: by_anomalous_error;
+    => nrel_associative_connection: by_sampling_error;
+    => nrel_associative_connection: by_sampling_error_representative_error;
+    => nrel_associative_connection: by_permissible_error;
+    => nrel_associative_connection: by_expected_error;
+    => nrel_associative_connection: by_representative_error;
+    => nrel_associative_connection: by_audited_population;
+    => nrel_associative_connection: by_risk_of_distortion_of_information;
+    => nrel_associative_connection: by_risk_of_not_detecting_material_distortions_in_accounting_and_or_financial_statements;
+    => nrel_associative_connection: by_risk_of_material_mistortion_in_accounting_andor_financial_statements;
+    => nrel_associative_connection: by_risk_of_economic_activity;
+    => nrel_associative_connection: by_risk_of_environmental_issues;
+    => nrel_associative_connection: by_risk_associated_with_the_selective_method;
+
+    => nrel_etalon_online_idx: [22651];;

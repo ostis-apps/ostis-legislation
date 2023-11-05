@@ -1,0 +1,30 @@
+
+by_illegalfishery
+    => nrel_main_idtf: [illegal	fishery] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконное рыболовство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незаконнае рыбалоўства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegalfishery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_use_of_mechanical_ground_water_or_air_vehicles_in_illegal_hunting;
+    => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_search_of_fish;
+    => nrel_associative_connection: by_commercial_fishing;
+    => nrel_associative_connection: by_fishing_gear;
+    => nrel_associative_connection: by_fishery;
+
+    => nrel_etalon_online_idx: [17994];;

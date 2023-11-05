@@ -1,0 +1,61 @@
+
+by_written_evidence
+    => nrel_main_idtf: [written evidence] (* <- lang_en;; *);
+    => nrel_main_idtf: [письменные доказательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пісьмовыя доказы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_written_evidence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_written_evidence_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_written_evidence_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_evidence;
+    => nrel_associative_connection: by_evidence_in_the_case;
+    => nrel_associative_connection: by_evidentiary_material;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_subjects_and_documents;
+    => nrel_associative_connection: by_verification_of_evidence;
+    => nrel_associative_connection: by_means_of_proof;
+
+    => nrel_etalon_online_idx: [555];;

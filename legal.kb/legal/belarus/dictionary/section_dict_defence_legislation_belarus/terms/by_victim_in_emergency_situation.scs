@@ -1,0 +1,37 @@
+
+by_victim_in_emergency_situation
+    => nrel_main_idtf: [victim in emergency situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [пострадавший в чрезвычайной ситуации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пацярпеўшы у надзвычайнай сітуацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_victim_in_emergency_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_citizens_affected__by_the_chernobyl_catastrophe_other_radiation_accidents;
+    => nrel_associative_connection: by_children_of_citizens_affected_by_the_chernobyl_catastrophe_other_radiation_accidents;
+    => nrel_associative_connection: by_persons_affected_by_an_explosion;
+    => nrel_associative_connection: by_persons_affected_by_the_terrorism_act;
+    => nrel_associative_connection: by_persons_affected_by_consequences_of_wars;
+    => nrel_associative_connection: by_mobile_medical_complex;
+    => nrel_associative_connection: by_lost_destroyed_property;
+    => nrel_associative_connection: by_killed_on_fire;
+    => nrel_associative_connection: by_affected_in_emergency_situation;
+    => nrel_associative_connection: by_republican_state_emergency_situation;
+    => nrel_associative_connection: by_emergency_medical_service;
+    => nrel_associative_connection: by_emergency_medical_service_in_emergency_situations;
+    => nrel_associative_connection: by_destroyed_dead_property;
+
+    => nrel_etalon_online_idx: [20790];;

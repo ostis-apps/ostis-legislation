@@ -1,0 +1,29 @@
+
+by_base_year
+    => nrel_main_idtf: [base year] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый год] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы год] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_year_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structures_buildings_constructions;
+    => nrel_associative_connection: by_value_appraisal;
+    => nrel_associative_connection: by_halfyear;
+    => nrel_associative_connection: by_forecast;
+
+    => nrel_etalon_online_idx: [37964];;

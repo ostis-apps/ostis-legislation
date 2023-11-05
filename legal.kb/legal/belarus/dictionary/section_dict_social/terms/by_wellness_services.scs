@@ -1,0 +1,45 @@
+
+by_wellness_services
+    => nrel_main_idtf: [wellness services] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги по оздоровлению] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі па аздараўленні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wellness_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wellness_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_commission_of_rehabilitation_and_resortrecreation_treatment_of_the_population;
+    => nrel_associative_connection: by_recreational_organizations;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_health_recreation_and_resort_organizations;
+    => nrel_associative_connection: by_status_of_the_organization;
+    => nrel_associative_connection: by_services_on_sanatorium_and_resort_treatment;
+
+    => nrel_etalon_online_idx: [39862];;

@@ -1,0 +1,32 @@
+
+by_funding_liquidity_risk
+    => nrel_main_idtf: [funding liquidity risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [риск фондирования ликвидности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рызыка фандавання ліквіднасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_funding_liquidity_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_pledge;
+    => nrel_associative_connection: by_liquidity;
+    => nrel_associative_connection: by_liquidity_line;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_required_liquidity;
+    => nrel_associative_connection: by_actual_liquidity;
+
+    => nrel_etalon_online_idx: [9688];;

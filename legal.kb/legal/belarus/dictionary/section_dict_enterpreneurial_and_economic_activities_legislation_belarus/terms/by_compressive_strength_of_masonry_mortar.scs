@@ -1,0 +1,28 @@
+
+by_compressive_strength_of_masonry_mortar
+    => nrel_main_idtf: [compressive strength of masonry mortar] (* <- lang_en;; *);
+    => nrel_main_idtf: [прочность на сжатие кладочного раствора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [моц на скарачэнне кладачнага раствору] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compressive_strength_of_masonry_mortar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_partition_of_the_masonry_product;
+    => nrel_associative_connection: by_reduced_normalized_compressive_strength_of_masonry_products;
+    => nrel_associative_connection: by_masonry_compressive_strength;
+    => nrel_associative_connection: by_adherence_strength_of_reinforcement_with_concrete;
+
+    => nrel_etalon_online_idx: [38066];;

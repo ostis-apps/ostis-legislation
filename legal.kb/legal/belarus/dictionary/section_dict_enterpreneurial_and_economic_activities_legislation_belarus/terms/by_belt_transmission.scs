@@ -1,0 +1,36 @@
+
+by_belt_transmission
+    => nrel_main_idtf: [belt transmission] (* <- lang_en;; *);
+    => nrel_main_idtf: [ленточная передача] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стужачная перадача] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_belt_transmission_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wave_screw_transmission_sealed_translational_drive;
+    => nrel_associative_connection: by_wave_gear_train;
+    => nrel_associative_connection: by_wave_friction_gear;
+    => nrel_associative_connection: by_link;
+    => nrel_associative_connection: by_beltscrew_transmission;
+    => nrel_associative_connection: by_transfer;
+    => nrel_associative_connection: by_planetary_screw_gear;
+    => nrel_associative_connection: by_planetary_gear_train;
+    => nrel_associative_connection: by_potentiometric_transmission;
+    => nrel_associative_connection: by_belt_gear;
+    => nrel_associative_connection: by_beltscrew_transmission;
+    => nrel_associative_connection: by_chain_transmission;
+
+    => nrel_etalon_online_idx: [39660];;

@@ -1,0 +1,45 @@
+
+by_aprobator
+    => nrel_main_idtf: [aprobator] (* <- lang_en;; *);
+    => nrel_main_idtf: [апробатор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апрабатар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aprobator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aprobator_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_approbation_characteristics;
+    => nrel_associative_connection: by_approbation;
+    => nrel_associative_connection: by_approbation_of_agricultural_plants;
+    => nrel_associative_connection: by_test_of_agricultural_plants_seeds;
+    => nrel_associative_connection: by_agricultural_plants;
+    => nrel_associative_connection: by_specialist;
+
+    => nrel_etalon_online_idx: [12507];;

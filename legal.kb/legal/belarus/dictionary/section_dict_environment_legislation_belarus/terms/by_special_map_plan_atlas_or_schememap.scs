@@ -1,0 +1,28 @@
+
+by_special_map_plan_atlas_or_schememap
+    => nrel_main_idtf: [special map, plan, atlas or scheme-map] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальные карта, план, атлас или карта-схема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльныя карта, план, атлас або карта-схема] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_map_plan_atlas_or_schememap_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_copying;
+    => nrel_associative_connection: by_publication_of_maps_and_plans;
+    => nrel_associative_connection: by_cardcircuit;
+    => nrel_associative_connection: by_thematic_map_plan_atlas_or_scheme_map;
+
+    => nrel_etalon_online_idx: [23823];;

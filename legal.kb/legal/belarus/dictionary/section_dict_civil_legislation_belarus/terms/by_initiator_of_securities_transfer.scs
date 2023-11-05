@@ -1,0 +1,32 @@
+
+by_initiator_of_securities_transfer
+    => nrel_main_idtf: [initiator of securities transfer] (* <- lang_en;; *);
+    => nrel_main_idtf: [инициатор перевода ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ініцыятар пераводу каштоўных папер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_initiator_of_securities_transfer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_questionnaire_for_emission_securities_issue;
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_depot_account_entry;
+    => nrel_associative_connection: by_interdepositary_transfer_of_securities;
+    => nrel_associative_connection: by_transfer_of_securities;
+    => nrel_associative_connection: by_instruction_depot;
+    => nrel_associative_connection: by_directory_of_securities;
+    => nrel_associative_connection: by_security;
+
+    => nrel_etalon_online_idx: [15301];;

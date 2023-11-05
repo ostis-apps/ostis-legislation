@@ -1,0 +1,43 @@
+
+by_term_of_temporary_disability
+    => nrel_main_idtf: [term of temporary disability] (* <- lang_en;; *);
+    => nrel_main_idtf: [срок временной нетрудоспособности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмін часовай непрацаздольнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_term_of_temporary_disability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_term_of_temporary_disability_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_document_certificating_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_period_of_temporary_disability;
+    => nrel_associative_connection: by_extension_of_the_certificate_of_incapacity_for_work_certificate;
+
+    => nrel_etalon_online_idx: [11105];;

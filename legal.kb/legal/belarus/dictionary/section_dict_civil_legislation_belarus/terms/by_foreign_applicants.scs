@@ -1,0 +1,31 @@
+
+by_foreign_applicants
+    => nrel_main_idtf: [foreign applicants] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранный заявитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежны заяўнік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_applicants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_competent_authority;
+    => nrel_associative_connection: by_national_applicant;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_official_bulletin;
+
+    => nrel_etalon_online_idx: [33986];;

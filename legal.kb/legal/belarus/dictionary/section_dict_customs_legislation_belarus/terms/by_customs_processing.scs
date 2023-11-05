@@ -1,0 +1,45 @@
+
+by_customs_processing
+    => nrel_main_idtf: [customs processing] (* <- lang_en;; *);
+    => nrel_main_idtf: [таможенное оформление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мытнае афармленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_processing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_processing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_periodic_statistical_declaration;
+    => nrel_associative_connection: by_point_of_entry;
+    => nrel_associative_connection: by_point_of_exit;
+    => nrel_associative_connection: by_customs_clearance_station;
+    => nrel_associative_connection: by_customs_clearance_expert;
+    => nrel_associative_connection: by_customs_duty_for_customs_clearance;
+
+    => nrel_etalon_online_idx: [2050];;

@@ -1,0 +1,29 @@
+
+by_testee
+    => nrel_main_idtf: [testee] (* <- lang_en;; *);
+    => nrel_main_idtf: [испытуемый] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падыспытны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_testee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_test_identification_code;
+    => nrel_associative_connection: by_individual_registration_map_of_the_tested;
+    => nrel_associative_connection: by_clinical_trials;
+    => nrel_associative_connection: by_randomisation;
+    => nrel_associative_connection: by_participant;
+
+    => nrel_etalon_online_idx: [9219];;

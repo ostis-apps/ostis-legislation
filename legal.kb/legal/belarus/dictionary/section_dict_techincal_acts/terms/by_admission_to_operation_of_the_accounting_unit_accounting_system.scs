@@ -1,0 +1,29 @@
+
+by_admission_to_operation_of_the_accounting_unit_accounting_system
+    => nrel_main_idtf: [admission to operation of the accounting unit (accounting system)] (* <- lang_en;; *);
+    => nrel_main_idtf: [допуск в эксплуатацию узла учета (системы учета)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [допуск у эксплуатацыю вузла ўліку (сістэмы ўліку)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_admission_to_operation_of_the_accounting_unit_accounting_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_malfunction_of_metering_devices_of_the_metering_unit;
+    => nrel_associative_connection: by_heat_network;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_metering_station;
+
+    => nrel_etalon_online_idx: [39028];;

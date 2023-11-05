@@ -1,0 +1,28 @@
+
+by_documents_on_delimitation
+    => nrel_main_idtf: [documents on delimitation] (* <- lang_en;; *);
+    => nrel_main_idtf: [документы по делимитации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументы па дэлімітацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documents_on_delimitation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_border;
+    => nrel_associative_connection: by_standby_reference_map_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_delimitation_of_the_state_frontier;
+    => nrel_associative_connection: by_delimitation_card_sheet;
+
+    => nrel_etalon_online_idx: [38736];;

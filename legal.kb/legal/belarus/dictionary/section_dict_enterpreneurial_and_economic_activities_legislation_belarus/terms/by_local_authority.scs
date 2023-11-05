@@ -1,0 +1,15 @@
+
+by_local_authority
+    => nrel_main_idtf: [local authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [местный орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовы орган] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_administrative_center_of_administrativeterritorial_unit;
+    => nrel_associative_connection: by_state_initiator;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_concerned_authority;
+    => nrel_associative_connection: by_minsk_city_executive_committee;
+
+    => nrel_etalon_online_idx: [10307];;

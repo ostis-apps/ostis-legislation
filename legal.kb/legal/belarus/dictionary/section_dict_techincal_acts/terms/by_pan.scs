@@ -1,0 +1,47 @@
+
+by_pan
+    => nrel_main_idtf: [pan] (* <- lang_en;; *);
+    => nrel_main_idtf: [поддон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паддон] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pan_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_capacity_of_the_loading_place_unloading_front_size;
+    => nrel_associative_connection: by_cargo_luggage;
+    => nrel_associative_connection: by_cargo_sending;
+    => nrel_associative_connection: by_place_front_of_loading_unloading;
+    => nrel_associative_connection: by_place_for_luggage_for_cargo;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_cargo_packaging_tool;
+    => nrel_associative_connection: by_transport_package;
+
+    => nrel_etalon_online_idx: [20366];;

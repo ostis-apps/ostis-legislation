@@ -1,0 +1,30 @@
+
+by_industrial_waste_waters_not_requiring_treatment
+    => nrel_main_idtf: [industrial waste waters not requiring treatment] (* <- lang_en;; *);
+    => nrel_main_idtf: [не требующие очистки производственные сточные воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчыя сцёкавыя воды, якія не патрабуюць ачысткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_waste_waters_not_requiring_treatment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_disposal;
+    => nrel_associative_connection: by_industrial_waste_waters_treated_to_standard_quality;
+    => nrel_associative_connection: by_wastewater_treatment_facilities_of_the_settlement_wastewater_treatment_plant;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_conditionally_clean_industrial_wastewater;
+
+    => nrel_etalon_online_idx: [11975];;

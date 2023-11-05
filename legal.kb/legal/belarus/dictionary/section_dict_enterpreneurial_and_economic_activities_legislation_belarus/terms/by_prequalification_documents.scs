@@ -1,0 +1,14 @@
+
+by_prequalification_documents
+    => nrel_main_idtf: [prequalification documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [предквалификационные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадкваліфікацыйныя дакументы] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_state_procurement;
+    => nrel_associative_connection: by_documentation_for_preliminary_qualification_selection_of_bidders;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_bidding;
+
+    => nrel_etalon_online_idx: [5174];;

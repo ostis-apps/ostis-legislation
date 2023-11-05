@@ -1,0 +1,30 @@
+
+by_cost_of_cash_items
+    => nrel_main_idtf: [cost of cash items] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость денежных статей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт грашовых артыкулаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_cash_items_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_monetary_items;
+    => nrel_associative_connection: by_foreign_currency;
+    => nrel_associative_connection: by_noncash_items;
+    => nrel_associative_connection: by_cost;
+
+    => nrel_etalon_online_idx: [24240];;

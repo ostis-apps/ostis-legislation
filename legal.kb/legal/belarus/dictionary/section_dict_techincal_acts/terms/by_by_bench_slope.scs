@@ -1,0 +1,30 @@
+
+by_by_bench_slope
+    => nrel_main_idtf: [by_bench_slope] (* <- lang_en;; *);
+    => nrel_main_idtf: [откос уступа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкос уступа] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_bench_slope_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_berm;
+    => nrel_associative_connection: by_safety_berm;
+    => nrel_associative_connection: by_board_of_the_career;
+    => nrel_associative_connection: by_flattening_slopes;
+    => nrel_associative_connection: by_landslide;
+    => nrel_associative_connection: by_planning_works;
+
+    => nrel_etalon_online_idx: [34192];;

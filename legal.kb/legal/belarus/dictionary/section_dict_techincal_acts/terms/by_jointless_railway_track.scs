@@ -1,0 +1,33 @@
+
+by_jointless_railway_track
+    => nrel_main_idtf: [jointless railway track] (* <- lang_en;; *);
+    => nrel_main_idtf: [бесстыковой железнодорожный путь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бесстыкавы чыгуначны шлях] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_jointless_railway_track_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_side_railway;
+    => nrel_associative_connection: by_main_railways;
+    => nrel_associative_connection: by_duty_officer_at_the_railway_station;
+    => nrel_associative_connection: by_unit_of_railway_rolling_stock;
+    => nrel_associative_connection: by_unit_of_rolling_stock;
+    => nrel_associative_connection: by_railway_crossing;
+    => nrel_associative_connection: by_railway_pedestrian_crossing;
+    => nrel_associative_connection: by_railway;
+    => nrel_associative_connection: by_freight_train_index;
+
+    => nrel_etalon_online_idx: [33878];;

@@ -1,0 +1,65 @@
+
+by_offences
+    => nrel_main_idtf: [offences] (* <- lang_en;; *);
+    => nrel_main_idtf: [правонарушения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [правапарушэнні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_offences_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_offence_committed_by_negligence;
+    => nrel_associative_connection: by_administrative_offence_committed_deliberately;
+    => nrel_associative_connection: by_gross_administrative_offenses;
+    => nrel_associative_connection: by_proceedings_of_an_administrative_offence;
+    => nrel_associative_connection: by_act_committed_on_a_large_size;
+    => nrel_associative_connection: by_disciplinary_fault;
+    => nrel_associative_connection: by_continuous_administrative_offence;
+    => nrel_associative_connection: by_evidence_related_to_the_case_of_an_administrative_offense;
+    => nrel_associative_connection: by_unified_state_system_of_offences_registration_and__record;
+    => nrel_associative_connection: by_unified_state_databank_on_offences;
+    => nrel_associative_connection: by_filling_the_registration_card;
+    => nrel_associative_connection: by_significant_administrative_offence;
+    => nrel_associative_connection: by_significant_amount_of_consumers_deception;
+    => nrel_associative_connection: by_individual_crime_prevention;
+    => nrel_associative_connection: by_large_size_of_monetary_funds;
+    => nrel_associative_connection: by_person_who_subjected_to_administrative_penalty;
+    => nrel_associative_connection: by_minor_case;
+    => nrel_associative_connection: by_violator;
+    => nrel_associative_connection: by_general_crime_prevention;
+    => nrel_associative_connection: by_obligation_of_a_minor_to_repair_the_damage_caused;
+    => nrel_associative_connection: by_minors_obligation_to_apologize;
+    => nrel_associative_connection: by_consummated_administrative_offence;
+    => nrel_associative_connection: by_repetition_of_administrative_violations;
+    => nrel_associative_connection: by_attempt;
+    => nrel_associative_connection: by_attempt_to_commit_administrative_offence;
+    => nrel_associative_connection: by_attempt_to_commit_an_administrative_offense;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences_in_economic_sphere;
+    => nrel_associative_connection: by_provision_of_information_on_offenses;
+    => nrel_associative_connection: by_prevention_of_child_neglect_and_juvenile_delinquency;
+    => nrel_associative_connection: by_prevention_of_violations;
+    => nrel_associative_connection: by_registration_of_offences;
+    => nrel_associative_connection: by_aggregate_of_administrative_violations;
+    => nrel_associative_connection: by_special_system;
+    => nrel_associative_connection: by_average_speed;
+    => nrel_associative_connection: by_cost_of_the_subject_of_the_administrative_infringement;
+    => nrel_associative_connection: by_oral_remark;
+    => nrel_associative_connection: by_accounting_of_statements_and_reports_of_crimes_and_administrative_offenses;
+    => nrel_associative_connection: by_record_of_offences;
+    => nrel_associative_connection: by_fixation_of_data_on_offences;
+
+    => nrel_etalon_online_idx: [690];;

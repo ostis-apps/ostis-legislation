@@ -1,0 +1,30 @@
+
+by_psychological_problem
+    => nrel_main_idtf: [psychological problem] (* <- lang_en;; *);
+    => nrel_main_idtf: [психологическая проблема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псіхалагічная праблема] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychological_problem_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_protection_within_the_framework_of_this_specialty;
+    => nrel_associative_connection: by_interdepartmental_council_for_problems_of_dissertation_researches_in_the_area_of_law;
+    => nrel_associative_connection: by_teacherpsychologist;
+    => nrel_associative_connection: by_problem;
+    => nrel_associative_connection: by_psychological_help;
+    => nrel_associative_connection: by_psychological_prevention;
+
+    => nrel_etalon_online_idx: [6734];;

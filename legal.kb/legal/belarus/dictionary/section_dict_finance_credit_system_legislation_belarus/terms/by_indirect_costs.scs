@@ -1,0 +1,31 @@
+
+by_indirect_costs
+    => nrel_main_idtf: [indirect costs] (* <- lang_en;; *);
+    => nrel_main_idtf: [косвенные затраты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ускосныя выдаткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_indirect_costs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_costs;
+    => nrel_associative_connection: by_accruals_method;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_production;
+    => nrel_associative_connection: by_direct_costs;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_economic_benefits;
+
+    => nrel_etalon_online_idx: [16358];;

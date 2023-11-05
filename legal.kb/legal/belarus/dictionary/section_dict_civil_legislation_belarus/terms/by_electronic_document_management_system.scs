@@ -1,0 +1,64 @@
+
+by_electronic_document_management_system
+    => nrel_main_idtf: [electronic document management system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система электронного документооборота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма электроннага дакументаабарота] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_document_management_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_document_management_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_document_management_system_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ediprovider;
+    => nrel_associative_connection: by_subscriber_of_the_interdepartmental_electronic_document_flow_system;
+    => nrel_associative_connection: by_departmental_electronic_document_flow_system;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_circulation_of_documents;
+    => nrel_associative_connection: by_operator_of_the_interdepartmental_electronic_document_flow_system;
+    => nrel_associative_connection: by_check_of_authenticity_of_electronic_document_email_message;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_system_of_the_interdepartmental_informational_interaction_of_state_bodies_and_other_state_organizations;
+    => nrel_associative_connection: by_electronic_document;
+
+    => nrel_etalon_online_idx: [9697];;

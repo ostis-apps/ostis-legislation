@@ -1,0 +1,33 @@
+
+by_jackpot
+    => nrel_main_idtf: [jackpot] (* <- lang_en;; *);
+    => nrel_main_idtf: [джекпот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [джэкпот] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_jackpot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_external_system;
+    => nrel_associative_connection: by_win;
+    => nrel_associative_connection: by_winning_fund_of_totalizator;
+    => nrel_associative_connection: by_jackpot_system;
+    => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_the_difference_between_the_amount_of_accepted_gambling_bets_and_the_amount_of_paid_winnings_returned_nonplayed_bets;
+    => nrel_associative_connection: by_drawing_the_winning_fund;
+    => nrel_associative_connection: by_system_of_formation_of_additional_winning;
+    => nrel_associative_connection: by_actually_pledged_average_percentage_of_cash_winning_of_the_game_machine;
+
+    => nrel_etalon_online_idx: [30922];;

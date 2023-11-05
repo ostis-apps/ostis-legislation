@@ -1,0 +1,30 @@
+
+by_efficiency_of_medical_products_and_medical_equipment
+    => nrel_main_idtf: [efficiency of medical products and medical equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [эффективность изделий медицинского назначения и медицинской техники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эфектыўнасць вырабаў медыцынскага прызначэння і медыцынскай тэхнікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_efficiency_of_medical_products_and_medical_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registration_of_medical_devices_and_medical_equipment;
+    => nrel_associative_connection: by_state_registry_of_medical_purpose_products_and_medical_equipment_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_investigational_article_intended_for_medical_purposes_and_medical_equipment;
+    => nrel_associative_connection: by_quality_of_articles_intended_for_medical_purposes_and_medical_equipment;
+    => nrel_associative_connection: by_control_article_intended_for_medical_purposes_or_medical_equipment;
+    => nrel_associative_connection: by_medical_equipment;
+
+    => nrel_etalon_online_idx: [26765];;

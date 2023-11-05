@@ -1,0 +1,29 @@
+
+by_payment_instrument_that_ensures_the_use_of_the_card
+    => nrel_main_idtf: [payment instrument that ensures the use of the card] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный инструмент, обеспечивающий использование карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны інструмент, які забяспечвае выкарыстанне карткі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_instrument_that_ensures_the_use_of_the_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_other_payment_instruments;
+    => nrel_associative_connection: by_payment_instrument;
+    => nrel_associative_connection: by_payment_instrument_for_issuance_and_use_of_the_card;
+    => nrel_associative_connection: by_distribution_of_a_payment_instrument_ensuring_the_issue_and_use_of_a_card_or_the_use_of_a_card;
+    => nrel_associative_connection: by_card_issue;
+
+    => nrel_etalon_online_idx: [41790];;

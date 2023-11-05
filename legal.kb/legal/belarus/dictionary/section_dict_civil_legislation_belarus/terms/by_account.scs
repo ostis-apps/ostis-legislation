@@ -1,0 +1,29 @@
+
+by_account
+    => nrel_main_idtf: [account] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет в банке  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак у банку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_total_amount_of_payers_unexecuted_monetary_obligations;
+    => nrel_associative_connection: by_fund_bodies;
+    => nrel_associative_connection: by_direct_participant_of_the_automated_information_system_for_the_fulfillment_of_monetary_obligations;
+    => nrel_associative_connection: by_bank_account_financial_information_transfer_system;
+
+    => nrel_etalon_online_idx: [31382];;

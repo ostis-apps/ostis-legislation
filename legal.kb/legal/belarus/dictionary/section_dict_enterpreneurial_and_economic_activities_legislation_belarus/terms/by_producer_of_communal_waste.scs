@@ -1,0 +1,20 @@
+
+by_producer_of_communal_waste
+    => nrel_main_idtf: [producer of communal waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [производитель коммунальных отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворца камунальных адходаў] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_manufacturer_producer;
+    => nrel_associative_connection: by_excluded_communal_waste;
+    => nrel_associative_connection: by_source_of_industrial_waste_production;
+    => nrel_associative_connection: by_communal_waste;
+    => nrel_associative_connection: by_normative_of_communal_waste_formation;
+    => nrel_associative_connection: by_handling_of_communal_waste;
+    => nrel_associative_connection: by_waste_generator;
+    => nrel_associative_connection: by_collected_municipal_waste;
+    => nrel_associative_connection: by_communal_solid_waste_csw;
+    => nrel_associative_connection: by_storage_of_communal_waste;
+
+    => nrel_etalon_online_idx: [21564];;

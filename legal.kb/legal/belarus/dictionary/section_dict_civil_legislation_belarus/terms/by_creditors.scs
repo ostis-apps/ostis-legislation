@@ -1,0 +1,44 @@
+
+by_creditors
+    => nrel_main_idtf: [creditors ] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредиторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдыторы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_creditors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_cancellation_of_credit_history_record;
+    => nrel_associative_connection: by_longterm_credits;
+    => nrel_associative_connection: by_interested_parties_with_respect_to_the_creditor;
+    => nrel_associative_connection: by_pledged_creditor;
+    => nrel_associative_connection: by_bankruptcy_creditors;
+    => nrel_associative_connection: by_shortterm_credits;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credit_agreement;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_private_partner_creditors;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_tax_credit;
+    => nrel_associative_connection: by_original_creditor;
+    => nrel_associative_connection: by_credit_history_user;
+    => nrel_associative_connection: by_preliminary_loan;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_head_of_the_creditor__legal_entity;
+    => nrel_associative_connection: by_creditor_manager_bankruptcy_creditor_manager;
+    => nrel_associative_connection: by_subject_of_credit_history;
+
+    => nrel_etalon_online_idx: [16417];;

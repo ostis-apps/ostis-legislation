@@ -1,0 +1,55 @@
+
+by_auditees
+    => nrel_main_idtf: [auditees] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудируемые лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдзіруемыя асобы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auditees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auditees_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audited_bank_head_organization_of_bank_group_and_or_banking_holding;
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_authenticity_of_the_accounting_financial_statements;
+    => nrel_associative_connection: by_customers__of_audit;
+    => nrel_associative_connection: by_customers_of_audit_services;
+    => nrel_associative_connection: by_management_statement_of_the_audited_entity;
+    => nrel_associative_connection: by_information_on_the_reporting_segments_of_the_accounting_financial_reporting_of_the_auditee;
+    => nrel_associative_connection: by_unfair_workers_actions;
+    => nrel_associative_connection: by_unfair_management_actions;
+    => nrel_associative_connection: by_undefined_obligations_of_the_audited_person;
+    => nrel_associative_connection: by_assignment_subject_matter_providing_confidence;
+    => nrel_associative_connection: by_management_of_the_audited_entity;
+
+    => nrel_etalon_online_idx: [10119];;

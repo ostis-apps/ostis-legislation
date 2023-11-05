@@ -1,0 +1,29 @@
+
+by_osteoporosis
+    => nrel_main_idtf: [osteoporosis] (* <- lang_en;; *);
+    => nrel_main_idtf: [остеопороз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [астэапароз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_osteoporosis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gigantism;
+    => nrel_associative_connection: by_primary_hyperaldosteronism;
+    => nrel_associative_connection: by_diffuse_eutiroid_goiter;
+    => nrel_associative_connection: by_insidentaloma;
+    => nrel_associative_connection: by_corticosteroma;
+
+    => nrel_etalon_online_idx: [33468];;

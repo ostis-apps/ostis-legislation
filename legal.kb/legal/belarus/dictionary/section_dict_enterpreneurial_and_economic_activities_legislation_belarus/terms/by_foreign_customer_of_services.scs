@@ -1,0 +1,49 @@
+
+by_foreign_customer_of_services
+    => nrel_main_idtf: [foreign customer of services] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранный заказчик услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежны заказчык паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_customer_of_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_customer_of_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_customer;
+    => nrel_associative_connection: by_customer_consumer;
+    => nrel_associative_connection: by_customers;
+    => nrel_associative_connection: by_foreign_person;
+    => nrel_associative_connection: by_foreign_service_provider;
+    => nrel_associative_connection: by_nonresident;
+    => nrel_associative_connection: by_nonresidents_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+    => nrel_etalon_online_idx: [15358];;

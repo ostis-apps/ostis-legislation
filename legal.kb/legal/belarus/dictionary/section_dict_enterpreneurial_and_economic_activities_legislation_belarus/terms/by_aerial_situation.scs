@@ -1,0 +1,34 @@
+
+by_aerial_situation
+    => nrel_main_idtf: [aerial situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [воздушная обстановка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паветраная абстаноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerial_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aviation_security;
+    => nrel_associative_connection: by_automated_air_traffic_control;
+    => nrel_associative_connection: by_aerial_line;
+    => nrel_associative_connection: by_air_traffic;
+    => nrel_associative_connection: by_air_demonstration;
+    => nrel_associative_connection: by_dispatch_district;
+    => nrel_associative_connection: by_aircraft_safety_ensuring;
+    => nrel_associative_connection: by_air_traffic_organization;
+    => nrel_associative_connection: by_visual_flight_rules;
+    => nrel_associative_connection: by_instrument_flight_rules;
+
+    => nrel_etalon_online_idx: [7303];;

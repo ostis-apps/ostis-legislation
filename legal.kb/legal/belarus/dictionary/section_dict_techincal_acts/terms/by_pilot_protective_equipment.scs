@@ -1,0 +1,26 @@
+
+by_pilot_protective_equipment
+    => nrel_main_idtf: [pilot protective equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [защитное снаряжение летчика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абароннае забеспячэнне лётчыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pilot_protective_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_access_to_flights_of_the_aircraft;
+    => nrel_associative_connection: by_personal_equipment;
+
+    => nrel_etalon_online_idx: [32501];;

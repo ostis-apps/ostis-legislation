@@ -1,0 +1,28 @@
+
+by_media_products
+    => nrel_main_idtf: [media products] (* <- lang_en;; *);
+    => nrel_main_idtf: [медиапродукция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыяпрадукцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_media_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audiovisual_information_space;
+    => nrel_associative_connection: by_media_activity;
+    => nrel_associative_connection: by_media_communications;
+    => nrel_associative_connection: by_monitoring_of_publicly_available_information;
+
+    => nrel_etalon_online_idx: [35813];;

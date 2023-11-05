@@ -1,0 +1,17 @@
+
+by_country_portfolio
+    => nrel_main_idtf: [country portfolio] (* <- lang_en;; *);
+    => nrel_main_idtf: [страновой портфель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [краінавый партфель] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_portfolio;
+    => nrel_associative_connection: by_portfolio_of_venture_projects;
+    => nrel_associative_connection: by_portfolio_of_homogeneous_credits;
+    => nrel_associative_connection: by_portfolio_of_securities;
+    => nrel_associative_connection: by_portfolio_investments;
+    => nrel_associative_connection: by_retail_portfolio;
+    => nrel_associative_connection: by_trade_portfolio;
+
+    => nrel_etalon_online_idx: [24303];;

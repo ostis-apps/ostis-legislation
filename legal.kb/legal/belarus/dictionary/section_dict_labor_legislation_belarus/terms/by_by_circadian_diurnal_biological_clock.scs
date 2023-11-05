@@ -1,0 +1,30 @@
+
+by_by_circadian_diurnal_biological_clock
+    => nrel_main_idtf: [by_circadian_diurnal_biological_clock] (* <- lang_en;; *);
+    => nrel_main_idtf: [циркадные (суточные) биологические часы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цыркадныя (сутачныя) біялагічныя гадзіннікі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_circadian_diurnal_biological_clock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rest_time;
+    => nrel_associative_connection: by_night_day_flight_time;
+    => nrel_associative_connection: by_rest_in_flight;
+    => nrel_associative_connection: by_management_system_for_risk_factors_associated_with_fatigue;
+    => nrel_associative_connection: by_service_hours_at_night;
+    => nrel_associative_connection: by_fatigue;
+
+    => nrel_etalon_online_idx: [42307];;

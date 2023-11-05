@@ -1,0 +1,30 @@
+
+by_unoriginal_vehicle_part
+    => nrel_main_idtf: [unoriginal vehicle part] (* <- lang_en;; *);
+    => nrel_main_idtf: [неоригинальная часть транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неарыгінальная частка транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unoriginal_vehicle_part_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrator_of_the_server_of_market_prices_of_vehicle_parts_materials_and_cost_of_standard_hour_of_work_on_repair_of_vehicles_in_car_service_organizations;
+    => nrel_associative_connection: by_original_part_of_vehicle;
+    => nrel_associative_connection: by_vehicle_reequipment;
+    => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [18077];;

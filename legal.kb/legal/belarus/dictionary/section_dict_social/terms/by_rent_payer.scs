@@ -1,0 +1,30 @@
+
+by_rent_payer
+    => nrel_main_idtf: [rent payer] (* <- lang_en;; *);
+    => nrel_main_idtf: [плательщик ренты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацельшчык рэнты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rent_payer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_permanent_aliment_agreement;
+    => nrel_associative_connection: by_rent_agreement;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_payers;
+    => nrel_associative_connection: by_rent_recipient;
+    => nrel_associative_connection: by_rent;
+
+    => nrel_etalon_online_idx: [20219];;

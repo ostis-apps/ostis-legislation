@@ -1,0 +1,27 @@
+
+by_corrective_action_on_safety_of_medical_item
+    => nrel_main_idtf: [corrective action on safety of medical item] (* <- lang_en;; *);
+    => nrel_main_idtf: [корректирующее мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карэкціруючае мерапрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corrective_action_on_safety_of_medical_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_corrective_action;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+
+    => nrel_etalon_online_idx: [27256];;

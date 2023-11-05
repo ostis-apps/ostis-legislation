@@ -1,0 +1,33 @@
+
+by_accrued_income
+    => nrel_main_idtf: [accrued income] (* <- lang_en;; *);
+    => nrel_main_idtf: [начисленный доход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [налічаны даход] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accrued_income_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_income_of_the_future_periods;
+    => nrel_associative_connection: by_accrued_charge;
+    => nrel_associative_connection: by_planned_revenue;
+    => nrel_associative_connection: by_planned_profit;
+    => nrel_associative_connection: by_maximum_amount_of_payments;
+    => nrel_associative_connection: by_accrual_principle;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_other_bank_income_and_other_bank_expenses;
+
+    => nrel_etalon_online_idx: [17884];;

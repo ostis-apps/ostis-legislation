@@ -1,0 +1,34 @@
+
+by_impairment_quality_loss_of_vehicle_parts
+    => nrel_main_idtf: [impairment (quality loss) of vehicle parts] (* <- lang_en;; *);
+    => nrel_main_idtf: [обесценение (потеря качества) части транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абясцэненне (страта якасці) часткі транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_impairment_quality_loss_of_vehicle_parts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_quality_of_the_assessment_outcomes;
+    => nrel_associative_connection: by_impairment_loss_of_consumer_qualities;
+    => nrel_associative_connection: by_vehicle_reequipment;
+    => nrel_associative_connection: by_payers_of_motor_vehicle_purchase_tax;
+    => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_checking_the_technical_condition_and_structure_of_the_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_other_materials;
+    => nrel_associative_connection: by_system_of_active_vehicle_safety;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [18406];;

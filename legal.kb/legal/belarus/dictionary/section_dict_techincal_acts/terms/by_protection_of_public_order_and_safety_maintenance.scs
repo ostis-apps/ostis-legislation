@@ -1,0 +1,26 @@
+
+by_protection_of_public_order_and_safety_maintenance
+    => nrel_main_idtf: [protection of public order and safety maintenance] (* <- lang_en;; *);
+    => nrel_main_idtf: [охрана общественного порядка и обеспечение безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахова грамадскага парадку і забеспячэнне бяспекі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_public_order_and_safety_maintenance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_public_order;
+    => nrel_associative_connection: by_organizational_and_legal_road_safety;
+
+    => nrel_etalon_online_idx: [30389];;

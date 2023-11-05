@@ -1,0 +1,31 @@
+
+by_outdoor_lighting
+    => nrel_main_idtf: [outdoor lighting] (* <- lang_en;; *);
+    => nrel_main_idtf: [наружное освещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вонкавае асвятленне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_outdoor_lighting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_geometric_coefficient_of_natural_illumination_e_;
+    => nrel_associative_connection: by_interrepair_maintenance_of_street_lighting_objects_of_the_populated_area;
+    => nrel_associative_connection: by_street_lighting_object_of_the_populated_area;
+    => nrel_associative_connection: by_lighting;
+    => nrel_associative_connection: by_natural_lighting;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_of_outdoor_lighting;
+    => nrel_associative_connection: by_sensitivity;
+
+    => nrel_etalon_online_idx: [17710];;

@@ -1,0 +1,30 @@
+
+by_sports_and_healthimprovement_camps
+    => nrel_main_idtf: [sports and health-improvement camps] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивно-оздоровительный лагерь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўна-аздараўленчы лагер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sports_and_healthimprovement_camps_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_training_days;
+    => nrel_associative_connection: by_other_organizations_which_in_accordance_with_the_legislation_have_been_granted_the_right_to_implement_the_program_for_upbringing_of_children_in_need_of_recreation;
+    => nrel_associative_connection: by_natural_healing_resources;
+    => nrel_associative_connection: by_profile_change;
+    => nrel_associative_connection: by_permit;
+    => nrel_associative_connection: by_change;
+
+    => nrel_etalon_online_idx: [23902];;

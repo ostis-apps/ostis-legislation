@@ -1,0 +1,49 @@
+
+by_interested_states
+    => nrel_main_idtf: [interested states] (* <- lang_en;; *);
+    => nrel_main_idtf: [заинтересованные государства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зацікаўленыя дзяржавы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interested_states_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interested_states_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_operating_the_aircraft;
+    => nrel_associative_connection: by_state_of_occurrence;
+    => nrel_associative_connection: by_state_of_registration_of_the_aircraft;
+    => nrel_associative_connection: by_interested_person;
+    => nrel_associative_connection: by_interested_persons;
+    => nrel_associative_connection: by_interested_bodies;
+    => nrel_associative_connection: by_concerned_authority;
+    => nrel_associative_connection: by_statement_of_the_interested_person;
+    => nrel_associative_connection: by_priority_of_interests_of_interested_persons;
+    => nrel_associative_connection: by_equality_of_interested_persons_before_the_law;
+
+    => nrel_etalon_online_idx: [14743];;

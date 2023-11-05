@@ -1,0 +1,27 @@
+
+by_interpost_haul
+    => nrel_main_idtf: [inter-post haul] (* <- lang_en;; *);
+    => nrel_main_idtf: [межпостовой перегон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжпаставы перагон] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interpost_haul_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interstation_transport;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_crosscountry_communication;
+
+    => nrel_etalon_online_idx: [34204];;

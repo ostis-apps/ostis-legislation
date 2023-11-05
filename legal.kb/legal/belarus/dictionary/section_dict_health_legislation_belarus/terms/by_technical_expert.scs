@@ -1,0 +1,61 @@
+
+by_technical_expert
+    => nrel_main_idtf: [technical expert] (* <- lang_en;; *);
+    => nrel_main_idtf: [технический эксперт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічны эксперт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_expert_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_expert_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_expert_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_production_site_dossier;
+    => nrel_associative_connection: by_inspection_of_the_production_site;
+    => nrel_associative_connection: by_assessment_team;
+    => nrel_associative_connection: by_certificate_of_conformity_of_the_industrial_manufacture_of_drugs_to_the_requirements_of_good_manufacturing_practice_gmp;
+    => nrel_associative_connection: by_technical_expert_on_accreditation;
+    => nrel_associative_connection: by_technical_expert_for_certification;
+    => nrel_associative_connection: by_expert;
+
+    => nrel_etalon_online_idx: [24901];;

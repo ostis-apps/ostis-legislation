@@ -1,0 +1,33 @@
+
+by_industrial_fish_processing
+    => nrel_main_idtf: [industrial fish processing] (* <- lang_en;; *);
+    => nrel_main_idtf: [промышленная переработка рыбы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловая перапрацоўка рыбы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_fish_processing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_recycling;
+    => nrel_associative_connection: by_enterprises_processing_agricultural_products_and_servicing_agriculture;
+    => nrel_associative_connection: by_agricultural_producers;
+    => nrel_associative_connection: by_production_of_sturgeon_fish_and_or_products_from_them_including_caviar;
+    => nrel_associative_connection: by_industrial_processing_meat;
+    => nrel_associative_connection: by_pisciculture;
+    => nrel_associative_connection: by_fishing_activity;
+    => nrel_associative_connection: by_commodity_fish;
+    => nrel_associative_connection: by_commercial_pisciculture;
+
+    => nrel_etalon_online_idx: [21641];;

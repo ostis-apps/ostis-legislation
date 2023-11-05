@@ -1,0 +1,54 @@
+
+by_vehicle_identification
+    => nrel_main_idtf: [vehicle identification] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификация транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыя транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_identification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_identification_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_analogous_vehicle;
+    => nrel_associative_connection: by_guarantee_vehicle;
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_identical_vehicle;
+    => nrel_associative_connection: by_serviceable_vehicle;
+    => nrel_associative_connection: by_mass_vehicle;
+    => nrel_associative_connection: by_new_vehicle;
+    => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_checking_the_technical_condition_and_structure_of_the_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_rare_vehicle;
+    => nrel_associative_connection: by_specialized_vehicle;
+    => nrel_associative_connection: by_specification_of_identification_objects;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_unique_vehicle;
+
+    => nrel_etalon_online_idx: [15079];;

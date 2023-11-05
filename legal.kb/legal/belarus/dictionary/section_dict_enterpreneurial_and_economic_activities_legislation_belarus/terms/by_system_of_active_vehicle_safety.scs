@@ -1,0 +1,31 @@
+
+by_system_of_active_vehicle_safety
+    => nrel_main_idtf: [system of active vehicle safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [система активной безопасности транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма актыўнай бяспекі транспартнага сродку] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_system_of_active_vehicle_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_serial_trim_level_of_the_vehicle;
+    => nrel_associative_connection: by_safety_of_transport_activity;
+    => nrel_associative_connection: by_impairment_quality_loss_of_vehicle_parts;
+    => nrel_associative_connection: by_specialized_service_company;
+    => nrel_associative_connection: by_average_statistical_vehicle_mileage;
+    => nrel_associative_connection: by_actual_vehicle_mileage;
+    => nrel_associative_connection: by_vehicle_part_component;
+
+    => nrel_etalon_online_idx: [31391];;

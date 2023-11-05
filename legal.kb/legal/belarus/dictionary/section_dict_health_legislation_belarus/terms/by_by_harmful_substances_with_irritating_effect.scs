@@ -1,0 +1,30 @@
+
+by_by_harmful_substances_with_irritating_effect
+    => nrel_main_idtf: [by_harmful_substances_with_irritating_effect] (* <- lang_en;; *);
+    => nrel_main_idtf: [вредные вещества с раздражающим действием ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шкодныя рэчывы з раздражняльным дзеяннем] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_harmful_substances_with_irritating_effect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_harmful_substances;
+    => nrel_associative_connection: by_unidirectional_hazardous_substances;
+    => nrel_associative_connection: by_hazardous_substances_of_directed_action;
+    => nrel_associative_connection: by_maximum_permissible_level_of_active_substance;
+    => nrel_associative_connection: by_maximum_permissible_concentrations_in_the_air_of_the_working_area;
+    => nrel_associative_connection: by_maximum_permissible_concentrations_of_the_chemical_in_soil;
+
+    => nrel_etalon_online_idx: [43152];;

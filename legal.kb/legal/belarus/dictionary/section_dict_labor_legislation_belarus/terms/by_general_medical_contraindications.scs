@@ -1,0 +1,28 @@
+
+by_general_medical_contraindications
+    => nrel_main_idtf: [general medical contraindications] (* <- lang_en;; *);
+    => nrel_main_idtf: [общие медицинские противопоказания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульныя медыцынскія  супрацьпаказанні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_medical_contraindications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_complex_hygienic_assessment_of_working_conditions;
+    => nrel_associative_connection: by_assessment_of_working_conditions;
+    => nrel_associative_connection: by_professional_selection;
+
+    => nrel_etalon_online_idx: [31798];;

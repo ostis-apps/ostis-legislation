@@ -1,0 +1,25 @@
+
+by_changes_in_essential_working_conditions
+    => nrel_main_idtf: [changes in essential working conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [изменение существенных условий труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змяненне істотных умоў працы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_changes_in_essential_working_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_suspension_from_work;
+
+    => nrel_etalon_online_idx: [5863];;

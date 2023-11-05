@@ -1,0 +1,31 @@
+
+by_portfolio_investments
+    => nrel_main_idtf: [portfolio investments] (* <- lang_en;; *);
+    => nrel_main_idtf: [портфельные инвестиции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партфельныя інвестыцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_portfolio_investments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_securities_turnover;
+    => nrel_associative_connection: by_portfolio_of_securities;
+    => nrel_associative_connection: by_acquisition_of_securities;
+    => nrel_associative_connection: by_country_portfolio;
+    => nrel_associative_connection: by_financial_investment;
+    => nrel_associative_connection: by_security;
+
+    => nrel_etalon_online_idx: [20695];;

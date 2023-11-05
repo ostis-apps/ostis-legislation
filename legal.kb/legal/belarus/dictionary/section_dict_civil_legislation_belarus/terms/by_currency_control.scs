@@ -1,0 +1,15 @@
+
+by_currency_control
+    => nrel_main_idtf: [currency control] (* <- lang_en;; *);
+    => nrel_main_idtf: [валютный контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [валютны кантроль] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_currency_transactions;
+    => nrel_associative_connection: by_purchase_of_foreign_currency;
+    => nrel_associative_connection: by_statistical_declaration;
+    => nrel_associative_connection: by_current_control;
+    => nrel_associative_connection: by_economic_security;
+
+    => nrel_etalon_online_idx: [1156];;

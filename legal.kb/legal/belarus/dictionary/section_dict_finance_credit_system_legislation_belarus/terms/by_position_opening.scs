@@ -1,0 +1,58 @@
+
+by_position_opening
+    => nrel_main_idtf: [position opening] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытие позиции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрыццё пазіцыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_position_opening_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_position_opening_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_position_opening_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_position_closing;
+    => nrel_associative_connection: by_marginal_shoulder;
+    => nrel_associative_connection: by_open_position;
+    => nrel_associative_connection: by_position;
+
+    => nrel_etalon_online_idx: [12140];;

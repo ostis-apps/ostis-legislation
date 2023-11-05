@@ -1,0 +1,44 @@
+
+by_assessment_object_which_will_come_in_the_future
+    => nrel_main_idtf: [assessment object, which will come in the future] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект оценки, который поступит в будущем] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект ацэнкі, які паступіць у будучыні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assessment_object_which_will_come_in_the_future_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assessment_object_which_will_come_in_the_future_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_finished_construction_facility;
+    => nrel_associative_connection: by_new_construction;
+    => nrel_associative_connection: by_reconstruction;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_building_structure;
+
+    => nrel_etalon_online_idx: [31173];;

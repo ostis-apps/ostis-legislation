@@ -1,0 +1,25 @@
+
+by_treasury_of_administrative_and_territorial_unit
+    => nrel_main_idtf: [treasury of administrative and territorial unit] (* <- lang_en;; *);
+    => nrel_main_idtf: [казна административно-территориальной единицы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [казна адміністрацыйна-тэрытарыяльнай адзінкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_treasury_of_administrative_and_territorial_unit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_municipal_property;
+
+    => nrel_etalon_online_idx: [2674];;

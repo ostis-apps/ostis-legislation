@@ -1,0 +1,25 @@
+
+by_regime_at_checkpoints
+    => nrel_main_idtf: [regime at checkpoints] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим в пунктах пропуска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым у пунктах пропуску] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regime_at_checkpoints_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_checkpoint;
+
+    => nrel_etalon_online_idx: [5195];;

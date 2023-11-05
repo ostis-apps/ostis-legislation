@@ -1,0 +1,31 @@
+
+by_electricity_generating_source_source_of_electric_and_thermal_energy_or_only_electrical_energy
+    => nrel_main_idtf: [electricity generating source (source of electric and thermal energy or only electrical energy)] (* <- lang_en;; *);
+    => nrel_main_idtf: [электрогенерирующий источник (источник электрической и тепловой энергии или только электрической энергии)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электрагенеравальная крыніца (крыніца электрычнай і цеплавой энергіі ці толькі электрычнай энергіі)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electricity_generating_source_source_of_electric_and_thermal_energy_or_only_electrical_energy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_dependent_connection_scheme_of_consumers_to_heat_networks;
+    => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_heat_consumption_system;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_system_centralized;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_electric_energy_active;
+
+    => nrel_etalon_online_idx: [27240];;

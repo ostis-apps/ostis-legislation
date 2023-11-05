@@ -1,0 +1,44 @@
+
+by_branch_of_economic_company
+    => nrel_main_idtf: [branch of economic company] (* <- lang_en;; *);
+    => nrel_main_idtf: [филиал хозяйственного общества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [філіял гаспадарчага таварыства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_of_economic_company_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_affiliates_of_the_economic_society;
+    => nrel_associative_connection: by_contribution_to_the_authorized_fund_of_the_economic_company;
+    => nrel_associative_connection: by_separation_from_the_economic_company;
+    => nrel_associative_connection: by_supreme_governing_body_of_an_economic_company;
+    => nrel_associative_connection: by_documents_of_the_governing_body_of_the_economic_company;
+    => nrel_associative_connection: by_branch_business_company;
+    => nrel_associative_connection: by_dependent_business_entity;
+    => nrel_associative_connection: by_executive_body_of_economic_company;
+    => nrel_associative_connection: by_control_body_of_economic_society;
+    => nrel_associative_connection: by_large_bargain_of_economic_company;
+    => nrel_associative_connection: by_representative_office_of_economic_company;
+    => nrel_associative_connection: by_joining_a_business_company;
+    => nrel_associative_connection: by_separation_of_economic_company;
+    => nrel_associative_connection: by_amalgamation_of_economic_companies;
+    => nrel_associative_connection: by_mixed_form_of_holding_a_general_meeting_of_partners_of_a_business_company;
+    => nrel_associative_connection: by_founders_of_a_business_company;
+    => nrel_associative_connection: by_branch_of_legal_person;
+    => nrel_associative_connection: by_economic_company;
+    => nrel_associative_connection: by_business_entities;
+    => nrel_associative_connection: by_business_entities_established_in_accordance_with_the_legislation_on_privatization;
+
+    => nrel_etalon_online_idx: [25975];;

@@ -1,0 +1,29 @@
+
+by_cryptanalysis
+    => nrel_main_idtf: [cryptanalysis] (* <- lang_en;; *);
+    => nrel_main_idtf: [криптоанализ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыптааналіз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cryptanalysis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_discrete_component;
+    => nrel_associative_connection: by_cryptographic_activation;
+    => nrel_associative_connection: by_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_cryptography;
+    => nrel_associative_connection: by_means_of_cryptographic_protection_of_information;
+
+    => nrel_etalon_online_idx: [16427];;

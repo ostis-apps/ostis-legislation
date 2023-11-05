@@ -1,0 +1,32 @@
+
+by_change_in_accounting_estimate
+    => nrel_main_idtf: [change in accounting estimate] (* <- lang_en;; *);
+    => nrel_main_idtf: [изменение в учетной оценке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змена ва ўліковай ацэнкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_change_in_accounting_estimate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_change_in_an_organization_accounting_policy;
+    => nrel_associative_connection: by_liabilities;
+    => nrel_associative_connection: by_ways_of_keeping_accounting;
+    => nrel_associative_connection: by_accounting_estimate;
+    => nrel_associative_connection: by_accounting_valuation_of_securities;
+
+    => nrel_etalon_online_idx: [15119];;

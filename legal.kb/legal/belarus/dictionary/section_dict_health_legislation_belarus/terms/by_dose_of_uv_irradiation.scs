@@ -1,0 +1,30 @@
+
+by_dose_of_uv_irradiation
+    => nrel_main_idtf: [dose of uv irradiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [доза ультрафиолетового облучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доза ультрафіялетавага апраменьвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dose_of_uv_irradiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_allowable_dose_of_uv_radiation;
+    => nrel_associative_connection: by_allowable_intensity_of_uv_radiation_irradiation;
+    => nrel_associative_connection: by_maximum_permissible_level_of_ultraviolet_radiation;
+    => nrel_associative_connection: by_planned_exposure_situation;
+    => nrel_associative_connection: by_the_situation_of_the_existing_exposure;
+    => nrel_associative_connection: by_ultraviolet_radiation;
+
+    => nrel_etalon_online_idx: [41681];;

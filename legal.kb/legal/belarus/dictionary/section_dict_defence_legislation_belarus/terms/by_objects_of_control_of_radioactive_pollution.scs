@@ -1,0 +1,29 @@
+
+by_objects_of_control_of_radioactive_pollution
+    => nrel_main_idtf: [objects of control of radioactive pollution] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты контроля радиоактивного загрязнения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты кантролю радыеактыўнага забруджвання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_control_of_radioactive_pollution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_control_of_radioactive_pollution;
+    => nrel_associative_connection: by_radiation_monitoring_indicator;
+    => nrel_associative_connection: by_radiation_safety;
+    => nrel_associative_connection: by_radioactive_contamination;
+    => nrel_associative_connection: by_radioactive_pollution_control_system;
+
+    => nrel_etalon_online_idx: [10488];;

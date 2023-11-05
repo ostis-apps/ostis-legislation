@@ -1,0 +1,29 @@
+
+by_nonresidency
+    => nrel_main_idtf: [non-residency] (* <- lang_en;; *);
+    => nrel_main_idtf: [экстернат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экстэрнат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonresidency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_basic_school;
+    => nrel_associative_connection: by_teaching;
+    => nrel_associative_connection: by_general_secondary_education;
+    => nrel_associative_connection: by_external_student;
+
+    => nrel_etalon_online_idx: [2256];;

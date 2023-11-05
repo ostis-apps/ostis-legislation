@@ -1,0 +1,27 @@
+
+by_scale_factor_gyroscope_or_accelerometer
+    => nrel_main_idtf: [scale factor (gyroscope or accelerometer)] (* <- lang_en;; *);
+    => nrel_main_idtf: [масштабный коэффициент (гироскопа или акселерометра)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маштабны каэфіцыент (гіраскопа або акселерометра)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scale_factor_gyroscope_or_accelerometer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_signal;
+    => nrel_associative_connection: by_offset_of_accelerometer;
+    => nrel_associative_connection: by_offset_of_gyroscope;
+
+    => nrel_etalon_online_idx: [16931];;

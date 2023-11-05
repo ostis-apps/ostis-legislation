@@ -1,0 +1,31 @@
+
+by_statement_for_the_payment_of_pensions_benefits_the_implementation_of_other_social_payments
+    => nrel_main_idtf: [statement for the payment of pensions, benefits, the implementation of other social payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомость на выплату пенсий, пособий, осуществление других социальных выплат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасць на выплату пенсій, дапамог, ажыццяўленне другіх сацыяльных выплат] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_for_the_payment_of_pensions_benefits_the_implementation_of_other_social_payments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payment_of_pensions_and_allowances_through_the_objects_of_postal_service;
+    => nrel_associative_connection: by_payment_of_pensions_benefits_implementation_of_other_social_payments_through_postal_facilities;
+    => nrel_associative_connection: by_other_social_payments;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_pension;
+    => nrel_associative_connection: by_recipient_of_a_pension_allowance_other_social_payment;
+    => nrel_associative_connection: by_recipients_representative;
+
+    => nrel_etalon_online_idx: [40710];;

@@ -1,0 +1,20 @@
+
+by_water_supply_source
+    => nrel_main_idtf: [water supply source] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник водоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца водазабеспячэння] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_water_treatment;
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_hot_water_supply;
+    => nrel_associative_connection: by_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_trunking_network_of_water_supply;
+    => nrel_associative_connection: by_drinking_water_supply;
+    => nrel_associative_connection: by_distribution_water_supply_network;
+    => nrel_associative_connection: by_centralized_water_supply_system;
+    => nrel_associative_connection: by_centralized_water_supply_drainage_system;
+    => nrel_associative_connection: by_watersupply_system;
+
+    => nrel_etalon_online_idx: [15650];;

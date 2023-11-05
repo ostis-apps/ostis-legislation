@@ -1,0 +1,45 @@
+
+by_subscription
+    => nrel_main_idtf: [subscription] (* <- lang_en;; *);
+    => nrel_main_idtf: [абонемент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абанемент] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subscription_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subscription_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_subscribtion_of_local_telephone_network;
+    => nrel_associative_connection: by_subscribtion_to_provide_domestic_services;
+    => nrel_associative_connection: by_subscribtion_on_the_right_to_use_the_subscriber_number_of_local_telephone_network;
+    => nrel_associative_connection: by_subscription_fee;
+    => nrel_associative_connection: by_subscribers_tariffication;
+    => nrel_associative_connection: by_document;
+
+    => nrel_etalon_online_idx: [4661];;

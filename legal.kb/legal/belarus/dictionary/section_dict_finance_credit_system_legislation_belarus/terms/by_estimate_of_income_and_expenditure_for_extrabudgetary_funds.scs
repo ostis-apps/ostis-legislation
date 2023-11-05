@@ -1,0 +1,29 @@
+
+by_estimate_of_income_and_expenditure_for_extrabudgetary_funds
+    => nrel_main_idtf: [estimate of income and expenditure for extra-budgetary funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [смета доходов и расходов по внебюджетным средствам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каштарыс даходаў і расходаў па пазабюджэтных сродках] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_estimate_of_income_and_expenditure_for_extrabudgetary_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_manager_of_the_state_extrabudgetary_fund;
+    => nrel_associative_connection: by_management_of_fund_resources;
+    => nrel_associative_connection: by_estimate;
+    => nrel_associative_connection: by_estimate_estimate_documentation;
+    => nrel_associative_connection: by_estimate_of_income_and_expenditure_of_extrabudgetary_funds;
+
+    => nrel_etalon_online_idx: [23390];;

@@ -1,0 +1,27 @@
+
+by_urban_planning_norms
+    => nrel_main_idtf: [urban planning norms] (* <- lang_en;; *);
+    => nrel_main_idtf: [градостроительные нормы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [горадабудаўнічыя нормы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_planning_norms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_townplanning_activity;
+    => nrel_associative_connection: by_urban_planning_reconstruction;
+    => nrel_associative_connection: by_urban_planning;
+
+    => nrel_etalon_online_idx: [40591];;

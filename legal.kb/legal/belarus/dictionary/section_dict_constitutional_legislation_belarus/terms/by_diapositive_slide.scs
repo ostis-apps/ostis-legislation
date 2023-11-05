@@ -1,0 +1,36 @@
+
+by_diapositive_slide
+    => nrel_main_idtf: [diapositive (slide)] (* <- lang_en;; *);
+    => nrel_main_idtf: [диапозитив (слайд)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыяпазітыў (слайд)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diapositive_slide_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hologram;
+    => nrel_associative_connection: by_doublenegative;
+    => nrel_associative_connection: by_unit_of_storage_of_photo_documents;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_positive;
+    => nrel_associative_connection: by_positive_on_reversable_film;
+    => nrel_associative_connection: by_intermediate_positive;
+    => nrel_associative_connection: by_stereo_slide;
+    => nrel_associative_connection: by_photo_album;
+    => nrel_associative_connection: by_photo_document;
+    => nrel_associative_connection: by_photonegative;
+    => nrel_associative_connection: by_photographic_plate;
+
+    => nrel_etalon_online_idx: [14159];;

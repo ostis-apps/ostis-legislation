@@ -1,0 +1,26 @@
+
+by_date_of_the_injury
+    => nrel_main_idtf: [date of the injury] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата причинения вреда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата прычынення шкоды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_the_injury_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_infliction_of_damage_to_the_life_or_health_of_the_insured_person_in_connection_with_the_performance_of_duties_of_military_service;
+    => nrel_associative_connection: by_damage_to_the_environment_can_result;
+
+    => nrel_etalon_online_idx: [13972];;

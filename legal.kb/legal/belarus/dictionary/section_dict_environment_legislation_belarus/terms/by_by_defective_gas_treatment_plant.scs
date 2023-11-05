@@ -1,0 +1,20 @@
+
+by_by_defective_gas_treatment_plant
+    => nrel_main_idtf: [by_defective_gas_treatment_plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [неисправная газоочистная установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няспраўная газаачышчальная ўстаноўка] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner_of_gas_treatment_plants;
+    => nrel_associative_connection: by_gas_cleaning_installation;
+    => nrel_associative_connection: by_monitoring_the_technical_condition_of_gas_treatment_plants;
+    => nrel_associative_connection: by_unused_gas_treatment_plant;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_inefficient_gas_treatment_plant;
+    => nrel_associative_connection: by_gas_cleaning;
+    => nrel_associative_connection: by_design_parameters_of_gas_treatment_plants;
+    => nrel_associative_connection: by_production_losses_of_gas;
+    => nrel_associative_connection: by_gas_cleaning_step;
+
+    => nrel_etalon_online_idx: [18035];;

@@ -1,0 +1,27 @@
+
+by_current_estimated_price
+    => nrel_main_idtf: [current estimated price] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущая расчетная цена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучая разліковая цана] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_current_estimated_price_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_existing_current_prices_tariffs;
+    => nrel_associative_connection: by_estimate_price;
+    => nrel_associative_connection: by_current_market_cost;
+
+    => nrel_etalon_online_idx: [24728];;

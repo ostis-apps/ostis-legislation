@@ -1,0 +1,86 @@
+
+by_individual_heat_point
+    => nrel_main_idtf: [individual heat point] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный тепловой пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальны цеплавы пункт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_heat_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_heat_point_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_heat_point_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_heat_point_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_ventilation_installation;
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_hot_water_supply;
+    => nrel_associative_connection: by_twochannel_heat_meter;
+    => nrel_associative_connection: by_individual_heat_unit_ihu;
+    => nrel_associative_connection: by_quality_regulation_of_thermal_energy_supply;
+    => nrel_associative_connection: by_quality_and_quantity_regulation_of_thermal_energy_supply;
+    => nrel_associative_connection: by_quantity_regulation_of_thermal_energy_supply;
+    => nrel_associative_connection: by_organization_transfering__thermal_energy;
+    => nrel_associative_connection: by_heating;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_system_decentralized_local;
+    => nrel_associative_connection: by_heat_supply_system_centralized;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_heat_item;
+    => nrel_associative_connection: by_heat_supply;
+    => nrel_associative_connection: by_central_heating_point;
+
+    => nrel_etalon_online_idx: [15282];;

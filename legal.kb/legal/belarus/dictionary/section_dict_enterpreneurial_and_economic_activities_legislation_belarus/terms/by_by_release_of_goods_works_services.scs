@@ -1,0 +1,30 @@
+
+by_by_release_of_goods_works_services
+    => nrel_main_idtf: [by_release_of_goods_works_services] (* <- lang_en;; *);
+    => nrel_main_idtf: [отпуск товаров (работ, услуг)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водпуск тавараў (работ, паслуг)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_release_of_goods_works_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_release_of_goods_and_or_services;
+    => nrel_associative_connection: by_issue_of_goods_and_services;
+    => nrel_associative_connection: by_circulation_of_goods;
+    => nrel_associative_connection: by_shipment_of_goods;
+    => nrel_associative_connection: by_suppliers;
+    => nrel_associative_connection: by_fuel_card;
+
+    => nrel_etalon_online_idx: [42765];;

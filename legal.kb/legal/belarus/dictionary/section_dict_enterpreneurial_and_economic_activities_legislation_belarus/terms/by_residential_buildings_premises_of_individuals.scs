@@ -1,0 +1,28 @@
+
+by_residential_buildings_premises_of_individuals
+    => nrel_main_idtf: [residential buildings (premises) of individuals] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилые дома (помещения) физических лиц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жылыя дамы (памяшканні) фізічных асоб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_buildings_premises_of_individuals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_detached_residential_buildings;
+    => nrel_associative_connection: by_physical_persons;
+    => nrel_associative_connection: by_physical_person;
+
+    => nrel_etalon_online_idx: [38483];;

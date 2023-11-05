@@ -1,0 +1,48 @@
+
+by_track_sign
+    => nrel_main_idtf: [track sign] (* <- lang_en;; *);
+    => nrel_main_idtf: [путевой знак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пуцявы знак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_track_sign_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_track_sign_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_railway_lines;
+    => nrel_associative_connection: by_railroad_siding_facilities_of_the_ministry_of_defense;
+    => nrel_associative_connection: by_railways;
+    => nrel_associative_connection: by_railways_of_restricted_use;
+    => nrel_associative_connection: by_public_railways;
+    => nrel_associative_connection: by_overtaking_station;
+    => nrel_associative_connection: by_special_milepost;
+    => nrel_associative_connection: by_train_signals;
+    => nrel_associative_connection: by_passing_loop;
+
+    => nrel_etalon_online_idx: [21874];;

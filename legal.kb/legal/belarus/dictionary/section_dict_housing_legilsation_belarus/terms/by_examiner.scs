@@ -1,0 +1,44 @@
+
+by_examiner
+    => nrel_main_idtf: [examiner] (* <- lang_en;; *);
+    => nrel_main_idtf: [экзаменатор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экзаменатар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examiner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examiner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_qualification_examination;
+    => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_pedagogic_test;
+    => nrel_associative_connection: by_certificate_of_professional_certification;
+    => nrel_associative_connection: by_exam_materials;
+
+    => nrel_etalon_online_idx: [7630];;

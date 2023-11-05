@@ -1,0 +1,32 @@
+
+by_theft
+    => nrel_main_idtf: [theft] (* <- lang_en;; *);
+    => nrel_main_idtf: [кража] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крадзеж] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_theft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_robbery;
+    => nrel_associative_connection: by_power_or_duties_abuse;
+    => nrel_associative_connection: by_petty_theft;
+    => nrel_associative_connection: by_fraud;
+    => nrel_associative_connection: by_open_abduction;
+    => nrel_associative_connection: by_assignment;
+    => nrel_associative_connection: by_robbery;
+    => nrel_associative_connection: by_theft;
+
+    => nrel_etalon_online_idx: [1699];;

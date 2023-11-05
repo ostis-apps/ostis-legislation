@@ -1,0 +1,28 @@
+
+by_base_horizontal_surface
+    => nrel_main_idtf: [base horizontal surface] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовая горизонтальная поверхность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавая гарызантальная паверхня] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_base_horizontal_surface_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_combat_mission;
+    => nrel_associative_connection: by_check_point;
+    => nrel_associative_connection: by_listnitsashurturmovka;
+    => nrel_associative_connection: by_permanent_deformation;
+
+    => nrel_etalon_online_idx: [32592];;

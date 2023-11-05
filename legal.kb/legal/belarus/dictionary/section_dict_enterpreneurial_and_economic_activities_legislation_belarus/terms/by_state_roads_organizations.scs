@@ -1,0 +1,29 @@
+
+by_state_roads_organizations
+    => nrel_main_idtf: [state roads organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации государственного дорожного хозяйства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі дзяржаўнай дарожнай гаспадаркі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_roads_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_road_traffic_safety;
+    => nrel_associative_connection: by_road_activity;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_buildings_and_structures_of_road_service;
+
+    => nrel_etalon_online_idx: [19175];;

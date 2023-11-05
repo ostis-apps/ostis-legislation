@@ -1,0 +1,61 @@
+
+by_biology
+    => nrel_main_idtf: [biology] (* <- lang_en;; *);
+    => nrel_main_idtf: [биология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біялогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biology_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biology_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_biologistanalyst;
+    => nrel_associative_connection: by_biological_safety;
+    => nrel_associative_connection: by_biological_diversity;
+    => nrel_associative_connection: by_biological_diversity_of_animal_world;
+    => nrel_associative_connection: by_biological_plant_protection_product;
+    => nrel_associative_connection: by_geography;
+    => nrel_associative_connection: by_educational_technologies;
+
+    => nrel_etalon_online_idx: [29184];;

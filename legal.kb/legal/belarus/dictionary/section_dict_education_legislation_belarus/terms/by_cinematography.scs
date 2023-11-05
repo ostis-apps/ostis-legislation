@@ -1,0 +1,45 @@
+
+by_cinematography
+    => nrel_main_idtf: [cinematography] (* <- lang_en;; *);
+    => nrel_main_idtf: [кинематография] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кінематаграфія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cinematography_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_debut_work;
+    => nrel_associative_connection: by_other_films_having_social_and_cultural_importance;
+    => nrel_associative_connection: by_art;
+    => nrel_associative_connection: by_cinematographic_activity;
+    => nrel_associative_connection: by_cinematographic_event;
+    => nrel_associative_connection: by_film_document;
+    => nrel_associative_connection: by_filmexhibiting_cinematography_organizations;
+    => nrel_associative_connection: by_cinema_chronicle;
+    => nrel_associative_connection: by_cinemaproject;
+    => nrel_associative_connection: by_filmmaking_cinematography_organizations;
+    => nrel_associative_connection: by_filmdistributing_cinematography_organizations;
+    => nrel_associative_connection: by_culture;
+    => nrel_associative_connection: by_national_films;
+    => nrel_associative_connection: by_cinematography_organizations;
+    => nrel_associative_connection: by_film_producer;
+    => nrel_associative_connection: by_film_production;
+    => nrel_associative_connection: by_cinematography_worker;
+    => nrel_associative_connection: by_film_crew;
+    => nrel_associative_connection: by_subtitles;
+    => nrel_associative_connection: by_film;
+    => nrel_associative_connection: by_screening;
+
+    => nrel_etalon_online_idx: [5971];;

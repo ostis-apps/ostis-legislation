@@ -1,0 +1,28 @@
+
+by_clinical_trial_design
+    => nrel_main_idtf: [clinical trial design] (* <- lang_en;; *);
+    => nrel_main_idtf: [дизайн клинического испытания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дызайн клінічнага выпрабавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_trial_design_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_design;
+    => nrel_associative_connection: by_design_services;
+    => nrel_associative_connection: by_clinical_trial;
+    => nrel_associative_connection: by_universal_design;
+
+    => nrel_etalon_online_idx: [14165];;

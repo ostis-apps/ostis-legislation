@@ -1,0 +1,31 @@
+
+by_insurance
+    => nrel_main_idtf: [insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхоўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_marine_insurance_contract;
+    => nrel_associative_connection: by_individual_insurance_system;
+    => nrel_associative_connection: by_association_of_insurers;
+    => nrel_associative_connection: by_object_for_insurance_contribution;
+    => nrel_associative_connection: by_selfinsurance;
+    => nrel_associative_connection: by_insurance_term;
+    => nrel_associative_connection: by_jerk_factor;
+
+    => nrel_etalon_online_idx: [24324];;

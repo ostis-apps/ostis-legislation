@@ -1,0 +1,29 @@
+
+by_updated_theater_perfomance
+    => nrel_main_idtf: [updated theater perfomance] (* <- lang_en;; *);
+    => nrel_main_idtf: [обновленная театральная постановка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абноўленая тэатральная пастаноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_updated_theater_perfomance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_capital_updated_production;
+    => nrel_associative_connection: by_new_theater_perfomance_concert_program_circus_perfomance;
+    => nrel_associative_connection: by_period_for_preparing_and_releasing_of_new_theater_play_concert_program_circus_performance;
+    => nrel_associative_connection: by_director_of_the_performance;
+    => nrel_associative_connection: by_theaters;
+
+    => nrel_etalon_online_idx: [18436];;

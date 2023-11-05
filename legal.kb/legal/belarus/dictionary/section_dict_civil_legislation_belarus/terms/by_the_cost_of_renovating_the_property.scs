@@ -1,0 +1,30 @@
+
+by_the_cost_of_renovating_the_property
+    => nrel_main_idtf: [the cost of renovating the property] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость обновления имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт абнаўлення маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_cost_of_renovating_the_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wear;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_restoration_restoration_and_recreation_works;
+    => nrel_associative_connection: by_object_restoration_restoration_and_recreation_works;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_scrap_cost;
+
+    => nrel_etalon_online_idx: [24244];;

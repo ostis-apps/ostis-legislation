@@ -1,0 +1,50 @@
+
+by_trade_zone
+    => nrel_main_idtf: [trade zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговая зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвая зона] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_zone_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_market;
+    => nrel_associative_connection: by_market_plan;
+    => nrel_associative_connection: by_trade_area;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_place;
+    => nrel_associative_connection: by_trade_premises;
+    => nrel_associative_connection: by_trade_hall;
+    => nrel_associative_connection: by_trade_object;
+    => nrel_associative_connection: by_shopping_center;
+
+    => nrel_etalon_online_idx: [7705];;

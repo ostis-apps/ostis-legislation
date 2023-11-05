@@ -1,0 +1,18 @@
+
+by_accident_in_lifts_elevators_operating
+    => nrel_main_idtf: [accident in lifts, elevators operating] (* <- lang_en;; *);
+    => nrel_main_idtf: [несчастный случай при эксплуатации лифтов, подъемников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няшчасны выпадак пры эксплуатацыі ліфтаў, пад'ёмнікаў] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_owner_of_the_lift_elevator;
+    => nrel_associative_connection: by_elevator_owner;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_damage_of_lift_elevator_of_i_degree;
+    => nrel_associative_connection: by_damage_of_lift_elevator_of_ii_degree;
+    => nrel_associative_connection: by_building_passengerandfreight_elevator;
+    => nrel_associative_connection: by_maintenance_service_of_lift;
+
+    => nrel_etalon_online_idx: [18172];;

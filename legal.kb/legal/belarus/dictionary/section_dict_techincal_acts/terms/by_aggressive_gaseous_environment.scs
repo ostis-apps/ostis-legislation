@@ -1,0 +1,28 @@
+
+by_aggressive_gaseous_environment
+    => nrel_main_idtf: [aggressive gaseous environment] (* <- lang_en;; *);
+    => nrel_main_idtf: [агрессивная среда газообразная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агрэсіўнае асяроддзе газападобнае] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggressive_gaseous_environment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerosols_dust_of_predominantly_fibrogenic_action;
+    => nrel_associative_connection: by_hydrophobizing_impregnation;
+    => nrel_associative_connection: by_liquid_aggressive_environment;
+    => nrel_associative_connection: by_mineralized_water;
+
+    => nrel_etalon_online_idx: [35418];;

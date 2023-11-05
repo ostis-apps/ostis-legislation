@@ -1,0 +1,32 @@
+
+by_issue
+    => nrel_main_idtf: [issue] (* <- lang_en;; *);
+    => nrel_main_idtf: [эмиссия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эмісія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_issue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_issuer;
+    => nrel_associative_connection: by_issue_of_securities;
+    => nrel_associative_connection: by_start_of_emission;
+    => nrel_associative_connection: by_illegal_issue_of_securities;
+    => nrel_associative_connection: by_forgery_of_decision_on_issue_or_prospectus_of_securities_issue;
+    => nrel_associative_connection: by_issue_prospectus;
+    => nrel_associative_connection: by_repo_transaction;
+    => nrel_associative_connection: by_issuer;
+
+    => nrel_etalon_online_idx: [9114];;

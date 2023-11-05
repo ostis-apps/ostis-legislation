@@ -1,0 +1,21 @@
+
+by_enterprisedeveloper_enterprisemanufacturer
+    => nrel_main_idtf: [enterprise-developer (enterprise-manufacturer)] (* <- lang_en;; *);
+    => nrel_main_idtf: [предприятие-разработчик (предприятие-изготовитель)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадпрыемства-распрацоўшчык (прадпрыемства-вытворца)] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_manufacturer;
+    => nrel_associative_connection: by_manufacturer_producer;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_representative_of_manufacturer_seller_supplier;
+    => nrel_associative_connection: by_production_facility;
+    => nrel_associative_connection: by_developer;
+    => nrel_associative_connection: by_repair_of_a_sample_of_arms_and_military_equipment;
+    => nrel_associative_connection: by_assembly_production;
+    => nrel_associative_connection: by_system_of_technical_service_and_repair_of_weapons_and_military_equipment;
+    => nrel_associative_connection: by_maintenance_of_the__sample_of_weapons_and_military_equipment;
+    => nrel_associative_connection: by_maintenance_service_with_periodic_control;
+
+    => nrel_etalon_online_idx: [21073];;

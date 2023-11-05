@@ -1,0 +1,29 @@
+
+by_bank_fiduciary
+    => nrel_main_idtf: [bank fiduciary] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-поверенный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-павераны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_fiduciary_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_bank_deposit_of_precious_metals_andor_precious_stones;
+    => nrel_associative_connection: by_commission_agreement;
+    => nrel_associative_connection: by_law_agent;
+
+    => nrel_etalon_online_idx: [11779];;

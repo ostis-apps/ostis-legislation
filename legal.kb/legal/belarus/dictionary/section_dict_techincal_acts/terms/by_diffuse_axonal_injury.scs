@@ -1,0 +1,27 @@
+
+by_diffuse_axonal_injury
+    => nrel_main_idtf: [diffuse axonal injury] (* <- lang_en;; *);
+    => nrel_main_idtf: [диффузное аксональное повреждение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыфузнае аксанальнае пашкоджанне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diffuse_axonal_injury_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hemorrhage_in_brain;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_nontraumatic_intracranial_hemorrhage;
+
+    => nrel_etalon_online_idx: [42309];;

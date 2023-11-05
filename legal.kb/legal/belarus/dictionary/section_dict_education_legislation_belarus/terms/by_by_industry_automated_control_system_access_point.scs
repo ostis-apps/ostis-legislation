@@ -1,0 +1,28 @@
+
+by_by_industry_automated_control_system_access_point
+    => nrel_main_idtf: [by_industry_automated_control_system_access_point] (* <- lang_en;; *);
+    => nrel_main_idtf: [точка доступа отраслевой автоматизированной системы управления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кропка доступу галіновай аўтаматызаванай сістэмы кіравання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_industry_automated_control_system_access_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hardware;
+    => nrel_associative_connection: by_virtual_network;
+    => nrel_associative_connection: by_computer_classroom;
+    => nrel_associative_connection: by_regional_access_node_of_the_sectoral_information_environment_of_the_education_system;
+
+    => nrel_etalon_online_idx: [43921];;

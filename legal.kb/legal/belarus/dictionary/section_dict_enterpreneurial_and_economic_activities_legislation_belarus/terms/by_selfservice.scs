@@ -1,0 +1,19 @@
+
+by_selfservice
+    => nrel_main_idtf: [self-service] (* <- lang_en;; *);
+    => nrel_main_idtf: [самообслуживание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [самаабслугоўванне] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_outside_service;
+    => nrel_associative_connection: by_discounter;
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_method_of_customer_service;
+    => nrel_associative_connection: by_shopping_trolley;
+    => nrel_associative_connection: by_trolley_for_sales_of_goods;
+    => nrel_associative_connection: by_traditional_service;
+    => nrel_associative_connection: by_selfservice_store;
+    => nrel_associative_connection: by_selfservice_machine;
+
+    => nrel_etalon_online_idx: [10841];;

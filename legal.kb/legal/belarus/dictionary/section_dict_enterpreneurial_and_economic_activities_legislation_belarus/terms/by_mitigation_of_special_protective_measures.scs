@@ -1,0 +1,43 @@
+
+by_mitigation_of_special_protective_measures
+    => nrel_main_idtf: [mitigation of special protective measures] (* <- lang_en;; *);
+    => nrel_main_idtf: [смягчение специальных защитных мер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змякчэнне спецыяльных абаронных мер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mitigation_of_special_protective_measures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mitigation_of_special_protective_measures_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_long_term_protective_measure;
+    => nrel_associative_connection: by_collection_duty;
+    => nrel_associative_connection: by_special_import_quota;
+    => nrel_associative_connection: by_rate;
+
+    => nrel_etalon_online_idx: [23410];;

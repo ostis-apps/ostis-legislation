@@ -1,0 +1,52 @@
+
+by_military_units
+    => nrel_main_idtf: [military units] (* <- lang_en;; *);
+    => nrel_main_idtf: [воинские формирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воінскія фарміраванні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_units_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_units_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_apparatus_for_strengthening__of_the_military_commissariat;
+    => nrel_associative_connection: by_military_team;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_registration_and_enlistment_system;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_other_forces_and_military_units_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_metrological_support_of_military_installation;
+    => nrel_associative_connection: by_mobilisation;
+    => nrel_associative_connection: by_defense_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_organs_of_service;
+    => nrel_associative_connection: by_training_of_personnel_in_specialties_for_military_formations_and_parametric_organizations_customs_authorities;
+    => nrel_associative_connection: by_subjects_eligible_to_acquire_weapons_and_ammunition;
+    => nrel_associative_connection: by_transport_troops;
+
+    => nrel_etalon_online_idx: [2388];;

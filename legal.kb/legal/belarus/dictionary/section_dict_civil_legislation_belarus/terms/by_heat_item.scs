@@ -1,0 +1,94 @@
+
+by_heat_item
+    => nrel_main_idtf: [heat item] (* <- lang_en;; *);
+    => nrel_main_idtf: [тепловой пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цеплавы пункт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_item_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_item_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_item_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heat_item_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_types_of_thermal_loads;
+    => nrel_associative_connection: by_admission_to_operation_of_the_metering__system_unit;
+    => nrel_associative_connection: by_individual_heat_point;
+    => nrel_associative_connection: by_individual_heat_unit_ihu;
+    => nrel_associative_connection: by_trunking_heat_network;
+    => nrel_associative_connection: by_trunking_heat_network_heat_trunk;
+    => nrel_associative_connection: by_heat_network;
+    => nrel_associative_connection: by_thermal_power_plant;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_central_heating_point;
+
+    => nrel_etalon_online_idx: [24791];;

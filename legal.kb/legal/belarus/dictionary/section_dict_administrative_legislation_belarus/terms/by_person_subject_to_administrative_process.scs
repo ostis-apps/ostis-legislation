@@ -1,0 +1,27 @@
+
+by_person_subject_to_administrative_process
+    => nrel_main_idtf: [person subject to administrative process] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицо, в отношении которого ведется административный процесс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асоба, у адносінах да якой вядзецца адміністрацыйны працэс] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_person_subject_to_administrative_process_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_appeal;
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_participants_of_administrative_process;
+
+    => nrel_etalon_online_idx: [1719];;

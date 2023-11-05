@@ -1,0 +1,29 @@
+
+by_by_volumetric_heat_engineering_inhomogeneity_volumetric_coolant
+    => nrel_main_idtf: [by_volumetric_heat_engineering_inhomogeneity_volumetric_coolant] (* <- lang_en;; *);
+    => nrel_main_idtf: [объемная теплотехническая неоднородность (объемная тн)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ёмная цеплатэхнічная неаднароднасць (аб'ёмная цн)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_volumetric_heat_engineering_inhomogeneity_volumetric_coolant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_coefficient_of_thermal_homogeneity;
+    => nrel_associative_connection: by_linear_thermotechnical_heterogeneity_linear_;
+    => nrel_associative_connection: by_model_of_heat_engineering_heterogeneity_of_the_enveloped_structure_th_model;
+    => nrel_associative_connection: by_specific_heat_loss_through_linear_heat_engineering_inhomogeneity;
+    => nrel_associative_connection: by_specific_geometric_indicator_of_heat_engineering_inhomogeneity;
+
+    => nrel_etalon_online_idx: [37066];;

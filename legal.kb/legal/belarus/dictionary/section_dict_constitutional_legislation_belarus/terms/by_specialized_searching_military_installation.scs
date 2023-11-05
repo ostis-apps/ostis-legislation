@@ -1,0 +1,30 @@
+
+by_specialized_searching_military_installation
+    => nrel_main_idtf: [specialized searching military installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [специализированная поисковая воинская часть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялізаваная пошукавая воінская часць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialized_searching_military_installation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_military_unit;
+    => nrel_associative_connection: by_military_units;
+    => nrel_associative_connection: by_search_military_unit;
+    => nrel_associative_connection: by_search_work;
+    => nrel_associative_connection: by_exploration_work;
+    => nrel_associative_connection: by_field_search_works;
+
+    => nrel_etalon_online_idx: [23733];;

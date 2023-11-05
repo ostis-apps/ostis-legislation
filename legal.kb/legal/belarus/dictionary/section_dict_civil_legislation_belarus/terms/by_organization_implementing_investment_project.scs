@@ -1,0 +1,42 @@
+
+by_organization_implementing_investment_project
+    => nrel_main_idtf: [organization implementing investment project] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация, реализующая инвестиционный проект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя, якая рэалізуе інвестыцыйны праект] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_implementing_investment_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_implementing_investment_project_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investment_project;
+    => nrel_associative_connection: by_preinvestment_stage;
+
+    => nrel_etalon_online_idx: [19252];;

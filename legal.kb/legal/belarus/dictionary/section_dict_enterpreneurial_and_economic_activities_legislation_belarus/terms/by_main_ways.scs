@@ -1,0 +1,28 @@
+
+by_main_ways
+    => nrel_main_idtf: [main ways] (* <- lang_en;; *);
+    => nrel_main_idtf: [главные пути] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галоўныя шляхі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_ways_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_traffic_on_public_railway_transport;
+    => nrel_associative_connection: by_safety_dead_end;
+    => nrel_associative_connection: by_routes_for_special_purpose;
+    => nrel_associative_connection: by_passing_loop;
+
+    => nrel_etalon_online_idx: [8713];;

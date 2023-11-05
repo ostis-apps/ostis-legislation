@@ -1,0 +1,30 @@
+
+by_visiting_fairs
+    => nrel_main_idtf: [visiting fairs] (* <- lang_en;; *);
+    => nrel_main_idtf: [выездное ярмарочное мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выязное кірмашовае мерапрыемства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visiting_fairs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outside_event;
+    => nrel_associative_connection: by_exhibition_fair;
+    => nrel_associative_connection: by_international_fair;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_fair;
+
+    => nrel_etalon_online_idx: [7400];;

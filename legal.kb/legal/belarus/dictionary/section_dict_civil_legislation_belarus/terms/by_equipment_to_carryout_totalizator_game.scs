@@ -1,0 +1,31 @@
+
+by_equipment_to_carryout_totalizator_game
+    => nrel_main_idtf: [equipment to carryout totalizator game] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборудование для проведения игры тотализатора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абсталяванне для правядзення гульні таталізатара] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_equipment_to_carryout_totalizator_game_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_winning_fund_of_totalizator;
+    => nrel_associative_connection: by_totalizator_game;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_totalizator_card_coupon;
+    => nrel_associative_connection: by_totalizator_cash;
+    => nrel_associative_connection: by_online_totalizator_game;
+    => nrel_associative_connection: by_totalizator;
+
+    => nrel_etalon_online_idx: [18461];;

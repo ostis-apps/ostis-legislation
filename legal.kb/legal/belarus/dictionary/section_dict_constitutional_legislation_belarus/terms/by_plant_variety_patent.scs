@@ -1,0 +1,29 @@
+
+by_plant_variety_patent
+    => nrel_main_idtf: [plant variety patent] (* <- lang_en;; *);
+    => nrel_main_idtf: [патент на сорт растения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патэнт на сорт расліны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_variety_patent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_author_coauthors_of_a_plant_variety;
+    => nrel_associative_connection: by_distinctness_of_variety;
+    => nrel_associative_connection: by_official_description_of_plant_variety;
+    => nrel_associative_connection: by_patent_documentation;
+    => nrel_associative_connection: by_plant_variety_being_under_work;
+
+    => nrel_etalon_online_idx: [19861];;

@@ -1,0 +1,44 @@
+
+by_andragog
+    => nrel_main_idtf: [andragog] (* <- lang_en;; *);
+    => nrel_main_idtf: [андрагог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [андрагог] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_andragog_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_andragog_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_andragogics;
+    => nrel_associative_connection: by_education_for_adults;
+    => nrel_associative_connection: by_teacher;
+    => nrel_associative_connection: by_pedagogy;
+    => nrel_associative_connection: by_educational_and_teaching_complex;
+
+    => nrel_etalon_online_idx: [31527];;

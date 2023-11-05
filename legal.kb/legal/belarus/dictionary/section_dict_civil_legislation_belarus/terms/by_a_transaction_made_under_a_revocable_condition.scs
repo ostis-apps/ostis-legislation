@@ -1,0 +1,44 @@
+
+by_a_transaction_made_under_a_revocable_condition
+    => nrel_main_idtf: [a transaction made under a revocable condition] (* <- lang_en;; *);
+    => nrel_main_idtf: [сделка, совершенная под отменительным условием] (* <- lang_ru;; *);
+    => nrel_main_idtf: [здзелка, заключаная пад скасавальнай умовай] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_a_transaction_made_under_a_revocable_condition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_a_transaction_made_under_a_revocable_condition_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_transaction;
+    => nrel_associative_connection: by_a_transaction_made_under_a_suspensive_condition;
+    => nrel_associative_connection: by_contingent_liability;
+    => nrel_associative_connection: by_conditionally_revocable_commitments;
+    => nrel_associative_connection: by_contingent_commitments;
+
+    => nrel_etalon_online_idx: [22960];;

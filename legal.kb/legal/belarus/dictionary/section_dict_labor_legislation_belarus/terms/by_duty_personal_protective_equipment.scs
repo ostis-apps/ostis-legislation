@@ -1,0 +1,30 @@
+
+by_duty_personal_protective_equipment
+    => nrel_main_idtf: [duty personal protective equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [дежурные средства индивидуальной защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяжурныя сродкі індывідуальнай абароны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_duty_personal_protective_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_wear_of_personal_protective_equipment;
+    => nrel_associative_connection: by_special_protective_clothes;
+    => nrel_associative_connection: by_special_signal_clothing_with_high_visibility;
+    => nrel_associative_connection: by_personal_protection_equipment_for_legs;
+    => nrel_associative_connection: by_personal_protective_equipment_for_the_hearing_organ;
+    => nrel_associative_connection: by_means_of_personal_hand_protection;
+
+    => nrel_etalon_online_idx: [31494];;

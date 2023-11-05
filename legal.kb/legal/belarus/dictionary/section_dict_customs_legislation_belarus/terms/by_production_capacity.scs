@@ -1,0 +1,30 @@
+
+by_production_capacity
+    => nrel_main_idtf: [production capacity] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственные мощности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчыя магутнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_capacity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_release_of_products;
+    => nrel_associative_connection: by_detailrepresentative;
+    => nrel_associative_connection: by_plan_of_production_and_financial_activity;
+    => nrel_associative_connection: by_project_capacity;
+    => nrel_associative_connection: by_production_needs;
+    => nrel_associative_connection: by_specialized_facilities;
+
+    => nrel_etalon_online_idx: [21581];;

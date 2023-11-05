@@ -1,0 +1,27 @@
+
+by_special_educational_needs
+    => nrel_main_idtf: [special educational needs] (* <- lang_en;; *);
+    => nrel_main_idtf: [особые образовательные потребности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобыя адукацыйныя патрэбнасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_educational_needs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_inclusive_education;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_etalon_online_idx: [38279];;

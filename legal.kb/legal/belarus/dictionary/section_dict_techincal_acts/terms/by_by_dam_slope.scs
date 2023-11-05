@@ -1,0 +1,35 @@
+
+by_by_dam_slope
+    => nrel_main_idtf: [by_dam_slope] (* <- lang_en;; *);
+    => nrel_main_idtf: [откос плотины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адхон плаціны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_dam_slope_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_berm;
+    => nrel_associative_connection: by_upper_pressure_face_of_the_dam;
+    => nrel_associative_connection: by_dam_diaphragm;
+    => nrel_associative_connection: by_dam_body_drainage;
+    => nrel_associative_connection: by_drainage_device;
+    => nrel_associative_connection: by_drainage;
+    => nrel_associative_connection: by_earthen_alluvial_dam;
+    => nrel_associative_connection: by_earthen_bulk_dam;
+    => nrel_associative_connection: by_dam_tooth;
+    => nrel_associative_connection: by_stone_and_earth_dam;
+    => nrel_associative_connection: by_bottom_face_of_the_dam;
+
+    => nrel_etalon_online_idx: [37630];;

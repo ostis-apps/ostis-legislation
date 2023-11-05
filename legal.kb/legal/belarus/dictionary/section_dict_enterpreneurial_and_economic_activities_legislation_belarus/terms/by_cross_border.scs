@@ -1,0 +1,28 @@
+
+by_cross_border
+    => nrel_main_idtf: [cross border] (* <- lang_en;; *);
+    => nrel_main_idtf: [граница перекрестка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяжа скрыжавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cross_border_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_designate_crossroad;
+    => nrel_associative_connection: by_intersection;
+    => nrel_associative_connection: by_carriageway;
+
+    => nrel_etalon_online_idx: [13838];;

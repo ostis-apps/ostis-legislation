@@ -1,0 +1,48 @@
+
+by_service_flight_time
+    => nrel_main_idtf: [service flight time] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебное полетное время] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовы палётны час] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_flight_time_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_basic_time;
+    => nrel_associative_connection: by_task_on_the_flight;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_meteorological_flights_conditions;
+    => nrel_associative_connection: by_contingency;
+    => nrel_associative_connection: by_flight_time_norm_for_the_year;
+    => nrel_associative_connection: by_flight_time_norm_for_month;
+    => nrel_associative_connection: by_night_day_flight_time;
+    => nrel_associative_connection: by_aircraft_safety_ensuring;
+    => nrel_associative_connection: by_common_flight_management;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_change;
+    => nrel_associative_connection: by_flying_hours;
+    => nrel_associative_connection: by_flight_and_information_services;
+    => nrel_associative_connection: by_flight_order;
+    => nrel_associative_connection: by_preflight_training;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_extended_aircraft_crew;
+    => nrel_associative_connection: by_excess_flight_flight;
+    => nrel_associative_connection: by_sector;
+    => nrel_associative_connection: by_service_hours_at_night;
+    => nrel_associative_connection: by_daily_duration_of_service_flight_time;
+    => nrel_associative_connection: by_flight_control;
+
+    => nrel_etalon_online_idx: [23362];;

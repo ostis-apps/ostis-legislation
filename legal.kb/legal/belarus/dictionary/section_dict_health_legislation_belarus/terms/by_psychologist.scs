@@ -1,0 +1,46 @@
+
+by_psychologist
+    => nrel_main_idtf: [psychologist] (* <- lang_en;; *);
+    => nrel_main_idtf: [психолог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псіхолаг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychologist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychologist_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_psychiatristnarcologist_psychologist;
+    => nrel_associative_connection: by_correction_of_physical_and_or_mental_disorders;
+    => nrel_associative_connection: by_crisis_intervention;
+    => nrel_associative_connection: by_full_form_of_psychological_care;
+    => nrel_associative_connection: by_teacherpsychologist;
+    => nrel_associative_connection: by_psychological_diagnostics;
+    => nrel_associative_connection: by_psychological_help;
+
+    => nrel_etalon_online_idx: [6731];;

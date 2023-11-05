@@ -1,0 +1,34 @@
+
+by_workstation
+    => nrel_main_idtf: [workstation] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочая станция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочая станцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_workstation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_computer_information;
+    => nrel_associative_connection: by_optical_electronic_computer;
+    => nrel_associative_connection: by_software_and_maintenance_of_computer_equipment;
+    => nrel_associative_connection: by_foreign_institution_employee_responsible_for_information_technology;
+    => nrel_associative_connection: by_regional_information_technology_specialist;
+    => nrel_associative_connection: by_server;
+    => nrel_associative_connection: by_audiovisual_control_server;
+    => nrel_associative_connection: by_monitoring_server;
+    => nrel_associative_connection: by_digital_electronic_computer;
+    => nrel_associative_connection: by_electronic_computer_with_systolic_matrix;
+
+    => nrel_etalon_online_idx: [21931];;

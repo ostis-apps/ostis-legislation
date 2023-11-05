@@ -1,0 +1,30 @@
+
+by_document_registration
+    => nrel_main_idtf: [document registration] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрация документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыя дакумента] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_document_registration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document_date;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_documents_of_group_processing;
+    => nrel_associative_connection: by_individual_accounting;
+    => nrel_associative_connection: by_registration_of_documents;
+    => nrel_associative_connection: by_system_of_the_interdepartmental_informational_interaction_of_state_bodies_and_other_state_organizations;
+
+    => nrel_etalon_online_idx: [41759];;

@@ -1,0 +1,27 @@
+
+by_established_electric_power
+    => nrel_main_idtf: [established electric power] (* <- lang_en;; *);
+    => nrel_main_idtf: [установленная электрическая мощность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [устаноўленая электрычная магутнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_established_electric_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_active_electric_power;
+    => nrel_associative_connection: by_electrical_power_allowed_to_be_used_at_the_boundary_of_the_balance_sheet_ownership_of_electrical_networks;
+    => nrel_associative_connection: by_electrical_installation;
+
+    => nrel_etalon_online_idx: [39207];;

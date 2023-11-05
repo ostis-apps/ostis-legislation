@@ -1,0 +1,35 @@
+
+by_cadastral_valuation_of_lands_land_plots
+    => nrel_main_idtf: [cadastral valuation of lands, land plots] (* <- lang_en;; *);
+    => nrel_main_idtf: [кадастровая оценка земель, земельных участков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кадастравая ацэнка зямель, зямельных участкаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cadastral_valuation_of_lands_land_plots_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_registry_account_of_lands;
+    => nrel_associative_connection: by_date_of_cadastral_valuation_of_land;
+    => nrel_associative_connection: by_cadastral_cost_of_lands;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_cadastral_number;
+    => nrel_associative_connection: by_assessment_model;
+    => nrel_associative_connection: by_evaluationassessment;
+    => nrel_associative_connection: by_working_estimated_plot;
+    => nrel_associative_connection: by_equivalent_land_plot;
+    => nrel_associative_connection: by_land_value_register_of_the_state_land_cadastre;
+    => nrel_associative_connection: by_registry_of_prices_for_land_plots;
+
+    => nrel_etalon_online_idx: [10269];;

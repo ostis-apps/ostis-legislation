@@ -1,0 +1,31 @@
+
+by_urban_road_transportation
+    => nrel_main_idtf: [urban road transportation] (* <- lang_en;; *);
+    => nrel_main_idtf: [городские автомобильные перевозки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарадскія аўтамабільныя перавозкі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_road_transportation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_automobile_transportation_of_passengers_by_transport_of_general_use;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_urban_road_carriage_of_goods;
+    => nrel_associative_connection: by_customer_of_automotive_transportation;
+    => nrel_associative_connection: by_interurban_domestic_automobile_carriages;
+    => nrel_associative_connection: by_interurban_interregional_automobile_carriages;
+    => nrel_associative_connection: by_carriage;
+
+    => nrel_etalon_online_idx: [8727];;

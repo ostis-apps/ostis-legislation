@@ -1,0 +1,81 @@
+
+by_financial_organization
+    => nrel_main_idtf: [financial organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [финансовая организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фінансавая арганізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_organization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_organization_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_organization_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_nonbank_financial_organization;
+    => nrel_associative_connection: by_nonbank_financial_organizations;
+    => nrel_associative_connection: by_noncredit_financial_organizations;
+    => nrel_associative_connection: by_nonfinancial_organizations;
+    => nrel_associative_connection: by_bonds_emitted_by_a_special_financial_organization;
+    => nrel_associative_connection: by_securitization;
+    => nrel_associative_connection: by_special_financial_organization;
+    => nrel_associative_connection: by_financial_service;
+    => nrel_associative_connection: by_financial_institutions_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_economic_entities;
+
+    => nrel_etalon_online_idx: [9408];;

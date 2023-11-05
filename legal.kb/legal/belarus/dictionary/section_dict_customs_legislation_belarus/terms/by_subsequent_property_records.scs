@@ -1,0 +1,29 @@
+
+by_subsequent_property_records
+    => nrel_main_idtf: [subsequent property records] (* <- lang_en;; *);
+    => nrel_main_idtf: [последующий учет имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наступны улік маёмасці] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subsequent_property_records_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_arrest_of_property;
+    => nrel_associative_connection: by_property_identification;
+    => nrel_associative_connection: by_property_turned_to_the_states_revenue;
+    => nrel_associative_connection: by_assessment_of_property;
+    => nrel_associative_connection: by_preliminary_assessment_of_property;
+
+    => nrel_etalon_online_idx: [20721];;

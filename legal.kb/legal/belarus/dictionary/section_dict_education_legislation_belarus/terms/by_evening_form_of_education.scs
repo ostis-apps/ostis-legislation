@@ -1,0 +1,29 @@
+
+by_evening_form_of_education
+    => nrel_main_idtf: [evening form of education] (* <- lang_en;; *);
+    => nrel_main_idtf: [вечерняя форма получения образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вячэрняя форма атрымання адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_evening_form_of_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_evening_classes;
+    => nrel_associative_connection: by_evening_classes_at_special_school_special_boarding_school;
+    => nrel_associative_connection: by_evening_school;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_teaching;
+
+    => nrel_etalon_online_idx: [2327];;

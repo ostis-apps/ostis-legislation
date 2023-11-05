@@ -1,0 +1,28 @@
+
+by_yard_structure
+    => nrel_main_idtf: [yard structure] (* <- lang_en;; *);
+    => nrel_main_idtf: [дворовое сооружение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дваровае збудаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_yard_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nonresidential_capital_constructions_in_the_house_territory;
+    => nrel_associative_connection: by_nonresidential_constructions__in_the_house_territory;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_outbuildings;
+
+    => nrel_etalon_online_idx: [28435];;

@@ -1,0 +1,46 @@
+
+by_frontier_service_bodies
+    => nrel_main_idtf: [frontier service bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы пограничной службы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы пагранічнай службы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_frontier_service_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_frontier_service_bodies_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_border_security_call_border_call;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_state_border_committee;
+    => nrel_associative_connection: by_danger_to_national_interests_in_border_space_border_danger;
+    => nrel_associative_connection: by_operational_service_activities;
+    => nrel_associative_connection: by_frontier_authorized;
+    => nrel_associative_connection: by_border_security_threat_border_threat;
+
+    => nrel_etalon_online_idx: [19284];;

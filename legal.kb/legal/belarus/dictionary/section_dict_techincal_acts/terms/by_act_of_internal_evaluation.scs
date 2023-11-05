@@ -1,0 +1,36 @@
+
+by_act_of_internal_evaluation
+    => nrel_main_idtf: [act of internal evaluation] (* <- lang_en;; *);
+    => nrel_main_idtf: [акт внутренней оценки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акт унутранай адзнакі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_act_of_internal_evaluation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internal_appraisal;
+    => nrel_associative_connection: by_date_of_estimation;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_documents_of_assessment;
+    => nrel_associative_connection: by_assignment_for_estimating_the_cost;
+    => nrel_associative_connection: by_customer_of_assessment;
+    => nrel_associative_connection: by_assessment_executor;
+    => nrel_associative_connection: by_evaluation_method;
+    => nrel_associative_connection: by_independent_evaluation;
+    => nrel_associative_connection: by_assessment_objects;
+    => nrel_associative_connection: by_compulsory_evaluation;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37936];;

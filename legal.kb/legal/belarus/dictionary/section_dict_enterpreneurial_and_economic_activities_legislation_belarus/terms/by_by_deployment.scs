@@ -1,0 +1,30 @@
+
+by_by_deployment
+    => nrel_main_idtf: [by_deployment] (* <- lang_en;; *);
+    => nrel_main_idtf: [развертывание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разгортванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_deployment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_information_and_telecommunication_infrastructure_for_state_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_technical_requirements_for_public_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_assembly_type;
+    => nrel_associative_connection: by_functionality_of_state_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_functional_requirements_for_public_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_functional_size_of_public_digital_platforms_and_information_systems;
+
+    => nrel_etalon_online_idx: [44066];;

@@ -1,0 +1,29 @@
+
+by_irrevocable_letter_of_credit
+    => nrel_main_idtf: [irrevocable letter of credit] (* <- lang_en;; *);
+    => nrel_main_idtf: [безотзывный аккредитив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бязводзыўны акрэдытыў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_irrevocable_letter_of_credit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_letter_of_credit;
+    => nrel_associative_connection: by_beneficiary;
+    => nrel_associative_connection: by_documentary_operations;
+    => nrel_associative_connection: by_letter_of_credit_execution;
+    => nrel_associative_connection: by_reimbursement_undertaking;
+
+    => nrel_etalon_online_idx: [11782];;

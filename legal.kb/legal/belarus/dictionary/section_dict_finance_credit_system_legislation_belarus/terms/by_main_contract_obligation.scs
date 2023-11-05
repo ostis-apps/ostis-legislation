@@ -1,0 +1,48 @@
+
+by_main_contract_obligation
+    => nrel_main_idtf: [main contract (obligation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной договор (обязательство)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны дагавор (абавязацельства)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_contract_obligation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_contract_obligation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_internal_bank_payment_obligation;
+    => nrel_associative_connection: by_international_bank_payment_obligation;
+    => nrel_associative_connection: by_burdensome_contract;
+    => nrel_associative_connection: by_binding_bank;
+    => nrel_associative_connection: by_legal_obligation;
+    => nrel_associative_connection: by_preliminary_agreement;
+    => nrel_associative_connection: by_principle_of_freedom_of_contract;
+    => nrel_associative_connection: by_established_basic_conditions;
+    => nrel_associative_connection: by_fixed_time;
+
+    => nrel_etalon_online_idx: [19383];;

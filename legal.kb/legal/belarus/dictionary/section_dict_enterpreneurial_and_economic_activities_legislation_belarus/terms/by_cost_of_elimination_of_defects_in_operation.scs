@@ -1,0 +1,49 @@
+
+by_cost_of_elimination_of_defects_in_operation
+    => nrel_main_idtf: [cost of elimination of defects in operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость устранения дефектов эксплуатации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт ліквідацыі дэфектаў эксплуатацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_elimination_of_defects_in_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_elimination_of_defects_in_operation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_defect;
+    => nrel_associative_connection: by_exploitation_defect;
+    => nrel_associative_connection: by_wear;
+    => nrel_associative_connection: by_damaged_property;
+    => nrel_associative_connection: by_reasonable_availability_of_car_service_organization;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_materials;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_server_of_market_prices_of_vehicle_parts_materials_and_cost_of_normohour_of_work_on_repair_of_vehicles_in_car_service_organizations;
+    => nrel_associative_connection: by_physical_deterioration;
+
+    => nrel_etalon_online_idx: [24259];;

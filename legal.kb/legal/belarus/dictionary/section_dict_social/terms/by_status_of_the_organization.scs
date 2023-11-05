@@ -1,0 +1,30 @@
+
+by_status_of_the_organization
+    => nrel_main_idtf: [status of the organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [статус организации ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [статус арганізацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_status_of_the_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_recreational_organizations;
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_resort_and_recreation_treatment;
+    => nrel_associative_connection: by_health_recreation_and_resort_organizations;
+    => nrel_associative_connection: by_wellness_services;
+    => nrel_associative_connection: by_services_on_sanatorium_and_resort_treatment;
+
+    => nrel_etalon_online_idx: [39865];;

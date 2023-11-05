@@ -1,0 +1,19 @@
+
+by_nominal_load_capacity
+    => nrel_main_idtf: [nominal load capacity] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная грузоподъемность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная грузападымальнасць] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_military_lifting_machine;
+    => nrel_associative_connection: by_carrying_capacity;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_nominal_load_capacity_of_a_motor_vehicle;
+    => nrel_associative_connection: by_nominal_burden;
+    => nrel_associative_connection: by_nominal_speed;
+    => nrel_associative_connection: by_work_mode;
+
+    => nrel_etalon_online_idx: [11985];;

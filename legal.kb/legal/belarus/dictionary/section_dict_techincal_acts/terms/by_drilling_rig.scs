@@ -1,0 +1,30 @@
+
+by_drilling_rig
+    => nrel_main_idtf: [drilling rig] (* <- lang_en;; *);
+    => nrel_main_idtf: [буровая установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буравая ўстаноўка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drilling_rig_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drilling;
+    => nrel_associative_connection: by_borehole;
+    => nrel_associative_connection: by_drilling_equipment;
+    => nrel_associative_connection: by_geological_and_technical_request;
+    => nrel_associative_connection: by_well;
+    => nrel_associative_connection: by_installation;
+
+    => nrel_etalon_online_idx: [38742];;

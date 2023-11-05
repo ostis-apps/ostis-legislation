@@ -1,0 +1,31 @@
+
+by_bet_in_the_game_on_game_machines_bet
+    => nrel_main_idtf: [bet in the game on game machines (bet)] (* <- lang_en;; *);
+    => nrel_main_idtf: [ставка в игре на игровых автоматах (ставка)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стаўка ў гульні на гульнявых аўтаматах (стаўка)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bet_in_the_game_on_game_machines_bet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_game_program;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_gaming_machine_cash;
+    => nrel_associative_connection: by_credit_key;
+    => nrel_associative_connection: by_accumulated_counters;
+    => nrel_associative_connection: by_ticket;
+
+    => nrel_etalon_online_idx: [30931];;

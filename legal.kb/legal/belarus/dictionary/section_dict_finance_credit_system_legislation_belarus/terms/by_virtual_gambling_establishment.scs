@@ -1,0 +1,47 @@
+
+by_virtual_gambling_establishment
+    => nrel_main_idtf: [virtual gambling establishment] (* <- lang_en;; *);
+    => nrel_main_idtf: [виртуальное игорное заведение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [віртуальная ігральная ўстанова] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_virtual_gambling_establishment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_bonus_system;
+    => nrel_associative_connection: by_bookmaker_online_game;
+    => nrel_associative_connection: by_win;
+    => nrel_associative_connection: by_jackpot_system;
+    => nrel_associative_connection: by_gambling_establishment;
+    => nrel_associative_connection: by_bingo_game;
+    => nrel_associative_connection: by_game_session;
+    => nrel_associative_connection: by_game_account;
+    => nrel_associative_connection: by_foreign_segment_of_the_global_computer_network_internet;
+    => nrel_associative_connection: by_customer_program;
+    => nrel_associative_connection: by_electronic_copy_of_identity_document;
+    => nrel_associative_connection: by_electronic_copy_of_identity_document;
+    => nrel_associative_connection: by_electronic_copy_of_identity_document;
+    => nrel_associative_connection: by_live_mode;
+    => nrel_associative_connection: by_personal_account_of_gamble_participant;
+    => nrel_associative_connection: by_equipment_in_the_sphere_of_gambling;
+    => nrel_associative_connection: by_online_card_game;
+    => nrel_associative_connection: by_online_totalizator_game;
+    => nrel_associative_connection: by_platform__of_virtual_gambling_establishment;
+    => nrel_associative_connection: by_visitors_of_the_virtual_gambling_establishment;
+    => nrel_associative_connection: by_visitors_of_gambling_establishment;
+    => nrel_associative_connection: by_slot_game;
+
+    => nrel_etalon_online_idx: [29137];;

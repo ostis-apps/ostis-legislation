@@ -1,0 +1,27 @@
+
+by_automatic_start
+    => nrel_main_idtf: [automatic start] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматический пуск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычны пуск] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_start_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_algorithm;
+    => nrel_associative_connection: by_fire_automatic;
+    => nrel_associative_connection: by_technical_means;
+
+    => nrel_etalon_online_idx: [40854];;

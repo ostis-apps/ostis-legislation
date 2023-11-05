@@ -1,0 +1,28 @@
+
+by_customer_of_ritual_services
+    => nrel_main_idtf: [customer of ritual services] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказчик ритуальных услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказчык рытуальных паслуг] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customer_of_ritual_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_persons_who_have_suffered_loss;
+    => nrel_associative_connection: by_medical_funeral_services;
+    => nrel_associative_connection: by_funeral_business;
+    => nrel_associative_connection: by_maintenance_and_improvement_of_burial_places;
+
+    => nrel_etalon_online_idx: [14766];;

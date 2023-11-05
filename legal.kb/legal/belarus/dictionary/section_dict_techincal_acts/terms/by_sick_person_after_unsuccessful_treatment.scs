@@ -1,0 +1,29 @@
+
+by_sick_person_after_unsuccessful_treatment
+    => nrel_main_idtf: [sick person after unsuccessful treatment] (* <- lang_en;; *);
+    => nrel_main_idtf: [больной после неудачного лечения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хворы пасля няўдалага лячэння] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sick_person_after_unsuccessful_treatment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sick_person_after_unsuccessful_treatment_ineffective_course_of_chemotherapy;
+    => nrel_associative_connection: by_first_identified_new_sick_person_case;
+    => nrel_associative_connection: by_curing_a_patient_with_tuberculosis;
+    => nrel_associative_connection: by_cohort;
+    => nrel_associative_connection: by_retreated_patient;
+
+    => nrel_etalon_online_idx: [31615];;

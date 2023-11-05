@@ -1,0 +1,27 @@
+
+by_platform_area
+    => nrel_main_idtf: [platform area] (* <- lang_en;; *);
+    => nrel_main_idtf: [платформенный участок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [платформавы ўчастак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_platform_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_metro_lines;
+    => nrel_associative_connection: by_metro;
+    => nrel_associative_connection: by_metro_territory;
+
+    => nrel_etalon_online_idx: [37129];;

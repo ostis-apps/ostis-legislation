@@ -1,0 +1,31 @@
+
+by_recruiting_station
+    => nrel_main_idtf: [recruiting station] (* <- lang_en;; *);
+    => nrel_main_idtf: [призывной участок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прызыўны участак] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recruiting_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_draft_military_service;
+    => nrel_associative_connection: by_military_commissariat;
+    => nrel_associative_connection: by_interschool_center_for_military_prerecruitment_training;
+    => nrel_associative_connection: by_selection_of_conscripts;
+    => nrel_associative_connection: by_recruit;
+    => nrel_associative_connection: by_collection_point_alerts_and_collection;
+    => nrel_associative_connection: by_armed_forces_reserve_service;
+
+    => nrel_etalon_online_idx: [21260];;

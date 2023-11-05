@@ -1,0 +1,28 @@
+
+by_by_mobilization_of_donor_leukopoiesis
+    => nrel_main_idtf: [by_mobilization_of_donor_leukopoiesis] (* <- lang_en;; *);
+    => nrel_main_idtf: [мобилизация донорского лейкопоэза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мабілізацыя донарскага лейкапаэзу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_mobilization_of_donor_leukopoiesis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_isoimmunization;
+    => nrel_associative_connection: by_isoimmune_antibodies;
+    => nrel_associative_connection: by_donor_immunization;
+    => nrel_associative_connection: by_donor_reimmunization;
+
+    => nrel_etalon_online_idx: [43412];;

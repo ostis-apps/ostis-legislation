@@ -1,0 +1,29 @@
+
+by_other_organization_which_under_legislation_is_granted_to_carry_out_educational_activities
+    => nrel_main_idtf: [other organization which under legislation is granted to carry out educational activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [иная организация, которой в соответствии с законодательством предоставлено право осуществлять образовательную деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншая арганізацыя, якой у адпаведнасці з заканадаўствам дадзена права ажыццяўляць адукацыйную дзейнасць] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_organization_which_under_legislation_is_granted_to_carry_out_educational_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_accreditation_of_the_educational_institution_any_other_organization_that_under_the_law_is_granted_the_right_to_implement_educational_activity;
+    => nrel_associative_connection: by_state_accreditation_of_an_educational_institution_other_organization_engaged_in_educational_activities;
+    => nrel_associative_connection: by_other_organizations_which_in_accordance_with_the_legislation_have_the_right_to_carry_out_educational_activity;
+    => nrel_associative_connection: by_educational_activity;
+    => nrel_associative_connection: by_educational_program;
+
+    => nrel_etalon_online_idx: [40527];;

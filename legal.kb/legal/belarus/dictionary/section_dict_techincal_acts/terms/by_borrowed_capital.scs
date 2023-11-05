@@ -1,0 +1,28 @@
+
+by_borrowed_capital
+    => nrel_main_idtf: [borrowed capital] (* <- lang_en;; *);
+    => nrel_main_idtf: [заемный капитал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пазыковы капітал] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_borrowed_capital_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_monetary_unit;
+    => nrel_associative_connection: by_borrowed_funds;
+    => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_etalon_online_idx: [37948];;

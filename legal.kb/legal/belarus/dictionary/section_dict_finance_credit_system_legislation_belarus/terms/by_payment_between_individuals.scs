@@ -1,0 +1,28 @@
+
+by_payment_between_individuals
+    => nrel_main_idtf: [payment between individuals] (* <- lang_en;; *);
+    => nrel_main_idtf: [платеж между физическими лицами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выплата паміж фізічнымі асобамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_between_individuals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_payment_aggregator;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_selfservice_payment_terminal;
+    => nrel_associative_connection: by_account_of_client;
+
+    => nrel_etalon_online_idx: [41789];;

@@ -1,0 +1,27 @@
+
+by_weighted_average_bonds_yield
+    => nrel_main_idtf: [weighted average bonds yield] (* <- lang_en;; *);
+    => nrel_main_idtf: [средневзвешенная доходность облигаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэднеўзважаная даходнасць аблігацый] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_weighted_average_bonds_yield_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_bonds_circulation_term;
+
+    => nrel_etalon_online_idx: [23979];;

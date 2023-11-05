@@ -1,0 +1,27 @@
+
+by_higher_recourse_state_organization
+    => nrel_main_idtf: [higher recourse state organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [вышестоящая государственная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышэйстаячая дзяржаўная арганізацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_higher_recourse_state_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_other_organizations;
+    => nrel_associative_connection: by_operator;
+
+    => nrel_etalon_online_idx: [32755];;

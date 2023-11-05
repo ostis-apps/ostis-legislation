@@ -1,0 +1,27 @@
+
+by_belarusian_chamber_of_notaries
+    => nrel_main_idtf: [belarusian chamber of notaries] (* <- lang_en;; *);
+    => nrel_main_idtf: [белорусская нотариальная палата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [беларуская натарыяльная палата] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_belarusian_chamber_of_notaries_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_notarial_activity;
+    => nrel_associative_connection: by_rules_of_professional_notary_ethical;
+    => nrel_associative_connection: by_territorial_chamber_of_notaries;
+
+    => nrel_etalon_online_idx: [4861];;

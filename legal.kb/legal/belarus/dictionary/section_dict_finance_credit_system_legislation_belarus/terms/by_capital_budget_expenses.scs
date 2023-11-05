@@ -1,0 +1,28 @@
+
+by_capital_budget_expenses
+    => nrel_main_idtf: [capital budget expenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [капитальные расходы бюджетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [капітальныя выдаткі бюджэтаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_capital_budget_expenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_budget_expenses;
+
+    => nrel_etalon_online_idx: [10413];;

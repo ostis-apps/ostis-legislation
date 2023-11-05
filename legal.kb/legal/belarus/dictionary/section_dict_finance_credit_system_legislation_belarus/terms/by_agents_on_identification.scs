@@ -1,0 +1,29 @@
+
+by_agents_on_identification
+    => nrel_main_idtf: [agents on identification] (* <- lang_en;; *);
+    => nrel_main_idtf: [агент по идентификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агент па ідэнтыфікацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agents_on_identification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_agent;
+    => nrel_associative_connection: by_electronic_purse_owner;
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_rules_of_the_issuer;
+    => nrel_associative_connection: by_system_of_calculations_using_electronic_money;
+
+    => nrel_etalon_online_idx: [11292];;

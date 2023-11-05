@@ -1,0 +1,29 @@
+
+by_technical_opportunity_of_the_airport
+    => nrel_main_idtf: [technical opportunity of the airport] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническая возможность аэропорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічная магчымасць аэрапорта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_opportunity_of_the_airport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_airport;
+    => nrel_associative_connection: by_workload_of_passenger_terminal;
+    => nrel_associative_connection: by_airport_infrastructure_objects;
+    => nrel_associative_connection: by_technical_possibility_of_rendering_services;
+    => nrel_associative_connection: by_airport_services;
+
+    => nrel_etalon_online_idx: [33260];;

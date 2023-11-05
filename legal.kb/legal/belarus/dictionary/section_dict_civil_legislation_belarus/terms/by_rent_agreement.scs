@@ -1,0 +1,31 @@
+
+by_rent_agreement
+    => nrel_main_idtf: [rent agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор ренты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор рэнты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rent_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_permanent_aliment_agreement;
+    => nrel_associative_connection: by_dependents;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_rent_payer;
+    => nrel_associative_connection: by_rent_recipient;
+    => nrel_associative_connection: by_rent;
+
+    => nrel_etalon_online_idx: [3688];;

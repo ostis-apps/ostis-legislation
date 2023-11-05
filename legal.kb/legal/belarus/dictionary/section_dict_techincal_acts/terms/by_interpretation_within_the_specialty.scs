@@ -1,0 +1,29 @@
+
+by_interpretation_within_the_specialty
+    => nrel_main_idtf: [interpretation (within the specialty)] (* <- lang_en;; *);
+    => nrel_main_idtf: [интерпретация (в рамках данной специальности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрпрэтацыя (у рамках дадзенай спецыяльнасці)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interpretation_within_the_specialty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_psychotherapist_psychologist;
+    => nrel_associative_connection: by_catathymimmaginative_psychotherapy_symvoldrama;
+    => nrel_associative_connection: by_cognitive_psychotherapy;
+    => nrel_associative_connection: by_kerma_power;
+    => nrel_associative_connection: by_cognitivebehavioural_psychotherapy;
+
+    => nrel_etalon_online_idx: [34142];;

@@ -1,0 +1,26 @@
+
+by_theft_by_abuse_of_official_duties
+    => nrel_main_idtf: [theft by abuse of official duties] (* <- lang_en;; *);
+    => nrel_main_idtf: [хищение путем злоупотребления служебными полномочиями] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раскраданне шляхам злоўжывання службовымі паўнамоцтвамі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_theft_by_abuse_of_official_duties_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_power_or_duties_abuse;
+    => nrel_associative_connection: by_theft;
+
+    => nrel_etalon_online_idx: [5107];;

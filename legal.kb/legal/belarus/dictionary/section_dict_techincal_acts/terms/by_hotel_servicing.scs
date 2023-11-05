@@ -1,0 +1,44 @@
+
+by_hotel_servicing
+    => nrel_main_idtf: [hotel servicing] (* <- lang_en;; *);
+    => nrel_main_idtf: [гостиничное обслуживание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гасцінічнае абслугоўванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hotel_servicing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hotel_servicing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_hotel;
+    => nrel_associative_connection: by_hotel_industry;
+    => nrel_associative_connection: by_category_of_hotel_motel;
+    => nrel_associative_connection: by_service_object;
+    => nrel_associative_connection: by_service;
+
+    => nrel_etalon_online_idx: [5565];;

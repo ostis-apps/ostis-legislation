@@ -1,0 +1,26 @@
+
+by_environmental_control_facilities
+    => nrel_main_idtf: [environmental control facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства экологического контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі экалагічнага кантролю] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_control_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_risk_of_environmental_issues;
+    => nrel_associative_connection: by_environmental_issues;
+
+    => nrel_etalon_online_idx: [24057];;

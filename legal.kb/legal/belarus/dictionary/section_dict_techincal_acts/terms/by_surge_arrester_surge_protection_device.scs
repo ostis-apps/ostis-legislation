@@ -1,0 +1,27 @@
+
+by_surge_arrester_surge_protection_device
+    => nrel_main_idtf: [surge arrester (surge protection device)] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограничитель перенапряжения (устройство защиты от импульсных перенапряжений)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежавальнік перанапружання (лад абароны ад імпульсных перанапружанняў)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_surge_arrester_surge_protection_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lightning_protection;
+    => nrel_associative_connection: by_lightning_rod;
+    => nrel_associative_connection: by_lightning_terminal;
+
+    => nrel_etalon_online_idx: [37186];;

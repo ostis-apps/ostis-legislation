@@ -1,0 +1,18 @@
+
+by_electricity_consumption_metering_point
+    => nrel_main_idtf: [electricity consumption metering point] (* <- lang_en;; *);
+    => nrel_main_idtf: [точка учета расхода электрической энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кропка ўліку расходу электрычнай энергіі] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_automated_system_for_monitoring_and_record_keeping_of_electrical_energy_power;
+    => nrel_associative_connection: by_induction_counter;
+    => nrel_associative_connection: by_housing_flapboard;
+    => nrel_associative_connection: by_electricity_metering_device;
+    => nrel_associative_connection: by_intermediate_calculation;
+    => nrel_associative_connection: by_electricity_consumption_for_the_production_needs_of_the_energy_system;
+    => nrel_associative_connection: by_calculated_commercial_electricity_metering;
+    => nrel_associative_connection: by_technical_control_accounting_of_electric_energy;
+
+    => nrel_etalon_online_idx: [25114];;

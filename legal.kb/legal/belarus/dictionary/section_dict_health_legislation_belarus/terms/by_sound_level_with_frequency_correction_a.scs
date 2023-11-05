@@ -1,0 +1,31 @@
+
+by_sound_level_with_frequency_correction_a
+    => nrel_main_idtf: [sound level with frequency correction "a"] (* <- lang_en;; *);
+    => nrel_main_idtf: [уровень звука с частотной коррекцией "а"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узровень гука з частотнай карэкцыяй "а"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sound_level_with_frequency_correction_a_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_sound_noise;
+    => nrel_associative_connection: by_sound_pressure;
+    => nrel_associative_connection: by_sound_pressure_p;
+    => nrel_associative_connection: by_sound_pressure_level;
+    => nrel_associative_connection: by_noise_sound;
+    => nrel_associative_connection: by_energyequivalent_sound_level_of_intermittent_noise;
+    => nrel_associative_connection: by_equivalent_sound_level;
+
+    => nrel_etalon_online_idx: [41651];;

@@ -1,0 +1,58 @@
+
+by_cmyk_color_model
+    => nrel_main_idtf: [cmyk color model] (* <- lang_en;; *);
+    => nrel_main_idtf: [цветовая модель cmyk] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каляровая мадэль cmyk] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cmyk_color_model_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cmyk_color_model_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cmyk_color_model_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_additional_colors;
+    => nrel_associative_connection: by_cmyk_cyan_magenta_yellow_key_color_black;
+    => nrel_associative_connection: by_trademark;
+    => nrel_associative_connection: by_trademark_and_service_mark;
+
+    => nrel_etalon_online_idx: [11479];;

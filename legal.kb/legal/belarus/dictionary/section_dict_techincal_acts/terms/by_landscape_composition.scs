@@ -1,0 +1,28 @@
+
+by_landscape_composition
+    => nrel_main_idtf: [landscape composition] (* <- lang_en;; *);
+    => nrel_main_idtf: [ландшафтная композиция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ландшафтная кампазіцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_landscape_composition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_architectural__and_landscape_objects;
+    => nrel_associative_connection: by_landscapes;
+    => nrel_associative_connection: by_naturaltechnogenic_landscapes;
+    => nrel_associative_connection: by_natural_landscape;
+
+    => nrel_etalon_online_idx: [36107];;

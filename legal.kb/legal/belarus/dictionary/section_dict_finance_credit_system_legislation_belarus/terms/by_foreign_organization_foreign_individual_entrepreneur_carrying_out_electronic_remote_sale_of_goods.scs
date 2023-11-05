@@ -1,0 +1,30 @@
+
+by_foreign_organization_foreign_individual_entrepreneur_carrying_out_electronic_remote_sale_of_goods
+    => nrel_main_idtf: [foreign organization, foreign individual entrepreneur carrying out electronic remote sale of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранная организация, иностранный индивидуальный предприниматель, осуществляющие электронную дистанционную продажу товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежная арганізацыя, замежны індывідуальны прадпрымальнік, ажыццяўляючыя электронны дыстанцыйны продаж тавараў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_organization_foreign_individual_entrepreneur_carrying_out_electronic_remote_sale_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remote_trade;
+    => nrel_associative_connection: by_foreign_activities;
+    => nrel_associative_connection: by_a_foreign_company;
+    => nrel_associative_connection: by_foreign_organization_foreign_individual_entrepreneur_providing_services_in_electronic_form;
+    => nrel_associative_connection: by_electronic_remote_sale_of_goods;
+    => nrel_associative_connection: by_electronic_trade_platform;
+
+    => nrel_etalon_online_idx: [42016];;

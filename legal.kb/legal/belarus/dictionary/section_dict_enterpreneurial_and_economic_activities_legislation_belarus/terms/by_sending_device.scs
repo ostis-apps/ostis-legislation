@@ -1,0 +1,30 @@
+
+by_sending_device
+    => nrel_main_idtf: [sending device] (* <- lang_en;; *);
+    => nrel_main_idtf: [направляющее устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накіроўваючае прыстасаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sending_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_guide_rails;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_sending_pulley_block_roller;
+    => nrel_associative_connection: by_traffic_management;
+
+    => nrel_etalon_online_idx: [17692];;

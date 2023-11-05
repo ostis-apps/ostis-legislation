@@ -1,0 +1,36 @@
+
+by_electric_energy_receiver
+    => nrel_main_idtf: [electric energy receiver] (* <- lang_en;; *);
+    => nrel_main_idtf: [приемник электрической энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыёмнік электрычнай энергіі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_energy_receiver_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_electricity_supply_facility;
+    => nrel_associative_connection: by_consumer_of_electric_energy;
+    => nrel_associative_connection: by_consumer_of_electic_power;
+    => nrel_associative_connection: by_limit_value_of_active_power_consumption_for_consumers_with_connected_power_of_250_kva_and_above;
+    => nrel_associative_connection: by_electricity_metering_device;
+    => nrel_associative_connection: by_electrical_energy_receiver_electric_receiver;
+    => nrel_associative_connection: by_connected_power;
+    => nrel_associative_connection: by_connected_electric_network;
+    => nrel_associative_connection: by_intermediate_calculation;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_selfcontained_nonvolatile_supply_of_electric_energy;
+    => nrel_associative_connection: by_focal_matrix_receiver;
+
+    => nrel_etalon_online_idx: [21235];;

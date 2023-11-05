@@ -1,0 +1,28 @@
+
+by_oakum
+    => nrel_main_idtf: [oakum] (* <- lang_en;; *);
+    => nrel_main_idtf: [пакля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пакулле] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_oakum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_fibrous_or_filamentous_materials;
+    => nrel_associative_connection: by_ribbon;
+    => nrel_associative_connection: by_bonded_fibers;
+    => nrel_associative_connection: by_construction_materials;
+
+    => nrel_etalon_online_idx: [19768];;

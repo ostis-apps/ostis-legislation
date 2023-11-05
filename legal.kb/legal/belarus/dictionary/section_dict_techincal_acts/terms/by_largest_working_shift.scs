@@ -1,0 +1,28 @@
+
+by_largest_working_shift
+    => nrel_main_idtf: [largest working shift] (* <- lang_en;; *);
+    => nrel_main_idtf: [наибольшая работающая смена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [найбольшая працуючая змена] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_largest_working_shift_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safe_district;
+    => nrel_associative_connection: by_engineering_and_technical_measures_of_civil_defense;
+    => nrel_associative_connection: by_local_alert_system;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_etalon_online_idx: [37227];;

@@ -1,0 +1,29 @@
+
+by_statement_of_technical_characteristics
+    => nrel_main_idtf: [statement of technical characteristics] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомость технических характеристик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасць тэхнічных характарыстык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_of_technical_characteristics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_inventory;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_technical_documentation;
+    => nrel_associative_connection: by_technical_inventarisation_of_real_estate;
+
+    => nrel_etalon_online_idx: [28432];;

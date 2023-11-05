@@ -1,0 +1,41 @@
+
+by_field_survey_journal
+    => nrel_main_idtf: [field survey journal] (* <- lang_en;; *);
+    => nrel_main_idtf: [журнал полевого обследования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [журнал палявога абследавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_field_survey_journal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_field_survey_journal_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_approbation_characteristics;
+    => nrel_associative_connection: by_approbation;
+
+    => nrel_etalon_online_idx: [32825];;

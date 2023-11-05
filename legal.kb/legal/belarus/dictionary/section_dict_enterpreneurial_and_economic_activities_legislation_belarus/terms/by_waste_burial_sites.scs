@@ -1,0 +1,61 @@
+
+by_waste_burial_sites
+    => nrel_main_idtf: [waste burial sites] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты захоронения отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты пахавання адходаў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_burial_sites_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_burial_sites_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_burial_sites_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety_of_the_radioactive_waste_disposal_site;
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_waste_disposal;
+    => nrel_associative_connection: by_radioactive_waste_disposal;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_authorized_disposal_of_waste;
+    => nrel_associative_connection: by_authorized_waste_disposal_sites;
+
+    => nrel_etalon_online_idx: [10932];;

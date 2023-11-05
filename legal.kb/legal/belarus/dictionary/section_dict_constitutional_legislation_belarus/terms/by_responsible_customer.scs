@@ -1,0 +1,28 @@
+
+by_responsible_customer
+    => nrel_main_idtf: [responsible customer ] (* <- lang_en;; *);
+    => nrel_main_idtf: [ответственный заказчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адказны заказчык] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_responsible_customer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_program;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_natural_reserve;
+    => nrel_associative_connection: by_customer;
+
+    => nrel_etalon_online_idx: [10322];;

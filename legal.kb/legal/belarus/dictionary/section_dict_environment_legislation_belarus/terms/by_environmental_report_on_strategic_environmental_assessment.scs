@@ -1,0 +1,28 @@
+
+by_environmental_report_on_strategic_environmental_assessment
+    => nrel_main_idtf: [environmental report on strategic environmental assessment] (* <- lang_en;; *);
+    => nrel_main_idtf: [экологический доклад по стратегической экологической оценке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экалагічны даклад па стратэгічнай экалагічнай ацэнцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_report_on_strategic_environmental_assessment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_report;
+    => nrel_associative_connection: by_environmental_impact_assessment;
+    => nrel_associative_connection: by_strategic_environmental_assessment;
+    => nrel_associative_connection: by_ecologically_important_solutions;
+
+    => nrel_etalon_online_idx: [26459];;

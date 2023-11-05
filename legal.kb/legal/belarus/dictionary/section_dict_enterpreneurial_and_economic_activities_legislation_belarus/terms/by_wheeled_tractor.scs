@@ -1,0 +1,29 @@
+
+by_wheeled_tractor
+    => nrel_main_idtf: [wheeled tractor] (* <- lang_en;; *);
+    => nrel_main_idtf: [колесный трактор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [колавы трактар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wheeled_tractor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_autotractor_technics;
+    => nrel_associative_connection: by_automotive_vehicle;
+    => nrel_associative_connection: by_motor_cultivator_pedestrian_tractor;
+    => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_agricultural_machinery;
+
+    => nrel_etalon_online_idx: [9250];;

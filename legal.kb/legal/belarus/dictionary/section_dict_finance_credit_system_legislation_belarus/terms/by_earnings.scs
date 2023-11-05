@@ -1,0 +1,47 @@
+
+by_earnings
+    => nrel_main_idtf: [earnings] (* <- lang_en;; *);
+    => nrel_main_idtf: [валовая выручка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [валавая выручка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_earnings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_earnings_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gross_profit;
+    => nrel_associative_connection: by_gross_capital_formation;
+    => nrel_associative_connection: by_gross_savings;
+    => nrel_associative_connection: by_gross_domestic_product_in_market_prices;
+    => nrel_associative_connection: by_gross_income;
+    => nrel_associative_connection: by_receipts;
+    => nrel_associative_connection: by_taxation_base;
+    => nrel_associative_connection: by_planned_revenue;
+
+    => nrel_etalon_online_idx: [8474];;

@@ -1,0 +1,25 @@
+
+by_by_passage_through_locks
+    => nrel_main_idtf: [by_passage_through_locks] (* <- lang_en;; *);
+    => nrel_main_idtf: [пропуск через шлюзы ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пропуск праз шлюзы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_passage_through_locks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_person_responsible_for_the_passage_of_ships_and_floating_objects;
+
+    => nrel_etalon_online_idx: [41372];;

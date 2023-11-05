@@ -1,0 +1,36 @@
+
+by_radiological_emergency_situation
+    => nrel_main_idtf: [radiological emergency situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиологическая чрезвычайная ситуация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыелагічная надзвычайная сітуацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiological_emergency_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_possible_area_of_radioactive_pollution;
+    => nrel_associative_connection: by_citizens_affected__by_the_chernobyl_catastrophe_other_radiation_accidents;
+    => nrel_associative_connection: by_children_of_citizens_affected_by_the_chernobyl_catastrophe_other_radiation_accidents;
+    => nrel_associative_connection: by_population_affected__by_the_chernobyl_catastrophe_other_radiation_accidents;
+    => nrel_associative_connection: by_increased_radiation_background;
+    => nrel_associative_connection: by_radiation_accident;
+    => nrel_associative_connection: by_emergency_response_forces;
+    => nrel_associative_connection: by_emergency_exposure_situation;
+    => nrel_associative_connection: by_participants_in_liquidation_of_the_consequences_of_other_radiation_accidents;
+    => nrel_associative_connection: by_emergency;
+    => nrel_associative_connection: by_emergency_technological_situations;
+    => nrel_associative_connection: by_nuclear_accident;
+
+    => nrel_etalon_online_idx: [21978];;

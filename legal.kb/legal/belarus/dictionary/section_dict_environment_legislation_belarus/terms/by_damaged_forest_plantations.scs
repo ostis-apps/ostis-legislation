@@ -1,0 +1,44 @@
+
+by_damaged_forest_plantations
+    => nrel_main_idtf: [damaged forest plantations] (* <- lang_en;; *);
+    => nrel_main_idtf: [поврежденные лесные насаждения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашкоджаныя лясныя насаджэнні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_damaged_forest_plantations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_height_of_tree_and_shrubbery_vegetation_plantations;
+    => nrel_associative_connection: by_trees_damaged_to_the_degree_of_growth_cessation;
+    => nrel_associative_connection: by_trees_damaged_not_to_the_degree_of_growth_stopping;
+    => nrel_associative_connection: by_bushes_damaged_to_the_degree_of_cessation_of_growth;
+    => nrel_associative_connection: by_bushes_damaged_not_to_the_degree_of_cessation_of_growth;
+    => nrel_associative_connection: by_undamaged_barely_cut_trees;
+    => nrel_associative_connection: by_undamaged_crops;
+    => nrel_associative_connection: by_forests_protection;
+    => nrel_associative_connection: by_damage_to_crops;
+    => nrel_associative_connection: by_damage_to_forest_crops;
+    => nrel_associative_connection: by_damaged_trees;
+    => nrel_associative_connection: by_damaged_crops;
+    => nrel_associative_connection: by_density_of_the_forest_stock;
+    => nrel_associative_connection: by_simple_forest_stand;
+    => nrel_associative_connection: by_unevenaged_forest_stand;
+    => nrel_associative_connection: by_reconstruction_of_forest_crops;
+    => nrel_associative_connection: by_reconstruction_of_lowvalue_forest_plantations;
+    => nrel_associative_connection: by_complex_forest_stand;
+    => nrel_associative_connection: by_mixed_forest_stand;
+    => nrel_associative_connection: by_degree_of_damage_to_forest_crops;
+
+    => nrel_etalon_online_idx: [20297];;

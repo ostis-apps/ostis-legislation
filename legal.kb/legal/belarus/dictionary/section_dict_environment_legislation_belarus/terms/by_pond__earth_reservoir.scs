@@ -1,0 +1,29 @@
+
+by_pond__earth_reservoir
+    => nrel_main_idtf: [pond - earth reservoir] (* <- lang_en;; *);
+    => nrel_main_idtf: [пруд-копань] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ставок-капань] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pond__earth_reservoir_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_water_basin;
+    => nrel_associative_connection: by_water_storage_basin;
+    => nrel_associative_connection: by_artificial_water_basin;
+    => nrel_associative_connection: by_pond;
+    => nrel_associative_connection: by_river;
+
+    => nrel_etalon_online_idx: [10546];;

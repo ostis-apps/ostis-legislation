@@ -1,0 +1,31 @@
+
+by_educational_program_for_advanced_training_of_workers_employees
+    => nrel_main_idtf: [educational program for advanced training of workers (employees) ] (* <- lang_en;; *);
+    => nrel_main_idtf: [образовательная программа повышения квалификации рабочих (служащих)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адукацыйная праграма павышэння кваліфікацыі рабочых (служачых)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_program_for_advanced_training_of_workers_employees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_program_for_advanced_training_of_managers_and_specialists;
+    => nrel_associative_connection: by_advanced_training;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_etalon_online_idx: [18499];;

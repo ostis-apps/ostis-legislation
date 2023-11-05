@@ -1,0 +1,28 @@
+
+by_special_automobile
+    => nrel_main_idtf: [special automobile] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный легковой автомобиль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльны легкавы аўтамабіль] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_automobile_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_duty_vehicle;
+    => nrel_associative_connection: by_security_normative_for_special_automobiles;
+    => nrel_associative_connection: by_timesheet_for_special_passenger_cars;
+    => nrel_associative_connection: by_transportation_evacuation_of_citizens_by_a_special_passenger_vehicle;
+
+    => nrel_etalon_online_idx: [23840];;

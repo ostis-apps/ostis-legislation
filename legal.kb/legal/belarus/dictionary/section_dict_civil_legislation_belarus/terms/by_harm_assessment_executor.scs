@@ -1,0 +1,32 @@
+
+by_harm_assessment_executor
+    => nrel_main_idtf: [harm assessment executor ] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнитель оценки вреда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выканаўца ацэнкі шкоды] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_harm_assessment_executor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_date_of_estimation;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_appraiser;
+    => nrel_associative_connection: by_property_appraiser;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_expert_assessor;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [15569];;

@@ -1,0 +1,34 @@
+
+by_apical_granuloma
+    => nrel_main_idtf: [apical granuloma] (* <- lang_en;; *);
+    => nrel_main_idtf: [апикальная гранулема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апікальная гранулёма] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_apical_granuloma_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_apical_periodontium;
+    => nrel_associative_connection: by_apical_periodontium;
+    => nrel_associative_connection: by_apical_periodontitis;
+    => nrel_associative_connection: by_apical_periodontitis;
+    => nrel_associative_connection: by_acute_apical_periodontitis;
+    => nrel_associative_connection: by_acute_apical_periodontitis;
+    => nrel_associative_connection: by_periapical_abscess_without_fistula;
+    => nrel_associative_connection: by_periapical_abscess_without_fistula;
+    => nrel_associative_connection: by_periapical_abscess_with_fistula;
+    => nrel_associative_connection: by_periapical_abscess_with_fistula;
+
+    => nrel_etalon_online_idx: [42342];;

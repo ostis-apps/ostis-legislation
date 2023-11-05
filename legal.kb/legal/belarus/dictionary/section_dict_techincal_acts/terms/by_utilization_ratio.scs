@@ -1,0 +1,27 @@
+
+by_utilization_ratio
+    => nrel_main_idtf: [utilization ratio] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент использования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент выкарыстання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_utilization_ratio_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_lateral_wind_component;
+    => nrel_associative_connection: by_maneuvering_area;
+    => nrel_associative_connection: by_strip_of_air_approaches;
+
+    => nrel_etalon_online_idx: [41064];;

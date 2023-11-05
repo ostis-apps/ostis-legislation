@@ -1,0 +1,31 @@
+
+by_tour_operators_responsibility_fund
+    => nrel_main_idtf: [tour operators responsibility fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [фонд ответственности туроператоров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фонд адказнасці тураператараў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tour_operators_responsibility_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_outside_tourism;
+    => nrel_associative_connection: by_property_harm;
+    => nrel_associative_connection: by_liabilities;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_tour_operator;
+    => nrel_associative_connection: by_tour_operating_activity;
+
+    => nrel_etalon_online_idx: [41264];;

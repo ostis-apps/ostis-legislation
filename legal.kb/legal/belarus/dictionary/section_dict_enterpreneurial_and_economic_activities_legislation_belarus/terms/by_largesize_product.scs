@@ -1,0 +1,30 @@
+
+by_largesize_product
+    => nrel_main_idtf: [large-size product] (* <- lang_en;; *);
+    => nrel_main_idtf: [крупногабаритный товар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буйнагабарытны тавар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_largesize_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_expensive_commodity;
+    => nrel_associative_connection: by_zone_and_degree_of_negligibility;
+    => nrel_associative_connection: by_waste_of_largesized_electric_and_electronic_equipment;
+    => nrel_associative_connection: by_essential_defect_of_goods_work_service;
+    => nrel_associative_connection: by_good_work_service;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_etalon_online_idx: [6053];;

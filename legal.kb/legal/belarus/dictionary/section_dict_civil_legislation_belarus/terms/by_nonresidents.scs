@@ -1,0 +1,47 @@
+
+by_nonresidents
+    => nrel_main_idtf: [non-residents] (* <- lang_en;; *);
+    => nrel_main_idtf: [нерезиденты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нерэзідэнты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonresidents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonresidents_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nonresident_banks;
+    => nrel_associative_connection: by_nonresident_bank;
+    => nrel_associative_connection: by_bank_resident;
+    => nrel_associative_connection: by_nonresidents_claimant;
+    => nrel_associative_connection: by_foreign_banks;
+    => nrel_associative_connection: by_nonresident;
+    => nrel_associative_connection: by_resident;
+    => nrel_associative_connection: by_residents;
+
+    => nrel_etalon_online_idx: [39210];;

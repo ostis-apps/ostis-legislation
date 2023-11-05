@@ -1,0 +1,29 @@
+
+by_synthetic_accounting
+    => nrel_main_idtf: [synthetic accounting] (* <- lang_en;; *);
+    => nrel_main_idtf: [синтетический учет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сінтэтычны ўлік] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_synthetic_accounting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_reporting;
+    => nrel_associative_connection: by_synthetic_depository_account_plan;
+    => nrel_associative_connection: by_charges;
+
+    => nrel_etalon_online_idx: [10597];;

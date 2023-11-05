@@ -1,0 +1,29 @@
+
+by_day_block_of_electronic_documents_on_performance_of_monetary_obligations
+    => nrel_main_idtf: [day block of electronic documents on performance of monetary obligations] (* <- lang_en;; *);
+    => nrel_main_idtf: [дневной блок электронных документов по исполнению денежных обязательств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзённы блок электронных дакументаў па выкананні грашовых абавязацельстваў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_day_block_of_electronic_documents_on_performance_of_monetary_obligations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_daytime_block_of_electronic_documents;
+    => nrel_associative_connection: by_day_block_of_electronic_documents_for_instant_payments;
+    => nrel_associative_connection: by_day_block_of_electronic_documents_for_interbank_settlements;
+    => nrel_associative_connection: by_inventory_of_electronic_documents;
+    => nrel_associative_connection: by_working_day_of_the_automated_information_system_for_the_fulfillment_of_monetary_obligations;
+
+    => nrel_etalon_online_idx: [32486];;

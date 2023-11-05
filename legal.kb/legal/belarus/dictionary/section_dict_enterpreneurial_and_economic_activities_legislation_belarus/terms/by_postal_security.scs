@@ -1,0 +1,40 @@
+
+by_postal_security
+    => nrel_main_idtf: [postal security] (* <- lang_en;; *);
+    => nrel_main_idtf: [почтовая безопасность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паштовая бяспека] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postal_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_control_of_postal_items;
+    => nrel_associative_connection: by_international_postal_communication;
+    => nrel_associative_connection: by_national_operator_of_mail_services;
+    => nrel_associative_connection: by_postal_communication_object;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_postal_communication_operator;
+    => nrel_associative_connection: by_postal_communication_organization;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_registered_postal_item;
+    => nrel_associative_connection: by_registered_postal_items;
+    => nrel_associative_connection: by_postal_communication_network;
+    => nrel_associative_connection: by_system_of_automated_postal_items_sorting;
+    => nrel_associative_connection: by_special_postmark;
+    => nrel_associative_connection: by_privacy_of_mail_service;
+    => nrel_associative_connection: by_mail_services;
+
+    => nrel_etalon_online_idx: [6595];;

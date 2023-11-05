@@ -1,0 +1,30 @@
+
+by_residual_cost_of_fixed_assets_at_revaluation
+    => nrel_main_idtf: [residual cost of fixed assets at revaluation] (* <- lang_en;; *);
+    => nrel_main_idtf: [остаточная стоимость основных средств при переоценке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [астаткавы кошт асноўных сродкаў пры пераацэнцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residual_cost_of_fixed_assets_at_revaluation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_conservation_of_fixed_assets;
+    => nrel_associative_connection: by_liquidation_residual_cost;
+    => nrel_associative_connection: by_residual_cost;
+    => nrel_associative_connection: by_revaluation;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets_intangible_assets;
+    => nrel_associative_connection: by_depreservation_of_fixed_assets;
+
+    => nrel_etalon_online_idx: [19442];;

@@ -1,0 +1,35 @@
+
+by_proceedings_of_an_administrative_offence
+    => nrel_main_idtf: [proceedings of an administrative offence] (* <- lang_en;; *);
+    => nrel_main_idtf: [дело об административном правонарушении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справа аб адміністрацыйным правапарушэнні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_proceedings_of_an_administrative_offence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_administrative_responsibility;
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_offence_committed_deliberately;
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_evidence_related_to_the_case_of_an_administrative_offense;
+    => nrel_associative_connection: by_executor_of_administrative_violation;
+    => nrel_associative_connection: by_related_to_the_case_of_administrative_violation_evidence;
+    => nrel_associative_connection: by_replication_of_administrative_offences;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+
+    => nrel_etalon_online_idx: [14038];;

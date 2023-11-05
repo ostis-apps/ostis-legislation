@@ -1,0 +1,32 @@
+
+by_military_highway
+    => nrel_main_idtf: [military highway] (* <- lang_en;; *);
+    => nrel_main_idtf: [военно-автомобильная дорога] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенна-аўтамабільная дарога] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_highway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_barrage_of_railways_and_automobile_roads_their_sections_objects;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_users_of_highways;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_transport_troops;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_etalon_online_idx: [13169];;

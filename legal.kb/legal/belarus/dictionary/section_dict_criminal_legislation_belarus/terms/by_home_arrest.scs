@@ -1,0 +1,28 @@
+
+by_home_arrest
+    => nrel_main_idtf: [home arrest] (* <- lang_en;; *);
+    => nrel_main_idtf: [домашний арест] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дамашні арышт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_home_arrest_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_arrest;
+    => nrel_associative_connection: by_measures_of_restraint;
+    => nrel_associative_connection: by_accused;
+    => nrel_associative_connection: by_suspect;
+
+    => nrel_etalon_online_idx: [1463];;

@@ -1,0 +1,25 @@
+
+by_local_exhibition_exhibitionfair_fair
+    => nrel_main_idtf: [local exhibition, exhibition-fair, fair] (* <- lang_en;; *);
+    => nrel_main_idtf: [местная выставка, выставка-ярмарка, ярмарка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовая выстаўка, выстаўка-кірмаш, кірмаш] (* <- lang_by;; *);
+
+    
+
+        => nrel_associative_connection: by_exhibition;
+    => nrel_associative_connection: by_exhibition_fair;
+    => nrel_associative_connection: by_foreign_exhibition_exhibition_fair_fair;
+    => nrel_associative_connection: by_international_exhibition_exhibitionfair_fair;
+    => nrel_associative_connection: by_national_pavilion;
+    => nrel_associative_connection: by_organizer_of_exhibition_exhibitionfair_fair;
+    => nrel_associative_connection: by_republican_exhibition_exhibitionfair_fair;
+    => nrel_associative_connection: by_coorganizer_of_exhibition_exhibition_fair_fair;
+    => nrel_associative_connection: by_coorganizer_of_national_exhibition_national_exposition;
+    => nrel_associative_connection: by_specialized_exhibition_exhibition_fair_fair;
+    => nrel_associative_connection: by_theme_of_exhibition_exhibition_fair_fair;
+    => nrel_associative_connection: by_universal_exhibition_exhibition_fair_fair;
+    => nrel_associative_connection: by_exhibition_organizer;
+    => nrel_associative_connection: by_bas_vlam_participant_of_the_exhibition;
+    => nrel_associative_connection: by_exhibitor_participant_of_exhibition_exhibition_fair_fair;
+
+    => nrel_etalon_online_idx: [17228];;

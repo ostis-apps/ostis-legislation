@@ -1,0 +1,56 @@
+
+by_conveyor
+    => nrel_main_idtf: [conveyor] (* <- lang_en;; *);
+    => nrel_main_idtf: [конвейер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канвеер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conveyor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conveyor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_drilling_machines;
+    => nrel_associative_connection: by_vibrating_conveyor;
+    => nrel_associative_connection: by_screw_conveyor;
+    => nrel_associative_connection: by_mining_and_assembly_plot;
+    => nrel_associative_connection: by_mining_machinery_and_equipment;
+    => nrel_associative_connection: by_inertia_conveyor;
+    => nrel_associative_connection: by_instructions_for_installation_startup_regulation_and_runningin;
+    => nrel_associative_connection: by_swinging_conveyor;
+    => nrel_associative_connection: by_bucket_conveyor;
+    => nrel_associative_connection: by_washable_combines;
+    => nrel_associative_connection: by_spare_parts_consumption_rates;
+    => nrel_associative_connection: by_cleaning_works;
+    => nrel_associative_connection: by_plate_conveyor;
+    => nrel_associative_connection: by_suspended_conveyor;
+    => nrel_associative_connection: by_roller_conveyor;
+    => nrel_associative_connection: by_scraper_conveyor;
+    => nrel_associative_connection: by_means_of_mechanization;
+
+    => nrel_etalon_online_idx: [9275];;

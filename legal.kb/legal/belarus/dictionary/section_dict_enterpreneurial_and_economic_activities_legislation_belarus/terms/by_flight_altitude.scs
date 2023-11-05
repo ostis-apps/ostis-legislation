@@ -1,0 +1,44 @@
+
+by_flight_altitude
+    => nrel_main_idtf: [flight altitude] (* <- lang_en;; *);
+    => nrel_main_idtf: [высота полета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышыня палёту] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_altitude_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_barometric_altitude;
+    => nrel_associative_connection: by_safe_height;
+    => nrel_associative_connection: by_air_traffic;
+    => nrel_associative_connection: by_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_range;
+    => nrel_associative_connection: by_an_obstaclefree_zone;
+    => nrel_associative_connection: by_research_flight;
+    => nrel_associative_connection: by_control_flight;
+    => nrel_associative_connection: by_parachutist;
+    => nrel_associative_connection: by_flight;
+    => nrel_associative_connection: by_pilotage;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_visual_flight;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_order;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_airplane_mode;
+    => nrel_associative_connection: by_term_flights;
+    => nrel_associative_connection: by_trajectories_of_systems;
+
+    => nrel_etalon_online_idx: [7426];;

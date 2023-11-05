@@ -1,0 +1,25 @@
+
+by_average_market_cost
+    => nrel_main_idtf: [average market cost] (* <- lang_en;; *);
+    => nrel_main_idtf: [среднерыночная стоимость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэднярынкавы кошт] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_average_market_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_market_property_cost;
+
+    => nrel_etalon_online_idx: [23987];;

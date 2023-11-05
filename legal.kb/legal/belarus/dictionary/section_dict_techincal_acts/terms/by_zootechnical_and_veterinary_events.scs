@@ -1,0 +1,28 @@
+
+by_zootechnical_and_veterinary_events
+    => nrel_main_idtf: [zootechnical and veterinary events] (* <- lang_en;; *);
+    => nrel_main_idtf: [зоотехнические и ветеринарные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заатэхнічныя і ветэрынарныя мерапрыемствы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zootechnical_and_veterinary_events_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_veterinary_welfare;
+    => nrel_associative_connection: by_veterinary_measures;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_animal_service;
+
+    => nrel_etalon_online_idx: [40392];;

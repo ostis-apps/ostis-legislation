@@ -1,0 +1,30 @@
+
+by_generalized_labor_function
+    => nrel_main_idtf: [generalized labor function] (* <- lang_en;; *);
+    => nrel_main_idtf: [обобщенная трудовая функция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абагульненая працоўная функцыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_generalized_labor_function_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_type_of_labor_activity;
+    => nrel_associative_connection: by_national_qualification_system_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_informal_teaching;
+    => nrel_associative_connection: by_professional_standard;
+    => nrel_associative_connection: by_labour_function;
+    => nrel_associative_connection: by_work_action;
+
+    => nrel_etalon_online_idx: [30465];;

@@ -1,0 +1,33 @@
+
+by_postbaggage_train
+    => nrel_main_idtf: [post-baggage train] (* <- lang_en;; *);
+    => nrel_main_idtf: [поезд почтово-багажный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягнік паштова-багажны] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postbaggage_train_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_human_train;
+    => nrel_associative_connection: by_passenger_train;
+    => nrel_associative_connection: by_highspeed_passenger_train;
+    => nrel_associative_connection: by_passenger_train_with_increased_length;
+    => nrel_associative_connection: by_high_speed_passenger_train;
+    => nrel_associative_connection: by_connected_passenger_train;
+    => nrel_associative_connection: by_fireengine_train;
+    => nrel_associative_connection: by_refrigerated_train;
+    => nrel_associative_connection: by_economic_train;
+
+    => nrel_etalon_online_idx: [34226];;

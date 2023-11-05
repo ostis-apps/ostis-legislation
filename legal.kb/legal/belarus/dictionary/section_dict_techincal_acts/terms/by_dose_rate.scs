@@ -1,0 +1,26 @@
+
+by_dose_rate
+    => nrel_main_idtf: [dose rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [мощность дозы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магутнасць дозы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dose_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_kerma_power;
+    => nrel_associative_connection: by_withdrawal_level;
+
+    => nrel_etalon_online_idx: [34167];;

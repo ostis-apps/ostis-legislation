@@ -1,0 +1,29 @@
+
+by_user_of_special_communication_services
+    => nrel_main_idtf: [user of special communication services] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователь услуг специальной связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнік паслуг спецыяльнай сувязі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_user_of_special_communication_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_rendering_special_communication_services_by_courier;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_telecommunication_services_user;
+    => nrel_associative_connection: by_special_communication;
+
+    => nrel_etalon_online_idx: [20633];;

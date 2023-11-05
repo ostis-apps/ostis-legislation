@@ -1,0 +1,28 @@
+
+by_nonconformity_of_category_1
+    => nrel_main_idtf: [non-conformity of category "1"] (* <- lang_en;; *);
+    => nrel_main_idtf: [несоответствия категории "1"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неадпаведнасці катэгорыі "1"] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonconformity_of_category_1_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_secondary_change;
+    => nrel_associative_connection: by_airworthiness;
+    => nrel_associative_connection: by_nonconformity_of_category_2;
+    => nrel_associative_connection: by_airworthiness_certificate;
+
+    => nrel_etalon_online_idx: [30983];;

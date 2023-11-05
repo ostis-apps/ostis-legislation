@@ -1,0 +1,31 @@
+
+by_demand_bank_deposit_contract
+    => nrel_main_idtf: [demand bank deposit contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор банковского вклада (депозита) до востребования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор банкаўскага ўкладу (дэпазіту) да запатрабавання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_demand_bank_deposit_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_deposits;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_bank_deposit_contract;
+    => nrel_associative_connection: by_bank_deposit_contract_with_the_depositor;
+    => nrel_associative_connection: by_term_bank_deposit_contract;
+    => nrel_associative_connection: by_conditional_bank_deposit_contract;
+
+    => nrel_etalon_online_idx: [11853];;

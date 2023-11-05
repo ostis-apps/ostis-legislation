@@ -1,0 +1,30 @@
+
+by_crew_commander_aircraft_commander
+    => nrel_main_idtf: [crew commander (aircraft commander)] (* <- lang_en;; *);
+    => nrel_main_idtf: [командир экипажа (командир воздушного судна)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камандзір экіпажа (камандзір паветранага судна)] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crew_commander_aircraft_commander_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_class_qualification;
+    => nrel_associative_connection: by_person_organizing_flights;
+    => nrel_associative_connection: by_minimum_required_crew_of_the_aircraft;
+    => nrel_associative_connection: by_organization_of_flights;
+    => nrel_associative_connection: by_management_and_flight_management_bodies;
+    => nrel_associative_connection: by_airworthiness_certificate;
+
+    => nrel_etalon_online_idx: [30955];;

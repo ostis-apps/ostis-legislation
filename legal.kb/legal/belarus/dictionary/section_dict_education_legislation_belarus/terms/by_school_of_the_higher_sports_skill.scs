@@ -1,0 +1,28 @@
+
+by_school_of_the_higher_sports_skill
+    => nrel_main_idtf: [school of the higher sports skill] (* <- lang_en;; *);
+    => nrel_main_idtf: [школа высшего спортивного мастерства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [школа вышэйшага спартыўнага майстэрства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_school_of_the_higher_sports_skill_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_specialized_children_and_youth_school_of_olympic_reserve_specialized_sports_and_technical_school;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sport_school;
+    => nrel_associative_connection: by_sports_establishment;
+
+    => nrel_etalon_online_idx: [26405];;

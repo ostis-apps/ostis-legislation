@@ -1,0 +1,28 @@
+
+by_by_compensation_to_key_management_personnel
+    => nrel_main_idtf: [by_compensation_to_key_management_personnel] (* <- lang_en;; *);
+    => nrel_main_idtf: [вознаграждение ключевому управленческому персоналу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узнагароджанне ключавому кіраўніцкаму персаналу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_compensation_to_key_management_personnel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_remunerations_premiums_bonuses_and_other_payments;
+    => nrel_associative_connection: by_key_management_personnel;
+    => nrel_associative_connection: by_related_party_transactions;
+
+    => nrel_etalon_online_idx: [43563];;

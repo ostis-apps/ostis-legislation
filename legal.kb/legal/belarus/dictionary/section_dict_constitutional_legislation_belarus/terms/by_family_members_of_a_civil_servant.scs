@@ -1,0 +1,28 @@
+
+by_family_members_of_a_civil_servant
+    => nrel_main_idtf: [family members of a civil servant] (* <- lang_en;; *);
+    => nrel_main_idtf: [члены семьи гражданского служащего] (* <- lang_ru;; *);
+    => nrel_main_idtf: [члены сям'і грамадзянскага служачага] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_family_members_of_a_civil_servant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_civil_service;
+    => nrel_associative_connection: by_state_employee;
+    => nrel_associative_connection: by_family_member;
+    => nrel_associative_connection: by_family_members;
+
+    => nrel_etalon_online_idx: [41588];;

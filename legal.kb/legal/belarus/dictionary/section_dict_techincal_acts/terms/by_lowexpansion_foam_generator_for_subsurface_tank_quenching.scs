@@ -1,0 +1,29 @@
+
+by_lowexpansion_foam_generator_for_subsurface_tank_quenching
+    => nrel_main_idtf: [low-expansion foam generator for subsurface tank quenching] (* <- lang_en;; *);
+    => nrel_main_idtf: [генератор пены низкой кратности для подслойного тушения резервуаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генератар пены нізкай кратнасці для подслойного тушэння рэзервуараў] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lowexpansion_foam_generator_for_subsurface_tank_quenching_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foam_pressure;
+    => nrel_associative_connection: by_pressure_conversion_factor;
+    => nrel_associative_connection: by_blowing_agents;
+    => nrel_associative_connection: by_sublayer_fire_extinguishing_in_the_reservoir;
+    => nrel_associative_connection: by_reservoir_installation;
+
+    => nrel_etalon_online_idx: [33020];;

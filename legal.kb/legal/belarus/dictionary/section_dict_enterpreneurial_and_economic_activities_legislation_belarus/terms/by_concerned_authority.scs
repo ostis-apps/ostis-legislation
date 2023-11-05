@@ -1,0 +1,45 @@
+
+by_concerned_authority
+    => nrel_main_idtf: [concerned authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [заинтересованный орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зацікаўлены орган] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concerned_authority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concerned_authority_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_interested_person;
+    => nrel_associative_connection: by_interested_states;
+    => nrel_associative_connection: by_interested_bodies;
+    => nrel_associative_connection: by_statement_of_the_interested_person;
+    => nrel_associative_connection: by_local_authority;
+    => nrel_associative_connection: by_republican_body;
+
+    => nrel_etalon_online_idx: [10288];;

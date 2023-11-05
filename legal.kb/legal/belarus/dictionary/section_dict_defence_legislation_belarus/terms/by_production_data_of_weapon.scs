@@ -1,0 +1,48 @@
+
+by_production_data_of_weapon
+    => nrel_main_idtf: [production data of weapon] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственные данные оружия ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчыя дадзеныя зброі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_data_of_weapon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_data_of_weapon_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_movement_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_personal_account;
+    => nrel_associative_connection: by_storage_areas_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_object_of_protection;
+    => nrel_associative_connection: by_security_perimeter;
+    => nrel_associative_connection: by_arms_and_ammunition_production;
+    => nrel_associative_connection: by_preservation_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_account_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_account_of_weapons_and_ammunition_according_to_production_data;
+
+    => nrel_etalon_online_idx: [31990];;

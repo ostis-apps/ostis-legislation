@@ -1,0 +1,29 @@
+
+by_system_of_repeated_water_use
+    => nrel_main_idtf: [system of repeated water use] (* <- lang_en;; *);
+    => nrel_main_idtf: [система повторного использования воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма паўторнага выкарыстання вады] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_system_of_repeated_water_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_restoration_of_well_productivity;
+    => nrel_associative_connection: by_well_pumping;
+    => nrel_associative_connection: by_rinse_water;
+    => nrel_associative_connection: by_filtered_water;
+    => nrel_associative_connection: by_technological_water_consumption;
+
+    => nrel_etalon_online_idx: [32036];;

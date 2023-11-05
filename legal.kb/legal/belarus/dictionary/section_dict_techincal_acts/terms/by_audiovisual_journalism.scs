@@ -1,0 +1,32 @@
+
+by_audiovisual_journalism
+    => nrel_main_idtf: [audiovisual journalism] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиовизуальная журналистика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдыёвізуальная журналістыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audiovisual_journalism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_audiovisual_information;
+    => nrel_associative_connection: by_web_journalism;
+    => nrel_associative_connection: by_journalist;
+    => nrel_associative_connection: by_journalism;
+    => nrel_associative_connection: by_journalists;
+    => nrel_associative_connection: by_media_management;
+    => nrel_associative_connection: by_broadcasting_mass_media;
+    => nrel_associative_connection: by_television_mass_media;
+
+    => nrel_etalon_online_idx: [11430];;

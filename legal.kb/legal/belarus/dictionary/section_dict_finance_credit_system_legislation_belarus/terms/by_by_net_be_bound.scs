@@ -1,0 +1,26 @@
+
+by_by_net_be_bound
+    => nrel_main_idtf: [by_net_be_bound] (* <- lang_en;; *);
+    => nrel_main_idtf: [нетто-обязательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нета-абавязацельства] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_net_be_bound_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_net_weight;
+    => nrel_associative_connection: by_net_head_head;
+
+    => nrel_etalon_online_idx: [41831];;

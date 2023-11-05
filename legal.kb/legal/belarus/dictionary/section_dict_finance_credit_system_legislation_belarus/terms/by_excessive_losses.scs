@@ -1,0 +1,31 @@
+
+by_excessive_losses
+    => nrel_main_idtf: [excessive losses] (* <- lang_en;; *);
+    => nrel_main_idtf: [сверхнормативные потери] (* <- lang_ru;; *);
+    => nrel_main_idtf: [звышнарматыўныя страты] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_excessive_losses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_precious_metal_mass;
+    => nrel_associative_connection: by_deficiency;
+    => nrel_associative_connection: by_normative_loss;
+    => nrel_associative_connection: by_normative_losses;
+    => nrel_associative_connection: by_negotiable_precious_metals;
+    => nrel_associative_connection: by_potential_losses;
+    => nrel_associative_connection: by_actual_losses;
+
+    => nrel_etalon_online_idx: [22887];;

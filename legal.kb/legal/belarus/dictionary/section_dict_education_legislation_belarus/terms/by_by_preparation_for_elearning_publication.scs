@@ -1,0 +1,31 @@
+
+by_by_preparation_for_elearning_publication
+    => nrel_main_idtf: [by_preparation_for_elearning_publication] (* <- lang_en;; *);
+    => nrel_main_idtf: [подготовка к выпуску электронного учебного издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрыхтоўка да выпуску электроннага навучальнага выдання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_preparation_for_elearning_publication_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_order_for_printed_educational_publications;
+    => nrel_associative_connection: by_masterdisc_of_electronic_educational_edition;
+    => nrel_associative_connection: by_original_layout_of_educational_edition;
+    => nrel_associative_connection: by_plan_for_the_production_of_printed_educational_publications;
+    => nrel_associative_connection: by_plan_for_the_release_of_elearning_publications;
+    => nrel_associative_connection: by_technical_support_of_the_electronic_training_edition;
+
+    => nrel_etalon_online_idx: [42582];;

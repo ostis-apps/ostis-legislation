@@ -1,0 +1,28 @@
+
+by_by_primary_base
+    => nrel_main_idtf: [by_primary_base] (* <- lang_en;; *);
+    => nrel_main_idtf: [основное место базирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўнае месца базіравання] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_primary_base_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aircraft_flight_crew;
+    => nrel_associative_connection: by_rest_in_flight;
+    => nrel_associative_connection: by_preflight_training;
+    => nrel_associative_connection: by_service_time;
+
+    => nrel_etalon_online_idx: [42295];;

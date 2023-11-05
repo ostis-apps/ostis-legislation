@@ -1,0 +1,31 @@
+
+by_obstetrics_and_gynecology
+    => nrel_main_idtf: [obstetrics and gynecology] (* <- lang_en;; *);
+    => nrel_main_idtf: [акушерство и гинекология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акушэрства і гінекалогія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obstetrics_and_gynecology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_abortion;
+    => nrel_associative_connection: by_asphyxia_of_the_newborn;
+    => nrel_associative_connection: by_infertility;
+    => nrel_associative_connection: by_ectopic_pregnancy;
+    => nrel_associative_connection: by_doctorobstetriciangynecologist;
+    => nrel_associative_connection: by_cesarean_section;
+    => nrel_associative_connection: by_perinatal_care;
+
+    => nrel_etalon_online_idx: [33947];;

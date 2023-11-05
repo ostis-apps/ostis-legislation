@@ -1,0 +1,30 @@
+
+by_institutions_of_secondary_special_education
+    => nrel_main_idtf: [institutions of secondary special education] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждения среднего специального образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установы сярэдняй спецыяльнай адукацыі] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_institutions_of_secondary_special_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_program_of_secondary_education;
+    => nrel_associative_connection: by_specialized_secondary_education;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_institution_of_specialized_secondary_education;
+
+    => nrel_etalon_online_idx: [41202];;

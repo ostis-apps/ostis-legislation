@@ -1,0 +1,27 @@
+
+by_source_documents
+    => nrel_main_idtf: [source documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [исходные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [исходные документы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_source_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_attributive_features;
+    => nrel_associative_connection: by_identification_of_accounting_unit;
+    => nrel_associative_connection: by_accounting_documents;
+
+    => nrel_etalon_online_idx: [31321];;

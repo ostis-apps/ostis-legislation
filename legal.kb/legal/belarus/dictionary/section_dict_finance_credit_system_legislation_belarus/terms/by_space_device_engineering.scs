@@ -1,0 +1,26 @@
+
+by_space_device_engineering
+    => nrel_main_idtf: [space device engineering] (* <- lang_en;; *);
+    => nrel_main_idtf: [космическое приборостроение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [касмічнае прыборабудаванне] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_space_device_engineering_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_aerospace_means;
+    => nrel_associative_connection: by_space_devices_sd;
+
+    => nrel_etalon_online_idx: [29049];;

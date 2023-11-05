@@ -1,0 +1,27 @@
+
+by_by_depleted_uranium
+    => nrel_main_idtf: [by_depleted_uranium] (* <- lang_en;; *);
+    => nrel_main_idtf: [обедненный уран  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абеднены уран] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_depleted_uranium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_highly_enriched_uranium;
+    => nrel_associative_connection: by_low_enriched_uranium;
+    => nrel_associative_connection: by_enriched_uranium;
+
+    => nrel_etalon_online_idx: [31326];;

@@ -1,0 +1,43 @@
+
+by_metal_cutting_machine
+    => nrel_main_idtf: [metal cutting machine] (* <- lang_en;; *);
+    => nrel_main_idtf: [металлорежущий станок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [металарэзны станок] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metal_cutting_machine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metal_cutting_machine_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_detail;
+    => nrel_associative_connection: by_machine;
+    => nrel_associative_connection: by_metallurgy;
+    => nrel_associative_connection: by_machines;
+
+    => nrel_etalon_online_idx: [32930];;

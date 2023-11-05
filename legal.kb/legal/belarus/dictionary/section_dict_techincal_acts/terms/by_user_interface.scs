@@ -1,0 +1,31 @@
+
+by_user_interface
+    => nrel_main_idtf: [user interface] (* <- lang_en;; *);
+    => nrel_main_idtf: [интерфейс пользователя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрфейс карыстальніка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_user_interface_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_nonoperator_mode_of_operation;
+    => nrel_associative_connection: by_contactless_information_carrier;
+    => nrel_associative_connection: by_interface;
+    => nrel_associative_connection: by_interface_usernetwork;
+    => nrel_associative_connection: by_interface_joint;
+    => nrel_associative_connection: by_communication_channel_controller;
+    => nrel_associative_connection: by_main_menu;
+
+    => nrel_etalon_online_idx: [30665];;

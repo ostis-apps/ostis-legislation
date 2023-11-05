@@ -1,0 +1,28 @@
+
+by_average_seeds_specimen
+    => nrel_main_idtf: [average seeds specimen] (* <- lang_en;; *);
+    => nrel_main_idtf: [средний образец семян] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэдні ўзор насення] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_average_seeds_specimen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_seed_lot_control_unit;
+    => nrel_associative_connection: by_test_of_forest_plant_seeds;
+    => nrel_associative_connection: by_forest_plant_seeds;
+    => nrel_associative_connection: by_plant_seeds;
+
+    => nrel_etalon_online_idx: [12194];;

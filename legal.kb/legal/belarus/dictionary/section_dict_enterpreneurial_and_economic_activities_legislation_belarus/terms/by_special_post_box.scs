@@ -1,0 +1,29 @@
+
+by_special_post_box
+    => nrel_main_idtf: [special post box] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный почтовый ящик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльная паштовая скрынка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_post_box_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_post_office_box;
+    => nrel_associative_connection: by_individual_post_box;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_postal_courier;
+    => nrel_associative_connection: by_letter_box;
+
+    => nrel_etalon_online_idx: [10198];;

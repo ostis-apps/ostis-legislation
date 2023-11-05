@@ -1,0 +1,34 @@
+
+by_claimants
+    => nrel_main_idtf: [claimants] (* <- lang_en;; *);
+    => nrel_main_idtf: [истцы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [істцы] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_claimants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_citizens;
+    => nrel_associative_connection: by_civil_claimant;
+    => nrel_associative_connection: by_civil_defendant;
+    => nrel_associative_connection: by_protection;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_limitation_for_lawsuit;
+    => nrel_associative_connection: by_defendant;
+    => nrel_associative_connection: by_defendants;
+    => nrel_associative_connection: by_court_proceeding;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_etalon_online_idx: [15683];;

@@ -1,0 +1,47 @@
+
+by_psychiatric_hospital
+    => nrel_main_idtf: [psychiatric hospital] (* <- lang_en;; *);
+    => nrel_main_idtf: [психиатрический стационар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псіхіятрычны стацыянар] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychiatric_hospital_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychiatric_hospital_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_final_diagnosis_of_mental_disorder_disease;
+    => nrel_associative_connection: by_illegal_placement_in_a_psychiatric_hospital;
+    => nrel_associative_connection: by_systematic_psychiatric_care;
+    => nrel_associative_connection: by_psychiatric_psychoneurological_organization;
+    => nrel_associative_connection: by_psychiatric_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_psychiatric_care;
+    => nrel_associative_connection: by_psychiatric_examination;
+    => nrel_associative_connection: by_mental_disorder_disease;
+
+    => nrel_etalon_online_idx: [10548];;

@@ -1,0 +1,28 @@
+
+by_state_of_operator
+    => nrel_main_idtf: [state of operator] (* <- lang_en;; *);
+    => nrel_main_idtf: [государство эксплуатанта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржава эксплуатанта] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_of_operator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_operating_the_aircraft;
+    => nrel_associative_connection: by_state_of_the_developer;
+    => nrel_associative_connection: by_statemanufacturer;
+    => nrel_associative_connection: by_operator;
+
+    => nrel_etalon_online_idx: [13796];;

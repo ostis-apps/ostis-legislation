@@ -1,0 +1,48 @@
+
+by_professional_coach
+    => nrel_main_idtf: [professional coach] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональный тренер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійны трэнер] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_coach_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_coach_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_foreign_coaches;
+    => nrel_associative_connection: by_other_persons_carrying_out_activity_in_the_sphere_of_professional_sport;
+    => nrel_associative_connection: by_sportsman_staff;
+    => nrel_associative_connection: by_honorary_titles;
+    => nrel_associative_connection: by_professional_sport;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_trainer;
+    => nrel_associative_connection: by_coachteacher_of_sports_for_related_types_of_training;
+
+    => nrel_etalon_online_idx: [10339];;

@@ -1,0 +1,38 @@
+
+by_purchase_and_sale_contract
+    => nrel_main_idtf: [purchase and sale contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор купли-продажи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор куплі-продажу] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_purchase_and_sale_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_stock_exchange_contract;
+    => nrel_associative_connection: by_foreign_trade_contract;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_lease_and_sale_contract;
+    => nrel_associative_connection: by_supply_agreement;
+    => nrel_associative_connection: by_real_estate_sale_agreement;
+    => nrel_associative_connection: by_document_confirming_the_fact_of_purchasing_the_goods_work_performance_service_provision;
+    => nrel_associative_connection: by_documents_establishing_the_right_to_own_or_use_of_housing_premises;
+    => nrel_associative_connection: by_seller;
+    => nrel_associative_connection: by_transaction_for_the_acquisition_of_goods_work_services;
+    => nrel_associative_connection: by_transaction_for_the_sales_of_goods_works_services;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_trade;
+
+    => nrel_etalon_online_idx: [2504];;

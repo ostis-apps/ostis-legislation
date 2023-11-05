@@ -1,0 +1,27 @@
+
+by_irondeficiency_anemia
+    => nrel_main_idtf: [iron-deficiency anemia] (* <- lang_en;; *);
+    => nrel_main_idtf: [железодефицитная анемия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жалезадэфіцытная анемія] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_irondeficiency_anemia_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_anemia;
+    => nrel_associative_connection: by_vitaminb12deficiency_anemia;
+    => nrel_associative_connection: by_microangiopathic_hemolytic_anemia;
+
+    => nrel_etalon_online_idx: [40023];;

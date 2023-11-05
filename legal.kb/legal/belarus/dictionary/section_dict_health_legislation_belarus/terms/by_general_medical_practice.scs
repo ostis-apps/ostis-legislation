@@ -1,0 +1,33 @@
+
+by_general_medical_practice
+    => nrel_main_idtf: [general medical practice] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая врачебная практика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная ўрачэбная практыка] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_medical_practice_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_doctorspecialist;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_medical_activity;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_practical_management;
+    => nrel_associative_connection: by_proper_clinical_practice;
+    => nrel_associative_connection: by_practice;
+    => nrel_associative_connection: by_trainee;
+    => nrel_associative_connection: by_management_protocol;
+
+    => nrel_etalon_online_idx: [18573];;

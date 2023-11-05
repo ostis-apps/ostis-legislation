@@ -1,0 +1,29 @@
+
+by_lymphostasis
+    => nrel_main_idtf: [lymphostasis] (* <- lang_en;; *);
+    => nrel_main_idtf: [лимфостаз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лімфастаз] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lymphostasis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_adenitis;
+    => nrel_associative_connection: by_lymphatic_system;
+    => nrel_associative_connection: by_skin_lymphomas;
+    => nrel_associative_connection: by_tumor;
+    => nrel_associative_connection: by_pyoderma;
+
+    => nrel_etalon_online_idx: [34132];;

@@ -1,0 +1,26 @@
+
+by_treasure
+    => nrel_main_idtf: [treasure] (* <- lang_en;; *);
+    => nrel_main_idtf: [клад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скарб] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_treasure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_values;
+
+    => nrel_etalon_online_idx: [2688];;

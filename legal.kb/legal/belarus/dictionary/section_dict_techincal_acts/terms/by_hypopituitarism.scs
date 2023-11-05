@@ -1,0 +1,29 @@
+
+by_hypopituitarism
+    => nrel_main_idtf: [hypopituitarism] (* <- lang_en;; *);
+    => nrel_main_idtf: [гипопитуитаризм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гіпапітуітарызм] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hypopituitarism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_gigantism;
+    => nrel_associative_connection: by_primary_hyperaldosteronism;
+    => nrel_associative_connection: by_hyperosmolary_hyperglycemic_condition;
+    => nrel_associative_connection: by_metabolic_syndrome;
+    => nrel_associative_connection: by_subacute_thyroiditis;
+
+    => nrel_etalon_online_idx: [33457];;

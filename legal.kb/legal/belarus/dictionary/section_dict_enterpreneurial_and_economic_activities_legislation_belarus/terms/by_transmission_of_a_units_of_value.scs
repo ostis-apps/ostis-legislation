@@ -1,0 +1,29 @@
+
+by_transmission_of_a_units_of_value
+    => nrel_main_idtf: [transmission of a units of value] (* <- lang_en;; *);
+    => nrel_main_idtf: [передача единицы величины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадача адзінкі велічыні] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transmission_of_a_units_of_value_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_international_reference_of_the_unit_of_value;
+    => nrel_associative_connection: by_traceability;
+    => nrel_associative_connection: by_registration_of_a_measuring_instrument;
+    => nrel_associative_connection: by_comparison_of_measurement_results;
+    => nrel_associative_connection: by_the_content_of_the_standard_of_the_unit_of_magnitude;
+
+    => nrel_etalon_online_idx: [32083];;

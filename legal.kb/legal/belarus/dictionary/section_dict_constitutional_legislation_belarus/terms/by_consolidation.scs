@@ -1,0 +1,27 @@
+
+by_consolidation
+    => nrel_main_idtf: [consolidation] (* <- lang_en;; *);
+    => nrel_main_idtf: [консолидация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кансалідацыя] (* <- lang_by;; *);
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consolidation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+        => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_systematization_of_documents;
+    => nrel_associative_connection: by_systematization_of_normative_legal_acts;
+
+    => nrel_etalon_online_idx: [30828];;
