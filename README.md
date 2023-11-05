@@ -1,13 +1,12 @@
-<h1 align="center">OSTIS example app</h1>
+<h1 align="center">OSTIS Legislation</h1>
 
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## About
 
-OSTIS example app is an ostis-system based on [**ostis-web-platform**](https://github.com/ostis-ai/ostis-web-platform) and designed with [OSTIS Technology](https://github.com/ostis-ai).
+OSTIS Legislation is an ostis-system based on [**ostis-web-platform**](https://github.com/ostis-ai/ostis-web-platform) and designed with [OSTIS Technology](https://github.com/ostis-ai).
 
-0.8.0 version allows communication with the knowledge base via [JSON-based Websocket protocol](http://ostis-dev.github.io/sc-machine/http/websocket/).
-
+The OSTIS Legislation project aims to develop a personal legal assistant, providing individuals with a reliable and accessible source of legal information.
 
 ## Installation
 
@@ -51,11 +50,6 @@ To check that everything is fine open localhost:8000 in your browser.
 ### Problem Solver
 
 `problem-solver` is the place for the problem solver of your app. Put your agents here. After changes in problem-solver you should rebuild it:
-
-*Use **scp_stable** branch for the development of agents on SCP.*  
-*Use **0.5.0**, **0.6.0**, **0.7.0** or **0.8.0** branch for the development of agents on C++. You can see an example module with a C++ agent [here](problem-solver/cxx/exampleModule/README.md)*  
-
-After updating your C++ code you need to rebuild `problem-solver`:  
 ```sh
 ./scripts/build_problem_solver.sh
 ```
@@ -96,7 +90,7 @@ Give us a ⭐️ if you've liked this project!
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ostis-apps/ostis-example-app/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ostis-apps/ostis-legislation/issues). 
 
 ## 📝 License
 
