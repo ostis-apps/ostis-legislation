@@ -1,0 +1,35 @@
+
+by_active_mode
+    => nrel_main_idtf: [active mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [активный (рабочий) режим (active mode)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [актыўны (рабочы) рэжым (active mode)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_active_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_low_voltage_external_power_supply;
+    => nrel_associative_connection: by_homemode;
+    => nrel_associative_connection: by_domestic_environment;
+    => nrel_associative_connection: by_final_user;
+    => nrel_associative_connection: by_information_technology_equipment;
+
+    => nrel_legal_act: by_act_w01934865p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32253?langname=ru];
+    => nrel_etalon_online_idx: [32253];;

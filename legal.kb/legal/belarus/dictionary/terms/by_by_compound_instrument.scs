@@ -1,0 +1,19 @@
+
+by_by_compound_instrument
+    => nrel_main_idtf: [by_compound_instrument] (* <- lang_en;; *);
+    => nrel_main_idtf: [сложный финансовый инструмент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [складаны фінансавы інструмент] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_financial_instruments;
+    => nrel_associative_connection: by_term_transaction_financial_instrument;
+    => nrel_associative_connection: by_term_transactions_financial_instrument;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23331?langname=ru];
+    => nrel_etalon_online_idx: [23331];;

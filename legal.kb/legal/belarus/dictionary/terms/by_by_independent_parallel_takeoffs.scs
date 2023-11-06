@@ -1,0 +1,35 @@
+
+by_by_independent_parallel_takeoffs
+    => nrel_main_idtf: [by_independent_parallel_takeoffs] (* <- lang_en;; *);
+    => nrel_main_idtf: [независимые параллельные взлеты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незалежныя паралельныя ўзлёты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_independent_parallel_takeoffs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_glideslope_of_landing_system;
+    => nrel_associative_connection: by_taking_off_and_landing_zone;
+    => nrel_associative_connection: by_runway_waiting_point;
+    => nrel_associative_connection: by_independent_parallel_approaches;
+    => nrel_associative_connection: by_runway_protection_lights;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41082?langname=ru];
+    => nrel_etalon_online_idx: [41082];;

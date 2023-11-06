@@ -1,0 +1,35 @@
+
+by_information_on_the_results_of_the_survey_using_the_polygraph
+    => nrel_main_idtf: [information on the results of the survey using the polygraph] (* <- lang_en;; *);
+    => nrel_main_idtf: [справка о результатах опроса с использованием полиграфа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даведка аб выніках апытання з выкарыстаннем паліграфа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_on_the_results_of_the_survey_using_the_polygraph_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_initiator_of_the_survey_using_the_polygraph;
+    => nrel_associative_connection: by_polygraph;
+    => nrel_associative_connection: by_polygraph_specialist;
+    => nrel_associative_connection: by_polygraph_survey_specialist;
+    => nrel_associative_connection: by_specialist_for_psychophysiological_research;
+
+    => nrel_legal_act: by_act_w22036042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35482?langname=ru];
+    => nrel_etalon_online_idx: [35482];;

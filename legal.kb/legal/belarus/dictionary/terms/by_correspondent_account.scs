@@ -1,0 +1,49 @@
+
+by_correspondent_account
+    => nrel_main_idtf: [correspondent account] (* <- lang_en;; *);
+    => nrel_main_idtf: [корреспондентский счет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карэспандэнцкі рахунак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_correspondent_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_correspondent_banks;
+    => nrel_associative_connection: by_bankcorrespondent;
+    => nrel_associative_connection: by_bank_transaction;
+    => nrel_associative_connection: by_sending_bank;
+    => nrel_associative_connection: by_receiving_bank;
+    => nrel_associative_connection: by_correspondent_relations;
+    => nrel_associative_connection: by_correspondent_metal_account;
+    => nrel_associative_connection: by_overdraft_limit;
+    => nrel_associative_connection: by_interbank_transfer;
+    => nrel_associative_connection: by_overdraft;
+    => nrel_associative_connection: by_overdraft_credit;
+    => nrel_associative_connection: by_calculated_banks;
+    => nrel_associative_connection: by_means_held_at_other_banks;
+    => nrel_associative_connection: by_account_loro;
+    => nrel_associative_connection: by_account_nostro;
+    => nrel_associative_connection: by_lender_account;
+    => nrel_associative_connection: by_account_of_the_borrower;
+    => nrel_associative_connection: by_accounts_for_cash_accounting;
+    => nrel_associative_connection: by_averaged_part_of_reserve_claims;
+
+    => nrel_legal_act: by_act_b20105770;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6035?langname=ru];
+    => nrel_etalon_online_idx: [6035];;

@@ -1,0 +1,31 @@
+
+by_service_contract_the_marine_agent
+    => nrel_main_idtf: [service contract the marine agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор оказания услуг морского агента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор аказання паслуг марскога агента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_contract_the_marine_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agreement_on_marine_mediation_services;
+
+    => nrel_legal_act: by_act_HK9900321;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9135?langname=ru];
+    => nrel_etalon_online_idx: [9135];;

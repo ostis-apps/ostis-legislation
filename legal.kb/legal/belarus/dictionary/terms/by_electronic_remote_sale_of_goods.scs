@@ -1,0 +1,34 @@
+
+by_electronic_remote_sale_of_goods
+    => nrel_main_idtf: [electronic remote sale of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронная дистанционная продажа товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронны дыстанцыйны продаж тавараў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_remote_sale_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accreditation_on_the_electronic_trade_platform;
+    => nrel_associative_connection: by_foreign_organization_foreign_individual_entrepreneur_providing_services_in_electronic_form;
+    => nrel_associative_connection: by_foreign_organization_foreign_individual_entrepreneur_carrying_out_electronic_remote_sale_of_goods;
+    => nrel_associative_connection: by_electronic_trade_platform;
+
+    => nrel_legal_act: by_act_hk0200166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42020?langname=ru];
+    => nrel_etalon_online_idx: [42020];;

@@ -1,0 +1,36 @@
+
+by_concession_authority
+    => nrel_main_idtf: [concession authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [концессионный орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцэсійны орган] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concession_authority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_compensating_products;
+    => nrel_associative_connection: by_concession_grantor;
+    => nrel_associative_connection: by_concession_offer;
+    => nrel_associative_connection: by_concession;
+
+    => nrel_legal_act: by_act_h11300063;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10437?langname=ru];
+    => nrel_etalon_online_idx: [10437];;

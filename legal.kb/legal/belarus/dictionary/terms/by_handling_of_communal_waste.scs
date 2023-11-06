@@ -1,0 +1,21 @@
+
+by_handling_of_communal_waste
+    => nrel_main_idtf: [handling of communal waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [обращение с коммунальными отходами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абыходжанне з камунальнымі адходамі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_excluded_communal_waste;
+    => nrel_associative_connection: by_communal_waste;
+    => nrel_associative_connection: by_producer_of_communal_waste;
+    => nrel_associative_connection: by_waste_collection;
+    => nrel_associative_connection: by_storage_of_communal_waste;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18538?langname=ru];
+    => nrel_etalon_online_idx: [18538];;

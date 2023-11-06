@@ -1,0 +1,37 @@
+
+by_allowable_intensity_of_uv_radiation_irradiation
+    => nrel_main_idtf: [allowable intensity of uv radiation (irradiation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [допустимая интенсивность ультрафиолетового излучения (облученность)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапушчальная інтэнсіўнасць ультрафіялетавага выпраменьвання (апрамененасць)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allowable_intensity_of_uv_radiation_irradiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dose_of_uv_irradiation;
+    => nrel_associative_connection: by_allowable_dose_of_uv_radiation;
+    => nrel_associative_connection: by_intensity_of_ultraviolet_radiation_irradiation;
+    => nrel_associative_connection: by_exposure;
+    => nrel_associative_connection: by_maximum_permissible_level_of_ultraviolet_radiation;
+    => nrel_associative_connection: by_ultraviolet_radiation;
+    => nrel_associative_connection: by_energy_exposure;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41684?langname=ru];
+    => nrel_etalon_online_idx: [41684];;

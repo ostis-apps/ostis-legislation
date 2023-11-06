@@ -1,0 +1,50 @@
+
+by_norms_of_physiological_needs
+    => nrel_main_idtf: [norms of physiological needs] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормы физиологических потребностей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нормы фізіялагічных патрэбнасцей] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_norms_of_physiological_needs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_norms_of_physiological_needs_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upper_acceptable_consumption_level;
+    => nrel_associative_connection: by_hypersensitivity_to_food_products;
+    => nrel_associative_connection: by_metabolic_imprinting;
+    => nrel_associative_connection: by_human_habitat;
+
+    => nrel_legal_act: by_act_w22035454p;
+    => nrel_legal_act: by_act_f91000052;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31937?langname=ru];
+    => nrel_etalon_online_idx: [31937];;

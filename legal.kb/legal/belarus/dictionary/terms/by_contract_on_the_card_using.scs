@@ -1,0 +1,27 @@
+
+by_contract_on_the_card_using
+    => nrel_main_idtf: [contract on the card using] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор об использовании карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор аб выкарыстанні карткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_authentication_of_the_card_holder;
+    => nrel_associative_connection: by_bank_payment_card;
+    => nrel_associative_connection: by_virtual_card;
+    => nrel_associative_connection: by_debit_card;
+    => nrel_associative_connection: by_cardholder;
+    => nrel_associative_connection: by_card_use;
+    => nrel_associative_connection: by_personal_debit_card;
+    => nrel_associative_connection: by_operation_not_authorized_by_card_holder;
+    => nrel_associative_connection: by_card_personalization;
+    => nrel_associative_connection: by_selfservice_payment_terminal;
+    => nrel_associative_connection: by_card_details;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14279?langname=ru];
+    => nrel_etalon_online_idx: [14279];;

@@ -1,0 +1,39 @@
+
+by_guidebook
+    => nrel_main_idtf: [guidebook] (* <- lang_en;; *);
+    => nrel_main_idtf: [путеводитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даведнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_guidebook_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive_catalogue;
+    => nrel_associative_connection: by_classification_of_documents_within_the_archive;
+    => nrel_associative_connection: by_classification_of_documents_within_the_archive_fund;
+    => nrel_associative_connection: by_archive_completion;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+    => nrel_associative_connection: by_handbook;
+    => nrel_associative_connection: by_reference_and_information_fund_archive;
+    => nrel_associative_connection: by_thematic_list_of_documents;
+    => nrel_associative_connection: by_record_keeping_of_documents;
+
+    => nrel_legal_act: by_act_w20716244;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21872?langname=ru];
+    => nrel_etalon_online_idx: [21872];;

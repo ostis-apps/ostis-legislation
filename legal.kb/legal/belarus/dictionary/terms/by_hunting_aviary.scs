@@ -1,0 +1,66 @@
+
+by_hunting_aviary
+    => nrel_main_idtf: [hunting aviary] (* <- lang_en;; *);
+    => nrel_main_idtf: [охотничий вольер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляўнічая вальера] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_aviary_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_aviary_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_openair_cage_owner;
+    => nrel_associative_connection: by_openair_cage;
+    => nrel_associative_connection: by_aviary_for_overexposure;
+    => nrel_associative_connection: by_aviary_for_baiting;
+    => nrel_associative_connection: by_openair_cage_hunting;
+    => nrel_associative_connection: by_aviaries;
+    => nrel_associative_connection: by_yard_for_young_individual_hunting_animals;
+    => nrel_associative_connection: by_demonstration_aviary;
+    => nrel_associative_connection: by_extraction_of_hunting_animals;
+    => nrel_associative_connection: by_beater;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_collective_hunting;
+    => nrel_associative_connection: by_amateur_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunter;
+    => nrel_associative_connection: by_hunting_weapons;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_hunting_lands;
+    => nrel_associative_connection: by_products_of_hunting;
+    => nrel_associative_connection: by_gun_hunting;
+
+    => nrel_legal_act: by_act_p31800112;
+    => nrel_legal_act: by_act_c21800493;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19666?langname=ru];
+    => nrel_etalon_online_idx: [19666];;

@@ -1,0 +1,33 @@
+
+by_party_concerned
+    => nrel_main_idtf: [party concerned] (* <- lang_en;; *);
+    => nrel_main_idtf: [затрагиваемая сторона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бок, які закранаецца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_party_concerned_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_environmental_impact;
+    => nrel_associative_connection: by_environment;
+    => nrel_associative_connection: by_crossborder_effects;
+
+    => nrel_legal_act: by_act_h11600399;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11874?langname=ru];
+    => nrel_etalon_online_idx: [11874];;

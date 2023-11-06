@@ -1,0 +1,34 @@
+
+by_public_water_consumption
+    => nrel_main_idtf: [public water consumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [общее водопользование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульнае водакарыстанне ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_water_consumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_use;
+    => nrel_associative_connection: by_water_consumers;
+    => nrel_associative_connection: by_use_of_water_for_household_and_drinking_needs;
+    => nrel_associative_connection: by_water_losses;
+
+    => nrel_legal_act: by_act_hk1400149;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8656?langname=ru];
+    => nrel_etalon_online_idx: [8656];;

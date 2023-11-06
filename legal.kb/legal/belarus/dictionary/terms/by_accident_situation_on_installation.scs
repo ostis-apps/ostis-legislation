@@ -1,0 +1,38 @@
+
+by_accident_situation_on_installation
+    => nrel_main_idtf: [accident situation on installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийная ситуация на установке  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйная сітуацыя на ўстаноўцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accident_situation_on_installation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_situation;
+    => nrel_associative_connection: by_accident_situation_at_a_nuclear_research_installation_general;
+    => nrel_associative_connection: by_other_emergency_works_in_emergency_situations_liquidation;
+    => nrel_associative_connection: by_urgent_works_in_emergency_situation_zone;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_research_nuclear_installation_site;
+    => nrel_associative_connection: by_radiation_situation;
+    => nrel_associative_connection: by_state_emergency_situation;
+
+    => nrel_legal_act: by_act_w21833522p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30432?langname=ru];
+    => nrel_etalon_online_idx: [30432];;

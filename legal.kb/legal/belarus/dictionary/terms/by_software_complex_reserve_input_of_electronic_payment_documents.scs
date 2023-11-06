@@ -1,0 +1,26 @@
+
+by_software_complex_reserve_input_of_electronic_payment_documents
+    => nrel_main_idtf: [software complex "reserve input of electronic payment documents"] (* <- lang_en;; *);
+    => nrel_main_idtf: [программный комплекс "резервный ввод электронных платежных документов"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграмны комплекс "рэзервовы ўвод электронных плацежных дакументаў"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_order;
+    => nrel_associative_connection: by_payment_document;
+    => nrel_associative_connection: by_system_control;
+    => nrel_associative_connection: by_participant_of_payment_system;
+    => nrel_associative_connection: by_private_payment_system;
+    => nrel_associative_connection: by_members_of_payment_system;
+    => nrel_associative_connection: by_electronic_payment_document;
+    => nrel_associative_connection: by_electronic_payment_document_electronic_order_for_payment_electronic_payment_request_electronic_payment_order;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28122?langname=ru];
+    => nrel_etalon_online_idx: [28122];;

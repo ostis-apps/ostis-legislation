@@ -1,0 +1,37 @@
+
+by_statefinanced_organizations
+    => nrel_main_idtf: [state-financed organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [бюджетные организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бюджэтныя арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statefinanced_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budgetary_funds;
+    => nrel_associative_connection: by_budget_services;
+    => nrel_associative_connection: by_public_health_facilities;
+    => nrel_associative_connection: by_monetary_obligations_of_republican_bodies_of_state_administration_local_executive_and_administrative_bodies;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_employees_of_budget_scientific_organizations;
+
+    => nrel_legal_act: by_act_w20512209;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12846?langname=ru];
+    => nrel_etalon_online_idx: [12846];;

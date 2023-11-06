@@ -1,0 +1,35 @@
+
+by_proper_representation
+    => nrel_main_idtf: [proper representation] (* <- lang_en;; *);
+    => nrel_main_idtf: [надлежащее представление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [належнае прадстаўленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_proper_representation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_letter_of_credit;
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_external_presentation_of_the_document_in_electronic_view;
+    => nrel_associative_connection: by_representation;
+    => nrel_associative_connection: by_representing_bank;
+
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17609?langname=ru];
+    => nrel_etalon_online_idx: [17609];;

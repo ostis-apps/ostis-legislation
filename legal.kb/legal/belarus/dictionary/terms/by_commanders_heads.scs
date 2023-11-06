@@ -1,0 +1,40 @@
+
+by_commanders_heads
+    => nrel_main_idtf: [commanders (heads)] (* <- lang_en;; *);
+    => nrel_main_idtf: [командиры (начальники)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камандзіры (начальнікі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commanders_heads_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stratagem;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_rank;
+    => nrel_associative_connection: by_aircraft_commander;
+    => nrel_associative_connection: by_commanders;
+    => nrel_associative_connection: by_commanders_of_military_installations;
+    => nrel_associative_connection: by_junior_commanders;
+    => nrel_associative_connection: by_firewarden;
+    => nrel_associative_connection: by_chief_officers;
+    => nrel_associative_connection: by_chiefs_of_investigation_committee_units;
+
+    => nrel_legal_act: by_act_w20920969;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9258?langname=ru];
+    => nrel_etalon_online_idx: [9258];;

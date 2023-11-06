@@ -1,0 +1,66 @@
+
+by_regionalization
+    => nrel_main_idtf: [regionalization] (* <- lang_en;; *);
+    => nrel_main_idtf: [регионализация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіяналізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regionalization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regionalization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regionalization_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_veterinary_welfare;
+    => nrel_associative_connection: by_veterinary_certificate;
+    => nrel_associative_connection: by_infectious_animal_disease;
+    => nrel_associative_connection: by_hearth_of_contagious_animal_illness;
+
+    => nrel_legal_act: by_act_h11000161;
+    => nrel_legal_act: by_act_f91700350;
+    => nrel_legal_act: by_act_f91000062;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22288?langname=ru];
+    => nrel_etalon_online_idx: [22288];;

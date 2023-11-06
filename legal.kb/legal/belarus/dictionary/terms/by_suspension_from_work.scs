@@ -1,0 +1,34 @@
+
+by_suspension_from_work
+    => nrel_main_idtf: [suspension from work] (* <- lang_en;; *);
+    => nrel_main_idtf: [отстранение от работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адхіленне ад працы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspension_from_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_disciplinary_fault;
+    => nrel_associative_connection: by_changes_in_essential_working_conditions;
+    => nrel_associative_connection: by_executive_and_labor_discipline;
+    => nrel_associative_connection: by_dismissal_from_office;
+
+    => nrel_legal_act: by_act_hk9900296;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33677?langname=ru];
+    => nrel_etalon_online_idx: [33677];;

@@ -1,0 +1,51 @@
+
+by_religious_association
+    => nrel_main_idtf: [religious association] (* <- lang_en;; *);
+    => nrel_main_idtf: [религиозное объединение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэлігійнае аб'яднанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_religious_association_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_religious_association_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pilgrimage;
+    => nrel_associative_connection: by_religious_community;
+    => nrel_associative_connection: by_religious_organizations;
+    => nrel_associative_connection: by_religion;
+    => nrel_associative_connection: by_republican_religious_community;
+
+    => nrel_legal_act: by_act_v19202054;
+    => nrel_legal_act: by_act_n21500092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6828?langname=ru];
+    => nrel_etalon_online_idx: [6828];;

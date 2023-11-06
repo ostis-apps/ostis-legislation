@@ -1,0 +1,61 @@
+
+by_administrative_penalty
+    => nrel_main_idtf: [administrative penalty] (* <- lang_en;; *);
+    => nrel_main_idtf: [административное взыскание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адміністрацыйнае спагнанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_penalty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_administrative_penalty_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_responsibility;
+    => nrel_associative_connection: by_administrative_detainees;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_infraction;
+    => nrel_associative_connection: by_gross_administrative_offenses;
+    => nrel_associative_connection: by_deportation;
+    => nrel_associative_connection: by_passenger_under_deportation;
+    => nrel_associative_connection: by_act_committed_by_a_person_repeatedly;
+    => nrel_associative_connection: by_significant_administrative_offence;
+    => nrel_associative_connection: by_confication_of_property;
+    => nrel_associative_connection: by_person_who_subjected_to_administrative_penalty;
+    => nrel_associative_connection: by_petty_theft;
+    => nrel_associative_connection: by_authority_in_charge_of_administrative_procedure;
+    => nrel_associative_connection: by_prevention;
+    => nrel_associative_connection: by_notice_of_performance;
+
+    => nrel_legal_act: by_act_hk2100091;
+    => nrel_legal_act: by_act_n09700037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/941?langname=ru];
+    => nrel_etalon_online_idx: [941];;

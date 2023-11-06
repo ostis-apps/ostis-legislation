@@ -1,0 +1,34 @@
+
+by_by_returned_amounts
+    => nrel_main_idtf: [by_returned_amounts] (* <- lang_en;; *);
+    => nrel_main_idtf: [возвратные суммы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зваротныя сумы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_returned_amounts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_statement_of_workload_and_resource_consumption;
+    => nrel_associative_connection: by_reverts;
+    => nrel_associative_connection: by_associated_production_materials;
+    => nrel_associative_connection: by_repair_materials;
+
+    => nrel_legal_act: by_act_w22340166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42744?langname=ru];
+    => nrel_etalon_online_idx: [42744];;

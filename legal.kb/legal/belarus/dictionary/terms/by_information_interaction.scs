@@ -1,0 +1,66 @@
+
+by_information_interaction
+    => nrel_main_idtf: [information interaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационное взаимодействие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйнае ўзаемадзеянне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_interaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_interaction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_interaction_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aggregator;
+    => nrel_associative_connection: by_integration_of_governmental_information_resources;
+    => nrel_associative_connection: by_regulation_for_informational_interaction_with_the_interbank_identification_system;
+    => nrel_associative_connection: by_republican_state_information_resources;
+
+    => nrel_legal_act: by_act_n21800044;
+    => nrel_legal_act: by_act_f91500139;
+    => nrel_legal_act: by_act_f00900009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11326?langname=ru];
+    => nrel_etalon_online_idx: [11326];;

@@ -1,0 +1,40 @@
+
+by_unit_of_storage_of_scientific_and_technical_document
+    => nrel_main_idtf: [unit of storage of scientific and technical document] (* <- lang_en;; *);
+    => nrel_main_idtf: [единица хранения научно-технического документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінка захоўвання навукова-тэхнічнага дакумента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unit_of_storage_of_scientific_and_technical_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_documented_scientific_and_technical_information;
+    => nrel_associative_connection: by_unit_of_storage_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_catalogue_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_copies_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_maintenance_of_safe_scientific_and_technical_documentation_in_the_archive;
+    => nrel_associative_connection: by_organization_of_scientific_and_technical_documentation_storage;
+    => nrel_associative_connection: by_originals_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_storage_modes_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_scientific_and_technical_information_system;
+
+    => nrel_legal_act: by_act_w20310325;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14574?langname=ru];
+    => nrel_etalon_online_idx: [14574];;

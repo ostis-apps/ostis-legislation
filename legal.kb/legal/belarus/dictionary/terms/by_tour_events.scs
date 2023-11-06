@@ -1,0 +1,23 @@
+
+by_tour_events
+    => nrel_main_idtf: [tour events] (* <- lang_en;; *);
+    => nrel_main_idtf: [гастрольные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гастрольныя мерапрыемствы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_tour;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_scene_tablet;
+    => nrel_associative_connection: by_own_stage;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_stage;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13450?langname=ru];
+    => nrel_etalon_online_idx: [13450];;

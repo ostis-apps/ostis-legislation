@@ -1,0 +1,85 @@
+
+by_principal
+    => nrel_main_idtf: [principal] (* <- lang_en;; *);
+    => nrel_main_idtf: [принципал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прынцыпал] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_principal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_principal_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_principal_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_principal_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_instructing_party;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_clients;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_customs_payments;
+
+    => nrel_legal_act: by_act_b20105544;
+    => nrel_legal_act: by_act_i02300036;
+    => nrel_legal_act: by_act_f02300307;
+    => nrel_legal_act: by_act_f00600050;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21312?langname=ru];
+    => nrel_etalon_online_idx: [21312];;

@@ -1,0 +1,38 @@
+
+by_airport_activity
+    => nrel_main_idtf: [airport activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэропортовая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрапортавая дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airport_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_airport;
+    => nrel_associative_connection: by_temporary_basing_airport;
+    => nrel_associative_connection: by_main_legal_entity_of_the_airport;
+    => nrel_associative_connection: by_civil_aviation;
+    => nrel_associative_connection: by_final_airport;
+    => nrel_associative_connection: by_applicable_tariff;
+    => nrel_associative_connection: by_intermediate_airport;
+    => nrel_associative_connection: by_peak_hour;
+
+    => nrel_legal_act: by_act_hk0600117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4824?langname=ru];
+    => nrel_etalon_online_idx: [4824];;

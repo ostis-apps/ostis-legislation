@@ -1,0 +1,36 @@
+
+by_by_scrap_cost_of_the_vehicle
+    => nrel_main_idtf: [by_scrap_cost_of_the_vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость транспортного средства скраповая] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт транспартнага сродку скрапавы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_scrap_cost_of_the_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_payers_of_motor_vehicle_purchase_tax;
+    => nrel_associative_connection: by_reasonable_availability_of_car_service_organization;
+    => nrel_associative_connection: by_recycling_cost_of_vehicle;
+    => nrel_associative_connection: by_utilization_cost;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_disposal;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24255?langname=ru];
+    => nrel_etalon_online_idx: [24255];;

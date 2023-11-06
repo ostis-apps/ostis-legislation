@@ -1,0 +1,35 @@
+
+by_founding_document_of_the_economic_company
+    => nrel_main_idtf: [founding document of the economic company] (* <- lang_en;; *);
+    => nrel_main_idtf: [учредительный документ хозяйственного общества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [устаноўчы дакумент гаспадарчага таварыства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_founding_document_of_the_economic_company_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_documents_of_the_governing_body_of_the_economic_company;
+    => nrel_associative_connection: by_executive_body_of_economic_company;
+    => nrel_associative_connection: by_authorized_meeting_of_the_board_of_economic_company_directors;
+    => nrel_associative_connection: by_authorized_general_meeting_of_participants_of_economic_company;
+    => nrel_associative_connection: by_articles_of_jointstock_company;
+
+    => nrel_legal_act: by_act_v19202020;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25869?langname=ru];
+    => nrel_etalon_online_idx: [25869];;

@@ -1,0 +1,36 @@
+
+by_military_train
+    => nrel_main_idtf: [military train] (* <- lang_en;; *);
+    => nrel_main_idtf: [воинский поезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воінскі цягнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_train_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_military_railway_carriages;
+    => nrel_associative_connection: by_military_cargo;
+    => nrel_associative_connection: by_troop_train;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_passenger_train;
+
+    => nrel_legal_act: by_act_c20001200;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13210?langname=ru];
+    => nrel_etalon_online_idx: [13210];;

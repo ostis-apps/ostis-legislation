@@ -1,0 +1,53 @@
+
+by_military_railway_carriages
+    => nrel_main_idtf: [military railway carriages] (* <- lang_en;; *);
+    => nrel_main_idtf: [воинские железнодорожные перевозки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воінскія чыгуначныя перавозкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_railway_carriages_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_railway_carriages_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_team;
+    => nrel_associative_connection: by_military_unit;
+    => nrel_associative_connection: by_military_passengers;
+    => nrel_associative_connection: by_military_carriage_documents;
+    => nrel_associative_connection: by_military_train;
+    => nrel_associative_connection: by_military_cargo;
+    => nrel_associative_connection: by_military_goods;
+
+    => nrel_legal_act: by_act_c20001200;
+    => nrel_legal_act: by_act_n21200181;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5457?langname=ru];
+    => nrel_etalon_online_idx: [5457];;

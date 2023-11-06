@@ -1,0 +1,35 @@
+
+by_by_authorized_meteorological_authority
+    => nrel_main_idtf: [by_authorized_meteorological_authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [полномочный метеорологический орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўнамоцны метэаралагічны орган] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_authorized_meteorological_authority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_navigation;
+    => nrel_associative_connection: by_hydrometeorological_information;
+    => nrel_associative_connection: by_meteorological_flights_conditions;
+    => nrel_associative_connection: by_provision_of_hydrometeorological_information_to_aviation;
+    => nrel_associative_connection: by_provision_of_hydrometeorological_information_of_civil_aviation_in_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_h10600093;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38862?langname=ru];
+    => nrel_etalon_online_idx: [38862];;

@@ -1,0 +1,37 @@
+
+by_diamond_color
+    => nrel_main_idtf: [diamond color] (* <- lang_en;; *);
+    => nrel_main_idtf: [цвет бриллианта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [колер брыльянта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diamond_color_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diamond_quality_certificate;
+    => nrel_associative_connection: by_certified_brilliant;
+    => nrel_associative_connection: by_diamond;
+    => nrel_associative_connection: by_crown_top;
+    => nrel_associative_connection: by_pavilion_bottom;
+    => nrel_associative_connection: by_brilliant_cut_form;
+    => nrel_associative_connection: by_brilliant_purity;
+
+    => nrel_legal_act: by_act_b21934837;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32193?langname=ru];
+    => nrel_etalon_online_idx: [32193];;

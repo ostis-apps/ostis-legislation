@@ -1,0 +1,31 @@
+
+by_foreign_credit_organization
+    => nrel_main_idtf: [foreign credit organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранная кредитная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежная крэдытная арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_credit_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_organisation;
+
+    => nrel_legal_act: by_act_b21326796;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15341?langname=ru];
+    => nrel_etalon_online_idx: [15341];;

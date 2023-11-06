@@ -1,0 +1,35 @@
+
+by_compulsory_metrological_requirements
+    => nrel_main_idtf: [compulsory metrological requirements] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательные метрологические требования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязковыя метралагічныя патрабаванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compulsory_metrological_requirements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_technique_method_of_measurements;
+    => nrel_associative_connection: by_metrological_audit;
+    => nrel_associative_connection: by_metrological_control;
+    => nrel_associative_connection: by_national_metrology_institute;
+    => nrel_associative_connection: by_the_content_of_the_standard_of_the_unit_of_magnitude;
+
+    => nrel_legal_act: by_act_v19503848;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32082?langname=ru];
+    => nrel_etalon_online_idx: [32082];;

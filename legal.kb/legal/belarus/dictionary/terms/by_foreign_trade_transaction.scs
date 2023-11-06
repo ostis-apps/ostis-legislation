@@ -1,0 +1,39 @@
+
+by_foreign_trade_transaction
+    => nrel_main_idtf: [foreign trade transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешнеторговая сделка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешнегандлёвая здзелка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_trade_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analyzed_party_of_the_transaction;
+    => nrel_associative_connection: by_foreign_trade_activity;
+    => nrel_associative_connection: by_foreign_trade_operation;
+    => nrel_associative_connection: by_foreign_trade_contract;
+    => nrel_associative_connection: by_foreign_economic_contract;
+    => nrel_associative_connection: by_transaction_passport;
+    => nrel_associative_connection: by_sale_of_goods_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_registered_transaction;
+    => nrel_associative_connection: by_transaction;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1197?langname=ru];
+    => nrel_etalon_online_idx: [1197];;

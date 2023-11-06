@@ -1,0 +1,85 @@
+
+by_waste_collection
+    => nrel_main_idtf: [waste collection] (* <- lang_en;; *);
+    => nrel_main_idtf: [сбор отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [збор адходаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_collection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_collection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_collection_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_costs_associated_with_determining_the_mass_of_waste;
+    => nrel_associative_connection: by_waste_disposal;
+    => nrel_associative_connection: by_use_of_waste;
+    => nrel_associative_connection: by_communal_waste;
+    => nrel_associative_connection: by_temporary_waste_storage_places;
+    => nrel_associative_connection: by_waste_neutralization;
+    => nrel_associative_connection: by_handling_of_communal_waste;
+    => nrel_associative_connection: by_waste_handling;
+    => nrel_associative_connection: by_object_of_recycling_collection_taxation;
+    => nrel_associative_connection: by_waste_storage_objects;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_waste_carriage;
+    => nrel_associative_connection: by_planned_and_regular_sanitary_cleaning;
+    => nrel_associative_connection: by_preparation_of_waste_for_use;
+    => nrel_associative_connection: by_separate_waste_collection;
+    => nrel_associative_connection: by_placement_of_waste;
+    => nrel_associative_connection: by_authorized_waste_storage;
+    => nrel_associative_connection: by_authorized_waste_storage_places;
+    => nrel_associative_connection: by_waste_storage;
+    => nrel_associative_connection: by_collected_municipal_waste;
+    => nrel_associative_connection: by_waste_owner;
+    => nrel_associative_connection: by_waste_accounting;
+    => nrel_associative_connection: by_waste_storage;
+
+    => nrel_legal_act: by_act_h10700271;
+    => nrel_legal_act: by_act_c21700567;
+    => nrel_legal_act: by_act_f21400091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22853?langname=ru];
+    => nrel_etalon_online_idx: [22853];;

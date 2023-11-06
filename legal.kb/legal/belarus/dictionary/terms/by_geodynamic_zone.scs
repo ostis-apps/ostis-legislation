@@ -1,0 +1,33 @@
+
+by_geodynamic_zone
+    => nrel_main_idtf: [geodynamic zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [геодинамическая зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геадынамічная зона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geodynamic_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_fault;
+    => nrel_associative_connection: by_exposure_f;
+    => nrel_associative_connection: by_neogeodynamic_processes;
+
+    => nrel_legal_act: by_act_w22238779p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41480?langname=ru];
+    => nrel_etalon_online_idx: [41480];;

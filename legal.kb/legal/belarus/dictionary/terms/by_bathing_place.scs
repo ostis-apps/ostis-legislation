@@ -1,0 +1,35 @@
+
+by_bathing_place
+    => nrel_main_idtf: [bathing place] (* <- lang_en;; *);
+    => nrel_main_idtf: [место купания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца купання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bathing_place_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basin;
+    => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_bathing;
+    => nrel_associative_connection: by_swimming;
+    => nrel_associative_connection: by_rescue_station;
+
+    => nrel_legal_act: by_act_c22300543;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17262?langname=ru];
+    => nrel_etalon_online_idx: [17262];;

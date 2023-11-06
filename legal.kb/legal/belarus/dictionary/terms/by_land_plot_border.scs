@@ -1,0 +1,50 @@
+
+by_land_plot_border
+    => nrel_main_idtf: [land plot border] (* <- lang_en;; *);
+    => nrel_main_idtf: [граница земельного участка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяжа зямельнага ўчастка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_plot_border_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database_of_land_plots_with_established_boundaries;
+    => nrel_associative_connection: by_land_plot_borders_requiring_normalization;
+    => nrel_associative_connection: by_divisible_land_plot;
+    => nrel_associative_connection: by_additional_land_plot;
+    => nrel_associative_connection: by_occupation_of_the_land_plot;
+    => nrel_associative_connection: by_land_plots_parts_of_a_land_plot_occupied_by_construction_objects_not_finished_within_normative_time_limits;
+    => nrel_associative_connection: by_plot_outline;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_change_of_land_plot_borders;
+    => nrel_associative_connection: by_withdrawal_of_land_plots;
+    => nrel_associative_connection: by_cadastral_number;
+    => nrel_associative_connection: by_red_lines;
+    => nrel_associative_connection: by_unfixed_boundary_of_the_land_plot;
+    => nrel_associative_connection: by_acquisition_of_land;
+    => nrel_associative_connection: by_assignment_of_land_parcel_boundaries_to_the_borders_requiring_normalization;
+    => nrel_associative_connection: by_equivalent_land_plot;
+    => nrel_associative_connection: by_comparison_monitoring_of_borders_of_land_plots;
+    => nrel_associative_connection: by_terms_of_land_plot_rejection;
+    => nrel_associative_connection: by_fixed_border_of_the_land_plot;
+    => nrel_associative_connection: by_formation_of_the_land_plot;
+
+    => nrel_legal_act: by_act_hk0800425;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13835?langname=ru];
+    => nrel_etalon_online_idx: [13835];;

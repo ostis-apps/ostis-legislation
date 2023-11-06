@@ -1,0 +1,35 @@
+
+by_dose_of_medicine
+    => nrel_main_idtf: [dose of medicine] (* <- lang_en;; *);
+    => nrel_main_idtf: [доза лекарственного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доза лекавага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dose_of_medicine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bioavailability;
+    => nrel_associative_connection: by_deterministic_effects;
+    => nrel_associative_connection: by_clearance;
+    => nrel_associative_connection: by_dose_received;
+    => nrel_associative_connection: by_effective_dose;
+
+    => nrel_legal_act: by_act_w22035574p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35389?langname=ru];
+    => nrel_etalon_online_idx: [35389];;

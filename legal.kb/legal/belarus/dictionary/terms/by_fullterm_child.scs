@@ -1,0 +1,38 @@
+
+by_fullterm_child
+    => nrel_main_idtf: [full-term child] (* <- lang_en;; *);
+    => nrel_main_idtf: [доношенный ребенок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даношанае дзіця] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fullterm_child_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antenatal_period;
+    => nrel_associative_connection: by_intrauterine_infection_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_haemorrhagic_disease_of_the_newborn;
+    => nrel_associative_connection: by_gestational_age;
+    => nrel_associative_connection: by_intranatal_period;
+    => nrel_associative_connection: by_stillbirth;
+    => nrel_associative_connection: by_neonatal_period;
+    => nrel_associative_connection: by_postterm_baby;
+
+    => nrel_legal_act: by_act_w22035541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33765?langname=ru];
+    => nrel_etalon_online_idx: [33765];;

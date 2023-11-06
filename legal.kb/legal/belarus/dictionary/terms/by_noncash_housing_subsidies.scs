@@ -1,0 +1,33 @@
+
+by_noncash_housing_subsidies
+    => nrel_main_idtf: [non-cash housing subsidies] (* <- lang_en;; *);
+    => nrel_main_idtf: [безналичные жилищные субсидии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [безнаяўныя жыллёвыя субсідыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_noncash_housing_subsidies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_subsidy_issue_day;
+    => nrel_associative_connection: by_young_family_who_have_two_minor_children_for_the_purpose_of_obtaining_subsidies_to_pay_a_part_of_percents;
+    => nrel_associative_connection: by_family_members_of_the_recipient_of_the_subsidies_to_pay_part_of_the_interest_subsidies;
+
+    => nrel_legal_act: by_act_p31600322;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41469?langname=ru];
+    => nrel_etalon_online_idx: [41469];;

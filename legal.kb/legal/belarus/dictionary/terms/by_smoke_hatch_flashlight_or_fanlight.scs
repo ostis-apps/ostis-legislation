@@ -1,0 +1,33 @@
+
+by_smoke_hatch_flashlight_or_fanlight
+    => nrel_main_idtf: [smoke hatch (flashlight or fanlight)] (* <- lang_en;; *);
+    => nrel_main_idtf: [дымовой люк (фонарь или фрамуга)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дымавы люк (ліхтар або фрамуга)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_smoke_hatch_flashlight_or_fanlight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_exhaust_smoke_ventilation_system;
+    => nrel_associative_connection: by_external_enclosing_structure;
+    => nrel_associative_connection: by_enveloped_structure;
+
+    => nrel_legal_act: by_act_w02035796p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37790?langname=ru];
+    => nrel_etalon_online_idx: [37790];;

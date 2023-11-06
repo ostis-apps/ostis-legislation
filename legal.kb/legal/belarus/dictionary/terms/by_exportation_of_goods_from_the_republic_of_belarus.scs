@@ -1,0 +1,34 @@
+
+by_exportation_of_goods_from_the_republic_of_belarus
+    => nrel_main_idtf: [exportation of goods from the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [вывоз товара из республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вываз тавару з рэспублікі беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exportation_of_goods_from_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_import_of_goods_to_the_republic_of_belarus;
+    => nrel_associative_connection: by_import_export;
+    => nrel_associative_connection: by_exportation_of_goods_from_the_republic_of_belarus;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_c21600486;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10280?langname=ru];
+    => nrel_etalon_online_idx: [10280];;

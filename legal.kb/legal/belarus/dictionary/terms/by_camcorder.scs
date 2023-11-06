@@ -1,0 +1,35 @@
+
+by_camcorder
+    => nrel_main_idtf: [camcorder] (* <- lang_en;; *);
+    => nrel_main_idtf: [видеокамера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [відэакамера] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_camcorder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_treaty_on_the_functioning_of_hardware_complex_of_the_republican_center_for_data_processing;
+    => nrel_associative_connection: by_termination;
+    => nrel_associative_connection: by_last_mile_operator;
+    => nrel_associative_connection: by_owner_of_object_of_installation_location;
+    => nrel_associative_connection: by_monitoring_system_services;
+
+    => nrel_legal_act: by_act_w22238937;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32704?langname=ru];
+    => nrel_etalon_online_idx: [32704];;

@@ -1,0 +1,47 @@
+
+by_court_proceeding
+    => nrel_main_idtf: [court proceeding] (* <- lang_en;; *);
+    => nrel_main_idtf: [судебное разбирательство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судовы разбор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_court_proceeding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_prosecutor;
+    => nrel_associative_connection: by_claimants;
+    => nrel_associative_connection: by_constitutional_court_proceeding;
+    => nrel_associative_connection: by_amicable_agreement;
+    => nrel_associative_connection: by_charge;
+    => nrel_associative_connection: by_challenge;
+    => nrel_associative_connection: by_preparation_of_lawsuit_for_judicial_examination;
+    => nrel_associative_connection: by_presiding;
+    => nrel_associative_connection: by_sentence;
+    => nrel_associative_connection: by_proceedings_in_materials_and_criminal_case;
+    => nrel_associative_connection: by_procedural_period;
+    => nrel_associative_connection: by_court;
+    => nrel_associative_connection: by_judicial_power;
+    => nrel_associative_connection: by_judicial_correspondence;
+    => nrel_associative_connection: by_judicial_decision;
+    => nrel_associative_connection: by_court_costs;
+    => nrel_associative_connection: by_judge;
+
+    => nrel_legal_act: by_act_x21100006;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2017?langname=ru];
+    => nrel_etalon_online_idx: [2017];;

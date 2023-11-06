@@ -1,0 +1,37 @@
+
+by_domain_name_owner
+    => nrel_main_idtf: [domain name owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец доменного имени] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік даменнага імя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_domain_name_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_domain_name_administration;
+    => nrel_associative_connection: by_annulment_of_a_domain_name_registration_record;
+    => nrel_associative_connection: by_domain_name_delegation;
+    => nrel_associative_connection: by_domain_name_domain;
+    => nrel_associative_connection: by_national_domain_zone;
+    => nrel_associative_connection: by_suspension_of_domain_name_administration;
+    => nrel_associative_connection: by_domain_name_registration;
+
+    => nrel_legal_act: by_act_t61001277;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32387?langname=ru];
+    => nrel_etalon_online_idx: [32387];;

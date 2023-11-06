@@ -1,0 +1,85 @@
+
+by_reporting_date
+    => nrel_main_idtf: [reporting date] (* <- lang_en;; *);
+    => nrel_main_idtf: [отчетная дата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаздачная дата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_date_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_date_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_date_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reporting_date_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_normal_operating_cycle;
+    => nrel_associative_connection: by_deviations;
+    => nrel_associative_connection: by_reporting;
+    => nrel_associative_connection: by_reporting_year;
+    => nrel_associative_connection: by_reporting_month_period;
+    => nrel_associative_connection: by_reporting_single_tax_period;
+    => nrel_associative_connection: by_reporting_financial_year;
+
+    => nrel_legal_act: by_act_h11300057;
+    => nrel_legal_act: by_act_w22339296;
+    => nrel_legal_act: by_act_w20309719;
+    => nrel_legal_act: by_act_w21832944;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10514?langname=ru];
+    => nrel_etalon_online_idx: [10514];;

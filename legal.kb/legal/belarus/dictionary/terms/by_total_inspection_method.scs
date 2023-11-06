@@ -1,0 +1,36 @@
+
+by_total_inspection_method
+    => nrel_main_idtf: [total inspection method] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод сплошной проверки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад суцэльнай праверкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_inspection_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_actual_inspection_method;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_audited_entities;
+    => nrel_associative_connection: by_auditors;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_method_method_of_continuous_check;
+
+    => nrel_legal_act: by_act_t21001202;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17312?langname=ru];
+    => nrel_etalon_online_idx: [17312];;

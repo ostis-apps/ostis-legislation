@@ -1,0 +1,39 @@
+
+by_officer_courses
+    => nrel_main_idtf: [officer courses] (* <- lang_en;; *);
+    => nrel_main_idtf: [офицерские курсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афіцэрскія курсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_officer_courses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_departments;
+    => nrel_associative_connection: by_military_educational_institutions;
+    => nrel_associative_connection: by_additional_education_for_adults;
+    => nrel_associative_connection: by_educational_program_of_training_courses_lectures_thematic_seminars_workshops_trainings_officer_courses_and_other_types_of_training_courses;
+    => nrel_associative_connection: by_training_courses;
+    => nrel_associative_connection: by_advanced_training;
+    => nrel_associative_connection: by_institution_of_additional_education_for_adults;
+
+    => nrel_legal_act: by_act_w22238857;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19643?langname=ru];
+    => nrel_etalon_online_idx: [19643];;

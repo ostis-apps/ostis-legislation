@@ -1,0 +1,34 @@
+
+by_by_gripper_hole
+    => nrel_main_idtf: [by_gripper_hole] (* <- lang_en;; *);
+    => nrel_main_idtf: [отверстие для захвата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адтуліна для захопу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_gripper_hole_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_masonry;
+    => nrel_associative_connection: by_unreinforced_masonry;
+    => nrel_associative_connection: by_partition;
+    => nrel_associative_connection: by_partition_of_the_masonry_product;
+
+    => nrel_legal_act: by_act_w221p0018;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38057?langname=ru];
+    => nrel_etalon_online_idx: [38057];;

@@ -1,0 +1,40 @@
+
+by_cities_of_regional_subordination
+    => nrel_main_idtf: [cities of regional subordination] (* <- lang_en;; *);
+    => nrel_main_idtf: [города областного подчинения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарады абласнога падпарадкавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cities_of_regional_subordination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrativeterritorial_unit;
+    => nrel_associative_connection: by_administrativeterritorial_division_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_administrativeterritorial_units;
+    => nrel_associative_connection: by_administrative_center_of_administrativeterritorial_unit;
+    => nrel_associative_connection: by_minsk_city;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_chairperson_of_executive_committee_of_the_basic_level;
+    => nrel_associative_connection: by_chairperson_of_executive_committee_of_regional_and_basic_level_head_of_local_administration;
+    => nrel_associative_connection: by_system_of_resettlement;
+    => nrel_associative_connection: by_territory_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_h19800154;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8724?langname=ru];
+    => nrel_etalon_online_idx: [8724];;

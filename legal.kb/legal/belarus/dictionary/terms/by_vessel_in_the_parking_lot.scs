@@ -1,0 +1,33 @@
+
+by_vessel_in_the_parking_lot
+    => nrel_main_idtf: [vessel in the parking lot] (* <- lang_en;; *);
+    => nrel_main_idtf: [судно на стоянке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судна на стаянцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vessel_in_the_parking_lot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_floating_establishment;
+    => nrel_associative_connection: by_floating_equipment;
+    => nrel_associative_connection: by_composition;
+
+    => nrel_legal_act: by_act_w20514238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24492?langname=ru];
+    => nrel_etalon_online_idx: [24492];;

@@ -1,0 +1,34 @@
+
+by_accident_situation_in_the_territory_of_the_nuclear_power_station_site
+    => nrel_main_idtf: [accident situation in the territory of the nuclear power station site] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийная ситуация на территории площадки атомной электростанции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйная сітуацыя на тэрыторыі пляцоўкі атамнай электрастанцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accident_situation_in_the_territory_of_the_nuclear_power_station_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accident_at_npp_accident;
+    => nrel_associative_connection: by_state_emergency_preparedness;
+    => nrel_associative_connection: by_state_emergency_situation;
+    => nrel_associative_connection: by_operating_organization;
+
+    => nrel_legal_act: by_act_w21833642p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30629?langname=ru];
+    => nrel_etalon_online_idx: [30629];;

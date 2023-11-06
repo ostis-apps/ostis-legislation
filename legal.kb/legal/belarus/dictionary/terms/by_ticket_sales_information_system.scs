@@ -1,0 +1,50 @@
+
+by_ticket_sales_information_system
+    => nrel_main_idtf: [ticket sales information system] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационная система продажи билетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйная сістэма продажу білетаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_sales_information_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ticket_sales_information_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ticket;
+    => nrel_associative_connection: by_punch;
+    => nrel_associative_connection: by_conductor;
+    => nrel_associative_connection: by_metro_territory;
+
+    => nrel_legal_act: by_act_c21401088;
+    => nrel_legal_act: by_act_c20800972;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35522?langname=ru];
+    => nrel_etalon_online_idx: [35522];;

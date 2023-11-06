@@ -1,0 +1,35 @@
+
+by_threat_to_hotel_security
+    => nrel_main_idtf: [threat to hotel security] (* <- lang_en;; *);
+    => nrel_main_idtf: [угроза безопасности гостиницы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагроза бяспекі гасцініцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_threat_to_hotel_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_act_of_terrorism;
+    => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_hotel;
+    => nrel_associative_connection: by_terrorism;
+    => nrel_associative_connection: by_threat_of_terrorist_act;
+
+    => nrel_legal_act: by_act_c21800168;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27946?langname=ru];
+    => nrel_etalon_online_idx: [27946];;

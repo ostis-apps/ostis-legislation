@@ -1,0 +1,50 @@
+
+by_mobile_automobile_gas_fueler
+    => nrel_main_idtf: [mobile automobile gas fueler] (* <- lang_en;; *);
+    => nrel_main_idtf: [передвижной автомобильный газозаправщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перасоўны аўтамабільны газазапраўшчык] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_automobile_gas_fueler_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_automobile_gas_fueler_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_filling_station;
+    => nrel_associative_connection: by_gas_turbine_power_plant;
+    => nrel_associative_connection: by_filling_island;
+    => nrel_associative_connection: by_mobile_ags;
+
+    => nrel_legal_act: by_act_w22136505p;
+    => nrel_legal_act: by_act_w02035806p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35194?langname=ru];
+    => nrel_etalon_online_idx: [35194];;

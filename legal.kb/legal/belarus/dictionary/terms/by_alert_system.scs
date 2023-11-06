@@ -1,0 +1,71 @@
+
+by_alert_system
+    => nrel_main_idtf: [alert system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система оповещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма апавяшчэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_alert_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_alert_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_alert_system_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_alert;
+    => nrel_associative_connection: by_information_in_the_area_of_protection_of_population_and_territories_from_emergency_situations_of_natural_and_technogenic_character;
+    => nrel_associative_connection: by_information_on_emergency_situations;
+    => nrel_associative_connection: by_notification_of_emergency_situations;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_means_of_warning_and_information;
+    => nrel_associative_connection: by_subjects_of_the_warning_system;
+    => nrel_associative_connection: by_technical_support_of_communication_and_notification;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_legal_act: by_act_c21401118;
+    => nrel_legal_act: by_act_n21900090;
+    => nrel_legal_act: by_act_f92100341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23207?langname=ru];
+    => nrel_etalon_online_idx: [23207];;

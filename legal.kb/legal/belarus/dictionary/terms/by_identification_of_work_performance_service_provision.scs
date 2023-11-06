@@ -1,0 +1,36 @@
+
+by_identification_of_work_performance_service_provision
+    => nrel_main_idtf: [identification of work performance, service provision] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификация выполнения работ, оказания услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыя выканання работ, аказання паслуг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_of_work_performance_service_provision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_identical_works_services;
+    => nrel_associative_connection: by_executor_of_works_services;
+    => nrel_associative_connection: by_classification_of_individual_consumption_by_purpose;
+    => nrel_associative_connection: by_criteria_for_classification_of_the_executor_of_works_services;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_services;
+
+    => nrel_legal_act: by_act_w21732456;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27250?langname=ru];
+    => nrel_etalon_online_idx: [27250];;

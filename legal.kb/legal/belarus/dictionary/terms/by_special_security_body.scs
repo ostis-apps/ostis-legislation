@@ -1,0 +1,35 @@
+
+by_special_security_body
+    => nrel_main_idtf: [special security body] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный орган охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльны орган аховы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_security_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_guard;
+    => nrel_associative_connection: by_ministry_of_internal_affairs;
+    => nrel_associative_connection: by_ministry_of_internal_affairs_of_the_republic_of_belarus_mia;
+    => nrel_associative_connection: by_state_guard_body;
+    => nrel_associative_connection: by_security_guard_activity;
+
+    => nrel_legal_act: by_act_h10600175;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23843?langname=ru];
+    => nrel_etalon_online_idx: [23843];;

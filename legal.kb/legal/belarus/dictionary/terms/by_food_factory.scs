@@ -1,0 +1,41 @@
+
+by_food_factory
+    => nrel_main_idtf: [food factory] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбинат питания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбінат харчавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_food_factory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_individual_food;
+    => nrel_associative_connection: by_cafe;
+    => nrel_associative_connection: by_culinary_integrated_plant;
+    => nrel_associative_connection: by_culinary_shop_department;
+    => nrel_associative_connection: by_cooking_shop;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_mobile_canteen;
+    => nrel_associative_connection: by_production_buildings;
+    => nrel_associative_connection: by_restaurant;
+    => nrel_associative_connection: by_fast_food_restaurant_cafe;
+    => nrel_associative_connection: by_canteen;
+
+    => nrel_legal_act: by_act_w60105912;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15997?langname=ru];
+    => nrel_etalon_online_idx: [15997];;

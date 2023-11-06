@@ -1,0 +1,33 @@
+
+by_central_election_commission_of_the_republic_of_belarus_central_commission
+    => nrel_main_idtf: [central election commission of the republic of belarus (central commission)] (* <- lang_en;; *);
+    => nrel_main_idtf: [центральная избирательная комиссия республики беларусь (центральная комиссия)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтральная выбарчая камісія рэспублікі беларусь (цэнтральная камісія)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_central_election_commission_of_the_republic_of_belarus_central_commission_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_electoral_campaign;
+    => nrel_associative_connection: by_electoral_commissions;
+    => nrel_associative_connection: by_informing_voters_referendum_participants;
+
+    => nrel_legal_act: by_act_hk0000370;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42350?langname=ru];
+    => nrel_etalon_online_idx: [42350];;

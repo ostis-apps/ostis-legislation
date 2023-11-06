@@ -1,0 +1,36 @@
+
+by_special_residential_premise
+    => nrel_main_idtf: [special residential premise] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальное жилое помещение ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльнае жылое памяшканне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_residential_premise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_builtin_attached_nonresidential_premises_of_residential_house;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_seperate_housing_premise;
+    => nrel_associative_connection: by_nonoccupancy_of_living_quarters;
+    => nrel_associative_connection: by_nonresidential_premise;
+    => nrel_associative_connection: by_normalized_residential_space;
+
+    => nrel_legal_act: by_act_hk1200428;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32342?langname=ru];
+    => nrel_etalon_online_idx: [32342];;

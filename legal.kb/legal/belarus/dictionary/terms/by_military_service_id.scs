@@ -1,0 +1,50 @@
+
+by_military_service_id
+    => nrel_main_idtf: [military service id] (* <- lang_en;; *);
+    => nrel_main_idtf: [военный билет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенны білет] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_service_id_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_service_id_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_person_liable_for_military_service;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_registration_and_enlistment_system;
+    => nrel_associative_connection: by_document;
+
+    => nrel_legal_act: by_act_w60512319;
+    => nrel_legal_act: by_act_w60310383;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5415?langname=ru];
+    => nrel_etalon_online_idx: [5415];;

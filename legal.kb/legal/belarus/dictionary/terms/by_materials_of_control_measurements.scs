@@ -1,0 +1,35 @@
+
+by_materials_of_control_measurements
+    => nrel_main_idtf: [materials of control measurements] (* <- lang_en;; *);
+    => nrel_main_idtf: [материалы контрольных обмеров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэрыялы кантрольных абмераў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_materials_of_control_measurements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ordering_bank;
+    => nrel_associative_connection: by_control_measurements_of_volumes_of_construction_and_assembly_works_and_costs_incurred_during_the_construction_reconstruction_of_objects;
+    => nrel_associative_connection: by_control_measurement_of_volumes_of_construction_and_assembly_works_and_costs_incurred_during_the_construction_objects_including_reconstruction_repair_restoration_improvement;
+    => nrel_associative_connection: by_participants_of_the_control_measurement;
+    => nrel_associative_connection: by_participants_of_control_measurements;
+
+    => nrel_legal_act: by_act_c21300469;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16937?langname=ru];
+    => nrel_etalon_online_idx: [16937];;

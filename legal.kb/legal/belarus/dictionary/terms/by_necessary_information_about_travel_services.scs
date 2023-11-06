@@ -1,0 +1,42 @@
+
+by_necessary_information_about_travel_services
+    => nrel_main_idtf: [necessary information about travel services] (* <- lang_en;; *);
+    => nrel_main_idtf: [необходимая информация о туристических услугах] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неабходная інфармацыя аб турыстычных паслугах] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_necessary_information_about_travel_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hospitality;
+    => nrel_associative_connection: by_additional_travel_services;
+    => nrel_associative_connection: by_reliable_information_about_travel_services;
+    => nrel_associative_connection: by_import_of_travel_services;
+    => nrel_associative_connection: by_executor_of_excursion_services;
+    => nrel_associative_connection: by_third_parties_providing_tourism_services;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_travel_services;
+    => nrel_associative_connection: by_touristic_travel;
+    => nrel_associative_connection: by_services_related_to_the_organization_of_tourist_travel;
+    => nrel_associative_connection: by_participants_of_tourist_activities;
+    => nrel_associative_connection: by_export_of_tourist_services;
+
+    => nrel_legal_act: by_act_w22136634p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18067?langname=ru];
+    => nrel_etalon_online_idx: [18067];;

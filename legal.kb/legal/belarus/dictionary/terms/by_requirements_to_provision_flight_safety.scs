@@ -1,0 +1,37 @@
+
+by_requirements_to_provision_flight_safety
+    => nrel_main_idtf: [requirements to provision flight safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [требования к обеспечению безопасности полетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патрабаванні да забеспячэння бяспекі палётаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_requirements_to_provision_flight_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_achieved_safety;
+    => nrel_associative_connection: by_set_level_of_security;
+    => nrel_associative_connection: by_classification_of_risks;
+    => nrel_associative_connection: by_flight_safety_management;
+    => nrel_associative_connection: by_safety_indicator;
+    => nrel_associative_connection: by_security_situation;
+    => nrel_associative_connection: by_participants_in_the_process_of_ensuring_flight_safety;
+
+    => nrel_legal_act: by_act_c21900563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31554?langname=ru];
+    => nrel_etalon_online_idx: [31554];;

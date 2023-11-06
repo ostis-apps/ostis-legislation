@@ -1,0 +1,67 @@
+
+by_lowincome_citizens_families
+    => nrel_main_idtf: [low-income citizens (families)] (* <- lang_en;; *);
+    => nrel_main_idtf: [малообеспеченные граждане (семьи)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малазабяспечаныя грамадзяне (сем'і)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lowincome_citizens_families_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lowincome_citizens_families_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lowincome_citizens_families_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lowincome_population_household;
+    => nrel_associative_connection: by_lowincome_citizens;
+    => nrel_associative_connection: by_lowincome_families;
+    => nrel_associative_connection: by_lowincome_employable_citizens_who_have_the_right_to_receive_preferential_credits_subsidies_and_other_forms_of_state_support_for_construction_reconstruction_or_purchase_of_residential_premise;
+    => nrel_associative_connection: by_families_with_many_children;
+
+    => nrel_legal_act: by_act_h19900239;
+    => nrel_legal_act: by_act_w21934603p;
+    => nrel_legal_act: by_act_w21327424;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16859?langname=ru];
+    => nrel_etalon_online_idx: [16859];;

@@ -1,0 +1,52 @@
+
+by_story
+    => nrel_main_idtf: [story] (* <- lang_en;; *);
+    => nrel_main_idtf: [ярус] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ярус] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_story_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_story_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stand;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_staging_holdds;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w21631584;
+    => nrel_legal_act: by_act_w20613774;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12225?langname=ru];
+    => nrel_etalon_online_idx: [12225];;

@@ -1,0 +1,34 @@
+
+by_basic_natural_medical_factors
+    => nrel_main_idtf: [basic natural medical factors] (* <- lang_en;; *);
+    => nrel_main_idtf: [основные природные лечебные факторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўныя прыродныя лячэбныя фактары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_natural_medical_factors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_therapeutic_food;
+    => nrel_associative_connection: by_mineral_water;
+    => nrel_associative_connection: by_underground_speleotherapy_department;
+    => nrel_associative_connection: by_natural_healing_resources;
+
+    => nrel_legal_act: by_act_c20601478;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19395?langname=ru];
+    => nrel_etalon_online_idx: [19395];;

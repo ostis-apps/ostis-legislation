@@ -1,0 +1,43 @@
+
+by_populated_area_settlement
+    => nrel_main_idtf: [populated area (settlement)] (* <- lang_en;; *);
+    => nrel_main_idtf: [населенный пункт (поселение)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [населены пункт (пасяленне)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_populated_area_settlement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_car_parking_parking;
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_rural_settlement_with_improved_infrastructure;
+    => nrel_associative_connection: by_safety_of_the_living_environment;
+    => nrel_associative_connection: by_urban_planning_value_of_the_territory;
+    => nrel_associative_connection: by_vital_activity;
+    => nrel_associative_connection: by_integrated_urban_planning_reconstruction;
+    => nrel_associative_connection: by_large_populated_area;
+    => nrel_associative_connection: by_modular_development;
+    => nrel_associative_connection: by_population;
+    => nrel_associative_connection: by_planning_structure_of_populated_area;
+    => nrel_associative_connection: by_planning_framework_of_the_settlement;
+    => nrel_associative_connection: by_territory;
+
+    => nrel_legal_act: by_act_w01833598p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39009?langname=ru];
+    => nrel_etalon_online_idx: [39009];;

@@ -1,0 +1,35 @@
+
+by_conditional_pressure
+    => nrel_main_idtf: [conditional pressure] (* <- lang_en;; *);
+    => nrel_main_idtf: [условное давление ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умоўны ціск] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conditional_pressure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_pressure_external_pressure;
+    => nrel_associative_connection: by_isostatic_presses;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_working_pressure;
+
+    => nrel_legal_act: by_act_w22136816p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25601?langname=ru];
+    => nrel_etalon_online_idx: [25601];;

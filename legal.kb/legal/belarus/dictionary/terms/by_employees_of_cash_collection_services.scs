@@ -1,0 +1,53 @@
+
+by_employees_of_cash_collection_services
+    => nrel_main_idtf: [employees of cash collection services] (* <- lang_en;; *);
+    => nrel_main_idtf: [работники служб инкассации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работнікі службаў інкасацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_employees_of_cash_collection_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_employees_of_cash_collection_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_heraldic_sign__emblem_of_the_collection_service_of_the_national_bank_banks_and_nonbank_creditfinancial_organizations;
+    => nrel_associative_connection: by_collection_of_cash_monetary_means_precious_metals_and_precious_stones_and_other_values;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_employees_of_the_collection_service;
+    => nrel_associative_connection: by_collective_pack;
+    => nrel_associative_connection: by_collection_service;
+    => nrel_associative_connection: by_transportation_service;
+
+    => nrel_legal_act: by_act_b21123270;
+    => nrel_legal_act: by_act_b21123270;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21908?langname=ru];
+    => nrel_etalon_online_idx: [21908];;

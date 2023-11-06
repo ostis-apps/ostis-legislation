@@ -1,0 +1,39 @@
+
+by_consumer_of_thermal_energy
+    => nrel_main_idtf: [consumer of thermal energy] (* <- lang_en;; *);
+    => nrel_main_idtf: [потребитель тепловой энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спажывец цеплавой энергіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consumer_of_thermal_energy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inhousing_heat_consumption_systems;
+    => nrel_associative_connection: by_houseetalon;
+    => nrel_associative_connection: by_autumnwinter_period;
+    => nrel_associative_connection: by_released_thermal_energy;
+    => nrel_associative_connection: by_heat_consumption_system;
+    => nrel_associative_connection: by_heat_network;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_heat_consumption;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_legal_act: by_act_c22000286;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33196?langname=ru];
+    => nrel_etalon_online_idx: [33196];;

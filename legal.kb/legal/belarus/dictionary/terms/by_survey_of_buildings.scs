@@ -1,0 +1,36 @@
+
+by_survey_of_buildings
+    => nrel_main_idtf: [survey of buildings] (* <- lang_en;; *);
+    => nrel_main_idtf: [обследование зданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абследаванне будынкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_survey_of_buildings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_buildings;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_survey;
+    => nrel_associative_connection: by_object_survey;
+    => nrel_associative_connection: by_specialized_organization_for_inspection_of_buildings;
+    => nrel_associative_connection: by_technical_state;
+
+    => nrel_legal_act: by_act_w21224803;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18548?langname=ru];
+    => nrel_etalon_online_idx: [18548];;

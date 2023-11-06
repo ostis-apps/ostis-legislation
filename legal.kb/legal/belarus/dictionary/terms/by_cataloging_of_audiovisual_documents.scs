@@ -1,0 +1,41 @@
+
+by_cataloging_of_audiovisual_documents
+    => nrel_main_idtf: [cataloging of audiovisual documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [каталогизация аудиовизуальных документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каталагізацыя аўдыявізуальных дакументаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cataloging_of_audiovisual_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audiovisual_information;
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_named_catalogue_for_audiovisual_documents;
+    => nrel_associative_connection: by_national_cataloguing_system;
+    => nrel_associative_connection: by_national_cataloguing_body;
+    => nrel_associative_connection: by_national_cataloguing_center;
+    => nrel_associative_connection: by_maintenance_of_audiovisual_documents_safe;
+    => nrel_associative_connection: by_systematic_catalogues_for_audiovisual_documents;
+    => nrel_associative_connection: by_thematic_selection_of_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by_thematic_list_of_audiovisual_documents_in_the_form_according_to_appendix_83;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27852?langname=ru];
+    => nrel_etalon_online_idx: [27852];;

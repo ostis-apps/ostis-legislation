@@ -1,0 +1,22 @@
+
+by_damage_to_the_goods
+    => nrel_main_idtf: [damage to the goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [порча товара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псаванне тавару] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_quality_of_goods_work_services;
+    => nrel_associative_connection: by_concealed_defects_of_goods;
+    => nrel_associative_connection: by_good_work_service;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_loss_of_goods;
+    => nrel_associative_connection: by_loss_of_goods;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20699?langname=ru];
+    => nrel_etalon_online_idx: [20699];;

@@ -1,0 +1,51 @@
+
+by_hazard_class
+    => nrel_main_idtf: [hazard class] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс опасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас небяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazard_class_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazard_class_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_qualitative_human_safety_indicators;
+    => nrel_associative_connection: by_hazard_class_of_a_substance;
+    => nrel_associative_connection: by_hazard_class_of_a_chemical_substance;
+    => nrel_associative_connection: by_forest_fire_hazard_class_according_to_weather_conditions;
+    => nrel_associative_connection: by_approximate_permissible_concentrations_of_chemical_substance_in_soil;
+
+    => nrel_legal_act: by_act_c22100037;
+    => nrel_legal_act: by_act_n21500095;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15886?langname=ru];
+    => nrel_etalon_online_idx: [15886];;

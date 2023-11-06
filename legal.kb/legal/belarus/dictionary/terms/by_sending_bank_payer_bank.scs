@@ -1,0 +1,40 @@
+
+by_sending_bank_payer_bank
+    => nrel_main_idtf: [sending bank (payer bank)] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-отправитель (банк плательщика)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-адпраўшчык (банк плацельшчыка)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sending_bank_payer_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_recoverer_bank;
+    => nrel_associative_connection: by_payers_bank_payers_agent;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_intrastate_bank_transfer;
+    => nrel_associative_connection: by_foreign_banks;
+    => nrel_associative_connection: by_foreign_bank;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_bank_transfer_participant;
+
+    => nrel_legal_act: by_act_b20105770;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41227?langname=ru];
+    => nrel_etalon_online_idx: [41227];;

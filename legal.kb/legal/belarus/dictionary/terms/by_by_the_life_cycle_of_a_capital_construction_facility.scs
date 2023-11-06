@@ -1,0 +1,36 @@
+
+by_by_the_life_cycle_of_a_capital_construction_facility
+    => nrel_main_idtf: [by_the_life_cycle_of_a_capital_construction_facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [жизненный цикл объекта капитального строительства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыццёвы цыкл аб'екта капітальнага будаўніцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_the_life_cycle_of_a_capital_construction_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_the_life_cycle_of_a_construction_facility;
+    => nrel_associative_connection: by_investment_stage;
+    => nrel_associative_connection: by_liquidation_stage;
+    => nrel_associative_connection: by_capital_construction_facility;
+    => nrel_associative_connection: by_object_of_unfinished_capital_construction;
+    => nrel_associative_connection: by_preinvestment_stage;
+
+    => nrel_legal_act: by_act_c22300394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42700?langname=ru];
+    => nrel_etalon_online_idx: [42700];;

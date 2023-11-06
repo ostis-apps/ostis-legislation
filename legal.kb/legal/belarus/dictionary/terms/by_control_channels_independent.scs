@@ -1,0 +1,20 @@
+
+by_control_channels_independent
+    => nrel_main_idtf: [control channels independent] (* <- lang_en;; *);
+    => nrel_main_idtf: [каналы контроля независимые] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каналы кантролю незалежныя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_control_channel;
+    => nrel_associative_connection: by_subcritical_stand;
+    => nrel_associative_connection: by_stand_subcritical;
+    => nrel_associative_connection: by_nuclear_security;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38635?langname=ru];
+    => nrel_etalon_online_idx: [38635];;

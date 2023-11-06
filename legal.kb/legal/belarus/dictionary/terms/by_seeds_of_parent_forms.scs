@@ -1,0 +1,33 @@
+
+by_seeds_of_parent_forms
+    => nrel_main_idtf: [seeds of parent forms] (* <- lang_en;; *);
+    => nrel_main_idtf: [семена родительских форм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [насенне бацькоўскіх форм] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_seeds_of_parent_forms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hybrid_seeds_first_generation_hybrid_seeds;
+    => nrel_associative_connection: by_plant_seeds;
+    => nrel_associative_connection: by_shelf_life_of_seeds;
+
+    => nrel_legal_act: by_act_w22137005;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39069?langname=ru];
+    => nrel_etalon_online_idx: [39069];;

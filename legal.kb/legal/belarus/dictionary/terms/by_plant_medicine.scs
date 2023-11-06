@@ -1,0 +1,82 @@
+
+by_plant_medicine
+    => nrel_main_idtf: [plant medicine] (* <- lang_en;; *);
+    => nrel_main_idtf: [лекарственный растительный препарат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лекавы раслінны прэпарат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_medicine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_medicine_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_medicine_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_plant_medicine_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration_of_medicine;
+    => nrel_associative_connection: by_pharmaceutical_plantbased_raw_material;
+    => nrel_associative_connection: by_medicines;
+    => nrel_associative_connection: by_medicine;
+
+    => nrel_legal_act: by_act_w22036034;
+    => nrel_legal_act: by_act_w62035404a;
+    => nrel_legal_act: by_act_f91600333;
+    => nrel_legal_act: by_act_f01800131;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16554?langname=ru];
+    => nrel_etalon_online_idx: [16554];;

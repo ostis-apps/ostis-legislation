@@ -1,0 +1,23 @@
+
+by_rate_strength
+    => nrel_main_idtf: [rate strength] (* <- lang_en;; *);
+    => nrel_main_idtf: [норма численности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [норма колькасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_method_of_labor_normalization;
+    => nrel_associative_connection: by_erroneous_norms;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_working;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_list_number_of_employees_average_for_the_period;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18263?langname=ru];
+    => nrel_etalon_online_idx: [18263];;

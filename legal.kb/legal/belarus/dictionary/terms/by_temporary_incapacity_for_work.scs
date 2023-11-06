@@ -1,0 +1,55 @@
+
+by_temporary_incapacity_for_work
+    => nrel_main_idtf: [temporary incapacity for work] (* <- lang_en;; *);
+    => nrel_main_idtf: [временная нетрудоспособность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [часовая непрацаздольнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_incapacity_for_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_incapacity_for_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_issuance_of_a_certificate_of_incapacity_for_work_certificate;
+    => nrel_associative_connection: by_document_certificating_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_closure_of_the_sheet_of_inability_for_work_certificate;
+    => nrel_associative_connection: by_persons_incapable_of_work;
+    => nrel_associative_connection: by_period_of_temporary_disability;
+    => nrel_associative_connection: by_extension_of_the_certificate_of_incapacity_for_work_certificate;
+    => nrel_associative_connection: by_term_of_temporary_disability;
+    => nrel_associative_connection: by_temporal_disability_expertise;
+
+    => nrel_legal_act: by_act_w21529676;
+    => nrel_legal_act: by_act_w21529676;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13257?langname=ru];
+    => nrel_etalon_online_idx: [13257];;

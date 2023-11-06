@@ -1,0 +1,44 @@
+
+by_banks_participants_of_the_interbank_settlements
+    => nrel_main_idtf: [banks participants of the interbank settlements] (* <- lang_en;; *);
+    => nrel_main_idtf: [банки-участники межбанковских расчетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкі-удзельнікі міжбанкаўскіх разлікаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_banks_participants_of_the_interbank_settlements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_interbank_calculation_system;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_bank_group;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_internal_bank_transfer;
+    => nrel_associative_connection: by_state_bank;
+    => nrel_associative_connection: by_correspondent_relations;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_interbank_transfer;
+    => nrel_associative_connection: by_national_bank;
+    => nrel_associative_connection: by_national_bank_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_settlement_bank_for_related_systems;
+    => nrel_associative_connection: by_participants_of_the_interbank_identification_system;
+
+    => nrel_legal_act: by_act_b21124398;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12657?langname=ru];
+    => nrel_etalon_online_idx: [12657];;

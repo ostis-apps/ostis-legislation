@@ -1,0 +1,58 @@
+
+by_peddling
+    => nrel_main_idtf: [peddling] (* <- lang_en;; *);
+    => nrel_main_idtf: [разносная торговля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разносны гандаль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peddling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peddling_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_remote_trade;
+    => nrel_associative_connection: by_commission_trade;
+    => nrel_associative_connection: by_stall;
+    => nrel_associative_connection: by_wholesale_trade;
+    => nrel_associative_connection: by_itinerant_trade;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_trade_subject;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_auction_trade;
+    => nrel_associative_connection: by_trade_on_trade_places;
+    => nrel_associative_connection: by_trade_at_fairs;
+    => nrel_associative_connection: by_form_of_trade;
+
+    => nrel_legal_act: by_act_h11400128;
+    => nrel_legal_act: by_act_w22136489;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10558?langname=ru];
+    => nrel_etalon_online_idx: [10558];;

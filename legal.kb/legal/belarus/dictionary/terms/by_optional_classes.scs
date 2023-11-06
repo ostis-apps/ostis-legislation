@@ -1,0 +1,52 @@
+
+by_optional_classes
+    => nrel_main_idtf: [optional classes] (* <- lang_en;; *);
+    => nrel_main_idtf: [факультативные занятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [факультатыўныя заняткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_optional_classes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_optional_classes_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auditory_lessons;
+    => nrel_associative_connection: by_duration_of_stay_in_educational_institution;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_teaching;
+    => nrel_associative_connection: by_stimulating_studies;
+    => nrel_associative_connection: by_curriculum_of_optional_lesson;
+
+    => nrel_legal_act: by_act_hk1100243;
+    => nrel_legal_act: by_act_w21933745p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4178?langname=ru];
+    => nrel_etalon_online_idx: [4178];;

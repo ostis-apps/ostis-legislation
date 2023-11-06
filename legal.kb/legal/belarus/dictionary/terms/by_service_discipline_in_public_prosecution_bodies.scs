@@ -1,0 +1,33 @@
+
+by_service_discipline_in_public_prosecution_bodies
+    => nrel_main_idtf: [service discipline in public prosecution bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебная дисциплина в органах прокуратуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовая дысцыпліна ў органах пракуратуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_discipline_in_public_prosecution_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_violation_of_service_discipline_disciplinary_fault;
+    => nrel_associative_connection: by_prosecutors_office_employee;
+    => nrel_associative_connection: by_office_discipline;
+
+    => nrel_legal_act: by_act_h10700220;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1900?langname=ru];
+    => nrel_etalon_online_idx: [1900];;

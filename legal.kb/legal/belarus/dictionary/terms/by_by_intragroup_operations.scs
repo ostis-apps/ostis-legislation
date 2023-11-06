@@ -1,0 +1,34 @@
+
+by_by_intragroup_operations
+    => nrel_main_idtf: [by_intragroup_operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутригрупповые операции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутрыгрупавыя аперацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_intragroup_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intragroup_accounts;
+    => nrel_associative_connection: by_group;
+    => nrel_associative_connection: by_participant_of_financial_transaction;
+    => nrel_associative_connection: by_financial_transaction;
+
+    => nrel_legal_act: by_act_b204p0094;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43453?langname=ru];
+    => nrel_etalon_online_idx: [43453];;

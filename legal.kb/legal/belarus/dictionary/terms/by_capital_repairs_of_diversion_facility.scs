@@ -1,0 +1,36 @@
+
+by_capital_repairs_of_diversion_facility
+    => nrel_main_idtf: [capital repairs of diversion facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [капитальный ремонт водозаборных сооружений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [капітальны рамонт водазаборных збудаванняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_capital_repairs_of_diversion_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_onshore_water_intake_facility_onshore_water_intake;
+    => nrel_associative_connection: by_water_wells;
+    => nrel_associative_connection: by_capital_repairs_of_structures_and_devices_of_centralized_drinking_water_supply_and_water_discharge_sewerage_systems;
+    => nrel_associative_connection: by_well_redrilling;
+    => nrel_associative_connection: by_current_repairs_of_constructions_and_devices_of_centralized_drinking_water_supply_and_water_supply_sewer;
+    => nrel_associative_connection: by_maintenance_of_constructions_and_devices_of_centralized_systems_of_drinking_water_supply_and_water_disposal_sewer;
+
+    => nrel_legal_act: by_act_w20614714;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32573?langname=ru];
+    => nrel_etalon_online_idx: [32573];;

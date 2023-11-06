@@ -1,0 +1,33 @@
+
+by_impairment_quality_loss_of_road_vehicle_parts
+    => nrel_main_idtf: [impairment (quality loss) of road vehicle parts] (* <- lang_en;; *);
+    => nrel_main_idtf: [обесценение (потеря качества) части дорожных транспортных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абясцэненне (страта якасці) часткі дарожных транспартных сродкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_impairment_quality_loss_of_road_vehicle_parts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_quality_of_the_assessment_outcomes;
+    => nrel_associative_connection: by_road_vehicle_model;
+    => nrel_associative_connection: by_cost_of_one_normohour_of_repair_work;
+
+    => nrel_legal_act: by_act_w01933909p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31242?langname=ru];
+    => nrel_etalon_online_idx: [31242];;

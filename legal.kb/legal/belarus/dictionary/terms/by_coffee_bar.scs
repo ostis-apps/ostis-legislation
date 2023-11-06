@@ -1,0 +1,37 @@
+
+by_coffee_bar
+    => nrel_main_idtf: [coffee bar] (* <- lang_en;; *);
+    => nrel_main_idtf: [кофейный бар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кававы бар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coffee_bar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_grill_bar;
+    => nrel_associative_connection: by_cafeteria;
+    => nrel_associative_connection: by_coffee_house;
+    => nrel_associative_connection: by_milk_bar;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_type_of_the_public_catering_object;
+
+    => nrel_legal_act: by_act_w60105912;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16374?langname=ru];
+    => nrel_etalon_online_idx: [16374];;

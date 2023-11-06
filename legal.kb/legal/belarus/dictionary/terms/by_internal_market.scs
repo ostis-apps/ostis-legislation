@@ -1,0 +1,50 @@
+
+by_internal_market
+    => nrel_main_idtf: [internal market] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренний рынок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраны рынак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_market_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_weight_of_producer_price_index_of_industrial_products_services;
+    => nrel_associative_connection: by_foreign_market;
+    => nrel_associative_connection: by_internal_currency_market;
+    => nrel_associative_connection: by_market;
+
+    => nrel_legal_act: by_act_h10400346;
+    => nrel_legal_act: by_act_f01400176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8623?langname=ru];
+    => nrel_etalon_online_idx: [8623];;

@@ -1,0 +1,53 @@
+
+by_tax_credit
+    => nrel_main_idtf: [tax credit] (* <- lang_en;; *);
+    => nrel_main_idtf: [налоговый кредит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падатковы крэдыт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_credit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_credit_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_creditors;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_tax_obligation;
+
+    => nrel_legal_act: by_act_hk0200166;
+    => nrel_legal_act: by_act_n20000132;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6248?langname=ru];
+    => nrel_etalon_online_idx: [6248];;

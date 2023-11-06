@@ -1,0 +1,51 @@
+
+by_internavigation_period
+    => nrel_main_idtf: [internavigation period] (* <- lang_en;; *);
+    => nrel_main_idtf: [межнавигационный период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнавігацыйны перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internavigation_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internavigation_period_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_navigational_period;
+    => nrel_associative_connection: by_navigational_period_navigation;
+    => nrel_associative_connection: by_navigation;
+    => nrel_associative_connection: by_shipping;
+    => nrel_associative_connection: by_level_mode;
+
+    => nrel_legal_act: by_act_w22036204;
+    => nrel_legal_act: by_act_w21124270;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17168?langname=ru];
+    => nrel_etalon_online_idx: [17168];;

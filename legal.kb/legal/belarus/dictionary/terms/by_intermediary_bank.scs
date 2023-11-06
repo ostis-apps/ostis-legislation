@@ -1,0 +1,36 @@
+
+by_intermediary_bank
+    => nrel_main_idtf: [intermediary bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-посредник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-пасрэднік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intermediary_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intermediary_bank_intermediary_agent;
+    => nrel_associative_connection: by_predictor_bank;
+    => nrel_associative_connection: by_irrevocability_of_instant_payment;
+    => nrel_associative_connection: by_foreign_banks;
+    => nrel_associative_connection: by_foreign_bank;
+    => nrel_associative_connection: by_crossborder_instant_payment;
+
+    => nrel_legal_act: by_act_b22238823;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41803?langname=ru];
+    => nrel_etalon_online_idx: [41803];;

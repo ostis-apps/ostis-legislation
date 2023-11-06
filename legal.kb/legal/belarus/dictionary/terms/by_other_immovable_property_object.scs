@@ -1,0 +1,57 @@
+
+by_other_immovable_property_object
+    => nrel_main_idtf: [other immovable property object] (* <- lang_en;; *);
+    => nrel_main_idtf: [иной объект недвижимости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншы аб'ект нерухомасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_immovable_property_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_immovable_property_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_investments_in_real_estate_object;
+    => nrel_associative_connection: by_garage;
+    => nrel_associative_connection: by_share_in_the_property_right_to_real_estate_object;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_property_interests;
+    => nrel_associative_connection: by_gross_income_coefficient_gross_yield_multiplier;
+    => nrel_associative_connection: by_persons_taking_into_account_of_needs_to_improve_housing_conditions_and_implementing_the_construction_of_shared_construction_object_together_with_shareholder;
+    => nrel_associative_connection: by_common_property_in_an_apartment_building;
+    => nrel_associative_connection: by_immovable_property_objects;
+    => nrel_associative_connection: by_components_parts_and_accessories;
+
+    => nrel_legal_act: by_act_p31800473;
+    => nrel_legal_act: by_act_w21631352;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10354?langname=ru];
+    => nrel_etalon_online_idx: [10354];;

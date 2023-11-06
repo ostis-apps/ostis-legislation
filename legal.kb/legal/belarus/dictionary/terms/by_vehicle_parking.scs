@@ -1,0 +1,37 @@
+
+by_vehicle_parking
+    => nrel_main_idtf: [vehicle parking] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоянка транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стаянка транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_parking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner_of_car_parking;
+    => nrel_associative_connection: by_parking_time_at_the_intermediate_or_final_airport;
+    => nrel_associative_connection: by_garage_cooperative_cooperative_conducting_car_parking_operation;
+    => nrel_associative_connection: by_agreement_on_storage_of_vehicle_in_the_car_parking;
+    => nrel_associative_connection: by_vehicle_account_journal;
+    => nrel_associative_connection: by_parking_space;
+    => nrel_associative_connection: by_accommodation_of_the_vehicle;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24286?langname=ru];
+    => nrel_etalon_online_idx: [24286];;

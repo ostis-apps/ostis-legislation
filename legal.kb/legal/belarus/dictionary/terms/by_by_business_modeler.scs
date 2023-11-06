@@ -1,0 +1,35 @@
+
+by_by_business_modeler
+    => nrel_main_idtf: [by_business_modeler] (* <- lang_en;; *);
+    => nrel_main_idtf: [бизнес-моделирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бізнес-мадэліраванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_business_modeler_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_and_telecommunication_infrastructure_for_state_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_testing;
+    => nrel_associative_connection: by_management_of_requirements_;
+    => nrel_associative_connection: by_functional_units;
+    => nrel_associative_connection: by_functional_requirements_for_public_digital_platforms_and_information_systems;
+
+    => nrel_legal_act: by_act_c22200757;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/44063?langname=ru];
+    => nrel_etalon_online_idx: [44063];;

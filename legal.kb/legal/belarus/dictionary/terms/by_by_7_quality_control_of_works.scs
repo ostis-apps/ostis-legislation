@@ -1,0 +1,31 @@
+
+by_by_7_quality_control_of_works
+    => nrel_main_idtf: [by_7_quality_control_of_works] (* <- lang_en;; *);
+    => nrel_main_idtf: [контроль качества работ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [контроль качества работ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_7_quality_control_of_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_w223p0011;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43798?langname=ru];
+    => nrel_etalon_online_idx: [43798];;

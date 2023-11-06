@@ -1,0 +1,37 @@
+
+by_commissioning_of_nuclear_research_facilities
+    => nrel_main_idtf: [commissioning of nuclear research facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [ввод исследовательских ядерных установок в эксплуатацию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [увод даследчых ядзерных установак у эксплуатацыю] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commissioning_of_nuclear_research_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commissioning_of_nuclear_installation_and_or_storage_point;
+    => nrel_associative_connection: by_decommissioning_of_nuclear_research_facilities;
+    => nrel_associative_connection: by_research_nuclear_installation;
+    => nrel_associative_connection: by_control_physical_startup_of_the_critical_stand;
+    => nrel_associative_connection: by_startup_of_a_physical_nuclear_research_facility;
+    => nrel_associative_connection: by_decommissioning_of_a_nuclear_research_facility;
+    => nrel_associative_connection: by_nuclear_installation;
+
+    => nrel_legal_act: by_act_w22238230p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40126?langname=ru];
+    => nrel_etalon_online_idx: [40126];;

@@ -1,0 +1,45 @@
+
+by_row
+    => nrel_main_idtf: [row] (* <- lang_en;; *);
+    => nrel_main_idtf: [ряд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рад] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_row_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_order_depth;
+    => nrel_associative_connection: by_doubleline_system;
+    => nrel_associative_connection: by_distance;
+    => nrel_associative_connection: by_closing;
+    => nrel_associative_connection: by_interval;
+    => nrel_associative_connection: by_column;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_marching_order;
+    => nrel_associative_connection: by_unfolded_formation;
+    => nrel_associative_connection: by_lineup;
+    => nrel_associative_connection: by_rear_side_of_the_formation;
+    => nrel_associative_connection: by_flank;
+    => nrel_associative_connection: by_front;
+    => nrel_associative_connection: by_rank;
+    => nrel_associative_connection: by_line_width;
+
+    => nrel_legal_act: by_act_w60819328;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22772?langname=ru];
+    => nrel_etalon_online_idx: [22772];;

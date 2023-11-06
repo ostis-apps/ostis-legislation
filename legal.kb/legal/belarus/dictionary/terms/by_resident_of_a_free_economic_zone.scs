@@ -1,0 +1,37 @@
+
+by_resident_of_a_free_economic_zone
+    => nrel_main_idtf: [resident of a free economic zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [резидент свободной экономической зоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзідэнт свабоднай эканамічнай зоны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resident_of_a_free_economic_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administration_of_free_economic_zone;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_resident;
+    => nrel_associative_connection: by_residents;
+    => nrel_associative_connection: by_residents_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_free_economic_zone;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_h19800213;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6821?langname=ru];
+    => nrel_etalon_online_idx: [6821];;

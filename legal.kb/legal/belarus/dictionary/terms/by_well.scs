@@ -1,0 +1,37 @@
+
+by_well
+    => nrel_main_idtf: [well] (* <- lang_en;; *);
+    => nrel_main_idtf: [скважина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [свідравіна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_well_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drilling;
+    => nrel_associative_connection: by_drilling_rig;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_rocks;
+    => nrel_associative_connection: by_slaughter;
+    => nrel_associative_connection: by_observation_well;
+    => nrel_associative_connection: by_natural_mineral_water_with_native_natural_carbon_dioxide_from_a_source_or_well;
+
+    => nrel_legal_act: by_act_w21833373p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35851?langname=ru];
+    => nrel_etalon_online_idx: [35851];;

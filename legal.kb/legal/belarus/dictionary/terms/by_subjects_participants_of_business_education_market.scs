@@ -1,0 +1,36 @@
+
+by_subjects_participants_of_business_education_market
+    => nrel_main_idtf: [subjects (participants) of business education market] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты (участники) рынка бизнес-образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты (удзельнікі) рынку бізнес-адукацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_participants_of_business_education_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_business_education;
+    => nrel_associative_connection: by_business_school;
+    => nrel_associative_connection: by_mba_program;
+    => nrel_associative_connection: by_republican_council_for_the_development_of_the_business_education_system;
+    => nrel_associative_connection: by_business_education_system;
+    => nrel_associative_connection: by_business_education_services;
+
+    => nrel_legal_act: by_act_c21500734;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24416?langname=ru];
+    => nrel_etalon_online_idx: [24416];;

@@ -1,0 +1,41 @@
+
+by_industrial_vibration
+    => nrel_main_idtf: [industrial vibration] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственная вибрация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчая вібрацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_vibration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vibrating_conveyor;
+    => nrel_associative_connection: by_vibration;
+    => nrel_associative_connection: by_dominant_direction_of_vibration_action;
+    => nrel_associative_connection: by_frequency_corrected_vibration_parameter_level;
+    => nrel_associative_connection: by_local_vibration;
+    => nrel_associative_connection: by_general_vibration;
+    => nrel_associative_connection: by_total_transport_vibration_general_and_local;
+    => nrel_associative_connection: by_vibration_maximum_levels;
+    => nrel_associative_connection: by_background_vibration;
+    => nrel_associative_connection: by_energyequivalent_frequencycorrected_variable_vibration_level;
+    => nrel_associative_connection: by_energyequivalent_frequencycorrected_level_of_variable_vibration_parameter_acting_in_x_y_z_directions_during_evaluation;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41700?langname=ru];
+    => nrel_etalon_online_idx: [41700];;

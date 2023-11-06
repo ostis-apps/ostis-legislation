@@ -1,0 +1,39 @@
+
+by_work_site
+    => nrel_main_idtf: [work site] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадка рабочая] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пляцоўка рабочая] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_work_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_instruction_for_the_protection_of_labor;
+    => nrel_associative_connection: by_canopy;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_industrial_site;
+    => nrel_associative_connection: by_working_area;
+    => nrel_associative_connection: by_work_place;
+    => nrel_associative_connection: by_labour_protection_requirements;
+    => nrel_associative_connection: by_physical_workplace;
+
+    => nrel_legal_act: by_act_w20106199;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20261?langname=ru];
+    => nrel_etalon_online_idx: [20261];;

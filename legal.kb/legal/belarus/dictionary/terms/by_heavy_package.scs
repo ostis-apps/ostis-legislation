@@ -1,0 +1,20 @@
+
+by_heavy_package
+    => nrel_main_idtf: [heavy package] (* <- lang_en;; *);
+    => nrel_main_idtf: [тяжеловесная посылка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цяжкая пасылка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_parcel;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_postal_communication_of_common_use;
+    => nrel_associative_connection: by_mails;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25343?langname=ru];
+    => nrel_etalon_online_idx: [25343];;

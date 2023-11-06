@@ -1,0 +1,70 @@
+
+by_hot_works
+    => nrel_main_idtf: [hot works] (* <- lang_en;; *);
+    => nrel_main_idtf: [огневые работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агнявыя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hot_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hot_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hot_works_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inflammable_substances_and_materials;
+    => nrel_associative_connection: by_nonheating_furnace;
+    => nrel_associative_connection: by_main_construction_and_assembly_works;
+    => nrel_associative_connection: by_heating_appliances;
+    => nrel_associative_connection: by_fire_and_technical_minimum;
+    => nrel_associative_connection: by_fire_detector;
+    => nrel_associative_connection: by_fire_hazardous_works;
+    => nrel_associative_connection: by_fire_drill;
+
+    => nrel_legal_act: by_act_pd1700007;
+    => nrel_legal_act: by_act_w22035259p;
+    => nrel_legal_act: by_act_w21529879p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33172?langname=ru];
+    => nrel_etalon_online_idx: [33172];;

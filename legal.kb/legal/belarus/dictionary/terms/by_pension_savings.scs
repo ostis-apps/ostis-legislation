@@ -1,0 +1,42 @@
+
+by_pension_savings
+    => nrel_main_idtf: [pension savings] (* <- lang_en;; *);
+    => nrel_main_idtf: [пенсионные сбережения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пенсійныя зберажэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pension_savings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contributions_to_the_pension_insurance;
+    => nrel_associative_connection: by_pensioner_of_the_committee;
+    => nrel_associative_connection: by_pensioner_dossier;
+    => nrel_associative_connection: by_pensioner_documents;
+    => nrel_associative_connection: by_pension_bodies_of_the_committee;
+    => nrel_associative_connection: by_pension_bodies_of_defense_ministry;
+    => nrel_associative_connection: by_pension_bodies_of_the_ministry_of_emergency_situations;
+    => nrel_associative_connection: by_pension_of_the_committee;
+    => nrel_associative_connection: by_occupational_pension_insurance;
+    => nrel_associative_connection: by_economy_mode;
+    => nrel_associative_connection: by_subjects_of_professional_pension_insurance;
+    => nrel_associative_connection: by_social_protection_fund_of_the_population_of_the_ministry_of_labor_and_social_protection_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_h10800322;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19904?langname=ru];
+    => nrel_etalon_online_idx: [19904];;

@@ -1,0 +1,48 @@
+
+by_location_of_outdoor_advertising_means
+    => nrel_main_idtf: [location of outdoor advertising means] (* <- lang_en;; *);
+    => nrel_main_idtf: [место размещения средства наружной рекламы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца размяшчэння сродку вонкавай рэкламы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_location_of_outdoor_advertising_means_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_dismantling_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_territory_category;
+    => nrel_associative_connection: by_lightposter_light_box;
+    => nrel_associative_connection: by_modernization_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_outdoor_advertising;
+    => nrel_associative_connection: by_nonspecialized_outdoor_advertising_means;
+    => nrel_associative_connection: by_sample_of_goods_result_of_work_service;
+    => nrel_associative_connection: by_operator_of_external_advertising;
+    => nrel_associative_connection: by_passport_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_pylon;
+    => nrel_associative_connection: by_poster_or_other_remote_advertising_construction;
+    => nrel_associative_connection: by_advertising_consumer;
+    => nrel_associative_connection: by_placement_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_socially_significant_location_outdoor_advertising_means;
+    => nrel_associative_connection: by_specialized_outdoor_advertising_means;
+    => nrel_associative_connection: by_outdoor_advertising_means;
+    => nrel_associative_connection: by_cabinet;
+
+    => nrel_legal_act: by_act_c22100395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17280?langname=ru];
+    => nrel_etalon_online_idx: [17280];;

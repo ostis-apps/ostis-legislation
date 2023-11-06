@@ -1,0 +1,26 @@
+
+by_estimated_deposits
+    => nrel_main_idtf: [estimated deposits] (* <- lang_en;; *);
+    => nrel_main_idtf: [оцененные месторождения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэненыя месцанараджэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_mining_operations;
+    => nrel_associative_connection: by_deposit;
+    => nrel_associative_connection: by_hydrocarbons_deposit;
+    => nrel_associative_connection: by_dump;
+    => nrel_associative_connection: by_first_explorers_of_field;
+    => nrel_associative_connection: by_passing_components;
+    => nrel_associative_connection: by_passing_raw_materials;
+    => nrel_associative_connection: by_preliminary_estimated_hydrocarbon_deposits;
+    => nrel_associative_connection: by_explored_hydrocarbon_deposits;
+    => nrel_associative_connection: by_mining;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19705?langname=ru];
+    => nrel_etalon_online_idx: [19705];;

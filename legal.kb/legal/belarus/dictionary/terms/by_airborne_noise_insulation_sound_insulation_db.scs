@@ -1,0 +1,41 @@
+
+by_airborne_noise_insulation_sound_insulation_db
+    => nrel_main_idtf: [ airborne noise insulation (sound insulation), db] (* <- lang_en;; *);
+    => nrel_main_idtf: [изоляция воздушного шума (звукоизоляция), дб] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ізаляцыя паветранага шуму (гукаізаляцыя), дб] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airborne_noise_insulation_sound_insulation_db_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vibration_isolation;
+    => nrel_associative_connection: by_reverb_time_t;
+    => nrel_associative_connection: by_diffuse_sound_field;
+    => nrel_associative_connection: by_hall_for_multipurpose_acoustic_purposes;
+    => nrel_associative_connection: by_soundproofing_of_windows_ra_tran_dba;
+    => nrel_associative_connection: by_insulation_of_impact_noise_by_overlapping_db;
+    => nrel_associative_connection: by_airborne_noise_insulation_index_of_the_enclosing_structure_rw_db;
+    => nrel_associative_connection: by_index_of_the_reduced_level_of_impact_noise_of_the_overlap_lnw_db;
+    => nrel_associative_connection: by_intermittent_noise;
+    => nrel_associative_connection: by_constant_noise;
+    => nrel_associative_connection: by_noise_sound;
+
+    => nrel_legal_act: by_act_w22035998p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35721?langname=ru];
+    => nrel_etalon_online_idx: [35721];;

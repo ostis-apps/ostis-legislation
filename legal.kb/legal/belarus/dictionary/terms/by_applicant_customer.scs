@@ -1,0 +1,36 @@
+
+by_applicant_customer
+    => nrel_main_idtf: [applicant (customer)] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявитель (заказчик)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўнік (заказчык)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_applicant_customer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_customer;
+    => nrel_associative_connection: by_customer_consumer;
+    => nrel_associative_connection: by_applicants;
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_clinical_trials;
+    => nrel_associative_connection: by_clinical_trial;
+
+    => nrel_legal_act: by_act_w20820139;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14930?langname=ru];
+    => nrel_etalon_online_idx: [14930];;

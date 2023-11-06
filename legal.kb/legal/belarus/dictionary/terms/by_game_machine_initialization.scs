@@ -1,0 +1,38 @@
+
+by_game_machine_initialization
+    => nrel_main_idtf: [game machine initialization] (* <- lang_en;; *);
+    => nrel_main_idtf: [инициализация игрового автомата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ініцыялізацыя гульнявога аўтамата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_game_machine_initialization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_game_program;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_gaming_machine_cash;
+    => nrel_associative_connection: by_management_bodies_of_game_machine;
+    => nrel_associative_connection: by_remote_control;
+    => nrel_associative_connection: by_software_verification_tools;
+    => nrel_associative_connection: by_ticket;
+
+    => nrel_legal_act: by_act_c21900137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30924?langname=ru];
+    => nrel_etalon_online_idx: [30924];;

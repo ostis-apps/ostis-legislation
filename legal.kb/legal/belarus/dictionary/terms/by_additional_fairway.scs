@@ -1,0 +1,38 @@
+
+by_additional_fairway
+    => nrel_main_idtf: [additional fairway] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительный судовой ход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковы суднавы ход] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_fairway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_main_fairway;
+    => nrel_associative_connection: by_axis_of_fairway;
+    => nrel_associative_connection: by_radius_of_curvature_of_the_channel;
+    => nrel_associative_connection: by_divergence_of_vessels;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_fairway;
+    => nrel_associative_connection: by_running_shore;
+
+    => nrel_legal_act: by_act_w20514238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14432?langname=ru];
+    => nrel_etalon_online_idx: [14432];;

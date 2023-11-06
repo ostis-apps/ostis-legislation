@@ -1,0 +1,22 @@
+
+by_foreign_investors
+    => nrel_main_idtf: [foreign investors] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранные инвесторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежныя інвестары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investor;
+    => nrel_associative_connection: by_investors;
+    => nrel_associative_connection: by_foreign_investments;
+    => nrel_associative_connection: by_primary_investor;
+    => nrel_associative_connection: by_legal_personsinvestors;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15346?langname=ru];
+    => nrel_etalon_online_idx: [15346];;

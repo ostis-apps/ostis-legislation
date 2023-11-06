@@ -1,0 +1,32 @@
+
+by_pilot_operation_of_the_object_of_modification
+    => nrel_main_idtf: [pilot operation of the object of modification] (* <- lang_en;; *);
+    => nrel_main_idtf: [опытная эксплуатация объекта модификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вопытная эксплуатацыя аб'екта мадыфікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pilot_operation_of_the_object_of_modification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_temporary_modification;
+    => nrel_associative_connection: by_modification;
+
+    => nrel_legal_act: by_act_w21732287p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37448?langname=ru];
+    => nrel_etalon_online_idx: [37448];;

@@ -1,0 +1,36 @@
+
+by_musical_education
+    => nrel_main_idtf: [musical education] (* <- lang_en;; *);
+    => nrel_main_idtf: [музыкальное образование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музычная адукацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_musical_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interpretation_of_ancient_music;
+    => nrel_associative_connection: by_music;
+    => nrel_associative_connection: by_musical_upbringing;
+    => nrel_associative_connection: by_musical_and_rhythmic_classes;
+    => nrel_associative_connection: by_musicology;
+    => nrel_associative_connection: by_pedagogy;
+
+    => nrel_legal_act: by_act_w22035418p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33607?langname=ru];
+    => nrel_etalon_online_idx: [33607];;

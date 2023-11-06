@@ -1,0 +1,34 @@
+
+by_orphan_rare_diseases
+    => nrel_main_idtf: [orphan (rare) diseases] (* <- lang_en;; *);
+    => nrel_main_idtf: [орфанные (редкие) заболевания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [орфаныя (рэдкія) захворванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_orphan_rare_diseases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_exacerbation_of_chronic_disease;
+    => nrel_associative_connection: by_orphan_medicine;
+    => nrel_associative_connection: by_orphan_rare_medicinal_product;
+    => nrel_associative_connection: by_complication_of_main_disease;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35510?langname=ru];
+    => nrel_etalon_online_idx: [35510];;

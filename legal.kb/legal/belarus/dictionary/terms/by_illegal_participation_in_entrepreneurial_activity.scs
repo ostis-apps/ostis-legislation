@@ -1,0 +1,35 @@
+
+by_illegal_participation_in_entrepreneurial_activity
+    => nrel_main_idtf: [illegal participation in entrepreneurial activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконное участие в предпринимательской деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незаконны ўдзел у прадпрымальніцкай дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegal_participation_in_entrepreneurial_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_income_from_illegal_entrepreneurial_activity;
+    => nrel_associative_connection: by_use_of_a_business_entity_in_the_commission_of_an_offense;
+    => nrel_associative_connection: by_false_entrepreneurship;
+    => nrel_associative_connection: by_illegal_entrepreneurial_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17995?langname=ru];
+    => nrel_etalon_online_idx: [17995];;

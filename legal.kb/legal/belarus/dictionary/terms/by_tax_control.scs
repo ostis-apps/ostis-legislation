@@ -1,0 +1,38 @@
+
+by_tax_control
+    => nrel_main_idtf: [tax control] (* <- lang_en;; *);
+    => nrel_main_idtf: [налоговый контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падатковы кантроль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administering;
+    => nrel_associative_connection: by_state_tax_post;
+    => nrel_associative_connection: by_tax_legislation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tax_authorities;
+    => nrel_associative_connection: by_tax_body;
+    => nrel_associative_connection: by_taxable_period;
+    => nrel_associative_connection: by_taxation;
+    => nrel_associative_connection: by_current_control;
+
+    => nrel_legal_act: by_act_hk0200166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2843?langname=ru];
+    => nrel_etalon_online_idx: [2843];;

@@ -1,0 +1,38 @@
+
+by_leasing_recipients
+    => nrel_main_idtf: [leasing recipients] (* <- lang_en;; *);
+    => nrel_main_idtf: [лизингополучатели] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лізінгаатрымальнікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leasing_recipients_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_investment_of_leasing_company__nonresident_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_leaseback;
+    => nrel_associative_connection: by_financial_rent_agreement_leasing_agreement;
+    => nrel_associative_connection: by_other_investment_expenditures_of_the_lessor;
+    => nrel_associative_connection: by_insurance_counterparty;
+    => nrel_associative_connection: by_liquidity_of_leasing_subject;
+    => nrel_associative_connection: by_recipients;
+    => nrel_associative_connection: by_seller_supplier_of_leasing_subject;
+
+    => nrel_legal_act: by_act_p31400099;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16597?langname=ru];
+    => nrel_etalon_online_idx: [16597];;

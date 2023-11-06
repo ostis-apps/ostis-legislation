@@ -1,0 +1,42 @@
+
+by_interruptive_noise
+    => nrel_main_idtf: [interruptive noise] (* <- lang_en;; *);
+    => nrel_main_idtf: [прерывистый шум] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перарывісты шум] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interruptive_noise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_airborne_noise;
+    => nrel_associative_connection: by_sound_noise;
+    => nrel_associative_connection: by_impulsed_noise;
+    => nrel_associative_connection: by_flashing_noise;
+    => nrel_associative_connection: by_maximum_sound_level;
+    => nrel_associative_connection: by_intermittent_noise;
+    => nrel_associative_connection: by_peak_corrected_c_sound_level;
+    => nrel_associative_connection: by_constant_noise;
+    => nrel_associative_connection: by_maximum_noise_level;
+    => nrel_associative_connection: by_tone_noise;
+    => nrel_associative_connection: by_broadband_noise;
+    => nrel_associative_connection: by_noise_sound;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41648?langname=ru];
+    => nrel_etalon_online_idx: [41648];;

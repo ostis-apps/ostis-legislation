@@ -1,0 +1,68 @@
+
+by_mechatronic_module
+    => nrel_main_idtf: [mechatronic module] (* <- lang_en;; *);
+    => nrel_main_idtf: [мехатронный модуль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мехатронны модуль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechatronic_module_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechatronic_module_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechatronic_module_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_system;
+    => nrel_associative_connection: by_manipulator;
+    => nrel_associative_connection: by_mechatronics;
+    => nrel_associative_connection: by_mechatronic_system;
+    => nrel_associative_connection: by_adjustment;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_legal_act: by_act_w22035225p;
+    => nrel_legal_act: by_act_w22035156p;
+    => nrel_legal_act: by_act_w21934218p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31473?langname=ru];
+    => nrel_etalon_online_idx: [31473];;

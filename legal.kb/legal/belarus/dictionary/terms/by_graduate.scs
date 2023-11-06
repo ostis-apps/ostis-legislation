@@ -1,0 +1,84 @@
+
+by_graduate
+    => nrel_main_idtf: [graduate] (* <- lang_en;; *);
+    => nrel_main_idtf: [выпускник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпускнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_graduate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_graduate_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_graduate_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_graduate_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_additional_need_in_labor_resources;
+    => nrel_associative_connection: by_young_specialist_young_worker_employee;
+    => nrel_associative_connection: by_young_specialists;
+    => nrel_associative_connection: by_job_placement_for_graduates;
+    => nrel_associative_connection: by_distribution;
+    => nrel_associative_connection: by_centralized_testing;
+
+    => nrel_legal_act: by_act_hk1100243;
+    => nrel_legal_act: by_act_w21933734p;
+    => nrel_legal_act: by_act_n22000128;
+    => nrel_legal_act: by_act_n21300171;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4154?langname=ru];
+    => nrel_etalon_online_idx: [4154];;

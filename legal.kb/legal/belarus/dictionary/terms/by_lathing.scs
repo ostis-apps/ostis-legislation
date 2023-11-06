@@ -1,0 +1,19 @@
+
+by_lathing
+    => nrel_main_idtf: [lathing] (* <- lang_en;; *);
+    => nrel_main_idtf: [обрешетка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абрашотка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_container;
+    => nrel_associative_connection: by_combined_container;
+    => nrel_associative_connection: by_outer_packaging;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18544?langname=ru];
+    => nrel_etalon_online_idx: [18544];;

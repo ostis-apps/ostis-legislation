@@ -1,0 +1,52 @@
+
+by_furniture_products_furniture
+    => nrel_main_idtf: [furniture products (furniture)] (* <- lang_en;; *);
+    => nrel_main_idtf: [мебельная продукция (мебель)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мэблевая прадукцыя (мэбля)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_furniture_products_furniture_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_furniture_products_furniture_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrothermal_wood_treatment;
+    => nrel_associative_connection: by_furniture_decoration;
+    => nrel_associative_connection: by_wood;
+    => nrel_associative_connection: by_wood_protection;
+    => nrel_associative_connection: by_protectivedecorative_coating;
+    => nrel_associative_connection: by_mountable_furniture;
+
+    => nrel_legal_act: by_act_w22136401p;
+    => nrel_legal_act: by_act_w22035262p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33131?langname=ru];
+    => nrel_etalon_online_idx: [33131];;

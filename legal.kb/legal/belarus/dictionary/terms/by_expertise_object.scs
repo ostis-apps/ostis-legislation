@@ -1,0 +1,101 @@
+
+by_expertise_object
+    => nrel_main_idtf: [expertise object] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект экспертизы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект экспертызы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_object_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_object_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expertise_object_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_expertise;
+    => nrel_associative_connection: by_customer_of_the_project_expertise;
+    => nrel_associative_connection: by_executor_of_project_expertise;
+    => nrel_associative_connection: by_subject_of_state_expertise;
+    => nrel_associative_connection: by_subject_of_the_expertise;
+    => nrel_associative_connection: by_authorized_examination_body;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_legal_act: by_act_c21800805;
+    => nrel_legal_act: by_act_c20900026;
+    => nrel_legal_act: by_act_c20801571;
+    => nrel_legal_act: by_act_w21933843;
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18733?langname=ru];
+    => nrel_etalon_online_idx: [18733];;

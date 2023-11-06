@@ -1,0 +1,35 @@
+
+by_nonspecialized_shop_with_mixed_assortment_of_goods
+    => nrel_main_idtf: [non-specialized shop with mixed assortment of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [неспециализированный магазин со смешанным ассортиментом товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неспецыялізаванны магазін са змешаным асартыментам тавараў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonspecialized_shop_with_mixed_assortment_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assortment_of_goods;
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_nonspecialized_shop_with_combined_assortment_of_goods;
+    => nrel_associative_connection: by_nonspecialized_shop_with_universal_assortment_of_goods;
+    => nrel_associative_connection: by_good;
+
+    => nrel_legal_act: by_act_w22136585;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39109?langname=ru];
+    => nrel_etalon_online_idx: [39109];;

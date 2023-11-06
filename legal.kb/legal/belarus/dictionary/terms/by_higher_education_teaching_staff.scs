@@ -1,0 +1,38 @@
+
+by_higher_education_teaching_staff
+    => nrel_main_idtf: [higher education teaching staff] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессорско-преподавательский состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесарска-выкладчыцкі склад] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_higher_education_teaching_staff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upbringing;
+    => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_additional_education_for_adults;
+    => nrel_associative_connection: by_scientific_worker;
+    => nrel_associative_connection: by_scientific_supervisor;
+    => nrel_associative_connection: by_pedagogical__activity;
+    => nrel_associative_connection: by_educators;
+    => nrel_associative_connection: by_institution_of_additional_education_for_adults;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4158?langname=ru];
+    => nrel_etalon_online_idx: [4158];;

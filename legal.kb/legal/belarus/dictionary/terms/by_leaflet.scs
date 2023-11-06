@@ -1,0 +1,19 @@
+
+by_leaflet
+    => nrel_main_idtf: [leaflet] (* <- lang_en;; *);
+    => nrel_main_idtf: [листок-вкладыш] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лісток-укладыш] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_insert;
+    => nrel_associative_connection: by_instruction_on_medical_use;
+    => nrel_associative_connection: by_instruction_for_medical_use_leaflet;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11365?langname=ru];
+    => nrel_etalon_online_idx: [11365];;

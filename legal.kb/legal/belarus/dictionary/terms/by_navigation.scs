@@ -1,0 +1,83 @@
+
+by_navigation
+    => nrel_main_idtf: [navigation] (* <- lang_en;; *);
+    => nrel_main_idtf: [навигация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навігацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_navigation;
+    => nrel_associative_connection: by_nontrade_route;
+    => nrel_associative_connection: by_inland_waterways;
+    => nrel_associative_connection: by_aerial_navigation;
+    => nrel_associative_connection: by_unified_system_of_navigationtemporary_ensuring_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_zonal_navigation;
+    => nrel_associative_connection: by_zonal_navigation_route;
+    => nrel_associative_connection: by_internavigation_period;
+    => nrel_associative_connection: by_navigational_activity;
+    => nrel_associative_connection: by_navigational_information;
+    => nrel_associative_connection: by_navigational_map;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigational_error;
+    => nrel_associative_connection: by_navigation_specification;
+    => nrel_associative_connection: by_navigational_and_temporary_provision;
+    => nrel_associative_connection: by_navigation_equipment;
+    => nrel_associative_connection: by_navigational_period;
+    => nrel_associative_connection: by_navigational_period_navigation;
+    => nrel_associative_connection: by_object_of_navigation_activity;
+    => nrel_associative_connection: by_radio_equipment;
+    => nrel_associative_connection: by_content_of_navigation_equipment;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_p31100260;
+    => nrel_legal_act: by_act_n21900092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6222?langname=ru];
+    => nrel_etalon_online_idx: [6222];;

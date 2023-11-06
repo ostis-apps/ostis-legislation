@@ -1,0 +1,34 @@
+
+by_brake
+    => nrel_main_idtf: [brake] (* <- lang_en;; *);
+    => nrel_main_idtf: [тормоз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тормаз] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_brake_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_descent_braking_devices;
+    => nrel_associative_connection: by_service_braking;
+    => nrel_associative_connection: by_brake_shoe;
+    => nrel_associative_connection: by_braking_distance;
+
+    => nrel_legal_act: by_act_w20613989;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25097?langname=ru];
+    => nrel_etalon_online_idx: [25097];;

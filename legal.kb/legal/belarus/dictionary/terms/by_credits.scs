@@ -1,0 +1,74 @@
+
+by_credits
+    => nrel_main_idtf: [credits] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдыты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_credits_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cancellation_of_credit_history_record;
+    => nrel_associative_connection: by_auction_credits;
+    => nrel_associative_connection: by_budget_credit;
+    => nrel_associative_connection: by_state_credits;
+    => nrel_associative_connection: by_grace_period;
+    => nrel_associative_connection: by_day_of_granting_credit;
+    => nrel_associative_connection: by_directive_lending;
+    => nrel_associative_connection: by_longterm_investment_credits;
+    => nrel_associative_connection: by_longterm_credits;
+    => nrel_associative_connection: by_credit_indebtedness;
+    => nrel_associative_connection: by_investment_loans;
+    => nrel_associative_connection: by_shortterm_credits;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_illegaly_obtained_credit;
+    => nrel_associative_connection: by_credit_indebtedness;
+    => nrel_associative_connection: by_credit_agreement;
+    => nrel_associative_connection: by_credit_monitoring;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_creditors_lenders;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_creditors;
+    => nrel_associative_connection: by_credits_loans;
+    => nrel_associative_connection: by_credits_for_consumer_needs;
+    => nrel_associative_connection: by_microcredit;
+    => nrel_associative_connection: by_multicurrency_credit_line;
+    => nrel_associative_connection: by_multicurrency_credit;
+    => nrel_associative_connection: by_tax_credit;
+    => nrel_associative_connection: by_circumstances_that_was_essential_for_obtaining_credit_or_subsidies;
+    => nrel_associative_connection: by_overdraft_credit;
+    => nrel_associative_connection: by_deferment_of_payment_on_a_credit_contract;
+    => nrel_associative_connection: by_original_creditor;
+    => nrel_associative_connection: by_credit_contract_payment;
+    => nrel_associative_connection: by_credit_history_user;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_installment_payment_under_the_loan_agreement;
+    => nrel_associative_connection: by_loan_refinancing;
+    => nrel_associative_connection: by_syndicated_credit;
+    => nrel_associative_connection: by_term_of_full_return_redemption_of_credit;
+    => nrel_associative_connection: by_term_of_the_loan_term_of_renewability_of_the_credit_line;
+    => nrel_associative_connection: by_subordinated_credit_loan;
+    => nrel_associative_connection: by_subject_of_credit_history;
+    => nrel_associative_connection: by_credit_accounting_account;
+    => nrel_associative_connection: by_tranche_credit;
+
+    => nrel_legal_act: by_act_p31700240;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16419?langname=ru];
+    => nrel_etalon_online_idx: [16419];;

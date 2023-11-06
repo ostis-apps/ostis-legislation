@@ -1,0 +1,43 @@
+
+by_allowance
+    => nrel_main_idtf: [allowance] (* <- lang_en;; *);
+    => nrel_main_idtf: [пособие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапаможнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allowance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_payment_of_pensions_and_allowances_through_the_objects_of_postal_service;
+    => nrel_associative_connection: by_payment_of_pensions_benefits_implementation_of_other_social_payments_through_postal_facilities;
+    => nrel_associative_connection: by_severance_pay;
+    => nrel_associative_connection: by_state_social_insurance;
+    => nrel_associative_connection: by_monetary_maintenance;
+    => nrel_associative_connection: by_other_social_payments;
+    => nrel_associative_connection: by_monthly_allowance;
+    => nrel_associative_connection: by_dependents;
+    => nrel_associative_connection: by_dismissal_from_office;
+    => nrel_associative_connection: by_recipient_of_a_pension_allowance_other_social_payment;
+    => nrel_associative_connection: by_subsidy;
+    => nrel_associative_connection: by_technical_details;
+    => nrel_associative_connection: by_occupational_injury;
+
+    => nrel_legal_act: by_act_w22339988;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/629?langname=ru];
+    => nrel_etalon_online_idx: [629];;

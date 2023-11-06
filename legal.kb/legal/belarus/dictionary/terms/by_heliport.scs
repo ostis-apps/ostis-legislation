@@ -1,0 +1,39 @@
+
+by_heliport
+    => nrel_main_idtf: [heliport] (* <- lang_en;; *);
+    => nrel_main_idtf: [вертодром] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вертадром] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heliport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_unit;
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_helicopter;
+    => nrel_associative_connection: by_helicodeck;
+    => nrel_associative_connection: by_owner_of_aerodrome_heliport_of_state_aviation;
+    => nrel_associative_connection: by_state_registry_of_aerodrome_heliport_of_state_aviation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_helicopter_category_a;
+    => nrel_associative_connection: by_air_transport_facilities;
+
+    => nrel_legal_act: by_act_hk0600117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8525?langname=ru];
+    => nrel_etalon_online_idx: [8525];;

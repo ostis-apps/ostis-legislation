@@ -1,0 +1,31 @@
+
+by_by_freedom
+    => nrel_main_idtf: [by_freedom] (* <- lang_en;; *);
+    => nrel_main_idtf: [свобода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [свабода] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_freedom_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ensuring_the_rights_and_freedoms_of_man_and_citizen_guarantees_of_their_implementation;
+
+    => nrel_legal_act: by_act_p32300196;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43578?langname=ru];
+    => nrel_etalon_online_idx: [43578];;

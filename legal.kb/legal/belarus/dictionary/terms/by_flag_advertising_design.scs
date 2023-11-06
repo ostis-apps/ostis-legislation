@@ -1,0 +1,34 @@
+
+by_flag_advertising_design
+    => nrel_main_idtf: [flag advertising design] (* <- lang_en;; *);
+    => nrel_main_idtf: [флаговая рекламная конструкция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сцягавая рэкламная канструкцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flag_advertising_design_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_overroof_advertising_construction;
+    => nrel_associative_connection: by_volumespatial_advertising_construction;
+    => nrel_associative_connection: by_poster_or_other_remote_advertising_construction;
+    => nrel_associative_connection: by_placement_of_outdoor_advertising_means;
+
+    => nrel_legal_act: by_act_c22100395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26034?langname=ru];
+    => nrel_etalon_online_idx: [26034];;

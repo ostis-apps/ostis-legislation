@@ -1,0 +1,51 @@
+
+by_quality_of_higher_education
+    => nrel_main_idtf: [quality of higher education] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество высшего образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць вышэйшай адукацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quality_of_higher_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quality_of_higher_education_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_qualification;
+    => nrel_associative_connection: by_competence;
+    => nrel_associative_connection: by_competence;
+    => nrel_associative_connection: by_quality_assurance;
+
+    => nrel_legal_act: by_act_w21328044a;
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29299?langname=ru];
+    => nrel_etalon_online_idx: [29299];;

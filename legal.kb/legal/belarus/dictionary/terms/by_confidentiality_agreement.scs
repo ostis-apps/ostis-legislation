@@ -1,0 +1,38 @@
+
+by_confidentiality_agreement
+    => nrel_main_idtf: [confidentiality agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [соглашение о конфиденциальности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагадненне аб канфідэнцыяльнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_confidentiality_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner_of_trade_secrets;
+    => nrel_associative_connection: by_citizen_providing_or_rendering_assistance_on_confidential_basis_to_the_bodies_carrying_out_operationalsearch_activity;
+    => nrel_associative_connection: by_access_to_the_trade_secret;
+    => nrel_associative_connection: by_commercial_secret;
+    => nrel_associative_connection: by_commercial_secrets_carrier;
+    => nrel_associative_connection: by_obligation_on_nondisclosure_of_trade_secret;
+    => nrel_associative_connection: by_disclosure_of_trade_secrets;
+    => nrel_associative_connection: by_agreement;
+
+    => nrel_legal_act: by_act_h11300016;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10602?langname=ru];
+    => nrel_etalon_online_idx: [10602];;

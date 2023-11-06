@@ -1,0 +1,43 @@
+
+by_by_slaughter_products
+    => nrel_main_idtf: [by_slaughter_products] (* <- lang_en;; *);
+    => nrel_main_idtf: [продукты убоя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадукты забою] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_slaughter_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fowl_meat_products;
+    => nrel_associative_connection: by_identification_of_products_of_animal_origin;
+    => nrel_associative_connection: by_manufacturer_of_products_of_animal_origin;
+    => nrel_associative_connection: by_party_of_animals;
+    => nrel_associative_connection: by_food_product_of_slaughter;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_productive_animals;
+    => nrel_associative_connection: by_products_of_animal_origin;
+    => nrel_associative_connection: by_products_of_animal_origin;
+    => nrel_associative_connection: by_products_of_use_of_objects_of_the_animal_world;
+    => nrel_associative_connection: by_industrial_processing_meat;
+    => nrel_associative_connection: by_traceability_of_products_of_animal_origin;
+    => nrel_associative_connection: by_certification_of_the_quality_and_safety_of_food_raw_and_food_products_for_meat_and_dairy_products_form_1_and_form_2;
+
+    => nrel_legal_act: by_act_c21700319;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21500?langname=ru];
+    => nrel_etalon_online_idx: [21500];;

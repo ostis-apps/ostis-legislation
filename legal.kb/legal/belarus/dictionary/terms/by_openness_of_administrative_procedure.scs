@@ -1,0 +1,39 @@
+
+by_openness_of_administrative_procedure
+    => nrel_main_idtf: [openness of administrative procedure] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытость административной процедуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрытасць адміністрацыйнай працэдуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_openness_of_administrative_procedure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_administrtaive_decision;
+    => nrel_associative_connection: by_day_for_implementation_of_the_administrative_procedure;
+    => nrel_associative_connection: by_day_of_administrative_procedure_completion;
+    => nrel_associative_connection: by_unified_portal_of_electronic_services;
+    => nrel_associative_connection: by_application_form;
+    => nrel_associative_connection: by_statement_of_the_interested_person;
+    => nrel_associative_connection: by_violation_of_the_legislation_on_administrative_procedures;
+    => nrel_associative_connection: by_territorial_accessibility_of_the_administrative_procedure;
+
+    => nrel_legal_act: by_act_h10800433;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19527?langname=ru];
+    => nrel_etalon_online_idx: [19527];;

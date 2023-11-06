@@ -1,0 +1,51 @@
+
+by_emergency_alert
+    => nrel_main_idtf: [emergency alert] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийное оповещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйнае апавяшчэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_alert_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_alert_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_rescue_service;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_air_traffic;
+    => nrel_associative_connection: by_flight_information_region;
+    => nrel_associative_connection: by_alert_system;
+
+    => nrel_legal_act: by_act_c20601471;
+    => nrel_legal_act: by_act_w21934932p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4388?langname=ru];
+    => nrel_etalon_online_idx: [4388];;

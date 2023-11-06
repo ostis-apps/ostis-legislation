@@ -1,0 +1,33 @@
+
+by_by_in_the_postwar_period
+    => nrel_main_idtf: [by_in_the_postwar_period] (* <- lang_en;; *);
+    => nrel_main_idtf: [послевоенный период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасляваенны перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_in_the_postwar_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarusian_people;
+    => nrel_associative_connection: by_wartime;
+    => nrel_associative_connection: by_end_of_military_time;
+
+    => nrel_legal_act: by_act_h12200146;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40617?langname=ru];
+    => nrel_etalon_online_idx: [40617];;

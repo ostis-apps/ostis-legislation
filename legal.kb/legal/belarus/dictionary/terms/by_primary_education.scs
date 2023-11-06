@@ -1,0 +1,35 @@
+
+by_primary_education
+    => nrel_main_idtf: [primary education] (* <- lang_en;; *);
+    => nrel_main_idtf: [начальное образование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пачатковая адукацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gymnasium;
+    => nrel_associative_connection: by_primary_school;
+    => nrel_associative_connection: by_educational_program_of_primary_education;
+    => nrel_associative_connection: by_general_secondary_education;
+    => nrel_associative_connection: by_institution_of_general_secondary_education;
+
+    => nrel_legal_act: by_act_w21732053p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9840?langname=ru];
+    => nrel_etalon_online_idx: [9840];;

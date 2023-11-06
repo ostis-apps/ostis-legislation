@@ -1,0 +1,36 @@
+
+by_by_survey_report
+    => nrel_main_idtf: [by_survey_report] (* <- lang_en;; *);
+    => nrel_main_idtf: [отчет об изысканиях] (* <- lang_ru;; *);
+    => nrel_main_idtf: [справаздача аб вышуканнях] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_survey_report_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geoid;
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_engineering_and_geological_survey;
+    => nrel_associative_connection: by_inspection_of_foundation_soils;
+    => nrel_associative_connection: by_reference_geodetic_network;
+
+    => nrel_legal_act: by_act_w22035551p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33908?langname=ru];
+    => nrel_etalon_online_idx: [33908];;

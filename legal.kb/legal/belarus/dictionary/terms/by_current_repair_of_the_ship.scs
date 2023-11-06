@@ -1,0 +1,36 @@
+
+by_current_repair_of_the_ship
+    => nrel_main_idtf: [current repair of the ship] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущий ремонт судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучы рамонт судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_current_repair_of_the_ship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vessel_emergency_repairs;
+    => nrel_associative_connection: by_guarantee_repair_of_ship;
+    => nrel_associative_connection: by_postdevelopment_characteristics;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_cost_of_vehicle_repair;
+    => nrel_associative_connection: by_vessel;
+
+    => nrel_legal_act: by_act_w60004624;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24751?langname=ru];
+    => nrel_etalon_online_idx: [24751];;

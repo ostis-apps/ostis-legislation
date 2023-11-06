@@ -1,0 +1,50 @@
+
+by_storage_device
+    => nrel_main_idtf: [storage device] (* <- lang_en;; *);
+    => nrel_main_idtf: [накопитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накапляльнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_storage_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_storage_device_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dangerous_production_facility;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_greenhouse_gases;
+    => nrel_associative_connection: by_raw_materials;
+
+    => nrel_legal_act: by_act_w21529775p;
+    => nrel_legal_act: by_act_i09200070;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17643?langname=ru];
+    => nrel_etalon_online_idx: [17643];;

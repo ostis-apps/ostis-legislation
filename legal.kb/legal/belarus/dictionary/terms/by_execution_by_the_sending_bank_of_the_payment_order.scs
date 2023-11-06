@@ -1,0 +1,36 @@
+
+by_execution_by_the_sending_bank_of_the_payment_order
+    => nrel_main_idtf: [execution by the sending bank of the payment order] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнение банком-отправителем платежного поручения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкананне банкам-адпраўшчыкам плацежнага даручэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_execution_by_the_sending_bank_of_the_payment_order_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_execution_of_remittance_order_by_receiving_bank;
+    => nrel_associative_connection: by_interbank_payment_order;
+    => nrel_associative_connection: by_payment_order;
+    => nrel_associative_connection: by_electronic_payment_document_electronic_order_for_payment_electronic_payment_request_electronic_payment_order;
+
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15554?langname=ru];
+    => nrel_etalon_online_idx: [15554];;

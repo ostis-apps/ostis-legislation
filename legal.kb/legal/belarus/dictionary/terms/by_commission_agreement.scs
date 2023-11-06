@@ -1,0 +1,34 @@
+
+by_commission_agreement
+    => nrel_main_idtf: [commission agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор поручения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор даручэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_fiduciary;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_patronage;
+    => nrel_associative_connection: by_law_agent;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3683?langname=ru];
+    => nrel_etalon_online_idx: [3683];;

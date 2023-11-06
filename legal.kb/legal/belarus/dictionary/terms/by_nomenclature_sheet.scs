@@ -1,0 +1,36 @@
+
+by_nomenclature_sheet
+    => nrel_main_idtf: [nomenclature sheet] (* <- lang_en;; *);
+    => nrel_main_idtf: [номенклатурный лист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наменклатурны ліст] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nomenclature_sheet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_goods;
+    => nrel_associative_connection: by_standby_reference_map_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_cases_nomenclature;
+    => nrel_associative_connection: by_graphing_of_map_sheets;
+    => nrel_associative_connection: by_form_of_the_duty_reference_card_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_electronic_archive_of_duty_reference_card;
+
+    => nrel_legal_act: by_act_w22137226;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18230?langname=ru];
+    => nrel_etalon_online_idx: [18230];;

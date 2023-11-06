@@ -1,0 +1,39 @@
+
+by_championship
+    => nrel_main_idtf: [championship] (* <- lang_en;; *);
+    => nrel_main_idtf: [чемпионат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чэмпіянат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_championship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_official_ticket_operator_of_the_championship;
+    => nrel_associative_connection: by_official_tourist_operator_of_the_championship;
+    => nrel_associative_connection: by_championship_partners;
+    => nrel_associative_connection: by_sailing_base;
+    => nrel_associative_connection: by_minutes_of_international_sports_competitions_or_extract;
+    => nrel_associative_connection: by_ticket_operator_system;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_sport_event;
+    => nrel_associative_connection: by_sports_events;
+
+    => nrel_legal_act: by_act_w21124523;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7447?langname=ru];
+    => nrel_etalon_online_idx: [7447];;

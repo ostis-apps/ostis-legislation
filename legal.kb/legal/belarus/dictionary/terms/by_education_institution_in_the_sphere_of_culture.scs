@@ -1,0 +1,33 @@
+
+by_education_institution_in_the_sphere_of_culture
+    => nrel_main_idtf: [education institution in the sphere of culture] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждение образования в сфере культуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установы адукацыi ў сферы культуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_education_institution_in_the_sphere_of_culture_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_culture;
+    => nrel_associative_connection: by_cultural_activity;
+    => nrel_associative_connection: by_culture_institution;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7985?langname=ru];
+    => nrel_etalon_online_idx: [7985];;

@@ -1,0 +1,20 @@
+
+by_long_position
+    => nrel_main_idtf: [long position] (* <- lang_en;; *);
+    => nrel_main_idtf: [длинная позиция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доўгая пазіцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_closed_position;
+    => nrel_associative_connection: by_short_position;
+    => nrel_associative_connection: by_open_position;
+    => nrel_associative_connection: by_position;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11544?langname=ru];
+    => nrel_etalon_online_idx: [11544];;

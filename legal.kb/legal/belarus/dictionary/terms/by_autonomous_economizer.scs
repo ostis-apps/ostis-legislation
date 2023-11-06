@@ -1,0 +1,33 @@
+
+by_autonomous_economizer
+    => nrel_main_idtf: [autonomous economizer] (* <- lang_en;; *);
+    => nrel_main_idtf: [автономный экономайзер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаномны эканамайзер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_autonomous_economizer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_separate_steam_superheater;
+    => nrel_associative_connection: by_boiler_water;
+    => nrel_associative_connection: by_nutritious_water;
+
+    => nrel_legal_act: by_act_w22339669p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42502?langname=ru];
+    => nrel_etalon_online_idx: [42502];;

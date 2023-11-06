@@ -1,0 +1,36 @@
+
+by_electrical_installation_without_local_oncall_personnel
+    => nrel_main_idtf: [electrical installation without local on-call personnel] (* <- lang_en;; *);
+    => nrel_main_idtf: [электроустановка без местного дежурного персонала] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электраўстаноўка без мясцовага дзяжурнага персаналу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electrical_installation_without_local_oncall_personnel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_duty_staff;
+    => nrel_associative_connection: by_electric_power_supply;
+    => nrel_associative_connection: by_outdoor_or_outdoor_electrical_installations;
+    => nrel_associative_connection: by_electrical_installation;
+    => nrel_associative_connection: by_operating_electrical_installation;
+    => nrel_associative_connection: by_electrical_installations_open_or_outdoor;
+
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26669?langname=ru];
+    => nrel_etalon_online_idx: [26669];;

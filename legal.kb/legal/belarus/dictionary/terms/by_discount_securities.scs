@@ -1,0 +1,19 @@
+
+by_discount_securities
+    => nrel_main_idtf: [discount securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [дисконтные ценные бумаги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дысконтныя каштоўныя паперы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_discount;
+    => nrel_associative_connection: by_discounting;
+    => nrel_associative_connection: by_discount_bonds;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8828?langname=ru];
+    => nrel_etalon_online_idx: [8828];;

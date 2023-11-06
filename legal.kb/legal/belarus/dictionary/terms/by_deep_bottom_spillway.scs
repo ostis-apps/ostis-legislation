@@ -1,0 +1,34 @@
+
+by_deep_bottom_spillway
+    => nrel_main_idtf: [deep (bottom) spillway] (* <- lang_en;; *);
+    => nrel_main_idtf: [глубинный (донный) водосброс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [глыбінны (донны) вадаскід] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deep_bottom_spillway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_abutment_pier;
+    => nrel_associative_connection: by_water_basin;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structure_of_general_purpose;
+
+    => nrel_legal_act: by_act_w22136581p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37611?langname=ru];
+    => nrel_etalon_online_idx: [37611];;

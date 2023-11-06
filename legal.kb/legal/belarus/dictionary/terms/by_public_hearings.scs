@@ -1,0 +1,35 @@
+
+by_public_hearings
+    => nrel_main_idtf: [public hearings] (* <- lang_en;; *);
+    => nrel_main_idtf: [публичные слушания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [публічныя слуханні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_hearings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_natural_monopoly;
+    => nrel_associative_connection: by_public_discussion;
+    => nrel_associative_connection: by_body_regulating_the_activity_of_natural_monopolies;
+    => nrel_associative_connection: by_subject_of_natural_monopoly;
+    => nrel_associative_connection: by_sphere_of_natural_monopoly;
+
+    => nrel_legal_act: by_act_h10200162;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33154?langname=ru];
+    => nrel_etalon_online_idx: [33154];;

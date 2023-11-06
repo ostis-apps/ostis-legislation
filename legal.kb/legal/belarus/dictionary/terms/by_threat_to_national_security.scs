@@ -1,0 +1,34 @@
+
+by_threat_to_national_security
+    => nrel_main_idtf: [threat to national security] (* <- lang_en;; *);
+    => nrel_main_idtf: [угроза национальной безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагроза нацыянальнай бяспецы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_threat_to_national_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_bodies_of_the_national_security_system;
+    => nrel_associative_connection: by_source_of_national_security_threat;
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_political_security;
+
+    => nrel_legal_act: by_act_p31000575;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25385?langname=ru];
+    => nrel_etalon_online_idx: [25385];;

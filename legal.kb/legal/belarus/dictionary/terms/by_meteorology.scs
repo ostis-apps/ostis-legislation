@@ -1,0 +1,71 @@
+
+by_meteorology
+    => nrel_main_idtf: [meteorology] (* <- lang_en;; *);
+    => nrel_main_idtf: [метеорология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метэаралогія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meteorology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meteorology_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_meteorology_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agrometeorology;
+    => nrel_associative_connection: by_hydrology;
+    => nrel_associative_connection: by_hydrometeorologist;
+    => nrel_associative_connection: by_hydrometeorological_activity;
+    => nrel_associative_connection: by_hydrometeorological_service;
+    => nrel_associative_connection: by_climate;
+    => nrel_associative_connection: by_meteorological_subdivision;
+    => nrel_associative_connection: by_dangerous_weather_phenomena;
+    => nrel_associative_connection: by_environmental_protection;
+
+    => nrel_legal_act: by_act_w22340510p;
+    => nrel_legal_act: by_act_w21934552p;
+    => nrel_legal_act: by_act_w21934285p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2802?langname=ru];
+    => nrel_etalon_online_idx: [2802];;

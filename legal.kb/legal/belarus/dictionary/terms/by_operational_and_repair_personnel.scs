@@ -1,0 +1,34 @@
+
+by_operational_and_repair_personnel
+    => nrel_main_idtf: [operational and repair personnel] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативно-ремонтный персонал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўна-рамонтны персанал] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_and_repair_personnel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_operational_staff;
+    => nrel_associative_connection: by_electrical_protection_facilities;
+    => nrel_associative_connection: by_electrotechnical_personnel;
+    => nrel_associative_connection: by_electrical_technology_staff;
+
+    => nrel_legal_act: by_act_w22339903p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42563?langname=ru];
+    => nrel_etalon_online_idx: [42563];;

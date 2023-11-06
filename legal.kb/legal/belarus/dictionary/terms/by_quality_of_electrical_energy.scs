@@ -1,0 +1,34 @@
+
+by_quality_of_electrical_energy
+    => nrel_main_idtf: [quality of electrical energy] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество электрической энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць электрычнай энергіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quality_of_electrical_energy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_unified_operational_dispatch_control_in_the_electric_power_industry;
+    => nrel_associative_connection: by_throughput_of_the_electrical_network;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15843?langname=ru];
+    => nrel_etalon_online_idx: [15843];;

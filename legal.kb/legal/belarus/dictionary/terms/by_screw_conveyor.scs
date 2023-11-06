@@ -1,0 +1,44 @@
+
+by_screw_conveyor
+    => nrel_main_idtf: [screw conveyor] (* <- lang_en;; *);
+    => nrel_main_idtf: [винтовой конвейер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шрубавы канвеер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_screw_conveyor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vibrating_conveyor;
+    => nrel_associative_connection: by_inertia_conveyor;
+    => nrel_associative_connection: by_swinging_conveyor;
+    => nrel_associative_connection: by_bucket_conveyor;
+    => nrel_associative_connection: by_conveyor;
+    => nrel_associative_connection: by_belt_conveyor;
+    => nrel_associative_connection: by_swing_tray_conveyor;
+    => nrel_associative_connection: by_plate_conveyor;
+    => nrel_associative_connection: by_suspended_conveyor;
+    => nrel_associative_connection: by_roller_conveyor;
+    => nrel_associative_connection: by_scraper_conveyor;
+    => nrel_associative_connection: by_car_conveyor;
+    => nrel_associative_connection: by_pusher_suspension_conveyor;
+    => nrel_associative_connection: by_chain_conveyor;
+
+    => nrel_legal_act: by_act_w20716366;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13005?langname=ru];
+    => nrel_etalon_online_idx: [13005];;

@@ -1,0 +1,20 @@
+
+by_interconnected_claims_and_commitments
+    => nrel_main_idtf: [interconnected claims and commitments] (* <- lang_en;; *);
+    => nrel_main_idtf: [взаимосвязанные требования и обязательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узаемазвязаныя патрабаванні і абавязацельствы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_guarantor;
+    => nrel_associative_connection: by_client_counterparty;
+    => nrel_associative_connection: by_counterparty;
+    => nrel_associative_connection: by_obligation;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8083?langname=ru];
+    => nrel_etalon_online_idx: [8083];;

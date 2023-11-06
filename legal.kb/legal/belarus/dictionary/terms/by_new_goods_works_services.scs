@@ -1,0 +1,37 @@
+
+by_new_goods_works_services
+    => nrel_main_idtf: [new goods (works, services)] (* <- lang_en;; *);
+    => nrel_main_idtf: [новые товары (работы, услуги)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [новыя тавары (работы, паслугі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_new_goods_works_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_new_production;
+    => nrel_associative_connection: by_new_invention;
+    => nrel_associative_connection: by_new_type_of_products;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_good_work_service;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_services;
+
+    => nrel_legal_act: by_act_w21833104;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28331?langname=ru];
+    => nrel_etalon_online_idx: [28331];;

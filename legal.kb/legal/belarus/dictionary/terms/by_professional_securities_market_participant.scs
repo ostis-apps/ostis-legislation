@@ -1,0 +1,48 @@
+
+by_professional_securities_market_participant
+    => nrel_main_idtf: [professional securities market participant] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональный участник рынка ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійны ўдзельнік рынку каштоўных папер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_securities_market_participant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_securities_market_participant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_a_structural_unit_of_a_professional_participant_of_the_securities_market_carrying_out_professional_and_exchange_activities_in_securities;
+    => nrel_associative_connection: by_stock_exchange;
+
+    => nrel_legal_act: by_act_h11500231;
+    => nrel_legal_act: by_act_f01400176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21743?langname=ru];
+    => nrel_etalon_online_idx: [21743];;

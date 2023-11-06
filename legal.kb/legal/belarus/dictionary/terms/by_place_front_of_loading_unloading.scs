@@ -1,0 +1,36 @@
+
+by_place_front_of_loading_unloading
+    => nrel_main_idtf: [place (front) of loading, unloading] (* <- lang_en;; *);
+    => nrel_main_idtf: [место (фронт) погрузки, выгрузки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца (фронт) пагрузкі, выгрузкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_place_front_of_loading_unloading_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_capacity_of_the_loading_place_unloading_front_size;
+    => nrel_associative_connection: by_loading_and_unloading_works;
+    => nrel_associative_connection: by_loader;
+    => nrel_associative_connection: by_pan;
+    => nrel_associative_connection: by_full_load;
+    => nrel_associative_connection: by_loadingunloading_point;
+
+    => nrel_legal_act: by_act_w20818622;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17245?langname=ru];
+    => nrel_etalon_online_idx: [17245];;

@@ -1,0 +1,36 @@
+
+by_by_scattered_radiation
+    => nrel_main_idtf: [by_scattered_radiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [рассеянное лучевое излучение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рассеянае прамянёвае выпраменьванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_scattered_radiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_single_exposure_to_radiation;
+    => nrel_associative_connection: by_transmittance_transmittance;
+    => nrel_associative_connection: by_dissipation;
+    => nrel_associative_connection: by_radiation_divergence;
+    => nrel_associative_connection: by_chronic_exposure_to_radiation;
+    => nrel_associative_connection: by_frequency_of_repetition_of_radiation_pulses;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41734?langname=ru];
+    => nrel_etalon_online_idx: [41734];;

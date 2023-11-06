@@ -1,0 +1,35 @@
+
+by_protein_raw_materials
+    => nrel_main_idtf: [protein raw materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [белковое сырье] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бялковая сыравіна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protein_raw_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_complex_of_field_works_in_2020;
+    => nrel_associative_connection: by_complex_of_field_work_in_2023;
+    => nrel_associative_connection: by_subjects_carrying_out_activities_in_the_area_of_agroindustrial_production;
+    => nrel_associative_connection: by_raw_material;
+    => nrel_associative_connection: by_raw_material;
+
+    => nrel_legal_act: by_act_c22200973;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42011?langname=ru];
+    => nrel_etalon_online_idx: [42011];;

@@ -1,0 +1,35 @@
+
+by_patent_body
+    => nrel_main_idtf: [patent body] (* <- lang_en;; *);
+    => nrel_main_idtf: [патентный орган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патэнтны орган] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_patent_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_competent_authority;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_patent_agent;
+
+    => nrel_legal_act: by_act_c22000468;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33988?langname=ru];
+    => nrel_etalon_online_idx: [33988];;

@@ -1,0 +1,48 @@
+
+by_deratization
+    => nrel_main_idtf: [deratization] (* <- lang_en;; *);
+    => nrel_main_idtf: [дератизация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэратызацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deratization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deratization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_barrier_deratization;
+    => nrel_associative_connection: by_disinfection_disinsection_and_deratization_activities;
+
+    => nrel_legal_act: by_act_w22136233p;
+    => nrel_legal_act: by_act_w21933870p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31816?langname=ru];
+    => nrel_etalon_online_idx: [31816];;

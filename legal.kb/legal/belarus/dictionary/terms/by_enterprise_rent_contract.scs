@@ -1,0 +1,33 @@
+
+by_enterprise_rent_contract
+    => nrel_main_idtf: [enterprise rent contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор аренды предприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор арэнды прадпрыемства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_enterprise_rent_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rent_contract;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_amount_of_the_lease_fee;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3764?langname=ru];
+    => nrel_etalon_online_idx: [3764];;

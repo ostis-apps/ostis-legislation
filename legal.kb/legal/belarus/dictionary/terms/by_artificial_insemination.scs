@@ -1,0 +1,33 @@
+
+by_artificial_insemination
+    => nrel_main_idtf: [artificial insemination] (* <- lang_en;; *);
+    => nrel_main_idtf: [искусственная инсеминация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штучная інсемінацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_artificial_insemination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assisted_reproductive_technology;
+    => nrel_associative_connection: by_germ_cells;
+    => nrel_associative_connection: by_in_vitro_fertilisation;
+
+    => nrel_legal_act: by_act_h11200341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10406?langname=ru];
+    => nrel_etalon_online_idx: [10406];;

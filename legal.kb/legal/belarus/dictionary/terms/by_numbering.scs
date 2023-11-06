@@ -1,0 +1,37 @@
+
+by_numbering
+    => nrel_main_idtf: [numbering] (* <- lang_en;; *);
+    => nrel_main_idtf: [нумерация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нумарацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_numbering_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commodity_numeration_association_ean_belarus;
+    => nrel_associative_connection: by_international_commodity_numbering_system;
+    => nrel_associative_connection: by_location_number;
+    => nrel_associative_connection: by_numeration_resource;
+    => nrel_associative_connection: by_system_and_numbering_plan_of_the_public_telecommunication_network;
+    => nrel_associative_connection: by_ean_system_of_commodity_numbering;
+    => nrel_associative_connection: by_commodity_numbering;
+
+    => nrel_legal_act: by_act_h10500045;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18358?langname=ru];
+    => nrel_etalon_online_idx: [18358];;

@@ -1,0 +1,35 @@
+
+by_state_sign_of_postal_payment
+    => nrel_main_idtf: [state sign of postal payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный знак почтовой оплаты ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны знак паштовай аплаты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_sign_of_postal_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_marks_of_postal_payments;
+    => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_registered_postal_item;
+    => nrel_associative_connection: by_standard_postal_stamp;
+
+    => nrel_legal_act: by_act_h10300258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32352?langname=ru];
+    => nrel_etalon_online_idx: [32352];;

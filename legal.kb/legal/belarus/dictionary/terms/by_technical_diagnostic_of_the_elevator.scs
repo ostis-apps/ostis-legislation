@@ -1,0 +1,35 @@
+
+by_technical_diagnostic_of_the_elevator
+    => nrel_main_idtf: [technical diagnostic of the elevator] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническое диагностирование подъемника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічнае дыягнаставанне пад'ёмніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_diagnostic_of_the_elevator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_elevator_owner;
+    => nrel_associative_connection: by_elevator_modernization;
+    => nrel_associative_connection: by_building_elevator;
+    => nrel_associative_connection: by_building_passengerandfreight_elevator;
+    => nrel_associative_connection: by_technical_state;
+
+    => nrel_legal_act: by_act_w20613989;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24906?langname=ru];
+    => nrel_etalon_online_idx: [24906];;

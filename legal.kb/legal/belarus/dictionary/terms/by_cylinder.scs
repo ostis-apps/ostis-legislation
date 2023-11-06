@@ -1,0 +1,31 @@
+
+by_cylinder
+    => nrel_main_idtf: [cylinder] (* <- lang_en;; *);
+    => nrel_main_idtf: [баллон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [балон] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cylinder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_group_cylinder_installation;
+
+    => nrel_legal_act: by_act_f91300137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12643?langname=ru];
+    => nrel_etalon_online_idx: [12643];;

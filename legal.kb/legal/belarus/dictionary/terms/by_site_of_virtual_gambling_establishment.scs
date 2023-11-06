@@ -1,0 +1,37 @@
+
+by_site_of_virtual_gambling_establishment
+    => nrel_main_idtf: [site of virtual gambling establishment] (* <- lang_en;; *);
+    => nrel_main_idtf: [сайт виртуального игорного заведения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сайт віртуальнай ігральнай установы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_site_of_virtual_gambling_establishment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authentication_of_gamble_participant;
+    => nrel_associative_connection: by_gamble_demonstration_version;
+    => nrel_associative_connection: by_game_session;
+    => nrel_associative_connection: by_game_account;
+    => nrel_associative_connection: by_customer_program;
+    => nrel_associative_connection: by_personal_account_of_gamble_participant;
+    => nrel_associative_connection: by_platform__of_virtual_gambling_establishment;
+
+    => nrel_legal_act: by_act_c21900139;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30919?langname=ru];
+    => nrel_etalon_online_idx: [30919];;

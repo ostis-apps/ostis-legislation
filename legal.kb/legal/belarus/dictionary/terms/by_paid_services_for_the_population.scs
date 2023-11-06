@@ -1,0 +1,62 @@
+
+by_paid_services_for_the_population
+    => nrel_main_idtf: [paid services for the population] (* <- lang_en;; *);
+    => nrel_main_idtf: [платные услуги населению] (* <- lang_ru;; *);
+    => nrel_main_idtf: [платныя паслугі насельніцтву] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_paid_services_for_the_population_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_paid_services_for_the_population_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_subscribtion_to_provide_domestic_services;
+    => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_domestic_services;
+    => nrel_associative_connection: by_paid_services_contract;
+    => nrel_associative_connection: by_other_services;
+    => nrel_associative_connection: by_purchase_of_goods_works_and_services;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_provider_of_services;
+    => nrel_associative_connection: by_consumer_of_works_services;
+    => nrel_associative_connection: by_provision_of_services;
+    => nrel_associative_connection: by_sale_of_goods_work_service;
+    => nrel_associative_connection: by_market_for_goods_works_services;
+    => nrel_associative_connection: by_service_market;
+    => nrel_associative_connection: by_good_work_service;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+    => nrel_legal_act: by_act_t21603506p;
+    => nrel_legal_act: by_act_w20105310;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20240?langname=ru];
+    => nrel_etalon_online_idx: [20240];;

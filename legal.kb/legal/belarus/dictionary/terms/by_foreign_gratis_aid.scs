@@ -1,0 +1,33 @@
+
+by_foreign_gratis_aid
+    => nrel_main_idtf: [foreign gratis aid] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранная безвозмездная помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежная бязвыплатная дапамога] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_gratis_aid_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_foreign_subjects;
+
+    => nrel_legal_act: by_act_pd2000003;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5896?langname=ru];
+    => nrel_etalon_online_idx: [5896];;

@@ -1,0 +1,34 @@
+
+by_cabin_luggage
+    => nrel_main_idtf: [cabin luggage] (* <- lang_en;; *);
+    => nrel_main_idtf: [каютный багаж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каютны багаж] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cabin_luggage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_luggage;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_merchant_shipping;
+
+    => nrel_legal_act: by_act_hk9900321;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15844?langname=ru];
+    => nrel_etalon_online_idx: [15844];;

@@ -1,0 +1,20 @@
+
+by_by_responsible_for_filling
+    => nrel_main_idtf: [by_responsible_for_filling] (* <- lang_en;; *);
+    => nrel_main_idtf: [ответственный за наполнение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адказны за напаўненне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_unit;
+    => nrel_associative_connection: by_filling_pressure;
+    => nrel_associative_connection: by_filling_rate;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19472?langname=ru];
+    => nrel_etalon_online_idx: [19472];;

@@ -1,0 +1,37 @@
+
+by_competition_organizer_auction
+    => nrel_main_idtf: [competition organizer (auction)] (* <- lang_en;; *);
+    => nrel_main_idtf: [организатор конкурса (аукциона)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізатар конкурсу (аўкцыёну)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_competition_organizer_auction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_date_of_the_auction;
+    => nrel_associative_connection: by_commission_for_holding_a_competition_auction;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_competition_commission;
+    => nrel_associative_connection: by_board_lot;
+    => nrel_associative_connection: by_auction_organizer;
+
+    => nrel_legal_act: by_act_c21400054;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19156?langname=ru];
+    => nrel_etalon_online_idx: [19156];;

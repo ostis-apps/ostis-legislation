@@ -1,0 +1,25 @@
+
+by_breach_of_communication
+    => nrel_main_idtf: [breach of communication] (* <- lang_en;; *);
+    => nrel_main_idtf: [нарушение связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парушэнне сувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_emergency_alert__service_of_emergency_alert;
+    => nrel_associative_connection: by_range_of_radio_frequencies;
+    => nrel_associative_connection: by_engineering_and_technical_staff;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_malfunction_malfunctional_state;
+    => nrel_associative_connection: by_rejection_of_means_object;
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_communications_operation;
+    => nrel_associative_connection: by_service_bases_subdivision_ertos;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31107?langname=ru];
+    => nrel_etalon_online_idx: [31107];;

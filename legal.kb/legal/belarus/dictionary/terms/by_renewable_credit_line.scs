@@ -1,0 +1,35 @@
+
+by_renewable_credit_line
+    => nrel_main_idtf: [renewable credit line] (* <- lang_en;; *);
+    => nrel_main_idtf: [возобновляемая кредитная линия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднаўляльная крэдытная лінія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_renewable_credit_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_credit_indebtedness;
+    => nrel_associative_connection: by_credit_line;
+    => nrel_associative_connection: by_credit_contract;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_term_of_the_loan_term_of_renewability_of_the_credit_line;
+
+    => nrel_legal_act: by_act_b21832980;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7316?langname=ru];
+    => nrel_etalon_online_idx: [7316];;

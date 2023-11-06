@@ -1,0 +1,69 @@
+
+by_archive_stock
+    => nrel_main_idtf: [archive stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивный фонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архіўны фонд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_stock_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_collection;
+    => nrel_associative_connection: by_archive_business;
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_archive_catalogue;
+    => nrel_associative_connection: by_archive_catalog_archive_cardboard;
+    => nrel_associative_connection: by_archive_fund_of_organizations;
+    => nrel_associative_connection: by_archival_science;
+    => nrel_associative_connection: by_biographical_inquiry;
+    => nrel_associative_connection: by_state_archive;
+    => nrel_associative_connection: by_state_stock_catalog_of_the_national_archival_fund_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_documentary_fund;
+    => nrel_associative_connection: by_inquiry;
+    => nrel_associative_connection: by_catalogue_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_archive_completion;
+    => nrel_associative_connection: by_completing_the_archive_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_national_archive_fund;
+    => nrel_associative_connection: by_archive_profile;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+    => nrel_associative_connection: by_record_keeping_of_documents;
+    => nrel_associative_connection: by_fund;
+    => nrel_associative_connection: by_expertise_of_the_documents_value;
+
+    => nrel_legal_act: by_act_h11100323;
+    => nrel_legal_act: by_act_n29900018;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1038?langname=ru];
+    => nrel_etalon_online_idx: [1038];;

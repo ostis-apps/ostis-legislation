@@ -1,0 +1,36 @@
+
+by_insufficient_visibility_of_road
+    => nrel_main_idtf: [insufficient visibility of road] (* <- lang_en;; *);
+    => nrel_main_idtf: [недостаточная видимость дороги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [недастатковая бачнасць дарогі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insufficient_visibility_of_road_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_visibility;
+    => nrel_associative_connection: by_visibility_of_the_road;
+    => nrel_associative_connection: by_adverse_weather_conditions;
+    => nrel_associative_connection: by_road_visibility;
+    => nrel_associative_connection: by_limited_visibility;
+    => nrel_associative_connection: by_limited_review;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17956?langname=ru];
+    => nrel_etalon_online_idx: [17956];;

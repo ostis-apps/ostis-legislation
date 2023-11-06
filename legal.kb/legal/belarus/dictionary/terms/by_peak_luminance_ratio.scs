@@ -1,0 +1,31 @@
+
+by_peak_luminance_ratio
+    => nrel_main_idtf: [peak luminance ratio] (* <- lang_en;; *);
+    => nrel_main_idtf: [максимальное отношение яркости (peak luminance ratio)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [максімальнае дачыненне зыркасці (peak luminance ratio)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peak_luminance_ratio_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_forced_menu;
+
+    => nrel_legal_act: by_act_w02036024p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37461?langname=ru];
+    => nrel_etalon_online_idx: [37461];;

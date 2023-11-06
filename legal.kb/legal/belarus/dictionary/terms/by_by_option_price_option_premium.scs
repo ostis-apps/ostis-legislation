@@ -1,0 +1,23 @@
+
+by_by_option_price_option_premium
+    => nrel_main_idtf: [by_option_price_option_premium] (* <- lang_en;; *);
+    => nrel_main_idtf: [цена опциона (опционная премия)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цана апцыёна (апцыйная прэмія)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_remuneration;
+    => nrel_associative_connection: by_right_of_choice;
+    => nrel_associative_connection: by_the_purchase_option;
+    => nrel_associative_connection: by_put_option;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_tariff;
+    => nrel_associative_connection: by_strike_price_strike_price;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26207?langname=ru];
+    => nrel_etalon_online_idx: [26207];;

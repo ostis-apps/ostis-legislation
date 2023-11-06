@@ -1,0 +1,20 @@
+
+by_conservation_buffer
+    => nrel_main_idtf: [conservation buffer] (* <- lang_en;; *);
+    => nrel_main_idtf: [консервационный буфер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кансервацыйны буфер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_suspension;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_conservatism_principle;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8112?langname=ru];
+    => nrel_etalon_online_idx: [8112];;

@@ -1,0 +1,39 @@
+
+by_cable_transmission_cable_broadcasting
+    => nrel_main_idtf: [cable transmission (cable broadcasting)] (* <- lang_en;; *);
+    => nrel_main_idtf: [передача по кабелю (кабельное вещание)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадача па кабелі (кабельнае вяшчанне)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cable_transmission_cable_broadcasting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_subscribers_socket;
+    => nrel_associative_connection: by_broadcasting_of_television_or_radio_programs;
+    => nrel_associative_connection: by_individual_aerials_and_other_constructions;
+    => nrel_associative_connection: by_transfer;
+    => nrel_associative_connection: by_broadcasting_air_broadcasting;
+    => nrel_associative_connection: by_transfer_of_organization_of_air_or_cable_broadcasting;
+    => nrel_associative_connection: by_cable_television_system;
+    => nrel_associative_connection: by_communication_to_the_public;
+    => nrel_associative_connection: by_wired_broadcast_service;
+
+    => nrel_legal_act: by_act_h11100262;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10527?langname=ru];
+    => nrel_etalon_online_idx: [10527];;

@@ -1,0 +1,40 @@
+
+by_institution_of_specialized_education
+    => nrel_main_idtf: [institution of specialized education] (* <- lang_en;; *);
+    => nrel_main_idtf: [учреждение специального образования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [установа спецыяльнай адукацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_institution_of_specialized_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foster_child;
+    => nrel_associative_connection: by_ancillary_school_ancillary_boarding_school;
+    => nrel_associative_connection: by_children_in_need_of_recreation;
+    => nrel_associative_connection: by_additional_education_for_children_and_youth;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_program_for_preparing_individuals_for_admission_to_education_institutions_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_educational_service;
+    => nrel_associative_connection: by_upbringing_program;
+    => nrel_associative_connection: by_specialized_education;
+    => nrel_associative_connection: by_education_institution;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4165?langname=ru];
+    => nrel_etalon_online_idx: [4165];;

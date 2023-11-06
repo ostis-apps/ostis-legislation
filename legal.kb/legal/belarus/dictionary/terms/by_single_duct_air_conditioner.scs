@@ -1,0 +1,52 @@
+
+by_single_duct_air_conditioner
+    => nrel_main_idtf: [single duct air conditioner] (* <- lang_en;; *);
+    => nrel_main_idtf: [кондиционер воздуха с одним воздуховодом; одноканальный кондиционер (single duct air conditioner)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кандыцыянер паветра з адным паветраводам; аднаканальны кандыцыянер (single duct air conditioner)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_single_duct_air_conditioner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_single_duct_air_conditioner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_control_valve;
+    => nrel_associative_connection: by_air_conditioner;
+    => nrel_associative_connection: by_double_duct_air_conditioner;
+    => nrel_associative_connection: by_air_conditioning;
+    => nrel_associative_connection: by_nominal_air_flow_rate;
+    => nrel_associative_connection: by_single_duct;
+
+    => nrel_legal_act: by_act_w02035831p;
+    => nrel_legal_act: by_act_w02035831p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35040?langname=ru];
+    => nrel_etalon_online_idx: [35040];;

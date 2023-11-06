@@ -1,0 +1,36 @@
+
+by_average_statistical_vehicle_mileage
+    => nrel_main_idtf: [average statistical vehicle mileage] (* <- lang_en;; *);
+    => nrel_main_idtf: [среднестатистический пробег транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэднестатыстычны прабег транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_average_statistical_vehicle_mileage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vehicle_run_category;
+    => nrel_associative_connection: by_checking_the_technical_condition_and_structure_of_the_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_reasonable_availability_of_car_service_organization;
+    => nrel_associative_connection: by_calculated_vehicle_mileage;
+    => nrel_associative_connection: by_system_of_active_vehicle_safety;
+    => nrel_associative_connection: by_actual_vehicle_mileage;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23993?langname=ru];
+    => nrel_etalon_online_idx: [23993];;

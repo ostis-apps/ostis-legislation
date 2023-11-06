@@ -1,0 +1,58 @@
+
+by_financing
+    => nrel_main_idtf: [financing] (* <- lang_en;; *);
+    => nrel_main_idtf: [финансирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фінансаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_blocking;
+    => nrel_associative_connection: by_budget_programs;
+    => nrel_associative_connection: by_contribution_by_citizens_of_own_funds;
+    => nrel_associative_connection: by_financing_at_assignment_monetary_claim_agreement_factoring_agreement;
+    => nrel_associative_connection: by_commercial_investment_project;
+    => nrel_associative_connection: by_indirect_cofinancing;
+    => nrel_associative_connection: by_nonprofit_investment_project;
+    => nrel_associative_connection: by_direct_cofinancing;
+    => nrel_associative_connection: by_writeoff_decision;
+    => nrel_associative_connection: by_financing_proliferation_of_weapons_of_mass_destruction;
+    => nrel_associative_connection: by_financing_of_current_activity;
+    => nrel_associative_connection: by_financial_validity_of_investment_project;
+
+    => nrel_legal_act: by_act_c22000414;
+    => nrel_legal_act: by_act_w00003138;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25982?langname=ru];
+    => nrel_etalon_online_idx: [25982];;

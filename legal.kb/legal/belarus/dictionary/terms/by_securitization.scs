@@ -1,0 +1,37 @@
+
+by_securitization
+    => nrel_main_idtf: [securitization] (* <- lang_en;; *);
+    => nrel_main_idtf: [секьюритизация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [секьюрытызация] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_securitization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bonds_emitted_by_a_special_financial_organization;
+    => nrel_associative_connection: by_homogeneity_of_rights_requirements;
+    => nrel_associative_connection: by_securitization_operation;
+    => nrel_associative_connection: by_revenues_on_the_rights_requirements;
+    => nrel_associative_connection: by_specialized_depositary;
+    => nrel_associative_connection: by_special_financial_organization;
+    => nrel_associative_connection: by_financial_organization;
+
+    => nrel_legal_act: by_act_p31700154;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22995?langname=ru];
+    => nrel_etalon_online_idx: [22995];;

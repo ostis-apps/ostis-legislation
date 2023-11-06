@@ -1,0 +1,43 @@
+
+by_foreign_policy
+    => nrel_main_idtf: [foreign policy] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешняя политика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешняя палітыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_policy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_trade_policy;
+    => nrel_associative_connection: by_external_policy_of_the_state;
+    => nrel_associative_connection: by_military_security_of_state;
+    => nrel_associative_connection: by_military_doctrine_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_war;
+    => nrel_associative_connection: by_state_frontier_policy;
+    => nrel_associative_connection: by_state_sovereignty;
+    => nrel_associative_connection: by_common_economic_area;
+    => nrel_associative_connection: by_foreign_affairs;
+    => nrel_associative_connection: by_ministry_of_foreign_affairs_of_the_republic_of_belarus_mfa;
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_policy_laws;
+    => nrel_associative_connection: by_program_law;
+
+    => nrel_legal_act: by_act_w22136564p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1202?langname=ru];
+    => nrel_etalon_online_idx: [1202];;

@@ -1,0 +1,46 @@
+
+by_electric_power_supply
+    => nrel_main_idtf: [electric power supply ] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник питания электроэнергией] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца сілкавання электраэнергіяй] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_power_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highpressure_generator;
+    => nrel_associative_connection: by_main_distribution_electrical_device_of_power_station;
+    => nrel_associative_connection: by_complete_distribution_device;
+    => nrel_associative_connection: by_complete_distribution_device_of_external_installation;
+    => nrel_associative_connection: by_outdoor_or_outdoor_electrical_installations;
+    => nrel_associative_connection: by_distribution_device;
+    => nrel_associative_connection: by_switchgear_own_needs;
+    => nrel_associative_connection: by_combined_heat_and_power_plant;
+    => nrel_associative_connection: by_specifications_for_the_connection_of_electrical_installations_of_consumers_to_the_electric_network;
+    => nrel_associative_connection: by_electric_power_plant_power_plant;
+    => nrel_associative_connection: by_electrical_switchgear;
+    => nrel_associative_connection: by_electrical_installation;
+    => nrel_associative_connection: by_electrical_installation_without_local_oncall_personnel;
+    => nrel_associative_connection: by_operating_electrical_installation;
+    => nrel_associative_connection: by_electrical_installations_open_or_outdoor;
+    => nrel_associative_connection: by_energy_sources_sources_of_energy;
+
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15657?langname=ru];
+    => nrel_etalon_online_idx: [15657];;

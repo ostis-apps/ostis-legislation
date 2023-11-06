@@ -1,0 +1,34 @@
+
+by_organizer_of_electronic_bidding
+    => nrel_main_idtf: [organizer of electronic bidding ] (* <- lang_en;; *);
+    => nrel_main_idtf: [организатор электронных торгов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізатар электронных таргоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizer_of_electronic_bidding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_operator_of_an_electronic_trade_platform;
+    => nrel_associative_connection: by_competition_organizer;
+    => nrel_associative_connection: by_step_of_electronic_bidding;
+    => nrel_associative_connection: by_electronic_bidding;
+
+    => nrel_legal_act: by_act_c21300608;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10364?langname=ru];
+    => nrel_etalon_online_idx: [10364];;

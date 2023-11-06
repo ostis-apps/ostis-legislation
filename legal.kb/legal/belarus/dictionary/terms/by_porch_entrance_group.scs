@@ -1,0 +1,34 @@
+
+by_porch_entrance_group
+    => nrel_main_idtf: [porch (entrance group)] (* <- lang_en;; *);
+    => nrel_main_idtf: [крыльцо (входная группа)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ганак (уваходная група)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_porch_entrance_group_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28443?langname=ru];
+    => nrel_etalon_online_idx: [28443];;

@@ -1,0 +1,37 @@
+
+by_mirror_reflected_laser_radiation
+    => nrel_main_idtf: [mirror reflected laser radiation] (* <- lang_en;; *);
+    => nrel_main_idtf: [зеркально отраженное лазерное излучение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [люстрана адлюставанае лазернае выпраменьванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mirror_reflected_laser_radiation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aperture;
+    => nrel_associative_connection: by_eyesafe_laser_distance;
+    => nrel_associative_connection: by_diffusely_reflected_laser_radiation;
+    => nrel_associative_connection: by_pulse_laser_radiation;
+    => nrel_associative_connection: by_collimated_laser_radiation;
+    => nrel_associative_connection: by_continuous_laser_radiation;
+    => nrel_associative_connection: by_laser_alignment;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41714?langname=ru];
+    => nrel_etalon_online_idx: [41714];;

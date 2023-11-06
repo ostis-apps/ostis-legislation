@@ -1,0 +1,51 @@
+
+by_religious_building_construction
+    => nrel_main_idtf: [religious building (construction)] (* <- lang_en;; *);
+    => nrel_main_idtf: [культовое здание (сооружение)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [культавы будынак (збудаванне)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_religious_building_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_religious_building_construction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_act_of_worship;
+    => nrel_associative_connection: by_spiritual_complex;
+    => nrel_associative_connection: by_religious_property;
+    => nrel_associative_connection: by_religious_activity;
+    => nrel_associative_connection: by_religious_rituals_and_ceremonies;
+
+    => nrel_legal_act: by_act_w222p0022;
+    => nrel_legal_act: by_act_n21400173;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9311?langname=ru];
+    => nrel_etalon_online_idx: [9311];;

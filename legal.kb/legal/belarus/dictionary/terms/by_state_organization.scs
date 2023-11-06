@@ -1,0 +1,70 @@
+
+by_state_organization
+    => nrel_main_idtf: [state organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_organization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_higher_state_authority;
+    => nrel_associative_connection: by_higher_recourse_state_organization;
+    => nrel_associative_connection: by_annual_bonus;
+    => nrel_associative_connection: by_state_organization_organization_with_a_share_of_the_state;
+    => nrel_associative_connection: by_state_organization_of_the_ussr_or_union_republics;
+    => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_state_specialized_organization;
+    => nrel_associative_connection: by_state_energy_supply_organization;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_state_bodies_and_state_organizations;
+    => nrel_associative_connection: by_state_bodies_and_state_organizations_not_belonging_to_the_structure_of_the_government_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_customer_of_national_program_event;
+    => nrel_associative_connection: by_concession_authority;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_regulating_bodies;
+    => nrel_associative_connection: by_republican_body;
+    => nrel_associative_connection: by_service_of_issuance_of_unique_identifiers;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_system_subjects;
+    => nrel_associative_connection: by_lossmaking_governmental_organization;
+    => nrel_associative_connection: by_unitary_enterprise;
+    => nrel_associative_connection: by_institution;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_p31900304;
+    => nrel_legal_act: by_act_p30600296;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5569?langname=ru];
+    => nrel_etalon_online_idx: [5569];;

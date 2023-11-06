@@ -1,0 +1,43 @@
+
+by_prepayment
+    => nrel_main_idtf: [prepayment] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоплата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадаплата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prepayment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_advance_payments;
+    => nrel_associative_connection: by_receipt;
+    => nrel_associative_connection: by_incomplete_payment;
+    => nrel_associative_connection: by_prepaid_payment;
+    => nrel_associative_connection: by_balance_of_prepayment_means;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_travel_with_nonpaid_or_incomplete_paymen;
+    => nrel_associative_connection: by_regime_of_pay;
+    => nrel_associative_connection: by_payment_control_system;
+    => nrel_associative_connection: by_fee_collection_station;
+    => nrel_associative_connection: by_electronic_payment_device;
+
+    => nrel_legal_act: by_act_c21300340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21043?langname=ru];
+    => nrel_etalon_online_idx: [21043];;

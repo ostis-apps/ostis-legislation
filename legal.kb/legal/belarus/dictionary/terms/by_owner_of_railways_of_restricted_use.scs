@@ -1,0 +1,44 @@
+
+by_owner_of_railways_of_restricted_use
+    => nrel_main_idtf: [owner of railways of restricted use] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец железнодорожного пути необщего пользования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік чыгуначнага шляху неагульнага карыстання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_railways_of_restricted_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_branch_owner;
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_railroad_station;
+    => nrel_associative_connection: by_railway_vehicle;
+    => nrel_associative_connection: by_railway_lines;
+    => nrel_associative_connection: by_railways;
+    => nrel_associative_connection: by_railways_of_restricted_use;
+    => nrel_associative_connection: by_public_railways;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_railway_transport_of_restricted_use;
+    => nrel_associative_connection: by_public_railway_transport;
+    => nrel_associative_connection: by_shunting_order_of_movement;
+    => nrel_associative_connection: by_places_of_uncommon_use;
+
+    => nrel_legal_act: by_act_w20818622;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13033?langname=ru];
+    => nrel_etalon_online_idx: [13033];;

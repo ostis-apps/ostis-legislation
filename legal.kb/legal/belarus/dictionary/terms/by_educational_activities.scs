@@ -1,0 +1,39 @@
+
+by_educational_activities
+    => nrel_main_idtf: [educational activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [воспитательные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выхаваўчыя мерапрыемствы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_educational_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upbringing;
+    => nrel_associative_connection: by_upringing_work;
+    => nrel_associative_connection: by_educational_impact;
+    => nrel_associative_connection: by_upbringing_process;
+    => nrel_associative_connection: by_group_upringing_event_with_convicted_person;
+    => nrel_associative_connection: by_individual_educative_measure_with_the_convicted;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_program_and_planning_documentation_of_upbringing;
+    => nrel_associative_connection: by_rally;
+
+    => nrel_legal_act: by_act_w21429042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13225?langname=ru];
+    => nrel_etalon_online_idx: [13225];;

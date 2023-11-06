@@ -1,0 +1,71 @@
+
+by_marking_code
+    => nrel_main_idtf: [marking code] (* <- lang_en;; *);
+    => nrel_main_idtf: [код маркировки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [код маркіроўкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marking_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marking_code_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marking_code_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authorisation;
+    => nrel_associative_connection: by_protected_material_carrier;
+    => nrel_associative_connection: by_secured_material_carrier_with_applied_identification_means;
+    => nrel_associative_connection: by_marked_goods;
+    => nrel_associative_connection: by_marking;
+    => nrel_associative_connection: by_turnover_of_control_identification_signs;
+    => nrel_associative_connection: by_turnover_of_identification_means_marking_codes;
+    => nrel_associative_connection: by_products_made_on_the_territory_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_authorized_warehouse;
+
+    => nrel_legal_act: by_act_p31100243;
+    => nrel_legal_act: by_act_f92200279;
+    => nrel_legal_act: by_act_f92100092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32603?langname=ru];
+    => nrel_etalon_online_idx: [32603];;

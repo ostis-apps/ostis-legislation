@@ -1,0 +1,50 @@
+
+by_integrity_and_authenticity_of_the_information
+    => nrel_main_idtf: [integrity and authenticity of the information] (* <- lang_en;; *);
+    => nrel_main_idtf: [целостность и подлинность информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэласнасць і сапраўднасць інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_integrity_and_authenticity_of_the_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_integrity_and_authenticity_of_the_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database_duplicate;
+    => nrel_associative_connection: by_dublicates_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_erroneous_note;
+    => nrel_associative_connection: by_check_of_authenticity_of_electronic_document_email_message;
+
+    => nrel_legal_act: by_act_w21631345;
+    => nrel_legal_act: by_act_b21326759;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9732?langname=ru];
+    => nrel_etalon_online_idx: [9732];;

@@ -1,0 +1,25 @@
+
+by_traffic_control_station
+    => nrel_main_idtf: [traffic control station] (* <- lang_en;; *);
+    => nrel_main_idtf: [диспетчерская станция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыспетчарская станцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_urban_electric_transport;
+    => nrel_associative_connection: by_dispatch_point;
+    => nrel_associative_connection: by_control_point_station;
+    => nrel_associative_connection: by_dispatch_district;
+    => nrel_associative_connection: by_passenger_terminal;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_post_of_television_operation_of_station_work;
+    => nrel_associative_connection: by_centralization_post;
+    => nrel_associative_connection: by_nodal_control_area;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11205?langname=ru];
+    => nrel_etalon_online_idx: [11205];;

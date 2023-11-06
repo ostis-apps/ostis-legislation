@@ -1,0 +1,40 @@
+
+by_consumers_of_hydrometeorological_information
+    => nrel_main_idtf: [consumers of hydrometeorological information] (* <- lang_en;; *);
+    => nrel_main_idtf: [потребители гидрометеорологической информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спажыўцы гідраметэаралагічнай інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consumers_of_hydrometeorological_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrometeorological_information;
+    => nrel_associative_connection: by_hydrometeorological_information_of_general_purpose;
+    => nrel_associative_connection: by_state_network_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_state_registry_of_hydrometeorological_information_producers;
+    => nrel_associative_connection: by_provision_of_services_in_the_area_of_hydrometeorological_activity;
+    => nrel_associative_connection: by_consumers;
+    => nrel_associative_connection: by_consumer;
+    => nrel_associative_connection: by_hydrometeorological_information_producers;
+    => nrel_associative_connection: by_specialized_hydrometeorological_information;
+    => nrel_associative_connection: by_emergency_hydrometeorological_information;
+
+    => nrel_legal_act: by_act_h10600093;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20820?langname=ru];
+    => nrel_etalon_online_idx: [20820];;

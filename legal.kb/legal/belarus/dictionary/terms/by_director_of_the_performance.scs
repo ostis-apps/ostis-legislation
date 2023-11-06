@@ -1,0 +1,53 @@
+
+by_director_of_the_performance
+    => nrel_main_idtf: [director of the performance] (* <- lang_en;; *);
+    => nrel_main_idtf: [режиссер-постановщик спектакля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжысёр-пастаноўшчык спектакля] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_director_of_the_performance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_director_of_the_performance_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drama;
+    => nrel_associative_connection: by_entertainment_establishment;
+    => nrel_associative_connection: by_capital_updated_production;
+    => nrel_associative_connection: by_new_theater_perfomance_concert_program_circus_perfomance;
+    => nrel_associative_connection: by_updated_theater_perfomance;
+    => nrel_associative_connection: by_performance_passport;
+    => nrel_associative_connection: by_shooting_script;
+
+    => nrel_legal_act: by_act_h11100262;
+    => nrel_legal_act: by_act_n20500165;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22440?langname=ru];
+    => nrel_etalon_online_idx: [22440];;

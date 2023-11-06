@@ -1,0 +1,62 @@
+
+by_participant_of_road_traffic
+    => nrel_main_idtf: [participant of road traffic] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник дорожного движения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік дарожнага руху] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participant_of_road_traffic_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participant_of_road_traffic_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cycle_track;
+    => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_track_for_horsemen;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_danger_to_traffic;
+    => nrel_associative_connection: by_outriding;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_pedestrian;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_toll_road_user;
+    => nrel_associative_connection: by_crossing_guard;
+    => nrel_associative_connection: by_republican_sletconcurse_of_detachments_of_young_traffic_inspectors;
+    => nrel_associative_connection: by_republican_creative_competition_for_children_and_teenagers_we_observe_road_laws;
+    => nrel_associative_connection: by_vehicle_control;
+    => nrel_associative_connection: by_participant;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_legal_act: by_act_p30500551;
+    => nrel_legal_act: by_act_n21600190;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9971?langname=ru];
+    => nrel_etalon_online_idx: [9971];;

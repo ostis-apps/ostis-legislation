@@ -1,0 +1,65 @@
+
+by_budget_expenses
+    => nrel_main_idtf: [budget expenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [расходы бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдаткі бюджэту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_expenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budget_expenses_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budget_classification_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_budget_quaterly_report;
+    => nrel_associative_connection: by_budget_programs;
+    => nrel_associative_connection: by_departmental_classification_of_expenditures_of_the_republican_and_local_budgets;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_budget_deficit;
+    => nrel_associative_connection: by_capital_budget_expenses;
+    => nrel_associative_connection: by_cash_charges;
+    => nrel_associative_connection: by_cash_budget_expenses;
+    => nrel_associative_connection: by_circulating_cash_balances;
+    => nrel_associative_connection: by_program_classification_of_budget_expenses;
+    => nrel_associative_connection: by_budget_surplus;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_reservation_of_budget_provisions;
+    => nrel_associative_connection: by_budget_estimate;
+    => nrel_associative_connection: by_comparative_advantage;
+    => nrel_associative_connection: by_functional_classification_of_budget_expenditures;
+    => nrel_associative_connection: by_economic_classification_of_budget_expenditures;
+
+    => nrel_legal_act: by_act_hk0800412;
+    => nrel_legal_act: by_act_f20500028;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1797?langname=ru];
+    => nrel_etalon_online_idx: [1797];;

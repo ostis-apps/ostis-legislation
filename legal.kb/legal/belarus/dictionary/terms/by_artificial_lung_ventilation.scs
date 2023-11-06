@@ -1,0 +1,37 @@
+
+by_artificial_lung_ventilation
+    => nrel_main_idtf: [artificial lung ventilation] (* <- lang_en;; *);
+    => nrel_main_idtf: [искусственная вентиляция легких] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штучная вентыляцыя лёгкіх] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_artificial_lung_ventilation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_foreign_body_of_airways;
+    => nrel_associative_connection: by_acute_respiratory_failure;
+    => nrel_associative_connection: by_acute_respiratory_distress_syndrome;
+    => nrel_associative_connection: by_excommunication_of_artificial_lung_ventilation;
+    => nrel_associative_connection: by_pneumonia;
+    => nrel_associative_connection: by_heavy_flow_pneumonia;
+
+    => nrel_legal_act: by_act_w21732109p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27768?langname=ru];
+    => nrel_etalon_online_idx: [27768];;

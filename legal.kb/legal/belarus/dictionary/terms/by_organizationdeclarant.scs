@@ -1,0 +1,37 @@
+
+by_organizationdeclarant
+    => nrel_main_idtf: [organization-declarant] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация-заявитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя-заяўнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizationdeclarant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_applicant_agency;
+    => nrel_associative_connection: by_foreign_trade_activity;
+    => nrel_associative_connection: by_applicants;
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_specific_goods_works_services;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_w21327561;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10380?langname=ru];
+    => nrel_etalon_online_idx: [10380];;

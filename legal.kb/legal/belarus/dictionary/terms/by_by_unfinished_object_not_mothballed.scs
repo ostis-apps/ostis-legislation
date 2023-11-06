@@ -1,0 +1,33 @@
+
+by_by_unfinished_object_not_mothballed
+    => nrel_main_idtf: [by_unfinished_object_not_mothballed] (* <- lang_en;; *);
+    => nrel_main_idtf: [не завершенный строительством не законсервированный объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [не завершаны будаўніцтвам не закансерваваны аб'ект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_unfinished_object_not_mothballed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_incomplete_mothballed_object;
+    => nrel_associative_connection: by_unfinished_canned_capital_structure;
+    => nrel_associative_connection: by_unfinished_noncanned_capital_structure;
+
+    => nrel_legal_act: by_act_w01933873p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35162?langname=ru];
+    => nrel_etalon_online_idx: [35162];;

@@ -1,0 +1,38 @@
+
+by_group_equipment
+    => nrel_main_idtf: [group equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [групповое снаряжение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [групавое  знаражэньне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_group_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_insuring_device;
+    => nrel_associative_connection: by_auxiliary_rope_repchnur;
+    => nrel_associative_connection: by_carbine;
+    => nrel_associative_connection: by_personal_equipment;
+    => nrel_associative_connection: by_loops;
+    => nrel_associative_connection: by_repshnur;
+    => nrel_associative_connection: by_selfinsurance;
+    => nrel_associative_connection: by_special_equipment;
+
+    => nrel_legal_act: by_act_w20818094;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13923?langname=ru];
+    => nrel_etalon_online_idx: [13923];;

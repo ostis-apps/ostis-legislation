@@ -1,0 +1,35 @@
+
+by_small_motherland
+    => nrel_main_idtf: [small motherland] (* <- lang_en;; *);
+    => nrel_main_idtf: [малая родина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малая радзіма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_motherland_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_stand_sign;
+    => nrel_associative_connection: by_cardcircuit;
+    => nrel_associative_connection: by_patriotism;
+    => nrel_associative_connection: by_profile_change;
+    => nrel_associative_connection: by_native_land;
+
+    => nrel_legal_act: by_act_w20920266;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16851?langname=ru];
+    => nrel_etalon_online_idx: [16851];;

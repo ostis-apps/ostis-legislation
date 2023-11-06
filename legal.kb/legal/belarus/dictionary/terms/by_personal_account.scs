@@ -1,0 +1,55 @@
+
+by_personal_account
+    => nrel_main_idtf: [personal account] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицевой счет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабовы рахунак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_account_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_movement_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_personal_account_of_the_organization_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_division_personal_account;
+    => nrel_associative_connection: by_nomenclature_of_arms_and_ammunition;
+    => nrel_associative_connection: by_subdivision;
+    => nrel_associative_connection: by_production_data_of_ammunition;
+    => nrel_associative_connection: by_production_data_of_weapon;
+    => nrel_associative_connection: by_account_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_account_of_weapons_and_ammunition_according_to_production_data;
+
+    => nrel_legal_act: by_act_c20601055;
+    => nrel_legal_act: by_act_w22035341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33184?langname=ru];
+    => nrel_etalon_online_idx: [33184];;

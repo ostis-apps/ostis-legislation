@@ -1,0 +1,36 @@
+
+by_category_ii_precision_approach_runway
+    => nrel_main_idtf: [category ii precision approach runway] (* <- lang_en;; *);
+    => nrel_main_idtf: [взлетно-посадочная полоса точного захода на посадку ii категории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узлётна-пасадачная паласа дакладнага захаду на пасадку ii катэгорыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_category_ii_precision_approach_runway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_autonomous_warning_system_for_unauthorized_exit_to_the_runway;
+    => nrel_associative_connection: by_safety_line_reinforced_shoulder;
+    => nrel_associative_connection: by_instrument_approach_runway;
+    => nrel_associative_connection: by_runway_unequipped;
+    => nrel_associative_connection: by_category_i_precision_approach_runway;
+    => nrel_associative_connection: by_end_safety_zone;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41026?langname=ru];
+    => nrel_etalon_online_idx: [41026];;

@@ -1,0 +1,42 @@
+
+by_belay_fencing
+    => nrel_main_idtf: [belay fencing] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограждение страховочное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агароджванне страховачнае] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_belay_fencing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inventory_safety_fences;
+    => nrel_associative_connection: by_engineering_and_technical_facilities;
+    => nrel_associative_connection: by_internal_fencing;
+    => nrel_associative_connection: by_protective_fencing;
+    => nrel_associative_connection: by_attachment_fencing;
+    => nrel_associative_connection: by_outside_fencing;
+    => nrel_associative_connection: by_bearing_fencing;
+    => nrel_associative_connection: by_signal_fencing;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_work_at_height;
+    => nrel_associative_connection: by_works_at_height;
+    => nrel_associative_connection: by_work_place;
+
+    => nrel_legal_act: by_act_w20106199;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27713?langname=ru];
+    => nrel_etalon_online_idx: [27713];;

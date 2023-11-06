@@ -1,0 +1,36 @@
+
+by_hot_isostatic_seal
+    => nrel_main_idtf: [hot isostatic seal] (* <- lang_en;; *);
+    => nrel_main_idtf: [горячее изостатическое уплотнение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарачае ізастатычнае ўшчыльненне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hot_isostatic_seal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_directly_applicable_hydraulic_pressing;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_allowed_pressure;
+    => nrel_associative_connection: by_isostatic_presses;
+    => nrel_associative_connection: by_highspeed_hardening_of_drop;
+    => nrel_associative_connection: by_specific_goods_works_services;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13594?langname=ru];
+    => nrel_etalon_online_idx: [13594];;

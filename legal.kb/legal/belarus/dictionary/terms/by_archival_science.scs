@@ -1,0 +1,58 @@
+
+by_archival_science
+    => nrel_main_idtf: [archival science] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивоведение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архівазнаўства  ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archival_science_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archival_science_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_copy;
+    => nrel_associative_connection: by_archive_certificate;
+    => nrel_associative_connection: by_archive_business;
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_archive_catalogue;
+    => nrel_associative_connection: by_archive_catalog_archive_cardboard;
+    => nrel_associative_connection: by_archive_number;
+    => nrel_associative_connection: by_archive_stock;
+    => nrel_associative_connection: by_public_archive_institutions;
+    => nrel_associative_connection: by_state_archive;
+    => nrel_associative_connection: by_archive_profile;
+
+    => nrel_legal_act: by_act_w21934707p;
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29277?langname=ru];
+    => nrel_etalon_online_idx: [29277];;

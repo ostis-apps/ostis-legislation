@@ -1,0 +1,34 @@
+
+by_public_resources
+    => nrel_main_idtf: [public resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя сродкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residual_cost;
+    => nrel_associative_connection: by_initial_cost;
+    => nrel_associative_connection: by_overrated_cost;
+    => nrel_associative_connection: by_current_market_cost;
+
+    => nrel_legal_act: by_act_w21226354;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30321?langname=ru];
+    => nrel_etalon_online_idx: [30321];;

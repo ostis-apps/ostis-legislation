@@ -1,0 +1,40 @@
+
+by_persons_under_the_protection_of_international_humanitarian_law
+    => nrel_main_idtf: [persons under the protection of international humanitarian law] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица, находящиеся под защитой международного гуманитарного права] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, якія знаходзяцца пад абаронай міжнароднага гуманітарнага права] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_under_the_protection_of_international_humanitarian_law_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_armed_conflict;
+    => nrel_associative_connection: by_military_conflict_casualties;
+    => nrel_associative_connection: by_persons_employed_in_the_informal_sector;
+    => nrel_associative_connection: by_international_humanitarian_law;
+    => nrel_associative_connection: by_objects_under_protection_of_international_humanitarian_law;
+    => nrel_associative_connection: by_recognition;
+    => nrel_associative_connection: by_parliamenters;
+    => nrel_associative_connection: by_principle_of_humanity;
+    => nrel_associative_connection: by_principle_of_legality;
+    => nrel_associative_connection: by_principle_of_proportionality;
+
+    => nrel_legal_act: by_act_w20920969;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16665?langname=ru];
+    => nrel_etalon_online_idx: [16665];;

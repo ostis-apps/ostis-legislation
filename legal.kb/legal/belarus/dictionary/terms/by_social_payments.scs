@@ -1,0 +1,35 @@
+
+by_social_payments
+    => nrel_main_idtf: [social payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [выплаты социального характера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выплаты сацыяльнага характару] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_payments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_system_of_accounting_of_basic_accounts;
+    => nrel_associative_connection: by_basic_terms_of_service;
+    => nrel_associative_connection: by_monthly_payment;
+    => nrel_associative_connection: by_stage_of_operation_with_basic_account;
+    => nrel_associative_connection: by_technical_automated_accounting_system_of_basic_accounts;
+
+    => nrel_legal_act: by_act_b22237649;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39813?langname=ru];
+    => nrel_etalon_online_idx: [39813];;

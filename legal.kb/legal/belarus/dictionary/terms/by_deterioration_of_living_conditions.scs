@@ -1,0 +1,36 @@
+
+by_deterioration_of_living_conditions
+    => nrel_main_idtf: [deterioration of living conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [ухудшение жилищных условий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагаршэнне жыллёвых умоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deterioration_of_living_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_nonresidential_premise;
+    => nrel_associative_connection: by_normalized_residential_space;
+    => nrel_associative_connection: by_lack_of_residential_premises_in_ownership_and_use;
+    => nrel_associative_connection: by_official_residential_premises;
+    => nrel_associative_connection: by_members_of_the_employers_family;
+
+    => nrel_legal_act: by_act_p31900288;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31401?langname=ru];
+    => nrel_etalon_online_idx: [31401];;

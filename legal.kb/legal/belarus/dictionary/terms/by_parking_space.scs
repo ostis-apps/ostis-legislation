@@ -1,0 +1,90 @@
+
+by_parking_space
+    => nrel_main_idtf: [parking space] (* <- lang_en;; *);
+    => nrel_main_idtf: [машино-место] (* <- lang_ru;; *);
+    => nrel_main_idtf: [машына-месца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parking_space_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parking_space_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parking_space_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parking_space_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_automobile_vehicle_av;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_owner_of_car_parking;
+    => nrel_associative_connection: by_profitability_index;
+    => nrel_associative_connection: by_building_density_coefficient;
+    => nrel_associative_connection: by_organization_of_car_parks_and_car_parking;
+    => nrel_associative_connection: by_project_of_section_merger_of_capital_structures_buildings_structures_isolated_premises_parking_spaces_isolation_of_isolated_premises_parking_spaces_from_the_capital_structure_building_structure;
+    => nrel_associative_connection: by_vehicle_parking;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_h10200133;
+    => nrel_legal_act: by_act_p30800043;
+    => nrel_legal_act: by_act_w02136594p;
+    => nrel_legal_act: by_act_w01933901p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16977?langname=ru];
+    => nrel_etalon_online_idx: [16977];;

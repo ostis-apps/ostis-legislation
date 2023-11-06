@@ -1,0 +1,39 @@
+
+by_bank_of_the_instructing_party
+    => nrel_main_idtf: [bank of the instructing party] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк инструктирующей стороны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк, які інструктуе бокі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_of_the_instructing_party_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_bank_group;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_state_bank;
+    => nrel_associative_connection: by_collecting_bank;
+    => nrel_associative_connection: by_instructing_party;
+
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12651?langname=ru];
+    => nrel_etalon_online_idx: [12651];;

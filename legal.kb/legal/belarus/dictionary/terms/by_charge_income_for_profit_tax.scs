@@ -1,0 +1,55 @@
+
+by_charge_income_for_profit_tax
+    => nrel_main_idtf: [charge (income) for profit tax] (* <- lang_en;; *);
+    => nrel_main_idtf: [расход (доход) по налогу на прибыль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расход (даход) па падатку на прыбытак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_charge_income_for_profit_tax_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_charge_income_for_profit_tax_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_profit_distribution_method;
+    => nrel_associative_connection: by_taxable_profit;
+    => nrel_associative_connection: by_delayed_tax_liability;
+    => nrel_associative_connection: by_delayed_profit_tax;
+    => nrel_associative_connection: by_budget_contributions_and_profit_income_tax;
+    => nrel_associative_connection: by_planned_profit;
+    => nrel_associative_connection: by_permanent_tax_asset;
+    => nrel_associative_connection: by_current_income_tax;
+    => nrel_associative_connection: by_accounting_profit_loss;
+
+    => nrel_legal_act: by_act_b213p0029;
+    => nrel_legal_act: by_act_w21124595;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22177?langname=ru];
+    => nrel_etalon_online_idx: [22177];;

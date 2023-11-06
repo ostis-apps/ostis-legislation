@@ -1,0 +1,37 @@
+
+by_state_insurance_organizations__insurance_organizations
+    => nrel_main_idtf: [state insurance organizations - insurance organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные страховые организации – страховые организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя страхавыя арганізацыі – страхавыя арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_insurance_organizations__insurance_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_insurance_organizations;
+    => nrel_associative_connection: by_nonfinancial_organizations;
+    => nrel_associative_connection: by_mandatory_insurance_premiums;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_insurers;
+    => nrel_associative_connection: by_insurance_contributions;
+    => nrel_associative_connection: by_natural_persons_independently_paying_obligatory_insurance_fees;
+
+    => nrel_legal_act: by_act_c22300218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42524?langname=ru];
+    => nrel_etalon_online_idx: [42524];;

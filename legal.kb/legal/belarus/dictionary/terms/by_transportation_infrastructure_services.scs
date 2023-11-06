@@ -1,0 +1,33 @@
+
+by_transportation_infrastructure_services
+    => nrel_main_idtf: [transportation infrastructure services] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги инфраструктуры для осуществления перевозок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі інфраструктуры для ажыццяўлення перавозак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transportation_infrastructure_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contract_for_the_assessment_of_infrastructure_services_for_transport;
+    => nrel_associative_connection: by_contract_for_the_assessment_of_infrastructure_services_associated_with_transport_process;
+    => nrel_associative_connection: by_access_to_infrastructure_services;
+
+    => nrel_legal_act: by_act_c21500626;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25639?langname=ru];
+    => nrel_etalon_online_idx: [25639];;

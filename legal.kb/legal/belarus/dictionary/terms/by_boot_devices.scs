@@ -1,0 +1,36 @@
+
+by_boot_devices
+    => nrel_main_idtf: [boot devices] (* <- lang_en;; *);
+    => nrel_main_idtf: [загрузочные устройства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [загрузачныя прылады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_boot_devices_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_zone_of_the_research__nuclear_facilities;
+    => nrel_associative_connection: by_active_zone_of_the_nuclear_facility;
+    => nrel_associative_connection: by_loading_devices_of_the_critical_stand;
+    => nrel_associative_connection: by_loading_devices_of_the_subcritical_stand;
+    => nrel_associative_connection: by_subcritical_assembly;
+    => nrel_associative_connection: by_nuclear_fuel;
+
+    => nrel_legal_act: by_act_w22238230p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40106?langname=ru];
+    => nrel_etalon_online_idx: [40106];;

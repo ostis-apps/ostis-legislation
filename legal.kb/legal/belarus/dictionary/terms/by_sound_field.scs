@@ -1,0 +1,35 @@
+
+by_sound_field
+    => nrel_main_idtf: [sound field] (* <- lang_en;; *);
+    => nrel_main_idtf: [звуковое поле] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гукавое поле] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sound_field_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sound_pressure_p;
+    => nrel_associative_connection: by_sound_absorbation_coefficient_a;
+    => nrel_associative_connection: by_maximum_noise_level_dba;
+    => nrel_associative_connection: by_normalized_sound_level_lapadd_dba;
+    => nrel_associative_connection: by_support_sound_pressure;
+
+    => nrel_legal_act: by_act_w22035998p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35716?langname=ru];
+    => nrel_etalon_online_idx: [35716];;

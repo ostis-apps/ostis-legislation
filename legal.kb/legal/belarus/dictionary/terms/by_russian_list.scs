@@ -1,0 +1,40 @@
+
+by_russian_list
+    => nrel_main_idtf: [russian list] (* <- lang_en;; *);
+    => nrel_main_idtf: [российский перечень] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расійскі пералік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_russian_list_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarusian_organizations;
+    => nrel_associative_connection: by_belarusian_list;
+    => nrel_associative_connection: by_excerpt_from_the_belarusian_list;
+    => nrel_associative_connection: by_excerpt_from_the_russian_list;
+    => nrel_associative_connection: by_state_customer_of_the_state_defense_order;
+    => nrel_associative_connection: by_state_contract_for_supply_of_goods_performance_of_works_rendering_services_on_state_defense_order;
+    => nrel_associative_connection: by_state_defense_order;
+    => nrel_associative_connection: by_contract_for_supply_of_goods_execution_of_works_provision_of_services_under_the_state_defense_order;
+    => nrel_associative_connection: by_list_of_products;
+    => nrel_associative_connection: by_russian_organizations;
+
+    => nrel_legal_act: by_act_c21100733;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22676?langname=ru];
+    => nrel_etalon_online_idx: [22676];;

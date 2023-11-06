@@ -1,0 +1,33 @@
+
+by_fluorescent_lamps_without_integrated_ballast
+    => nrel_main_idtf: [fluorescent lamps without integrated ballast] (* <- lang_en;; *);
+    => nrel_main_idtf: [люминесцентная лампа без встроенного балласта (fluorescent lamps without integrated ballast)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [люмінесцэнтная лямпа без убудаванага баласту (fluorescent lamps without integrated ballast)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fluorescent_lamps_without_integrated_ballast_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ballast;
+    => nrel_associative_connection: by_compact_fluorescent_lamp;
+    => nrel_associative_connection: by_fluorescent_lamp;
+
+    => nrel_legal_act: by_act_w02035905p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34935?langname=ru];
+    => nrel_etalon_online_idx: [34935];;

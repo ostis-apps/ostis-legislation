@@ -1,0 +1,31 @@
+
+by_by_gross_operating_weight
+    => nrel_main_idtf: [by_gross_operating_weight] (* <- lang_en;; *);
+    => nrel_main_idtf: [полная (эксплуатационная) масса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [поўная (эксплуатацыйная) маса] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_gross_operating_weight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_curb_mass;
+
+    => nrel_legal_act: by_act_c22200515;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40685?langname=ru];
+    => nrel_etalon_online_idx: [40685];;

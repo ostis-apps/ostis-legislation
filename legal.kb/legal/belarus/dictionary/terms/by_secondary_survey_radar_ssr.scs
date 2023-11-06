@@ -1,0 +1,38 @@
+
+by_secondary_survey_radar_ssr
+    => nrel_main_idtf: [secondary survey radar (ssr)] (* <- lang_en;; *);
+    => nrel_main_idtf: [вторичный обзорный радиолокатор (ворл)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [другасны аглядны радыелакатар (дарл)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_secondary_survey_radar_ssr_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_alert__service_of_emergency_alert;
+    => nrel_associative_connection: by_emergency_drive_transmitter_for_search_and_rescue;
+    => nrel_associative_connection: by_aviation_station;
+    => nrel_associative_connection: by_secondary_radar;
+    => nrel_associative_connection: by_range_of_radio_frequencies;
+    => nrel_associative_connection: by_aerodrome_surveillance_radar;
+    => nrel_associative_connection: by_object_of_radio_engineering_maintenance_of_flights_and_aviation_telecommunications;
+    => nrel_associative_connection: by_primary_survey_radar_porl;
+
+    => nrel_legal_act: by_act_w208p0029;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31103?langname=ru];
+    => nrel_etalon_online_idx: [31103];;

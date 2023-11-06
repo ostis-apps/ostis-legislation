@@ -1,0 +1,44 @@
+
+by_system_of_scheduled_preventive_repair
+    => nrel_main_idtf: [system of scheduled preventive repair] (* <- lang_en;; *);
+    => nrel_main_idtf: [система планово-предупредительного ремонта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма планава-папераджальнага рамонту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_system_of_scheduled_preventive_repair_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_management_constructions_and_technical_devices_of_systems_of_water_supply_water_disposal_sewerage;
+    => nrel_associative_connection: by_water_management_constructions_and_devices;
+    => nrel_associative_connection: by_limit_of_operational_responsibility;
+    => nrel_associative_connection: by_capital_repairs;
+    => nrel_associative_connection: by_capital_repairs_of_water_management_constructions_and_devices;
+    => nrel_associative_connection: by_well_redrilling;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_maintainability;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_current_repair;
+    => nrel_associative_connection: by_current_repair_of_the_object;
+    => nrel_associative_connection: by_current_repairs_of_constructions_and_devices_of_centralized_drinking_water_supply_and_water_supply_sewer;
+    => nrel_associative_connection: by_maintenance_of_constructions_and_devices_of_centralized_systems_of_drinking_water_supply_and_water_disposal_sewer;
+
+    => nrel_legal_act: by_act_w20614714;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23216?langname=ru];
+    => nrel_etalon_online_idx: [23216];;

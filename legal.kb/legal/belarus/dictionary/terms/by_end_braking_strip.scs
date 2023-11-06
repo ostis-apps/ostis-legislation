@@ -1,0 +1,35 @@
+
+by_end_braking_strip
+    => nrel_main_idtf: [end braking strip] (* <- lang_en;; *);
+    => nrel_main_idtf: [концевая полоса торможения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцавая паласа тармажэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_end_braking_strip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wheel_chassis_base;
+    => nrel_associative_connection: by_landing_zone;
+    => nrel_associative_connection: by_airfield_controlled_area;
+    => nrel_associative_connection: by_end_safety_zone;
+    => nrel_associative_connection: by_end_safety_strip;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41063?langname=ru];
+    => nrel_etalon_online_idx: [41063];;

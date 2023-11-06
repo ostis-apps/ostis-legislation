@@ -1,0 +1,32 @@
+
+by_commodity_fish
+    => nrel_main_idtf: [commodity fish] (* <- lang_en;; *);
+    => nrel_main_idtf: [товарная рыба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таварная рыба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commodity_fish_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_production_of_sturgeon_fish_and_or_products_from_them_including_caviar;
+    => nrel_associative_connection: by_industrial_fish_processing;
+
+    => nrel_legal_act: by_act_c21500333;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25020?langname=ru];
+    => nrel_etalon_online_idx: [25020];;

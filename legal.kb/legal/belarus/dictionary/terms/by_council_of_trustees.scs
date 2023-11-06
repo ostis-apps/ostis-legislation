@@ -1,0 +1,49 @@
+
+by_council_of_trustees
+    => nrel_main_idtf: [council of trustees] (* <- lang_en;; *);
+    => nrel_main_idtf: [попечительский совет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апякунскі савет] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_council_of_trustees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_council_of_trustees_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bodies_of_control_supervision;
+    => nrel_associative_connection: by_council_of_trustees_of_foundation;
+    => nrel_associative_connection: by_council;
+
+    => nrel_legal_act: by_act_w21124094;
+    => nrel_legal_act: by_act_n21300171;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5169?langname=ru];
+    => nrel_etalon_online_idx: [5169];;

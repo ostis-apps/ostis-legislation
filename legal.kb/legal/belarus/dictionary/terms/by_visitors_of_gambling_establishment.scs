@@ -1,0 +1,42 @@
+
+by_visitors_of_gambling_establishment
+    => nrel_main_idtf: [visitors of gambling establishment] (* <- lang_en;; *);
+    => nrel_main_idtf: [посетители игорного заведения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наведвальнікі ігральнай установы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visitors_of_gambling_establishment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_virtual_gambling_establishment;
+    => nrel_associative_connection: by_slot_machine_hall;
+    => nrel_associative_connection: by_gambling_establishment;
+    => nrel_associative_connection: by_bingo_game;
+    => nrel_associative_connection: by_game_on_slot_machines;
+    => nrel_associative_connection: by_game_table;
+    => nrel_associative_connection: by_totalizator_cash;
+    => nrel_associative_connection: by_visitors_of_the_virtual_gambling_establishment;
+    => nrel_associative_connection: by_office_zone_of_gambling_establishment;
+    => nrel_associative_connection: by_bet_in_gambling;
+    => nrel_associative_connection: by_participant_in_the_gambling;
+
+    => nrel_legal_act: by_act_p30500009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20711?langname=ru];
+    => nrel_etalon_online_idx: [20711];;

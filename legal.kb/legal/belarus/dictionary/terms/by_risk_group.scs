@@ -1,0 +1,82 @@
+
+by_risk_group
+    => nrel_main_idtf: [risk group] (* <- lang_en;; *);
+    => nrel_main_idtf: [группа риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [група рызыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_group_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_group_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_group_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_group_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_risk_analysis;
+    => nrel_associative_connection: by_nonviolent_death;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_risk_profile;
+
+    => nrel_legal_act: by_act_w22238626;
+    => nrel_legal_act: by_act_w22035541p;
+    => nrel_legal_act: by_act_w21934569p;
+    => nrel_legal_act: by_act_n21400172;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7810?langname=ru];
+    => nrel_etalon_online_idx: [7810];;

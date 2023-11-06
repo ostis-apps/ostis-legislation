@@ -1,0 +1,37 @@
+
+by_collection_point_alerts_and_collection
+    => nrel_main_idtf: [collection point (alerts and collection)] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт сбора (оповещения и сбора)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт збору (апавяшчэння і збору)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_collection_point_alerts_and_collection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_draft_military_service;
+    => nrel_associative_connection: by_militray_training_exercises;
+    => nrel_associative_connection: by_interschool_center_for_military_prerecruitment_training;
+    => nrel_associative_connection: by_separate_subdivision_of_military_commissariat;
+    => nrel_associative_connection: by_recruit;
+    => nrel_associative_connection: by_recruiting_station;
+    => nrel_associative_connection: by_armed_forces_reserve_service;
+
+    => nrel_legal_act: by_act_v19201914;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21258?langname=ru];
+    => nrel_etalon_online_idx: [21258];;

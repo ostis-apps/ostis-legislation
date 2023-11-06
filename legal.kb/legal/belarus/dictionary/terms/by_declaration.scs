@@ -1,0 +1,53 @@
+
+by_declaration
+    => nrel_main_idtf: [declaration] (* <- lang_en;; *);
+    => nrel_main_idtf: [декларация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэкларацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_declaration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_declaration_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_declaration_of_conformity;
+    => nrel_associative_connection: by_declared_period;
+    => nrel_associative_connection: by_person_accepting_declaration;
+    => nrel_associative_connection: by_tax_bill_income_tax_return;
+    => nrel_associative_connection: by_declaration_registration_body;
+    => nrel_associative_connection: by_statistical_declaration;
+    => nrel_associative_connection: by_statistical_declaration_center;
+
+    => nrel_legal_act: by_act_hk2100091;
+    => nrel_legal_act: by_act_h11600437;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2461?langname=ru];
+    => nrel_etalon_online_idx: [2461];;

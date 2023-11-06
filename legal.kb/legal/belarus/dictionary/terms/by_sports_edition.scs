@@ -1,0 +1,31 @@
+
+by_sports_edition
+    => nrel_main_idtf: [sports edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [издание спортивной тематики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выданне спартыўнай тэматыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sports_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_w21934924p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32427?langname=ru];
+    => nrel_etalon_online_idx: [32427];;

@@ -1,0 +1,51 @@
+
+by_procedural_decisions
+    => nrel_main_idtf: [procedural decisions] (* <- lang_en;; *);
+    => nrel_main_idtf: [процессуальные решения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэсуальныя рашэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_procedural_decisions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_procedural_decisions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_resolution;
+    => nrel_associative_connection: by_sentence;
+    => nrel_associative_connection: by_criminal_proceedings;
+    => nrel_associative_connection: by_protocol_of_the_procedural_action;
+    => nrel_associative_connection: by_procedural_facts;
+
+    => nrel_legal_act: by_act_hk9900295;
+    => nrel_legal_act: by_act_n29600086;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4005?langname=ru];
+    => nrel_etalon_online_idx: [4005];;

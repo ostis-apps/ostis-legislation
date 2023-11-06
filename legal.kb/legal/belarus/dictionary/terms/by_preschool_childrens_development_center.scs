@@ -1,0 +1,37 @@
+
+by_preschool_childrens_development_center
+    => nrel_main_idtf: [preschool children's development center] (* <- lang_en;; *);
+    => nrel_main_idtf: [дошкольный центр развития ребенка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дашкольны цэнтр развіцця дзіцяці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preschool_childrens_development_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_preschool_education;
+    => nrel_associative_connection: by_preschool_institutions;
+    => nrel_associative_connection: by_preschool_age;
+    => nrel_associative_connection: by_payers_of_target_collection_on_maintaining_childrens_preschool_institutions;
+    => nrel_associative_connection: by_republican_center_for_preschool_children_with_hearing_impairment;
+    => nrel_associative_connection: by_special_kindergarten;
+    => nrel_associative_connection: by_preschool_institution;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2533?langname=ru];
+    => nrel_etalon_online_idx: [2533];;

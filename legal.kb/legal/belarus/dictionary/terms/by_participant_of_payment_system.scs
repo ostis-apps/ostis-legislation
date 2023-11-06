@@ -1,0 +1,46 @@
+
+by_participant_of_payment_system
+    => nrel_main_idtf: [participant of payment system] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники платежной системы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі плацежнай сістэмы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participant_of_payment_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_nonresident_bank;
+    => nrel_associative_connection: by_owner_of_payment_system;
+    => nrel_associative_connection: by_cardholder_identification;
+    => nrel_associative_connection: by_customer_payments_effected_untimely_counterparties;
+    => nrel_associative_connection: by_payment_system_operator;
+    => nrel_associative_connection: by_payment_activities;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_system_rules;
+    => nrel_associative_connection: by_software_complex_reserve_input_of_electronic_payment_documents;
+    => nrel_associative_connection: by_processing_center;
+    => nrel_associative_connection: by_participant;
+    => nrel_associative_connection: by_participant_of_the_payment_system;
+    => nrel_associative_connection: by_participants_of_the_electronic_payment_system;
+    => nrel_associative_connection: by_private_payment_system;
+    => nrel_associative_connection: by_members_of_payment_system;
+
+    => nrel_legal_act: by_act_i02200012;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/412?langname=ru];
+    => nrel_etalon_online_idx: [412];;

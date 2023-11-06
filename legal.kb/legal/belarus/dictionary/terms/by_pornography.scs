@@ -1,0 +1,37 @@
+
+by_pornography
+    => nrel_main_idtf: [pornography] (* <- lang_en;; *);
+    => nrel_main_idtf: [порнография] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парнаграфія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pornography_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_production_and_distribution_of_pornographic_materials_or_objects_of_a_pornographic_nature;
+    => nrel_associative_connection: by_pornographic_production;
+    => nrel_associative_connection: by_pornographic_materials_or_items_of_pornographic_character_with_minor_image;
+    => nrel_associative_connection: by_pornography_propaganda;
+    => nrel_associative_connection: by_erotica;
+    => nrel_associative_connection: by_erotic_products;
+
+    => nrel_legal_act: by_act_w20716487;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/624?langname=ru];
+    => nrel_etalon_online_idx: [624];;

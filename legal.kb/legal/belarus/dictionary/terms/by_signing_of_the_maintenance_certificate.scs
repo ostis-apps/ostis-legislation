@@ -1,0 +1,35 @@
+
+by_signing_of_the_maintenance_certificate
+    => nrel_main_idtf: [signing of the maintenance certificate] (* <- lang_en;; *);
+    => nrel_main_idtf: [подписание свидетельства о техническом обслуживании] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падпісанне пасведчання аб тэхнічным абслугоўванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_signing_of_the_maintenance_certificate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dispatcher_of_air_traffic_management;
+    => nrel_associative_connection: by_approved_preparation;
+    => nrel_associative_connection: by_rating;
+    => nrel_associative_connection: by_flight_safety_management_system;
+    => nrel_associative_connection: by_maintenance_service;
+
+    => nrel_legal_act: by_act_w21833443p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30410?langname=ru];
+    => nrel_etalon_online_idx: [30410];;

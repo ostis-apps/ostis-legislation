@@ -1,0 +1,37 @@
+
+by_state_scientific_and_technical_examination_of_innovation_projects
+    => nrel_main_idtf: [state scientific and technical examination of innovation projects] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная научно-техническая экспертиза инновационных проектов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная навукова-тэхнічная экспертыза інавацыйных праектаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_scientific_and_technical_examination_of_innovation_projects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_scientific_and_state_scientific_and_technical_examination;
+    => nrel_associative_connection: by_state_scientific_and_technical_examination;
+    => nrel_associative_connection: by_state_expertise;
+    => nrel_associative_connection: by_innovation_project;
+    => nrel_associative_connection: by_innovation;
+    => nrel_associative_connection: by_scientific_expertise;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_legal_act: by_act_h11200425;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11838?langname=ru];
+    => nrel_etalon_online_idx: [11838];;

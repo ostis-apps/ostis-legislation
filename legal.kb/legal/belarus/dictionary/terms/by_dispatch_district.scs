@@ -1,0 +1,37 @@
+
+by_dispatch_district
+    => nrel_main_idtf: [dispatch district] (* <- lang_en;; *);
+    => nrel_main_idtf: [диспетчерский район] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыспетчарскі раён] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dispatch_district_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerial_situation;
+    => nrel_associative_connection: by_aerial_space_of_the_service_of_the_aerial_traffic;
+    => nrel_associative_connection: by_traffic_control_station;
+    => nrel_associative_connection: by_dispatch_point;
+    => nrel_associative_connection: by_dispatch_service_of_air_traffic;
+    => nrel_associative_connection: by_dispatch_permission;
+    => nrel_associative_connection: by_nodal_control_area;
+
+    => nrel_legal_act: by_act_c20601471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14193?langname=ru];
+    => nrel_etalon_online_idx: [14193];;

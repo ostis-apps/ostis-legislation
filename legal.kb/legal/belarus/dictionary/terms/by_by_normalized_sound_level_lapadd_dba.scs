@@ -1,0 +1,34 @@
+
+by_by_normalized_sound_level_lapadd_dba
+    => nrel_main_idtf: [by_normalized_sound_level_lapadd_dba] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормируемый уровень звука la,доп, дба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарміруемы ўзровень гука la,доп, дба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_normalized_sound_level_lapadd_dba_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sound_field;
+    => nrel_associative_connection: by_maximum_noise_level_dba;
+    => nrel_associative_connection: by_normalized_octave_sound_pressure_level_equivalent_to_octave_sound_pressure_level_ldop_db;
+    => nrel_associative_connection: by_sound_pressure_level;
+
+    => nrel_legal_act: by_act_w22035998p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35729?langname=ru];
+    => nrel_etalon_online_idx: [35729];;

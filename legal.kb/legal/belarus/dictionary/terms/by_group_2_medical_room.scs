@@ -1,0 +1,34 @@
+
+by_group_2_medical_room
+    => nrel_main_idtf: [group 2 medical room] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинское помещение группы 2] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскае памяшканне групы 2] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_group_2_medical_room_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medical_room;
+    => nrel_associative_connection: by_group_0_medical_room;
+    => nrel_associative_connection: by_group_1_medical_room;
+    => nrel_associative_connection: by_premise;
+
+    => nrel_legal_act: by_act_w22035463p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40934?langname=ru];
+    => nrel_etalon_online_idx: [40934];;

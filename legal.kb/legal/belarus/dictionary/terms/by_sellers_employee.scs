@@ -1,0 +1,57 @@
+
+by_sellers_employee
+    => nrel_main_idtf: [seller's employee] (* <- lang_en;; *);
+    => nrel_main_idtf: [работник продавца] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работнік прадаўца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sellers_employee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sellers_employee_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_trade_centre;
+    => nrel_associative_connection: by_representative_of_manufacturer_seller_supplier;
+    => nrel_associative_connection: by_seller;
+    => nrel_associative_connection: by_seller_supplier;
+    => nrel_associative_connection: by_contractors_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_commodity_department_section;
+    => nrel_associative_connection: by_trade_services;
+    => nrel_associative_connection: by_trade_object;
+    => nrel_associative_connection: by_services_related_to_the_sale_of_goods;
+
+    => nrel_legal_act: by_act_c21400703;
+    => nrel_legal_act: by_act_c21400686;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21897?langname=ru];
+    => nrel_etalon_online_idx: [21897];;

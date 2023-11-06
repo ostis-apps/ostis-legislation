@@ -1,0 +1,19 @@
+
+by_primary_activity
+    => nrel_main_idtf: [primary activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной вид деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны від дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_type_of_economic_activity;
+    => nrel_associative_connection: by_information_on_activity;
+    => nrel_associative_connection: by_organization;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8243?langname=ru];
+    => nrel_etalon_online_idx: [8243];;

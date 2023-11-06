@@ -1,0 +1,35 @@
+
+by_terminal_for_automatic_currency_exchange
+    => nrel_main_idtf: [terminal for automatic currency exchange] (* <- lang_en;; *);
+    => nrel_main_idtf: [терминал автоматического обмена валюты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмінал аўтаматычнага абмену валюты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_terminal_for_automatic_currency_exchange_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_currency;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_soft_and_hardware_item;
+    => nrel_associative_connection: by_exchange;
+
+    => nrel_legal_act: by_act_b22136740;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24802?langname=ru];
+    => nrel_etalon_online_idx: [24802];;

@@ -1,0 +1,39 @@
+
+by_initial_formation_of_addresses_registry
+    => nrel_main_idtf: [initial formation of addresses registry] (* <- lang_en;; *);
+    => nrel_main_idtf: [первоначальное формирование реестра адресов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першапачатковае фарміраванне рэестра адрасоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_initial_formation_of_addresses_registry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_address;
+    => nrel_associative_connection: by_address_card;
+    => nrel_associative_connection: by_address_system;
+    => nrel_associative_connection: by_mail_service_users_data;
+    => nrel_associative_connection: by_address_normalization;
+    => nrel_associative_connection: by_initial_formation_of_the_register_of_streets_and_roads;
+    => nrel_associative_connection: by_address_register;
+    => nrel_associative_connection: by_registry_of_addresses_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_systematic_address_assignment;
+
+    => nrel_legal_act: by_act_w21226459;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19940?langname=ru];
+    => nrel_etalon_online_idx: [19940];;

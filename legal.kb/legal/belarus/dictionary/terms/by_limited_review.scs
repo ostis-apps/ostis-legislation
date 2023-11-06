@@ -1,0 +1,33 @@
+
+by_limited_review
+    => nrel_main_idtf: [limited review] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограниченная обзорность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежаваная агляднасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limited_review_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_insufficient_visibility_of_road;
+    => nrel_associative_connection: by_road_visibility;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18851?langname=ru];
+    => nrel_etalon_online_idx: [18851];;

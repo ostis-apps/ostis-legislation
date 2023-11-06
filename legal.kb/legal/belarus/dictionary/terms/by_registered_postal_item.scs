@@ -1,0 +1,48 @@
+
+by_registered_postal_item
+    => nrel_main_idtf: [registered postal item] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрируемое почтовое отправление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіструемае паштовае адпраўленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registered_postal_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_addressee;
+    => nrel_associative_connection: by_interior_mails;
+    => nrel_associative_connection: by_hybrid_dispatch;
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_state_sign_of_postal_payment;
+    => nrel_associative_connection: by_control_of_postal_items;
+    => nrel_associative_connection: by_international_postal_item;
+    => nrel_associative_connection: by_international_mail;
+    => nrel_associative_connection: by_letter;
+    => nrel_associative_connection: by_postal_security;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_postal_route;
+    => nrel_associative_connection: by_simple_mails;
+    => nrel_associative_connection: by_registered_postal_items;
+    => nrel_associative_connection: by_system_of_automated_postal_items_sorting;
+    => nrel_associative_connection: by_special_postmark;
+    => nrel_associative_connection: by_mail_services;
+    => nrel_associative_connection: by_fragile_mails;
+
+    => nrel_legal_act: by_act_h10300258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10342?langname=ru];
+    => nrel_etalon_online_idx: [10342];;

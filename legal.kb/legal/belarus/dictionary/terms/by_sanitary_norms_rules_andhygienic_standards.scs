@@ -1,0 +1,35 @@
+
+by_sanitary_norms_rules_andhygienic_standards
+    => nrel_main_idtf: [sanitary norms, rules and	hygienic standards] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарные нормы, правила и гигиенические нормативы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарныя нормы, правіла і гігіенічныя нарматывы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitary_norms_rules_andhygienic_standards_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hygienic_standard;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_situation;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_requirements;
+    => nrel_associative_connection: by_infection_security;
+    => nrel_associative_connection: by_sanitary_norms_and_rules;
+
+    => nrel_legal_act: by_act_w20309982;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22831?langname=ru];
+    => nrel_etalon_online_idx: [22831];;

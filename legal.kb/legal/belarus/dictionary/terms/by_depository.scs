@@ -1,0 +1,70 @@
+
+by_depository
+    => nrel_main_idtf: [depository] (* <- lang_en;; *);
+    => nrel_main_idtf: [депозитарий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпазітарый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depository_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depository_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_balance_depot;
+    => nrel_associative_connection: by_global_certificate;
+    => nrel_associative_connection: by_depository_of_bar_codes;
+    => nrel_associative_connection: by_depository_of_the_issuer;
+    => nrel_associative_connection: by_nonresident_depository;
+    => nrel_associative_connection: by_depository_activity;
+    => nrel_associative_connection: by_depositary_bonds;
+    => nrel_associative_connection: by_depositary_operations;
+    => nrel_associative_connection: by_deponent_of_the_central_securities_depository;
+    => nrel_associative_connection: by_activity_of_specialized_depositary_of_identified_assets;
+    => nrel_associative_connection: by_activities_of_specialized_depository_of_the_investment_fund;
+    => nrel_associative_connection: by_depot_account_entry;
+    => nrel_associative_connection: by_initiator_of_securities_transfer;
+    => nrel_associative_connection: by_depositary_code;
+    => nrel_associative_connection: by_copy_of_a_treaty;
+    => nrel_associative_connection: by_multilateral_treaty;
+    => nrel_associative_connection: by_nominee;
+    => nrel_associative_connection: by_transaction_day_of_the_central_securities_depository;
+    => nrel_associative_connection: by_synthetic_depository_account_plan;
+    => nrel_associative_connection: by_instruction_depot;
+    => nrel_associative_connection: by_settlement_depositary;
+    => nrel_associative_connection: by_depository_registration_code;
+    => nrel_associative_connection: by_securities_issues_directory;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_h11500231;
+    => nrel_legal_act: by_act_h10800421;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1393?langname=ru];
+    => nrel_etalon_online_idx: [1393];;

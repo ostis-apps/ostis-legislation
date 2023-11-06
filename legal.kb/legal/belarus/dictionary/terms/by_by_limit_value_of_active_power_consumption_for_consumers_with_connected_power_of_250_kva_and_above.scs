@@ -1,0 +1,43 @@
+
+by_by_limit_value_of_active_power_consumption_for_consumers_with_connected_power_of_250_kva_and_above
+    => nrel_main_idtf: [by_limit_value_of_active_power_consumption_for_consumers_with_connected_power_of_250_kva_and_above] (* <- lang_en;; *);
+    => nrel_main_idtf: [предельная величина потребляемой активной мощности (для потребителей с присоединенной мощностью 250 кв·а и выше)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранічная велічыня спажываемай актыўнай магутнасці (для спажыўцоў з далучанай магутнасцю 250 кв·а і вышэй)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_limit_value_of_active_power_consumption_for_consumers_with_connected_power_of_250_kva_and_above_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_electric_power;
+    => nrel_associative_connection: by_household_electricity_consumption;
+    => nrel_associative_connection: by_differentiated_by_temporary_periods_electric_energy_tariff;
+    => nrel_associative_connection: by_contract_value_of_active_power;
+    => nrel_associative_connection: by_currentr_and_or_voltage_measuring_transformer;
+    => nrel_associative_connection: by_peak_power;
+    => nrel_associative_connection: by_electric_energy_receiver;
+    => nrel_associative_connection: by_electrical_energy_receiver_electric_receiver;
+    => nrel_associative_connection: by_connected_power;
+    => nrel_associative_connection: by_power_permitted_to_use;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_reactive_electric_energy;
+    => nrel_associative_connection: by_installed_power;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20990?langname=ru];
+    => nrel_etalon_online_idx: [20990];;

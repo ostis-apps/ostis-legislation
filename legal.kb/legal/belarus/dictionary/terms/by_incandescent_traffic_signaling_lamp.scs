@@ -1,0 +1,34 @@
+
+by_incandescent_traffic_signaling_lamp
+    => nrel_main_idtf: [incandescent traffic signaling lamp] (* <- lang_en;; *);
+    => nrel_main_idtf: [лампа накаливания для использования в дорожном регулировании (incandescent traffic signaling lamp)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лямпа напальвання для выкарыстання ў дарожным рэгуляванні (incandescent traffic signaling lamp)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incandescent_traffic_signaling_lamp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lamp_warmup_time;
+    => nrel_associative_connection: by_second_lamp_envelope;
+    => nrel_associative_connection: by_incandescent_lamp;
+    => nrel_associative_connection: by_special_purpose_lamp;
+
+    => nrel_legal_act: by_act_w02035838p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35142?langname=ru];
+    => nrel_etalon_online_idx: [35142];;

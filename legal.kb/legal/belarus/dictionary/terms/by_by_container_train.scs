@@ -1,0 +1,42 @@
+
+by_by_container_train
+    => nrel_main_idtf: [by_container_train] (* <- lang_en;; *);
+    => nrel_main_idtf: [контейнерный поезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантэйнерны цягнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_container_train_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_big_container;
+    => nrel_associative_connection: by_wagons_containers_of_consignors_consignees;
+    => nrel_associative_connection: by_wagons_containers_of_carrier;
+    => nrel_associative_connection: by_intrastation_transportation;
+    => nrel_associative_connection: by_container_sending;
+    => nrel_associative_connection: by_containertank;
+    => nrel_associative_connection: by_containers_for_mass_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_freight_train;
+    => nrel_associative_connection: by_freight_transporting_long_train;
+    => nrel_associative_connection: by_cargopassenger_train;
+
+    => nrel_legal_act: by_act_w22340147;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42672?langname=ru];
+    => nrel_etalon_online_idx: [42672];;

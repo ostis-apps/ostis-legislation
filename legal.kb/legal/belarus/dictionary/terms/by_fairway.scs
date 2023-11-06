@@ -1,0 +1,70 @@
+
+by_fairway
+    => nrel_main_idtf: [fairway] (* <- lang_en;; *);
+    => nrel_main_idtf: [судовой ход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суднавы ход] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fairway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fairway_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fairway_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_shipping_route;
+    => nrel_associative_connection: by_additional_fairway;
+    => nrel_associative_connection: by_fairway_hem;
+    => nrel_associative_connection: by_jetty_facilities;
+    => nrel_associative_connection: by_vessel_pass;
+    => nrel_associative_connection: by_radius_of_curvature_of_the_channel;
+    => nrel_associative_connection: by_divergence_of_vessels;
+    => nrel_associative_connection: by_running_shore;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_w21934604p;
+    => nrel_legal_act: by_act_n21900092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24512?langname=ru];
+    => nrel_etalon_online_idx: [24512];;

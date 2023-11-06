@@ -1,0 +1,73 @@
+
+by_polygraphy
+    => nrel_main_idtf: [polygraphy] (* <- lang_en;; *);
+    => nrel_main_idtf: [полиграфия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паліграфія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_polygraphy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_polygraphy_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_polygraphy_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_original;
+    => nrel_associative_connection: by_original_layout;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_printing_processes;
+    => nrel_associative_connection: by_polygraphic_activity;
+    => nrel_associative_connection: by_polygraphic_machine_installation_device;
+    => nrel_associative_connection: by_polygraphic_process;
+    => nrel_associative_connection: by_polygraphic_equipment;
+    => nrel_associative_connection: by_polygraphic_enterprise_or_printing_house;
+    => nrel_associative_connection: by_polygraphic_production;
+    => nrel_associative_connection: by_testing_on_polygraph;
+
+    => nrel_legal_act: by_act_w22035365p;
+    => nrel_legal_act: by_act_w21934497p;
+    => nrel_legal_act: by_act_w21934497p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33577?langname=ru];
+    => nrel_etalon_online_idx: [33577];;

@@ -1,0 +1,36 @@
+
+by_days_of_study
+    => nrel_main_idtf: [days of study] (* <- lang_en;; *);
+    => nrel_main_idtf: [дни учебы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дні навучання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_days_of_study_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_training;
+    => nrel_associative_connection: by_teaching;
+    => nrel_associative_connection: by_learning_activities;
+    => nrel_associative_connection: by_days;
+    => nrel_associative_connection: by_academic_year;
+    => nrel_associative_connection: by_student;
+
+    => nrel_legal_act: by_act_c20800851;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14226?langname=ru];
+    => nrel_etalon_online_idx: [14226];;

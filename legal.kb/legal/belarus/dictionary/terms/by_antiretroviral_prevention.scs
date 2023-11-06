@@ -1,0 +1,38 @@
+
+by_antiretroviral_prevention
+    => nrel_main_idtf: [antiretroviral prevention] (* <- lang_en;; *);
+    => nrel_main_idtf: [антиретровирусная профилактика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [антырэтравіруснае прафілактыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_antiretroviral_prevention_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antiretroviral_therapy;
+    => nrel_associative_connection: by_antiretroviral_medicine;
+    => nrel_associative_connection: by_antiretroviral_medicines;
+    => nrel_associative_connection: by_virus_suppression;
+    => nrel_associative_connection: by_hiv_infection;
+    => nrel_associative_connection: by_aids_virus_exposed_child;
+    => nrel_associative_connection: by_hiv_patients;
+    => nrel_associative_connection: by_transmission_of_hiv_infection_from_mother_to_child;
+
+    => nrel_legal_act: by_act_w21833281p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29073?langname=ru];
+    => nrel_etalon_online_idx: [29073];;

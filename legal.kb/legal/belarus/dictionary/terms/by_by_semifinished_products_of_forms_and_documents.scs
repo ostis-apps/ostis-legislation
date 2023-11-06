@@ -1,0 +1,37 @@
+
+by_by_semifinished_products_of_forms_and_documents
+    => nrel_main_idtf: [by_semifinished_products_of_forms_and_documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [полуфабрикаты бланков и документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўфабрыкаты бланкаў і дакументаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_semifinished_products_of_forms_and_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_defective_semifinished_products_and_manufactured_forms_and_documents;
+    => nrel_associative_connection: by_defectivity_of_semifinished_products_and_special_materials_produced;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_organizationmanufacturer;
+    => nrel_associative_connection: by_organizationmanufacturer_of_special_materials;
+    => nrel_associative_connection: by_semifinished_products_of_special_materials;
+    => nrel_associative_connection: by_mean_of_protection;
+
+    => nrel_legal_act: by_act_w22238614;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41005?langname=ru];
+    => nrel_etalon_online_idx: [41005];;

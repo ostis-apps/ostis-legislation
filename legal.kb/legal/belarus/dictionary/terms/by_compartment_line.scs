@@ -1,0 +1,34 @@
+
+by_compartment_line
+    => nrel_main_idtf: [compartment line] (* <- lang_en;; *);
+    => nrel_main_idtf: [квартальная просека] (* <- lang_ru;; *);
+    => nrel_main_idtf: [квартальная прасека] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compartment_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lands_under_roads_and_other_transport_communications;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_compartment;
+
+    => nrel_legal_act: by_act_hk1500332;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11907?langname=ru];
+    => nrel_etalon_online_idx: [11907];;

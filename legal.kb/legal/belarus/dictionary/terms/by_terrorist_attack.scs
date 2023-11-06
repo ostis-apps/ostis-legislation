@@ -1,0 +1,49 @@
+
+by_terrorist_attack
+    => nrel_main_idtf: [terrorist attack] (* <- lang_en;; *);
+    => nrel_main_idtf: [террористическая акция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрарыстычная акцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_terrorist_attack_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_terrorist_attack_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_share;
+    => nrel_associative_connection: by_persons_affected_by_the_terrorism_act;
+    => nrel_associative_connection: by_finished_counterterrorism_operation;
+
+    => nrel_legal_act: by_act_h10200077;
+    => nrel_legal_act: by_act_n20400058;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24830?langname=ru];
+    => nrel_etalon_online_idx: [24830];;

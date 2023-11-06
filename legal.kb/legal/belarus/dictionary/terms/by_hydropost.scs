@@ -1,0 +1,24 @@
+
+by_hydropost
+    => nrel_main_idtf: [hydropost] (* <- lang_en;; *);
+    => nrel_main_idtf: [гидропост] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гідрапост] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_hydrological_regime;
+    => nrel_associative_connection: by_observation;
+    => nrel_associative_connection: by_observations;
+    => nrel_associative_connection: by_bypass_post;
+    => nrel_associative_connection: by_roll;
+    => nrel_associative_connection: by_post;
+    => nrel_associative_connection: by_project_level;
+    => nrel_associative_connection: by_water_consumption;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13531?langname=ru];
+    => nrel_etalon_online_idx: [13531];;

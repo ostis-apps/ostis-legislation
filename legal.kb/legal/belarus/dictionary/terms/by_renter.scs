@@ -1,0 +1,20 @@
+
+by_renter
+    => nrel_main_idtf: [renter] (* <- lang_en;; *);
+    => nrel_main_idtf: [наймодатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наймадавец] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_accommodation_rent_contract;
+    => nrel_associative_connection: by_accommodation_rent_contract_lease_contract;
+    => nrel_associative_connection: by_lease_and_sale_contract;
+    => nrel_associative_connection: by_subrent_agreement;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9446?langname=ru];
+    => nrel_etalon_online_idx: [9446];;

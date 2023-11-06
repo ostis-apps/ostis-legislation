@@ -1,0 +1,36 @@
+
+by_investor_of_industrial_park
+    => nrel_main_idtf: [investor of industrial park] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвестор индустриального парка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвестар індустрыяльнага парка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investor_of_industrial_park_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_object_of_industrial_park;
+    => nrel_associative_connection: by_primary_investor;
+    => nrel_associative_connection: by_industrial_park_resident;
+    => nrel_associative_connection: by_legal_personsinvestors;
+
+    => nrel_legal_act: by_act_p31700166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15236?langname=ru];
+    => nrel_etalon_online_idx: [15236];;

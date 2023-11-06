@@ -1,0 +1,36 @@
+
+by_toxicity
+    => nrel_main_idtf: [toxicity] (* <- lang_en;; *);
+    => nrel_main_idtf: [токсичность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таксічнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_toxicity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biotransformation_of_toxicants;
+    => nrel_associative_connection: by_toxicity_index;
+    => nrel_associative_connection: by_corrosion_gases;
+    => nrel_associative_connection: by_safety_data_sheet;
+    => nrel_associative_connection: by_reactivity;
+    => nrel_associative_connection: by_toxicity_of_combustion_products;
+
+    => nrel_legal_act: by_act_w21934870;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25047?langname=ru];
+    => nrel_etalon_online_idx: [25047];;

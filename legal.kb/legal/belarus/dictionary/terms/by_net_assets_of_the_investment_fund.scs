@@ -1,0 +1,34 @@
+
+by_net_assets_of_the_investment_fund
+    => nrel_main_idtf: [net assets of the investment fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [чистые активы инвестиционного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [чыстыя актывы інвестыцыйнага фонда] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_net_assets_of_the_investment_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_activities_of_specialized_depository_of_the_investment_fund;
+    => nrel_associative_connection: by_property_of_investment_fund;
+    => nrel_associative_connection: by_investment_fund;
+
+    => nrel_legal_act: by_act_h11700052;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26326?langname=ru];
+    => nrel_etalon_online_idx: [26326];;

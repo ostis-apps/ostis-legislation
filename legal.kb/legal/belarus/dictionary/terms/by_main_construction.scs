@@ -1,0 +1,37 @@
+
+by_main_construction
+    => nrel_main_idtf: [main construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [основное строение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўная будыніна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_capital_structure;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_organizations_capital_structure_building_construction;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28456?langname=ru];
+    => nrel_etalon_online_idx: [28456];;

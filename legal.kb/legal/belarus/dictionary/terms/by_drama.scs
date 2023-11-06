@@ -1,0 +1,34 @@
+
+by_drama
+    => nrel_main_idtf: [drama] (* <- lang_en;; *);
+    => nrel_main_idtf: [драматургия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [драматургія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drama_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_entertainment_establishment;
+    => nrel_associative_connection: by_art_of_variety;
+    => nrel_associative_connection: by_director_of_the_performance;
+    => nrel_associative_connection: by_shooting_script;
+
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29222?langname=ru];
+    => nrel_etalon_online_idx: [29222];;

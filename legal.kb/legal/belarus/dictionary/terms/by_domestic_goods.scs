@@ -1,0 +1,64 @@
+
+by_domestic_goods
+    => nrel_main_idtf: [domestic goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [отечественные товары] (* <- lang_ru;; *);
+    => nrel_main_idtf: [айчынныя тавары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_domestic_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_domestic_goods_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_domestic_goods_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_goods_produced_on_the_territory_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_p31100319;
+    => nrel_legal_act: by_act_f20400039;
+    => nrel_legal_act: by_act_n91300094;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6433?langname=ru];
+    => nrel_etalon_online_idx: [6433];;

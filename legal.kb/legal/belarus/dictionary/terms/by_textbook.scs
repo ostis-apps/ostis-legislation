@@ -1,0 +1,21 @@
+
+by_textbook
+    => nrel_main_idtf: [textbook] (* <- lang_en;; *);
+    => nrel_main_idtf: [учебник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падручнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_release_calendar_of_educational_publications;
+    => nrel_associative_connection: by_preparation_for_educational_publications_editions;
+    => nrel_associative_connection: by_educational_publications_preparation;
+    => nrel_associative_connection: by_student;
+    => nrel_associative_connection: by_chrestomathy;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25821?langname=ru];
+    => nrel_etalon_online_idx: [25821];;

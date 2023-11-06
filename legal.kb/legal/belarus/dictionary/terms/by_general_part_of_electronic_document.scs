@@ -1,0 +1,20 @@
+
+by_general_part_of_electronic_document
+    => nrel_main_idtf: [general part of electronic document] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая часть электронного документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная частка электроннага дакумента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_special_part_of_electronic_document;
+    => nrel_associative_connection: by_authenticity_of_an_electronic_document;
+    => nrel_associative_connection: by_integrity_of_the_electronic_document;
+    => nrel_associative_connection: by_electronic_document;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33066?langname=ru];
+    => nrel_etalon_online_idx: [33066];;

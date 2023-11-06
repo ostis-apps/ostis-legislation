@@ -1,0 +1,35 @@
+
+by_peat_born_swamp_peat_deposits_drained_lands_with_peat_soils
+    => nrel_main_idtf: [peat born (swamp, peat deposits, drained lands with peat soils)] (* <- lang_en;; *);
+    => nrel_main_idtf: [торфяник (болото, торфяное месторождение, осушенные земли с торфяными почвами)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тарфянік (балота, тарфяное месцанараджэнне, асушаныя землі з тарфянымі падставамі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_peat_born_swamp_peat_deposits_drained_lands_with_peat_soils_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_natural_swamp;
+    => nrel_associative_connection: by_disturbance_of_natural_swamp;
+    => nrel_associative_connection: by_protection_of_peatlands;
+    => nrel_associative_connection: by_rewaterlogged_peatland;
+    => nrel_associative_connection: by_ecological_rehabilitation_of_peatlands;
+
+    => nrel_legal_act: by_act_h11900272;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36191?langname=ru];
+    => nrel_etalon_online_idx: [36191];;

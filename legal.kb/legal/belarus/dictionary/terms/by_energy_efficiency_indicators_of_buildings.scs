@@ -1,0 +1,34 @@
+
+by_energy_efficiency_indicators_of_buildings
+    => nrel_main_idtf: [energy efficiency indicators of buildings] (* <- lang_en;; *);
+    => nrel_main_idtf: [показатели энергетической эффективности зданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паказчыкі энергетычнай эфектыўнасці будынкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_energy_efficiency_indicators_of_buildings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_enclosing_structure;
+    => nrel_associative_connection: by_class_of_the_building_in_terms_of_specific_energy_consumption_for_heating_and_ventilation;
+    => nrel_associative_connection: by_total_energy_performance_indicator_indicative_indicator;
+    => nrel_associative_connection: by_heated_area_of_the_building;
+
+    => nrel_legal_act: by_act_w22136279p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37273?langname=ru];
+    => nrel_etalon_online_idx: [37273];;

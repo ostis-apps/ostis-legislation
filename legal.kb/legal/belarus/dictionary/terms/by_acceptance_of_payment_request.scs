@@ -1,0 +1,22 @@
+
+by_acceptance_of_payment_request
+    => nrel_main_idtf: [acceptance of payment request] (* <- lang_en;; *);
+    => nrel_main_idtf: [акцепт платежного требования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акцэпт плацежнага патрабавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_acceptance;
+    => nrel_associative_connection: by_payer_accept;
+    => nrel_associative_connection: by_acceptance;
+    => nrel_associative_connection: by_payment_request;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_payers;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11068?langname=ru];
+    => nrel_etalon_online_idx: [11068];;

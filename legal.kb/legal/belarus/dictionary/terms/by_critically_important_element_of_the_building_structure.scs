@@ -1,0 +1,31 @@
+
+by_critically_important_element_of_the_building_structure
+    => nrel_main_idtf: [critically important element of the building (structure)] (* <- lang_en;; *);
+    => nrel_main_idtf: [критически важный элемент здания (сооружения)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крытычна важны элемент будынка (збудавання)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_critically_important_element_of_the_building_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_engineering_means_of_physical_protection;
+
+    => nrel_legal_act: by_act_w22035976p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35698?langname=ru];
+    => nrel_etalon_online_idx: [35698];;

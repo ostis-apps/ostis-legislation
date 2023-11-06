@@ -1,0 +1,48 @@
+
+by_selfinsurance
+    => nrel_main_idtf: [self-insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [самостраховка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [самастрахоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_selfinsurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_insuring_device;
+    => nrel_associative_connection: by_steeplejacking;
+    => nrel_associative_connection: by_group_equipment;
+    => nrel_associative_connection: by_individual_insurance_system;
+    => nrel_associative_connection: by_industrial_mountaineering_method;
+    => nrel_associative_connection: by_railing;
+    => nrel_associative_connection: by_safety_uphill_device;
+    => nrel_associative_connection: by_work_at_height;
+    => nrel_associative_connection: by_works_at_height;
+    => nrel_associative_connection: by_independent_climbing_work;
+    => nrel_associative_connection: by_insurance_system;
+    => nrel_associative_connection: by_personal_protection_against_falls_from_height;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_top_insurance;
+    => nrel_associative_connection: by_dynamic_insurance;
+    => nrel_associative_connection: by_lower_insurance;
+    => nrel_associative_connection: by_insurance_element_rope_rope_rope_hale_tape_and_other;
+    => nrel_associative_connection: by_intermediate_insurance_point;
+
+    => nrel_legal_act: by_act_w20818094;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22804?langname=ru];
+    => nrel_etalon_online_idx: [22804];;

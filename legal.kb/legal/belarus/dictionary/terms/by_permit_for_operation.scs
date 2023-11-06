@@ -1,0 +1,37 @@
+
+by_permit_for_operation
+    => nrel_main_idtf: [permit for operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [допуск к эксплуатации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [допуск да эксплуатацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permit_for_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_park_amusement;
+    => nrel_associative_connection: by_putting_into_operation;
+    => nrel_associative_connection: by_protective_measure;
+    => nrel_associative_connection: by_landing_zone;
+    => nrel_associative_connection: by_operating_instructions;
+    => nrel_associative_connection: by_operating_conditions;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_legal_act: by_act_w22339441p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42122?langname=ru];
+    => nrel_etalon_online_idx: [42122];;

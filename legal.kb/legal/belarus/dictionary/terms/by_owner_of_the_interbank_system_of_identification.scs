@@ -1,0 +1,37 @@
+
+by_owner_of_the_interbank_system_of_identification
+    => nrel_main_idtf: [owner of the interbank system of identification] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец межбанковской системы идентификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік міжбанкаўскай сістэмы ідэнтыфікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_the_interbank_system_of_identification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dynamic_password;
+    => nrel_associative_connection: by_documentation_of_the_interbank_identification_system;
+    => nrel_associative_connection: by_operator_of_state_information_resources_systems;
+    => nrel_associative_connection: by_site_of_the_interbank_identification_system;
+    => nrel_associative_connection: by_remote_identification_system;
+    => nrel_associative_connection: by_static_password;
+    => nrel_associative_connection: by_subjects_of_interbank_identification_system;
+
+    => nrel_legal_act: by_act_b21631290;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32281?langname=ru];
+    => nrel_etalon_online_idx: [32281];;

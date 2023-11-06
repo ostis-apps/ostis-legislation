@@ -1,0 +1,34 @@
+
+by_lights_square_sf_m2
+    => nrel_main_idtf: [lights square sf, m2] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадь фонарей sф, м2] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плошча ліхтароў sф, м2] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lights_square_sf_m2_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_relative_area_of_light_openings_ss_ss_;
+    => nrel_associative_connection: by_window_area_so_m2;
+    => nrel_associative_connection: by_overflight;
+    => nrel_associative_connection: by_lamp;
+
+    => nrel_legal_act: by_act_w02035776p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37825?langname=ru];
+    => nrel_etalon_online_idx: [37825];;

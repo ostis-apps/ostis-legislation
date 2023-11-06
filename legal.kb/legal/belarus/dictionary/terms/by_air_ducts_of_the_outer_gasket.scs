@@ -1,0 +1,36 @@
+
+by_air_ducts_of_the_outer_gasket
+    => nrel_main_idtf: [air ducts of the outer gasket] (* <- lang_en;; *);
+    => nrel_main_idtf: [воздуховоды наружной прокладки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паветраводы вонкавай пракладкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_ducts_of_the_outer_gasket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ventilation_system;
+    => nrel_associative_connection: by_ventilation_kiosk_ventkiosk_kiosk;
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_dismantling_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_collector;
+    => nrel_associative_connection: by_metro;
+
+    => nrel_legal_act: by_act_w22136324p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37122?langname=ru];
+    => nrel_etalon_online_idx: [37122];;

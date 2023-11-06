@@ -1,0 +1,48 @@
+
+by_final_examination
+    => nrel_main_idtf: [final examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [итоговая аттестация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выніковая атэстацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_final_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_postgraduate_student_adjunct;
+    => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_doctoral_candidate;
+    => nrel_associative_connection: by_education_quality;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_training;
+    => nrel_associative_connection: by_perfectly_well_successful_students_and_schoolchildren;
+    => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_pedagogic_test;
+    => nrel_associative_connection: by_acquisition_of_education;
+    => nrel_associative_connection: by_interim_attestation;
+    => nrel_associative_connection: by_parttime_phd_candidate;
+    => nrel_associative_connection: by_student;
+    => nrel_associative_connection: by_current_certification;
+    => nrel_associative_connection: by_schoolchildren;
+    => nrel_associative_connection: by_student;
+    => nrel_associative_connection: by_learning_activities;
+    => nrel_associative_connection: by_curriculum;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15688?langname=ru];
+    => nrel_etalon_online_idx: [15688];;

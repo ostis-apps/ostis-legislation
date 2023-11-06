@@ -1,0 +1,31 @@
+
+by_telecommunication_equipment
+    => nrel_main_idtf: [telecommunication equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [телекоммуникационное оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэлекамунікацыйнае абсталяванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telecommunication_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_use_of_equipment;
+
+    => nrel_legal_act: by_act_w22238936;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24762?langname=ru];
+    => nrel_etalon_online_idx: [24762];;

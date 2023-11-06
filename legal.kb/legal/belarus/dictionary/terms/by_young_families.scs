@@ -1,0 +1,35 @@
+
+by_young_families
+    => nrel_main_idtf: [young families] (* <- lang_en;; *);
+    => nrel_main_idtf: [молодые семьи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маладыя сем'і] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_young_families_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_young_family;
+    => nrel_associative_connection: by_young_family_who_have_two_minor_children_for_the_purpose_of_obtaining_subsidies_to_pay_a_part_of_percents;
+    => nrel_associative_connection: by_family;
+    => nrel_associative_connection: by_family_member;
+    => nrel_associative_connection: by_family_members;
+
+    => nrel_legal_act: by_act_hk1200428;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17484?langname=ru];
+    => nrel_etalon_online_idx: [17484];;

@@ -1,0 +1,21 @@
+
+by_tariff_plan
+    => nrel_main_idtf: [tariff plan] (* <- lang_en;; *);
+    => nrel_main_idtf: [тарифный план] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тарыфны план] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_access_card_sim_card_ruim_card_usim_card;
+    => nrel_associative_connection: by_timebased_tarification;
+    => nrel_associative_connection: by_applicable_tariff;
+    => nrel_associative_connection: by_credit_card_conversation;
+    => nrel_associative_connection: by_roaming;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24699?langname=ru];
+    => nrel_etalon_online_idx: [24699];;

@@ -1,0 +1,36 @@
+
+by_safety_of_the_medicine
+    => nrel_main_idtf: [safety of the medicine ] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасность лекарственного препарата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспека лекавага прэпарата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_of_the_medicine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_medicine;
+    => nrel_associative_connection: by_a_series_batch_of_a_medicinal_product_of_foreign_production_imported_into_the_territory_of_the_republic_of_belarus_by_a_legal_entity;
+    => nrel_associative_connection: by_quality_of_medicinal_product;
+    => nrel_associative_connection: by_medicinal_expiry_date;
+    => nrel_associative_connection: by_medicine_efficacy;
+    => nrel_associative_connection: by_medicine_efficiency;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35503?langname=ru];
+    => nrel_etalon_online_idx: [35503];;

@@ -1,0 +1,97 @@
+
+by_candidate
+    => nrel_main_idtf: [candidate] (* <- lang_en;; *);
+    => nrel_main_idtf: [кандидат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кандыдат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_candidate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_candidate_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_candidate_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_candidate_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_candidate_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_selection_of_candidates_for_service;
+    => nrel_associative_connection: by_polygraph;
+    => nrel_associative_connection: by_tv_debates;
+
+    => nrel_legal_act: by_act_HK0000370;
+    => nrel_legal_act: by_act_w22339435;
+    => nrel_legal_act: by_act_w21732456;
+    => nrel_legal_act: by_act_b21326796;
+    => nrel_legal_act: by_act_n22000123;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5949?langname=ru];
+    => nrel_etalon_online_idx: [5949];;

@@ -1,0 +1,49 @@
+
+by_board_of_the_national_bank
+    => nrel_main_idtf: [board of the national bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [правление национального банка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праўленне нацыянальнага банка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_board_of_the_national_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_board_of_the_national_bank_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_national_bank;
+    => nrel_associative_connection: by_national_bank_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_resolutions_of_the_republican_body_of_state_administration_and_the_national_bank_of_the_republic_of_belarus_board_of_the_national_bank_of_the_republic_of_belarus_board_of_directors_of_the_national_bank_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_hk0000441;
+    => nrel_legal_act: by_act_p30100320;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20909?langname=ru];
+    => nrel_etalon_online_idx: [20909];;

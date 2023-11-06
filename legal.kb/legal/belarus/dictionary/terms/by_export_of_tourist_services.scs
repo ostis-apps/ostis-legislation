@@ -1,0 +1,21 @@
+
+by_export_of_tourist_services
+    => nrel_main_idtf: [export of tourist services] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспорт туристических услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспарт турыстычных паслуг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_additional_travel_services;
+    => nrel_associative_connection: by_reliable_information_about_travel_services;
+    => nrel_associative_connection: by_import_of_travel_services;
+    => nrel_associative_connection: by_necessary_information_about_travel_services;
+    => nrel_associative_connection: by_travel_agency_activity;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26575?langname=ru];
+    => nrel_etalon_online_idx: [26575];;

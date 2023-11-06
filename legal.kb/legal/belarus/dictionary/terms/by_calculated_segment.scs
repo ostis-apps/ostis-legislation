@@ -1,0 +1,54 @@
+
+by_calculated_segment
+    => nrel_main_idtf: [calculated segment] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетный сегмент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковы сегмент] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_segment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_segment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_public_highway;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_border_service_station;
+    => nrel_associative_connection: by_toll_road_user;
+    => nrel_associative_connection: by_locomotive_turnover_point;
+    => nrel_associative_connection: by_service_station;
+    => nrel_associative_connection: by_electronic_payment_device;
+
+    => nrel_legal_act: by_act_p31200426;
+    => nrel_legal_act: by_act_c21300340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22223?langname=ru];
+    => nrel_etalon_online_idx: [22223];;

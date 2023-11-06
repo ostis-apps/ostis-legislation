@@ -1,0 +1,50 @@
+
+by_monopoly_high_price_tariff
+    => nrel_main_idtf: [monopoly high price (tariff)] (* <- lang_en;; *);
+    => nrel_main_idtf: [монопольно высокая цена (тариф)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [манапольна высокая цана (тарыф)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monopoly_high_price_tariff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monopoly_high_price_tariff_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monopolistically_low_price;
+    => nrel_associative_connection: by_monopoly_low_price_tariff;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_tariff;
+
+    => nrel_legal_act: by_act_h11300094;
+    => nrel_legal_act: by_act_a02200043;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41312?langname=ru];
+    => nrel_etalon_online_idx: [41312];;

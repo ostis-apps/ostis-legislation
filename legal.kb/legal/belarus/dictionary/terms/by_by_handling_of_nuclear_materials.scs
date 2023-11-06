@@ -1,0 +1,32 @@
+
+by_by_handling_of_nuclear_materials
+    => nrel_main_idtf: [by_handling_of_nuclear_materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [обращение с ядерными материалами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зварот з ядзернымі матэрыяламі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_handling_of_nuclear_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_buffer_materials_of_the_radioactive_waste_disposal_cell;
+    => nrel_associative_connection: by_fibrous_polymer_materials;
+
+    => nrel_legal_act: by_act_h12200208;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43940?langname=ru];
+    => nrel_etalon_online_idx: [43940];;

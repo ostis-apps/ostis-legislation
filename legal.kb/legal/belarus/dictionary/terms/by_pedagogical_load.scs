@@ -1,0 +1,56 @@
+
+by_pedagogical_load
+    => nrel_main_idtf: [pedagogical load] (* <- lang_en;; *);
+    => nrel_main_idtf: [педагогическая нагрузка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [педагагічная нагрузка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pedagogical_load_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pedagogical_load_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_attestation_of_teaching_staff;
+    => nrel_associative_connection: by_pedagogy;
+    => nrel_associative_connection: by_pedagogical__activity;
+    => nrel_associative_connection: by_pedagogical_load_in_calculating_of_teaching_staff_rate;
+    => nrel_associative_connection: by_educators;
+    => nrel_associative_connection: by_teaching_staff_of_rofessional_and_technical_education_institutions;
+    => nrel_associative_connection: by_teaching_staff_having_high_achievements_in_educational_work;
+    => nrel_associative_connection: by_pedagogic_process;
+    => nrel_associative_connection: by_education_system;
+    => nrel_associative_connection: by_educational_teaching_load;
+
+    => nrel_legal_act: by_act_w21124194;
+    => nrel_legal_act: by_act_w20716540;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19887?langname=ru];
+    => nrel_etalon_online_idx: [19887];;

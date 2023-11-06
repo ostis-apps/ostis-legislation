@@ -1,0 +1,33 @@
+
+by_pretrial_agreement_on_cooperation
+    => nrel_main_idtf: [pretrial agreement on cooperation] (* <- lang_en;; *);
+    => nrel_main_idtf: [досудебное соглашение о сотрудничестве] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дасудовае пагадненне аб супрацоўніцтве] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pretrial_agreement_on_cooperation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mediation;
+    => nrel_associative_connection: by_agreement;
+    => nrel_associative_connection: by_agreement_on_cooperation;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11229?langname=ru];
+    => nrel_etalon_online_idx: [11229];;

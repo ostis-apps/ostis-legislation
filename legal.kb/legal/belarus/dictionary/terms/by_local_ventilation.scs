@@ -1,0 +1,33 @@
+
+by_local_ventilation
+    => nrel_main_idtf: [local ventilation] (* <- lang_en;; *);
+    => nrel_main_idtf: [местная вентиляция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовая вентыляцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_ventilation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_prefabricated_ventilation_bridge;
+    => nrel_associative_connection: by_channel_of_tunnel_ventilation_ventilationcable_channel;
+    => nrel_associative_connection: by_tunnel_lining;
+
+    => nrel_legal_act: by_act_w02035789p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35955?langname=ru];
+    => nrel_etalon_online_idx: [35955];;

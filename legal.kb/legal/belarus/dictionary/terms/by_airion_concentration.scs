@@ -1,0 +1,37 @@
+
+by_airion_concentration
+    => nrel_main_idtf: [airion concentration] (* <- lang_en;; *);
+    => nrel_main_idtf: [концентрация аэроионов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцэнтрацыя аэраіонаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airion_concentration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aeroionotherapy;
+    => nrel_associative_connection: by_air_deionization;
+    => nrel_associative_connection: by_breathing_zone;
+    => nrel_associative_connection: by_sources_of_ionization;
+    => nrel_associative_connection: by_air_conditioning;
+    => nrel_associative_connection: by_activity_concentration;
+    => nrel_associative_connection: by_unipolarity_coefficient_u;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41673?langname=ru];
+    => nrel_etalon_online_idx: [41673];;

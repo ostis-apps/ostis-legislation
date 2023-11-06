@@ -1,0 +1,51 @@
+
+by_threat_of_violence
+    => nrel_main_idtf: [threat of violence] (* <- lang_en;; *);
+    => nrel_main_idtf: [угроза применения насилия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагроза прымянення насілля] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_threat_of_violence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_threat_of_violence_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rape;
+    => nrel_associative_connection: by_violence;
+    => nrel_associative_connection: by_open_abduction;
+    => nrel_associative_connection: by_robbery;
+    => nrel_associative_connection: by_threat;
+
+    => nrel_legal_act: by_act_s21200007;
+    => nrel_legal_act: by_act_s20100015;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2126?langname=ru];
+    => nrel_etalon_online_idx: [2126];;

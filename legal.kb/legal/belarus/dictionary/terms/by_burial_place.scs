@@ -1,0 +1,44 @@
+
+by_burial_place
+    => nrel_main_idtf: [burial place] (* <- lang_en;; *);
+    => nrel_main_idtf: [место погребения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца пахавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_burial_place_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mass_grave;
+    => nrel_associative_connection: by_expression_of_the_dead;
+    => nrel_associative_connection: by_group_grave;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_cemetery;
+    => nrel_associative_connection: by_columbarium;
+    => nrel_associative_connection: by_person_taking_over_burial_organization;
+    => nrel_associative_connection: by_person_who_responsible_for_the_content_and_improvement_of_burial_place;
+    => nrel_associative_connection: by_grave;
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_ritual_area;
+    => nrel_associative_connection: by_unauthorised_burial;
+    => nrel_associative_connection: by_crypt;
+    => nrel_associative_connection: by_services_related_to_funeral_organization;
+
+    => nrel_legal_act: by_act_h10100055;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28290?langname=ru];
+    => nrel_etalon_online_idx: [28290];;

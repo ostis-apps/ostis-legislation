@@ -1,0 +1,34 @@
+
+by_depository_of_bar_codes
+    => nrel_main_idtf: [depository of bar codes] (* <- lang_en;; *);
+    => nrel_main_idtf: [депозитарий штриховых кодов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпазітарый штрыхавых кодаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depository_of_bar_codes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_code;
+    => nrel_associative_connection: by_depositary_code;
+    => nrel_associative_connection: by_ean_system_of_belarus;
+
+    => nrel_legal_act: by_act_c20000748;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14088?langname=ru];
+    => nrel_etalon_online_idx: [14088];;

@@ -1,0 +1,45 @@
+
+by_scheduled_verification_of_the_water_meter
+    => nrel_main_idtf: [scheduled verification of the water meter] (* <- lang_en;; *);
+    => nrel_main_idtf: [плановая поверка прибора учета расхода воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [планавая паверка прыбора ўліку расходу вады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scheduled_verification_of_the_water_meter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interference_in_the_work_of_the_device_of_individual_accounting_of_the_consumption_of_water_gas_heat_and_electric_energy;
+    => nrel_associative_connection: by_gas_metering_instrument;
+    => nrel_associative_connection: by_serviceable_measuring_instrument;
+    => nrel_associative_connection: by_verification_mark;
+    => nrel_associative_connection: by_verification;
+    => nrel_associative_connection: by_group_measuring_device;
+    => nrel_associative_connection: by_individual_measuring_device;
+    => nrel_associative_connection: by_metering_device;
+    => nrel_associative_connection: by_metering_device_water_meter;
+    => nrel_associative_connection: by_water_consumption_meter_water_meter;
+    => nrel_associative_connection: by_thermal_energy_metering_device;
+    => nrel_associative_connection: by_electricity_metering_device;
+    => nrel_associative_connection: by_water_consumption;
+    => nrel_associative_connection: by_public_water_supply_system;
+    => nrel_associative_connection: by_physical_water_loss_leakage;
+
+    => nrel_legal_act: by_act_c21600788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20193?langname=ru];
+    => nrel_etalon_online_idx: [20193];;

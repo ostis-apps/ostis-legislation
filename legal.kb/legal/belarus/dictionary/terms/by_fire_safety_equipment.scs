@@ -1,0 +1,43 @@
+
+by_fire_safety_equipment
+    => nrel_main_idtf: [fire safety equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарная техника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарная тэхніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_safety_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mobile_fire_extinguisher;
+    => nrel_associative_connection: by_portable_fire_extinguisher;
+    => nrel_associative_connection: by_fireengine_train;
+    => nrel_associative_connection: by_fire;
+    => nrel_associative_connection: by_fire_safety;
+    => nrel_associative_connection: by_fire_rescue_rope;
+    => nrel_associative_connection: by_fire_chemical_stations_fcs;
+    => nrel_associative_connection: by_fire_teams;
+    => nrel_associative_connection: by_firefighter;
+    => nrel_associative_connection: by_fire_car_of_combined_extinguishing;
+    => nrel_associative_connection: by_fire_car_of_powder_extinguishing;
+    => nrel_associative_connection: by_powder_fire_extinguisher;
+    => nrel_associative_connection: by_firefighting_water_supply;
+
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6544?langname=ru];
+    => nrel_etalon_online_idx: [6544];;

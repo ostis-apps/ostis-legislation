@@ -1,0 +1,41 @@
+
+by_auditing_organizationnonresident
+    => nrel_main_idtf: [auditing organization-non-resident] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиторская организация - нерезидент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдытарская арганізацыя - нерэзідэнт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auditing_organizationnonresident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_other_audit_organization;
+    => nrel_associative_connection: by_organization_location;
+    => nrel_associative_connection: by_nonresident;
+    => nrel_associative_connection: by_nonresident_organizations;
+    => nrel_associative_connection: by_basic_audit_organization;
+    => nrel_associative_connection: by_previous_auditing_organization;
+    => nrel_associative_connection: by_legal_entities;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_b22035202;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12574?langname=ru];
+    => nrel_etalon_online_idx: [12574];;

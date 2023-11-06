@@ -1,0 +1,38 @@
+
+by_subjects_of_professional_pension_insurance
+    => nrel_main_idtf: [subjects of professional pension insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты профессионального пенсионного страхования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты прафесійнага пенсійнага страхавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_professional_pension_insurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contributions_to_the_pension_insurance;
+    => nrel_associative_connection: by_additional_occupational_pension;
+    => nrel_associative_connection: by_early_pension_period_of_the_insured_person;
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_pension_savings;
+    => nrel_associative_connection: by_occupational_pension_insurance;
+    => nrel_associative_connection: by_insurant;
+    => nrel_associative_connection: by_insurer;
+
+    => nrel_legal_act: by_act_h10800322;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24452?langname=ru];
+    => nrel_etalon_online_idx: [24452];;

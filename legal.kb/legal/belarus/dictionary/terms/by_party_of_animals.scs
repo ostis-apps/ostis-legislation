@@ -1,0 +1,67 @@
+
+by_party_of_animals
+    => nrel_main_idtf: [party of animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [партия животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партыя жывёл] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_party_of_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_party_of_animals_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_party_of_animals_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_domestic_animals;
+    => nrel_associative_connection: by_meat_product;
+    => nrel_associative_connection: by_food_product_of_slaughter;
+    => nrel_associative_connection: by_slaughter_products;
+    => nrel_associative_connection: by_agricultural_animals;
+
+    => nrel_legal_act: by_act_c21300758;
+    => nrel_legal_act: by_act_w21530283p;
+    => nrel_legal_act: by_act_f91300210;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31588?langname=ru];
+    => nrel_etalon_online_idx: [31588];;

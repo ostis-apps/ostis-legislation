@@ -1,0 +1,49 @@
+
+by_public_members
+    => nrel_main_idtf: [public members] (* <- lang_en;; *);
+    => nrel_main_idtf: [представители общественности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнікі грамадскасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_members_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_members_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_protection_of_public_order;
+    => nrel_associative_connection: by_representatives_of_authorities;
+    => nrel_associative_connection: by_representative;
+
+    => nrel_legal_act: by_act_hk9900275;
+    => nrel_legal_act: by_act_s20400012;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/719?langname=ru];
+    => nrel_etalon_online_idx: [719];;

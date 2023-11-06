@@ -1,0 +1,51 @@
+
+by_degree_of_loss_of_professional_work_capability
+    => nrel_main_idtf: [degree of loss of professional work capability] (* <- lang_en;; *);
+    => nrel_main_idtf: [степень утраты профессиональной трудоспособности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ступень страты прафесійнай працаздольнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_degree_of_loss_of_professional_work_capability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_degree_of_loss_of_professional_work_capability_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assessment_of_the_quality_of_medical_care_and_medical_examinations;
+    => nrel_associative_connection: by_professional_activity;
+    => nrel_associative_connection: by_vocational_capacity_to_work;
+    => nrel_associative_connection: by_persistent_loss_of_professional_workability;
+    => nrel_associative_connection: by_insured_event;
+
+    => nrel_legal_act: by_act_p30600530;
+    => nrel_legal_act: by_act_n29800106;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24232?langname=ru];
+    => nrel_etalon_online_idx: [24232];;

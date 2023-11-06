@@ -1,0 +1,48 @@
+
+by_upbringing_program
+    => nrel_main_idtf: [upbringing program] (* <- lang_en;; *);
+    => nrel_main_idtf: [программа воспитания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграма выхавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_upbringing_program_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upbringing;
+    => nrel_associative_connection: by_foster_child;
+    => nrel_associative_connection: by_upbringing_and_recreation_education_institution;
+    => nrel_associative_connection: by_upbringing_process;
+    => nrel_associative_connection: by_children_having_high_achievements_in_training_and_public_activities;
+    => nrel_associative_connection: by_information_and_methodological_materials;
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_comprehensive_early_assistance_program;
+    => nrel_associative_connection: by_program_and_planning_documentation_of_upbringing;
+    => nrel_associative_connection: by_programs;
+    => nrel_associative_connection: by_products_on_sexual_education_and_sex_upbringing;
+    => nrel_associative_connection: by_social_and_pedagogical_institution;
+    => nrel_associative_connection: by_educational_and_teaching_complex;
+    => nrel_associative_connection: by_higher_education_institution;
+    => nrel_associative_connection: by_institution_of_additional_education_for_children_and_youth;
+    => nrel_associative_connection: by_institution_of_specialized_education;
+    => nrel_associative_connection: by_institution_of_specialized_secondary_education;
+    => nrel_associative_connection: by_educational_institutions_implementing_educational_programs;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4095?langname=ru];
+    => nrel_etalon_online_idx: [4095];;

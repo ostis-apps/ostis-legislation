@@ -1,0 +1,38 @@
+
+by_basic_firefighting_capability
+    => nrel_main_idtf: [basic firefighting capability] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичные средства пожаротушения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасныя сродкі пажаратушэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_firefighting_capability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inflammable_substances_and_materials;
+    => nrel_associative_connection: by_young_children;
+    => nrel_associative_connection: by_local_start_of_the_fire_extinguishing_unit;
+    => nrel_associative_connection: by_nonconformity_violation;
+    => nrel_associative_connection: by_nonheating_furnace;
+    => nrel_associative_connection: by_fire_detector;
+    => nrel_associative_connection: by_fire_safety_and_fire_extinguishing_equipment;
+    => nrel_associative_connection: by_fire_protection_and_fire_extinguishing_equipment;
+
+    => nrel_legal_act: by_act_w22035259p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33173?langname=ru];
+    => nrel_etalon_online_idx: [33173];;

@@ -1,0 +1,52 @@
+
+by_planting_area
+    => nrel_main_idtf: [planting area] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесокультурная площадь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесакультурная плошча] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_planting_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_planting_area_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geographical_plants;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_forest_culture_fund;
+    => nrel_associative_connection: by_afforestation;
+    => nrel_associative_connection: by_forest_management;
+    => nrel_associative_connection: by_preparation_of_forest_area;
+
+    => nrel_legal_act: by_act_w22238118;
+    => nrel_legal_act: by_act_w21631578;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12106?langname=ru];
+    => nrel_etalon_online_idx: [12106];;

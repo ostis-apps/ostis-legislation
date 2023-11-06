@@ -1,0 +1,56 @@
+
+by_gross_profit
+    => nrel_main_idtf: [gross profit] (* <- lang_en;; *);
+    => nrel_main_idtf: [валовая прибыль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [валавы прыбытак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_profit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_profit_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accounting_profit_loss;
+    => nrel_associative_connection: by_earnings;
+    => nrel_associative_connection: by_gross_capital_formation;
+    => nrel_associative_connection: by_gross_savings;
+    => nrel_associative_connection: by_gross_income;
+    => nrel_associative_connection: by_added_cost;
+    => nrel_associative_connection: by_gross_income_coefficient_gross_yield_multiplier;
+    => nrel_associative_connection: by_required_profit;
+    => nrel_associative_connection: by_limit_normative_of_return;
+    => nrel_associative_connection: by_accounting_profit_loss;
+
+    => nrel_legal_act: by_act_t22104927p;
+    => nrel_legal_act: by_act_t22104770p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4917?langname=ru];
+    => nrel_etalon_online_idx: [4917];;

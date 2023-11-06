@@ -1,0 +1,36 @@
+
+by_by_medium
+    => nrel_main_idtf: [by_medium] (* <- lang_en;; *);
+    => nrel_main_idtf: [разделительная полоса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раздзяляльная паласа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_medium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_compelled_stop_of_a_vehicle;
+    => nrel_associative_connection: by_vehicle_stop;
+    => nrel_associative_connection: by_safety_island;
+    => nrel_associative_connection: by_lane;
+    => nrel_associative_connection: by_carriageway;
+    => nrel_associative_connection: by_zone_of_separation;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22026?langname=ru];
+    => nrel_etalon_online_idx: [22026];;

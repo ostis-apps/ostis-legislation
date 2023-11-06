@@ -1,0 +1,34 @@
+
+by_more_lenient_criminal_law
+    => nrel_main_idtf: [more lenient criminal law] (* <- lang_en;; *);
+    => nrel_main_idtf: [более мягкий уголовный закон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мякчэйшы крымінальны закон] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_more_lenient_criminal_law_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analogy_of_statute;
+    => nrel_associative_connection: by_law;
+    => nrel_associative_connection: by_legislative_acts;
+    => nrel_associative_connection: by_legislation;
+
+    => nrel_legal_act: by_act_k90300160;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12806?langname=ru];
+    => nrel_etalon_online_idx: [12806];;

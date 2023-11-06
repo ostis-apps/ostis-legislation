@@ -1,0 +1,41 @@
+
+by_bookmaker_online_game
+    => nrel_main_idtf: [bookmaker online game] (* <- lang_en;; *);
+    => nrel_main_idtf: [букмекерская онлайн-игра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [букмекерская анлайн-гульня] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bookmaker_online_game_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_bookmaker_game;
+    => nrel_associative_connection: by_bookmaker_card;
+    => nrel_associative_connection: by_bookmaker_office;
+    => nrel_associative_connection: by_virtual_gambling_establishment;
+    => nrel_associative_connection: by_foreign_segment_of_the_global_computer_network_internet;
+    => nrel_associative_connection: by_cash_of_bookmaker_offices;
+    => nrel_associative_connection: by_live_mode;
+    => nrel_associative_connection: by_online_card_game;
+    => nrel_associative_connection: by_online_totalizator_game;
+    => nrel_associative_connection: by_slot_game;
+
+    => nrel_legal_act: by_act_p30500009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29136?langname=ru];
+    => nrel_etalon_online_idx: [29136];;

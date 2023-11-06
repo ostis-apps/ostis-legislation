@@ -1,0 +1,53 @@
+
+by_objects_of_railway_transport
+    => nrel_main_idtf: [objects of railway transport] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты железнодорожного транспорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты чыгуначнага транспарту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_railway_transport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_railway_transport_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_railroad_station;
+    => nrel_associative_connection: by_railway_vehicle;
+    => nrel_associative_connection: by_railways;
+    => nrel_associative_connection: by_public_railways;
+    => nrel_associative_connection: by_railway_rolling_stock;
+    => nrel_associative_connection: by_public_railway_transport;
+    => nrel_associative_connection: by_infrastructure_of_railway_transport_of_general_use;
+
+    => nrel_legal_act: by_act_c20600909;
+    => nrel_legal_act: by_act_n91300016;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18754?langname=ru];
+    => nrel_etalon_online_idx: [18754];;

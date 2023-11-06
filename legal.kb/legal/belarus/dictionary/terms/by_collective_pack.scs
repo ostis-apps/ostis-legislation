@@ -1,0 +1,34 @@
+
+by_collective_pack
+    => nrel_main_idtf: [collective pack] (* <- lang_en;; *);
+    => nrel_main_idtf: [сборная пачка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зборны пачак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_collective_pack_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_collection_of_cash_monetary_means_precious_metals_and_precious_stones_and_other_values;
+    => nrel_associative_connection: by_cash_belarusian_rubles;
+    => nrel_associative_connection: by_employees_of_cash_collection_services;
+    => nrel_associative_connection: by_employees_of_the_collection_service;
+
+    => nrel_legal_act: by_act_b20715627;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22858?langname=ru];
+    => nrel_etalon_online_idx: [22858];;

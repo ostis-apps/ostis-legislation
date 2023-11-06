@@ -1,0 +1,37 @@
+
+by_repeatability
+    => nrel_main_idtf: [repeatability] (* <- lang_en;; *);
+    => nrel_main_idtf: [повторяемость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўтаральнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repeatability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reproducibility;
+    => nrel_associative_connection: by_unit_of_measurement;
+    => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_linearity;
+    => nrel_associative_connection: by_technique_method_of_measurements;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_accounting_measurements;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20307?langname=ru];
+    => nrel_etalon_online_idx: [20307];;

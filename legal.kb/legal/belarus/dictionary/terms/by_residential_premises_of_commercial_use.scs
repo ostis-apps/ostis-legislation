@@ -1,0 +1,21 @@
+
+by_residential_premises_of_commercial_use
+    => nrel_main_idtf: [residential premises of commercial use] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилое помещение коммерческого использования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жылое памяшканне камерцыйнага выкарыстання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_accommodation_rent_contract;
+    => nrel_associative_connection: by_residential_building_for_special_purpose;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises_of_the_republican_housing_stock;
+    => nrel_associative_connection: by_residential_premises;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10111?langname=ru];
+    => nrel_etalon_online_idx: [10111];;

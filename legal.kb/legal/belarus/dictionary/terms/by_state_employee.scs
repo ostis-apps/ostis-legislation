@@ -1,0 +1,97 @@
+
+by_state_employee
+    => nrel_main_idtf: [state employee] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный служащий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны служачы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_employee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_employee_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_employee_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_employee_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_state_civil_service;
+    => nrel_associative_connection: by_state_position;
+    => nrel_associative_connection: by_state_service;
+    => nrel_associative_connection: by_public_administration;
+    => nrel_associative_connection: by_state_officials;
+    => nrel_associative_connection: by_state_employee_of_the_ministry_of_foreign_affairs;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_official_salary;
+    => nrel_associative_connection: by_position;
+    => nrel_associative_connection: by_qualification_directory__state_positions_of_public_service;
+    => nrel_associative_connection: by_commemorative_badge_of_administrative_department_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_representatives_of_authorities;
+    => nrel_associative_connection: by_heads_of_the_republican_government_bodies;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_service_at_the_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_officer_of_justice;
+    => nrel_associative_connection: by_judge;
+    => nrel_associative_connection: by_family_members_of_a_civil_servant;
+
+    => nrel_legal_act: by_act_h12200175;
+    => nrel_legal_act: by_act_n22000127;
+    => nrel_legal_act: by_act_n21800042;
+    => nrel_legal_act: by_act_n29800104;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1340?langname=ru];
+    => nrel_etalon_online_idx: [1340];;

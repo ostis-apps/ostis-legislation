@@ -1,0 +1,34 @@
+
+by_public_associations_of_persons_with_disabilities
+    => nrel_main_idtf: [public associations of persons with disabilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [общественные объединения инвалидов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадскія аб'яднанні інвалідаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_associations_of_persons_with_disabilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_disabled;
+    => nrel_associative_connection: by_disability;
+    => nrel_associative_connection: by_persons_with_disabilities;
+    => nrel_associative_connection: by_public_association;
+
+    => nrel_legal_act: by_act_h12200183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40721?langname=ru];
+    => nrel_etalon_online_idx: [40721];;

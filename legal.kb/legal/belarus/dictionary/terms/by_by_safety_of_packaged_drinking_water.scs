@@ -1,0 +1,37 @@
+
+by_by_safety_of_packaged_drinking_water
+    => nrel_main_idtf: [by_safety_of_packaged_drinking_water] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасность упакованной питьевой воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспека ўпакаванай пітной вады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_safety_of_packaged_drinking_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_product_safety_for_children;
+    => nrel_associative_connection: by_blended_drinking_water;
+    => nrel_associative_connection: by_norms_of_drinking_water_supply;
+    => nrel_associative_connection: by_treated_drinking_water;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_packaged_carbonated_drinking_water;
+    => nrel_associative_connection: by_packaged_drinking_water;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43181?langname=ru];
+    => nrel_etalon_online_idx: [43181];;

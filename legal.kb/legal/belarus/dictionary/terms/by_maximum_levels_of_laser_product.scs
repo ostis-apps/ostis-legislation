@@ -1,0 +1,44 @@
+
+by_maximum_levels_of_laser_product
+    => nrel_main_idtf: [maximum levels of laser product] (* <- lang_en;; *);
+    => nrel_main_idtf: [предельно допустимые уровни лазерного изделия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранічна дапушчальныя ўзроўні лазернага вырабу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maximum_levels_of_laser_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_beam_diameter_of_laser_radiation;
+    => nrel_associative_connection: by_diffusely_reflected_laser_radiation;
+    => nrel_associative_connection: by_duration_of_exposure_exposure_to_laser_radiation;
+    => nrel_associative_connection: by_dosimetry_of_laser_radiation;
+    => nrel_associative_connection: by_closed_laser_products;
+    => nrel_associative_connection: by_pulse_laser_radiation;
+    => nrel_associative_connection: by_laser_safety;
+    => nrel_associative_connection: by_laser_hazard_zone;
+    => nrel_associative_connection: by_laser_system_installation;
+    => nrel_associative_connection: by_laser_product;
+    => nrel_associative_connection: by_continuous_laser_radiation;
+    => nrel_associative_connection: by_open_laser_products;
+    => nrel_associative_connection: by_laser_exposure_limits_for_chronic_exposure;
+    => nrel_associative_connection: by_laser_alignment;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41729?langname=ru];
+    => nrel_etalon_online_idx: [41729];;

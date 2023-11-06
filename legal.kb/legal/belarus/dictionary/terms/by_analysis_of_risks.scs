@@ -1,0 +1,40 @@
+
+by_analysis_of_risks
+    => nrel_main_idtf: [analysis of risks] (* <- lang_en;; *);
+    => nrel_main_idtf: [анализ рисков] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аналіз рызык] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_analysis_of_risks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analysis;
+    => nrel_associative_connection: by_risk_analysis;
+    => nrel_associative_connection: by_high_risk_indicator;
+    => nrel_associative_connection: by_criteria_for_assessing_the_degree_of_risk;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_risk_profile;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_safety_of_the_population;
+    => nrel_associative_connection: by_infection_security;
+    => nrel_associative_connection: by_risk_assessment_system;
+
+    => nrel_legal_act: by_act_h11200340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12457?langname=ru];
+    => nrel_etalon_online_idx: [12457];;

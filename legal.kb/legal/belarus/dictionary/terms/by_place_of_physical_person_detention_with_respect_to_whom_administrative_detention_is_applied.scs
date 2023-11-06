@@ -1,0 +1,36 @@
+
+by_place_of_physical_person_detention_with_respect_to_whom_administrative_detention_is_applied
+    => nrel_main_idtf: [place of physical person detention with respect to whom administrative detention is applied] (* <- lang_en;; *);
+    => nrel_main_idtf: [место содержания физического лица, в отношении которого применено административное задержание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца ўтрымання фізічнай асобы, у дачыненні якой прыменена адміністрацыйнае затрыманне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_place_of_physical_person_detention_with_respect_to_whom_administrative_detention_is_applied_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_detention_of_physical_person;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_offence_committed_deliberately;
+    => nrel_associative_connection: by_prohibited_items;
+    => nrel_associative_connection: by_insulator;
+    => nrel_associative_connection: by_regime_of_detention_of_persons;
+
+    => nrel_legal_act: by_act_c21300996;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17282?langname=ru];
+    => nrel_etalon_online_idx: [17282];;

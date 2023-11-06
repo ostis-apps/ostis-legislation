@@ -1,0 +1,35 @@
+
+by_aviation_object
+    => nrel_main_idtf: [aviation object ] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект авиации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект авіяцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_equipment;
+    => nrel_associative_connection: by_unmanned_aviation_complex;
+    => nrel_associative_connection: by_component_of_aviation_object;
+    => nrel_associative_connection: by_nonconformity_of_category_2;
+    => nrel_associative_connection: by_sample_of_aviation_object;
+
+    => nrel_legal_act: by_act_w21933767p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30987?langname=ru];
+    => nrel_etalon_online_idx: [30987];;

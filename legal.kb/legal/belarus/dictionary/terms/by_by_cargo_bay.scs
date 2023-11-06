@@ -1,0 +1,24 @@
+
+by_by_cargo_bay
+    => nrel_main_idtf: [by_cargo_bay] (* <- lang_en;; *);
+    => nrel_main_idtf: [кузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кузаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_autotractor_technics;
+    => nrel_associative_connection: by_truck_flat_body;
+    => nrel_associative_connection: by_closed_vehicle;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16486?langname=ru];
+    => nrel_etalon_online_idx: [16486];;

@@ -1,0 +1,20 @@
+
+by_accompliceship_in_administrative_violation
+    => nrel_main_idtf: [accompliceship in administrative violation] (* <- lang_en;; *);
+    => nrel_main_idtf: [соучастие в административном правонарушении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [саўдзел у адміністрацыйным правапарушэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_executor_of_administrative_violation;
+    => nrel_associative_connection: by_organizer_of_administrative_violation;
+    => nrel_associative_connection: by_accomplice_of_administrative_offence;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1931?langname=ru];
+    => nrel_etalon_online_idx: [1931];;

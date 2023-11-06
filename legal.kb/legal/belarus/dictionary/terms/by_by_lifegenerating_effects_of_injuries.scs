@@ -1,0 +1,36 @@
+
+by_by_lifegenerating_effects_of_injuries
+    => nrel_main_idtf: [by_lifegenerating_effects_of_injuries] (* <- lang_en;; *);
+    => nrel_main_idtf: [жизнеугрожающие последствия травм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыццепагражальныя наступствы траўм] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_lifegenerating_effects_of_injuries_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inj_multiple;
+    => nrel_associative_connection: by_burn_injury;
+    => nrel_associative_connection: by_polytrauma;
+    => nrel_associative_connection: by_sports_injury;
+    => nrel_associative_connection: by_injury;
+    => nrel_associative_connection: by_lifethreatening_condition;
+
+    => nrel_legal_act: by_act_w22340484p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43981?langname=ru];
+    => nrel_etalon_online_idx: [43981];;

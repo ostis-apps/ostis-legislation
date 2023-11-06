@@ -1,0 +1,36 @@
+
+by_circuit_of_heat_carrying_agent_of_the_reactor_first_circuit
+    => nrel_main_idtf: [circuit of heat carrying agent of the reactor (first circuit)] (* <- lang_en;; *);
+    => nrel_main_idtf: [контур теплоносителя реактора (первый контур)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [контур цепланасіцеля рэактара (першы контур)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_circuit_of_heat_carrying_agent_of_the_reactor_first_circuit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_loss_of_coolant_accident;
+    => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_internal_selfprotection_of_reactor_installation;
+    => nrel_associative_connection: by_reactor_plant;
+    => nrel_associative_connection: by_heat_carrying_agent;
+    => nrel_associative_connection: by_nuclear_reactor;
+
+    => nrel_legal_act: by_act_w22035399p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33295?langname=ru];
+    => nrel_etalon_online_idx: [33295];;

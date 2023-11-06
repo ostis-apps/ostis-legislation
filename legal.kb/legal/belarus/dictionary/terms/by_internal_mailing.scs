@@ -1,0 +1,37 @@
+
+by_internal_mailing
+    => nrel_main_idtf: [internal mailing] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутреннее почтовое отправление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутранае паштовае адпраўленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_mailing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interior_mails;
+    => nrel_associative_connection: by_courier_connection;
+    => nrel_associative_connection: by_postal_communication_services_users;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_simple_mails;
+    => nrel_associative_connection: by_registered_postal_items;
+    => nrel_associative_connection: by_special_postmark;
+
+    => nrel_legal_act: by_act_h10300258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32350?langname=ru];
+    => nrel_etalon_online_idx: [32350];;

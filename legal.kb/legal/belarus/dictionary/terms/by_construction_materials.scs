@@ -1,0 +1,39 @@
+
+by_construction_materials
+    => nrel_main_idtf: [construction materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [строительные материалы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [будаўнічыя матэрыялы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_similar_material_for_construction;
+    => nrel_associative_connection: by_identical_material_for_construction;
+    => nrel_associative_connection: by_catalogclassifier_of_materials_for_construction;
+    => nrel_associative_connection: by_materials;
+    => nrel_associative_connection: by_materials_for_construction;
+    => nrel_associative_connection: by_oakum;
+    => nrel_associative_connection: by_reused_materials_and_products;
+    => nrel_associative_connection: by_repair_materials;
+    => nrel_associative_connection: by_construction_and_assembly_works;
+
+    => nrel_legal_act: by_act_w20818670;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9891?langname=ru];
+    => nrel_etalon_online_idx: [9891];;

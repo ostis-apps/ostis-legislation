@@ -1,0 +1,50 @@
+
+by_derivative
+    => nrel_main_idtf: [derivative] (* <- lang_en;; *);
+    => nrel_main_idtf: [дериват] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэрыват] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_derivative_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_derivative_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fish_extraction;
+    => nrel_associative_connection: by_derived_products;
+    => nrel_associative_connection: by_products_of_use_of_objects_of_the_animal_world;
+    => nrel_associative_connection: by_products_of_fishery;
+
+    => nrel_legal_act: by_act_h10700257;
+    => nrel_legal_act: by_act_i71000089;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7843?langname=ru];
+    => nrel_etalon_online_idx: [7843];;

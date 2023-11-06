@@ -1,0 +1,41 @@
+
+by_by_contingency
+    => nrel_main_idtf: [by_contingency] (* <- lang_en;; *);
+    => nrel_main_idtf: [непредвиденные обстоятельства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непрадбачаныя абставіны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_contingency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_acclimatization;
+    => nrel_associative_connection: by_cabin_crew_of_aircrafts;
+    => nrel_associative_connection: by_flight_hours;
+    => nrel_associative_connection: by_night_day_flight_time;
+    => nrel_associative_connection: by_minimal_circadian_activity_window;
+    => nrel_associative_connection: by_rest_in_flight;
+    => nrel_associative_connection: by_flying_hours;
+    => nrel_associative_connection: by_full_flying_hours;
+    => nrel_associative_connection: by_standby_mode;
+    => nrel_associative_connection: by_service_flight_time;
+    => nrel_associative_connection: by_fatigue;
+
+    => nrel_legal_act: by_act_w22339535;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42293?langname=ru];
+    => nrel_etalon_online_idx: [42293];;

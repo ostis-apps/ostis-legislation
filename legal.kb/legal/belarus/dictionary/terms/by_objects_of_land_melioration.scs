@@ -1,0 +1,36 @@
+
+by_objects_of_land_melioration
+    => nrel_main_idtf: [objects of land melioration] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты мелиорации земель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты меліярацыі зямель] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_land_melioration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_melioration_system;
+    => nrel_associative_connection: by_meliorative_events;
+    => nrel_associative_connection: by_land_melioration;
+    => nrel_associative_connection: by_land_melioration_project;
+    => nrel_associative_connection: by_project_documentation_for_land_melioration;
+    => nrel_associative_connection: by_chemical_melioration;
+
+    => nrel_legal_act: by_act_h10800423;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18767?langname=ru];
+    => nrel_etalon_online_idx: [18767];;

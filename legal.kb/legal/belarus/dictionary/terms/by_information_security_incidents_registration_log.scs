@@ -1,0 +1,33 @@
+
+by_information_security_incidents_registration_log
+    => nrel_main_idtf: [information security incidents registration log] (* <- lang_en;; *);
+    => nrel_main_idtf: [журнал регистрации инцидентов информационной безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [журнал рэгістрацыі інцыдэнтаў інфармацыйнай бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_security_incidents_registration_log_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_protected_information;
+    => nrel_associative_connection: by_information_security_incident;
+    => nrel_associative_connection: by_communication_protocol;
+
+    => nrel_legal_act: by_act_b22239010;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41800?langname=ru];
+    => nrel_etalon_online_idx: [41800];;

@@ -1,0 +1,35 @@
+
+by_statistical_declaration
+    => nrel_main_idtf: [statistical declaration] (* <- lang_en;; *);
+    => nrel_main_idtf: [статистическая декларация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [статыстычная дэкларацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statistical_declaration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_booklet;
+    => nrel_associative_connection: by_currency_control;
+    => nrel_associative_connection: by_declaration;
+    => nrel_associative_connection: by_periodic_statistical_declaration;
+    => nrel_associative_connection: by_statistical_declaration_center;
+
+    => nrel_legal_act: by_act_p30800178;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6955?langname=ru];
+    => nrel_etalon_online_idx: [6955];;

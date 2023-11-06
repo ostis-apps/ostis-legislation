@@ -1,0 +1,36 @@
+
+by_barrage_of_railways_and_automobile_roads_their_sections_objects
+    => nrel_main_idtf: [barrage of railways and automobile roads (their sections, objects)] (* <- lang_en;; *);
+    => nrel_main_idtf: [заграждение железных и автомобильных дорог (их участков, объектов)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [загарода жалезных і аўтамабільных дарог (іх участкаў, аб'ектаў)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_barrage_of_railways_and_automobile_roads_their_sections_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_military_highway;
+    => nrel_associative_connection: by_railways_and_automobile_roads_survivability_their_sections_objects;
+    => nrel_associative_connection: by_users_of_highways;
+    => nrel_associative_connection: by_demining_of_railway_and_highways_their_sites_objects;
+    => nrel_associative_connection: by_technical_covering_of_railways_and_roads_their_sections_facilities;
+
+    => nrel_legal_act: by_act_p30600312;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14704?langname=ru];
+    => nrel_etalon_online_idx: [14704];;

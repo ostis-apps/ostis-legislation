@@ -1,0 +1,34 @@
+
+by_track_for_horsemen
+    => nrel_main_idtf: [track for horsemen] (* <- lang_en;; *);
+    => nrel_main_idtf: [дорожка для всадников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дарожка для коннікаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_track_for_horsemen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_track;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_participant_of_road_traffic;
+    => nrel_associative_connection: by_road_users;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14454?langname=ru];
+    => nrel_etalon_online_idx: [14454];;

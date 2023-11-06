@@ -1,0 +1,35 @@
+
+by_inmarsat_subscribers_unit
+    => nrel_main_idtf: [inmarsat subscriber's unit] (* <- lang_en;; *);
+    => nrel_main_idtf: [оконечное абонентское устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцавое абаненцкае прыстасаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inmarsat_subscribers_unit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_telephone_station_service_zone;
+    => nrel_associative_connection: by_workshop_for_repair_of_terminal_subscriber_devices;
+    => nrel_associative_connection: by_inmarsat_subscribers_unit_terminal;
+    => nrel_associative_connection: by_parallel_inmarsat_devices;
+    => nrel_associative_connection: by_repair_of_subscriber_terminals;
+
+    => nrel_legal_act: by_act_c20700393;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18910?langname=ru];
+    => nrel_etalon_online_idx: [18910];;

@@ -1,0 +1,44 @@
+
+by_resource_consumption
+    => nrel_main_idtf: [resource consumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [расход ресурса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расход рэсурсу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resource_consumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_departmental_standards_of_resource_consumption;
+    => nrel_associative_connection: by_military_and_technical_property_mtp;
+    => nrel_associative_connection: by_arm_military_equipment;
+    => nrel_associative_connection: by_spent_resource;
+    => nrel_associative_connection: by_assigned_technical_resource;
+    => nrel_associative_connection: by_service_accumulation;
+    => nrel_associative_connection: by_nationwide_standards_of_resource_expenditure;
+    => nrel_associative_connection: by_limit_unusable_state;
+    => nrel_associative_connection: by_production_standards_of_resource_consumption;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_service_life_period;
+    => nrel_associative_connection: by_technical_state;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_legal_act: by_act_w60920378;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22179?langname=ru];
+    => nrel_etalon_online_idx: [22179];;

@@ -1,0 +1,37 @@
+
+by_excess_of_monetary_funds
+    => nrel_main_idtf: [excess of monetary funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [избыток денежных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лішак грашовых сродкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_excess_of_monetary_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_deficit_of_monetary_funds;
+    => nrel_associative_connection: by_excessive_gas_supply_energy_supply_organizations;
+    => nrel_associative_connection: by_required_receipts;
+    => nrel_associative_connection: by_planned_revenue;
+    => nrel_associative_connection: by_distribution_of_funds;
+
+    => nrel_legal_act: by_act_c21500375;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15090?langname=ru];
+    => nrel_etalon_online_idx: [15090];;

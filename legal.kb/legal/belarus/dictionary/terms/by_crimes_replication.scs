@@ -1,0 +1,18 @@
+
+by_crimes_replication
+    => nrel_main_idtf: [crimes replication] (* <- lang_en;; *);
+    => nrel_main_idtf: [повторность преступлений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўторнасць злачынстваў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_recidivism_of_crimes;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/571?langname=ru];
+    => nrel_etalon_online_idx: [571];;

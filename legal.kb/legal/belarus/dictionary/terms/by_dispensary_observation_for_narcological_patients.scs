@@ -1,0 +1,27 @@
+
+by_dispensary_observation_for_narcological_patients
+    => nrel_main_idtf: [dispensary observation for narcological patients] (* <- lang_en;; *);
+    => nrel_main_idtf: [диспансерное наблюдение за наркологическим больным] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыспансернае назіранне за наркалагічным хворым] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_doctor_psychologist_and_narcologist;
+    => nrel_associative_connection: by_preventive_medical_examination;
+    => nrel_associative_connection: by_dispensary_dynamic_observation;
+    => nrel_associative_connection: by_dispensary_observation;
+    => nrel_associative_connection: by_dispensary_medical_checkup;
+    => nrel_associative_connection: by_medical_observation;
+    => nrel_associative_connection: by_detoxication_treatment;
+    => nrel_associative_connection: by_narcological_examination;
+    => nrel_associative_connection: by_narcological_institution;
+    => nrel_associative_connection: by_adolescent_drug_treatment_room;
+    => nrel_associative_connection: by_account_of_narcological_patient;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14188?langname=ru];
+    => nrel_etalon_online_idx: [14188];;

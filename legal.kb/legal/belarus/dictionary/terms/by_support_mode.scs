@@ -1,0 +1,36 @@
+
+by_support_mode
+    => nrel_main_idtf: [support mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим сопровождения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым суправаджэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_support_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_escort_vehicle;
+    => nrel_associative_connection: by_mass_event;
+    => nrel_associative_connection: by_escort_outfit;
+    => nrel_associative_connection: by_green_street_regime;
+    => nrel_associative_connection: by_accompaniment;
+    => nrel_associative_connection: by_participants_of_mass_events_held_on_the_road;
+
+    => nrel_legal_act: by_act_c21100440;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22435?langname=ru];
+    => nrel_etalon_online_idx: [22435];;

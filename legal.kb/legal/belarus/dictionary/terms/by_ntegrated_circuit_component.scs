@@ -1,0 +1,34 @@
+
+by_ntegrated_circuit_component
+    => nrel_main_idtf: [ntegrated circuit component] (* <- lang_en;; *);
+    => nrel_main_idtf: [компонент интегральной микросхемы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампанент інтэгральнай мікрасхемы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ntegrated_circuit_component_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_integrated_circuit;
+    => nrel_associative_connection: by_micro_and_nanoelectronics;
+    => nrel_associative_connection: by_chip;
+    => nrel_associative_connection: by_integrated_circuit_substrate;
+
+    => nrel_legal_act: by_act_w22136482p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37464?langname=ru];
+    => nrel_etalon_online_idx: [37464];;

@@ -1,0 +1,38 @@
+
+by_unit_of_absorption
+    => nrel_main_idtf: [unit of absorption] (* <- lang_en;; *);
+    => nrel_main_idtf: [единица абсорбции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінка абсорбцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unit_of_absorption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_removal;
+    => nrel_associative_connection: by_base_level_of_greenhouse_gases_absorption_by_absorbent;
+    => nrel_associative_connection: by_unit_of_emissions_reduction;
+    => nrel_associative_connection: by_unit_of_greenhouse_gas_emissions_reduction;
+    => nrel_associative_connection: by_assigned_amount_unit;
+    => nrel_associative_connection: by_reserve_account_of_carbon_units;
+    => nrel_associative_connection: by_carbon_units;
+    => nrel_associative_connection: by_actual_level_of_greenhouse_gas_absorption_by_sinks;
+
+    => nrel_legal_act: by_act_w20715881;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14563?langname=ru];
+    => nrel_etalon_online_idx: [14563];;

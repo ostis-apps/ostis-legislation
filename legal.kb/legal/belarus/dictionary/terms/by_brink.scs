@@ -1,0 +1,35 @@
+
+by_brink
+    => nrel_main_idtf: [brink] (* <- lang_en;; *);
+    => nrel_main_idtf: [грань] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мяжа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_brink_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dagger;
+    => nrel_associative_connection: by_blade;
+    => nrel_associative_connection: by_sheath;
+    => nrel_associative_connection: by_knife_edge;
+    => nrel_associative_connection: by_hunting_knife_dagger;
+
+    => nrel_legal_act: by_act_w02035180p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32966?langname=ru];
+    => nrel_etalon_online_idx: [32966];;

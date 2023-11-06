@@ -1,0 +1,33 @@
+
+by_inventories
+    => nrel_main_idtf: [inventories] (* <- lang_en;; *);
+    => nrel_main_idtf: [описи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вопісы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inventories_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_description_articles_of_scientific_and_technical_documentation_inventory;
+    => nrel_associative_connection: by_inventory_of_acts;
+    => nrel_associative_connection: by_inventory_processing;
+
+    => nrel_legal_act: by_act_w20310325;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19065?langname=ru];
+    => nrel_etalon_online_idx: [19065];;

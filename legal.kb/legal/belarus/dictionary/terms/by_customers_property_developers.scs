@@ -1,0 +1,39 @@
+
+by_customers_property_developers
+    => nrel_main_idtf: [customers, property developers] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказчики, застройщики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказчыкі, забудоўшчыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customers_property_developers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_customer_in_construction_activity;
+    => nrel_associative_connection: by_single_developer;
+    => nrel_associative_connection: by_customer_in_construction_activity;
+    => nrel_associative_connection: by_customers;
+    => nrel_associative_connection: by_property_developer;
+    => nrel_associative_connection: by_property_developer_in_construction_activity;
+    => nrel_associative_connection: by_limited_profit_of_property_developer;
+    => nrel_associative_connection: by_organization_of_builders;
+    => nrel_associative_connection: by_construction_activities_construction;
+
+    => nrel_legal_act: by_act_p31300336;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14774?langname=ru];
+    => nrel_etalon_online_idx: [14774];;

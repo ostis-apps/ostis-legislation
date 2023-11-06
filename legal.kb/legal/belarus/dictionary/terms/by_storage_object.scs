@@ -1,0 +1,38 @@
+
+by_storage_object
+    => nrel_main_idtf: [storage object] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект хранения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект захоўвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_storage_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aggregation;
+    => nrel_associative_connection: by_organization_archive;
+    => nrel_associative_connection: by_cloud_service;
+    => nrel_associative_connection: by_backup_copy;
+    => nrel_associative_connection: by_replication;
+    => nrel_associative_connection: by_electronic_case;
+    => nrel_associative_connection: by_electronic_document;
+    => nrel_associative_connection: by_emulation;
+
+    => nrel_legal_act: by_act_w21933875;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31720?langname=ru];
+    => nrel_etalon_online_idx: [31720];;

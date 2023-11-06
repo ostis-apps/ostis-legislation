@@ -1,0 +1,23 @@
+
+by_homeopathic_medication
+    => nrel_main_idtf: [homeopathic medication] (* <- lang_en;; *);
+    => nrel_main_idtf: [гомеопатическое лекарственное средство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гамеапатычны лекавы сродак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_stocks;
+    => nrel_associative_connection: by_biological_medicine;
+    => nrel_associative_connection: by_homeopathic_dosage_form_based_on_oil;
+    => nrel_associative_connection: by_liquid_opodeldoc;
+    => nrel_associative_connection: by_medicinal_product;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_data_storage;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7271?langname=ru];
+    => nrel_etalon_online_idx: [7271];;

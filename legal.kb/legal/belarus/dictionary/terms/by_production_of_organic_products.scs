@@ -1,0 +1,53 @@
+
+by_production_of_organic_products
+    => nrel_main_idtf: [production of organic products] (* <- lang_en;; *);
+    => nrel_main_idtf: [производство органической продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчасць арганічнай прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_of_organic_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_of_organic_products_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_green_economy;
+    => nrel_associative_connection: by_green_procurements;
+    => nrel_associative_connection: by_petrochemical;
+    => nrel_associative_connection: by_organic_product_handling;
+    => nrel_associative_connection: by_organic_products;
+    => nrel_associative_connection: by_parallel_production;
+    => nrel_associative_connection: by_producer_of_organic_products;
+
+    => nrel_legal_act: by_act_h11800144;
+    => nrel_legal_act: by_act_c21601061;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21595?langname=ru];
+    => nrel_etalon_online_idx: [21595];;

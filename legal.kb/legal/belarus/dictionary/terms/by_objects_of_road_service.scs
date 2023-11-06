@@ -1,0 +1,51 @@
+
+by_objects_of_road_service
+    => nrel_main_idtf: [objects of road service] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты дорожного сервиса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты дарожнага сэрвісу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_road_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_road_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_building_premises_of_service_maintenance_of_vehicles;
+    => nrel_associative_connection: by_roadside_service_objects;
+    => nrel_associative_connection: by_roadside_lanes_controlled_areas;
+    => nrel_associative_connection: by_reserve_area;
+
+    => nrel_legal_act: by_act_v19403434;
+    => nrel_legal_act: by_act_n21700056;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18751?langname=ru];
+    => nrel_etalon_online_idx: [18751];;

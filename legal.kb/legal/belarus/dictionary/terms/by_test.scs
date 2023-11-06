@@ -1,0 +1,73 @@
+
+by_test
+    => nrel_main_idtf: [test] (* <- lang_en;; *);
+    => nrel_main_idtf: [испытание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпрабаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_test_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_test_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_test_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_entrance_control;
+    => nrel_associative_connection: by_actuation_of_geneticengineering_organisms_into_the_environment_for_testing;
+    => nrel_associative_connection: by_applicant_to_conduct_test;
+    => nrel_associative_connection: by_tests;
+    => nrel_associative_connection: by_strength_tests;
+    => nrel_associative_connection: by_test_laboratory_center;
+    => nrel_associative_connection: by_complex_of_preliminary_technical_works;
+    => nrel_associative_connection: by_laboratory_control;
+    => nrel_associative_connection: by_tests_technique;
+    => nrel_associative_connection: by_testing_programme;
+    => nrel_associative_connection: by_test_report_passport_report_or_other_test_document;
+
+    => nrel_legal_act: by_act_h11600437;
+    => nrel_legal_act: by_act_w22036093p;
+    => nrel_legal_act: by_act_w00003809;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9218?langname=ru];
+    => nrel_etalon_online_idx: [9218];;

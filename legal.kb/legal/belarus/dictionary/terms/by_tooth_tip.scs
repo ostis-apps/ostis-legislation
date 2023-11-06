@@ -1,0 +1,34 @@
+
+by_tooth_tip
+    => nrel_main_idtf: [tooth (tip)] (* <- lang_en;; *);
+    => nrel_main_idtf: [зуб (наконечника)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зуб (наканечніка)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tooth_tip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_shaft;
+    => nrel_associative_connection: by_tip;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_survival_knife;
+
+    => nrel_legal_act: by_act_w02035178p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32995?langname=ru];
+    => nrel_etalon_online_idx: [32995];;

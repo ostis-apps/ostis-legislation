@@ -1,0 +1,37 @@
+
+by_certificate_of_deposit
+    => nrel_main_idtf: [certificate of deposit] (* <- lang_en;; *);
+    => nrel_main_idtf: [депозитный сертификат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпазітны сертыфікат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_of_deposit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_depositor;
+    => nrel_associative_connection: by_certificate_owner;
+    => nrel_associative_connection: by_bank_deposit_contract;
+    => nrel_associative_connection: by_interestbearing_securities;
+    => nrel_associative_connection: by_percent;
+    => nrel_associative_connection: by_certificate;
+    => nrel_associative_connection: by_securities_susceptible_to_credit_risk;
+
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10092?langname=ru];
+    => nrel_etalon_online_idx: [10092];;

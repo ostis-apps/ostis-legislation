@@ -1,0 +1,33 @@
+
+by_authors_coauthors_of_the_innovation
+    => nrel_main_idtf: [authors (co-authors) of the innovation] (* <- lang_en;; *);
+    => nrel_main_idtf: [автор (соавторы) инновации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтар (суаўтары) інавацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authors_coauthors_of_the_innovation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author;
+    => nrel_associative_connection: by_innovations;
+    => nrel_associative_connection: by_innovation;
+
+    => nrel_legal_act: by_act_n21800037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10079?langname=ru];
+    => nrel_etalon_online_idx: [10079];;

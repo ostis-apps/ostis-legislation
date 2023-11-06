@@ -1,0 +1,37 @@
+
+by_owner_of_the_block_station
+    => nrel_main_idtf: [owner of the block station] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец блок-станции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік блок-станцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_the_block_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_block_station;
+    => nrel_associative_connection: by_purchase_and_sale_contract_of_electric_energy;
+    => nrel_associative_connection: by_contract_for_provision_of_services_on_transmission_and_distribution_of_electric_energy;
+    => nrel_associative_connection: by_service_contract_for_distribution_of_electric_energy;
+    => nrel_associative_connection: by_electricity_supply_contract_with_the_owner_of_the_block_station;
+    => nrel_associative_connection: by_electric_power_plant_power_plant;
+    => nrel_associative_connection: by_energy_supply_organization;
+
+    => nrel_legal_act: by_act_p32100153;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38948?langname=ru];
+    => nrel_etalon_online_idx: [38948];;

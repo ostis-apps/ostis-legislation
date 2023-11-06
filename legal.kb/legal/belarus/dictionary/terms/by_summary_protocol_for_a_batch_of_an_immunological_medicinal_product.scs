@@ -1,0 +1,35 @@
+
+by_summary_protocol_for_a_batch_of_an_immunological_medicinal_product
+    => nrel_main_idtf: [summary protocol for a batch of an immunological medicinal product] (* <- lang_en;; *);
+    => nrel_main_idtf: [сводный протокол на серию (партию) иммунологического лекарственного препарата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зводны пратакол на серыю (партыю) імуналагічнага лекавага прэпарата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_summary_protocol_for_a_batch_of_an_immunological_medicinal_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_document_confirming_the_quality_of_a_medicinal_product_batch;
+    => nrel_associative_connection: by_mmunological_immunobiological_medicine;
+    => nrel_associative_connection: by_medicines;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_manufacturer_of_medicinal_products;
+
+    => nrel_legal_act: by_act_w21022149;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41299?langname=ru];
+    => nrel_etalon_online_idx: [41299];;

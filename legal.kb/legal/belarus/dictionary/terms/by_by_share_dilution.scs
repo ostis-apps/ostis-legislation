@@ -1,0 +1,33 @@
+
+by_by_share_dilution
+    => nrel_main_idtf: [by_share_dilution] (* <- lang_en;; *);
+    => nrel_main_idtf: [дробление акций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [драбленне акцый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_share_dilution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_share;
+    => nrel_associative_connection: by_antidilution;
+    => nrel_associative_connection: by_reverse_split;
+
+    => nrel_legal_act: by_act_b207p0343;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43419?langname=ru];
+    => nrel_etalon_online_idx: [43419];;

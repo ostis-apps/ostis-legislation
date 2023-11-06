@@ -1,0 +1,18 @@
+
+by_air_ionization
+    => nrel_main_idtf: [air ionization] (* <- lang_en;; *);
+    => nrel_main_idtf: [ионизация воздуха] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іянізацыя паветра] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_neutralizer;
+    => nrel_associative_connection: by_electrification_potential;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9215?langname=ru];
+    => nrel_etalon_online_idx: [9215];;

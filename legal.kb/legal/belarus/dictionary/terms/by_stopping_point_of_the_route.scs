@@ -1,0 +1,35 @@
+
+by_stopping_point_of_the_route
+    => nrel_main_idtf: [stopping point of the route] (* <- lang_en;; *);
+    => nrel_main_idtf: [остановочный пункт маршрута] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыпыначны пункт маршрута] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stopping_point_of_the_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_route_vehicle;
+    => nrel_associative_connection: by_vehicle_stop;
+    => nrel_associative_connection: by_bus_stop;
+    => nrel_associative_connection: by_passenger_stopping_point;
+    => nrel_associative_connection: by_stage;
+
+    => nrel_legal_act: by_act_c20800972;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19437?langname=ru];
+    => nrel_etalon_online_idx: [19437];;

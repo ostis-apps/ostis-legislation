@@ -1,0 +1,67 @@
+
+by_legal_services
+    => nrel_main_idtf: [legal services] (* <- lang_en;; *);
+    => nrel_main_idtf: [юридические услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [юрыдычныя паслугі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_services_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_advocateship;
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_certificate_of_attestation_of_a_person_providing_legal_services;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_legal_assistance;
+
+    => nrel_legal_act: by_act_hk0200166;
+    => nrel_legal_act: by_act_h12200213;
+    => nrel_legal_act: by_act_f01400176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2279?langname=ru];
+    => nrel_etalon_online_idx: [2279];;

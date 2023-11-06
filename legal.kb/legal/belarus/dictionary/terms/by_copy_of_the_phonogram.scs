@@ -1,0 +1,51 @@
+
+by_copy_of_the_phonogram
+    => nrel_main_idtf: [copy of the phonogram] (* <- lang_en;; *);
+    => nrel_main_idtf: [экземпляр фонограммы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экзэмпляр фанаграмы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_the_phonogram_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_the_phonogram_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monophonic_original_of_dubbing;
+    => nrel_associative_connection: by_phonogram_producer;
+    => nrel_associative_connection: by_phonogram;
+    => nrel_associative_connection: by_specimen;
+    => nrel_associative_connection: by_copy_of_the_work;
+
+    => nrel_legal_act: by_act_h11100262;
+    => nrel_legal_act: by_act_n20500165;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7747?langname=ru];
+    => nrel_etalon_online_idx: [7747];;

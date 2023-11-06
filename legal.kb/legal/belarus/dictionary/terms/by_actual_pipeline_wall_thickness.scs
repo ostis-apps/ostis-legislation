@@ -1,0 +1,36 @@
+
+by_actual_pipeline_wall_thickness
+    => nrel_main_idtf: [actual pipeline wall thickness] (* <- lang_en;; *);
+    => nrel_main_idtf: [фактическая толщина стенки трубопровода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фактычная таўшчыня сценкі трубаправода] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_actual_pipeline_wall_thickness_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_process_pipeline_border;
+    => nrel_associative_connection: by_permitted_wall_thicknesses;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_flanged_connection;
+    => nrel_associative_connection: by_pipeline_shaped_part_part;
+
+    => nrel_legal_act: by_act_w22035473p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25903?langname=ru];
+    => nrel_etalon_online_idx: [25903];;

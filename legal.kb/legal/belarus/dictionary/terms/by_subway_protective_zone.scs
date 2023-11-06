@@ -1,0 +1,50 @@
+
+by_subway_protective_zone
+    => nrel_main_idtf: [subway protective zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [охранная зона метрополитена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахоўная зона метрапалітэна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subway_protective_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subway_protective_zone_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_metro_communications;
+    => nrel_associative_connection: by_metro_lines;
+    => nrel_associative_connection: by_metro;
+    => nrel_associative_connection: by_metro_territory;
+
+    => nrel_legal_act: by_act_w22136324p;
+    => nrel_legal_act: by_act_w02035789p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35960?langname=ru];
+    => nrel_etalon_online_idx: [35960];;

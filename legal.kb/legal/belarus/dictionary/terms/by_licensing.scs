@@ -1,0 +1,111 @@
+
+by_licensing
+    => nrel_main_idtf: [licensing] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицензирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліцэнзаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_publishing_activity;
+    => nrel_associative_connection: by_import;
+    => nrel_associative_connection: by_licensee;
+    => nrel_associative_connection: by_licensing_requirements_and_conditions;
+    => nrel_associative_connection: by_licensing_of_foreign_trade;
+    => nrel_associative_connection: by_licensing_bodies;
+    => nrel_associative_connection: by_licensing_body;
+    => nrel_associative_connection: by_license;
+    => nrel_associative_connection: by_illegal_entrepreneurial_activity;
+    => nrel_associative_connection: by_security_guard_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_registry_of_licenses;
+    => nrel_associative_connection: by_head_of_the_licensee;
+    => nrel_associative_connection: by_license_applicant;
+    => nrel_associative_connection: by_trade_intermediary_activities;
+    => nrel_associative_connection: by_export;
+    => nrel_associative_connection: by_legal_services;
+
+    => nrel_legal_act: by_act_h12200213;
+    => nrel_legal_act: by_act_p31200071;
+    => nrel_legal_act: by_act_n02300026;
+    => nrel_legal_act: by_act_f01400176;
+    => nrel_legal_act: by_act_f70400068;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2744?langname=ru];
+    => nrel_etalon_online_idx: [2744];;

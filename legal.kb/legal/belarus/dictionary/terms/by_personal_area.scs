@@ -1,0 +1,61 @@
+
+by_personal_area
+    => nrel_main_idtf: [personal area] (* <- lang_en;; *);
+    => nrel_main_idtf: [личный кабинет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабісты кабінет] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_area_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authorisation;
+    => nrel_associative_connection: by_authentication;
+    => nrel_associative_connection: by_agent_bank;
+    => nrel_associative_connection: by_remittance;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_client_of_bankagent;
+    => nrel_associative_connection: by_external_users_personal_area;
+    => nrel_associative_connection: by_personal_account_of_gamble_participant;
+    => nrel_associative_connection: by_personal_electronic_account;
+    => nrel_associative_connection: by_mobile_application;
+    => nrel_associative_connection: by_national_site_of_the_money_transfer_system;
+    => nrel_associative_connection: by_money_transfer_system_website;
+    => nrel_associative_connection: by_money_transfer_services;
+    => nrel_associative_connection: by_participants_of_the_money_transfer_system;
+    => nrel_associative_connection: by_physical_person;
+
+    => nrel_legal_act: by_act_w22339769;
+    => nrel_legal_act: by_act_b21530051;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37380?langname=ru];
+    => nrel_etalon_online_idx: [37380];;

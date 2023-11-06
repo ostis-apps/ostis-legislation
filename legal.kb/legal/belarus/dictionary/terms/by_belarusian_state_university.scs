@@ -1,0 +1,36 @@
+
+by_belarusian_state_university
+    => nrel_main_idtf: [belarusian state university] (* <- lang_en;; *);
+    => nrel_main_idtf: [белорусский государственный университет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [беларускі дзяржаўны універсітэт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_belarusian_state_university_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_classic_university;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_profile_university_academy_conservatory;
+    => nrel_associative_connection: by_student;
+    => nrel_associative_connection: by_higher_education_institution;
+
+    => nrel_legal_act: by_act_p39900334;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12714?langname=ru];
+    => nrel_etalon_online_idx: [12714];;

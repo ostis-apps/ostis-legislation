@@ -1,0 +1,18 @@
+
+by_economic_work
+    => nrel_main_idtf: [economic work] (* <- lang_en;; *);
+    => nrel_main_idtf: [экономическая работа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эканамічная работа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_economy_mode;
+    => nrel_associative_connection: by_saving;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26481?langname=ru];
+    => nrel_etalon_online_idx: [26481];;

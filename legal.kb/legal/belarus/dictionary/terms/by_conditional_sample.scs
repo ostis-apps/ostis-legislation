@@ -1,0 +1,35 @@
+
+by_conditional_sample
+    => nrel_main_idtf: [conditional sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [условная проба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умоўная проба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conditional_sample_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_monopoly_on_assaying_and_marking_with_state_assay_mark_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_hallmark;
+    => nrel_associative_connection: by_state_assay_mark_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_assay;
+
+    => nrel_legal_act: by_act_w20716834;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25592?langname=ru];
+    => nrel_etalon_online_idx: [25592];;

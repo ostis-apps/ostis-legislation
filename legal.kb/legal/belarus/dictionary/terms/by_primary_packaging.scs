@@ -1,0 +1,82 @@
+
+by_primary_packaging
+    => nrel_main_idtf: [primary packaging] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичная упаковка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасная ўпакоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_packaging_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_packaging_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_packaging_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_packaging_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_realization;
+    => nrel_associative_connection: by_container;
+    => nrel_associative_connection: by_consumer_container;
+    => nrel_associative_connection: by_transport_container;
+
+    => nrel_legal_act: by_act_w22036034;
+    => nrel_legal_act: by_act_f92200379;
+    => nrel_legal_act: by_act_f92200029;
+    => nrel_legal_act: by_act_f91100167;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32800?langname=ru];
+    => nrel_etalon_online_idx: [32800];;

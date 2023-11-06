@@ -1,0 +1,34 @@
+
+by_recuperation_of_precious_stones
+    => nrel_main_idtf: [recuperation of precious stones] (* <- lang_en;; *);
+    => nrel_main_idtf: [рекуперация драгоценных камней] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэкуперацыя каштоўных камянёў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recuperation_of_precious_stones_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_stones;
+    => nrel_associative_connection: by_precious_stones_diamonds;
+    => nrel_associative_connection: by_use_of_precious_metals_and_precious_stones;
+    => nrel_associative_connection: by_waste_of_precious_stones;
+
+    => nrel_legal_act: by_act_h10200110;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10180?langname=ru];
+    => nrel_etalon_online_idx: [10180];;

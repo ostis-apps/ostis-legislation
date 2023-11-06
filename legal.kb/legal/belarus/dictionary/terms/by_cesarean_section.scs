@@ -1,0 +1,34 @@
+
+by_cesarean_section
+    => nrel_main_idtf: [cesarean section] (* <- lang_en;; *);
+    => nrel_main_idtf: [кесарево сечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кесарава сячэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cesarean_section_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_abortion;
+    => nrel_associative_connection: by_obstetrics_and_gynecology;
+    => nrel_associative_connection: by_ectopic_pregnancy;
+    => nrel_associative_connection: by_doctorobstetriciangynecologist;
+
+    => nrel_legal_act: by_act_w22035599p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33952?langname=ru];
+    => nrel_etalon_online_idx: [33952];;

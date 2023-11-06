@@ -1,0 +1,103 @@
+
+by_evidence
+    => nrel_main_idtf: [evidence] (* <- lang_en;; *);
+    => nrel_main_idtf: [доказательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доказы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_evidence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_evidence_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_evidence_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_evidence_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_physical_proofs;
+    => nrel_associative_connection: by_evidence_in_the_case;
+    => nrel_associative_connection: by_evidence_related_to_the_case_of_an_administrative_offense;
+    => nrel_associative_connection: by_evidentiary_material;
+    => nrel_associative_connection: by_proving;
+    => nrel_associative_connection: by_admissible_evidence;
+    => nrel_associative_connection: by_sufficient_evidence;
+    => nrel_associative_connection: by_credible_evidence;
+    => nrel_associative_connection: by_experts_report;
+    => nrel_associative_connection: by_sources_of_evidence;
+    => nrel_associative_connection: by_evidence_not_related_to_the_case_on_administrative_violation;
+    => nrel_associative_connection: by_incompetent_evidence;
+    => nrel_associative_connection: by_related_to_the_case_of_administrative_violation_evidence;
+    => nrel_associative_connection: by_translator;
+    => nrel_associative_connection: by_written_evidence;
+    => nrel_associative_connection: by_fact_to_be_proven;
+    => nrel_associative_connection: by_subjects_and_documents;
+    => nrel_associative_connection: by_verification_of_evidence;
+    => nrel_associative_connection: by_collection_of_evidence;
+    => nrel_associative_connection: by_specialist;
+    => nrel_associative_connection: by_means_of_proof;
+    => nrel_associative_connection: by_forensic_expertise;
+    => nrel_associative_connection: by_participants_of_administrative_process;
+    => nrel_associative_connection: by_electronic_document;
+
+    => nrel_legal_act: by_act_hk2100092;
+    => nrel_legal_act: by_act_hk9900295;
+    => nrel_legal_act: by_act_HK9900238;
+    => nrel_legal_act: by_act_n21600178;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1455?langname=ru];
+    => nrel_etalon_online_idx: [1455];;

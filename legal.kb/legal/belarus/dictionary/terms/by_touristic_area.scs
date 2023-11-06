@@ -1,0 +1,42 @@
+
+by_touristic_area
+    => nrel_main_idtf: [touristic area] (* <- lang_en;; *);
+    => nrel_main_idtf: [туристическая зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [турыстычная зона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_touristic_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_entry_tourism;
+    => nrel_associative_connection: by_outside_tourism;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_camping;
+    => nrel_associative_connection: by_recreational_capacity;
+    => nrel_associative_connection: by_recreational_load;
+    => nrel_associative_connection: by_recreational_zones;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_touristic_industry;
+    => nrel_associative_connection: by_tourist_resources;
+    => nrel_associative_connection: by_touristic_travel;
+
+    => nrel_legal_act: by_act_h12100129;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7088?langname=ru];
+    => nrel_etalon_online_idx: [7088];;

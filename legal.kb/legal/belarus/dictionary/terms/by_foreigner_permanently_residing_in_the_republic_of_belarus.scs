@@ -1,0 +1,34 @@
+
+by_foreigner_permanently_residing_in_the_republic_of_belarus
+    => nrel_main_idtf: [foreigner permanently residing in the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [постоянно проживающий в республике беларусь иностранец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежны грамадзянін, які пастаянна пражывае ў рэспубліцы беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreigner_permanently_residing_in_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residence_permit_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_immigration_quota;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_permanent_residence_permit;
+
+    => nrel_legal_act: by_act_h11000105;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6585?langname=ru];
+    => nrel_etalon_online_idx: [6585];;

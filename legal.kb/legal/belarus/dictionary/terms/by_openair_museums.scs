@@ -1,0 +1,35 @@
+
+by_openair_museums
+    => nrel_main_idtf: [open-air museums] (* <- lang_en;; *);
+    => nrel_main_idtf: [музеи под открытым небом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музеі пад адкрытым небам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_openair_museums_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_classification_of_museums;
+    => nrel_associative_connection: by_museum;
+    => nrel_associative_connection: by_museumnature_reserves;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_excursion_service_for_museums_visitors;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7942?langname=ru];
+    => nrel_etalon_online_idx: [7942];;

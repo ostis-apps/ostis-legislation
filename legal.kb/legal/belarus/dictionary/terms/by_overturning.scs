@@ -1,0 +1,33 @@
+
+by_overturning
+    => nrel_main_idtf: [overturning] (* <- lang_en;; *);
+    => nrel_main_idtf: [опрокидывание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перакульванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overturning_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_protective_measure;
+    => nrel_associative_connection: by_mass_of_passenger;
+    => nrel_associative_connection: by_open_side;
+
+    => nrel_legal_act: by_act_w22339441p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42126?langname=ru];
+    => nrel_etalon_online_idx: [42126];;

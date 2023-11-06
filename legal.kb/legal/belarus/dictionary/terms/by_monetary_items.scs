@@ -1,0 +1,51 @@
+
+by_monetary_items
+    => nrel_main_idtf: [monetary items] (* <- lang_en;; *);
+    => nrel_main_idtf: [денежные статьи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грашовыя артыкулы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monetary_items_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monetary_items_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_cash;
+    => nrel_associative_connection: by_noncash_items;
+    => nrel_associative_connection: by_payment_documents_in_foreign_currency;
+    => nrel_associative_connection: by_cost_of_cash_items;
+
+    => nrel_legal_act: by_act_b20817944;
+    => nrel_legal_act: by_act_b207p0341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7833?langname=ru];
+    => nrel_etalon_online_idx: [7833];;

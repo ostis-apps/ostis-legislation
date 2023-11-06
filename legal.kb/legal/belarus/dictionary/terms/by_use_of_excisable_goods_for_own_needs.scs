@@ -1,0 +1,32 @@
+
+by_use_of_excisable_goods_for_own_needs
+    => nrel_main_idtf: [use of excisable goods for own needs] (* <- lang_en;; *);
+    => nrel_main_idtf: [использование подакцизных товаров на собственные нужды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкарыстанне падакцызных тавараў на ўласныя патрэбы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_use_of_excisable_goods_for_own_needs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_alcoholic_beverages_marked_by_excise_stamp_excluded_from_appeal;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15596?langname=ru];
+    => nrel_etalon_online_idx: [15596];;

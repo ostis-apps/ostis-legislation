@@ -1,0 +1,35 @@
+
+by_care_of_a_sick_family_member
+    => nrel_main_idtf: [care of a sick family member] (* <- lang_en;; *);
+    => nrel_main_idtf: [уход за больным членом семьи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [догляд за хворым членам сям'і] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_care_of_a_sick_family_member_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_patient_innner_circle;
+    => nrel_associative_connection: by_sick_person;
+    => nrel_associative_connection: by_patient;
+    => nrel_associative_connection: by_outside_special_medical_assistance;
+    => nrel_associative_connection: by_permanent_care;
+
+    => nrel_legal_act: by_act_w21529676;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25727?langname=ru];
+    => nrel_etalon_online_idx: [25727];;

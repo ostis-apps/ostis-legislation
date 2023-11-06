@@ -1,0 +1,56 @@
+
+by_unauthorized_construction
+    => nrel_main_idtf: [unauthorized construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [самовольная постройка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [самавольная пабудова] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unauthorized_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unauthorized_construction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_development;
+    => nrel_associative_connection: by_nonresidential_capital_constructions_in_the_house_territory;
+    => nrel_associative_connection: by_nonresidential_constructions__in_the_house_territory;
+    => nrel_associative_connection: by_replanning;
+    => nrel_associative_connection: by_reorganization;
+    => nrel_associative_connection: by_unauthorized_installation_of_engineering_equipment;
+    => nrel_associative_connection: by_squatting;
+    => nrel_associative_connection: by_unauthorized_construction;
+    => nrel_associative_connection: by_unauthorized_reconstruction_and_or_replanning;
+    => nrel_associative_connection: by_essential_violations_of_townplanning_and_construction_rules_and_regulations;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_n29400097;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4023?langname=ru];
+    => nrel_etalon_online_idx: [4023];;

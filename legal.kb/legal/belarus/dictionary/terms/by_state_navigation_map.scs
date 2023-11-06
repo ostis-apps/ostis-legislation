@@ -1,0 +1,41 @@
+
+by_state_navigation_map
+    => nrel_main_idtf: [state navigation map] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная навигационная карта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная навігацыйная карта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_navigation_map_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_copying;
+    => nrel_associative_connection: by_cardcircuit;
+    => nrel_associative_connection: by_navigational_activity;
+    => nrel_associative_connection: by_navigational_information;
+    => nrel_associative_connection: by_navigational_map;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigational_and_temporary_provision;
+    => nrel_associative_connection: by_navigation_equipment;
+    => nrel_associative_connection: by_navigational_systems;
+    => nrel_associative_connection: by_navigational_technologies;
+    => nrel_associative_connection: by_works_to_maintain_navigational_conditions;
+
+    => nrel_legal_act: by_act_p31100260;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13622?langname=ru];
+    => nrel_etalon_online_idx: [13622];;

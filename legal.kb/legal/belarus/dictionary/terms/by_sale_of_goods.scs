@@ -1,0 +1,51 @@
+
+by_sale_of_goods
+    => nrel_main_idtf: [sale of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [реализация товара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэалізацыя тавару] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sale_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sellingexhibition_of_goods;
+    => nrel_associative_connection: by_dealer;
+    => nrel_associative_connection: by_costs_on_production_and_realization_of_goods_works_services;
+    => nrel_associative_connection: by_place_of_selling_goods;
+    => nrel_associative_connection: by_total_cost_price_of_produced_and_sold_goods_in_organizations_carrying_out_industrial_and_other_production_activity;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_goods_works_services_property_rights;
+    => nrel_associative_connection: by_purchase_of_goods_works_services;
+    => nrel_associative_connection: by_sale_of_goods_as_per_specimens;
+    => nrel_associative_connection: by_sale_of_goods_on_preliminary_orders;
+    => nrel_associative_connection: by_goods_sale;
+    => nrel_associative_connection: by_sale_of_goods_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_sale_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_sale_of_goods_work_service;
+    => nrel_associative_connection: by_sale_of_goods_works_services_of_own_production__relating_to_commercial_organizations_individual_entrepreneurs;
+    => nrel_associative_connection: by_sale_of_goods_works_services_of_own_production__relating_to_a_separate_subdivision;
+    => nrel_associative_connection: by_sale_of_goods_works_services_property_rights;
+    => nrel_associative_connection: by_implementing_organization;
+    => nrel_associative_connection: by_market_for_goods_works_services;
+    => nrel_associative_connection: by_sales_organization_official_trade_representative;
+    => nrel_associative_connection: by_sales_organizations;
+    => nrel_associative_connection: by_transaction_for_the_sales_of_goods_works_services;
+
+    => nrel_legal_act: by_act_hk2100091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22267?langname=ru];
+    => nrel_etalon_online_idx: [22267];;

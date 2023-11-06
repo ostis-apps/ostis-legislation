@@ -1,0 +1,35 @@
+
+by_light_aircraft_of_the_second_category
+    => nrel_main_idtf: [light aircraft of the second category] (* <- lang_en;; *);
+    => nrel_main_idtf: [легкое воздушное судно второй категории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лёгкае паветранае судна другой катэгорыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_light_aircraft_of_the_second_category_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_aircraft_of_complex_design;
+    => nrel_associative_connection: by_light_state_aircrafts;
+    => nrel_associative_connection: by_light_aircraft_of_the_first_category;
+    => nrel_associative_connection: by_aircraft_lighter_than_air;
+
+    => nrel_legal_act: by_act_w22035130p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32863?langname=ru];
+    => nrel_etalon_online_idx: [32863];;

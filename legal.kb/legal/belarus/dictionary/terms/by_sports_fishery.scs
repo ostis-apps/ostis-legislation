@@ -1,0 +1,36 @@
+
+by_sports_fishery
+    => nrel_main_idtf: [sports fishery] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивное рыболовство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўнае рыбалоўства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sports_fishery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_kind_of_sports;
+    => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_search_of_fish;
+    => nrel_associative_connection: by_pisciculture_for_recreational_purposes;
+    => nrel_associative_connection: by_fishery;
+    => nrel_associative_connection: by_sport;
+
+    => nrel_legal_act: by_act_p32100284;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/322?langname=ru];
+    => nrel_etalon_online_idx: [322];;

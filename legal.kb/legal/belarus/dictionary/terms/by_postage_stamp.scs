@@ -1,0 +1,54 @@
+
+by_postage_stamp
+    => nrel_main_idtf: [postage stamp] (* <- lang_en;; *);
+    => nrel_main_idtf: [почтовая марка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паштовая марка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postage_stamp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_state_sign_of_postal_payment;
+    => nrel_associative_connection: by_marks_of_postal_payments;
+    => nrel_associative_connection: by_card_with_original_mark;
+    => nrel_associative_connection: by_first_day_envelope;
+    => nrel_associative_connection: by_envelope_with_original_stamp;
+    => nrel_associative_connection: by_coupon;
+    => nrel_associative_connection: by_small_sheet;
+    => nrel_associative_connection: by_marked_postcard;
+    => nrel_associative_connection: by_marked_envelope;
+    => nrel_associative_connection: by_marked_postal_set;
+    => nrel_associative_connection: by_international_reply_coupon;
+    => nrel_associative_connection: by_overprint_on_postage_stamp;
+    => nrel_associative_connection: by_print_of_the_marking_franching_machine;
+    => nrel_associative_connection: by_letter;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_postal_block;
+    => nrel_associative_connection: by_postal_courier;
+    => nrel_associative_connection: by_automated_parcel_locker;
+    => nrel_associative_connection: by_special_postmark_with_a_fixed_oneday_or_multiday_calendar_date;
+    => nrel_associative_connection: by_special_stamp_first_day;
+    => nrel_associative_connection: by_standard_postal_stamp;
+    => nrel_associative_connection: by_2_philatelic_products;
+    => nrel_associative_connection: by_art_postage_stamps;
+
+    => nrel_legal_act: by_act_h10300258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6596?langname=ru];
+    => nrel_etalon_online_idx: [6596];;

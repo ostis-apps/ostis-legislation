@@ -1,0 +1,39 @@
+
+by_mobile_service_complex
+    => nrel_main_idtf: [mobile service complex] (* <- lang_en;; *);
+    => nrel_main_idtf: [передвижной комплекс сервисного обслуживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перасоўны комплекс сэрвіснага абслугоўвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mobile_service_complex_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automotive_vehicle;
+    => nrel_associative_connection: by_reception_point;
+    => nrel_associative_connection: by_repair_organization;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_rural_integrated_receiving_point_for_receiving_orders_for_provision_of_household_services;
+    => nrel_associative_connection: by_cost_of_vehicle_repair;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_c20401590;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20004?langname=ru];
+    => nrel_etalon_online_idx: [20004];;

@@ -1,0 +1,34 @@
+
+by_by_departure_station
+    => nrel_main_idtf: [by_departure_station] (* <- lang_en;; *);
+    => nrel_main_idtf: [станция отправления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [станцыя адпраўлення] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_departure_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_station;
+    => nrel_associative_connection: by_station_of_destination;
+
+    => nrel_legal_act: by_act_w22340147;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42678?langname=ru];
+    => nrel_etalon_online_idx: [42678];;

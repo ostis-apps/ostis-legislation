@@ -1,0 +1,51 @@
+
+by_contractual_rent
+    => nrel_main_idtf: [contractual rent] (* <- lang_en;; *);
+    => nrel_main_idtf: [договорная арендная плата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагаворная арэндная плата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contractual_rent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contractual_rent_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_single_object_of_real_estate_property;
+    => nrel_associative_connection: by_excess_rent;
+    => nrel_associative_connection: by_full_rent;
+    => nrel_associative_connection: by_rental_rate;
+    => nrel_associative_connection: by_current_market_cost;
+
+    => nrel_legal_act: by_act_w02136594p;
+    => nrel_legal_act: by_act_w01933901p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31164?langname=ru];
+    => nrel_etalon_online_idx: [31164];;

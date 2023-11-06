@@ -1,0 +1,42 @@
+
+by_material_cultural_values
+    => nrel_main_idtf: [material cultural values] (* <- lang_en;; *);
+    => nrel_main_idtf: [материальные культурные ценности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэрыяльныя культурныя каштоўнасцi] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_material_cultural_values_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analogue_material_values;
+    => nrel_associative_connection: by_group_of_cultural_values;
+    => nrel_associative_connection: by_movable_cultural_values;
+    => nrel_associative_connection: by_collection_of_cultural_values;
+    => nrel_associative_connection: by_set_of_cultural_values;
+    => nrel_associative_connection: by_cultural_values;
+    => nrel_associative_connection: by_immovable_material_cultural_values;
+    => nrel_associative_connection: by_nonmaterial_cultural_valuables;
+    => nrel_associative_connection: by_especially_valuable_material_cultural_values;
+    => nrel_associative_connection: by_especially_valuable_material_objects;
+    => nrel_associative_connection: by_conditions_for_the_preservation_of_material_and_historical_and_cultural_values;
+    => nrel_associative_connection: by_values;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7938?langname=ru];
+    => nrel_etalon_online_idx: [7938];;

@@ -1,0 +1,24 @@
+
+by_tank_boiler
+    => nrel_main_idtf: [tank boiler] (* <- lang_en;; *);
+    => nrel_main_idtf: [котел цистерны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кацёл цыстэрны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_tankwagon;
+    => nrel_associative_connection: by_hermetically_closed_tank;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_waste_heat_recovery_boiler;
+    => nrel_associative_connection: by_boiler_rooms;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_portable_tank;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16370?langname=ru];
+    => nrel_etalon_online_idx: [16370];;

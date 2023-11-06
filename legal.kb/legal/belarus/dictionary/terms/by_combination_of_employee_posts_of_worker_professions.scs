@@ -1,0 +1,31 @@
+
+by_combination_of_employee_posts_of_worker_professions
+    => nrel_main_idtf: [combination of employee posts (of worker professions)] (* <- lang_en;; *);
+    => nrel_main_idtf: [совмещение должностей служащих (профессий рабочих)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сумяшчэнне пасад служачых (прафесій рабочых)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combination_of_employee_posts_of_worker_professions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_labor_agreement;
+
+    => nrel_legal_act: by_act_hk9900296;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40841?langname=ru];
+    => nrel_etalon_online_idx: [40841];;

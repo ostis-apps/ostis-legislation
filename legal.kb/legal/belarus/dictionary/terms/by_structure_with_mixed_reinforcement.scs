@@ -1,0 +1,38 @@
+
+by_structure_with_mixed_reinforcement
+    => nrel_main_idtf: [structure with mixed reinforcement] (* <- lang_en;; *);
+    => nrel_main_idtf: [конструкция со смешанным армированием] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канструкцыя са змешаным арміраваннем] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_structure_with_mixed_reinforcement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reinforcing_mesh;
+    => nrel_associative_connection: by_concrete_structure;
+    => nrel_associative_connection: by_adhesive_composition;
+    => nrel_associative_connection: by_construction_element;
+    => nrel_associative_connection: by_fastening_element;
+    => nrel_associative_connection: by_support_structure;
+    => nrel_associative_connection: by_posttensioned_structure;
+    => nrel_associative_connection: by_layer_reinforced;
+
+    => nrel_legal_act: by_act_w220p0511;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35680?langname=ru];
+    => nrel_etalon_online_idx: [35680];;

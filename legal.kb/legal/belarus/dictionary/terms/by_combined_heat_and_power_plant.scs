@@ -1,0 +1,50 @@
+
+by_combined_heat_and_power_plant
+    => nrel_main_idtf: [combined heat and power plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [теплоэлектроцентраль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цеплаэлектрацэнтраль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_heat_and_power_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_heat_and_power_plant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_electric_power_supply;
+    => nrel_associative_connection: by_heating;
+    => nrel_associative_connection: by_steam_turbine_installation;
+    => nrel_associative_connection: by_steam_turbine_power_plant;
+
+    => nrel_legal_act: by_act_w22035419p;
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24798?langname=ru];
+    => nrel_etalon_online_idx: [24798];;

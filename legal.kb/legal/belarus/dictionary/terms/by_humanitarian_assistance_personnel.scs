@@ -1,0 +1,40 @@
+
+by_humanitarian_assistance_personnel
+    => nrel_main_idtf: [humanitarian assistance personnel] (* <- lang_en;; *);
+    => nrel_main_idtf: [персонал для оказания гуманитарной помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [персанал для аказання гуманітарнай дапамогі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_humanitarian_assistance_personnel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_operations;
+    => nrel_associative_connection: by_civil_defense;
+    => nrel_associative_connection: by_humanitarian_activity;
+    => nrel_associative_connection: by_humanitarian_program;
+    => nrel_associative_connection: by_international_humanitarian_aid;
+    => nrel_associative_connection: by_humanitarian_assistance_equipment;
+    => nrel_associative_connection: by_civil_defense_personnel;
+    => nrel_associative_connection: by_sanitary_units_of_civil_defense;
+    => nrel_associative_connection: by_civil_defense_means;
+    => nrel_associative_connection: by_territory_classified_to_the_corresponding_civil_defense_group;
+
+    => nrel_legal_act: by_act_p31100269;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20113?langname=ru];
+    => nrel_etalon_online_idx: [20113];;

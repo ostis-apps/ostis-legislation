@@ -1,0 +1,36 @@
+
+by_replenishment_of_the_library_foundation
+    => nrel_main_idtf: [replenishment of the library foundation] (* <- lang_en;; *);
+    => nrel_main_idtf: [пополнение библиотечного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папаўненне бібліятэчнага фонду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_replenishment_of_the_library_foundation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_movement_of_library_foundation;
+    => nrel_associative_connection: by_unit_of_account_of_the_library_fund;
+    => nrel_associative_connection: by_unit_of_storage_of_the_library_fund;
+    => nrel_associative_connection: by_noncore_documents;
+    => nrel_associative_connection: by_batch_of_documents;
+    => nrel_associative_connection: by_preservation_of_the_library_fund;
+
+    => nrel_legal_act: by_act_w22239194;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41913?langname=ru];
+    => nrel_etalon_online_idx: [41913];;

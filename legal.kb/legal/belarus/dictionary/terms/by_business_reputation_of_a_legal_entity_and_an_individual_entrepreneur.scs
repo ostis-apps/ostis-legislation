@@ -1,0 +1,40 @@
+
+by_business_reputation_of_a_legal_entity_and_an_individual_entrepreneur
+    => nrel_main_idtf: [business reputation of a legal entity and an individual entrepreneur] (* <- lang_en;; *);
+    => nrel_main_idtf: [деловая репутация юридического лица и индивидуального предпринимателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзелавая рэпутацыя юрыдычнай асобы і індывідуальнага прадпрымальніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_business_reputation_of_a_legal_entity_and_an_individual_entrepreneur_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_business_reputation;
+    => nrel_associative_connection: by_defamation_of_a_competitors_business_reputation;
+    => nrel_associative_connection: by_individual_entrepreneurs;
+    => nrel_associative_connection: by_illegal_use_of_competitors_business_reputation;
+    => nrel_associative_connection: by_intangible_assets;
+    => nrel_associative_connection: by_defamatory_information;
+    => nrel_associative_connection: by_dissemination_of_information_discrediting_business_reputation;
+    => nrel_associative_connection: by_dissemination_of_information_discrediting_the_honor_dignity_and_business_reputation_of_a_citizen_or_the_business_reputation_of_a_legal_entity;
+    => nrel_associative_connection: by_reputation_risk_risk_of_business_reputation_loss_;
+    => nrel_associative_connection: by_risk_of_the_loss_of_commercial_reputation_of_the_bank_reputational_risks;
+
+    => nrel_legal_act: by_act_s29900015;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7828?langname=ru];
+    => nrel_etalon_online_idx: [7828];;

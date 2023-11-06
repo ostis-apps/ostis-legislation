@@ -1,0 +1,23 @@
+
+by_large_packaging
+    => nrel_main_idtf: [large packaging] (* <- lang_en;; *);
+    => nrel_main_idtf: [крупногабаритная тара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буйнагабарытная тара] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_insert;
+    => nrel_associative_connection: by_airtight_packing;
+    => nrel_associative_connection: by_capacity_class_1;
+    => nrel_associative_connection: by_zone_and_degree_of_negligibility;
+    => nrel_associative_connection: by_maximum_capacity;
+    => nrel_associative_connection: by_intermediate_container;
+    => nrel_associative_connection: by_container;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16469?langname=ru];
+    => nrel_etalon_online_idx: [16469];;

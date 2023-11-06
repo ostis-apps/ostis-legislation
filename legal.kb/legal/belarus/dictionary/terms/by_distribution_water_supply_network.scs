@@ -1,0 +1,32 @@
+
+by_distribution_water_supply_network
+    => nrel_main_idtf: [distribution water supply network] (* <- lang_en;; *);
+    => nrel_main_idtf: [распределительная сеть водоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [размеркавальная сетка водазабеспячэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_engineering_and_transport_infrastructure_providing_the_minimum_required_level_of_engineering_equipment_of_land_plots;
+    => nrel_associative_connection: by_water_supply_source;
+    => nrel_associative_connection: by_trunking_network_of_water_supply;
+    => nrel_associative_connection: by_recycling_water_supply;
+    => nrel_associative_connection: by_drinking_water_supply;
+    => nrel_associative_connection: by_firefighting_water_supply;
+    => nrel_associative_connection: by_distribution_network_of_water_supply_drainage_sewerage;
+    => nrel_associative_connection: by_distribution_networks_of_water_supply_drainage_sewerage;
+    => nrel_associative_connection: by_public_water_supply_system;
+    => nrel_associative_connection: by_drinking_water_supply_system;
+    => nrel_associative_connection: by_drinking_water_supply_system_by_vehicle;
+    => nrel_associative_connection: by_technical_water_supply_system;
+    => nrel_associative_connection: by_centralized_water_supply_system;
+    => nrel_associative_connection: by_centralized_water_supply_drainage_system;
+    => nrel_associative_connection: by_watersupply_system;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22138?langname=ru];
+    => nrel_etalon_online_idx: [22138];;

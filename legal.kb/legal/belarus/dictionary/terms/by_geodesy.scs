@@ -1,0 +1,76 @@
+
+by_geodesy
+    => nrel_main_idtf: [geodesy] (* <- lang_en;; *);
+    => nrel_main_idtf: [геодезия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геадэзія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geodesy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geodesy_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geodesy_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geodesic_and_mapping_activity;
+    => nrel_associative_connection: by_geodetic_network;
+    => nrel_associative_connection: by_geodesic_and_cartographic_materials_and_data;
+    => nrel_associative_connection: by_geodetic_works;
+    => nrel_associative_connection: by_geodetic_station;
+    => nrel_associative_connection: by_geodetic_and_cartographic_support;
+    => nrel_associative_connection: by_source_geodesic_coordinate_system_dates;
+    => nrel_associative_connection: by_quasigeoid;
+    => nrel_associative_connection: by_local_coordinate_system;
+    => nrel_associative_connection: by_leveling_network;
+    => nrel_associative_connection: by_general_geographic_map;
+    => nrel_associative_connection: by_relevance_surface;
+    => nrel_associative_connection: by_geodetic_point;
+    => nrel_associative_connection: by_system_of_geodesic_coordinates;
+
+    => nrel_legal_act: by_act_h10800396;
+    => nrel_legal_act: by_act_w21934713p;
+    => nrel_legal_act: by_act_w21934552p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7581?langname=ru];
+    => nrel_etalon_online_idx: [7581];;

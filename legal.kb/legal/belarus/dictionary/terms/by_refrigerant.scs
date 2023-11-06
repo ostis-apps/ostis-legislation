@@ -1,0 +1,55 @@
+
+by_refrigerant
+    => nrel_main_idtf: [refrigerant] (* <- lang_en;; *);
+    => nrel_main_idtf: [хладагент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [холадагент] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refrigerant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_by_pass;
+    => nrel_associative_connection: by_upper_refrigerant_supply;
+    => nrel_associative_connection: by_owner_of_equipment_containing_ozonedestructive_substances;
+    => nrel_associative_connection: by_owner_of_ozonedepleting_substances;
+    => nrel_associative_connection: by_air_separator;
+    => nrel_associative_connection: by_air_cooler;
+    => nrel_associative_connection: by_gas;
+    => nrel_associative_connection: by_liquid;
+    => nrel_associative_connection: by_vaporizer;
+    => nrel_associative_connection: by_oil_separator;
+    => nrel_associative_connection: by_coalescer;
+    => nrel_associative_connection: by_bottom_refrigerant_supply;
+    => nrel_associative_connection: by_clapet;
+    => nrel_associative_connection: by_coolers;
+    => nrel_associative_connection: by_fully_automated_ammonia_refrigeration_unit;
+    => nrel_associative_connection: by_regeneration;
+    => nrel_associative_connection: by_regulating_station;
+    => nrel_associative_connection: by_protective_receiver;
+    => nrel_associative_connection: by_retrofit;
+    => nrel_associative_connection: by_direct_cooling_system;
+    => nrel_associative_connection: by_cooling_system_with_intermediate_coolant;
+    => nrel_associative_connection: by_owner_of_ozone_depleting_substance_waste;
+    => nrel_associative_connection: by_installation;
+    => nrel_associative_connection: by_installations;
+    => nrel_associative_connection: by_refrigerant_gas;
+
+    => nrel_legal_act: by_act_w20920318;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26144?langname=ru];
+    => nrel_etalon_online_idx: [26144];;

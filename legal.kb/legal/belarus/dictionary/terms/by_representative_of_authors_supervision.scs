@@ -1,0 +1,33 @@
+
+by_representative_of_authors_supervision
+    => nrel_main_idtf: [representative of author's supervision] (* <- lang_en;; *);
+    => nrel_main_idtf: [представитель авторского надзора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнік аўтарскага нагляду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_of_authors_supervision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authors_supervision;
+    => nrel_associative_connection: by_general_designer;
+    => nrel_associative_connection: by_subdesigner;
+
+    => nrel_legal_act: by_act_w22035928;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35042?langname=ru];
+    => nrel_etalon_online_idx: [35042];;

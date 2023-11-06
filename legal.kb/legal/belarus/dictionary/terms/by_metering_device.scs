@@ -1,0 +1,30 @@
+
+by_metering_device
+    => nrel_main_idtf: [metering device] (* <- lang_en;; *);
+    => nrel_main_idtf: [прибор учета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыбор уліку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_unaccounted_consumer;
+    => nrel_associative_connection: by_interference_in_the_work_of_the_device_of_individual_accounting_of_the_consumption_of_water_gas_heat_and_electric_energy;
+    => nrel_associative_connection: by_gas_metering_instrument;
+    => nrel_associative_connection: by_malfunction_of_metering_devices_of_the_metering_unit;
+    => nrel_associative_connection: by_abnormal_mode_of_operation_of_the_metering_device_abnormal_mode;
+    => nrel_associative_connection: by_scheduled_verification_of_the_water_meter;
+    => nrel_associative_connection: by_group_measuring_device;
+    => nrel_associative_connection: by_individual_measuring_device;
+    => nrel_associative_connection: by_metering_device_water_meter;
+    => nrel_associative_connection: by_water_consumption_meter_water_meter;
+    => nrel_associative_connection: by_water_consumption_meter_metering_devices;
+    => nrel_associative_connection: by_thermal_energy_metering_device;
+    => nrel_associative_connection: by_electricity_metering_device;
+    => nrel_associative_connection: by_metering_station_for_consumed_water_or_discharged_wastewater;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21186?langname=ru];
+    => nrel_etalon_online_idx: [21186];;

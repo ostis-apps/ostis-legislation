@@ -1,0 +1,48 @@
+
+by_debt_for_fuel_and_energy_resources
+    => nrel_main_idtf: [debt for fuel and energy resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [задолженность за топливно-энергетические ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запазычанасць за паліўна-энергетычныя рэсурсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_debt_for_fuel_and_energy_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_debt_for_fuel_and_energy_resources_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_thermal_energy;
+
+    => nrel_legal_act: by_act_p32200062;
+    => nrel_legal_act: by_act_p32000070;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39831?langname=ru];
+    => nrel_etalon_online_idx: [39831];;

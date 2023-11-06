@@ -1,0 +1,43 @@
+
+by_normative_and_technical_documentation
+    => nrel_main_idtf: [normative and technical documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормативно-техническая документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыўна-тэхнічная дакументацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_normative_and_technical_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_standard;
+    => nrel_associative_connection: by_documentation;
+    => nrel_associative_connection: by_instrumental_fault_defection_of_aggregates_knots_and_details;
+    => nrel_associative_connection: by_instructional_recommendations;
+    => nrel_associative_connection: by_standardization;
+    => nrel_associative_connection: by_technical_documentation;
+    => nrel_associative_connection: by_technical_requirements;
+    => nrel_associative_connection: by_technical_conditions;
+    => nrel_associative_connection: by_output_rates_setting;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_technological_documentation;
+    => nrel_associative_connection: by_flow_chart_for_the_maintenance_of_engineering_systems_and_structural_components_of_an_apartment_house;
+    => nrel_associative_connection: by_operational_documents;
+
+    => nrel_legal_act: by_act_c20800952;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6335?langname=ru];
+    => nrel_etalon_online_idx: [6335];;

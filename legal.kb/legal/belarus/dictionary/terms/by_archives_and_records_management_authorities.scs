@@ -1,0 +1,35 @@
+
+by_archives_and_records_management_authorities
+    => nrel_main_idtf: [archives and records management authorities] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы архивного дела и делопроизводства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы архіўнай справы і справаводства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archives_and_records_management_authorities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archive_business;
+    => nrel_associative_connection: by_public_archive_institutions;
+    => nrel_associative_connection: by_sources_of_acquisition_of_the_state_archives;
+    => nrel_associative_connection: by_national_archive_fund;
+
+    => nrel_legal_act: by_act_h11100323;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10507?langname=ru];
+    => nrel_etalon_online_idx: [10507];;

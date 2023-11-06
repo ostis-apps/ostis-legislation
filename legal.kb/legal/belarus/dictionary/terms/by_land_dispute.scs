@@ -1,0 +1,33 @@
+
+by_land_dispute
+    => nrel_main_idtf: [land dispute] (* <- lang_en;; *);
+    => nrel_main_idtf: [земельный спор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зямельная спрэчка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_dispute_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_land_relations;
+    => nrel_associative_connection: by_assignment_of_land_parcel_boundaries_to_the_borders_requiring_normalization;
+    => nrel_associative_connection: by_equivalent_land_plot;
+
+    => nrel_legal_act: by_act_hk0800425;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5833?langname=ru];
+    => nrel_etalon_online_idx: [5833];;

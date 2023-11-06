@@ -1,0 +1,40 @@
+
+by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods
+    => nrel_main_idtf: [certificate of admission of a vehicle for the carriage of certain dangerous goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [свидетельство о допуске транспортного средства к перевозке определенных опасных грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасведчанне аб допуску транспартнага сродку да перавозкі вызначаных небяспечных грузаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_transportation_of_dangerous_goods;
+    => nrel_associative_connection: by_owner_of_the_vehicle_used_for_transport_of_dangerous_goods;
+    => nrel_associative_connection: by_extradition_to_interested_parties;
+    => nrel_associative_connection: by_additional_review;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_list_of_hazardous_cargo;
+    => nrel_associative_connection: by_list_of_hazardous_cargo_accepted_for_carriage;
+    => nrel_associative_connection: by_permit_for_admission_of_a_vehicle_to_participate_in_road_traffic;
+    => nrel_associative_connection: by_registration_card_of_the_vehicle_used_in_the_carriage_of_hazardous_goods;
+
+    => nrel_legal_act: by_act_c21400117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22901?langname=ru];
+    => nrel_etalon_online_idx: [22901];;

@@ -1,0 +1,37 @@
+
+by_gas_supply
+    => nrel_main_idtf: [gas supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [газификация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газіфікацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gas_equipment;
+    => nrel_associative_connection: by_gas_supply;
+    => nrel_associative_connection: by_housing_and_utilities_infrastructure;
+    => nrel_associative_connection: by_gas_user;
+    => nrel_associative_connection: by_production_losses_of_gas;
+    => nrel_associative_connection: by_gas_supply_system;
+    => nrel_associative_connection: by_fuel_and_power_resources;
+
+    => nrel_legal_act: by_act_h10300176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5522?langname=ru];
+    => nrel_etalon_online_idx: [5522];;

@@ -1,0 +1,37 @@
+
+by_execution_of_job_responsibilities
+    => nrel_main_idtf: [execution of job responsibilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнение служебных обязанностей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкананне службовых абавязкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_execution_of_job_responsibilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_previous_activity_of_the_insured_person_before_dismissal;
+    => nrel_associative_connection: by_in_the_line_of_duty;
+    => nrel_associative_connection: by_infliction_of_damage_to_the_life_or_health_of_the_insured_person_in_connection_with_the_performance_of_duties_of_military_service;
+    => nrel_associative_connection: by_misconduct_incompatible_with_employment;
+    => nrel_associative_connection: by_complexity_of_the_functions_performed;
+    => nrel_associative_connection: by_difficulty_of_labor;
+    => nrel_associative_connection: by_job_responsibilities;
+
+    => nrel_legal_act: by_act_p31000341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15559?langname=ru];
+    => nrel_etalon_online_idx: [15559];;

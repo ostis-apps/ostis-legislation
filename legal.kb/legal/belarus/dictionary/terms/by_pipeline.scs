@@ -1,0 +1,72 @@
+
+by_pipeline
+    => nrel_main_idtf: [pipeline] (* <- lang_en;; *);
+    => nrel_main_idtf: [трубопровод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трубаправод] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pipeline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pipeline_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_water_feeder;
+    => nrel_associative_connection: by_external_conductive_parts;
+    => nrel_associative_connection: by_suction_piping;
+    => nrel_associative_connection: by_decommissioning_of_the_trunk_pipeline_facility;
+    => nrel_associative_connection: by_gravitysiphon_system_of_internal_drainage;
+    => nrel_associative_connection: by_cargo_loadingunloading_pipes;
+    => nrel_associative_connection: by_piping_detail;
+    => nrel_associative_connection: by_longterm_shutdown;
+    => nrel_associative_connection: by_shutoff_valves;
+    => nrel_associative_connection: by_delay_camera;
+    => nrel_associative_connection: by_sewer_pipe;
+    => nrel_associative_connection: by_bone_structure_of_knee;
+    => nrel_associative_connection: by_bag;
+    => nrel_associative_connection: by_discharge_pipeline;
+    => nrel_associative_connection: by_objects_of_major_pipeline;
+    => nrel_associative_connection: by_steeply_curved_elbow;
+    => nrel_associative_connection: by_single_duct;
+    => nrel_associative_connection: by_damage_in_the_water_supply_drainage_sewerage_system;
+    => nrel_associative_connection: by_industrial_and_technological_complex;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_flanged_connection;
+    => nrel_associative_connection: by_creation_of_the_main_pipeline;
+    => nrel_associative_connection: by_heat_network;
+    => nrel_associative_connection: by_combined_drain_and_suction_piping;
+    => nrel_associative_connection: by_pipeline_shaped_part_part;
+
+    => nrel_legal_act: by_act_w22238854p;
+    => nrel_legal_act: by_act_w20716366;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25295?langname=ru];
+    => nrel_etalon_online_idx: [25295];;

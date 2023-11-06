@@ -1,0 +1,35 @@
+
+by_by_plain_concrete_and_reinforced_concrete_products_and_structures
+    => nrel_main_idtf: [by_plain_concrete_and_reinforced_concrete_products_and_structures] (* <- lang_en;; *);
+    => nrel_main_idtf: [простые бетонные и железобетонные изделия и конструкции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [простыя бетонныя і жалезабетонныя вырабы і канструкцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_plain_concrete_and_reinforced_concrete_products_and_structures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_concrete_structure;
+    => nrel_associative_connection: by_reinforced_concrete_structure;
+    => nrel_associative_connection: by_simple_reinforcement_works;
+    => nrel_associative_connection: by_complex_reinforcement_works;
+    => nrel_associative_connection: by_complex_reinforced_concrete_products_and_structures;
+
+    => nrel_legal_act: by_act_w201p0008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38985?langname=ru];
+    => nrel_etalon_online_idx: [38985];;

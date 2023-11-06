@@ -1,0 +1,56 @@
+
+by_museum
+    => nrel_main_idtf: [museum] (* <- lang_en;; *);
+    => nrel_main_idtf: [музей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музей] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_museum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_catalogue_of_the_museum_fund_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_art;
+    => nrel_associative_connection: by_classification_of_museums;
+    => nrel_associative_connection: by_acquisition_of_museum_fund;
+    => nrel_associative_connection: by_concept_of_museum_development;
+    => nrel_associative_connection: by_culture;
+    => nrel_associative_connection: by_benefits_of_culture;
+    => nrel_associative_connection: by_museums_mission;
+    => nrel_associative_connection: by_museology;
+    => nrel_associative_connection: by_openair_museums;
+    => nrel_associative_connection: by_museumnature_reserves;
+    => nrel_associative_connection: by_museum_collections;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_museum_item;
+    => nrel_associative_connection: by_museum_worker;
+    => nrel_associative_connection: by_museum_fund;
+    => nrel_associative_connection: by_museum_fund_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_objects_of_social_purpose;
+    => nrel_associative_connection: by_museums_visitors;
+    => nrel_associative_connection: by_item_of_museum_importance;
+    => nrel_associative_connection: by_restoration_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_unique_objects_of_the_national_level;
+    => nrel_associative_connection: by_excursion_service;
+    => nrel_associative_connection: by_excursion_service_for_museums_visitors;
+    => nrel_associative_connection: by_excursion;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6217?langname=ru];
+    => nrel_etalon_online_idx: [6217];;

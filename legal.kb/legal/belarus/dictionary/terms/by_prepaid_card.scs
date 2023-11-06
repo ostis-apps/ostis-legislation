@@ -1,0 +1,21 @@
+
+by_prepaid_card
+    => nrel_main_idtf: [pre-paid card] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоплаченная карточка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадаплочаная картка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bank_payment_card;
+    => nrel_associative_connection: by_electronic_purse_owner;
+    => nrel_associative_connection: by_electronic_purse_number;
+    => nrel_associative_connection: by_electronic_money;
+    => nrel_associative_connection: by_electronic_purse;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11104?langname=ru];
+    => nrel_etalon_online_idx: [11104];;

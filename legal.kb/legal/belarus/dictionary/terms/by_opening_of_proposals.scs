@@ -1,0 +1,20 @@
+
+by_opening_of_proposals
+    => nrel_main_idtf: [opening of proposals] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытие предложений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрыццё прапаноў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_state_procurement;
+    => nrel_associative_connection: by_open_competition;
+    => nrel_associative_connection: by_offer;
+    => nrel_associative_connection: by_electronic_document;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10512?langname=ru];
+    => nrel_etalon_online_idx: [10512];;

@@ -1,0 +1,35 @@
+
+by_neglect_of_official_duty
+    => nrel_main_idtf: [neglect of official duty] (* <- lang_en;; *);
+    => nrel_main_idtf: [халатное отношение к службе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [халатныя адносіны да службы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neglect_of_official_duty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_crimes;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_crimes_against_military_service;
+    => nrel_associative_connection: by_job_responsibilities;
+    => nrel_associative_connection: by_damage;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5106?langname=ru];
+    => nrel_etalon_online_idx: [5106];;

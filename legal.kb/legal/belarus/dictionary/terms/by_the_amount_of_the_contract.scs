@@ -1,0 +1,35 @@
+
+by_the_amount_of_the_contract
+    => nrel_main_idtf: [the amount of the contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договорная сумма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагаворная сума] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_amount_of_the_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_housing_construction_savings_contract;
+    => nrel_associative_connection: by_housing_construction_savings_hcs;
+    => nrel_associative_connection: by_premium_of_the_state;
+    => nrel_associative_connection: by_intermediate_credit;
+    => nrel_associative_connection: by_period_of_accumulation_of_housing_construction_savings;
+
+    => nrel_legal_act: by_act_p32000382;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36240?langname=ru];
+    => nrel_etalon_online_idx: [36240];;

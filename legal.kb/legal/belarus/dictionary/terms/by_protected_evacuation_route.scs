@@ -1,0 +1,31 @@
+
+by_protected_evacuation_route
+    => nrel_main_idtf: [protected evacuation route] (* <- lang_en;; *);
+    => nrel_main_idtf: [защищенный эвакуационный путь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абаронены эвакуацыйны шлях] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protected_evacuation_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_fire_extinguishing_installation_afei;
+
+    => nrel_legal_act: by_act_w02035789p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35973?langname=ru];
+    => nrel_etalon_online_idx: [35973];;

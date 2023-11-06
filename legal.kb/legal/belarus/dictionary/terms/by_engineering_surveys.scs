@@ -1,0 +1,32 @@
+
+by_engineering_surveys
+    => nrel_main_idtf: [engineering surveys] (* <- lang_en;; *);
+    => nrel_main_idtf: [инженерные изыскания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інжынерныя вышуканні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_engineering_surveys_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_manmade_structures;
+    => nrel_associative_connection: by_project_documentation;
+
+    => nrel_legal_act: by_act_w21631333p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31479?langname=ru];
+    => nrel_etalon_online_idx: [31479];;

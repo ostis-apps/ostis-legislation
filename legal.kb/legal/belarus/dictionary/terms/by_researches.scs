@@ -1,0 +1,82 @@
+
+by_researches
+    => nrel_main_idtf: [researches] (* <- lang_en;; *);
+    => nrel_main_idtf: [научные исследования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навуковыя даследаванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_researches_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_researches_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_researches_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_anatomic_gift;
+    => nrel_associative_connection: by_approbation_of_results_of_scientific_research;
+    => nrel_associative_connection: by_temporary_scientific_group;
+    => nrel_associative_connection: by_geological_and_ecological_studies;
+    => nrel_associative_connection: by_dissertation;
+    => nrel_associative_connection: by_doctors_dissertation_in_the_form_of_scientific_report;
+    => nrel_associative_connection: by_research;
+    => nrel_associative_connection: by_scientific_activity;
+    => nrel_associative_connection: by_scientific_and_information_activity;
+    => nrel_associative_connection: by_scientific_research_activity;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_scientific_and_practical_center;
+    => nrel_associative_connection: by_scientific_and_technical_products;
+    => nrel_associative_connection: by_scientific_report;
+    => nrel_associative_connection: by_scientific_worker;
+    => nrel_associative_connection: by_national_center_of_legislation_and_legal_research_of_the_republic_of_belarus_ncllr;
+    => nrel_associative_connection: by_organization_providing_scientific_and_methodological_support_of_education;
+    => nrel_associative_connection: by_applied_researches;
+    => nrel_associative_connection: by_fundamental_scientific_research;
+    => nrel_associative_connection: by_experimental_activities_in_the_sphere_of_education;
+
+    => nrel_legal_act: by_act_c21001420;
+    => nrel_legal_act: by_act_w21934552p;
+    => nrel_legal_act: by_act_n21200130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3677?langname=ru];
+    => nrel_etalon_online_idx: [3677];;

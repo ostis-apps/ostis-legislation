@@ -1,0 +1,34 @@
+
+by_volumespatial_advertising_construction
+    => nrel_main_idtf: [volume-spatial advertising construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [объемно-пространственная рекламная конструкция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ёмна-прасторавая рэкламная канструкцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_volumespatial_advertising_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_outdoor_advertising;
+    => nrel_associative_connection: by_advertising;
+    => nrel_associative_connection: by_advertising_activity;
+    => nrel_associative_connection: by_flag_advertising_design;
+
+    => nrel_legal_act: by_act_c22100395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18805?langname=ru];
+    => nrel_etalon_online_idx: [18805];;

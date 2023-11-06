@@ -1,0 +1,72 @@
+
+by_author_coauthors_of_scientific_and_technical_information
+    => nrel_main_idtf: [author (co-authors) of scientific and technical information] (* <- lang_en;; *);
+    => nrel_main_idtf: [автор (соавторы) научно-технической информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтар (сааўтары) навукова-тэхнічнай інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_coauthors_of_scientific_and_technical_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_coauthors_of_scientific_and_technical_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_author_coauthors_of_scientific_and_technical_information_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author;
+    => nrel_associative_connection: by_invention_in_any_technical_field;
+    => nrel_associative_connection: by_intellectual_property;
+    => nrel_associative_connection: by_scientific_and_technical_information;
+    => nrel_associative_connection: by_scientific_and_technical_products;
+    => nrel_associative_connection: by_intermediary_in_the_area_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_right_of_authorship;
+    => nrel_associative_connection: by_right_of_authorship_right_to_be_recognized_by_author;
+    => nrel_associative_connection: by_resources_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_creative_activity;
+
+    => nrel_legal_act: by_act_h19900250;
+    => nrel_legal_act: by_act_n21200130;
+    => nrel_legal_act: by_act_n20000064;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12329?langname=ru];
+    => nrel_etalon_online_idx: [12329];;

@@ -1,0 +1,48 @@
+
+by_by_auditors
+    => nrel_main_idtf: [by_auditors] (* <- lang_en;; *);
+    => nrel_main_idtf: [проверяющие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [правяраючыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_auditors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_counter_check;
+    => nrel_associative_connection: by_state_supervisory_bodies;
+    => nrel_associative_connection: by_state_control_committee;
+    => nrel_associative_connection: by_state_control_committee_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_inspecting_official;
+    => nrel_associative_connection: by_documentary_inspection_method;
+    => nrel_associative_connection: by_total_inspection_method;
+    => nrel_associative_connection: by_actual_inspection_method;
+    => nrel_associative_connection: by_methods_and_ways_of_inspections_realization;
+    => nrel_associative_connection: by_preliminary_control;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_audited_entities;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_raid_check;
+    => nrel_associative_connection: by_head_of_check;
+    => nrel_associative_connection: by_method_method_of_continuous_check;
+    => nrel_associative_connection: by_subjects_verified_subjects;
+    => nrel_associative_connection: by_authorized_officer_of_checking_bank;
+
+    => nrel_legal_act: by_act_t61001173;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21411?langname=ru];
+    => nrel_etalon_online_idx: [21411];;

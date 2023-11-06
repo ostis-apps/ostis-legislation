@@ -1,0 +1,21 @@
+
+by_by_nonurgent_cases
+    => nrel_main_idtf: [by_nonurgent_cases] (* <- lang_en;; *);
+    => nrel_main_idtf: [случаи, не терпящие отлагательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпадкі, якія не церпяць адкладу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_executory_proceeding;
+    => nrel_associative_connection: by_executive_proceedings_in_economic_disputes;
+    => nrel_associative_connection: by_administrative_documents;
+    => nrel_associative_connection: by_executive_document;
+    => nrel_associative_connection: by_damage;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23373?langname=ru];
+    => nrel_etalon_online_idx: [23373];;

@@ -1,0 +1,25 @@
+
+by_technological_reservation_of_heat_supply
+    => nrel_main_idtf: [technological reservation of heat supply ] (* <- lang_en;; *);
+    => nrel_main_idtf: [технологическая бронь теплоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхналагічная бронь цеплазабеспячэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_emergency_reservation_of_heat_supply;
+    => nrel_associative_connection: by_unaccounted_consumers;
+    => nrel_associative_connection: by_hydraulic_stability_of_the_heat_supply_system;
+    => nrel_associative_connection: by_open_heating_system_hot_water_supply;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_system_decentralized_local;
+    => nrel_associative_connection: by_heat_supply_system_centralized;
+    => nrel_associative_connection: by_heat_supply;
+    => nrel_associative_connection: by_technological_reservation_of_electricity_supply;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24945?langname=ru];
+    => nrel_etalon_online_idx: [24945];;

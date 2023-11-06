@@ -1,0 +1,21 @@
+
+by_by_securities_issues_directory
+    => nrel_main_idtf: [by_securities_issues_directory] (* <- lang_en;; *);
+    => nrel_main_idtf: [справочник выпусков ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даведнік выпускаў каштоўных папер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_issue_of_securities;
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_handbook;
+    => nrel_associative_connection: by_security;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23955?langname=ru];
+    => nrel_etalon_online_idx: [23955];;

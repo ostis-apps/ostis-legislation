@@ -1,0 +1,55 @@
+
+by_antenna
+    => nrel_main_idtf: [antenna] (* <- lang_en;; *);
+    => nrel_main_idtf: [антенна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [антэна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_antenna_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_antenna_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_electromagnetic_radiation_of_radio_frequency;
+    => nrel_associative_connection: by_secondary_radiation;
+    => nrel_associative_connection: by_individual_aerials_and_other_constructions;
+    => nrel_associative_connection: by_antenna_gain_coefficient;
+    => nrel_associative_connection: by_transmission_line;
+    => nrel_associative_connection: by_transmitting_radio_technical_object;
+    => nrel_associative_connection: by_permanent_magnetic_field;
+    => nrel_associative_connection: by_equivalent_isotropically_radiated_power;
+    => nrel_associative_connection: by_electric_field;
+
+    => nrel_legal_act: by_act_c21900360;
+    => nrel_legal_act: by_act_w22035537p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31252?langname=ru];
+    => nrel_etalon_online_idx: [31252];;

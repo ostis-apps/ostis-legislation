@@ -1,0 +1,36 @@
+
+by_quality_control_of_the_audit_firm_or_auditor
+    => nrel_main_idtf: [quality control of the audit firm or auditor] (* <- lang_en;; *);
+    => nrel_main_idtf: [контроль качества работы аудиторской организации, аудитора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантроль якасці работы аўдытарскай арганізацыі, аўдытара] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quality_control_of_the_audit_firm_or_auditor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_quality_control;
+
+    => nrel_legal_act: by_act_n21500042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10433?langname=ru];
+    => nrel_etalon_online_idx: [10433];;

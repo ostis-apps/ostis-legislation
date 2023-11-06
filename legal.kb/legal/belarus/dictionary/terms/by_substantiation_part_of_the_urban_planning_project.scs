@@ -1,0 +1,37 @@
+
+by_substantiation_part_of_the_urban_planning_project
+    => nrel_main_idtf: [substantiation part of the urban planning project] (* <- lang_en;; *);
+    => nrel_main_idtf: [обосновывающая часть градостроительного проекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абгрунтоўваючая частка горадабудаўнічага праекта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_substantiation_part_of_the_urban_planning_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_master_plan_of_the_settlement_general_plan;
+    => nrel_associative_connection: by_townplanning_activity;
+    => nrel_associative_connection: by_urban_planning;
+    => nrel_associative_connection: by_urban_development_project_urban_development_documentation;
+    => nrel_associative_connection: by_urban_development_project_of_detailed_planning_detail_plan;
+    => nrel_associative_connection: by_urban_development_project_of_general_planning;
+    => nrel_associative_connection: by_urban_development_project_of_special_planning_special_project;
+
+    => nrel_legal_act: by_act_w22136325p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37143?langname=ru];
+    => nrel_etalon_online_idx: [37143];;

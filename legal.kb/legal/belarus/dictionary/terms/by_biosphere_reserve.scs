@@ -1,0 +1,34 @@
+
+by_biosphere_reserve
+    => nrel_main_idtf: [biosphere reserve] (* <- lang_en;; *);
+    => nrel_main_idtf: [биосферный резерват] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біясферны рэзерват] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biosphere_reserve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_specially_protected_natural_territories;
+    => nrel_associative_connection: by_paludikultura;
+    => nrel_associative_connection: by_natural_resources;
+    => nrel_associative_connection: by_territorial_unit;
+
+    => nrel_legal_act: by_act_v19201982;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4877?langname=ru];
+    => nrel_etalon_online_idx: [4877];;

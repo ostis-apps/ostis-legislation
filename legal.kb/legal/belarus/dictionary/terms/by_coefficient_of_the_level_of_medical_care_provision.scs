@@ -1,0 +1,35 @@
+
+by_coefficient_of_the_level_of_medical_care_provision
+    => nrel_main_idtf: [coefficient of the level of medical care provision] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент уровня оказания медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент узроўню аказання медыцынскай дапамогі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coefficient_of_the_level_of_medical_care_provision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_clinicalexpenditure_group;
+    => nrel_associative_connection: by_cliniccosts_groups;
+    => nrel_associative_connection: by_correction_factor;
+    => nrel_associative_connection: by_coefficient_of_relative_zatratocity_of_the_clinicsatrate_group;
+    => nrel_associative_connection: by_complexity_coefficient_of_treatment_of_patients;
+
+    => nrel_legal_act: by_act_c22300146;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42392?langname=ru];
+    => nrel_etalon_online_idx: [42392];;

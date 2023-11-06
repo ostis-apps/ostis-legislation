@@ -1,0 +1,50 @@
+
+by_state_statistical_surveys
+    => nrel_main_idtf: [state statistical surveys] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные статистические наблюдения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя статыстычныя назіранні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_statistical_surveys_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_statistics;
+    => nrel_associative_connection: by_state_statistical_activity;
+    => nrel_associative_connection: by_unit_of_observed_aggregate;
+    => nrel_associative_connection: by_criterion_of_optimal_selection;
+    => nrel_associative_connection: by_noncentralized_state_statistical_observations;
+    => nrel_associative_connection: by_object_of_the_state_statistical_observation;
+    => nrel_associative_connection: by_primary_statistical_data;
+    => nrel_associative_connection: by_census_documentation;
+    => nrel_associative_connection: by_census_form;
+    => nrel_associative_connection: by_census_staff;
+    => nrel_associative_connection: by_census;
+    => nrel_associative_connection: by_administrative_data_providers;
+    => nrel_associative_connection: by_program_of_statistical_works;
+    => nrel_associative_connection: by_representative_sampling;
+    => nrel_associative_connection: by_representative_organization;
+    => nrel_associative_connection: by_representative_service;
+    => nrel_associative_connection: by_representatively_selected_organization;
+    => nrel_associative_connection: by_database_respondent;
+    => nrel_associative_connection: by_statistical_classifier;
+    => nrel_associative_connection: by_centralized_state_statistical_observations;
+
+    => nrel_legal_act: by_act_h10400345;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5597?langname=ru];
+    => nrel_etalon_online_idx: [5597];;

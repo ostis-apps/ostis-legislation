@@ -1,0 +1,36 @@
+
+by_hunting_day
+    => nrel_main_idtf: [hunting day] (* <- lang_en;; *);
+    => nrel_main_idtf: [охотничий день] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляўнічы дзень] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_day_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_prohibited_place_for_hunting;
+    => nrel_associative_connection: by_hunting_tour;
+    => nrel_associative_connection: by_hunting_weapons;
+    => nrel_associative_connection: by_hunting_trophies;
+    => nrel_associative_connection: by_hunting_lands;
+    => nrel_associative_connection: by_hunting_grounds_bandwidth;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36255?langname=ru];
+    => nrel_etalon_online_idx: [36255];;

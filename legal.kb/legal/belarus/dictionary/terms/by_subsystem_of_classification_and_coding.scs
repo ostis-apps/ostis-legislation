@@ -1,0 +1,34 @@
+
+by_subsystem_of_classification_and_coding
+    => nrel_main_idtf: [subsystem of classification and coding ] (* <- lang_en;; *);
+    => nrel_main_idtf: [подсистема классификации и кодирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падсістэма класіфікацыі і кадавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subsystem_of_classification_and_coding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_maintenance_of_register_classifier;
+    => nrel_associative_connection: by_departmental_classifier;
+    => nrel_associative_connection: by_coding;
+    => nrel_associative_connection: by_object_of_classification;
+
+    => nrel_legal_act: by_act_w21934038;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31001?langname=ru];
+    => nrel_etalon_online_idx: [31001];;

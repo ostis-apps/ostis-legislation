@@ -1,0 +1,32 @@
+
+by_cadastral_year
+    => nrel_main_idtf: [cadastral year] (* <- lang_en;; *);
+    => nrel_main_idtf: [кадастровый год] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кадастравы год] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cadastral_year_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_registry_of_greenhouse_gases;
+    => nrel_associative_connection: by_sink_of_greenhouse_gases;
+
+    => nrel_legal_act: by_act_c22100137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36899?langname=ru];
+    => nrel_etalon_online_idx: [36899];;

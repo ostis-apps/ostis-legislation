@@ -1,0 +1,22 @@
+
+by_internal_zone
+    => nrel_main_idtf: [internal zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренняя зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраная зона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_safety_zone;
+    => nrel_associative_connection: by_radioactive_material;
+    => nrel_associative_connection: by_radioactive_contamination;
+    => nrel_associative_connection: by_radioactive_waste;
+    => nrel_associative_connection: by_nuclear_material;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13128?langname=ru];
+    => nrel_etalon_online_idx: [13128];;

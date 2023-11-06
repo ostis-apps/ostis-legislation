@@ -1,0 +1,31 @@
+
+by_transition_height
+    => nrel_main_idtf: [transition height] (* <- lang_en;; *);
+    => nrel_main_idtf: [высота перехода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышыня перахода] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transition_height_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_c20601471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13402?langname=ru];
+    => nrel_etalon_online_idx: [13402];;

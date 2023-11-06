@@ -1,0 +1,42 @@
+
+by_counter_swimming
+    => nrel_main_idtf: [counter swimming] (* <- lang_en;; *);
+    => nrel_main_idtf: [встречное плавание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сустрэчнае плаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_counter_swimming_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cruise_ship;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_sailing_vessel;
+    => nrel_associative_connection: by_crossing_courses;
+    => nrel_associative_connection: by_swimming;
+    => nrel_associative_connection: by_vessel_pass;
+    => nrel_associative_connection: by_divergence_of_vessels;
+    => nrel_associative_connection: by_voyage_of_foreign_navigation_for_belarusian_vessels;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+    => nrel_associative_connection: by_vessel_of_mixed_river__sea_navigation;
+    => nrel_associative_connection: by_navigation_safety_requirements;
+
+    => nrel_legal_act: by_act_w20514238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13308?langname=ru];
+    => nrel_etalon_online_idx: [13308];;

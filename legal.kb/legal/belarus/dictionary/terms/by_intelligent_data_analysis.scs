@@ -1,0 +1,33 @@
+
+by_intelligent_data_analysis
+    => nrel_main_idtf: [intelligent data analysis] (* <- lang_en;; *);
+    => nrel_main_idtf: [интеллектуальный анализ данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэлектуальны аналіз даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intelligent_data_analysis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analysis;
+    => nrel_associative_connection: by_higher_education;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_legal_act: by_act_w21934552p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38304?langname=ru];
+    => nrel_etalon_online_idx: [38304];;

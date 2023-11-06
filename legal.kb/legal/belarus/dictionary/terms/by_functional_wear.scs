@@ -1,0 +1,53 @@
+
+by_functional_wear
+    => nrel_main_idtf: [functional wear] (* <- lang_en;; *);
+    => nrel_main_idtf: [функциональный износ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [функцыянальны знос] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_functional_wear_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_functional_wear_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_wear;
+    => nrel_associative_connection: by_wear;
+    => nrel_associative_connection: by_obsolescence;
+    => nrel_associative_connection: by_accumulated_wear;
+    => nrel_associative_connection: by_calculated_vehicle_mileage;
+    => nrel_associative_connection: by_writeoff_of_a_protective_structure;
+    => nrel_associative_connection: by_service_life_of_the_vehicle;
+
+    => nrel_legal_act: by_act_z61400189;
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26113?langname=ru];
+    => nrel_etalon_online_idx: [26113];;

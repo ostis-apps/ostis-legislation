@@ -1,0 +1,32 @@
+
+by_geothermal_power_plant
+    => nrel_main_idtf: [geothermal power plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [геотермальная электростанция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геатэрмальная электрастанцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geothermal_power_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_thermal_power_plant;
+
+    => nrel_legal_act: by_act_w02035783p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35871?langname=ru];
+    => nrel_etalon_online_idx: [35871];;

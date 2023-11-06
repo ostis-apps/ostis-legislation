@@ -1,0 +1,33 @@
+
+by_debt_to_pay_penalty_to_the_budget_of_the_fund
+    => nrel_main_idtf: [debt to pay penalty to the budget of the fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [задолженность по уплате пеней в бюджет фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запазычанасць па выплаце пеняў у бюджэт фонда] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_debt_to_pay_penalty_to_the_budget_of_the_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_liabilities;
+    => nrel_associative_connection: by_payments_to_the_budget;
+
+    => nrel_legal_act: by_act_p32000070;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41532?langname=ru];
+    => nrel_etalon_online_idx: [41532];;

@@ -1,0 +1,33 @@
+
+by_obliged_entities
+    => nrel_main_idtf: [obliged entities] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязанные лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязаныя асобы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obliged_entities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_legal_entities;
+    => nrel_associative_connection: by_nonstate_legal_entities;
+    => nrel_associative_connection: by_own__facility_of_public_catering;
+
+    => nrel_legal_act: by_act_w21022783;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41930?langname=ru];
+    => nrel_etalon_online_idx: [41930];;

@@ -1,0 +1,40 @@
+
+by_bank_resident
+    => nrel_main_idtf: [bank resident] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-резидент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-рэзідэнт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_resident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_nonresident_bank_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_resident_bank_of_the_republic_of_belarus_agent_bank;
+    => nrel_associative_connection: by_national_bank_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_nonresidents;
+    => nrel_associative_connection: by_resident;
+    => nrel_associative_connection: by_residents;
+    => nrel_associative_connection: by_account_loro;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_n01200059;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10829?langname=ru];
+    => nrel_etalon_online_idx: [10829];;

@@ -1,0 +1,33 @@
+
+by_performance_of_a_public_duty
+    => nrel_main_idtf: [performance of a public duty] (* <- lang_en;; *);
+    => nrel_main_idtf: [выполнение общественного долга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкананне грамадскага абавязку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_performance_of_a_public_duty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_performance_of_publicly_beneficial_work;
+    => nrel_associative_connection: by_public_safety;
+    => nrel_associative_connection: by_protection_of_public_order;
+
+    => nrel_legal_act: by_act_s20200009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7413?langname=ru];
+    => nrel_etalon_online_idx: [7413];;

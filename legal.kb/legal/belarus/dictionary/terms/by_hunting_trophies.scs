@@ -1,0 +1,43 @@
+
+by_hunting_trophies
+    => nrel_main_idtf: [hunting trophies] (* <- lang_en;; *);
+    => nrel_main_idtf: [охотничьи трофеи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляўнічыя трафеі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_trophies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_extraction_of_hunting_animals;
+    => nrel_associative_connection: by_the_rate_of_seizure_of_hunting_animals;
+    => nrel_associative_connection: by_normalized_types_of_hunting_animals;
+    => nrel_associative_connection: by_hunting_produce_neutralization;
+    => nrel_associative_connection: by_optimum_number_of_hunting_animals;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunter;
+    => nrel_associative_connection: by_hunting_day;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_products_of_hunting;
+    => nrel_associative_connection: by_cutting_of_hunting_products;
+    => nrel_associative_connection: by_hunting_participant;
+    => nrel_associative_connection: by_number_of_hunting_animals;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19667?langname=ru];
+    => nrel_etalon_online_idx: [19667];;

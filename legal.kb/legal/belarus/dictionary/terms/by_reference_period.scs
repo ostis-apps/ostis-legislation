@@ -1,0 +1,82 @@
+
+by_reference_period
+    => nrel_main_idtf: [reference period] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reference_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reference_period_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reference_period_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reference_period_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_period;
+    => nrel_associative_connection: by_grace_period;
+    => nrel_associative_connection: by_calculating_period;
+    => nrel_associative_connection: by_calculated_period_of_regulation;
+
+    => nrel_legal_act: by_act_c21400222;
+    => nrel_legal_act: by_act_w22137032;
+    => nrel_legal_act: by_act_w22137030;
+    => nrel_legal_act: by_act_f91600448;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10123?langname=ru];
+    => nrel_etalon_online_idx: [10123];;

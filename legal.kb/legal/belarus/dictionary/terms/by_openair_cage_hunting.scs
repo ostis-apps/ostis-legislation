@@ -1,0 +1,44 @@
+
+by_openair_cage_hunting
+    => nrel_main_idtf: [open-air cage hunting] (* <- lang_en;; *);
+    => nrel_main_idtf: [вольерная охота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вальернае паляванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_openair_cage_hunting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_openair_cage;
+    => nrel_associative_connection: by_aviary_for_overexposure;
+    => nrel_associative_connection: by_aviaries;
+    => nrel_associative_connection: by_demonstration_aviary;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_driven_hunting;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_collective_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunt_in_burrows;
+    => nrel_associative_connection: by_hunting_aviary;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_hunting_methods;
+    => nrel_associative_connection: by_time_of_hunting;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7332?langname=ru];
+    => nrel_etalon_online_idx: [7332];;

@@ -1,0 +1,89 @@
+
+by_state_legal_entities
+    => nrel_main_idtf: [state legal entities] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные юридические лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя юрыдычныя асобы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_legal_entities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_legal_entities_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_legal_entities_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_legal_entities_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_organization_organization_with_a_share_of_the_state;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_conclusion_permission_document_for_import_to_the_republic_of_belarus_export_from_the_republic_of_belarus_transit_through_its_territory_of_conditionally_pathogenic_and_pathogenic_genetic_engineering_organisms;
+    => nrel_associative_connection: by_nonstate_organizations;
+    => nrel_associative_connection: by_nonstate_legal_entities;
+    => nrel_associative_connection: by_obliged_entities;
+    => nrel_associative_connection: by_permit_for_import_export_or_transit_of_conditionally_pathogenic_and_pathogenic_genetically_engineered_organisms;
+    => nrel_associative_connection: by_republican_legal_entities;
+    => nrel_associative_connection: by_lenders;
+    => nrel_associative_connection: by_legal_entities;
+
+    => nrel_legal_act: by_act_h10600096;
+    => nrel_legal_act: by_act_p32300191;
+    => nrel_legal_act: by_act_p32200330;
+    => nrel_legal_act: by_act_c22100431;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31290?langname=ru];
+    => nrel_etalon_online_idx: [31290];;

@@ -1,0 +1,47 @@
+
+by_centralized_water_supply_system
+    => nrel_main_idtf: [centralized water supply system] (* <- lang_en;; *);
+    => nrel_main_idtf: [централизованная система водоснабжения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтралізаваная сістэма водазабеспячэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_centralized_water_supply_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_individual_heating_and_hot_water_supply_system;
+    => nrel_associative_connection: by_executivetechnical_documentation;
+    => nrel_associative_connection: by_water_supply_source;
+    => nrel_associative_connection: by_capital_repairs_of_water_management_constructions_and_devices;
+    => nrel_associative_connection: by_capping;
+    => nrel_associative_connection: by_water_consumption_rate;
+    => nrel_associative_connection: by_surface_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_damage_in_water_supply_system;
+    => nrel_associative_connection: by_damage_in_the_water_supply_drainage_sewerage_system;
+    => nrel_associative_connection: by_connection_to_centralized_water_supply_systems_and_or_water_disposal_sewage;
+    => nrel_associative_connection: by_water_supply_and_sewerage_enterprises;
+    => nrel_associative_connection: by_industrial_wastewater_of_the_subscriber_subscriber_discharged_to_the_centralized_water_disposal_sewer_systems;
+    => nrel_associative_connection: by_onetime_sample_spot;
+    => nrel_associative_connection: by_distribution_water_supply_network;
+    => nrel_associative_connection: by_unauthorized_connection;
+    => nrel_associative_connection: by_rainwater_drainage_system;
+    => nrel_associative_connection: by_public_water_supply_system;
+
+    => nrel_legal_act: by_act_c21600788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26250?langname=ru];
+    => nrel_etalon_online_idx: [26250];;

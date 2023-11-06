@@ -1,0 +1,35 @@
+
+by_shoot_manager
+    => nrel_main_idtf: [shoot manager] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель стрельб] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік стрэльбаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shoot_manager_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_combat_cold_arms;
+    => nrel_associative_connection: by_hunting_weapons;
+    => nrel_associative_connection: by_hunting_pneumatic_weapons;
+    => nrel_associative_connection: by_hunting_cold_weapon;
+    => nrel_associative_connection: by_the_head_of_hunt;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36256?langname=ru];
+    => nrel_etalon_online_idx: [36256];;

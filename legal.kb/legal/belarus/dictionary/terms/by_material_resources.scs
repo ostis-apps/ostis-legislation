@@ -1,0 +1,35 @@
+
+by_material_resources
+    => nrel_main_idtf: [material resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [материальные ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэрыяльныя рэсурсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_material_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_secondary_material_resources_smr;
+    => nrel_associative_connection: by_released_material_resources_of_the_operational_and_analytical_center;
+    => nrel_associative_connection: by_logistics_and_support_plan;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_construction_works;
+
+    => nrel_legal_act: by_act_c29801450;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16951?langname=ru];
+    => nrel_etalon_online_idx: [16951];;

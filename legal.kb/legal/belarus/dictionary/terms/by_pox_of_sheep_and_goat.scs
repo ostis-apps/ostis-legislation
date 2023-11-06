@@ -1,0 +1,32 @@
+
+by_pox_of_sheep_and_goat
+    => nrel_main_idtf: [pox of sheep and goat] (* <- lang_en;; *);
+    => nrel_main_idtf: [оспа овец и коз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воспа авечак і коз] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pox_of_sheep_and_goat_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_animal_infected_with_sheep_coppervisna_virus;
+    => nrel_associative_connection: by_coppervisna_sheep;
+
+    => nrel_legal_act: by_act_w22239091p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41780?langname=ru];
+    => nrel_etalon_online_idx: [41780];;

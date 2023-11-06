@@ -1,0 +1,19 @@
+
+by_gas_regulatory_point_gas_regulatory_installation
+    => nrel_main_idtf: [gas regulatory point, gas regulatory installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [газорегуляторный пункт, газорегуляторная установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газарэгулятарны пункт, газарэгулятарная ўстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_block_gas_regulatory_point;
+    => nrel_associative_connection: by_limiting_condition;
+    => nrel_associative_connection: by_reservoir_installation;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42184?langname=ru];
+    => nrel_etalon_online_idx: [42184];;

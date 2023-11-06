@@ -1,0 +1,32 @@
+
+by_supplement
+    => nrel_main_idtf: [supplement] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапаўненне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supplement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_restoration_restoration_and_recreation_works;
+    => nrel_associative_connection: by_object_restoration_restoration_and_recreation_works;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7891?langname=ru];
+    => nrel_etalon_online_idx: [7891];;

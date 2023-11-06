@@ -1,0 +1,24 @@
+
+by_land_value_register_of_the_state_land_cadastre
+    => nrel_main_idtf: [land value register of the state land cadastre] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистр стоимости земельных участков государственного земельного кадастра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістр кошту зямельных участкаў дзяржаўнага зямельнага кадастру] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_state_land_registry;
+    => nrel_associative_connection: by_state_registry_account_of_lands;
+    => nrel_associative_connection: by_date_of_cadastral_valuation_of_land;
+    => nrel_associative_connection: by_cadastral_valuation_of_lands_land_plots;
+    => nrel_associative_connection: by_cadastral_cost_of_lands;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_cadastral_number;
+    => nrel_associative_connection: by_registry_of_prices_for_land_plots;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22312?langname=ru];
+    => nrel_etalon_online_idx: [22312];;

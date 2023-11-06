@@ -1,0 +1,34 @@
+
+by_representative_of_the_economic_entity
+    => nrel_main_idtf: [representative of the economic entity] (* <- lang_en;; *);
+    => nrel_main_idtf: [представитель субъекта хозяйствования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнік суб'екта гаспадарання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_of_the_economic_entity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_representative_of_the_entrepreneurial_activities_subject;
+    => nrel_associative_connection: by_economic_entity;
+    => nrel_associative_connection: by_subjects_of_management;
+    => nrel_associative_connection: by_economic_entity;
+
+    => nrel_legal_act: by_act_t21904281;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31411?langname=ru];
+    => nrel_etalon_online_idx: [31411];;

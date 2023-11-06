@@ -1,0 +1,60 @@
+
+by_trade_union
+    => nrel_main_idtf: [trade union] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональный союз (профсоюз)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійны саюз (прафсаюз)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_union_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trade_union_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_strike;
+    => nrel_associative_connection: by_collective_agreement;
+    => nrel_associative_connection: by_collective_labour_dispute;
+    => nrel_associative_connection: by_commercial_secret;
+    => nrel_associative_connection: by_employer;
+    => nrel_associative_connection: by_public_association;
+    => nrel_associative_connection: by_societal_control;
+    => nrel_associative_connection: by_branch_council_on_labour_and_social_affairs;
+    => nrel_associative_connection: by_lack_of_employees_in_the_possession_and_use_of_residential_premises;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_representative_office;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_social_partnership;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_legal_act: by_act_hk9900296;
+    => nrel_legal_act: by_act_v19201605;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/838?langname=ru];
+    => nrel_etalon_online_idx: [838];;

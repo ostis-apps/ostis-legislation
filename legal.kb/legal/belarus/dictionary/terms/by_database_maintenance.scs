@@ -1,0 +1,39 @@
+
+by_database_maintenance
+    => nrel_main_idtf: [database maintenance] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведение базы данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вядзенне базы даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_database_maintenance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_disabled;
+    => nrel_associative_connection: by_persons_with_disabilities;
+    => nrel_associative_connection: by_database_users;
+    => nrel_associative_connection: by_information_suppliers;
+    => nrel_associative_connection: by_rehabilitation_of_disabled;
+    => nrel_associative_connection: by_rehabilitation_of_persons_with_disabilities;
+    => nrel_associative_connection: by_information;
+    => nrel_associative_connection: by_social_support_for_persons_with_disabilities;
+
+    => nrel_legal_act: by_act_c22200727;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41586?langname=ru];
+    => nrel_etalon_online_idx: [41586];;

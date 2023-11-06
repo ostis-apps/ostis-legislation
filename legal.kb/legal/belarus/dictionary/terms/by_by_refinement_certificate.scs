@@ -1,0 +1,34 @@
+
+by_by_refinement_certificate
+    => nrel_main_idtf: [by_refinement_certificate] (* <- lang_en;; *);
+    => nrel_main_idtf: [справка о доработке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даведка аб дапрацоўцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_refinement_certificate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_publishing_original;
+    => nrel_associative_connection: by_reviewer;
+    => nrel_associative_connection: by_recension;
+    => nrel_associative_connection: by_review;
+
+    => nrel_legal_act: by_act_w22339988;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42584?langname=ru];
+    => nrel_etalon_online_idx: [42584];;

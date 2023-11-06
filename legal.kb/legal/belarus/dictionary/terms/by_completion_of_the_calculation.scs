@@ -1,0 +1,36 @@
+
+by_completion_of_the_calculation
+    => nrel_main_idtf: [completion of the calculation] (* <- lang_en;; *);
+    => nrel_main_idtf: [завершенность расчета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [завершанасць разліку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_completion_of_the_calculation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_payment_service_user;
+    => nrel_associative_connection: by_calculating_center;
+    => nrel_associative_connection: by_participant_of_the_payment_system;
+
+    => nrel_legal_act: by_act_h12200164;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40360?langname=ru];
+    => nrel_etalon_online_idx: [40360];;

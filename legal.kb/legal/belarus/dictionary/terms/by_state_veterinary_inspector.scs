@@ -1,0 +1,54 @@
+
+by_state_veterinary_inspector
+    => nrel_main_idtf: [state veterinary inspector] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный ветеринарный инспектор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны ветэрынарны інспектар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_veterinary_inspector_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_veterinary_inspector_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_veterinary;
+    => nrel_associative_connection: by_veterinary_activity;
+    => nrel_associative_connection: by_veterinary_laboratory;
+    => nrel_associative_connection: by_veteranary_and_sanitary_expertise;
+    => nrel_associative_connection: by_department_of_veterinary_and_food_supervision_of_the_ministry_of_agriculture_and_food_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_unified_veterinary_veterinary_and_sanitary_requirements;
+    => nrel_associative_connection: by_veterinary_monitoring;
+    => nrel_associative_connection: by_specialist_in_the_area_of_veterinary;
+
+    => nrel_legal_act: by_act_h11000161;
+    => nrel_legal_act: by_act_w22035605p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13713?langname=ru];
+    => nrel_etalon_online_idx: [13713];;

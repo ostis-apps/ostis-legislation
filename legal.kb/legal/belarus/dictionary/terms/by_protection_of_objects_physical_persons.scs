@@ -1,0 +1,42 @@
+
+by_protection_of_objects_physical_persons
+    => nrel_main_idtf: [protection of objects, physical persons] (* <- lang_en;; *);
+    => nrel_main_idtf: [охрана объектов, физических лиц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахова аб'ектаў, фізічных асоб] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_objects_physical_persons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_guarded_persons_safety;
+    => nrel_associative_connection: by_safety_of_a_guarded_object;
+    => nrel_associative_connection: by_state_guard;
+    => nrel_associative_connection: by_safety_maintenance_of_protected_persons_and_protected_objects;
+    => nrel_associative_connection: by_protection_of_objects;
+    => nrel_associative_connection: by_security_guard_activity;
+    => nrel_associative_connection: by_protective_service_work;
+    => nrel_associative_connection: by_protected_person;
+    => nrel_associative_connection: by_protected_persons;
+    => nrel_associative_connection: by_protected_objects;
+    => nrel_associative_connection: by_alarm_limit_alarm_limit;
+    => nrel_associative_connection: by_means_of_protection_for_individual_use;
+
+    => nrel_legal_act: by_act_h10600175;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19680?langname=ru];
+    => nrel_etalon_online_idx: [19680];;

@@ -1,0 +1,41 @@
+
+by_road_of_restricted_use
+    => nrel_main_idtf: [road of restricted use] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобильная дорога необщего пользования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабільная дарога неагульнага карыстання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_road_of_restricted_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_weighing_receipt;
+    => nrel_associative_connection: by_communications;
+    => nrel_associative_connection: by_users_of_highways;
+    => nrel_associative_connection: by_demining_of_railway_and_highways_their_sites_objects;
+    => nrel_associative_connection: by_reserve_area;
+    => nrel_associative_connection: by_maintenance_of_roads;
+    => nrel_associative_connection: by_advanced_coating;
+    => nrel_associative_connection: by_road_owner_price;
+
+    => nrel_legal_act: by_act_v19403434;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4685?langname=ru];
+    => nrel_etalon_online_idx: [4685];;

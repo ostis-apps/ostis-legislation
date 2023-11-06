@@ -1,0 +1,36 @@
+
+by_demarcation_commission
+    => nrel_main_idtf: [demarcation commission] (* <- lang_en;; *);
+    => nrel_main_idtf: [демаркационная комиссия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэмаркацыйная камісія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_demarcation_commission_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_demarcation_documents;
+    => nrel_associative_connection: by_demarcation_of_the_state_frontier;
+    => nrel_associative_connection: by_commission_on_delimitation_demarcation_and_check_of_passage_of_state_border_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_representative_of_the_republic_of_belarus_on_delimitation_demarcation_and_verification_of_the_state_border_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_redemarcation;
+    => nrel_associative_connection: by_neighboring_country;
+
+    => nrel_legal_act: by_act_n21800044;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11270?langname=ru];
+    => nrel_etalon_online_idx: [11270];;

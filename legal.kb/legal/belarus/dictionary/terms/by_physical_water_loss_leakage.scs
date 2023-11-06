@@ -1,0 +1,21 @@
+
+by_physical_water_loss_leakage
+    => nrel_main_idtf: [physical water loss (leakage)] (* <- lang_en;; *);
+    => nrel_main_idtf: [физические потери воды (утечки)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фізічныя страты вады (уцечкі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_scheduled_verification_of_the_water_meter;
+    => nrel_associative_connection: by_metering_device_water_meter;
+    => nrel_associative_connection: by_water_consumption_meter_water_meter;
+    => nrel_associative_connection: by_water_consumption;
+    => nrel_associative_connection: by_hidden_water_losses;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25946?langname=ru];
+    => nrel_etalon_online_idx: [25946];;

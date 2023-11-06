@@ -1,0 +1,35 @@
+
+by_wetting_power
+    => nrel_main_idtf: [wetting power] (* <- lang_en;; *);
+    => nrel_main_idtf: [смачивающая способность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намочваючая здольнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wetting_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intensity_of_foaming_agent_working_solution_supply;
+    => nrel_associative_connection: by_blowing_agents;
+    => nrel_associative_connection: by_blowing_agents_of_intended_purpose;
+    => nrel_associative_connection: by_foaming_agent_working_solution;
+    => nrel_associative_connection: by_fluorosynthic_filmforming_foaming_agent;
+
+    => nrel_legal_act: by_act_w20921347;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23378?langname=ru];
+    => nrel_etalon_online_idx: [23378];;

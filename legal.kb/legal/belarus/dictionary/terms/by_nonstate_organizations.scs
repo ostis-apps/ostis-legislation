@@ -1,0 +1,35 @@
+
+by_nonstate_organizations
+    => nrel_main_idtf: [non-state organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [негосударственные организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [недзяржаўныя арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonstate_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_legal_entities;
+    => nrel_associative_connection: by_nonstate_legal_entities;
+    => nrel_associative_connection: by_organizations_of_nonstate_form_of_ownership;
+    => nrel_associative_connection: by_organizations_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_organization;
+
+    => nrel_legal_act: by_act_p32000053;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12125?langname=ru];
+    => nrel_etalon_online_idx: [12125];;

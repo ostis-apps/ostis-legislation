@@ -1,0 +1,35 @@
+
+by_by_trial_test_pressure
+    => nrel_main_idtf: [by_trial_test_pressure] (* <- lang_en;; *);
+    => nrel_main_idtf: [пробное (испытательное) давление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пробны (выпрабавальны) ціск] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_trial_test_pressure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_installation_organization;
+    => nrel_associative_connection: by_sinus;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_trench;
+    => nrel_associative_connection: by_pipelines_of_the_heat_supply_system;
+
+    => nrel_legal_act: by_act_w220p0504;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33925?langname=ru];
+    => nrel_etalon_online_idx: [33925];;

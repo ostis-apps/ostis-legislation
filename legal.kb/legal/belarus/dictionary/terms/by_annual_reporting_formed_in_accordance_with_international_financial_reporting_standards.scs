@@ -1,0 +1,37 @@
+
+by_annual_reporting_formed_in_accordance_with_international_financial_reporting_standards
+    => nrel_main_idtf: [annual reporting formed in accordance with international financial reporting standards] (* <- lang_en;; *);
+    => nrel_main_idtf: [годовая отчетность, составленная в соответствии с международными стандартами финансовой отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гадавая справаздачнасць, складзеная у адпаведнасці з міжнароднымі стандартамі фінансавай справаздачнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_annual_reporting_formed_in_accordance_with_international_financial_reporting_standards_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_annual_statements;
+    => nrel_associative_connection: by_reporting;
+    => nrel_associative_connection: by_reporting_year;
+    => nrel_associative_connection: by_reporting_financial_year;
+    => nrel_associative_connection: by_another_financial_year;
+    => nrel_associative_connection: by_element_of_accounting_financial_statements;
+
+    => nrel_legal_act: by_act_b21429064;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13565?langname=ru];
+    => nrel_etalon_online_idx: [13565];;

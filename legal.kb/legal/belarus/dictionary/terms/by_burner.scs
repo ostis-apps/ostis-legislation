@@ -1,0 +1,69 @@
+
+by_burner
+    => nrel_main_idtf: [burner] (* <- lang_en;; *);
+    => nrel_main_idtf: [горелка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарэлка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_burner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_burner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_burner_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_boiler_water;
+    => nrel_associative_connection: by_covered_gas_burners;
+    => nrel_associative_connection: by_supercharged_burner;
+    => nrel_associative_connection: by_burner_device;
+    => nrel_associative_connection: by_boiler_installation;
+    => nrel_associative_connection: by_efficiency;
+    => nrel_associative_connection: by_heat_supply;
+
+    => nrel_legal_act: by_act_w22339669p;
+    => nrel_legal_act: by_act_w22136816p;
+    => nrel_legal_act: by_act_w22136273p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37151?langname=ru];
+    => nrel_etalon_online_idx: [37151];;

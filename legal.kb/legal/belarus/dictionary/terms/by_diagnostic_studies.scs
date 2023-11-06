@@ -1,0 +1,39 @@
+
+by_diagnostic_studies
+    => nrel_main_idtf: [diagnostic studies] (* <- lang_en;; *);
+    => nrel_main_idtf: [диагностические исследования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыягнастычныя даследаванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diagnostic_studies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bacteremia;
+    => nrel_associative_connection: by_biopsy_research;
+    => nrel_associative_connection: by_intrauterine_infection_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_functional_diagnosis_doctor;
+    => nrel_associative_connection: by_doctor_otorinolaringologologist;
+    => nrel_associative_connection: by_intrauterine_growth_retardation;
+    => nrel_associative_connection: by_intense_observation;
+    => nrel_associative_connection: by_medical_laboratory;
+    => nrel_associative_connection: by_reduced_length_of_stay;
+
+    => nrel_legal_act: by_act_w22035541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33720?langname=ru];
+    => nrel_etalon_online_idx: [33720];;

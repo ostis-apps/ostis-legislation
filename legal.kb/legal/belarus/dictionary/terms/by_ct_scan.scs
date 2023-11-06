@@ -1,0 +1,36 @@
+
+by_ct_scan
+    => nrel_main_idtf: [ct scan] (* <- lang_en;; *);
+    => nrel_main_idtf: [компьютерная томография] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камп'ютэрная тамаграфія ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ct_scan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_control_article_intended_for_medical_purposes_or_medical_equipment;
+    => nrel_associative_connection: by_magnetic_resonance_tomography;
+    => nrel_associative_connection: by_medical_equipment;
+    => nrel_associative_connection: by_medical_technology;
+    => nrel_associative_connection: by_neurosonography;
+    => nrel_associative_connection: by_total_dose_length_product;
+
+    => nrel_legal_act: by_act_w21934655p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31643?langname=ru];
+    => nrel_etalon_online_idx: [31643];;

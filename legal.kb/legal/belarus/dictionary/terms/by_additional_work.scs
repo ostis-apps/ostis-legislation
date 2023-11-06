@@ -1,0 +1,37 @@
+
+by_additional_work
+    => nrel_main_idtf: [additional work] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковыя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_work;
+    => nrel_associative_connection: by_contracting_works;
+    => nrel_associative_connection: by_funds_for_unforeseen_works_and_costs;
+    => nrel_associative_connection: by_consolidated_cost_standards_for_the_type_of_work;
+    => nrel_associative_connection: by_work_schedule;
+    => nrel_associative_connection: by_actual_cost_of_works_being_contracted_out;
+    => nrel_associative_connection: by_contractors_offer_price;
+
+    => nrel_legal_act: by_act_c21101553;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42596?langname=ru];
+    => nrel_etalon_online_idx: [42596];;

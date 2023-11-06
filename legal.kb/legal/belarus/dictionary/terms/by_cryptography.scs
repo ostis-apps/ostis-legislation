@@ -1,0 +1,37 @@
+
+by_cryptography
+    => nrel_main_idtf: [cryptography] (* <- lang_en;; *);
+    => nrel_main_idtf: [криптография] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыптаграфія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cryptography_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_quantum_cryptography;
+    => nrel_associative_connection: by_cryptanalysis;
+    => nrel_associative_connection: by_cryptographic_activation;
+    => nrel_associative_connection: by_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_operator_of_cryptoplatform;
+    => nrel_associative_connection: by_symmetric_algorithm;
+    => nrel_associative_connection: by_means_of_cryptographic_protection_of_information;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16430?langname=ru];
+    => nrel_etalon_online_idx: [16430];;

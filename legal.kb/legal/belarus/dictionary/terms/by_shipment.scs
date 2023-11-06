@@ -1,0 +1,32 @@
+
+by_shipment
+    => nrel_main_idtf: [shipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [отправка груза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адпраўка груза] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_cargo_sending;
+    => nrel_associative_connection: by_cargo_owner;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_group_sending;
+    => nrel_associative_connection: by_container_sending;
+    => nrel_associative_connection: by_route_sending;
+    => nrel_associative_connection: by_small_sending;
+    => nrel_associative_connection: by_un_list_number;
+    => nrel_associative_connection: by_dispatch;
+    => nrel_associative_connection: by_package_transport;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_full_wagonload;
+    => nrel_associative_connection: by_linings;
+    => nrel_associative_connection: by_team_regarding_the_application_of_the_freight_dispatch_tariff;
+    => nrel_associative_connection: by_combined_wagon_shipment;
+    => nrel_associative_connection: by_less_container_load;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19567?langname=ru];
+    => nrel_etalon_online_idx: [19567];;

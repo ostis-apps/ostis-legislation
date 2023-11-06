@@ -1,0 +1,65 @@
+
+by_notarial_district
+    => nrel_main_idtf: [notarial district] (* <- lang_en;; *);
+    => nrel_main_idtf: [нотариальный округ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [натарыяльная акруга] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notarial_district_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notarial_district_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notarial_district_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_place_of_carrying_out_the_notarial_activities_by_notaries;
+    => nrel_associative_connection: by_notarial_activity;
+    => nrel_associative_connection: by_notary_document;
+
+    => nrel_legal_act: by_act_h10400305;
+    => nrel_legal_act: by_act_p31300523;
+    => nrel_legal_act: by_act_n21700045;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8912?langname=ru];
+    => nrel_etalon_online_idx: [8912];;

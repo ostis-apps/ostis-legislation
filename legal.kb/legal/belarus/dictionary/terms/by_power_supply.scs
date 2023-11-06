@@ -1,0 +1,32 @@
+
+by_power_supply
+    => nrel_main_idtf: [power supply] (* <- lang_en;; *);
+    => nrel_main_idtf: [блок питания (power supply)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блок харчавання (power supply)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_power_supply_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_design_and_estimate_documents;
+    => nrel_associative_connection: by_method_of_expert_assessments;
+
+    => nrel_legal_act: by_act_w02035838p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35127?langname=ru];
+    => nrel_etalon_online_idx: [35127];;

@@ -1,0 +1,33 @@
+
+by_liquidation_stage
+    => nrel_main_idtf: [liquidation stage] (* <- lang_en;; *);
+    => nrel_main_idtf: [ликвидационная стадия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліквідацыйная стадыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liquidation_stage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_the_life_cycle_of_a_capital_construction_facility;
+    => nrel_associative_connection: by_liquidation_residual_cost;
+    => nrel_associative_connection: by_liquidation_proceeding;
+
+    => nrel_legal_act: by_act_w20513184;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16600?langname=ru];
+    => nrel_etalon_online_idx: [16600];;

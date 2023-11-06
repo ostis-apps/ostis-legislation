@@ -1,0 +1,54 @@
+
+by_conservation_zones
+    => nrel_main_idtf: [conservation zones] (* <- lang_en;; *);
+    => nrel_main_idtf: [охранные зоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахоўныя зоны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conservation_zones_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conservation_zones_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_guard;
+    => nrel_associative_connection: by_protective_zone;
+    => nrel_associative_connection: by_protective_zone_along_air_transmission_line;
+    => nrel_associative_connection: by_protective_zone_around_the_stationary_observation_point;
+    => nrel_associative_connection: by_protective_zones_of_gas_distribution_system_objects;
+    => nrel_associative_connection: by_protected_zone;
+    => nrel_associative_connection: by_protected_persons;
+    => nrel_associative_connection: by_protected_objects;
+
+    => nrel_legal_act: by_act_h10900016;
+    => nrel_legal_act: by_act_h19900237;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6459?langname=ru];
+    => nrel_etalon_online_idx: [6459];;

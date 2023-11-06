@@ -1,0 +1,36 @@
+
+by_official_editions_of_the_national_intellectual_property_center
+    => nrel_main_idtf: [official editions of the national intellectual property center] (* <- lang_en;; *);
+    => nrel_main_idtf: [официальные издания национального центра интеллектуальной собственности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афіцыйныя выданні нацыянальнага цэнтра інтэлектуальнай уласнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_official_editions_of_the_national_intellectual_property_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_national_center_of_intellectual_property;
+    => nrel_associative_connection: by_official_edition;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_digital_edition;
+    => nrel_associative_connection: by_electronic_publications;
+
+    => nrel_legal_act: by_act_w20513325;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19654?langname=ru];
+    => nrel_etalon_online_idx: [19654];;

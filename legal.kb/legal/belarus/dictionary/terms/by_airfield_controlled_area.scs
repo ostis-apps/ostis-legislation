@@ -1,0 +1,36 @@
+
+by_airfield_controlled_area
+    => nrel_main_idtf: [airfield controlled area] (* <- lang_en;; *);
+    => nrel_main_idtf: [контролируемая зона летного поля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантралюемая зона лётнага поля] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_airfield_controlled_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_flight_area_critical_from_the_point_of_view_of_the_exposure_to_laser_beams;
+    => nrel_associative_connection: by_end_safety_zone;
+    => nrel_associative_connection: by_end_safety_strip;
+    => nrel_associative_connection: by_end_braking_strip;
+    => nrel_associative_connection: by_airstrip;
+    => nrel_associative_connection: by_airfield;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41060?langname=ru];
+    => nrel_etalon_online_idx: [41060];;

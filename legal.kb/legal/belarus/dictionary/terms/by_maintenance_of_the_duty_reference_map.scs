@@ -1,0 +1,34 @@
+
+by_maintenance_of_the_duty_reference_map
+    => nrel_main_idtf: [maintenance of the duty reference map] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведение дежурной справочной карты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вядзенне дзяжурнай даведачнай карты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintenance_of_the_duty_reference_map_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_standby_reference_map_database;
+    => nrel_associative_connection: by_standby_reference_map_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_form_of_the_duty_reference_card_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_electronic_archive_of_duty_reference_card;
+
+    => nrel_legal_act: by_act_w22137226;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38734?langname=ru];
+    => nrel_etalon_online_idx: [38734];;

@@ -1,0 +1,35 @@
+
+by_databank_on_citizens_whose_right_to_exit_from_the_republic_of_belarus_is_temporarily_restricted
+    => nrel_main_idtf: [databank on citizens whose right to exit from the republic of belarus is temporarily restricted ] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк данных о гражданах, право на выезд которых из республики беларусь временно ограничено] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк даных аб грамадзянах, права на выезд якіх часова абмежавана] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_databank_on_citizens_whose_right_to_exit_from_the_republic_of_belarus_is_temporarily_restricted_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_databank;
+    => nrel_associative_connection: by_exit_visa;
+    => nrel_associative_connection: by_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_document_for_traveling_abroad;
+    => nrel_associative_connection: by_record_in_data_bank;
+
+    => nrel_legal_act: by_act_p30700643;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4829?langname=ru];
+    => nrel_etalon_online_idx: [4829];;

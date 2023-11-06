@@ -1,0 +1,38 @@
+
+by_robot
+    => nrel_main_idtf: [robot] (* <- lang_en;; *);
+    => nrel_main_idtf: [робот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [робат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_robot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_program_computer;
+    => nrel_associative_connection: by_server;
+    => nrel_associative_connection: by_audiovisual_control_server;
+    => nrel_associative_connection: by_monitoring_server;
+    => nrel_associative_connection: by_programming_system;
+    => nrel_associative_connection: by_complicated_machines_and_equipment;
+    => nrel_associative_connection: by_special_computer_system_scs;
+    => nrel_associative_connection: by_technically_complicated_goods;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22657?langname=ru];
+    => nrel_etalon_online_idx: [22657];;

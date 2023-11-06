@@ -1,0 +1,35 @@
+
+by_methodology_of_educational_work
+    => nrel_main_idtf: [methodology of educational work] (* <- lang_en;; *);
+    => nrel_main_idtf: [методика воспитательной работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [методыка выхаваўчай работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_methodology_of_educational_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_youth_policy;
+    => nrel_associative_connection: by_citizenship;
+    => nrel_associative_connection: by_deological_and_educational_work;
+    => nrel_associative_connection: by_organization_of_work_with_youth;
+    => nrel_associative_connection: by_patriotism;
+
+    => nrel_legal_act: by_act_w22035917p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35285?langname=ru];
+    => nrel_etalon_online_idx: [35285];;

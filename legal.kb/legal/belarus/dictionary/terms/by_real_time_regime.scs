@@ -1,0 +1,37 @@
+
+by_real_time_regime
+    => nrel_main_idtf: [real time regime] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим реального времени] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым рэальнага часу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_real_time_regime_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biss_system_operational_day;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_gross_basis_calculation;
+    => nrel_associative_connection: by_calculation_window_mode;
+    => nrel_associative_connection: by_electronic_payment_document;
+    => nrel_associative_connection: by_electronic_payment_document_electronic_order_for_payment_electronic_payment_request_electronic_payment_order;
+
+    => nrel_legal_act: by_act_b22339812;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22432?langname=ru];
+    => nrel_etalon_online_idx: [22432];;

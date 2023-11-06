@@ -1,0 +1,40 @@
+
+by_current_reporting_period
+    => nrel_main_idtf: [current reporting period] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущий отчетный период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучы справаздачны перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_current_reporting_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_income_of_the_future_periods;
+    => nrel_associative_connection: by_reporting_year;
+    => nrel_associative_connection: by_reporting_month_period;
+    => nrel_associative_connection: by_reporting_period_year;
+    => nrel_associative_connection: by_reporting_single_tax_period;
+    => nrel_associative_connection: by_reporting_financial_year;
+    => nrel_associative_connection: by_planned_period;
+    => nrel_associative_connection: by_previous_reporting_period;
+    => nrel_associative_connection: by_comparable_accounting_and_or_financial_reporting;
+    => nrel_associative_connection: by_comparable_data_in_the_accounting_financial_statements;
+
+    => nrel_legal_act: by_act_w20208554;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24748?langname=ru];
+    => nrel_etalon_online_idx: [24748];;

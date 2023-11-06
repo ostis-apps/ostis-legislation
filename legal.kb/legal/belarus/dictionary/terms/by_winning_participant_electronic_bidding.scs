@@ -1,0 +1,40 @@
+
+by_winning_participant_electronic_bidding
+    => nrel_main_idtf: [winning participant (electronic bidding)] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник, выигравший торги (электронные торги)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік, які выйграў таргі (электронныя таргі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_winning_participant_electronic_bidding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_the_person_who_won_the_auction;
+    => nrel_associative_connection: by_person_who_won_the_bidding_at_the_auction_according_to_the_competition;
+    => nrel_associative_connection: by_winner;
+    => nrel_associative_connection: by_winner_of_electronic_bidding;
+    => nrel_associative_connection: by_ransom_participant;
+    => nrel_associative_connection: by_bidder;
+    => nrel_associative_connection: by_bidder_electronic_bidding;
+    => nrel_associative_connection: by_electronic_bidder;
+    => nrel_associative_connection: by_winner_participant;
+    => nrel_associative_connection: by_electronic_bidding;
+
+    => nrel_legal_act: by_act_h11600439;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25761?langname=ru];
+    => nrel_etalon_online_idx: [25761];;

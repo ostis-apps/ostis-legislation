@@ -1,0 +1,41 @@
+
+by_auditory_evidence
+    => nrel_main_idtf: [auditory evidence] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиторские доказательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдытарскія доказы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auditory_evidence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditory_procedure;
+    => nrel_associative_connection: by_auditors_report;
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_temporary_framework_of_the_audit_procedure;
+    => nrel_associative_connection: by_evidence_in_the_case;
+    => nrel_associative_connection: by_professional_skepticism;
+    => nrel_associative_connection: by_external_confirmation_procedure;
+
+    => nrel_legal_act: by_act_w20004360;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4816?langname=ru];
+    => nrel_etalon_online_idx: [4816];;

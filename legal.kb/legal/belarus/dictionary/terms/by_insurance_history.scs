@@ -1,0 +1,39 @@
+
+by_insurance_history
+    => nrel_main_idtf: [insurance history] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховая история] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавая гісторыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_history_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_annulment_of_a_record_of_the_insurance_history;
+    => nrel_associative_connection: by_state_insurance_register;
+    => nrel_associative_connection: by_record_of_the_insurance_history;
+    => nrel_associative_connection: by_source_of_insurance_history_formation;
+    => nrel_associative_connection: by_user_of_insurance_history;
+    => nrel_associative_connection: by_reduction_of_insurance_payment_limit_of_responsibility;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_report;
+    => nrel_associative_connection: by_subject_of_insurance_history;
+
+    => nrel_legal_act: by_act_p30600530;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12088?langname=ru];
+    => nrel_etalon_online_idx: [12088];;

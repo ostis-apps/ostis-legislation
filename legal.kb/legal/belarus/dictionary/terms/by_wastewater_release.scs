@@ -1,0 +1,39 @@
+
+by_wastewater_release
+    => nrel_main_idtf: [wastewater release] (* <- lang_en;; *);
+    => nrel_main_idtf: [выпуск сточных вод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпуск сцёкавых вод] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wastewater_release_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_release;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structures_and_devices;
+    => nrel_associative_connection: by_urban_waste_water;
+    => nrel_associative_connection: by_waste_water_consumption;
+    => nrel_associative_connection: by_wastewater_discharge_regime;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_discharging_of_wastewater_by_owners_of_public_and_departmental_sewerage_discharges_from_the_population;
+    => nrel_associative_connection: by_waste_waters;
+
+    => nrel_legal_act: by_act_w21732141;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13379?langname=ru];
+    => nrel_etalon_online_idx: [13379];;

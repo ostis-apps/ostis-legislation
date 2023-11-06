@@ -1,0 +1,53 @@
+
+by_weapon_labeling
+    => nrel_main_idtf: [weapon labeling] (* <- lang_en;; *);
+    => nrel_main_idtf: [маркировка оружия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маркіроўка зброі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_weapon_labeling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_weapon_labeling_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_a_product_structurally_similar_to_handheld_small_arms;
+    => nrel_associative_connection: by_bladed_edged_weapons;
+    => nrel_associative_connection: by_marking;
+    => nrel_associative_connection: by_weapon_model;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_weapons_lot;
+    => nrel_associative_connection: by_arms_and_ammunition_production;
+
+    => nrel_legal_act: by_act_h10100061;
+    => nrel_legal_act: by_act_w02035142p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6128?langname=ru];
+    => nrel_etalon_online_idx: [6128];;

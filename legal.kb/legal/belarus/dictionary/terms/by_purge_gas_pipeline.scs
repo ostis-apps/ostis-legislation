@@ -1,0 +1,39 @@
+
+by_purge_gas_pipeline
+    => nrel_main_idtf: [purge gas pipeline] (* <- lang_en;; *);
+    => nrel_main_idtf: [газопровод продувочный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газаправод прадзімальны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_purge_gas_pipeline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_introductory_gas_pipeline;
+    => nrel_associative_connection: by_offsite_gas_pipeline;
+    => nrel_associative_connection: by_internal_gas_pipeline;
+    => nrel_associative_connection: by_onsite_gas_pipeline;
+    => nrel_associative_connection: by_gas_pipeline;
+    => nrel_associative_connection: by_discharge_gas_pipeline;
+    => nrel_associative_connection: by_input_gas_pipeline;
+    => nrel_associative_connection: by_intersettlement_gas_pipeline;
+    => nrel_associative_connection: by_outdoor_gas_pipeline;
+
+    => nrel_legal_act: by_act_w22339537p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42278?langname=ru];
+    => nrel_etalon_online_idx: [42278];;

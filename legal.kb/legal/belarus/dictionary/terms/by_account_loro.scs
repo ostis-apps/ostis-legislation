@@ -1,0 +1,36 @@
+
+by_account_loro
+    => nrel_main_idtf: [account "loro"] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет "лоро"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак "лора"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_account_loro_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_correspondent_banks;
+    => nrel_associative_connection: by_bankcorrespondent;
+    => nrel_associative_connection: by_bank_resident;
+    => nrel_associative_connection: by_correspondent_metal_account;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_account_nostro;
+
+    => nrel_legal_act: by_act_b20105770;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10965?langname=ru];
+    => nrel_etalon_online_idx: [10965];;

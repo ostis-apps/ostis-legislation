@@ -1,0 +1,32 @@
+
+by_illiquid_assets
+    => nrel_main_idtf: [illiquid assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [неликвидные активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неліквідныя актывы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illiquid_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_absolutely_liquid_assets;
+    => nrel_associative_connection: by_lowliquid_assets_and_liabilities;
+
+    => nrel_legal_act: by_act_w02136597p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37869?langname=ru];
+    => nrel_etalon_online_idx: [37869];;

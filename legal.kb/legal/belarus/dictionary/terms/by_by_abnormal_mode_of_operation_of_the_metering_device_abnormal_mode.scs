@@ -1,0 +1,34 @@
+
+by_by_abnormal_mode_of_operation_of_the_metering_device_abnormal_mode
+    => nrel_main_idtf: [by_abnormal_mode_of_operation_of_the_metering_device_abnormal_mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [нештатный режим работы прибора учета (нештатный режим)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няштатны рэжым работы прыбора ўліку (няштатны рэжым)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_abnormal_mode_of_operation_of_the_metering_device_abnormal_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_metering_device;
+    => nrel_associative_connection: by_thermal_energy_meter_metering_tool;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_metering_station;
+
+    => nrel_legal_act: by_act_w02137282p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39039?langname=ru];
+    => nrel_etalon_online_idx: [39039];;

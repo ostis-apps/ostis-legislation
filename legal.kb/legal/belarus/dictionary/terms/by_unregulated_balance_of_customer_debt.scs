@@ -1,0 +1,35 @@
+
+by_unregulated_balance_of_customer_debt
+    => nrel_main_idtf: [unregulated balance of customer debt ] (* <- lang_en;; *);
+    => nrel_main_idtf: [неурегулированный остаток задолженности клиента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неўрэгуляваная рэшта запазычанасці кліента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unregulated_balance_of_customer_debt_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_credit_indebtedness;
+    => nrel_associative_connection: by_credit_indebtedness;
+    => nrel_associative_connection: by_residue_of_loan_debt_cash_on_liability_of_the_bank_at_the_end_of_the_reporting_period;
+    => nrel_associative_connection: by_overdue_income;
+
+    => nrel_legal_act: by_act_b22239056;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18179?langname=ru];
+    => nrel_etalon_online_idx: [18179];;

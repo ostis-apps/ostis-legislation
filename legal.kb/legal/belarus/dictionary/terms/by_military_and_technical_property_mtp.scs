@@ -1,0 +1,43 @@
+
+by_military_and_technical_property_mtp
+    => nrel_main_idtf: [military and technical property (mtp)] (* <- lang_en;; *);
+    => nrel_main_idtf: [военно-техническое имущество (вти)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенна-тэхнічная маёмасць (втм)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_and_technical_property_mtp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_construction_construction_of_military_organization_of_the_state;
+    => nrel_associative_connection: by_military_technical_assistance;
+    => nrel_associative_connection: by_militray_and_technical_cooperation;
+    => nrel_associative_connection: by_military_objects;
+    => nrel_associative_connection: by_military_trophies;
+    => nrel_associative_connection: by_military_economy_of_the_organs_of_the_border_service_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_armament_and_military_equipment;
+    => nrel_associative_connection: by_spent_resource;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_foreign_organizations_implementing_militarytechnical_cooperation;
+    => nrel_associative_connection: by_limit_unusable_state;
+    => nrel_associative_connection: by_resource_consumption;
+    => nrel_associative_connection: by_shelf_life;
+
+    => nrel_legal_act: by_act_w60920378;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8683?langname=ru];
+    => nrel_etalon_online_idx: [8683];;

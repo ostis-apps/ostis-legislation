@@ -1,0 +1,50 @@
+
+by_temporary_shelter
+    => nrel_main_idtf: [temporary shelter] (* <- lang_en;; *);
+    => nrel_main_idtf: [временный приют] (* <- lang_ru;; *);
+    => nrel_main_idtf: [часовы прытулак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_shelter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_temporary_shelter_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_insulator;
+    => nrel_associative_connection: by_persons_of_no_fixed_abode;
+    => nrel_associative_connection: by_place_of_stay;
+    => nrel_associative_connection: by_points_of_registration_and_registration_of_persons_without_a_certain_residence;
+
+    => nrel_legal_act: by_act_h10000395;
+    => nrel_legal_act: by_act_w21934569p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10850?langname=ru];
+    => nrel_etalon_online_idx: [10850];;

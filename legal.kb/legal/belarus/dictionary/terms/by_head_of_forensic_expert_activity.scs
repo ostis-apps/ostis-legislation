@@ -1,0 +1,52 @@
+
+by_head_of_forensic_expert_activity
+    => nrel_main_idtf: [head of forensic expert activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель судебно-экспертной организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік судова-экспертнай арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_of_forensic_expert_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_of_forensic_expert_activity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_criminalistic_collections;
+    => nrel_associative_connection: by_criminalistic_accounts;
+    => nrel_associative_connection: by_methodological_materials;
+    => nrel_associative_connection: by_forensic_expertise;
+    => nrel_associative_connection: by_expert_divisions_of_the_state_forensic_examination_committee;
+
+    => nrel_legal_act: by_act_h11900281;
+    => nrel_legal_act: by_act_f21300321;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22720?langname=ru];
+    => nrel_etalon_online_idx: [22720];;

@@ -1,0 +1,22 @@
+
+by_cargo_tank_gasfree
+    => nrel_main_idtf: [cargo tank (gas-free)] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовой танк (дегазированный)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавы танк (дэгазіраваны)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_independent_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank_empty;
+    => nrel_associative_connection: by_cargo_tank_unloaded;
+    => nrel_associative_connection: by_stripping_system;
+    => nrel_associative_connection: by_tanker;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13888?langname=ru];
+    => nrel_etalon_online_idx: [13888];;

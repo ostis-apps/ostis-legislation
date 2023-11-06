@@ -1,0 +1,40 @@
+
+by_lack_of_employees_in_the_possession_and_use_of_residential_premises
+    => nrel_main_idtf: [lack of employees in the possession and use of residential premises] (* <- lang_en;; *);
+    => nrel_main_idtf: [отсутствие у работников во владении и пользовании жилых помещений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адсутнасць у работнікаў у валоданні і карыстанні жылых памяшканняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lack_of_employees_in_the_possession_and_use_of_residential_premises_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_support_for_the_construction_reconstruction_or_purchase_of_residential_premises;
+    => nrel_associative_connection: by_state_registration_of_real_estate;
+    => nrel_associative_connection: by_citizens_implementing_construction_reconstruction_of_residential_premises;
+    => nrel_associative_connection: by_living_space;
+    => nrel_associative_connection: by_apartment;
+    => nrel_associative_connection: by_total_area_of_residential_premises;
+    => nrel_associative_connection: by_shared_construction_object;
+    => nrel_associative_connection: by_trade_union;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_legal_act: by_act_c20801408;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19602?langname=ru];
+    => nrel_etalon_online_idx: [19602];;

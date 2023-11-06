@@ -1,0 +1,42 @@
+
+by_thermal_energy_metering_device
+    => nrel_main_idtf: [thermal energy metering device] (* <- lang_en;; *);
+    => nrel_main_idtf: [прибор учета тепловой энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыбор уліку цеплавой энергіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_thermal_energy_reference_tariff;
+    => nrel_associative_connection: by_unaccounted_heat_energy_consumption;
+    => nrel_associative_connection: by_unaccounted_consumer;
+    => nrel_associative_connection: by_interference_in_the_work_of_the_device_of_individual_accounting_of_the_consumption_of_water_gas_heat_and_electric_energy;
+    => nrel_associative_connection: by_flow_sensor_primary_flow_converter;
+    => nrel_associative_connection: by_twochannel_heat_meter;
+    => nrel_associative_connection: by_heat_supply_contract;
+    => nrel_associative_connection: by_admission_to_operation_of_the_metering__system_unit;
+    => nrel_associative_connection: by_unified_calculation_date;
+    => nrel_associative_connection: by_debt_for_energy_resources;
+    => nrel_associative_connection: by_debt_of_consumers_for_energy_resources;
+    => nrel_associative_connection: by_measuring_system;
+    => nrel_associative_connection: by_heat_source;
+    => nrel_associative_connection: by_quantity_regulation_of_thermal_energy_supply;
+    => nrel_associative_connection: by_control_point_of_heat_accounting;
+    => nrel_associative_connection: by_malfunction_of_metering_devices_of_the_metering_unit;
+    => nrel_associative_connection: by_unproductive_thermal_energy_losses;
+    => nrel_associative_connection: by_normalized_losses_of_thermal_energy;
+    => nrel_associative_connection: by_scheduled_verification_of_the_water_meter;
+    => nrel_associative_connection: by_consumer_subscriber;
+    => nrel_associative_connection: by_metering_device;
+    => nrel_associative_connection: by_productive_leakage;
+    => nrel_associative_connection: by_distribution_heat_network;
+    => nrel_associative_connection: by_heat_consumption_system;
+    => nrel_associative_connection: by_heat_supply_system_decentralized_local;
+    => nrel_associative_connection: by_heat_supply_system_centralized;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21189?langname=ru];
+    => nrel_etalon_online_idx: [21189];;

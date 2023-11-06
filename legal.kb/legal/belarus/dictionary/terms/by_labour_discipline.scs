@@ -1,0 +1,26 @@
+
+by_labour_discipline
+    => nrel_main_idtf: [labour discipline] (* <- lang_en;; *);
+    => nrel_main_idtf: [трудовая дисциплина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працоўная дысцыпліна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_disciplinary_fault;
+    => nrel_associative_connection: by_beginning_of_work;
+    => nrel_associative_connection: by_beginning_of_work_change;
+    => nrel_associative_connection: by_absence_from_work;
+    => nrel_associative_connection: by_production_process_discipline;
+    => nrel_associative_connection: by_unlawful_conduct_of_an_employee;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_systematic_gross_violation_of_labor_law;
+    => nrel_associative_connection: by_job_responsibilities;
+    => nrel_associative_connection: by_labor_activity;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3500?langname=ru];
+    => nrel_etalon_online_idx: [3500];;

@@ -1,0 +1,26 @@
+
+by_application_for_training_of_specialists_workers
+    => nrel_main_idtf: [application for training of specialists, workers] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявка на подготовку специалистов, рабочих] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўка на падрыхтоўку спецыялістаў, рабочых] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_application;
+    => nrel_associative_connection: by_workeremployee_training_request;
+    => nrel_associative_connection: by_application_for_training_of_specialists;
+    => nrel_associative_connection: by_application_for_the_training_of_specialists_with_higher_education;
+    => nrel_associative_connection: by_application_for_training_specialists_with_secondary_special_education_workers_with_secondary_special_education;
+    => nrel_associative_connection: by_educational_program_for_retraining_of_workers_employees;
+    => nrel_associative_connection: by_educational_program_for_retraining_of_managers_and_specialists_having_higher_education;
+    => nrel_associative_connection: by_educational_program_for_retraining_of_managers_and_specialists_having_secondary_specialized_education;
+    => nrel_associative_connection: by_initial_preparation;
+    => nrel_associative_connection: by_professional_training;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14941?langname=ru];
+    => nrel_etalon_online_idx: [14941];;

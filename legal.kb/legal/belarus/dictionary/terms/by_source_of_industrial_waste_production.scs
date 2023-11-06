@@ -1,0 +1,29 @@
+
+by_source_of_industrial_waste_production
+    => nrel_main_idtf: [source of industrial waste production] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник образования отходов производства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца ўтварэння адходаў вытворчасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_type_of_waste;
+    => nrel_associative_connection: by_inventory_of_industrial_waste;
+    => nrel_associative_connection: by_use_of_waste;
+    => nrel_associative_connection: by_communal_waste;
+    => nrel_associative_connection: by_normative_of_communal_waste_formation;
+    => nrel_associative_connection: by_normative_of_waste_production_formation;
+    => nrel_associative_connection: by_waste_handling;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_industrial_waste;
+    => nrel_associative_connection: by_carrier_of_production_waste;
+    => nrel_associative_connection: by_recipient_of_industrial_waste;
+    => nrel_associative_connection: by_producer_of_communal_waste;
+    => nrel_associative_connection: by_waste_generator;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15656?langname=ru];
+    => nrel_etalon_online_idx: [15656];;

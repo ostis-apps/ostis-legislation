@@ -1,0 +1,35 @@
+
+by_foundry_of_ferrous_and_nonferrous_metals
+    => nrel_main_idtf: [foundry of ferrous and non-ferrous metals] (* <- lang_en;; *);
+    => nrel_main_idtf: [литейное производство черных и цветных металлов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліцейная вытворчасць чорных і каляровых металаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foundry_of_ferrous_and_nonferrous_metals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_engineer;
+    => nrel_associative_connection: by_casting_shape;
+    => nrel_associative_connection: by_foundry_production;
+    => nrel_associative_connection: by_casting_machines;
+    => nrel_associative_connection: by_casting;
+
+    => nrel_legal_act: by_act_w21732554p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40962?langname=ru];
+    => nrel_etalon_online_idx: [40962];;

@@ -1,0 +1,20 @@
+
+by_by_days
+    => nrel_main_idtf: [by_days] (* <- lang_en;; *);
+    => nrel_main_idtf: [учебные дни] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навучальныя дні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_days_of_study;
+    => nrel_associative_connection: by_learning_activities;
+    => nrel_associative_connection: by_teaching_hours_in_the_preschool_education_institution;
+    => nrel_associative_connection: by_academic_year;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25833?langname=ru];
+    => nrel_etalon_online_idx: [25833];;

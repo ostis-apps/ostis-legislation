@@ -1,0 +1,34 @@
+
+by_structure_of_swiftmessage
+    => nrel_main_idtf: [structure of swift-message ] (* <- lang_en;; *);
+    => nrel_main_idtf: [структура swift-сообщения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [структура swift-паведамлення] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_structure_of_swiftmessage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_swift_message;
+    => nrel_associative_connection: by_format_description;
+    => nrel_associative_connection: by_swift_system_worldwide_interbank_financial_telecommunications;
+    => nrel_associative_connection: by_message_mt103;
+
+    => nrel_legal_act: by_act_b20717348;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24366?langname=ru];
+    => nrel_etalon_online_idx: [24366];;

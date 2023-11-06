@@ -1,0 +1,35 @@
+
+by_monospectral_image_sensors
+    => nrel_main_idtf: [monospectral image sensors] (* <- lang_en;; *);
+    => nrel_main_idtf: [моноспектральные датчики изображений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [манаспектральныя датчыкі выяў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monospectral_image_sensors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sensor;
+    => nrel_associative_connection: by_product_images;
+    => nrel_associative_connection: by_multispectral_image_sensors;
+    => nrel_associative_connection: by_naturalistic_image_description;
+    => nrel_associative_connection: by_working_bodies;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17516?langname=ru];
+    => nrel_etalon_online_idx: [17516];;

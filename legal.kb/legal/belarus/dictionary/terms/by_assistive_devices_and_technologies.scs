@@ -1,0 +1,35 @@
+
+by_assistive_devices_and_technologies
+    => nrel_main_idtf: [assistive devices and technologies] (* <- lang_en;; *);
+    => nrel_main_idtf: [ассистивные устройства и технологии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асістыўныя прылады і тэхналогіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assistive_devices_and_technologies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_habilitation_of_disabled;
+    => nrel_associative_connection: by_accessible_environment;
+    => nrel_associative_connection: by_rehabilitation_of_disabled;
+    => nrel_associative_connection: by_rehabilitation_of_persons_with_disabilities;
+    => nrel_associative_connection: by_technical_means_of_social_rehabilitation;
+
+    => nrel_legal_act: by_act_h12200183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40717?langname=ru];
+    => nrel_etalon_online_idx: [40717];;

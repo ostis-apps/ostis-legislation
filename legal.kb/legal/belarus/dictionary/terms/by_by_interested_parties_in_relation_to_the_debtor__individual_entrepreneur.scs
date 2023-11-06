@@ -1,0 +1,38 @@
+
+by_by_interested_parties_in_relation_to_the_debtor__individual_entrepreneur
+    => nrel_main_idtf: [by_interested_parties_in_relation_to_the_debtor__individual_entrepreneur] (* <- lang_en;; *);
+    => nrel_main_idtf: [заинтересованные лица в отношении должника – индивидуального предпринимателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зацікаўленыя асобы ў дачыненні даўжніка – індывідуальнага прадпрымальніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_interested_parties_in_relation_to_the_debtor__individual_entrepreneur_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interested_person;
+    => nrel_associative_connection: by_interested_persons;
+    => nrel_associative_connection: by_interested_persons_in_regard_to_debtor__individual_entrepreneur;
+    => nrel_associative_connection: by_interested_parties_in_relation_to_the_debtor__legal_entity;
+    => nrel_associative_connection: by_interested_parties_with_respect_to_the_creditor;
+    => nrel_associative_connection: by_stakeholders_with_respect_to_the_manager;
+    => nrel_associative_connection: by_absent_debtor;
+    => nrel_associative_connection: by_representative_of_the_debtors_employees;
+
+    => nrel_legal_act: by_act_h12200227;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43757?langname=ru];
+    => nrel_etalon_online_idx: [43757];;

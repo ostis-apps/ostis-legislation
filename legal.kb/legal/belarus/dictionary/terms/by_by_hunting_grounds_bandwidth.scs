@@ -1,0 +1,36 @@
+
+by_by_hunting_grounds_bandwidth
+    => nrel_main_idtf: [by_hunting_grounds_bandwidth] (* <- lang_en;; *);
+    => nrel_main_idtf: [пропускная способность охотничьих угодий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прапускная здольнасць паляўнічых угоддзяў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_hunting_grounds_bandwidth_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rented_hunting_grounds;
+    => nrel_associative_connection: by_prohibited_place_for_hunting;
+    => nrel_associative_connection: by_hunting_day;
+    => nrel_associative_connection: by_hunting_tour;
+    => nrel_associative_connection: by_hunting_lands;
+    => nrel_associative_connection: by_user_of_hunting_lands;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36259?langname=ru];
+    => nrel_etalon_online_idx: [36259];;

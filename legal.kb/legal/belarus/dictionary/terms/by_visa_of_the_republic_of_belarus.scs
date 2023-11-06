@@ -1,0 +1,55 @@
+
+by_visa_of_the_republic_of_belarus
+    => nrel_main_idtf: [visa of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [виза республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [віза рэспублікі беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visa_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_visa_of_the_republic_of_belarus_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_visa;
+    => nrel_associative_connection: by_entry_visa;
+    => nrel_associative_connection: by_exit_visa;
+    => nrel_associative_connection: by_exitentry_visa;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_stateless_person;
+    => nrel_associative_connection: by_passport_of_citizen_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_travel_document_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_visa_application;
+
+    => nrel_legal_act: by_act_h11000105;
+    => nrel_legal_act: by_act_c21001065;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1184?langname=ru];
+    => nrel_etalon_online_idx: [1184];;

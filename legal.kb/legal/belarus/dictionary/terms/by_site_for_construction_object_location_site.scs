@@ -1,0 +1,36 @@
+
+by_site_for_construction_object_location_site
+    => nrel_main_idtf: [site for construction object location (site)] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадка размещения объекта строительства (площадка)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пляцоўка размяшчэння аб'екта будаўніцтва (пляцоўка)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_site_for_construction_object_location_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_engineering_surveys_for_construction_engineering_surveys;
+    => nrel_associative_connection: by_inspection_of_foundation_soils;
+
+    => nrel_legal_act: by_act_w22035551p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33909?langname=ru];
+    => nrel_etalon_online_idx: [33909];;

@@ -1,0 +1,55 @@
+
+by_by_amount_of_the_lease_fee
+    => nrel_main_idtf: [by_amount_of_the_lease_fee] (* <- lang_en;; *);
+    => nrel_main_idtf: [размер арендной платы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памер арэнднай платы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_amount_of_the_lease_fee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_amount_of_the_lease_fee_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rent;
+    => nrel_associative_connection: by_rental_accommodation;
+    => nrel_associative_connection: by_reimbursement_of_benefits;
+    => nrel_associative_connection: by_contract_on_rent_of_a_building_or_construction;
+    => nrel_associative_connection: by_enterprise_rent_contract;
+    => nrel_associative_connection: by_unified_base;
+    => nrel_associative_connection: by_calculation_and_payment_of_rent;
+    => nrel_associative_connection: by_expenses_for_maintenance_of_buildings_constructions_premises_leased;
+    => nrel_associative_connection: by_rental_rate;
+
+    => nrel_legal_act: by_act_p32300138;
+    => nrel_legal_act: by_act_p31200150;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22037?langname=ru];
+    => nrel_etalon_online_idx: [22037];;

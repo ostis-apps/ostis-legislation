@@ -1,0 +1,36 @@
+
+by_distinctness_of_variety
+    => nrel_main_idtf: [distinctness of variety] (* <- lang_en;; *);
+    => nrel_main_idtf: [отличимость сорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адрозненнасць сорту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_distinctness_of_variety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author_coauthors_of_a_plant_variety;
+    => nrel_associative_connection: by_official_description_of_plant_variety;
+    => nrel_associative_connection: by_plant_variety_patent;
+    => nrel_associative_connection: by_plant_raw_material;
+    => nrel_associative_connection: by_plant_seeds;
+    => nrel_associative_connection: by_variety_of_plant;
+
+    => nrel_legal_act: by_act_V19503725;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19539?langname=ru];
+    => nrel_etalon_online_idx: [19539];;

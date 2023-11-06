@@ -1,0 +1,34 @@
+
+by_premises_of_permanent_stay_of_employees
+    => nrel_main_idtf: [premises of permanent stay of employees] (* <- lang_en;; *);
+    => nrel_main_idtf: [помещения постоянного пребывания работников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памяшканні пастаяннага знаходжання работнікаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_premises_of_permanent_stay_of_employees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_independent_reception_room;
+
+    => nrel_legal_act: by_act_c22000130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32914?langname=ru];
+    => nrel_etalon_online_idx: [32914];;

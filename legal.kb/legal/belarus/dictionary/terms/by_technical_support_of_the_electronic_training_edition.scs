@@ -1,0 +1,36 @@
+
+by_technical_support_of_the_electronic_training_edition
+    => nrel_main_idtf: [technical support of the electronic training edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническая поддержка электронного учебного издания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічная падтрымка электроннага навучальнага выдання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_support_of_the_electronic_training_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_masterdisc_of_electronic_educational_edition;
+    => nrel_associative_connection: by_plan_for_the_release_of_elearning_publications;
+    => nrel_associative_connection: by_preparation_for_elearning_publication;
+    => nrel_associative_connection: by_technical_support;
+    => nrel_associative_connection: by_remote_technical_support;
+    => nrel_associative_connection: by_educational_edition;
+
+    => nrel_legal_act: by_act_P31100192;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41306?langname=ru];
+    => nrel_etalon_online_idx: [41306];;

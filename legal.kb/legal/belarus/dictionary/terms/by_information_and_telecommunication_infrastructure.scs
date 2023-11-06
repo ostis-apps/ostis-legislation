@@ -1,0 +1,33 @@
+
+by_information_and_telecommunication_infrastructure
+    => nrel_main_idtf: [information and telecommunication infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационно-телекоммуникационная инфраструктура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйна-тэлекамунікацыйная інфраструктура] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_and_telecommunication_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_and_telecommunication_infrastructure_for_state_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_average_annual_cost_of_ownership_of_information_systems_information_resources_and_its_his_information_protection_means;
+    => nrel_associative_connection: by_service_life_of_information_systems_information_resources_and_its_his_means_of_information_protection;
+
+    => nrel_legal_act: by_act_c22100182;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37204?langname=ru];
+    => nrel_etalon_online_idx: [37204];;

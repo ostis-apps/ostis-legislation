@@ -1,0 +1,33 @@
+
+by_unit_of_transport_work
+    => nrel_main_idtf: [unit of transport work] (* <- lang_en;; *);
+    => nrel_main_idtf: [единица транспортной работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінка транспартнай работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unit_of_transport_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_cost_of_a_unit_of_transport_work;
+    => nrel_associative_connection: by_basic_cost_of_transportation_per_one_passenger;
+    => nrel_associative_connection: by_transport_work;
+
+    => nrel_legal_act: by_act_c22300022;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41882?langname=ru];
+    => nrel_etalon_online_idx: [41882];;

@@ -1,0 +1,41 @@
+
+by_customers__of_audit
+    => nrel_main_idtf: [customers  of audit] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказчики аудита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказчыкі аўдыту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customers__of_audit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auditees;
+    => nrel_associative_connection: by_audited_subject;
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_customer_of_sanitary_and_epidemiological_audit;
+    => nrel_associative_connection: by_customers;
+    => nrel_associative_connection: by_customers_of_audit_services;
+    => nrel_associative_connection: by_management_statement_of_the_audited_entity;
+    => nrel_associative_connection: by_primary_audit;
+
+    => nrel_legal_act: by_act_w21225002;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14771?langname=ru];
+    => nrel_etalon_online_idx: [14771];;

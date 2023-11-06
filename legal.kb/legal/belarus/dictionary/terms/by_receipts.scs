@@ -1,0 +1,56 @@
+
+by_receipts
+    => nrel_main_idtf: [receipts] (* <- lang_en;; *);
+    => nrel_main_idtf: [выручка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выручка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_receipts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_receipts_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_earnings;
+    => nrel_associative_connection: by_currency;
+    => nrel_associative_connection: by_revenues_from_carriage;
+    => nrel_associative_connection: by_revenues_from_holding_an_electronic_interactive_game;
+    => nrel_associative_connection: by_main_cash_desk;
+    => nrel_associative_connection: by_deficit_of_monetary_funds;
+    => nrel_associative_connection: by_planned_revenue;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets_intangible_assets;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_goods_works_services_property_rights;
+    => nrel_associative_connection: by_accounting_profit_loss;
+
+    => nrel_legal_act: by_act_f91200285;
+    => nrel_legal_act: by_act_f91200285;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5512?langname=ru];
+    => nrel_etalon_online_idx: [5512];;

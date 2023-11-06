@@ -1,0 +1,34 @@
+
+by_primary_hiv_infection
+    => nrel_main_idtf: [primary hiv infection] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичная вич-инфекция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасная віч-інфекцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_hiv_infection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antiretroviral_therapy;
+    => nrel_associative_connection: by_hiv_infection;
+    => nrel_associative_connection: by_diagnostics_of_hiv_infection;
+    => nrel_associative_connection: by_hiv_patients;
+
+    => nrel_legal_act: by_act_w22239094p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41774?langname=ru];
+    => nrel_etalon_online_idx: [41774];;

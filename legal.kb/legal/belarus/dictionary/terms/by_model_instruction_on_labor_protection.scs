@@ -1,0 +1,34 @@
+
+by_model_instruction_on_labor_protection
+    => nrel_main_idtf: [model instruction on labor protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [типовая инструкция по охране труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тыпавая інструкцыя па ахове працы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_model_instruction_on_labor_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_branch_labor_protection_rules;
+    => nrel_associative_connection: by_testing_knowledge_on_occupational_safety_and_health_issues;
+    => nrel_associative_connection: by_system_of_labor_safety_standards;
+    => nrel_associative_connection: by_labour_protection_management_system;
+
+    => nrel_legal_act: by_act_h10800356;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24975?langname=ru];
+    => nrel_etalon_online_idx: [24975];;

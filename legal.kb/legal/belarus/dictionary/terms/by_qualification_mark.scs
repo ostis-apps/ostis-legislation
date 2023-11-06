@@ -1,0 +1,36 @@
+
+by_qualification_mark
+    => nrel_main_idtf: [qualification mark] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалификационная отметка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікацыйная адзнака] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_mark_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_qualification_requirements;
+    => nrel_associative_connection: by_qualification_admission;
+    => nrel_associative_connection: by_qualification_examination;
+    => nrel_associative_connection: by_qualification;
+    => nrel_associative_connection: by_approved_preparation;
+    => nrel_associative_connection: by_flight_on_the_route;
+
+    => nrel_legal_act: by_act_w21833443p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30399?langname=ru];
+    => nrel_etalon_online_idx: [30399];;

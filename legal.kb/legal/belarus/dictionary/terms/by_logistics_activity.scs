@@ -1,0 +1,36 @@
+
+by_logistics_activity
+    => nrel_main_idtf: [logistics activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [логистическая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лагістычная дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_logistics_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_exchange_logistic_activity;
+    => nrel_associative_connection: by_quantitative_analysis_in_logistics;
+    => nrel_associative_connection: by_crossdocking;
+    => nrel_associative_connection: by_logistics;
+    => nrel_associative_connection: by_logistics_infrastructure;
+    => nrel_associative_connection: by_logistic_operator;
+
+    => nrel_legal_act: by_act_t22004592p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16762?langname=ru];
+    => nrel_etalon_online_idx: [16762];;

@@ -1,0 +1,37 @@
+
+by_mineralized_band
+    => nrel_main_idtf: [mineralized band] (* <- lang_en;; *);
+    => nrel_main_idtf: [минерализованная полоса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінералізаваная паласа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mineralized_band_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_artificially_mineralized_drinking_water;
+    => nrel_associative_connection: by_mineralized_water;
+    => nrel_associative_connection: by_fire_protection;
+    => nrel_associative_connection: by_firefighting_water_supply;
+    => nrel_associative_connection: by_fireprevention_arrangements;
+    => nrel_associative_connection: by_fire_barrier;
+    => nrel_associative_connection: by_firebreak;
+
+    => nrel_legal_act: by_act_c21900722;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17383?langname=ru];
+    => nrel_etalon_online_idx: [17383];;

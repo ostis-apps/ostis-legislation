@@ -1,0 +1,36 @@
+
+by_final_disinfection
+    => nrel_main_idtf: [final disinfection] (* <- lang_en;; *);
+    => nrel_main_idtf: [заключительная дезинфекция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заключная дэзінфекцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_final_disinfection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_disinfection;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_source_of_causative_agents_of_animal_infectious_diseases;
+    => nrel_associative_connection: by_preventive_disinfection;
+    => nrel_associative_connection: by_current_disinfection;
+
+    => nrel_legal_act: by_act_c21300758;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40667?langname=ru];
+    => nrel_etalon_online_idx: [40667];;

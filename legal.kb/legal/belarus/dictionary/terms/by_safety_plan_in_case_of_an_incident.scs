@@ -1,0 +1,25 @@
+
+by_safety_plan_in_case_of_an_incident
+    => nrel_main_idtf: [safety plan in case of an incident] (* <- lang_en;; *);
+    => nrel_main_idtf: [план обеспечения безопасности на случай аварии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [план забеспячэння бяспекі на выпадак аварыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_accident_situation;
+    => nrel_associative_connection: by_emergency_response;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_safety_of_transportation_of_dangerous_goods;
+    => nrel_associative_connection: by_classification_of_dangerous_cargos;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_project_accident;
+    => nrel_associative_connection: by_support_of_dangerous_goods;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20169?langname=ru];
+    => nrel_etalon_online_idx: [20169];;

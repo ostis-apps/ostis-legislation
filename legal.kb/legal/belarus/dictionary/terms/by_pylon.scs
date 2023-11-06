@@ -1,0 +1,46 @@
+
+by_pylon
+    => nrel_main_idtf: [pylon] (* <- lang_en;; *);
+    => nrel_main_idtf: [пилон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пілон] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pylon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bracket;
+    => nrel_associative_connection: by_lightposter;
+    => nrel_associative_connection: by_location_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_overroof_advertising_construction;
+    => nrel_associative_connection: by_ground_panel;
+    => nrel_associative_connection: by_outdoor_advertising;
+    => nrel_associative_connection: by_wall_advertising_construction;
+    => nrel_associative_connection: by_poster_or_other_remote_advertising_construction;
+    => nrel_associative_connection: by_placement_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_advertisement_banner;
+    => nrel_associative_connection: by_advertising_activity;
+    => nrel_associative_connection: by_advertising_space;
+    => nrel_associative_connection: by_outdoor_advertising_means;
+    => nrel_associative_connection: by_cabinet;
+    => nrel_associative_connection: by_shield;
+    => nrel_associative_connection: by_electronic_board;
+
+    => nrel_legal_act: by_act_c22100395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20141?langname=ru];
+    => nrel_etalon_online_idx: [20141];;

@@ -1,0 +1,39 @@
+
+by_singlepole_endoprosthetics_of_hip
+    => nrel_main_idtf: [single-pole endoprosthetics of hip] (* <- lang_en;; *);
+    => nrel_main_idtf: [однополюсное эндопротезирование тазобедренного сустава] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднаполюснае эндапратэзаванне тазасцегнавога сустава] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_singlepole_endoprosthetics_of_hip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_arthrosis;
+    => nrel_associative_connection: by_i_stage_of_arthrosis;
+    => nrel_associative_connection: by_ii_stage_of_arthrosis;
+    => nrel_associative_connection: by_iii_stage_of_arthrosis;
+    => nrel_associative_connection: by_medical_intervention;
+    => nrel_associative_connection: by_repeated_revision_endoprosthetics;
+    => nrel_associative_connection: by_prosthetics;
+    => nrel_associative_connection: by_total_endoprosthetics;
+    => nrel_associative_connection: by_digital_card_of_a_patient_in_need_of_large_joint_replacement;
+
+    => nrel_legal_act: by_act_w22340347;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18876?langname=ru];
+    => nrel_etalon_online_idx: [18876];;

@@ -1,0 +1,33 @@
+
+by_palliative_habilitation
+    => nrel_main_idtf: [palliative habilitation] (* <- lang_en;; *);
+    => nrel_main_idtf: [паллиативная абилитация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паліятыўная абілітацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_palliative_habilitation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_longterm_palliative_medical_aid;
+    => nrel_associative_connection: by_shortterm_palliative_medical_aid;
+    => nrel_associative_connection: by_patients_in_need_of_palliative_care;
+
+    => nrel_legal_act: by_act_w21529575;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11335?langname=ru];
+    => nrel_etalon_online_idx: [11335];;

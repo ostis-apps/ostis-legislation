@@ -1,0 +1,33 @@
+
+by_maximum_reactivity_margin
+    => nrel_main_idtf: [maximum reactivity margin] (* <- lang_en;; *);
+    => nrel_main_idtf: [максимальный запас реактивности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [максімальны запас рэактыўнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maximum_reactivity_margin_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_zone;
+    => nrel_associative_connection: by_extraction_of_means_of_influencing_reactivity;
+    => nrel_associative_connection: by_reactor_plant;
+
+    => nrel_legal_act: by_act_w22137067p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38519?langname=ru];
+    => nrel_etalon_online_idx: [38519];;

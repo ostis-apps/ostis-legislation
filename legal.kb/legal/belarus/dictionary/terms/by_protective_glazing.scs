@@ -1,0 +1,38 @@
+
+by_protective_glazing
+    => nrel_main_idtf: [protective glazing] (* <- lang_en;; *);
+    => nrel_main_idtf: [защитное остекление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абароннае шкленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_glazing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_glass;
+    => nrel_associative_connection: by_defence_activities;
+    => nrel_associative_connection: by_engineering_and_technical_fortified_of_the_object;
+    => nrel_associative_connection: by_engineering_and_technical_means_of_protection;
+    => nrel_associative_connection: by_multipurpose_glass_packaging;
+    => nrel_associative_connection: by_centralized_security_point;
+    => nrel_associative_connection: by_alarm_limit_alarm_limit;
+    => nrel_associative_connection: by_composite_packaging_of_glass_china_or_ceramic;
+
+    => nrel_legal_act: by_act_w20512438;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14914?langname=ru];
+    => nrel_etalon_online_idx: [14914];;

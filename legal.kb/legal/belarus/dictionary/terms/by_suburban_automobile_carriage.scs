@@ -1,0 +1,36 @@
+
+by_suburban_automobile_carriage
+    => nrel_main_idtf: [suburban automobile carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [пригородные автомобильные перевозки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыгарадныя аўтамабільныя перавозкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suburban_automobile_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_autostation;
+    => nrel_associative_connection: by_customer_of_automotive_transportation;
+    => nrel_associative_connection: by_interurban_domestic_automobile_carriages;
+    => nrel_associative_connection: by_interurban_interregional_automobile_carriages;
+    => nrel_associative_connection: by_passenger_transportation_by_trams_in_suburban_communication;
+    => nrel_associative_connection: by_suburban_automobile_carriage_of_cargoes;
+
+    => nrel_legal_act: by_act_h10700278;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21210?langname=ru];
+    => nrel_etalon_online_idx: [21210];;

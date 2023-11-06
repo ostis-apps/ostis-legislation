@@ -1,0 +1,71 @@
+
+by_environmental_quality
+    => nrel_main_idtf: [environmental quality] (* <- lang_en;; *);
+    => nrel_main_idtf: [качество окружающей среды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [якасць навакольнага асяроддзя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_quality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_quality_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_quality_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_environmental_quality_rates;
+    => nrel_associative_connection: by_atmospheric_air_monitoring;
+    => nrel_associative_connection: by_environmental_monitoring;
+    => nrel_associative_connection: by_normative_standards_of_allowable_anthropogenic_environmental_load;
+    => nrel_associative_connection: by_environment;
+    => nrel_associative_connection: by_environmental_protection;
+    => nrel_associative_connection: by_environmental_environmental_activity_protection;
+    => nrel_associative_connection: by_environmental_impact_assessment;
+    => nrel_associative_connection: by_radiation_monitoring;
+
+    => nrel_legal_act: by_act_v19201982;
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n20600145;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5964?langname=ru];
+    => nrel_etalon_online_idx: [5964];;

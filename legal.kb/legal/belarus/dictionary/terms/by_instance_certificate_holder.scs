@@ -1,0 +1,34 @@
+
+by_instance_certificate_holder
+    => nrel_main_idtf: [instance certificate holder] (* <- lang_en;; *);
+    => nrel_main_idtf: [держатель сертификата экземпляра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трымальнік сертыфіката асобніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instance_certificate_holder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_major_change;
+    => nrel_associative_connection: by_type_certificate_holder;
+    => nrel_associative_connection: by_evidential_documentation;
+    => nrel_associative_connection: by_design_documentation;
+
+    => nrel_legal_act: by_act_w21933767p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30979?langname=ru];
+    => nrel_etalon_online_idx: [30979];;

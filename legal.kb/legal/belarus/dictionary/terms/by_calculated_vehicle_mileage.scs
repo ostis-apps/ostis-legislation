@@ -1,0 +1,41 @@
+
+by_calculated_vehicle_mileage
+    => nrel_main_idtf: [calculated vehicle mileage] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетный пробег транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковы прабег транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_vehicle_mileage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vehicle_run_category;
+    => nrel_associative_connection: by_accumulated_wear;
+    => nrel_associative_connection: by_service_accumulation_of_vehicles_main_engine;
+    => nrel_associative_connection: by_normative_run_of_the_vehicle_base_analogue;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_distance_travelled_by_the_vehicle;
+    => nrel_associative_connection: by_average_statistical_vehicle_mileage;
+    => nrel_associative_connection: by_service_life_of_the_vehicle;
+    => nrel_associative_connection: by_service_life_of_the_vehicle;
+    => nrel_associative_connection: by_actual_vehicle_mileage;
+    => nrel_associative_connection: by_functional_wear;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22221?langname=ru];
+    => nrel_etalon_online_idx: [22221];;

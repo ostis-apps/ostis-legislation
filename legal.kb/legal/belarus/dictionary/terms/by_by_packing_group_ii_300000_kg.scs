@@ -1,0 +1,23 @@
+
+by_by_packing_group_ii_300000_kg
+    => nrel_main_idtf: [by_packing_group_ii_300000_kg] (* <- lang_en;; *);
+    => nrel_main_idtf: [группа упаковки ii] (* <- lang_ru;; *);
+    => nrel_main_idtf: [група ўпакоўкі ii] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_packing_group_i_120000_kg;
+    => nrel_associative_connection: by_packing_group_iii_no_limitation;
+    => nrel_associative_connection: by_dangerous_substances;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_hazardous_waste;
+    => nrel_associative_connection: by_consumer_packaging;
+    => nrel_associative_connection: by_packaging;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27625?langname=ru];
+    => nrel_etalon_online_idx: [27625];;

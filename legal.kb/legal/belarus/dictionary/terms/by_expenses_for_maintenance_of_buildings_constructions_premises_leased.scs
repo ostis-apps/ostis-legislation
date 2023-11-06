@@ -1,0 +1,37 @@
+
+by_expenses_for_maintenance_of_buildings_constructions_premises_leased
+    => nrel_main_idtf: [expenses for maintenance of buildings, constructions, premises leased] (* <- lang_en;; *);
+    => nrel_main_idtf: [расходы по обслуживанию зданий, сооружений, помещений, переданных в аренду] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расходы па абслугоўванні будынкаў, збудаванняў, памяшканняў, перададзеных у арэнду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expenses_for_maintenance_of_buildings_constructions_premises_leased_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rentable_area;
+    => nrel_associative_connection: by_auction_for_sale_of_the_right_to_conclude__real_estate_rent_contract;
+    => nrel_associative_connection: by_contract_on_rent_of_a_building_or_construction;
+    => nrel_associative_connection: by_amount_of_the_lease_fee;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_maintenance_costs_for_buildings_structures_premises_transferred_for_free_use;
+    => nrel_associative_connection: by_expenses_on_maintenance_of_the_premises_transferred_for_free_use;
+
+    => nrel_legal_act: by_act_c20800914;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22187?langname=ru];
+    => nrel_etalon_online_idx: [22187];;

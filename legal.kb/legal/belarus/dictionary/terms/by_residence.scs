@@ -1,0 +1,25 @@
+
+by_residence
+    => nrel_main_idtf: [residence] (* <- lang_en;; *);
+    => nrel_main_idtf: [резиденция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзідэнцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_diplomatic_missions_embassies_permanent_representatives_at_international_organizations_missions_and_consular_offices;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_overseas;
+    => nrel_associative_connection: by_overseas_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_branch_of_the_embassy_of_the_republic_of_belarus_in_the_russian_federation;
+    => nrel_associative_connection: by_employee_of_a_foreign_institution_employee;
+    => nrel_associative_connection: by_foreign_institution_employee_responsible_for_information_technology;
+    => nrel_associative_connection: by_foreign_establishments_employees;
+    => nrel_associative_connection: by_overseas_head;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22472?langname=ru];
+    => nrel_etalon_online_idx: [22472];;

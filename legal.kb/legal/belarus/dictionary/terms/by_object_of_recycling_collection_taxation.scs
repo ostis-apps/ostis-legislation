@@ -1,0 +1,33 @@
+
+by_object_of_recycling_collection_taxation
+    => nrel_main_idtf: [object of recycling collection taxation] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект обложения утилизационным сбором] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект абкладання утілізаціоннага збору] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_of_recycling_collection_taxation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_waste_collection;
+    => nrel_associative_connection: by_recycling_cost_of_vehicle;
+    => nrel_associative_connection: by_utilization_cost;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30887?langname=ru];
+    => nrel_etalon_online_idx: [30887];;

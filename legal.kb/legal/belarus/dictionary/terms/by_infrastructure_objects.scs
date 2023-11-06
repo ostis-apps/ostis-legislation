@@ -1,0 +1,25 @@
+
+by_infrastructure_objects
+    => nrel_main_idtf: [infrastructure objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфраструктурные объекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфраструктурныя аб'екты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_infrastructure_owner;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_crucially_important_facilities;
+    => nrel_associative_connection: by_shared_facilities;
+    => nrel_associative_connection: by_cultural_infrastructure_objects;
+    => nrel_associative_connection: by_production_infrastructure_objects;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure;
+    => nrel_associative_connection: by_operator_of_infrastructure;
+    => nrel_associative_connection: by_production_infrastructure;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10234?langname=ru];
+    => nrel_etalon_online_idx: [10234];;

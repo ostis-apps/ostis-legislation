@@ -1,0 +1,37 @@
+
+by_casino
+    => nrel_main_idtf: [casino] (* <- lang_en;; *);
+    => nrel_main_idtf: [казино] (* <- lang_ru;; *);
+    => nrel_main_idtf: [казіно] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_casino_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_activity_in_the_sphere_of_gambling_business;
+    => nrel_associative_connection: by_gambling_establishment;
+    => nrel_associative_connection: by_game_on_slot_machines;
+    => nrel_associative_connection: by_playing_field;
+    => nrel_associative_connection: by_game_table;
+    => nrel_associative_connection: by_participant_in_the_gambling;
+    => nrel_associative_connection: by_cylindrical_game_roulette;
+
+    => nrel_legal_act: by_act_p30500009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9653?langname=ru];
+    => nrel_etalon_online_idx: [9653];;

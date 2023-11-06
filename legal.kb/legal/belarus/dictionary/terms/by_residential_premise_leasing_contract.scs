@@ -1,0 +1,37 @@
+
+by_residential_premise_leasing_contract
+    => nrel_main_idtf: [residential premise leasing contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор лизинга жилого помещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор лізінгу жылога памяшкання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_residential_premise_leasing_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_financial_rent_agreement_leasing_agreement;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_leasing_activity_with_residential_premises;
+    => nrel_associative_connection: by_apartment_building;
+    => nrel_associative_connection: by_oneapartment_residential_house;
+    => nrel_associative_connection: by_leasing_agreement_price;
+
+    => nrel_legal_act: by_act_p31400099;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27125?langname=ru];
+    => nrel_etalon_online_idx: [27125];;

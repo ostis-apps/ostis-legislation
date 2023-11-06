@@ -1,0 +1,36 @@
+
+by_position_sensor
+    => nrel_main_idtf: [position sensor] (* <- lang_en;; *);
+    => nrel_main_idtf: [датчик положения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [датчык палажэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_position_sensor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vibration_resistance;
+    => nrel_associative_connection: by_actuator_of_reactivity_influencing_bodies_actuator;
+    => nrel_associative_connection: by_complex_tests_of_executive_mechanism;
+    => nrel_associative_connection: by_limit_switch;
+    => nrel_associative_connection: by_authority_of_influence_on_reactivity;
+    => nrel_associative_connection: by_actuator_moving_parts;
+
+    => nrel_legal_act: by_act_w22136670p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37727?langname=ru];
+    => nrel_etalon_online_idx: [37727];;

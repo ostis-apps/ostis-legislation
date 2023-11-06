@@ -1,0 +1,35 @@
+
+by_overburden_rocks
+    => nrel_main_idtf: [overburden rocks] (* <- lang_en;; *);
+    => nrel_main_idtf: [вскрышные породы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раскрыўныя пароды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overburden_rocks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_breed_reproduction;
+    => nrel_associative_connection: by_rocks;
+    => nrel_associative_connection: by_observations_for_rock_pinch_in_the_area_of_their_possible_deformations;
+    => nrel_associative_connection: by_mineral_wealth;
+    => nrel_associative_connection: by_subsoil_resources;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3664?langname=ru];
+    => nrel_etalon_online_idx: [3664];;

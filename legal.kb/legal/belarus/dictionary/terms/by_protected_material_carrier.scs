@@ -1,0 +1,36 @@
+
+by_protected_material_carrier
+    => nrel_main_idtf: [protected material carrier] (* <- lang_en;; *);
+    => nrel_main_idtf: [защищенный материальный носитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абаронены матэрыяльны носьбіт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protected_material_carrier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_secured_material_carrier_with_applied_identification_means;
+    => nrel_associative_connection: by_sign_of_protection;
+    => nrel_associative_connection: by_marking_code;
+    => nrel_associative_connection: by_material_carrier;
+    => nrel_associative_connection: by_turnover_of_protected_material_carriers_protected_material_carriers_with_applied_means_of_identification_protection_signs;
+    => nrel_associative_connection: by_means_of_identification;
+
+    => nrel_legal_act: by_act_p31100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38269?langname=ru];
+    => nrel_etalon_online_idx: [38269];;

@@ -1,0 +1,60 @@
+
+by_president
+    => nrel_main_idtf: [president] (* <- lang_en;; *);
+    => nrel_main_idtf: [президент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прэзідэнт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_president_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_president_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administration_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_temporary_decree_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_delegation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_inspectorate_on_wildlife_protection_under_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_decree_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_directive_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_organizations_created_by_the_resolution_of_president_of_the_republic_of_belarus_to_ensure_implementation_of_tasks_assigned_to_border_service;
+    => nrel_associative_connection: by_official_internet_portal_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_assistant_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_council_on_legal_and_judicial_activities_under_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_edict_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_administrative_department_of_the_president_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_standard_flag_of_the_president_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_v19402875;
+    => nrel_legal_act: by_act_V19503602;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21143?langname=ru];
+    => nrel_etalon_online_idx: [21143];;

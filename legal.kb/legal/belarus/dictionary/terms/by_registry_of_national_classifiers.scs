@@ -1,0 +1,36 @@
+
+by_registry_of_national_classifiers
+    => nrel_main_idtf: [registry of national classifiers] (* <- lang_en;; *);
+    => nrel_main_idtf: [реестр общегосударственных классификаторов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэестр агульнадзяржаўных класіфікатараў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registry_of_national_classifiers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_harmonization_of_national_classifier;
+    => nrel_associative_connection: by_classifier;
+    => nrel_associative_connection: by_national_classifier;
+    => nrel_associative_connection: by_national_classifier_of_the_republic_of_belarus_specialities_and_qualifications;
+    => nrel_associative_connection: by_revision_of_the_national_classifier;
+    => nrel_associative_connection: by_statistical_classifier;
+
+    => nrel_legal_act: by_act_c21800121;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28256?langname=ru];
+    => nrel_etalon_online_idx: [28256];;

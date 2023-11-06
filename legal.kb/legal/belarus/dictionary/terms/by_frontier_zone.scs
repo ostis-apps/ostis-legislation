@@ -1,0 +1,41 @@
+
+by_frontier_zone
+    => nrel_main_idtf: [frontier zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [пограничная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагранічная зона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_frontier_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_border_security_call_border_call;
+    => nrel_associative_connection: by_natural_boundary_front;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_hazardous_carrier_for_national_interests_in_border_space_border_hazards_carrier;
+    => nrel_associative_connection: by_danger_to_national_interests_in_border_space_border_danger;
+    => nrel_associative_connection: by_protection_of_the_state_border;
+    => nrel_associative_connection: by_frontier_belt;
+    => nrel_associative_connection: by_frontier_mark;
+    => nrel_associative_connection: by_frontier_regime;
+    => nrel_associative_connection: by_border_security_risk_border_risk;
+    => nrel_associative_connection: by_border_security_threat_border_threat;
+
+    => nrel_legal_act: by_act_h10800419;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4625?langname=ru];
+    => nrel_etalon_online_idx: [4625];;

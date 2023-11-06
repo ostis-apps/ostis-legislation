@@ -1,0 +1,34 @@
+
+by_metabolic_imprinting
+    => nrel_main_idtf: [metabolic imprinting] (* <- lang_en;; *);
+    => nrel_main_idtf: [метаболический импринтинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метабалічны імпрынтынг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metabolic_imprinting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hypersensitivity_to_food_products;
+    => nrel_associative_connection: by_norms_of_physiological_needs;
+    => nrel_associative_connection: by_pathophysiology_pathological_physiology;
+    => nrel_associative_connection: by_efficiency_in_the_health_care_system;
+
+    => nrel_legal_act: by_act_w22035454p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33543?langname=ru];
+    => nrel_etalon_online_idx: [33543];;

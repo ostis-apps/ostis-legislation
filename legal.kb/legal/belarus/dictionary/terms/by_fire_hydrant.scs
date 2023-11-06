@@ -1,0 +1,34 @@
+
+by_fire_hydrant
+    => nrel_main_idtf: [fire hydrant] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарный гидрант] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарны гідрант] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_hydrant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_fire_extinguishing_installation_afei;
+    => nrel_associative_connection: by_fire_pier;
+    => nrel_associative_connection: by_fire_reservoir;
+    => nrel_associative_connection: by_fire_safety_system;
+
+    => nrel_legal_act: by_act_w02035798p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35914?langname=ru];
+    => nrel_etalon_online_idx: [35914];;

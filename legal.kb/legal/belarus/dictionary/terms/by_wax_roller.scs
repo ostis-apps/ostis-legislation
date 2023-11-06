@@ -1,0 +1,35 @@
+
+by_wax_roller
+    => nrel_main_idtf: [wax roller] (* <- lang_en;; *);
+    => nrel_main_idtf: [восковой валик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [васковы валік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wax_roller_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_phonodocument_storage_unit;
+    => nrel_associative_connection: by_record_on_magnetic_tape;
+    => nrel_associative_connection: by_record_on_electronic_media;
+    => nrel_associative_connection: by_phonodocument;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13221?langname=ru];
+    => nrel_etalon_online_idx: [13221];;

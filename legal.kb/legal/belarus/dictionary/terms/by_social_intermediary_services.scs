@@ -1,0 +1,65 @@
+
+by_social_intermediary_services
+    => nrel_main_idtf: [social intermediary services] (* <- lang_en;; *);
+    => nrel_main_idtf: [социально-посреднические услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сацыяльна-пасрэдніцкія паслугі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_intermediary_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_intermediary_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_intermediary_services_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mediation_services;
+    => nrel_associative_connection: by_social_service;
+    => nrel_associative_connection: by_social_service;
+
+    => nrel_legal_act: by_act_h10000395;
+    => nrel_legal_act: by_act_w21934603p;
+    => nrel_legal_act: by_act_w21934569p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10786?langname=ru];
+    => nrel_etalon_online_idx: [10786];;

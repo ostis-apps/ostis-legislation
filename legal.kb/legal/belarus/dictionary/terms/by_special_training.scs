@@ -1,0 +1,54 @@
+
+by_special_training
+    => nrel_main_idtf: [special training] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальная подготовка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльная падрыхтоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_training_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_training_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_paramilitary_security_service;
+    => nrel_associative_connection: by_application_for_training_of_specialists;
+    => nrel_associative_connection: by_educational_program_of_special_training_necessary_for_occupying_certain_positions;
+    => nrel_associative_connection: by_educational_program_of_special_training_required_for_individual_positions_of_employees;
+    => nrel_associative_connection: by_compulsory_preparation;
+    => nrel_associative_connection: by_pedagogical_activity_in_the_sphere_of_physical_culture_and_sport;
+    => nrel_associative_connection: by_initial_preparation;
+    => nrel_associative_connection: by_physical_education;
+
+    => nrel_legal_act: by_act_h11400125;
+    => nrel_legal_act: by_act_c20700601;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10194?langname=ru];
+    => nrel_etalon_online_idx: [10194];;

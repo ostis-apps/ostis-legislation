@@ -1,0 +1,35 @@
+
+by_mineralogical_paleontologic_and_other_unique_geological_materials
+    => nrel_main_idtf: [mineralogical, paleontologic and other unique geological materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [минералогические, палеонтологические и иные уникальные геологические материалы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінералагічныя, палеанталагічныя і іншыя ўнікальныя геалагічныя матэрыялы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mineralogical_paleontologic_and_other_unique_geological_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geological_information;
+    => nrel_associative_connection: by_geological_technical_task__to_the_site_on_geological_study_of_subsoil;
+    => nrel_associative_connection: by_geological_study_of_subsoil;
+    => nrel_associative_connection: by_geological_and_ecological_studies;
+    => nrel_associative_connection: by_mineral_wealth;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17384?langname=ru];
+    => nrel_etalon_online_idx: [17384];;

@@ -1,0 +1,77 @@
+
+by_infectious_diseases
+    => nrel_main_idtf: [infectious diseases] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфекционные заболевания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфекцыйныя захворванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_diseases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_diseases_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antiseptic_medicine;
+    => nrel_associative_connection: by_vaccines;
+    => nrel_associative_connection: by_fungal_infections_mycoses;
+    => nrel_associative_connection: by_group_diseases;
+    => nrel_associative_connection: by_disinfection_disinsection_and_deratization_activities;
+    => nrel_associative_connection: by_disinfection;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_immunization;
+    => nrel_associative_connection: by_immunization_of_infectious_diseases;
+    => nrel_associative_connection: by_infectious_disease_specialized_assistance_team;
+    => nrel_associative_connection: by_infectious_disease;
+    => nrel_associative_connection: by_infectivity;
+    => nrel_associative_connection: by_infectious_control;
+    => nrel_associative_connection: by_infected_object;
+    => nrel_associative_connection: by_source_of_infection;
+    => nrel_associative_connection: by_source_of_infectious_diseases;
+    => nrel_associative_connection: by_contact_persons;
+    => nrel_associative_connection: by_mass_noninfectious_diseases;
+    => nrel_associative_connection: by_restrictive_measures;
+    => nrel_associative_connection: by_operational_epidemiological_analysis;
+    => nrel_associative_connection: by_opportunistic_diseases;
+    => nrel_associative_connection: by_acute_kidney_damage;
+    => nrel_associative_connection: by_acute_respiratory_diseases;
+    => nrel_associative_connection: by_hearth_of_contagious_animal_illness;
+    => nrel_associative_connection: by_pneumonia;
+    => nrel_associative_connection: by_heavy_flow_pneumonia;
+    => nrel_associative_connection: by_prevention_of_the_spread_of_socially_dangerous_diseases_hiv;
+    => nrel_associative_connection: by_sanitary_norms_and_rules;
+    => nrel_associative_connection: by_socially_dangerous_disease;
+    => nrel_associative_connection: by_aids;
+    => nrel_associative_connection: by_tuberculosis_incidence_rate;
+
+    => nrel_legal_act: by_act_h11200340;
+    => nrel_legal_act: by_act_w21529603p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10405?langname=ru];
+    => nrel_etalon_online_idx: [10405];;

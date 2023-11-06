@@ -1,0 +1,37 @@
+
+by_hemorrhagic_diatheses
+    => nrel_main_idtf: [hemorrhagic diatheses] (* <- lang_en;; *);
+    => nrel_main_idtf: [геморрагические диатезы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гемарагічныя дыятэзы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hemorrhagic_diatheses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hematology;
+    => nrel_associative_connection: by_hemoblastosis;
+    => nrel_associative_connection: by_hematopoiesis;
+    => nrel_associative_connection: by_hemostasis;
+    => nrel_associative_connection: by_histiocytic_syndromes;
+    => nrel_associative_connection: by_immunohematology;
+    => nrel_associative_connection: by_leukemoid_reactions;
+
+    => nrel_legal_act: by_act_w22035638p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33932?langname=ru];
+    => nrel_etalon_online_idx: [33932];;

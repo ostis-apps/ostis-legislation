@@ -1,0 +1,32 @@
+
+by_identification_sign
+    => nrel_main_idtf: [identification sign] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольный знак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольны  знак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_sign_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_registered_highsecurity_forms;
+    => nrel_associative_connection: by_control_mark;
+
+    => nrel_legal_act: by_act_h10800429;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4591?langname=ru];
+    => nrel_etalon_online_idx: [4591];;

@@ -1,0 +1,32 @@
+
+by_main_type_of_economic_activity_of_legal_entity_individual_entrepreneur
+    => nrel_main_idtf: [main type of economic activity of legal entity, individual entrepreneur] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной вид экономической деятельности юридического лица, индивидуального предпринимателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны від эканамічнай дзейнасці юрыдычнай асобы, індывідуальнага прадпрымальніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_type_of_economic_activity_of_legal_entity_individual_entrepreneur_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_economic_activity_agriculture;
+    => nrel_associative_connection: by_main_type_of_economic_activity;
+
+    => nrel_legal_act: by_act_w21731737;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19381?langname=ru];
+    => nrel_etalon_online_idx: [19381];;

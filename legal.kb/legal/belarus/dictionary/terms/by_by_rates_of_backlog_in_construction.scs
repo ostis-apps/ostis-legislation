@@ -1,0 +1,34 @@
+
+by_by_rates_of_backlog_in_construction
+    => nrel_main_idtf: [by_rates_of_backlog_in_construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормы задела в строительстве] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нормы задзелу ў будаўніцтве] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_rates_of_backlog_in_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contracting_works;
+    => nrel_associative_connection: by_consolidated_cost_standards_for_the_type_of_work;
+    => nrel_associative_connection: by_enhanced_standards_for_the_cost_of_construction_of_a_unit_area_volume_capacity_of_the_facility;
+    => nrel_associative_connection: by_actual_cost_of_works_being_contracted_out;
+
+    => nrel_legal_act: by_act_c21101553;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42599?langname=ru];
+    => nrel_etalon_online_idx: [42599];;

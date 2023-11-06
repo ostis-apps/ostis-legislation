@@ -1,0 +1,35 @@
+
+by_mosaic_roman_florentine_and_other
+    => nrel_main_idtf: [mosaic (roman, florentine and other)] (* <- lang_en;; *);
+    => nrel_main_idtf: [мозаика (римская, флорентийская и иная)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мазаіка (рымская, фларэнтыйская і іншая)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mosaic_roman_florentine_and_other_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monumental_and_decorative_sculpture;
+    => nrel_associative_connection: by_monumental_decorative_fabric;
+    => nrel_associative_connection: by_monumental_and_decorative_art;
+    => nrel_associative_connection: by_work_of_monumental_and_decorative_art_of_religious_character;
+    => nrel_associative_connection: by_reconstruction_of_works_of_monumental_and_monumental_decorative_art;
+
+    => nrel_legal_act: by_act_c20801372;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39755?langname=ru];
+    => nrel_etalon_online_idx: [39755];;

@@ -1,0 +1,41 @@
+
+by_biological_efficacy_of_plant_protection_products
+    => nrel_main_idtf: [biological efficacy of plant protection products] (* <- lang_en;; *);
+    => nrel_main_idtf: [биологическая эффективность средства защиты растений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біялагічная эфектыўнасць сродку абароны раслін] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biological_efficacy_of_plant_protection_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biological_plant_protection_product;
+    => nrel_associative_connection: by_pests_of_plants_and_or_plant_products;
+    => nrel_associative_connection: by_active_substance_of_a_plant_protection_product;
+    => nrel_associative_connection: by_plant_protection;
+    => nrel_associative_connection: by_change_of_the_preparation_type_of_a_plant_protection_product_fertilizer;
+    => nrel_associative_connection: by_quality_of_plant_protection_products;
+    => nrel_associative_connection: by_plant_protection_events;
+    => nrel_associative_connection: by_preparation_type_of_a_plant_protection_product_fertilizer;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_plant_protection_products;
+    => nrel_associative_connection: by_economic_efficiency_of_a_plant_protection_product_and_fertilizer;
+
+    => nrel_legal_act: by_act_w20614965;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12750?langname=ru];
+    => nrel_etalon_online_idx: [12750];;

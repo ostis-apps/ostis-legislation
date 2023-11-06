@@ -1,0 +1,34 @@
+
+by_tensile_specific_strength
+    => nrel_main_idtf: [tensile specific strength] (* <- lang_en;; *);
+    => nrel_main_idtf: [удельная прочность при растяжении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельная трываласць пры расцяжэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tensile_specific_strength_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dynamic_strength;
+    => nrel_associative_connection: by_margin_of_safety;
+    => nrel_associative_connection: by_strength_tests;
+    => nrel_associative_connection: by_specific_goods_works_services;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25411?langname=ru];
+    => nrel_etalon_online_idx: [25411];;

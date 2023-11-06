@@ -1,0 +1,76 @@
+
+by_credit_contract
+    => nrel_main_idtf: [credit contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредитный договор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдытны дагавор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_credit_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_credit_contract_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_annuity_payments;
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_bank_secrecy;
+    => nrel_associative_connection: by_renewable_credit_line;
+    => nrel_associative_connection: by_differentiated_payments;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_longterm_credits;
+    => nrel_associative_connection: by_credit_agreement_debt;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_illegaly_obtained_credit;
+    => nrel_associative_connection: by_credit_history;
+    => nrel_associative_connection: by_credit_card;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_lending_to_individuals_on_installment_terms;
+    => nrel_associative_connection: by_borrower;
+    => nrel_associative_connection: by_creditability;
+    => nrel_associative_connection: by_overdraft_limit;
+    => nrel_associative_connection: by_interbank_loan_agreement;
+    => nrel_associative_connection: by_multicurrency_credit_line;
+    => nrel_associative_connection: by_multicurrency_credit;
+    => nrel_associative_connection: by_deferment_of_payment_on_a_credit_contract;
+    => nrel_associative_connection: by_credit_contract_payment;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_overdue_debt_under_the_loan_agreement;
+    => nrel_associative_connection: by_percent;
+    => nrel_associative_connection: by_installment_payment_under_the_loan_agreement;
+    => nrel_associative_connection: by_syndicated_credit;
+    => nrel_associative_connection: by_term_of_full_return_redemption_of_credit;
+    => nrel_associative_connection: by_term_of_the_loan_term_of_renewability_of_the_credit_line;
+    => nrel_associative_connection: by_tranche_credit;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1705?langname=ru];
+    => nrel_etalon_online_idx: [1705];;

@@ -1,0 +1,34 @@
+
+by_support_shoe
+    => nrel_main_idtf: [support shoe] (* <- lang_en;; *);
+    => nrel_main_idtf: [опорный башмак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апорны башмак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_support_shoe_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_linear_support_bearing_rope;
+    => nrel_associative_connection: by_nonsubstant_traction_rope;
+    => nrel_associative_connection: by_carrying_rope;
+    => nrel_associative_connection: by_support;
+
+    => nrel_legal_act: by_act_w22339538p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19075?langname=ru];
+    => nrel_etalon_online_idx: [19075];;

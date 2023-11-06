@@ -1,0 +1,51 @@
+
+by_suspicious_financial_transaction
+    => nrel_main_idtf: [suspicious financial transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [финансовая операция, вызывающая подозрение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фінансавая аперацыя, якая выклікае падазрэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspicious_financial_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspicious_financial_transaction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_service_product;
+    => nrel_associative_connection: by_correspondent_banking_relations;
+    => nrel_associative_connection: by_suspicious_financial_operation;
+    => nrel_associative_connection: by_representative_of_the_client;
+    => nrel_associative_connection: by_suspension_of_financial_operations_by_the_body_of_financial_monitoring;
+
+    => nrel_legal_act: by_act_b21631380;
+    => nrel_legal_act: by_act_b21529598;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25993?langname=ru];
+    => nrel_etalon_online_idx: [25993];;

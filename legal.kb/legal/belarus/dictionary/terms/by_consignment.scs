@@ -1,0 +1,90 @@
+
+by_consignment
+    => nrel_main_idtf: [consignment] (* <- lang_en;; *);
+    => nrel_main_idtf: [партия товара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партыя тавару] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignment_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignment_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_luggage;
+    => nrel_associative_connection: by_caviar_lot;
+    => nrel_associative_connection: by_weapons_lot;
+    => nrel_associative_connection: by_lot_of_food_commodity_and_food_products;
+    => nrel_associative_connection: by_products_lot;
+    => nrel_associative_connection: by_fish_lot;
+    => nrel_associative_connection: by_lot_of_forest_plants_seeds;
+    => nrel_associative_connection: by_purchase_of_goods_works_services;
+    => nrel_associative_connection: by_products_of_series_production;
+    => nrel_associative_connection: by_good;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_loss_of_goods;
+
+    => nrel_legal_act: by_act_f91800231;
+    => nrel_legal_act: by_act_n00900672;
+    => nrel_legal_act: by_act_i00900013;
+    => nrel_legal_act: by_act_n71300119;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6471?langname=ru];
+    => nrel_etalon_online_idx: [6471];;

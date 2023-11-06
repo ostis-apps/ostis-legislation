@@ -1,0 +1,37 @@
+
+by_bison_micropopulation
+    => nrel_main_idtf: [bison micropopulation] (* <- lang_en;; *);
+    => nrel_main_idtf: [микропопуляция зубра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мікрапапуляцыя зубра] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bison_micropopulation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarusian_bison_population;
+    => nrel_associative_connection: by_belarusian_population_of_bisons;
+    => nrel_associative_connection: by_owners_of_bison;
+    => nrel_associative_connection: by_bison_micropopulation_holders;
+    => nrel_associative_connection: by_bison_of_the_main_gene_pool;
+    => nrel_associative_connection: by_bison_of_reserve_gene_pool;
+    => nrel_associative_connection: by_micropopulation_subpopulation_of_bisons;
+
+    => nrel_legal_act: by_act_c22000708;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36263?langname=ru];
+    => nrel_etalon_online_idx: [36263];;

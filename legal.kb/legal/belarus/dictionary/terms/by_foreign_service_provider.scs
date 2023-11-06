@@ -1,0 +1,53 @@
+
+by_foreign_service_provider
+    => nrel_main_idtf: [foreign service provider] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранный исполнитель услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежны выканаўца паслуг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_service_provider_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_service_provider_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_a_foreign_company;
+    => nrel_associative_connection: by_foreign_person;
+    => nrel_associative_connection: by_foreign_customer_of_services;
+    => nrel_associative_connection: by_executor_of_works_services;
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+    => nrel_legal_act: by_act_h10400347;
+    => nrel_legal_act: by_act_f21000215;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15359?langname=ru];
+    => nrel_etalon_online_idx: [15359];;

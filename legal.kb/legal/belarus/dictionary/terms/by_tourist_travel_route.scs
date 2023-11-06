@@ -1,0 +1,38 @@
+
+by_tourist_travel_route
+    => nrel_main_idtf: [tourist travel route] (* <- lang_en;; *);
+    => nrel_main_idtf: [маршрут туристического путешествия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маршрут турыстычнага падарожжа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tourist_travel_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_outside_tourism;
+    => nrel_associative_connection: by_additional_travel_services;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_tourist;
+    => nrel_associative_connection: by_tourist_group;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_travel_services;
+    => nrel_associative_connection: by_touristic_travel;
+
+    => nrel_legal_act: by_act_h12100129;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16901?langname=ru];
+    => nrel_etalon_online_idx: [16901];;

@@ -1,0 +1,36 @@
+
+by_safety_line_reinforced_shoulder
+    => nrel_main_idtf: [safety line (reinforced shoulder)] (* <- lang_en;; *);
+    => nrel_main_idtf: [боковая полоса безопасности (укрепленная обочина)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бакавая паласа бяспекі (умацаваная абочына)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_line_reinforced_shoulder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lateral_wind_component;
+    => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_category_i_precision_approach_runway;
+    => nrel_associative_connection: by_category_ii_precision_approach_runway;
+    => nrel_associative_connection: by_category_iii_precision_approach_runway;
+    => nrel_associative_connection: by_roadside;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41016?langname=ru];
+    => nrel_etalon_online_idx: [41016];;

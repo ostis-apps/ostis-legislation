@@ -1,0 +1,23 @@
+
+by_payment_operation_operation
+    => nrel_main_idtf: [payment operation (operation)] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежная операция (операция)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежная аперацыя (аперацыя)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_nonoperator_mode_of_operation;
+    => nrel_associative_connection: by_contactless_information_carrier;
+    => nrel_associative_connection: by_output_documents;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_expenditure_operation;
+    => nrel_associative_connection: by_calculated_operations;
+    => nrel_associative_connection: by_payment_made;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30669?langname=ru];
+    => nrel_etalon_online_idx: [30669];;

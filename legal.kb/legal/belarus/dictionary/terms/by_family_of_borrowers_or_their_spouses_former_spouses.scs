@@ -1,0 +1,34 @@
+
+by_family_of_borrowers_or_their_spouses_former_spouses
+    => nrel_main_idtf: [family of borrowers or their spouses (former spouses)] (* <- lang_en;; *);
+    => nrel_main_idtf: [семья кредитополучателей или их супругов (бывших супругов)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сям'я крэдытаатрымальнікаў або іх мужоў (быўшых мужа і жонкі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_family_of_borrowers_or_their_spouses_former_spouses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_borrower;
+    => nrel_associative_connection: by_assessment_of_the_creditworthiness_of_the_applicant_borrower;
+    => nrel_associative_connection: by_account_of_the_borrower;
+    => nrel_associative_connection: by_family_members_of_the_lender;
+
+    => nrel_legal_act: by_act_c20801424;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39750?langname=ru];
+    => nrel_etalon_online_idx: [39750];;

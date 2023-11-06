@@ -1,0 +1,35 @@
+
+by_social_effect
+    => nrel_main_idtf: [social effect] (* <- lang_en;; *);
+    => nrel_main_idtf: [социальный эффект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сацыяльны эфект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_effect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_parent_organizationexecutor;
+    => nrel_associative_connection: by_task_for_a_budgetary_organization_recipient_of_innovation_funds;
+    => nrel_associative_connection: by_provision_of_commercialization_of_scientifictechnical_activity_results;
+    => nrel_associative_connection: by_results_of_scientific_and_technical_activity;
+    => nrel_associative_connection: by_economic_effect;
+
+    => nrel_legal_act: by_act_p31300059;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30310?langname=ru];
+    => nrel_etalon_online_idx: [30310];;

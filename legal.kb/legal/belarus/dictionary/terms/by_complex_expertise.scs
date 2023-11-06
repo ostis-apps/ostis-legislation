@@ -1,0 +1,49 @@
+
+by_complex_expertise
+    => nrel_main_idtf: [complex expertise] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплексная экспертиза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [комплексная экспертыза] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_expertise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_expertise_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_complex_examination_of_investment_projects;
+    => nrel_associative_connection: by_specialist;
+    => nrel_associative_connection: by_expertise;
+
+    => nrel_legal_act: by_act_c20900026;
+    => nrel_legal_act: by_act_t21603386;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2704?langname=ru];
+    => nrel_etalon_online_idx: [2704];;

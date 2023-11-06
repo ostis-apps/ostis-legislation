@@ -1,0 +1,33 @@
+
+by_land_relations
+    => nrel_main_idtf: [land relations] (* <- lang_en;; *);
+    => nrel_main_idtf: [земельные отношения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зямельныя адносіны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_relations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_land_resources;
+    => nrel_associative_connection: by_land_dispute;
+    => nrel_associative_connection: by_invalid_transactions_with_land_plots_and_rights_to_land_plots;
+
+    => nrel_legal_act: by_act_hk0800425;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5829?langname=ru];
+    => nrel_etalon_online_idx: [5829];;

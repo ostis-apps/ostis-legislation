@@ -1,0 +1,40 @@
+
+by_service_passenger_car
+    => nrel_main_idtf: [service passenger car] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебный легковой автомобиль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовы легкавы аўтамабіль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_passenger_car_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_duty_vehicle;
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_limit_of_service_automobiles_amount;
+    => nrel_associative_connection: by_machines_line;
+    => nrel_associative_connection: by_security_normative_for_special_automobiles;
+    => nrel_associative_connection: by_executive_car;
+    => nrel_associative_connection: by_job_responsibilities;
+    => nrel_associative_connection: by_company_car;
+    => nrel_associative_connection: by_centralized_delivery;
+
+    => nrel_legal_act: by_act_p32300191;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23369?langname=ru];
+    => nrel_etalon_online_idx: [23369];;

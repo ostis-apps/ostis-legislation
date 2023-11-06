@@ -1,0 +1,37 @@
+
+by_actual_size_of_calculations
+    => nrel_main_idtf: [actual size of calculations] (* <- lang_en;; *);
+    => nrel_main_idtf: [фактический размер расчетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фактычны памер разлікаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_actual_size_of_calculations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_identity_documents;
+    => nrel_associative_connection: by_cash_operations;
+    => nrel_associative_connection: by_cash_monetary_circulation;
+    => nrel_associative_connection: by_separate_subdivisions;
+    => nrel_associative_connection: by_balance_of_cash_belarusian_rubles_cash_foreign_currency;
+    => nrel_associative_connection: by_dispenser;
+    => nrel_associative_connection: by_authorized_persons;
+
+    => nrel_legal_act: by_act_b21934014;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31046?langname=ru];
+    => nrel_etalon_online_idx: [31046];;

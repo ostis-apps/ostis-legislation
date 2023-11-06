@@ -1,0 +1,52 @@
+
+by_specialized_secondary_education
+    => nrel_main_idtf: [specialized secondary education] (* <- lang_en;; *);
+    => nrel_main_idtf: [среднее специальное образование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэдняя спецыяльная адукацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialized_secondary_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_actor;
+    => nrel_associative_connection: by_basic_school;
+    => nrel_associative_connection: by_ballet;
+    => nrel_associative_connection: by_preschool_education;
+    => nrel_associative_connection: by_qualified_personnel;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_teaching;
+    => nrel_associative_connection: by_general_secondary_education;
+    => nrel_associative_connection: by_dormitory;
+    => nrel_associative_connection: by_basic_education;
+    => nrel_associative_connection: by_pedagogic_process;
+    => nrel_associative_connection: by_advanced_training;
+    => nrel_associative_connection: by_professional_and_technical_education;
+    => nrel_associative_connection: by_specialized_education;
+    => nrel_associative_connection: by_secondary_schoololympic_reserve_school;
+    => nrel_associative_connection: by_participants_of_the_educational_process_in_the_implementation_of_educational_programs_of_specialized_secondary_education;
+    => nrel_associative_connection: by_schoolchildren;
+    => nrel_associative_connection: by_training_and_testing_site_farm;
+    => nrel_associative_connection: by_educational_and_teaching_complex;
+    => nrel_associative_connection: by_institution_of_specialized_secondary_education;
+    => nrel_associative_connection: by_institutions_of_secondary_special_education;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1965?langname=ru];
+    => nrel_etalon_online_idx: [1965];;

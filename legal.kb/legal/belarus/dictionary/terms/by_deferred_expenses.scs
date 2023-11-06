@@ -1,0 +1,41 @@
+
+by_deferred_expenses
+    => nrel_main_idtf: [deferred expenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [расходы будущих периодов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [расходы будучых перыядаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deferred_expenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_income_of_the_future_periods;
+    => nrel_associative_connection: by_commission_charges;
+    => nrel_associative_connection: by_accrued_charge;
+    => nrel_associative_connection: by_reporting_month_period;
+    => nrel_associative_connection: by_accrual_principle;
+    => nrel_associative_connection: by_financial_results_forecast;
+    => nrel_associative_connection: by_prospective_financial_information;
+    => nrel_associative_connection: by_budgeted_balance_sheet;
+    => nrel_associative_connection: by_interest_expenses;
+    => nrel_associative_connection: by_other_bank_income_and_other_bank_expenses;
+    => nrel_associative_connection: by_charges;
+
+    => nrel_legal_act: by_act_b20921330;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22183?langname=ru];
+    => nrel_etalon_online_idx: [22183];;

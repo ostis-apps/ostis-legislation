@@ -1,0 +1,40 @@
+
+by_participant_of_financial_transaction
+    => nrel_main_idtf: [participant of financial transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник финансовой операции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік фінансавай аперацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participant_of_financial_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intragroup_operations;
+    => nrel_associative_connection: by_update;
+    => nrel_associative_connection: by_organization_that_is_not_a_legal_entity;
+    => nrel_associative_connection: by_suspicious_financial_operation;
+    => nrel_associative_connection: by_representative_of_the_client;
+    => nrel_associative_connection: by_suspension_of_financial_operations_by_the_body_of_financial_monitoring;
+    => nrel_associative_connection: by_sum_of_the_financial_operation;
+    => nrel_associative_connection: by_participant;
+    => nrel_associative_connection: by_financial_activities;
+    => nrel_associative_connection: by_financial_transaction;
+
+    => nrel_legal_act: by_act_h11400165;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11041?langname=ru];
+    => nrel_etalon_online_idx: [11041];;

@@ -1,0 +1,21 @@
+
+by_destination
+    => nrel_main_idtf: [destination] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт прызначэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_cargo_sending;
+    => nrel_associative_connection: by_readdressing;
+    => nrel_associative_connection: by_station_of_destination;
+    => nrel_associative_connection: by_telegram;
+    => nrel_associative_connection: by_telegram_transfer_service;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21847?langname=ru];
+    => nrel_etalon_online_idx: [21847];;

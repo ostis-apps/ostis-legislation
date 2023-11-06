@@ -1,0 +1,66 @@
+
+by_nominal_diameter_conditional_pass
+    => nrel_main_idtf: [nominal diameter, conditional pass] (* <- lang_en;; *);
+    => nrel_main_idtf: [диаметр номинальный, условный проход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыяметр намінальны, умоўны праход] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_diameter_conditional_pass_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_diameter_conditional_pass_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_diameter_conditional_pass_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_plug;
+    => nrel_associative_connection: by_component;
+    => nrel_associative_connection: by_equipment;
+    => nrel_associative_connection: by_measuring_instrument;
+
+    => nrel_legal_act: by_act_w22136816p;
+    => nrel_legal_act: by_act_w22035473p;
+    => nrel_legal_act: by_act_f91300137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14158?langname=ru];
+    => nrel_etalon_online_idx: [14158];;

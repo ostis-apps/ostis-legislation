@@ -1,0 +1,38 @@
+
+by_library_users
+    => nrel_main_idtf: [library users] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователи библиотек] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнікі бібліятэк] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_library_users_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_librarianship;
+    => nrel_associative_connection: by_library_worker;
+    => nrel_associative_connection: by_virtual_remote_users_of_libraries;
+    => nrel_associative_connection: by_delivery_of_documents;
+    => nrel_associative_connection: by_interlibrary_loan;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_library_network;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7917?langname=ru];
+    => nrel_etalon_online_idx: [7917];;

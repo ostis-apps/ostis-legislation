@@ -1,0 +1,35 @@
+
+by_business_planning
+    => nrel_main_idtf: [business planning] (* <- lang_en;; *);
+    => nrel_main_idtf: [бизнес-планирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бізнес-планаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_business_planning_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bussiness;
+    => nrel_associative_connection: by_business_documentation;
+    => nrel_associative_connection: by_business_communication;
+    => nrel_associative_connection: by_business_event;
+    => nrel_associative_connection: by_educational_standard;
+
+    => nrel_legal_act: by_act_w22137287p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38964?langname=ru];
+    => nrel_etalon_online_idx: [38964];;

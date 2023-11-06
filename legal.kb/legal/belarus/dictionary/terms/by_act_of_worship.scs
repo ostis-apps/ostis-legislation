@@ -1,0 +1,41 @@
+
+by_act_of_worship
+    => nrel_main_idtf: [act of worship] (* <- lang_en;; *);
+    => nrel_main_idtf: [богослужение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [богаслужэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_act_of_worship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_clerical_staff;
+    => nrel_associative_connection: by_religious_building_construction;
+    => nrel_associative_connection: by_religious_property;
+    => nrel_associative_connection: by_pilgrimage;
+    => nrel_associative_connection: by_religious_activity;
+    => nrel_associative_connection: by_religious_rites;
+    => nrel_associative_connection: by_religious_organizations;
+    => nrel_associative_connection: by_religious_rituals_and_ceremonies;
+    => nrel_associative_connection: by_religious_cult;
+    => nrel_associative_connection: by_religion;
+    => nrel_associative_connection: by_clergy_person;
+
+    => nrel_legal_act: by_act_v19202054;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8427?langname=ru];
+    => nrel_etalon_online_idx: [8427];;

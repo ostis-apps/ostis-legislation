@@ -1,0 +1,33 @@
+
+by_by_applicants
+    => nrel_main_idtf: [by_applicants] (* <- lang_en;; *);
+    => nrel_main_idtf: [обратившиеся лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, якія звярнуліся] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_applicants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_letter_of_attorney;
+    => nrel_associative_connection: by_will;
+    => nrel_associative_connection: by_interested_persons;
+
+    => nrel_legal_act: by_act_w20207858;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40014?langname=ru];
+    => nrel_etalon_online_idx: [40014];;

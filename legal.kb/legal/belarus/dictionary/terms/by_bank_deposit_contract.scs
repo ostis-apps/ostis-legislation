@@ -1,0 +1,66 @@
+
+by_bank_deposit_contract
+    => nrel_main_idtf: [bank deposit contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор банковского вклада (депозита)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор банкаўскага ўкладу (дэпазіту)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_deposit_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_deposit_contract_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_irrevocable_contracts;
+    => nrel_associative_connection: by_depositor;
+    => nrel_associative_connection: by_deposit_metal_account;
+    => nrel_associative_connection: by_certificate_of_deposit;
+    => nrel_associative_connection: by_deposits;
+    => nrel_associative_connection: by_bailor;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_demand_bank_deposit_contract;
+    => nrel_associative_connection: by_bank_deposit_contract_with_the_depositor;
+    => nrel_associative_connection: by_term_bank_deposit_contract;
+    => nrel_associative_connection: by_conditional_bank_deposit_contract;
+    => nrel_associative_connection: by_other_contribution_deposit;
+    => nrel_associative_connection: by_shortterm_assets_of_a_forex_company;
+    => nrel_associative_connection: by_revocable_contracts;
+    => nrel_associative_connection: by_passive_bank_operations;
+    => nrel_associative_connection: by_percent;
+    => nrel_associative_connection: by_savings_certificate;
+    => nrel_associative_connection: by_term_deposits;
+    => nrel_associative_connection: by_current_assets_of_the_forex_company;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1436?langname=ru];
+    => nrel_etalon_online_idx: [1436];;

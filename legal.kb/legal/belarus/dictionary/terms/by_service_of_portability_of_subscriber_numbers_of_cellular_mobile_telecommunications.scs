@@ -1,0 +1,39 @@
+
+by_service_of_portability_of_subscriber_numbers_of_cellular_mobile_telecommunications
+    => nrel_main_idtf: [service of portability of subscriber number(s) of cellular mobile telecommunications] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуга переносимости абонентского номера (номеров) сотовой подвижной электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслуга пераноснасці абаненцкага нумара (нумароў) сотавай рухомай электрасувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_service_of_portability_of_subscriber_numbers_of_cellular_mobile_telecommunications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_subscribers_socket;
+    => nrel_associative_connection: by_telecommunication_services_user;
+    => nrel_associative_connection: by_cellular_mobile_telecommunication_network;
+    => nrel_associative_connection: by_cellular_mobile_network_connection;
+    => nrel_associative_connection: by_reference_and_information_service;
+    => nrel_associative_connection: by_telematic_service;
+    => nrel_associative_connection: by_service_for_providing_access_to_the_network_of_stationary_telecommunications_using_a_terminal_subscriber_device;
+    => nrel_associative_connection: by_service_for_providing_access_to_services_of_local_telephone_communication;
+    => nrel_associative_connection: by_communication_services;
+
+    => nrel_legal_act: by_act_c20601055;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25616?langname=ru];
+    => nrel_etalon_online_idx: [25616];;

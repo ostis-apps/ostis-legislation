@@ -1,0 +1,34 @@
+
+by_severe_disabling_disease
+    => nrel_main_idtf: [severe disabling disease] (* <- lang_en;; *);
+    => nrel_main_idtf: [тяжелое инвалидизирующее заболевание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цяжкае инвалидизирующее захворванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_severe_disabling_disease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lifethreatening_disease;
+    => nrel_associative_connection: by_disease__limiting_life_expectancy;
+    => nrel_associative_connection: by_occupational_disease_chronic_or_acute;
+    => nrel_associative_connection: by_socially_dangerous_disease;
+
+    => nrel_legal_act: by_act_w22035960;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35531?langname=ru];
+    => nrel_etalon_online_idx: [35531];;

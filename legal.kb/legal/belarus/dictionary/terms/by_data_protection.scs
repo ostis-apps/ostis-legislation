@@ -1,0 +1,52 @@
+
+by_data_protection
+    => nrel_main_idtf: [data protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [защита данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахова даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_data_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_data_protection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_flow_chart;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_information_process;
+    => nrel_associative_connection: by_data_processing;
+    => nrel_associative_connection: by_memory;
+
+    => nrel_legal_act: by_act_w21833696p;
+    => nrel_legal_act: by_act_w21530395p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30742?langname=ru];
+    => nrel_etalon_online_idx: [30742];;

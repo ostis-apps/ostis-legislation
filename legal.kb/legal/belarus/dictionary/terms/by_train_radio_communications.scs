@@ -1,0 +1,34 @@
+
+by_train_radio_communications
+    => nrel_main_idtf: [train radio communications] (* <- lang_en;; *);
+    => nrel_main_idtf: [поездная радиосвязь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягниковая радыёсувязь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_train_radio_communications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_train_traffic_control_communication;
+    => nrel_associative_connection: by_train_interstation_communication;
+    => nrel_associative_connection: by_train_formation_doesnt_belong_to_the_carrier;
+    => nrel_associative_connection: by_radio_communication;
+
+    => nrel_legal_act: by_act_w21530414p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34263?langname=ru];
+    => nrel_etalon_online_idx: [34263];;

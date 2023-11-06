@@ -1,0 +1,20 @@
+
+by_tender_commission_for_the_contract_bidding_negotiations
+    => nrel_main_idtf: [tender commission for the contract bidding (negotiations)] (* <- lang_en;; *);
+    => nrel_main_idtf: [конкурсная комиссия по проведению подрядных торгов (торгов, переговоров)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [конкурсная камісія па правядзенні падрадных таргоў (таргоў, перамоў)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_commission;
+    => nrel_associative_connection: by_competition_commission;
+    => nrel_associative_connection: by_organizer_of_contract_bidding_negotiations;
+    => nrel_associative_connection: by_contract_bidding;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11356?langname=ru];
+    => nrel_etalon_online_idx: [11356];;

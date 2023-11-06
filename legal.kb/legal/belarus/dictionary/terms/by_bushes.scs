@@ -1,0 +1,51 @@
+
+by_bushes
+    => nrel_main_idtf: [bushes] (* <- lang_en;; *);
+    => nrel_main_idtf: [кустарники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хмызнякі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bushes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agritechnical_care;
+    => nrel_associative_connection: by_arabesque;
+    => nrel_associative_connection: by_curb;
+    => nrel_associative_connection: by_height_of_tree_and_shrubbery_vegetation_plantations;
+    => nrel_associative_connection: by_tree_and_shrubbery_vegetation;
+    => nrel_associative_connection: by_lands_under_tree_and_shrubbery_vegetation_plantations;
+    => nrel_associative_connection: by_beautiful_flowering_shrubs;
+    => nrel_associative_connection: by_cultivated_tree_species;
+    => nrel_associative_connection: by_bushes_damaged_to_the_degree_of_cessation_of_growth;
+    => nrel_associative_connection: by_bushes_damaged_not_to_the_degree_of_cessation_of_growth;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_plantations;
+    => nrel_associative_connection: by_illegal_cutting_of_trees_and_shrubs;
+    => nrel_associative_connection: by_brush;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_wood_species_mixing_scheme;
+    => nrel_associative_connection: by_destruction_of_trees_shrubs;
+    => nrel_associative_connection: by_chemical_care;
+
+    => nrel_legal_act: by_act_w21832881;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27962?langname=ru];
+    => nrel_etalon_online_idx: [27962];;

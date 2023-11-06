@@ -1,0 +1,34 @@
+
+by_senior_people
+    => nrel_main_idtf: [senior people] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожилые граждане] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажылыя грамадзяне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_senior_people_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_destitute_senior_people_and_disabled_citizens;
+    => nrel_associative_connection: by_lonely_senior_people_and_lonely_disabled_people;
+    => nrel_associative_connection: by_lonely_living_senior_people_and_lonely_living_disabled_people;
+    => nrel_associative_connection: by_custody_and_trusteeship;
+
+    => nrel_legal_act: by_act_w21934569p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33693?langname=ru];
+    => nrel_etalon_online_idx: [33693];;

@@ -1,0 +1,78 @@
+
+by_reactor_plant
+    => nrel_main_idtf: [reactor plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [реакторная установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэактарная ўстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reactor_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reactor_plant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reactor_plant_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_zone;
+    => nrel_associative_connection: by_internal_selfprotection_of_reactor_installation;
+    => nrel_associative_connection: by_sealed_fencing;
+    => nrel_associative_connection: by_proportion_of_delayed_neutrons_bef;
+    => nrel_associative_connection: by_extraction_of_means_of_influencing_reactivity;
+    => nrel_associative_connection: by_control_channel;
+    => nrel_associative_connection: by_set_of_emergency_protection_equipment;
+    => nrel_associative_connection: by_circuit_of_heat_carrying_agent_of_the_reactor_first_circuit;
+    => nrel_associative_connection: by_maximum_reactivity_margin;
+    => nrel_associative_connection: by_material_science_organization;
+    => nrel_associative_connection: by_disturbance_of_normal_exploitation;
+    => nrel_associative_connection: by_shutdown_of_research_nuclear_facilities;
+    => nrel_associative_connection: by_first_circuit_of_the_research_reactor;
+    => nrel_associative_connection: by_core_overload_overload;
+    => nrel_associative_connection: by_nuclear_research_reactor;
+    => nrel_associative_connection: by_installation;
+
+    => nrel_legal_act: by_act_w22238230p;
+    => nrel_legal_act: by_act_w22137067p;
+    => nrel_legal_act: by_act_w22035399p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33325?langname=ru];
+    => nrel_etalon_online_idx: [33325];;

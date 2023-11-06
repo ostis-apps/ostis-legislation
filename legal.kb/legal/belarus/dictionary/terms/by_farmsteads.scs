@@ -1,0 +1,33 @@
+
+by_farmsteads
+    => nrel_main_idtf: [farmsteads] (* <- lang_en;; *);
+    => nrel_main_idtf: [хутора ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хутары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_farmsteads_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rural_settlements_with_improved_infrastructure;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_settlements_villages;
+
+    => nrel_legal_act: by_act_h19800154;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7850?langname=ru];
+    => nrel_etalon_online_idx: [7850];;

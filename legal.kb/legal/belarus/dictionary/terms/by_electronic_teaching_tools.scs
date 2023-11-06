@@ -1,0 +1,35 @@
+
+by_electronic_teaching_tools
+    => nrel_main_idtf: [electronic teaching tools] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронные средства обучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронныя сродкі навучання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_teaching_tools_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_places_of_accommodation_of_students;
+    => nrel_associative_connection: by_training;
+    => nrel_associative_connection: by_food_facility_for_children;
+    => nrel_associative_connection: by_institutions_for_children;
+    => nrel_associative_connection: by_institutions_for_orphaned_children;
+
+    => nrel_legal_act: by_act_c21900525;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31440?langname=ru];
+    => nrel_etalon_online_idx: [31440];;

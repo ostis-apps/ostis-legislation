@@ -1,0 +1,20 @@
+
+by_metal_accounts
+    => nrel_main_idtf: [metal accounts] (* <- lang_en;; *);
+    => nrel_main_idtf: [металлические счета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [металічныя рахункі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bank_deposit;
+    => nrel_associative_connection: by_deposit_metal_account;
+    => nrel_associative_connection: by_depersonalized_metal_account;
+    => nrel_associative_connection: by_accounts_in_precious_metals_metal_accounts;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17291?langname=ru];
+    => nrel_etalon_online_idx: [17291];;

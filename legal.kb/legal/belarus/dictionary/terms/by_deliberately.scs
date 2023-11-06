@@ -1,0 +1,32 @@
+
+by_deliberately
+    => nrel_main_idtf: [deliberately] (* <- lang_en;; *);
+    => nrel_main_idtf: [заведомо] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заведама] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deliberately_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_guilt;
+    => nrel_associative_connection: by_deliberately_false_facts;
+
+    => nrel_legal_act: by_act_hk2100091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9153?langname=ru];
+    => nrel_etalon_online_idx: [9153];;

@@ -1,0 +1,34 @@
+
+by_description_of_the_variety
+    => nrel_main_idtf: [description of the variety] (* <- lang_en;; *);
+    => nrel_main_idtf: [описание сорта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апісанне сорту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_description_of_the_variety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agricultural_plants;
+    => nrel_associative_connection: by_mixed_sowing;
+    => nrel_associative_connection: by_variety;
+    => nrel_associative_connection: by_variety_of_plant;
+
+    => nrel_legal_act: by_act_c22100746;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39556?langname=ru];
+    => nrel_etalon_online_idx: [39556];;

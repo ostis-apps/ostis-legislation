@@ -1,0 +1,53 @@
+
+by_hunting_produce_neutralization
+    => nrel_main_idtf: [hunting produce neutralization] (* <- lang_en;; *);
+    => nrel_main_idtf: [обезвреживание продукции охоты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абясшкоджванне прадукцыі палявання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_produce_neutralization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_produce_neutralization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fowl_meat_products;
+    => nrel_associative_connection: by_neutralization;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunting_trophies;
+    => nrel_associative_connection: by_products_of_hunting;
+    => nrel_associative_connection: by_radioactive_contamination_of_hunting_products;
+    => nrel_associative_connection: by_cutting_of_hunting_products;
+
+    => nrel_legal_act: by_act_c21800493;
+    => nrel_legal_act: by_act_c21001672;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11995?langname=ru];
+    => nrel_etalon_online_idx: [11995];;

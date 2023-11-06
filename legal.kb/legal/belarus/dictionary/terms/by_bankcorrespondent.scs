@@ -1,0 +1,64 @@
+
+by_bankcorrespondent
+    => nrel_main_idtf: [bank-correspondent] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-корреспондент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-карэспандэнт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bankcorrespondent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bankcorrespondent_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_letter_of_advice;
+    => nrel_associative_connection: by_active_bank_operations;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_correspondent_banks;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_banking_system_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_bank_service_product;
+    => nrel_associative_connection: by_sending_bank_payers_bank;
+    => nrel_associative_connection: by_respondent_bank;
+    => nrel_associative_connection: by_state_bank;
+    => nrel_associative_connection: by_correspondent_relations;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_proper_beneficiary;
+    => nrel_associative_connection: by_inadequate_beneficiary;
+    => nrel_associative_connection: by_account_loro;
+    => nrel_associative_connection: by_account_nostro;
+    => nrel_associative_connection: by_bank_transfer_participant;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_b21529598;
+    => nrel_legal_act: by_act_b20105770;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12645?langname=ru];
+    => nrel_etalon_online_idx: [12645];;

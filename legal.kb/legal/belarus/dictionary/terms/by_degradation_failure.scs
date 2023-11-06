@@ -1,0 +1,20 @@
+
+by_degradation_failure
+    => nrel_main_idtf: [degradation failure] (* <- lang_en;; *);
+    => nrel_main_idtf: [деградационный отказ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэградацыйная адмова] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_degradation;
+    => nrel_associative_connection: by_aging_mechanism;
+    => nrel_associative_connection: by_reliability;
+    => nrel_associative_connection: by_ageing;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31608?langname=ru];
+    => nrel_etalon_online_idx: [31608];;

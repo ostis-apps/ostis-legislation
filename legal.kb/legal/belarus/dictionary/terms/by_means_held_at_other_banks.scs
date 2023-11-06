@@ -1,0 +1,19 @@
+
+by_means_held_at_other_banks
+    => nrel_main_idtf: [means held at other banks] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства, размещенные в других банках] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі, размешчаныя ў іншых банках] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_credit;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9701?langname=ru];
+    => nrel_etalon_online_idx: [9701];;

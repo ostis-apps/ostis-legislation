@@ -1,0 +1,49 @@
+
+by_organization_equated_to_a_cityforming_organization
+    => nrel_main_idtf: [organization equated to a city-forming organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация, приравненная к градообразующей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя, прыраўнаваная да горадаўтваральнай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_equated_to_a_cityforming_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_equated_to_a_cityforming_organization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_townforming_organization;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_industrial_enterprise;
+
+    => nrel_legal_act: by_act_h12200227;
+    => nrel_legal_act: by_act_c21300016;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10505?langname=ru];
+    => nrel_etalon_online_idx: [10505];;

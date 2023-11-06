@@ -1,0 +1,77 @@
+
+by_products_lot
+    => nrel_main_idtf: [products lot] (* <- lang_en;; *);
+    => nrel_main_idtf: [партия продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партыя прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_products_lot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_products_lot_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_products_lot_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analysis_of_production_status;
+    => nrel_associative_connection: by_series_line_of_foreign_medicine_imported_by_legal_entity_or_individual_entrepreneur_to_the_territory_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_product_line_series_of_medicine_issued_by_the_manufacturer;
+    => nrel_associative_connection: by_lot;
+    => nrel_associative_connection: by_ammunition_lot;
+    => nrel_associative_connection: by_caviar_lot;
+    => nrel_associative_connection: by_weapons_lot;
+    => nrel_associative_connection: by_lot_of_food_commodity_and_food_products;
+    => nrel_associative_connection: by_fish_lot;
+    => nrel_associative_connection: by_lot_of_forest_plants_seeds;
+    => nrel_associative_connection: by_batch_of_plant_seeds;
+    => nrel_associative_connection: by_consignment;
+    => nrel_associative_connection: by_first_series_line_of_medicine;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_products_of_series_production;
+
+    => nrel_legal_act: by_act_w21732456;
+    => nrel_legal_act: by_act_f91800196;
+    => nrel_legal_act: by_act_f91200073;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19818?langname=ru];
+    => nrel_etalon_online_idx: [19818];;

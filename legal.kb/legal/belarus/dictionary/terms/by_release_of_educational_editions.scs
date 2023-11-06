@@ -1,0 +1,47 @@
+
+by_release_of_educational_editions
+    => nrel_main_idtf: [release of educational editions] (* <- lang_en;; *);
+    => nrel_main_idtf: [выпуск учебных изданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпуск навучальных выданняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_release_of_educational_editions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_authors_original_electronic_training_edition;
+    => nrel_associative_connection: by_adapted_educational_edition;
+    => nrel_associative_connection: by_adapted_educational_edition_original_for_publishing_on_the_basis_of_reliefdot_brail_system;
+    => nrel_associative_connection: by_release;
+    => nrel_associative_connection: by_order_on_educational_editions;
+    => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_class_kit;
+    => nrel_associative_connection: by_release_calendar_of_educational_publications;
+    => nrel_associative_connection: by_preparation_for_educational_publications_editions;
+    => nrel_associative_connection: by_educational_publications_preparation;
+    => nrel_associative_connection: by_workbook;
+    => nrel_associative_connection: by_reviewer;
+    => nrel_associative_connection: by_recension;
+    => nrel_associative_connection: by_review;
+    => nrel_associative_connection: by_educational_edition;
+    => nrel_associative_connection: by_chrestomathy;
+
+    => nrel_legal_act: by_act_w22339988;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13381?langname=ru];
+    => nrel_etalon_online_idx: [13381];;

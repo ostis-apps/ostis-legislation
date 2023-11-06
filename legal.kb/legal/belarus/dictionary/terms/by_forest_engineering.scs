@@ -1,0 +1,35 @@
+
+by_forest_engineering
+    => nrel_main_idtf: [forest engineering] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесная инженерия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лясная інжынерыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_engineering_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_forestry_engineer;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_complex;
+    => nrel_associative_connection: by_woodland;
+    => nrel_associative_connection: by_lumber_harvesting;
+
+    => nrel_legal_act: by_act_w22136815p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38093?langname=ru];
+    => nrel_etalon_online_idx: [38093];;

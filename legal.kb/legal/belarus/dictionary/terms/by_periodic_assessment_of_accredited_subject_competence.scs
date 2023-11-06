@@ -1,0 +1,40 @@
+
+by_periodic_assessment_of_accredited_subject_competence
+    => nrel_main_idtf: [periodic assessment of accredited subject competence] (* <- lang_en;; *);
+    => nrel_main_idtf: [периодическая оценка компетентности аккредитованного субъекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перыядычная ацэнка кампетэнтнасці акрэдытаванага суб'екта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_periodic_assessment_of_accredited_subject_competence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accredited_testing_laboratory;
+    => nrel_associative_connection: by_accredited_testing_laboratory_center;
+    => nrel_associative_connection: by_accredited_subject;
+    => nrel_associative_connection: by_evaluation_certificate;
+    => nrel_associative_connection: by_accreditation_certificate_of_of_the_national_accreditation_system_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_competence;
+    => nrel_associative_connection: by_competent_authorities;
+    => nrel_associative_connection: by_accreditation_body;
+    => nrel_associative_connection: by_evaluationassessment;
+    => nrel_associative_connection: by_certificate_of_competence;
+
+    => nrel_legal_act: by_act_h11600437;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20103?langname=ru];
+    => nrel_etalon_online_idx: [20103];;

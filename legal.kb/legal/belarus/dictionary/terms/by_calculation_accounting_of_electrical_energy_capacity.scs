@@ -1,0 +1,37 @@
+
+by_calculation_accounting_of_electrical_energy_capacity
+    => nrel_main_idtf: [calculation accounting of electrical energy (capacity)] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетный учет электрической энергии (мощности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковы ўлік электрычнай энергіі (магутнасці)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculation_accounting_of_electrical_energy_capacity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unaccounted_consumption_of_electrical_energy_power;
+    => nrel_associative_connection: by_interference_in_the_operation_of_the_means_of_calculating_accounting_of_electrical_energy_capacity;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_unauthorized_uncontrolled_consumption_of_electrical_energy_power;
+    => nrel_associative_connection: by_means_for_calculation_of_electric_energy_power;
+    => nrel_associative_connection: by_tariff_on_electric_energy_power;
+    => nrel_associative_connection: by_electric_energy_active;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35008?langname=ru];
+    => nrel_etalon_online_idx: [35008];;

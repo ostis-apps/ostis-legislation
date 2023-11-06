@@ -1,0 +1,37 @@
+
+by_telecommunication_objects
+    => nrel_main_idtf: [telecommunication objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты электрасувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telecommunication_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_issue_of_telecommunication_means_in_circulation;
+    => nrel_associative_connection: by_limitation_of_the_functioning_of_telecommunication_networks_and_telecommunication_facilities_included_thereof;
+    => nrel_associative_connection: by_granting_access_to_linecable_telecommunication_facilities;
+    => nrel_associative_connection: by_collective_use_point;
+    => nrel_associative_connection: by_radio_communication;
+    => nrel_associative_connection: by_radio_service;
+    => nrel_associative_connection: by_repair_service;
+
+    => nrel_legal_act: by_act_h10500045;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18791?langname=ru];
+    => nrel_etalon_online_idx: [18791];;

@@ -1,0 +1,52 @@
+
+by_automatic_brake
+    => nrel_main_idtf: [automatic brake] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматический тормоз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычны тормаз] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_brake_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_brake_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_locomotive_signaling;
+    => nrel_associative_connection: by_automatic_locomotive_signaling_as_an_independent_means_of_signaling_and_communication;
+    => nrel_associative_connection: by_railway_automation_and_telemechanics;
+    => nrel_associative_connection: by_railway;
+    => nrel_associative_connection: by_intensive_train_traffic;
+    => nrel_associative_connection: by_locomotive_team;
+
+    => nrel_legal_act: by_act_w21530414p;
+    => nrel_legal_act: by_act_f92100406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33877?langname=ru];
+    => nrel_etalon_online_idx: [33877];;

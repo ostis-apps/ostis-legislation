@@ -1,0 +1,35 @@
+
+by_accuracy_class_measuring_instruments
+    => nrel_main_idtf: [accuracy class measuring instruments] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс точности средства измерений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас дакладнасці сродку вымярэнняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accuracy_class_measuring_instruments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_absolute_error_of_the_measurement_instrument;
+    => nrel_associative_connection: by_error_of_the_measuring_instrument;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_type_of_measuring_instrument;
+
+    => nrel_legal_act: by_act_w02137282p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39032?langname=ru];
+    => nrel_etalon_online_idx: [39032];;

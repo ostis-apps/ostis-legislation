@@ -1,0 +1,34 @@
+
+by_property_rights_and_duties_of_parents
+    => nrel_main_idtf: [property rights and duties of parents] (* <- lang_en;; *);
+    => nrel_main_idtf: [имущественные права и обязанности родителей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маёмасныя правы і абавязкі бацькоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_property_rights_and_duties_of_parents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_children;
+    => nrel_associative_connection: by_abuse_of_parental_rights;
+    => nrel_associative_connection: by_property_rights;
+    => nrel_associative_connection: by_minor;
+
+    => nrel_legal_act: by_act_hk9900278;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15182?langname=ru];
+    => nrel_etalon_online_idx: [15182];;

@@ -1,0 +1,37 @@
+
+by_documents_of_the_governing_body_of_the_economic_company
+    => nrel_main_idtf: [documents of the governing body of the economic company] (* <- lang_en;; *);
+    => nrel_main_idtf: [документы органа управления хозяйственного общества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументы органа кіравання гаспадарчага таварыства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documents_of_the_governing_body_of_the_economic_company_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_supreme_governing_body_of_an_economic_company;
+    => nrel_associative_connection: by_branch_business_company;
+    => nrel_associative_connection: by_dependent_business_entity;
+    => nrel_associative_connection: by_economic_company_bodies;
+    => nrel_associative_connection: by_founding_document_of_the_economic_company;
+    => nrel_associative_connection: by_branch_of_economic_company;
+    => nrel_associative_connection: by_economic_company;
+
+    => nrel_legal_act: by_act_h10400305;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14352?langname=ru];
+    => nrel_etalon_online_idx: [14352];;

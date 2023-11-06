@@ -1,0 +1,39 @@
+
+by_flag
+    => nrel_main_idtf: [flag] (* <- lang_en;; *);
+    => nrel_main_idtf: [флаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [флаг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flag_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_national_flag_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_banner;
+    => nrel_associative_connection: by_illegal_actions_with_respect_to_the_state_symbols_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_symbols_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_flag_of_the_air_force_and_air_defense_troops_of_the_armed_forces_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_flag_of_minsk_city;
+    => nrel_associative_connection: by_flag_of_the_ministry_of_trade;
+    => nrel_associative_connection: by_flag_of_the_ministry_of_justice;
+    => nrel_associative_connection: by_standard_flag_of_the_president_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_h11200384;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7854?langname=ru];
+    => nrel_etalon_online_idx: [7854];;

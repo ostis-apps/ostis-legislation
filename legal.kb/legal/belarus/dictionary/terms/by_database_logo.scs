@@ -1,0 +1,32 @@
+
+by_database_logo
+    => nrel_main_idtf: [database logo] (* <- lang_en;; *);
+    => nrel_main_idtf: [логотип базы данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лагатып базы даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_database_logo_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_trademark;
+
+    => nrel_legal_act: by_act_w20513136;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16769?langname=ru];
+    => nrel_etalon_online_idx: [16769];;

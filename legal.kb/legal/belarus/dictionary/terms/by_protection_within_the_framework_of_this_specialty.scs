@@ -1,0 +1,35 @@
+
+by_protection_within_the_framework_of_this_specialty
+    => nrel_main_idtf: [protection (within the framework of this specialty)] (* <- lang_en;; *);
+    => nrel_main_idtf: [защита (в рамках данной специальности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарона (у рамках дадзенай спецыяльнасці)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_within_the_framework_of_this_specialty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cognitive_psychotherapy;
+    => nrel_associative_connection: by_kerma_power;
+    => nrel_associative_connection: by_psychological_correction;
+    => nrel_associative_connection: by_psychological_problem;
+    => nrel_associative_connection: by_psychological_counseling;
+
+    => nrel_legal_act: by_act_w22035542p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34141?langname=ru];
+    => nrel_etalon_online_idx: [34141];;

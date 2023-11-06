@@ -1,0 +1,34 @@
+
+by_representative_offices_of_foreign_organization
+    => nrel_main_idtf: [representative offices of foreign organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [представительство иностранной организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўніцтва замежнай арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_offices_of_foreign_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diplomatic_missions_embassies_permanent_representatives_at_international_organizations_missions_and_consular_offices;
+    => nrel_associative_connection: by_foreign_organisation;
+    => nrel_associative_connection: by_representative_office;
+    => nrel_associative_connection: by_representative_office_of_legal_entity;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3985?langname=ru];
+    => nrel_etalon_online_idx: [3985];;

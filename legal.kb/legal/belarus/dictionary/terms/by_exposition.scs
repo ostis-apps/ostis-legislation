@@ -1,0 +1,68 @@
+
+by_exposition
+    => nrel_main_idtf: [exposition] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспозиция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспазіцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exposition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exposition_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exposition_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_classification_of_exhibits;
+    => nrel_associative_connection: by_national_exposition_of_the_republic_of_belarus_abroad;
+    => nrel_associative_connection: by_operator_of_national_exhibition_national_exposition;
+    => nrel_associative_connection: by_organizer_of_national_exhibition_national_exposition;
+    => nrel_associative_connection: by_side_event;
+    => nrel_associative_connection: by_exhibit;
+
+    => nrel_legal_act: by_act_hk1600413;
+    => nrel_legal_act: by_act_w20615324;
+    => nrel_legal_act: by_act_f02000420;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7993?langname=ru];
+    => nrel_etalon_online_idx: [7993];;

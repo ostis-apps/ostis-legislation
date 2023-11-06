@@ -1,0 +1,65 @@
+
+by_diversion
+    => nrel_main_idtf: [diversion] (* <- lang_en;; *);
+    => nrel_main_idtf: [диверсия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыверсія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diversion_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diversion_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_diversion_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_explosion;
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_economic_security;
+
+    => nrel_legal_act: by_act_hk9900275;
+    => nrel_legal_act: by_act_w01934020p;
+    => nrel_legal_act: by_act_w01933780p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1404?langname=ru];
+    => nrel_etalon_online_idx: [1404];;

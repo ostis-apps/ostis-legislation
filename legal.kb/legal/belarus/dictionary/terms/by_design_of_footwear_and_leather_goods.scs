@@ -1,0 +1,37 @@
+
+by_design_of_footwear_and_leather_goods
+    => nrel_main_idtf: [design of footwear and leather goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [конструирование обуви и кожгалантерейных изделий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канструяванне абутку і скургалантарэйных вырабаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_of_footwear_and_leather_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_leather_goods;
+    => nrel_associative_connection: by_leather_galvanized_production;
+    => nrel_associative_connection: by_light_industry;
+    => nrel_associative_connection: by_footwear;
+    => nrel_associative_connection: by_footwear_of_mechanical_production;
+    => nrel_associative_connection: by_handmade_shoes;
+    => nrel_associative_connection: by_orthopedic_shoes;
+
+    => nrel_legal_act: by_act_w22136462p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37495?langname=ru];
+    => nrel_etalon_online_idx: [37495];;

@@ -1,0 +1,19 @@
+
+by_titles_of_normative_legal_act
+    => nrel_main_idtf: [titles of normative legal act] (* <- lang_en;; *);
+    => nrel_main_idtf: [разделы нормативного правового акта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раздзелы нарматыўнага прававога акта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_subparagraphs_of_a_normative_legal_act;
+    => nrel_associative_connection: by_preamble;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4013?langname=ru];
+    => nrel_etalon_online_idx: [4013];;

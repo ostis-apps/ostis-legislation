@@ -1,0 +1,34 @@
+
+by_vessel_emergency_repairs
+    => nrel_main_idtf: [vessel emergency repairs] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийный ремонт судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйны рамонт судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vessel_emergency_repairs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_operations_and_all_hands_jobs;
+    => nrel_associative_connection: by_guarantee_repair_of_ship;
+    => nrel_associative_connection: by_postdevelopment_characteristics;
+    => nrel_associative_connection: by_current_repair_of_the_ship;
+
+    => nrel_legal_act: by_act_w60004624;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4668?langname=ru];
+    => nrel_etalon_online_idx: [4668];;

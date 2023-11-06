@@ -1,0 +1,49 @@
+
+by_emergency_rescue_service
+    => nrel_main_idtf: [emergency rescue service] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийно-спасательная служба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйна-выратавальная служба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_rescue_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_situation;
+    => nrel_associative_connection: by_emergency_alert;
+    => nrel_associative_connection: by_emergency_rescue_operations;
+    => nrel_associative_connection: by_emergency_rescue_means;
+    => nrel_associative_connection: by_emergency_exit;
+    => nrel_associative_connection: by_emergency_operation_mode_of_thermal_generation_devices;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_aircraft_which_suffered_distress;
+    => nrel_associative_connection: by_civil_defense;
+    => nrel_associative_connection: by_incident;
+    => nrel_associative_connection: by_lifeguard_certificate_number;
+    => nrel_associative_connection: by_fire_safety;
+    => nrel_associative_connection: by_professional_accident_rescue_services;
+    => nrel_associative_connection: by_radiation_accident;
+    => nrel_associative_connection: by_search_and_rescue_region;
+    => nrel_associative_connection: by_republican_state_public_association_belarusian_republican_society_of_rescue_on_waters;
+    => nrel_associative_connection: by_head_of_the_emergency_situation_liquidation;
+    => nrel_associative_connection: by_rescuer;
+    => nrel_associative_connection: by_lifeguard_certificate;
+
+    => nrel_legal_act: by_act_h10100039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/898?langname=ru];
+    => nrel_etalon_online_idx: [898];;

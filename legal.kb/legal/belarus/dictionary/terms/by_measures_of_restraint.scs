@@ -1,0 +1,38 @@
+
+by_measures_of_restraint
+    => nrel_main_idtf: [measures of restraint] (* <- lang_en;; *);
+    => nrel_main_idtf: [меры пресечения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [меры стрымання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_measures_of_restraint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_home_arrest;
+    => nrel_associative_connection: by_detention;
+    => nrel_associative_connection: by_pledge;
+    => nrel_associative_connection: by_personal_guarantee;
+    => nrel_associative_connection: by_charge;
+    => nrel_associative_connection: by_accused;
+    => nrel_associative_connection: by_suspect;
+    => nrel_associative_connection: by_detention;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/112?langname=ru];
+    => nrel_etalon_online_idx: [112];;

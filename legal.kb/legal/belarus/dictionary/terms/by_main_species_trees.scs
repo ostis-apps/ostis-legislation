@@ -1,0 +1,48 @@
+
+by_main_species_trees
+    => nrel_main_idtf: [main species trees] (* <- lang_en;; *);
+    => nrel_main_idtf: [деревья главной породы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дрэвы галоўнай пароды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_species_trees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agritechnical_care;
+    => nrel_associative_connection: by_archive_of_plus_trees_clones;
+    => nrel_associative_connection: by_accessory_trees;
+    => nrel_associative_connection: by_secondary_trees;
+    => nrel_associative_connection: by_trees_damaged_not_to_the_degree_of_growth_stopping;
+    => nrel_associative_connection: by_class_of_estimated_productivity;
+    => nrel_associative_connection: by_kroning;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_genetic_reserves;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_best_trees;
+    => nrel_associative_connection: by_normal_trees;
+    => nrel_associative_connection: by_damaged_trees;
+    => nrel_associative_connection: by_main_breeds_undergrowth;
+    => nrel_associative_connection: by_average_diameter;
+    => nrel_associative_connection: by_the_degree_of_closure_of_trees_of_the_main_species_in_the_rows_of_forest_crops;
+
+    => nrel_legal_act: by_act_hk1500332;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11849?langname=ru];
+    => nrel_etalon_online_idx: [11849];;

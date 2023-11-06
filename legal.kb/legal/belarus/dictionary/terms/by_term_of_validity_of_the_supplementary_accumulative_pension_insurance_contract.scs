@@ -1,0 +1,34 @@
+
+by_term_of_validity_of_the_supplementary_accumulative_pension_insurance_contract
+    => nrel_main_idtf: [term of validity of the supplementary accumulative pension insurance contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [срок действия договора дополнительного накопительного пенсионного страхования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмін дзеяння дагавора дадатковага накапляльнага пенсійнага страхавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_term_of_validity_of_the_supplementary_accumulative_pension_insurance_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_additional_funded_pension;
+    => nrel_associative_connection: by_costs_of_conducting_the_case;
+    => nrel_associative_connection: by_term_of_additional_funded_pension_insurance;
+    => nrel_associative_connection: by_tariff_under_the_contract_of_additional_accumulative_pension_insurance;
+
+    => nrel_legal_act: by_act_p32100367;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38460?langname=ru];
+    => nrel_etalon_online_idx: [38460];;

@@ -1,0 +1,20 @@
+
+by_cofferdam
+    => nrel_main_idtf: [cofferdam] (* <- lang_en;; *);
+    => nrel_main_idtf: [коффердам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кафердам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_inland_water_transport;
+    => nrel_associative_connection: by_inland_public_water_transport;
+    => nrel_associative_connection: by_bulkhead_waterproof;
+    => nrel_associative_connection: by_vessel;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16375?langname=ru];
+    => nrel_etalon_online_idx: [16375];;

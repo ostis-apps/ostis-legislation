@@ -1,0 +1,19 @@
+
+by_state_preference
+    => nrel_main_idtf: [state preference] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная преференция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная прэферэнцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_amounts_of_benefits_and_or_preferences;
+    => nrel_associative_connection: by_economic_entities;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10158?langname=ru];
+    => nrel_etalon_online_idx: [10158];;

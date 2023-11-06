@@ -1,0 +1,37 @@
+
+by_by_hunt_in_burrows
+    => nrel_main_idtf: [by_hunt_in_burrows] (* <- lang_en;; *);
+    => nrel_main_idtf: [охота на норах] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляванне на норах] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_hunt_in_burrows_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_no_gun_hunting;
+    => nrel_associative_connection: by_openair_cage_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_ambush_hunting;
+    => nrel_associative_connection: by_hunting_from_approach;
+    => nrel_associative_connection: by_hunting_from_the_entrance;
+    => nrel_associative_connection: by_trophy_book;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36254?langname=ru];
+    => nrel_etalon_online_idx: [36254];;

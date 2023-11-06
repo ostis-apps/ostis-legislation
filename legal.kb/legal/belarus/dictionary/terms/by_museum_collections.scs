@@ -1,0 +1,40 @@
+
+by_museum_collections
+    => nrel_main_idtf: [museum collections] (* <- lang_en;; *);
+    => nrel_main_idtf: [музейная коллекция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [музейная калекцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_museum_collections_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_collections_fund;
+    => nrel_associative_connection: by_acquisition_of_museum_fund;
+    => nrel_associative_connection: by_concept_of_museum_development;
+    => nrel_associative_connection: by_museum;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_museum_item;
+    => nrel_associative_connection: by_museum_fund;
+    => nrel_associative_connection: by_museums_visitors;
+    => nrel_associative_connection: by_item_of_museum_importance;
+    => nrel_associative_connection: by_excursion_service_for_museums_visitors;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7943?langname=ru];
+    => nrel_etalon_online_idx: [7943];;

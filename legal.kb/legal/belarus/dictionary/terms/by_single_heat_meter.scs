@@ -1,0 +1,21 @@
+
+by_single_heat_meter
+    => nrel_main_idtf: [single heat meter] (* <- lang_en;; *);
+    => nrel_main_idtf: [единый теплосчетчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіны цеплалічыльнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_types_of_thermal_loads;
+    => nrel_associative_connection: by_flow_sensor_primary_flow_converter;
+    => nrel_associative_connection: by_twochannel_heat_meter;
+    => nrel_associative_connection: by_closed_water_heating_system;
+    => nrel_associative_connection: by_combined_heat_meter;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31880?langname=ru];
+    => nrel_etalon_online_idx: [31880];;

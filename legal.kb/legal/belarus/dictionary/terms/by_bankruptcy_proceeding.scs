@@ -1,0 +1,39 @@
+
+by_bankruptcy_proceeding
+    => nrel_main_idtf: [bankruptcy proceeding] (* <- lang_en;; *);
+    => nrel_main_idtf: [конкурсное производство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [конкурснае вядзенне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bankruptcy_proceeding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_protect_period;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_bankruptcy_creditors;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_outofcourt_settlement_in_the_proceedings_on_economic_insolvency_bankruptcy;
+    => nrel_associative_connection: by_preferential_amendment;
+    => nrel_associative_connection: by_reorganization;
+
+    => nrel_legal_act: by_act_h12200227;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2710?langname=ru];
+    => nrel_etalon_online_idx: [2710];;

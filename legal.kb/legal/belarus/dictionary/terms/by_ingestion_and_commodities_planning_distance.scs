@@ -1,0 +1,35 @@
+
+by_ingestion_and_commodities_planning_distance
+    => nrel_main_idtf: [ingestion and commodities planning distance] (* <- lang_en;; *);
+    => nrel_main_idtf: [расстояние (радиус зоны) планирования мер в отношении продуктов питания и товаров (ingestion and commodities planning distance)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адлегласць (радыус зоны) планавання мер у дачыненні прадуктаў харчавання і тавараў (ingestion and commodities planning distance)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ingestion_and_commodities_planning_distance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_extended_planning_distance;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_nuclear_installation;
+
+    => nrel_legal_act: by_act_c21800211;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28242?langname=ru];
+    => nrel_etalon_online_idx: [28242];;

@@ -1,0 +1,32 @@
+
+by_organic_chemistry
+    => nrel_main_idtf: [organic chemistry] (* <- lang_en;; *);
+    => nrel_main_idtf: [органическая химия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганічная хімія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organic_chemistry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analytical_chemistry;
+    => nrel_associative_connection: by_medications;
+
+    => nrel_legal_act: by_act_w22136289p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37550?langname=ru];
+    => nrel_etalon_online_idx: [37550];;

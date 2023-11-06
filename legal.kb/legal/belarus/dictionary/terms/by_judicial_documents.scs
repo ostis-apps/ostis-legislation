@@ -1,0 +1,40 @@
+
+by_judicial_documents
+    => nrel_main_idtf: [judicial documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [судебные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судовыя дакументы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_judicial_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_executory_proceeding;
+    => nrel_associative_connection: by_short_protocol_protocol;
+    => nrel_associative_connection: by_subject_of_supervision_over_compliance_with_the_law_of_court_rulings_as_well_as_compliance_with_the_law_in_their_execution;
+    => nrel_associative_connection: by_mandative_proceeding;
+    => nrel_associative_connection: by_protocol;
+    => nrel_associative_connection: by_proceedings;
+    => nrel_associative_connection: by_decision;
+    => nrel_associative_connection: by_court_of_appellate_second_instance;
+    => nrel_associative_connection: by_judicial_correspondence;
+    => nrel_associative_connection: by_judicial_decision;
+
+    => nrel_legal_act: by_act_hk9900238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2019?langname=ru];
+    => nrel_etalon_online_idx: [2019];;

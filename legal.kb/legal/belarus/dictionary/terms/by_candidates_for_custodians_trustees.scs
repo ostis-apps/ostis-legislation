@@ -1,0 +1,35 @@
+
+by_candidates_for_custodians_trustees
+    => nrel_main_idtf: [candidates for custodians (trustees)] (* <- lang_en;; *);
+    => nrel_main_idtf: [кандидаты в опекуны (попечители)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кандыдаты ў апекуны (папячыцелі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_candidates_for_custodians_trustees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_persons_on_which_the_legislation_is_entrusted_fulfilment_of_duties_of_custodians_trustee;
+    => nrel_associative_connection: by_place_of_residence_of_minors_at_the_age_to_fourteen_years_or_citizens_under_custody;
+    => nrel_associative_connection: by_custodial_family;
+    => nrel_associative_connection: by_custodians;
+    => nrel_associative_connection: by_fosterlings;
+
+    => nrel_legal_act: by_act_c20600637;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15730?langname=ru];
+    => nrel_etalon_online_idx: [15730];;

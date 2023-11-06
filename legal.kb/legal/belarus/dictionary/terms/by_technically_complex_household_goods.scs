@@ -1,0 +1,37 @@
+
+by_technically_complex_household_goods
+    => nrel_main_idtf: [technically complex household goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [технически сложные товары бытового назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічна складаныя тавары бытавога прызначэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technically_complex_household_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pavilion;
+    => nrel_associative_connection: by_tent;
+    => nrel_associative_connection: by_sales_receipt;
+    => nrel_associative_connection: by_product_label_label;
+    => nrel_associative_connection: by_trade_equipment;
+    => nrel_associative_connection: by_services_related_to_the_sale_of_goods;
+    => nrel_associative_connection: by_price_tag;
+
+    => nrel_legal_act: by_act_c21400703;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31049?langname=ru];
+    => nrel_etalon_online_idx: [31049];;

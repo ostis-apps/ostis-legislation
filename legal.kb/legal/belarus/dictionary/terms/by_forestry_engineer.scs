@@ -1,0 +1,35 @@
+
+by_forestry_engineer
+    => nrel_main_idtf: [forestry engineer] (* <- lang_en;; *);
+    => nrel_main_idtf: [инженер лесного хозяйства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інжынер лясной гаспадаркі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forestry_engineer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_forest_engineering;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_felling_area;
+    => nrel_associative_connection: by_legal_entities_running_forestry;
+
+    => nrel_legal_act: by_act_w21934504p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35458?langname=ru];
+    => nrel_etalon_online_idx: [35458];;

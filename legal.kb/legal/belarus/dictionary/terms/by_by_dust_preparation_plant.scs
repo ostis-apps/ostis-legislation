@@ -1,0 +1,20 @@
+
+by_by_dust_preparation_plant
+    => nrel_main_idtf: [by_dust_preparation_plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [пылеприготовительная установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пылапрыгатавальная ўстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_emergency_operation_mode_of_thermal_generation_devices;
+    => nrel_associative_connection: by_burner_of_infrared_radiation;
+    => nrel_associative_connection: by_heating_appliances;
+    => nrel_associative_connection: by_heat_generating_devices;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29046?langname=ru];
+    => nrel_etalon_online_idx: [29046];;

@@ -1,0 +1,38 @@
+
+by_chain_trade_organization
+    => nrel_main_idtf: [chain trade organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [сетевая торговая организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сеткавая гандлёвая арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chain_trade_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_chain_trade_organization;
+    => nrel_associative_connection: by_branch_subject_of_the_distribution_network;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_own_subject_of_the_distribution_network;
+    => nrel_associative_connection: by_business_entity_that_issued_food_products_into_circulation;
+    => nrel_associative_connection: by_commodity_network;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_trade;
+
+    => nrel_legal_act: by_act_c21200183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27795?langname=ru];
+    => nrel_etalon_online_idx: [27795];;

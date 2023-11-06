@@ -1,0 +1,35 @@
+
+by_enclosed_performance_stage
+    => nrel_main_idtf: [enclosed performance stage] (* <- lang_en;; *);
+    => nrel_main_idtf: [закрытая площадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [закрытая пляцоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_enclosed_performance_stage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_discotheque;
+    => nrel_associative_connection: by_outdoor_performance_stage;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_industrial_site_site;
+    => nrel_associative_connection: by_stage;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7901?langname=ru];
+    => nrel_etalon_online_idx: [7901];;

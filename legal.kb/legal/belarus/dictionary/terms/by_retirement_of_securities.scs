@@ -1,0 +1,20 @@
+
+by_retirement_of_securities
+    => nrel_main_idtf: [retirement of securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [выбытие ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбыццё каштоўных папер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_securities_issue_questionnaire;
+    => nrel_associative_connection: by_method_of_valuation_of_securities_on_disposal;
+    => nrel_associative_connection: by_handling_of_emission_securities;
+    => nrel_associative_connection: by_issue_securities;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10858?langname=ru];
+    => nrel_etalon_online_idx: [10858];;

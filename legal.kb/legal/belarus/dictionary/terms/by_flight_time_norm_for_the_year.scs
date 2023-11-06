@@ -1,0 +1,25 @@
+
+by_flight_time_norm_for_the_year
+    => nrel_main_idtf: [flight time norm for the year] (* <- lang_en;; *);
+    => nrel_main_idtf: [норма полетного времени за год] (* <- lang_ru;; *);
+    => nrel_main_idtf: [норма палётнага часу за год] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_flight_time;
+    => nrel_associative_connection: by_flight_hours;
+    => nrel_associative_connection: by_flight_time_norm_for_month;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_change;
+    => nrel_associative_connection: by_flying_hours;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_service_flight_time;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18256?langname=ru];
+    => nrel_etalon_online_idx: [18256];;

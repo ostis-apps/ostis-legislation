@@ -1,0 +1,36 @@
+
+by_head_of_the_licensee
+    => nrel_main_idtf: [head of the licensee] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель лицензиата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік ліцэнзіята] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_head_of_the_licensee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_licensee;
+    => nrel_associative_connection: by_licensee_being_an_individual_entrepreneur;
+    => nrel_associative_connection: by_licensee_being_a_legal_person;
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_license;
+    => nrel_associative_connection: by_supervision_proceedings;
+
+    => nrel_legal_act: by_act_t22004664;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22707?langname=ru];
+    => nrel_etalon_online_idx: [22707];;

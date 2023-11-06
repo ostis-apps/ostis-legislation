@@ -1,0 +1,71 @@
+
+by_supplier_of_goods
+    => nrel_main_idtf: [supplier of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [поставщик товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастаўшчык тавараў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supplier_of_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supplier_of_goods_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_supplier_of_goods_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_contract_for_the_delivery_of_goods_for_public_needs;
+    => nrel_associative_connection: by_contractor_organizations;
+    => nrel_associative_connection: by_supplier;
+    => nrel_associative_connection: by_supplier_of_goods_works_services_of_the_project_program_of_international_technical_assistance;
+    => nrel_associative_connection: by_seller_supplier;
+    => nrel_associative_connection: by_seller_supplier_of_leasing_subject;
+    => nrel_associative_connection: by_market_for_goods_works_services;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_h11400128;
+    => nrel_legal_act: by_act_w21833372p;
+    => nrel_legal_act: by_act_w21630967p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10796?langname=ru];
+    => nrel_etalon_online_idx: [10796];;

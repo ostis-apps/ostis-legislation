@@ -1,0 +1,33 @@
+
+by_by_troubleshooting_interval
+    => nrel_main_idtf: [by_troubleshooting_interval] (* <- lang_en;; *);
+    => nrel_main_idtf: [интервал устранения неисправности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрвал ліквідацыі няспраўнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_troubleshooting_interval_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_malfunction;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_legal_act: by_act_w22137064p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38424?langname=ru];
+    => nrel_etalon_online_idx: [38424];;

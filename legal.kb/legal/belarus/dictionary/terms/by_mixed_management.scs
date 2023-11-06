@@ -1,0 +1,23 @@
+
+by_mixed_management
+    => nrel_main_idtf: [mixed management] (* <- lang_en;; *);
+    => nrel_main_idtf: [смешанное управление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змешанае кіраванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_cargo_lift;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_small_cargo_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_management_regimes;
+    => nrel_associative_connection: by_collective_management;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23402?langname=ru];
+    => nrel_etalon_online_idx: [23402];;

@@ -1,0 +1,50 @@
+
+by_liquidation_of_the_main_pipeline_facility
+    => nrel_main_idtf: [liquidation of the main pipeline facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [ликвидация объекта магистрального трубопровода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліквідацыя аб'екта магістральнага трубаправода] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liquidation_of_the_main_pipeline_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liquidation_of_the_main_pipeline_facility_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_conservation_of_pipeline;
+    => nrel_associative_connection: by_major_pipeline;
+    => nrel_associative_connection: by_object_of_main_pipeline;
+    => nrel_associative_connection: by_objects_of_major_pipeline;
+
+    => nrel_legal_act: by_act_h10200087;
+    => nrel_legal_act: by_act_f92000406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36855?langname=ru];
+    => nrel_etalon_online_idx: [36855];;

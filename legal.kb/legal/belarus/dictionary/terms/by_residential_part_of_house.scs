@@ -1,0 +1,31 @@
+
+by_residential_part_of_house
+    => nrel_main_idtf: [residential part of house] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилая часть дома] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жылая частка дома] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_builtin_uninhabited_part_of_a_house;
+    => nrel_associative_connection: by_builtin_and_attached_nonresidential_part_of_the_house;
+    => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_living_room;
+    => nrel_associative_connection: by_living_space;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_residential_building_of_manor_type;
+    => nrel_associative_connection: by_residential_buildings_of_improved_comfort;
+    => nrel_associative_connection: by_isolated_living_room;
+    => nrel_associative_connection: by_cottage;
+    => nrel_associative_connection: by_nonresidential_part_of_home;
+    => nrel_associative_connection: by_unsettled_residential_premises;
+    => nrel_associative_connection: by_uninsulated_living_room;
+    => nrel_associative_connection: by_uninhabited_part_of_the_house;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14667?langname=ru];
+    => nrel_etalon_online_idx: [14667];;

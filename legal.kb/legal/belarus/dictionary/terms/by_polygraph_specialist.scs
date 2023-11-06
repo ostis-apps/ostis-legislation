@@ -1,0 +1,38 @@
+
+by_polygraph_specialist
+    => nrel_main_idtf: [polygraph specialist] (* <- lang_en;; *);
+    => nrel_main_idtf: [специалист по проведению опроса (полиграфолог)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяліст па правядзенні апытання (паліграфолаг)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_polygraph_specialist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_initiator_of_the_survey_using_the_polygraph;
+    => nrel_associative_connection: by_respondent;
+    => nrel_associative_connection: by_polygraph_examination;
+    => nrel_associative_connection: by_polygraph;
+    => nrel_associative_connection: by_specialist_in_conducting_a_survey;
+    => nrel_associative_connection: by_polygraph_survey_specialist;
+    => nrel_associative_connection: by_specialist_for_psychophysiological_research;
+    => nrel_associative_connection: by_information_on_the_results_of_the_survey_using_the_polygraph;
+
+    => nrel_legal_act: by_act_w21530344;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10193?langname=ru];
+    => nrel_etalon_online_idx: [10193];;

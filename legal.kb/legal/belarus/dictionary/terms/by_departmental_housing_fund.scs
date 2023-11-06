@@ -1,0 +1,40 @@
+
+by_departmental_housing_fund
+    => nrel_main_idtf: [departmental housing fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомственный жилищный фонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасны жыллёвы фонд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_departmental_housing_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_housing;
+    => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_housing_fund_of_statefinanced_organization;
+    => nrel_associative_connection: by_citizens_housing_fund;
+    => nrel_associative_connection: by_housing_fund_of_nonstate_property_organizations;
+    => nrel_associative_connection: by_housing_fund_objects;
+    => nrel_associative_connection: by_organization_accounting_for_the_assets;
+    => nrel_associative_connection: by_organization_accounting_for_the_assets_of_departmental_housing_fund;
+    => nrel_associative_connection: by_official_residential_premises;
+    => nrel_associative_connection: by_fund;
+
+    => nrel_legal_act: by_act_w21934800;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1159?langname=ru];
+    => nrel_etalon_online_idx: [1159];;

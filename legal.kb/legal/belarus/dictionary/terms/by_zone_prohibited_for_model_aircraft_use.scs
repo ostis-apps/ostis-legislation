@@ -1,0 +1,38 @@
+
+by_zone_prohibited_for_model_aircraft_use
+    => nrel_main_idtf: [zone prohibited for model aircraft use] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона, запрещенная для использования авиамоделей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона, забароненая для выкарыстання авіямадэляў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zone_prohibited_for_model_aircraft_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_model_aircraft;
+    => nrel_associative_connection: by_model_aircraft_owner;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_model_aircraft_use;
+    => nrel_associative_connection: by_model_aircraft_marking;
+    => nrel_associative_connection: by_total_mass_of_the_model_aircraft;
+    => nrel_associative_connection: by_model_aircraft_user;
+
+    => nrel_legal_act: by_act_c21600636;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8095?langname=ru];
+    => nrel_etalon_online_idx: [8095];;

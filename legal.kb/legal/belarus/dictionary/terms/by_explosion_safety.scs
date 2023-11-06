@@ -1,0 +1,59 @@
+
+by_explosion_safety
+    => nrel_main_idtf: [explosion safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [взрывобезопасность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбуховабяспечнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_explosion_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_explosion_safety_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_probability_of_an_explosion;
+    => nrel_associative_connection: by_explosion;
+    => nrel_associative_connection: by_mass_explosion;
+    => nrel_associative_connection: by_explosive_device;
+    => nrel_associative_connection: by_explosionproof_electrical_equipment;
+    => nrel_associative_connection: by_explosive_area;
+    => nrel_associative_connection: by_explosion_hazard;
+    => nrel_associative_connection: by_explosive_substance_es;
+    => nrel_associative_connection: by_explosive_composition_ec;
+    => nrel_associative_connection: by_harmful_industrial_factor;
+    => nrel_associative_connection: by_hazardous_production_factor;
+    => nrel_associative_connection: by_prevention_of_emergency_situations;
+    => nrel_associative_connection: by_blasting_operations;
+
+    => nrel_legal_act: by_act_w60716496;
+    => nrel_legal_act: by_act_f91100184;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8560?langname=ru];
+    => nrel_etalon_online_idx: [8560];;

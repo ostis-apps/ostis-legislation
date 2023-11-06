@@ -1,0 +1,54 @@
+
+by_special_residential_premises
+    => nrel_main_idtf: [special residential premises] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальные жилые помещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльныя жылыя памяшканні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_residential_premises_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_residential_premises_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_childrens_residential_institutions;
+    => nrel_associative_connection: by_familytype_orphanage;
+    => nrel_associative_connection: by_residential_institution_for_senior_citizens_and_people_with_disabilities;
+    => nrel_associative_connection: by_residential_building_for_special_purpose;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises_of_mobile_fund;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_special_home_for_veterans_elderly_and_disabled_people;
+
+    => nrel_legal_act: by_act_p31800237;
+    => nrel_legal_act: by_act_c21800663;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9834?langname=ru];
+    => nrel_etalon_online_idx: [9834];;

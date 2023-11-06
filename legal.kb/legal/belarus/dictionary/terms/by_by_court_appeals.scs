@@ -1,0 +1,17 @@
+
+by_by_court_appeals
+    => nrel_main_idtf: [by_court_appeals] (* <- lang_en;; *);
+    => nrel_main_idtf: [судебные обращения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судовыя звароты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_application;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24485?langname=ru];
+    => nrel_etalon_online_idx: [24485];;

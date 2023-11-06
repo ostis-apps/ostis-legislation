@@ -1,0 +1,35 @@
+
+by_international_information_service
+    => nrel_main_idtf: [international information service] (* <- lang_en;; *);
+    => nrel_main_idtf: [международный информационный сервис] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародны інфармацыйны сервіс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_information_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_incountry_information_service;
+    => nrel_associative_connection: by_foreign_system_of_instant_fast_payments;
+    => nrel_associative_connection: by_operating_day_of_the_sistem_of_instant_payment;
+    => nrel_associative_connection: by_information_support_service_for_instant_payments;
+    => nrel_associative_connection: by_crossborder_instant_payment;
+
+    => nrel_legal_act: by_act_b22238823;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41810?langname=ru];
+    => nrel_etalon_online_idx: [41810];;

@@ -1,0 +1,33 @@
+
+by_by_sample_selection
+    => nrel_main_idtf: [by_sample_selection] (* <- lang_en;; *);
+    => nrel_main_idtf: [отбор проб] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адбор проб] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_sample_selection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contamination;
+    => nrel_associative_connection: by_product_sample;
+    => nrel_associative_connection: by_assay;
+
+    => nrel_legal_act: by_act_w22238229p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36539?langname=ru];
+    => nrel_etalon_online_idx: [36539];;

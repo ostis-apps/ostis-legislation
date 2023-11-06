@@ -1,0 +1,29 @@
+
+by_goods_sale
+    => nrel_main_idtf: [goods sale] (* <- lang_en;; *);
+    => nrel_main_idtf: [распродажа товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [распродаж тавараў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_used_nonfood_goods;
+    => nrel_associative_connection: by_sellingexhibition_of_goods;
+    => nrel_associative_connection: by_method_of_goods_sale;
+    => nrel_associative_connection: by_marginal_surcharge_discount_markup;
+    => nrel_associative_connection: by_purchase_of_goods_works_services;
+    => nrel_associative_connection: by_variety_of_goods;
+    => nrel_associative_connection: by_sale;
+    => nrel_associative_connection: by_sale_of_goods;
+    => nrel_associative_connection: by_sale_of_goods_work_service;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_discount;
+    => nrel_associative_connection: by_price_of_goods;
+    => nrel_associative_connection: by_price_tag;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22147?langname=ru];
+    => nrel_etalon_online_idx: [22147];;

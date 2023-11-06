@@ -1,0 +1,54 @@
+
+by_forestry_road
+    => nrel_main_idtf: [forestry road] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесохозяйственная дорога] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесагаспадарчая дарога] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forestry_road_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forestry_road_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_lands_under_roads_and_other_transport_communications;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_vehicle;
+    => nrel_associative_connection: by_forestry_marks;
+    => nrel_associative_connection: by_forestry_practices;
+    => nrel_associative_connection: by_lower_forestry_warehouse;
+    => nrel_associative_connection: by_intermediary_landing;
+
+    => nrel_legal_act: by_act_w22035383p;
+    => nrel_legal_act: by_act_w21631585;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12111?langname=ru];
+    => nrel_etalon_online_idx: [12111];;

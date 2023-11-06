@@ -1,0 +1,86 @@
+
+by_intangible_assets
+    => nrel_main_idtf: [intangible assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [нематериальные активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нематэрыяльныя актывы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intangible_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intangible_assets_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intangible_assets_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intangible_assets_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_allocated_assets;
+    => nrel_associative_connection: by_business_reputation_of_a_legal_entity_and_an_individual_entrepreneur;
+    => nrel_associative_connection: by_long_term_assets;
+    => nrel_associative_connection: by_noncash_items;
+    => nrel_associative_connection: by_main_capital;
+    => nrel_associative_connection: by_profit_loss_from_realization_of_fixed_assets_intangible_assets;
+    => nrel_associative_connection: by_equity;
+
+    => nrel_legal_act: by_act_t22104764p;
+    => nrel_legal_act: by_act_t22104758p;
+    => nrel_legal_act: by_act_n21200130;
+    => nrel_legal_act: by_act_n29700082;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2887?langname=ru];
+    => nrel_etalon_online_idx: [2887];;

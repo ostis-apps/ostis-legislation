@@ -1,0 +1,23 @@
+
+by_communication_owner
+    => nrel_main_idtf: [communication owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец коммуникаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік камунікацый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owner_of_engineering_communications;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_engineering_communication;
+    => nrel_associative_connection: by_communications;
+    => nrel_associative_connection: by_communications_of_urban_electric_transport;
+    => nrel_associative_connection: by_metro_communications;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13039?langname=ru];
+    => nrel_etalon_online_idx: [13039];;

@@ -1,0 +1,37 @@
+
+by_forest_nursery
+    => nrel_main_idtf: [forest nursery] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесной питомник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лясны гадавальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_nursery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_forest_seedling;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_nursery;
+    => nrel_associative_connection: by_plantation_forest_plants;
+    => nrel_associative_connection: by_plus_forest_plantations;
+    => nrel_associative_connection: by_seedling_section_of_the_forest_nursery;
+    => nrel_associative_connection: by_transplant_section_of_the_forest_nursery;
+
+    => nrel_legal_act: by_act_w21731712;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12103?langname=ru];
+    => nrel_etalon_online_idx: [12103];;

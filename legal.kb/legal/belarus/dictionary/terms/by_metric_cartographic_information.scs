@@ -1,0 +1,38 @@
+
+by_metric_cartographic_information
+    => nrel_main_idtf: [metric cartographic information] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрическая картографическая информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метрычная картаграфічная інфармацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metric_cartographic_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_cartographygeodetic_fund_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_mapping_information;
+    => nrel_associative_connection: by_cartography;
+    => nrel_associative_connection: by_relevance_surface;
+    => nrel_associative_connection: by_gausskruger_projection;
+    => nrel_associative_connection: by_graphing_of_map_sheets;
+    => nrel_associative_connection: by_regulations_of_territory_use;
+    => nrel_associative_connection: by_semantic_information;
+
+    => nrel_legal_act: by_act_w60106027;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17322?langname=ru];
+    => nrel_etalon_online_idx: [17322];;

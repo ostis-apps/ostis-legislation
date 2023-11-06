@@ -1,0 +1,53 @@
+
+by_network_address_ip
+    => nrel_main_idtf: [network address (ip)] (* <- lang_en;; *);
+    => nrel_main_idtf: [сетевой (ip) адрес] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сеткавы (ip) адрас] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_network_address_ip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_network_address_ip_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_total_network_packet_analysis;
+    => nrel_associative_connection: by_terms_and_conditions;
+    => nrel_associative_connection: by_network_address_ip_translation;
+    => nrel_associative_connection: by_network_address_space;
+    => nrel_associative_connection: by_network_address;
+    => nrel_associative_connection: by_data_communication_network;
+    => nrel_associative_connection: by_account;
+
+    => nrel_legal_act: by_act_c21800850;
+    => nrel_legal_act: by_act_t61603505;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9696?langname=ru];
+    => nrel_etalon_online_idx: [9696];;

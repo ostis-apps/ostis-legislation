@@ -1,0 +1,53 @@
+
+by_reserve_fund
+    => nrel_main_idtf: [reserve fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [резервный фонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзервовы фонд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reserve_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reserve_fund_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_guarantee_fund;
+    => nrel_associative_connection: by_additional_fund;
+    => nrel_associative_connection: by_capital;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_reserve_salary_fund;
+    => nrel_associative_connection: by_equity;
+    => nrel_associative_connection: by_decrease_in_reserves_and_deductions_to_reserves;
+
+    => nrel_legal_act: by_act_w20717117;
+    => nrel_legal_act: by_act_i01100051;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22455?langname=ru];
+    => nrel_etalon_online_idx: [22455];;

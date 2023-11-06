@@ -1,0 +1,51 @@
+
+by_beneficiaries
+    => nrel_main_idtf: [beneficiaries] (* <- lang_en;; *);
+    => nrel_main_idtf: [выгодоприобретатели] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выгаданабытчыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_beneficiaries_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_beneficiaries_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_property_benefits;
+    => nrel_associative_connection: by_beneficiary;
+    => nrel_associative_connection: by_organization_that_is_not_a_legal_entity;
+    => nrel_associative_connection: by_acquirer;
+    => nrel_associative_connection: by_loss_of_profit;
+
+    => nrel_legal_act: by_act_p31000341;
+    => nrel_legal_act: by_act_a21800005;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13344?langname=ru];
+    => nrel_etalon_online_idx: [13344];;

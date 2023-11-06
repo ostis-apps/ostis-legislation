@@ -1,0 +1,72 @@
+
+by_accredited_testing_laboratory_center
+    => nrel_main_idtf: [accredited testing laboratory (center)] (* <- lang_en;; *);
+    => nrel_main_idtf: [аккредитованная испытательная лаборатория (центр)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акрэдытаваная выпрабавальная лабараторыя (цэнтр)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accredited_testing_laboratory_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accredited_testing_laboratory_center_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accredited_testing_laboratory_center_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accreditation;
+    => nrel_associative_connection: by_accreditation_of_legal_persons;
+    => nrel_associative_connection: by_accreditation_of_legal_entities;
+    => nrel_associative_connection: by_accredited_testing_laboratory;
+    => nrel_associative_connection: by_accredited_subject;
+    => nrel_associative_connection: by_applicant_to_conduct_accreditation;
+    => nrel_associative_connection: by_applicant_to_conduct_test;
+    => nrel_associative_connection: by_test_laboratory_center;
+    => nrel_associative_connection: by_applied_research_laboratory;
+    => nrel_associative_connection: by_periodic_assessment_of_accredited_subject_competence;
+
+    => nrel_legal_act: by_act_h11600437;
+    => nrel_legal_act: by_act_c21300375;
+    => nrel_legal_act: by_act_f91800196;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12405?langname=ru];
+    => nrel_etalon_online_idx: [12405];;

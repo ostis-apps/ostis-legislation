@@ -1,0 +1,40 @@
+
+by_home_ship_port
+    => nrel_main_idtf: [home ship port] (* <- lang_en;; *);
+    => nrel_main_idtf: [порт приписки судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [порт прыпіскі судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_home_ship_port_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_port_state_control_bodies;
+    => nrel_associative_connection: by_ferry;
+    => nrel_associative_connection: by_port;
+    => nrel_associative_connection: by_public_port;
+    => nrel_associative_connection: by_port_authorities;
+    => nrel_associative_connection: by_port_payments;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+    => nrel_associative_connection: by_vessel_of_mixed_river__sea_navigation;
+    => nrel_associative_connection: by_shipping;
+
+    => nrel_legal_act: by_act_HK9900321;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20689?langname=ru];
+    => nrel_etalon_online_idx: [20689];;

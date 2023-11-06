@@ -1,0 +1,35 @@
+
+by_authority_for_registering_citizens_by_place_of_residence_and_place_of_stay
+    => nrel_main_idtf: [authority for registering citizens by place of residence and place of stay] (* <- lang_en;; *);
+    => nrel_main_idtf: [орган регистрации граждан по месту жительства или месту пребывания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [орган рэгістрацыі грамадзян па месцы жыхарства або месцы знаходжання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authority_for_registering_citizens_by_place_of_residence_and_place_of_stay_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authority_for_registering_citizens_by_place_of_stay;
+    => nrel_associative_connection: by_points_of_registration_and_registration_of_persons_without_a_certain_residence;
+    => nrel_associative_connection: by_registration_by_place_of_residence;
+    => nrel_associative_connection: by_registration_at_the_place_of_stay;
+    => nrel_associative_connection: by_certificate_of_registration_at_the_place_of_stay;
+
+    => nrel_legal_act: by_act_p30700413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19140?langname=ru];
+    => nrel_etalon_online_idx: [19140];;

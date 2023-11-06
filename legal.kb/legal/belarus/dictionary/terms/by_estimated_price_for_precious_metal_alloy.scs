@@ -1,0 +1,41 @@
+
+by_estimated_price_for_precious_metal_alloy
+    => nrel_main_idtf: [estimated price for precious metal alloy] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетная цена на сплав драгоценного металла] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковая цана на сплаў каштоўнага металу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_estimated_price_for_precious_metal_alloy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_precious_metal;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_alloying;
+    => nrel_associative_connection: by_precious_metal_mass;
+    => nrel_associative_connection: by_final_estimated_price;
+    => nrel_associative_connection: by_operations_with_precious_metals_and_precious_stones;
+    => nrel_associative_connection: by_precious_metal_testing;
+    => nrel_associative_connection: by_reception_of_precious_metals_from_the_customer;
+    => nrel_associative_connection: by_production_of_precious_metals;
+    => nrel_associative_connection: by_estimate_price;
+    => nrel_associative_connection: by_precious_metals_examination;
+
+    => nrel_legal_act: by_act_w20716980;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22204?langname=ru];
+    => nrel_etalon_online_idx: [22204];;

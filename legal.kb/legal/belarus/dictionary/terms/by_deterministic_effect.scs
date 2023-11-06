@@ -1,0 +1,49 @@
+
+by_deterministic_effect
+    => nrel_main_idtf: [deterministic effect] (* <- lang_en;; *);
+    => nrel_main_idtf: [детерминированный эффект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэтэрмінаваны эфект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deterministic_effect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deterministic_effect_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_urgent_protective_measure;
+    => nrel_associative_connection: by_urgent_preventive_protective_measure;
+    => nrel_associative_connection: by_stochastic_effect;
+
+    => nrel_legal_act: by_act_c22100037;
+    => nrel_legal_act: by_act_w21732354p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37443?langname=ru];
+    => nrel_etalon_online_idx: [37443];;

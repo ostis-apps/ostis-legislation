@@ -1,0 +1,63 @@
+
+by_hydrometeorological_service
+    => nrel_main_idtf: [hydrometeorological service] (* <- lang_en;; *);
+    => nrel_main_idtf: [гидрометеорологическая служба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гідраметэаралагічная служба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrometeorological_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrometeorological_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrometeorological_meteorological_service;
+    => nrel_associative_connection: by_hydrometeorological_safety;
+    => nrel_associative_connection: by_hydrometeorological_information;
+    => nrel_associative_connection: by_hydrometeorological_information_of_general_purpose;
+    => nrel_associative_connection: by_hydrometeorological_observations;
+    => nrel_associative_connection: by_hydrometeorological_objects;
+    => nrel_associative_connection: by_hydrometeorological_meteorological_support;
+    => nrel_associative_connection: by_hydrometeorological_phenomena;
+    => nrel_associative_connection: by_state_hydrometeorological_service;
+    => nrel_associative_connection: by_state_network_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_state_hydrometeorological_fund;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_meteorology;
+    => nrel_associative_connection: by_mobile_point_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_hydrometeorological_information_producers;
+    => nrel_associative_connection: by_hydrometeorological_observation_point;
+    => nrel_associative_connection: by_actual_weather;
+
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n29700089;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5557?langname=ru];
+    => nrel_etalon_online_idx: [5557];;

@@ -1,0 +1,38 @@
+
+by_blockarea
+    => nrel_main_idtf: [block-area] (* <- lang_en;; *);
+    => nrel_main_idtf: [блок-участок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блок-участак ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blockarea_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_locomotive_signaling;
+    => nrel_associative_connection: by_automatic_locomotive_signaling_as_an_independent_means_of_signaling_and_communication;
+    => nrel_associative_connection: by_side_railway;
+    => nrel_associative_connection: by_duty_officer_at_the_railway_station;
+    => nrel_associative_connection: by_locomotive;
+    => nrel_associative_connection: by_locomotive_team;
+    => nrel_associative_connection: by_lowintensity_lines_sites;
+    => nrel_associative_connection: by_slope;
+
+    => nrel_legal_act: by_act_w21530414p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33879?langname=ru];
+    => nrel_etalon_online_idx: [33879];;

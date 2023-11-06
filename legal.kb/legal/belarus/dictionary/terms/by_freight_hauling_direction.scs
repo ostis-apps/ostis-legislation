@@ -1,0 +1,37 @@
+
+by_freight_hauling_direction
+    => nrel_main_idtf: [freight hauling direction] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовое направление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавы напрамак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_freight_hauling_direction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_freight_train;
+    => nrel_associative_connection: by_freight_transporting_long_train;
+    => nrel_associative_connection: by_cargopassenger_train;
+    => nrel_associative_connection: by_turf;
+
+    => nrel_legal_act: by_act_w20819143;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11844?langname=ru];
+    => nrel_etalon_online_idx: [11844];;

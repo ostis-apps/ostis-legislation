@@ -1,0 +1,34 @@
+
+by_botanic_collection
+    => nrel_main_idtf: [botanic collection] (* <- lang_en;; *);
+    => nrel_main_idtf: [ботаническая коллекция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [батанічная калекцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_botanic_collection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_botanical_monuments_of_nature;
+    => nrel_associative_connection: by_wild_plants;
+    => nrel_associative_connection: by_collections_fund;
+    => nrel_associative_connection: by_flora;
+
+    => nrel_legal_act: by_act_w20512301;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8445?langname=ru];
+    => nrel_etalon_online_idx: [8445];;

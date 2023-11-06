@@ -1,0 +1,35 @@
+
+by_business_entities_storage_of_goods_from_stabilization_funds
+    => nrel_main_idtf: [business entities storage of goods from stabilization funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты хозяйствования, осуществляющие хранение товаров из стабилизационных фондов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты гаспадарання, якія ажыццяўляюць захоўванне тавараў са стабілізацыйных фондаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_business_entities_storage_of_goods_from_stabilization_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stabilizing_stocks_of_goods;
+    => nrel_associative_connection: by_economic_entity;
+    => nrel_associative_connection: by_subjects_of_management;
+    => nrel_associative_connection: by_good;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_c22200658;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41348?langname=ru];
+    => nrel_etalon_online_idx: [41348];;

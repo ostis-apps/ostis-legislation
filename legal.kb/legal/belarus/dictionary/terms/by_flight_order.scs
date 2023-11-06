@@ -1,0 +1,43 @@
+
+by_flight_order
+    => nrel_main_idtf: [flight order] (* <- lang_en;; *);
+    => nrel_main_idtf: [полетный порядок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палётны парадак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_order_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_flight_altitude;
+    => nrel_associative_connection: by_double_composition_of_the_flight_crew;
+    => nrel_associative_connection: by_task_on_the_flight;
+    => nrel_associative_connection: by_controlled_flight;
+    => nrel_associative_connection: by_flying_training;
+    => nrel_associative_connection: by_general_air_traffic;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_preparatory_flights;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_airplane_mode;
+    => nrel_associative_connection: by_service_flight_time;
+    => nrel_associative_connection: by_flight_control;
+
+    => nrel_legal_act: by_act_w20615080;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20520?langname=ru];
+    => nrel_etalon_online_idx: [20520];;

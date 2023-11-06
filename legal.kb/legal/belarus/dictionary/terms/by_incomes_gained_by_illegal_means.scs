@@ -1,0 +1,65 @@
+
+by_incomes_gained_by_illegal_means
+    => nrel_main_idtf: [incomes gained by illegal means] (* <- lang_en;; *);
+    => nrel_main_idtf: [доходы, полученные преступным путем] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даходы, атрыманыя злачынным шляхам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incomes_gained_by_illegal_means_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incomes_gained_by_illegal_means_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_incomes_gained_by_illegal_means_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_legalization_of_incomes_gained_by_illegal_means;
+    => nrel_associative_connection: by_entrepreneurial_activity_carried_out_without_a_special_permit_license;
+
+    => nrel_legal_act: by_act_h11400165;
+    => nrel_legal_act: by_act_n02100058;
+    => nrel_legal_act: by_act_f01100263;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11202?langname=ru];
+    => nrel_etalon_online_idx: [11202];;

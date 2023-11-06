@@ -1,0 +1,36 @@
+
+by_judicial_expert_of_the_state_forensic_examination_committee
+    => nrel_main_idtf: [judicial expert of the state forensic examination committee] (* <- lang_en;; *);
+    => nrel_main_idtf: [судебный эксперт государственного комитета судебных экспертиз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судовы эксперт дзяржаўнага камітэта судовых экспертыз] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_judicial_expert_of_the_state_forensic_examination_committee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_expertise;
+    => nrel_associative_connection: by_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_service_at_the_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_forensic_divisions_of_the_bodies_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_judicial_experts_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_judicial_expert_intern_of_the_state_forensic_examination_committee;
+
+    => nrel_legal_act: by_act_h11500293;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38897?langname=ru];
+    => nrel_etalon_online_idx: [38897];;

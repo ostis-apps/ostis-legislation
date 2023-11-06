@@ -1,0 +1,25 @@
+
+by_excluded_communal_waste
+    => nrel_main_idtf: [excluded communal waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [исключенные коммунальные отходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выключаныя камунальныя адходы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_communal_waste;
+    => nrel_associative_connection: by_normative_of_communal_waste_formation;
+    => nrel_associative_connection: by_handling_of_communal_waste;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_planned_and_regular_sanitary_cleaning;
+    => nrel_associative_connection: by_producer_of_communal_waste;
+    => nrel_associative_connection: by_collected_municipal_waste;
+    => nrel_associative_connection: by_communal_solid_waste_csw;
+    => nrel_associative_connection: by_storage_of_communal_waste;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15534?langname=ru];
+    => nrel_etalon_online_idx: [15534];;

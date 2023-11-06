@@ -1,0 +1,54 @@
+
+by_navigation_equipment
+    => nrel_main_idtf: [navigation equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [навигационное оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навігацыйнае абсталяванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigation_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigation_equipment_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_fixed_service;
+    => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_owner_of_navigation_resources;
+    => nrel_associative_connection: by_state_navigation_map;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_lotsman_card;
+    => nrel_associative_connection: by_navigation;
+    => nrel_associative_connection: by_equipment;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_w21934604p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6220?langname=ru];
+    => nrel_etalon_online_idx: [6220];;

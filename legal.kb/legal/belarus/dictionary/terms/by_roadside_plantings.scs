@@ -1,0 +1,41 @@
+
+by_roadside_plantings
+    => nrel_main_idtf: [roadside plantings] (* <- lang_en;; *);
+    => nrel_main_idtf: [придорожные насаждения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыдарожныя насаджэнні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roadside_plantings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_surface;
+    => nrel_associative_connection: by_protective_plantations;
+    => nrel_associative_connection: by_green_plantations_of_the_suburban_green_zone;
+    => nrel_associative_connection: by_green_plantations_of_the_suburban_and_green_zones_of_general_use;
+    => nrel_associative_connection: by_miksborder;
+    => nrel_associative_connection: by_plantations;
+    => nrel_associative_connection: by_planting_of_greenery;
+    => nrel_associative_connection: by_greened_territory;
+    => nrel_associative_connection: by_railway_withdrawal_lane;
+    => nrel_associative_connection: by_roadside_lanes_controlled_areas;
+    => nrel_associative_connection: by_green_territories_system;
+
+    => nrel_legal_act: by_act_h10300205;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21223?langname=ru];
+    => nrel_etalon_online_idx: [21223];;

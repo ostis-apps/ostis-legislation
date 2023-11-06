@@ -1,0 +1,33 @@
+
+by_concessionaires
+    => nrel_main_idtf: [concessionaires] (* <- lang_en;; *);
+    => nrel_main_idtf: [концессионеры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцэсіянеры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concessionaires_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_concession_agreement;
+    => nrel_associative_connection: by_concession;
+    => nrel_associative_connection: by_method_of_selection_of_the_concessionaire;
+
+    => nrel_legal_act: by_act_h11300063;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16290?langname=ru];
+    => nrel_etalon_online_idx: [16290];;

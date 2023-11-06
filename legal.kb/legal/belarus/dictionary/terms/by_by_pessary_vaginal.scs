@@ -1,0 +1,32 @@
+
+by_by_pessary_vaginal
+    => nrel_main_idtf: [by_pessary_vaginal] (* <- lang_en;; *);
+    => nrel_main_idtf: [пессарии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [песарыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pessary_vaginal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vaginal_tampons;
+    => nrel_associative_connection: by_sticks;
+
+    => nrel_legal_act: by_act_w62035842e;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36791?langname=ru];
+    => nrel_etalon_online_idx: [36791];;

@@ -1,0 +1,37 @@
+
+by_raw_forest_seeds
+    => nrel_main_idtf: [raw forest seeds] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесосеменное сырье] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесанасенная сыравіна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_raw_forest_seeds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_forestseed_zonation;
+    => nrel_associative_connection: by_forestseed_shop;
+    => nrel_associative_connection: by_forestseed_plantations;
+    => nrel_associative_connection: by_lot_of_forest_plants_seeds;
+    => nrel_associative_connection: by_permanent_seed_plantations;
+    => nrel_associative_connection: by_seed_material;
+
+    => nrel_legal_act: by_act_w21631588;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12109?langname=ru];
+    => nrel_etalon_online_idx: [12109];;

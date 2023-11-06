@@ -1,0 +1,57 @@
+
+by_state_record_of_names_of_geographical_sites
+    => nrel_main_idtf: [state record of names of geographical sites] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный учет наименований географических объектов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны ўлік найменняў геаграфічных аб'ектаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_record_of_names_of_geographical_sites_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_record_of_names_of_geographical_sites_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_identification_of_geographical_objects_names;
+    => nrel_associative_connection: by_identified_name_of_geographic_object;
+    => nrel_associative_connection: by_cartographic_activities;
+    => nrel_associative_connection: by_cartography;
+    => nrel_associative_connection: by_names_of_geographical_objects;
+    => nrel_associative_connection: by_normalization_of_names_of_geographical_objects;
+    => nrel_associative_connection: by_normalization_of_name_of_geographical_objects;
+    => nrel_associative_connection: by_normalized_name_of_geographic_object;
+    => nrel_associative_connection: by_nunatak;
+    => nrel_associative_connection: by_account_policy;
+    => nrel_associative_connection: by_physical_and_geographic_objects;
+
+    => nrel_legal_act: by_act_h11000190;
+    => nrel_legal_act: by_act_w21123859;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5625?langname=ru];
+    => nrel_etalon_online_idx: [5625];;

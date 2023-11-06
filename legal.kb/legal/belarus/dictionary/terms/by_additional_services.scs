@@ -1,0 +1,83 @@
+
+by_additional_services
+    => nrel_main_idtf: [additional services] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительные услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковыя паслугі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_services_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_services_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_domestic_services;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+    => nrel_associative_connection: by_communication_services;
+
+    => nrel_legal_act: by_act_h19800135;
+    => nrel_legal_act: by_act_c20600471;
+    => nrel_legal_act: by_act_w22035255p;
+    => nrel_legal_act: by_act_b21934597;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14421?langname=ru];
+    => nrel_etalon_online_idx: [14421];;

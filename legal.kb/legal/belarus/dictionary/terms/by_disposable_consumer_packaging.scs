@@ -1,0 +1,38 @@
+
+by_disposable_consumer_packaging
+    => nrel_main_idtf: [disposable consumer packaging] (* <- lang_en;; *);
+    => nrel_main_idtf: [одноразовая потребительская упаковка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднаразовая спажывецкая ўпакоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_disposable_consumer_packaging_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_packaging;
+    => nrel_associative_connection: by_internal_packagings;
+    => nrel_associative_connection: by_secondary_consumer_packaging;
+    => nrel_associative_connection: by_deposit_mortgage_handling_system_of_disposable_consumer_packaging_dmh;
+    => nrel_associative_connection: by_deposit_mortgage_consumer_packaging_handling_system_dms;
+    => nrel_associative_connection: by_deposit_packaging;
+    => nrel_associative_connection: by_packaging_waste;
+    => nrel_associative_connection: by_consumer_packaging;
+
+    => nrel_legal_act: by_act_c21700567;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18877?langname=ru];
+    => nrel_etalon_online_idx: [18877];;

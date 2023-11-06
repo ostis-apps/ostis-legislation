@@ -1,0 +1,41 @@
+
+by_natural_landscape
+    => nrel_main_idtf: [natural landscape] (* <- lang_en;; *);
+    => nrel_main_idtf: [природный ландшафт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыродны ландшафт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_natural_landscape_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_landscape_protection_zone;
+    => nrel_associative_connection: by_stony_garden;
+    => nrel_associative_connection: by_compensatory_planting;
+    => nrel_associative_connection: by_landscape_composition;
+    => nrel_associative_connection: by_landscapes;
+    => nrel_associative_connection: by_microlandscape_compositions;
+    => nrel_associative_connection: by_environment;
+    => nrel_associative_connection: by_natural_environment;
+    => nrel_associative_connection: by_naturaltechnogenic_landscapes;
+    => nrel_associative_connection: by_natural_object;
+    => nrel_associative_connection: by_ecotourism;
+
+    => nrel_legal_act: by_act_v19201982;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10680?langname=ru];
+    => nrel_etalon_online_idx: [10680];;

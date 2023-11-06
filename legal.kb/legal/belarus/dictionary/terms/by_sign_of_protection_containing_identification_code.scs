@@ -1,0 +1,34 @@
+
+by_sign_of_protection_containing_identification_code
+    => nrel_main_idtf: [sign of protection containing identification code] (* <- lang_en;; *);
+    => nrel_main_idtf: [знак защиты, содержащий код идентификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знак абароны, які змяшчае код ідэнтыфікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sign_of_protection_containing_identification_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_marked_goods;
+    => nrel_associative_connection: by_product_label_label_of_jewelery;
+    => nrel_associative_connection: by_authorized_bodies;
+    => nrel_associative_connection: by_pilot_project_participants;
+
+    => nrel_legal_act: by_act_w21934690;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31802?langname=ru];
+    => nrel_etalon_online_idx: [31802];;

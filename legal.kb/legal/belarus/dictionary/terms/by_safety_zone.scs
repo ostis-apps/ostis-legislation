@@ -1,0 +1,39 @@
+
+by_safety_zone
+    => nrel_main_idtf: [safety zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_rescue_operations;
+    => nrel_associative_connection: by_emergency_rescue_means;
+    => nrel_associative_connection: by_internal_zone;
+    => nrel_associative_connection: by_earthing;
+    => nrel_associative_connection: by_earthing_device;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_firefighting_water_supply;
+    => nrel_associative_connection: by_fire_barrier;
+    => nrel_associative_connection: by_firebreak;
+
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15008?langname=ru];
+    => nrel_etalon_online_idx: [15008];;

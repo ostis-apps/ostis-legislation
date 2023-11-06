@@ -1,0 +1,37 @@
+
+by_state_verification_officer
+    => nrel_main_idtf: [state verification officer] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный поверитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны поверитель] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_verification_officer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_metrological_supervision;
+    => nrel_associative_connection: by_state_registry_of_national_standards_of_units_values_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_registry_of_measuring_instruments_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_unit_of_value;
+    => nrel_associative_connection: by_inspection_verification_of_measuring_instruments;
+    => nrel_associative_connection: by_verification;
+    => nrel_associative_connection: by_verification_of_instrumentations;
+
+    => nrel_legal_act: by_act_v19503848;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32074?langname=ru];
+    => nrel_etalon_online_idx: [32074];;

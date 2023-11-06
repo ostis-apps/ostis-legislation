@@ -1,0 +1,35 @@
+
+by_fixed_part_of_the_reserve_claim
+    => nrel_main_idtf: [fixed part of the reserve claim] (* <- lang_en;; *);
+    => nrel_main_idtf: [фиксированная часть резервных требований] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фіксаваная частка рэзервовых патрабаванняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fixed_part_of_the_reserve_claim_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reservation_base;
+    => nrel_associative_connection: by_normative_of_fixed_part_of_reserve_requirements;
+    => nrel_associative_connection: by_period_of_fulfillment_of_reserve_requirements;
+    => nrel_associative_connection: by_reserve_requirements_mandatory_reserves;
+    => nrel_associative_connection: by_averaged_part_of_reserve_claims;
+
+    => nrel_legal_act: by_act_b21630659;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25967?langname=ru];
+    => nrel_etalon_online_idx: [25967];;

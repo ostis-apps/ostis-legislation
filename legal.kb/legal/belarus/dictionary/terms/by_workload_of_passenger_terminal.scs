@@ -1,0 +1,34 @@
+
+by_workload_of_passenger_terminal
+    => nrel_main_idtf: [workload of passenger terminal] (* <- lang_en;; *);
+    => nrel_main_idtf: [загруженность пассажирского терминала] (* <- lang_ru;; *);
+    => nrel_main_idtf: [загружанасць пасажырскага тэрмінала] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_workload_of_passenger_terminal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_airport_infrastructure_objects;
+    => nrel_associative_connection: by_technical_opportunity_of_the_airport;
+    => nrel_associative_connection: by_technical_possibility_of_rendering_services;
+    => nrel_associative_connection: by_airport_services;
+
+    => nrel_legal_act: by_act_c22000323;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33257?langname=ru];
+    => nrel_etalon_online_idx: [33257];;

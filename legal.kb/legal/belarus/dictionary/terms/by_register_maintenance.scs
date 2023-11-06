@@ -1,0 +1,36 @@
+
+by_register_maintenance
+    => nrel_main_idtf: [register maintenance] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведение регистра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вядзенне рэгістра] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_register_maintenance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_actualization_of_personal_data;
+    => nrel_associative_connection: by_record_in_the_register;
+    => nrel_associative_connection: by_data_processing;
+    => nrel_associative_connection: by_personal_data_processing;
+    => nrel_associative_connection: by_personal_data;
+    => nrel_associative_connection: by_population_register;
+
+    => nrel_legal_act: by_act_h10800418;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41301?langname=ru];
+    => nrel_etalon_online_idx: [41301];;

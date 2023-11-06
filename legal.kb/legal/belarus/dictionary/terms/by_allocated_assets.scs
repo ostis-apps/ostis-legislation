@@ -1,0 +1,39 @@
+
+by_allocated_assets
+    => nrel_main_idtf: [allocated assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [выделенные активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдзеленыя актывы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_allocated_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_basic_asset;
+    => nrel_associative_connection: by_basic_assets;
+    => nrel_associative_connection: by_activity_of_specialized_depositary_of_identified_assets;
+    => nrel_associative_connection: by_long_term_assets;
+    => nrel_associative_connection: by_intangible_assets;
+    => nrel_associative_connection: by_conditional_asset;
+    => nrel_associative_connection: by_financial_assets;
+    => nrel_associative_connection: by_financial_asset;
+
+    => nrel_legal_act: by_act_p31700154;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13354?langname=ru];
+    => nrel_etalon_online_idx: [13354];;

@@ -1,0 +1,48 @@
+
+by_fuel_leak_shutoff_safe
+    => nrel_main_idtf: [fuel leak shut-off safe] (* <- lang_en;; *);
+    => nrel_main_idtf: [перекрытие утечки топлива безопасное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перакрыццё ўцечкі паліва бяспечнае] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fuel_leak_shutoff_safe_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fuel_leak_shutoff_safe_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_line_of_issuance;
+    => nrel_associative_connection: by_coolant_leakage;
+
+    => nrel_legal_act: by_act_w22136505p;
+    => nrel_legal_act: by_act_w02035806p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35193?langname=ru];
+    => nrel_etalon_online_idx: [35193];;

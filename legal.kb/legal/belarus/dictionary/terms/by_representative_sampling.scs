@@ -1,0 +1,61 @@
+
+by_representative_sampling
+    => nrel_main_idtf: [representative sampling] (* <- lang_en;; *);
+    => nrel_main_idtf: [репрезентативная выборка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэпрэзентатыўная выбарка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_sampling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_sampling_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sampling;
+    => nrel_associative_connection: by_sample_sampling;
+    => nrel_associative_connection: by_state_statistical_surveys;
+    => nrel_associative_connection: by_permitted_sampling_error;
+    => nrel_associative_connection: by_object_of_the_state_statistical_observation;
+    => nrel_associative_connection: by_sampling_volume;
+    => nrel_associative_connection: by_sampling_error;
+    => nrel_associative_connection: by_sampling_error_representative_error;
+    => nrel_associative_connection: by_representative_error;
+    => nrel_associative_connection: by_representative_sample;
+    => nrel_associative_connection: by_audited_population;
+    => nrel_associative_connection: by_representative_organization;
+    => nrel_associative_connection: by_representative_service;
+    => nrel_associative_connection: by_representatively_selected_organization;
+    => nrel_associative_connection: by_sampling_unit;
+
+    => nrel_legal_act: by_act_t21403012p;
+    => nrel_legal_act: by_act_w20106422;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22552?langname=ru];
+    => nrel_etalon_online_idx: [22552];;

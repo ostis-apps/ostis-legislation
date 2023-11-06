@@ -1,0 +1,35 @@
+
+by_copy_of_the_internet_resource
+    => nrel_main_idtf: [copy of the internet resource] (* <- lang_en;; *);
+    => nrel_main_idtf: [копия интернет-ресурса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [копія інтэрнэт-рэсурсу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_the_internet_resource_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner_of_internet_resource;
+    => nrel_associative_connection: by_internet_resource_identifier;
+    => nrel_associative_connection: by_internet_resource_user_identification;
+    => nrel_associative_connection: by_internet_resource;
+    => nrel_associative_connection: by_network_port;
+
+    => nrel_legal_act: by_act_t21804137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36983?langname=ru];
+    => nrel_etalon_online_idx: [36983];;

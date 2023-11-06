@@ -1,0 +1,54 @@
+
+by_exchange_differences
+    => nrel_main_idtf: [exchange differences] (* <- lang_en;; *);
+    => nrel_main_idtf: [курсовые разницы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [курсавыя розніцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exchange_differences_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exchange_differences_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_document_confirming_the_improvement_of_economic_operation;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_final_course;
+    => nrel_associative_connection: by_exchange_rate_difference;
+    => nrel_associative_connection: by_nonmonetary_liability;
+    => nrel_associative_connection: by_obligation;
+    => nrel_associative_connection: by_accounting_document;
+    => nrel_associative_connection: by_business_transaction;
+
+    => nrel_legal_act: by_act_w22239291;
+    => nrel_legal_act: by_act_w21934032;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30995?langname=ru];
+    => nrel_etalon_online_idx: [30995];;

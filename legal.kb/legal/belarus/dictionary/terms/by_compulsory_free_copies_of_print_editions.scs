@@ -1,0 +1,41 @@
+
+by_compulsory_free_copies_of_print_editions
+    => nrel_main_idtf: [compulsory free copies of print editions] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательные бесплатные экземпляры печатных изданий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязковыя бясплатныя экзэмпляры друкаваных выданняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compulsory_free_copies_of_print_editions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_publication_of_printed_edition;
+    => nrel_associative_connection: by_outputs_of_printed_edition;
+    => nrel_associative_connection: by_activity_for_distribution_of_a_printed_edition;
+    => nrel_associative_connection: by_printed_edition_manufacturer;
+    => nrel_associative_connection: by_publisher_of_printed_edition;
+    => nrel_associative_connection: by_product_of_printed_edition;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_printed_editions_of_all_kinds;
+    => nrel_associative_connection: by_release_calendar_of_socially_significant_publications;
+    => nrel_associative_connection: by_distributor_of_the_printed_edition;
+    => nrel_associative_connection: by_editorial_and_publishing_preparation_of_the_printed_edition;
+
+    => nrel_legal_act: by_act_h11200008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26840?langname=ru];
+    => nrel_etalon_online_idx: [26840];;

@@ -1,0 +1,34 @@
+
+by_special_post_stamp_with_calendar_date_transfer
+    => nrel_main_idtf: [special post stamp with calendar date transfer] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный почтовый штемпель с переводной календарной датой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльны паштовы штэмпель з пераводнай каляндарнай датай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_post_stamp_with_calendar_date_transfer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_special_postmark_with_a_fixed_oneday_or_multiday_calendar_date;
+    => nrel_associative_connection: by_special_stamp_first_day;
+
+    => nrel_legal_act: by_act_w20819574;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23846?langname=ru];
+    => nrel_etalon_online_idx: [23846];;

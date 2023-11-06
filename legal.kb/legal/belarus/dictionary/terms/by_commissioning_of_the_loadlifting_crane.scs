@@ -1,0 +1,36 @@
+
+by_commissioning_of_the_loadlifting_crane
+    => nrel_main_idtf: [commissioning of the load-lifting crane] (* <- lang_en;; *);
+    => nrel_main_idtf: [ввод в эксплуатацию грузоподъемного крана] (* <- lang_ru;; *);
+    => nrel_main_idtf: [увод у эксплуатацыю грузападымальнага крана] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commissioning_of_the_loadlifting_crane_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_putting_into_operation;
+    => nrel_associative_connection: by_military_lifting_machine;
+    => nrel_associative_connection: by_carrying_capacity;
+    => nrel_associative_connection: by_lifting_crane;
+    => nrel_associative_connection: by_satisfying_organ_unless_otherwise_specified;
+    => nrel_associative_connection: by_exploitation;
+
+    => nrel_legal_act: by_act_w22035140p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32817?langname=ru];
+    => nrel_etalon_online_idx: [32817];;

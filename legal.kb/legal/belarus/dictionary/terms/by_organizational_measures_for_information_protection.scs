@@ -1,0 +1,35 @@
+
+by_organizational_measures_for_information_protection
+    => nrel_main_idtf: [organizational measures for information protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [организационные меры по защите информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыйныя меры па абароне інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizational_measures_for_information_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_protection_of_information_of_the_electronic_data_bank;
+    => nrel_associative_connection: by_protection_of_information_contained_in_a_unified_database;
+    => nrel_associative_connection: by_protected_information;
+    => nrel_associative_connection: by_technical_measures_to_protect_information;
+
+    => nrel_legal_act: by_act_h10800455;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19197?langname=ru];
+    => nrel_etalon_online_idx: [19197];;

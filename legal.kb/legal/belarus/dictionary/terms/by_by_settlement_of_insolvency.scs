@@ -1,0 +1,38 @@
+
+by_by_settlement_of_insolvency
+    => nrel_main_idtf: [by_settlement_of_insolvency] (* <- lang_en;; *);
+    => nrel_main_idtf: [урегулирование неплатежеспособности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урэгуляванне неплацежаздольнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_settlement_of_insolvency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_crisis_manager;
+    => nrel_associative_connection: by_debt_of_an_insolvent_agricultural_organization;
+    => nrel_associative_connection: by_liquidation_proceeding;
+    => nrel_associative_connection: by_insolvency;
+    => nrel_associative_connection: by_insolvent_organizations_of_housing_and_communal_services;
+    => nrel_associative_connection: by_insolvent_agricultural_organizations;
+    => nrel_associative_connection: by_insolvency;
+
+    => nrel_legal_act: by_act_h12200227;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43765?langname=ru];
+    => nrel_etalon_online_idx: [43765];;

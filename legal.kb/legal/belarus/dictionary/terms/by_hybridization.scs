@@ -1,0 +1,21 @@
+
+by_hybridization
+    => nrel_main_idtf: [hybridization] (* <- lang_en;; *);
+    => nrel_main_idtf: [гибридизация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гібрыдызацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_hybrid_animal;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_animal_breed;
+    => nrel_associative_connection: by_cross_breeding;
+    => nrel_associative_connection: by_type_of_animals;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10152?langname=ru];
+    => nrel_etalon_online_idx: [10152];;

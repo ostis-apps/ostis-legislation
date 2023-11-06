@@ -1,0 +1,38 @@
+
+by_investigative_committee
+    => nrel_main_idtf: [investigative committee] (* <- lang_en;; *);
+    => nrel_main_idtf: [следственный комитет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [следчы камітэт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investigative_committee_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_heraldic_sign__emblem_of_the_investigation_committee;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_chiefs_of_investigation_committee_units;
+    => nrel_associative_connection: by_organs_of_service;
+    => nrel_associative_connection: by_selection_in_the_service_of_investigation_committee;
+    => nrel_associative_connection: by_investigation_committee_subdivisions;
+    => nrel_associative_connection: by_law_enforcement_bodies;
+    => nrel_associative_connection: by_professional_selection_to_serve_in_the_investigative_committee;
+
+    => nrel_legal_act: by_act_h11200403;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23315?langname=ru];
+    => nrel_etalon_online_idx: [23315];;

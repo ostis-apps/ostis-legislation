@@ -1,0 +1,32 @@
+
+by_contact_center
+    => nrel_main_idtf: [contact center] (* <- lang_en;; *);
+    => nrel_main_idtf: [контакт-центр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантакт-цэнтр] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contact_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_consulting_information_services;
+    => nrel_associative_connection: by_regional_node;
+
+    => nrel_legal_act: by_act_b21428874;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11361?langname=ru];
+    => nrel_etalon_online_idx: [11361];;

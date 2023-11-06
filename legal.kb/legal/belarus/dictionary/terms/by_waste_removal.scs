@@ -1,0 +1,68 @@
+
+by_waste_removal
+    => nrel_main_idtf: [waste removal] (* <- lang_en;; *);
+    => nrel_main_idtf: [удаление отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдаленне адходаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_removal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_removal_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_removal_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_costs_associated_with_determining_the_mass_of_waste;
+    => nrel_associative_connection: by_waste_disposal;
+    => nrel_associative_connection: by_radioactive_waste_disposal;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_planned_and_regular_sanitary_cleaning;
+    => nrel_associative_connection: by_waste_storage;
+
+    => nrel_legal_act: by_act_c21700567;
+    => nrel_legal_act: by_act_f21400091;
+    => nrel_legal_act: by_act_n20700180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25406?langname=ru];
+    => nrel_etalon_online_idx: [25406];;

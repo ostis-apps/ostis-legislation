@@ -1,0 +1,71 @@
+
+by_scientific_research_works
+    => nrel_main_idtf: [scientific research works] (* <- lang_en;; *);
+    => nrel_main_idtf: [научно-исследовательские работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукова-даследчыя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_research_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_research_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_scientific_and_technical_examination;
+    => nrel_associative_connection: by_dendrological_park;
+    => nrel_associative_connection: by_contract_on_research_acquisition_surveys_and_technological_works;
+    => nrel_associative_connection: by_researcher;
+    => nrel_associative_connection: by_research;
+    => nrel_associative_connection: by_contract_research_organization;
+    => nrel_associative_connection: by_conference_research_competition;
+    => nrel_associative_connection: by_event_on_scientific_support_of_the_program_subprogram;
+    => nrel_associative_connection: by_scientific_activity;
+    => nrel_associative_connection: by_scientific_organization;
+    => nrel_associative_connection: by_scientific_and_information_activity;
+    => nrel_associative_connection: by_research_scientific_documentation;
+    => nrel_associative_connection: by_scientific_research_activity;
+    => nrel_associative_connection: by_research_activity_of_students;
+    => nrel_associative_connection: by_research_activity_of_achiever_students_achiever_undergraduates;
+    => nrel_associative_connection: by_research_part_sector_department;
+    => nrel_associative_connection: by_scientific_and_practical_center;
+    => nrel_associative_connection: by_scientific_and_technical_products;
+    => nrel_associative_connection: by_researches;
+    => nrel_associative_connection: by_scientific_worker;
+    => nrel_associative_connection: by_national_academy_of_sciences_of_belarus;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_guideline_for_researcher;
+    => nrel_associative_connection: by_center_for_shared_use_of_unique_scientific_equipment;
+    => nrel_associative_connection: by_examination_of_sectoral_research_works;
+
+    => nrel_legal_act: by_act_hk0200166;
+    => nrel_legal_act: by_act_f01400176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2859?langname=ru];
+    => nrel_etalon_online_idx: [2859];;

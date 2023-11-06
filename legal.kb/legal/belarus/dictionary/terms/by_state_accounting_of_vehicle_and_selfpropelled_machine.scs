@@ -1,0 +1,35 @@
+
+by_state_accounting_of_vehicle_and_selfpropelled_machine
+    => nrel_main_idtf: [state accounting of vehicle and self-propelled machine] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный учет транспортного средства и самоходной машины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны ўлік транспартнага сродку і самаходнай машыны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_accounting_of_vehicle_and_selfpropelled_machine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration_of_vehicle;
+    => nrel_associative_connection: by_state_registration_of_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_numbered_unit;
+    => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_selfpropelled_vehicle;
+
+    => nrel_legal_act: by_act_c20901078;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33697?langname=ru];
+    => nrel_etalon_online_idx: [33697];;

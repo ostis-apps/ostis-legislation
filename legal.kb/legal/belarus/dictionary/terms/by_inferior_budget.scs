@@ -1,0 +1,32 @@
+
+by_inferior_budget
+    => nrel_main_idtf: [inferior budget] (* <- lang_en;; *);
+    => nrel_main_idtf: [нижестоящий бюджет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ніжэйстаячы бюджэт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inferior_budget_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_regulatory_revenues_of_the_republican_budget_and_local_budgets;
+
+    => nrel_legal_act: by_act_hk0800412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3898?langname=ru];
+    => nrel_etalon_online_idx: [3898];;

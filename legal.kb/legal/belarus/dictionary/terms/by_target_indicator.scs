@@ -1,0 +1,35 @@
+
+by_target_indicator
+    => nrel_main_idtf: [target indicator] (* <- lang_en;; *);
+    => nrel_main_idtf: [целевой показатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мэтавы паказальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_target_indicator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interdependent_indicators;
+    => nrel_associative_connection: by_state_program;
+    => nrel_associative_connection: by_evaluating_the_effectiveness_of_the_implementation_and_results_of_the_program_subprogram;
+    => nrel_associative_connection: by_indicators;
+    => nrel_associative_connection: by_consolidated_target_indicator;
+
+    => nrel_legal_act: by_act_p31600289;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11480?langname=ru];
+    => nrel_etalon_online_idx: [11480];;

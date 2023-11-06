@@ -1,0 +1,49 @@
+
+by_main_capital
+    => nrel_main_idtf: [main capital] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной капитал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны капітал] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_capital_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_capital_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_intangible_assets;
+    => nrel_associative_connection: by_fixed_assets;
+
+    => nrel_legal_act: by_act_t22104927p;
+    => nrel_legal_act: by_act_t22104764p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38203?langname=ru];
+    => nrel_etalon_online_idx: [38203];;

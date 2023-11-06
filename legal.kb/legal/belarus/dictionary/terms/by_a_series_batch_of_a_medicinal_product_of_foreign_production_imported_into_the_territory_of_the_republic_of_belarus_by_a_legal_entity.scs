@@ -1,0 +1,34 @@
+
+by_a_series_batch_of_a_medicinal_product_of_foreign_production_imported_into_the_territory_of_the_republic_of_belarus_by_a_legal_entity
+    => nrel_main_idtf: [a series (batch) of a medicinal product of foreign production imported into the territory of the republic of belarus by a legal entity] (* <- lang_en;; *);
+    => nrel_main_idtf: [ввозимая на территорию республики беларусь серия (партия) лекарственного средства зарубежного производства юридическим лицом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [серыя (партыя) лекавага сродку зарубежнай вытворчасці юрыдычнай асобай, якая ўвозіцца на тэрыторыю рэспублікі беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_a_series_batch_of_a_medicinal_product_of_foreign_production_imported_into_the_territory_of_the_republic_of_belarus_by_a_legal_entity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_the_medicine;
+    => nrel_associative_connection: by_biological_medicine;
+    => nrel_associative_connection: by_manufacturerissued_batch_lot_of_medicinal_product;
+    => nrel_associative_connection: by_first_series_of_medicine;
+
+    => nrel_legal_act: by_act_w21022149;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37501?langname=ru];
+    => nrel_etalon_online_idx: [37501];;

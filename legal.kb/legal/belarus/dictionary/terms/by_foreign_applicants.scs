@@ -1,0 +1,37 @@
+
+by_foreign_applicants
+    => nrel_main_idtf: [foreign applicants] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранный заявитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежны заяўнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_applicants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_applicant;
+    => nrel_associative_connection: by_competent_authority;
+    => nrel_associative_connection: by_national_applicant;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_official_bulletin;
+
+    => nrel_legal_act: by_act_c22000468;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33986?langname=ru];
+    => nrel_etalon_online_idx: [33986];;

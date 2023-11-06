@@ -1,0 +1,34 @@
+
+by_wood_preservation
+    => nrel_main_idtf: [wood preservation] (* <- lang_en;; *);
+    => nrel_main_idtf: [консервирование древесины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кансерваванне драўніны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_preservation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antisepting_of_timber_surface;
+    => nrel_associative_connection: by_hydrophobizing_impregnation;
+    => nrel_associative_connection: by_protective_covering;
+    => nrel_associative_connection: by_paint_system;
+
+    => nrel_legal_act: by_act_w22035973p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35427?langname=ru];
+    => nrel_etalon_online_idx: [35427];;

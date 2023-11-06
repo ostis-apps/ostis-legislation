@@ -1,0 +1,22 @@
+
+by_intermediate_warehouse
+    => nrel_main_idtf: [intermediate warehouse] (* <- lang_en;; *);
+    => nrel_main_idtf: [промежуточный склад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамежкавы склад] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_basic_warehouse;
+    => nrel_associative_connection: by_storewarehouse;
+    => nrel_associative_connection: by_consumable_warehouse_cellar;
+    => nrel_associative_connection: by_warehouse;
+    => nrel_associative_connection: by_specialized_warehouses;
+    => nrel_associative_connection: by_commodity_warehouse;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21622?langname=ru];
+    => nrel_etalon_online_idx: [21622];;

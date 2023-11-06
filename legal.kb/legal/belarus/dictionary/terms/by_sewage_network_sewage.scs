@@ -1,0 +1,43 @@
+
+by_sewage_network_sewage
+    => nrel_main_idtf: [sewage network (sewage)] (* <- lang_en;; *);
+    => nrel_main_idtf: [канализационная сеть (канализация)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каналізацыйная сетка (каналізацыя)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sewage_network_sewage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_drainage_plant_wdp;
+    => nrel_associative_connection: by_hydraulic_shutter_hydraulic_seal;
+    => nrel_associative_connection: by_engineering_network;
+    => nrel_associative_connection: by_sewer_pipe;
+    => nrel_associative_connection: by_sewage;
+    => nrel_associative_connection: by_objects_of_engineering_and_transport_infrastructure;
+    => nrel_associative_connection: by_organization_of_watersewer_economy;
+    => nrel_associative_connection: by_organization_of_watersewer_economy__wse_organization;
+    => nrel_associative_connection: by_damage_in_the_water_supply_drainage_sewerage_system;
+    => nrel_associative_connection: by_industrial_wastewater_of_the_subscriber_subscriber_discharged_to_the_centralized_water_disposal_sewer_systems;
+    => nrel_associative_connection: by_distribution_networks_of_water_supply_drainage_sewerage;
+    => nrel_associative_connection: by_rainwater_drainage_system;
+    => nrel_associative_connection: by_centralized_water_disposal_sewer;
+
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28439?langname=ru];
+    => nrel_etalon_online_idx: [28439];;

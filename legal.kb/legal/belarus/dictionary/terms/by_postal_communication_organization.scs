@@ -1,0 +1,55 @@
+
+by_postal_communication_organization
+    => nrel_main_idtf: [postal communication organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя паштовай сувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postal_communication_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postal_communication_organization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_international_postal_communication;
+    => nrel_associative_connection: by_national_operator_of_mail_services;
+    => nrel_associative_connection: by_postal_communication_object;
+    => nrel_associative_connection: by_postal_communication_operator;
+    => nrel_associative_connection: by_postal_office;
+    => nrel_associative_connection: by_postal_security;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_collective_use_point;
+    => nrel_associative_connection: by_post_office;
+
+    => nrel_legal_act: by_act_w22238313;
+    => nrel_legal_act: by_act_b21124411;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12134?langname=ru];
+    => nrel_etalon_online_idx: [12134];;

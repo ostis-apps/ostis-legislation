@@ -1,0 +1,32 @@
+
+by_index_of_physical_volume_of_commodity_turnover_of_public_catering
+    => nrel_main_idtf: [index of physical volume of commodity turnover of public catering] (* <- lang_en;; *);
+    => nrel_main_idtf: [индекс физического объема товарооборота общественного питания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індэкс фізічнага аб'ёму тавараабароту грамадскага харчавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_index_of_physical_volume_of_commodity_turnover_of_public_catering_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_price;
+
+    => nrel_legal_act: by_act_t21603401p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40456?langname=ru];
+    => nrel_etalon_online_idx: [40456];;

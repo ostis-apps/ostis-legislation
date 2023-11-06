@@ -1,0 +1,33 @@
+
+by_container_terminal
+    => nrel_main_idtf: [container terminal] (* <- lang_en;; *);
+    => nrel_main_idtf: [контейнерный терминал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантэйнерны тэрмінал] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_container_terminal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_big_container;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_cargoes_carriage;
+
+    => nrel_legal_act: by_act_t22004592p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16175?langname=ru];
+    => nrel_etalon_online_idx: [16175];;

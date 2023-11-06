@@ -1,0 +1,37 @@
+
+by_national_park
+    => nrel_main_idtf: [national park] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальный парк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальны парк] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_park_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lands_used_for_nature_protection_purposes;
+    => nrel_associative_connection: by_specially_protected_natural_territories;
+    => nrel_associative_connection: by_park;
+    => nrel_associative_connection: by_parks;
+    => nrel_associative_connection: by_system_of_specially_protected_natural_territories;
+    => nrel_associative_connection: by_territorial_unit;
+    => nrel_associative_connection: by_valuable_natural_complexes_and_objects;
+
+    => nrel_legal_act: by_act_h11800150;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4603?langname=ru];
+    => nrel_etalon_online_idx: [4603];;

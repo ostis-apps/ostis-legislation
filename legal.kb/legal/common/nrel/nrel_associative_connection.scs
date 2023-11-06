@@ -1,0 +1,18 @@
+nrel_associative_connection
+  <- sc_node_norole_relation;
+  => nrel_main_idtf: [ассоциативная связь*] (* <- lang_ru;; *);
+  => nrel_main_idtf: [associative connection*] (* <- lang_en;; *);
+  => nrel_main_idtf: [асацыятыўная сувязь*] (* <- lang_by;; *);
+
+  <- rrel_key_sc_element: ... (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/nrel_associative_connection.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);;

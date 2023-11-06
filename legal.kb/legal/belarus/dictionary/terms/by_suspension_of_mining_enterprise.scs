@@ -1,0 +1,34 @@
+
+by_suspension_of_mining_enterprise
+    => nrel_main_idtf: [suspension of mining enterprise] (* <- lang_en;; *);
+    => nrel_main_idtf: [консервация горного предприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кансервацыя горнага прадпрыемства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_suspension_of_mining_enterprise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mining_enterprise;
+    => nrel_associative_connection: by_mining_operations;
+    => nrel_associative_connection: by_suspension_of_mine_workings;
+    => nrel_associative_connection: by_liquidation_of_mining_enterprise;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5079?langname=ru];
+    => nrel_etalon_online_idx: [5079];;

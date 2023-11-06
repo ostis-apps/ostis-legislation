@@ -1,0 +1,34 @@
+
+by_services_in_electronic_form
+    => nrel_main_idtf: [services in electronic form] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги в электронной форме] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі ў электроннай форме] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_services_in_electronic_form_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_homogeneous_transactions;
+    => nrel_associative_connection: by_mediation_services;
+    => nrel_associative_connection: by_services_to_provide_information;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30852?langname=ru];
+    => nrel_etalon_online_idx: [30852];;

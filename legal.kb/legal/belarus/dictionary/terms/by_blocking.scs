@@ -1,0 +1,66 @@
+
+by_blocking
+    => nrel_main_idtf: [blocking] (* <- lang_en;; *);
+    => nrel_main_idtf: [блокирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блакіраванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blocking_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_personal_data_blocking;
+    => nrel_associative_connection: by_financial_operation_blocking;
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_financing;
+
+    => nrel_legal_act: by_act_b21631290;
+    => nrel_legal_act: by_act_n21800044;
+    => nrel_legal_act: by_act_f20500028;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12794?langname=ru];
+    => nrel_etalon_online_idx: [12794];;

@@ -1,0 +1,38 @@
+
+by_reduced_normalized_compressive_strength_of_masonry_products
+    => nrel_main_idtf: [reduced (normalized) compressive strength of masonry products] (* <- lang_en;; *);
+    => nrel_main_idtf: [приведенная (нормированная) прочность на сжатие кладочных изделий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыведзеная (нарміраваная) моц на скарачэнне кладачных вырабаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reduced_normalized_compressive_strength_of_masonry_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bearing_layer_of_masonry;
+    => nrel_associative_connection: by_binding_of_masonry;
+    => nrel_associative_connection: by_masonry_compressive_strength;
+    => nrel_associative_connection: by_compressive_strength_of_masonry_mortar;
+    => nrel_associative_connection: by_compressive_strength_of_masonry_products;
+    => nrel_associative_connection: by_adherence_strength_of_reinforcement_with_concrete;
+    => nrel_associative_connection: by_strength_of_stone_masonry;
+    => nrel_associative_connection: by_standard_masonry_mortar;
+
+    => nrel_legal_act: by_act_w221p0018;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38062?langname=ru];
+    => nrel_etalon_online_idx: [38062];;

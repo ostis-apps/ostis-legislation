@@ -1,0 +1,20 @@
+
+by_trade_by_sample
+    => nrel_main_idtf: [trade by sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговля по образцам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандаль па ўзорах] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_demonstration;
+    => nrel_associative_connection: by_sale_of_goods_as_per_specimens;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_trade;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7052?langname=ru];
+    => nrel_etalon_online_idx: [7052];;

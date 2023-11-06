@@ -1,0 +1,34 @@
+
+by_by_ucici_system
+    => nrel_main_idtf: [by_ucici_system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система ю-си-си] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма ю-сі-сі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_ucici_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_ean_system_of_belarus;
+    => nrel_associative_connection: by_commodity_numbering;
+    => nrel_associative_connection: by_commodity_number;
+
+    => nrel_legal_act: by_act_c20000748;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23262?langname=ru];
+    => nrel_etalon_online_idx: [23262];;

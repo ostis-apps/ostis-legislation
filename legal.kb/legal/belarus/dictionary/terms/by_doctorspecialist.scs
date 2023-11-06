@@ -1,0 +1,88 @@
+
+by_doctorspecialist
+    => nrel_main_idtf: [doctor-specialist] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-специалист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-спецыяліст] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doctorspecialist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doctorspecialist_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doctorspecialist_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diving_doctor_paramedic;
+    => nrel_associative_connection: by_doctor__maxillofacial_surgeon_dms;
+    => nrel_associative_connection: by_radiation_hygiene_doctor;
+    => nrel_associative_connection: by_radiation_medicine_doctor;
+    => nrel_associative_connection: by_doctor_psychologist_and_narcologist;
+    => nrel_associative_connection: by_psychiatristnarcologist_psychologist;
+    => nrel_associative_connection: by_pulmonologist;
+    => nrel_associative_connection: by_specialist_doctor_in_the_area_of_psychiatric_care;
+    => nrel_associative_connection: by_dentist;
+    => nrel_associative_connection: by_therapist;
+    => nrel_associative_connection: by_thoracic_surgeon;
+    => nrel_associative_connection: by_phthisiologist;
+    => nrel_associative_connection: by_surgeon;
+    => nrel_associative_connection: by_epidemiologist;
+    => nrel_associative_connection: by_chief_specialist_on_oncology_of_the_ministry_of_health_regional_city_health_care_management_department;
+    => nrel_associative_connection: by_infectious_disease_specialized_assistance_team;
+    => nrel_associative_connection: by_residency_training;
+    => nrel_associative_connection: by_attending_doctor;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_personnel;
+    => nrel_associative_connection: by_medical_observation;
+    => nrel_associative_connection: by_interdisciplinary_team_of_specialists;
+    => nrel_associative_connection: by_general_medical_practice;
+    => nrel_associative_connection: by_workers_profession;
+    => nrel_associative_connection: by_residency;
+    => nrel_associative_connection: by_specialist;
+
+    => nrel_legal_act: by_act_h11200345;
+    => nrel_legal_act: by_act_w60310377;
+    => nrel_legal_act: by_act_w60106788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7350?langname=ru];
+    => nrel_etalon_online_idx: [7350];;

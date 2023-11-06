@@ -1,0 +1,36 @@
+
+by_proactive_method
+    => nrel_main_idtf: [proactive method] (* <- lang_en;; *);
+    => nrel_main_idtf: [проактивный метод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праактыўны метад] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_proactive_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_achieved_safety;
+    => nrel_associative_connection: by_classification_of_risks;
+    => nrel_associative_connection: by_flight_safety_management_system;
+    => nrel_associative_connection: by_risk_reduction;
+    => nrel_associative_connection: by_security_situation;
+
+    => nrel_legal_act: by_act_c21900563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31549?langname=ru];
+    => nrel_etalon_online_idx: [31549];;

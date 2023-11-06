@@ -1,0 +1,18 @@
+
+by_by_clinical_case_report
+    => nrel_main_idtf: [by_clinical_case_report] (* <- lang_en;; *);
+    => nrel_main_idtf: [клинический случай кори] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клінічны выпадак адзёру] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_clinical_case_of_rubella;
+    => nrel_associative_connection: by_laboratoryconfirmed_case_of_measles;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43339?langname=ru];
+    => nrel_etalon_online_idx: [43339];;

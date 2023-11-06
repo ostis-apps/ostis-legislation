@@ -1,0 +1,33 @@
+
+by_life_support_conditions
+    => nrel_main_idtf: [life support conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [условия жизнеобеспечения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умовы жыццезабеспячэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_life_support_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_population;
+    => nrel_associative_connection: by_emergency;
+    => nrel_associative_connection: by_evacuation_activities;
+
+    => nrel_legal_act: by_act_c20800610;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25576?langname=ru];
+    => nrel_etalon_online_idx: [25576];;

@@ -1,0 +1,51 @@
+
+by_confession
+    => nrel_main_idtf: [confession] (* <- lang_en;; *);
+    => nrel_main_idtf: [признание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прызнанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_confession_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_confession_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_written_agreement_on_the_recognition_of_a_family_member;
+    => nrel_associative_connection: by_recognition_and_conformity_of_teaching_periods_and_higher_education_courses_in_foreign_organizations;
+    => nrel_associative_connection: by_recognition_of_foreign_documents_on_education_and_establishing_their_equivalence_conformity_with_documents_on_education_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_accrual_principle;
+    => nrel_associative_connection: by_interest_income;
+
+    => nrel_legal_act: by_act_b20921330;
+    => nrel_legal_act: by_act_b205p0275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21249?langname=ru];
+    => nrel_etalon_online_idx: [21249];;

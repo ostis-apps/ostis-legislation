@@ -1,0 +1,37 @@
+
+by_cafeteria
+    => nrel_main_idtf: [cafeteria] (* <- lang_en;; *);
+    => nrel_main_idtf: [кафетерий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кафетэрый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cafeteria_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cafe;
+    => nrel_associative_connection: by_quick_service_cafe;
+    => nrel_associative_connection: by_coffee_bar;
+    => nrel_associative_connection: by_coffee_house;
+    => nrel_associative_connection: by_summer_cafe_mini_cafe;
+    => nrel_associative_connection: by_summer_seasonal_cafe;
+    => nrel_associative_connection: by_minicafe;
+
+    => nrel_legal_act: by_act_w22136606;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39717?langname=ru];
+    => nrel_etalon_online_idx: [39717];;

@@ -1,0 +1,31 @@
+
+by_working_condition_good_condition_of_vehicle
+    => nrel_main_idtf: [working condition (good condition) of vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправное состояние (исправность) транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спраўны стан (спраўнасць) транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_condition_good_condition_of_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_technical_diagnostic;
+
+    => nrel_legal_act: by_act_w21934566p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31804?langname=ru];
+    => nrel_etalon_online_idx: [31804];;

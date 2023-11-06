@@ -1,0 +1,70 @@
+
+by_technical_conditions
+    => nrel_main_idtf: [technical conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [технические условия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічныя ўмовы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_conditions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_conditions_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_identification_of_technical_conditions;
+    => nrel_associative_connection: by_normative_and_technical_documentation;
+    => nrel_associative_connection: by_normative_documents;
+    => nrel_associative_connection: by_assessment_of_technical_compliance;
+    => nrel_associative_connection: by_verification_of_the_technical_normative_legal_act_in_the_area_of_technical_regulation_and_standardization;
+    => nrel_associative_connection: by_standardization;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+    => nrel_associative_connection: by_technical_requirements;
+
+    => nrel_legal_act: by_act_h10400262;
+    => nrel_legal_act: by_act_w21833597p;
+    => nrel_legal_act: by_act_f91800424;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7032?langname=ru];
+    => nrel_etalon_online_idx: [7032];;

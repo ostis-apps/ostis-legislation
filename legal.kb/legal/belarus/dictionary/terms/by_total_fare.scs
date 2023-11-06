@@ -1,0 +1,36 @@
+
+by_total_fare
+    => nrel_main_idtf: [total fare] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая стоимость проезда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульны кошт праезду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_fare_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_passenger_fare;
+    => nrel_associative_connection: by_trainkilometre;
+    => nrel_associative_connection: by_smartcard;
+    => nrel_associative_connection: by_agreed_trains;
+    => nrel_associative_connection: by_ticket_price;
+
+    => nrel_legal_act: by_act_c21500609;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11424?langname=ru];
+    => nrel_etalon_online_idx: [11424];;

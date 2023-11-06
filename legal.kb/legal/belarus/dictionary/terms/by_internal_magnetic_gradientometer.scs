@@ -1,0 +1,34 @@
+
+by_internal_magnetic_gradientometer
+    => nrel_main_idtf: [internal magnetic gradientometer] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренний магнитный градиентометр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраны магнітны градыентаметр] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_magnetic_gradientometer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upper_bandage_shelf;
+    => nrel_associative_connection: by_magnetic_gradentometers;
+    => nrel_associative_connection: by_magnetometers;
+    => nrel_associative_connection: by_specific_goods_works_services;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13117?langname=ru];
+    => nrel_etalon_online_idx: [13117];;

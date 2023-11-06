@@ -1,0 +1,40 @@
+
+by_registration_district
+    => nrel_main_idtf: [registration district] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрационный округ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыйная акруга] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registration_district_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration_of_real_estate;
+    => nrel_associative_connection: by_unified_state_register_of_real_estate_rights_to_it_and_transactions_with_it;
+    => nrel_associative_connection: by_records_on_registered_transactions_with_real_estate;
+    => nrel_associative_connection: by_records_about_other_registered_or_included_in_the_unified_state_register_of_real_estate_rights_to_it_and_transactions_with_it_in_accordance_with_the_legislative_acts_rights_limitations_ecumbrances_on_real_estate_rights;
+    => nrel_associative_connection: by_record_of_registered_real_estate;
+    => nrel_associative_connection: by_record_of_registered_property_right_to_real_estate;
+    => nrel_associative_connection: by_registration_area;
+    => nrel_associative_connection: by_republican_organization_for_state_registration;
+    => nrel_associative_connection: by_territorial_organization_for_state_registration;
+    => nrel_associative_connection: by_territorial_register_of_real_estate_property;
+
+    => nrel_legal_act: by_act_h10200133;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22326?langname=ru];
+    => nrel_etalon_online_idx: [22326];;

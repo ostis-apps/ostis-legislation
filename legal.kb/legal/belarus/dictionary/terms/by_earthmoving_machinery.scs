@@ -1,0 +1,36 @@
+
+by_earthmoving_machinery
+    => nrel_main_idtf: [earth-moving machinery] (* <- lang_en;; *);
+    => nrel_main_idtf: [землеройные машины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [землярыйныя машыны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_earthmoving_machinery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_berm;
+    => nrel_associative_connection: by_flattening_slopes;
+    => nrel_associative_connection: by_mining_transport_machines;
+    => nrel_associative_connection: by_slaughter;
+    => nrel_associative_connection: by_quarry;
+    => nrel_associative_connection: by_open_mining_operations;
+
+    => nrel_legal_act: by_act_w22035604p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34188?langname=ru];
+    => nrel_etalon_online_idx: [34188];;

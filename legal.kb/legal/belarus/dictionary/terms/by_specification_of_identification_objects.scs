@@ -1,0 +1,34 @@
+
+by_specification_of_identification_objects
+    => nrel_main_idtf: [specification of identification objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [спецификация объектов идентификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыфікацыя аб'ектаў ідэнтыфікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specification_of_identification_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ordering_customers_of_the_identification;
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_vehicle_identification;
+    => nrel_associative_connection: by_certificate_of_the_end_user;
+
+    => nrel_legal_act: by_act_p31700049;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23860?langname=ru];
+    => nrel_etalon_online_idx: [23860];;

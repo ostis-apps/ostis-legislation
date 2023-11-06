@@ -1,0 +1,35 @@
+
+by_authenticity_of_the_document
+    => nrel_main_idtf: [authenticity of the document] (* <- lang_en;; *);
+    => nrel_main_idtf: [подлинность документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сапраўднасць дакумента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authenticity_of_the_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_copy_of_archive_document_on_the_rights_of_original;
+    => nrel_associative_connection: by_script;
+    => nrel_associative_connection: by_originals_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_authenticity_of_the_document_in_electronic_form;
+    => nrel_associative_connection: by_authenticity_of_an_electronic_document;
+
+    => nrel_legal_act: by_act_w21225981;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41293?langname=ru];
+    => nrel_etalon_online_idx: [41293];;

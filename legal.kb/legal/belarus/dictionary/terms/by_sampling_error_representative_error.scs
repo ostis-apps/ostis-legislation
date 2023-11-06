@@ -1,0 +1,47 @@
+
+by_sampling_error_representative_error
+    => nrel_main_idtf: [sampling error (representative error)] (* <- lang_en;; *);
+    => nrel_main_idtf: [ошибка выборки (ошибка репрезентативности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памылка выбаркі (памылка рэпрэзентацыйнасці)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sampling_error_representative_error_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sampling;
+    => nrel_associative_connection: by_sample_sampling;
+    => nrel_associative_connection: by_permitted_sampling_error;
+    => nrel_associative_connection: by_mechanical_sampling;
+    => nrel_associative_connection: by_multivariate_sample;
+    => nrel_associative_connection: by_sampling_volume;
+    => nrel_associative_connection: by_dimensional_sampling;
+    => nrel_associative_connection: by_sampling_error;
+    => nrel_associative_connection: by_general_error;
+    => nrel_associative_connection: by_representative_error;
+    => nrel_associative_connection: by_representative_sampling;
+    => nrel_associative_connection: by_representative_organization;
+    => nrel_associative_connection: by_representative_service;
+    => nrel_associative_connection: by_representatively_selected_organization;
+    => nrel_associative_connection: by_risk_not_associated_with_the_selective_method;
+    => nrel_associative_connection: by_risk_associated_with_the_selective_method;
+    => nrel_associative_connection: by_sampling_unit;
+
+    => nrel_legal_act: by_act_t21403012p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19747?langname=ru];
+    => nrel_etalon_online_idx: [19747];;

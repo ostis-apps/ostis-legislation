@@ -1,0 +1,22 @@
+
+by_unaccounted_consumers
+    => nrel_main_idtf: [unaccounted consumers] (* <- lang_en;; *);
+    => nrel_main_idtf: [безучетные потребители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [безуліковыя спажыўцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_water_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply_contract;
+    => nrel_associative_connection: by_open_heating_system;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_supply;
+    => nrel_associative_connection: by_technological_reservation_of_heat_supply;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31874?langname=ru];
+    => nrel_etalon_online_idx: [31874];;

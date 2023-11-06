@@ -1,0 +1,35 @@
+
+by_component_parts_of_the_industrial_park_great_stone
+    => nrel_main_idtf: [component parts of the industrial park "great stone"] (* <- lang_en;; *);
+    => nrel_main_idtf: [составные части индустриального парка "великий камень"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [састаўныя часткі індустрыяльнага парка "вялікі камень"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_component_parts_of_the_industrial_park_great_stone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_object_of_industrial_park;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_of_industrial_park;
+    => nrel_associative_connection: by_industrial_park_resident;
+    => nrel_associative_connection: by_construction_of_industrial_park_objects;
+    => nrel_associative_connection: by_participant_in_construction_of_industrial_park_objects;
+
+    => nrel_legal_act: by_act_h11000190;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28132?langname=ru];
+    => nrel_etalon_online_idx: [28132];;

@@ -1,0 +1,51 @@
+
+by_deformation_joint
+    => nrel_main_idtf: [deformation joint] (* <- lang_en;; *);
+    => nrel_main_idtf: [деформационный шов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэфармацыйны шоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deformation_joint_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deformation_joint_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_concrete_fpor_the_filling_concrete;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structure_of_general_purpose;
+    => nrel_associative_connection: by_stiffening_diaphragm;
+    => nrel_associative_connection: by_masonry_mortar;
+
+    => nrel_legal_act: by_act_w221p0018;
+    => nrel_legal_act: by_act_w22136581p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37613?langname=ru];
+    => nrel_etalon_online_idx: [37613];;

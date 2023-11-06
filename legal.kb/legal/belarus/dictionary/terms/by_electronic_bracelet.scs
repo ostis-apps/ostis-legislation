@@ -1,0 +1,37 @@
+
+by_electronic_bracelet
+    => nrel_main_idtf: [electronic bracelet] (* <- lang_en;; *);
+    => nrel_main_idtf: [электронный браслет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электронны бранзалет] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electronic_bracelet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mobile_control_device;
+    => nrel_associative_connection: by_mobile_monitoring_panel;
+    => nrel_associative_connection: by_restraint_of_liberty;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_repeater;
+    => nrel_associative_connection: by_stationary_control_device;
+    => nrel_associative_connection: by_audiovisual_control_device;
+
+    => nrel_legal_act: by_act_c21500298;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11380?langname=ru];
+    => nrel_etalon_online_idx: [11380];;

@@ -1,0 +1,51 @@
+
+by_by_fishery_stock
+    => nrel_main_idtf: [by_fishery_stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [промысловый запас] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловы запас] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_fishery_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarusian_population_of_bisons;
+    => nrel_associative_connection: by_biomass;
+    => nrel_associative_connection: by_wild_animals_of_resource_species;
+    => nrel_associative_connection: by_reserves;
+    => nrel_associative_connection: by_micropopulation_subpopulation_of_bisons;
+    => nrel_associative_connection: by_optimum_number_of_wild_animals;
+    => nrel_associative_connection: by_optimum_number_of_hunting_animals;
+    => nrel_associative_connection: by_density_of_fish_moving;
+    => nrel_associative_connection: by_density_of_wild_animals;
+    => nrel_associative_connection: by_density_of_hunting_animals;
+    => nrel_associative_connection: by_population;
+    => nrel_associative_connection: by_population_of_wild_animals;
+    => nrel_associative_connection: by_fish_population;
+    => nrel_associative_connection: by_accepted_number_of_hunting_animals_of_a_certain_species;
+    => nrel_associative_connection: by_production_share;
+    => nrel_associative_connection: by_production_measure;
+    => nrel_associative_connection: by_wild_animal_production_measure;
+    => nrel_associative_connection: by_commercial_hunting;
+    => nrel_associative_connection: by_commercial_number;
+    => nrel_associative_connection: by_fishery_stock_of_fish;
+    => nrel_associative_connection: by_number_of_hunting_animals;
+
+    => nrel_legal_act: by_act_w20818506;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21635?langname=ru];
+    => nrel_etalon_online_idx: [21635];;

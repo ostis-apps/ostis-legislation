@@ -1,0 +1,39 @@
+
+by_owner_of_a_historic_and_cultural_value
+    => nrel_main_idtf: [owner of a historic and cultural value] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец историко-культурной ценности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уласнік гісторыка-культурнай каштоўнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_a_historic_and_cultural_value_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_state_list_of_historic_and_cultural_values_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_historical_and_cultural_value;
+    => nrel_associative_connection: by_cultural_value;
+    => nrel_associative_connection: by_user_of_a_historic_and_cultural_value;
+    => nrel_associative_connection: by_preservation_of_historic_and_cultural_values;
+    => nrel_associative_connection: by_part_of_the_material_historical_and_cultural_value;
+    => nrel_associative_connection: by_evacuation_of_material_historical_and_cultural_values;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7983?langname=ru];
+    => nrel_etalon_online_idx: [7983];;

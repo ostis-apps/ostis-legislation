@@ -1,0 +1,33 @@
+
+by_dangerous_natural_phenomena
+    => nrel_main_idtf: [dangerous natural phenomena] (* <- lang_en;; *);
+    => nrel_main_idtf: [опасное природное явление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [небяспечная прыродная з'ява] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dangerous_natural_phenomena_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_environmental_environmental_activity_protection;
+    => nrel_associative_connection: by_natural_environment;
+    => nrel_associative_connection: by_natural_resources;
+
+    => nrel_legal_act: by_act_w20309364;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18943?langname=ru];
+    => nrel_etalon_online_idx: [18943];;

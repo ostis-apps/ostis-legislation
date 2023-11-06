@@ -1,0 +1,37 @@
+
+by_information_trade_system_of_commodity_exchange
+    => nrel_main_idtf: [information trade system of commodity exchange] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационная торговая система товарной биржи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйная гандлёвая сістэма таварнай біржы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_trade_system_of_commodity_exchange_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_stock_exchange_transaction;
+    => nrel_associative_connection: by_technical_means;
+    => nrel_associative_connection: by_commodity_exchange;
+    => nrel_associative_connection: by_trade_system;
+    => nrel_associative_connection: by_exchange_trade_system;
+    => nrel_associative_connection: by_commodity_exchange_trade_system;
+
+    => nrel_legal_act: by_act_c20901039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15447?langname=ru];
+    => nrel_etalon_online_idx: [15447];;

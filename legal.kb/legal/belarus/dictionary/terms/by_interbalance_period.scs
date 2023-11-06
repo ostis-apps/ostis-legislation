@@ -1,0 +1,35 @@
+
+by_interbalance_period
+    => nrel_main_idtf: [interbalance period] (* <- lang_en;; *);
+    => nrel_main_idtf: [межбалансовый период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжбалансавы перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interbalance_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_attributive_features;
+    => nrel_associative_connection: by_identification_of_accounting_unit;
+    => nrel_associative_connection: by_product_container_containing_nuclear_materials_in_small_quantities;
+    => nrel_associative_connection: by_report_on_actual_inventory_number_of_nuclear_materials;
+    => nrel_associative_connection: by_report_on_inventory_changes_of_nuclear_materials;
+
+    => nrel_legal_act: by_act_w21934165p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31324?langname=ru];
+    => nrel_etalon_online_idx: [31324];;

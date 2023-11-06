@@ -1,0 +1,42 @@
+
+by_owner_of_the_vehicle_used_for_transport_of_dangerous_goods
+    => nrel_main_idtf: [owner of the vehicle used for transport of dangerous goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец транспортного средства, используемого для перевозки опасных грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік транспартнага сродку, выкарыстоўваемага для перавозкі небяспечных грузаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_the_vehicle_used_for_transport_of_dangerous_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_transportation_of_dangerous_goods;
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owner_of_vehicle;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_vehicles_owners;
+    => nrel_associative_connection: by_cargo_vehicle;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_carriage_of_hazardous_materials;
+    => nrel_associative_connection: by_registration_card_of_the_vehicle_used_in_the_carriage_of_hazardous_goods;
+    => nrel_associative_connection: by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods;
+    => nrel_associative_connection: by_vehicle_owner;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_legal_act: by_act_c21400117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13060?langname=ru];
+    => nrel_etalon_online_idx: [13060];;

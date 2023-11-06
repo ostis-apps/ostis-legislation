@@ -1,0 +1,62 @@
+
+by_preflight_training
+    => nrel_main_idtf: [pre-flight training] (* <- lang_en;; *);
+    => nrel_main_idtf: [предполетная подготовка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадпалётная падрыхтоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preflight_training_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preflight_training_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_combat_application;
+    => nrel_associative_connection: by_time_of_preflight_rest;
+    => nrel_associative_connection: by_preflight_preparation_time;
+    => nrel_associative_connection: by_flying_training;
+    => nrel_associative_connection: by_meteorological_flights_conditions;
+    => nrel_associative_connection: by_navigational_training;
+    => nrel_associative_connection: by_ground_preparation;
+    => nrel_associative_connection: by_primary_base;
+    => nrel_associative_connection: by_preparatory_flights;
+    => nrel_associative_connection: by_afterflight_training_in_the_crew_flight_debrief;
+    => nrel_associative_connection: by_preliminary_preparation;
+    => nrel_associative_connection: by_preflight_inspection;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_standby_at_the_airport_mode;
+    => nrel_associative_connection: by_sector;
+    => nrel_associative_connection: by_service_flight_time;
+
+    => nrel_legal_act: by_act_w22339535;
+    => nrel_legal_act: by_act_w20615080;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21069?langname=ru];
+    => nrel_etalon_online_idx: [21069];;

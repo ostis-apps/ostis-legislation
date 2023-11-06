@@ -1,0 +1,44 @@
+
+by_borehole
+    => nrel_main_idtf: [borehole] (* <- lang_en;; *);
+    => nrel_main_idtf: [буровая скважина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буравая свідравіна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_borehole_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drilling;
+    => nrel_associative_connection: by_drilling_rig;
+    => nrel_associative_connection: by_drilling_equipment;
+    => nrel_associative_connection: by_vertical_mining;
+    => nrel_associative_connection: by_geological_and_technical_request;
+    => nrel_associative_connection: by_geophysical_survey_and_work_in_wells;
+    => nrel_associative_connection: by_horizontal_mining;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_liquidation_tamponage;
+    => nrel_associative_connection: by_observation_well;
+    => nrel_associative_connection: by_oblique_mining;
+    => nrel_associative_connection: by_single_water_intake;
+    => nrel_associative_connection: by_well_perforation;
+    => nrel_associative_connection: by_raw_materials;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4954?langname=ru];
+    => nrel_etalon_online_idx: [4954];;

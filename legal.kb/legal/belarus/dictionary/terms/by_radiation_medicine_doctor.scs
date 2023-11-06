@@ -1,0 +1,34 @@
+
+by_radiation_medicine_doctor
+    => nrel_main_idtf: [radiation medicine doctor] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач по радиационной медицине] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач па радыяцыйнай медыцыне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiation_medicine_doctor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_functional_diagnosis_doctor;
+    => nrel_associative_connection: by_radiologist;
+    => nrel_associative_connection: by_xray_endovascular_surgeon;
+    => nrel_associative_connection: by_doctorspecialist;
+
+    => nrel_legal_act: by_act_w22035574p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35370?langname=ru];
+    => nrel_etalon_online_idx: [35370];;

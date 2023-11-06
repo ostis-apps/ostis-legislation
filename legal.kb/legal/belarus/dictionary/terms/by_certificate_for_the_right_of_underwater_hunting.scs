@@ -1,0 +1,37 @@
+
+by_certificate_for_the_right_of_underwater_hunting
+    => nrel_main_idtf: [certificate for the right of underwater hunting] (* <- lang_en;; *);
+    => nrel_main_idtf: [удостоверение на право подводной охоты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасведчанне на права падводнага палявання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_for_the_right_of_underwater_hunting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_underwater_hunting;
+    => nrel_associative_connection: by_fishing_grounds;
+    => nrel_associative_connection: by_fishery;
+    => nrel_associative_connection: by_fishermen;
+    => nrel_associative_connection: by_certificate;
+
+    => nrel_legal_act: by_act_p32100284;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38190?langname=ru];
+    => nrel_etalon_online_idx: [38190];;

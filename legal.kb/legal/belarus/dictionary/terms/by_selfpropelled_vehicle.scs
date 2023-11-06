@@ -1,0 +1,44 @@
+
+by_selfpropelled_vehicle
+    => nrel_main_idtf: [self-propelled vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [самоходное транспортное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [самаходнае транспартнае судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_selfpropelled_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tow;
+    => nrel_associative_connection: by_towed_convoy;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_state_registration_of_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_state_accounting_of_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_small_size_craft;
+    => nrel_associative_connection: by_marine_vessel;
+    => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_selfpropelled_energysaturated_equipment;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+    => nrel_associative_connection: by_pushed_vessel;
+    => nrel_associative_connection: by_pushed_construction;
+
+    => nrel_legal_act: by_act_w20514238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22807?langname=ru];
+    => nrel_etalon_online_idx: [22807];;

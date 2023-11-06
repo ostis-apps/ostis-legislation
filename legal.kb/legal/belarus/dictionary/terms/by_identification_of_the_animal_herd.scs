@@ -1,0 +1,38 @@
+
+by_identification_of_the_animal_herd
+    => nrel_main_idtf: [identification of the animal (herd)] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификация животного (стада)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыя жывёльнага (статка)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_identification_of_the_animal_herd_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrobiont_animals;
+    => nrel_associative_connection: by_identification_number;
+    => nrel_associative_connection: by_identification_of_products_of_animal_origin;
+    => nrel_associative_connection: by_producer_of_identification_means;
+    => nrel_associative_connection: by_animal_passport_herd;
+    => nrel_associative_connection: by_traceability_of_the_animal_herd;
+    => nrel_associative_connection: by_fur_and_down_beasts;
+    => nrel_associative_connection: by_means_of_identification;
+
+    => nrel_legal_act: by_act_h11500287;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38264?langname=ru];
+    => nrel_etalon_online_idx: [38264];;

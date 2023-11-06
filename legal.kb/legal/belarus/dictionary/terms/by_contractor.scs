@@ -1,0 +1,60 @@
+
+by_contractor
+    => nrel_main_idtf: [contractor] (* <- lang_en;; *);
+    => nrel_main_idtf: [подрядчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрадчык] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contractor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contractor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authors_supervision;
+    => nrel_associative_connection: by_general_design_organization_general_contractor_organization;
+    => nrel_associative_connection: by_household_contract;
+    => nrel_associative_connection: by_contractor_agreement;
+    => nrel_associative_connection: by_contractor_agreement_on_design_and_survey_works;
+    => nrel_associative_connection: by_construction_works_agreement;
+    => nrel_associative_connection: by_property_developer;
+    => nrel_associative_connection: by_organizer_of_contract_bidding_negotiations;
+    => nrel_associative_connection: by_contracting_works;
+    => nrel_associative_connection: by_contract_bidding;
+    => nrel_associative_connection: by_contractor_in_construction_activity;
+    => nrel_associative_connection: by_supplier_contractor_executor;
+    => nrel_associative_connection: by_actual_cost_of_works_being_contracted_out;
+    => nrel_associative_connection: by_contractors_offer_price;
+
+    => nrel_legal_act: by_act_c21300469;
+    => nrel_legal_act: by_act_i01200060;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3772?langname=ru];
+    => nrel_etalon_online_idx: [3772];;

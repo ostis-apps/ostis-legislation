@@ -1,0 +1,37 @@
+
+by_individual_registration_map_of_the_tested
+    => nrel_main_idtf: [individual registration map of the tested] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальная регистрационная карта испытуемого] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальная рэгістрацыйная карта падвыпрабавальнага] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_registration_map_of_the_tested_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_test_identification_code;
+    => nrel_associative_connection: by_testee;
+    => nrel_associative_connection: by_clinical_trials;
+    => nrel_associative_connection: by_clinical_trial;
+    => nrel_associative_connection: by_primary_medical_documents;
+    => nrel_associative_connection: by_program_of_clinical_trials;
+    => nrel_associative_connection: by_direct_access;
+
+    => nrel_legal_act: by_act_w20820139;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15260?langname=ru];
+    => nrel_etalon_online_idx: [15260];;

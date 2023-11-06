@@ -1,0 +1,33 @@
+
+by_by_actor
+    => nrel_main_idtf: [by_actor] (* <- lang_en;; *);
+    => nrel_main_idtf: [актор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [актар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_actor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_and_telecommunication_infrastructure_for_state_digital_platforms_and_information_systems;
+    => nrel_associative_connection: by_essence_of_the_subject_area;
+    => nrel_associative_connection: by_technical_requirements_for_public_digital_platforms_and_information_systems;
+
+    => nrel_legal_act: by_act_c22200757;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/44062?langname=ru];
+    => nrel_etalon_online_idx: [44062];;

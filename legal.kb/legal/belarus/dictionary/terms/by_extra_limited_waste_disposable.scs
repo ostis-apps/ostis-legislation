@@ -1,0 +1,45 @@
+
+by_extra_limited_waste_disposable
+    => nrel_main_idtf: [extra limited waste disposable] (* <- lang_en;; *);
+    => nrel_main_idtf: [сверхлимитное количество размещаемого отхода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [звышлімітная колькасць размяшчаемага адходу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_extra_limited_waste_disposable_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_waste_disposal;
+    => nrel_associative_connection: by_radioactive_waste_disposal;
+    => nrel_associative_connection: by_limit_of_production_waste_burial;
+    => nrel_associative_connection: by_placement_limit;
+    => nrel_associative_connection: by_limit_of_waste_manufacture_storage;
+    => nrel_associative_connection: by_temporary_waste_storage_places;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_placement_of_waste;
+    => nrel_associative_connection: by_authorized_disposal_of_waste;
+    => nrel_associative_connection: by_authorized_waste_storage;
+    => nrel_associative_connection: by_authorized_waste_disposal_sites;
+    => nrel_associative_connection: by_authorized_waste_storage_places;
+    => nrel_associative_connection: by_storage_of_communal_waste;
+    => nrel_associative_connection: by_waste_storage;
+    => nrel_associative_connection: by_radioactive_waste_storage;
+
+    => nrel_legal_act: by_act_w69900584;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22885?langname=ru];
+    => nrel_etalon_online_idx: [22885];;

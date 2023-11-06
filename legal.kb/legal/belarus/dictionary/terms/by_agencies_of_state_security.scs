@@ -1,0 +1,46 @@
+
+by_agencies_of_state_security
+    => nrel_main_idtf: [agencies of state security] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы государственной безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы дзяржаўнай бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agencies_of_state_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_combat_weapon;
+    => nrel_associative_connection: by_foreign_intelligence;
+    => nrel_associative_connection: by_state_secret;
+    => nrel_associative_connection: by_state_military_formations_and_paramilitary_organizations;
+    => nrel_associative_connection: by_book_of_honor_of_the_state_security_bodies_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_counterintelligence_activity;
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_pensioner_of_the_committee;
+    => nrel_associative_connection: by_pension_bodies_of_the_committee;
+    => nrel_associative_connection: by_pension_of_the_committee;
+    => nrel_associative_connection: by_law_enforcement_bodies;
+    => nrel_associative_connection: by_intelligence_services;
+    => nrel_associative_connection: by_investigation;
+    => nrel_associative_connection: by_investigator;
+    => nrel_associative_connection: by_foreign_intelligence_subjects;
+    => nrel_associative_connection: by_espionage_activities;
+
+    => nrel_legal_act: by_act_h11200390;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/284?langname=ru];
+    => nrel_etalon_online_idx: [284];;

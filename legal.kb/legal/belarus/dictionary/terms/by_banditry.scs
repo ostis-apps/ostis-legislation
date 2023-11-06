@@ -1,0 +1,36 @@
+
+by_banditry
+    => nrel_main_idtf: [banditry] (* <- lang_en;; *);
+    => nrel_main_idtf: [бандитизм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бандытызм] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_banditry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gang;
+    => nrel_associative_connection: by_organized_crime;
+    => nrel_associative_connection: by_especially_grave_crimes;
+    => nrel_associative_connection: by_criminal_organization;
+    => nrel_associative_connection: by_band_creation;
+    => nrel_associative_connection: by_grave_crimes;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1069?langname=ru];
+    => nrel_etalon_online_idx: [1069];;

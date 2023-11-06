@@ -1,0 +1,52 @@
+
+by_unearned_premiums_reserve
+    => nrel_main_idtf: [unearned premiums reserve] (* <- lang_en;; *);
+    => nrel_main_idtf: [резерв незаработанной премии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзерв незаробленай прэміі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unearned_premiums_reserve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unearned_premiums_reserve_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reinsurance_premium;
+    => nrel_associative_connection: by_provision_for_claimed_but_unsettled_losses;
+    => nrel_associative_connection: by_provision_for_occurred_but_undeclared_losses;
+    => nrel_associative_connection: by_insurance_contribution;
+    => nrel_associative_connection: by_insurance_contribution_insurance_premium;
+    => nrel_associative_connection: by_insurance_contributions;
+
+    => nrel_legal_act: by_act_c20601750;
+    => nrel_legal_act: by_act_w20817885;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22443?langname=ru];
+    => nrel_etalon_online_idx: [22443];;

@@ -1,0 +1,49 @@
+
+by_contract_of_carriage
+    => nrel_main_idtf: [contract of carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор перевозки груза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор перавозкі грузу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_of_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tankwagon;
+    => nrel_associative_connection: by_vacuumoperated_waste_tank;
+    => nrel_associative_connection: by_internal_air_carriage_of_cargoes;
+    => nrel_associative_connection: by_sample_of_basic_organizations_implementing_transport_of_cargo;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_cargo_air_carriage_contract;
+    => nrel_associative_connection: by_contract_for_carriage_of_goods_by_sea;
+    => nrel_associative_connection: by_waybill;
+    => nrel_associative_connection: by_tariff_index_for_cargoes_carriage;
+    => nrel_associative_connection: by_individual_tariff_index_for_cargo_transportation;
+    => nrel_associative_connection: by_cabotage_automotive_cargoes_carriage;
+    => nrel_associative_connection: by_international_air_carriage_of_cargoes;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_shipping_by_inland_water_transport_of_general_use;
+    => nrel_associative_connection: by_shipping_by_vehicles_of_general_use;
+    => nrel_associative_connection: by_carriage_charge_for_carriage;
+    => nrel_associative_connection: by_carriage_charges;
+    => nrel_associative_connection: by_permission_for_the_traffic_of_vehicles_registered_in_the_republic_of_belarus_on_the_territory_of_foreign_states_in_the_performance_of_international_road_cargo_transportation;
+    => nrel_associative_connection: by_consolidated_index_of_cargo_transportation_tariffs;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14287?langname=ru];
+    => nrel_etalon_online_idx: [14287];;

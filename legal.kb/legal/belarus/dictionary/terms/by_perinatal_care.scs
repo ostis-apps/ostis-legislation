@@ -1,0 +1,35 @@
+
+by_perinatal_care
+    => nrel_main_idtf: [perinatal care] (* <- lang_en;; *);
+    => nrel_main_idtf: [перинатальная помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перынатальная дапамога] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_perinatal_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_obstetrics_and_gynecology;
+    => nrel_associative_connection: by_amenorrhea;
+    => nrel_associative_connection: by_asphyxia_of_the_newborn;
+    => nrel_associative_connection: by_ectopic_pregnancy;
+    => nrel_associative_connection: by_pelvioperitonitis;
+
+    => nrel_legal_act: by_act_w22035599p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33954?langname=ru];
+    => nrel_etalon_online_idx: [33954];;

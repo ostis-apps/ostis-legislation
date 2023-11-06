@@ -1,0 +1,72 @@
+
+by_forest_resources
+    => nrel_main_idtf: [forest resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесные ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лясныя рэсурсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_resources_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reproduction_of_forests;
+    => nrel_associative_connection: by_state_resources;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry_products;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_compartment;
+    => nrel_associative_connection: by_forest_lands;
+    => nrel_associative_connection: by_forest_cultures;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_forest_use;
+    => nrel_associative_connection: by_forest_user;
+    => nrel_associative_connection: by_felling_area;
+    => nrel_associative_connection: by_multifunctional_forest_management;
+    => nrel_associative_connection: by_forests_monitoring;
+    => nrel_associative_connection: by_forests_protection;
+    => nrel_associative_connection: by_plantation_forest_plants;
+    => nrel_associative_connection: by_damage_to_forest_crops;
+    => nrel_associative_connection: by_undergrowth;
+    => nrel_associative_connection: by_natural_resources;
+    => nrel_associative_connection: by_forest_productivity;
+    => nrel_associative_connection: by_reconstruction_of_forest_crops;
+    => nrel_associative_connection: by_reconstruction_of_lowvalue_forest_plantations;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_resources;
+    => nrel_associative_connection: by_forest_wall;
+    => nrel_associative_connection: by_school_forestry_units;
+
+    => nrel_legal_act: by_act_hk1500332;
+    => nrel_legal_act: by_act_n21700053;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2734?langname=ru];
+    => nrel_etalon_online_idx: [2734];;

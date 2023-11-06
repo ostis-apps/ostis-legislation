@@ -1,0 +1,50 @@
+
+by_shipping_ticket
+    => nrel_main_idtf: [shipping ticket] (* <- lang_en;; *);
+    => nrel_main_idtf: [судовой билет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суднавы білет] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipping_ticket_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipping_ticket_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ticket;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_small_size_craft;
+    => nrel_associative_connection: by_vessel;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_n21900092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24509?langname=ru];
+    => nrel_etalon_online_idx: [24509];;

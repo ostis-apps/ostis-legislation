@@ -1,0 +1,42 @@
+
+by_criminal_proceedings
+    => nrel_main_idtf: [criminal proceedings] (* <- lang_en;; *);
+    => nrel_main_idtf: [производство по уголовному делу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вядзенне па крымінальнай справе] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_criminal_proceedings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pretrial_proceeding;
+    => nrel_associative_connection: by_body_of_pretrial_investigation;
+    => nrel_associative_connection: by_prosecuting_agency;
+    => nrel_associative_connection: by_authority_in_charge_of_criminal_procedure;
+    => nrel_associative_connection: by_preliminary_investigation;
+    => nrel_associative_connection: by_representatives_of_the_victim_civil_plaintiff_civil_defendant;
+    => nrel_associative_connection: by_proceedings_in_materials_and_criminal_case;
+    => nrel_associative_connection: by_proceedings;
+    => nrel_associative_connection: by_procedural_decisions;
+    => nrel_associative_connection: by_special_production;
+    => nrel_associative_connection: by_criminal_case;
+    => nrel_associative_connection: by_criminal_prosecution;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21599?langname=ru];
+    => nrel_etalon_online_idx: [21599];;

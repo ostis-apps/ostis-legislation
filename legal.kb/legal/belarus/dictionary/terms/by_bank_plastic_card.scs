@@ -1,0 +1,38 @@
+
+by_bank_plastic_card
+    => nrel_main_idtf: [bank plastic card] (* <- lang_en;; *);
+    => nrel_main_idtf: [банковская пластиковая карточка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкаўская пластыкавая картка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_plastic_card_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_payment_card;
+    => nrel_associative_connection: by_atm;
+    => nrel_associative_connection: by_card_payment_terminal;
+    => nrel_associative_connection: by_payment_terminal_or_trade_terminal;
+    => nrel_associative_connection: by_cash_point;
+    => nrel_associative_connection: by_distribution_of_a_payment_instrument_ensuring_the_issue_and_use_of_a_card_or_the_use_of_a_card;
+    => nrel_associative_connection: by_cash_pickup_point_terminal_cppt;
+    => nrel_associative_connection: by_pinpad_terminals;
+
+    => nrel_legal_act: by_act_c20600817;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28306?langname=ru];
+    => nrel_etalon_online_idx: [28306];;

@@ -1,0 +1,38 @@
+
+by_publishing_products
+    => nrel_main_idtf: [publishing products] (* <- lang_en;; *);
+    => nrel_main_idtf: [издательская продукция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдавецкая прадукцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_publishing_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_brochure;
+    => nrel_associative_connection: by_binding_equipment;
+    => nrel_associative_connection: by_newspaper;
+    => nrel_associative_connection: by_magazine;
+    => nrel_associative_connection: by_publishing_desktop_system;
+    => nrel_associative_connection: by_multicolor_printing;
+    => nrel_associative_connection: by_single_color_printing;
+    => nrel_associative_connection: by_printing_print;
+
+    => nrel_legal_act: by_act_w22035365p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33559?langname=ru];
+    => nrel_etalon_online_idx: [33559];;

@@ -1,0 +1,31 @@
+
+by_customs_duty_for_customs_clearance
+    => nrel_main_idtf: [customs duty for customs clearance] (* <- lang_en;; *);
+    => nrel_main_idtf: [таможенный сбор за таможенное оформление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мытны збор за мытнае афармленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_duty_for_customs_clearance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_customs_processing;
+
+    => nrel_legal_act: by_act_p31100319;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24658?langname=ru];
+    => nrel_etalon_online_idx: [24658];;

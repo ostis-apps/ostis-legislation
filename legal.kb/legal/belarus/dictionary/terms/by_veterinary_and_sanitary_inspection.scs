@@ -1,0 +1,36 @@
+
+by_veterinary_and_sanitary_inspection
+    => nrel_main_idtf: [veterinary and sanitary inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [ветеринарно-санитарный осмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ветэрынарна-санітарны агляд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_veterinary_and_sanitary_inspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_veterinary;
+    => nrel_associative_connection: by_veterinary_activity;
+    => nrel_associative_connection: by_veterinary_laboratory;
+    => nrel_associative_connection: by_veteranary_and_sanitary_expertise;
+    => nrel_associative_connection: by_veterinary_measures;
+    => nrel_associative_connection: by_unified_veterinary_veterinary_and_sanitary_requirements;
+
+    => nrel_legal_act: by_act_h11000161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8537?langname=ru];
+    => nrel_etalon_online_idx: [8537];;

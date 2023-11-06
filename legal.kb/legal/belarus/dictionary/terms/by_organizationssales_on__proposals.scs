@@ -1,0 +1,18 @@
+
+by_organizationssales_on__proposals
+    => nrel_main_idtf: [organizations-sales on  proposals] (* <- lang_en;; *);
+    => nrel_main_idtf: [организации-продавцы по предложениям] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыі-прадаўцы па прапановах] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_seller;
+    => nrel_associative_connection: by_seller_supplier;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19171?langname=ru];
+    => nrel_etalon_online_idx: [19171];;

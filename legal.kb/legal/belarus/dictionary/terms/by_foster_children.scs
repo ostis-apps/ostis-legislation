@@ -1,0 +1,52 @@
+
+by_foster_children
+    => nrel_main_idtf: [foster children] (* <- lang_en;; *);
+    => nrel_main_idtf: [воспитанники] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выхаванцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foster_children_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foster_children_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upbringing;
+    => nrel_associative_connection: by_foster_child;
+    => nrel_associative_connection: by_upbringer_of_preschool_education;
+    => nrel_associative_connection: by_other_organizations_which_in_accordance_with_the_legislation_have_been_granted_the_right_to_implement_the_program_for_upbringing_of_children_in_need_of_recreation;
+    => nrel_associative_connection: by_club;
+    => nrel_associative_connection: by_teaching_aids_for_students_and_teaching_aids_for_pupils;
+
+    => nrel_legal_act: by_act_hk1100243;
+    => nrel_legal_act: by_act_n20400186;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13222?langname=ru];
+    => nrel_etalon_online_idx: [13222];;

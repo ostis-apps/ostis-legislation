@@ -1,0 +1,19 @@
+
+by_duty
+    => nrel_main_idtf: [duty] (* <- lang_en;; *);
+    => nrel_main_idtf: [дежурство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяжурства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_watch;
+    => nrel_associative_connection: by_maintenance_of_the_standby_reference_map_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_standby_duty_time;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7821?langname=ru];
+    => nrel_etalon_online_idx: [7821];;

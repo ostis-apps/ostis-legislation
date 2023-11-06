@@ -1,0 +1,35 @@
+
+by_magnitude_of_risk
+    => nrel_main_idtf: [magnitude of risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [величина риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [велічыня рызыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_magnitude_of_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_amount_of_the_risk_credit_operational_market;
+    => nrel_associative_connection: by_acceptable_risk;
+    => nrel_associative_connection: by_vital_places;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_risk;
+
+    => nrel_legal_act: by_act_w01934020p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35928?langname=ru];
+    => nrel_etalon_online_idx: [35928];;

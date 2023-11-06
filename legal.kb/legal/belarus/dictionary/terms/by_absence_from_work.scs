@@ -1,0 +1,34 @@
+
+by_absence_from_work
+    => nrel_main_idtf: [absence from work] (* <- lang_en;; *);
+    => nrel_main_idtf: [прогул] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прагул] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_absence_from_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_labor_regulations;
+    => nrel_associative_connection: by_workers_being_under_threat_of_layoff;
+    => nrel_associative_connection: by_labour_discipline;
+    => nrel_associative_connection: by_valid_reasons;
+
+    => nrel_legal_act: by_act_w20003389;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/804?langname=ru];
+    => nrel_etalon_online_idx: [804];;

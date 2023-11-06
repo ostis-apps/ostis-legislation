@@ -1,0 +1,36 @@
+
+by_technical_inventarisation_of_real_estate
+    => nrel_main_idtf: [technical inventarisation of real estate] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническая инвентаризация недвижимого имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічная інвентарызацыя нерухомай маёмасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_inventarisation_of_real_estate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_statement_of_technical_characteristics;
+    => nrel_associative_connection: by_geocode;
+    => nrel_associative_connection: by_inventory;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_technical_passport;
+    => nrel_associative_connection: by_technical_attic;
+
+    => nrel_legal_act: by_act_h10200133;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9071?langname=ru];
+    => nrel_etalon_online_idx: [9071];;

@@ -1,0 +1,48 @@
+
+by_fish_lot
+    => nrel_main_idtf: [fish lot] (* <- lang_en;; *);
+    => nrel_main_idtf: [партия рыбы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партыя рыбы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fish_lot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inspection_of_belongings_fishing_tackles_fishing_products;
+    => nrel_associative_connection: by_quota_of_fishing;
+    => nrel_associative_connection: by_limits_of_fishing;
+    => nrel_associative_connection: by_fish_catch;
+    => nrel_associative_connection: by_lot;
+    => nrel_associative_connection: by_caviar_lot;
+    => nrel_associative_connection: by_lot_of_food_commodity_and_food_products;
+    => nrel_associative_connection: by_products_lot;
+    => nrel_associative_connection: by_consignment;
+    => nrel_associative_connection: by_density_of_fish_moving;
+    => nrel_associative_connection: by_products_of_fishery;
+    => nrel_associative_connection: by_production_of_sturgeon_fish_and_or_products_from_them_including_caviar;
+    => nrel_associative_connection: by_commercial_fishing;
+    => nrel_associative_connection: by_pisciculture;
+    => nrel_associative_connection: by_fishery;
+    => nrel_associative_connection: by_fish_seed;
+    => nrel_associative_connection: by_fishing_activity;
+    => nrel_associative_connection: by_commercial_pisciculture;
+
+    => nrel_legal_act: by_act_w20410966;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19820?langname=ru];
+    => nrel_etalon_online_idx: [19820];;

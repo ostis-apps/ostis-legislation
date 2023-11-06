@@ -1,0 +1,36 @@
+
+by_state_insurance_register
+    => nrel_main_idtf: [state insurance register] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный страховой регистр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны страхавы рэгістр] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_insurance_register_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_information_system;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurance_activity;
+    => nrel_associative_connection: by_insurance_history;
+    => nrel_associative_connection: by_insurance_history_of_insurant;
+    => nrel_associative_connection: by_insurance_report;
+
+    => nrel_legal_act: by_act_w21631599;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12059?langname=ru];
+    => nrel_etalon_online_idx: [12059];;

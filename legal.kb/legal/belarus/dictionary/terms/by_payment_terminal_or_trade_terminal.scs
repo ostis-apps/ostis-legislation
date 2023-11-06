@@ -1,0 +1,36 @@
+
+by_payment_terminal_or_trade_terminal
+    => nrel_main_idtf: [payment terminal or trade terminal] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный терминал, или торговый терминал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны тэрмінал, або гандлёвы тэрмінал] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_terminal_or_trade_terminal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_plastic_card;
+    => nrel_associative_connection: by_card_payment_terminal;
+    => nrel_associative_connection: by_payment_terminal;
+    => nrel_associative_connection: by_selfservice_payment_terminal;
+    => nrel_associative_connection: by_remote_trade_terminal;
+    => nrel_associative_connection: by_financial_transaction;
+
+    => nrel_legal_act: by_act_c20600817;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28308?langname=ru];
+    => nrel_etalon_online_idx: [28308];;

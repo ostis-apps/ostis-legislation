@@ -1,0 +1,35 @@
+
+by_deadline_for_implementation_of_the_investment_project
+    => nrel_main_idtf: [deadline for implementation of the investment project] (* <- lang_en;; *);
+    => nrel_main_idtf: [конечный срок реализации инвестиционного проекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канчатковы тэрмін рэалізацыі інвестыцыйнага праекта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deadline_for_implementation_of_the_investment_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_investing_activity;
+    => nrel_associative_connection: by_investment_project;
+    => nrel_associative_connection: by_promising_and_significant_investment_projects_in_the_agroindustrial_complex;
+    => nrel_associative_connection: by_preinvestment_stage;
+
+    => nrel_legal_act: by_act_c21600563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10299?langname=ru];
+    => nrel_etalon_online_idx: [10299];;

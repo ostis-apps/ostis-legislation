@@ -1,0 +1,39 @@
+
+by_scientific_and_technical_products
+    => nrel_main_idtf: [scientific and technical products] (* <- lang_en;; *);
+    => nrel_main_idtf: [научно-техническая продукция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукова-тэхнічная прадукцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_and_technical_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author_coauthors_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_scientific_activity;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_scientific_and_technical_activity;
+    => nrel_associative_connection: by_scientific_and_technical_information_products;
+    => nrel_associative_connection: by_researches;
+    => nrel_associative_connection: by_intermediary_in_the_area_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_military_goods;
+
+    => nrel_legal_act: by_act_n91100086;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6282?langname=ru];
+    => nrel_etalon_online_idx: [6282];;

@@ -1,0 +1,84 @@
+
+by_air_conditioning
+    => nrel_main_idtf: [air conditioning] (* <- lang_en;; *);
+    => nrel_main_idtf: [кондиционирование воздуха] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кандыцыянаванне паветра] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_conditioning_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_conditioning_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_conditioning_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_air_conditioning_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_single_duct_air_conditioner;
+    => nrel_associative_connection: by_airion_concentration;
+    => nrel_associative_connection: by_heating;
+    => nrel_associative_connection: by_repair_of_measuring_instruments;
+    => nrel_associative_connection: by_technological_process;
+
+    => nrel_legal_act: by_act_c22100037;
+    => nrel_legal_act: by_act_w22136673p;
+    => nrel_legal_act: by_act_w21833386p;
+    => nrel_legal_act: by_act_w21630910p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30326?langname=ru];
+    => nrel_etalon_online_idx: [30326];;

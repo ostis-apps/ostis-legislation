@@ -1,0 +1,33 @@
+
+by_amnesty
+    => nrel_main_idtf: [amnesty] (* <- lang_en;; *);
+    => nrel_main_idtf: [амнистия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [амністыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_amnesty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_grounds_for_executing_punishment_or_other_measures_of_criminal_responsibility;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_parliamentthe_national_assembly_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_k91901189;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/988?langname=ru];
+    => nrel_etalon_online_idx: [988];;

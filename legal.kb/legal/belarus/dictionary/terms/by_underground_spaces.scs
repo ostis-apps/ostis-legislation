@@ -1,0 +1,34 @@
+
+by_underground_spaces
+    => nrel_main_idtf: [underground spaces] (* <- lang_en;; *);
+    => nrel_main_idtf: [подземные пространства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падземныя прасторы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_underground_spaces_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archaeological_excavations;
+    => nrel_associative_connection: by_object_of_underground_construction;
+    => nrel_associative_connection: by_underground_structures;
+    => nrel_associative_connection: by_tunnel;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20371?langname=ru];
+    => nrel_etalon_online_idx: [20371];;

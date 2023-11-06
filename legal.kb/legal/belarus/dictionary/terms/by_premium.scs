@@ -1,0 +1,34 @@
+
+by_premium
+    => nrel_main_idtf: [premium] (* <- lang_en;; *);
+    => nrel_main_idtf: [надбавка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [надбаўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_premium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_base_of_goods_works_services;
+    => nrel_associative_connection: by_wholesale_increase;
+    => nrel_associative_connection: by_marginal_surcharge_discount_markup;
+    => nrel_associative_connection: by_trade_allowance;
+
+    => nrel_legal_act: by_act_w21833042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42103?langname=ru];
+    => nrel_etalon_online_idx: [42103];;

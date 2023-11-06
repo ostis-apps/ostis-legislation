@@ -1,0 +1,35 @@
+
+by_emblem
+    => nrel_main_idtf: [emblem] (* <- lang_en;; *);
+    => nrel_main_idtf: [эмблема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эмблема] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emblem_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_banner;
+    => nrel_associative_connection: by_emblem_of_the_belarusian_red_cross_society;
+    => nrel_associative_connection: by_emblem_of_the_state_property_committee;
+    => nrel_associative_connection: by_emblem_of_the_ministry_of_trade;
+    => nrel_associative_connection: by_emblem_of_the_ministry_of_labor_and_social_protection;
+
+    => nrel_legal_act: by_act_h11200384;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2261?langname=ru];
+    => nrel_etalon_online_idx: [2261];;

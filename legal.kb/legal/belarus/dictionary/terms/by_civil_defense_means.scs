@@ -1,0 +1,33 @@
+
+by_civil_defense_means
+    => nrel_main_idtf: [civil defense means] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства гражданской обороны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкi грамадзянскай абароны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_civil_defense_means_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_organizations_related_to_the_appropriate_categories_for_civil_defense;
+    => nrel_associative_connection: by_civil_defense_personnel;
+    => nrel_associative_connection: by_humanitarian_assistance_personnel;
+
+    => nrel_legal_act: by_act_h10600183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24013?langname=ru];
+    => nrel_etalon_online_idx: [24013];;

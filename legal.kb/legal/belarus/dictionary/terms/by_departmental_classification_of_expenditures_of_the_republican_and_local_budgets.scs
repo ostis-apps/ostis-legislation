@@ -1,0 +1,33 @@
+
+by_departmental_classification_of_expenditures_of_the_republican_and_local_budgets
+    => nrel_main_idtf: [departmental classification of expenditures of the republican and local budgets] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомственная классификация расходов республиканского бюджета и местных бюджетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасная класіфікацыя расходаў рэспубліканскага бюджэту і мясцовых бюджэтаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_departmental_classification_of_expenditures_of_the_republican_and_local_budgets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_local_budgets;
+    => nrel_associative_connection: by_budgetary_funds_recipient;
+    => nrel_associative_connection: by_budget_expenses;
+
+    => nrel_legal_act: by_act_hk0800412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8510?langname=ru];
+    => nrel_etalon_online_idx: [8510];;

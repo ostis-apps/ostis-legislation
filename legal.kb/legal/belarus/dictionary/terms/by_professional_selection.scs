@@ -1,0 +1,60 @@
+
+by_professional_selection
+    => nrel_main_idtf: [professional selection] (* <- lang_en;; *);
+    => nrel_main_idtf: [профессиональный отбор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прафесійны адбор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_selection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_professional_selection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unemployed;
+    => nrel_associative_connection: by_unemployed;
+    => nrel_associative_connection: by_candidate_for_service;
+    => nrel_associative_connection: by_complex_hygienic_assessment_of_working_conditions;
+    => nrel_associative_connection: by_general_medical_contraindications;
+    => nrel_associative_connection: by_assessment_of_working_conditions;
+    => nrel_associative_connection: by_preselection_and_selection;
+    => nrel_associative_connection: by_professional_activity;
+    => nrel_associative_connection: by_professional_training;
+    => nrel_associative_connection: by_professional_industrial_and_social_adaptation;
+    => nrel_associative_connection: by_professional_education;
+    => nrel_associative_connection: by_professional_knowledge;
+    => nrel_associative_connection: by_professional_selection;
+    => nrel_associative_connection: by_sectoral_qualifications_framework;
+
+    => nrel_legal_act: by_act_w21934675;
+    => nrel_legal_act: by_act_w20208460;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21738?langname=ru];
+    => nrel_etalon_online_idx: [21738];;

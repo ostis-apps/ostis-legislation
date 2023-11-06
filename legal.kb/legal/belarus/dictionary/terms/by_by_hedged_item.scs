@@ -1,0 +1,32 @@
+
+by_by_hedged_item
+    => nrel_main_idtf: [by_hedged_item] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект хеджирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект хеджыравання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_hedged_item_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_amortized_cost_of_a_financial_asset_or_financial_liability;
+    => nrel_associative_connection: by_hedging_instrument;
+
+    => nrel_legal_act: by_act_b205p0275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43494?langname=ru];
+    => nrel_etalon_online_idx: [43494];;

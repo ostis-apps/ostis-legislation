@@ -1,0 +1,35 @@
+
+by_makeup_water
+    => nrel_main_idtf: [make-up water] (* <- lang_en;; *);
+    => nrel_main_idtf: [вода подпиточная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вада падпітачная] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_makeup_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_boiler_water;
+    => nrel_associative_connection: by_preboiler_water_processing;
+    => nrel_associative_connection: by_steam_boiler;
+    => nrel_associative_connection: by_nutritious_water;
+    => nrel_associative_connection: by_network_water;
+
+    => nrel_legal_act: by_act_w22136816p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38098?langname=ru];
+    => nrel_etalon_online_idx: [38098];;

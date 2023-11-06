@@ -1,0 +1,60 @@
+
+by_internal_pressure_external_pressure
+    => nrel_main_idtf: [internal pressure, external pressure ] (* <- lang_en;; *);
+    => nrel_main_idtf: [давление внутреннее, давление наружное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ціск унутраны, ціск вонкавы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_pressure_external_pressure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_pressure_external_pressure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_filling_pressure;
+    => nrel_associative_connection: by_pressure_rated_nominal;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_allowed_pressure;
+    => nrel_associative_connection: by_design_pressure;
+    => nrel_associative_connection: by_overpressure;
+    => nrel_associative_connection: by_isostatic_presses;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_working_pressure;
+    => nrel_associative_connection: by_design_pressure;
+    => nrel_associative_connection: by_conditional_pressure;
+    => nrel_associative_connection: by_steadystate_pressure;
+
+    => nrel_legal_act: by_act_w22035473p;
+    => nrel_legal_act: by_act_f91300137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13938?langname=ru];
+    => nrel_etalon_online_idx: [13938];;

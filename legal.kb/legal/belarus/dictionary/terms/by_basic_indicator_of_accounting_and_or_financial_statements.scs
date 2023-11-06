@@ -1,0 +1,37 @@
+
+by_basic_indicator_of_accounting_and_or_financial_statements
+    => nrel_main_idtf: [basic indicator of accounting and (or) financial statements] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый показатель бухгалтерской и (или) финансовой отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы паказчык бухгалтарскай і (або) фінансавай справаздачнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_indicator_of_accounting_and_or_financial_statements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_basic_index_of_accounting_financial_reporting;
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_materiality_in_the_audit;
+    => nrel_associative_connection: by_importance_level;
+
+    => nrel_legal_act: by_act_w20105214;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41296?langname=ru];
+    => nrel_etalon_online_idx: [41296];;

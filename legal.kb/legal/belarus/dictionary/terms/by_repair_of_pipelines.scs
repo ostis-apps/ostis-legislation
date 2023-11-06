@@ -1,0 +1,51 @@
+
+by_repair_of_pipelines
+    => nrel_main_idtf: [repair of pipelines] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонт трубопроводов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонт трубаправодаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_repair_of_pipelines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_suction_piping;
+    => nrel_associative_connection: by_process_pipeline_border;
+    => nrel_associative_connection: by_cargo_loadingunloading_pipes;
+    => nrel_associative_connection: by_piping_detail;
+    => nrel_associative_connection: by_plug;
+    => nrel_associative_connection: by_conservation_of_pipeline;
+    => nrel_associative_connection: by_major_pipeline;
+    => nrel_associative_connection: by_bypass_pipeline;
+    => nrel_associative_connection: by_objects_of_major_pipeline;
+    => nrel_associative_connection: by_damage_in_water_supply_system;
+    => nrel_associative_connection: by_test_pressure;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_flanged_connection;
+    => nrel_associative_connection: by_crossborder_major_pipeline;
+    => nrel_associative_connection: by_pipeline;
+    => nrel_associative_connection: by_combined_drain_and_suction_piping;
+    => nrel_associative_connection: by_operating_conditions_of_the_pipeline;
+    => nrel_associative_connection: by_actual_pipeline_wall_thickness;
+    => nrel_associative_connection: by_pipeline_shaped_part_part;
+
+    => nrel_legal_act: by_act_w22035473p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22543?langname=ru];
+    => nrel_etalon_online_idx: [22543];;

@@ -1,0 +1,20 @@
+
+by_technical_corridor
+    => nrel_main_idtf: [technical corridor] (* <- lang_en;; *);
+    => nrel_main_idtf: [технический коридор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічны калідор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_major_pipeline;
+    => nrel_associative_connection: by_major_pipeline_transport;
+    => nrel_associative_connection: by_territory;
+    => nrel_associative_connection: by_crossborder_major_pipeline;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24888?langname=ru];
+    => nrel_etalon_online_idx: [24888];;

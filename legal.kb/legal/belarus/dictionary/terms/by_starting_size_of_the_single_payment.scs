@@ -1,0 +1,36 @@
+
+by_starting_size_of_the_single_payment
+    => nrel_main_idtf: [starting size of the single payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [стартовый размер разового платежа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стартавы памер разавага плацяжу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_starting_size_of_the_single_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_initial_price_of_electronic_auction;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_single_payment;
+    => nrel_associative_connection: by_bidding;
+
+    => nrel_legal_act: by_act_h11300063;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10629?langname=ru];
+    => nrel_etalon_online_idx: [10629];;

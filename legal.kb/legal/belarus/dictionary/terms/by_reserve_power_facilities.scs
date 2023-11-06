@@ -1,0 +1,32 @@
+
+by_reserve_power_facilities
+    => nrel_main_idtf: [reserve power facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [резервные объекты энергетики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзервовыя аб'екты энергетыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reserve_power_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_thermal_energy;
+
+    => nrel_legal_act: by_act_c22100431;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38375?langname=ru];
+    => nrel_etalon_online_idx: [38375];;

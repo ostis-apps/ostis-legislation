@@ -1,0 +1,38 @@
+
+by_mining_allotment
+    => nrel_main_idtf: [mining allotment] (* <- lang_en;; *);
+    => nrel_main_idtf: [горный отвод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [горны адвод] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mining_allotment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geological_and_surveying_works;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_mining_enterprise;
+    => nrel_associative_connection: by_rocks;
+    => nrel_associative_connection: by_mining_operations;
+    => nrel_associative_connection: by_steeply_curved_elbow;
+    => nrel_associative_connection: by_utilization_of_mineral_wealth;
+    => nrel_associative_connection: by_portion_of_subsurface;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5085?langname=ru];
+    => nrel_etalon_online_idx: [5085];;

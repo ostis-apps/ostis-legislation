@@ -1,0 +1,22 @@
+
+by_control_accounting
+    => nrel_main_idtf: [control accounting] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольный учет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольны ўлік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_state_regulation_of_production_and_turnover_of_alcohol_nonfood_alcoholcontaining_products_and_noneating_ethanol;
+    => nrel_associative_connection: by_nonfood_alcoholcontaining_products;
+    => nrel_associative_connection: by_nonfood_ethyl_alcohol;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_excessive_discrepancy;
+    => nrel_associative_connection: by_alcohol;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16273?langname=ru];
+    => nrel_etalon_online_idx: [16273];;

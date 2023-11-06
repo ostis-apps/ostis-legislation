@@ -1,0 +1,40 @@
+
+by_thermal_energy_reference_tariff
+    => nrel_main_idtf: [thermal energy reference tariff] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовый тариф на тепловую энергию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы тарыф на цеплавую энергію] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_thermal_energy_reference_tariff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_consumer_of_an_energy_supply_organization;
+    => nrel_associative_connection: by_dynamic_optimal_temperature_schedule_of_heat_energy_output;
+    => nrel_associative_connection: by_debt_for_energy_resources;
+    => nrel_associative_connection: by_debt_of_consumers_for_energy_resources;
+    => nrel_associative_connection: by_consumer_subscriber;
+    => nrel_associative_connection: by_thermal_energy_metering_device;
+    => nrel_associative_connection: by_calculated_period_of_regulation;
+    => nrel_associative_connection: by_regulated_activities;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_energy_supply_organization;
+
+    => nrel_legal_act: by_act_c21400222;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10124?langname=ru];
+    => nrel_etalon_online_idx: [10124];;

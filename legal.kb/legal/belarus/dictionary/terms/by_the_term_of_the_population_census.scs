@@ -1,0 +1,36 @@
+
+by_the_term_of_the_population_census
+    => nrel_main_idtf: [the term of the population census] (* <- lang_en;; *);
+    => nrel_main_idtf: [срок проведения переписи населения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмін правядзення перапісу насельніцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_term_of_the_population_census_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_date_of_population_census;
+    => nrel_associative_connection: by_method_of_census_of_population_holding;
+    => nrel_associative_connection: by_census_documentation;
+    => nrel_associative_connection: by_census_form;
+    => nrel_associative_connection: by_census_staff;
+    => nrel_associative_connection: by_population_census_programme;
+
+    => nrel_legal_act: by_act_h10600144;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24099?langname=ru];
+    => nrel_etalon_online_idx: [24099];;

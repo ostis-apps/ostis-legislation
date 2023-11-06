@@ -1,0 +1,35 @@
+
+by_flight_information
+    => nrel_main_idtf: [flight information] (* <- lang_en;; *);
+    => nrel_main_idtf: [полетная информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палётная інфармацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_international_aircraft_flight;
+    => nrel_associative_connection: by_parachutist;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_information_region;
+
+    => nrel_legal_act: by_act_w22035130p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32872?langname=ru];
+    => nrel_etalon_online_idx: [32872];;

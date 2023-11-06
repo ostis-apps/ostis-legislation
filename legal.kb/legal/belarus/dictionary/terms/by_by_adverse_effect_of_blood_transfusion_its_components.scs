@@ -1,0 +1,38 @@
+
+by_by_adverse_effect_of_blood_transfusion_its_components
+    => nrel_main_idtf: [by_adverse_effect_of_blood_transfusion_its_components] (* <- lang_en;; *);
+    => nrel_main_idtf: [неблагоприятное последствие переливания крови, ее компонентов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неспрыяльнае наступства пералівання крыві, яе кампанентаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_adverse_effect_of_blood_transfusion_its_components_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_probable_causal_relationship_between_blood_transfusion_its_components_and_adverse_effects_of_blood_transfusion_its_components;
+    => nrel_associative_connection: by_possible_causal_relationship_between_transfusion_of_blood_its_components_and_adverse_effects_of_blood_transfusion_its_components;
+    => nrel_associative_connection: by_depletion_of_blood_its_components_by_leukocytes;
+    => nrel_associative_connection: by_organization_of_blood_transfusion;
+    => nrel_associative_connection: by_transfusion_of_blood_its_components;
+    => nrel_associative_connection: by_recipient;
+    => nrel_associative_connection: by_transfusions_activity;
+    => nrel_associative_connection: by_severe_posttransfusion_complication;
+
+    => nrel_legal_act: by_act_h11000197;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42225?langname=ru];
+    => nrel_etalon_online_idx: [42225];;

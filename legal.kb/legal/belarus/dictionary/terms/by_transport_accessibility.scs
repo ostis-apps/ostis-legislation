@@ -1,0 +1,33 @@
+
+by_transport_accessibility
+    => nrel_main_idtf: [transport accessibility] (* <- lang_en;; *);
+    => nrel_main_idtf: [доступность транспортная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даступнасць транспартная] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transport_accessibility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pedestrian_accessibility;
+    => nrel_associative_connection: by_subjects_of_transport_activities;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_w02035812p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35892?langname=ru];
+    => nrel_etalon_online_idx: [35892];;

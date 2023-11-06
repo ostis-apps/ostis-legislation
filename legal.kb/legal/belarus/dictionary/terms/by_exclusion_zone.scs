@@ -1,0 +1,36 @@
+
+by_exclusion_zone
+    => nrel_main_idtf: [exclusion zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона исключения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона выключэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exclusion_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_animal_disease;
+    => nrel_associative_connection: by_causative_agent_of_animal_infectious_disease;
+    => nrel_associative_connection: by_infectious_animal_disease;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_infected_object;
+    => nrel_associative_connection: by_hearth_of_contagious_animal_illness;
+
+    => nrel_legal_act: by_act_w21732089;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15018?langname=ru];
+    => nrel_etalon_online_idx: [15018];;

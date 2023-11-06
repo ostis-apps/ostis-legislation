@@ -1,0 +1,34 @@
+
+by_components_of_settlements
+    => nrel_main_idtf: [components of settlements] (* <- lang_en;; *);
+    => nrel_main_idtf: [составные части населенных пунктов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [састаўныя часткі населеных пунктаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_components_of_settlements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_large_populated_area;
+    => nrel_associative_connection: by_intersettlement_territories;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_elements_of_road_network;
+
+    => nrel_legal_act: by_act_h11000190;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10608?langname=ru];
+    => nrel_etalon_online_idx: [10608];;

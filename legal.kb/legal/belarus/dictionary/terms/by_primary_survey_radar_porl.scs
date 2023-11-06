@@ -1,0 +1,22 @@
+
+by_primary_survey_radar_porl
+    => nrel_main_idtf: [primary survey radar (porl)] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичный обзорный радиолокатор (порл)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасны аглядны радыелакатар (парл)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_aviation_radio_contact;
+    => nrel_associative_connection: by_aviation_station;
+    => nrel_associative_connection: by_secondary_survey_radar_ssr;
+    => nrel_associative_connection: by_secondary_radar;
+    => nrel_associative_connection: by_aerodrome_surveillance_radar;
+    => nrel_associative_connection: by_data_transfer;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31114?langname=ru];
+    => nrel_etalon_online_idx: [31114];;

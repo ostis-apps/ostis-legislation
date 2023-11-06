@@ -1,0 +1,52 @@
+
+by_massotherapy
+    => nrel_main_idtf: [massotherapy] (* <- lang_en;; *);
+    => nrel_main_idtf: [лечебный массаж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лячэбны масаж] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_massotherapy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_massotherapy_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_prevention;
+    => nrel_associative_connection: by_medical_rehabilitation;
+    => nrel_associative_connection: by_spa_program;
+    => nrel_associative_connection: by_spa_service;
+
+    => nrel_legal_act: by_act_h12200213;
+    => nrel_legal_act: by_act_w21529603p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35865?langname=ru];
+    => nrel_etalon_online_idx: [35865];;

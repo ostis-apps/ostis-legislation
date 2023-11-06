@@ -1,0 +1,38 @@
+
+by_gas_heating_device
+    => nrel_main_idtf: [gas heating device] (* <- lang_en;; *);
+    => nrel_main_idtf: [газовый отопительный прибор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газавы ацяпляльны прыбор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gas_heating_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_gas;
+    => nrel_associative_connection: by_gas_equipment;
+    => nrel_associative_connection: by_steam_gas_installation;
+    => nrel_associative_connection: by_heat_distributors_on_heating_appliances;
+    => nrel_associative_connection: by_thermal_energy;
+    => nrel_associative_connection: by_heat_supply;
+    => nrel_associative_connection: by_combustion_heater;
+
+    => nrel_legal_act: by_act_c21400571;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13429?langname=ru];
+    => nrel_etalon_online_idx: [13429];;

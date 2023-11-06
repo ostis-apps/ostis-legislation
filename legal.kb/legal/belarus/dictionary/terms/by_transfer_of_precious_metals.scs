@@ -1,0 +1,40 @@
+
+by_transfer_of_precious_metals
+    => nrel_main_idtf: [transfer of precious metals] (* <- lang_en;; *);
+    => nrel_main_idtf: [перевод драгоценных металлов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перавод каштоўных металаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_transfer_of_precious_metals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_precious_metal;
+    => nrel_associative_connection: by_examination_of_precious_stones;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_name_of_precious_metal;
+    => nrel_associative_connection: by_depersonalized_precious_metals;
+    => nrel_associative_connection: by_depersonalized_metal_account;
+    => nrel_associative_connection: by_negotiable_precious_metals;
+    => nrel_associative_connection: by_opening_and_management_of_account_in_precious_metals;
+    => nrel_associative_connection: by_account_in_precious_metals;
+    => nrel_associative_connection: by_safety_account_for_precious_metals;
+
+    => nrel_legal_act: by_act_b22036178;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36156?langname=ru];
+    => nrel_etalon_online_idx: [36156];;

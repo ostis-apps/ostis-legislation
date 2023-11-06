@@ -1,0 +1,38 @@
+
+by_derivative_securities
+    => nrel_main_idtf: [derivative securities] (* <- lang_en;; *);
+    => nrel_main_idtf: [производные ценные бумаги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворныя каштоўныя паперы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_derivative_securities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_security_forms_and_documents_with_a_defined_degree_of_protection;
+    => nrel_associative_connection: by_security;
+    => nrel_associative_connection: by_securities_in_belarusian_rubles;
+    => nrel_associative_connection: by_capital_issues_in_foreign_currency;
+    => nrel_associative_connection: by_securities_susceptible_to_credit_risk;
+    => nrel_associative_connection: by_securities_susceptible_to_devaluation;
+    => nrel_associative_connection: by_debt_securities_held_to_maturity;
+    => nrel_associative_connection: by_issue_securities;
+
+    => nrel_legal_act: by_act_h11500231;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27824?langname=ru];
+    => nrel_etalon_online_idx: [27824];;

@@ -1,0 +1,70 @@
+
+by_electric_network
+    => nrel_main_idtf: [electric network] (* <- lang_en;; *);
+    => nrel_main_idtf: [электрическая сеть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электрычная сетка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_network_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_act_of_distinction_of_balance_belonging_of_electric_networks_and_operational_liability_of_the_parties;
+    => nrel_associative_connection: by_introductory_device;
+    => nrel_associative_connection: by_introductory_switchgear;
+    => nrel_associative_connection: by_electric_network_owner;
+    => nrel_associative_connection: by_state_power_circuits;
+    => nrel_associative_connection: by_border_of_electric_network_balance_belonging;
+    => nrel_associative_connection: by_border_of_operational_responsibility_of_the_parties;
+    => nrel_associative_connection: by_group_electric_network;
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_currentr_and_or_voltage_measuring_transformer;
+    => nrel_associative_connection: by_housing_flapboard;
+    => nrel_associative_connection: by_control_counter;
+    => nrel_associative_connection: by_electricity_transmission_line;
+    => nrel_associative_connection: by_direct_connection;
+    => nrel_associative_connection: by_connected_electric_network;
+    => nrel_associative_connection: by_permissible_power_for_use_at_the_border_of_balance_accessories_of_electric_networks;
+    => nrel_associative_connection: by_electrical_power_allowed_to_be_used_at_the_boundary_of_the_balance_sheet_ownership_of_electrical_networks;
+    => nrel_associative_connection: by_reconstruction_of_distribution_electric_networks;
+    => nrel_associative_connection: by_tool_for_group_calculation_of_electric_energy_power;
+    => nrel_associative_connection: by_electric_energy_power_counter_with_splitted_architecture;
+    => nrel_associative_connection: by_point_of_connection;
+    => nrel_associative_connection: by_settlement_accounting_point;
+    => nrel_associative_connection: by_transit_electric_network;
+    => nrel_associative_connection: by_electrical_interlocking_of_switches_and_signals;
+
+    => nrel_legal_act: by_act_c21101394;
+    => nrel_legal_act: by_act_w22136476p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26601?langname=ru];
+    => nrel_etalon_online_idx: [26601];;

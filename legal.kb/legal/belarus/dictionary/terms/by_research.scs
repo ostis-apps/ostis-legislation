@@ -1,0 +1,41 @@
+
+by_research
+    => nrel_main_idtf: [research] (* <- lang_en;; *);
+    => nrel_main_idtf: [исследовательская работа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даследчая работа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_research_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geographic_objects_outside_the_territory_of_the_republic_of_belarus_opened_by_belarus_researchers;
+    => nrel_associative_connection: by_geophysical_survey_and_work_in_wells;
+    => nrel_associative_connection: by_research;
+    => nrel_associative_connection: by_researcher;
+    => nrel_associative_connection: by_research_center;
+    => nrel_associative_connection: by_contract_research_organization;
+    => nrel_associative_connection: by_conference_research_competition;
+    => nrel_associative_connection: by_term_project_coursework;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_researches;
+    => nrel_associative_connection: by_researches_research_works;
+
+    => nrel_legal_act: by_act_w00003138;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15638?langname=ru];
+    => nrel_etalon_online_idx: [15638];;

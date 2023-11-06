@@ -1,0 +1,59 @@
+
+by_usage_of_radio_spectrum
+    => nrel_main_idtf: [usage of radio spectrum] (* <- lang_en;; *);
+    => nrel_main_idtf: [использование радиочастотного спектра] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкарыстанне радыёчастотнага спектру] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_usage_of_radio_spectrum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_usage_of_radio_spectrum_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_outofband_emissions;
+    => nrel_associative_connection: by_usage;
+    => nrel_associative_connection: by_conversion_of_radio_spectrum;
+    => nrel_associative_connection: by_provision_of_operational_readiness_of_radio_spectrum;
+    => nrel_associative_connection: by_radio_frequency_spectrum_user;
+    => nrel_associative_connection: by_radio_interference;
+    => nrel_associative_connection: by_radio_frequency_services;
+    => nrel_associative_connection: by_radio_spectrum;
+    => nrel_associative_connection: by_rf_band_distribution;
+    => nrel_associative_connection: by_spectrum_expansion;
+    => nrel_associative_connection: by_expansion_of_the_radar_spectrum;
+    => nrel_associative_connection: by_frequency_synthesizer;
+    => nrel_associative_connection: by_special_user_of_radio_frequency_spectrum;
+
+    => nrel_legal_act: by_act_h10500045;
+    => nrel_legal_act: by_act_n09200080;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10894?langname=ru];
+    => nrel_etalon_online_idx: [10894];;

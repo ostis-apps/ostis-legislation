@@ -1,0 +1,36 @@
+
+by_entrance_tourist_flow
+    => nrel_main_idtf: [entrance tourist flow] (* <- lang_en;; *);
+    => nrel_main_idtf: [въездной туристический поток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уязны турыстычны паток] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_entrance_tourist_flow_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_entrance_tourist_trip;
+    => nrel_associative_connection: by_entry_tourism;
+    => nrel_associative_connection: by_outside_tourism;
+    => nrel_associative_connection: by_individual_accommodation_facilities;
+    => nrel_associative_connection: by_collective_accommodation_facilities;
+    => nrel_associative_connection: by_tourism;
+
+    => nrel_legal_act: by_act_t21804044p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28997?langname=ru];
+    => nrel_etalon_online_idx: [28997];;

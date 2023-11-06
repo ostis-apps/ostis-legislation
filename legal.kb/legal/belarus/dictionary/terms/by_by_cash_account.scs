@@ -1,0 +1,34 @@
+
+by_by_cash_account
+    => nrel_main_idtf: [by_cash_account] (* <- lang_en;; *);
+    => nrel_main_idtf: [счет по учету денежных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахунак па ўліку грашовых сродкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_cash_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_other_banks;
+    => nrel_associative_connection: by_division_personal_account;
+    => nrel_associative_connection: by_credit_accounting_account;
+    => nrel_associative_connection: by_account_for_accounting_of_local_budget_funds;
+
+    => nrel_legal_act: by_act_b22339970;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42568?langname=ru];
+    => nrel_etalon_online_idx: [42568];;

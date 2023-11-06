@@ -1,0 +1,88 @@
+
+by_utility_model
+    => nrel_main_idtf: [utility model] (* <- lang_en;; *);
+    => nrel_main_idtf: [полезная модель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карысная мадэль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_utility_model_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_utility_model_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_utility_model_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_utility_model_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_invention_to_which_legal_protection_is_granted;
+    => nrel_associative_connection: by_new_utility_model;
+    => nrel_associative_connection: by_objects_of_intellectual_property;
+    => nrel_associative_connection: by_patent_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_patent_owner;
+    => nrel_associative_connection: by_industrial_design;
+    => nrel_associative_connection: by_service_object_of_industrial_property_right;
+    => nrel_associative_connection: by_coauthors_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_essence_of_utility_model;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_h10200160;
+    => nrel_legal_act: by_act_n21200130;
+    => nrel_legal_act: by_act_n91100086;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3089?langname=ru];
+    => nrel_etalon_online_idx: [3089];;

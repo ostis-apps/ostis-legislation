@@ -1,0 +1,37 @@
+
+by_information_support
+    => nrel_main_idtf: [information support] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационное обеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйнае забеспячэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_libraryinformation_system;
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_informationsearch_language;
+    => nrel_associative_connection: by_information_units_of_the_internal_affairs_bodies;
+    => nrel_associative_connection: by_organization_carrying_out_information_support_in_the_field_of_education;
+    => nrel_associative_connection: by_software;
+
+    => nrel_legal_act: by_act_w21428843p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31904?langname=ru];
+    => nrel_etalon_online_idx: [31904];;

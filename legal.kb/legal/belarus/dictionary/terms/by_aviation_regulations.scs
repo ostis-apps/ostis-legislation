@@ -1,0 +1,53 @@
+
+by_aviation_regulations
+    => nrel_main_idtf: [aviation regulations] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиационные правила] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяцыйныя правілы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_regulations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_security;
+    => nrel_associative_connection: by_pressure_chamber_lift;
+    => nrel_associative_connection: by_bulletin;
+    => nrel_associative_connection: by_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_general_agent;
+    => nrel_associative_connection: by_state_of_registration_of_the_aircraft;
+    => nrel_associative_connection: by_civil_aviation;
+    => nrel_associative_connection: by_demonstration_flight;
+    => nrel_associative_connection: by_evidential_documentation;
+    => nrel_associative_connection: by_a_flight_area_sensitive_to_laser_beams;
+    => nrel_associative_connection: by_aircraft_control_flight;
+    => nrel_associative_connection: by_flight_work;
+    => nrel_associative_connection: by_flight_controllers;
+    => nrel_associative_connection: by_personality_factor;
+    => nrel_associative_connection: by_normative_legal_act;
+    => nrel_associative_connection: by_inspection;
+    => nrel_associative_connection: by_parachutist;
+    => nrel_associative_connection: by_objective_control_division;
+    => nrel_associative_connection: by_regulations;
+    => nrel_associative_connection: by_copy_certificate;
+    => nrel_associative_connection: by_certificationin_the_area_of_civil_aviation;
+    => nrel_associative_connection: by_certification_in_the_area_of_experimental_aviation;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+
+    => nrel_legal_act: by_act_hk0600117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/969?langname=ru];
+    => nrel_etalon_online_idx: [969];;

@@ -1,0 +1,35 @@
+
+by_point_thermal_engineering_inhomogeneity_point_ei
+    => nrel_main_idtf: [point thermal engineering inhomogeneity (point ei)] (* <- lang_en;; *);
+    => nrel_main_idtf: [точечная теплотехническая неоднородность (точечная тн)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кропкавая цеплатэхнічная неаднароднасць (кропкавая цн)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_point_thermal_engineering_inhomogeneity_point_ei_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_coefficient_of_thermal_homogeneity;
+    => nrel_associative_connection: by_linear_thermotechnical_heterogeneity_linear_;
+    => nrel_associative_connection: by_model_of_heat_engineering_heterogeneity_of_the_enveloped_structure_th_model;
+    => nrel_associative_connection: by_specific_heat_loss_through_linear_heat_engineering_inhomogeneity;
+    => nrel_associative_connection: by_specific_geometric_indicator_of_heat_engineering_inhomogeneity;
+
+    => nrel_legal_act: by_act_w220p0513;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37073?langname=ru];
+    => nrel_etalon_online_idx: [37073];;

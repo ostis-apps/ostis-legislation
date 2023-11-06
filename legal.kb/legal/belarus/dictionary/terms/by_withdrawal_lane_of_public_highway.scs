@@ -1,0 +1,35 @@
+
+by_withdrawal_lane_of_public_highway
+    => nrel_main_idtf: [withdrawal lane of public highway] (* <- lang_en;; *);
+    => nrel_main_idtf: [полоса отвода автомобильной дороги общего пользования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паласа адводу аўтамабільнай дарогі агульнага карыстання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_withdrawal_lane_of_public_highway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_public_highway;
+    => nrel_associative_connection: by_roadside_service_objects;
+    => nrel_associative_connection: by_withdrawal_lane;
+    => nrel_associative_connection: by_public_railway_rightofway;
+
+    => nrel_legal_act: by_act_p32000160;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33191?langname=ru];
+    => nrel_etalon_online_idx: [33191];;

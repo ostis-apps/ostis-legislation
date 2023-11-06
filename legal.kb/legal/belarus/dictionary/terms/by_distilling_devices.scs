@@ -1,0 +1,35 @@
+
+by_distilling_devices
+    => nrel_main_idtf: [distilling devices] (* <- lang_en;; *);
+    => nrel_main_idtf: [перегонные устройства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перагонныя прылады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_distilling_devices_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wild_animals_in_captivity;
+    => nrel_associative_connection: by_withdrawal_of_wild_animals;
+    => nrel_associative_connection: by_culture_and_leisure_parks_city_gardens_zoological_parks_zoological_gardens;
+    => nrel_associative_connection: by_crosscountry_communication;
+    => nrel_associative_connection: by_jogging_locomotive;
+
+    => nrel_legal_act: by_act_w20615324;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19980?langname=ru];
+    => nrel_etalon_online_idx: [19980];;

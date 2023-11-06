@@ -1,0 +1,36 @@
+
+by_secondary_subsequent_recipients
+    => nrel_main_idtf: [secondary (subsequent) recipients] (* <- lang_en;; *);
+    => nrel_main_idtf: [вторичные (последующие) получатели] (* <- lang_ru;; *);
+    => nrel_main_idtf: [другасныя (наступныя) атрымальнікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_secondary_subsequent_recipients_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_charitable_account;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_misuse_of_aid;
+    => nrel_associative_connection: by_senders;
+    => nrel_associative_connection: by_recipients;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_legal_act: by_act_pd2000003;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33232?langname=ru];
+    => nrel_etalon_online_idx: [33232];;

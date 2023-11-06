@@ -1,0 +1,36 @@
+
+by_drainage_system_of_the_aerodrome_heliport
+    => nrel_main_idtf: [drainage system of the aerodrome (heliport)] (* <- lang_en;; *);
+    => nrel_main_idtf: [дренажная система аэродрома (вертодрома)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дрэнажная сістэма аэрадрома (вертадрома)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drainage_system_of_the_aerodrome_heliport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_intraaerodrome_intraheliport_roads;
+    => nrel_associative_connection: by_aerodrome_heliport_drainage_system;
+    => nrel_associative_connection: by_ground_water;
+    => nrel_associative_connection: by_airfield;
+    => nrel_associative_connection: by_aerodrome_territory;
+
+    => nrel_legal_act: by_act_w21631541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37427?langname=ru];
+    => nrel_etalon_online_idx: [37427];;

@@ -1,0 +1,20 @@
+
+by_conditionally_clean_industrial_wastewater
+    => nrel_main_idtf: [conditionally clean industrial wastewater] (* <- lang_en;; *);
+    => nrel_main_idtf: [условно чистые производственные сточные воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [умоўна чыстыя вытворчыя сцёкавыя воды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_industrial_waste_waters_not_requiring_treatment;
+    => nrel_associative_connection: by_industrial_waste_waters_treated_to_standard_quality;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_waste_waters;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25600?langname=ru];
+    => nrel_etalon_online_idx: [25600];;

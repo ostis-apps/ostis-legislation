@@ -1,0 +1,22 @@
+
+by_electoral_commissions
+    => nrel_main_idtf: [electoral commissions] (* <- lang_en;; *);
+    => nrel_main_idtf: [избирательные комиссии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выбарчыя камісіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_elections;
+    => nrel_associative_connection: by_voter;
+    => nrel_associative_connection: by_constituency;
+    => nrel_associative_connection: by_commissions;
+    => nrel_associative_connection: by_commission;
+    => nrel_associative_connection: by_central_election_commission_of_the_republic_of_belarus_central_commission;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1572?langname=ru];
+    => nrel_etalon_online_idx: [1572];;

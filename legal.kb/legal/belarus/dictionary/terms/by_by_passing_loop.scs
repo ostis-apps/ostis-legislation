@@ -1,0 +1,54 @@
+
+by_by_passing_loop
+    => nrel_main_idtf: [by_passing_loop] (* <- lang_en;; *);
+    => nrel_main_idtf: [разъезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раз'езд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_passing_loop_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_passing_loop_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_main_ways;
+    => nrel_associative_connection: by_shunting;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_safety_dead_end;
+    => nrel_associative_connection: by_track_sign;
+    => nrel_associative_connection: by_routes_for_special_purpose;
+    => nrel_associative_connection: by_station_tracks;
+
+    => nrel_legal_act: by_act_w21530414p;
+    => nrel_legal_act: by_act_w20819143;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22096?langname=ru];
+    => nrel_etalon_online_idx: [22096];;

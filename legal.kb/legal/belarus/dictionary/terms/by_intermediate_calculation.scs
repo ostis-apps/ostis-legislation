@@ -1,0 +1,23 @@
+
+by_intermediate_calculation
+    => nrel_main_idtf: [intermediate calculation] (* <- lang_en;; *);
+    => nrel_main_idtf: [промежуточный расчет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамежкавы разлік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_final_calculation;
+    => nrel_associative_connection: by_payment_document;
+    => nrel_associative_connection: by_consumer__electric_energy_reseller;
+    => nrel_associative_connection: by_consumer_of_electric_energy;
+    => nrel_associative_connection: by_electric_energy_receiver;
+    => nrel_associative_connection: by_technical_means_of_commercial_accounting_of_electric_energy_and_power;
+    => nrel_associative_connection: by_electricity_consumption_metering_point;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21621?langname=ru];
+    => nrel_etalon_online_idx: [21621];;

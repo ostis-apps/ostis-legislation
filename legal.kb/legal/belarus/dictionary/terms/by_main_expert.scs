@@ -1,0 +1,35 @@
+
+by_main_expert
+    => nrel_main_idtf: [main expert] (* <- lang_en;; *);
+    => nrel_main_idtf: [главный эксперт ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галоўны эксперт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_expert_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_customer_of_state_expertise;
+    => nrel_associative_connection: by_customer_of_examination;
+    => nrel_associative_connection: by_competitve_competences;
+    => nrel_associative_connection: by_bases_of_professional_training;
+    => nrel_associative_connection: by_participants_of_the_republican_competition;
+
+    => nrel_legal_act: by_act_w21833559;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30479?langname=ru];
+    => nrel_etalon_online_idx: [30479];;

@@ -1,0 +1,35 @@
+
+by_subjects_of_state_property_privatization
+    => nrel_main_idtf: [subjects of state property privatization] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты приватизации государственного имущества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты прыватызацыі дзяржаўнай маёмасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_state_property_privatization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_privatization_of_state_property;
+    => nrel_associative_connection: by_sale_of_public_property_at_the_auction;
+    => nrel_associative_connection: by_sale_of_public_property_by_competition;
+    => nrel_associative_connection: by_decision_on_privatizing;
+    => nrel_associative_connection: by_business_entities_established_in_accordance_with_the_legislation_on_privatization;
+
+    => nrel_legal_act: by_act_v19302103;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24449?langname=ru];
+    => nrel_etalon_online_idx: [24449];;

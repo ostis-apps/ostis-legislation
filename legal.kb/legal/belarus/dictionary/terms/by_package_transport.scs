@@ -1,0 +1,28 @@
+
+by_package_transport
+    => nrel_main_idtf: [package (transport)] (* <- lang_en;; *);
+    => nrel_main_idtf: [пакет (транспортный)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пакет (транспартны)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_capacity_of_the_loading_place_unloading_front_size;
+    => nrel_associative_connection: by_loading_gauge;
+    => nrel_associative_connection: by_cargo_sending;
+    => nrel_associative_connection: by_cargo_place;
+    => nrel_associative_connection: by_cargo_places_packaging;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_consignee_receiver;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_place_for_luggage_for_cargo;
+    => nrel_associative_connection: by_shipment;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_packaging;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19765?langname=ru];
+    => nrel_etalon_online_idx: [19765];;

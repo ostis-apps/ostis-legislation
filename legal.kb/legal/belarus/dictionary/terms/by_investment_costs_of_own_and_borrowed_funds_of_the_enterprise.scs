@@ -1,0 +1,34 @@
+
+by_investment_costs_of_own_and_borrowed_funds_of_the_enterprise
+    => nrel_main_idtf: [investment (costs) of own and borrowed funds of the enterprise] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвестиционные вложения (затраты) собственных и заемных средств предприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвестыцыйныя ўкладанні (выдаткі) уласных і пазыковых сродкаў прадпрыемства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investment_costs_of_own_and_borrowed_funds_of_the_enterprise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_costs;
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_ssn_social_safety_net;
+
+    => nrel_legal_act: by_act_w00003138;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28250?langname=ru];
+    => nrel_etalon_online_idx: [28250];;

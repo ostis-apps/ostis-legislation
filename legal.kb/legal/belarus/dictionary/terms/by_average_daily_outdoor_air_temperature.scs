@@ -1,0 +1,36 @@
+
+by_average_daily_outdoor_air_temperature
+    => nrel_main_idtf: [average daily outdoor air temperature] (* <- lang_en;; *);
+    => nrel_main_idtf: [среднесуточная температура наружного воздуха] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэднясутачная тэмпература вонкавага паветра] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_average_daily_outdoor_air_temperature_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permissible_values_of_microclimate_indicators;
+    => nrel_associative_connection: by_optimal_values_of_microclimate_indicators;
+    => nrel_associative_connection: by_medium_shift_air_temperature;
+    => nrel_associative_connection: by_warm_period_of_the_year;
+    => nrel_associative_connection: by_tnsindex;
+    => nrel_associative_connection: by_cold_period_of_the_year;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41677?langname=ru];
+    => nrel_etalon_online_idx: [41677];;

@@ -1,0 +1,59 @@
+
+by_reservoir_installation
+    => nrel_main_idtf: [reservoir installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [резервуарная установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзервуарная ўстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reservoir_installation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reservoir_installation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_gas_pipeline;
+    => nrel_associative_connection: by_gas_equipment;
+    => nrel_associative_connection: by_gas_powered_equipment;
+    => nrel_associative_connection: by_gas_regulatory_point_gas_regulatory_installation;
+    => nrel_associative_connection: by_lowexpansion_foam_generator_for_subsurface_tank_quenching;
+    => nrel_associative_connection: by_individual_balloon_installation;
+    => nrel_associative_connection: by_filling_line;
+    => nrel_associative_connection: by_sublayer_fire_extinguishing_in_the_reservoir;
+    => nrel_associative_connection: by_reservoir_park;
+    => nrel_associative_connection: by_liquefied_gas;
+    => nrel_associative_connection: by_liquefied_hydrocarbon_gas;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_installation;
+
+    => nrel_legal_act: by_act_c20701539;
+    => nrel_legal_act: by_act_w22339537p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22458?langname=ru];
+    => nrel_etalon_online_idx: [22458];;

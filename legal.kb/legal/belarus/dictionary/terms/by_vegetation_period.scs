@@ -1,0 +1,37 @@
+
+by_vegetation_period
+    => nrel_main_idtf: [vegetation period] (* <- lang_en;; *);
+    => nrel_main_idtf: [вегетационный сезон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вегетацыйны сезон] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vegetation_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wild_plants;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_sowing_qualities_of_plants_seeds;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_agricultural_plants;
+    => nrel_associative_connection: by_plant_seeds;
+    => nrel_associative_connection: by_germination_energy_of_forest_plant_seeds;
+
+    => nrel_legal_act: by_act_w20614965;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12900?langname=ru];
+    => nrel_etalon_online_idx: [12900];;

@@ -1,0 +1,34 @@
+
+by_tools_of_amateur_fishing
+    => nrel_main_idtf: [tools of amateur fishing] (* <- lang_en;; *);
+    => nrel_main_idtf: [орудия любительского рыболовства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прылады аматарскага рыбалоўства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tools_of_amateur_fishing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_prohibited_fishing_tools;
+    => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_fish_production_catch_rate;
+    => nrel_associative_connection: by_traditional_national_fishing_tools;
+
+    => nrel_legal_act: by_act_p32100284;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38185?langname=ru];
+    => nrel_etalon_online_idx: [38185];;

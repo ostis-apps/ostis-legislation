@@ -1,0 +1,36 @@
+
+by_dendrological_park
+    => nrel_main_idtf: [dendrological park] (* <- lang_en;; *);
+    => nrel_main_idtf: [дендрологический парк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэндралагічны парк] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dendrological_park_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_landscaped_green_space;
+    => nrel_associative_connection: by_tree_and_shrubbery_vegetation;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_park;
+    => nrel_associative_connection: by_parks;
+    => nrel_associative_connection: by_damaged_lawns_flower_gardens;
+
+    => nrel_legal_act: by_act_h10300205;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11847?langname=ru];
+    => nrel_etalon_online_idx: [11847];;

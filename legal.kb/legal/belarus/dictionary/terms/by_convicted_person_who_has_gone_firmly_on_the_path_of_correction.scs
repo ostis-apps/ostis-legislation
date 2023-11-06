@@ -1,0 +1,34 @@
+
+by_convicted_person_who_has_gone_firmly_on_the_path_of_correction
+    => nrel_main_idtf: [convicted person who has gone firmly on the path of correction] (* <- lang_en;; *);
+    => nrel_main_idtf: [осужденный, твердо ставший на путь исправления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асуджаны, які цвёрда стаў на шлях выпраўлення] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_convicted_person_who_has_gone_firmly_on_the_path_of_correction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_correction_of_convicted;
+    => nrel_associative_connection: by_socially_useful_work;
+    => nrel_associative_connection: by_convicted_person;
+    => nrel_associative_connection: by_convicted_person_not_subject_to_sanctions;
+
+    => nrel_legal_act: by_act_hk0000365;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3923?langname=ru];
+    => nrel_etalon_online_idx: [3923];;

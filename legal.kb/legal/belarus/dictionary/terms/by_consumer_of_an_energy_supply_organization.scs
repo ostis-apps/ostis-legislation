@@ -1,0 +1,26 @@
+
+by_consumer_of_an_energy_supply_organization
+    => nrel_main_idtf: [consumer of an energy supply organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [абонент энергоснабжающей организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абанент энергазабяспечвальнай арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_subscriber;
+    => nrel_associative_connection: by_automated_system_of_control_and_accounting_of_electric_power;
+    => nrel_associative_connection: by_thermal_energy_reference_tariff;
+    => nrel_associative_connection: by_household_abonent;
+    => nrel_associative_connection: by_border_of_heat_network_balance_belonging;
+    => nrel_associative_connection: by_border_of_electric_network_balance_belonging;
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_consumer;
+    => nrel_associative_connection: by_subsubscriber_of_the_energy_supply_organization;
+    => nrel_associative_connection: by_metering_station;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4663?langname=ru];
+    => nrel_etalon_online_idx: [4663];;

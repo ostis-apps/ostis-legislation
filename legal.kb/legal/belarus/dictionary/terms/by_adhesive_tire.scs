@@ -1,0 +1,33 @@
+
+by_adhesive_tire
+    => nrel_main_idtf: [adhesive tire] (* <- lang_en;; *);
+    => nrel_main_idtf: [адгезивная шина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адгезіўная шына] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adhesive_tire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_adhesive_bridge_prosthesis;
+    => nrel_associative_connection: by_noncarious_lesions_of_teeth;
+    => nrel_associative_connection: by_parodontal_periodontal;
+
+    => nrel_legal_act: by_act_w22136313p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36638?langname=ru];
+    => nrel_etalon_online_idx: [36638];;

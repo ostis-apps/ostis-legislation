@@ -1,0 +1,34 @@
+
+by_system_of_units_of_quantities
+    => nrel_main_idtf: [system of units of quantities] (* <- lang_en;; *);
+    => nrel_main_idtf: [система единиц величин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма адзінак велічынь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_system_of_units_of_quantities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_magnitude;
+    => nrel_associative_connection: by_basic_unit_of_quantity;
+    => nrel_associative_connection: by_relative_magnitude;
+    => nrel_associative_connection: by_system_of_quantities;
+
+    => nrel_legal_act: by_act_c22000673;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35759?langname=ru];
+    => nrel_etalon_online_idx: [35759];;

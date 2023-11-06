@@ -1,0 +1,33 @@
+
+by_export_of_bunker_fuel
+    => nrel_main_idtf: [export of bunker fuel] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспорт бункерного топлива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспарт бункернага паліва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_export_of_bunker_fuel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bunker_fuel;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_import_of_bunker_fuel;
+
+    => nrel_legal_act: by_act_t21904382p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26571?langname=ru];
+    => nrel_etalon_online_idx: [26571];;

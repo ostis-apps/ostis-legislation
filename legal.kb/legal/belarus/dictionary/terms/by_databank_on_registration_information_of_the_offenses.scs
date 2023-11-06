@@ -1,0 +1,42 @@
+
+by_databank_on_registration_information_of_the_offenses
+    => nrel_main_idtf: [databank on registration information of the offenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк данных регистрационной информации о правонарушениях] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк даных рэгістрацыйнай інфармацыі аб правапарушэннях] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_databank_on_registration_information_of_the_offenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_databank;
+    => nrel_associative_connection: by_filling_the_registration_card;
+    => nrel_associative_connection: by_prosecuting_agency;
+    => nrel_associative_connection: by_authority_in_charge_of_administrative_procedure;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_regional_databank_on_offences;
+    => nrel_associative_connection: by_registration_of_applications_and_reports_of_crimes_administrative_offenses_and_information_about_incidents;
+    => nrel_associative_connection: by_registration_of_offences;
+    => nrel_associative_connection: by_court;
+    => nrel_associative_connection: by_territorial_databank_of_offences;
+    => nrel_associative_connection: by_notice_of_performance;
+    => nrel_associative_connection: by_fixation_of_data_on_offences;
+
+    => nrel_legal_act: by_act_c20600909;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8337?langname=ru];
+    => nrel_etalon_online_idx: [8337];;

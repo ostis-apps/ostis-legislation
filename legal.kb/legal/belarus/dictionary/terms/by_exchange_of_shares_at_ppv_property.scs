@@ -1,0 +1,33 @@
+
+by_exchange_of_shares_at_ppv_property
+    => nrel_main_idtf: [exchange of shares at ppv "property"] (* <- lang_en;; *);
+    => nrel_main_idtf: [обмен акций на ипч "имущество"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмен акцый на іпч "маёмасць"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_exchange_of_shares_at_ppv_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_personal_privatization_voucher_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_circulation_of_personal_privatization_vouchers_property;
+    => nrel_associative_connection: by_sale_of_shares_on_preferential_terms;
+
+    => nrel_legal_act: by_act_w20716573;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18434?langname=ru];
+    => nrel_etalon_online_idx: [18434];;

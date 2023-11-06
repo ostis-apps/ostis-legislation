@@ -1,0 +1,50 @@
+
+by_ride
+    => nrel_main_idtf: [ride] (* <- lang_en;; *);
+    => nrel_main_idtf: [поездка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паездка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ride_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ride_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_schedule;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_station;
+
+    => nrel_legal_act: by_act_c21401088;
+    => nrel_legal_act: by_act_c20800972;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35523?langname=ru];
+    => nrel_etalon_online_idx: [35523];;

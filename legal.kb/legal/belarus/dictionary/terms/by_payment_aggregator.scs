@@ -1,0 +1,56 @@
+
+by_payment_aggregator
+    => nrel_main_idtf: [payment aggregator] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежный агрегатор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежны агрегатор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_aggregator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_aggregator_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_transfer_of_electronic_money;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payment_between_individuals;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_payment_courier;
+    => nrel_associative_connection: by_payment_service;
+    => nrel_associative_connection: by_payment_service_provider;
+    => nrel_associative_connection: by_acquiring_payment_transactions;
+
+    => nrel_legal_act: by_act_h12200164;
+    => nrel_legal_act: by_act_b22239056;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40368?langname=ru];
+    => nrel_etalon_online_idx: [40368];;

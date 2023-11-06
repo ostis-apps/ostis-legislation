@@ -1,0 +1,34 @@
+
+by_date_of_adoption_of_the_joint_act
+    => nrel_main_idtf: [date of adoption of the joint act] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата принятия совместного акта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата прыняцця сумеснага акта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_adoption_of_the_joint_act_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_law;
+    => nrel_associative_connection: by_nonregulatory_individual_legal_act;
+
+    => nrel_legal_act: by_act_h11800130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30832?langname=ru];
+    => nrel_etalon_online_idx: [30832];;

@@ -1,0 +1,55 @@
+
+by_minimum_salary_monthly_and_hourly
+    => nrel_main_idtf: [minimum salary (monthly and hourly)] (* <- lang_en;; *);
+    => nrel_main_idtf: [минимальная заработная плата (месячная и часовая)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінімальная заработная плата (месячная і пагадзінная)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_minimum_salary_monthly_and_hourly_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_minimum_salary_monthly_and_hourly_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_salary;
+    => nrel_associative_connection: by_salary_within_the_statutory_minimum;
+    => nrel_associative_connection: by_monthly_minimum_salary;
+    => nrel_associative_connection: by_nominal_accrued_average_monthly_salary;
+    => nrel_associative_connection: by_remuneration_for_labour;
+    => nrel_associative_connection: by_employees_remuneration_for_labour;
+    => nrel_associative_connection: by_minimum_living_wage;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_hourly_minimum_salary;
+
+    => nrel_legal_act: by_act_hk9900296;
+    => nrel_legal_act: by_act_h10200124;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2810?langname=ru];
+    => nrel_etalon_online_idx: [2810];;

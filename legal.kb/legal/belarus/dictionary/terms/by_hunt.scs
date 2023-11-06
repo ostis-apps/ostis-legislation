@@ -1,0 +1,71 @@
+
+by_hunt
+    => nrel_main_idtf: [hunt] (* <- lang_en;; *);
+    => nrel_main_idtf: [охота] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunt_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_no_gun_hunting;
+    => nrel_associative_connection: by_hunting_management;
+    => nrel_associative_connection: by_openair_cage;
+    => nrel_associative_connection: by_openair_cage_hunting;
+    => nrel_associative_connection: by_aviaries;
+    => nrel_associative_connection: by_state_bodies_implementing_in_accordance_with_legislative_acts_within_their_competence_control_of_managing_hunting_husbandry_and_hunt;
+    => nrel_associative_connection: by_fowl_meat_products;
+    => nrel_associative_connection: by_benign_fowl_meat_products;
+    => nrel_associative_connection: by_documents_for_the_right_to_hunt;
+    => nrel_associative_connection: by_fraction;
+    => nrel_associative_connection: by_gamekeeper_services;
+    => nrel_associative_connection: by_gamekeeper;
+    => nrel_associative_connection: by_driven_hunting;
+    => nrel_associative_connection: by_prohibited_for_hunting_places;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_use_of_mechanical_ground_water_or_air_vehicles_in_illegal_hunting;
+    => nrel_associative_connection: by_collective_hunting;
+    => nrel_associative_connection: by_illegal_hunting;
+    => nrel_associative_connection: by_hunting_produce_neutralization;
+    => nrel_associative_connection: by_ambush_hunting;
+    => nrel_associative_connection: by_hunt_in_burrows;
+    => nrel_associative_connection: by_hunting_from_approach;
+    => nrel_associative_connection: by_hunting_from_the_entrance;
+    => nrel_associative_connection: by_hunter;
+    => nrel_associative_connection: by_hunting_aviary;
+    => nrel_associative_connection: by_hunting_tour;
+    => nrel_associative_connection: by_hunting_weapons;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_hunting_animals_objects_of_hunting;
+    => nrel_associative_connection: by_hunting_trophies;
+    => nrel_associative_connection: by_hunting_lands;
+    => nrel_associative_connection: by_hunting_area_management;
+    => nrel_associative_connection: by_hunting_documentation;
+    => nrel_associative_connection: by_underwater_hunting;
+    => nrel_associative_connection: by_products_of_hunting;
+    => nrel_associative_connection: by_commercial_hunting;
+    => nrel_associative_connection: by_republican_state_public_association_belarusian_society_of_hunters_and_fisherman;
+    => nrel_associative_connection: by_hunting_season;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_hunting_methods;
+    => nrel_associative_connection: by_time_of_hunting;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3027?langname=ru];
+    => nrel_etalon_online_idx: [3027];;

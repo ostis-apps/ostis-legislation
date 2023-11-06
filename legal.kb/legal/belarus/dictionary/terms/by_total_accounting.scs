@@ -1,0 +1,34 @@
+
+by_total_accounting
+    => nrel_main_idtf: [total accounting] (* <- lang_en;; *);
+    => nrel_main_idtf: [суммарный учет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сумарны ўлік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_accounting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_individual_accounting;
+    => nrel_associative_connection: by_document_processing;
+    => nrel_associative_connection: by_batch_of_documents;
+    => nrel_associative_connection: by_excessive_duplicate_documents;
+
+    => nrel_legal_act: by_act_w22239194;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41922?langname=ru];
+    => nrel_etalon_online_idx: [41922];;

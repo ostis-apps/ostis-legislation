@@ -1,0 +1,33 @@
+
+by_ground_search_and_rescue_group_team
+    => nrel_main_idtf: [ground search and rescue group (team)] (* <- lang_en;; *);
+    => nrel_main_idtf: [наземная поисково-спасательная группа (команда)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наземная пошукава-выратавальная група (каманда)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ground_search_and_rescue_group_team_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_search_and_rescue;
+    => nrel_associative_connection: by_search_and_emergency_rescue_operations_search_and_rescue_operations;
+    => nrel_associative_connection: by_search_and_emergency_rescue_forces_and_means;
+
+    => nrel_legal_act: by_act_w21934932p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36204?langname=ru];
+    => nrel_etalon_online_idx: [36204];;

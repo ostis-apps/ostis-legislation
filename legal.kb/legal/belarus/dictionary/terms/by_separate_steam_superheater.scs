@@ -1,0 +1,35 @@
+
+by_separate_steam_superheater
+    => nrel_main_idtf: [separate steam superheater] (* <- lang_en;; *);
+    => nrel_main_idtf: [автономный пароперегреватель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаномны параперагравальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_separate_steam_superheater_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_autonomous_economizer;
+    => nrel_associative_connection: by_boiler_water;
+    => nrel_associative_connection: by_boiler_working_with_hightemperature_organic_inorganic_heat_carriers;
+    => nrel_associative_connection: by_boiler_room;
+    => nrel_associative_connection: by_steam_boiler;
+
+    => nrel_legal_act: by_act_w22339669p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42501?langname=ru];
+    => nrel_etalon_online_idx: [42501];;

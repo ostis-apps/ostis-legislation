@@ -1,0 +1,34 @@
+
+by_by_bycatch
+    => nrel_main_idtf: [by_bycatch] (* <- lang_en;; *);
+    => nrel_main_idtf: [прилов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прылоўля] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_bycatch_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_fish_catch;
+    => nrel_associative_connection: by_production_measure;
+    => nrel_associative_connection: by_fishery;
+
+    => nrel_legal_act: by_act_p32100284;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38187?langname=ru];
+    => nrel_etalon_online_idx: [38187];;

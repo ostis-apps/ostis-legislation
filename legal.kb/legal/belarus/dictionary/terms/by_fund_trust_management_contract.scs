@@ -1,0 +1,38 @@
+
+by_fund_trust_management_contract
+    => nrel_main_idtf: [fund trust management contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор доверительного управления фондом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор давернага кіравання фондам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fund_trust_management_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_trustor;
+    => nrel_associative_connection: by_buyout_of_share_certificate;
+    => nrel_associative_connection: by_activities_on_securities_management_trust;
+    => nrel_associative_connection: by_trust_fund_manager;
+    => nrel_associative_connection: by_income_of_the_fund;
+    => nrel_associative_connection: by_registry_of_trustors;
+    => nrel_associative_connection: by_registry_of_funds;
+    => nrel_associative_connection: by_fund;
+
+    => nrel_legal_act: by_act_b21428544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14265?langname=ru];
+    => nrel_etalon_online_idx: [14265];;

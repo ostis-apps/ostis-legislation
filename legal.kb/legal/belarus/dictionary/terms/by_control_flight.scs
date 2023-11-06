@@ -1,0 +1,58 @@
+
+by_control_flight
+    => nrel_main_idtf: [control flight] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольный полет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольны палёт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_flight_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auxiliary_flight;
+    => nrel_associative_connection: by_export_flight;
+    => nrel_associative_connection: by_flight_altitude;
+    => nrel_associative_connection: by_task_on_the_flight;
+    => nrel_associative_connection: by_test_flight;
+    => nrel_associative_connection: by_research_flight;
+    => nrel_associative_connection: by_map_of_control_reports;
+    => nrel_associative_connection: by_controlled_flight;
+    => nrel_associative_connection: by_control_department_of_the_operator_of_the_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_checkshow_flight;
+    => nrel_associative_connection: by_check_flight_of_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_state_aircraft_check_flight;
+
+    => nrel_legal_act: by_act_w22238995p;
+    => nrel_legal_act: by_act_w21530475p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30956?langname=ru];
+    => nrel_etalon_online_idx: [30956];;

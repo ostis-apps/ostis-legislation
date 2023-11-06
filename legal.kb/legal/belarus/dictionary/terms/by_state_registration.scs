@@ -1,0 +1,87 @@
+
+by_state_registration
+    => nrel_main_idtf: [state registration] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная регистрация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная рэгістрацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registration_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registration_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration_of_biomedical_cellular_products;
+    => nrel_associative_connection: by_state_registration_of_medical_devices_and_medical_equipment;
+    => nrel_associative_connection: by_state_registration_of_medicine;
+    => nrel_associative_connection: by_state_registration_of_real_estate;
+    => nrel_associative_connection: by_state_registration_of_right_limitations_ecumbrances_to_real_estate_right;
+    => nrel_associative_connection: by_state_registration_of_real_estate_transactions;
+    => nrel_associative_connection: by_state_registration_of_technical_conditions;
+    => nrel_associative_connection: by_state_of_registration;
+    => nrel_associative_connection: by_contract_on_rent_of_a_building_or_construction;
+    => nrel_associative_connection: by_unified_state_register_of_legal_entities_and_individual_entrepreneurs;
+    => nrel_associative_connection: by_record_of_registered_real_estate;
+    => nrel_associative_connection: by_record_of_registered_property_right_to_real_estate;
+    => nrel_associative_connection: by_organization_location;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_illegal_entrepreneurial_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_registration_dossier;
+    => nrel_associative_connection: by_registration_certificate;
+    => nrel_associative_connection: by_registration_number;
+    => nrel_associative_connection: by_registration_bodies;
+    => nrel_associative_connection: by_registration_body;
+    => nrel_associative_connection: by_registry;
+    => nrel_associative_connection: by_registry_of_state_registration_of_technical_conditions;
+    => nrel_associative_connection: by_territorial_organization_for_state_registration;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_h10400262;
+    => nrel_legal_act: by_act_n21600033;
+    => nrel_legal_act: by_act_n21200130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1315?langname=ru];
+    => nrel_etalon_online_idx: [1315];;

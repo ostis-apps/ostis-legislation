@@ -1,0 +1,67 @@
+
+by_internal_audit
+    => nrel_main_idtf: [internal audit] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренний аудит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраны аўдыт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_audit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_audit_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_internal_audit_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_internal_control_system;
+
+    => nrel_legal_act: by_act_w20105001;
+    => nrel_legal_act: by_act_n21500043;
+    => nrel_legal_act: by_act_i01100051;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8613?langname=ru];
+    => nrel_etalon_online_idx: [8613];;

@@ -1,0 +1,35 @@
+
+by_organizational_and_management_duties
+    => nrel_main_idtf: [organizational and management duties] (* <- lang_en;; *);
+    => nrel_main_idtf: [организационно-распорядительные обязанности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыйна-распарадчыя абавязкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizational_and_management_duties_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_and_management_responsibilities;
+    => nrel_associative_connection: by_persons_entered_in_the_state_civil_service_by_election;
+    => nrel_associative_connection: by_persons_authorized_in_the_prescribed_manner_on_accomplishment_of_legally_important_actions;
+    => nrel_associative_connection: by_a_gift_received_during_a_protocol_and_other_official_event;
+    => nrel_associative_connection: by_protocol_and_other_official_event;
+
+    => nrel_legal_act: by_act_h11500305;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42026?langname=ru];
+    => nrel_etalon_online_idx: [42026];;

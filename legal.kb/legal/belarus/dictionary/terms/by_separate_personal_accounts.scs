@@ -1,0 +1,56 @@
+
+by_separate_personal_accounts
+    => nrel_main_idtf: [separate personal accounts] (* <- lang_en;; *);
+    => nrel_main_idtf: [отдельные лицевые счета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобныя асабовыя рахункі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_separate_personal_accounts_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_separate_personal_accounts_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_account_owner_contractual_customer;
+    => nrel_associative_connection: by_personalized_account;
+    => nrel_associative_connection: by_individual_account_of_the_insured_person;
+    => nrel_associative_connection: by_information_about_accounts_contracts;
+    => nrel_associative_connection: by_personal_account_of_ministry_of_taxation_inspection;
+    => nrel_associative_connection: by_personal_account_of_the_treasury_client;
+    => nrel_associative_connection: by_national_bank;
+    => nrel_associative_connection: by_separate_stock_exchange_personal_account;
+    => nrel_associative_connection: by_calculated_banks;
+    => nrel_associative_connection: by_bidding;
+
+    => nrel_legal_act: by_act_w21833340;
+    => nrel_legal_act: by_act_b21631039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19493?langname=ru];
+    => nrel_etalon_online_idx: [19493];;

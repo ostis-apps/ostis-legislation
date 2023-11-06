@@ -1,0 +1,34 @@
+
+by_antiseptic_medicinal_product
+    => nrel_main_idtf: [antiseptic medicinal product] (* <- lang_en;; *);
+    => nrel_main_idtf: [антисептический лекарственный препарат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [антысептычны лекавы прэпарат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_antiseptic_medicinal_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antiseptic_medicine;
+    => nrel_associative_connection: by_biological_medicine;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_orphan_rare_medicinal_product;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35502?langname=ru];
+    => nrel_etalon_online_idx: [35502];;

@@ -1,0 +1,36 @@
+
+by_offence_committed_through_negligence
+    => nrel_main_idtf: [offence committed through negligence] (* <- lang_en;; *);
+    => nrel_main_idtf: [преступление, совершенное по небрежности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [злачынства, здзейсненае па нядбайнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_offence_committed_through_negligence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_a_crime_committed_through_recklessness;
+    => nrel_associative_connection: by_crime_committed_by_negligence;
+    => nrel_associative_connection: by_crime_committed_with_indirect_intent;
+    => nrel_associative_connection: by_crime_committed_with_direct_intent;
+    => nrel_associative_connection: by_crime_committed_intentionally;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21175?langname=ru];
+    => nrel_etalon_online_idx: [21175];;

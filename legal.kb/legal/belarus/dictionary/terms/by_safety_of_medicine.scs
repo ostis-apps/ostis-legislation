@@ -1,0 +1,24 @@
+
+by_safety_of_medicine
+    => nrel_main_idtf: [safety of medicine] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасность лекарственного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспека лекавага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_safety_of_the_medicine;
+    => nrel_associative_connection: by_biological_medicine;
+    => nrel_associative_connection: by_instruction_for_medical_use_leaflet;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_proper_pharmacological_control_practice;
+    => nrel_associative_connection: by_side_effect;
+    => nrel_associative_connection: by_adulterated_medical_drug;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8383?langname=ru];
+    => nrel_etalon_online_idx: [8383];;

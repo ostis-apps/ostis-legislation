@@ -1,0 +1,34 @@
+
+by_senior_aviation_chief_of_the_aerodrome
+    => nrel_main_idtf: [senior aviation chief of the aerodrome] (* <- lang_en;; *);
+    => nrel_main_idtf: [старший авиационный начальник аэродрома] (* <- lang_ru;; *);
+    => nrel_main_idtf: [старшы авіяцыйны начальнік аэрадрома] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_senior_aviation_chief_of_the_aerodrome_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_chief_officers;
+
+    => nrel_legal_act: by_act_c20601471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24186?langname=ru];
+    => nrel_etalon_online_idx: [24186];;

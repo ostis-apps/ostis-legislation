@@ -1,0 +1,35 @@
+
+by_lightweight_concrete_density_class
+    => nrel_main_idtf: [lightweight concrete density class] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс легкого бетона по плотности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас лёгкага бетону па шчыльнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lightweight_concrete_density_class_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_concrete_structure;
+    => nrel_associative_connection: by_compressive_strength_class_of_concrete_concrete_class;
+    => nrel_associative_connection: by_calculated_strength_of_concrete;
+    => nrel_associative_connection: by_average_strength_of_concrete_for_axial_extension;
+    => nrel_associative_connection: by_partial_coefficient_gc_for_concrete;
+
+    => nrel_legal_act: by_act_w220p0511;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35664?langname=ru];
+    => nrel_etalon_online_idx: [35664];;

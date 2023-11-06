@@ -1,0 +1,54 @@
+
+by_journalist
+    => nrel_main_idtf: [journalist] (* <- lang_en;; *);
+    => nrel_main_idtf: [журналист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [журналіст] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_journalist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_journalist_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accreditation_of_mass_media_journalist;
+    => nrel_associative_connection: by_audiovisual_journalism;
+    => nrel_associative_connection: by_web_journalism;
+    => nrel_associative_connection: by_foreign_mass_media_journalist;
+    => nrel_associative_connection: by_mass_media_journalist;
+    => nrel_associative_connection: by_journalism;
+    => nrel_associative_connection: by_journalists;
+    => nrel_associative_connection: by_literature_worker_journalist;
+
+    => nrel_legal_act: by_act_w21934552p;
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2553?langname=ru];
+    => nrel_etalon_online_idx: [2553];;

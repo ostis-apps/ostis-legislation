@@ -1,0 +1,122 @@
+
+by_works
+    => nrel_main_idtf: [works] (* <- lang_en;; *);
+    => nrel_main_idtf: [работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_recovery_operations;
+    => nrel_associative_connection: by_emergency_rescue_operations;
+    => nrel_associative_connection: by_emergency_operations_and_all_hands_jobs;
+    => nrel_associative_connection: by_aviation_works;
+    => nrel_associative_connection: by_automatic_insuring_device;
+    => nrel_associative_connection: by_archaeological_office_works;
+    => nrel_associative_connection: by_archaeological_fieldwork;
+    => nrel_associative_connection: by_archival_and_research_works;
+    => nrel_associative_connection: by_safety_of_goods_work_service;
+    => nrel_associative_connection: by_belarusian_customer_of_services_works;
+    => nrel_associative_connection: by_brigade_working_method;
+    => nrel_associative_connection: by_steeplejacking;
+    => nrel_associative_connection: by_straightening_works;
+    => nrel_associative_connection: by_geodetic_works;
+    => nrel_associative_connection: by_geological_and_surveying_works;
+    => nrel_associative_connection: by_explorations_works_on_underground_waters;
+    => nrel_associative_connection: by_geophysical_survey_and_work_in_wells;
+    => nrel_associative_connection: by_hydrometeorological_works;
+    => nrel_associative_connection: by_mining_operations;
+    => nrel_associative_connection: by_state_procurements_of_goods_works_services;
+    => nrel_associative_connection: by_date_of_work_performance_rendering_services;
+    => nrel_associative_connection: by_date_of_work_performance_rendering_services_receive_or_transfer_of_protected_information_exclusive_rights_to_results_of_intellectual_activity;
+    => nrel_associative_connection: by_day_of_work_perfomance_service_provision;
+    => nrel_associative_connection: by_bottom_cleaning_works;
+    => nrel_associative_connection: by_dredging;
+    => nrel_associative_connection: by_other_emergency_works_in_emergency_situations_liquidation;
+    => nrel_associative_connection: by_purchase_of_goods_works_and_services;
+    => nrel_associative_connection: by_costs_on_production_and_realization_of_goods_works_services;
+    => nrel_associative_connection: by_identification_of_work_performance_service_provision;
+    => nrel_associative_connection: by_identical_works_services;
+    => nrel_associative_connection: by_survey_works;
+    => nrel_associative_connection: by_innovative_products_works_services;
+    => nrel_associative_connection: by_work_executor;
+    => nrel_associative_connection: by_cartographic_activities;
+    => nrel_associative_connection: by_classification_of_individual_consumption_by_purpose;
+    => nrel_associative_connection: by_indirect_costs;
+    => nrel_associative_connection: by_criteria_for_classification_of_the_executor_of_works_services;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_researches_research_works;
+    => nrel_associative_connection: by_beginning_of_work;
+    => nrel_associative_connection: by_beginning_of_work_change;
+    => nrel_associative_connection: by_inconstant_workplace;
+    => nrel_associative_connection: by_new_goods_works_services;
+    => nrel_associative_connection: by_public_works;
+    => nrel_associative_connection: by_development_works;
+    => nrel_associative_connection: by_technological_works;
+    => nrel_associative_connection: by_loading_and_unloading_works;
+    => nrel_associative_connection: by_underground_mining;
+    => nrel_associative_connection: by_contracting_works;
+    => nrel_associative_connection: by_exploration_work;
+    => nrel_associative_connection: by_field_team;
+    => nrel_associative_connection: by_field_search_works;
+    => nrel_associative_connection: by_track_works;
+    => nrel_associative_connection: by_works_and_services_of_own_production;
+    => nrel_associative_connection: by_works_at_height;
+    => nrel_associative_connection: by_works_of_national_and_international_significance;
+    => nrel_associative_connection: by_fire_works;
+    => nrel_associative_connection: by_works_on_active_impact_on_meteorological_and_other_geophysical_processes;
+    => nrel_associative_connection: by_special_purpose_works;
+    => nrel_associative_connection: by_calculated_value;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_head_of_works;
+    => nrel_associative_connection: by_transaction_for_the_acquisition_of_goods_work_services;
+    => nrel_associative_connection: by_specific_goods_works_services;
+    => nrel_associative_connection: by_special_exporter_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_stage_of_geological_exploration_works;
+    => nrel_associative_connection: by_construction_and_assembly_works;
+    => nrel_associative_connection: by_construction_works;
+    => nrel_associative_connection: by_construction_works_of_improper_quality;
+    => nrel_associative_connection: by_ship_works;
+    => nrel_associative_connection: by_tarification_of_works;
+    => nrel_associative_connection: by_goods_works_services_being_under_control_in_the_interests_of_the_national_security_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_trawl_work;
+    => nrel_associative_connection: by_actual_cost_of_work_performed;
+    => nrel_associative_connection: by_crew_work_method;
+    => nrel_associative_connection: by_power_tool;
+
+    => nrel_legal_act: by_act_h11200419;
+    => nrel_legal_act: by_act_a21800005;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21915?langname=ru];
+    => nrel_etalon_online_idx: [21915];;

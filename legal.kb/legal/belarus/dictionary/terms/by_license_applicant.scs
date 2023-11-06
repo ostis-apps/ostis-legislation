@@ -1,0 +1,72 @@
+
+by_license_applicant
+    => nrel_main_idtf: [license applicant] (* <- lang_en;; *);
+    => nrel_main_idtf: [соискатель лицензии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суіскальнік ліцэнзіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_license_applicant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_license_applicant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_license_applicant_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_prelicension_requirements_and_conditions;
+    => nrel_associative_connection: by_licensee;
+    => nrel_associative_connection: by_licensing_requirements_and_conditions;
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_license;
+    => nrel_associative_connection: by_special_licensing_requirements_and_conditions;
+    => nrel_associative_connection: by_assessment_of_licensee_s_compliance_with_licensing_requirements_and_conditions_licensee_s_compliance_with_licensing_requirements_and_conditions;
+    => nrel_associative_connection: by_written_notification_to_the_license_applicant_licensee_of_the_decision_on_licensing_issues;
+    => nrel_associative_connection: by_information_necessary_making_significance_for_decisionmaking_on_granting_changing_the_license;
+    => nrel_associative_connection: by_technical_and_support_staff;
+
+    => nrel_legal_act: by_act_h12200213;
+    => nrel_legal_act: by_act_p32100137;
+    => nrel_legal_act: by_act_p31200071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9042?langname=ru];
+    => nrel_etalon_online_idx: [9042];;

@@ -1,0 +1,38 @@
+
+by_test_tasks
+    => nrel_main_idtf: [test tasks ] (* <- lang_en;; *);
+    => nrel_main_idtf: [тестовое задание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэставае заданне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_test_tasks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_answer_form;
+    => nrel_associative_connection: by_input_data_sheet;
+    => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_pedagogic_test;
+    => nrel_associative_connection: by_testing_point;
+    => nrel_associative_connection: by_centralized_testing_certificate;
+    => nrel_associative_connection: by_test_specification;
+    => nrel_associative_connection: by_exam_materials;
+
+    => nrel_legal_act: by_act_c20600714;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24839?langname=ru];
+    => nrel_etalon_online_idx: [24839];;

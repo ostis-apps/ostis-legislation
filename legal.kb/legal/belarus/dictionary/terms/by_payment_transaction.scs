@@ -1,0 +1,54 @@
+
+by_payment_transaction
+    => nrel_main_idtf: [payment transaction] (* <- lang_en;; *);
+    => nrel_main_idtf: [платежная операция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацежная аперацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_transaction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payment_transaction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cash_monetary_means;
+    => nrel_associative_connection: by_payment_finality;
+    => nrel_associative_connection: by_periphery_equipment;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_expenditure_operation;
+    => nrel_associative_connection: by_calculated_operations;
+    => nrel_associative_connection: by_participant_of_the_payment_system;
+    => nrel_associative_connection: by_acquiring_payment_transactions;
+
+    => nrel_legal_act: by_act_h12200164;
+    => nrel_legal_act: by_act_b22137220p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39214?langname=ru];
+    => nrel_etalon_online_idx: [39214];;

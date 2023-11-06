@@ -1,0 +1,45 @@
+
+by_pedestrian_zone
+    => nrel_main_idtf: [pedestrian zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [пешеходная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пешаходная зона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pedestrian_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_traffic_safety;
+    => nrel_associative_connection: by_cycle_track;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_pedestrian_accessibility;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_organized_pedestrian_column;
+    => nrel_associative_connection: by_pedestrian;
+    => nrel_associative_connection: by_footpath;
+    => nrel_associative_connection: by_pedestrian_accessibility;
+    => nrel_associative_connection: by_pedestrian_crossing;
+    => nrel_associative_connection: by_adjacent_territory;
+    => nrel_associative_connection: by_carriageway;
+    => nrel_associative_connection: by_zone_of_separation;
+    => nrel_associative_connection: by_adjustable_pedestrian_transition;
+    => nrel_associative_connection: by_give_way_give_advantage;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20135?langname=ru];
+    => nrel_etalon_online_idx: [20135];;

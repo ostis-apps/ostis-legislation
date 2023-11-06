@@ -1,0 +1,59 @@
+
+by_international_aircraft_flight
+    => nrel_main_idtf: [international aircraft flight ] (* <- lang_en;; *);
+    => nrel_main_idtf: [международный полет воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародны палёт паветранага судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_aircraft_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_aircraft_flight_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_aircraft_flights;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_aircraft_of_foreign_state;
+    => nrel_associative_connection: by_state_aircraft;
+    => nrel_associative_connection: by_civil_aircraft;
+    => nrel_associative_connection: by_civil_aircraft_of_foreign_state;
+    => nrel_associative_connection: by_cargo_aircraft;
+    => nrel_associative_connection: by_international_air_carriage;
+    => nrel_associative_connection: by_international_air_carriage_of_cargoes;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_information;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_permission_to_performance_of_flight;
+
+    => nrel_legal_act: by_act_hk0600117;
+    => nrel_legal_act: by_act_n21800044;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17149?langname=ru];
+    => nrel_etalon_online_idx: [17149];;

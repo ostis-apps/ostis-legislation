@@ -1,0 +1,35 @@
+
+by_by_nonoccupancy_of_living_quarters
+    => nrel_main_idtf: [by_nonoccupancy_of_living_quarters] (* <- lang_en;; *);
+    => nrel_main_idtf: [невостребованность жилых помещений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незапатрабаванасць жылых памяшканняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_nonoccupancy_of_living_quarters_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_seperate_housing_premise;
+    => nrel_associative_connection: by_nonresidential_premise;
+    => nrel_associative_connection: by_official_residential_premises;
+    => nrel_associative_connection: by_special_residential_premise;
+
+    => nrel_legal_act: by_act_p31800237;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42113?langname=ru];
+    => nrel_etalon_online_idx: [42113];;

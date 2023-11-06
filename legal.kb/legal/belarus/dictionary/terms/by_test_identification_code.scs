@@ -1,0 +1,39 @@
+
+by_test_identification_code
+    => nrel_main_idtf: [test identification code ] (* <- lang_en;; *);
+    => nrel_main_idtf: [идентификационный код испытуемого] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ідэнтыфікацыйны код падвыпрабавальнага] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_test_identification_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_identification_code;
+    => nrel_associative_connection: by_individual_registration_map_of_the_tested;
+    => nrel_associative_connection: by_testee;
+    => nrel_associative_connection: by_research;
+    => nrel_associative_connection: by_researcher;
+    => nrel_associative_connection: by_clinical_trials;
+    => nrel_associative_connection: by_clinical_trial;
+    => nrel_associative_connection: by_code;
+    => nrel_associative_connection: by_unique_identification_code;
+
+    => nrel_legal_act: by_act_w20820139;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15068?langname=ru];
+    => nrel_etalon_online_idx: [15068];;

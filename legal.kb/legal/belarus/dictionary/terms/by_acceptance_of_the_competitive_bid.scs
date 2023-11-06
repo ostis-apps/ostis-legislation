@@ -1,0 +1,37 @@
+
+by_acceptance_of_the_competitive_bid
+    => nrel_main_idtf: [acceptance of the competitive bid] (* <- lang_en;; *);
+    => nrel_main_idtf: [прием конкурсного предложения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыём конкурснай прапановы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acceptance_of_the_competitive_bid_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_journal_of_registration_of_proposals_competitive_bids;
+    => nrel_associative_connection: by_notification_on_holding_the_competitive_bidding;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_bid;
+    => nrel_associative_connection: by_competitive_bid_for_participation_in_the_competitive_bidding_for_selecting_event_performers;
+    => nrel_associative_connection: by_acceptance_of_the_application_for_participation_in_the_competitive_bidding;
+    => nrel_associative_connection: by_competitive_bidding_participant;
+
+    => nrel_legal_act: by_act_w21631234;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8262?langname=ru];
+    => nrel_etalon_online_idx: [8262];;

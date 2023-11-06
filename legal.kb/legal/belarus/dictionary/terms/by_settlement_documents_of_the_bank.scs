@@ -1,0 +1,39 @@
+
+by_settlement_documents_of_the_bank
+    => nrel_main_idtf: [settlement documents of the bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетные документы банка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковыя дакументы банка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_settlement_documents_of_the_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_obligatory_requisites_of_settlement_documents;
+    => nrel_associative_connection: by_settlement_documents;
+    => nrel_associative_connection: by_settlement_documents_of_recoverers;
+    => nrel_associative_connection: by_calculated_document;
+    => nrel_associative_connection: by_calculation_window_mode;
+    => nrel_associative_connection: by_electronic_payment_document_electronic_order_for_payment_electronic_payment_request_electronic_payment_order;
+
+    => nrel_legal_act: by_act_b20513003;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22211?langname=ru];
+    => nrel_etalon_online_idx: [22211];;

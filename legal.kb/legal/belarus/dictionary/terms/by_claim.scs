@@ -1,0 +1,33 @@
+
+by_claim
+    => nrel_main_idtf: [claim] (* <- lang_en;; *);
+    => nrel_main_idtf: [претензия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прэтэнзія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_claim_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pretrial_proceeding;
+    => nrel_associative_connection: by_complaint;
+    => nrel_associative_connection: by_application_form;
+
+    => nrel_legal_act: by_act_hk9800219;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28724?langname=ru];
+    => nrel_etalon_online_idx: [28724];;

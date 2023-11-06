@@ -1,0 +1,33 @@
+
+by_hightech_software
+    => nrel_main_idtf: [high-tech software] (* <- lang_en;; *);
+    => nrel_main_idtf: [наукоемкое программное обеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукаёмістае праграмнае забеспячэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hightech_software_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_program_computer;
+    => nrel_associative_connection: by_software;
+
+    => nrel_legal_act: by_act_c21001174;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17746?langname=ru];
+    => nrel_etalon_online_idx: [17746];;

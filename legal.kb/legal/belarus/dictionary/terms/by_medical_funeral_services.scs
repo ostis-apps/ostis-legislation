@@ -1,0 +1,33 @@
+
+by_medical_funeral_services
+    => nrel_main_idtf: [medical funeral services] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинские ритуальные услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскія рытуальныя паслугі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_funeral_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_embalming_of_the_body;
+    => nrel_associative_connection: by_customer_of_ritual_services;
+    => nrel_associative_connection: by_makeup_of_the_dead;
+
+    => nrel_legal_act: by_act_w21327502p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40837?langname=ru];
+    => nrel_etalon_online_idx: [40837];;

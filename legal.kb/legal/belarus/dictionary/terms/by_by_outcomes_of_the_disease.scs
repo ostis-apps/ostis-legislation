@@ -1,0 +1,34 @@
+
+by_by_outcomes_of_the_disease
+    => nrel_main_idtf: [by_outcomes_of_the_disease] (* <- lang_en;; *);
+    => nrel_main_idtf: [исходы заболевания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зыходы захворвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_outcomes_of_the_disease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_recovery;
+    => nrel_associative_connection: by_date_of_illness;
+    => nrel_associative_connection: by_lifethreatening_disease;
+    => nrel_associative_connection: by_illness;
+
+    => nrel_legal_act: by_act_w22340114p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42686?langname=ru];
+    => nrel_etalon_online_idx: [42686];;

@@ -1,0 +1,36 @@
+
+by_buffer_strip_zone
+    => nrel_main_idtf: [buffer strip (zone)] (* <- lang_en;; *);
+    => nrel_main_idtf: [буферная полоса (зона)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [буферная паласа (зона)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_buffer_strip_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structures_and_devices;
+    => nrel_associative_connection: by_drainage_water;
+    => nrel_associative_connection: by_surface_water_object;
+    => nrel_associative_connection: by_territory;
+    => nrel_associative_connection: by_environmental_rules_and_regulations;
+
+    => nrel_legal_act: by_act_w22237978p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40082?langname=ru];
+    => nrel_etalon_online_idx: [40082];;

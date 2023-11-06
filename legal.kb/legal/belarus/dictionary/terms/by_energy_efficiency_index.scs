@@ -1,0 +1,31 @@
+
+by_energy_efficiency_index
+    => nrel_main_idtf: [energy efficiency index] (* <- lang_en;; *);
+    => nrel_main_idtf: [индекс энергетической эффективности; eei (energy efficiency index)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індэкс энергетычнай эфектыўнасці; eei (energy efficiency index)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_energy_efficiency_index_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_programme_time;
+
+    => nrel_legal_act: by_act_w02035830p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35025?langname=ru];
+    => nrel_etalon_online_idx: [35025];;

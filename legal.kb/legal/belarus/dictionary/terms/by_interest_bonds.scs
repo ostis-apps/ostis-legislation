@@ -1,0 +1,45 @@
+
+by_interest_bonds
+    => nrel_main_idtf: [interest bonds] (* <- lang_en;; *);
+    => nrel_main_idtf: [процентные облигации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэнтныя аблігацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interest_bonds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_premature_redemption_of_bonds;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_circulation_of_currency_bonds;
+    => nrel_associative_connection: by_redemption_of_bonds;
+    => nrel_associative_connection: by_permanent_interest_income;
+    => nrel_associative_connection: by_interest_rate_cutoff;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interestbearing_securities;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interest_risk_of_the_bank_portfolio;
+    => nrel_associative_connection: by_currency_bond_present_value;
+    => nrel_associative_connection: by_current_cost_of_the_bond;
+    => nrel_associative_connection: by_current_cost_of_the_bonds;
+    => nrel_associative_connection: by_terms_of_the_bond_issue;
+    => nrel_associative_connection: by_interest_rate_step;
+
+    => nrel_legal_act: by_act_b21631370;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21777?langname=ru];
+    => nrel_etalon_online_idx: [21777];;

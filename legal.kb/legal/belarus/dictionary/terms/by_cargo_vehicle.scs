@@ -1,0 +1,71 @@
+
+by_cargo_vehicle
+    => nrel_main_idtf: [cargo vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовое транспортное средство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавы транспартны сродак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_vehicle_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cargo_vehicle_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_truck_flat_body;
+    => nrel_associative_connection: by_owner_of_the_vehicle_used_for_transport_of_dangerous_goods;
+    => nrel_associative_connection: by_cargo_on_its_own_wheels;
+    => nrel_associative_connection: by_truck;
+    => nrel_associative_connection: by_consignors_route;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_specialized_cargo_vehicle;
+    => nrel_associative_connection: by_technical_state_of_cargo_vehicle;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_legal_act: by_act_c20800970;
+    => nrel_legal_act: by_act_i01900009;
+    => nrel_legal_act: by_act_i09300031;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13882?langname=ru];
+    => nrel_etalon_online_idx: [13882];;

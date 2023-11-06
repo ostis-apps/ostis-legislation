@@ -1,0 +1,33 @@
+
+by_by_radioactive_waste_treatment
+    => nrel_main_idtf: [by_radioactive_waste_treatment] (* <- lang_en;; *);
+    => nrel_main_idtf: [переработка радиоактивных отходов ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перапрацоўка радыеактыўных адходаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_radioactive_waste_treatment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_when_handling_radioactive_waste;
+    => nrel_associative_connection: by_permissible_discharge_of_radioactive_substances;
+    => nrel_associative_connection: by_period_of_potential_danger_of_radioactive_waste;
+
+    => nrel_legal_act: by_act_w210p0293;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43383?langname=ru];
+    => nrel_etalon_online_idx: [43383];;

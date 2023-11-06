@@ -1,0 +1,61 @@
+
+by_bidder
+    => nrel_main_idtf: [bidder] (* <- lang_en;; *);
+    => nrel_main_idtf: [участник торгов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнік таргоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bidder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bidder_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_exchange_trades;
+    => nrel_associative_connection: by_counter_application_for_early_repurchase;
+    => nrel_associative_connection: by_unresultative_bidding;
+    => nrel_associative_connection: by_failed_bidding;
+    => nrel_associative_connection: by_calculated_banks;
+    => nrel_associative_connection: by_bidding;
+    => nrel_associative_connection: by_trade_account_of_the_exchange;
+    => nrel_associative_connection: by_trade_account_of_the_bidder;
+    => nrel_associative_connection: by_authorized_representative_of_the_ministry_of_finance;
+    => nrel_associative_connection: by_ransom_participant;
+    => nrel_associative_connection: by_open_sale_participant;
+    => nrel_associative_connection: by_direct_selling_participant;
+    => nrel_associative_connection: by_electronic_bidder;
+    => nrel_associative_connection: by_winning_participant_electronic_bidding;
+    => nrel_associative_connection: by_electronic_bidding;
+
+    => nrel_legal_act: by_act_w21833340;
+    => nrel_legal_act: by_act_b21631039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10869?langname=ru];
+    => nrel_etalon_online_idx: [10869];;

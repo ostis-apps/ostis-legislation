@@ -1,0 +1,20 @@
+
+by_country_group_c
+    => nrel_main_idtf: [country group "c"] (* <- lang_en;; *);
+    => nrel_main_idtf: [страны группы "c"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [краіны групы "c"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_country_group_a;
+    => nrel_associative_connection: by_country_group_b;
+    => nrel_associative_connection: by_country_group_d;
+    => nrel_associative_connection: by_country_group_e;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24307?langname=ru];
+    => nrel_etalon_online_idx: [24307];;

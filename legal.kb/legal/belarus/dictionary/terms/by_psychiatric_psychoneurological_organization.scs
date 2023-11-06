@@ -1,0 +1,37 @@
+
+by_psychiatric_psychoneurological_organization
+    => nrel_main_idtf: [psychiatric (psychoneurological) organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [психиатрическая (психоневрологическая) организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [псіхіятрычная (псіханеўралагічная) арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychiatric_psychoneurological_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_specialist_doctor_in_the_area_of_psychiatric_care;
+    => nrel_associative_connection: by_enforced_psychiatric_care;
+    => nrel_associative_connection: by_psychiatric_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_psychiatric_care;
+    => nrel_associative_connection: by_psychiatric_hospital;
+    => nrel_associative_connection: by_psychoneurological_residential_institution_for_elderly_and_persons_with_disabilities;
+    => nrel_associative_connection: by_emergency_psychiatric_care;
+
+    => nrel_legal_act: by_act_h11200349;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21813?langname=ru];
+    => nrel_etalon_online_idx: [21813];;

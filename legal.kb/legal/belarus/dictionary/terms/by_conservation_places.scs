@@ -1,0 +1,36 @@
+
+by_conservation_places
+    => nrel_main_idtf: [conservation places] (* <- lang_en;; *);
+    => nrel_main_idtf: [заповедные места] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запаведныя мясцiны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conservation_places_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fauna;
+    => nrel_associative_connection: by_nature_reserve;
+    => nrel_associative_connection: by_lands_used_for_nature_protection_purposes;
+    => nrel_associative_connection: by_museumnature_reserves;
+    => nrel_associative_connection: by_specially_protected_natural_territories;
+    => nrel_associative_connection: by_flora;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7902?langname=ru];
+    => nrel_etalon_online_idx: [7902];;

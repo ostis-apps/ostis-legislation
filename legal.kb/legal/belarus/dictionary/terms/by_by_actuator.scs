@@ -1,0 +1,36 @@
+
+by_by_actuator
+    => nrel_main_idtf: [by_actuator] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнительное устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выканаўчая прылада] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_actuator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_influencing_factor;
+    => nrel_associative_connection: by_restoration_of_automatic_fire_extinguishing_systems;
+    => nrel_associative_connection: by_customer;
+    => nrel_associative_connection: by_inoperable_state_inoperability;
+    => nrel_associative_connection: by_inoperative_condition_inoperability_of_fire_extinguishing_systems_of_automatic_or_their_elements;
+    => nrel_associative_connection: by_failure_of_the_automatic_fire_extinguishing_system;
+
+    => nrel_legal_act: by_act_c22300234;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42528?langname=ru];
+    => nrel_etalon_online_idx: [42528];;

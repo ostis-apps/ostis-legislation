@@ -1,0 +1,39 @@
+
+by_contract_value_of_active_power
+    => nrel_main_idtf: [contract value of active power] (* <- lang_en;; *);
+    => nrel_main_idtf: [договорная величина активной мощности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагаворная велічыня актыўнай магутнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_value_of_active_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_electric_power;
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_energy_supply_contract;
+    => nrel_associative_connection: by_contractual_value_of_electric_consumption;
+    => nrel_associative_connection: by_limit_value_of_active_power_consumption_for_consumers_with_connected_power_of_250_kva_and_above;
+    => nrel_associative_connection: by_connected_power;
+    => nrel_associative_connection: by_power_permitted_to_use;
+    => nrel_associative_connection: by_energy_supply_organization;
+    => nrel_associative_connection: by_energy_supply_organization_heat_energy_supplier;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14301?langname=ru];
+    => nrel_etalon_online_idx: [14301];;

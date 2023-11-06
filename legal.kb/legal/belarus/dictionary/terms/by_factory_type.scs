@@ -1,0 +1,28 @@
+
+by_factory_type
+    => nrel_main_idtf: [factory type] (* <- lang_en;; *);
+    => nrel_main_idtf: [заводской тип] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заводскі тып] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_intrabreed_zonal_type;
+    => nrel_associative_connection: by_genetic_pool;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_factory_line;
+    => nrel_associative_connection: by_cross_line;
+    => nrel_associative_connection: by_animal_breed;
+    => nrel_associative_connection: by_breed_group;
+    => nrel_associative_connection: by_specialized_synthetic_line;
+    => nrel_associative_connection: by_specialized_type;
+    => nrel_associative_connection: by_type_of_animals;
+    => nrel_associative_connection: by_purebred_animal;
+    => nrel_associative_connection: by_purebred_culture;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14698?langname=ru];
+    => nrel_etalon_online_idx: [14698];;

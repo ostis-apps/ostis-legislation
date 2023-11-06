@@ -1,0 +1,83 @@
+
+by_programs
+    => nrel_main_idtf: [programs] (* <- lang_en;; *);
+    => nrel_main_idtf: [программы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграмы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_programs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_programs_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ticket_program;
+    => nrel_associative_connection: by_budget_programs;
+    => nrel_associative_connection: by_introduction_of_amendments_and_or_additions_to_the_program;
+    => nrel_associative_connection: by_state_complex_target_scientific_and_technical_program;
+    => nrel_associative_connection: by_state_program;
+    => nrel_associative_connection: by_state_armament_program;
+    => nrel_associative_connection: by_humanitarian_program;
+    => nrel_associative_connection: by_unified_programs;
+    => nrel_associative_connection: by_publication_of_software;
+    => nrel_associative_connection: by_individual_rehabilitation_program_for_disabled;
+    => nrel_associative_connection: by_individual_rehabilitation_program;
+    => nrel_associative_connection: by_source_program_source_code;
+    => nrel_associative_connection: by_computer_program;
+    => nrel_associative_connection: by_microprogram;
+    => nrel_associative_connection: by_monoobjective_program;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_period_for_preparing_and_releasing_of_new_theater_play_concert_program_circus_performance;
+    => nrel_associative_connection: by_subprogram;
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_program_computer;
+    => nrel_associative_connection: by_program_draft_of_international_technical_cooperation;
+    => nrel_associative_connection: by_program_protocol_of_the_test;
+    => nrel_associative_connection: by_upbringing_program;
+    => nrel_associative_connection: by_program_of_voluntary_insurance_of_medical_expenses;
+    => nrel_associative_connection: by_testing_programme;
+    => nrel_associative_connection: by_program_of_clinical_trials;
+    => nrel_associative_connection: by_program_of_a_cultural_and_entertainment_event;
+    => nrel_associative_connection: by_mba_program;
+    => nrel_associative_connection: by_quality_assurance_programme;
+    => nrel_associative_connection: by_population_census_programme;
+    => nrel_associative_connection: by_comprehensive_early_assistance_program;
+    => nrel_associative_connection: by_rehabilitation_program_for_the_person_injured_as_a_result_of_an_accident_in_the_workplace_or_occupational_disease;
+    => nrel_associative_connection: by_program_of_statistical_works;
+    => nrel_associative_connection: by_program_and_planning_documentation_of_upbringing;
+    => nrel_associative_connection: by_project_program_of_international_technical_assistance;
+    => nrel_associative_connection: by_composite_program;
+    => nrel_associative_connection: by_curriculum;
+
+    => nrel_legal_act: by_act_c20500961;
+    => nrel_legal_act: by_act_n21200130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21461?langname=ru];
+    => nrel_etalon_online_idx: [21461];;

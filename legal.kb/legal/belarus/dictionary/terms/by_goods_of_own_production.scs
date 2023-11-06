@@ -1,0 +1,31 @@
+
+by_goods_of_own_production
+    => nrel_main_idtf: [goods of own production] (* <- lang_en;; *);
+    => nrel_main_idtf: [товары собственного производства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тавары ўласнай вытворчасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_goods_of_own_production_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sale_of_goods_works_services_of_own_production;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36604?langname=ru];
+    => nrel_etalon_online_idx: [36604];;

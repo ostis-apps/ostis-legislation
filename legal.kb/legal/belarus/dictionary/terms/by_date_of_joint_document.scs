@@ -1,0 +1,31 @@
+
+by_date_of_joint_document
+    => nrel_main_idtf: [date of joint document] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата совместного документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата сумеснага дакумента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_joint_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_w20920434;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13977?langname=ru];
+    => nrel_etalon_online_idx: [13977];;

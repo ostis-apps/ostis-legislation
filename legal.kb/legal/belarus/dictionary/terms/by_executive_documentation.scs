@@ -1,0 +1,66 @@
+
+by_executive_documentation
+    => nrel_main_idtf: [executive documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнительная документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выканаўчая дакументацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_executive_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_executive_documentation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_executive_documentation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_executivetechnical_documentation;
+    => nrel_associative_connection: by_capital_repairs_of_highway;
+    => nrel_associative_connection: by_project_documentation;
+    => nrel_associative_connection: by_road_maintenance;
+
+    => nrel_legal_act: by_act_w22339537p;
+    => nrel_legal_act: by_act_w22136271p;
+    => nrel_legal_act: by_act_w21631333p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31480?langname=ru];
+    => nrel_etalon_online_idx: [31480];;

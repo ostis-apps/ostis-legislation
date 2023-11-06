@@ -1,0 +1,52 @@
+
+by_multivariate_sample
+    => nrel_main_idtf: [multivariate sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [многомерная выборка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мнагамерная выбарка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multivariate_sample_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multivariate_sample_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permitted_sampling_error;
+    => nrel_associative_connection: by_mechanical_sampling;
+    => nrel_associative_connection: by_sampling_error;
+    => nrel_associative_connection: by_sampling_error_representative_error;
+    => nrel_associative_connection: by_statistical_indicator;
+    => nrel_associative_connection: by_sampling_unit;
+
+    => nrel_legal_act: by_act_t21403012p;
+    => nrel_legal_act: by_act_t21402867p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11960?langname=ru];
+    => nrel_etalon_online_idx: [11960];;

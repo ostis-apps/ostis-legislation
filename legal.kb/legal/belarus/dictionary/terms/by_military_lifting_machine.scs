@@ -1,0 +1,33 @@
+
+by_military_lifting_machine
+    => nrel_main_idtf: [military lifting machine] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузоподъемная машина военного назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузападымальная машына ваеннага прызначэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_lifting_machine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commissioning_of_the_loadlifting_crane;
+    => nrel_associative_connection: by_carrying_capacity;
+    => nrel_associative_connection: by_nominal_load_capacity;
+
+    => nrel_legal_act: by_act_w22035140p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32818?langname=ru];
+    => nrel_etalon_online_idx: [32818];;

@@ -1,0 +1,36 @@
+
+by_psychotherapist_psychologist
+    => nrel_main_idtf: [psychotherapist, psychologist] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-психотерапевт, врач-психолог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-псіхатэрапеўт, урач-псіхолаг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_psychotherapist_psychologist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hypnosis;
+    => nrel_associative_connection: by_expert_psychologists_conclusion;
+    => nrel_associative_connection: by_interpretation_within_the_specialty;
+    => nrel_associative_connection: by_catathymimmaginative_psychotherapy_symvoldrama;
+    => nrel_associative_connection: by_cognitive_psychotherapy;
+    => nrel_associative_connection: by_cognitivebehavioural_psychotherapy;
+
+    => nrel_legal_act: by_act_w22035542p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34139?langname=ru];
+    => nrel_etalon_online_idx: [34139];;

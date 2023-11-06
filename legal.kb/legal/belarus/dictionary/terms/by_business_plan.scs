@@ -1,0 +1,58 @@
+
+by_business_plan
+    => nrel_main_idtf: [business plan] (* <- lang_en;; *);
+    => nrel_main_idtf: [бизнес-план] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бізнес-план] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_business_plan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_business_plan_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_architecturalplanning_concept;
+    => nrel_associative_connection: by_basic_project_management_plan;
+    => nrel_associative_connection: by_bussiness;
+    => nrel_associative_connection: by_business_plan_of_the_investment_project;
+    => nrel_associative_connection: by_projects_budget;
+    => nrel_associative_connection: by_reaching_the_design_capacity;
+    => nrel_associative_connection: by_investment_stage;
+    => nrel_associative_connection: by_plan_of_production_and_financial_activity;
+    => nrel_associative_connection: by_planning;
+    => nrel_associative_connection: by_total_design_capacity;
+    => nrel_associative_connection: by_development_forecast;
+    => nrel_associative_connection: by_subjects_of_management;
+
+    => nrel_legal_act: by_act_w22340380p;
+    => nrel_legal_act: by_act_w01933958p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9550?langname=ru];
+    => nrel_etalon_online_idx: [9550];;

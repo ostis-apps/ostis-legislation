@@ -1,0 +1,39 @@
+
+by_variety_of_plant
+    => nrel_main_idtf: [variety of plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [сорт растения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сорт расліны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variety_of_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author_coauthors_of_a_plant_variety;
+    => nrel_associative_connection: by_archive_of_plus_trees_clones;
+    => nrel_associative_connection: by_control_variety;
+    => nrel_associative_connection: by_description_of_the_variety;
+    => nrel_associative_connection: by_sorts_originator;
+    => nrel_associative_connection: by_distinctness_of_variety;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_plant_variety_being_under_work;
+    => nrel_associative_connection: by_essential_attributes;
+
+    => nrel_legal_act: by_act_v19503725;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10191?langname=ru];
+    => nrel_etalon_online_idx: [10191];;

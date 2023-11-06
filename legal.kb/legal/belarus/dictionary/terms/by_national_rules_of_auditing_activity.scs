@@ -1,0 +1,33 @@
+
+by_national_rules_of_auditing_activity
+    => nrel_main_idtf: [national rules of auditing activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальные правила аудиторской деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальныя правілы аўдытарскай дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_rules_of_auditing_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_assessment_of_quality_of_work_of_auditor_auditor__individual_entrepreneur_audit_organization;
+
+    => nrel_legal_act: by_act_h11300056;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27989?langname=ru];
+    => nrel_etalon_online_idx: [27989];;

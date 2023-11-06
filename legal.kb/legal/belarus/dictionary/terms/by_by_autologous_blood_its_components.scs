@@ -1,0 +1,34 @@
+
+by_by_autologous_blood_its_components
+    => nrel_main_idtf: [by_autologous_blood_its_components] (* <- lang_en;; *);
+    => nrel_main_idtf: [аутологичная кровь, ее компоненты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўталагічная кроў, яе кампаненты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_autologous_blood_its_components_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unit_dose_of_a_blood;
+    => nrel_associative_connection: by_banking_of_blood_and_its_components;
+    => nrel_associative_connection: by_quality_of_the_blood_its_components;
+    => nrel_associative_connection: by_blood_components;
+
+    => nrel_legal_act: by_act_w22340078;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42653?langname=ru];
+    => nrel_etalon_online_idx: [42653];;

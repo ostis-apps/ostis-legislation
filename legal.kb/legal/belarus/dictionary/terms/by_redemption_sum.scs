@@ -1,0 +1,59 @@
+
+by_redemption_sum
+    => nrel_main_idtf: [redemption sum] (* <- lang_en;; *);
+    => nrel_main_idtf: [выкупная сумма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкупная сума] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_redemption_sum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_redemption_sum_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_time_of_filing_applications;
+    => nrel_associative_connection: by_redemption_price_of_agricultural_machinery;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_insurance_agreement;
+    => nrel_associative_connection: by_application_for_early_buyingout;
+    => nrel_associative_connection: by_costs_of_conducting_the_case;
+    => nrel_associative_connection: by_reduction_of_insurance_payment_limit_of_responsibility;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurants;
+    => nrel_associative_connection: by_insurant;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_insurers;
+    => nrel_associative_connection: by_amount_of_payments_calculated_in_favor_of_the_insured;
+
+    => nrel_legal_act: by_act_p32100367;
+    => nrel_legal_act: by_act_w21429250;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11204?langname=ru];
+    => nrel_etalon_online_idx: [11204];;

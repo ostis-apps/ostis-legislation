@@ -1,0 +1,36 @@
+
+by_end_safety_zone
+    => nrel_main_idtf: [end safety zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [концевая зона безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцавая зона бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_end_safety_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_category_i_precision_approach_runway;
+    => nrel_associative_connection: by_category_ii_precision_approach_runway;
+    => nrel_associative_connection: by_runway_visibility_runway_visibility_range;
+    => nrel_associative_connection: by_airfield_controlled_area;
+    => nrel_associative_connection: by_end_safety_strip;
+    => nrel_associative_connection: by_end_braking_strip;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41062?langname=ru];
+    => nrel_etalon_online_idx: [41062];;

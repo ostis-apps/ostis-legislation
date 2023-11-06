@@ -1,0 +1,62 @@
+
+by_stateprivate_partnership
+    => nrel_main_idtf: [state-private partnership] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственно-частное партнерство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўна-прыватнае партнёрства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stateprivate_partnership_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stateprivate_partnership_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_initiator;
+    => nrel_associative_connection: by_state_partner;
+    => nrel_associative_connection: by_contract_on_cooperation;
+    => nrel_associative_connection: by_investment_project;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_innovation_project;
+    => nrel_associative_connection: by_consultant_of_the_stateprivate_partnership_project;
+    => nrel_associative_connection: by_interdepartmental_infrastructural_coordination_council;
+    => nrel_associative_connection: by_publicprivate_partnership_project;
+    => nrel_associative_connection: by_the_republic_of_belarus;
+    => nrel_associative_connection: by_publicprivate_partnership_agreement;
+    => nrel_associative_connection: by_comparative_advantage;
+    => nrel_associative_connection: by_authorized_state_body_or_organization_in_the_field_of_publicprivate_partnership;
+    => nrel_associative_connection: by_private_initiator;
+    => nrel_associative_connection: by_private_partner;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_h11500345;
+    => nrel_legal_act: by_act_n91100086;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10645?langname=ru];
+    => nrel_etalon_online_idx: [10645];;

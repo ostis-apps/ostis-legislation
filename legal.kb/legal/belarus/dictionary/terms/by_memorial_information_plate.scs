@@ -1,0 +1,33 @@
+
+by_memorial_information_plate
+    => nrel_main_idtf: [memorial (information) plate] (* <- lang_en;; *);
+    => nrel_main_idtf: [мемориальная (информационная) плита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мемарыяльная (інфармацыйная) пліта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_memorial_information_plate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_international_cooperation_in_military_and_memorial_sphere;
+    => nrel_associative_connection: by_memorial_complex;
+    => nrel_associative_connection: by_commemorative_plaque;
+
+    => nrel_legal_act: by_act_c20801372;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39757?langname=ru];
+    => nrel_etalon_online_idx: [39757];;

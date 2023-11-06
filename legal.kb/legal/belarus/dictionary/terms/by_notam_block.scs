@@ -1,0 +1,20 @@
+
+by_notam_block
+    => nrel_main_idtf: [notam block] (* <- lang_en;; *);
+    => nrel_main_idtf: [блок notam] (* <- lang_ru;; *);
+    => nrel_main_idtf: [блок notam] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_air_navigation_servicing;
+    => nrel_associative_connection: by_airnavigation_data;
+    => nrel_associative_connection: by_airport;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12791?langname=ru];
+    => nrel_etalon_online_idx: [12791];;

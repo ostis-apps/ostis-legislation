@@ -1,0 +1,36 @@
+
+by_hunting_tools
+    => nrel_main_idtf: [hunting tools] (* <- lang_en;; *);
+    => nrel_main_idtf: [орудия охоты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прылады палявання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunting_tools_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fraction;
+    => nrel_associative_connection: by_driven_hunting;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_hunting_weapons;
+    => nrel_associative_connection: by_gun_hunting;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10909?langname=ru];
+    => nrel_etalon_online_idx: [10909];;

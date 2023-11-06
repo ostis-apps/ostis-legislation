@@ -1,0 +1,48 @@
+
+by_cultural_patronage
+    => nrel_main_idtf: [cultural patronage] (* <- lang_en;; *);
+    => nrel_main_idtf: [меценат культуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мецэнат культуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cultural_patronage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cultural_patronage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_culture;
+    => nrel_associative_connection: by_sponsor_of_culture;
+
+    => nrel_legal_act: by_act_hk1600413;
+    => nrel_legal_act: by_act_w21326781;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17342?langname=ru];
+    => nrel_etalon_online_idx: [17342];;

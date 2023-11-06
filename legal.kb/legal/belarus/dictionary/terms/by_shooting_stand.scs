@@ -1,0 +1,53 @@
+
+by_shooting_stand
+    => nrel_main_idtf: [shooting stand] (* <- lang_en;; *);
+    => nrel_main_idtf: [стрелковый стенд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стралковы стэнд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shooting_stand_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shooting_stand_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sports_shooting_range;
+    => nrel_associative_connection: by_shooting_weapon;
+    => nrel_associative_connection: by_shooting_sections;
+    => nrel_associative_connection: by_shooting_range;
+    => nrel_associative_connection: by_athletic_and_recreational_sports_centers_combines_complexes_centers_of_physical_culture_and_health_work_physicalculture_and_sports_clubs;
+    => nrel_associative_connection: by_sports_constructions;
+    => nrel_associative_connection: by_physical_culture_and_sports_complex;
+
+    => nrel_legal_act: by_act_w21429234;
+    => nrel_legal_act: by_act_w21429234;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24348?langname=ru];
+    => nrel_etalon_online_idx: [24348];;

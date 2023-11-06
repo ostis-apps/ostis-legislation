@@ -1,0 +1,37 @@
+
+by_forestry_management
+    => nrel_main_idtf: [forestry management] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведение лесного хозяйства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вядзенне лясной гаспадаркі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forestry_management_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reproduction_of_forests;
+    => nrel_associative_connection: by_secondary_trees;
+    => nrel_associative_connection: by_reinforcement_planting;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_use;
+    => nrel_associative_connection: by_machinery_and_equipment_of_the_forest_complex;
+    => nrel_associative_connection: by_plus_forest_plantations;
+
+    => nrel_legal_act: by_act_hk1500332;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8504?langname=ru];
+    => nrel_etalon_online_idx: [8504];;

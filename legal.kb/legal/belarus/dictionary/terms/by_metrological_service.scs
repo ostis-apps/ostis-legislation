@@ -1,0 +1,74 @@
+
+by_metrological_service
+    => nrel_main_idtf: [metrological service] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологическая служба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічная служба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_service_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_metrological_evaluation;
+    => nrel_associative_connection: by_metrological_characteristics_of_measuring_instruments;
+    => nrel_associative_connection: by_metrological_requirements;
+    => nrel_associative_connection: by_metrological_control;
+    => nrel_associative_connection: by_metrological_support_of_defense_and_security_of_the_state;
+    => nrel_associative_connection: by_metrological_confirmation_of_the_suitability_of_measurement_techniques;
+    => nrel_associative_connection: by_metrology;
+    => nrel_associative_connection: by_traceability;
+    => nrel_associative_connection: by_mobile_laboratory_of_measurement_technology;
+    => nrel_associative_connection: by_measurement_management_system;
+    => nrel_associative_connection: by_sphere_of_legislative_metrology;
+    => nrel_associative_connection: by_authorized_legal_entity;
+
+    => nrel_legal_act: by_act_V19503848;
+    => nrel_legal_act: by_act_v19503848;
+    => nrel_legal_act: by_act_n29800103;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6190?langname=ru];
+    => nrel_etalon_online_idx: [6190];;

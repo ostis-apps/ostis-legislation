@@ -1,0 +1,20 @@
+
+by_side_effect
+    => nrel_main_idtf: [side effect] (* <- lang_en;; *);
+    => nrel_main_idtf: [побочная реакция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пабочная рэакцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_adverse_reaction;
+    => nrel_associative_connection: by_unexpected_adverse_reaction;
+    => nrel_associative_connection: by_serious_side_effect;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5160?langname=ru];
+    => nrel_etalon_online_idx: [5160];;

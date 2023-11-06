@@ -1,0 +1,35 @@
+
+by_information_system_of_the_organizations_archive
+    => nrel_main_idtf: [information system of the organization's archive] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационная система архива организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйная сістэма архіва арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_system_of_the_organizations_archive_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive_business;
+    => nrel_associative_connection: by_document_of_the_national_archive_fund;
+    => nrel_associative_connection: by_classification_of_documents_within_national_archive_fund;
+    => nrel_associative_connection: by_owner_of_the_documents_of_the_national_archive_fund;
+    => nrel_associative_connection: by_archive_management;
+
+    => nrel_legal_act: by_act_w21933875;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41757?langname=ru];
+    => nrel_etalon_online_idx: [41757];;

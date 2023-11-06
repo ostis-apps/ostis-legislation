@@ -1,0 +1,38 @@
+
+by_procurement_officers
+    => nrel_main_idtf: [procurement officers] (* <- lang_en;; *);
+    => nrel_main_idtf: [заготовители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарыхтоўшчыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_procurement_officers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_procurement_organization;
+    => nrel_associative_connection: by_purveyance_procurement_of_wild_plants_andor_parts_thereof;
+    => nrel_associative_connection: by_provision_of_wild_animals_not_related_to_objects_of_hunting_and_fishery;
+    => nrel_associative_connection: by_blank_optical_elements;
+    => nrel_associative_connection: by_limits_for_purveyance_and_or_procurement_of_wild_animals_not_related_to_hunting_and_fishery_objects;
+    => nrel_associative_connection: by_limits_for_withdrawal_purveyance_and_or_procurement_of_wild_animals_not_related_to_hunting_and_fishing_objects;
+    => nrel_associative_connection: by_agricultural_products;
+    => nrel_associative_connection: by_agricultural_plants;
+
+    => nrel_legal_act: by_act_p31800158;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28326?langname=ru];
+    => nrel_etalon_online_idx: [28326];;

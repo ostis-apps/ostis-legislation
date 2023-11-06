@@ -1,0 +1,36 @@
+
+by_ensuring_public_safety
+    => nrel_main_idtf: [ensuring public safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [обеспечение общественной безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забеспячэнне грамадскай бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ensuring_public_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_cybersecurity;
+    => nrel_associative_connection: by_public_safety;
+    => nrel_associative_connection: by_security_body;
+    => nrel_associative_connection: by_rotating_device_with__control;
+    => nrel_associative_connection: by_security_system;
+
+    => nrel_legal_act: by_act_c21201135;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18390?langname=ru];
+    => nrel_etalon_online_idx: [18390];;

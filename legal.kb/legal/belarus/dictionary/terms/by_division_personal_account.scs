@@ -1,0 +1,37 @@
+
+by_division_personal_account
+    => nrel_main_idtf: [division personal account] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицевой счет подразделения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асабовы рахунак падраздзялення] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_division_personal_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_personalized_account;
+    => nrel_associative_connection: by_individual_account_of_the_insured_person;
+    => nrel_associative_connection: by_personal_account;
+    => nrel_associative_connection: by_personal_account_of_the_treasury_client;
+    => nrel_associative_connection: by_personal_account_of_the_organization_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_separate_stock_exchange_personal_account;
+    => nrel_associative_connection: by_cash_account;
+
+    => nrel_legal_act: by_act_w20818092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42007?langname=ru];
+    => nrel_etalon_online_idx: [42007];;

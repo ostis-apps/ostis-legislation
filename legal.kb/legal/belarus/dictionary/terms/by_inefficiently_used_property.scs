@@ -1,0 +1,34 @@
+
+by_inefficiently_used_property
+    => nrel_main_idtf: [inefficiently used property] (* <- lang_en;; *);
+    => nrel_main_idtf: [неэффективно используемое имущество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маёмасць, якая неэфектыўна выкарыстоўваецца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inefficiently_used_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_unused_property;
+    => nrel_associative_connection: by_disposal_of_property;
+    => nrel_associative_connection: by_legal_entities_in_the_gratuitous_use_of_which_there_is_unused_inefficiently_used_property_as_well_as_used_property;
+
+    => nrel_legal_act: by_act_p32200330;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10475?langname=ru];
+    => nrel_etalon_online_idx: [10475];;

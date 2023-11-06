@@ -1,0 +1,20 @@
+
+by_service_inspection
+    => nrel_main_idtf: [service inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [служебная проверка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовая праверка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_disciplinary_fault;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_check;
+    => nrel_associative_connection: by_job_responsibilities;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9954?langname=ru];
+    => nrel_etalon_online_idx: [9954];;

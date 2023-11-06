@@ -1,0 +1,43 @@
+
+by_emergency_medical_service
+    => nrel_main_idtf: [emergency medical service] (* <- lang_en;; *);
+    => nrel_main_idtf: [служба экстренной медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [служба экстраннай медыцынскай дапамогі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_medical_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_local_emergency_situation;
+    => nrel_associative_connection: by_primary_health_care;
+    => nrel_associative_connection: by_affected_in_emergency_situation;
+    => nrel_associative_connection: by_victim_in_emergency_situation;
+    => nrel_associative_connection: by_psychiatric_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_republican_operational_antiepidemic_team;
+    => nrel_associative_connection: by_republican_sanitarypreventive_team;
+    => nrel_associative_connection: by_specialized_medical_aid;
+    => nrel_associative_connection: by_emergency;
+    => nrel_associative_connection: by_manmade_emergency;
+    => nrel_associative_connection: by_emergency_situations_in_nature;
+    => nrel_associative_connection: by_emergency_technological_situations;
+
+    => nrel_legal_act: by_act_w60106659;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23349?langname=ru];
+    => nrel_etalon_online_idx: [23349];;

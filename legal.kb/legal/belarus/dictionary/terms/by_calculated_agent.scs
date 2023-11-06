@@ -1,0 +1,38 @@
+
+by_calculated_agent
+    => nrel_main_idtf: [calculated agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетный агент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковы агент] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ais_calculation;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_single_settlement_and_information_space;
+    => nrel_associative_connection: by_nonbank_credit_and_financial_organization;
+    => nrel_associative_connection: by_payments_to_the_budget;
+    => nrel_associative_connection: by_payment_agent;
+    => nrel_associative_connection: by_participants_of_the_single_settlement_and_information_space;
+
+    => nrel_legal_act: by_act_p31100389;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22217?langname=ru];
+    => nrel_etalon_online_idx: [22217];;

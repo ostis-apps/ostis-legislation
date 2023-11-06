@@ -1,0 +1,50 @@
+
+by_balance_belonging
+    => nrel_main_idtf: [balance belonging] (* <- lang_en;; *);
+    => nrel_main_idtf: [балансовая принадлежность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [балансавая прыналежнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_belonging_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_balance_belonging_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_act_of_distinction_of_balance_belonging_of_electric_networks_and_operational_liability_of_the_parties;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_organization;
+    => nrel_associative_connection: by_permissible_power_for_use_at_the_border_of_balance_accessories_of_electric_networks;
+
+    => nrel_legal_act: by_act_c21900609;
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8329?langname=ru];
+    => nrel_etalon_online_idx: [8329];;

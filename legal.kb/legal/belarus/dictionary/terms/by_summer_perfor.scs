@@ -1,0 +1,53 @@
+
+by_summer_perfor
+    => nrel_main_idtf: [summer perfor] (* <- lang_en;; *);
+    => nrel_main_idtf: [летняя площадка (продолжение зала)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [летняя пляцоўка (працяг залы)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_summer_perfor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_summer_perfor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assortment_of_catering_products;
+    => nrel_associative_connection: by_veranda;
+    => nrel_associative_connection: by_nonstationary_public_catering_object;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_products_of_public_catering;
+    => nrel_associative_connection: by_terrace;
+
+    => nrel_legal_act: by_act_h11400128;
+    => nrel_legal_act: by_act_pd0200028;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38173?langname=ru];
+    => nrel_etalon_online_idx: [38173];;

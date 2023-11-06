@@ -1,0 +1,53 @@
+
+by_information_processing_services
+    => nrel_main_idtf: [information processing services] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги по обработке информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі па апрацоўцы інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_processing_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_processing_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_computer_data_processing;
+    => nrel_associative_connection: by_scientific_and_technical_processing_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_information_processing;
+    => nrel_associative_connection: by_personal_data_processing;
+    => nrel_associative_connection: by_operator_of_republican_data_center;
+    => nrel_associative_connection: by_processing_technology_of_protected_information;
+    => nrel_associative_connection: by_data_processing_centre;
+
+    => nrel_legal_act: by_act_hk0200166;
+    => nrel_legal_act: by_act_f01400176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25645?langname=ru];
+    => nrel_etalon_online_idx: [25645];;

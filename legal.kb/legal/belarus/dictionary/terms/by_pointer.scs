@@ -1,0 +1,63 @@
+
+by_pointer
+    => nrel_main_idtf: [pointer] (* <- lang_en;; *);
+    => nrel_main_idtf: [указатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паказальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pointer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pointer_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pointer_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tourist_information_sign;
+
+    => nrel_legal_act: by_act_c22100395;
+    => nrel_legal_act: by_act_w21226204;
+    => nrel_legal_act: by_act_w20716244;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25433?langname=ru];
+    => nrel_etalon_online_idx: [25433];;

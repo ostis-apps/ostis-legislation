@@ -1,0 +1,32 @@
+
+by_by_methods_of_teaching_foreign_languages
+    => nrel_main_idtf: [by_methods_of_teaching_foreign_languages] (* <- lang_en;; *);
+    => nrel_main_idtf: [методика обучения иностранным языкам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [методыка навучання замежным мовам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_methods_of_teaching_foreign_languages_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_methodology_of_teaching_foreign_languages;
+    => nrel_associative_connection: by_methodology_of_teaching_russian_as_a_foreign_language;
+
+    => nrel_legal_act: by_act_w22340351p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43426?langname=ru];
+    => nrel_etalon_online_idx: [43426];;

@@ -1,0 +1,39 @@
+
+by_notarial_documents
+    => nrel_main_idtf: [notarial documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [нотариальные документы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [натарыяльныя дакументы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notarial_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_documents_of_the_notary;
+    => nrel_associative_connection: by_documents_formed_during_notarys_notarial_activity;
+    => nrel_associative_connection: by_unified_electronic_system_of_notarial_actions_and_inheritance_matters_accounting;
+    => nrel_associative_connection: by_nomenclature_of_the_state_notary_offices_private_notary_cases;
+    => nrel_associative_connection: by_operational_storage_of_notary_offices_documents;
+    => nrel_associative_connection: by_operational_storage_of_notary_documents;
+    => nrel_associative_connection: by_erroneous_note;
+    => nrel_associative_connection: by_data_documents_on_accomplishment_of_notarial_actions;
+
+    => nrel_legal_act: by_act_w21529500;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11128?langname=ru];
+    => nrel_etalon_online_idx: [11128];;

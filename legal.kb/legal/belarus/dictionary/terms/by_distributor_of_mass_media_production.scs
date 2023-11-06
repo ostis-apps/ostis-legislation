@@ -1,0 +1,36 @@
+
+by_distributor_of_mass_media_production
+    => nrel_main_idtf: [distributor of mass media production] (* <- lang_en;; *);
+    => nrel_main_idtf: [распространитель продукции средства массовой информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [распаўсюджвальнік прадукцыi сродку масавай інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_distributor_of_mass_media_production_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_mass_media;
+    => nrel_associative_connection: by_delivery_of_print_media;
+    => nrel_associative_connection: by_print_mass_media;
+    => nrel_associative_connection: by_subscription_to_print_mass_media;
+    => nrel_associative_connection: by_mass_media_production;
+    => nrel_associative_connection: by_distribution_of_mass_media_production;
+
+    => nrel_legal_act: by_act_h10800427;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11009?langname=ru];
+    => nrel_etalon_online_idx: [11009];;

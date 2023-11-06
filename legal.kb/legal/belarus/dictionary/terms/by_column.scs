@@ -1,0 +1,37 @@
+
+by_column
+    => nrel_main_idtf: [column] (* <- lang_en;; *);
+    => nrel_main_idtf: [колонна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [калона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_column_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_column;
+    => nrel_associative_connection: by_order_depth;
+    => nrel_associative_connection: by_closing;
+    => nrel_associative_connection: by_organized_pedestrian_column;
+    => nrel_associative_connection: by_organized_transport_column;
+    => nrel_associative_connection: by_row;
+    => nrel_associative_connection: by_transport_column;
+
+    => nrel_legal_act: by_act_w60819328;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15984?langname=ru];
+    => nrel_etalon_online_idx: [15984];;

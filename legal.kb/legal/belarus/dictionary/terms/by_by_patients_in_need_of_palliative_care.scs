@@ -1,0 +1,35 @@
+
+by_by_patients_in_need_of_palliative_care
+    => nrel_main_idtf: [by_patients_in_need_of_palliative_care] (* <- lang_en;; *);
+    => nrel_main_idtf: [пациенты, нуждающиеся в паллиативной медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пацыенты, якія адчуваюць патрэбу ў паліятыўнай медыцынскай дапамозе] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_patients_in_need_of_palliative_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_longterm_palliative_medical_aid;
+    => nrel_associative_connection: by_shortterm_palliative_medical_aid;
+    => nrel_associative_connection: by_interdisciplinary_team_of_specialists;
+    => nrel_associative_connection: by_palliative_habilitation;
+    => nrel_associative_connection: by_palliative_care;
+
+    => nrel_legal_act: by_act_w22340135p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42718?langname=ru];
+    => nrel_etalon_online_idx: [42718];;

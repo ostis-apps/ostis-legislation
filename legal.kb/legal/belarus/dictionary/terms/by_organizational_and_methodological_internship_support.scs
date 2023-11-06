@@ -1,0 +1,38 @@
+
+by_organizational_and_methodological_internship_support
+    => nrel_main_idtf: [organizational and methodological internship support] (* <- lang_en;; *);
+    => nrel_main_idtf: [организационно-методическое обеспечение интернатуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыйна-метадычнае забеспячэнне інтэрнатуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizational_and_methodological_internship_support_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internship_base;
+    => nrel_associative_connection: by_doctorintern_pharmacistintern;
+    => nrel_associative_connection: by_healthcare;
+    => nrel_associative_connection: by_internship;
+    => nrel_associative_connection: by_instructional_guide_of_internship;
+    => nrel_associative_connection: by_teaching;
+    => nrel_associative_connection: by_organizational_and_methodological_office;
+    => nrel_associative_connection: by_organizational_structures;
+
+    => nrel_legal_act: by_act_w21630999;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19196?langname=ru];
+    => nrel_etalon_online_idx: [19196];;

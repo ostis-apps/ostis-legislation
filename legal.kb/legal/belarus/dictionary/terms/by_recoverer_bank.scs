@@ -1,0 +1,34 @@
+
+by_recoverer_bank
+    => nrel_main_idtf: [recoverer bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк взыскателя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк спагнанніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recoverer_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_sending_bank_payer_bank;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_recoverer;
+
+    => nrel_legal_act: by_act_b20105770;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41226?langname=ru];
+    => nrel_etalon_online_idx: [41226];;

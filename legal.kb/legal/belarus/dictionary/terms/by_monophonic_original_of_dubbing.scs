@@ -1,0 +1,33 @@
+
+by_monophonic_original_of_dubbing
+    => nrel_main_idtf: [monophonic original of dubbing] (* <- lang_en;; *);
+    => nrel_main_idtf: [монофонический оригинал перезаписи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [манафанічны арыгінал перазапісу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monophonic_original_of_dubbing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_phonogram_producer;
+    => nrel_associative_connection: by_phonogram;
+    => nrel_associative_connection: by_copy_of_the_phonogram;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17517?langname=ru];
+    => nrel_etalon_online_idx: [17517];;

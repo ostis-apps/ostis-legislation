@@ -1,0 +1,41 @@
+
+by_microorganisms
+    => nrel_main_idtf: [microorganisms] (* <- lang_en;; *);
+    => nrel_main_idtf: [микроорганизмы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мікраарганізмы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_microorganisms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bacterial_preparations;
+    => nrel_associative_connection: by_bacteremia;
+    => nrel_associative_connection: by_the_main_bank_of_cell_cultures_of_microorganisms;
+    => nrel_associative_connection: by_gummed_residue;
+    => nrel_associative_connection: by_living_organism;
+    => nrel_associative_connection: by_cellular_biotechnologies;
+    => nrel_associative_connection: by_microorganizmesproducents;
+    => nrel_associative_connection: by_multiresistent_strains_of_microorganisms;
+    => nrel_associative_connection: by_norms_of_maximum_permissible_concentrations_of_microorganisms;
+    => nrel_associative_connection: by_optionally_pathogenic_microorganisms;
+    => nrel_associative_connection: by_strains_of_nonpathogenic_genetically_engineered_microorganisms;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17373?langname=ru];
+    => nrel_etalon_online_idx: [17373];;

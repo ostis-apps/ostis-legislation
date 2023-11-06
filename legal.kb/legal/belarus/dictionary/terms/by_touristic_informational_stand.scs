@@ -1,0 +1,40 @@
+
+by_touristic_informational_stand
+    => nrel_main_idtf: [touristic informational stand] (* <- lang_en;; *);
+    => nrel_main_idtf: [туристический информационный стенд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [турыстычны інфармацыйны стэнд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_touristic_informational_stand_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reliable_information_about_travel_services;
+    => nrel_associative_connection: by_informational_stand;
+    => nrel_associative_connection: by_system_of_touristic_orienting_information;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_touristic_industry;
+    => nrel_associative_connection: by_tourist_resources;
+    => nrel_associative_connection: by_tourist_information_sign;
+    => nrel_associative_connection: by_tourist_information_center;
+    => nrel_associative_connection: by_tourist_information_board;
+    => nrel_associative_connection: by_touristic_travel;
+
+    => nrel_legal_act: by_act_w20715823;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9085?langname=ru];
+    => nrel_etalon_online_idx: [9085];;

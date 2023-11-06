@@ -1,0 +1,19 @@
+
+by_contamination
+    => nrel_main_idtf: [contamination] (* <- lang_en;; *);
+    => nrel_main_idtf: [контаминация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантамінацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_sampling_volume;
+    => nrel_associative_connection: by_sample_selection;
+    => nrel_associative_connection: by_pure_zone;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36537?langname=ru];
+    => nrel_etalon_online_idx: [36537];;

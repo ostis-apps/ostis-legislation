@@ -1,0 +1,54 @@
+
+by_food_product
+    => nrel_main_idtf: [food product] (* <- lang_en;; *);
+    => nrel_main_idtf: [пищевой продукт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [харчовы прадукт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_food_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_food_product_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foodstuffs;
+    => nrel_associative_connection: by_raw_material;
+    => nrel_associative_connection: by_trade_turnover_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_packaging_gas;
+    => nrel_associative_connection: by_amplifier_of_taste_flavor;
+    => nrel_associative_connection: by_paint_retainer_stabilizer;
+    => nrel_associative_connection: by_flocculant_clarifier_adsorbent;
+    => nrel_associative_connection: by_emulsifier;
+
+    => nrel_legal_act: by_act_w21934585p;
+    => nrel_legal_act: by_act_w21934585p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35782?langname=ru];
+    => nrel_etalon_online_idx: [35782];;

@@ -1,0 +1,34 @@
+
+by_nonproduced_nonfinancial_assets
+    => nrel_main_idtf: [non-produced non-financial assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [непроизведенные нефинансовые активы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неправедзеныя нефінансавыя актывы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nonproduced_nonfinancial_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_capital;
+    => nrel_associative_connection: by_purchase_or_sale_by_standard_procedure;
+    => nrel_associative_connection: by_production;
+
+    => nrel_legal_act: by_act_t22104764p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38202?langname=ru];
+    => nrel_etalon_online_idx: [38202];;

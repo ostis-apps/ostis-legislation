@@ -1,0 +1,71 @@
+
+by_trader
+    => nrel_main_idtf: [trader] (* <- lang_en;; *);
+    => nrel_main_idtf: [трейдер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трэйдар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trader_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trader_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trader_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auction;
+    => nrel_associative_connection: by_stock_exchange_broker;
+    => nrel_associative_connection: by_brokerage_activity;
+    => nrel_associative_connection: by_securities_market;
+    => nrel_associative_connection: by_authorized_representative_of_the_ministry_of_finance;
+    => nrel_associative_connection: by_authorized_employee_of_the_exchange;
+    => nrel_associative_connection: by_auction_bidder;
+    => nrel_associative_connection: by_open_sale_participant;
+    => nrel_associative_connection: by_stock_exchange;
+
+    => nrel_legal_act: by_act_w21833340;
+    => nrel_legal_act: by_act_b21732268;
+    => nrel_legal_act: by_act_b21631039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10849?langname=ru];
+    => nrel_etalon_online_idx: [10849];;

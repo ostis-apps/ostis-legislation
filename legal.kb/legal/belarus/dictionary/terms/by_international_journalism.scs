@@ -1,0 +1,38 @@
+
+by_international_journalism
+    => nrel_main_idtf: [international journalism] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная журналистика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародная журналістыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_journalism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accreditation_of_mass_media_journalist;
+    => nrel_associative_connection: by_web_journalism;
+    => nrel_associative_connection: by_foreign_mass_media_journalist;
+    => nrel_associative_connection: by_journalism;
+    => nrel_associative_connection: by_literature_worker_journalist;
+    => nrel_associative_connection: by_foreign_affairs;
+    => nrel_associative_connection: by_intercultural_communication;
+    => nrel_associative_connection: by_media_management;
+
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29268?langname=ru];
+    => nrel_etalon_online_idx: [29268];;

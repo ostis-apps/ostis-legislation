@@ -1,0 +1,33 @@
+
+by_object_of_resort_levy_taxation
+    => nrel_main_idtf: [object of resort levy taxation] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект обложения курортным сбором] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект абкладання курортным зборам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_of_resort_levy_taxation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_resort_settlements;
+    => nrel_associative_connection: by_resort_levy_payers;
+    => nrel_associative_connection: by_resort_and_recreation_services;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30886?langname=ru];
+    => nrel_etalon_online_idx: [30886];;

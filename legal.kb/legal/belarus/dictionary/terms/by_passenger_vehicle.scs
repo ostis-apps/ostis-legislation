@@ -1,0 +1,21 @@
+
+by_passenger_vehicle
+    => nrel_main_idtf: [passenger vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [пассажирский автомобиль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасажырскі аўтамабіль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_automotive_transportation;
+    => nrel_associative_connection: by_taxicab;
+    => nrel_associative_connection: by_minibus;
+    => nrel_associative_connection: by_passenger;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8945?langname=ru];
+    => nrel_etalon_online_idx: [8945];;

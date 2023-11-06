@@ -1,0 +1,42 @@
+
+by_timber_small
+    => nrel_main_idtf: [timber (small)] (* <- lang_en;; *);
+    => nrel_main_idtf: [деловая древесина (мелкая)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзелавая драўніна (дробная)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_timber_small_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_taken_out_harvested_wood;
+    => nrel_associative_connection: by_group_method_for_determining_the_amount_of_forest_materials;
+    => nrel_associative_connection: by_timber;
+    => nrel_associative_connection: by_timber_large;
+    => nrel_associative_connection: by_timber_medium;
+    => nrel_associative_connection: by_timber_in_prepared_form;
+    => nrel_associative_connection: by_firewood;
+    => nrel_associative_connection: by_poles;
+    => nrel_associative_connection: by_liquid_wood;
+    => nrel_associative_connection: by_sawlog;
+    => nrel_associative_connection: by_assortment;
+    => nrel_associative_connection: by_technological_wood_raw_material;
+
+    => nrel_legal_act: by_act_w21631598;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12065?langname=ru];
+    => nrel_etalon_online_idx: [12065];;

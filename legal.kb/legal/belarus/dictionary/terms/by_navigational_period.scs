@@ -1,0 +1,24 @@
+
+by_navigational_period
+    => nrel_main_idtf: [navigational period] (* <- lang_en;; *);
+    => nrel_main_idtf: [навигационный период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навігацыйны перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_internavigation_period;
+    => nrel_associative_connection: by_navigational_activity;
+    => nrel_associative_connection: by_navigational_information;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigational_period_navigation;
+    => nrel_associative_connection: by_navigation;
+    => nrel_associative_connection: by_object_of_navigation_activity;
+    => nrel_associative_connection: by_calculated_year;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17588?langname=ru];
+    => nrel_etalon_online_idx: [17588];;

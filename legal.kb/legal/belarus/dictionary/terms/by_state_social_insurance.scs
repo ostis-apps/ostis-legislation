@@ -1,0 +1,53 @@
+
+by_state_social_insurance
+    => nrel_main_idtf: [state social insurance] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственное социальное страхование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўнае сацыяльнае страхаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_social_insurance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_social_insurance_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_personalized_account_documents;
+    => nrel_associative_connection: by_individual_personified_account_in_the_state_social_insurance_system;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_allowance;
+    => nrel_associative_connection: by_registration_of_insured_person;
+    => nrel_associative_connection: by_insurance;
+
+    => nrel_legal_act: by_act_v19503563;
+    => nrel_legal_act: by_act_n29700091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1319?langname=ru];
+    => nrel_etalon_online_idx: [1319];;

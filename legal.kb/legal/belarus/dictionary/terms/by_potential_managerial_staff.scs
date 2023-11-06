@@ -1,0 +1,39 @@
+
+by_potential_managerial_staff
+    => nrel_main_idtf: [potential managerial staff] (* <- lang_en;; *);
+    => nrel_main_idtf: [резерв руководящих кадров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзерв кіруючых кадраў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_potential_managerial_staff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_infrastructure_of_the_state_personnel_policy;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_persons_endowed_with_guidelines_powers;
+    => nrel_associative_connection: by_perspective_personnel_reserve;
+    => nrel_associative_connection: by_reserve;
+    => nrel_associative_connection: by_reserve_of_senior_personnel_of_the_central_office_of_the_ministry_of_foreign_affairs_of_the_republic_of_belarus_and_subordinate_state_organizations;
+    => nrel_associative_connection: by_senior_position;
+    => nrel_associative_connection: by_managerial_staff_of_customs_bodies;
+
+    => nrel_legal_act: by_act_p30400354;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6819?langname=ru];
+    => nrel_etalon_online_idx: [6819];;

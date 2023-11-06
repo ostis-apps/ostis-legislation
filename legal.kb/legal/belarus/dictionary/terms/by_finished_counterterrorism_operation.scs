@@ -1,0 +1,36 @@
+
+by_finished_counterterrorism_operation
+    => nrel_main_idtf: [finished counter-terrorism operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [оконченная контртеррористическая операция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скончаная контртэрарыстычная аперацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_finished_counterterrorism_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_area_of_a_counterterrorism_operation;
+    => nrel_associative_connection: by_counterterrorism_operation;
+    => nrel_associative_connection: by_terrorism;
+    => nrel_associative_connection: by_terrorist_attack;
+    => nrel_associative_connection: by_terrorist_activity;
+    => nrel_associative_connection: by_terrorist_organization;
+
+    => nrel_legal_act: by_act_h10200077;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18922?langname=ru];
+    => nrel_etalon_online_idx: [18922];;

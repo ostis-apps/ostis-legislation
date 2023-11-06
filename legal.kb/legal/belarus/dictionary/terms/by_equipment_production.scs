@@ -1,0 +1,36 @@
+
+by_equipment_production
+    => nrel_main_idtf: [equipment production] (* <- lang_en;; *);
+    => nrel_main_idtf: [производство оборудования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчасць абсталявання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_equipment_production_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_launching_of_cash_equipment;
+    => nrel_associative_connection: by_additional_equipment;
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_equipment;
+    => nrel_associative_connection: by_production_equipment;
+    => nrel_associative_connection: by_development_of_equipment;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21594?langname=ru];
+    => nrel_etalon_online_idx: [21594];;

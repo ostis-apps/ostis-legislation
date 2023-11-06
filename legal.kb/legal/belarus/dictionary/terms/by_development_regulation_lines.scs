@@ -1,0 +1,36 @@
+
+by_development_regulation_lines
+    => nrel_main_idtf: [development regulation lines] (* <- lang_en;; *);
+    => nrel_main_idtf: [линии регулирования застройки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лініі рэгулявання забудовы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_development_regulation_lines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_architecturalplanning_task;
+    => nrel_associative_connection: by_urban_planning_requirements_for_estate_residential_development;
+    => nrel_associative_connection: by_border_of_populated_area;
+    => nrel_associative_connection: by_land_for_builtup;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_first_building_line;
+
+    => nrel_legal_act: by_act_h10400300;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16630?langname=ru];
+    => nrel_etalon_online_idx: [16630];;

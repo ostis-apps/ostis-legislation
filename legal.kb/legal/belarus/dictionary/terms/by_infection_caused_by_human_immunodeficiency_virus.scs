@@ -1,0 +1,40 @@
+
+by_infection_caused_by_human_immunodeficiency_virus
+    => nrel_main_idtf: [infection caused by human immunodeficiency virus] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфекция, вызванная вирусом иммунодефицита человека] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфекцыя, выкліканая вірусам імунадэфіцыту чалавека] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infection_caused_by_human_immunodeficiency_virus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_substitution_therapy;
+    => nrel_associative_connection: by_substitution_therapy_room;
+    => nrel_associative_connection: by_multidisciplinary_team;
+    => nrel_associative_connection: by_narcotic_drugs_of_the_opium_group;
+    => nrel_associative_connection: by_opioid_analgesics;
+    => nrel_associative_connection: by_patients_with_drug_dependence;
+    => nrel_associative_connection: by_psychoactive_substances;
+    => nrel_associative_connection: by_social_adaptation_of_patients_with_drug_dependence;
+    => nrel_associative_connection: by_social_rehabilitation_of_patients_with_drug_dependence;
+    => nrel_associative_connection: by_social_support;
+
+    => nrel_legal_act: by_act_w22137263;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38842?langname=ru];
+    => nrel_etalon_online_idx: [38842];;

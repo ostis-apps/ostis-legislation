@@ -1,0 +1,42 @@
+
+by_water_pollution
+    => nrel_main_idtf: [water pollution] (* <- lang_en;; *);
+    => nrel_main_idtf: [загрязнение вод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забруджванне вод] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_pollution_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_normatively_unpolluted_water;
+    => nrel_associative_connection: by_technical_water;
+    => nrel_associative_connection: by_water_resources;
+    => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_water_use;
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_pollution_of_water_water_objects;
+    => nrel_associative_connection: by_pollution_of_lands_water_forests_atmosphere_entail_administrative_or_criminal_responsibility;
+    => nrel_associative_connection: by_environmental_pollution;
+    => nrel_associative_connection: by_water_pollution;
+    => nrel_associative_connection: by_wastewater_treatment;
+    => nrel_associative_connection: by_ecological_security_and_environmental_protection_crimes;
+
+    => nrel_legal_act: by_act_hk1400149;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2557?langname=ru];
+    => nrel_etalon_online_idx: [2557];;

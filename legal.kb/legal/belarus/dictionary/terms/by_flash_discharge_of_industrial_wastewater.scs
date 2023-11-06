@@ -1,0 +1,36 @@
+
+by_flash_discharge_of_industrial_wastewater
+    => nrel_main_idtf: [flash discharge of industrial wastewater] (* <- lang_en;; *);
+    => nrel_main_idtf: [залповый сброс производственных сточных вод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [залпавы знос вытворчых сцёкавых вод] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flash_discharge_of_industrial_wastewater_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_major_emission_of_pollutants_into_the_air;
+    => nrel_associative_connection: by_sewage_outlet;
+    => nrel_associative_connection: by_control_sample_of_wastewater;
+    => nrel_associative_connection: by_local_waste_treatment_facilities;
+    => nrel_associative_connection: by_waste_waters_composition;
+    => nrel_associative_connection: by_waste_waters;
+
+    => nrel_legal_act: by_act_c21600788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32097?langname=ru];
+    => nrel_etalon_online_idx: [32097];;

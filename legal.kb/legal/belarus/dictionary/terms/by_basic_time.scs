@@ -1,0 +1,37 @@
+
+by_basic_time
+    => nrel_main_idtf: [basic time] (* <- lang_en;; *);
+    => nrel_main_idtf: [базовое время] (* <- lang_ru;; *);
+    => nrel_main_idtf: [базавы час] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_time_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_airport_base;
+    => nrel_associative_connection: by_aircraft_flight_time;
+    => nrel_associative_connection: by_post_flight_time_of_work;
+    => nrel_associative_connection: by_coordinated_universal_time_utc;
+    => nrel_associative_connection: by_flying_hours;
+    => nrel_associative_connection: by_afterflight_training_in_the_crew_flight_debrief;
+    => nrel_associative_connection: by_service_flight_time;
+
+    => nrel_legal_act: by_act_w22339535;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8318?langname=ru];
+    => nrel_etalon_online_idx: [8318];;

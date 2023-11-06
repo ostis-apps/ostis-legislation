@@ -1,0 +1,20 @@
+
+by_crane_owner
+    => nrel_main_idtf: [crane owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец крана] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік крана] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_individual_entrepreneur;
+    => nrel_associative_connection: by_legal_entity;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11801?langname=ru];
+    => nrel_etalon_online_idx: [11801];;

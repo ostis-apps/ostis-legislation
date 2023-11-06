@@ -1,0 +1,52 @@
+
+by_societal_control
+    => nrel_main_idtf: [societal control] (* <- lang_en;; *);
+    => nrel_main_idtf: [общественный контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадскі кантроль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_societal_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_societal_control_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bodies_of_control_supervision;
+    => nrel_associative_connection: by_public_discussion;
+    => nrel_associative_connection: by_preliminary_control;
+    => nrel_associative_connection: by_representative_of_controlled_subject;
+    => nrel_associative_connection: by_trade_union;
+    => nrel_associative_connection: by_current_control;
+
+    => nrel_legal_act: by_act_n22000127;
+    => nrel_legal_act: by_act_n21700055;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/231?langname=ru];
+    => nrel_etalon_online_idx: [231];;

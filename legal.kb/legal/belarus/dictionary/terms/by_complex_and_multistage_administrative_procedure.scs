@@ -1,0 +1,37 @@
+
+by_complex_and_multistage_administrative_procedure
+    => nrel_main_idtf: [complex and multi-stage administrative procedure] (* <- lang_en;; *);
+    => nrel_main_idtf: [сложная и многоступенчатая административная процедура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [складаная і шматступеньчатая адміністрацыйная працэдура] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_and_multistage_administrative_procedure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_procedure;
+    => nrel_associative_connection: by_administrtaive_decision;
+    => nrel_associative_connection: by_day_for_implementation_of_the_administrative_procedure;
+    => nrel_associative_connection: by_day_of_administrative_procedure_completion;
+    => nrel_associative_connection: by_interested_person;
+    => nrel_associative_connection: by_statement_of_the_interested_person;
+    => nrel_associative_connection: by_third_person;
+
+    => nrel_legal_act: by_act_h10800433;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23325?langname=ru];
+    => nrel_etalon_online_idx: [23325];;

@@ -1,0 +1,20 @@
+
+by_fair_value_accounting
+    => nrel_main_idtf: [fair value accounting] (* <- lang_en;; *);
+    => nrel_main_idtf: [учет по справедливой стоимости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [улік па справядлівым кошце] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_evaluation_at_an_average_cost;
+    => nrel_associative_connection: by_fifo_assessment;
+    => nrel_associative_connection: by_accounting_by_acquisition_price;
+    => nrel_associative_connection: by_accounting_valuation_of_securities;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25849?langname=ru];
+    => nrel_etalon_online_idx: [25849];;

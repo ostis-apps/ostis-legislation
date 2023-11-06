@@ -1,0 +1,37 @@
+
+by_by_lightening
+    => nrel_main_idtf: [by_lightening] (* <- lang_en;; *);
+    => nrel_main_idtf: [осветление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асвятленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_lightening_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_selective_sanitary_felling;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_gradual_strip_felling;
+    => nrel_associative_connection: by_severance_felling;
+    => nrel_associative_connection: by_other_felling;
+    => nrel_associative_connection: by_felling;
+    => nrel_associative_connection: by_scaffolding_maintenance_logging;
+
+    => nrel_legal_act: by_act_w21631584;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19346?langname=ru];
+    => nrel_etalon_online_idx: [19346];;

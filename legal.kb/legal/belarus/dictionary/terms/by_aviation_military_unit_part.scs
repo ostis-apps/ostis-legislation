@@ -1,0 +1,35 @@
+
+by_aviation_military_unit_part
+    => nrel_main_idtf: [aviation military unit (part)] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиационная воинская часть (часть)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяцыйная воінская часць (часць)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_military_unit_part_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_unit;
+    => nrel_associative_connection: by_aviation_subdivision;
+    => nrel_associative_connection: by_aerodrome_control;
+    => nrel_associative_connection: by_engineering_and_aviation_service;
+    => nrel_associative_connection: by_engineering_and_aviation_support_of_state_aviation;
+
+    => nrel_legal_act: by_act_w21833597p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32494?langname=ru];
+    => nrel_etalon_online_idx: [32494];;

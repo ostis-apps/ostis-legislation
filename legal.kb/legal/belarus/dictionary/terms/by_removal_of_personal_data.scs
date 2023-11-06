@@ -1,0 +1,50 @@
+
+by_removal_of_personal_data
+    => nrel_main_idtf: [removal of personal data] (* <- lang_en;; *);
+    => nrel_main_idtf: [удаление персональных данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдаленне персанальных даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_removal_of_personal_data_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_removal_of_personal_data_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_genetic_personal_data;
+    => nrel_associative_connection: by_personal_data_processing;
+    => nrel_associative_connection: by_special_personal_data;
+    => nrel_associative_connection: by_individual_that_can_be_identified;
+
+    => nrel_legal_act: by_act_h12100099;
+    => nrel_legal_act: by_act_n21800159;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32222?langname=ru];
+    => nrel_etalon_online_idx: [32222];;

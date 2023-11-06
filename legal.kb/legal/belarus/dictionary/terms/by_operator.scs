@@ -1,0 +1,99 @@
+
+by_operator
+    => nrel_main_idtf: [operator] (* <- lang_en;; *);
+    => nrel_main_idtf: [эксплуатант] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эксплуатант] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operator_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_suitability_to_operations;
+    => nrel_associative_connection: by_state_operating_the_aircraft;
+    => nrel_associative_connection: by_state_of_operator;
+    => nrel_associative_connection: by_state_of_the_aircraft_operator;
+    => nrel_associative_connection: by_responsible_operator;
+
+    => nrel_legal_act: by_act_c21900563;
+    => nrel_legal_act: by_act_w22339441p;
+    => nrel_legal_act: by_act_w22136243p;
+    => nrel_legal_act: by_act_w21934932p;
+    => nrel_legal_act: by_act_i00100091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9094?langname=ru];
+    => nrel_etalon_online_idx: [9094];;

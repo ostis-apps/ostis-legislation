@@ -1,0 +1,21 @@
+
+by_by_wired_broadcasting_network
+    => nrel_main_idtf: [by_wired_broadcasting_network] (* <- lang_en;; *);
+    => nrel_main_idtf: [сеть проводного вещания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сетка праваднога вяшчання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_subscribers_socket;
+    => nrel_associative_connection: by_expanded_package;
+    => nrel_associative_connection: by_telecommunications_network;
+    => nrel_associative_connection: by_public_telecommunications_network;
+    => nrel_associative_connection: by_wired_broadcast_service;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23103?langname=ru];
+    => nrel_etalon_online_idx: [23103];;

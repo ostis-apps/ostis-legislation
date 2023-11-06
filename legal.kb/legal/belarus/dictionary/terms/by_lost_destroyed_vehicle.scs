@@ -1,0 +1,51 @@
+
+by_lost_destroyed_vehicle
+    => nrel_main_idtf: [lost (destroyed) vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [погибшее (уничтоженное) транспортное средство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [загінуўшы (знішчаны) транспартны сродак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lost_destroyed_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_refurbishment_of_vehicle;
+    => nrel_associative_connection: by_guarantee_vehicle;
+    => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_identical_vehicle;
+    => nrel_associative_connection: by_history_of_vehicle_damages;
+    => nrel_associative_connection: by_vehicle_appraiser;
+    => nrel_associative_connection: by_vehicle_reequipment;
+    => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_lost_destroyed_property;
+    => nrel_associative_connection: by_checking_the_technical_condition_and_structure_of_the_vehicle_and_selfpropelled_machine;
+    => nrel_associative_connection: by_permit_for_admission_of_a_vehicle_to_participate_in_road_traffic;
+    => nrel_associative_connection: by_service_life_of_the_vehicle;
+    => nrel_associative_connection: by_recycling_cost_of_vehicle;
+    => nrel_associative_connection: by_insurance_payout;
+    => nrel_associative_connection: by_insurance_cost;
+    => nrel_associative_connection: by_insurance_payment;
+    => nrel_associative_connection: by_insurance_payment_limit_of_responsibility;
+    => nrel_associative_connection: by_a_ship_structurally_dead;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20319?langname=ru];
+    => nrel_etalon_online_idx: [20319];;

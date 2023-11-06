@@ -1,0 +1,35 @@
+
+by_subjects_of_youth_initiatives
+    => nrel_main_idtf: [subjects of youth initiatives] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты молодежных инициатив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты маладзёжных ініцыятыў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_youth_initiatives_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_youth_policy;
+    => nrel_associative_connection: by_performers_of_the_youth_initiative;
+    => nrel_associative_connection: by_youth_personnel_policy;
+    => nrel_associative_connection: by_youth_initiatives;
+    => nrel_associative_connection: by_young_citizens;
+
+    => nrel_legal_act: by_act_h10900065;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42032?langname=ru];
+    => nrel_etalon_online_idx: [42032];;

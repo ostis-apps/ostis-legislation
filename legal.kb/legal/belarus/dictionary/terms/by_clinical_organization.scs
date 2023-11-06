@@ -1,0 +1,33 @@
+
+by_clinical_organization
+    => nrel_main_idtf: [clinical organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [клиническая организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клінічная арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_healthcare;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_health_organization;
+
+    => nrel_legal_act: by_act_w20513245;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15928?langname=ru];
+    => nrel_etalon_online_idx: [15928];;

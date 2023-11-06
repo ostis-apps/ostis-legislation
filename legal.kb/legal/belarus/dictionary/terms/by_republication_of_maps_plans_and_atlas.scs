@@ -1,0 +1,35 @@
+
+by_republication_of_maps_plans_and_atlas
+    => nrel_main_idtf: [republication of maps, plans and atlas] (* <- lang_en;; *);
+    => nrel_main_idtf: [переиздание карт, планов и атласов ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перавыданне карт, планаў і атласаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republication_of_maps_plans_and_atlas_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geodesic_and_mapping_activity;
+    => nrel_associative_connection: by_geodesic_and_cartographic_materials_and_data;
+    => nrel_associative_connection: by_edition_of_maps_plans_and_atlases;
+    => nrel_associative_connection: by_mapping_information;
+    => nrel_associative_connection: by_cartography;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41157?langname=ru];
+    => nrel_etalon_online_idx: [41157];;

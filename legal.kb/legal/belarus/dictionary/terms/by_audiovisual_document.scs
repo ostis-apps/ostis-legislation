@@ -1,0 +1,57 @@
+
+by_audiovisual_document
+    => nrel_main_idtf: [audiovisual document] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудиовизуальный документ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдыёвізуальны дакумент] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audiovisual_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_video_document;
+    => nrel_associative_connection: by_visual_information;
+    => nrel_associative_connection: by_hologram;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_unit_of_video_record_keeping;
+    => nrel_associative_connection: by_unit_of_film_documents_record_keeping;
+    => nrel_associative_connection: by_unit_of_accounting_for_fonodocuments;
+    => nrel_associative_connection: by_unit_of_photo_documents_record_keeping;
+    => nrel_associative_connection: by_record_on_magnetic_tape;
+    => nrel_associative_connection: by_record_on_electronic_media;
+    => nrel_associative_connection: by_named_catalogue_for_audiovisual_documents;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_interpositive;
+    => nrel_associative_connection: by_information_mail;
+    => nrel_associative_connection: by_cataloging_of_audiovisual_documents;
+    => nrel_associative_connection: by_film_document;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by_copy_of_audiovisual_document;
+    => nrel_associative_connection: by_maintenance_of_audiovisual_documents_safe;
+    => nrel_associative_connection: by_systematic_catalogues_for_audiovisual_documents;
+    => nrel_associative_connection: by_stereo_slide;
+    => nrel_associative_connection: by_thematic_selection_of_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by_thematic_list_of_audiovisual_documents_in_the_form_according_to_appendix_83;
+    => nrel_associative_connection: by_photo_document;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8224?langname=ru];
+    => nrel_etalon_online_idx: [8224];;

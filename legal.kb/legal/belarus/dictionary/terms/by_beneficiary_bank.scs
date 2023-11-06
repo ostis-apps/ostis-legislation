@@ -1,0 +1,44 @@
+
+by_beneficiary_bank
+    => nrel_main_idtf: [beneficiary bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк бенефициара] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк бенефіцыяра] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_beneficiary_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_advising;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_beneficiarys_bank_beneficiarys_agent;
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_bank_payment_obligation;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_recipient_bank_beneficiary_bank;
+    => nrel_associative_connection: by_beneficiary;
+    => nrel_associative_connection: by_transaction_agreement;
+    => nrel_associative_connection: by_collecting_bank;
+    => nrel_associative_connection: by_negociation;
+    => nrel_associative_connection: by_transferable_letter_of_credit;
+    => nrel_associative_connection: by_direct_account_debit;
+    => nrel_associative_connection: by_reserve_letter_of_credit;
+
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8334?langname=ru];
+    => nrel_etalon_online_idx: [8334];;

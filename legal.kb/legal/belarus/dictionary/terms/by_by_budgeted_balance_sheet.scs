@@ -1,0 +1,25 @@
+
+by_by_budgeted_balance_sheet
+    => nrel_main_idtf: [by_budgeted_balance_sheet] (* <- lang_en;; *);
+    => nrel_main_idtf: [прогнозный баланс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прагнозны баланс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_aggregated_forecast_balance_by_form;
+    => nrel_associative_connection: by_income_of_the_future_periods;
+    => nrel_associative_connection: by_investment_project;
+    => nrel_associative_connection: by_credit_monitoring;
+    => nrel_associative_connection: by_creditability;
+    => nrel_associative_connection: by_development_forecast;
+    => nrel_associative_connection: by_financial_results_forecast;
+    => nrel_associative_connection: by_prospective_financial_information;
+    => nrel_associative_connection: by_deferred_expenses;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21426?langname=ru];
+    => nrel_etalon_online_idx: [21426];;

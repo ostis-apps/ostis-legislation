@@ -1,0 +1,54 @@
+
+by_train_signals
+    => nrel_main_idtf: [train signals] (* <- lang_en;; *);
+    => nrel_main_idtf: [поездные сигналы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягніковыя сігналы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_train_signals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_train_signals_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_traffic_on_public_railway_transport;
+    => nrel_associative_connection: by_railway_rolling_stock;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_train_traffic_control_communication;
+    => nrel_associative_connection: by_track_sign;
+    => nrel_associative_connection: by_signal;
+    => nrel_associative_connection: by_diesel_locomotive;
+
+    => nrel_legal_act: by_act_w21530414p;
+    => nrel_legal_act: by_act_w20819143;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20464?langname=ru];
+    => nrel_etalon_online_idx: [20464];;

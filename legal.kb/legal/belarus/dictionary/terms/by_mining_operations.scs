@@ -1,0 +1,61 @@
+
+by_mining_operations
+    => nrel_main_idtf: [mining operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [горные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [горныя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mining_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mining_operations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_mining_enterprise;
+    => nrel_associative_connection: by_rocks;
+    => nrel_associative_connection: by_mining_engineer;
+    => nrel_associative_connection: by_mining_allotment;
+    => nrel_associative_connection: by_suspension_of_mining_enterprise;
+    => nrel_associative_connection: by_suspension_of_mine_workings;
+    => nrel_associative_connection: by_markshader_works;
+    => nrel_associative_connection: by_open_work_method;
+    => nrel_associative_connection: by_well_perforation;
+    => nrel_associative_connection: by_voids_repayment;
+    => nrel_associative_connection: by_underground_mining;
+    => nrel_associative_connection: by_raw_materials;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_works;
+
+    => nrel_legal_act: by_act_hk0800406;
+    => nrel_legal_act: by_act_s20500008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5084?langname=ru];
+    => nrel_etalon_online_idx: [5084];;

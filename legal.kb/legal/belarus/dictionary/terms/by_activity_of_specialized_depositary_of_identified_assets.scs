@@ -1,0 +1,35 @@
+
+by_activity_of_specialized_depositary_of_identified_assets
+    => nrel_main_idtf: [activity of specialized depositary of identified assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [деятельность специализированного депозитария выделенных активов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзейнасць спецыялізаванага дэпазітарыя выдзеленых актываў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_activity_of_specialized_depositary_of_identified_assets_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_allocated_assets;
+    => nrel_associative_connection: by_depository;
+    => nrel_associative_connection: by_activities_of_specialized_depository_of_the_investment_fund;
+    => nrel_associative_connection: by_specialized_depositary;
+    => nrel_associative_connection: by_financial_assets;
+
+    => nrel_legal_act: by_act_p31700154;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14148?langname=ru];
+    => nrel_etalon_online_idx: [14148];;

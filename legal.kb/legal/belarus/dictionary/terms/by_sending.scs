@@ -1,0 +1,37 @@
+
+by_sending
+    => nrel_main_idtf: [sending] (* <- lang_en;; *);
+    => nrel_main_idtf: [направляющая] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накіроўваючая] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sending_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cargo_lift;
+    => nrel_associative_connection: by_loadcarrying_device;
+    => nrel_associative_connection: by_mast;
+    => nrel_associative_connection: by_mast_lift;
+    => nrel_associative_connection: by_sending_device;
+    => nrel_associative_connection: by_building_elevator;
+    => nrel_associative_connection: by_counterweight;
+
+    => nrel_legal_act: by_act_w20613989;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17689?langname=ru];
+    => nrel_etalon_online_idx: [17689];;

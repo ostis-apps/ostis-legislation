@@ -1,0 +1,19 @@
+
+by_inspected_organization
+    => nrel_main_idtf: [inspected organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [инспектируемая организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя, якая інспектуецца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_inspection;
+    => nrel_associative_connection: by_inspection;
+    => nrel_associative_connection: by_research_center;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9199?langname=ru];
+    => nrel_etalon_online_idx: [9199];;

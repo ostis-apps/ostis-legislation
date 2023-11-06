@@ -1,0 +1,33 @@
+
+by_official_websites_of_state_bodies_and_organizations
+    => nrel_main_idtf: [official websites of state bodies and organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [официальные интернет-сайты государственных органов и организаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афіцыйныя інтэрнэт-сайты дзяржаўных органаў і арганізацый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_official_websites_of_state_bodies_and_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_business_entities;
+
+    => nrel_legal_act: by_act_c21900395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41632?langname=ru];
+    => nrel_etalon_online_idx: [41632];;

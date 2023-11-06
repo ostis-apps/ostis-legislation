@@ -1,0 +1,20 @@
+
+by_nonnarcotic_substances
+    => nrel_main_idtf: [non-narcotic substances] (* <- lang_en;; *);
+    => nrel_main_idtf: [ненаркотические вещества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ненаркатычныя рэчывы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_base_structure;
+    => nrel_associative_connection: by_drugs;
+    => nrel_associative_connection: by_acute_intoxication_caused_by_the_consumption_of_narcotic_drugs_and_other_substances;
+    => nrel_associative_connection: by_psychoactive_substance;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18057?langname=ru];
+    => nrel_etalon_online_idx: [18057];;

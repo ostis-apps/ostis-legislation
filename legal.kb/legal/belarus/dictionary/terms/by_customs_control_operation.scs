@@ -1,0 +1,31 @@
+
+by_customs_control_operation
+    => nrel_main_idtf: [customs control operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [операция таможенного контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыя мытнага кантролю] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_control_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_p31100319;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19055?langname=ru];
+    => nrel_etalon_online_idx: [19055];;

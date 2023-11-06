@@ -1,0 +1,33 @@
+
+by_manager_in_sociocultural_sphere
+    => nrel_main_idtf: [manager in socio-cultural sphere] (* <- lang_en;; *);
+    => nrel_main_idtf: [менеджер в социокультурной сфере] (* <- lang_ru;; *);
+    => nrel_main_idtf: [менеджэр у сацыякультурнай сферы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_manager_in_sociocultural_sphere_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_manager;
+    => nrel_associative_connection: by_management_of_sociocultural_sphere;
+    => nrel_associative_connection: by_organizations_of_the_sociocultural_sphere;
+
+    => nrel_legal_act: by_act_w22036000p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35452?langname=ru];
+    => nrel_etalon_online_idx: [35452];;

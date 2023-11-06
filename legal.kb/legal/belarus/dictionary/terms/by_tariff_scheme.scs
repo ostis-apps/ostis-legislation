@@ -1,0 +1,54 @@
+
+by_tariff_scheme
+    => nrel_main_idtf: [tariff scheme] (* <- lang_en;; *);
+    => nrel_main_idtf: [тарифная схема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тарыфная схема] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tariff_scheme_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tariff_scheme_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_carriage_charge_for_carriage;
+    => nrel_associative_connection: by_carriage_charges;
+    => nrel_associative_connection: by_distance_of_train_through_infrastructure;
+    => nrel_associative_connection: by_sectionkilometer;
+    => nrel_associative_connection: by_sectionhour;
+    => nrel_associative_connection: by_tariff_scheme__i1;
+    => nrel_associative_connection: by_tariff_scheme__i2;
+    => nrel_associative_connection: by_tariff_scheme__i3;
+
+    => nrel_legal_act: by_act_w21731905;
+    => nrel_legal_act: by_act_w21731905;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24690?langname=ru];
+    => nrel_etalon_online_idx: [24690];;

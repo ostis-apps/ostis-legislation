@@ -1,0 +1,31 @@
+
+by_sanitary_and_epidemic_situation
+    => nrel_main_idtf: [sanitary and epidemic situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарно-эпидемическая обстановка  ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарна-эпідэмічная абстаноўка  ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitary_and_epidemic_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_w20309982;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27502?langname=ru];
+    => nrel_etalon_online_idx: [27502];;

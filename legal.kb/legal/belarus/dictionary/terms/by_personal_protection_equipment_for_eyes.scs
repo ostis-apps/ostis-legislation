@@ -1,0 +1,38 @@
+
+by_personal_protection_equipment_for_eyes
+    => nrel_main_idtf: [personal protection equipment for eyes] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства индивидуальной защиты глаз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі індывідуальнай абароны вачэй] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_personal_protection_equipment_for_eyes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wear_of_personal_protective_equipment;
+    => nrel_associative_connection: by_adverse_temperature_conditions;
+    => nrel_associative_connection: by_norms_of_free_provision_of_employees_of_the_organization_with_personal_protective_equipment;
+    => nrel_associative_connection: by_special_signal_clothing_with_high_visibility;
+    => nrel_associative_connection: by_period_of_use_of_equipment_for_personal_protection;
+    => nrel_associative_connection: by_personal_security_facilities;
+    => nrel_associative_connection: by_mean_of_protection_of_the_worker;
+    => nrel_associative_connection: by_personal_protection_means;
+
+    => nrel_legal_act: by_act_w20920390;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24018?langname=ru];
+    => nrel_etalon_online_idx: [24018];;

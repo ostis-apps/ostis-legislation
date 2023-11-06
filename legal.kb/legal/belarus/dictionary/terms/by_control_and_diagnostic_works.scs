@@ -1,0 +1,36 @@
+
+by_control_and_diagnostic_works
+    => nrel_main_idtf: [control and diagnostic works] (* <- lang_en;; *);
+    => nrel_main_idtf: [контрольно-диагностические работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантрольна-дыягнастычныя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_control_and_diagnostic_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diagnostics;
+    => nrel_associative_connection: by_permit_for_admission_of_a_vehicle_to_participate_in_road_traffic;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+    => nrel_associative_connection: by_technical_state;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_c20800630;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16247?langname=ru];
+    => nrel_etalon_online_idx: [16247];;

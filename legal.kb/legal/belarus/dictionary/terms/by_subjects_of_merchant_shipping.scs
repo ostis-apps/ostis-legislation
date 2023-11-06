@@ -1,0 +1,34 @@
+
+by_subjects_of_merchant_shipping
+    => nrel_main_idtf: [subjects of merchant shipping] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты торгового мореплавания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты гандлёвага мараплаўства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_merchant_shipping_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_regulation_in_the_area_of_merchant_shipping;
+    => nrel_associative_connection: by_trade_subject;
+    => nrel_associative_connection: by_subjects_of_merchant_shipping_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_merchant_shipping;
+
+    => nrel_legal_act: by_act_hk9900321;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39502?langname=ru];
+    => nrel_etalon_online_idx: [39502];;

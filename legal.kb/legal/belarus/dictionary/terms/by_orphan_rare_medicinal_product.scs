@@ -1,0 +1,51 @@
+
+by_orphan_rare_medicinal_product
+    => nrel_main_idtf: [orphan (rare) medicinal product] (* <- lang_en;; *);
+    => nrel_main_idtf: [орфанный (редкий) лекарственный препарат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арфанны (рэдкі) лекавы прэпарат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_orphan_rare_medicinal_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_orphan_rare_medicinal_product_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antiseptic_medicinal_product;
+    => nrel_associative_connection: by_medicines;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_orphan_medicine;
+    => nrel_associative_connection: by_orphan_rare_diseases;
+
+    => nrel_legal_act: by_act_h10600161;
+    => nrel_legal_act: by_act_f91600333;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19341?langname=ru];
+    => nrel_etalon_online_idx: [19341];;

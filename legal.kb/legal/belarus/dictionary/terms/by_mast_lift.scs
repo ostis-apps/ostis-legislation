@@ -1,0 +1,36 @@
+
+by_mast_lift
+    => nrel_main_idtf: [mast lift] (* <- lang_en;; *);
+    => nrel_main_idtf: [мачтовый подъемник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мачтавы пад'ёмнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mast_lift_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_elevator_owner;
+    => nrel_associative_connection: by_mast;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_wall_support;
+    => nrel_associative_connection: by_mobile_cargo_lift;
+    => nrel_associative_connection: by_building_elevator;
+
+    => nrel_legal_act: by_act_w20613989;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16968?langname=ru];
+    => nrel_etalon_online_idx: [16968];;

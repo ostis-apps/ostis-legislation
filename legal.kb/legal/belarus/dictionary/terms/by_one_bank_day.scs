@@ -1,0 +1,33 @@
+
+by_one_bank_day
+    => nrel_main_idtf: [one bank day] (* <- lang_en;; *);
+    => nrel_main_idtf: [срок в один банковский день] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрмін у адзін банкаўскі дзень] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_one_bank_day_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banking_activity;
+    => nrel_associative_connection: by_working_day;
+
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24087?langname=ru];
+    => nrel_etalon_online_idx: [24087];;

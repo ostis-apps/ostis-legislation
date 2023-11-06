@@ -1,0 +1,47 @@
+
+by_unmanned_air_aircraft_ua
+    => nrel_main_idtf: [unmanned (air) aircraft (ua)] (* <- lang_en;; *);
+    => nrel_main_idtf: [беспилотный (воздушный) летательный аппарат (бла)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [беспілотны (паветраны) лятальны апарат (бла)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unmanned_air_aircraft_ua_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_target_tracking;
+    => nrel_associative_connection: by_signal_analyzers;
+    => nrel_associative_connection: by_aerodynamic_profiles_with_changed_geometry;
+    => nrel_associative_connection: by_unmanned_aviation_complex;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_combat_use_of_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_civilian_unmanned_aerial_vehicles;
+    => nrel_associative_connection: by_civil_aircraft;
+    => nrel_associative_connection: by_control_department_of_the_operator_of_the_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_air_and_space_craft_lighter_than_air;
+    => nrel_associative_connection: by_air_and_space_craft;
+    => nrel_associative_connection: by_air_and_space_craft_asc;
+    => nrel_associative_connection: by_motodeltaplane_deltalet;
+    => nrel_associative_connection: by_ground_controls_for_unmanned_aircraft;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle_overflight;
+    => nrel_associative_connection: by_operator_of_drone_aircraft;
+    => nrel_associative_connection: by_payload;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12723?langname=ru];
+    => nrel_etalon_online_idx: [12723];;

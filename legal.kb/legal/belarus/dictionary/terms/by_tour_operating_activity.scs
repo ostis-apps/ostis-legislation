@@ -1,0 +1,53 @@
+
+by_tour_operating_activity
+    => nrel_main_idtf: [tour operating activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [туроператорская деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тураператарская дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tour_operating_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tour_operating_activity_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_official_tourist_operator_of_the_championship;
+    => nrel_associative_connection: by_travel_agency_activity;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_travel_services;
+    => nrel_associative_connection: by_touristic_travel;
+    => nrel_associative_connection: by_tour_operator;
+    => nrel_associative_connection: by_tour_operators_responsibility_fund;
+
+    => nrel_legal_act: by_act_h12100129;
+    => nrel_legal_act: by_act_n21800162;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9087?langname=ru];
+    => nrel_etalon_online_idx: [9087];;

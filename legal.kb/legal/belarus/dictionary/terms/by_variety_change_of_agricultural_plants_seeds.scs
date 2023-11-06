@@ -1,0 +1,49 @@
+
+by_variety_change_of_agricultural_plants_seeds
+    => nrel_main_idtf: [variety change of agricultural plants seeds] (* <- lang_en;; *);
+    => nrel_main_idtf: [сортосмена семян сельскохозяйственных растений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сортазмена насення сельскагаспадарчых раслін] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variety_change_of_agricultural_plants_seeds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variety_change_of_agricultural_plants_seeds_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_control_variety;
+    => nrel_associative_connection: by_test_of_agricultural_plants_seeds;
+    => nrel_associative_connection: by_variety_renewal_of_agricultural_plants_seeds;
+
+    => nrel_legal_act: by_act_w22136786;
+    => nrel_legal_act: by_act_w21732466;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27274?langname=ru];
+    => nrel_etalon_online_idx: [27274];;

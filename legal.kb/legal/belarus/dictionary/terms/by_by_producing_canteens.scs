@@ -1,0 +1,38 @@
+
+by_by_producing_canteens
+    => nrel_main_idtf: [by_producing_canteens] (* <- lang_en;; *);
+    => nrel_main_idtf: [столовые заготовочные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сталовыя загатовачныя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_producing_canteens_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_culinary_integrated_plant;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_mobile_canteen;
+    => nrel_associative_connection: by_catering_section_kitchen;
+    => nrel_associative_connection: by_handling_cateringhanding_room_rooms;
+    => nrel_associative_connection: by_public_catering_network;
+    => nrel_associative_connection: by_canteen;
+    => nrel_associative_connection: by_dispensing_canteens;
+
+    => nrel_legal_act: by_act_w60105912;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24263?langname=ru];
+    => nrel_etalon_online_idx: [24263];;

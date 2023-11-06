@@ -1,0 +1,68 @@
+
+by_isolation_of_persons_being_under_arrest
+    => nrel_main_idtf: [isolation of persons being under arrest] (* <- lang_en;; *);
+    => nrel_main_idtf: [изоляция лиц, содержащихся под стражей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ізаляцыя асоб, якія ўтрымліваюцца пад вартай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_isolation_of_persons_being_under_arrest_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_isolation_of_persons_being_under_arrest_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_isolation_of_persons_being_under_arrest_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_isolation_of_servicemen_being_under_arrest_in_the_guardhouse;
+    => nrel_associative_connection: by_persons_under_arrest;
+    => nrel_associative_connection: by_place_of_detention;
+    => nrel_associative_connection: by_custody_of_persons_held_under_arrest;
+    => nrel_associative_connection: by_compulsory_isolation;
+    => nrel_associative_connection: by_detention;
+
+    => nrel_legal_act: by_act_w21731771;
+    => nrel_legal_act: by_act_w21731751;
+    => nrel_legal_act: by_act_w21731703;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12079?langname=ru];
+    => nrel_etalon_online_idx: [12079];;

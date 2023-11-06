@@ -1,0 +1,34 @@
+
+by_by_preoperative_autologous_blood_collection
+    => nrel_main_idtf: [by_preoperative_autologous_blood_collection] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоперационная заготовка аутологичной крови] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадаперацыйная нарыхтоўка аўталагічнай крыві] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_preoperative_autologous_blood_collection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_autodonor;
+    => nrel_associative_connection: by_autodonation;
+    => nrel_associative_connection: by_banking_of_blood_and_its_components;
+    => nrel_associative_connection: by_organization_of_the_blood_service;
+
+    => nrel_legal_act: by_act_w22340078;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42654?langname=ru];
+    => nrel_etalon_online_idx: [42654];;

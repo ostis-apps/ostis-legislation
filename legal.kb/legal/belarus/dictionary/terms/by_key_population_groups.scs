@@ -1,0 +1,37 @@
+
+by_key_population_groups
+    => nrel_main_idtf: [key population groups] (* <- lang_en;; *);
+    => nrel_main_idtf: [ключевые группы населения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ключавыя групы насельніцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_key_population_groups_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hivpositive_patient_status;
+    => nrel_associative_connection: by_citizens_suffering_from_chronic_alcoholism_drug_addiction_or_toxicomania;
+    => nrel_associative_connection: by_diagnostics_of_hiv_infection;
+    => nrel_associative_connection: by_persons_suffering_from_alcoholism_drug_addiction_and_toxicomania;
+    => nrel_associative_connection: by_person_suffering_from_drug_addiction;
+    => nrel_associative_connection: by_people_living_with_hiv;
+    => nrel_associative_connection: by_hiv_patients;
+
+    => nrel_legal_act: by_act_w22239094p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41771?langname=ru];
+    => nrel_etalon_online_idx: [41771];;

@@ -1,0 +1,36 @@
+
+by_regime_protection_measures
+    => nrel_main_idtf: [regime protection measures] (* <- lang_en;; *);
+    => nrel_main_idtf: [режимные меры охраны ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжымныя меры аховы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regime_protection_measures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intraobject_mode;
+    => nrel_associative_connection: by_checkpoint;
+    => nrel_associative_connection: by_object_of_protection;
+    => nrel_associative_connection: by_protected_object;
+    => nrel_associative_connection: by_omission;
+    => nrel_associative_connection: by_sensitive_premises;
+
+    => nrel_legal_act: by_act_w21934743;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31991?langname=ru];
+    => nrel_etalon_online_idx: [31991];;

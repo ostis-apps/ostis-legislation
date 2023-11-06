@@ -1,0 +1,33 @@
+
+by_minimum_distance_to_the_object_of_the_main_pipeline
+    => nrel_main_idtf: [minimum distance to the object of the main pipeline] (* <- lang_en;; *);
+    => nrel_main_idtf: [минимальное расстояние до объекта магистрального трубопровода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінімальная адлегласць да аб'екта магістральнага трубаправода] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_minimum_distance_to_the_object_of_the_main_pipeline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_major_pipeline;
+    => nrel_associative_connection: by_object_of_main_pipeline;
+    => nrel_associative_connection: by_subjects_of_relations_in_the_field_of_main_pipeline_transport;
+
+    => nrel_legal_act: by_act_h10200087;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41274?langname=ru];
+    => nrel_etalon_online_idx: [41274];;

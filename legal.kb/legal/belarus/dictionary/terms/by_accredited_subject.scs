@@ -1,0 +1,38 @@
+
+by_accredited_subject
+    => nrel_main_idtf: [accredited subject] (* <- lang_en;; *);
+    => nrel_main_idtf: [аккредитованный субъект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акрэдытаваны суб'ект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accredited_subject_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accreditation;
+    => nrel_associative_connection: by_accreditation_of_legal_persons;
+    => nrel_associative_connection: by_accreditation_of_legal_entities;
+    => nrel_associative_connection: by_accredited_testing_laboratory;
+    => nrel_associative_connection: by_accredited_testing_laboratory_center;
+    => nrel_associative_connection: by_test_laboratory_center;
+    => nrel_associative_connection: by_certification_body;
+    => nrel_associative_connection: by_periodic_assessment_of_accredited_subject_competence;
+
+    => nrel_legal_act: by_act_h11600437;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12406?langname=ru];
+    => nrel_etalon_online_idx: [12406];;

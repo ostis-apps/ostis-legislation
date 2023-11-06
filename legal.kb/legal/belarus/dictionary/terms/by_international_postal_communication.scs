@@ -1,0 +1,36 @@
+
+by_international_postal_communication
+    => nrel_main_idtf: [international postal communication] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная почтовая связь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мiжнародная паштовая сувязь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_postal_communication_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_international_mail;
+    => nrel_associative_connection: by_international_reply_coupon;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_postal_communication_organization;
+    => nrel_associative_connection: by_postal_security;
+    => nrel_associative_connection: by_postal_communication;
+
+    => nrel_legal_act: by_act_h10300258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7766?langname=ru];
+    => nrel_etalon_online_idx: [7766];;

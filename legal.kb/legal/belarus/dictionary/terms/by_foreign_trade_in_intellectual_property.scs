@@ -1,0 +1,34 @@
+
+by_foreign_trade_in_intellectual_property
+    => nrel_main_idtf: [foreign trade in intellectual property] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешняя торговля объектами интеллектуальной собственности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешні гандаль аб'ектамі інтэлектуальнай уласнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_trade_in_intellectual_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_objects_of_intellectual_property;
+    => nrel_associative_connection: by_sale_outside_the_republic_of_belarus_of_works_services_property_rights_to_intellectual_property_objects;
+    => nrel_associative_connection: by_foreign_trade_regime;
+    => nrel_associative_connection: by_trade;
+
+    => nrel_legal_act: by_act_h10400347;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8604?langname=ru];
+    => nrel_etalon_online_idx: [8604];;

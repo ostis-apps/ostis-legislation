@@ -1,0 +1,50 @@
+
+by_finished_products_and_goods
+    => nrel_main_idtf: [finished products and goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [готовая продукция и товары] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гатовая прадукцыя і тавары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_finished_products_and_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_finished_products_and_goods_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_finished_products;
+    => nrel_associative_connection: by_cultivated_biological_resources;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_t22104927p;
+    => nrel_legal_act: by_act_t22104764p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38198?langname=ru];
+    => nrel_etalon_online_idx: [38198];;

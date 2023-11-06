@@ -1,0 +1,34 @@
+
+by_common_property
+    => nrel_main_idtf: [common property] (* <- lang_en;; *);
+    => nrel_main_idtf: [общая собственность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульная ўласнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_common_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_indivisible_item;
+    => nrel_associative_connection: by_joint_shared_property_of_copartners;
+    => nrel_associative_connection: by_joint_property_of_marital_partners;
+    => nrel_associative_connection: by_property_of_spouses;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2945?langname=ru];
+    => nrel_etalon_online_idx: [2945];;

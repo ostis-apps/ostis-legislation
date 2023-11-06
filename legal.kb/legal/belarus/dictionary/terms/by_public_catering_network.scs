@@ -1,0 +1,54 @@
+
+by_public_catering_network
+    => nrel_main_idtf: [public catering network ] (* <- lang_en;; *);
+    => nrel_main_idtf: [сеть общественного питания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сетка грамадскага харчавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_catering_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bar;
+    => nrel_associative_connection: by_snackbar;
+    => nrel_associative_connection: by_dining_car;
+    => nrel_associative_connection: by_existing_public_catering_objects;
+    => nrel_associative_connection: by_eating_joint;
+    => nrel_associative_connection: by_individual_food;
+    => nrel_associative_connection: by_cafe;
+    => nrel_associative_connection: by_quick_service_cafe;
+    => nrel_associative_connection: by_confectionery;
+    => nrel_associative_connection: by_coupebar;
+    => nrel_associative_connection: by_coupebuffet;
+    => nrel_associative_connection: by_summer_seasonal_cafe;
+    => nrel_associative_connection: by_minicafe;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_mobile_canteen;
+    => nrel_associative_connection: by_restaurant;
+    => nrel_associative_connection: by_quick_service_restaurant;
+    => nrel_associative_connection: by_stationary_public_catering_object;
+    => nrel_associative_connection: by_canteen;
+    => nrel_associative_connection: by_table_and_boring_room;
+    => nrel_associative_connection: by_producing_canteens;
+    => nrel_associative_connection: by_dispensing_canteens;
+    => nrel_associative_connection: by_subject_of_public_catering;
+    => nrel_associative_connection: by_food_truck;
+
+    => nrel_legal_act: by_act_h11400128;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10596?langname=ru];
+    => nrel_etalon_online_idx: [10596];;

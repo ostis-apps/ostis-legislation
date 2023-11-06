@@ -1,0 +1,34 @@
+
+by_court_hearing_economic_cases
+    => nrel_main_idtf: [court hearing economic cases] (* <- lang_en;; *);
+    => nrel_main_idtf: [суд, рассматривающий экономические дела] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суд, які разглядае эканамічныя справы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_court_hearing_economic_cases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_supreme_court_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_state_court;
+    => nrel_associative_connection: by_decision_of_the_court_considering_economic_cases;
+    => nrel_associative_connection: by_economic_cases;
+
+    => nrel_legal_act: by_act_hk9800219;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24481?langname=ru];
+    => nrel_etalon_online_idx: [24481];;

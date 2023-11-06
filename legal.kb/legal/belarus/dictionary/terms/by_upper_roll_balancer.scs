@@ -1,0 +1,34 @@
+
+by_upper_roll_balancer
+    => nrel_main_idtf: [upper roll balancer] (* <- lang_en;; *);
+    => nrel_main_idtf: [верхний роликовый балансир] (* <- lang_ru;; *);
+    => nrel_main_idtf: [верхні ролікавы балансір] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_upper_roll_balancer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sending_pulley_block_roller;
+    => nrel_associative_connection: by_lower_roller_bob;
+    => nrel_associative_connection: by_roller_balance;
+    => nrel_associative_connection: by_roller_conveyor;
+
+    => nrel_legal_act: by_act_w22339538p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12935?langname=ru];
+    => nrel_etalon_online_idx: [12935];;

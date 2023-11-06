@@ -1,0 +1,37 @@
+
+by_concrete_fpor_the_filling_concrete
+    => nrel_main_idtf: [concrete fpor the filling (concrete)] (* <- lang_en;; *);
+    => nrel_main_idtf: [бетон для заполнения (бетон)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бетон для запаўнення (бетон)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concrete_fpor_the_filling_concrete_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reinforced_stonemasonry;
+    => nrel_associative_connection: by_furrow;
+    => nrel_associative_connection: by_group_of_masonry_products;
+    => nrel_associative_connection: by_doublelayer_wall_with_air_gap_filling_with_concrete_or_mortar;
+    => nrel_associative_connection: by_deformation_joint;
+    => nrel_associative_connection: by_masonry;
+    => nrel_associative_connection: by_unreinforced_masonry;
+
+    => nrel_legal_act: by_act_w221p0018;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38033?langname=ru];
+    => nrel_etalon_online_idx: [38033];;

@@ -1,0 +1,54 @@
+
+by_oncological_dispensary_regional_urban_interdistrict
+    => nrel_main_idtf: [oncological dispensary (regional, urban, interdistrict)	] (* <- lang_en;; *);
+    => nrel_main_idtf: [онкологический диспансер (областной, городской, межрайонный)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкалагічны дыспансер (абласны, гарадскі, міжраённы)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_oncological_dispensary_regional_urban_interdistrict_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_oncological_dispensary_regional_urban_interdistrict_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_chief_specialist_on_oncology_of_the_ministry_of_health_regional_city_health_care_management_department;
+    => nrel_associative_connection: by_preventive_medical_examination;
+    => nrel_associative_connection: by_dispensary_observation;
+    => nrel_associative_connection: by_dispensary_medical_checkup;
+    => nrel_associative_connection: by_round_of_chemo;
+    => nrel_associative_connection: by_malignization;
+    => nrel_associative_connection: by_mesothelioma;
+    => nrel_associative_connection: by_nonepithelial_tumors;
+
+    => nrel_legal_act: by_act_w22035542p;
+    => nrel_legal_act: by_act_w60106694;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18931?langname=ru];
+    => nrel_etalon_online_idx: [18931];;

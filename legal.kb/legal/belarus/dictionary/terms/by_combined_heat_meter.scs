@@ -1,0 +1,20 @@
+
+by_combined_heat_meter
+    => nrel_main_idtf: [combined heat meter] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбинированный теплосчетчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбінаваны цеплалічыльнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_twochannel_heat_meter;
+    => nrel_associative_connection: by_single_heat_meter;
+    => nrel_associative_connection: by_measuring_system;
+    => nrel_associative_connection: by_measuring_channel;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31885?langname=ru];
+    => nrel_etalon_online_idx: [31885];;

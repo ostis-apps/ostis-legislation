@@ -1,0 +1,58 @@
+
+by_open_joint_stock_company
+    => nrel_main_idtf: [open joint stock company] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытое акционерное общество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрытае акцыянерае таварыства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_joint_stock_company_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_joint_stock_company_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_jointstock_company;
+    => nrel_associative_connection: by_closed_joint_stock_company;
+    => nrel_associative_connection: by_investment_fund;
+    => nrel_associative_connection: by_cumulative_voting;
+    => nrel_associative_connection: by_open_joint_stock_companies_processing_agricultural_products;
+    => nrel_associative_connection: by_offer_to_purchase_shares;
+    => nrel_associative_connection: by_share_repurchase_offer;
+    => nrel_associative_connection: by_project_for_conversion_of_the_republican_unitary_enterprise_into_an_open_jointstock_company;
+    => nrel_associative_connection: by_articles_of_jointstock_company;
+    => nrel_associative_connection: by_economic_company;
+    => nrel_associative_connection: by_business_entities;
+    => nrel_associative_connection: by_economic_partnerships_and_societies;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_v19202020;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3012?langname=ru];
+    => nrel_etalon_online_idx: [3012];;

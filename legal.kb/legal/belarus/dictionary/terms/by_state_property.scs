@@ -1,0 +1,44 @@
+
+by_state_property
+    => nrel_main_idtf: [state property] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная собственность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная ўласнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lessors_of_lands_owned_by_the_state;
+    => nrel_associative_connection: by_waif;
+    => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_treasury_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_treasure;
+    => nrel_associative_connection: by_state_control_committee;
+    => nrel_associative_connection: by_municipal_property;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_nationalization;
+    => nrel_associative_connection: by_mineral_wealth;
+    => nrel_associative_connection: by_natural_resources;
+    => nrel_associative_connection: by_disposal_of_state_property;
+    => nrel_associative_connection: by_republican_property;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1316?langname=ru];
+    => nrel_etalon_online_idx: [1316];;

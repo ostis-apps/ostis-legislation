@@ -1,0 +1,32 @@
+
+by_index_of_growth
+    => nrel_main_idtf: [index of growth] (* <- lang_en;; *);
+    => nrel_main_idtf: [индекс роста] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індэкс росту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_index_of_growth_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_statistical_indicator;
+    => nrel_associative_connection: by_insurance_contribution;
+
+    => nrel_legal_act: by_act_w20819709;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9178?langname=ru];
+    => nrel_etalon_online_idx: [9178];;

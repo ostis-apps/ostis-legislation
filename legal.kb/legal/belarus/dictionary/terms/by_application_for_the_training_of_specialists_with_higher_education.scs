@@ -1,0 +1,36 @@
+
+by_application_for_the_training_of_specialists_with_higher_education
+    => nrel_main_idtf: [application for the training of specialists with higher education] (* <- lang_en;; *);
+    => nrel_main_idtf: [заявка на подготовку специалистов с высшим образованием] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заяўка на падрыхтоўку спецыялістаў з вышэйшай адукацыяй] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_application_for_the_training_of_specialists_with_higher_education_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_application_for_training_workers_with_vocational_and_technical_education_employees_with_vocational_and_technical_education;
+    => nrel_associative_connection: by_workeremployee_training_request;
+    => nrel_associative_connection: by_application_for_training_of_specialists;
+    => nrel_associative_connection: by_application_for_training_specialists_with_secondary_special_education_workers_with_secondary_special_education;
+    => nrel_associative_connection: by_application_for_training_of_specialists_workers;
+    => nrel_associative_connection: by_target_development_of_human_resources_workers_and_employees;
+
+    => nrel_legal_act: by_act_Hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41667?langname=ru];
+    => nrel_etalon_online_idx: [41667];;

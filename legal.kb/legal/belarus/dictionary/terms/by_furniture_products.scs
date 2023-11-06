@@ -1,0 +1,35 @@
+
+by_furniture_products
+    => nrel_main_idtf: [furniture products] (* <- lang_en;; *);
+    => nrel_main_idtf: [мебельная продукция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мэблевая прадукцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_furniture_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wood;
+    => nrel_associative_connection: by_product_quality;
+    => nrel_associative_connection: by_design_documentation;
+    => nrel_associative_connection: by_furniture_product;
+    => nrel_associative_connection: by_mountable_furniture;
+
+    => nrel_legal_act: by_act_w22035345p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33586?langname=ru];
+    => nrel_etalon_online_idx: [33586];;

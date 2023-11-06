@@ -1,0 +1,98 @@
+
+by_shipowner
+    => nrel_main_idtf: [shipowner] (* <- lang_en;; *);
+    => nrel_main_idtf: [судовладелец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суднаўладальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipowner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipowner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipowner_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipowner_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shipowner_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_consignee;
+    => nrel_associative_connection: by_lease_contract_freight_for_a_time__of_ship_with_crew_time_charter;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_HK9900321;
+    => nrel_legal_act: by_act_n21900092;
+    => nrel_legal_act: by_act_n20100140;
+    => nrel_legal_act: by_act_i06500009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24506?langname=ru];
+    => nrel_etalon_online_idx: [24506];;

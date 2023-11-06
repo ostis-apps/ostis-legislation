@@ -1,0 +1,35 @@
+
+by_compensating_products
+    => nrel_main_idtf: [compensating products] (* <- lang_en;; *);
+    => nrel_main_idtf: [компенсационная продукция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампенсацыйная прадукцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensating_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_all_available_payments;
+    => nrel_associative_connection: by_concession_grantor;
+    => nrel_associative_connection: by_concession_agreement;
+    => nrel_associative_connection: by_concession_authority;
+    => nrel_associative_connection: by_products;
+
+    => nrel_legal_act: by_act_h11300063;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10426?langname=ru];
+    => nrel_etalon_online_idx: [10426];;

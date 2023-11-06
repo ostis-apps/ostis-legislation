@@ -1,0 +1,33 @@
+
+by_members_of_a_diplomatic_officers_family
+    => nrel_main_idtf: [members of a diplomatic officer's family] (* <- lang_en;; *);
+    => nrel_main_idtf: [члены семьи дипломатического работника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [члены сям'і дыпламатычнага работніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_members_of_a_diplomatic_officers_family_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diplomatic_service;
+    => nrel_associative_connection: by_family_members;
+    => nrel_associative_connection: by_workers_family_members;
+
+    => nrel_legal_act: by_act_p30800276;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7205?langname=ru];
+    => nrel_etalon_online_idx: [7205];;

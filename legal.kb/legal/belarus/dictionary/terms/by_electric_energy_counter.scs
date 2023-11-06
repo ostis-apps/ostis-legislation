@@ -1,0 +1,43 @@
+
+by_electric_energy_counter
+    => nrel_main_idtf: [electric energy counter] (* <- lang_en;; *);
+    => nrel_main_idtf: [счетчик электрической энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лічыльнік электрычнай энергіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_energy_counter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_available_throughput_of_electric_network;
+    => nrel_associative_connection: by_induction_counter;
+    => nrel_associative_connection: by_housing_flapboard;
+    => nrel_associative_connection: by_control_counter;
+    => nrel_associative_connection: by_multitariff_counter;
+    => nrel_associative_connection: by_electricity_metering_device;
+    => nrel_associative_connection: by_calculated_commercial_electricity_metering;
+    => nrel_associative_connection: by_calculated_counter;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_static_counter;
+    => nrel_associative_connection: by_electric_energy_power_meter;
+    => nrel_associative_connection: by_electric_energy_power_counter_with_splitted_architecture;
+    => nrel_associative_connection: by_technical_control_accounting_of_electric_energy;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24592?langname=ru];
+    => nrel_etalon_online_idx: [24592];;

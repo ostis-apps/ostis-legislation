@@ -1,0 +1,88 @@
+
+by_aviation_event
+    => nrel_main_idtf: [aviation event] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиационное событие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяцыйная падзея] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_event_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_event_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aviation_event_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_position;
+    => nrel_associative_connection: by_aviation_security;
+    => nrel_associative_connection: by_aviation_accident;
+    => nrel_associative_connection: by_aviation_incident;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_state_of_occurrence;
+    => nrel_associative_connection: by_aviation_department;
+    => nrel_associative_connection: by_aircraft_safety_ensuring;
+    => nrel_associative_connection: by_exploration_work;
+    => nrel_associative_connection: by_investigation_of_aviation_event;
+
+    => nrel_legal_act: by_act_hk0600117;
+    => nrel_legal_act: by_act_w21530476p;
+    => nrel_legal_act: by_act_w21530333p;
+    => nrel_legal_act: by_act_n00900674;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/910?langname=ru];
+    => nrel_etalon_online_idx: [910];;

@@ -1,0 +1,37 @@
+
+by_mini_mba
+    => nrel_main_idtf: [mini mba] (* <- lang_en;; *);
+    => nrel_main_idtf: [мини mba] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міні mba] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mini_mba_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_distance_teaching;
+    => nrel_associative_connection: by_distance_teaching_mba;
+    => nrel_associative_connection: by_remote_educational_technologies;
+    => nrel_associative_connection: by_full_time_mba;
+    => nrel_associative_connection: by_mba_program;
+    => nrel_associative_connection: by_executive_mba_emba;
+    => nrel_associative_connection: by_business_education_system;
+
+    => nrel_legal_act: by_act_c21500734;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26827?langname=ru];
+    => nrel_etalon_online_idx: [26827];;

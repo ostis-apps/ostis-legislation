@@ -1,0 +1,40 @@
+
+by_citizenship_of_the_republic_of_belarus
+    => nrel_main_idtf: [citizenship of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [гражданство республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадзянства рэспублікі беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_citizenship_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarus;
+    => nrel_associative_connection: by_byelorussians_living_abroad;
+    => nrel_associative_connection: by_forced_migration;
+    => nrel_associative_connection: by_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_nativeborn_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_document_confirming_the_citizenship_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_stateless_person;
+    => nrel_associative_connection: by_refuge;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_legal_act: by_act_h10200136;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1364?langname=ru];
+    => nrel_etalon_online_idx: [1364];;

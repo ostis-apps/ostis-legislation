@@ -1,0 +1,89 @@
+
+by_documentation
+    => nrel_main_idtf: [documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [документация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documentation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_autobiography;
+    => nrel_associative_connection: by_maintenance_of_catalogue;
+    => nrel_associative_connection: by_excerpt_from_the_primary_or_secondary_list_of_products;
+    => nrel_associative_connection: by_contractual_documents;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_ais_documentation_calculation;
+    => nrel_associative_connection: by_documentation_for_negotiations;
+    => nrel_associative_connection: by_documentation_for_preliminary_qualification_selection_of_bidders;
+    => nrel_associative_connection: by_documented_information;
+    => nrel_associative_connection: by_document_exchange_and_redistribution_of_documents;
+    => nrel_associative_connection: by_protection_of_information_of_the_electronic_data_bank;
+    => nrel_associative_connection: by_manufacturers_instruction;
+    => nrel_associative_connection: by_information_resource_of_land_monitoring;
+    => nrel_associative_connection: by_executivetechnical_documentation;
+    => nrel_associative_connection: by_use_of_documents;
+    => nrel_associative_connection: by_use_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_catalogue_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_catalogue_description_sheet_of_a_supply_article;
+    => nrel_associative_connection: by_tender_documentation;
+    => nrel_associative_connection: by_design_documentation;
+    => nrel_associative_connection: by_copies_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_research_scientific_documentation;
+    => nrel_associative_connection: by_unpublished_documents;
+    => nrel_associative_connection: by_normative_and_technical_documentation;
+    => nrel_associative_connection: by_normative_document_on_quality;
+    => nrel_associative_connection: by_maintenance_of_documents_safe;
+    => nrel_associative_connection: by_documents_review;
+    => nrel_associative_connection: by_common_cause;
+    => nrel_associative_connection: by_volume_of_documents_circulation;
+    => nrel_associative_connection: by_mandatory_free_copy_of_documents;
+    => nrel_associative_connection: by_operational_storage_of_documents;
+    => nrel_associative_connection: by_operational_storage_of_notary_documents;
+    => nrel_associative_connection: by_operational_service_documents;
+    => nrel_associative_connection: by_organization_of_documents_storage;
+    => nrel_associative_connection: by_official_documents;
+    => nrel_associative_connection: by_hunting_documentation;
+    => nrel_associative_connection: by_primary_documents;
+    => nrel_associative_connection: by_primary_medical_documents;
+    => nrel_associative_connection: by_predesign_preinvestment_documentation;
+    => nrel_associative_connection: by_working_documentation;
+    => nrel_associative_connection: by_technological_documentation;
+    => nrel_associative_connection: by_academic_methodological_documentation;
+
+    => nrel_legal_act: by_act_w22136837p;
+    => nrel_legal_act: by_act_w22035089p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12085?langname=ru];
+    => nrel_etalon_online_idx: [12085];;

@@ -1,0 +1,31 @@
+
+by_by_state_aircraft_introductory_flight
+    => nrel_main_idtf: [by_state_aircraft_introductory_flight] (* <- lang_en;; *);
+    => nrel_main_idtf: [ознакомительный полет государственного воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [азнаямленчы палёт дзяржаўнага паветранага судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_state_aircraft_introductory_flight_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_introduction_flight;
+
+    => nrel_legal_act: by_act_w22238995p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42098?langname=ru];
+    => nrel_etalon_online_idx: [42098];;

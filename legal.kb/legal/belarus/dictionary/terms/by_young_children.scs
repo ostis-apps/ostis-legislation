@@ -1,0 +1,33 @@
+
+by_young_children
+    => nrel_main_idtf: [young children] (* <- lang_en;; *);
+    => nrel_main_idtf: [малолетние дети] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малалетнія дзеці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_young_children_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_juvenile;
+    => nrel_associative_connection: by_basic_firefighting_capability;
+
+    => nrel_legal_act: by_act_w22035259p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33170?langname=ru];
+    => nrel_etalon_online_idx: [33170];;

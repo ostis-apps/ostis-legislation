@@ -1,0 +1,37 @@
+
+by_twostage_rate
+    => nrel_main_idtf: [two-stage rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [двухставочный тариф] (* <- lang_ru;; *);
+    => nrel_main_idtf: [двухставочный тарыф] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_twostage_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_twostage_rate_on_electric_energy_power;
+    => nrel_associative_connection: by_additional_rate_of_doublerate_tariff;
+    => nrel_associative_connection: by_basic_rate_of_twostage_tariff;
+    => nrel_associative_connection: by_calculated_counter;
+    => nrel_associative_connection: by_calculation_accounting_of_electrical_energy;
+    => nrel_associative_connection: by_tariff;
+    => nrel_associative_connection: by_tariff_ratio;
+
+    => nrel_legal_act: by_act_w20208732;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13993?langname=ru];
+    => nrel_etalon_online_idx: [13993];;

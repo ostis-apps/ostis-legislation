@@ -1,0 +1,40 @@
+
+by_aerodynamic_profiles_with_changed_geometry
+    => nrel_main_idtf: [aerodynamic profiles with changed geometry] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродинамические профили с изменяемой геометрией] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадынамічныя профілі са зменнай геаметрыяй] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodynamic_profiles_with_changed_geometry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodynamic_performance;
+    => nrel_associative_connection: by_unmanned_air_aircraft_ua;
+    => nrel_associative_connection: by_unmanned_aerial_vehicle;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_airship;
+    => nrel_associative_connection: by_fibrous_or_filamentous_materials;
+    => nrel_associative_connection: by_air_and_space_craft;
+    => nrel_associative_connection: by_air_and_space_craft_asc;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_direct_flight_control;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12587?langname=ru];
+    => nrel_etalon_online_idx: [12587];;

@@ -1,0 +1,66 @@
+
+by_document_for_traveling_abroad
+    => nrel_main_idtf: [document for traveling abroad] (* <- lang_en;; *);
+    => nrel_main_idtf: [документ для выезда за границу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакумент для выезду за граніцу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_document_for_traveling_abroad_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_document_for_traveling_abroad_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_document_for_traveling_abroad_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_databank_on_citizens_whose_right_to_exit_from_the_republic_of_belarus_is_temporarily_restricted;
+    => nrel_associative_connection: by_biometric_residence_permit_in_the_republic_of_belarus_of_a_foreign_citizen;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_passport;
+
+    => nrel_legal_act: by_act_h11000105;
+    => nrel_legal_act: by_act_p31400175;
+    => nrel_legal_act: by_act_p39400209;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10096?langname=ru];
+    => nrel_etalon_online_idx: [10096];;

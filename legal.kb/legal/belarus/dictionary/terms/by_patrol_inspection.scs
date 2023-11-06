@@ -1,0 +1,37 @@
+
+by_patrol_inspection
+    => nrel_main_idtf: [patrol inspection] (* <- lang_en;; *);
+    => nrel_main_idtf: [осмотр патрульный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агляд патрульны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_patrol_inspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_critical_defects;
+    => nrel_associative_connection: by_travelling_clothes;
+    => nrel_associative_connection: by_drain_rain_intake_well;
+    => nrel_associative_connection: by_season_inspection;
+    => nrel_associative_connection: by_quality_assessment_of_content_and_operational_status_of_streets;
+    => nrel_associative_connection: by_inspection_well;
+    => nrel_associative_connection: by_special_targeted_inspections;
+
+    => nrel_legal_act: by_act_w210p0406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31455?langname=ru];
+    => nrel_etalon_online_idx: [31455];;

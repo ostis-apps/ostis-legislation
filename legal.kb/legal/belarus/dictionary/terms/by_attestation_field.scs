@@ -1,0 +1,53 @@
+
+by_attestation_field
+    => nrel_main_idtf: [attestation field] (* <- lang_en;; *);
+    => nrel_main_idtf: [область аттестации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галіна атэстацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_attestation_field_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_attestation_field_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_contestant;
+    => nrel_associative_connection: by_certificate_of_professional_certification;
+    => nrel_associative_connection: by_certificate_of_the_expert_in_the_area_of_industrial_safety;
+    => nrel_associative_connection: by_expert;
+    => nrel_associative_connection: by_expertise;
+    => nrel_associative_connection: by_expert_body;
+
+    => nrel_legal_act: by_act_c22000187;
+    => nrel_legal_act: by_act_c21600614;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8233?langname=ru];
+    => nrel_etalon_online_idx: [8233];;

@@ -1,0 +1,53 @@
+
+by_labour_resources
+    => nrel_main_idtf: [labour resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [трудовые ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працоўныя рэсурсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_labour_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_labour_resources_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_staff_policy;
+    => nrel_associative_connection: by_additional_need_in_labor_resources;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_rate_of_primary_employment;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_resources;
+
+    => nrel_legal_act: by_act_p30100399;
+    => nrel_legal_act: by_act_t21302366p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3510?langname=ru];
+    => nrel_etalon_online_idx: [3510];;

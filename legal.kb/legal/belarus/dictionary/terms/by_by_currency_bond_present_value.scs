@@ -1,0 +1,22 @@
+
+by_by_currency_bond_present_value
+    => nrel_main_idtf: [by_currency_bond_present_value] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущая стоимость валютной облигации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучы кошт валютнай аблігацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_application_for_purchase_of_foreign_currency_bonds;
+    => nrel_associative_connection: by_application_for_sale_of_bonds;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_purchase_price_of_securities;
+    => nrel_associative_connection: by_present_discounted_cost;
+    => nrel_associative_connection: by_interest_bonds;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24730?langname=ru];
+    => nrel_etalon_online_idx: [24730];;

@@ -1,0 +1,35 @@
+
+by_duplication
+    => nrel_main_idtf: [duplication] (* <- lang_en;; *);
+    => nrel_main_idtf: [дублирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дубліраванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_duplication_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database_duplicate;
+    => nrel_associative_connection: by_dublicates_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_plyingup_equipment;
+    => nrel_associative_connection: by_doublenegative;
+    => nrel_associative_connection: by_internegative;
+
+    => nrel_legal_act: by_act_c21500854;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14536?langname=ru];
+    => nrel_etalon_online_idx: [14536];;

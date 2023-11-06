@@ -1,0 +1,33 @@
+
+by_malicious_hooliganism
+    => nrel_main_idtf: [malicious hooliganism] (* <- lang_en;; *);
+    => nrel_main_idtf: [злостное хулиганство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [злоснае хуліганства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_malicious_hooliganism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_group_of_persons;
+    => nrel_associative_connection: by_hooligan_motives;
+    => nrel_associative_connection: by_hooliganism;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2589?langname=ru];
+    => nrel_etalon_online_idx: [2589];;

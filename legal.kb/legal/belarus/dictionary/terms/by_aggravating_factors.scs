@@ -1,0 +1,37 @@
+
+by_aggravating_factors
+    => nrel_main_idtf: [aggravating factors] (* <- lang_en;; *);
+    => nrel_main_idtf: [отягощающие факторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абцяржарваючыя фактары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aggravating_factors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sick_person_with_tuberculosis;
+    => nrel_associative_connection: by_curing_a_patient_with_tuberculosis;
+    => nrel_associative_connection: by_isolate;
+    => nrel_associative_connection: by_infected_object;
+    => nrel_associative_connection: by_cohort;
+    => nrel_associative_connection: by_round_of_chemo;
+    => nrel_associative_connection: by_pulmonary_tuberculosis_who_definition;
+
+    => nrel_legal_act: by_act_w61933801p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31631?langname=ru];
+    => nrel_etalon_online_idx: [31631];;

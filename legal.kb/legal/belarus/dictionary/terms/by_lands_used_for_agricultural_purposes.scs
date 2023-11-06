@@ -1,0 +1,38 @@
+
+by_lands_used_for_agricultural_purposes
+    => nrel_main_idtf: [lands used for agricultural purposes] (* <- lang_en;; *);
+    => nrel_main_idtf: [земли сельскохозяйственного назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [землі сельскагаспадарчага прызначэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lands_used_for_agricultural_purposes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_land;
+    => nrel_associative_connection: by_fallow_lands;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_land;
+    => nrel_associative_connection: by_governing_body_of_agricultural_organization;
+    => nrel_associative_connection: by_arable_land;
+    => nrel_associative_connection: by_working_estimated_plot;
+    => nrel_associative_connection: by_agricultural_lands;
+
+    => nrel_legal_act: by_act_hk0800425;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4324?langname=ru];
+    => nrel_etalon_online_idx: [4324];;

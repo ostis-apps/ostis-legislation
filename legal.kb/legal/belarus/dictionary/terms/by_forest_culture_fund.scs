@@ -1,0 +1,33 @@
+
+by_forest_culture_fund
+    => nrel_main_idtf: [forest culture fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесокультурный фонд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесакультурны фонд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_culture_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reforestation;
+    => nrel_associative_connection: by_planting_area;
+    => nrel_associative_connection: by_afforestation;
+
+    => nrel_legal_act: by_act_w22238118;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40194?langname=ru];
+    => nrel_etalon_online_idx: [40194];;

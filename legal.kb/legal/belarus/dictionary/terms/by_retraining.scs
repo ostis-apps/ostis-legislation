@@ -1,0 +1,57 @@
+
+by_retraining
+    => nrel_main_idtf: [retraining] (* <- lang_en;; *);
+    => nrel_main_idtf: [переподготовка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перападрыхтоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_retraining_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_retraining_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarusian_language_and_literature;
+    => nrel_associative_connection: by_additional_education_for_adults;
+    => nrel_associative_connection: by_institute_of_qualification_upgrading_and_retraining;
+    => nrel_associative_connection: by_musical_art;
+    => nrel_associative_connection: by_education_for_adults;
+    => nrel_associative_connection: by_educational_program_for_retraining_of_workers_employees;
+    => nrel_associative_connection: by_educational_program_for_retraining_of_managers_and_specialists_having_higher_education;
+    => nrel_associative_connection: by_educational_program_for_retraining_of_managers_and_specialists_having_secondary_specialized_education;
+    => nrel_associative_connection: by_typical_curriculum_for_the_retraining_of_workers_employees_by_the_profession;
+    => nrel_associative_connection: by_typical_curriculum_by_specialty_of_retraining;
+    => nrel_associative_connection: by_center_for_training_professional_development_and_retraining_of_workers;
+
+    => nrel_legal_act: by_act_w22035355p;
+    => nrel_legal_act: by_act_w20411536;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20045?langname=ru];
+    => nrel_etalon_online_idx: [20045];;

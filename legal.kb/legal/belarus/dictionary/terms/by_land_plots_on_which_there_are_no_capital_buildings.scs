@@ -1,0 +1,33 @@
+
+by_land_plots_on_which_there_are_no_capital_buildings
+    => nrel_main_idtf: [land plots on which there are no capital buildings] (* <- lang_en;; *);
+    => nrel_main_idtf: [земельные участки, на которых отсутствуют капитальные строения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зямельныя участкі, на якіх адсутнічаюць капітальныя збудаванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_plots_on_which_there_are_no_capital_buildings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_capital_structure;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_capital_structures_buildings_constructions;
+
+    => nrel_legal_act: by_act_p32000160;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41020?langname=ru];
+    => nrel_etalon_online_idx: [41020];;

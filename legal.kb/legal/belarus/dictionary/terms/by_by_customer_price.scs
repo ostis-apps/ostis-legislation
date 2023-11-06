@@ -1,0 +1,36 @@
+
+by_by_customer_price
+    => nrel_main_idtf: [by_customer_price] (* <- lang_en;; *);
+    => nrel_main_idtf: [цена заказчика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цана заказчыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_customer_price_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_customer;
+    => nrel_associative_connection: by_contracting_works;
+    => nrel_associative_connection: by_current_prices_tariffs;
+    => nrel_associative_connection: by_consolidated_cost_standards_for_the_type_of_work;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_order_price;
+
+    => nrel_legal_act: by_act_c21101553;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26201?langname=ru];
+    => nrel_etalon_online_idx: [26201];;

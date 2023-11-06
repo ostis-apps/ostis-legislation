@@ -1,0 +1,34 @@
+
+by_raid
+    => nrel_main_idtf: [raid] (* <- lang_en;; *);
+    => nrel_main_idtf: [рейд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэйд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_raid_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basin;
+    => nrel_associative_connection: by_port_aquatory;
+    => nrel_associative_connection: by_port;
+    => nrel_associative_connection: by_vessel_pass;
+
+    => nrel_legal_act: by_act_w20514238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41373?langname=ru];
+    => nrel_etalon_online_idx: [41373];;

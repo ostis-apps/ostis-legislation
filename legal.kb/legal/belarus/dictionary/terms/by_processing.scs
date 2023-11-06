@@ -1,0 +1,38 @@
+
+by_processing
+    => nrel_main_idtf: [processing] (* <- lang_en;; *);
+    => nrel_main_idtf: [процессинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэсінг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_processing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_atm;
+    => nrel_associative_connection: by_completion_of_obtaining_processing_services;
+    => nrel_associative_connection: by_interbank_processing_center;
+    => nrel_associative_connection: by_beginning_of_obtaining_processing_services;
+    => nrel_associative_connection: by_organisation_of_trade_service;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_processing_center;
+    => nrel_associative_connection: by_cash_emission_point;
+
+    => nrel_legal_act: by_act_h12200164;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/339?langname=ru];
+    => nrel_etalon_online_idx: [339];;

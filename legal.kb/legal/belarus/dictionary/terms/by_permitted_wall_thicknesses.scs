@@ -1,0 +1,33 @@
+
+by_permitted_wall_thicknesses
+    => nrel_main_idtf: [permitted wall thicknesses] (* <- lang_en;; *);
+    => nrel_main_idtf: [допустимая толщина стенки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапушчальная таўшчыня сценкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permitted_wall_thicknesses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_plug;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_actual_pipeline_wall_thickness;
+
+    => nrel_legal_act: by_act_w22035473p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14439?langname=ru];
+    => nrel_etalon_online_idx: [14439];;

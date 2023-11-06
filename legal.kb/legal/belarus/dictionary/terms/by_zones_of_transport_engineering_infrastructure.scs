@@ -1,0 +1,36 @@
+
+by_zones_of_transport_engineering_infrastructure
+    => nrel_main_idtf: [zones of transport, engineering infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [зоны транспортной, инженерной инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зоны транспартнай, інжынернай інфраструктуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zones_of_transport_engineering_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_zones;
+    => nrel_associative_connection: by_zones_of_urban_planning_development_of_settlements;
+    => nrel_associative_connection: by_residential_apartment_building_zones;
+    => nrel_associative_connection: by_residential_estate_building_zones;
+    => nrel_associative_connection: by_mixed_building_zones_publicresidential;
+    => nrel_associative_connection: by_production_zones;
+
+    => nrel_legal_act: by_act_h10400300;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36688?langname=ru];
+    => nrel_etalon_online_idx: [36688];;

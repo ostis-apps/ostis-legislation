@@ -1,0 +1,53 @@
+
+by_materiality_in_the_audit
+    => nrel_main_idtf: [materiality in the audit] (* <- lang_en;; *);
+    => nrel_main_idtf: [существенность в аудите] (* <- lang_ru;; *);
+    => nrel_main_idtf: [істотнасць у аўдыце] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_materiality_in_the_audit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_materiality_in_the_audit_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_indicator_of_accounting_and_or_financial_statements;
+    => nrel_associative_connection: by_anomalous_error;
+    => nrel_associative_connection: by_permissible_error;
+    => nrel_associative_connection: by_expected_error;
+    => nrel_associative_connection: by_representative_error;
+    => nrel_associative_connection: by_professional_skepticism;
+    => nrel_associative_connection: by_importance_level;
+
+    => nrel_legal_act: by_act_w20105214;
+    => nrel_legal_act: by_act_w20004360;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24540?langname=ru];
+    => nrel_etalon_online_idx: [24540];;

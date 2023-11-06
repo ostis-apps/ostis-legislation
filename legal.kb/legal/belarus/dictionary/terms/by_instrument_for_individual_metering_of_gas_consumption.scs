@@ -1,0 +1,36 @@
+
+by_instrument_for_individual_metering_of_gas_consumption
+    => nrel_main_idtf: [instrument for individual metering of gas consumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [прибор индивидуального учета расхода газа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыбор індывідуальнага ўліку расходу газу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instrument_for_individual_metering_of_gas_consumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gas_metering_instrument;
+    => nrel_associative_connection: by_serviceable_measuring_instrument;
+    => nrel_associative_connection: by_verification_of_instrumentations;
+    => nrel_associative_connection: by_gas_user;
+    => nrel_associative_connection: by_gas_consumer;
+    => nrel_associative_connection: by_measuring_instrument;
+
+    => nrel_legal_act: by_act_C20701539;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41577?langname=ru];
+    => nrel_etalon_online_idx: [41577];;

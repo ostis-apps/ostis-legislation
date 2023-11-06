@@ -1,0 +1,21 @@
+
+by_organization_accounting_for_the_assets
+    => nrel_main_idtf: [organization accounting for the assets] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация-балансодержатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя-балансатрымальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_balances;
+    => nrel_associative_connection: by_departmental_housing_fund;
+    => nrel_associative_connection: by_housing_fund;
+    => nrel_associative_connection: by_housing_fund_of_statefinanced_organization;
+    => nrel_associative_connection: by_organization_accounting_for_the_assets_of_departmental_housing_fund;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12135?langname=ru];
+    => nrel_etalon_online_idx: [12135];;

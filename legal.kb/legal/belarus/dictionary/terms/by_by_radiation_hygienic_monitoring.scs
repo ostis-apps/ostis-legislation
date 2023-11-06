@@ -1,0 +1,34 @@
+
+by_by_radiation_hygienic_monitoring
+    => nrel_main_idtf: [by_radiation_hygienic_monitoring] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиационно-гигиенический мониторинг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыяцыйна-гігіенічны маніторынг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_radiation_hygienic_monitoring_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_works_and_services_that_can_affect_radiation_safety;
+    => nrel_associative_connection: by_radiation_device;
+    => nrel_associative_connection: by_radiation_incident;
+    => nrel_associative_connection: by_radiation_control;
+
+    => nrel_legal_act: by_act_h11900198;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36740?langname=ru];
+    => nrel_etalon_online_idx: [36740];;

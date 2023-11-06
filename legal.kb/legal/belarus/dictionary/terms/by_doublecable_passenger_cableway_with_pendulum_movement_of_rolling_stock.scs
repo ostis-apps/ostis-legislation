@@ -1,0 +1,36 @@
+
+by_doublecable_passenger_cableway_with_pendulum_movement_of_rolling_stock
+    => nrel_main_idtf: [double-cable passenger cableway with pendulum movement of rolling stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [двухканатная пассажирская канатная дорога с маятниковым движением подвижного состава] (* <- lang_ru;; *);
+    => nrel_main_idtf: [двухканатная пасажырская канатная дарога з маятнікавым рухам рухомага составу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_doublecable_passenger_cableway_with_pendulum_movement_of_rolling_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner_of_passenger_cable_cars;
+    => nrel_associative_connection: by_doublechannel_pendular_road;
+    => nrel_associative_connection: by_singlecable_passenger_cableway_with_pendulum_rolling_stock;
+    => nrel_associative_connection: by_passenger_aerial_ropeway;
+    => nrel_associative_connection: by_passenger_cableways_with_pulsing_motion;
+    => nrel_associative_connection: by_cable_road_management_system;
+
+    => nrel_legal_act: by_act_w22339538p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42440?langname=ru];
+    => nrel_etalon_online_idx: [42440];;

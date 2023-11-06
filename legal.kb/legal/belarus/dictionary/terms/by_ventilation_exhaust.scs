@@ -1,0 +1,49 @@
+
+by_ventilation_exhaust
+    => nrel_main_idtf: [ventilation exhaust] (* <- lang_en;; *);
+    => nrel_main_idtf: [вентиляционный выброс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вентыляцыйны выкід] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ventilation_exhaust_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ventilation_exhaust_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ventilation_system;
+    => nrel_associative_connection: by_ventilation;
+    => nrel_associative_connection: by_exhaust_smoke_ventilation_system;
+
+    => nrel_legal_act: by_act_w22136400p;
+    => nrel_legal_act: by_act_w02035796p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37232?langname=ru];
+    => nrel_etalon_online_idx: [37232];;

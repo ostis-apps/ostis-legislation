@@ -1,0 +1,51 @@
+
+by_program_of_voluntary_insurance_of_medical_expenses
+    => nrel_main_idtf: [program of voluntary insurance of medical expenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [программа добровольного страхования медицинских расходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграма добраахвотнага страхавання медыцынскіх расходаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_program_of_voluntary_insurance_of_medical_expenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_program_of_voluntary_insurance_of_medical_expenses_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sudden_health_disorder;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_exacerbation_of_chronic_disease;
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_programs;
+
+    => nrel_legal_act: by_act_w21934282;
+    => nrel_legal_act: by_act_w21934282;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21437?langname=ru];
+    => nrel_etalon_online_idx: [21437];;

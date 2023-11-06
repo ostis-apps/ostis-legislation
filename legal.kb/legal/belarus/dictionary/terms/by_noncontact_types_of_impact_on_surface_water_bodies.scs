@@ -1,0 +1,35 @@
+
+by_noncontact_types_of_impact_on_surface_water_bodies
+    => nrel_main_idtf: [non-contact types of impact on surface water bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [бесконтактные виды воздействий на поверхностные водные объекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бескантактавыя віды ўздзеянняў на паверхневыя водныя аб'ект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_noncontact_types_of_impact_on_surface_water_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_permissible_recreational_load_on_surface_water_body;
+    => nrel_associative_connection: by_contact_types_of_impact_to_surface_water_bodies;
+    => nrel_associative_connection: by_surface_water_object;
+    => nrel_associative_connection: by_environmental_rules_and_regulations;
+
+    => nrel_legal_act: by_act_w22237978p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40081?langname=ru];
+    => nrel_etalon_online_idx: [40081];;

@@ -1,0 +1,57 @@
+
+by_by_pool
+    => nrel_main_idtf: [by_pool] (* <- lang_en;; *);
+    => nrel_main_idtf: [пул] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пул] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pool_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pool_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_winning_fund_of_totalizator;
+    => nrel_associative_connection: by_totalizator_game;
+    => nrel_associative_connection: by_totalizator_card_coupon;
+    => nrel_associative_connection: by_totalizator_cash;
+    => nrel_associative_connection: by_clearing_pool;
+    => nrel_associative_connection: by_lottery_rate;
+    => nrel_associative_connection: by_minus_pool;
+    => nrel_associative_connection: by_bet;
+    => nrel_associative_connection: by_registered_testing_pool;
+    => nrel_associative_connection: by_insurance_reinsurance_pool;
+    => nrel_associative_connection: by_totalizator;
+
+    => nrel_legal_act: by_act_c21100211;
+    => nrel_legal_act: by_act_f20400040;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21838?langname=ru];
+    => nrel_etalon_online_idx: [21838];;

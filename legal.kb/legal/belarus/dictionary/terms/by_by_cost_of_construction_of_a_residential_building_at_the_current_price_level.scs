@@ -1,0 +1,36 @@
+
+by_by_cost_of_construction_of_a_residential_building_at_the_current_price_level
+    => nrel_main_idtf: [by_cost_of_construction_of_a_residential_building_at_the_current_price_level] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость строительства жилого дома в текущем уровне цен] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт будаўніцтва жылога дома ў цяперашнім узроўні коштаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_cost_of_construction_of_a_residential_building_at_the_current_price_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_builtin_uninhabited_part_of_a_house;
+    => nrel_associative_connection: by_builtin_nonresidential_part_of_a_residential_building;
+    => nrel_associative_connection: by_integrated_development_of_residential_areas_quarters;
+    => nrel_associative_connection: by_regulatory_allocation_of_costs;
+    => nrel_associative_connection: by_total_area_of_nonresidential_house_part;
+    => nrel_associative_connection: by_total_area_of_nonresidential_part_of_the_residential_building;
+
+    => nrel_legal_act: by_act_w22340048;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42623?langname=ru];
+    => nrel_etalon_online_idx: [42623];;

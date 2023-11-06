@@ -1,0 +1,37 @@
+
+by_extra_payment
+    => nrel_main_idtf: [extra payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [доплата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даплата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_extra_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_precious_metal;
+    => nrel_associative_connection: by_activity_with_precious_metals_and_precious_stones;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_accumulation_of_precious_metals;
+    => nrel_associative_connection: by_precious_metal_testing;
+    => nrel_associative_connection: by_balance_of_prepayment_means;
+    => nrel_associative_connection: by_incentive_payments;
+
+    => nrel_legal_act: by_act_w20716834;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14405?langname=ru];
+    => nrel_etalon_online_idx: [14405];;

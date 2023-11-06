@@ -1,0 +1,36 @@
+
+by_runway_surface_state_descriptors
+    => nrel_main_idtf: [runway surface state descriptors] (* <- lang_en;; *);
+    => nrel_main_idtf: [дескрипторы состояния поверхности взлетно-посадочной полосы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэскрыптары стану паверхні ўзлётна-пасадачнай паласы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_runway_surface_state_descriptors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_main_runway;
+    => nrel_associative_connection: by_contaminated_runway;
+    => nrel_associative_connection: by_final_approach_section;
+    => nrel_associative_connection: by_wet_runway;
+
+    => nrel_legal_act: by_act_w22137064p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38417?langname=ru];
+    => nrel_etalon_online_idx: [38417];;

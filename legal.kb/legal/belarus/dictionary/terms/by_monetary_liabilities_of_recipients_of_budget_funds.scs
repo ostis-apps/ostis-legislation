@@ -1,0 +1,34 @@
+
+by_monetary_liabilities_of_recipients_of_budget_funds
+    => nrel_main_idtf: [monetary liabilities of recipients of budget funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [денежные обязательства получателей бюджетных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грашовыя абавязацельствы атрымальнікаў бюджэтных сродкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monetary_liabilities_of_recipients_of_budget_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budgetary_funds;
+    => nrel_associative_connection: by_monetary_obligations_of_republican_bodies_of_state_administration_local_executive_and_administrative_bodies;
+    => nrel_associative_connection: by_obligations_of_a_legal_entity_to_local_budgets;
+    => nrel_associative_connection: by_obligations_of_a_legal_entity_to_the_republican_budget;
+
+    => nrel_legal_act: by_act_w21327729;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36709?langname=ru];
+    => nrel_etalon_online_idx: [36709];;

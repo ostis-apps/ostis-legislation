@@ -1,0 +1,48 @@
+
+by_production_measure
+    => nrel_main_idtf: [production measure] (* <- lang_en;; *);
+    => nrel_main_idtf: [промысловая мера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прамысловая мера] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_measure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fishing_management;
+    => nrel_associative_connection: by_reproduction_of_fish_resources;
+    => nrel_associative_connection: by_wild_animals_being_relating_to_fishery_objects_fish;
+    => nrel_associative_connection: by_fish_extraction;
+    => nrel_associative_connection: by_limits_of_fishing;
+    => nrel_associative_connection: by_norms_of_permissible_fish_catch;
+    => nrel_associative_connection: by_bycatch;
+    => nrel_associative_connection: by_production_share;
+    => nrel_associative_connection: by_wild_animal_production_measure;
+    => nrel_associative_connection: by_commercial_hunting;
+    => nrel_associative_connection: by_commercial_number;
+    => nrel_associative_connection: by_commercial_fishing;
+    => nrel_associative_connection: by_fishing_gear;
+    => nrel_associative_connection: by_fishery_stock;
+    => nrel_associative_connection: by_fishery_stock_of_fish;
+    => nrel_associative_connection: by_fishery_resources;
+    => nrel_associative_connection: by_fishery;
+    => nrel_associative_connection: by_fish_production;
+
+    => nrel_legal_act: by_act_p32100284;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21628?langname=ru];
+    => nrel_etalon_online_idx: [21628];;

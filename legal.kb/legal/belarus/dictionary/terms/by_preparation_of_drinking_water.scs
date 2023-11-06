@@ -1,0 +1,43 @@
+
+by_preparation_of_drinking_water
+    => nrel_main_idtf: [preparation of drinking water] (* <- lang_en;; *);
+    => nrel_main_idtf: [подготовка питьевой воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падрыхтоўка пітной вады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_preparation_of_drinking_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drinking_water_water_of_drinking_quality;
+    => nrel_associative_connection: by_watersupply_networks;
+    => nrel_associative_connection: by_pollution_of_sources_of_drinking_water_supply;
+    => nrel_associative_connection: by_use_of_water_for_household_and_drinking_needs;
+    => nrel_associative_connection: by_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_water_consumption_rate;
+    => nrel_associative_connection: by_quality_standards_of_drinking_water_normative_requirements;
+    => nrel_associative_connection: by_norms_of_drinking_water_supply;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_drinking_water_supply;
+    => nrel_associative_connection: by_damage_of_drinking_water_system;
+    => nrel_associative_connection: by_drinking_water_consumers_consumers;
+    => nrel_associative_connection: by_household_and_drinking_water;
+
+    => nrel_legal_act: by_act_h19900271;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20356?langname=ru];
+    => nrel_etalon_online_idx: [20356];;

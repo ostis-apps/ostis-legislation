@@ -1,0 +1,47 @@
+
+by_emergency_medical_care
+    => nrel_main_idtf: [emergency medical care] (* <- lang_en;; *);
+    => nrel_main_idtf: [экстренная медицинская помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экстранная медыцынская дапамога] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_medical_care_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_anaphylaxis;
+    => nrel_associative_connection: by_ambulance_brigade;
+    => nrel_associative_connection: by_calling_a_medical_worker_at_the_place_of_residence_place_of_stay_of_the_patient;
+    => nrel_associative_connection: by_emergency_medicine;
+    => nrel_associative_connection: by_medical_care;
+    => nrel_associative_connection: by_medical_service;
+    => nrel_associative_connection: by_mobile_medical_complex;
+    => nrel_associative_connection: by_emergency_medical_care;
+    => nrel_associative_connection: by_first_aid_teaching;
+    => nrel_associative_connection: by_primary_health_care;
+    => nrel_associative_connection: by_priority_of_ambulance_brigade_call;
+    => nrel_associative_connection: by_psychiatric_team_of_emergency_specialized_medical_care;
+    => nrel_associative_connection: by_republican_operational_antiepidemic_team;
+    => nrel_associative_connection: by_republican_sanitarypreventive_team;
+    => nrel_associative_connection: by_emergency;
+    => nrel_associative_connection: by_specialized_medical_aid;
+    => nrel_associative_connection: by_surgical_team_of_emergency_specialized_medical_care;
+
+    => nrel_legal_act: by_act_w60106659;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7247?langname=ru];
+    => nrel_etalon_online_idx: [7247];;

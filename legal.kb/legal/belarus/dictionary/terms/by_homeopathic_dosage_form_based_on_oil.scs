@@ -1,0 +1,34 @@
+
+by_homeopathic_dosage_form_based_on_oil
+    => nrel_main_idtf: [homeopathic dosage form based on oil] (* <- lang_en;; *);
+    => nrel_main_idtf: [гомеопатическая лекарственная форма на основе масла] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гамеапатычная лекавая форма на аснове масла] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_homeopathic_dosage_form_based_on_oil_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stocks;
+    => nrel_associative_connection: by_hydrogenated_oil;
+    => nrel_associative_connection: by_homeopathic_medication;
+    => nrel_associative_connection: by_homeopathic_granules;
+
+    => nrel_legal_act: by_act_w62035842e;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36843?langname=ru];
+    => nrel_etalon_online_idx: [36843];;

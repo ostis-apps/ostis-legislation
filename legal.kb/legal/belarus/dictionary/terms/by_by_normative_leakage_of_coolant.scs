@@ -1,0 +1,51 @@
+
+by_by_normative_leakage_of_coolant
+    => nrel_main_idtf: [by_normative_leakage_of_coolant] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормативная утечка теплоносителя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыўная ўцечка цепланасіцеля] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_normative_leakage_of_coolant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_normative_leakage_of_coolant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_reservation_of_heat_supply;
+    => nrel_associative_connection: by_quality_of_heat_carrying_agent;
+    => nrel_associative_connection: by_nonproducing_superormative_coolant_leakage;
+    => nrel_associative_connection: by_productive_leakage_of_the_heat_carrier;
+    => nrel_associative_connection: by_coolant_leakage;
+
+    => nrel_legal_act: by_act_c21900609;
+    => nrel_legal_act: by_act_w02137282p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32056?langname=ru];
+    => nrel_etalon_online_idx: [32056];;

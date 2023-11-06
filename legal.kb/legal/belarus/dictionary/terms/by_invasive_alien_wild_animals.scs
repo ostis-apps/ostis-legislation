@@ -1,0 +1,35 @@
+
+by_invasive_alien_wild_animals
+    => nrel_main_idtf: [invasive alien wild animals] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвазивные чужеродные дикие животные] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвазійныя чужародныя дзікія жывёлы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_invasive_alien_wild_animals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_area_species_of_wild_animals;
+    => nrel_associative_connection: by_biological_diversity;
+    => nrel_associative_connection: by_biological_diversity_of_animal_world;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_population_of_wild_animals;
+
+    => nrel_legal_act: by_act_h10700257;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15204?langname=ru];
+    => nrel_etalon_online_idx: [15204];;

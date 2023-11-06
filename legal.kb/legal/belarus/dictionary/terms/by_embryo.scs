@@ -1,0 +1,53 @@
+
+by_embryo
+    => nrel_main_idtf: [embryo] (* <- lang_en;; *);
+    => nrel_main_idtf: [эмбрион] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эмбрыён] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_embryo_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_embryo_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assisted_reproductive_technology;
+    => nrel_associative_connection: by_genetic_mother;
+    => nrel_associative_connection: by_cryopreservation;
+    => nrel_associative_connection: by_breeding_products_material;
+    => nrel_associative_connection: by_surrogate_motherhood;
+    => nrel_associative_connection: by_embryo_transplantation;
+    => nrel_associative_connection: by_in_vitro_fertilisation;
+
+    => nrel_legal_act: by_act_h11200341;
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7753?langname=ru];
+    => nrel_etalon_online_idx: [7753];;

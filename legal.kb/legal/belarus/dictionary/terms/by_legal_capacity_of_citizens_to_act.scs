@@ -1,0 +1,38 @@
+
+by_legal_capacity_of_citizens_to_act
+    => nrel_main_idtf: [legal capacity of citizens to act] (* <- lang_en;; *);
+    => nrel_main_idtf: [дееспособность граждан] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзеяздольнасць грамадзян] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_capacity_of_citizens_to_act_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_civil_procedural_active_legal_capacity;
+    => nrel_associative_connection: by_legal_representatives;
+    => nrel_associative_connection: by_juvenile;
+    => nrel_associative_connection: by_minor;
+    => nrel_associative_connection: by_representative_office;
+    => nrel_associative_connection: by_ability_to_control_your_behavior;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2460?langname=ru];
+    => nrel_etalon_online_idx: [2460];;

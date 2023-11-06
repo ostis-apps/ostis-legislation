@@ -1,0 +1,35 @@
+
+by_object_of_a_multiple_residential_building
+    => nrel_main_idtf: [object of a multiple residential building] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект многоквартирного жилого дома] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект шматкватэрнага жылога дома] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_of_a_multiple_residential_building_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_apartment_buildings;
+    => nrel_associative_connection: by_apartment_building;
+    => nrel_associative_connection: by_total_area_of_apartments_project_apartment_building_residential_part_of_house;
+    => nrel_associative_connection: by_reconstruction_of_an_apartment_blocked_oneapartment_residential_building_residential_and_or_nonresidential_premises_in_its_composition_as_well_as_nonresidential_buildings;
+    => nrel_associative_connection: by_components_parts_and_accessories_of_an_apartment_building;
+
+    => nrel_legal_act: by_act_c22200948;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41986?langname=ru];
+    => nrel_etalon_online_idx: [41986];;

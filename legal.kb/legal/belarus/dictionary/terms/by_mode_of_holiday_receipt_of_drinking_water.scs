@@ -1,0 +1,44 @@
+
+by_mode_of_holiday_receipt_of_drinking_water
+    => nrel_main_idtf: [mode of holiday (receipt) of drinking water] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим отпуска (получения) питьевой воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым водпуску (атрымання) пітной вады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mode_of_holiday_receipt_of_drinking_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drinking_water_water_of_drinking_quality;
+    => nrel_associative_connection: by_liquid_municipal_waste;
+    => nrel_associative_connection: by_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_potable_water_consumption_limit;
+    => nrel_associative_connection: by_noncentralized_drinking_water_supply_system;
+    => nrel_associative_connection: by_quality_standards_of_drinking_water_normative_requirements;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_drinking_water_supply;
+    => nrel_associative_connection: by_drinking_water_consumers_consumers;
+    => nrel_associative_connection: by_drinking_water_supply_system;
+    => nrel_associative_connection: by_drinking_water_supply_system_by_vehicle;
+    => nrel_associative_connection: by_subjects_of_relations_in_the_field_of_drinking_water_supply;
+    => nrel_associative_connection: by_packaged_drinking_water;
+    => nrel_associative_connection: by_watersupply_system;
+
+    => nrel_legal_act: by_act_c21600788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22426?langname=ru];
+    => nrel_etalon_online_idx: [22426];;

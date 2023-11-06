@@ -1,0 +1,51 @@
+
+by_quarter
+    => nrel_main_idtf: [quarter] (* <- lang_en;; *);
+    => nrel_main_idtf: [квартал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [квартал] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quarter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quarter_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_builtup_land_plot;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_halfyear;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_h11800130;
+    => nrel_legal_act: by_act_w208p0021;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9238?langname=ru];
+    => nrel_etalon_online_idx: [9238];;

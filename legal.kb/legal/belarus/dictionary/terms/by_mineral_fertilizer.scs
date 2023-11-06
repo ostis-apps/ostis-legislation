@@ -1,0 +1,36 @@
+
+by_mineral_fertilizer
+    => nrel_main_idtf: [mineral fertilizer] (* <- lang_en;; *);
+    => nrel_main_idtf: [минеральное удобрение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінеральнае ўгнаенне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mineral_fertilizer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agrochemicals;
+    => nrel_associative_connection: by_biological_efficiency_of_fertilizer;
+    => nrel_associative_connection: by_active_fertilizer_substance;
+    => nrel_associative_connection: by_paint_material;
+    => nrel_associative_connection: by_expenses_for_delivery_of_mineral_fertilizers;
+    => nrel_associative_connection: by_economic_efficiency_of_a_plant_protection_product_and_fertilizer;
+
+    => nrel_legal_act: by_act_c22000042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32619?langname=ru];
+    => nrel_etalon_online_idx: [32619];;

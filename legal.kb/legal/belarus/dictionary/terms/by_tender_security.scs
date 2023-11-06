@@ -1,0 +1,19 @@
+
+by_tender_security
+    => nrel_main_idtf: [tender security] (* <- lang_en;; *);
+    => nrel_main_idtf: [конкурсное обеспечение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [конкурснае забеспячэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_organizer_of_contract_bidding_negotiations;
+    => nrel_associative_connection: by_contract_bidding;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11357?langname=ru];
+    => nrel_etalon_online_idx: [11357];;

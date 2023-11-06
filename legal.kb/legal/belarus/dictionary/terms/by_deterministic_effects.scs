@@ -1,0 +1,35 @@
+
+by_deterministic_effects
+    => nrel_main_idtf: [deterministic effects] (* <- lang_en;; *);
+    => nrel_main_idtf: [детерминированные эффекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэтэрмінаваныя эфекты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deterministic_effects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bioavailability;
+    => nrel_associative_connection: by_biotransformation;
+    => nrel_associative_connection: by_dose_of_medicine;
+    => nrel_associative_connection: by_dosimetry_of_ionizing_radiation;
+    => nrel_associative_connection: by_clearance;
+
+    => nrel_legal_act: by_act_w22035574p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35371?langname=ru];
+    => nrel_etalon_online_idx: [35371];;

@@ -1,0 +1,34 @@
+
+by_specific_combining_ability
+    => nrel_main_idtf: [specific combining ability] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбинационная способность специфическая] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбінацыйная здольнасць спецыфічная] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specific_combining_ability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_living_organism;
+    => nrel_associative_connection: by_combining_ability;
+    => nrel_associative_connection: by_general_combining_ability;
+    => nrel_associative_connection: by_cross_breeding;
+
+    => nrel_legal_act: by_act_w21631597;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12095?langname=ru];
+    => nrel_etalon_online_idx: [12095];;

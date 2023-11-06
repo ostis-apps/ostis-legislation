@@ -1,0 +1,24 @@
+
+by_trade_in_markets
+    => nrel_main_idtf: [trade in markets] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговля на рынках] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандаль на рынках] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_stall;
+    => nrel_associative_connection: by_tent;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_commodity_market;
+    => nrel_associative_connection: by_trade_area;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_on_trade_places;
+    => nrel_associative_connection: by_universal_market;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9076?langname=ru];
+    => nrel_etalon_online_idx: [9076];;

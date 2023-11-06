@@ -1,0 +1,49 @@
+
+by_testing
+    => nrel_main_idtf: [testing] (* <- lang_en;; *);
+    => nrel_main_idtf: [опробование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апрабаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_testing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_testing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_metal_testing;
+    => nrel_associative_connection: by_assay;
+    => nrel_associative_connection: by_jewellery_and_other_household_goods;
+
+    => nrel_legal_act: by_act_h10200110;
+    => nrel_legal_act: by_act_f01900537;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7774?langname=ru];
+    => nrel_etalon_online_idx: [7774];;

@@ -1,0 +1,23 @@
+
+by_compartmentbar_snack_compartment
+    => nrel_main_idtf: [compartment-bar (snack compartment)] (* <- lang_en;; *);
+    => nrel_main_idtf: [купе-бар (купе-буфет)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [купэ-бар (купэ-буфет)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bar;
+    => nrel_associative_connection: by_snackbar;
+    => nrel_associative_connection: by_grill_bar;
+    => nrel_associative_connection: by_class_of_the_public_catering_object;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_type_of_the_public_catering_object;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11580?langname=ru];
+    => nrel_etalon_online_idx: [11580];;

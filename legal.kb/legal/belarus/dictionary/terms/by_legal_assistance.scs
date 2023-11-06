@@ -1,0 +1,37 @@
+
+by_legal_assistance
+    => nrel_main_idtf: [legal assistance] (* <- lang_en;; *);
+    => nrel_main_idtf: [юридическая помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [юрыдычная дапамога] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_assistance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_advocate_activity;
+    => nrel_associative_connection: by_advocateship;
+    => nrel_associative_connection: by_defence_counsel_in_criminal_proceedings;
+    => nrel_associative_connection: by_notarial_activity;
+    => nrel_associative_connection: by_right_to_legal_assistance;
+    => nrel_associative_connection: by_legal_service_of_the_republican_body_of_state_administration_including_its_department_and_other_state_organization_subordinate_to_the_government_of_the_republic_of_belarus_local_executive_and_administrative_body;
+    => nrel_associative_connection: by_legal_services;
+
+    => nrel_legal_act: by_act_h11100334;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2275?langname=ru];
+    => nrel_etalon_online_idx: [2275];;

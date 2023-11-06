@@ -1,0 +1,34 @@
+
+by_breathing_equipment_kits
+    => nrel_main_idtf: [breathing equipment kits] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплекты дыхательного оборудования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камплекты дыхальнага абсталявання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breathing_equipment_kits_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highcompensation_suit;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_wearable_emergency_stock;
+    => nrel_associative_connection: by_organization_of_flights;
+
+    => nrel_legal_act: by_act_w21530476p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31676?langname=ru];
+    => nrel_etalon_online_idx: [31676];;

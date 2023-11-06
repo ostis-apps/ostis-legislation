@@ -1,0 +1,57 @@
+
+by_authorized_waste_storage_places
+    => nrel_main_idtf: [authorized waste storage places] (* <- lang_en;; *);
+    => nrel_main_idtf: [санкционированные места хранения отходов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санкцыянаваныя месцы захоўвання адходаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_waste_storage_places_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_waste_storage_places_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_waste_handling;
+    => nrel_associative_connection: by_waste_storage_objects;
+    => nrel_associative_connection: by_authorized_disposal_of_waste;
+    => nrel_associative_connection: by_authorized_waste_storage;
+    => nrel_associative_connection: by_authorized_waste_disposal_sites;
+    => nrel_associative_connection: by_waste_collection;
+    => nrel_associative_connection: by_extra_limited_waste_disposable;
+    => nrel_associative_connection: by_technical_safety_measures;
+    => nrel_associative_connection: by_storage_of_communal_waste;
+    => nrel_associative_connection: by_waste_storage;
+    => nrel_associative_connection: by_radioactive_waste_storage;
+
+    => nrel_legal_act: by_act_h10700271;
+    => nrel_legal_act: by_act_f21400091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22839?langname=ru];
+    => nrel_etalon_online_idx: [22839];;

@@ -1,0 +1,36 @@
+
+by_list
+    => nrel_main_idtf: [list] (* <- lang_en;; *);
+    => nrel_main_idtf: [список] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спіс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_list_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_maintenance_of_list;
+    => nrel_associative_connection: by_record_in_list;
+    => nrel_associative_connection: by_protection_of_information_about_foreigners_contained_in_the_list;
+    => nrel_associative_connection: by_catalogue_of_heights_of_leveling_points;
+    => nrel_associative_connection: by_catalogue_of_gravimetric_points;
+    => nrel_associative_connection: by_catalogue_of_geodesic_points_coordinates;
+
+    => nrel_legal_act: by_act_c21001054;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23879?langname=ru];
+    => nrel_etalon_online_idx: [23879];;

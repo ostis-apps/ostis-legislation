@@ -1,0 +1,34 @@
+
+by_observations
+    => nrel_main_idtf: [observations] (* <- lang_en;; *);
+    => nrel_main_idtf: [наблюдения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [назіранні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_observations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydropost;
+    => nrel_associative_connection: by_controlled_zone;
+    => nrel_associative_connection: by_observation_by_the_chronometer_method;
+    => nrel_associative_connection: by_observations_for_rock_pinch_in_the_area_of_their_possible_deformations;
+
+    => nrel_legal_act: by_act_w21732456;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27257?langname=ru];
+    => nrel_etalon_online_idx: [27257];;

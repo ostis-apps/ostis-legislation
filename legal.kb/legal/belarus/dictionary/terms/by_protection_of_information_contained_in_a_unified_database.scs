@@ -1,0 +1,41 @@
+
+by_protection_of_information_contained_in_a_unified_database
+    => nrel_main_idtf: [protection of information contained in a unified database] (* <- lang_en;; *);
+    => nrel_main_idtf: [защита информации, содержащейся в единой базе данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарона інфармацыі, якая змешчана ў адзінай базе даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_information_contained_in_a_unified_database_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_unified_information_database_of_control_supervision_bodies;
+    => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_protection_of_information_contained_in_data_bank;
+    => nrel_associative_connection: by_protection_of_information_contained_in_republican_data_bank;
+    => nrel_associative_connection: by_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_unauthorized_influence_on_information;
+    => nrel_associative_connection: by_organizational_measures_for_information_protection;
+    => nrel_associative_connection: by_legal_measures_for_protecting_information;
+    => nrel_associative_connection: by_system_of_information_protection;
+    => nrel_associative_connection: by_technical_protection_of_information;
+
+    => nrel_legal_act: by_act_c21300074;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14904?langname=ru];
+    => nrel_etalon_online_idx: [14904];;

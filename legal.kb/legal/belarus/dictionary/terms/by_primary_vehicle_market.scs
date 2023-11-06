@@ -1,0 +1,43 @@
+
+by_primary_vehicle_market
+    => nrel_main_idtf: [primary vehicle market] (* <- lang_en;; *);
+    => nrel_main_idtf: [первичный рынок транспортных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [першасны рынак транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_primary_vehicle_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_owner_of_vehicle;
+    => nrel_associative_connection: by_vehicles_owners;
+    => nrel_associative_connection: by_secondary_vehicle_market;
+    => nrel_associative_connection: by_new_property;
+    => nrel_associative_connection: by_new_vehicle;
+    => nrel_associative_connection: by_primary_market;
+    => nrel_associative_connection: by_primary_housing_market;
+    => nrel_associative_connection: by_market;
+    => nrel_associative_connection: by_market_property_cost;
+    => nrel_associative_connection: by_vehicle_owner;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19933?langname=ru];
+    => nrel_etalon_online_idx: [19933];;

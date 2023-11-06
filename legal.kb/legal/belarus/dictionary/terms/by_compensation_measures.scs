@@ -1,0 +1,36 @@
+
+by_compensation_measures
+    => nrel_main_idtf: [compensation measures] (* <- lang_en;; *);
+    => nrel_main_idtf: [компенсационные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кампенсацыйныя мерапрыемствы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensation_measures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_compensation_payments;
+    => nrel_associative_connection: by_compensatory_planting;
+    => nrel_associative_connection: by_flora_monitoring;
+    => nrel_associative_connection: by_objects_of_vegetable_world;
+    => nrel_associative_connection: by_use_of_plant_objects;
+    => nrel_associative_connection: by_flora_resources;
+
+    => nrel_legal_act: by_act_h10300205;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31020?langname=ru];
+    => nrel_etalon_online_idx: [31020];;

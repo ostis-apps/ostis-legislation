@@ -1,0 +1,38 @@
+
+by_population_engaged_in_economy
+    => nrel_main_idtf: [population engaged in economy] (* <- lang_en;; *);
+    => nrel_main_idtf: [население, занятое в экономике] (* <- lang_ru;; *);
+    => nrel_main_idtf: [насельніцтва, занятае ў эканоміцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_population_engaged_in_economy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_employed_population;
+    => nrel_associative_connection: by_employment;
+    => nrel_associative_connection: by_employed_citizens;
+    => nrel_associative_connection: by_population;
+    => nrel_associative_connection: by_working;
+    => nrel_associative_connection: by_working_citizens;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_legal_act: by_act_t21302366p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12123?langname=ru];
+    => nrel_etalon_online_idx: [12123];;

@@ -1,0 +1,55 @@
+
+by_limit_of_production_waste_burial
+    => nrel_main_idtf: [limit of production waste burial] (* <- lang_en;; *);
+    => nrel_main_idtf: [лимит захоронения отходов производства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліміт пахавання адходаў вытворчасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_of_production_waste_burial_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_of_production_waste_burial_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_waste_disposal;
+    => nrel_associative_connection: by_inventory_of_industrial_waste;
+    => nrel_associative_connection: by_limit_of_waste_manufacture_storage;
+    => nrel_associative_connection: by_waste;
+    => nrel_associative_connection: by_industrial_waste;
+    => nrel_associative_connection: by_authorized_disposal_of_waste;
+    => nrel_associative_connection: by_authorized_waste_disposal_sites;
+    => nrel_associative_connection: by_extra_limited_waste_disposable;
+
+    => nrel_legal_act: by_act_h10700271;
+    => nrel_legal_act: by_act_f21400091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16610?langname=ru];
+    => nrel_etalon_online_idx: [16610];;

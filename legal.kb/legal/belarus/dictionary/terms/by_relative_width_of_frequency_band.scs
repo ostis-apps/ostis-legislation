@@ -1,0 +1,36 @@
+
+by_relative_width_of_frequency_band
+    => nrel_main_idtf: [relative width of frequency band ] (* <- lang_en;; *);
+    => nrel_main_idtf: [относительная ширина полосы частот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адносная шырыня паласы частот] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_relative_width_of_frequency_band_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_quick_restructuring_of_radio_station_frequency;
+    => nrel_associative_connection: by_frequency_switching_time;
+    => nrel_associative_connection: by_instant_frequency_width;
+    => nrel_associative_connection: by_real_time_bandwidth;
+    => nrel_associative_connection: by_frequency_synthesizer;
+    => nrel_associative_connection: by_frequency_hopping;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19559?langname=ru];
+    => nrel_etalon_online_idx: [19559];;

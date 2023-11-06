@@ -1,0 +1,34 @@
+
+by_aerodrome_sign_with_permanent_information
+    => nrel_main_idtf: [aerodrome sign with permanent information] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродромный знак с постоянной информацией] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадромны знак з пастаяннай інфармацыяй] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aerodrome_sign_with_permanent_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome_sign_with_variable_information;
+    => nrel_associative_connection: by_important_data;
+    => nrel_associative_connection: by_meteorological_information;
+    => nrel_associative_connection: by_aerodrome_identification_sign;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40998?langname=ru];
+    => nrel_etalon_online_idx: [40998];;

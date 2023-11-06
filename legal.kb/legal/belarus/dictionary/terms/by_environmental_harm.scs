@@ -1,0 +1,86 @@
+
+by_environmental_harm
+    => nrel_main_idtf: [environmental harm] (* <- lang_en;; *);
+    => nrel_main_idtf: [экологический вред] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экалагічная шкода] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_harm_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_harm_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_harm_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_environmental_harm_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_harm_caused_to_the_environment;
+    => nrel_associative_connection: by_environmental_monitoring;
+    => nrel_associative_connection: by_environmental_protection;
+    => nrel_associative_connection: by_damage_to_the_environment_can_result;
+    => nrel_associative_connection: by_environmental_safety;
+    => nrel_associative_connection: by_ecological_commitments;
+    => nrel_associative_connection: by_environmental_insurance;
+
+    => nrel_legal_act: by_act_v19201982;
+    => nrel_legal_act: by_act_n21600035;
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n21400116;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3601?langname=ru];
+    => nrel_etalon_online_idx: [3601];;

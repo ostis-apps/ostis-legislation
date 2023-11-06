@@ -1,0 +1,24 @@
+
+by_metrological_equipment
+    => nrel_main_idtf: [metrological equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологическая техника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічная тэхніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_unit_of_measurement;
+    => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_measuring_equipment;
+    => nrel_associative_connection: by_metrological_attestation_of_instrumentation;
+    => nrel_associative_connection: by_metrological_characteristics_of_measuring_instruments;
+    => nrel_associative_connection: by_metrological_service_of_measuring_instruments_measuring_complexes;
+    => nrel_associative_connection: by_special_measuring_instrument;
+    => nrel_associative_connection: by_measuring_instrument;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27704?langname=ru];
+    => nrel_etalon_online_idx: [27704];;

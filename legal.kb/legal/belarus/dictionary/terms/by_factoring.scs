@@ -1,0 +1,33 @@
+
+by_factoring
+    => nrel_main_idtf: [factoring] (* <- lang_en;; *);
+    => nrel_main_idtf: [факторинговые операции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [факторынгавыя аперацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_factoring_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_financing_at_assignment_monetary_claim_agreement_factoring_agreement;
+    => nrel_associative_connection: by_nonbank_financial_organizations;
+
+    => nrel_legal_act: by_act_p31500471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7121?langname=ru];
+    => nrel_etalon_online_idx: [7121];;

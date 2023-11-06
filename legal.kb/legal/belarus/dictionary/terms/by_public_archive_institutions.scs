@@ -1,0 +1,44 @@
+
+by_public_archive_institutions
+    => nrel_main_idtf: [public archive institutions] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные архивные учреждения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя архіўныя ўстановы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_archive_institutions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archival_science;
+    => nrel_associative_connection: by_state_archive;
+    => nrel_associative_connection: by_sources_of_acquisition_of_the_state_archives;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_classification_of_documents_within_the_archive;
+    => nrel_associative_connection: by_classification_of_documents_within_the_archive_fund;
+    => nrel_associative_connection: by_classification_of_documents_within_national_archive_fund;
+    => nrel_associative_connection: by_archive_completion;
+    => nrel_associative_connection: by_completing_the_archive_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_national_archive_fund;
+    => nrel_associative_connection: by_archives_and_records_management_authorities;
+    => nrel_associative_connection: by_archive_profile;
+    => nrel_associative_connection: by_system_of_scientific_reference_apparatus;
+
+    => nrel_legal_act: by_act_h11100323;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10160?langname=ru];
+    => nrel_etalon_online_idx: [10160];;

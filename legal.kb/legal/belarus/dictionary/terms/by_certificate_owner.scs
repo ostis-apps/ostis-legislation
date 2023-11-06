@@ -1,0 +1,54 @@
+
+by_certificate_owner
+    => nrel_main_idtf: [certificate owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец сертификата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік сертыфіката] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certificate_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_veterinary_certificate;
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_genetic_certificate;
+    => nrel_associative_connection: by_global_certificate;
+    => nrel_associative_connection: by_certificate_of_deposit;
+    => nrel_associative_connection: by_share_certificate;
+    => nrel_associative_connection: by_import_certificate;
+    => nrel_associative_connection: by_international_certificate_of_technical_inspection;
+    => nrel_associative_connection: by_periodic_assessment_of_certified_object;
+    => nrel_associative_connection: by_gift_certificate_for_domestic_services_provision;
+    => nrel_associative_connection: by_savings_certificate;
+    => nrel_associative_connection: by_certificate;
+    => nrel_associative_connection: by_weighing_certificate;
+    => nrel_associative_connection: by_certificate_of_competence;
+    => nrel_associative_connection: by_certificate_of_the_end_user;
+    => nrel_associative_connection: by_open_key_certificate;
+    => nrel_associative_connection: by_certificate_of_conformity;
+    => nrel_associative_connection: by_certificate_of_conformity_of_medicine_production_to_the_requirements_of_good_manufacturing_practice_gmp;
+    => nrel_associative_connection: by_certificate_of_conformity_of_the_vehicle_to_the_environmental_and_technical_requirements_of_the_european_conference_of_ministers_of_transport;
+    => nrel_associative_connection: by_type_certificate;
+    => nrel_associative_connection: by_centralized_testing_certificate;
+    => nrel_associative_connection: by_phytosanitary_certificate;
+    => nrel_associative_connection: by_center_for_attributes_certificates;
+
+    => nrel_legal_act: by_act_h11600437;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13057?langname=ru];
+    => nrel_etalon_online_idx: [13057];;

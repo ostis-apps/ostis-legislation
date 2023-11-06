@@ -1,0 +1,36 @@
+
+by_web_psychology
+    => nrel_main_idtf: [web psychology] (* <- lang_en;; *);
+    => nrel_main_idtf: [веб-психология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вэб-псіхалогія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_web_psychology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_web_journalism;
+    => nrel_associative_connection: by_web_space;
+    => nrel_associative_connection: by_distant_psychological_care;
+    => nrel_associative_connection: by_full_form_of_psychological_care;
+    => nrel_associative_connection: by_psychological_support;
+    => nrel_associative_connection: by_psychological_help;
+
+    => nrel_legal_act: by_act_w21934411p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31464?langname=ru];
+    => nrel_etalon_online_idx: [31464];;

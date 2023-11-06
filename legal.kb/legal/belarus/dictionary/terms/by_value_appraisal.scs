@@ -1,0 +1,107 @@
+
+by_value_appraisal
+    => nrel_main_idtf: [value appraisal] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценка стоимости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэнка кошту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_value_appraisal_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_value_appraisal_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_act_of_internal_evaluation;
+    => nrel_associative_connection: by_asset;
+    => nrel_associative_connection: by_base_year;
+    => nrel_associative_connection: by_improvement;
+    => nrel_associative_connection: by_valuation_currency;
+    => nrel_associative_connection: by_currency_of_settlement;
+    => nrel_associative_connection: by_date_of_examination;
+    => nrel_associative_connection: by_date_of_registration_of_the_independent_valuation_opinion;
+    => nrel_associative_connection: by_monetary_unit;
+    => nrel_associative_connection: by_documents_of_assessment;
+    => nrel_associative_connection: by_share_in_property_right;
+    => nrel_associative_connection: by_sufficient_information;
+    => nrel_associative_connection: by_reliable_information;
+    => nrel_associative_connection: by_comparison_unit;
+    => nrel_associative_connection: by_uniform_cost_level;
+    => nrel_associative_connection: by_single_price_level;
+    => nrel_associative_connection: by_assignment_for_estimating_the_cost;
+    => nrel_associative_connection: by_borrowed_funds;
+    => nrel_associative_connection: by_borrowed_capital;
+    => nrel_associative_connection: by_customer_of_assessment;
+    => nrel_associative_connection: by_excess_rent;
+    => nrel_associative_connection: by_property_as_a_single_object;
+    => nrel_associative_connection: by_profitability_index;
+    => nrel_associative_connection: by_indices_of_change_in_cost_indices_of_price_change;
+    => nrel_associative_connection: by_assessment_executor;
+    => nrel_associative_connection: by_complex;
+    => nrel_associative_connection: by_coefficient;
+    => nrel_associative_connection: by_liquidity_ratio;
+    => nrel_associative_connection: by_building_density_coefficient;
+    => nrel_associative_connection: by_method;
+    => nrel_associative_connection: by_evaluation_method;
+    => nrel_associative_connection: by_method_of_calculation_of_indicators;
+    => nrel_associative_connection: by_value_computation_method;
+    => nrel_associative_connection: by_methodological_recommendations_for_cost_evaluation;
+    => nrel_associative_connection: by_methodological_guide_on_cost_evaluation;
+    => nrel_associative_connection: by_most_effective_use;
+    => nrel_associative_connection: by_the_smallest_denomination_of_a_banknote;
+    => nrel_associative_connection: by_norm;
+    => nrel_associative_connection: by_standard_service_life_of_structural_elements;
+    => nrel_associative_connection: by_reasonable_information;
+    => nrel_associative_connection: by_real_estate_object;
+    => nrel_associative_connection: by_assessment_object;
+    => nrel_associative_connection: by_assessment_objects;
+    => nrel_associative_connection: by_evaluationassessment;
+    => nrel_associative_connection: by_evaluation_at_an_average_cost;
+    => nrel_associative_connection: by_fifo_assessment;
+    => nrel_associative_connection: by_estimation_of_the_cost_of_machinery_and_equipment_vehicles;
+    => nrel_associative_connection: by_valuation_of_real_estate;
+    => nrel_associative_connection: by_valuation_of_enterprises_business;
+    => nrel_associative_connection: by_assessed_cost;
+    => nrel_associative_connection: by_parametric_methods;
+    => nrel_associative_connection: by_parametric_series;
+    => nrel_associative_connection: by_revaluation;
+    => nrel_associative_connection: by_planar_structure;
+    => nrel_associative_connection: by_builtup_area_of_building;
+    => nrel_associative_connection: by_calculated_prices;
+    => nrel_associative_connection: by_result_of_the_internal_appraisal;
+    => nrel_associative_connection: by_method_for_assessing_the_cost_of_securities_on_disposal;
+    => nrel_associative_connection: by_fair_cost;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_price;
+
+    => nrel_legal_act: by_act_p30600615;
+    => nrel_legal_act: by_act_w02136596p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19720?langname=ru];
+    => nrel_etalon_online_idx: [19720];;

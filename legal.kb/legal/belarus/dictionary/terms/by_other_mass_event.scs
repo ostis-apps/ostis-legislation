@@ -1,0 +1,39 @@
+
+by_other_mass_event
+    => nrel_main_idtf: [other mass event] (* <- lang_en;; *);
+    => nrel_main_idtf: [иное массовое мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншае масавае мерапрыемства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_mass_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mass_event_in_the_forest;
+    => nrel_associative_connection: by_mass_event_on_a_paid_reimbursable_basis;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_places_of_mass_stay_of_people;
+    => nrel_associative_connection: by_holiday;
+    => nrel_associative_connection: by_sport_event;
+    => nrel_associative_connection: by_sports_events;
+    => nrel_associative_connection: by_festival;
+
+    => nrel_legal_act: by_act_h19700114;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9194?langname=ru];
+    => nrel_etalon_online_idx: [9194];;

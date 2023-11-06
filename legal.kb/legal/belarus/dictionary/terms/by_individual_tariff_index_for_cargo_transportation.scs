@@ -1,0 +1,42 @@
+
+by_individual_tariff_index_for_cargo_transportation
+    => nrel_main_idtf: [individual tariff index for cargo transportation] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный индекс тарифов на перевозку грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальны індэкс тарыфаў на перавозку грузаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_tariff_index_for_cargo_transportation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_weighing_of_price_indexes_tariffs_or_prices_tariffs_of_goods_services__representatives;
+    => nrel_associative_connection: by_contract_of_carriage;
+    => nrel_associative_connection: by_tariff_index;
+    => nrel_associative_connection: by_tariff_index_for_cargoes_carriage;
+    => nrel_associative_connection: by_basic_price_index_tariffs;
+    => nrel_associative_connection: by_individual_index_of_prices;
+    => nrel_associative_connection: by_individual_index_of_prices_tariffs;
+    => nrel_associative_connection: by_individual_index_of_prices_tariffs_for_passenger_transportation;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_carriage_charge_for_carriage;
+    => nrel_associative_connection: by_carriage_charges;
+    => nrel_associative_connection: by_consolidated_index_of_cargo_transportation_tariffs;
+
+    => nrel_legal_act: by_act_w210p0121;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15277?langname=ru];
+    => nrel_etalon_online_idx: [15277];;

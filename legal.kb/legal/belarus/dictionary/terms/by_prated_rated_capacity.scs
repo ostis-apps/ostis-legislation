@@ -1,0 +1,31 @@
+
+by_prated_rated_capacity
+    => nrel_main_idtf: [prated (rated capacity)] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная мощность; prated (rated capacity)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная магутнасць; prated (rated capacity)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prated_rated_capacity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_multisplitsystem;
+
+    => nrel_legal_act: by_act_w02035831p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35052?langname=ru];
+    => nrel_etalon_online_idx: [35052];;

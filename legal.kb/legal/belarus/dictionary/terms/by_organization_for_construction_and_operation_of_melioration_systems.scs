@@ -1,0 +1,38 @@
+
+by_organization_for_construction_and_operation_of_melioration_systems
+    => nrel_main_idtf: [organization for construction and operation of melioration systems] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация по строительству и эксплуатации мелиоративных систем] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя па будаўніцтве і эксплуатацыі меліяратыўных сістэм] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_for_construction_and_operation_of_melioration_systems_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intracompany_meliorative_system;
+    => nrel_associative_connection: by_inventory_of_land_reclamation_systems_and_separately_located_hydraulic_engineering_structures;
+    => nrel_associative_connection: by_channels_of_melioration_systems;
+    => nrel_associative_connection: by_melioration_system;
+    => nrel_associative_connection: by_meliorative_events;
+    => nrel_associative_connection: by_users_of_melioration_system;
+    => nrel_associative_connection: by_reconstruction_of_melioration_system;
+    => nrel_associative_connection: by_operating_organization;
+
+    => nrel_legal_act: by_act_h10800423;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19229?langname=ru];
+    => nrel_etalon_online_idx: [19229];;

@@ -1,0 +1,36 @@
+
+by_national_standard_for_accounting_and_reporting
+    => nrel_main_idtf: [national standard for accounting and reporting ] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальный стандарт бухгалтерского учета и отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальны стандарт бухгалтарскага ўліку і справаздачнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_standard_for_accounting_and_reporting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_index_of_accounting_financial_reporting;
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_date_of_accounting_financial_reporting_preparation;
+    => nrel_associative_connection: by_date_of_accounting_financial_reporting_submission;
+    => nrel_associative_connection: by_accounting_plan;
+
+    => nrel_legal_act: by_act_h11300057;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10466?langname=ru];
+    => nrel_etalon_online_idx: [10466];;

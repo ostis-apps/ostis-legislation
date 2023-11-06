@@ -1,0 +1,20 @@
+
+by_secondhand_shop
+    => nrel_main_idtf: [second-hand shop] (* <- lang_en;; *);
+    => nrel_main_idtf: [магазин "секонд-хенд"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магазін "сэканд-хэнд"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_nonfood_hypermarket;
+    => nrel_associative_connection: by_thrift_shop;
+    => nrel_associative_connection: by_nonfood_shop;
+    => nrel_associative_connection: by_grocery_shop;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35536?langname=ru];
+    => nrel_etalon_online_idx: [35536];;

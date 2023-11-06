@@ -1,0 +1,20 @@
+
+by_tourist_group
+    => nrel_main_idtf: [tourist group] (* <- lang_en;; *);
+    => nrel_main_idtf: [туристическая группа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [турыстычная група] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_tourist_travel_route;
+    => nrel_associative_connection: by_tourist_group_leader;
+    => nrel_associative_connection: by_tourist;
+    => nrel_associative_connection: by_touristic_travel;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10993?langname=ru];
+    => nrel_etalon_online_idx: [10993];;

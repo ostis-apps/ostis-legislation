@@ -1,0 +1,33 @@
+
+by_functional_classification_of_budget_expenditures
+    => nrel_main_idtf: [functional classification of budget expenditures] (* <- lang_en;; *);
+    => nrel_main_idtf: [функциональная классификация расходов бюджета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [функцыянальная класіфікацыя выдаткаў бюджэту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_functional_classification_of_budget_expenditures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_budget_expenses;
+
+    => nrel_legal_act: by_act_hk0800412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5132?langname=ru];
+    => nrel_etalon_online_idx: [5132];;

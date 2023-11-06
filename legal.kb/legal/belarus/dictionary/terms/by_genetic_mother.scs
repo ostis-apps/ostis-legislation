@@ -1,0 +1,35 @@
+
+by_genetic_mother
+    => nrel_main_idtf: [genetic mother] (* <- lang_en;; *);
+    => nrel_main_idtf: [генетическая мать] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генетычная маці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_genetic_mother_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_children;
+    => nrel_associative_connection: by_sex_germ_cell_donor;
+    => nrel_associative_connection: by_germ_cells;
+    => nrel_associative_connection: by_child;
+    => nrel_associative_connection: by_embryo;
+
+    => nrel_legal_act: by_act_h11200341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10148?langname=ru];
+    => nrel_etalon_online_idx: [10148];;

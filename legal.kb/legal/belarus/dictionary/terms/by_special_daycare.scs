@@ -1,0 +1,23 @@
+
+by_special_daycare
+    => nrel_main_idtf: [special daycare] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальный ясли-сад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльны яслі-сад] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_preschool_education;
+    => nrel_associative_connection: by_sanatorium_nurserygarden;
+    => nrel_associative_connection: by_nursery;
+    => nrel_associative_connection: by_daycare_centre;
+    => nrel_associative_connection: by_daycare_centrebasic_school;
+    => nrel_associative_connection: by_daycare_centreprimary_school;
+    => nrel_associative_connection: by_daycare_centresecondary_school;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23855?langname=ru];
+    => nrel_etalon_online_idx: [23855];;

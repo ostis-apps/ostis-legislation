@@ -1,0 +1,109 @@
+
+by_examination
+    => nrel_main_idtf: [examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [освидетельствование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агляд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examination_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examination_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examination_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_examination_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_medical_worker_of_the_organizationowner_of_the_experimental_aircraft;
+    => nrel_associative_connection: by_narcological_examination;
+    => nrel_associative_connection: by_accused;
+    => nrel_associative_connection: by_refusal_to_undergo_examination_in_due_course;
+    => nrel_associative_connection: by_refusal_to_undergo_examination;
+    => nrel_associative_connection: by_refusal_to_pass_premise_medical_inspection;
+    => nrel_associative_connection: by_assessment_of_the_quality_of_medical_care_and_medical_examinations;
+    => nrel_associative_connection: by_suspect;
+    => nrel_associative_connection: by_identifying_witness;
+    => nrel_associative_connection: by_casualty;
+    => nrel_associative_connection: by_compulsory_medical_examination;
+    => nrel_associative_connection: by_compulsory_psychiatric_examination;
+    => nrel_associative_connection: by_psychiatric_examination;
+    => nrel_associative_connection: by_forensic_expertise;
+
+    => nrel_legal_act: by_act_c22100548;
+    => nrel_legal_act: by_act_c21100497;
+    => nrel_legal_act: by_act_w22036221p;
+    => nrel_legal_act: by_act_w21529676;
+    => nrel_legal_act: by_act_w21428295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/302?langname=ru];
+    => nrel_etalon_online_idx: [302];;

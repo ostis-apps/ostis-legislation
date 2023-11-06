@@ -1,0 +1,35 @@
+
+by_houseetalon
+    => nrel_main_idtf: [house-etalon] (* <- lang_en;; *);
+    => nrel_main_idtf: [дом-эталон ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дом-эталон] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_houseetalon_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inhousing_heat_consumption_systems;
+    => nrel_associative_connection: by_autumnwinter_period;
+    => nrel_associative_connection: by_consumer_of_thermal_energy;
+    => nrel_associative_connection: by_exploitation;
+    => nrel_associative_connection: by_electro_house;
+
+    => nrel_legal_act: by_act_c22000286;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33194?langname=ru];
+    => nrel_etalon_online_idx: [33194];;

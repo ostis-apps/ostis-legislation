@@ -1,0 +1,53 @@
+
+by_procurement_organization
+    => nrel_main_idtf: [procurement organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [заготовительная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарыхтоўчая арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_procurement_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_procurement_organization_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_animal_husbandry;
+    => nrel_associative_connection: by_procurement_officers;
+    => nrel_associative_connection: by_procurement_officer;
+    => nrel_associative_connection: by_procurement_organizations;
+    => nrel_associative_connection: by_procurement_station;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_agricultural_products;
+
+    => nrel_legal_act: by_act_w22137172;
+    => nrel_legal_act: by_act_w22137075;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38402?langname=ru];
+    => nrel_etalon_online_idx: [38402];;

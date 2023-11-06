@@ -1,0 +1,84 @@
+
+by_local_taxes_and_dues
+    => nrel_main_idtf: [local taxes and dues] (* <- lang_en;; *);
+    => nrel_main_idtf: [местные налоги и сборы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовыя падаткі і зборы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_taxes_and_dues_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_taxes_and_dues_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_taxes_and_dues_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_taxes_and_dues_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_bodies_of_local_government_and_selfgovernment;
+    => nrel_associative_connection: by_resort_levy_payers;
+    => nrel_associative_connection: by_payers_of_local_taxes_and_fees;
+    => nrel_associative_connection: by_collection;
+    => nrel_associative_connection: by_collection_duty;
+
+    => nrel_legal_act: by_act_hk0200166;
+    => nrel_legal_act: by_act_n22000127;
+    => nrel_legal_act: by_act_n21500097;
+    => nrel_legal_act: by_act_n29800058;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/123?langname=ru];
+    => nrel_etalon_online_idx: [123];;

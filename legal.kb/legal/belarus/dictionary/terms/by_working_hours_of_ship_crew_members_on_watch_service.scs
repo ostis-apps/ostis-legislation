@@ -1,0 +1,42 @@
+
+by_working_hours_of_ship_crew_members_on_watch_service
+    => nrel_main_idtf: [working hours of ship crew members on watch service] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочее время членов экипажа судна, несущих вахтенную службу] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочы час членаў экіпажа судна, нясучых вахтавую службу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_hours_of_ship_crew_members_on_watch_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_watch;
+    => nrel_associative_connection: by_watch_shift;
+    => nrel_associative_connection: by_watch;
+    => nrel_associative_connection: by_spare_crew;
+    => nrel_associative_connection: by_working_hours;
+    => nrel_associative_connection: by_regulated_technological_break_in_the_work_of_a_crew_member_in_an_excess_flight;
+    => nrel_associative_connection: by_ships_team;
+    => nrel_associative_connection: by_ship_works;
+    => nrel_associative_connection: by_photo_of_working_time;
+    => nrel_associative_connection: by_running_watch;
+    => nrel_associative_connection: by_crew_of_the_vessel;
+    => nrel_associative_connection: by_crew_work_method;
+
+    => nrel_legal_act: by_act_w21124270;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21934?langname=ru];
+    => nrel_etalon_online_idx: [21934];;

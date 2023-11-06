@@ -1,0 +1,22 @@
+
+by_land_planning_organization
+    => nrel_main_idtf: [land planning organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация по землеустройству] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя па землеўпарадкаванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_land_planning;
+    => nrel_associative_connection: by_land_management_documentation;
+    => nrel_associative_connection: by_land_management_business;
+    => nrel_associative_connection: by_objects_of_land_planning;
+    => nrel_associative_connection: by_land_planning_organizations;
+    => nrel_associative_connection: by_land_planning_scheme;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19227?langname=ru];
+    => nrel_etalon_online_idx: [19227];;

@@ -1,0 +1,35 @@
+
+by_anchor_fastening
+    => nrel_main_idtf: [anchor fastening] (* <- lang_en;; *);
+    => nrel_main_idtf: [анкерное крепление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкернае замацаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_anchor_fastening_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_anchor_device;
+    => nrel_associative_connection: by_anchoring_device_without_hinges;
+    => nrel_associative_connection: by_hinged_anchoring_device;
+    => nrel_associative_connection: by_tensioning_elements;
+    => nrel_associative_connection: by_characteristic_anchor_resistance_force;
+
+    => nrel_legal_act: by_act_w220p0042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35622?langname=ru];
+    => nrel_etalon_online_idx: [35622];;

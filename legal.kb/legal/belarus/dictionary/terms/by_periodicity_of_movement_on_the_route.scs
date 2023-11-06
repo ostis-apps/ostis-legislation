@@ -1,0 +1,38 @@
+
+by_periodicity_of_movement_on_the_route
+    => nrel_main_idtf: [periodicity of movement on the route] (* <- lang_en;; *);
+    => nrel_main_idtf: [периодичность движения по маршруту] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перыядычнасць руху па маршруце] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_periodicity_of_movement_on_the_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_traffic_route;
+    => nrel_associative_connection: by_nonstationary_public_catering_object;
+    => nrel_associative_connection: by_nonstationary_trade_object;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_public_catering_object;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_trade_at_nonstationary_trade_objects;
+    => nrel_associative_connection: by_trade_object;
+
+    => nrel_legal_act: by_act_c22100331;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39118?langname=ru];
+    => nrel_etalon_online_idx: [39118];;

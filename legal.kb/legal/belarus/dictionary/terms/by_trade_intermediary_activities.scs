@@ -1,0 +1,21 @@
+
+by_trade_intermediary_activities
+    => nrel_main_idtf: [trade intermediary activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговая посредническая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвая пасрэдніцкая дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_intermediary_activity;
+    => nrel_associative_connection: by_mediation_services;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_trade;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4559?langname=ru];
+    => nrel_etalon_online_idx: [4559];;

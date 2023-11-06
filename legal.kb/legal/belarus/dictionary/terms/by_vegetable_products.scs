@@ -1,0 +1,39 @@
+
+by_vegetable_products
+    => nrel_main_idtf: [vegetable products] (* <- lang_en;; *);
+    => nrel_main_idtf: [продукты растительного происхождения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадукты расліннага паходжання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vegetable_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_organization_producing_fruit_and_vegetables_canned_food;
+    => nrel_associative_connection: by_safety_in_the_veterinary_and_sanitary_relation;
+    => nrel_associative_connection: by_natural_decline_of_processed_vegetables_and_fruits_during_long_storage;
+    => nrel_associative_connection: by_natural_decline_of_fresh_potatoes_fresh_vegetables_and_fruits_in_transit;
+    => nrel_associative_connection: by_natural_decline_of_fresh_potatoes_vegetables_and_fruits;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_crop_production_of_the_2016_harvest_supplied_for_republican_state_needs;
+    => nrel_associative_connection: by_plant_products;
+    => nrel_associative_connection: by_care_for_fruit_and_berry_crops;
+
+    => nrel_legal_act: by_act_c21700319;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21498?langname=ru];
+    => nrel_etalon_online_idx: [21498];;

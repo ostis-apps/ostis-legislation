@@ -1,0 +1,34 @@
+
+by_hightech_park_residents
+    => nrel_main_idtf: [high-tech park residents] (* <- lang_en;; *);
+    => nrel_main_idtf: [резиденты парка высоких технологий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзідэнты парка высокіх тэхналогій] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hightech_park_residents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administration_of_the_hitech_park;
+    => nrel_associative_connection: by_legalization_of_incomes_gained_by_illegal_means;
+    => nrel_associative_connection: by_hitech_park;
+    => nrel_associative_connection: by_financial_transactions_subject_to_special_controls;
+
+    => nrel_legal_act: by_act_c20600367;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42569?langname=ru];
+    => nrel_etalon_online_idx: [42569];;

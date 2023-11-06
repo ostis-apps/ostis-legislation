@@ -1,0 +1,37 @@
+
+by_reservation_base
+    => nrel_main_idtf: [reservation base] (* <- lang_en;; *);
+    => nrel_main_idtf: [база резервирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [база рэзервавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reservation_base_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_normative_of_mandatory_reserves;
+    => nrel_associative_connection: by_normative_of_fixed_part_of_reserve_requirements;
+    => nrel_associative_connection: by_period_of_fulfillment_of_reserve_requirements;
+    => nrel_associative_connection: by_reservation_of_budget_provisions;
+    => nrel_associative_connection: by_reserve_requirements_mandatory_reserves;
+    => nrel_associative_connection: by_means;
+    => nrel_associative_connection: by_fixed_part_of_the_reserve_claim;
+
+    => nrel_legal_act: by_act_b21630659;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12610?langname=ru];
+    => nrel_etalon_online_idx: [12610];;

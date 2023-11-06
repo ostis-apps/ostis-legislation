@@ -1,0 +1,34 @@
+
+by_embryo_transplantation
+    => nrel_main_idtf: [embryo transplantation] (* <- lang_en;; *);
+    => nrel_main_idtf: [трансплантация эмбрионов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трансплантацыя эмбрыёнаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_embryo_transplantation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_crosstransplantation;
+    => nrel_associative_connection: by_selection_in_animal_husbandry;
+    => nrel_associative_connection: by_transplantation;
+    => nrel_associative_connection: by_embryo;
+
+    => nrel_legal_act: by_act_h11300024;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7715?langname=ru];
+    => nrel_etalon_online_idx: [7715];;

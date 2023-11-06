@@ -1,0 +1,61 @@
+
+by_criminal_case
+    => nrel_main_idtf: [criminal case] (* <- lang_en;; *);
+    => nrel_main_idtf: [уголовное дело] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крымінальная справа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_criminal_case_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_criminal_case_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_proving;
+    => nrel_associative_connection: by_person_who_subjected_to_bringing_as_a_suspect_accused;
+    => nrel_associative_connection: by_international_legal_aid_for_criminal_cases;
+    => nrel_associative_connection: by_prosecuting_agency;
+    => nrel_associative_connection: by_suspect;
+    => nrel_associative_connection: by_recognizance_not_to_leave_and_proper_behavior;
+    => nrel_associative_connection: by_law_enforcement_bodies;
+    => nrel_associative_connection: by_preliminary_investigation;
+    => nrel_associative_connection: by_crime;
+    => nrel_associative_connection: by_proceedings_in_materials_and_criminal_case;
+    => nrel_associative_connection: by_criminal_proceedings;
+    => nrel_associative_connection: by_special_production;
+    => nrel_associative_connection: by_court;
+    => nrel_associative_connection: by_court_with_supervisory_authority;
+    => nrel_associative_connection: by_court_of_the_first_instance;
+
+    => nrel_legal_act: by_act_hk9900295;
+    => nrel_legal_act: by_act_n29600086;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2121?langname=ru];
+    => nrel_etalon_online_idx: [2121];;

@@ -1,0 +1,32 @@
+
+by_processes_related_to_the_life_cycle_of_products
+    => nrel_main_idtf: [processes related to the life cycle of products] (* <- lang_en;; *);
+    => nrel_main_idtf: [процессы, связанные с жизненным циклом продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працэсы, звязаныя з жыццёвым цыклам прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_processes_related_to_the_life_cycle_of_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_life_cycle_of_products;
+    => nrel_associative_connection: by_products;
+
+    => nrel_legal_act: by_act_pd1700007;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27410?langname=ru];
+    => nrel_etalon_online_idx: [27410];;

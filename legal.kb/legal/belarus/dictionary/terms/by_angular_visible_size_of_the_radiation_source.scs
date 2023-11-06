@@ -1,0 +1,33 @@
+
+by_angular_visible_size_of_the_radiation_source
+    => nrel_main_idtf: [angular (visible) size of the radiation source] (* <- lang_en;; *);
+    => nrel_main_idtf: [угловой (видимый) размер источника излучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вуглавы (бачны) памер крыніцы выпраменьвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_angular_visible_size_of_the_radiation_source_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_single_exposure_to_radiation;
+    => nrel_associative_connection: by_lock_angles;
+    => nrel_associative_connection: by_radiation_divergence;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41736?langname=ru];
+    => nrel_etalon_online_idx: [41736];;

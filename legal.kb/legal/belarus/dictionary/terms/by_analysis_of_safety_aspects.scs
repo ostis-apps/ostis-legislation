@@ -1,0 +1,39 @@
+
+by_analysis_of_safety_aspects
+    => nrel_main_idtf: [analysis of safety aspects] (* <- lang_en;; *);
+    => nrel_main_idtf: [анализ аспектов безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аналіз аспектаў бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_analysis_of_safety_aspects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_organization;
+    => nrel_associative_connection: by_audit_iin_the_area_of_compliance_with_safety_requirements;
+    => nrel_associative_connection: by_safety_guarantees;
+    => nrel_associative_connection: by_eurocontrol;
+    => nrel_associative_connection: by_set_level_of_security;
+    => nrel_associative_connection: by_safety_indicator;
+    => nrel_associative_connection: by_flight_safety_program;
+    => nrel_associative_connection: by_flight_safety_management_system;
+    => nrel_associative_connection: by_systematic_approach_in_the_area_of_flight_safety_management;
+
+    => nrel_legal_act: by_act_c21900563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31535?langname=ru];
+    => nrel_etalon_online_idx: [31535];;

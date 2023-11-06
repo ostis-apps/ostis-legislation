@@ -1,0 +1,35 @@
+
+by_dormitories_of_internal_affairs_body
+    => nrel_main_idtf: [dormitories of internal affairs body] (* <- lang_en;; *);
+    => nrel_main_idtf: [общежития органа внутренних дел] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрнаты органа унутраных спраў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dormitories_of_internal_affairs_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_premises_in_a_dormitory;
+    => nrel_associative_connection: by_ministry_of_internal_affairs;
+    => nrel_associative_connection: by_dormitory;
+    => nrel_associative_connection: by_dormitory_of_internal_affairs_body;
+    => nrel_associative_connection: by_bodies_of_internal_affairs;
+
+    => nrel_legal_act: by_act_w21022424;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18611?langname=ru];
+    => nrel_etalon_online_idx: [18611];;

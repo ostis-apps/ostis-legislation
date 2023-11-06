@@ -1,0 +1,35 @@
+
+by_export_credit_agency
+    => nrel_main_idtf: [export credit agency] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспортно-кредитное агентство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспартна-крэдытнае агенцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_export_credit_agency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_discounting;
+    => nrel_associative_connection: by_letter_of_credit_discounting;
+    => nrel_associative_connection: by_foreign_insurer_reinsurer;
+    => nrel_associative_connection: by_commercial_risks;
+    => nrel_associative_connection: by_export_of_goods_works_services;
+
+    => nrel_legal_act: by_act_p30600534;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37489?langname=ru];
+    => nrel_etalon_online_idx: [37489];;

@@ -1,0 +1,35 @@
+
+by_photopositive
+    => nrel_main_idtf: [photopositive] (* <- lang_en;; *);
+    => nrel_main_idtf: [фотопозитив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фотапазітыў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_photopositive_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_doublenegative;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_positive;
+    => nrel_associative_connection: by_positive_on_reversable_film;
+    => nrel_associative_connection: by_intermediate_positive;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26099?langname=ru];
+    => nrel_etalon_online_idx: [26099];;

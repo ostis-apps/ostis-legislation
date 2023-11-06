@@ -1,0 +1,37 @@
+
+by_instructional_guide_of_internship
+    => nrel_main_idtf: [instructional guide of internship] (* <- lang_en;; *);
+    => nrel_main_idtf: [методический руководитель интернатуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метадычны кіраўнік інтэрнатуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_instructional_guide_of_internship_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internship_base;
+    => nrel_associative_connection: by_doctorintern_pharmacistintern;
+    => nrel_associative_connection: by_internship;
+    => nrel_associative_connection: by_qualification_examination;
+    => nrel_associative_connection: by_organizational_and_methodological_internship_support;
+    => nrel_associative_connection: by_head_of_the_internship_base;
+    => nrel_associative_connection: by_innernature_head;
+
+    => nrel_legal_act: by_act_w21833091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29109?langname=ru];
+    => nrel_etalon_online_idx: [29109];;

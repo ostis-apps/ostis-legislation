@@ -1,0 +1,25 @@
+
+by_nonbalance_resources
+    => nrel_main_idtf: [non-balance resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [забалансовые запасы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забалансавыя запасы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_balance_operating_reserves_of_underground_water;
+    => nrel_associative_connection: by_nonbalance_operational_reserves_of_underground_waters;
+    => nrel_associative_connection: by_underground_water_reserves_resource_potential_of_underground_water;
+    => nrel_associative_connection: by_mineral_resources_and_or_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_mineral_resources_of_category_a_b_c1;
+    => nrel_associative_connection: by_mineral_resources_of_category_c2;
+    => nrel_associative_connection: by_hydrocarbon_reserves_geological_reserves;
+    => nrel_associative_connection: by_extracted_hydrocarbon_reserves;
+    => nrel_associative_connection: by_operational_reserves_of_underground_waters;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14685?langname=ru];
+    => nrel_etalon_online_idx: [14685];;

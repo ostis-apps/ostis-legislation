@@ -1,0 +1,57 @@
+
+by_infectious_animal_disease
+    => nrel_main_idtf: [infectious animal disease] (* <- lang_en;; *);
+    => nrel_main_idtf: [заразная болезнь животных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заразная хвароба жывёл] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_animal_disease_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_animal_disease_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_organizations_that_are_safe_for_contagious_diseases;
+    => nrel_associative_connection: by_animal_disease;
+    => nrel_associative_connection: by_causative_agent_of_animal_infectious_disease;
+    => nrel_associative_connection: by_bovine_bungee_encephalopathy_cow_rabies_bovine_spongiform_encephalopathy;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_exclusion_zone;
+    => nrel_associative_connection: by_infected_object;
+    => nrel_associative_connection: by_source_of_infectious_disease;
+    => nrel_associative_connection: by_hearth_of_contagious_animal_illness;
+    => nrel_associative_connection: by_regionalization;
+    => nrel_associative_connection: by_footandmouth_disease;
+
+    => nrel_legal_act: by_act_h11000161;
+    => nrel_legal_act: by_act_P30600530;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14876?langname=ru];
+    => nrel_etalon_online_idx: [14876];;

@@ -1,0 +1,38 @@
+
+by_by_foreign_activities
+    => nrel_main_idtf: [by_foreign_activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежная дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_foreign_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_a_foreign_company;
+    => nrel_associative_connection: by_foreign_organisation;
+    => nrel_associative_connection: by_foreign_organization_foreign_individual_entrepreneur_providing_services_in_electronic_form;
+    => nrel_associative_connection: by_foreign_organization_foreign_individual_entrepreneur_carrying_out_electronic_remote_sale_of_goods;
+    => nrel_associative_connection: by_foreign_organization_providing_services_in_electronic_form_for_individuals;
+    => nrel_associative_connection: by_foreign_subdivision;
+    => nrel_associative_connection: by_foreign_individual_entrepreneurs;
+    => nrel_associative_connection: by_foreign_bank;
+
+    => nrel_legal_act: by_act_b207p0341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43496?langname=ru];
+    => nrel_etalon_online_idx: [43496];;

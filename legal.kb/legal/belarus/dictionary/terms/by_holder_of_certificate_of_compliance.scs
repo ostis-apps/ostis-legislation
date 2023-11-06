@@ -1,0 +1,33 @@
+
+by_holder_of_certificate_of_compliance
+    => nrel_main_idtf: [holder of certificate of compliance] (* <- lang_en;; *);
+    => nrel_main_idtf: [обладатель аттестата соответствия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік атэстата адпаведнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_holder_of_certificate_of_compliance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_certificate_of_compliance;
+    => nrel_associative_connection: by_certificate_of_conformity_of_the_information_protection_system_for_information_system_requirements_for_information_protection;
+    => nrel_associative_connection: by_certificate_of_conformity;
+
+    => nrel_legal_act: by_act_c21400252;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18413?langname=ru];
+    => nrel_etalon_online_idx: [18413];;

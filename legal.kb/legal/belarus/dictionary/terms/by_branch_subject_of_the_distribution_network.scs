@@ -1,0 +1,37 @@
+
+by_branch_subject_of_the_distribution_network
+    => nrel_main_idtf: [branch subject of the distribution network] (* <- lang_en;; *);
+    => nrel_main_idtf: [отраслевой субъект товаропроводящей сети] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галіновы суб'ект тавараправоднай сеткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_branch_subject_of_the_distribution_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_region_of_activity;
+    => nrel_associative_connection: by_assembly_production;
+    => nrel_associative_connection: by_chain_trade_organization;
+    => nrel_associative_connection: by_own_subject_of_the_distribution_network;
+    => nrel_associative_connection: by_business_entity_that_issued_food_products_into_circulation;
+    => nrel_associative_connection: by_commodity_network;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_c21200183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27794?langname=ru];
+    => nrel_etalon_online_idx: [27794];;

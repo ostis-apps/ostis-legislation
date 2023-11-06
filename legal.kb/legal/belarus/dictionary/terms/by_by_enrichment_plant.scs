@@ -1,0 +1,33 @@
+
+by_by_enrichment_plant
+    => nrel_main_idtf: [by_enrichment_plant] (* <- lang_en;; *);
+    => nrel_main_idtf: [обогатительная фабрика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абагачальная фабрыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_enrichment_plant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mineral_raw_materials;
+    => nrel_associative_connection: by_enrichment_of_raw_materials;
+    => nrel_associative_connection: by_raw_materials;
+
+    => nrel_legal_act: by_act_w21934553p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35797?langname=ru];
+    => nrel_etalon_online_idx: [35797];;

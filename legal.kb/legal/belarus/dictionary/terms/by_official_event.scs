@@ -1,0 +1,37 @@
+
+by_official_event
+    => nrel_main_idtf: [official event] (* <- lang_en;; *);
+    => nrel_main_idtf: [официальное мероприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афіцыйнае мерапрыемства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_official_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_outside_event;
+    => nrel_associative_connection: by_state_event;
+    => nrel_associative_connection: by_beauty_contest;
+    => nrel_associative_connection: by_event_in_modeling_activity;
+    => nrel_associative_connection: by_model_agency_with_exclusive_rights;
+    => nrel_associative_connection: by_a_gift_received_during_a_protocol_and_other_official_event;
+    => nrel_associative_connection: by_protocol_and_other_official_event;
+
+    => nrel_legal_act: by_act_p31900423;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32071?langname=ru];
+    => nrel_etalon_online_idx: [32071];;

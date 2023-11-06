@@ -1,0 +1,33 @@
+
+by_businessdemography
+    => nrel_main_idtf: [business-demography] (* <- lang_en;; *);
+    => nrel_main_idtf: [бизнес-демография] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бізнес-дэмаграфія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_businessdemography_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commercial_risks;
+    => nrel_associative_connection: by_national_demographic_interests;
+    => nrel_associative_connection: by_official_statistical_information;
+
+    => nrel_legal_act: by_act_t21904242p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31199?langname=ru];
+    => nrel_etalon_online_idx: [31199];;

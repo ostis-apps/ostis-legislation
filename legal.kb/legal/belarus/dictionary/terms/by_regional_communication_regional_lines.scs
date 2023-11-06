@@ -1,0 +1,57 @@
+
+by_regional_communication_regional_lines
+    => nrel_main_idtf: [regional communication (regional lines)] (* <- lang_en;; *);
+    => nrel_main_idtf: [региональное сообщение (региональные линии)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіянальныя зносіны (рэгіянальныя лініі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regional_communication_regional_lines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regional_communication_regional_lines_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intrarepublican_communication;
+    => nrel_associative_connection: by_urban_communication_urban_lines;
+    => nrel_associative_connection: by_railway_lines;
+    => nrel_associative_connection: by_commercial_communications_commercial_lines;
+    => nrel_associative_connection: by_international_communication_international_lines;
+    => nrel_associative_connection: by_interregional_communication_interregional_lines;
+    => nrel_associative_connection: by_passenger_transportation_by_trams_in_suburban_communication;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_trains_of_interregional_lines;
+    => nrel_associative_connection: by_trains_of_regional_lines;
+    => nrel_associative_connection: by_regular_connections;
+
+    => nrel_legal_act: by_act_h19900237;
+    => nrel_legal_act: by_act_p31200202;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22297?langname=ru];
+    => nrel_etalon_online_idx: [22297];;

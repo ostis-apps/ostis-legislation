@@ -1,0 +1,29 @@
+
+by_bond_circulation
+    => nrel_main_idtf: [bond circulation] (* <- lang_en;; *);
+    => nrel_main_idtf: [обращение облигаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарот аблігацый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_global_certificate;
+    => nrel_associative_connection: by_state_compensation_bond;
+    => nrel_associative_connection: by_additional_placement_of_bonds;
+    => nrel_associative_connection: by_early_buyout;
+    => nrel_associative_connection: by_private_sale_of_bonds;
+    => nrel_associative_connection: by_application_for_sale_of_bonds;
+    => nrel_associative_connection: by_bonds;
+    => nrel_associative_connection: by_bonds_in_circulation;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_bond_swapping;
+    => nrel_associative_connection: by_securities_turnover;
+    => nrel_associative_connection: by_bonds_circulation_term;
+    => nrel_associative_connection: by_current_cost;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6366?langname=ru];
+    => nrel_etalon_online_idx: [6366];;

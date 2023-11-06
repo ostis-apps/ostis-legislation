@@ -1,0 +1,52 @@
+
+by_house_territory
+    => nrel_main_idtf: [house territory] (* <- lang_en;; *);
+    => nrel_main_idtf: [придомовая территория] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прысядзібная тэрыторыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_house_territory_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_house_territory_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_nonresidential_capital_constructions_in_the_house_territory;
+    => nrel_associative_connection: by_nonresidential_constructions__in_the_house_territory;
+    => nrel_associative_connection: by_oneapartment_residential_house;
+    => nrel_associative_connection: by_hallway_front;
+
+    => nrel_legal_act: by_act_hk1200428;
+    => nrel_legal_act: by_act_w22035259p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7681?langname=ru];
+    => nrel_etalon_online_idx: [7681];;

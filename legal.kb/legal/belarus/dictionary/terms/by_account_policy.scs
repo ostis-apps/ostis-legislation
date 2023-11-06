@@ -1,0 +1,36 @@
+
+by_account_policy
+    => nrel_main_idtf: [account policy] (* <- lang_en;; *);
+    => nrel_main_idtf: [учетная политика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уліковая палітыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_account_policy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_state_record_of_names_of_geographical_sites;
+    => nrel_associative_connection: by_change_in_an_organization_accounting_policy;
+    => nrel_associative_connection: by_accounting_profit_loss;
+    => nrel_associative_connection: by_accounting_object;
+
+    => nrel_legal_act: by_act_h11300057;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7115?langname=ru];
+    => nrel_etalon_online_idx: [7115];;

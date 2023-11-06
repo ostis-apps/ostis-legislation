@@ -1,0 +1,41 @@
+
+by_region_of_activity
+    => nrel_main_idtf: [region of activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [регион деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгіён дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_region_of_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_belarusian_organization;
+    => nrel_associative_connection: by_belarusian_organizations;
+    => nrel_associative_connection: by_belarusian_manufacturer;
+    => nrel_associative_connection: by_distributor;
+    => nrel_associative_connection: by_foreign_chain_trade_organization;
+    => nrel_associative_connection: by_branch_subject_of_the_distribution_network;
+    => nrel_associative_connection: by_officially_authorized_belarusian_organization;
+    => nrel_associative_connection: by_assembly_production;
+    => nrel_associative_connection: by_own_subject_of_the_distribution_network;
+    => nrel_associative_connection: by_business_entity_that_issued_food_products_into_circulation;
+    => nrel_associative_connection: by_commodity_network;
+
+    => nrel_legal_act: by_act_c21200183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22283?langname=ru];
+    => nrel_etalon_online_idx: [22283];;

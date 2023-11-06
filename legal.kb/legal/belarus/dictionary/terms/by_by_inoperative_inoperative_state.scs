@@ -1,0 +1,43 @@
+
+by_by_inoperative_inoperative_state
+    => nrel_main_idtf: [by_inoperative_inoperative_state] (* <- lang_en;; *);
+    => nrel_main_idtf: [неработоспособность (неработоспособное состояние)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непрацаздольнасць (непрацаздольны стан)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_inoperative_inoperative_state_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unscheduled_maintenance_of_fire_automation;
+    => nrel_associative_connection: by_external_influencing_factor;
+    => nrel_associative_connection: by_external_examination;
+    => nrel_associative_connection: by_restoration;
+    => nrel_associative_connection: by_serviceability_serviceable_condition;
+    => nrel_associative_connection: by_technical_condition_control;
+    => nrel_associative_connection: by_maintenance_operation;
+    => nrel_associative_connection: by_overfatigue;
+    => nrel_associative_connection: by_scheduled_maintenance_of_fire_automation;
+    => nrel_associative_connection: by_fire_automatic;
+    => nrel_associative_connection: by_technical_normative_legal_acts;
+    => nrel_associative_connection: by_maintenance_service;
+    => nrel_associative_connection: by_technical_state;
+
+    => nrel_legal_act: by_act_w02035809p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37843?langname=ru];
+    => nrel_etalon_online_idx: [37843];;

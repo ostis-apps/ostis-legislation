@@ -1,0 +1,33 @@
+
+by_certification_body_of_the_certification_board
+    => nrel_main_idtf: [certification body of the certification board] (* <- lang_en;; *);
+    => nrel_main_idtf: [совет по сертификации органа по сертификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [савет па сертыфікацыі органа па сертыфікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certification_body_of_the_certification_board_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_certification_body;
+    => nrel_associative_connection: by_certification;
+    => nrel_associative_connection: by_council;
+
+    => nrel_legal_act: by_act_w21732456;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27262?langname=ru];
+    => nrel_etalon_online_idx: [27262];;

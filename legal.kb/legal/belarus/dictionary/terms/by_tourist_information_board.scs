@@ -1,0 +1,35 @@
+
+by_tourist_information_board
+    => nrel_main_idtf: [tourist information board] (* <- lang_en;; *);
+    => nrel_main_idtf: [туристический информационный щит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [турыстычны інфармацыйны шчыт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tourist_information_board_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reliable_information_about_travel_services;
+    => nrel_associative_connection: by_touristic_industry;
+    => nrel_associative_connection: by_touristic_informational_stand;
+    => nrel_associative_connection: by_tourist_information_sign;
+    => nrel_associative_connection: by_tourist_information_center;
+
+    => nrel_legal_act: by_act_w20715823;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25318?langname=ru];
+    => nrel_etalon_online_idx: [25318];;

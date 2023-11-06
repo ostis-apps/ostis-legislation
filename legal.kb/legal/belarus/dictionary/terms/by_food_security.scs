@@ -1,0 +1,53 @@
+
+by_food_security
+    => nrel_main_idtf: [food security] (* <- lang_en;; *);
+    => nrel_main_idtf: [продовольственная безопасность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [харчовая бяспека] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_food_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_food_security_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_department_of_veterinary_and_food_supervision_of_the_ministry_of_agriculture_and_food_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_food_security_indicators;
+    => nrel_associative_connection: by_quality_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_food_independence;
+    => nrel_associative_connection: by_production_of_food_raw_materials_and_food_products;
+    => nrel_associative_connection: by_rational_consumption_rate;
+    => nrel_associative_connection: by_physical_accessibility_of_food_provision_on_demand;
+
+    => nrel_legal_act: by_act_c21700962;
+    => nrel_legal_act: by_act_f21000212;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21474?langname=ru];
+    => nrel_etalon_online_idx: [21474];;

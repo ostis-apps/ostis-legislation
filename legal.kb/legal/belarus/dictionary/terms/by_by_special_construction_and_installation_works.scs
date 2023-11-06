@@ -1,0 +1,35 @@
+
+by_by_special_construction_and_installation_works
+    => nrel_main_idtf: [by_special_construction_and_installation_works] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальные строительно-монтажные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльныя будаўніча-мантажныя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_special_construction_and_installation_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analytical_and_research_method_of_technical_standardization_of_labor_costs;
+    => nrel_associative_connection: by_analytical_and_calculation_method_of_technical_standardization_of_labor_costs;
+    => nrel_associative_connection: by_installation_works;
+    => nrel_associative_connection: by_main_construction_and_assembly_works;
+    => nrel_associative_connection: by_construction_and_assembly_works;
+
+    => nrel_legal_act: by_act_w22340291;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43084?langname=ru];
+    => nrel_etalon_online_idx: [43084];;

@@ -1,0 +1,38 @@
+
+by_commission_charges
+    => nrel_main_idtf: [commission charges] (* <- lang_en;; *);
+    => nrel_main_idtf: [комиссионные расходы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камісійныя расходы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commission_charges_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commission_income;
+    => nrel_associative_connection: by_intermediary_bank_operations;
+    => nrel_associative_connection: by_mediation_services;
+    => nrel_associative_connection: by_interest_expenses;
+    => nrel_associative_connection: by_other_bank_income_and_other_bank_expenses;
+    => nrel_associative_connection: by_charges;
+    => nrel_associative_connection: by_deferred_expenses;
+    => nrel_associative_connection: by_collection;
+
+    => nrel_legal_act: by_act_b20921330;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16015?langname=ru];
+    => nrel_etalon_online_idx: [16015];;

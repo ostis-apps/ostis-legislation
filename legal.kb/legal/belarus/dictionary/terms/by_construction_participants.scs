@@ -1,0 +1,35 @@
+
+by_construction_participants
+    => nrel_main_idtf: [construction participants] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники строительства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі будаўніцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_participants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_start_of_construction;
+    => nrel_associative_connection: by_termination_of_object_construction;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_participants_in_the_construction_of_the_residential_complex;
+
+    => nrel_legal_act: by_act_w20512101;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25798?langname=ru];
+    => nrel_etalon_online_idx: [25798];;

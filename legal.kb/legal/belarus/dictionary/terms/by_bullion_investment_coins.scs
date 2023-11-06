@@ -1,0 +1,38 @@
+
+by_bullion_investment_coins
+    => nrel_main_idtf: [bullion (investment) coins] (* <- lang_en;; *);
+    => nrel_main_idtf: [слитковые (инвестиционные) монеты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зліткавыя (інвестыцыйныя) манеты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bullion_investment_coins_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_measuring_bullions;
+    => nrel_associative_connection: by_coins;
+    => nrel_associative_connection: by_depersonalized_precious_metals;
+    => nrel_associative_connection: by_commemorative_coin;
+    => nrel_associative_connection: by_commemorative_coins;
+    => nrel_associative_connection: by_assay;
+    => nrel_associative_connection: by_bullions;
+
+    => nrel_legal_act: by_act_b22036178;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23318?langname=ru];
+    => nrel_etalon_online_idx: [23318];;

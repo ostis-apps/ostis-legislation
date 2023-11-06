@@ -1,0 +1,34 @@
+
+by_by_frequently_exacerbated_painful_manifestations
+    => nrel_main_idtf: [by_frequently_exacerbated_painful_manifestations] (* <- lang_en;; *);
+    => nrel_main_idtf: [часто обостряющиеся болезненные проявления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хваравітыя выяўленні, якія часта абвастраюцца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_frequently_exacerbated_painful_manifestations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_painful_manifestations;
+    => nrel_associative_connection: by_mental_disorder_disease;
+    => nrel_associative_connection: by_persistent_painful_manifestations;
+    => nrel_associative_connection: by_severe_painful_manifestations;
+
+    => nrel_legal_act: by_act_w21832819;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41124?langname=ru];
+    => nrel_etalon_online_idx: [41124];;

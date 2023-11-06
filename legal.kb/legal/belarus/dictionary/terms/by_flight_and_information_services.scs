@@ -1,0 +1,44 @@
+
+by_flight_and_information_services
+    => nrel_main_idtf: [flight and information services] (* <- lang_en;; *);
+    => nrel_main_idtf: [полетно-информационное обслуживание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палётна-інфармацыйнае абслугоўванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_and_information_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_group_of_optical_sensors_of_flight_control_systems;
+    => nrel_associative_connection: by_dispatch_service_of_air_traffic;
+    => nrel_associative_connection: by_responsibility_zone_of_the_flight_control_body;
+    => nrel_associative_connection: by_aircraft_safety_ensuring;
+    => nrel_associative_connection: by_common_flight_management;
+    => nrel_associative_connection: by_air_traffic_support_and_flight_control_bodies;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_direct_flight_control;
+    => nrel_associative_connection: by_flight_control_point;
+    => nrel_associative_connection: by_flight_information_region;
+    => nrel_associative_connection: by_airplane_mode;
+    => nrel_associative_connection: by_service_flight_time;
+    => nrel_associative_connection: by_flight_control;
+
+    => nrel_legal_act: by_act_c20601471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20516?langname=ru];
+    => nrel_etalon_online_idx: [20516];;

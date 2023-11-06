@@ -1,0 +1,53 @@
+
+by_reproductive_rights
+    => nrel_main_idtf: [reproductive rights] (* <- lang_en;; *);
+    => nrel_main_idtf: [репродуктивные права] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэпрадуктыўныя правы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reproductive_rights_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reproductive_rights_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assisted_reproductive_technology;
+    => nrel_associative_connection: by_demographic_security;
+    => nrel_associative_connection: by_children;
+    => nrel_associative_connection: by_sex_germ_cell_donorship;
+    => nrel_associative_connection: by_surrogate_mother;
+    => nrel_associative_connection: by_surrogate_motherhood;
+    => nrel_associative_connection: by_in_vitro_fertilisation;
+
+    => nrel_legal_act: by_act_h10200080;
+    => nrel_legal_act: by_act_f20900055;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1837?langname=ru];
+    => nrel_etalon_online_idx: [1837];;

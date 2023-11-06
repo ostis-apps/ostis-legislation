@@ -1,0 +1,35 @@
+
+by_republican_specialized_operating_organizations
+    => nrel_main_idtf: [republican specialized operating organizations] (* <- lang_en;; *);
+    => nrel_main_idtf: [республиканские специализированные эксплуатирующие организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэспубліканскія спецыялізаваныя якія эксплуатуюць арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_specialized_operating_organizations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_object_of_industrial_park;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_of_industrial_park;
+    => nrel_associative_connection: by_operating_organization;
+    => nrel_associative_connection: by_legal_entities;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_c21800087;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27744?langname=ru];
+    => nrel_etalon_online_idx: [27744];;

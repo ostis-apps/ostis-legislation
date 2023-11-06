@@ -1,0 +1,33 @@
+
+by_maximum_second_emission_of_pollutant
+    => nrel_main_idtf: [maximum second emission of pollutant] (* <- lang_en;; *);
+    => nrel_main_idtf: [максимальный секундный выброс загрязняющего вещества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [максімальны секундны выкід забруджваючага рэчыва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maximum_second_emission_of_pollutant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gross_emission_of_pollutant;
+    => nrel_associative_connection: by_emission_of_pollutants;
+    => nrel_associative_connection: by_maximum_1second_pollutant_release;
+
+    => nrel_legal_act: by_act_w20004452;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41494?langname=ru];
+    => nrel_etalon_online_idx: [41494];;

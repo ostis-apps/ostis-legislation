@@ -1,0 +1,32 @@
+
+by_by_nonfouling_staircase
+    => nrel_main_idtf: [by_nonfouling_staircase] (* <- lang_en;; *);
+    => nrel_main_idtf: [незадымляемая лестничная клетка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незадымляемая лесвічная клетка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_nonfouling_staircase_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tambour;
+    => nrel_associative_connection: by_floor;
+
+    => nrel_legal_act: by_act_w02035778p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36036?langname=ru];
+    => nrel_etalon_online_idx: [36036];;

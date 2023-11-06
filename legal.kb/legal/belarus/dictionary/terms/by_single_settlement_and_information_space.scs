@@ -1,0 +1,35 @@
+
+by_single_settlement_and_information_space
+    => nrel_main_idtf: [single settlement and information space] (* <- lang_en;; *);
+    => nrel_main_idtf: [единое расчетное и информационное пространство ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіная разліковая і інфармацыйная прастора] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_single_settlement_and_information_space_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_information_system_of_settlements_for_housingandcommunal_and_other_services_consumed_by_the_population;
+    => nrel_associative_connection: by_ais_calculation;
+    => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_calculated_agent;
+    => nrel_associative_connection: by_testing_organizations;
+
+    => nrel_legal_act: by_act_p31100389;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11182?langname=ru];
+    => nrel_etalon_online_idx: [11182];;

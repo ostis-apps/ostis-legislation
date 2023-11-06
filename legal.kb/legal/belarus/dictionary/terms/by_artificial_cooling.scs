@@ -1,0 +1,38 @@
+
+by_artificial_cooling
+    => nrel_main_idtf: [artificial cooling] (* <- lang_en;; *);
+    => nrel_main_idtf: [искусственное охлаждение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [штучнае ахаладжэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_artificial_cooling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_compression_refrigeration_machine;
+    => nrel_associative_connection: by_gas_compression_refrigeration_machine;
+    => nrel_associative_connection: by_artificial_cooling_with_refrigerant;
+    => nrel_associative_connection: by_compression_refrigeration_machine;
+    => nrel_associative_connection: by_steam_compression_refrigeration_machine;
+    => nrel_associative_connection: by_refrigerating_chamber;
+    => nrel_associative_connection: by_refrigeration_machine;
+    => nrel_associative_connection: by_refrigeration_unit;
+
+    => nrel_legal_act: by_act_w22136614p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37508?langname=ru];
+    => nrel_etalon_online_idx: [37508];;

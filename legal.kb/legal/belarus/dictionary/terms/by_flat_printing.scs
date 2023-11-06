@@ -1,0 +1,35 @@
+
+by_flat_printing
+    => nrel_main_idtf: [flat printing] (* <- lang_en;; *);
+    => nrel_main_idtf: [плоская печать ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плоская пячатка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flat_printing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_multicolor_printing;
+    => nrel_associative_connection: by_single_color_printing;
+    => nrel_associative_connection: by_offset_printing;
+    => nrel_associative_connection: by_printing_machine;
+    => nrel_associative_connection: by_printing_processes;
+
+    => nrel_legal_act: by_act_w22035365p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33571?langname=ru];
+    => nrel_etalon_online_idx: [33571];;

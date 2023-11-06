@@ -1,0 +1,37 @@
+
+by_variation
+    => nrel_main_idtf: [variation] (* <- lang_en;; *);
+    => nrel_main_idtf: [варьирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вар'іраванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authentication;
+    => nrel_associative_connection: by_state_information_system_gosstroyportal;
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_interval_variational_series;
+    => nrel_associative_connection: by_information_and_reference_system_for_monitoring_prices_for_materials_for_the_construction_of_the_state_information_system_gosstroyportal;
+    => nrel_associative_connection: by_modal_value;
+    => nrel_associative_connection: by_resources;
+
+    => nrel_legal_act: by_act_w22339769;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42493?langname=ru];
+    => nrel_etalon_online_idx: [42493];;

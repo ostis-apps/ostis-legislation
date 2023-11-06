@@ -1,0 +1,35 @@
+
+by_person_who_subjected_to_administrative_penalty
+    => nrel_main_idtf: [person who subjected to administrative penalty] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицо, подвергнутое административному взысканию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асоба, падвергнутая адміністрацыйнаму спагнанню] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_person_who_subjected_to_administrative_penalty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_penalty;
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_penalty_arrears;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+
+    => nrel_legal_act: by_act_hk2100092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16724?langname=ru];
+    => nrel_etalon_online_idx: [16724];;

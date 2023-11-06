@@ -1,0 +1,37 @@
+
+by_market_liquidity_risk
+    => nrel_main_idtf: [market liquidity risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [рыночный риск ликвидности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рынкавая рызыка ліквіднасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_market_liquidity_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_liquidity;
+    => nrel_associative_connection: by_liquidity_line;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_liquidity_risk;
+    => nrel_associative_connection: by_market_risk;
+    => nrel_associative_connection: by_required_liquidity;
+    => nrel_associative_connection: by_actual_liquidity;
+
+    => nrel_legal_act: by_act_b21226605;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9692?langname=ru];
+    => nrel_etalon_online_idx: [9692];;

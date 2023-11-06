@@ -1,0 +1,56 @@
+
+by_organization_of_demonstration_flights
+    => nrel_main_idtf: [organization of demonstration flights] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация демонстрационных полетов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя дэманстрацыйных палётаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_of_demonstration_flights_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_of_demonstration_flights_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome_heliport_landing_pad_demonstration_flights;
+    => nrel_associative_connection: by_demonstration_flights;
+    => nrel_associative_connection: by_demonstration_flight;
+    => nrel_associative_connection: by_ornitological_situation;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_preparatory_flights;
+    => nrel_associative_connection: by_preparatory_flight;
+    => nrel_associative_connection: by_flight_operations;
+    => nrel_associative_connection: by_airshow_area;
+    => nrel_associative_connection: by_head_of_demonstration_flights;
+
+    => nrel_legal_act: by_act_w20615080;
+    => nrel_legal_act: by_act_w20411409;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19215?langname=ru];
+    => nrel_etalon_online_idx: [19215];;

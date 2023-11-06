@@ -1,0 +1,53 @@
+
+by_land_resources
+    => nrel_main_idtf: [land resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [земельные ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зямельныя рэсурсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_resources_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_resources;
+    => nrel_associative_connection: by_land_and_information_system_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_land_relations;
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_land_monitoring;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_resources;
+
+    => nrel_legal_act: by_act_hk0800425;
+    => nrel_legal_act: by_act_n21500095;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5830?langname=ru];
+    => nrel_etalon_online_idx: [5830];;

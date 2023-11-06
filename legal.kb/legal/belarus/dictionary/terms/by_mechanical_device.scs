@@ -1,0 +1,37 @@
+
+by_mechanical_device
+    => nrel_main_idtf: [mechanical device] (* <- lang_en;; *);
+    => nrel_main_idtf: [механическое устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [механічная прылада] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mechanical_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_engineering_industry;
+    => nrel_associative_connection: by_mechanical_system;
+    => nrel_associative_connection: by_mechanical_complex;
+    => nrel_associative_connection: by_mechanical_module;
+    => nrel_associative_connection: by_mechanical_interaction;
+    => nrel_associative_connection: by_national_classifier;
+    => nrel_associative_connection: by_national_classifier_of_the_republic_of_belarus_specialities_and_qualifications;
+
+    => nrel_legal_act: by_act_w20004008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39621?langname=ru];
+    => nrel_etalon_online_idx: [39621];;

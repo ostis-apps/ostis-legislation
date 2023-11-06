@@ -1,0 +1,36 @@
+
+by_geographic_basis
+    => nrel_main_idtf: [geographic basis] (* <- lang_en;; *);
+    => nrel_main_idtf: [географическая основа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геаграфічная аснова] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geographic_basis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geographic_information_system;
+    => nrel_associative_connection: by_geographic_objects;
+    => nrel_associative_connection: by_cardcircuit;
+    => nrel_associative_connection: by_cartography;
+    => nrel_associative_connection: by_general_geographic_map;
+    => nrel_associative_connection: by_physical_and_geographic_objects;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13473?langname=ru];
+    => nrel_etalon_online_idx: [13473];;

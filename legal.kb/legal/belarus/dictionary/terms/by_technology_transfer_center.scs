@@ -1,0 +1,66 @@
+
+by_technology_transfer_center
+    => nrel_main_idtf: [technology transfer center] (* <- lang_en;; *);
+    => nrel_main_idtf: [центр трансфера технологий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтр трансферу тэхналогій] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technology_transfer_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technology_transfer_center_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technology_transfer_center_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_innovative_infrastructure;
+    => nrel_associative_connection: by_innovative_industrial_cluster;
+    => nrel_associative_connection: by_transfer_of_technologies;
+    => nrel_associative_connection: by_center;
+
+    => nrel_legal_act: by_act_h11200425;
+    => nrel_legal_act: by_act_n21400174;
+    => nrel_legal_act: by_act_n92200063;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7739?langname=ru];
+    => nrel_etalon_online_idx: [7739];;

@@ -1,0 +1,34 @@
+
+by_certified
+    => nrel_main_idtf: [certified] (* <- lang_en;; *);
+    => nrel_main_idtf: [аттестуемый] (* <- lang_ru;; *);
+    => nrel_main_idtf: [атэстуемы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_certified_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_certification_documents;
+    => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_healthcare_workers;
+    => nrel_associative_connection: by_pharmaceutical_employee;
+
+    => nrel_legal_act: by_act_w22136890;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38502?langname=ru];
+    => nrel_etalon_online_idx: [38502];;

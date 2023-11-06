@@ -1,0 +1,71 @@
+
+by_propaganda_materials
+    => nrel_main_idtf: [propaganda materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [агитационные материалы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агітацыйныя матэрыялы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_propaganda_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_propaganda_materials_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_propaganda_materials_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_referendum_propaganda;
+    => nrel_associative_connection: by_preelection_campaign;
+    => nrel_associative_connection: by_elections;
+    => nrel_associative_connection: by_information_materials;
+    => nrel_associative_connection: by_informing_voters_referendum_participants;
+    => nrel_associative_connection: by_electoral_propaganda;
+    => nrel_associative_connection: by_consumables;
+    => nrel_associative_connection: by_referendum;
+    => nrel_associative_connection: by_tv_debates;
+
+    => nrel_legal_act: by_act_hk0000370;
+    => nrel_legal_act: by_act_n22000123;
+    => nrel_legal_act: by_act_n21200179;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/924?langname=ru];
+    => nrel_etalon_online_idx: [924];;

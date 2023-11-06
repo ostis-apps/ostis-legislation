@@ -1,0 +1,96 @@
+
+by_by_auditor
+    => nrel_main_idtf: [by_auditor] (* <- lang_en;; *);
+    => nrel_main_idtf: [проверяющий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [правяраючы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_auditor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_auditor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_auditor_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_auditor_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_counter_check;
+    => nrel_associative_connection: by_state_supervisory_bodies;
+    => nrel_associative_connection: by_class_qualification;
+    => nrel_associative_connection: by_state_control_committee;
+    => nrel_associative_connection: by_state_control_committee_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_inspecting_official;
+    => nrel_associative_connection: by_checklist;
+    => nrel_associative_connection: by_documentary_inspection_method;
+    => nrel_associative_connection: by_total_inspection_method;
+    => nrel_associative_connection: by_actual_inspection_method;
+    => nrel_associative_connection: by_methods_and_ways_of_inspections_realization;
+    => nrel_associative_connection: by_objects_of_inspected_subject;
+    => nrel_associative_connection: by_preliminary_control;
+    => nrel_associative_connection: by_representative_of_the_verified_subject;
+    => nrel_associative_connection: by_auditors;
+    => nrel_associative_connection: by_raid_check;
+    => nrel_associative_connection: by_head_of_check;
+    => nrel_associative_connection: by_method_method_of_continuous_check;
+
+    => nrel_legal_act: by_act_p30900510;
+    => nrel_legal_act: by_act_c22000573;
+    => nrel_legal_act: by_act_c21200389;
+    => nrel_legal_act: by_act_w21530475p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21412?langname=ru];
+    => nrel_etalon_online_idx: [21412];;

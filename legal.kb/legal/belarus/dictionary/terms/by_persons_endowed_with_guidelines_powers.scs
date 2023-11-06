@@ -1,0 +1,34 @@
+
+by_persons_endowed_with_guidelines_powers
+    => nrel_main_idtf: [persons endowed with guidelines powers] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица, наделенные руководящими полномочиями] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, надзеленыя кіруючымі паўнамоцтвамі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_endowed_with_guidelines_powers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_continuous_professional_education_of_leading_workers_and_specialists;
+    => nrel_associative_connection: by_potential_managerial_staff;
+    => nrel_associative_connection: by_head_of_the_legal_entity;
+    => nrel_associative_connection: by_senior_position;
+
+    => nrel_legal_act: by_act_w21225002;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16664?langname=ru];
+    => nrel_etalon_online_idx: [16664];;

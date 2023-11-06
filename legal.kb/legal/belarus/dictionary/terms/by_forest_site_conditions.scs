@@ -1,0 +1,44 @@
+
+by_forest_site_conditions
+    => nrel_main_idtf: [forest site conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесорастительные условия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесараслінныя ўмовы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_site_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geographical_forest_plants;
+    => nrel_associative_connection: by_forest_protection;
+    => nrel_associative_connection: by_class_of_estimated_productivity;
+    => nrel_associative_connection: by_forest;
+    => nrel_associative_connection: by_forestry_products;
+    => nrel_associative_connection: by_forest_genetic_reserve;
+    => nrel_associative_connection: by_forest_compartment;
+    => nrel_associative_connection: by_reforestation;
+    => nrel_associative_connection: by_aesthetic_forestry;
+    => nrel_associative_connection: by_forestseed_plantations;
+    => nrel_associative_connection: by_forest_management;
+    => nrel_associative_connection: by_lowvalue_forest_plantations;
+    => nrel_associative_connection: by_type_of_forestgrowing_conditions;
+    => nrel_associative_connection: by_ecotype_climatype_edaphotype;
+
+    => nrel_legal_act: by_act_hk1500332;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11932?langname=ru];
+    => nrel_etalon_online_idx: [11932];;

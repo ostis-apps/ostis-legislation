@@ -1,0 +1,36 @@
+
+by_higher_state_authority
+    => nrel_main_idtf: [higher state authority] (* <- lang_en;; *);
+    => nrel_main_idtf: [высший орган государственной власти] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вышэйшы орган дзяржаўнай улады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_higher_state_authority_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_state_organizations;
+    => nrel_associative_connection: by_state_bodies;
+    => nrel_associative_connection: by_state_bodies_and_state_organizations;
+    => nrel_associative_connection: by_state_body;
+    => nrel_associative_connection: by_representatives_of_authorities;
+
+    => nrel_legal_act: by_act_v29302176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13416?langname=ru];
+    => nrel_etalon_online_idx: [13416];;

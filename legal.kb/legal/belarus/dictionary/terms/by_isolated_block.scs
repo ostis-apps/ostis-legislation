@@ -1,0 +1,36 @@
+
+by_isolated_block
+    => nrel_main_idtf: [isolated block] (* <- lang_en;; *);
+    => nrel_main_idtf: [изолированный блок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ізаляваны блок] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_isolated_block_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_block;
+    => nrel_associative_connection: by_halo_and_speleoclimatic_chamber;
+    => nrel_associative_connection: by_isolated_room;
+    => nrel_associative_connection: by_contaminated_area;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_the_environment_of_the_treatment_area_of_the_halochamber_premises;
+
+    => nrel_legal_act: by_act_c22000130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32907?langname=ru];
+    => nrel_etalon_online_idx: [32907];;

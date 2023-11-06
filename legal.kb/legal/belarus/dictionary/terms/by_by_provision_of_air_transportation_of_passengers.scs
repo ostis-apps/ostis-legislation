@@ -1,0 +1,32 @@
+
+by_by_provision_of_air_transportation_of_passengers
+    => nrel_main_idtf: [by_provision_of_air_transportation_of_passengers] (* <- lang_en;; *);
+    => nrel_main_idtf: [обеспечение воздушных перевозок пассажиров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забеспячэнне паветраных перавозак пасажыраў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_provision_of_air_transportation_of_passengers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_transportation_reservation;
+    => nrel_associative_connection: by_provision_of_air_cargo_transportation;
+
+    => nrel_legal_act: by_act_w208p0065;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43325?langname=ru];
+    => nrel_etalon_online_idx: [43325];;

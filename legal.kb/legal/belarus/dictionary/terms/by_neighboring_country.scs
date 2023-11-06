@@ -1,0 +1,49 @@
+
+by_neighboring_country
+    => nrel_main_idtf: [neighboring country] (* <- lang_en;; *);
+    => nrel_main_idtf: [сопредельное государство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сумежная дзяржава] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neighboring_country_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neighboring_country_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_demarcation_commission;
+    => nrel_associative_connection: by_foreign_state;
+    => nrel_associative_connection: by_redemarcation;
+
+    => nrel_legal_act: by_act_h10800419;
+    => nrel_legal_act: by_act_i01500054;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6910?langname=ru];
+    => nrel_etalon_online_idx: [6910];;

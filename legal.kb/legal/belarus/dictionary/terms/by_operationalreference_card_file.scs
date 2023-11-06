@@ -1,0 +1,34 @@
+
+by_operationalreference_card_file
+    => nrel_main_idtf: [operational-reference card file] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативно-справочная картотека] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўна-даведачная картатэка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operationalreference_card_file_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_filling_the_registration_card;
+    => nrel_associative_connection: by_information_units_of_the_internal_affairs_bodies;
+    => nrel_associative_connection: by_registration_card;
+    => nrel_associative_connection: by_fixation_of_data_on_offences;
+
+    => nrel_legal_act: by_act_c20600909;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38466?langname=ru];
+    => nrel_etalon_online_idx: [38466];;

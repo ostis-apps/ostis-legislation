@@ -1,0 +1,60 @@
+
+by_scientific_activity
+    => nrel_main_idtf: [scientific activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [научная деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навуковая дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scientific_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_adjunct;
+    => nrel_associative_connection: by_approbation_of_results_of_scientific_research;
+    => nrel_associative_connection: by_budgetfinanced_scientific_organization;
+    => nrel_associative_connection: by_bureau_of_the_academy_of_science_presidium;
+    => nrel_associative_connection: by_introduction_in_practice;
+    => nrel_associative_connection: by_temporary_scientific_group;
+    => nrel_associative_connection: by_state_scientific_and_technical_policy;
+    => nrel_associative_connection: by_state_grant_for_science;
+    => nrel_associative_connection: by_grant;
+    => nrel_associative_connection: by_doctors_dissertation_in_the_form_of_scientific_report;
+    => nrel_associative_connection: by_unified_system_of_state_scientific_and_state_scientific_and_technical_expertise;
+    => nrel_associative_connection: by_committee_on_science_and_technology_under_the_council_of_ministers_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_monitoring_of_the_attraction_and_fixation_of_young_scientists_in_the_organizations_of_the_republic_of_belarus_who_implement_scientific_activity;
+    => nrel_associative_connection: by_scientific_organization;
+    => nrel_associative_connection: by_scientific_work_in_the_university;
+    => nrel_associative_connection: by_scientific_research_activity;
+    => nrel_associative_connection: by_scientific_research_part_center_sector_department;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_scientific_and_pedagogical_worker;
+    => nrel_associative_connection: by_scientific_and_practical_center;
+    => nrel_associative_connection: by_scientific_and_technical_products;
+    => nrel_associative_connection: by_researches;
+    => nrel_associative_connection: by_scientific_worker;
+    => nrel_associative_connection: by_scientific_fund;
+    => nrel_associative_connection: by_training_of_scientists_of_highest_qualification;
+    => nrel_associative_connection: by_applied_researches;
+    => nrel_associative_connection: by_results_of_scientific_and_scientific_and_technical_activity;
+    => nrel_associative_connection: by_system_of_technological_forecasting;
+    => nrel_associative_connection: by_subjects_of_scientific_activity;
+    => nrel_associative_connection: by_faculty_higher_school_without_right_of_legal_entity;
+
+    => nrel_legal_act: by_act_v19600708;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3674?langname=ru];
+    => nrel_etalon_online_idx: [3674];;

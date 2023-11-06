@@ -1,0 +1,34 @@
+
+by_by_honeydew
+    => nrel_main_idtf: [by_honeydew] (* <- lang_en;; *);
+    => nrel_main_idtf: [падь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [упадзіна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_honeydew_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contagious_diseases_of_bees;
+    => nrel_associative_connection: by_invasive_diseases_of_bees;
+    => nrel_associative_connection: by_infectious_diseases_of_bees;
+    => nrel_associative_connection: by_noncontagic_diseases_of_bees;
+
+    => nrel_legal_act: by_act_w21226307p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38853?langname=ru];
+    => nrel_etalon_online_idx: [38853];;

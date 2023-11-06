@@ -1,0 +1,41 @@
+
+by_interpositive
+    => nrel_main_idtf: [interpositive] (* <- lang_en;; *);
+    => nrel_main_idtf: [интерпозитив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэрпазітыў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interpositive_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_doublenegative;
+    => nrel_associative_connection: by_unit_of_storage_of_film_documents;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_film_document;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by_copy_of_audiovisual_document;
+    => nrel_associative_connection: by_positive;
+    => nrel_associative_connection: by_positive_on_reversable_film;
+    => nrel_associative_connection: by_intermediate_positive;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15421?langname=ru];
+    => nrel_etalon_online_idx: [15421];;

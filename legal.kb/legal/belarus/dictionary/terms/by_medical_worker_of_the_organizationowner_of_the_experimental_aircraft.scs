@@ -1,0 +1,35 @@
+
+by_medical_worker_of_the_organizationowner_of_the_experimental_aircraft
+    => nrel_main_idtf: [medical worker of the organization-owner of the experimental aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинский работник организации – владельца экспериментального воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынскі работнік арганізацыі уладальніка эксперыментальнага паветранага судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_worker_of_the_organizationowner_of_the_experimental_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_personnel;
+    => nrel_associative_connection: by_flight_staff;
+    => nrel_associative_connection: by_nurse;
+    => nrel_associative_connection: by_organization_of_flights;
+    => nrel_associative_connection: by_examination;
+
+    => nrel_legal_act: by_act_w21530476p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31678?langname=ru];
+    => nrel_etalon_online_idx: [31678];;

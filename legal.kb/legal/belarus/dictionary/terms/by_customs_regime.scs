@@ -1,0 +1,69 @@
+
+by_customs_regime
+    => nrel_main_idtf: [customs regime] (* <- lang_en;; *);
+    => nrel_main_idtf: [таможенный режим] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мытны рэжым] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_regime_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_regime_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customs_regime_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_import;
+    => nrel_associative_connection: by_smuggling;
+    => nrel_associative_connection: by_certificate_of_placement_of_goods_under_the_declared_customs_regime_and_permit_for_customs_transit;
+    => nrel_associative_connection: by_customs_business;
+    => nrel_associative_connection: by_customs_regime_of_temporary_import;
+    => nrel_associative_connection: by_customs_regime_of_free_circulation;
+    => nrel_associative_connection: by_customs_regime_established_by_the_customs_code_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_p31100319;
+    => nrel_legal_act: by_act_n21800163;
+    => nrel_legal_act: by_act_f20400039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7025?langname=ru];
+    => nrel_etalon_online_idx: [7025];;

@@ -1,0 +1,32 @@
+
+by_troy_ounce
+    => nrel_main_idtf: [troy ounce] (* <- lang_en;; *);
+    => nrel_main_idtf: [тройская унция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тройская ўнцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_troy_ounce_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_unit_of_measurement;
+
+    => nrel_legal_act: by_act_w21123976;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25291?langname=ru];
+    => nrel_etalon_online_idx: [25291];;

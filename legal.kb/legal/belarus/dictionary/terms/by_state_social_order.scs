@@ -1,0 +1,37 @@
+
+by_state_social_order
+    => nrel_main_idtf: [state social order] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный социальный заказ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны сацыяльны заказ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_social_order_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ministry_of_labor_and_social_protection_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_onetime_social_service;
+    => nrel_associative_connection: by_social_infrastructure;
+    => nrel_associative_connection: by_social_service;
+    => nrel_associative_connection: by_social_domestic_services;
+    => nrel_associative_connection: by_social_service;
+    => nrel_associative_connection: by_social_project;
+
+    => nrel_legal_act: by_act_h10000395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13773?langname=ru];
+    => nrel_etalon_online_idx: [13773];;

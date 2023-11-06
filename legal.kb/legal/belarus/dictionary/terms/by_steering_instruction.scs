@@ -1,0 +1,21 @@
+
+by_steering_instruction
+    => nrel_main_idtf: [steering instruction] (* <- lang_en;; *);
+    => nrel_main_idtf: [команда управления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каманда кіравання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_kind_of_management;
+    => nrel_associative_connection: by_internal_management;
+    => nrel_associative_connection: by_outside_management;
+    => nrel_associative_connection: by_management_regimes;
+    => nrel_associative_connection: by_collective_management;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11910?langname=ru];
+    => nrel_etalon_online_idx: [11910];;

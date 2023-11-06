@@ -1,0 +1,37 @@
+
+by_initiator_of_the_survey_using_the_polygraph
+    => nrel_main_idtf: [initiator of the survey using the polygraph] (* <- lang_en;; *);
+    => nrel_main_idtf: [инициатор опроса с использованием полиграфа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ініцыятар апытання з выкарыстаннем паліграфа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_initiator_of_the_survey_using_the_polygraph_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_polygraph_examination;
+    => nrel_associative_connection: by_polygraphic_activity;
+    => nrel_associative_connection: by_polygraphic_production;
+    => nrel_associative_connection: by_polygraph_specialist;
+    => nrel_associative_connection: by_polygraph_survey_specialist;
+    => nrel_associative_connection: by_information_on_the_results_of_the_survey_using_the_polygraph;
+    => nrel_associative_connection: by_testing_on_polygraph;
+
+    => nrel_legal_act: by_act_w22036042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35480?langname=ru];
+    => nrel_etalon_online_idx: [35480];;

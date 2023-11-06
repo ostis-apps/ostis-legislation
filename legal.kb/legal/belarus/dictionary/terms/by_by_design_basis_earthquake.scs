@@ -1,0 +1,23 @@
+
+by_by_design_basis_earthquake
+    => nrel_main_idtf: [by_design_basis_earthquake] (* <- lang_en;; *);
+    => nrel_main_idtf: [проектное землетрясение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праектнае землетрасенне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_safe_shutdown_earthquake;
+    => nrel_associative_connection: by_violation_of_normal_operation_of_a_nuclear_facility;
+    => nrel_associative_connection: by_normal_operation_of_the_nuclear_facility;
+    => nrel_associative_connection: by_objects_of_nuclear_energy_use;
+    => nrel_associative_connection: by_quality_assurance_programme;
+    => nrel_associative_connection: by_project_accident;
+    => nrel_associative_connection: by_project_threat;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21539?langname=ru];
+    => nrel_etalon_online_idx: [21539];;

@@ -1,0 +1,33 @@
+
+by_intelligent_system
+    => nrel_main_idtf: [intelligent system] (* <- lang_en;; *);
+    => nrel_main_idtf: [интеллектуальная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інтэлектуальная сістэма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intelligent_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_engineer_for_intelligent_systems;
+    => nrel_associative_connection: by_intelligent_information_system;
+    => nrel_associative_connection: by_artificial_intelligence;
+
+    => nrel_legal_act: by_act_w21934855p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32262?langname=ru];
+    => nrel_etalon_online_idx: [32262];;

@@ -1,0 +1,41 @@
+
+by_documentary_operations
+    => nrel_main_idtf: [documentary operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [документарные операции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакументарныя аперацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_documentary_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_letter_of_credit;
+    => nrel_associative_connection: by_bank_guarantee;
+    => nrel_associative_connection: by_irrevocable_letter_of_credit;
+    => nrel_associative_connection: by_internal_collection;
+    => nrel_associative_connection: by_internal_letter_of_credit;
+    => nrel_associative_connection: by_collection;
+    => nrel_associative_connection: by_transferable_letter_of_credit;
+    => nrel_associative_connection: by_confirming_bank;
+    => nrel_associative_connection: by_reimbursement;
+    => nrel_associative_connection: by_reimbursement_requirement;
+    => nrel_associative_connection: by_reserve_letter_of_credit;
+
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14337?langname=ru];
+    => nrel_etalon_online_idx: [14337];;

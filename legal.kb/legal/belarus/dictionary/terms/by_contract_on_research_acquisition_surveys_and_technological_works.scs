@@ -1,0 +1,35 @@
+
+by_contract_on_research_acquisition_surveys_and_technological_works
+    => nrel_main_idtf: [contract on research, acquisition surveys and technological works] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор на выполнение научно-исследовательских работ, опытно-конструкторских и технологических работ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор на выкананне навукова-даследчых работ, доследна-канструктарскіх і тэхналагічных работ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_contract_on_research_acquisition_surveys_and_technological_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_development_and_pilottechnological_technological_works;
+    => nrel_associative_connection: by_development_works;
+    => nrel_associative_connection: by_technological_works;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3783?langname=ru];
+    => nrel_etalon_online_idx: [3783];;

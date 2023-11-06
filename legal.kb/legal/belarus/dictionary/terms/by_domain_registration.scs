@@ -1,0 +1,22 @@
+
+by_domain_registration
+    => nrel_main_idtf: [domain registration] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрация домена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыя дамена] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_domain_delegating;
+    => nrel_associative_connection: by_domain_zone;
+    => nrel_associative_connection: by_domain_name_domain;
+    => nrel_associative_connection: by_suspension_of_the_domain_delegating;
+    => nrel_associative_connection: by_recorder;
+    => nrel_associative_connection: by_registry_of_the_national_domain_zone;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6788?langname=ru];
+    => nrel_etalon_online_idx: [6788];;

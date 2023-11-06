@@ -1,0 +1,38 @@
+
+by_infectivity
+    => nrel_main_idtf: [infectivity] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфекционность ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфекцыйнасць ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectivity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_infectious_disease_specialized_assistance_team;
+    => nrel_associative_connection: by_infectious_disease;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_infectious_control;
+    => nrel_associative_connection: by_infected_object;
+    => nrel_associative_connection: by_source_of_infection;
+    => nrel_associative_connection: by_source_of_infectious_diseases;
+    => nrel_associative_connection: by_reactivity;
+
+    => nrel_legal_act: by_act_w21934870;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9208?langname=ru];
+    => nrel_etalon_online_idx: [9208];;

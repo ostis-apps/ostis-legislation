@@ -1,0 +1,36 @@
+
+by_directorate_site
+    => nrel_main_idtf: [directorate site] (* <- lang_en;; *);
+    => nrel_main_idtf: [сайт дирекции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сайт дырэкцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_directorate_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_official_ticket_operator_of_the_championship;
+    => nrel_associative_connection: by_official_tourist_operator_of_the_championship;
+    => nrel_associative_connection: by_championship_partners;
+    => nrel_associative_connection: by_site_of_ticket_operator;
+    => nrel_associative_connection: by_tour_operators_site;
+    => nrel_associative_connection: by_ticket_operator_system;
+
+    => nrel_legal_act: by_act_c21300829;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22777?langname=ru];
+    => nrel_etalon_online_idx: [22777];;

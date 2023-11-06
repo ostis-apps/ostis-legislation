@@ -1,0 +1,39 @@
+
+by_gaming_machine_cash
+    => nrel_main_idtf: [gaming machine cash] (* <- lang_en;; *);
+    => nrel_main_idtf: [касса игрового автомата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каса гульнявога аўтамата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gaming_machine_cash_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_game_machine_initialization;
+    => nrel_associative_connection: by_game_machine_credit;
+    => nrel_associative_connection: by_credit_key;
+    => nrel_associative_connection: by_management_bodies_of_game_machine;
+    => nrel_associative_connection: by_software_verification_tools;
+    => nrel_associative_connection: by_bet_in_the_game_on_game_machines_bet;
+    => nrel_associative_connection: by_ticket;
+
+    => nrel_legal_act: by_act_c21900137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30925?langname=ru];
+    => nrel_etalon_online_idx: [30925];;

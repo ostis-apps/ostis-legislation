@@ -1,0 +1,63 @@
+
+by_wholesale_trade
+    => nrel_main_idtf: [wholesale trade] (* <- lang_en;; *);
+    => nrel_main_idtf: [оптовая торговля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптовы гандаль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wholesale_trade_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wholesale_trade_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sampling_population_of_basic_organizations;
+    => nrel_associative_connection: by_sampling_population_of_representative_goods;
+    => nrel_associative_connection: by_logistics;
+    => nrel_associative_connection: by_storewarehouse;
+    => nrel_associative_connection: by_proper_wholesale_distribution_practice;
+    => nrel_associative_connection: by_turnover;
+    => nrel_associative_connection: by_volume_of_wholesale__of_representative_goods;
+    => nrel_associative_connection: by_wholesale_increase;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_itinerant_trade;
+    => nrel_associative_connection: by_peddling;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_commodity_warehouse;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_crossborder_trade;
+    => nrel_associative_connection: by_form_of_trade;
+    => nrel_associative_connection: by_fair;
+
+    => nrel_legal_act: by_act_h11400128;
+    => nrel_legal_act: by_act_f41600213;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6411?langname=ru];
+    => nrel_etalon_online_idx: [6411];;

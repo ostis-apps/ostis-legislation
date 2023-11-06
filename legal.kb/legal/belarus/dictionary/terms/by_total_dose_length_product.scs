@@ -1,0 +1,35 @@
+
+by_total_dose_length_product
+    => nrel_main_idtf: [total dose length product] (* <- lang_en;; *);
+    => nrel_main_idtf: [общее произведение дозы на длину] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульнае стварэнне дозы на даўжыню] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_total_dose_length_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_xray_machine;
+    => nrel_associative_connection: by_ct_scan;
+    => nrel_associative_connection: by_magnetic_resonance_tomography;
+    => nrel_associative_connection: by_orthopantomogram;
+    => nrel_associative_connection: by_effective_radioactive_dose;
+
+    => nrel_legal_act: by_act_w22339976;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42566?langname=ru];
+    => nrel_etalon_online_idx: [42566];;

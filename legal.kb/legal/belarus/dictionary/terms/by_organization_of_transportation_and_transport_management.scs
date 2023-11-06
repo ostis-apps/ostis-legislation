@@ -1,0 +1,34 @@
+
+by_organization_of_transportation_and_transport_management
+    => nrel_main_idtf: [organization of transportation and transport management] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация перевозок и управление на транспорте] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя перавозак і кіраванне на транспарце] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_of_transportation_and_transport_management_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_carrier;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_legal_act: by_act_w21833356p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29164?langname=ru];
+    => nrel_etalon_online_idx: [29164];;

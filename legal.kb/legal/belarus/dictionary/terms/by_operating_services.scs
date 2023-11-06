@@ -1,0 +1,34 @@
+
+by_operating_services
+    => nrel_main_idtf: [operating services] (* <- lang_en;; *);
+    => nrel_main_idtf: [эксплуатационные услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эксплуатацыйныя паслугі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operating_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_housing_fund_objects;
+    => nrel_associative_connection: by_construction_and_repair;
+    => nrel_associative_connection: by_housing_fund_maintenance;
+    => nrel_associative_connection: by_operating_housing_fund_of_citizens;
+
+    => nrel_legal_act: by_act_p30700138;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32011?langname=ru];
+    => nrel_etalon_online_idx: [32011];;

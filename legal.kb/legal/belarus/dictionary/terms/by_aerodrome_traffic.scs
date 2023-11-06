@@ -1,0 +1,22 @@
+
+by_aerodrome_traffic
+    => nrel_main_idtf: [aerodrome traffic] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродромное движение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадромны рух] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_aerodrome_facilities;
+    => nrel_associative_connection: by_aerodrome_dispatch_point;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_aerodrome_area;
+    => nrel_associative_connection: by_airouzla_district;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8285?langname=ru];
+    => nrel_etalon_online_idx: [8285];;

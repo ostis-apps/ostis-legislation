@@ -1,0 +1,36 @@
+
+by_linear_norm_of_fuel_rate
+    => nrel_main_idtf: [linear norm of fuel rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [линейная норма расхода топлива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лінейная норма расходу паліва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_linear_norm_of_fuel_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_temporary_norm_of_fuel_consumption;
+    => nrel_associative_connection: by_additional_fuel_consumption;
+    => nrel_associative_connection: by_linearity;
+    => nrel_associative_connection: by_fuel_consumption_rate_for_execution_of_a_specific_type_of_work_by_tractor_machine_mechanism_and_equipment;
+    => nrel_associative_connection: by_fuel_consumption_rate_for_execution_of_transport_work;
+    => nrel_associative_connection: by_erroneous_norms;
+
+    => nrel_legal_act: by_act_w20920462;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16626?langname=ru];
+    => nrel_etalon_online_idx: [16626];;

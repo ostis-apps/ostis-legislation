@@ -1,0 +1,35 @@
+
+by_by_indicative_safe_level_of_exposure_to_the_active_substance
+    => nrel_main_idtf: [by_indicative_safe_level_of_exposure_to_the_active_substance] (* <- lang_en;; *);
+    => nrel_main_idtf: [ориентировочный безопасный уровень воздействия действующего вещества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_indicative_safe_level_of_exposure_to_the_active_substance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permissible_daily_dose_of_the_active_substance;
+    => nrel_associative_connection: by_maximum_permissible_level_of_active_substance;
+    => nrel_associative_connection: by_approximate_permissible_concentration_of_the_active_substance;
+    => nrel_associative_connection: by_approximate_permissible_level_of_the_active_substance;
+    => nrel_associative_connection: by_component_exposure_limit;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43201?langname=ru];
+    => nrel_etalon_online_idx: [43201];;

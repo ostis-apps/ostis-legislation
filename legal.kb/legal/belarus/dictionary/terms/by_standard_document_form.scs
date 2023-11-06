@@ -1,0 +1,39 @@
+
+by_standard_document_form
+    => nrel_main_idtf: [standard document form] (* <- lang_en;; *);
+    => nrel_main_idtf: [бланк документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бланк дакумента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standard_document_form_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_answer_form;
+    => nrel_associative_connection: by_security_forms_and_documents_with_a_defined_degree_of_protection;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_additional_colors;
+    => nrel_associative_connection: by_waybill;
+    => nrel_associative_connection: by_official_documents;
+    => nrel_associative_connection: by_primary_documents;
+    => nrel_associative_connection: by_semifinished_products_of_registered_highsecurity_forms;
+    => nrel_associative_connection: by_form_of_the_duty_reference_card_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_w20920434;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8419?langname=ru];
+    => nrel_etalon_online_idx: [8419];;

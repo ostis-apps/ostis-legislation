@@ -1,0 +1,58 @@
+
+by_sport_disqualification
+    => nrel_main_idtf: [sport disqualification] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивная дисквалификация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўная дыскваліфікацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_disqualification_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_disqualification_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_suspension;
+    => nrel_associative_connection: by_drug_test;
+    => nrel_associative_connection: by_marker;
+    => nrel_associative_connection: by_metabolite;
+    => nrel_associative_connection: by_national_antidoping_agency;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_highest_class_sportsmen;
+    => nrel_associative_connection: by_testing;
+    => nrel_associative_connection: by_educational_and_training_process;
+    => nrel_associative_connection: by_falsification;
+
+    => nrel_legal_act: by_act_h11400125;
+    => nrel_legal_act: by_act_n22000131;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10618?langname=ru];
+    => nrel_etalon_online_idx: [10618];;

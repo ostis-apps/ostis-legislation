@@ -1,0 +1,34 @@
+
+by_daily_plan
+    => nrel_main_idtf: [daily plan] (* <- lang_en;; *);
+    => nrel_main_idtf: [суточный план] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сутачны план] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_daily_plan_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_exploitation_of_the_air_space_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_planning_use_of_air_space_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tariff_zone_of_days;
+
+    => nrel_legal_act: by_act_c20601471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24534?langname=ru];
+    => nrel_etalon_online_idx: [24534];;

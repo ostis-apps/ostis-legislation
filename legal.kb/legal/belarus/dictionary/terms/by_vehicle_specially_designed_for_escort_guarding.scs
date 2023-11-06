@@ -1,0 +1,50 @@
+
+by_vehicle_specially_designed_for_escort_guarding
+    => nrel_main_idtf: [vehicle specially designed for escort guarding] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортное средство, специально предназначенное для конвоирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспартны сродак, спецыяльна прызначаны для канваіравання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_specially_designed_for_escort_guarding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vehicle_specially_designed_for_escort_guarding_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_escort_guards;
+    => nrel_associative_connection: by_conveyance_of_persons_being_under_arrest;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_w21731771;
+    => nrel_legal_act: by_act_w21731751;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25223?langname=ru];
+    => nrel_etalon_online_idx: [25223];;

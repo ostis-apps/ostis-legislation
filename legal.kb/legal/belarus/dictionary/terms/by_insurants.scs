@@ -1,0 +1,99 @@
+
+by_insurants
+    => nrel_main_idtf: [insurants] (* <- lang_en;; *);
+    => nrel_main_idtf: [страхователи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавальнікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurants_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurants_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurants_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurants_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurants_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_redemption_sum;
+    => nrel_associative_connection: by_adhesion_agreement_in_insurance_sphere;
+    => nrel_associative_connection: by_payer_of_state_social_insurance_contributions;
+    => nrel_associative_connection: by_employees_of_the_insured;
+    => nrel_associative_connection: by_subrogation;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_p30600530;
+    => nrel_legal_act: by_act_c20301297;
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n29700091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24318?langname=ru];
+    => nrel_etalon_online_idx: [24318];;

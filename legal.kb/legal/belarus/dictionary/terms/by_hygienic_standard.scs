@@ -1,0 +1,68 @@
+
+by_hygienic_standard
+    => nrel_main_idtf: [hygienic standard] (* <- lang_en;; *);
+    => nrel_main_idtf: [гигиенический норматив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гігіенічны нарматыў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hygienic_standard_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hygienic_standard_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hygienic_standard_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aperture;
+    => nrel_associative_connection: by_eyesafe_laser_distance;
+    => nrel_associative_connection: by_shine;
+    => nrel_associative_connection: by_normative_documents;
+    => nrel_associative_connection: by_sanitaryhygienic_zone;
+    => nrel_associative_connection: by_sanitary_norms_rules_andhygienic_standards;
+
+    => nrel_legal_act: by_act_h11200340;
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n20600145;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2427?langname=ru];
+    => nrel_etalon_online_idx: [2427];;

@@ -1,0 +1,31 @@
+
+by_lawful_possession
+    => nrel_main_idtf: [lawful possession] (* <- lang_en;; *);
+    => nrel_main_idtf: [законное владение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [законнае ўладанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lawful_possession_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_public_possession;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3729?langname=ru];
+    => nrel_etalon_online_idx: [3729];;

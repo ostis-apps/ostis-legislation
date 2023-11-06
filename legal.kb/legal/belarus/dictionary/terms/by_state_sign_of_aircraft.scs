@@ -1,0 +1,34 @@
+
+by_state_sign_of_aircraft
+    => nrel_main_idtf: [state sign of aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный знак воздушного судна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны знак паветранага судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_sign_of_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aircraft_address;
+    => nrel_associative_connection: by_civil_aircraft_owner;
+    => nrel_associative_connection: by_aircraft;
+    => nrel_associative_connection: by_aircraft_registration_plate;
+
+    => nrel_legal_act: by_act_w208p0029;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35872?langname=ru];
+    => nrel_etalon_online_idx: [35872];;

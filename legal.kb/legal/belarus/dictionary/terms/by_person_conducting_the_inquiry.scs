@@ -1,0 +1,34 @@
+
+by_person_conducting_the_inquiry
+    => nrel_main_idtf: [person conducting the inquiry] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицо, производящее дознание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асоба, якая праводзіць дазнанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_person_conducting_the_inquiry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pretrial_proceeding;
+    => nrel_associative_connection: by_agency_of_inquiry;
+    => nrel_associative_connection: by_body_of_pretrial_investigation;
+    => nrel_associative_connection: by_the_subject_of_supervision_over_the_implementation_of_the_law_during_prejudicial_proceedings_during_preliminary_investigation_and_inquest;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10357?langname=ru];
+    => nrel_etalon_online_idx: [10357];;

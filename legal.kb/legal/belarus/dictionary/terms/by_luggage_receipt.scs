@@ -1,0 +1,51 @@
+
+by_luggage_receipt
+    => nrel_main_idtf: [luggage receipt] (* <- lang_en;; *);
+    => nrel_main_idtf: [багажная квитанция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [багажная квітанцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_luggage_receipt_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_luggage_receipt_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_luggage;
+    => nrel_associative_connection: by_baggage_tag;
+    => nrel_associative_connection: by_luggage_office;
+    => nrel_associative_connection: by_receipt;
+    => nrel_associative_connection: by_electronic_ticket;
+
+    => nrel_legal_act: by_act_w20411923;
+    => nrel_legal_act: by_act_n09700047;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8305?langname=ru];
+    => nrel_etalon_online_idx: [8305];;

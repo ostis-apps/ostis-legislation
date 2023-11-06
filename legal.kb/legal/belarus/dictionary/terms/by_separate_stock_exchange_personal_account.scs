@@ -1,0 +1,36 @@
+
+by_separate_stock_exchange_personal_account
+    => nrel_main_idtf: [separate stock exchange personal account] (* <- lang_en;; *);
+    => nrel_main_idtf: [отдельный лицевой счет биржи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобны асабовы рахунак біржы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_separate_stock_exchange_personal_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stock_exchange_trade;
+    => nrel_associative_connection: by_exchange_trades;
+    => nrel_associative_connection: by_division_personal_account;
+    => nrel_associative_connection: by_separate_personal_accounts;
+    => nrel_associative_connection: by_commodity_exchange;
+    => nrel_associative_connection: by_trade_account_of_the_exchange;
+
+    => nrel_legal_act: by_act_b22339812;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28120?langname=ru];
+    => nrel_etalon_online_idx: [28120];;

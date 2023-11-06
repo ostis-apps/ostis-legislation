@@ -1,0 +1,57 @@
+
+by_sign_of_protection
+    => nrel_main_idtf: [sign of protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [знак защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знак абароны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sign_of_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sign_of_protection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_global_location_number_gln;
+    => nrel_associative_connection: by_protected_material_carrier;
+    => nrel_associative_connection: by_secured_material_carrier_with_applied_identification_means;
+    => nrel_associative_connection: by_global_trade_item_number_gtin;
+    => nrel_associative_connection: by_individual_serial_number_of_goods;
+    => nrel_associative_connection: by_marked_goods;
+    => nrel_associative_connection: by_material_carrier;
+    => nrel_associative_connection: by_turnover_of_protected_material_carriers_protected_material_carriers_with_applied_means_of_identification_protection_signs;
+    => nrel_associative_connection: by_circulation_of_goods;
+    => nrel_associative_connection: by_means_of_identification;
+    => nrel_associative_connection: by_pilot_project_participants;
+
+    => nrel_legal_act: by_act_p31100243;
+    => nrel_legal_act: by_act_w21934132;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31185?langname=ru];
+    => nrel_etalon_online_idx: [31185];;

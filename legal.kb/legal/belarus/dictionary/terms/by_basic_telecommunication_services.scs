@@ -1,0 +1,35 @@
+
+by_basic_telecommunication_services
+    => nrel_main_idtf: [basic telecommunication services] (* <- lang_en;; *);
+    => nrel_main_idtf: [основные услуги электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўныя паслугі электрасувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basic_telecommunication_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_secondary_network_telecommunications;
+    => nrel_associative_connection: by_additional_telecommunication_services;
+    => nrel_associative_connection: by_unified_electric_communication_network_of_the_republic_of_belarus_uecn_rb;
+    => nrel_associative_connection: by_primary_network_telecommunication;
+    => nrel_associative_connection: by_telecommunication_services;
+
+    => nrel_legal_act: by_act_w22035538p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33814?langname=ru];
+    => nrel_etalon_online_idx: [33814];;

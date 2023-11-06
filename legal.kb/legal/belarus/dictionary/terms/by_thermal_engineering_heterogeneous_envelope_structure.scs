@@ -1,0 +1,37 @@
+
+by_thermal_engineering_heterogeneous_envelope_structure
+    => nrel_main_idtf: [thermal engineering heterogeneous envelope structure] (* <- lang_en;; *);
+    => nrel_main_idtf: [теплотехнически неоднородная ограждающая конструкция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цеплатэхнічна неаднародная агароджваючая канструкцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_thermal_engineering_heterogeneous_envelope_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_coefficient_of_thermal_homogeneity;
+    => nrel_associative_connection: by_linear_thermotechnical_heterogeneity_linear_;
+    => nrel_associative_connection: by_model_of_heat_engineering_heterogeneity_of_the_enveloped_structure_th_model;
+    => nrel_associative_connection: by_calculated_area_of_the_enclosing_enclosing_section_structure_m2;
+    => nrel_associative_connection: by_calculated_plot_of_the_enclosing_structure_calculated_plot;
+    => nrel_associative_connection: by_heattechnically_homogeneous_enveloped_structure;
+    => nrel_associative_connection: by_specific_heat_loss_through_linear_heat_engineering_inhomogeneity;
+
+    => nrel_legal_act: by_act_w220p0513;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37071?langname=ru];
+    => nrel_etalon_online_idx: [37071];;

@@ -1,0 +1,19 @@
+
+by_by_snow_gauge_route
+    => nrel_main_idtf: [by_snow_gauge_route] (* <- lang_en;; *);
+    => nrel_main_idtf: [снегомерный маршрут] (* <- lang_ru;; *);
+    => nrel_main_idtf: [снегамерны маршрут] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_traffic_route;
+    => nrel_associative_connection: by_route_corridor;
+    => nrel_associative_connection: by_route_scheme;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23413?langname=ru];
+    => nrel_etalon_online_idx: [23413];;

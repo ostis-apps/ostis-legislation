@@ -1,0 +1,37 @@
+
+by_protective_zone_along_air_transmission_line
+    => nrel_main_idtf: [protective zone along air transmission line] (* <- lang_en;; *);
+    => nrel_main_idtf: [охранная зона вдоль воздушных линий электропередачи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахоўная зона ўздоўж паветраных ліній электраперадачы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protective_zone_along_air_transmission_line_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_transmission_line_to_1_kv_or_above;
+    => nrel_associative_connection: by_electricity_transmission_line;
+    => nrel_associative_connection: by_local_air_line;
+    => nrel_associative_connection: by_protective_zone;
+    => nrel_associative_connection: by_conservation_zones;
+    => nrel_associative_connection: by_fire_safety_rules;
+    => nrel_associative_connection: by_fire_protection;
+
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19689?langname=ru];
+    => nrel_etalon_online_idx: [19689];;

@@ -1,0 +1,31 @@
+
+by_disclosure_of_patent_confidentiality
+    => nrel_main_idtf: [disclosure of patent confidentiality] (* <- lang_en;; *);
+    => nrel_main_idtf: [разглашение врачебной тайны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдаванне ўрачэбнай тайны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_disclosure_of_patent_confidentiality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medical_confidentiality;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1775?langname=ru];
+    => nrel_etalon_online_idx: [1775];;

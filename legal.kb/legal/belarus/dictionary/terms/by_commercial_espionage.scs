@@ -1,0 +1,34 @@
+
+by_commercial_espionage
+    => nrel_main_idtf: [commercial espionage] (* <- lang_en;; *);
+    => nrel_main_idtf: [коммерческий шпионаж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камерцыйны шпіянаж] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commercial_espionage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_secrecy;
+    => nrel_associative_connection: by_commercial_secret;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_espionage_activities;
+
+    => nrel_legal_act: by_act_hk9900275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1668?langname=ru];
+    => nrel_etalon_online_idx: [1668];;

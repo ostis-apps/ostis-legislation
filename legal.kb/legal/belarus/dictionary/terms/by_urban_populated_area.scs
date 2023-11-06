@@ -1,0 +1,34 @@
+
+by_urban_populated_area
+    => nrel_main_idtf: [urban populated area] (* <- lang_en;; *);
+    => nrel_main_idtf: [городской населенный пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гарадскі населены пункт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_urban_populated_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_master_plan_of_the_settlement_general_plan;
+    => nrel_associative_connection: by_border_of_perspective_territorial_development_of_the_settlement;
+    => nrel_associative_connection: by_large_populated_area;
+    => nrel_associative_connection: by_populated_area;
+
+    => nrel_legal_act: by_act_w01933961p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37785?langname=ru];
+    => nrel_etalon_online_idx: [37785];;

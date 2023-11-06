@@ -1,0 +1,55 @@
+
+by_protected_information
+    => nrel_main_idtf: [protected information] (* <- lang_en;; *);
+    => nrel_main_idtf: [защищаемая информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ахоўваемая інфармацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protected_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protected_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_certification_of_the_information_protection_system_of_the_information_system;
+    => nrel_associative_connection: by_information_security_incidents_registration_log;
+    => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_information_security_incident;
+    => nrel_associative_connection: by_organizational_measures_for_information_protection;
+    => nrel_associative_connection: by_interception_of_information;
+    => nrel_associative_connection: by_legal_measures_for_protecting_information;
+    => nrel_associative_connection: by_communication_protocol;
+    => nrel_associative_connection: by_system_of_information_protection;
+
+    => nrel_legal_act: by_act_b22239010;
+    => nrel_legal_act: by_act_n01300115;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5825?langname=ru];
+    => nrel_etalon_online_idx: [5825];;

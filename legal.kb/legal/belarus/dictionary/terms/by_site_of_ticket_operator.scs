@@ -1,0 +1,39 @@
+
+by_site_of_ticket_operator
+    => nrel_main_idtf: [site of ticket operator ] (* <- lang_en;; *);
+    => nrel_main_idtf: [сайт билетного оператора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сайт білетнага аператара] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_site_of_ticket_operator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ticket_program;
+    => nrel_associative_connection: by_ticket_owner;
+    => nrel_associative_connection: by_official_ticket_operator_of_the_championship;
+    => nrel_associative_connection: by_ticket_package;
+    => nrel_associative_connection: by_directorate_site;
+    => nrel_associative_connection: by_tour_operators_site;
+    => nrel_associative_connection: by_ticket_operator_system;
+    => nrel_associative_connection: by_electronic_ticket;
+    => nrel_associative_connection: by_electronic_ticket_package;
+
+    => nrel_legal_act: by_act_c21300829;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22776?langname=ru];
+    => nrel_etalon_online_idx: [22776];;

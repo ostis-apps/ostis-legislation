@@ -1,0 +1,52 @@
+
+by_command_centre
+    => nrel_main_idtf: [command centre] (* <- lang_en;; *);
+    => nrel_main_idtf: [пункт управления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пункт кіравання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_command_centre_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_command_centre_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_blocked_control_point;
+    => nrel_associative_connection: by_checkpoint;
+    => nrel_associative_connection: by_flight_control_point;
+    => nrel_associative_connection: by_control_points;
+    => nrel_associative_connection: by_situational_and_operational_headquarters;
+    => nrel_associative_connection: by_remote_control_point_for_system_of_technical_facilities_to_provide_operational_and_search_measures_in_postal_networks;
+
+    => nrel_legal_act: by_act_c21200207;
+    => nrel_legal_act: by_act_w21732653;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21860?langname=ru];
+    => nrel_etalon_online_idx: [21860];;

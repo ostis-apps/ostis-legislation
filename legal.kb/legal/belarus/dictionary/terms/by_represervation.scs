@@ -1,0 +1,37 @@
+
+by_represervation
+    => nrel_main_idtf: [re-preservation] (* <- lang_en;; *);
+    => nrel_main_idtf: [повторная консервация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўторная кансервацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_represervation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_property;
+    => nrel_associative_connection: by_personal_property;
+    => nrel_associative_connection: by_property_used_seasonally;
+    => nrel_associative_connection: by_suspension;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_extension_of_the_preservation_period;
+    => nrel_associative_connection: by_depreservation;
+
+    => nrel_legal_act: by_act_c22100431;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38372?langname=ru];
+    => nrel_etalon_online_idx: [38372];;

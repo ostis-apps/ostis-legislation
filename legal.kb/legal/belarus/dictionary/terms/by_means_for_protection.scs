@@ -1,0 +1,33 @@
+
+by_means_for_protection
+    => nrel_main_idtf: [means for protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства охраны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі аховы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_for_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_security_guard_activity;
+    => nrel_associative_connection: by_protected_objects;
+    => nrel_associative_connection: by_means_of_protection_for_individual_use;
+
+    => nrel_legal_act: by_act_h10600175;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24041?langname=ru];
+    => nrel_etalon_online_idx: [24041];;

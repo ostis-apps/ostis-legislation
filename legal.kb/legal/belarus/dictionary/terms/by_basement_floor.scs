@@ -1,0 +1,39 @@
+
+by_basement_floor
+    => nrel_main_idtf: [basement floor] (* <- lang_en;; *);
+    => nrel_main_idtf: [этаж подвальный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паверх падвальны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_basement_floor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_floor_area;
+    => nrel_associative_connection: by_cellar;
+    => nrel_associative_connection: by_basement_floor;
+    => nrel_associative_connection: by_underground;
+    => nrel_associative_connection: by_mansard_floor_mansard;
+    => nrel_associative_connection: by_aboveground_floor;
+    => nrel_associative_connection: by_technical_floor;
+    => nrel_associative_connection: by_ground_floor;
+    => nrel_associative_connection: by_storey_structure;
+
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28494?langname=ru];
+    => nrel_etalon_online_idx: [28494];;

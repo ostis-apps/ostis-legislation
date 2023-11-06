@@ -1,0 +1,38 @@
+
+by_research_activity_of_students
+    => nrel_main_idtf: [research activity of students] (* <- lang_en;; *);
+    => nrel_main_idtf: [научно-исследовательская деятельность студентов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукова-даследчая дзейнасць студэнтаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_research_activity_of_students_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_students_and_schoolchildren_achieved_high_score_in_learning_activity;
+    => nrel_associative_connection: by_scientific_work_in_the_university;
+    => nrel_associative_connection: by_scientific_research_activity;
+    => nrel_associative_connection: by_research_activity_of_achiever_students_achiever_undergraduates;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_researches_research_works;
+    => nrel_associative_connection: by_perfectly_well_successful_students_and_schoolchildren;
+    => nrel_associative_connection: by_student;
+
+    => nrel_legal_act: by_act_c20600665;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17757?langname=ru];
+    => nrel_etalon_online_idx: [17757];;

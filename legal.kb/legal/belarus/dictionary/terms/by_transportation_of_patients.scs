@@ -1,0 +1,19 @@
+
+by_transportation_of_patients
+    => nrel_main_idtf: [transportation of patients] (* <- lang_en;; *);
+    => nrel_main_idtf: [транспортировка пациентов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [транспарціроўка пацыентаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_ambulance;
+    => nrel_associative_connection: by_patient;
+    => nrel_associative_connection: by_transportation_evacuation_of_citizens_by_a_special_passenger_vehicle;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25193?langname=ru];
+    => nrel_etalon_online_idx: [25193];;

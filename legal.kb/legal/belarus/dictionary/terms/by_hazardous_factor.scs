@@ -1,0 +1,72 @@
+
+by_hazardous_factor
+    => nrel_main_idtf: [hazardous factor] (* <- lang_en;; *);
+    => nrel_main_idtf: [опасный фактор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [небяспечны фактар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_factor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_factor_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hazardous_factor_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_system;
+    => nrel_associative_connection: by_catastrophe;
+    => nrel_associative_connection: by_ground_incident;
+    => nrel_associative_connection: by_dangerous_area;
+    => nrel_associative_connection: by_danger;
+    => nrel_associative_connection: by_danger_to_traffic;
+    => nrel_associative_connection: by_dangerous_substances;
+    => nrel_associative_connection: by_dangerous_factors_of_adverse_event;
+    => nrel_associative_connection: by_hazardous_production_factor;
+    => nrel_associative_connection: by_dangerous_fire_factor;
+
+    => nrel_legal_act: by_act_w22238430p;
+    => nrel_legal_act: by_act_w21530333p;
+    => nrel_legal_act: by_act_n00900674;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18955?langname=ru];
+    => nrel_etalon_online_idx: [18955];;

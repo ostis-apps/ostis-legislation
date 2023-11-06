@@ -1,0 +1,36 @@
+
+by_closed_yard
+    => nrel_main_idtf: [closed yard] (* <- lang_en;; *);
+    => nrel_main_idtf: [замкнутый двор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замкнуты двор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_closed_yard_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_corner_of_the_building;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_size_of_the_building;
+    => nrel_associative_connection: by_fire_safety;
+    => nrel_associative_connection: by_fire_hazard_of_the_object;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w22136297p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37247?langname=ru];
+    => nrel_etalon_online_idx: [37247];;

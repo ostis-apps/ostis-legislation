@@ -1,0 +1,36 @@
+
+by_republican_record_sheet_of_medical_items
+    => nrel_main_idtf: [republican record sheet of medical items ] (* <- lang_en;; *);
+    => nrel_main_idtf: [республиканский формуляр медицинских изделий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэспубліканскі фармуляр медыцынскіх вырабаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_record_sheet_of_medical_items_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medical_devices;
+    => nrel_associative_connection: by_medical_equipment;
+    => nrel_associative_connection: by_medical_items;
+    => nrel_associative_connection: by_wholesale_sale_of_medicines_distribution;
+    => nrel_associative_connection: by_republican_record_sheet_of_medicines;
+    => nrel_associative_connection: by_specifications_and_maintenance_schedule_form;
+
+    => nrel_legal_act: by_act_v19302435;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11011?langname=ru];
+    => nrel_etalon_online_idx: [11011];;

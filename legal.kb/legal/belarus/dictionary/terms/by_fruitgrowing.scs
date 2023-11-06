@@ -1,0 +1,34 @@
+
+by_fruitgrowing
+    => nrel_main_idtf: [fruit-growing] (* <- lang_en;; *);
+    => nrel_main_idtf: [плодоводство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пладаводства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fruitgrowing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agriculture;
+    => nrel_associative_connection: by_market_gardening;
+    => nrel_associative_connection: by_vegetable_crops;
+    => nrel_associative_connection: by_fruit_crops;
+
+    => nrel_legal_act: by_act_w21934708p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33043?langname=ru];
+    => nrel_etalon_online_idx: [33043];;

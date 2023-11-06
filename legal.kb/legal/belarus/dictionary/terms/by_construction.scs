@@ -1,0 +1,75 @@
+
+by_construction
+    => nrel_main_idtf: [construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [строение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [будыніна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_balcony;
+    => nrel_associative_connection: by_town_house;
+    => nrel_associative_connection: by_lobby;
+    => nrel_associative_connection: by_clearance_to_obstructions;
+    => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_builtup_land_plot;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structure;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_organizations_capital_structure_building_construction;
+    => nrel_associative_connection: by_quarter;
+    => nrel_associative_connection: by_structural_elements;
+    => nrel_associative_connection: by_corridor;
+    => nrel_associative_connection: by_staircase;
+    => nrel_associative_connection: by_landing;
+    => nrel_associative_connection: by_flight_of_stairs;
+    => nrel_associative_connection: by_nonresidential_capital_constructions_in_the_house_territory;
+    => nrel_associative_connection: by_construction_basis;
+    => nrel_associative_connection: by_main_construction;
+    => nrel_associative_connection: by_planning_land_mark;
+    => nrel_associative_connection: by_floor;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_external_vi;
+    => nrel_associative_connection: by_garden_house;
+    => nrel_associative_connection: by_construction;
+    => nrel_associative_connection: by_buildings_for_the_purposes_of_this_compulsory_insurance;
+    => nrel_associative_connection: by_technical_strength;
+
+    => nrel_legal_act: by_act_w208p0021;
+    => nrel_legal_act: by_act_w208p0022;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9059?langname=ru];
+    => nrel_etalon_online_idx: [9059];;

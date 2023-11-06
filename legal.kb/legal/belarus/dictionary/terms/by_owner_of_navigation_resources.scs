@@ -1,0 +1,43 @@
+
+by_owner_of_navigation_resources
+    => nrel_main_idtf: [owner of navigation resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец навигационных ресурсов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік навігацыйных рэсурсаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_navigation_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_navigational_activity;
+    => nrel_associative_connection: by_navigational_information;
+    => nrel_associative_connection: by_navigational_map;
+    => nrel_associative_connection: by_navigational_situation;
+    => nrel_associative_connection: by_navigation_equipment;
+    => nrel_associative_connection: by_navigational_field;
+    => nrel_associative_connection: by_navigational_resources;
+    => nrel_associative_connection: by_navigational_systems;
+    => nrel_associative_connection: by_navigational_technologies;
+    => nrel_associative_connection: by_navigational_period_navigation;
+    => nrel_associative_connection: by_object_of_navigation_activity;
+
+    => nrel_legal_act: by_act_p31100260;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13043?langname=ru];
+    => nrel_etalon_online_idx: [13043];;

@@ -1,0 +1,32 @@
+
+by_by_justification_of_investments_in_the_construction_of_facilities_justification_of_investments
+    => nrel_main_idtf: [by_justification_of_investments_in_the_construction_of_facilities_justification_of_investments] (* <- lang_en;; *);
+    => nrel_main_idtf: [обоснования инвестиций в строительство объектов (обоснование инвестиций)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абгрунтаванні інвестыцый у будаўніцтва аб'ектаў (абгрунтаванне інвестыцый)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_justification_of_investments_in_the_construction_of_facilities_justification_of_investments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_environmental_impact_assessment;
+
+    => nrel_legal_act: by_act_w01933958p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33096?langname=ru];
+    => nrel_etalon_online_idx: [33096];;

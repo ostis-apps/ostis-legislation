@@ -1,0 +1,39 @@
+
+by_objects_of_transport_infrastructure_on_which_passengers_are_sending_and_or_receiving
+    => nrel_main_idtf: [objects of transport infrastructure on which passengers are sending and (or) receiving ] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты транспортной инфраструктуры, на которых осуществляются отправка и (или) прием пассажиров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты транспартнай інфраструктуры, на якія ажыццяўляюцца адпраўка і (або) прыём пасажыраў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_transport_infrastructure_on_which_passengers_are_sending_and_or_receiving_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bus_station;
+    => nrel_associative_connection: by_airport;
+    => nrel_associative_connection: by_railway_station;
+    => nrel_associative_connection: by_passenger_service_facilities;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_of_industrial_park;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_passenger_terminal;
+    => nrel_associative_connection: by_transport_infrastructure;
+
+    => nrel_legal_act: by_act_w21832806;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27746?langname=ru];
+    => nrel_etalon_online_idx: [27746];;

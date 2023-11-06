@@ -1,0 +1,23 @@
+
+by_by_registration_number_of_the_currency_bond_issue
+    => nrel_main_idtf: [by_registration_number_of_the_currency_bond_issue] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистрационный номер выпуска валютных облигаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістрацыйны нумар выпуску валютных аблігацый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_circulation_of_currency_bonds;
+    => nrel_associative_connection: by_bond_issuance_amount;
+    => nrel_associative_connection: by_placement_of_currency_bonds;
+    => nrel_associative_connection: by_state_registration_number_of_the_record;
+    => nrel_associative_connection: by_term_for_circulation_of_currency_bonds;
+    => nrel_associative_connection: by_terms_of_the_bond_issue;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22324?langname=ru];
+    => nrel_etalon_online_idx: [22324];;

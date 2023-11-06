@@ -1,0 +1,91 @@
+
+by_working_hours
+    => nrel_main_idtf: [working hours] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочее время] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працоўны час] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_hours_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_hours_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_hours_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_working_time_on_the_ground;
+    => nrel_associative_connection: by_days_off_with_summarized_recording_of_working_hours_weekly_uninterrupted_rest;
+    => nrel_associative_connection: by_collective_agreement;
+    => nrel_associative_connection: by_parttime_workers_in_terms_of_working_hours;
+    => nrel_associative_connection: by_time_rate;
+    => nrel_associative_connection: by_production_rate;
+    => nrel_associative_connection: by_service_norm;
+    => nrel_associative_connection: by_standard_working_time;
+    => nrel_associative_connection: by_normal_working_hours;
+    => nrel_associative_connection: by_normalized_task;
+    => nrel_associative_connection: by_direct_labour;
+    => nrel_associative_connection: by_full_working_day;
+    => nrel_associative_connection: by_permanent_work_place;
+    => nrel_associative_connection: by_working_area;
+    => nrel_associative_connection: by_working_hours_of_ship_crew_members_not_on_watch_service;
+    => nrel_associative_connection: by_working_hours_of_ship_crew_members_on_watch_service;
+    => nrel_associative_connection: by_working_day;
+    => nrel_associative_connection: by_calculated_year;
+    => nrel_associative_connection: by_flexitime;
+    => nrel_associative_connection: by_mode_of_operation;
+    => nrel_associative_connection: by_work_schedule;
+    => nrel_associative_connection: by_overtime_work;
+    => nrel_associative_connection: by_daylight_hours;
+    => nrel_associative_connection: by_service_hours_at_night;
+    => nrel_associative_connection: by_summarized_rest_days;
+    => nrel_associative_connection: by_labor_agreement;
+    => nrel_associative_connection: by_accounting_period_in_the_summary_account_of_working_time;
+    => nrel_associative_connection: by_fixation_points;
+    => nrel_associative_connection: by_photo_of_working_time;
+
+    => nrel_legal_act: by_act_hk9900296;
+    => nrel_legal_act: by_act_w21124270;
+    => nrel_legal_act: by_act_n22000112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/856?langname=ru];
+    => nrel_etalon_online_idx: [856];;

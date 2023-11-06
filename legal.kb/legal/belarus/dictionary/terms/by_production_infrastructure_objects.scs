@@ -1,0 +1,36 @@
+
+by_production_infrastructure_objects
+    => nrel_main_idtf: [production infrastructure objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты производственной инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты вытворчай інфраструктуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_infrastructure_objects_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_maximum_possible_degree;
+    => nrel_associative_connection: by_objects_of_social_infrastructure;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure;
+    => nrel_associative_connection: by_social_infrastructure;
+
+    => nrel_legal_act: by_act_c22200796;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41564?langname=ru];
+    => nrel_etalon_online_idx: [41564];;

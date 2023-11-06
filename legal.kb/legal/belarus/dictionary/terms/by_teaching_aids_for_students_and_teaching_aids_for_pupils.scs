@@ -1,0 +1,36 @@
+
+by_teaching_aids_for_students_and_teaching_aids_for_pupils
+    => nrel_main_idtf: [teaching aids for students and teaching aids for pupils] (* <- lang_en;; *);
+    => nrel_main_idtf: [учебные пособия для учащихся и учебные пособия для воспитанников] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навучальныя дапамогі для навучэнцаў і навучальныя дапамогі для выхаванцаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_teaching_aids_for_students_and_teaching_aids_for_pupils_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foster_child;
+    => nrel_associative_connection: by_foster_children;
+    => nrel_associative_connection: by_educational_visual_aid;
+    => nrel_associative_connection: by_training_manual_including_those_made_on_the_basis_of_the_reliefpoint_braille_system;
+    => nrel_associative_connection: by_work_book_for_preschoolage_children;
+    => nrel_associative_connection: by_study_guide;
+
+    => nrel_legal_act: by_act_c21000340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25836?langname=ru];
+    => nrel_etalon_online_idx: [25836];;

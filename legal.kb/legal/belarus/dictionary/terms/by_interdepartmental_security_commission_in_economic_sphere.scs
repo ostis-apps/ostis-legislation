@@ -1,0 +1,34 @@
+
+by_interdepartmental_security_commission_in_economic_sphere
+    => nrel_main_idtf: [interdepartmental security commission in economic sphere] (* <- lang_en;; *);
+    => nrel_main_idtf: [межведомственная комиссия по безопасности в экономической сфере] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжведамасная камісія па бяспецы ў эканамічнай сферы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interdepartmental_security_commission_in_economic_sphere_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_commission;
+    => nrel_associative_connection: by_interdepartmental_commission;
+    => nrel_associative_connection: by_economic_security;
+
+    => nrel_legal_act: by_act_p30200371;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17021?langname=ru];
+    => nrel_etalon_online_idx: [17021];;

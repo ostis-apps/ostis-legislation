@@ -1,0 +1,39 @@
+
+by_regeneration
+    => nrel_main_idtf: [regeneration] (* <- lang_en;; *);
+    => nrel_main_idtf: [регенерация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгенерацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regeneration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_restoration;
+    => nrel_associative_connection: by_restoration_of_ozonedepleting_substances;
+    => nrel_associative_connection: by_use_of_ozonedepleting_substances;
+    => nrel_associative_connection: by_ozonedepleting_substances;
+    => nrel_associative_connection: by_restoration_restoration_and_recreation_works;
+    => nrel_associative_connection: by_restoration_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_object_restoration_restoration_and_recreation_works;
+    => nrel_associative_connection: by_recirculation_recycling_of_ozonedepleting_substances;
+    => nrel_associative_connection: by_refrigerant;
+
+    => nrel_legal_act: by_act_w20920318;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7971?langname=ru];
+    => nrel_etalon_online_idx: [7971];;

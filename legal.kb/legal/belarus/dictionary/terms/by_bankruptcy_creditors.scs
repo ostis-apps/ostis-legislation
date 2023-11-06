@@ -1,0 +1,24 @@
+
+by_bankruptcy_creditors
+    => nrel_main_idtf: [bankruptcy creditors] (* <- lang_en;; *);
+    => nrel_main_idtf: [конкурсные кредиторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [конкурсныя крэдыторы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_debtor;
+    => nrel_associative_connection: by_contest;
+    => nrel_associative_connection: by_bankruptcy_proceeding;
+    => nrel_associative_connection: by_bidding_documents;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_creditors;
+    => nrel_associative_connection: by_debtor_in_liquidation;
+    => nrel_associative_connection: by_creditor_manager_bankruptcy_creditor_manager;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10429?langname=ru];
+    => nrel_etalon_online_idx: [10429];;

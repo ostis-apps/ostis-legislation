@@ -1,0 +1,39 @@
+
+by_previous_auditing_organization
+    => nrel_main_idtf: [previous auditing organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [предыдущая аудиторская организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папярэдняя аўдытарская арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_previous_auditing_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_audit_organization;
+    => nrel_associative_connection: by_auditing_organizationnonresident;
+    => nrel_associative_connection: by_auditing_services;
+    => nrel_associative_connection: by_other_audit_organization;
+    => nrel_associative_connection: by_assessment_criteria_audit;
+    => nrel_associative_connection: by_previous_reporting_period;
+
+    => nrel_legal_act: by_act_w20208554;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21140?langname=ru];
+    => nrel_etalon_online_idx: [21140];;

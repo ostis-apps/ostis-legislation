@@ -1,0 +1,34 @@
+
+by_intermediate_insurance_point
+    => nrel_main_idtf: [intermediate insurance point] (* <- lang_en;; *);
+    => nrel_main_idtf: [точка страховки промежуточная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кропка страхоўкі прамежкавая] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_intermediate_insurance_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auxiliary_fulcrum;
+    => nrel_associative_connection: by_individual_insurance_system;
+    => nrel_associative_connection: by_selfinsurance;
+    => nrel_associative_connection: by_insurance_system;
+
+    => nrel_legal_act: by_act_w20818094;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25112?langname=ru];
+    => nrel_etalon_online_idx: [25112];;

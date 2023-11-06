@@ -1,0 +1,36 @@
+
+by_matrix_composition_material
+    => nrel_main_idtf: [matrix (composition material)] (* <- lang_en;; *);
+    => nrel_main_idtf: [матрица (композиционного материала)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матрыца (кампазіцыйнага матэрыялу)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_matrix_composition_material_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_active_pixel;
+    => nrel_associative_connection: by_fibrous_or_filamentous_materials;
+    => nrel_associative_connection: by_composition_material;
+    => nrel_associative_connection: by_component;
+    => nrel_associative_connection: by_material;
+    => nrel_associative_connection: by_materials;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16966?langname=ru];
+    => nrel_etalon_online_idx: [16966];;

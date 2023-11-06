@@ -1,0 +1,36 @@
+
+by_combined_feed_materials
+    => nrel_main_idtf: [combined feed materials] (* <- lang_en;; *);
+    => nrel_main_idtf: [комбикормовое сырье] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камбікормавая сыравіна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combined_feed_materials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_corn;
+    => nrel_associative_connection: by_quality_of_biologically_active_food_additives;
+    => nrel_associative_connection: by_corn_quality;
+    => nrel_associative_connection: by_feed;
+    => nrel_associative_connection: by_feed_and_feed_additives;
+    => nrel_associative_connection: by_food_raw_materials;
+
+    => nrel_legal_act: by_act_w21933734p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30774?langname=ru];
+    => nrel_etalon_online_idx: [30774];;

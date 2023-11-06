@@ -1,0 +1,36 @@
+
+by_accident_wear_and_tear
+    => nrel_main_idtf: [accident wear and tear] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийный износ ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйны знос] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accident_wear_and_tear_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_wear;
+    => nrel_associative_connection: by_exploitation_defect;
+    => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_wear;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_obsolescence;
+
+    => nrel_legal_act: by_act_z61400189;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7667?langname=ru];
+    => nrel_etalon_online_idx: [7667];;

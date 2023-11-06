@@ -1,0 +1,56 @@
+
+by_olympic_reserve_school
+    => nrel_main_idtf: [olympic reserve school] (* <- lang_en;; *);
+    => nrel_main_idtf: [училище олимпийского резерва] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вучылішча алімпійскага рэзерву] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_olympic_reserve_school_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_olympic_reserve_school_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reserve;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_sport_regime;
+    => nrel_associative_connection: by_sport_reserve;
+    => nrel_associative_connection: by_institution_of_general_secondary_education;
+    => nrel_associative_connection: by_institution_of_specialized_secondary_education;
+    => nrel_associative_connection: by_physical_upbringing;
+    => nrel_associative_connection: by_olympic_reserve_center;
+    => nrel_associative_connection: by_olympic_training_center;
+
+    => nrel_legal_act: by_act_hk1100243;
+    => nrel_legal_act: by_act_w22239105;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7608?langname=ru];
+    => nrel_etalon_online_idx: [7608];;

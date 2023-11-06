@@ -1,0 +1,34 @@
+
+by_investment_products
+    => nrel_main_idtf: [investment products] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвестиционные товары] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвестыцыйныя тавары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_investment_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_investments;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+    => nrel_legal_act: by_act_t21803956p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27637?langname=ru];
+    => nrel_etalon_online_idx: [27637];;

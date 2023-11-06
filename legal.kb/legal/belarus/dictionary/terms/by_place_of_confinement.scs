@@ -1,0 +1,31 @@
+
+by_place_of_confinement
+    => nrel_main_idtf: [place of confinement] (* <- lang_en;; *);
+    => nrel_main_idtf: [места лишения свободы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месцы пазбаўлення волі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_place_of_confinement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_convicted_person;
+
+    => nrel_legal_act: by_act_w69802658;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/116?langname=ru];
+    => nrel_etalon_online_idx: [116];;

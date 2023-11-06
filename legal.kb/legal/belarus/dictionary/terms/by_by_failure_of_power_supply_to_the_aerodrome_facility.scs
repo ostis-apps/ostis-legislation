@@ -1,0 +1,35 @@
+
+by_by_failure_of_power_supply_to_the_aerodrome_facility
+    => nrel_main_idtf: [by_failure_of_power_supply_to_the_aerodrome_facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [отказ электроснабжения объекта аэродрома] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адмова электразабеспячэння аб'екта аэрадрома] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_failure_of_power_supply_to_the_aerodrome_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_power_supply_reliability_category;
+    => nrel_associative_connection: by_light_system_reliability;
+    => nrel_associative_connection: by_instrument_landing_system_reference_point_t_point;
+    => nrel_associative_connection: by_failure_of_fire;
+    => nrel_associative_connection: by_instrument_flight;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41092?langname=ru];
+    => nrel_etalon_online_idx: [41092];;

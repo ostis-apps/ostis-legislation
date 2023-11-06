@@ -1,0 +1,37 @@
+
+by_date_of_submitted_application_for_industrial_design
+    => nrel_main_idtf: [date of submitted application for industrial design] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата подачи выделенной заявки на промышленный образец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата падачы выдзеленай заяўкі на прамысловы ўзор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_date_of_submitted_application_for_industrial_design_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_stimulation_of_industrial_property_objects_creation_and_use;
+    => nrel_associative_connection: by_industrial_designs_group;
+    => nrel_associative_connection: by_application_date_for_industrial_design;
+    => nrel_associative_connection: by_new_industrial_design;
+    => nrel_associative_connection: by_one_industrial_design;
+    => nrel_associative_connection: by_patent_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_industrial_design;
+
+    => nrel_legal_act: by_act_c21100121;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13967?langname=ru];
+    => nrel_etalon_online_idx: [13967];;

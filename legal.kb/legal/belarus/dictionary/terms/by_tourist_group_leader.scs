@@ -1,0 +1,24 @@
+
+by_tourist_group_leader
+    => nrel_main_idtf: [tourist group leader] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель туристической группы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік турыстычнай групы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_employee_employed_in_tourism_organization;
+    => nrel_associative_connection: by_subjects_of_tourist_activities;
+    => nrel_associative_connection: by_subjects_of_tourist_industry;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_tourist_group;
+    => nrel_associative_connection: by_touristic_travel;
+    => nrel_associative_connection: by_services_related_to_the_organization_of_tourist_travel;
+    => nrel_associative_connection: by_participants_of_tourist_activities;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22721?langname=ru];
+    => nrel_etalon_online_idx: [22721];;

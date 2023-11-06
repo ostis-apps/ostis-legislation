@@ -1,0 +1,35 @@
+
+by_regulations_of_remittance_system
+    => nrel_main_idtf: [regulations of remittance system] (* <- lang_en;; *);
+    => nrel_main_idtf: [правила системы денежных переводов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [правілы сістэмы грашовых пераводаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_regulations_of_remittance_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_remittance;
+    => nrel_associative_connection: by_card_of_client_of_money_transfer_system;
+    => nrel_associative_connection: by_money_transfer_system_operator;
+    => nrel_associative_connection: by_money_transfer_system;
+    => nrel_associative_connection: by_money_transfer_services;
+
+    => nrel_legal_act: by_act_b21530051;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37383?langname=ru];
+    => nrel_etalon_online_idx: [37383];;

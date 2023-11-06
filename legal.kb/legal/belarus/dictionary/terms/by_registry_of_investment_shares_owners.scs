@@ -1,0 +1,40 @@
+
+by_registry_of_investment_shares_owners
+    => nrel_main_idtf: [registry of investment shares owners ] (* <- lang_en;; *);
+    => nrel_main_idtf: [реестр владельцев инвестиционных паев] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэестр уладальнікаў інвестыцыйных паёў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_registry_of_investment_shares_owners_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_issue_of_investment_shares;
+    => nrel_associative_connection: by_investment_share;
+    => nrel_associative_connection: by_investment_fund;
+    => nrel_associative_connection: by_circulation_of_investment_shares;
+    => nrel_associative_connection: by_share_contributions;
+    => nrel_associative_connection: by_repayment_of_investment_shares;
+    => nrel_associative_connection: by_placement_of_investment_units;
+    => nrel_associative_connection: by_calculated_value_of_investment_units;
+    => nrel_associative_connection: by_registry;
+
+    => nrel_legal_act: by_act_h11700052;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22401?langname=ru];
+    => nrel_etalon_online_idx: [22401];;

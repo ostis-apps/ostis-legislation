@@ -1,0 +1,38 @@
+
+by_private_prosecutor
+    => nrel_main_idtf: [private prosecutor] (* <- lang_en;; *);
+    => nrel_main_idtf: [частный обвинитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыватны абвінаваўца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_private_prosecutor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_civil_claimant;
+    => nrel_associative_connection: by_legal_representatives;
+    => nrel_associative_connection: by_defendants;
+    => nrel_associative_connection: by_charge;
+    => nrel_associative_connection: by_casualty;
+    => nrel_associative_connection: by_party_of_prosecution;
+    => nrel_associative_connection: by_criminal_prosecution;
+    => nrel_associative_connection: by_participants_of_criminal_proceedings;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3588?langname=ru];
+    => nrel_etalon_online_idx: [3588];;

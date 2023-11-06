@@ -1,0 +1,35 @@
+
+by_objects_of_state_personnel_policy
+    => nrel_main_idtf: [objects of state personnel policy] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты государственной кадровой политики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты дзяржаўнай кадравай палітыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_state_personnel_policy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_staff_policy;
+    => nrel_associative_connection: by_infrastructure_of_the_state_personnel_policy;
+    => nrel_associative_connection: by_personnel;
+    => nrel_associative_connection: by_mechanism_of_the_state_personnel_policy_realization;
+    => nrel_associative_connection: by_subjects_of_state_personnel_policy;
+
+    => nrel_legal_act: by_act_p30100399;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18748?langname=ru];
+    => nrel_etalon_online_idx: [18748];;

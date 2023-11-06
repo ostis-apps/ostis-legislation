@@ -1,0 +1,38 @@
+
+by_additional_dietetic_food
+    => nrel_main_idtf: [additional dietetic food] (* <- lang_en;; *);
+    => nrel_main_idtf: [дополнительное диетическое питание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дадатковае дыетычнае харчаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_additional_dietetic_food_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diet_therapeutic_food;
+    => nrel_associative_connection: by_dietetic_food;
+    => nrel_associative_connection: by_dietetic_preventive_nutrition;
+    => nrel_associative_connection: by_individual_dietetic_food;
+    => nrel_associative_connection: by_food_products_of_pulpit_lead;
+    => nrel_associative_connection: by_total_enteral_nutrition;
+    => nrel_associative_connection: by_partial_enteral_nutrition;
+    => nrel_associative_connection: by_enteral_nutrition;
+
+    => nrel_legal_act: by_act_w21934844;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32267?langname=ru];
+    => nrel_etalon_online_idx: [32267];;

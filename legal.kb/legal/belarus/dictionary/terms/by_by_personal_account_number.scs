@@ -1,0 +1,34 @@
+
+by_by_personal_account_number
+    => nrel_main_idtf: [by_personal_account_number] (* <- lang_en;; *);
+    => nrel_main_idtf: [номер лицевого счета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нумар асабовага рахунка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_personal_account_number_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hot_water_supply;
+    => nrel_associative_connection: by_utility_services_payer;
+    => nrel_associative_connection: by_individual_measuring_device;
+    => nrel_associative_connection: by_heat_distributors_on_heating_appliances;
+
+    => nrel_legal_act: by_act_c21400571;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37022?langname=ru];
+    => nrel_etalon_online_idx: [37022];;

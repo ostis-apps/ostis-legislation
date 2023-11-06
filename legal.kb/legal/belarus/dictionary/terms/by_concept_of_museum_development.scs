@@ -1,0 +1,36 @@
+
+by_concept_of_museum_development
+    => nrel_main_idtf: [concept of museum development] (* <- lang_en;; *);
+    => nrel_main_idtf: [концепция развития музея] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канцэпцыя развіцця музея] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_concept_of_museum_development_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_acquisition_of_museum_fund;
+    => nrel_associative_connection: by_museum;
+    => nrel_associative_connection: by_museum_collections;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_museum_fund;
+    => nrel_associative_connection: by_museum_fund_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_hk1600413;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7915?langname=ru];
+    => nrel_etalon_online_idx: [7915];;

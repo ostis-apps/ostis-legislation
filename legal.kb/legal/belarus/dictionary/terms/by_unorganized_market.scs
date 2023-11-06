@@ -1,0 +1,35 @@
+
+by_unorganized_market
+    => nrel_main_idtf: [unorganized market] (* <- lang_en;; *);
+    => nrel_main_idtf: [неорганизованный рынок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [неарганізаваны рынак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unorganized_market_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_organized_market;
+    => nrel_associative_connection: by_subscription;
+    => nrel_associative_connection: by_securities_market;
+    => nrel_associative_connection: by_stock_exchange;
+    => nrel_associative_connection: by_security;
+
+    => nrel_legal_act: by_act_h11500231;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27820?langname=ru];
+    => nrel_etalon_online_idx: [27820];;

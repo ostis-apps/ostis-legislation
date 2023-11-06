@@ -1,0 +1,33 @@
+
+by_external_evaluation
+    => nrel_main_idtf: [external evaluation] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешняя оценка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешняя ацэнка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_evaluation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_inspection;
+    => nrel_associative_connection: by_external_evaluation_specialist;
+
+    => nrel_legal_act: by_act_w21934905;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32300?langname=ru];
+    => nrel_etalon_online_idx: [32300];;

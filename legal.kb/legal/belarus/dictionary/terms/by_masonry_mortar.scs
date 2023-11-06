@@ -1,0 +1,50 @@
+
+by_masonry_mortar
+    => nrel_main_idtf: [masonry mortar] (* <- lang_en;; *);
+    => nrel_main_idtf: [кладочный раствор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кладачны раствор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_masonry_mortar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reinforced_stonemasonry;
+    => nrel_associative_connection: by_vertical_mortar_seam;
+    => nrel_associative_connection: by_horizontal_mortar_seam;
+    => nrel_associative_connection: by_doublelayer_wall_with_air_gap_filling_with_concrete_or_mortar;
+    => nrel_associative_connection: by_deformation_joint;
+    => nrel_associative_connection: by_masonry;
+    => nrel_associative_connection: by_masonry_product_product_for_masonry;
+    => nrel_associative_connection: by_factorymade_masonry_mortar;
+    => nrel_associative_connection: by_masonry_mortar_of_designated_quality;
+    => nrel_associative_connection: by_masonry_mortar_of_designated_composition;
+    => nrel_associative_connection: by_fastening_strip;
+    => nrel_associative_connection: by_light_masonry_mortar;
+    => nrel_associative_connection: by_factory_predosed_masonry_mortar;
+    => nrel_associative_connection: by_premixed_masonry_mortar_in_factory_conditions;
+    => nrel_associative_connection: by_dissolved_seam;
+    => nrel_associative_connection: by_standard_masonry_mortar;
+    => nrel_associative_connection: by_wall_with_strip_filling_of_horizontal_mortar_joints_with_masonry_mortar;
+    => nrel_associative_connection: by_construction_site_masonry_mortar;
+    => nrel_associative_connection: by_thinlayer_masonry_mortar;
+    => nrel_associative_connection: by_thinlayer_mortar_seam;
+
+    => nrel_legal_act: by_act_w221p0018;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38045?langname=ru];
+    => nrel_etalon_online_idx: [38045];;

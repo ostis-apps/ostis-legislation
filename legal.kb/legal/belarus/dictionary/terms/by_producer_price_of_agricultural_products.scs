@@ -1,0 +1,52 @@
+
+by_producer_price_of_agricultural_products
+    => nrel_main_idtf: [producer price of agricultural products] (* <- lang_en;; *);
+    => nrel_main_idtf: [цена производителя сельскохозяйственной продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цана вытворцы сельскагаспадарчай прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_producer_price_of_agricultural_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_producer_price_of_agricultural_products_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_weight_of_producer_price_indices_for_agricultural_products;
+    => nrel_associative_connection: by_state_customers_of_agricultural_products_for_republic_state_needs;
+    => nrel_associative_connection: by_producer_price_index_of_agricultural_products;
+    => nrel_associative_connection: by_composite_producer_price_index_of_agricultural_products;
+    => nrel_associative_connection: by_agricultural_organizations;
+    => nrel_associative_connection: by_agricultural_commodity_producers;
+
+    => nrel_legal_act: by_act_t21803954p;
+    => nrel_legal_act: by_act_t21803952p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26210?langname=ru];
+    => nrel_etalon_online_idx: [26210];;

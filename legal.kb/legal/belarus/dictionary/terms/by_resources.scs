@@ -1,0 +1,68 @@
+
+by_resources
+    => nrel_main_idtf: [resources] (* <- lang_en;; *);
+    => nrel_main_idtf: [ресурсы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэсурсы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_resources_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_state_information_recourses;
+    => nrel_associative_connection: by_variation;
+    => nrel_associative_connection: by_water_resources;
+    => nrel_associative_connection: by_secondary_material_resources;
+    => nrel_associative_connection: by_secondary_material_resources_smr;
+    => nrel_associative_connection: by_secondary_energy_resources;
+    => nrel_associative_connection: by_geothermal_subsoil_resources;
+    => nrel_associative_connection: by_state_information_resource;
+    => nrel_associative_connection: by_land_resources;
+    => nrel_associative_connection: by_spent_resource;
+    => nrel_associative_connection: by_forest_resources;
+    => nrel_associative_connection: by_assigned_resource;
+    => nrel_associative_connection: by_national_infrastructure_plan;
+    => nrel_associative_connection: by_residual_resource;
+    => nrel_associative_connection: by_sectoral_normative_base_of_current_resource_prices;
+    => nrel_associative_connection: by_natural_resources;
+    => nrel_associative_connection: by_projects_management_process;
+    => nrel_associative_connection: by_resource;
+    => nrel_associative_connection: by_subsoil_resources;
+    => nrel_associative_connection: by_fuel_and_power_resources;
+    => nrel_associative_connection: by_labour_resources;
+    => nrel_associative_connection: by_tourist_resources;
+
+    => nrel_legal_act: by_act_w22339769;
+    => nrel_legal_act: by_act_w22339769;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4373?langname=ru];
+    => nrel_etalon_online_idx: [4373];;

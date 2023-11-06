@@ -1,0 +1,68 @@
+
+by_insurance_agreement
+    => nrel_main_idtf: [insurance agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор страхования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор страхавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_agreement_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_information_system_on_compulsory_insurance_of_civil_liability_of_vehicle_owners_of_the_belarusian_bureau;
+    => nrel_associative_connection: by_assistance_organization;
+    => nrel_associative_connection: by_redemption_sum;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_personal_insurance_contract;
+    => nrel_associative_connection: by_international_insurance_contract;
+    => nrel_associative_connection: by_adhesion_agreement_in_insurance_sphere;
+    => nrel_associative_connection: by_record_of_the_insurance_history;
+    => nrel_associative_connection: by_unclaimed_payout;
+    => nrel_associative_connection: by_cooling_period;
+    => nrel_associative_connection: by_payer_of_state_social_insurance_contributions;
+    => nrel_associative_connection: by_subsystem_for_concluding_insurance_contracts_in_electronic_form_ais_bureau;
+    => nrel_associative_connection: by_the_amount_of_monthly_remuneration_to_the_insurance_agent;
+    => nrel_associative_connection: by_joint_insurance;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurant;
+    => nrel_associative_connection: by_insurance_contribution_insurance_premium;
+    => nrel_associative_connection: by_insured_event;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_subject_of_insurance_history;
+    => nrel_associative_connection: by_third_party;
+    => nrel_associative_connection: by_electronic_journal_of_current_insurance_contracts_green_card;
+
+    => nrel_legal_act: by_act_hk9800218;
+    => nrel_legal_act: by_act_i01500020;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1449?langname=ru];
+    => nrel_etalon_online_idx: [1449];;

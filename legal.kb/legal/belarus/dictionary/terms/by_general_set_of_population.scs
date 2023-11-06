@@ -1,0 +1,33 @@
+
+by_general_set_of_population
+    => nrel_main_idtf: [general set of population] (* <- lang_en;; *);
+    => nrel_main_idtf: [генеральная совокупность населения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генеральная сукупнасць насельніцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_set_of_population_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_household_sample;
+    => nrel_associative_connection: by_individual_weight_of_the_respondent;
+    => nrel_associative_connection: by_collective_household;
+
+    => nrel_legal_act: by_act_t21904229p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31027?langname=ru];
+    => nrel_etalon_online_idx: [31027];;

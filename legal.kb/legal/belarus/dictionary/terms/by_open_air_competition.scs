@@ -1,0 +1,39 @@
+
+by_open_air_competition
+    => nrel_main_idtf: [open air competition] (* <- lang_en;; *);
+    => nrel_main_idtf: [пленэр-конкурс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пленэр-конкурс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_air_competition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_schoolcollege_of_arts;
+    => nrel_associative_connection: by_exhibition;
+    => nrel_associative_connection: by_gymnasium__college_of_arts;
+    => nrel_associative_connection: by_childrens_school_of_arts;
+    => nrel_associative_connection: by_open_air;
+    => nrel_associative_connection: by_secondary_schoolcollege_of_arts;
+    => nrel_associative_connection: by_model_curriculum_for_childrens_art_schools;
+    => nrel_associative_connection: by_typical_curriculum_of_childrens_art_schools;
+    => nrel_associative_connection: by_artwork;
+
+    => nrel_legal_act: by_act_w21124523;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20248?langname=ru];
+    => nrel_etalon_online_idx: [20248];;

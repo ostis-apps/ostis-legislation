@@ -1,0 +1,59 @@
+
+by_consumers
+    => nrel_main_idtf: [consumers] (* <- lang_en;; *);
+    => nrel_main_idtf: [потребители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спажыўцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consumers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_subscriber_consumer;
+    => nrel_associative_connection: by_autonomous_source_of_heat_supply_boiler_room_ashs;
+    => nrel_associative_connection: by_household_users;
+    => nrel_associative_connection: by_housing_and_utilities_services;
+    => nrel_associative_connection: by_customer_consumer;
+    => nrel_associative_connection: by_significant_amount_of_consumers_deception;
+    => nrel_associative_connection: by_individual_execution;
+    => nrel_associative_connection: by_quality_of_goods_work_services;
+    => nrel_associative_connection: by_comments_and_suggestions_book;
+    => nrel_associative_connection: by_credits_for_consumer_needs;
+    => nrel_associative_connection: by_nonindustrial_consumer;
+    => nrel_associative_connection: by_wholesale_consumerreseller;
+    => nrel_associative_connection: by_utility_services_payer;
+    => nrel_associative_connection: by_user_consumer_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_consumers_of_hydrometeorological_information;
+    => nrel_associative_connection: by_drinking_water_consumers_consumers;
+    => nrel_associative_connection: by_consumers_of__fuel_and_energy_resources;
+    => nrel_associative_connection: by_consumer;
+    => nrel_associative_connection: by_consumer__electric_energy_reseller;
+    => nrel_associative_connection: by_consumer_subscriber;
+    => nrel_associative_connection: by_gas_consumer;
+    => nrel_associative_connection: by_product_consumer;
+    => nrel_associative_connection: by_consumer_of_works_services;
+    => nrel_associative_connection: by_advertising_consumer;
+    => nrel_associative_connection: by_consumer_of_services_in_the_sphere_of_navigation_activity;
+    => nrel_associative_connection: by_consumer_of_real_estate_organization_services;
+    => nrel_associative_connection: by_consumer_of_electric_energy;
+    => nrel_associative_connection: by_consumer_of_electic_power;
+    => nrel_associative_connection: by_tariff_group;
+
+    => nrel_legal_act: by_act_hk2100091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20818?langname=ru];
+    => nrel_etalon_online_idx: [20818];;

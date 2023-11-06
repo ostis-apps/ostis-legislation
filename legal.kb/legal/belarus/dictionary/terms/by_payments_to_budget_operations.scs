@@ -1,0 +1,51 @@
+
+by_payments_to_budget_operations
+    => nrel_main_idtf: [payments to budget operations] (* <- lang_en;; *);
+    => nrel_main_idtf: [операции по платежам в бюджет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыі па выплатах у бюджэт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payments_to_budget_operations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_payments_to_budget_operations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budgetary_payments_arrears;
+    => nrel_associative_connection: by_budget_contributions_and_profit_income_tax;
+    => nrel_associative_connection: by_payment;
+    => nrel_associative_connection: by_payments_to_the_budget;
+
+    => nrel_legal_act: by_act_w20613779;
+    => nrel_legal_act: by_act_w20613748;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19027?langname=ru];
+    => nrel_etalon_online_idx: [19027];;

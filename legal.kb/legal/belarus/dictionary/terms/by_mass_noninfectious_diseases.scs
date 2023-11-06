@@ -1,0 +1,37 @@
+
+by_mass_noninfectious_diseases
+    => nrel_main_idtf: [mass noninfectious diseases] (* <- lang_en;; *);
+    => nrel_main_idtf: [массовые неинфекционные заболевания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [масавыя неінфекцыйныя захворванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mass_noninfectious_diseases_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sudden_illness;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_infectious_diseases;
+    => nrel_associative_connection: by_restrictive_measures;
+    => nrel_associative_connection: by_emergency_medical_service_in_emergency_situations;
+    => nrel_associative_connection: by_factor_of_the_human_environment;
+
+    => nrel_legal_act: by_act_h11200340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10451?langname=ru];
+    => nrel_etalon_online_idx: [10451];;

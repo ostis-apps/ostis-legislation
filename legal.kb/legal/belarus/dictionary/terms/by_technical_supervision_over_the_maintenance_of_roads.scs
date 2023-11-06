@@ -1,0 +1,35 @@
+
+by_technical_supervision_over_the_maintenance_of_roads
+    => nrel_main_idtf: [technical supervision over the maintenance of roads] (* <- lang_en;; *);
+    => nrel_main_idtf: [технический надзор за содержанием автомобильных дорог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічны нагляд за ўтрыманнем аўтамабільных дарог] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_technical_supervision_over_the_maintenance_of_roads_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_representative_of_technical_supervision;
+    => nrel_associative_connection: by_road_maintenance;
+    => nrel_associative_connection: by_maintenance_of_roads;
+    => nrel_associative_connection: by_technical_supervision;
+
+    => nrel_legal_act: by_act_w21732546;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27442?langname=ru];
+    => nrel_etalon_online_idx: [27442];;

@@ -1,0 +1,25 @@
+
+by_potable_water_consumption_limit
+    => nrel_main_idtf: [potable water consumption limit] (* <- lang_en;; *);
+    => nrel_main_idtf: [лимит водопотребления питьевой воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліміт водаспажывання пітной вады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_drinking_water_water_of_drinking_quality;
+    => nrel_associative_connection: by_water_service_input;
+    => nrel_associative_connection: by_source_of_drinking_water_supply;
+    => nrel_associative_connection: by_water_consumption_rate;
+    => nrel_associative_connection: by_norms_of_drinking_water_supply;
+    => nrel_associative_connection: by_drinking_water;
+    => nrel_associative_connection: by_drinking_water_supply;
+    => nrel_associative_connection: by_mode_of_holiday_receipt_of_drinking_water;
+    => nrel_associative_connection: by_specific_index;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11937?langname=ru];
+    => nrel_etalon_online_idx: [11937];;

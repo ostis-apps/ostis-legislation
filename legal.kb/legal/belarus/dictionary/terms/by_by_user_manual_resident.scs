@@ -1,0 +1,33 @@
+
+by_by_user_manual_resident
+    => nrel_main_idtf: [by_user_manual_resident] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководство пользователя "резидент"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўніцтва карыстальніка "рэзідэнт"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_user_manual_resident_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_actions_aimed_at_fulfilling_obligations_under_the_currency_agreement;
+    => nrel_associative_connection: by_resident_dashboard;
+    => nrel_associative_connection: by_registration_of_a_currency_agreement;
+
+    => nrel_legal_act: by_act_b22136360;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43781?langname=ru];
+    => nrel_etalon_online_idx: [43781];;

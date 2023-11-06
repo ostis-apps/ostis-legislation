@@ -1,0 +1,38 @@
+
+by_working_estimated_plot
+    => nrel_main_idtf: [working (estimated) plot] (* <- lang_en;; *);
+    => nrel_main_idtf: [рабочий (оценочный) участок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рабочы (ацэначны) участак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_estimated_plot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_land_plot;
+    => nrel_associative_connection: by_lands_used_for_agricultural_purposes;
+    => nrel_associative_connection: by_cadastral_valuation_of_lands_land_plots;
+    => nrel_associative_connection: by_cadastral_cost_of_lands;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_farm;
+    => nrel_associative_connection: by_work_area;
+    => nrel_associative_connection: by_agricultural_lands;
+
+    => nrel_legal_act: by_act_w21530131;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21945?langname=ru];
+    => nrel_etalon_online_idx: [21945];;

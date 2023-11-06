@@ -1,0 +1,38 @@
+
+by_accumulated_counters
+    => nrel_main_idtf: [accumulated counters] (* <- lang_en;; *);
+    => nrel_main_idtf: [накапливающие счетчики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [накапляльныя лічыльнікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accumulated_counters_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_system;
+    => nrel_associative_connection: by_slot_machine_hall;
+    => nrel_associative_connection: by_game;
+    => nrel_associative_connection: by_game_on_slot_machines;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_credit_key;
+    => nrel_associative_connection: by_management_bodies_of_game_machine;
+    => nrel_associative_connection: by_bet_in_the_game_on_game_machines_bet;
+
+    => nrel_legal_act: by_act_c21900137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30927?langname=ru];
+    => nrel_etalon_online_idx: [30927];;

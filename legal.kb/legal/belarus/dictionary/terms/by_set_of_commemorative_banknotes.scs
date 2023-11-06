@@ -1,0 +1,33 @@
+
+by_set_of_commemorative_banknotes
+    => nrel_main_idtf: [set of commemorative banknotes] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплект памятных банкнот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камплект памятных банкнот] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_set_of_commemorative_banknotes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_face_value;
+    => nrel_associative_connection: by_commemorative_banknote;
+    => nrel_associative_connection: by_case_for_a_commemory_or_investment_coin;
+
+    => nrel_legal_act: by_act_b21530174;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11352?langname=ru];
+    => nrel_etalon_online_idx: [11352];;

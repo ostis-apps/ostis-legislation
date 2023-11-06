@@ -1,0 +1,59 @@
+
+by_consignee_receiver
+    => nrel_main_idtf: [consignee (receiver)] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузополучатель (получатель)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузаатрымальнік (атрымальнік)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignee_receiver_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consignee_receiver_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cargo_sending;
+    => nrel_associative_connection: by_shipper_sender;
+    => nrel_associative_connection: by_cargoes;
+    => nrel_associative_connection: by_customer_of_automotive_transportation;
+    => nrel_associative_connection: by_exclusive_use_in_case_of_carriage_of_class_7_material;
+    => nrel_associative_connection: by_user_entity;
+    => nrel_associative_connection: by_package_transport;
+    => nrel_associative_connection: by_readdressing;
+    => nrel_associative_connection: by_recipients;
+    => nrel_associative_connection: by_recipient;
+    => nrel_associative_connection: by_loadingunloading_point;
+    => nrel_associative_connection: by_transit_participant;
+    => nrel_associative_connection: by_participants_of_forwarding_activities;
+
+    => nrel_legal_act: by_act_c29901196;
+    => nrel_legal_act: by_act_n21200181;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13901?langname=ru];
+    => nrel_etalon_online_idx: [13901];;

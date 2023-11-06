@@ -1,0 +1,23 @@
+
+by_annual_consolidated_statements
+    => nrel_main_idtf: [annual consolidated statements] (* <- lang_en;; *);
+    => nrel_main_idtf: [годовая консолидированная отчетность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гадавая кансалідаваная справаздачнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_annual_statements;
+    => nrel_associative_connection: by_consolidated_statements;
+    => nrel_associative_connection: by_consolidated_reporting_on_the_activity_of_bank_group_and_or_bank_holding;
+    => nrel_associative_connection: by_consolidated_financial_statements;
+    => nrel_associative_connection: by_reporting;
+    => nrel_associative_connection: by_reporting_year;
+    => nrel_associative_connection: by_reporting_financial_year;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10775?langname=ru];
+    => nrel_etalon_online_idx: [10775];;

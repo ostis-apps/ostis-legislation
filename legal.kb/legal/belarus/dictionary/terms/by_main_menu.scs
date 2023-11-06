@@ -1,0 +1,34 @@
+
+by_main_menu
+    => nrel_main_idtf: [main menu] (* <- lang_en;; *);
+    => nrel_main_idtf: [основное меню] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўнае меню] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_menu_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_nonoperator_mode_of_operation;
+    => nrel_associative_connection: by_contactless_information_carrier;
+    => nrel_associative_connection: by_user_interface;
+    => nrel_associative_connection: by_operating_mode;
+
+    => nrel_legal_act: by_act_b22137220p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30667?langname=ru];
+    => nrel_etalon_online_idx: [30667];;

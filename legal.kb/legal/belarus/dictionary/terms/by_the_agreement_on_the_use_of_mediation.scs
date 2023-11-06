@@ -1,0 +1,34 @@
+
+by_the_agreement_on_the_use_of_mediation
+    => nrel_main_idtf: [the agreement on the use of mediation] (* <- lang_en;; *);
+    => nrel_main_idtf: [соглашение о применении медиации    ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагадненне аб прымяненні медыяцыі    ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_the_agreement_on_the_use_of_mediation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mediated_agreement;
+    => nrel_associative_connection: by_mediator;
+    => nrel_associative_connection: by_mediation;
+    => nrel_associative_connection: by_agreement;
+
+    => nrel_legal_act: by_act_h11300058;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10217?langname=ru];
+    => nrel_etalon_online_idx: [10217];;

@@ -1,0 +1,78 @@
+
+by_qualification_examination
+    => nrel_main_idtf: [qualification examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [квалификационный экзамен] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кваліфікацыйны экзамен] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_examination_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_qualification_examination_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_attestation;
+    => nrel_associative_connection: by_doctorintern_pharmacistintern;
+    => nrel_associative_connection: by_internship;
+    => nrel_associative_connection: by_qualification_mark;
+    => nrel_associative_connection: by_qualification_requirements;
+    => nrel_associative_connection: by_qualification_exams;
+    => nrel_associative_connection: by_qualification_examinations_for_the_right_to_carry_out_audit_activities;
+    => nrel_associative_connection: by_qualification_personnel_examination;
+    => nrel_associative_connection: by_qualification;
+    => nrel_associative_connection: by_instructional_guide_of_internship;
+    => nrel_associative_connection: by_assessment_of_knowledge;
+    => nrel_associative_connection: by_advanced_training;
+    => nrel_associative_connection: by_head_of_the_internship_base;
+    => nrel_associative_connection: by_innernature_head;
+    => nrel_associative_connection: by_certificate_of_professional_certification;
+    => nrel_associative_connection: by_examiner;
+
+    => nrel_legal_act: by_act_c22000187;
+    => nrel_legal_act: by_act_c21400252;
+    => nrel_legal_act: by_act_w22239283;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5968?langname=ru];
+    => nrel_etalon_online_idx: [5968];;

@@ -1,0 +1,35 @@
+
+by_account_of_the_library_fund
+    => nrel_main_idtf: [account of the library fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [учет библиотечного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [улік бібліятэчнага фонду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_account_of_the_library_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_mode_of_operation;
+    => nrel_associative_connection: by_individual_accounting;
+    => nrel_associative_connection: by_remote_electronic_information_resources;
+    => nrel_associative_connection: by_placement_of_documents;
+    => nrel_associative_connection: by_manual_operation_mode;
+
+    => nrel_legal_act: by_act_w22239194;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41923?langname=ru];
+    => nrel_etalon_online_idx: [41923];;

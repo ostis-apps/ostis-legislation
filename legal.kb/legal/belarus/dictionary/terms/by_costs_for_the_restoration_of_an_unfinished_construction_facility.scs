@@ -1,0 +1,35 @@
+
+by_costs_for_the_restoration_of_an_unfinished_construction_facility
+    => nrel_main_idtf: [costs for the restoration of an unfinished construction facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [затраты по восстановлению не завершенного строительством объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдаткі па аднаўленні не завершанага будаўніцтвам аб'екта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_costs_for_the_restoration_of_an_unfinished_construction_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_conservation_of_uncomplete_construction_object;
+    => nrel_associative_connection: by_object_of_unfinished_capital_construction;
+    => nrel_associative_connection: by_unfinished_construction_object;
+    => nrel_associative_connection: by_construction_object;
+    => nrel_associative_connection: by_volume_of_uncomplete_construction_facility;
+
+    => nrel_legal_act: by_act_w01933873p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35158?langname=ru];
+    => nrel_etalon_online_idx: [35158];;

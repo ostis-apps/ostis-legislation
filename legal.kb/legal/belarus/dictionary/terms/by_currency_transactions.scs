@@ -1,0 +1,70 @@
+
+by_currency_transactions
+    => nrel_main_idtf: [currency transactions] (* <- lang_en;; *);
+    => nrel_main_idtf: [валютные операции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [валютныя аперацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_currency_transactions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_currency_transactions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_exchange_market;
+    => nrel_associative_connection: by_currency;
+    => nrel_associative_connection: by_currency_regulation;
+    => nrel_associative_connection: by_currency_exchange_transactions;
+    => nrel_associative_connection: by_currency_transactions_carried_out_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_currency_values;
+    => nrel_associative_connection: by_currency_contract;
+    => nrel_associative_connection: by_currency_control;
+    => nrel_associative_connection: by_currency_risk;
+    => nrel_associative_connection: by_currency_swap;
+    => nrel_associative_connection: by_variation_margin;
+    => nrel_associative_connection: by_external_currency_market;
+    => nrel_associative_connection: by_internal_currency_market;
+    => nrel_associative_connection: by_date_of_transaction;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_executing_bank;
+    => nrel_associative_connection: by_foreign_currency_conversion;
+    => nrel_associative_connection: by_cash_balance_limit;
+    => nrel_associative_connection: by_foreign_currency_transaction;
+    => nrel_associative_connection: by_payment_system;
+    => nrel_associative_connection: by_payment_documents_in_foreign_currency;
+    => nrel_associative_connection: by_purchase_of_foreign_currency;
+    => nrel_associative_connection: by_foreign_currency_sale;
+    => nrel_associative_connection: by_subjects_of_currency_transactions;
+
+    => nrel_legal_act: by_act_h10300226;
+    => nrel_legal_act: by_act_f29800089;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1152?langname=ru];
+    => nrel_etalon_online_idx: [1152];;

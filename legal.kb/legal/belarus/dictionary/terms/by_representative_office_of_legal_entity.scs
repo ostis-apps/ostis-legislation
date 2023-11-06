@@ -1,0 +1,37 @@
+
+by_representative_office_of_legal_entity
+    => nrel_main_idtf: [representative office of legal entity] (* <- lang_en;; *);
+    => nrel_main_idtf: [представительство юридического лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўніцтва юрыдычнай асобы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representative_office_of_legal_entity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_representative_of_manufacturer_seller_supplier;
+    => nrel_associative_connection: by_representative_office;
+    => nrel_associative_connection: by_bank_representative_office;
+    => nrel_associative_connection: by_representative_offices_of_foreign_organization;
+    => nrel_associative_connection: by_representative_office_of_economic_company;
+    => nrel_associative_connection: by_seller;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3986?langname=ru];
+    => nrel_etalon_online_idx: [3986];;

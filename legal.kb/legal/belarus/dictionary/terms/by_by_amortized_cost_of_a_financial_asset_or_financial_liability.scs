@@ -1,0 +1,34 @@
+
+by_by_amortized_cost_of_a_financial_asset_or_financial_liability
+    => nrel_main_idtf: [by_amortized_cost_of_a_financial_asset_or_financial_liability] (* <- lang_en;; *);
+    => nrel_main_idtf: [амортизированная стоимость финансового актива или финансового обязательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [амартызаваны кошт фінансавага актыву або фінансавага абавязацельства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_amortized_cost_of_a_financial_asset_or_financial_liability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hedged_item;
+    => nrel_associative_connection: by_purchase_or_sale_by_standard_procedure;
+    => nrel_associative_connection: by_fair_cost;
+    => nrel_associative_connection: by_financial_instruments;
+
+    => nrel_legal_act: by_act_b205p0275;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43491?langname=ru];
+    => nrel_etalon_online_idx: [43491];;

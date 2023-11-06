@@ -1,0 +1,36 @@
+
+by_unit_of_video_record_keeping
+    => nrel_main_idtf: [unit of video record keeping ] (* <- lang_en;; *);
+    => nrel_main_idtf: [единица учета видеодокументов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінка ўліку відэадакументаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unit_of_video_record_keeping_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_video_document;
+    => nrel_associative_connection: by_unit_of_storage_of_video_documents;
+    => nrel_associative_connection: by_maintenance_of_audiovisual_documents_safe;
+    => nrel_associative_connection: by_originals_of_audiovisual_documents;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27850?langname=ru];
+    => nrel_etalon_online_idx: [27850];;

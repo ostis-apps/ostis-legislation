@@ -1,0 +1,37 @@
+
+by_financial_rent_agreement_leasing_agreement
+    => nrel_main_idtf: [financial rent agreement (leasing agreement)] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор финансовой аренды (договор лизинга)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор фінансавай арэнды (дагавор лізінгу)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_rent_agreement_leasing_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_premise_leasing_contract;
+    => nrel_associative_connection: by_international_leasing_contract;
+    => nrel_associative_connection: by_leasing_activity;
+    => nrel_associative_connection: by_leasing_activity_with_residential_premises;
+    => nrel_associative_connection: by_lessor;
+    => nrel_associative_connection: by_leasing_recipients;
+    => nrel_associative_connection: by_leasing_recipient;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14295?langname=ru];
+    => nrel_etalon_online_idx: [14295];;

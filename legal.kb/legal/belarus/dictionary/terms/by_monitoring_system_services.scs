@@ -1,0 +1,25 @@
+
+by_monitoring_system_services
+    => nrel_main_idtf: [monitoring system services] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги системы мониторинга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі сістэмы маніторынгу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_subscribers_of_the_monitoring_system;
+    => nrel_associative_connection: by_camcorder;
+    => nrel_associative_connection: by_termination;
+    => nrel_associative_connection: by_last_mile_operator;
+    => nrel_associative_connection: by_operator_of_the_hardware_complex_of_the_republican_data_processing_center;
+    => nrel_associative_connection: by_legal_framework_of_the_monitoring_system;
+    => nrel_associative_connection: by_subjects_of_the_monitoring_system;
+    => nrel_associative_connection: by_technical_operator;
+    => nrel_associative_connection: by_technical_operator_of_the_monitoring_system;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32711?langname=ru];
+    => nrel_etalon_online_idx: [32711];;

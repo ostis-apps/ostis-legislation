@@ -1,0 +1,20 @@
+
+by_drums
+    => nrel_main_idtf: [drums] (* <- lang_en;; *);
+    => nrel_main_idtf: [барабаны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [барабаны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_drum_under_pressure;
+    => nrel_associative_connection: by_container_packaging;
+    => nrel_associative_connection: by_packaging;
+    => nrel_associative_connection: by_packagings;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12668?langname=ru];
+    => nrel_etalon_online_idx: [12668];;

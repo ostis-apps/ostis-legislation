@@ -1,0 +1,73 @@
+
+by_handbook
+    => nrel_main_idtf: [handbook] (* <- lang_en;; *);
+    => nrel_main_idtf: [справочник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даведнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_handbook_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_handbook_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_handbook_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biologicaltechnical_name;
+    => nrel_associative_connection: by_maintenance_of_register_classifier;
+    => nrel_associative_connection: by_departmental_classifier;
+    => nrel_associative_connection: by_qualification_directory__state_positions_of_public_service;
+    => nrel_associative_connection: by_classification_grouping;
+    => nrel_associative_connection: by_coding;
+    => nrel_associative_connection: by_regulatory_background_information;
+    => nrel_associative_connection: by_domestic_information_guide;
+    => nrel_associative_connection: by_guidebook;
+    => nrel_associative_connection: by_securities_issues_directory;
+    => nrel_associative_connection: by_guide_to_best_available_technical_practices;
+
+    => nrel_legal_act: by_act_w21934038;
+    => nrel_legal_act: by_act_f01400176;
+    => nrel_legal_act: by_act_f71100266;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23954?langname=ru];
+    => nrel_etalon_online_idx: [23954];;

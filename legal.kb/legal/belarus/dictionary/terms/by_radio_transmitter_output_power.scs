@@ -1,0 +1,37 @@
+
+by_radio_transmitter_output_power
+    => nrel_main_idtf: [radio transmitter output power] (* <- lang_en;; *);
+    => nrel_main_idtf: [выходная мощность радиопередатчика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выхадная магутнасць радыёперадатчыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radio_transmitter_output_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_external_electromagnetic_radiation_of_radio_frequency;
+    => nrel_associative_connection: by_secondary_radiation;
+    => nrel_associative_connection: by_magnetic_field;
+    => nrel_associative_connection: by_transmitting_radio_technical_object;
+    => nrel_associative_connection: by_permanent_magnetic_field;
+    => nrel_associative_connection: by_maximum_permissible_level;
+    => nrel_associative_connection: by_electrical_installation;
+
+    => nrel_legal_act: by_act_c21900360;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31253?langname=ru];
+    => nrel_etalon_online_idx: [31253];;

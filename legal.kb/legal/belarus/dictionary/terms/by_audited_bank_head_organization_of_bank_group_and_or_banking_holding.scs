@@ -1,0 +1,36 @@
+
+by_audited_bank_head_organization_of_bank_group_and_or_banking_holding
+    => nrel_main_idtf: [audited bank, head organization of bank group and (or) banking holding] (* <- lang_en;; *);
+    => nrel_main_idtf: [аудируемые банк, головная организация банковской группы и (или) банковского холдинга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўдзіруемы банк, галаўная арганізацыя банкаўскай групы і (або) банкаўскага холдынгу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_audited_bank_head_organization_of_bank_group_and_or_banking_holding_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_auditees;
+    => nrel_associative_connection: by_audited_subject;
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_head_organization_of_the_bank_holding;
+    => nrel_associative_connection: by_head_organization_of_the_bank_group;
+    => nrel_associative_connection: by_information_on_the_reporting_segments_of_the_accounting_financial_reporting_of_the_auditee;
+
+    => nrel_legal_act: by_act_b22035202;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32897?langname=ru];
+    => nrel_etalon_online_idx: [32897];;

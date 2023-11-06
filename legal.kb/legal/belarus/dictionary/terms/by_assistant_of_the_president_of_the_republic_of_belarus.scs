@@ -1,0 +1,34 @@
+
+by_assistant_of_the_president_of_the_republic_of_belarus
+    => nrel_main_idtf: [assistant of the president of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [помощник президента республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памочнік прэзідэнта рэспублікі беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assistant_of_the_president_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_representatives_of_authorities;
+    => nrel_associative_connection: by_president;
+    => nrel_associative_connection: by_president_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_p31700040;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3096?langname=ru];
+    => nrel_etalon_online_idx: [3096];;

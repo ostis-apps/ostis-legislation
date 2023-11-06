@@ -1,0 +1,39 @@
+
+by_stock_exchange_broker
+    => nrel_main_idtf: [stock exchange broker] (* <- lang_en;; *);
+    => nrel_main_idtf: [биржевой брокер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біржавы брокер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stock_exchange_broker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stock_exchange_transaction;
+    => nrel_associative_connection: by_stock_exchange_trade;
+    => nrel_associative_connection: by_exchange_trades;
+    => nrel_associative_connection: by_brokerage_activity;
+    => nrel_associative_connection: by_client_of_exchange_broker;
+    => nrel_associative_connection: by_broker;
+    => nrel_associative_connection: by_professional_and_exchange_activity_on_securities;
+    => nrel_associative_connection: by_commodity_exchange;
+    => nrel_associative_connection: by_trader;
+
+    => nrel_legal_act: by_act_h10900010;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4885?langname=ru];
+    => nrel_etalon_online_idx: [4885];;

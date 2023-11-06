@@ -1,0 +1,70 @@
+
+by_effective_dose
+    => nrel_main_idtf: [effective dose] (* <- lang_en;; *);
+    => nrel_main_idtf: [эффективная доза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эфектыўная доза] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_effective_dose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_effective_dose_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_effective_dose_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dose_of_medicine;
+    => nrel_associative_connection: by_instruction_for_medical_use_leaflet;
+    => nrel_associative_connection: by_collective_effective_dose;
+    => nrel_associative_connection: by_dose_received;
+    => nrel_associative_connection: by_projected_dose;
+    => nrel_associative_connection: by_average_annual_effective_radiation_dose_of_population;
+    => nrel_associative_connection: by_equivalent_dose;
+    => nrel_associative_connection: by_effective_radioactive_dose;
+
+    => nrel_legal_act: by_act_c21800211;
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n29700105;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26759?langname=ru];
+    => nrel_etalon_online_idx: [26759];;

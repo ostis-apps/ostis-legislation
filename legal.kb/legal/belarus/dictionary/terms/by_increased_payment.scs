@@ -1,0 +1,41 @@
+
+by_increased_payment
+    => nrel_main_idtf: [increased payment] (* <- lang_en;; *);
+    => nrel_main_idtf: [плата в увеличенном размере] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плата ў павялічаным памеры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_increased_payment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_receipt;
+    => nrel_associative_connection: by_passenger_fare;
+    => nrel_associative_connection: by_payment_for_travel_at_onetime_tarifve;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_toll_road_user;
+    => nrel_associative_connection: by_prepayment;
+    => nrel_associative_connection: by_regime_of_pay;
+    => nrel_associative_connection: by_electronic_payment_system;
+    => nrel_associative_connection: by_fee_collection_station;
+    => nrel_associative_connection: by_electronic_payment_device;
+
+    => nrel_legal_act: by_act_c21300340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20205?langname=ru];
+    => nrel_etalon_online_idx: [20205];;

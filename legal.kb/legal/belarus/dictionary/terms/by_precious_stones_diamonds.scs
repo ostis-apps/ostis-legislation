@@ -1,0 +1,39 @@
+
+by_precious_stones_diamonds
+    => nrel_main_idtf: [precious stones (diamonds)] (* <- lang_en;; *);
+    => nrel_main_idtf: [драгоценные камни (бриллианты)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каштоўныя камяні (брыльянты)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_precious_stones_diamonds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_examination_of_precious_stones;
+    => nrel_associative_connection: by_precious_stones;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_measuring_bullions;
+    => nrel_associative_connection: by_waste_of_precious_stones;
+    => nrel_associative_connection: by_evaluation_of_precious_stones;
+    => nrel_associative_connection: by_manufacturers_of_precious_stones_diamonds;
+    => nrel_associative_connection: by_manufacturers_of_measured_ingots;
+    => nrel_associative_connection: by_recuperation_of_precious_stones;
+
+    => nrel_legal_act: by_act_c22200482;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40593?langname=ru];
+    => nrel_etalon_online_idx: [40593];;

@@ -1,0 +1,56 @@
+
+by_social_infrastructure
+    => nrel_main_idtf: [social infrastructure] (* <- lang_en;; *);
+    => nrel_main_idtf: [социальная инфраструктура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сацыяльная інфраструктура] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_infrastructure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_social_infrastructure_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_infrastructure_owner;
+    => nrel_associative_connection: by_master_plan_of_the_settlement_general_plan;
+    => nrel_associative_connection: by_state_social_order;
+    => nrel_associative_connection: by_residential_zones;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_minimum_necessary_social_infrastructure_facilities;
+    => nrel_associative_connection: by_national_infrastructure_plan;
+    => nrel_associative_connection: by_production_infrastructure_objects;
+    => nrel_associative_connection: by_objects_of_social_infrastructure;
+    => nrel_associative_connection: by_elements_of_accessible_environment;
+
+    => nrel_legal_act: by_act_h10400300;
+    => nrel_legal_act: by_act_w21934372p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23663?langname=ru];
+    => nrel_etalon_online_idx: [23663];;

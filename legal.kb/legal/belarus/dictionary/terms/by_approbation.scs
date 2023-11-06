@@ -1,0 +1,85 @@
+
+by_approbation
+    => nrel_main_idtf: [approbation] (* <- lang_en;; *);
+    => nrel_main_idtf: [апробация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апрабацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_approbation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_approbation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_approbation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_approbation_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aprobator;
+    => nrel_associative_connection: by_approbation_of_results_of_scientific_research;
+    => nrel_associative_connection: by_approbation_of_agricultural_plants;
+    => nrel_associative_connection: by_field_survey_journal;
+    => nrel_associative_connection: by_education;
+    => nrel_associative_connection: by_breed;
+    => nrel_associative_connection: by_type;
+
+    => nrel_legal_act: by_act_h11300024;
+    => nrel_legal_act: by_act_w21124371;
+    => nrel_legal_act: by_act_a22300023;
+    => nrel_legal_act: by_act_f92000277;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8193?langname=ru];
+    => nrel_etalon_online_idx: [8193];;

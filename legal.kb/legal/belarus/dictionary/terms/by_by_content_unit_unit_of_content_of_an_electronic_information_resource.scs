@@ -1,0 +1,35 @@
+
+by_by_content_unit_unit_of_content_of_an_electronic_information_resource
+    => nrel_main_idtf: [by_content_unit_unit_of_content_of_an_electronic_information_resource] (* <- lang_en;; *);
+    => nrel_main_idtf: [содержательная единица (единица контента) электронного информационного ресурса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [змястоўная адзінка (адзінка кантэнту) электроннага інфармацыйнага рэсурсу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_content_unit_unit_of_content_of_an_electronic_information_resource_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_name;
+    => nrel_associative_connection: by_remote_electronic_information_resources;
+    => nrel_associative_connection: by_electronic_document;
+    => nrel_associative_connection: by_electronic_document_on_removable_medium;
+    => nrel_associative_connection: by_electronic_information_resource;
+
+    => nrel_legal_act: by_act_w22239194;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41907?langname=ru];
+    => nrel_etalon_online_idx: [41907];;

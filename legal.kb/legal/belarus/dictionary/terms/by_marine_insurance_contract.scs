@@ -1,0 +1,35 @@
+
+by_marine_insurance_contract
+    => nrel_main_idtf: [marine insurance contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор морского страхования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор марскога страхавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_marine_insurance_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurant;
+    => nrel_associative_connection: by_insurance;
+    => nrel_associative_connection: by_insurer;
+    => nrel_associative_connection: by_merchant_shipping;
+
+    => nrel_legal_act: by_act_HK9900321;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9133?langname=ru];
+    => nrel_etalon_online_idx: [9133];;

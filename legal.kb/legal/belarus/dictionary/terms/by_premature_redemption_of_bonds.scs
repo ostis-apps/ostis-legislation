@@ -1,0 +1,24 @@
+
+by_premature_redemption_of_bonds
+    => nrel_main_idtf: [premature redemption of bonds] (* <- lang_en;; *);
+    => nrel_main_idtf: [досрочное погашение облигаций] (* <- lang_ru;; *);
+    => nrel_main_idtf: [датэрміновае пагашэнне аблігацый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_time_of_filing_applications;
+    => nrel_associative_connection: by_early_repayment;
+    => nrel_associative_connection: by_bonds;
+    => nrel_associative_connection: by_bond;
+    => nrel_associative_connection: by_repayment;
+    => nrel_associative_connection: by_redemption_of_bonds;
+    => nrel_associative_connection: by_interest_bonds;
+    => nrel_associative_connection: by_debt_securities_held_to_maturity;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11864?langname=ru];
+    => nrel_etalon_online_idx: [11864];;

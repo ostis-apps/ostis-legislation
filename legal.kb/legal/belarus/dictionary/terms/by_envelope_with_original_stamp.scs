@@ -1,0 +1,37 @@
+
+by_envelope_with_original_stamp
+    => nrel_main_idtf: [envelope with original stamp] (* <- lang_en;; *);
+    => nrel_main_idtf: [конверт с оригинальной маркой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канверт з арыгінальнай маркай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_envelope_with_original_stamp_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_card_with_original_mark;
+    => nrel_associative_connection: by_first_day_envelope;
+    => nrel_associative_connection: by_envelopes_with_other_signs_of_post_payment;
+    => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_2_philatelic_products;
+    => nrel_associative_connection: by_art_postage_stamps;
+    => nrel_associative_connection: by_artistic_labeled_envelope;
+
+    => nrel_legal_act: by_act_w20819574;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9276?langname=ru];
+    => nrel_etalon_online_idx: [9276];;

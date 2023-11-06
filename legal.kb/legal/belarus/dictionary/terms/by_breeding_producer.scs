@@ -1,0 +1,38 @@
+
+by_breeding_producer
+    => nrel_main_idtf: [breeding producer] (* <- lang_en;; *);
+    => nrel_main_idtf: [племенной производитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [племянны вытворца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_breeding_producer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_manufacturer_producer;
+    => nrel_associative_connection: by_breeding_animal;
+    => nrel_associative_connection: by_breeding_factory;
+    => nrel_associative_connection: by_breeding_loudspeaker;
+    => nrel_associative_connection: by_productivity_of_breeding_animals_breeding_herds;
+    => nrel_associative_connection: by_producer;
+    => nrel_associative_connection: by_registry_of_subjects_of_breeding_animal_husbandry;
+    => nrel_associative_connection: by_family;
+
+    => nrel_legal_act: by_act_h11300024;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7655?langname=ru];
+    => nrel_etalon_online_idx: [7655];;

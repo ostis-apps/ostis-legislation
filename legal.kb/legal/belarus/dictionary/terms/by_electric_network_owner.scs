@@ -1,0 +1,42 @@
+
+by_electric_network_owner
+    => nrel_main_idtf: [electric network owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец электрической сети] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік электрычнай сеткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_electric_network_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_subscriber_consumer;
+    => nrel_associative_connection: by_group_electric_network;
+    => nrel_associative_connection: by_available_throughput_of_electric_network;
+    => nrel_associative_connection: by_consumer;
+    => nrel_associative_connection: by_connected_electric_network;
+    => nrel_associative_connection: by_electrical_power_allowed_to_be_used_at_the_boundary_of_the_balance_sheet_ownership_of_electrical_networks;
+    => nrel_associative_connection: by_reconstruction_of_distribution_electric_networks;
+    => nrel_associative_connection: by_rupoblenergo;
+    => nrel_associative_connection: by_subscriber;
+    => nrel_associative_connection: by_subsubscriber_of_the_energy_supply_organization;
+    => nrel_associative_connection: by_transit_electric_network;
+    => nrel_associative_connection: by_electric_network;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35001?langname=ru];
+    => nrel_etalon_online_idx: [35001];;

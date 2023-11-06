@@ -1,0 +1,34 @@
+
+by_writeoff_decision
+    => nrel_main_idtf: [write-off decision] (* <- lang_en;; *);
+    => nrel_main_idtf: [решение о списании] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рашэнне аб спісанні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_writeoff_decision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_nonstate_legal_entities;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_immovable_property_objects;
+    => nrel_associative_connection: by_financing;
+
+    => nrel_legal_act: by_act_c21900763;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32025?langname=ru];
+    => nrel_etalon_online_idx: [32025];;

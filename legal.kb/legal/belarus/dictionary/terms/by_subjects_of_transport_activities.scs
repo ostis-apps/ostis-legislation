@@ -1,0 +1,34 @@
+
+by_subjects_of_transport_activities
+    => nrel_main_idtf: [subjects of transport activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [субъекты транспортной деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суб'екты транспартнай дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_subjects_of_transport_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_transport_activity;
+    => nrel_associative_connection: by_transport_accessibility;
+    => nrel_associative_connection: by_objects_of_transport_activity;
+    => nrel_associative_connection: by_transport_activities;
+
+    => nrel_legal_act: by_act_h19800140;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24464?langname=ru];
+    => nrel_etalon_online_idx: [24464];;

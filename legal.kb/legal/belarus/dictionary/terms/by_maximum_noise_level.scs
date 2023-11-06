@@ -1,0 +1,41 @@
+
+by_maximum_noise_level
+    => nrel_main_idtf: [maximum noise level] (* <- lang_en;; *);
+    => nrel_main_idtf: [предельно допустимый уровень шума] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранічна дапушчальны ўзровень шуму] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maximum_noise_level_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permissible_noise_level;
+    => nrel_associative_connection: by_sound_noise;
+    => nrel_associative_connection: by_flashing_noise;
+    => nrel_associative_connection: by_low_noise_equipment;
+    => nrel_associative_connection: by_intermittent_noise;
+    => nrel_associative_connection: by_constant_noise;
+    => nrel_associative_connection: by_limit_of_annual_income;
+    => nrel_associative_connection: by_exposure_limits;
+    => nrel_associative_connection: by_interruptive_noise;
+    => nrel_associative_connection: by_regulated_time_interval;
+    => nrel_associative_connection: by_noise_sound;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41647?langname=ru];
+    => nrel_etalon_online_idx: [41647];;

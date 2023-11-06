@@ -1,0 +1,21 @@
+
+by_research_part_sector_department
+    => nrel_main_idtf: [research part (sector, department)] (* <- lang_en;; *);
+    => nrel_main_idtf: [научно-исследовательская часть (сектор, отдел)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навукова-даследчая частка (сектар, аддзел)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_scientific_research_activity;
+    => nrel_associative_connection: by_scientific_research_part_center_sector_department;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_scientific_and_practical_center;
+    => nrel_associative_connection: by_researches_research_works;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17760?langname=ru];
+    => nrel_etalon_online_idx: [17760];;

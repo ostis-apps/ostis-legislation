@@ -1,0 +1,19 @@
+
+by_price_setting_date
+    => nrel_main_idtf: [price setting date] (* <- lang_en;; *);
+    => nrel_main_idtf: [дата установления цены] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дата устанаўлення кошту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_price_list;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_of_goods;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40562?langname=ru];
+    => nrel_etalon_online_idx: [40562];;

@@ -1,0 +1,67 @@
+
+by_wall
+    => nrel_main_idtf: [wall] (* <- lang_en;; *);
+    => nrel_main_idtf: [стена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сцяна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wall_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wall_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_seizure;
+    => nrel_associative_connection: by_doublelayer_wall_without_air_gap;
+    => nrel_associative_connection: by_doublelayer_wall_with_air_gap;
+    => nrel_associative_connection: by_doublelayer_wall_with_air_gap_filling_with_concrete_or_mortar;
+    => nrel_associative_connection: by_doublelayer_wall_with_facing_layer;
+    => nrel_associative_connection: by_stiffening_diaphragm;
+    => nrel_associative_connection: by_house;
+    => nrel_associative_connection: by_living_room;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_capital_wall;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_organizations_capital_structure_building_construction;
+    => nrel_associative_connection: by_apartment;
+    => nrel_associative_connection: by_singlelayer_wall;
+    => nrel_associative_connection: by_singlelayer_wall_with_facing_layer;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_external_vi;
+    => nrel_associative_connection: by_adjacent_rooms;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w221p0018;
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28476?langname=ru];
+    => nrel_etalon_online_idx: [28476];;

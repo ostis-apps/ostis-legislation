@@ -1,0 +1,37 @@
+
+by_correspondent_banks
+    => nrel_main_idtf: [correspondent banks] (* <- lang_en;; *);
+    => nrel_main_idtf: [банки-корреспонденты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкі-карэспандэнты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_correspondent_banks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_bankcorrespondent;
+    => nrel_associative_connection: by_correspondent_relations;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_account_loro;
+    => nrel_associative_connection: by_account_nostro;
+
+    => nrel_legal_act: by_act_b21529598;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8343?langname=ru];
+    => nrel_etalon_online_idx: [8343];;

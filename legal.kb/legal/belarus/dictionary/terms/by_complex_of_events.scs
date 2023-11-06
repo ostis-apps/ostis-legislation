@@ -1,0 +1,35 @@
+
+by_complex_of_events
+    => nrel_main_idtf: [complex of events] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплекс мероприятий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [комплекс мерапрыемстваў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_complex_of_events_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_disinsection;
+    => nrel_associative_connection: by_event_executor;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_events;
+    => nrel_associative_connection: by_pilot_project_in_the_sphere_of_digital_development;
+
+    => nrel_legal_act: by_act_p31600289;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10298?langname=ru];
+    => nrel_etalon_online_idx: [10298];;

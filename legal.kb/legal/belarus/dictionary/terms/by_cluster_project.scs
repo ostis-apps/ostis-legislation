@@ -1,0 +1,35 @@
+
+by_cluster_project
+    => nrel_main_idtf: [cluster project ] (* <- lang_en;; *);
+    => nrel_main_idtf: [кластерный проект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кластарны праект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cluster_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_cluster;
+    => nrel_associative_connection: by_cluster_development_model;
+    => nrel_associative_connection: by_project;
+    => nrel_associative_connection: by_center_for_cluster_development;
+
+    => nrel_legal_act: by_act_c21400027;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15911?langname=ru];
+    => nrel_etalon_online_idx: [15911];;

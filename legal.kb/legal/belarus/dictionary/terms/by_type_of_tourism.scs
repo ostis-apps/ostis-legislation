@@ -1,0 +1,33 @@
+
+by_type_of_tourism
+    => nrel_main_idtf: [type of tourism] (* <- lang_en;; *);
+    => nrel_main_idtf: [вид туризма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [від турызму] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_type_of_tourism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_classification_features_of_the_type_of_tourism;
+    => nrel_associative_connection: by_objects_of_agricultural_and_ecological_tourism;
+    => nrel_associative_connection: by_tourism;
+
+    => nrel_legal_act: by_act_c22200584;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41284?langname=ru];
+    => nrel_etalon_online_idx: [41284];;

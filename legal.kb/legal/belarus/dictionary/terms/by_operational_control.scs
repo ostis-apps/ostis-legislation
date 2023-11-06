@@ -1,0 +1,52 @@
+
+by_operational_control
+    => nrel_main_idtf: [operational control] (* <- lang_en;; *);
+    => nrel_main_idtf: [операционный контроль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыйны кантроль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operational_control_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_nuclear_power_station;
+    => nrel_associative_connection: by_npp_safety_nuclear_and_radiation_safety_of_npp;
+    => nrel_associative_connection: by_acceptance_control;
+    => nrel_associative_connection: by_radiation_safety;
+    => nrel_associative_connection: by_technological_operation;
+    => nrel_associative_connection: by_nuclear_security;
+
+    => nrel_legal_act: by_act_w22340291;
+    => nrel_legal_act: by_act_w22238854p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41489?langname=ru];
+    => nrel_etalon_online_idx: [41489];;

@@ -1,0 +1,33 @@
+
+by_stationary_control_point
+    => nrel_main_idtf: [stationary control point] (* <- lang_en;; *);
+    => nrel_main_idtf: [стационарный пункт контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [стацыянарны пункт кантролю] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stationary_control_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_border_service_station;
+    => nrel_associative_connection: by_travel_with_nonpaid_or_incomplete_paymen;
+    => nrel_associative_connection: by_service_station;
+
+    => nrel_legal_act: by_act_c21300340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24221?langname=ru];
+    => nrel_etalon_online_idx: [24221];;

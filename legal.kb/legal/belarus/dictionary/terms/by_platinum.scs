@@ -1,0 +1,37 @@
+
+by_platinum
+    => nrel_main_idtf: [platinum] (* <- lang_en;; *);
+    => nrel_main_idtf: [платина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плаціна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_platinum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_scrap_and_waste_of_precious_metals;
+    => nrel_associative_connection: by_precious_metal_mass;
+    => nrel_associative_connection: by_name_of_precious_metal;
+    => nrel_associative_connection: by_accumulation_of_precious_metals;
+    => nrel_associative_connection: by_operations_with_precious_metals_and_precious_stones;
+    => nrel_associative_connection: by_precious_metals_examination;
+
+    => nrel_legal_act: by_act_w22136581p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27334?langname=ru];
+    => nrel_etalon_online_idx: [27334];;

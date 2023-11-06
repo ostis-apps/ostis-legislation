@@ -1,0 +1,41 @@
+
+by_cash_of_bookmaker_offices
+    => nrel_main_idtf: [cash of bookmaker offices] (* <- lang_en;; *);
+    => nrel_main_idtf: [касса букмекерской конторы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каса букмекерскай канторы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cash_of_bookmaker_offices_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gamble;
+    => nrel_associative_connection: by_bookmaker_game;
+    => nrel_associative_connection: by_bookmaker_card;
+    => nrel_associative_connection: by_bookmaker_office;
+    => nrel_associative_connection: by_bookmaker_online_game;
+    => nrel_associative_connection: by_win;
+    => nrel_associative_connection: by_cash_office;
+    => nrel_associative_connection: by_gambling_organizer;
+    => nrel_associative_connection: by_bet;
+    => nrel_associative_connection: by_bet_in_gambling;
+    => nrel_associative_connection: by_participant_in_the_gambling;
+
+    => nrel_legal_act: by_act_p30500009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15790?langname=ru];
+    => nrel_etalon_online_idx: [15790];;

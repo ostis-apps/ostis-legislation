@@ -1,0 +1,34 @@
+
+by_departmental_edition
+    => nrel_main_idtf: [departmental edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомственное издание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамаснае выданне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_departmental_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_public_buildings;
+    => nrel_associative_connection: by_official_edition;
+    => nrel_associative_connection: by_printed_edition;
+
+    => nrel_legal_act: by_act_h11200008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12901?langname=ru];
+    => nrel_etalon_online_idx: [12901];;

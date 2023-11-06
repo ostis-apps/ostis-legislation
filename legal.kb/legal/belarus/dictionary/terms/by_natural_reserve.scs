@@ -1,0 +1,39 @@
+
+by_natural_reserve
+    => nrel_main_idtf: [natural reserve] (* <- lang_en;; *);
+    => nrel_main_idtf: [заказник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заказнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_natural_reserve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biological_reserves;
+    => nrel_associative_connection: by_wetlands;
+    => nrel_associative_connection: by_geological_reserves;
+    => nrel_associative_connection: by_hydrological_reserves;
+    => nrel_associative_connection: by_lands_used_for_nature_protection_purposes;
+    => nrel_associative_connection: by_specially_protected_natural_territories;
+    => nrel_associative_connection: by_responsible_customer;
+    => nrel_associative_connection: by_natural_resources;
+    => nrel_associative_connection: by_system_of_specially_protected_natural_territories;
+
+    => nrel_legal_act: by_act_h11800150;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4567?langname=ru];
+    => nrel_etalon_online_idx: [4567];;

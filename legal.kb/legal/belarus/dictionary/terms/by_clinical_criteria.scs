@@ -1,0 +1,70 @@
+
+by_clinical_criteria
+    => nrel_main_idtf: [clinical criteria] (* <- lang_en;; *);
+    => nrel_main_idtf: [клинические критерии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клінічныя крытэрыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_criteria_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_criteria_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clinical_criteria_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vasculogenic_erectile_dysfunction;
+    => nrel_associative_connection: by_diagnosis;
+    => nrel_associative_connection: by_diagnostic_criteria;
+    => nrel_associative_connection: by_dishormonal_erectile_dysfunction;
+    => nrel_associative_connection: by_additional_diagnostics;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_clinical_trial;
+    => nrel_associative_connection: by_neurogenic_erectile_disfunction;
+
+    => nrel_legal_act: by_act_w22238190p;
+    => nrel_legal_act: by_act_w21833243p;
+    => nrel_legal_act: by_act_w21732115p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15932?langname=ru];
+    => nrel_etalon_online_idx: [15932];;

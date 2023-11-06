@@ -1,0 +1,33 @@
+
+by_grain_hitch
+    => nrel_main_idtf: [grain hitch] (* <- lang_en;; *);
+    => nrel_main_idtf: [навеска зерна] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навеска збожжа ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_grain_hitch_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_corn;
+    => nrel_associative_connection: by_corn_quality;
+    => nrel_associative_connection: by_feed;
+
+    => nrel_legal_act: by_act_w21933734p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30775?langname=ru];
+    => nrel_etalon_online_idx: [30775];;

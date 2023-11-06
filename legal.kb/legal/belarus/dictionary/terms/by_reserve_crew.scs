@@ -1,0 +1,23 @@
+
+by_reserve_crew
+    => nrel_main_idtf: [reserve crew] (* <- lang_en;; *);
+    => nrel_main_idtf: [резервный экипаж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэзервовы экіпаж] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_double_composition_of_the_flight_crew;
+    => nrel_associative_connection: by_spare_crew;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_aircraft_flight_crew;
+    => nrel_associative_connection: by_standard_crew_night_biological_night;
+    => nrel_associative_connection: by_standard_crew_day_biological_day;
+    => nrel_associative_connection: by_reinforced_composition_of_flight_crew;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22457?langname=ru];
+    => nrel_etalon_online_idx: [22457];;

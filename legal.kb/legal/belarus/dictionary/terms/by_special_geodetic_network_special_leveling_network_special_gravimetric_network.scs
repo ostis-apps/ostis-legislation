@@ -1,0 +1,35 @@
+
+by_special_geodetic_network_special_leveling_network_special_gravimetric_network
+    => nrel_main_idtf: [special geodetic network, special leveling network, special gravimetric network] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальная геодезическая сеть, специальная нивелирная сеть, специальная гравиметрическая сеть] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльная геадэзічная сетка, спецыяльная нівелірная сетка, спецыяльная гравіметрычная сетка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_geodetic_network_special_leveling_network_special_gravimetric_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geodesic_and_mapping_activity;
+    => nrel_associative_connection: by_geodetic_network;
+    => nrel_associative_connection: by_gravimetric_network;
+    => nrel_associative_connection: by_leveling_network;
+    => nrel_associative_connection: by_special_geodetic_networks;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41163?langname=ru];
+    => nrel_etalon_online_idx: [41163];;

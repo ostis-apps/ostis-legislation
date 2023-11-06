@@ -1,0 +1,42 @@
+
+by_passport_of_breeding_animal_husbandry_subject
+    => nrel_main_idtf: [passport of breeding animal husbandry subject] (* <- lang_en;; *);
+    => nrel_main_idtf: [паспорт субъекта племенного животноводства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашпарт суб'екта племянной жывёлагадоўлі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passport_of_breeding_animal_husbandry_subject_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_information_system_in_the_area_of_breeding;
+    => nrel_associative_connection: by_state_tribal_service;
+    => nrel_associative_connection: by_breeding_book;
+    => nrel_associative_connection: by_breeding;
+    => nrel_associative_connection: by_breeding_in_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_animal;
+    => nrel_associative_connection: by_breeding_certificate;
+    => nrel_associative_connection: by_breeding_herd;
+    => nrel_associative_connection: by_breeding_farm;
+    => nrel_associative_connection: by_registry_of_subjects_of_breeding_animal_husbandry;
+    => nrel_associative_connection: by_breeding_subjects_and_breeding_farms;
+
+    => nrel_legal_act: by_act_h11300024;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35015?langname=ru];
+    => nrel_etalon_online_idx: [35015];;

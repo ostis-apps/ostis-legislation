@@ -1,0 +1,34 @@
+
+by_inventory_of_forest_fund
+    => nrel_main_idtf: [inventory of forest fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвентаризация лесного фонда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвентарызацыя ляснога фонду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inventory_of_forest_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_forest_fund_lands;
+    => nrel_associative_connection: by_lands_of_forest_fund;
+    => nrel_associative_connection: by_inventory;
+    => nrel_associative_connection: by_forest_plantations;
+
+    => nrel_legal_act: by_act_w21832881;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27957?langname=ru];
+    => nrel_etalon_online_idx: [27957];;

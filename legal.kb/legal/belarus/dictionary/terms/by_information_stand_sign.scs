@@ -1,0 +1,20 @@
+
+by_information_stand_sign
+    => nrel_main_idtf: [information stand, sign] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационный стенд, знак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйны стэнд, знак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_informational_stand;
+    => nrel_associative_connection: by_small_motherland;
+    => nrel_associative_connection: by_native_land;
+    => nrel_associative_connection: by_shield;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15481?langname=ru];
+    => nrel_etalon_online_idx: [15481];;

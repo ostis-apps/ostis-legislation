@@ -1,0 +1,37 @@
+
+by_independent_systems_elements
+    => nrel_main_idtf: [independent systems (elements)] (* <- lang_en;; *);
+    => nrel_main_idtf: [независимые системы (элементы)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незалежныя сістэмы (элементы)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_independent_systems_elements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_protective_systems_elements_of_safety;
+    => nrel_associative_connection: by_system_channel;
+    => nrel_associative_connection: by_safety_criteria;
+    => nrel_associative_connection: by_support_security_systems_elements;
+    => nrel_associative_connection: by_general_failures;
+    => nrel_associative_connection: by_passive_system_element;
+    => nrel_associative_connection: by_security_systems_elements;
+
+    => nrel_legal_act: by_act_w22035399p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33300?langname=ru];
+    => nrel_etalon_online_idx: [33300];;

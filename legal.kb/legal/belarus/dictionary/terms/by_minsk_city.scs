@@ -1,0 +1,39 @@
+
+by_minsk_city
+    => nrel_main_idtf: [minsk city] (* <- lang_en;; *);
+    => nrel_main_idtf: [город минск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [горад мінск] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_minsk_city_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrativeterritorial_division_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_administrativeterritorial_units;
+    => nrel_associative_connection: by_the_coat_of_arms_of_minsk_city;
+    => nrel_associative_connection: by_cities_of_regional_subordination;
+    => nrel_associative_connection: by_cities_of_district_subordination;
+    => nrel_associative_connection: by_system_of_resettlement;
+    => nrel_associative_connection: by_status_of_the_capital_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_capital_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_flag_of_minsk_city;
+
+    => nrel_legal_act: by_act_h19800154;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13588?langname=ru];
+    => nrel_etalon_online_idx: [13588];;

@@ -1,0 +1,34 @@
+
+by_sample_of_executor
+    => nrel_main_idtf: [sample of executor] (* <- lang_en;; *);
+    => nrel_main_idtf: [образец исполнителя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узор выканаўцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sample_of_executor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_domestic_services;
+    => nrel_associative_connection: by_type_of_personal_services;
+    => nrel_associative_connection: by_executors;
+
+    => nrel_legal_act: by_act_c20401590;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18486?langname=ru];
+    => nrel_etalon_online_idx: [18486];;

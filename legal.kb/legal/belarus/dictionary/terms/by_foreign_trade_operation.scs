@@ -1,0 +1,38 @@
+
+by_foreign_trade_operation
+    => nrel_main_idtf: [foreign trade operation] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешнеторговая операция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешнегандлёвая аперацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_trade_operation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_trade_activity;
+    => nrel_associative_connection: by_foreign_trade_transaction;
+    => nrel_associative_connection: by_foreign_trade_contract;
+    => nrel_associative_connection: by_periodic_statistical_declaration;
+    => nrel_associative_connection: by_sale_of_goods_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_deal_registration;
+    => nrel_associative_connection: by_registered_transaction;
+    => nrel_associative_connection: by_participants_of_foreign_trade_activity;
+
+    => nrel_legal_act: by_act_p30800178;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13087?langname=ru];
+    => nrel_etalon_online_idx: [13087];;

@@ -1,0 +1,38 @@
+
+by_automated_filling_station
+    => nrel_main_idtf: [automated filling station] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматизированная автозаправочная станция (аазс)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматызаваная аўтазаправачная станцыя (аазс)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automated_filling_station_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_filling_station;
+    => nrel_associative_connection: by_car_gas_filling_station;
+    => nrel_associative_connection: by_car_gas_filling_station_modularblock;
+    => nrel_associative_connection: by_fuel_storage_unit;
+    => nrel_associative_connection: by_container_car_filling_station;
+    => nrel_associative_connection: by_multifuel_filling_station;
+    => nrel_associative_connection: by_mobile_filling_station;
+    => nrel_associative_connection: by_car_fuel_sales_tax_payers;
+
+    => nrel_legal_act: by_act_c22300264;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12287?langname=ru];
+    => nrel_etalon_online_idx: [12287];;

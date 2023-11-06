@@ -1,0 +1,34 @@
+
+by_vessels_of_the_i_group
+    => nrel_main_idtf: [ vessels of the i group] (* <- lang_en;; *);
+    => nrel_main_idtf: [суда i группы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судны i групы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vessels_of_the_i_group_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permissible_noise_level;
+    => nrel_associative_connection: by_engine_power_compartment;
+    => nrel_associative_connection: by_vessels_of_the__ii_group;
+    => nrel_associative_connection: by_vessels_of_the__iii_group;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41661?langname=ru];
+    => nrel_etalon_online_idx: [41661];;

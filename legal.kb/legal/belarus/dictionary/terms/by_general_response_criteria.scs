@@ -1,0 +1,35 @@
+
+by_general_response_criteria
+    => nrel_main_idtf: [general response criteria] (* <- lang_en;; *);
+    => nrel_main_idtf: [общие критерии реагирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульныя крытэрыі рэагавання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_response_criteria_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accident_situation;
+    => nrel_associative_connection: by_emergency_response;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_response_of_the_state;
+    => nrel_associative_connection: by_existing_response_criteria;
+
+    => nrel_legal_act: by_act_c21800211;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28235?langname=ru];
+    => nrel_etalon_online_idx: [28235];;

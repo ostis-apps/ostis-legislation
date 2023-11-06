@@ -1,0 +1,20 @@
+
+by_highly_specialized_shop
+    => nrel_main_idtf: [highly specialized shop] (* <- lang_en;; *);
+    => nrel_main_idtf: [узкоспециализированный магазин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вузкаспецыялізаваны магазін] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_minishop_minimarket;
+    => nrel_associative_connection: by_retail_trade;
+    => nrel_associative_connection: by_retail_trade_object;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25429?langname=ru];
+    => nrel_etalon_online_idx: [25429];;

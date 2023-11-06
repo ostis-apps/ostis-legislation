@@ -1,0 +1,47 @@
+
+by_nontariff_regulation
+    => nrel_main_idtf: [nontariff regulation] (* <- lang_en;; *);
+    => nrel_main_idtf: [нетарифное регулирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нетарыфнае рэгуляванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nontariff_regulation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nontariff_regulation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_regulation_period;
+
+    => nrel_legal_act: by_act_h10400347;
+    => nrel_legal_act: by_act_f21000215;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18173?langname=ru];
+    => nrel_etalon_online_idx: [18173];;

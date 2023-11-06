@@ -1,0 +1,59 @@
+
+by_increased_level_of_school_subject_learning
+    => nrel_main_idtf: [increased level of school subject learning ] (* <- lang_en;; *);
+    => nrel_main_idtf: [повышенный уровень изучения учебного предмета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [павышаны узровень вывучэння навучальнага прадмета] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_increased_level_of_school_subject_learning_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_increased_level_of_school_subject_learning_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_level_of_studying_the_educational_area_theme_educational_subject_or_educational_discipline;
+    => nrel_associative_connection: by_base_level_of_study_of_the_subject;
+    => nrel_associative_connection: by_basic_level_of_studying_an_academic_subject_module;
+    => nrel_associative_connection: by_high_rate_of_educational_activity;
+    => nrel_associative_connection: by_children_having_high_achievements_in_training_and_public_activities;
+    => nrel_associative_connection: by_students_and_schoolchildren_achieved_high_score_in_learning_activity;
+    => nrel_associative_connection: by_maximum_permitted_teaching_load_per_week_per_student_in_each_class;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_educational_standard;
+    => nrel_associative_connection: by_mandatory_workload_per_week_per_student_in_each_class;
+    => nrel_associative_connection: by_increased_level_of_study_of_education_area_topic_subject_or_training_discipline;
+    => nrel_associative_connection: by_increased_level_of_study_of_the_academic_subject_module;
+    => nrel_associative_connection: by_educational_plan;
+
+    => nrel_legal_act: by_act_w21933745p;
+    => nrel_legal_act: by_act_w21933745p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20314?langname=ru];
+    => nrel_etalon_online_idx: [20314];;

@@ -1,0 +1,40 @@
+
+by_hydrotechnical_structure
+    => nrel_main_idtf: [hydrotechnical structure] (* <- lang_en;; *);
+    => nrel_main_idtf: [гидротехническое сооружение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гідратэхнічнае збудаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrotechnical_structure_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safety_of_hydrotechnical_structures;
+    => nrel_associative_connection: by_abutment_pier;
+    => nrel_associative_connection: by_water_resources;
+    => nrel_associative_connection: by_drainage_channels;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structure_of_general_purpose;
+    => nrel_associative_connection: by_the_customer_of_the_services_provided_for_the_operation_maintenance_of_reclamation_systems_and_separately_located_hydraulic_structures;
+    => nrel_associative_connection: by_capping;
+    => nrel_associative_connection: by_pore_pressure_coefficient;
+    => nrel_associative_connection: by_pressure_dam;
+
+    => nrel_legal_act: by_act_w22136581p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37609?langname=ru];
+    => nrel_etalon_online_idx: [37609];;

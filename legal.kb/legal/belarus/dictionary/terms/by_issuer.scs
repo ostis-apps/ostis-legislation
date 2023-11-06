@@ -1,0 +1,38 @@
+
+by_issuer
+    => nrel_main_idtf: [issuer ] (* <- lang_en;; *);
+    => nrel_main_idtf: [эмитент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эмітэнт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_issuer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_applicants_bank;
+    => nrel_associative_connection: by_bank_that_exchanges_electronic_money;
+    => nrel_associative_connection: by_bank_issuer;
+    => nrel_associative_connection: by_depository_of_the_issuer;
+    => nrel_associative_connection: by_illegal_use_or_distribution_of_information_about_financial_and_economic_activity_results_of_the_securities_issuer;
+    => nrel_associative_connection: by_rules_of_the_issuer;
+    => nrel_associative_connection: by_issue;
+    => nrel_associative_connection: by_issuernonresident;
+
+    => nrel_legal_act: by_act_h11500231;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11133?langname=ru];
+    => nrel_etalon_online_idx: [11133];;

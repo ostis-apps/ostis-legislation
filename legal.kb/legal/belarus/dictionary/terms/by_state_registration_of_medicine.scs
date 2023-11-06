@@ -1,0 +1,37 @@
+
+by_state_registration_of_medicine
+    => nrel_main_idtf: [state registration of medicine] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная регистрация лекарственного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная рэгістрацыя лекавага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registration_of_medicine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration;
+    => nrel_associative_connection: by_medicinal_product;
+    => nrel_associative_connection: by_medicines;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_plant_medicine;
+    => nrel_associative_connection: by_permission_to_use_a_medicinal_product;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13640?langname=ru];
+    => nrel_etalon_online_idx: [13640];;

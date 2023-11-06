@@ -1,0 +1,34 @@
+
+by_holder_of_resolution_or_researcher
+    => nrel_main_idtf: [holder of resolution or researcher] (* <- lang_en;; *);
+    => nrel_main_idtf: [держатель разрешения или исследователь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трымальнiк дазволу або даследчык] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_holder_of_resolution_or_researcher_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_holder;
+    => nrel_associative_connection: by_researcher;
+    => nrel_associative_connection: by_professional_knowledge;
+    => nrel_associative_connection: by_permission;
+
+    => nrel_legal_act: by_act_t21703704;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25307?langname=ru];
+    => nrel_etalon_online_idx: [25307];;

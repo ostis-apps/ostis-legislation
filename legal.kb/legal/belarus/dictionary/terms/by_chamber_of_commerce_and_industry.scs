@@ -1,0 +1,35 @@
+
+by_chamber_of_commerce_and_industry
+    => nrel_main_idtf: [chamber of commerce and industry] (* <- lang_en;; *);
+    => nrel_main_idtf: [торгово-промышленная палата] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёва-прамысловая палата] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chamber_of_commerce_and_industry_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_economic_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_presidium;
+    => nrel_associative_connection: by_subject_of_entrepreneurial_activities;
+    => nrel_associative_connection: by_congress;
+
+    => nrel_legal_act: by_act_h10300208;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25086?langname=ru];
+    => nrel_etalon_online_idx: [25086];;

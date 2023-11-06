@@ -1,0 +1,45 @@
+
+by_geodetic_works
+    => nrel_main_idtf: [geodetic works] (* <- lang_en;; *);
+    => nrel_main_idtf: [геодезические работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [геадэзічныя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_geodetic_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geodesic_and_mapping_activity;
+    => nrel_associative_connection: by_geodesic_and_cartographic_materials_and_data;
+    => nrel_associative_connection: by_geodetic_thickening_networks_and_leveling_thickening_networks;
+    => nrel_associative_connection: by_geodetic_and_cartographic_support;
+    => nrel_associative_connection: by_geodesy;
+    => nrel_associative_connection: by_geological_information;
+    => nrel_associative_connection: by_geological_organization;
+    => nrel_associative_connection: by_border_of_geodesic_point;
+    => nrel_associative_connection: by_executor_of_geodesic_and_cartographic_works_of_state_purpose_and_also_special_purpose_financed_at_the_expense_of_the_republican_or_local_budgets;
+    => nrel_associative_connection: by_source_geodesic_coordinate_system_dates;
+    => nrel_associative_connection: by_quasigeoid;
+    => nrel_associative_connection: by_relevance_surface;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_system_of_geodesic_coordinates;
+    => nrel_associative_connection: by_topographic_map;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7579?langname=ru];
+    => nrel_etalon_online_idx: [7579];;

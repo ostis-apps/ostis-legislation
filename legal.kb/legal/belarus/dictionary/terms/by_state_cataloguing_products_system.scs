@@ -1,0 +1,40 @@
+
+by_state_cataloguing_products_system
+    => nrel_main_idtf: [state cataloguing products system] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная система каталогизации продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная сістэма каталагізацыі прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_cataloguing_products_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive_catalogue;
+    => nrel_associative_connection: by_archive_catalog_archive_cardboard;
+    => nrel_associative_connection: by_state_information_system;
+    => nrel_associative_connection: by_state_product_catalogue;
+    => nrel_associative_connection: by_product_cataloging;
+    => nrel_associative_connection: by_national_cataloguing_system;
+    => nrel_associative_connection: by_national_cataloguing_body;
+    => nrel_associative_connection: by_national_cataloguing_center;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_specialized_organization_on_cataloguing;
+
+    => nrel_legal_act: by_act_h10400262;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13648?langname=ru];
+    => nrel_etalon_online_idx: [13648];;

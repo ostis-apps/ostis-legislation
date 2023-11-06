@@ -1,0 +1,35 @@
+
+by_military_commissar_of_the_region
+    => nrel_main_idtf: [military commissar of the region] (* <- lang_en;; *);
+    => nrel_main_idtf: [военный комиссар области] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенны камісар вобласці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_commissar_of_the_region_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_military_commissariat;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_official;
+
+    => nrel_legal_act: by_act_c20500624;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8692?langname=ru];
+    => nrel_etalon_online_idx: [8692];;

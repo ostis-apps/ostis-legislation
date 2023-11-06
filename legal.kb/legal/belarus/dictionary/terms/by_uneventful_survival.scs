@@ -1,0 +1,35 @@
+
+by_uneventful_survival
+    => nrel_main_idtf: [uneventful survival] (* <- lang_en;; *);
+    => nrel_main_idtf: [бессобытийная выживаемость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [беспадзейная выжывальнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_uneventful_survival_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unrecessive_survival;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_general_survival_rate;
+    => nrel_associative_connection: by_partial_remission;
+    => nrel_associative_connection: by_full_remission;
+
+    => nrel_legal_act: by_act_w21732104p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12726?langname=ru];
+    => nrel_etalon_online_idx: [12726];;

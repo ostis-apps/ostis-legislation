@@ -1,0 +1,35 @@
+
+by_deponents_questionnaire
+    => nrel_main_idtf: [deponent's questionnaire] (* <- lang_en;; *);
+    => nrel_main_idtf: [анкета депонента] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкета дэпанента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deponents_questionnaire_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_questionnaire_for_emission_securities_issue;
+    => nrel_associative_connection: by_customers_questionary;
+    => nrel_associative_connection: by_depository_activity;
+    => nrel_associative_connection: by_bailor;
+    => nrel_associative_connection: by_deponent_of_the_central_securities_depository;
+
+    => nrel_legal_act: by_act_w21833359;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12476?langname=ru];
+    => nrel_etalon_online_idx: [12476];;

@@ -1,0 +1,33 @@
+
+by_permission_to_use_the_method
+    => nrel_main_idtf: [permission to use the method] (* <- lang_en;; *);
+    => nrel_main_idtf: [разрешение к применению метода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дазвол да прымянення метаду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permission_to_use_the_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_method;
+    => nrel_associative_connection: by_developer;
+    => nrel_associative_connection: by_expert_organization;
+
+    => nrel_legal_act: by_act_w22136763;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39072?langname=ru];
+    => nrel_etalon_online_idx: [39072];;

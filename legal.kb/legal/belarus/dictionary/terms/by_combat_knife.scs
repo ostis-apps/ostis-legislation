@@ -1,0 +1,34 @@
+
+by_combat_knife
+    => nrel_main_idtf: [combat knife] (* <- lang_en;; *);
+    => nrel_main_idtf: [боевой нож] (* <- lang_ru;; *);
+    => nrel_main_idtf: [баявы нож] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_combat_knife_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_combat_unit_cold_arms;
+    => nrel_associative_connection: by_combat_weapon;
+    => nrel_associative_connection: by_blade;
+    => nrel_associative_connection: by_hunting_knife_dagger;
+
+    => nrel_legal_act: by_act_w02035180p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32962?langname=ru];
+    => nrel_etalon_online_idx: [32962];;

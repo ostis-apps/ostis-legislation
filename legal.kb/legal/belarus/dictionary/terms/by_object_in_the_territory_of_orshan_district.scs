@@ -1,0 +1,34 @@
+
+by_object_in_the_territory_of_orshan_district
+    => nrel_main_idtf: [object in the territory of orshan district] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект на территории оршанского района] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект на тэрыторыі аршанскага раёна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_object_in_the_territory_of_orshan_district_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_design;
+    => nrel_associative_connection: by_design_construction_installation_of_radio_electronic_equipment;
+    => nrel_associative_connection: by_repair_of_the_object;
+    => nrel_associative_connection: by_subjects_of_orshan_district;
+
+    => nrel_legal_act: by_act_p31800506;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32461?langname=ru];
+    => nrel_etalon_online_idx: [32461];;

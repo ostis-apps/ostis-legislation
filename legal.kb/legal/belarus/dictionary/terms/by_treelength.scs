@@ -1,0 +1,52 @@
+
+by_treelength
+    => nrel_main_idtf: [tree-length] (* <- lang_en;; *);
+    => nrel_main_idtf: [хлыст] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дубец] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_treelength_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_treelength_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wood_whip;
+    => nrel_associative_connection: by_forestry;
+    => nrel_associative_connection: by_forest_plantations;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_srtaight_method_for_determining_the_volume_of_round_forest_materials_whips;
+    => nrel_associative_connection: by_plants;
+
+    => nrel_legal_act: by_act_w22035383p;
+    => nrel_legal_act: by_act_w21631585;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12215?langname=ru];
+    => nrel_etalon_online_idx: [12215];;

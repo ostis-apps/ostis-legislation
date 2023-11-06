@@ -1,0 +1,35 @@
+
+by_customerowned_precious_metals
+    => nrel_main_idtf: [customer-owned precious metals] (* <- lang_en;; *);
+    => nrel_main_idtf: [давальческие драгоценные металлы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [давальніцкія каштоўныя металы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_customerowned_precious_metals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_makeweight;
+    => nrel_associative_connection: by_precious_stones;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_electrical_and_electronic_equipment;
+    => nrel_associative_connection: by_jewellery_and_other_household_goods;
+
+    => nrel_legal_act: by_act_w20716834;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13937?langname=ru];
+    => nrel_etalon_online_idx: [13937];;

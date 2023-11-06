@@ -1,0 +1,54 @@
+
+by_agricultural_machinery
+    => nrel_main_idtf: [agricultural machinery] (* <- lang_en;; *);
+    => nrel_main_idtf: [сельскохозяйственная техника] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сельскагаспадарчая тэхніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agricultural_machinery_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_agricultural_machinery_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_redemption_price_of_agricultural_machinery;
+    => nrel_associative_connection: by_wheeled_tractor;
+    => nrel_associative_connection: by_smallsized_tractor_minitractor;
+    => nrel_associative_connection: by_small_agricultural_machines;
+    => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_agriculture;
+    => nrel_associative_connection: by_complicated_machines_and_equipment;
+    => nrel_associative_connection: by_price_of_agricultural_machinery;
+
+    => nrel_legal_act: by_act_c20601072;
+    => nrel_legal_act: by_act_w21934585p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10022?langname=ru];
+    => nrel_etalon_online_idx: [10022];;

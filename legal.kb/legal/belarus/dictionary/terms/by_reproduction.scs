@@ -1,0 +1,52 @@
+
+by_reproduction
+    => nrel_main_idtf: [reproduction] (* <- lang_en;; *);
+    => nrel_main_idtf: [воспроизведение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узнаўленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reproduction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reproduction_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archival_copy_of_information_resource;
+    => nrel_associative_connection: by_producer_of_an_audiovisual_work;
+    => nrel_associative_connection: by_public_execution;
+    => nrel_associative_connection: by_public_showing;
+    => nrel_associative_connection: by_reproduction;
+    => nrel_associative_connection: by_communication_to_the_public;
+
+    => nrel_legal_act: by_act_h11100262;
+    => nrel_legal_act: by_act_n21200130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10139?langname=ru];
+    => nrel_etalon_online_idx: [10139];;

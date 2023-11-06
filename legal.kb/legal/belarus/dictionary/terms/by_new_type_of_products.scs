@@ -1,0 +1,35 @@
+
+by_new_type_of_products
+    => nrel_main_idtf: [new type of products] (* <- lang_en;; *);
+    => nrel_main_idtf: [новый вид продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [новы від прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_new_type_of_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_manufacturer;
+    => nrel_associative_connection: by_new_production;
+    => nrel_associative_connection: by_new_products_first_time_products;
+    => nrel_associative_connection: by_new_goods_works_services;
+    => nrel_associative_connection: by_products;
+
+    => nrel_legal_act: by_act_c22200713;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41355?langname=ru];
+    => nrel_etalon_online_idx: [41355];;

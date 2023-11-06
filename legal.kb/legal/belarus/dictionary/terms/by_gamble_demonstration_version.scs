@@ -1,0 +1,36 @@
+
+by_gamble_demonstration_version
+    => nrel_main_idtf: [gamble demonstration version] (* <- lang_en;; *);
+    => nrel_main_idtf: [демонстрационная версия азартной игры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэманстрацыйная версія азартнай гульні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gamble_demonstration_version_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authentication_of_gamble_participant;
+    => nrel_associative_connection: by_document_confirming_the_payment;
+    => nrel_associative_connection: by_customer_program;
+    => nrel_associative_connection: by_personal_account_of_gamble_participant;
+    => nrel_associative_connection: by_platform__of_virtual_gambling_establishment;
+    => nrel_associative_connection: by_site_of_virtual_gambling_establishment;
+
+    => nrel_legal_act: by_act_c21900139;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30911?langname=ru];
+    => nrel_etalon_online_idx: [30911];;

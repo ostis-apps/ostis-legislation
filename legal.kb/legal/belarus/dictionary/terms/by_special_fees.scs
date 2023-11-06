@@ -1,0 +1,35 @@
+
+by_special_fees
+    => nrel_main_idtf: [special fees] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальные сборы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльныя зборы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_fees_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_person_liable_for_military_service;
+    => nrel_associative_connection: by_military_obligation;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_emergency_situations_liquidation;
+    => nrel_associative_connection: by_collection;
+
+    => nrel_legal_act: by_act_v19201914;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23830?langname=ru];
+    => nrel_etalon_online_idx: [23830];;

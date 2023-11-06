@@ -1,0 +1,37 @@
+
+by_blood_isoimmune
+    => nrel_main_idtf: [blood isoimmune] (* <- lang_en;; *);
+    => nrel_main_idtf: [кровь изоиммунная ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кроў ізаімунная] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_blood_isoimmune_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unit_dose_of_a_blood;
+    => nrel_associative_connection: by_isoimmunization;
+    => nrel_associative_connection: by_blood;
+    => nrel_associative_connection: by_blood_immune;
+    => nrel_associative_connection: by_exposure_to_ionizing_radiation;
+    => nrel_associative_connection: by_organization_of_the_blood_service;
+    => nrel_associative_connection: by_donor_reimmunization;
+
+    => nrel_legal_act: by_act_h11000197;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42220?langname=ru];
+    => nrel_etalon_online_idx: [42220];;

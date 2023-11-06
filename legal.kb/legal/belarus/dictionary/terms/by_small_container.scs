@@ -1,0 +1,21 @@
+
+by_small_container
+    => nrel_main_idtf: [small container] (* <- lang_en;; *);
+    => nrel_main_idtf: [малый контейнер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малы кантэйнер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_big_container;
+    => nrel_associative_connection: by_closed_container;
+    => nrel_associative_connection: by_large_tonnaged_specialized_container;
+    => nrel_associative_connection: by_collected_municipal_waste;
+    => nrel_associative_connection: by_specialized_container;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16865?langname=ru];
+    => nrel_etalon_online_idx: [16865];;

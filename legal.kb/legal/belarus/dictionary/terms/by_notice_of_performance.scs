@@ -1,0 +1,34 @@
+
+by_notice_of_performance
+    => nrel_main_idtf: [notice of performance] (* <- lang_en;; *);
+    => nrel_main_idtf: [уведомление об исполнении] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паведамленне аб выкананні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_notice_of_performance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_penalty;
+    => nrel_associative_connection: by_databank_on_registration_information_of_the_offenses;
+    => nrel_associative_connection: by_unified_state_system_of_offences_registration_and__record;
+    => nrel_associative_connection: by_fixation_of_data_on_offences;
+
+    => nrel_legal_act: by_act_c20600909;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38468?langname=ru];
+    => nrel_etalon_online_idx: [38468];;

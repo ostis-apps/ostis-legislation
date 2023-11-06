@@ -1,0 +1,37 @@
+
+by_permission_to_use_pesticide_or_agrochemical
+    => nrel_main_idtf: [permission to use pesticide or agrochemical] (* <- lang_en;; *);
+    => nrel_main_idtf: [разрешение на применение пестицида или агрохимиката] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дазвол на прымяненне пестыцыду або аграхімікату] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permission_to_use_pesticide_or_agrochemical_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agrochemicals;
+    => nrel_associative_connection: by_biological_plant_protection_product;
+    => nrel_associative_connection: by_treatment_of_plant_protection_products;
+    => nrel_associative_connection: by_chemical_processing;
+    => nrel_associative_connection: by_permission;
+    => nrel_associative_connection: by_permission_to_use_a_medicinal_product;
+    => nrel_associative_connection: by_plant_protection_products;
+
+    => nrel_legal_act: by_act_c21001824;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22078?langname=ru];
+    => nrel_etalon_online_idx: [22078];;

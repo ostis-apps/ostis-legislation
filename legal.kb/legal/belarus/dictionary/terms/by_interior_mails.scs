@@ -1,0 +1,45 @@
+
+by_interior_mails
+    => nrel_main_idtf: [interior mails] (* <- lang_en;; *);
+    => nrel_main_idtf: [внутренние почтовые отправления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унутраныя паштовыя адпраўленні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interior_mails_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_mailing;
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_bulky_mails;
+    => nrel_associative_connection: by_international_mail;
+    => nrel_associative_connection: by_departure_for_the_blind;
+    => nrel_associative_connection: by_sending;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_postal_route;
+    => nrel_associative_connection: by_priority_mail_items;
+    => nrel_associative_connection: by_registered_postal_item;
+    => nrel_associative_connection: by_registered_postal_items;
+    => nrel_associative_connection: by_secogram;
+    => nrel_associative_connection: by_system_of_automated_postal_items_sorting;
+    => nrel_associative_connection: by_mail_services;
+
+    => nrel_legal_act: by_act_c20401111;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5315?langname=ru];
+    => nrel_etalon_online_idx: [5315];;

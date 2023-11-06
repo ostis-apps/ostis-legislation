@@ -1,0 +1,39 @@
+
+by_sudden_illness
+    => nrel_main_idtf: [sudden illness] (* <- lang_en;; *);
+    => nrel_main_idtf: [внезапное заболевание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [раптоўнае захворванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sudden_illness_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sudden_health_disorder;
+    => nrel_associative_connection: by_group_diseases;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_health;
+    => nrel_associative_connection: by_cliniccosts_groups;
+    => nrel_associative_connection: by_mass_noninfectious_diseases;
+    => nrel_associative_connection: by_spinal_cord_dysfunction;
+    => nrel_associative_connection: by_acute_kidney_damage;
+    => nrel_associative_connection: by_insured_event;
+
+    => nrel_legal_act: by_act_p30600530;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8591?langname=ru];
+    => nrel_etalon_online_idx: [8591];;

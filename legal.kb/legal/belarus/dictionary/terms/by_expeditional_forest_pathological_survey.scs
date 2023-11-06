@@ -1,0 +1,35 @@
+
+by_expeditional_forest_pathological_survey
+    => nrel_main_idtf: [expeditional forest pathological survey] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспедиционное лесопатологическое обследование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспедыцыйнае лесапаталагічнае абследаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expeditional_forest_pathological_survey_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_laying_out_of_trapping_wood_trees;
+    => nrel_associative_connection: by_forest_pest_and_disease_pockets;
+    => nrel_associative_connection: by_lost_forest_plantations;
+    => nrel_associative_connection: by_sanitary_condition_of_forest_plants;
+    => nrel_associative_connection: by_sanitary_requirements;
+
+    => nrel_legal_act: by_act_w21631603;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36578?langname=ru];
+    => nrel_etalon_online_idx: [36578];;

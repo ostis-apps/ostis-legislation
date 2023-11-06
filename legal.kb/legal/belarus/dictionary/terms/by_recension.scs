@@ -1,0 +1,43 @@
+
+by_recension
+    => nrel_main_idtf: [recension] (* <- lang_en;; *);
+    => nrel_main_idtf: [рецензирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэцэнзаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recension_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authors_original_of_educational_edition;
+    => nrel_associative_connection: by_publication_of_printed_edition;
+    => nrel_associative_connection: by_release_of_educational_editions;
+    => nrel_associative_connection: by_original_layout_of_educational_edition;
+    => nrel_associative_connection: by_printed_edition;
+    => nrel_associative_connection: by_printed_editions_of_all_kinds;
+    => nrel_associative_connection: by_preparation_for_educational_publications_editions;
+    => nrel_associative_connection: by_educational_publications_preparation;
+    => nrel_associative_connection: by_editorial_and_publishing_preparation_of_the_printed_edition;
+    => nrel_associative_connection: by_reviewer;
+    => nrel_associative_connection: by_review;
+    => nrel_associative_connection: by_refinement_certificate;
+    => nrel_associative_connection: by_educational_edition;
+
+    => nrel_legal_act: by_act_w22339988;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22621?langname=ru];
+    => nrel_etalon_online_idx: [22621];;

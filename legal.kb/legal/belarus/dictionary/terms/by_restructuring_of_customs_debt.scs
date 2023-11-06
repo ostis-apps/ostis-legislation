@@ -1,0 +1,34 @@
+
+by_restructuring_of_customs_debt
+    => nrel_main_idtf: [restructuring of customs debt] (* <- lang_en;; *);
+    => nrel_main_idtf: [реструктуризация таможенной задолженности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэструктурызацыя мытнай запазычанасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_restructuring_of_customs_debt_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_restructuring;
+    => nrel_associative_connection: by_debt_restructuring;
+    => nrel_associative_connection: by_customs_debt;
+
+    => nrel_legal_act: by_act_p32200264;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40672?langname=ru];
+    => nrel_etalon_online_idx: [40672];;

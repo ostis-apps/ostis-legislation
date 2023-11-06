@@ -1,0 +1,41 @@
+
+by_asset
+    => nrel_main_idtf: [asset] (* <- lang_en;; *);
+    => nrel_main_idtf: [актив] (* <- lang_ru;; *);
+    => nrel_main_idtf: [актыў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_asset_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assets;
+    => nrel_associative_connection: by_generating_unit;
+    => nrel_associative_connection: by_disposal_group;
+    => nrel_associative_connection: by_long_term_assets;
+    => nrel_associative_connection: by_longterm_asset;
+    => nrel_associative_connection: by_share_in_property_right;
+    => nrel_associative_connection: by_identifiable_asset;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_property_as_a_single_object;
+    => nrel_associative_connection: by_most_effective_use;
+    => nrel_associative_connection: by_value_appraisal;
+
+    => nrel_legal_act: by_act_w02136596p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37950?langname=ru];
+    => nrel_etalon_online_idx: [37950];;

@@ -1,0 +1,19 @@
+
+by_electricity_for_heating_purposes
+    => nrel_main_idtf: [electricity for heating purposes] (* <- lang_en;; *);
+    => nrel_main_idtf: [электроэнергия для целей нагрева] (* <- lang_ru;; *);
+    => nrel_main_idtf: [электраэнергія для мэт нагрэву] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_active_electroenergy;
+    => nrel_associative_connection: by_conclusion_on_the_use_of_electric_energy_for_heating_purposes;
+    => nrel_associative_connection: by_electric_heating;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26682?langname=ru];
+    => nrel_etalon_online_idx: [26682];;

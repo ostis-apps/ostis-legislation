@@ -1,0 +1,35 @@
+
+by_water_ski_stadium_behind_the_boat_behind_electric_drive
+    => nrel_main_idtf: [water ski stadium behind the boat (behind electric drive)] (* <- lang_en;; *);
+    => nrel_main_idtf: [воднолыжный стадион за катером (за электротягой)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вадналыжны стадыён за катэрам (за электрацягай)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_ski_stadium_behind_the_boat_behind_electric_drive_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_waterski_base;
+    => nrel_associative_connection: by_waterski_channel_behind_the_boat;
+    => nrel_associative_connection: by_waterski_channel_behind_electric_driving;
+    => nrel_associative_connection: by_ski_base;
+    => nrel_associative_connection: by_sports_arena;
+
+    => nrel_legal_act: by_act_w21429234;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34055?langname=ru];
+    => nrel_etalon_online_idx: [34055];;

@@ -1,0 +1,20 @@
+
+by_commercial_water_loss
+    => nrel_main_idtf: [commercial water loss ] (* <- lang_en;; *);
+    => nrel_main_idtf: [коммерческая потеря воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камерцыйная страта вады] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_drinking_water_water_of_drinking_quality;
+    => nrel_associative_connection: by_watersupply_network_watersupply_constructions;
+    => nrel_associative_connection: by_drinking_water_consumers_consumers;
+    => nrel_associative_connection: by_water_consumption;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16035?langname=ru];
+    => nrel_etalon_online_idx: [16035];;

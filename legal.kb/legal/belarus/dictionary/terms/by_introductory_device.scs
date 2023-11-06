@@ -1,0 +1,53 @@
+
+by_introductory_device
+    => nrel_main_idtf: [introductory device] (* <- lang_en;; *);
+    => nrel_main_idtf: [вводное устройство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уводнае прыстасаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_introductory_device_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_introductory_device_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_telecommunication_lines;
+    => nrel_associative_connection: by_power_supply_line;
+    => nrel_associative_connection: by_connected_electric_network;
+    => nrel_associative_connection: by_static_counter;
+    => nrel_associative_connection: by_tariff_system;
+    => nrel_associative_connection: by_installed_power;
+    => nrel_associative_connection: by_electric_network;
+
+    => nrel_legal_act: by_act_c21101394;
+    => nrel_legal_act: by_act_w22339538p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12891?langname=ru];
+    => nrel_etalon_online_idx: [12891];;

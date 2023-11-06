@@ -1,0 +1,36 @@
+
+by_census
+    => nrel_main_idtf: [census] (* <- lang_en;; *);
+    => nrel_main_idtf: [перепись] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перапіс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_census_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_population_census_database;
+    => nrel_associative_connection: by_state_statistical_surveys;
+    => nrel_associative_connection: by_method_of_census_of_population_holding;
+    => nrel_associative_connection: by_census_documentation;
+    => nrel_associative_connection: by_census_form;
+    => nrel_associative_connection: by_census_staff;
+
+    => nrel_legal_act: by_act_h10400345;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10328?langname=ru];
+    => nrel_etalon_online_idx: [10328];;

@@ -1,0 +1,38 @@
+
+by_refusal_to_undergo_examination
+    => nrel_main_idtf: [refusal to undergo examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [отказ от прохождения освидетельствования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адмова ад праходжання агляду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refusal_to_undergo_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_checkup_examination;
+    => nrel_associative_connection: by_medical_inspection;
+    => nrel_associative_connection: by_narcological_examination;
+    => nrel_associative_connection: by_obligatory_medical_examination;
+    => nrel_associative_connection: by_examination;
+    => nrel_associative_connection: by_refusal_to_undergo_examination_in_due_course;
+    => nrel_associative_connection: by_refusal_to_pass_premise_medical_inspection;
+    => nrel_associative_connection: by_technical_certification;
+
+    => nrel_legal_act: by_act_w21428295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19511?langname=ru];
+    => nrel_etalon_online_idx: [19511];;

@@ -1,0 +1,33 @@
+
+by_safe_bank_keeping
+    => nrel_main_idtf: [safe bank keeping] (* <- lang_en;; *);
+    => nrel_main_idtf: [сейфовое банковское хранение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сейфавае банкаўскае захоўванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safe_bank_keeping_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_closed_bank_storage;
+    => nrel_associative_connection: by_open_bank_storage;
+    => nrel_associative_connection: by_protected_place_to_store;
+
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6872?langname=ru];
+    => nrel_etalon_online_idx: [6872];;

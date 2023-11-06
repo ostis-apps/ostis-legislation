@@ -1,0 +1,32 @@
+
+by_deprivation
+    => nrel_main_idtf: [deprivation] (* <- lang_en;; *);
+    => nrel_main_idtf: [лишения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пазбаўленні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deprivation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_illegal_deprivation_of_freedom;
+    => nrel_associative_connection: by_limitation_ecumbrance_of_rights;
+
+    => nrel_legal_act: by_act_t21402711p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16754?langname=ru];
+    => nrel_etalon_online_idx: [16754];;

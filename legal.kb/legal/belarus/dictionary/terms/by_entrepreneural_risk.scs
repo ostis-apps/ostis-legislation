@@ -1,0 +1,36 @@
+
+by_entrepreneural_risk
+    => nrel_main_idtf: [entrepreneural risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [предпринимательский риск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадпрымальніцкая рызыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_entrepreneural_risk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_amount_of_the_risk_credit_operational_market;
+    => nrel_associative_connection: by_ordinary_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_entrepreneurial_activity_carried_out_without_a_special_permit_license;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_export_risks;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3974?langname=ru];
+    => nrel_etalon_online_idx: [3974];;

@@ -1,0 +1,35 @@
+
+by_liabilities_of_the_bank
+    => nrel_main_idtf: [liabilities of the bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательство банка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязацельства банка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_liabilities_of_the_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interbank_loan_deposit;
+    => nrel_associative_connection: by_residue_of_loan_debt_cash_on_liability_of_the_bank_at_the_end_of_the_reporting_period;
+    => nrel_associative_connection: by_interest_rate_for_use_of_interbank_credit_contribution_deposit;
+    => nrel_associative_connection: by_interest_rate_for_the_use_of_a_new_loan_for_a_new_bank_deposit_deposit_in_the_reporting_period;
+    => nrel_associative_connection: by_arithmetic_mean_of_daily_balance_sheets_in_currency_units;
+
+    => nrel_legal_act: by_act_b21934719;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41873?langname=ru];
+    => nrel_etalon_online_idx: [41873];;

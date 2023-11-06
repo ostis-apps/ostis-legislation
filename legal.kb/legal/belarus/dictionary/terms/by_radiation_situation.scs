@@ -1,0 +1,81 @@
+
+by_radiation_situation
+    => nrel_main_idtf: [radiation situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [радиационная обстановка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [радыяцыйная абстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiation_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiation_situation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_radiation_situation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accident_situation_at_a_nuclear_research_installation_general;
+    => nrel_associative_connection: by_accident_situation_in_the_territory_of_the_research_nuclear_installation_site;
+    => nrel_associative_connection: by_accident_situation_on_installation;
+    => nrel_associative_connection: by_natural_radiation_background;
+    => nrel_associative_connection: by_research_nuclear_installation;
+    => nrel_associative_connection: by_controlled_parameter;
+    => nrel_associative_connection: by_urgent_works_in_emergency_situation_zone;
+    => nrel_associative_connection: by_research_nuclear_installation_site;
+    => nrel_associative_connection: by_increased_radiation_background;
+    => nrel_associative_connection: by_works_and_services_that_can_affect_radiation_safety;
+    => nrel_associative_connection: by_radiation_accident;
+    => nrel_associative_connection: by_radiation_safety;
+    => nrel_associative_connection: by_radiation_safety_of_population;
+    => nrel_associative_connection: by_radiation_protection;
+    => nrel_associative_connection: by_radiation_inspection_of_lands_of_the_forestry_fund;
+    => nrel_associative_connection: by_radiation_hazard_zone;
+    => nrel_associative_connection: by_radiation_control;
+    => nrel_associative_connection: by_radiation_monitoring;
+    => nrel_associative_connection: by_radiation_object;
+
+    => nrel_legal_act: by_act_h11900198;
+    => nrel_legal_act: by_act_h11200385;
+    => nrel_legal_act: by_act_w21833522p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10555?langname=ru];
+    => nrel_etalon_online_idx: [10555];;

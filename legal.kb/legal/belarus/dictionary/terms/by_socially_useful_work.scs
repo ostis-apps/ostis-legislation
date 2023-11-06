@@ -1,0 +1,55 @@
+
+by_socially_useful_work
+    => nrel_main_idtf: [socially useful work] (* <- lang_en;; *);
+    => nrel_main_idtf: [общественно полезный труд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадска карысная праца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_socially_useful_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_socially_useful_work_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upbringing;
+    => nrel_associative_connection: by_upbringing_work_with_persons_convicted_to_improsonment;
+    => nrel_associative_connection: by_employment;
+    => nrel_associative_connection: by_minor;
+    => nrel_associative_connection: by_educational_process;
+    => nrel_associative_connection: by_socially_useful_work;
+    => nrel_associative_connection: by_primary_means_to_achieve_goals_of_criminal_responsibility;
+    => nrel_associative_connection: by_convicted_person_who_has_gone_firmly_on_the_path_of_correction;
+    => nrel_associative_connection: by_schoolchildren;
+
+    => nrel_legal_act: by_act_hk1100243;
+    => nrel_legal_act: by_act_w21933745p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4127?langname=ru];
+    => nrel_etalon_online_idx: [4127];;

@@ -1,0 +1,53 @@
+
+by_bank_branch
+    => nrel_main_idtf: [bank branch] (* <- lang_en;; *);
+    => nrel_main_idtf: [филиал банка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [філіял банка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_branch_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_branch_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_foreign_subdivision;
+    => nrel_associative_connection: by_separate_structural_subdivision_of_ojsc_asb_belarusbank;
+    => nrel_associative_connection: by_separate_structural_subdivision_of_open_joint_stock_company_savings_bank_belarusbank;
+    => nrel_associative_connection: by_bank_representative_office;
+    => nrel_associative_connection: by_cash_emission_point;
+    => nrel_associative_connection: by_branch_of_legal_person;
+
+    => nrel_legal_act: by_act_hk0000441;
+    => nrel_legal_act: by_act_i00400003;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7131?langname=ru];
+    => nrel_etalon_online_idx: [7131];;

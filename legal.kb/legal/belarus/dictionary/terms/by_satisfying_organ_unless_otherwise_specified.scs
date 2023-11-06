@@ -1,0 +1,35 @@
+
+by_satisfying_organ_unless_otherwise_specified
+    => nrel_main_idtf: [satisfying organ, unless otherwise specified] (* <- lang_en;; *);
+    => nrel_main_idtf: [довольствующий орган, если не определено иное] (* <- lang_ru;; *);
+    => nrel_main_idtf: [забяспечваючы орган, калі не вызначана іншае] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_satisfying_organ_unless_otherwise_specified_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commissioning_of_the_loadlifting_crane;
+    => nrel_associative_connection: by_armed_forces;
+    => nrel_associative_connection: by_general_staff_of_the_armed_forces;
+    => nrel_associative_connection: by_lifting_crane;
+    => nrel_associative_connection: by_ministry_of_defence_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_w22035140p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32819?langname=ru];
+    => nrel_etalon_online_idx: [32819];;

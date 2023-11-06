@@ -1,0 +1,115 @@
+
+by_night
+    => nrel_main_idtf: [night] (* <- lang_en;; *);
+    => nrel_main_idtf: [ночное время] (* <- lang_ru;; *);
+    => nrel_main_idtf: [начны час] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_night_5.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_night;
+    => nrel_associative_connection: by_daylight_hours;
+    => nrel_associative_connection: by_service_hours_at_night;
+    => nrel_associative_connection: by_night_hours;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_legal_act: by_act_hk2100092;
+    => nrel_legal_act: by_act_hk9900295;
+    => nrel_legal_act: by_act_hk9900296;
+    => nrel_legal_act: by_act_hk9900238;
+    => nrel_legal_act: by_act_n22000112;
+    => nrel_legal_act: by_act_n29600086;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3860?langname=ru];
+    => nrel_etalon_online_idx: [3860];;

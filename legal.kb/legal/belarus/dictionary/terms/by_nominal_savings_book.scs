@@ -1,0 +1,34 @@
+
+by_nominal_savings_book
+    => nrel_main_idtf: [nominal savings book] (* <- lang_en;; *);
+    => nrel_main_idtf: [именная сберегательная книжка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [імянная ашчадная кніжка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_savings_book_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bearer_savings_bank_book;
+    => nrel_associative_connection: by_deposits;
+    => nrel_associative_connection: by_separate_structural_subdivision_of_open_joint_stock_company_savings_bank_belarusbank;
+    => nrel_associative_connection: by_savings_certificate;
+
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15160?langname=ru];
+    => nrel_etalon_online_idx: [15160];;

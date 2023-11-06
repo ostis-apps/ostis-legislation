@@ -1,0 +1,38 @@
+
+by_autodrome_motodrome
+    => nrel_main_idtf: [autodrome (motodrome)] (* <- lang_en;; *);
+    => nrel_main_idtf: [автодром (мотодром)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтадром (мотадром)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_autodrome_motodrome_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automotodrome;
+    => nrel_associative_connection: by_overall_figure_eight_circle_for_the_autodrome;
+    => nrel_associative_connection: by_additional_dvr_camera;
+    => nrel_associative_connection: by_track_board;
+    => nrel_associative_connection: by_persons_teaching_students_to_drive_mechanical_vehicles_and_combinations_of_vehicles;
+    => nrel_associative_connection: by_master;
+    => nrel_associative_connection: by_the_limiter_of_the_elements_of_the_autodrome_special_area;
+    => nrel_associative_connection: by_stopping_point_of_route_vehicle;
+
+    => nrel_legal_act: by_act_w02035951p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35614?langname=ru];
+    => nrel_etalon_online_idx: [35614];;

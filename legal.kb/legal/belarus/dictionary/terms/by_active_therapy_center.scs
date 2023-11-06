@@ -1,0 +1,42 @@
+
+by_active_therapy_center
+    => nrel_main_idtf: [active therapy center] (* <- lang_en;; *);
+    => nrel_main_idtf: [лечебно-трудовой профилакторий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лячэбна-працоўны прафілакторый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_active_therapy_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_alcoholism;
+    => nrel_associative_connection: by_state_maintenance;
+    => nrel_associative_connection: by_citizens_suffering_from_chronic_alcoholism_drug_addiction_or_toxicomania;
+    => nrel_associative_connection: by_civil_personnel_of_the_active_therapy_center;
+    => nrel_associative_connection: by_medical_and_social_readaptation;
+    => nrel_associative_connection: by_bodies_of_internal_affairs;
+    => nrel_associative_connection: by_compulsory_isolation;
+    => nrel_associative_connection: by_preventive_event;
+    => nrel_associative_connection: by_prophylactorium;
+    => nrel_associative_connection: by_employees_of_active_therapy_center;
+    => nrel_associative_connection: by_ablebodied_nonworking_citizens_leading_an_antisocial_lifestyle;
+
+    => nrel_legal_act: by_act_h11000104;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1716?langname=ru];
+    => nrel_etalon_online_idx: [1716];;

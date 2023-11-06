@@ -1,0 +1,35 @@
+
+by_organization_of_car_parks_and_car_parking
+    => nrel_main_idtf: [organization of car parks and car parking] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация автомобильных стоянок и автомобильных парковок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя аўтамабільных стаянак і аўтамабільных парковак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_of_car_parks_and_car_parking_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_vehicle_account_journal;
+    => nrel_associative_connection: by_parking_space;
+    => nrel_associative_connection: by_omission;
+
+    => nrel_legal_act: by_act_c20700009;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19210?langname=ru];
+    => nrel_etalon_online_idx: [19210];;

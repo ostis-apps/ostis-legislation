@@ -1,0 +1,25 @@
+
+by_representative_service
+    => nrel_main_idtf: [representative service] (* <- lang_en;; *);
+    => nrel_main_idtf: [репрезентативная услуга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэпрэзентатыўная паслуга] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_state_statistical_surveys;
+    => nrel_associative_connection: by_object_of_the_state_statistical_observation;
+    => nrel_associative_connection: by_sampling_error_representative_error;
+    => nrel_associative_connection: by_representative_error;
+    => nrel_associative_connection: by_representative_sampling;
+    => nrel_associative_connection: by_representative_organization;
+    => nrel_associative_connection: by_representatively_selected_organization;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_services;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22555?langname=ru];
+    => nrel_etalon_online_idx: [22555];;

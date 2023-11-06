@@ -1,0 +1,33 @@
+
+by_irrigation_map
+    => nrel_main_idtf: [irrigation map] (* <- lang_en;; *);
+    => nrel_main_idtf: [карта орошения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карта арашэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_irrigation_map_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_condition_controlled_sprinkler;
+    => nrel_associative_connection: by_fire_automatic;
+    => nrel_associative_connection: by_fire_safety;
+
+    => nrel_legal_act: by_act_w22035463p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40866?langname=ru];
+    => nrel_etalon_online_idx: [40866];;

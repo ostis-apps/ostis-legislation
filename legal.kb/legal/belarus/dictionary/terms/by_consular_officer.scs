@@ -1,0 +1,65 @@
+
+by_consular_officer
+    => nrel_main_idtf: [consular officer] (* <- lang_en;; *);
+    => nrel_main_idtf: [консульский служащий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [консульскі служачы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consular_officer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consular_officer_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consular_officer_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_consular_administrative_official;
+    => nrel_associative_connection: by_foreign_establishments_employees;
+    => nrel_associative_connection: by_employees;
+
+    => nrel_legal_act: by_act_p39600082;
+    => nrel_legal_act: by_act_i00800004;
+    => nrel_legal_act: by_act_i09200065;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6010?langname=ru];
+    => nrel_etalon_online_idx: [6010];;

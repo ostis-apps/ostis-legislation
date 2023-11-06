@@ -1,0 +1,36 @@
+
+by_specialized_subdivision_of_gas_supplying_organization
+    => nrel_main_idtf: [specialized subdivision of gas supplying organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [специализированное подразделение газоснабжающей организации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялізаванае падраздзяленне газазабяспечвальнай арганізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialized_subdivision_of_gas_supplying_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gas_supply_organization;
+    => nrel_associative_connection: by_gas_supply_organizations;
+    => nrel_associative_connection: by_gas_supply;
+    => nrel_associative_connection: by_deficit_gas_supply_energy_supply_organizations;
+    => nrel_associative_connection: by_excessive_gas_supply_energy_supply_organizations;
+    => nrel_associative_connection: by_gas_supply_system;
+
+    => nrel_legal_act: by_act_c20701539;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23741?langname=ru];
+    => nrel_etalon_online_idx: [23741];;

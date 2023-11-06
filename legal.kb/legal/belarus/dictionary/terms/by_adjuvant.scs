@@ -1,0 +1,99 @@
+
+by_adjuvant
+    => nrel_main_idtf: [adjuvant] (* <- lang_en;; *);
+    => nrel_main_idtf: [вспомогательное вещество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапаможнае рэчыва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adjuvant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adjuvant_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adjuvant_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adjuvant_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_adjuvant_4.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_container_primary_packaging;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_pharmacological_activity;
+    => nrel_associative_connection: by_pharmaceutical_substance;
+    => nrel_associative_connection: by_stanglas;
+
+    => nrel_legal_act: by_act_h10600161;
+    => nrel_legal_act: by_act_f92200029;
+    => nrel_legal_act: by_act_f92000255;
+    => nrel_legal_act: by_act_f91600344;
+    => nrel_legal_act: by_act_i01100078;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11258?langname=ru];
+    => nrel_etalon_online_idx: [11258];;

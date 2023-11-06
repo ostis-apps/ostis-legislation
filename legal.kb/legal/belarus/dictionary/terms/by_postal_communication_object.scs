@@ -1,0 +1,25 @@
+
+by_postal_communication_object
+    => nrel_main_idtf: [postal communication object] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект почтовой связи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект паштовай сувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_postal_communication_organization;
+    => nrel_associative_connection: by_postal_office;
+    => nrel_associative_connection: by_mobile_postal_office;
+    => nrel_associative_connection: by_subscription_to_print_mass_media;
+    => nrel_associative_connection: by_postal_security;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_postal_communication_of_common_use;
+    => nrel_associative_connection: by_collective_use_point;
+    => nrel_associative_connection: by_post_office;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18722?langname=ru];
+    => nrel_etalon_online_idx: [18722];;

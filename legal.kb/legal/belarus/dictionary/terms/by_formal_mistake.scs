@@ -1,0 +1,32 @@
+
+by_formal_mistake
+    => nrel_main_idtf: [formal mistake] (* <- lang_en;; *);
+    => nrel_main_idtf: [формальный проступок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фармальная правіннасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_formal_mistake_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_minor_case;
+    => nrel_associative_connection: by_minor_breach;
+
+    => nrel_legal_act: by_act_H12200213;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41408?langname=ru];
+    => nrel_etalon_online_idx: [41408];;

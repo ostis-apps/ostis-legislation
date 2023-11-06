@@ -1,0 +1,54 @@
+
+by_budgetary_payments_arrears
+    => nrel_main_idtf: [budgetary payments arrears] (* <- lang_en;; *);
+    => nrel_main_idtf: [задолженность по платежам в бюджет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запазычанасць па плацяжах у бюджэт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budgetary_payments_arrears_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budgetary_payments_arrears_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_debt_of_an_insolvent_agricultural_organization;
+    => nrel_associative_connection: by_debt_on_payments_to_the_fund_budget;
+    => nrel_associative_connection: by_debt_on_payments_to_the_republican_and_or_local_budget_budget_of_the_fund;
+    => nrel_associative_connection: by_payments_to_budget_operations;
+    => nrel_associative_connection: by_budget_contributions_and_profit_income_tax;
+    => nrel_associative_connection: by_payments_to_the_budget;
+    => nrel_associative_connection: by_overdue_debt_on_payments_to_the_republican_and_or_local_budgets_the_budget_of_the_fund;
+
+    => nrel_legal_act: by_act_p31800399;
+    => nrel_legal_act: by_act_p30400088;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5796?langname=ru];
+    => nrel_etalon_online_idx: [5796];;

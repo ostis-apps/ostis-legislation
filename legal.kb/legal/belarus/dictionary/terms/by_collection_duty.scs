@@ -1,0 +1,44 @@
+
+by_collection_duty
+    => nrel_main_idtf: [collection (duty)] (* <- lang_en;; *);
+    => nrel_main_idtf: [сбор (пошлина)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [збор (пошліна)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_collection_duty_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_collection_of_tax_due_duty_penalty;
+    => nrel_associative_connection: by_local_taxes_and_dues;
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_tax_collection_duty;
+    => nrel_associative_connection: by_object_of_assessment_fees_taxation;
+    => nrel_associative_connection: by_compulsory_payments;
+    => nrel_associative_connection: by_payments_to_the_budget;
+    => nrel_associative_connection: by_resort_levy_payers;
+    => nrel_associative_connection: by_payers_of_local_taxes_and_fees;
+    => nrel_associative_connection: by_target_collection_payers;
+    => nrel_associative_connection: by_enforced_fee;
+    => nrel_associative_connection: by_republican_taxes_and_charges;
+    => nrel_associative_connection: by_collection;
+    => nrel_associative_connection: by_mitigation_of_special_protective_measures;
+
+    => nrel_legal_act: by_act_hk0200166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1861?langname=ru];
+    => nrel_etalon_online_idx: [1861];;

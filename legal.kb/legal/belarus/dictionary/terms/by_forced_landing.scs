@@ -1,0 +1,64 @@
+
+by_forced_landing
+    => nrel_main_idtf: [forced landing] (* <- lang_en;; *);
+    => nrel_main_idtf: [вынужденная посадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вымушаная пасадка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forced_landing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forced_landing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome_flights;
+    => nrel_associative_connection: by_safe_forced_landing;
+    => nrel_associative_connection: by_favorable_environment;
+    => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_air_traffic;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_approach_in_circle;
+    => nrel_associative_connection: by_instrument_approach;
+    => nrel_associative_connection: by_landing_zone;
+    => nrel_associative_connection: by_true_height;
+    => nrel_associative_connection: by_helicopter_category_a;
+    => nrel_associative_connection: by_helicopter_category_b;
+    => nrel_associative_connection: by_adverse_environment;
+    => nrel_associative_connection: by_operations_in_accordance_with_the_flight_performance_of_class_3;
+    => nrel_associative_connection: by_instrument_landing_system_reference_point_t_point;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_strip_of_air_approaches;
+    => nrel_associative_connection: by_landing_field;
+
+    => nrel_legal_act: by_act_w21934932p;
+    => nrel_legal_act: by_act_w21732653;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7405?langname=ru];
+    => nrel_etalon_online_idx: [7405];;

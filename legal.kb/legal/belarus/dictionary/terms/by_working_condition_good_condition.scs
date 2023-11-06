@@ -1,0 +1,35 @@
+
+by_working_condition_good_condition
+    => nrel_main_idtf: [working condition (good condition)] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправное состояние (исправность)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спраўны стан (спраўнасць)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_condition_good_condition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_equipment;
+    => nrel_associative_connection: by_external_influencing_factor;
+    => nrel_associative_connection: by_serviceable_property;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_workable_state;
+
+    => nrel_legal_act: by_act_w20106304;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15610?langname=ru];
+    => nrel_etalon_online_idx: [15610];;

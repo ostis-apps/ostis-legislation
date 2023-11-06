@@ -1,0 +1,37 @@
+
+by_overroof_advertising_construction
+    => nrel_main_idtf: [overroof advertising construction] (* <- lang_en;; *);
+    => nrel_main_idtf: [надкрышная рекламная конструкция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [наддахавая рэкламная канструкцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overroof_advertising_construction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wall_advertising_construction;
+    => nrel_associative_connection: by_pylon;
+    => nrel_associative_connection: by_advertising_area_counter_advertising_area;
+    => nrel_associative_connection: by_placement_of_outdoor_advertising_means;
+    => nrel_associative_connection: by_advertising;
+    => nrel_associative_connection: by_advertising_activity;
+    => nrel_associative_connection: by_flag_advertising_design;
+
+    => nrel_legal_act: by_act_c22100395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17604?langname=ru];
+    => nrel_etalon_online_idx: [17604];;

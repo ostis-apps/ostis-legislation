@@ -1,0 +1,35 @@
+
+by_design_engineering
+    => nrel_main_idtf: [design engineering] (* <- lang_en;; *);
+    => nrel_main_idtf: [дизайн-проектирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дызайн-праектаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_design_engineering_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_design;
+    => nrel_associative_connection: by_innovative_activity;
+    => nrel_associative_connection: by_innovation;
+    => nrel_associative_connection: by_microservice_architecture;
+    => nrel_associative_connection: by_design;
+
+    => nrel_legal_act: by_act_w21934710p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33053?langname=ru];
+    => nrel_etalon_online_idx: [33053];;

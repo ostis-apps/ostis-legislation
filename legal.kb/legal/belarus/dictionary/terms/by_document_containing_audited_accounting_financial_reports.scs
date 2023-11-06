@@ -1,0 +1,44 @@
+
+by_document_containing_audited_accounting_financial_reports
+    => nrel_main_idtf: [document, containing audited accounting (financial) reports] (* <- lang_en;; *);
+    => nrel_main_idtf: [документ, содержащий проверенную бухгалтерскую и (или) финансовую) отчетность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дакумент, які змяшчае правераную бухгалтарскую і (або) фінансавую справаздачнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_document_containing_audited_accounting_financial_reports_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_basic_index_of_accounting_financial_reporting;
+    => nrel_associative_connection: by_accounting_reports;
+    => nrel_associative_connection: by_date_of_accounting_financial_reporting_preparation;
+    => nrel_associative_connection: by_date_of_accounting_financial_reporting_submission;
+    => nrel_associative_connection: by_authenticity_of_the_accounting_financial_statements;
+    => nrel_associative_connection: by_distortion_of_accounting_financial_reporting;
+    => nrel_associative_connection: by_final_data_in_accounting_financial_reporting;
+    => nrel_associative_connection: by_generalized_accounting_financial_reporting;
+    => nrel_associative_connection: by_statutory_audit_of_accounting_financial_statements;
+    => nrel_associative_connection: by_prerequisites_for_the_preparation_of_accounting_and_or_financial_statements;
+    => nrel_associative_connection: by_other_information;
+    => nrel_associative_connection: by_risk_of_not_detecting_material_distortions_in_accounting_and_or_financial_statements;
+    => nrel_associative_connection: by_comparable_accounting_and_or_financial_reporting;
+
+    => nrel_legal_act: by_act_w20208607;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14331?langname=ru];
+    => nrel_etalon_online_idx: [14331];;

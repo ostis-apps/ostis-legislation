@@ -1,0 +1,40 @@
+
+by_unauthorized_influence_on_information
+    => nrel_main_idtf: [unauthorized influence on information] (* <- lang_en;; *);
+    => nrel_main_idtf: [несанкционированное воздействие на информацию] (* <- lang_ru;; *);
+    => nrel_main_idtf: [несанкцыянаванае ўздзеянне на інфармацыю] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unauthorized_influence_on_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_protection_of_information_of_the_electronic_data_bank;
+    => nrel_associative_connection: by_protection_of_information_contained_in_a_unified_database;
+    => nrel_associative_connection: by_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_unauthorized_action;
+    => nrel_associative_connection: by_unauthorized_access;
+    => nrel_associative_connection: by_unauthorized_access_to_information;
+    => nrel_associative_connection: by_data_sovereignty;
+    => nrel_associative_connection: by_technical_protection_of_information;
+    => nrel_associative_connection: by_leakage_of_information_through_technical_channels;
+
+    => nrel_legal_act: by_act_p31300196;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18146?langname=ru];
+    => nrel_etalon_online_idx: [18146];;

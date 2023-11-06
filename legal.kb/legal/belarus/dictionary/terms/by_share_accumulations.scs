@@ -1,0 +1,54 @@
+
+by_share_accumulations
+    => nrel_main_idtf: [share accumulations] (* <- lang_en;; *);
+    => nrel_main_idtf: [паенакопления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паеназапашванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_share_accumulations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_share_accumulations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_housingconstruction_cooperative;
+    => nrel_associative_connection: by_residential_building;
+    => nrel_associative_connection: by_property_developer;
+    => nrel_associative_connection: by_nominal_share;
+    => nrel_associative_connection: by_organization_of_builders;
+    => nrel_associative_connection: by_unit_trust;
+    => nrel_associative_connection: by_share_contributions;
+    => nrel_associative_connection: by_planned_accumulations;
+
+    => nrel_legal_act: by_act_hk1200428;
+    => nrel_legal_act: by_act_p30800043;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10519?langname=ru];
+    => nrel_etalon_online_idx: [10519];;

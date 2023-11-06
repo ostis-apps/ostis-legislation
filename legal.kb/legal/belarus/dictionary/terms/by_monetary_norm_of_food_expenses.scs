@@ -1,0 +1,37 @@
+
+by_monetary_norm_of_food_expenses
+    => nrel_main_idtf: [monetary norm of food expenses] (* <- lang_en;; *);
+    => nrel_main_idtf: [денежная норма расходов на питание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грашовая норма расходаў на харчаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monetary_norm_of_food_expenses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_additional_alimentation;
+    => nrel_associative_connection: by_healthy_food;
+    => nrel_associative_connection: by_individual_food;
+    => nrel_associative_connection: by_therapeutic_food;
+    => nrel_associative_connection: by_public_catering;
+    => nrel_associative_connection: by_increasing_coefficient_13_to_cash_food_expenses_rate;
+    => nrel_associative_connection: by_prices_for_food_products;
+
+    => nrel_legal_act: by_act_c21300317;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27413?langname=ru];
+    => nrel_etalon_online_idx: [27413];;

@@ -1,0 +1,37 @@
+
+by_acute_respiratory_viral_infections
+    => nrel_main_idtf: [acute respiratory viral infections] (* <- lang_en;; *);
+    => nrel_main_idtf: [острые респираторные вирусные инфекции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вострыя рэспіраторныя вірусныя інфекцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_acute_respiratory_viral_infections_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aspiration_syndrome;
+    => nrel_associative_connection: by_pediatrician;
+    => nrel_associative_connection: by_dysphonia;
+    => nrel_associative_connection: by_cricotomy;
+    => nrel_associative_connection: by_body_temperature_above_normal;
+    => nrel_associative_connection: by_complication_of_main_disease;
+    => nrel_associative_connection: by_main_disease;
+
+    => nrel_legal_act: by_act_w22035541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33773?langname=ru];
+    => nrel_etalon_online_idx: [33773];;

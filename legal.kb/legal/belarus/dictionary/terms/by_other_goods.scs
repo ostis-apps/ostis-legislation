@@ -1,0 +1,33 @@
+
+by_other_goods
+    => nrel_main_idtf: [other goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [иные товары] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншыя тавары] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_other_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_goods;
+    => nrel_associative_connection: by_export_of_goods_work_services;
+    => nrel_associative_connection: by_export_of_goods_works_services;
+
+    => nrel_legal_act: by_act_p30600534;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37486?langname=ru];
+    => nrel_etalon_online_idx: [37486];;

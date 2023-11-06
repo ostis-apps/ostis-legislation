@@ -1,0 +1,24 @@
+
+by_exhibition_of_documents
+    => nrel_main_idtf: [exhibition of documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [выставка документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выстаўка дакументаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_exhibition;
+    => nrel_associative_connection: by_exhibitioncompetition;
+    => nrel_associative_connection: by_exhibition_and_sale;
+    => nrel_associative_connection: by_sellingexhibition_of_goods;
+    => nrel_associative_connection: by_exhibition_fair;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_exhibition_organizer;
+    => nrel_associative_connection: by_bas_vlam_participant_of_the_exhibition;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13407?langname=ru];
+    => nrel_etalon_online_idx: [13407];;

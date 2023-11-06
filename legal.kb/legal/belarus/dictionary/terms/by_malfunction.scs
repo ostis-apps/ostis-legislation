@@ -1,0 +1,37 @@
+
+by_malfunction
+    => nrel_main_idtf: [malfunction] (* <- lang_en;; *);
+    => nrel_main_idtf: [неисправность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няспраўнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_malfunction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_defect;
+    => nrel_associative_connection: by_troubleshooting_interval;
+    => nrel_associative_connection: by_out_of_service_fault;
+    => nrel_associative_connection: by_malfunction_malfunctional_state;
+    => nrel_associative_connection: by_refusal;
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_search_for_faults_reasons;
+
+    => nrel_legal_act: by_act_w22035130p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32866?langname=ru];
+    => nrel_etalon_online_idx: [32866];;

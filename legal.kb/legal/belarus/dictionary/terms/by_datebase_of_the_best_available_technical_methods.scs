@@ -1,0 +1,36 @@
+
+by_datebase_of_the_best_available_technical_methods
+    => nrel_main_idtf: [datebase of the best available technical methods] (* <- lang_en;; *);
+    => nrel_main_idtf: [база данных наилучших доступных технических методов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [база даных найлепшых даступных тэхнічных метадаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_datebase_of_the_best_available_technical_methods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_local_database;
+    => nrel_associative_connection: by_best_available_technical_methods;
+    => nrel_associative_connection: by_national_guide_to_the_best_available_technical_methods;
+    => nrel_associative_connection: by_information;
+    => nrel_associative_connection: by_guide_to_best_available_technical_practices;
+
+    => nrel_legal_act: by_act_w20921168;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12602?langname=ru];
+    => nrel_etalon_online_idx: [12602];;

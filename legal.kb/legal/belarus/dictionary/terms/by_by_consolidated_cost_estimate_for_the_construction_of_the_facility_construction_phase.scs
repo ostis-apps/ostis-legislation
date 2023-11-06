@@ -1,0 +1,35 @@
+
+by_by_consolidated_cost_estimate_for_the_construction_of_the_facility_construction_phase
+    => nrel_main_idtf: [by_consolidated_cost_estimate_for_the_construction_of_the_facility_construction_phase] (* <- lang_en;; *);
+    => nrel_main_idtf: [сводный сметный расчет стоимости строительства объекта (очереди строительства)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зводны каштарысны разлік кошту будаўніцтва аб'екта (чэргі будаўніцтва)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_consolidated_cost_estimate_for_the_construction_of_the_facility_construction_phase_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_local_estimate_local_estimated_calculation;
+    => nrel_associative_connection: by_object_estimate_object_estimate_calculation;
+    => nrel_associative_connection: by_summary_of_funds;
+    => nrel_associative_connection: by_consolidated_estimate_calculation_of_the_cost_of_construction;
+    => nrel_associative_connection: by_consolidated_estimate_calculation_of_the_cost_of_construction_of_the_facility;
+
+    => nrel_legal_act: by_act_w22340166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42747?langname=ru];
+    => nrel_etalon_online_idx: [42747];;

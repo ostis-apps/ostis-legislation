@@ -1,0 +1,44 @@
+
+by_working_citizens
+    => nrel_main_idtf: [working citizens] (* <- lang_en;; *);
+    => nrel_main_idtf: [работающие граждане] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працуючыя грамадзяне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_working_citizens_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_citizens_permanently_residing_and_working_in_populated_area_with_population_up_to_20_thousand_people_and_in_satellite_cities;
+    => nrel_associative_connection: by_employed_population;
+    => nrel_associative_connection: by_employed_citizens;
+    => nrel_associative_connection: by_population_engaged_in_economy;
+    => nrel_associative_connection: by_beginning_of_work_change;
+    => nrel_associative_connection: by_nonworking_citizens;
+    => nrel_associative_connection: by_community_service;
+    => nrel_associative_connection: by_previous_post;
+    => nrel_associative_connection: by_working;
+    => nrel_associative_connection: by_working_citizen;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_employees_of_budget_scientific_organizations;
+    => nrel_associative_connection: by_avoidance_from_work;
+
+    => nrel_legal_act: by_act_h12100118;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21888?langname=ru];
+    => nrel_etalon_online_idx: [21888];;

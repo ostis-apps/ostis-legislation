@@ -1,0 +1,37 @@
+
+by_infectious_disease_physician
+    => nrel_main_idtf: [infectious disease physician] (* <- lang_en;; *);
+    => nrel_main_idtf: [врач-инфекционист] (* <- lang_ru;; *);
+    => nrel_main_idtf: [урач-інфекцыяніст] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_disease_physician_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bacterial_infections;
+    => nrel_associative_connection: by_viral_infections;
+    => nrel_associative_connection: by_virology;
+    => nrel_associative_connection: by_doctorhygienist;
+    => nrel_associative_connection: by_laboratory_assistant;
+    => nrel_associative_connection: by_fungal_infections_mycoses;
+    => nrel_associative_connection: by_immunization_of_infectious_diseases;
+
+    => nrel_legal_act: by_act_w22035605p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33965?langname=ru];
+    => nrel_etalon_online_idx: [33965];;

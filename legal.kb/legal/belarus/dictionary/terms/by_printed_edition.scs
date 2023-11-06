@@ -1,0 +1,60 @@
+
+by_printed_edition
+    => nrel_main_idtf: [printed edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [печатное издание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [друкаванае выданне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_printed_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_departmental_edition;
+    => nrel_associative_connection: by_publication_of_printed_edition;
+    => nrel_associative_connection: by_outputs_of_printed_edition;
+    => nrel_associative_connection: by_activity_for_distribution_of_a_printed_edition;
+    => nrel_associative_connection: by_printed_edition_manufacturer;
+    => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_editions_for_persons_with_disabilities_on_sight_and_visually_impaired;
+    => nrel_associative_connection: by_publisher;
+    => nrel_associative_connection: by_publisher_of_printed_edition;
+    => nrel_associative_connection: by_publishing_activity;
+    => nrel_associative_connection: by_publishing;
+    => nrel_associative_connection: by_product_of_printed_edition;
+    => nrel_associative_connection: by_bags_m;
+    => nrel_associative_connection: by_minimum_subscription_period;
+    => nrel_associative_connection: by_national_book_publishing;
+    => nrel_associative_connection: by_compulsory_free_copies_of_print_editions;
+    => nrel_associative_connection: by_original_layout_of_the_printed_educational_edition;
+    => nrel_associative_connection: by_print_mass_media;
+    => nrel_associative_connection: by_printed_editions_of_all_kinds;
+    => nrel_associative_connection: by_printed_mass_media;
+    => nrel_associative_connection: by_polygraphic_activity;
+    => nrel_associative_connection: by_polygraphy;
+    => nrel_associative_connection: by_acquisition_of_printing_equipment;
+    => nrel_associative_connection: by_distributor_of_the_printed_edition;
+    => nrel_associative_connection: by_editorial_and_publishing_preparation_of_the_printed_edition;
+    => nrel_associative_connection: by_reviewer;
+    => nrel_associative_connection: by_recension;
+    => nrel_associative_connection: by_review;
+    => nrel_associative_connection: by_circulation_of_the_printed_edition;
+    => nrel_associative_connection: by_reading_address;
+
+    => nrel_legal_act: by_act_h11200008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14533?langname=ru];
+    => nrel_etalon_online_idx: [14533];;

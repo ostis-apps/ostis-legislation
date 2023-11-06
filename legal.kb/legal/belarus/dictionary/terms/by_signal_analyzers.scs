@@ -1,0 +1,37 @@
+
+by_signal_analyzers
+    => nrel_main_idtf: [signal analyzers] (* <- lang_en;; *);
+    => nrel_main_idtf: [анализаторы сигнала] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аналізатары сігнала] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_signal_analyzers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerospace_means;
+    => nrel_associative_connection: by_analysis;
+    => nrel_associative_connection: by_unmanned_air_aircraft_ua;
+    => nrel_associative_connection: by_settling_time;
+    => nrel_associative_connection: by_permissible_noise_level;
+    => nrel_associative_connection: by_mechanism_of_frequency_mask_launch_trigger_mask_of_frequency;
+    => nrel_associative_connection: by_signal;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12462?langname=ru];
+    => nrel_etalon_online_idx: [12462];;

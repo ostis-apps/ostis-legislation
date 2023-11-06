@@ -1,0 +1,34 @@
+
+by_assembly_unit_with_kinematic_couple
+    => nrel_main_idtf: [assembly unit with kinematic couple] (* <- lang_en;; *);
+    => nrel_main_idtf: [сборочная единица с кинематической парой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зборачная адзінка з кінематычнай парай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assembly_unit_with_kinematic_couple_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_link;
+    => nrel_associative_connection: by_engineering_industry;
+    => nrel_associative_connection: by_national_classifier;
+    => nrel_associative_connection: by_national_classifier_of_the_republic_of_belarus_specialities_and_qualifications;
+
+    => nrel_legal_act: by_act_w20004008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39622?langname=ru];
+    => nrel_etalon_online_idx: [39622];;

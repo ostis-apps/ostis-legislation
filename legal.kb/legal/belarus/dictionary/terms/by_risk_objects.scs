@@ -1,0 +1,21 @@
+
+by_risk_objects
+    => nrel_main_idtf: [risk objects] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты рызыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_high_risk_indicator;
+    => nrel_associative_connection: by_criteria_for_assessing_the_degree_of_risk;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_risk_profile;
+    => nrel_associative_connection: by_risk;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18779?langname=ru];
+    => nrel_etalon_online_idx: [18779];;

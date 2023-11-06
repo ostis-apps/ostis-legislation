@@ -1,0 +1,37 @@
+
+by_infectious_endocarditis
+    => nrel_main_idtf: [infectious endocarditis] (* <- lang_en;; *);
+    => nrel_main_idtf: [инфекционный эндокардит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфекцыйны эндакардыт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infectious_endocarditis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_arterial_hypertension;
+    => nrel_associative_connection: by_ischemic_heart_disease;
+    => nrel_associative_connection: by_cardiological_rehabilitation;
+    => nrel_associative_connection: by_cardiology;
+    => nrel_associative_connection: by_cardiomyopathy;
+    => nrel_associative_connection: by_myocarditis;
+    => nrel_associative_connection: by_load_samples;
+
+    => nrel_legal_act: by_act_w22035467p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33519?langname=ru];
+    => nrel_etalon_online_idx: [33519];;

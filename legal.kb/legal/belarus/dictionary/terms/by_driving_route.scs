@@ -1,0 +1,34 @@
+
+by_driving_route
+    => nrel_main_idtf: [driving route] (* <- lang_en;; *);
+    => nrel_main_idtf: [трасса проезда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [траса праезду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_driving_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_special_purpose_vehicle;
+    => nrel_associative_connection: by_nontrade_route;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_track;
+
+    => nrel_legal_act: by_act_h10900016;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25256?langname=ru];
+    => nrel_etalon_online_idx: [25256];;

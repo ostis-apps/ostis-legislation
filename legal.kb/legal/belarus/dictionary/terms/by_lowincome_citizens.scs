@@ -1,0 +1,21 @@
+
+by_lowincome_citizens
+    => nrel_main_idtf: [low-income citizens] (* <- lang_en;; *);
+    => nrel_main_idtf: [малообеспеченные граждане] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малазабяспечаныя грамадзяне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_lowincome_population_household;
+    => nrel_associative_connection: by_lowincome_citizens_families;
+    => nrel_associative_connection: by_lowincome_families;
+    => nrel_associative_connection: by_lowincome_employable_citizens_who_have_the_right_to_receive_preferential_credits_subsidies_and_other_forms_of_state_support_for_construction_reconstruction_or_purchase_of_residential_premise;
+    => nrel_associative_connection: by_minimum_living_wage;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6127?langname=ru];
+    => nrel_etalon_online_idx: [6127];;

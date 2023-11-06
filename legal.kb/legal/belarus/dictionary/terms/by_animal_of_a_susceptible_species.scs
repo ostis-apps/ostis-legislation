@@ -1,0 +1,42 @@
+
+by_animal_of_a_susceptible_species
+    => nrel_main_idtf: [animal of a susceptible species] (* <- lang_en;; *);
+    => nrel_main_idtf: [животное восприимчивого вида] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жывёла успрыімлівага віду] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_animal_of_a_susceptible_species_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_veterinary_and_sanitary_regulations;
+    => nrel_associative_connection: by_date_of_illness;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_wild_animal;
+    => nrel_associative_connection: by_domestic_animals;
+    => nrel_associative_connection: by_animal_with_suspected_disease;
+    => nrel_associative_connection: by_animal_with_suspected_infection;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_source_of_the_infection_generator;
+    => nrel_associative_connection: by_source_of_infectious_disease;
+    => nrel_associative_connection: by_a_case_of_footandmouth_disease_or_an_animal_infected_with_footandmouth_disease;
+    => nrel_associative_connection: by_emergency_vaccination;
+
+    => nrel_legal_act: by_act_c21300758;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40641?langname=ru];
+    => nrel_etalon_online_idx: [40641];;

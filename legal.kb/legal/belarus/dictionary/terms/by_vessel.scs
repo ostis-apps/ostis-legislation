@@ -1,0 +1,35 @@
+
+by_vessel
+    => nrel_main_idtf: [vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [сосуд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сасуд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vessel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drum_under_pressure;
+    => nrel_associative_connection: by_pressure_chamber;
+    => nrel_associative_connection: by_wooden_barrel;
+    => nrel_associative_connection: by_internal_vessel;
+    => nrel_associative_connection: by_nominal_vessel_capacity;
+
+    => nrel_legal_act: by_act_f91300137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23622?langname=ru];
+    => nrel_etalon_online_idx: [23622];;

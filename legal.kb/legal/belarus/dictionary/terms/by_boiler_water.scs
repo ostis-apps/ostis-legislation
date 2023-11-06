@@ -1,0 +1,56 @@
+
+by_boiler_water
+    => nrel_main_idtf: [boiler water] (* <- lang_en;; *);
+    => nrel_main_idtf: [вода котловая] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вада катловая] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_boiler_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_boiler_water_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_separate_steam_superheater;
+    => nrel_associative_connection: by_autonomous_economizer;
+    => nrel_associative_connection: by_makeup_water;
+    => nrel_associative_connection: by_overall_dimensions_of_the_boiler;
+    => nrel_associative_connection: by_burner;
+    => nrel_associative_connection: by_hotwater_boiler;
+    => nrel_associative_connection: by_boilerboiler;
+    => nrel_associative_connection: by_steam_boiler;
+    => nrel_associative_connection: by_nutritious_water;
+    => nrel_associative_connection: by_network_water;
+
+    => nrel_legal_act: by_act_w22339669p;
+    => nrel_legal_act: by_act_w22136816p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38097?langname=ru];
+    => nrel_etalon_online_idx: [38097];;

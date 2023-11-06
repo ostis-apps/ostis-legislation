@@ -1,0 +1,35 @@
+
+by_by_kerma_power
+    => nrel_main_idtf: [by_kerma_power] (* <- lang_en;; *);
+    => nrel_main_idtf: [мощность кермы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [магутнасць кермы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_kerma_power_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_protection_within_the_framework_of_this_specialty;
+    => nrel_associative_connection: by_interpretation_within_the_specialty;
+    => nrel_associative_connection: by_kerma;
+    => nrel_associative_connection: by_corpuscular_radiation;
+    => nrel_associative_connection: by_dose_rate;
+
+    => nrel_legal_act: by_act_w22035542p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34168?langname=ru];
+    => nrel_etalon_online_idx: [34168];;

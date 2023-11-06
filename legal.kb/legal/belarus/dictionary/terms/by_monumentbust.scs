@@ -1,0 +1,34 @@
+
+by_monumentbust
+    => nrel_main_idtf: [monument-bust] (* <- lang_en;; *);
+    => nrel_main_idtf: [памятник-бюст] (* <- lang_ru;; *);
+    => nrel_main_idtf: [помнік-бюст] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_monumentbust_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_memorial_complex;
+    => nrel_associative_connection: by_obelisk;
+    => nrel_associative_connection: by_monument;
+    => nrel_associative_connection: by_commemoral_sign;
+
+    => nrel_legal_act: by_act_c20801372;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39763?langname=ru];
+    => nrel_etalon_online_idx: [39763];;

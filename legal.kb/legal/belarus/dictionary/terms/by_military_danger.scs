@@ -1,0 +1,58 @@
+
+by_military_danger
+    => nrel_main_idtf: [military danger] (* <- lang_en;; *);
+    => nrel_main_idtf: [военная опасность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенная небяспека] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_danger_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_danger_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_armed_conflict_armed_conflict_of_noninternational_character;
+    => nrel_associative_connection: by_military_threat;
+    => nrel_associative_connection: by_military_conflict;
+    => nrel_associative_connection: by_war;
+    => nrel_associative_connection: by_armed_conflict;
+    => nrel_associative_connection: by_zone_of_possible_defeat;
+    => nrel_associative_connection: by_source_of_military_threat;
+    => nrel_associative_connection: by_beginning_of_wartime;
+    => nrel_associative_connection: by_blocking_the_attack_act_of_armed_aggression;
+    => nrel_associative_connection: by_state_of_war;
+    => nrel_associative_connection: by_terrorist_threat;
+    => nrel_associative_connection: by_threat;
+
+    => nrel_legal_act: by_act_h11600412;
+    => nrel_legal_act: by_act_a22100024;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10278?langname=ru];
+    => nrel_etalon_online_idx: [10278];;

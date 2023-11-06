@@ -1,0 +1,47 @@
+
+by_hunter
+    => nrel_main_idtf: [hunter] (* <- lang_en;; *);
+    => nrel_main_idtf: [охотник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паляўнічы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hunter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_prohibited_for_hunting_places;
+    => nrel_associative_connection: by_individual_hunting;
+    => nrel_associative_connection: by_collective_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_ambush_hunting;
+    => nrel_associative_connection: by_hunting_from_approach;
+    => nrel_associative_connection: by_hunting_from_the_entrance;
+    => nrel_associative_connection: by_hunting_aviary;
+    => nrel_associative_connection: by_hunting_tour;
+    => nrel_associative_connection: by_hunting_weapons;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_hunting_trophies;
+    => nrel_associative_connection: by_hunting_lands;
+    => nrel_associative_connection: by_republican_state_public_association_belarusian_society_of_hunters_and_fisherman;
+    => nrel_associative_connection: by_;
+    => nrel_associative_connection: by_time_of_hunting;
+    => nrel_associative_connection: by_hunting_participant;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7778?langname=ru];
+    => nrel_etalon_online_idx: [7778];;

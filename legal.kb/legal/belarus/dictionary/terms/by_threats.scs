@@ -1,0 +1,38 @@
+
+by_threats
+    => nrel_main_idtf: [threats] (* <- lang_en;; *);
+    => nrel_main_idtf: [угрозы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагрозы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_threats_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_demographic_threats;
+    => nrel_associative_connection: by_source_of_military_threat;
+    => nrel_associative_connection: by_source_of_national_security_threat;
+    => nrel_associative_connection: by_period_of_growth_of_military_threat;
+    => nrel_associative_connection: by_threatened_zone;
+    => nrel_associative_connection: by_threat_carrier;
+    => nrel_associative_connection: by_threats_to_the_energy_security_of_the_country_region;
+    => nrel_associative_connection: by_level_of_terrorist_threat;
+
+    => nrel_legal_act: by_act_c21700962;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27513?langname=ru];
+    => nrel_etalon_online_idx: [27513];;

@@ -1,0 +1,34 @@
+
+by_by_predictor_bank
+    => nrel_main_idtf: [by_predictor_bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-приобретатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-пакупнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_predictor_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_receiving_bank;
+    => nrel_associative_connection: by_intermediary_bank;
+    => nrel_associative_connection: by_acquisition_date;
+    => nrel_associative_connection: by_acquirer;
+
+    => nrel_legal_act: by_act_b208p0031;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43464?langname=ru];
+    => nrel_etalon_online_idx: [43464];;

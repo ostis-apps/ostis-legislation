@@ -1,0 +1,56 @@
+
+by_biological_protection
+    => nrel_main_idtf: [biological protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [биологическая защита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біялагічная абарона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biological_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biological_protection_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accident_at_npp_accident;
+    => nrel_associative_connection: by_active_system_element;
+    => nrel_associative_connection: by_biological_risk_analysis;
+    => nrel_associative_connection: by_npp_safety_nuclear_and_radiation_safety_of_npp;
+    => nrel_associative_connection: by_source_of_biological_hazard;
+    => nrel_associative_connection: by_biological_hazard_response_plan;
+    => nrel_associative_connection: by_potentially_hazardous_facility;
+    => nrel_associative_connection: by_synthetic_biology;
+    => nrel_associative_connection: by_biosafety_emergency;
+    => nrel_associative_connection: by_nuclear_reactor;
+
+    => nrel_legal_act: by_act_c22200161;
+    => nrel_legal_act: by_act_w22035399p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33256?langname=ru];
+    => nrel_etalon_online_idx: [33256];;

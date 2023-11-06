@@ -1,0 +1,35 @@
+
+by_biosafety_emergency
+    => nrel_main_idtf: [biosafety emergency] (* <- lang_en;; *);
+    => nrel_main_idtf: [чрезвычайная ситуация в области биологической безопасности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [надзвычайная сітуацыя ў вобласці біялагічнай бяспекі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biosafety_emergency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biological_risk_analysis;
+    => nrel_associative_connection: by_biological_safety;
+    => nrel_associative_connection: by_biological_protection;
+    => nrel_associative_connection: by_biological_risk;
+    => nrel_associative_connection: by_biologic_and_social_emergency;
+
+    => nrel_legal_act: by_act_c22200161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/39951?langname=ru];
+    => nrel_etalon_online_idx: [39951];;

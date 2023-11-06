@@ -1,0 +1,35 @@
+
+by_compensation_for_losses
+    => nrel_main_idtf: [compensation for losses] (* <- lang_en;; *);
+    => nrel_main_idtf: [возмещение ущерба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пакрыццё ўрону] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compensation_for_losses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commercial_secret;
+    => nrel_associative_connection: by_nationalization;
+    => nrel_associative_connection: by_subrogation;
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_environmental_insurance;
+
+    => nrel_legal_act: by_act_c21300758;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1244?langname=ru];
+    => nrel_etalon_online_idx: [1244];;

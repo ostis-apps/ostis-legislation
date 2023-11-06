@@ -1,0 +1,33 @@
+
+by_defense_sector_of_the_economy
+    => nrel_main_idtf: [defense sector of the economy] (* <- lang_en;; *);
+    => nrel_main_idtf: [оборонный сектор экономики] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абаронны сектар эканомікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_defense_sector_of_the_economy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_civil_defense;
+    => nrel_associative_connection: by_military_goods;
+    => nrel_associative_connection: by_economic_security;
+
+    => nrel_legal_act: by_act_h11600412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10316?langname=ru];
+    => nrel_etalon_online_idx: [10316];;

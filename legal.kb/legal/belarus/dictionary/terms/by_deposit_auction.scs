@@ -1,0 +1,35 @@
+
+by_deposit_auction
+    => nrel_main_idtf: [deposit auction] (* <- lang_en;; *);
+    => nrel_main_idtf: [депозитный аукцион] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпазітны аўкцыён] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deposit_auction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_deposit_agent;
+    => nrel_associative_connection: by_application_for_attraction_of_monetary_funds;
+    => nrel_associative_connection: by_application_for_monetary_funds_placement;
+    => nrel_associative_connection: by_announcement_of_deposit_auction;
+    => nrel_associative_connection: by_participant_of_the_deposit_auction;
+
+    => nrel_legal_act: by_act_c21900030;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32474?langname=ru];
+    => nrel_etalon_online_idx: [32474];;

@@ -1,0 +1,36 @@
+
+by_limit_of_annual_income
+    => nrel_main_idtf: [limit of annual income] (* <- lang_en;; *);
+    => nrel_main_idtf: [предел годового поступления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [граніца гадавога паступлення] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limit_of_annual_income_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_logarithmic_levels_of_vibration_velocity_in_the_ith_octave_or_tertiary_octave_band;
+    => nrel_associative_connection: by_monitoring_of_radiation_doses_of_the_population;
+    => nrel_associative_connection: by_limit_of_irradiation_dose;
+    => nrel_associative_connection: by_maximum_noise_level;
+    => nrel_associative_connection: by_average_annual_effective_radiation_dose_of_population;
+    => nrel_associative_connection: by_effective_specific_activity_of_natural_radionuclides;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42380?langname=ru];
+    => nrel_etalon_online_idx: [42380];;

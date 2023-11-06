@@ -1,0 +1,34 @@
+
+by_gene_pool_economy
+    => nrel_main_idtf: [gene pool economy] (* <- lang_en;; *);
+    => nrel_main_idtf: [генофондное хозяйство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [генафондная гаспадарка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gene_pool_economy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gene_pool_small_breed;
+    => nrel_associative_connection: by_animals;
+    => nrel_associative_connection: by_breed;
+    => nrel_associative_connection: by_animal_breed;
+
+    => nrel_legal_act: by_act_h11300024;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40709?langname=ru];
+    => nrel_etalon_online_idx: [40709];;

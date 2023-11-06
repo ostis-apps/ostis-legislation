@@ -1,0 +1,35 @@
+
+by_inspection_pharmaceutical_inspection
+    => nrel_main_idtf: [inspection (pharmaceutical inspection)] (* <- lang_en;; *);
+    => nrel_main_idtf: [инспектирование (фармацевтическая инспекция)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інспектаванне (фармацэўтычная інспекцыя)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inspection_pharmaceutical_inspection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_wholesale_sale_of_medicines_distribution;
+    => nrel_associative_connection: by_list_of_essential_medicines;
+    => nrel_associative_connection: by_industrial_production_of_medicinal_products;
+    => nrel_associative_connection: by_registration_number;
+    => nrel_associative_connection: by_pharmacovigilance;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35505?langname=ru];
+    => nrel_etalon_online_idx: [35505];;

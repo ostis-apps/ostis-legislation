@@ -1,0 +1,34 @@
+
+by_clearing_register
+    => nrel_main_idtf: [clearing register] (* <- lang_en;; *);
+    => nrel_main_idtf: [клиринговый реестр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клірынгавы рэестр] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clearing_register_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_acceptance_of_obligations_for_clearing;
+    => nrel_associative_connection: by_individual_clearing_support;
+    => nrel_associative_connection: by_simple_clearing;
+    => nrel_associative_connection: by_calculating_and_clearing_system_of_securities;
+
+    => nrel_legal_act: by_act_b22238928;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41828?langname=ru];
+    => nrel_etalon_online_idx: [41828];;

@@ -1,0 +1,33 @@
+
+by_information_and_propaganda_work
+    => nrel_main_idtf: [information and propaganda work] (* <- lang_en;; *);
+    => nrel_main_idtf: [информационно-пропагандистская работа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыйна-прапагандысцкая работа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_and_propaganda_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_information_security_policy;
+    => nrel_associative_connection: by_organization_information_security_policy;
+
+    => nrel_legal_act: by_act_w60614923;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15455?langname=ru];
+    => nrel_etalon_online_idx: [15455];;

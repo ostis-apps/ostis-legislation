@@ -1,0 +1,38 @@
+
+by_questionnaire_for_emission_securities_issue
+    => nrel_main_idtf: [questionnaire for emission securities issue] (* <- lang_en;; *);
+    => nrel_main_idtf: [анкета выпуска эмиссионных ценных бумаг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [анкета выпуску эмісійных каштоўных папер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_questionnaire_for_emission_securities_issue_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_deponents_questionnaire;
+    => nrel_associative_connection: by_blocking_of_securities;
+    => nrel_associative_connection: by_release_of_emission_securities;
+    => nrel_associative_connection: by_initiator_of_securities_transfer;
+    => nrel_associative_connection: by_interdepositary_transfer_of_securities;
+    => nrel_associative_connection: by_operational_day;
+    => nrel_associative_connection: by_directory_of_issues_of_issue_securities;
+    => nrel_associative_connection: by_directory_of_securities;
+
+    => nrel_legal_act: by_act_w21833359;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31058?langname=ru];
+    => nrel_etalon_online_idx: [31058];;

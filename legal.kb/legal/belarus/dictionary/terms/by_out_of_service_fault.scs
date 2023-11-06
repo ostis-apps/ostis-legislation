@@ -1,0 +1,74 @@
+
+by_out_of_service_fault
+    => nrel_main_idtf: [out of service (fault)] (* <- lang_en;; *);
+    => nrel_main_idtf: [неисправное состояние (неисправность)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [няспраўны стан (няспраўнасць)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_out_of_service_fault_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_out_of_service_fault_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_out_of_service_fault_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome_dispatch_point;
+    => nrel_associative_connection: by_visual_inspection;
+    => nrel_associative_connection: by_working_condition_good_condition;
+    => nrel_associative_connection: by_breach_of_communication;
+    => nrel_associative_connection: by_defective_gas_treatment_plant;
+    => nrel_associative_connection: by_faulty_out_of_service_measuring_instrument;
+    => nrel_associative_connection: by_defective_means_of_communication;
+    => nrel_associative_connection: by_malfunction;
+    => nrel_associative_connection: by_malfunction_malfunctional_state;
+    => nrel_associative_connection: by_inoperable_state_inoperability;
+    => nrel_associative_connection: by_search_for_faults_reasons;
+    => nrel_associative_connection: by_limit_unusable_state;
+
+    => nrel_legal_act: by_act_w22136243p;
+    => nrel_legal_act: by_act_w21833597p;
+    => nrel_legal_act: by_act_w20106304;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18037?langname=ru];
+    => nrel_etalon_online_idx: [18037];;

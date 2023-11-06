@@ -1,0 +1,43 @@
+
+by_sport_reserve
+    => nrel_main_idtf: [sport reserve] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивный резерв] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўны рэзерв] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_reserve_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reserve;
+    => nrel_associative_connection: by_classes_specializing_in_sports;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_sport_of__highest__achievement;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sport_regime;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_highest_class_sportsmen;
+    => nrel_associative_connection: by_secondary_schoololympic_reserve_school;
+    => nrel_associative_connection: by_trainer;
+    => nrel_associative_connection: by_educational_and_training_process;
+    => nrel_associative_connection: by_olympic_reserve_school;
+    => nrel_associative_connection: by_daycare_centrebasic_school;
+
+    => nrel_legal_act: by_act_h11400125;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10623?langname=ru];
+    => nrel_etalon_online_idx: [10623];;

@@ -1,0 +1,40 @@
+
+by_hydrocarbon_accumulation
+    => nrel_main_idtf: [hydrocarbon accumulation] (* <- lang_en;; *);
+    => nrel_main_idtf: [залежь углеводородов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [залеж вуглевадародаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrocarbon_accumulation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrocarbon_reserves_geological_reserves;
+    => nrel_associative_connection: by_extracted_hydrocarbon_reserves;
+    => nrel_associative_connection: by_hydrocarbons_deposit;
+    => nrel_associative_connection: by_raw_materials;
+    => nrel_associative_connection: by_preliminary_estimated_hydrocarbon_deposits;
+    => nrel_associative_connection: by_explored_hydrocarbon_deposits;
+    => nrel_associative_connection: by_developed_hydrocarbon_deposits;
+    => nrel_associative_connection: by_hydrocarbons_resources;
+    => nrel_associative_connection: by_hydrocarbons;
+    => nrel_associative_connection: by_liquid_hydrocarbons;
+
+    => nrel_legal_act: by_act_hk0800406;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3731?langname=ru];
+    => nrel_etalon_online_idx: [3731];;

@@ -1,0 +1,38 @@
+
+by_organizer_of_sport_event
+    => nrel_main_idtf: [organizer of sport event] (* <- lang_en;; *);
+    => nrel_main_idtf: [организатор спортивно-массового мероприятия (организатор спортивного мероприятия, организатор спортивного соревнования)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізатар спартыўна-масавага мерапрыемства (арганізатар спартыўнага мерапрыемства, арганізатар спартыўнага спаборніцтва)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizer_of_sport_event_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_physical_education_and_sport_club;
+    => nrel_associative_connection: by_event;
+    => nrel_associative_connection: by_venue_of_sport_event_venue_of_sports_competition;
+    => nrel_associative_connection: by_minutes_of_international_sports_competitions_or_extract;
+    => nrel_associative_connection: by_mass_sport_work;
+    => nrel_associative_connection: by_sport_event;
+    => nrel_associative_connection: by_participants_of_sports_events;
+    => nrel_associative_connection: by_participants_of_sports_events_participants_of_sports_competitions;
+
+    => nrel_legal_act: by_act_h11400125;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10501?langname=ru];
+    => nrel_etalon_online_idx: [10501];;

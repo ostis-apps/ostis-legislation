@@ -1,0 +1,39 @@
+
+by_budgetary_commitments
+    => nrel_main_idtf: [budgetary commitments] (* <- lang_en;; *);
+    => nrel_main_idtf: [бюджетные обязательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бюджэтныя абавязацельствы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_budgetary_commitments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budget;
+    => nrel_associative_connection: by_budgetary_provisions;
+    => nrel_associative_connection: by_budgetary_assignments;
+    => nrel_associative_connection: by_budgetary_relations;
+    => nrel_associative_connection: by_budgetary_funds;
+    => nrel_associative_connection: by_unfinished_settlements;
+    => nrel_associative_connection: by_budgetary_funds_recipient;
+    => nrel_associative_connection: by_spending_commitments;
+    => nrel_associative_connection: by_registry_of_spending_commitments;
+
+    => nrel_legal_act: by_act_hk0800412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10127?langname=ru];
+    => nrel_etalon_online_idx: [10127];;

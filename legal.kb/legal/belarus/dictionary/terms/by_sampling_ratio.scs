@@ -1,0 +1,66 @@
+
+by_sampling_ratio
+    => nrel_main_idtf: [sampling ratio] (* <- lang_en;; *);
+    => nrel_main_idtf: [доля отбора] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доля адбору] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sampling_ratio_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sampling_ratio_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sampling_ratio_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sampling_population_of_respondents;
+    => nrel_associative_connection: by_general_population_of_respondents;
+    => nrel_associative_connection: by_respondent;
+    => nrel_associative_connection: by_respondents;
+
+    => nrel_legal_act: by_act_t22004438p;
+    => nrel_legal_act: by_act_t21403012p;
+    => nrel_legal_act: by_act_t21402867p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11858?langname=ru];
+    => nrel_etalon_online_idx: [11858];;

@@ -1,0 +1,39 @@
+
+by_unified_treasury_account
+    => nrel_main_idtf: [unified treasury account] (* <- lang_en;; *);
+    => nrel_main_idtf: [единый казначейский счет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзіны казначэйскі рахунак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unified_treasury_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_budgetary_funds;
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_cash_service_for_budget_execution;
+    => nrel_associative_connection: by_cash_charges;
+    => nrel_associative_connection: by_treasury_client;
+    => nrel_associative_connection: by_personal_account_of_the_treasury_client;
+    => nrel_associative_connection: by_treasury_agencies;
+    => nrel_associative_connection: by_account;
+
+    => nrel_legal_act: by_act_hk0800412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14601?langname=ru];
+    => nrel_etalon_online_idx: [14601];;

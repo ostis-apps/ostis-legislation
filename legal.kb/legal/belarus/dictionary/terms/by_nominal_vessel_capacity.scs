@@ -1,0 +1,20 @@
+
+by_nominal_vessel_capacity
+    => nrel_main_idtf: [nominal vessel capacity ] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная вместимость сосуда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная ўмяшчальнасць сасуда] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_pressure_chamber;
+    => nrel_associative_connection: by_internal_vessel;
+    => nrel_associative_connection: by_maximum_capacity;
+    => nrel_associative_connection: by_vessel;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18240?langname=ru];
+    => nrel_etalon_online_idx: [18240];;

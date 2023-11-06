@@ -1,0 +1,51 @@
+
+by_sport_school
+    => nrel_main_idtf: [sport school] (* <- lang_en;; *);
+    => nrel_main_idtf: [спортивная школа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спартыўная школа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_school_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sport_school_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_children_and_youth_sports_school_of_general_physical_training_children_and_youth_sports_school_children_and_youth_sports_and_technical_school;
+    => nrel_associative_connection: by_mini_pool;
+    => nrel_associative_connection: by_sports_hall;
+    => nrel_associative_connection: by_student;
+    => nrel_associative_connection: by_school_of_the_higher_sports_skill;
+
+    => nrel_legal_act: by_act_w21022507;
+    => nrel_legal_act: by_act_n20700048;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23900?langname=ru];
+    => nrel_etalon_online_idx: [23900];;

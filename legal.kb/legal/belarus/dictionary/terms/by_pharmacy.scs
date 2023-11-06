@@ -1,0 +1,40 @@
+
+by_pharmacy
+    => nrel_main_idtf: [pharmacy] (* <- lang_en;; *);
+    => nrel_main_idtf: [аптека] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аптэка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pharmacy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pharmacy_of_second_category;
+    => nrel_associative_connection: by_pharmacy_of_the_first_category;
+    => nrel_associative_connection: by_pharmacy_of_the_fifth_category;
+    => nrel_associative_connection: by_pharmacy_of_the_third_category;
+    => nrel_associative_connection: by_pharmacy_of_the_fourth_category;
+    => nrel_associative_connection: by_pharmaceutical_warehouse;
+    => nrel_associative_connection: by_online_pharmacy;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_management_in_pharmacy;
+    => nrel_associative_connection: by_retail_sale_of_medicines_by_remote_method;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4780?langname=ru];
+    => nrel_etalon_online_idx: [4780];;

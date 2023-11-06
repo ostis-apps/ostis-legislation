@@ -1,0 +1,38 @@
+
+by_overlap
+    => nrel_main_idtf: [overlap] (* <- lang_en;; *);
+    => nrel_main_idtf: [перекрытие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перакрыцце] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_overlap_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_capital_structure_building_construction;
+    => nrel_associative_connection: by_partition;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_adjacent_rooms;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28459?langname=ru];
+    => nrel_etalon_online_idx: [28459];;

@@ -1,0 +1,38 @@
+
+by_quarterly_exchange_trades
+    => nrel_main_idtf: [quarterly exchange trades] (* <- lang_en;; *);
+    => nrel_main_idtf: [квартальные биржевые торги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [квартальныя біржавыя таргі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_quarterly_exchange_trades_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stock_exchange_quotation;
+    => nrel_associative_connection: by_exchange_trades;
+    => nrel_associative_connection: by_annual_exchange_trades;
+    => nrel_associative_connection: by_quarterly_stock_exchange_quotation;
+    => nrel_associative_connection: by_visitor_of_stock_exchange_trading_sessions;
+    => nrel_associative_connection: by_current_exchange_trades;
+    => nrel_associative_connection: by_goods_admitted_to_exchange_trades;
+    => nrel_associative_connection: by_bidding;
+
+    => nrel_legal_act: by_act_p32000437;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15861?langname=ru];
+    => nrel_etalon_online_idx: [15861];;

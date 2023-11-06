@@ -1,0 +1,38 @@
+
+by_state_of_emergency
+    => nrel_main_idtf: [state of emergency] (* <- lang_en;; *);
+    => nrel_main_idtf: [чрезвычайное положение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [надзвычайнае становішча] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_of_emergency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_unit_aviation_organization;
+    => nrel_associative_connection: by_martial_law;
+    => nrel_associative_connection: by_armed_conflict;
+    => nrel_associative_connection: by_civil_defense;
+    => nrel_associative_connection: by_curfew;
+    => nrel_associative_connection: by_basis_for_declaring_a_state_of_emergency;
+    => nrel_associative_connection: by_republican_state_emergency_situation;
+    => nrel_associative_connection: by_emergency_response_forces;
+
+    => nrel_legal_act: by_act_h10200117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3589?langname=ru];
+    => nrel_etalon_online_idx: [3589];;

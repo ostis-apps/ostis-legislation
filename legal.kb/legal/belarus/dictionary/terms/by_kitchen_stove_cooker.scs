@@ -1,0 +1,36 @@
+
+by_kitchen_stove_cooker
+    => nrel_main_idtf: [kitchen stove (cooker)] (* <- lang_en;; *);
+    => nrel_main_idtf: [кухонная плита (cooker)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кухонная пліта (cooker)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_kitchen_stove_cooker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatic_functioning_mode_during_the_cooking_period;
+    => nrel_associative_connection: by_alternative_text;
+    => nrel_associative_connection: by_range_hood;
+    => nrel_associative_connection: by_manufacturer;
+    => nrel_associative_connection: by_information_or_status_display;
+    => nrel_associative_connection: by_heat_source;
+
+    => nrel_legal_act: by_act_w02036021p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37453?langname=ru];
+    => nrel_etalon_online_idx: [37453];;

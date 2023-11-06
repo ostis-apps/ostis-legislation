@@ -1,0 +1,37 @@
+
+by_architectural_environment
+    => nrel_main_idtf: [architectural environment] (* <- lang_en;; *);
+    => nrel_main_idtf: [архитектурная среда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архітэктурнае асяроддзе] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_architectural_environment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_architecture;
+    => nrel_associative_connection: by_architectural_design;
+    => nrel_associative_connection: by_improvement;
+    => nrel_associative_connection: by_living_environment_dwelling_in_the_broadest_sense_of_the_word;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w22136519p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37357?langname=ru];
+    => nrel_etalon_online_idx: [37357];;

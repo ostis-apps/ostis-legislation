@@ -1,0 +1,53 @@
+
+by_universal_telecommunication_services
+    => nrel_main_idtf: [universal telecommunication services] (* <- lang_en;; *);
+    => nrel_main_idtf: [универсальные услуги электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [універсальныя паслугі электрасувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_universal_telecommunication_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_universal_telecommunication_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_limitation_of_the_functioning_of_telecommunication_networks_and_telecommunication_facilities_included_thereof;
+    => nrel_associative_connection: by_universal_service_operator;
+    => nrel_associative_connection: by_package_of_telecommunication_services;
+    => nrel_associative_connection: by_telecommunication_services_user;
+    => nrel_associative_connection: by_collective_use_point;
+    => nrel_associative_connection: by_roaming;
+    => nrel_associative_connection: by_network_of_subscriber_telegraphy_and_telex;
+
+    => nrel_legal_act: by_act_h10500045;
+    => nrel_legal_act: by_act_f01400176;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25457?langname=ru];
+    => nrel_etalon_online_idx: [25457];;

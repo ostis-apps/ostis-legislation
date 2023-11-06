@@ -1,0 +1,35 @@
+
+by_ecological_auditor
+    => nrel_main_idtf: [ecological auditor] (* <- lang_en;; *);
+    => nrel_main_idtf: [экологический аудитор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экалагічны аўдытар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ecological_auditor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_auditor;
+    => nrel_associative_connection: by_full_environmental_audit;
+    => nrel_associative_connection: by_preliminary_environmental_audit;
+    => nrel_associative_connection: by_environmental_audit;
+
+    => nrel_legal_act: by_act_c21600412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7635?langname=ru];
+    => nrel_etalon_online_idx: [7635];;

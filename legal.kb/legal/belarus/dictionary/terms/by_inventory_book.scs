@@ -1,0 +1,34 @@
+
+by_inventory_book
+    => nrel_main_idtf: [inventory book] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвентарная книга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвентарная кніга] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_inventory_book_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_inventory;
+    => nrel_associative_connection: by_inventory_number;
+    => nrel_associative_connection: by_book;
+    => nrel_associative_connection: by_separate_inventory_object;
+
+    => nrel_legal_act: by_act_w20310325;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9174?langname=ru];
+    => nrel_etalon_online_idx: [9174];;

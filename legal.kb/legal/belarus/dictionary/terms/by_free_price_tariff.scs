@@ -1,0 +1,75 @@
+
+by_free_price_tariff
+    => nrel_main_idtf: [free price (tariff)] (* <- lang_en;; *);
+    => nrel_main_idtf: [свободная цена (тариф)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [свабодная цана (тарыф)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_free_price_tariff_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_free_price_tariff_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_free_price_tariff_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contract_price;
+    => nrel_associative_connection: by_competition;
+    => nrel_associative_connection: by_market_property_cost;
+    => nrel_associative_connection: by_consolidated_index_of_tariffs;
+    => nrel_associative_connection: by_consolidated_index_of_cargo_transportation_tariffs;
+    => nrel_associative_connection: by_average_market_price;
+    => nrel_associative_connection: by_market_property_cost;
+    => nrel_associative_connection: by_market_cost_of_vehicle_vehicle_cost;
+    => nrel_associative_connection: by_subjects_of_price_formation;
+    => nrel_associative_connection: by_tariff;
+    => nrel_associative_connection: by_current_market_cost;
+    => nrel_associative_connection: by_price;
+    => nrel_associative_connection: by_price_formation;
+
+    => nrel_legal_act: by_act_h19900255;
+    => nrel_legal_act: by_act_n21900093;
+    => nrel_legal_act: by_act_n21700047;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22915?langname=ru];
+    => nrel_etalon_online_idx: [22915];;

@@ -1,0 +1,20 @@
+
+by_corrosion_gases
+    => nrel_main_idtf: [corrosion gases] (* <- lang_en;; *);
+    => nrel_main_idtf: [коррозионные газы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каразійныя газы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_gas;
+    => nrel_associative_connection: by_incompatible;
+    => nrel_associative_connection: by_toxicity;
+    => nrel_associative_connection: by_toxic_gases;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16352?langname=ru];
+    => nrel_etalon_online_idx: [16352];;

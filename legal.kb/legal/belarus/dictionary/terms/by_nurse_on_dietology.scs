@@ -1,0 +1,36 @@
+
+by_nurse_on_dietology
+    => nrel_main_idtf: [nurse on dietology] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинская сестра по диетологии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынская сястра па дыеталогіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nurse_on_dietology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_doctornutritionist;
+    => nrel_associative_connection: by_diet_therapeutic_food;
+    => nrel_associative_connection: by_dietology;
+    => nrel_associative_connection: by_therapeutic_food;
+    => nrel_associative_connection: by_nurseanesthetist;
+    => nrel_associative_connection: by_catering_section_kitchen;
+
+    => nrel_legal_act: by_act_w22035945p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35251?langname=ru];
+    => nrel_etalon_online_idx: [35251];;

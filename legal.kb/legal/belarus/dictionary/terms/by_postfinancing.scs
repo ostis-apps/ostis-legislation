@@ -1,0 +1,57 @@
+
+by_postfinancing
+    => nrel_main_idtf: [post-financing] (* <- lang_en;; *);
+    => nrel_main_idtf: [постфинансирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [постфінансаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postfinancing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_postfinancing_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_advising_bank;
+    => nrel_associative_connection: by_letter_of_credit;
+    => nrel_associative_connection: by_bank_issuer;
+    => nrel_associative_connection: by_collecting_bank;
+    => nrel_associative_connection: by_letter_of_credit_execution;
+    => nrel_associative_connection: by_executing_bank;
+    => nrel_associative_connection: by_confirming_bank;
+    => nrel_associative_connection: by_representing_bank;
+    => nrel_associative_connection: by_reimbursing_bank;
+    => nrel_associative_connection: by_requiring_bank;
+    => nrel_associative_connection: by_financing_bank;
+
+    => nrel_legal_act: by_act_p30900466;
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20797?langname=ru];
+    => nrel_etalon_online_idx: [20797];;

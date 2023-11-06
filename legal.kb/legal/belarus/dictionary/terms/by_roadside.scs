@@ -1,0 +1,34 @@
+
+by_roadside
+    => nrel_main_idtf: [roadside] (* <- lang_en;; *);
+    => nrel_main_idtf: [обочина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абочына] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_roadside_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_safety_line_reinforced_shoulder;
+    => nrel_associative_connection: by_road;
+    => nrel_associative_connection: by_carriageway;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18478?langname=ru];
+    => nrel_etalon_online_idx: [18478];;

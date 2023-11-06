@@ -1,0 +1,34 @@
+
+by_limitation_ecumbrance_of_rights
+    => nrel_main_idtf: [limitation (ecumbrance) of rights] (* <- lang_en;; *);
+    => nrel_main_idtf: [ограничение (обременение) прав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абмежаванне (абцяжарванне) праў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_limitation_ecumbrance_of_rights_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration_of_right_limitations_ecumbrances_to_real_estate_right;
+    => nrel_associative_connection: by_deprivation;
+    => nrel_associative_connection: by_limitation_ecumbrance_of_rights_on_land_plot;
+    => nrel_associative_connection: by_limitations;
+
+    => nrel_legal_act: by_act_h10200133;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18841?langname=ru];
+    => nrel_etalon_online_idx: [18841];;

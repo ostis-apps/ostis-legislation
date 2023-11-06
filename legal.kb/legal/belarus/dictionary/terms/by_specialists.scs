@@ -1,0 +1,38 @@
+
+by_specialists
+    => nrel_main_idtf: [specialists] (* <- lang_en;; *);
+    => nrel_main_idtf: [специалисты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялісты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialists_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_departmental_scientific_and_technical_expertise;
+    => nrel_associative_connection: by_veterinary_and_sanitary_expertise_of_fish_products;
+    => nrel_associative_connection: by_doctor__maxillofacial_surgeon_dms;
+    => nrel_associative_connection: by_highly_qualified_employee;
+    => nrel_associative_connection: by_state_expert_council;
+    => nrel_associative_connection: by_duty_staff;
+    => nrel_associative_connection: by_application_for_training_of_specialists;
+    => nrel_associative_connection: by_holder_of_qualification_certificate;
+
+    => nrel_legal_act: by_act_w21429305p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23776?langname=ru];
+    => nrel_etalon_online_idx: [23776];;

@@ -1,0 +1,38 @@
+
+by_by_burn_injury
+    => nrel_main_idtf: [by_burn_injury] (* <- lang_en;; *);
+    => nrel_main_idtf: [ожоговая травма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апёкавая траўма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_burn_injury_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lifegenerating_effects_of_injuries;
+    => nrel_associative_connection: by_burning_team_of_constant_readiness;
+    => nrel_associative_connection: by_congelation_injury;
+    => nrel_associative_connection: by_killed_on_fire;
+    => nrel_associative_connection: by_polytrauma;
+    => nrel_associative_connection: by_occupational_injury;
+    => nrel_associative_connection: by_injury;
+    => nrel_associative_connection: by_evacuation_of_people_in_the_fire;
+
+    => nrel_legal_act: by_act_w22340389p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43540?langname=ru];
+    => nrel_etalon_online_idx: [43540];;

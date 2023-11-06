@@ -1,0 +1,40 @@
+
+by_high_risk_indicator
+    => nrel_main_idtf: [high risk indicator] (* <- lang_en;; *);
+    => nrel_main_idtf: [индикатор высокой степени риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індыкатар высокай ступені рызыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_high_risk_indicator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_risk_analysis;
+    => nrel_associative_connection: by_analysis_of_risks;
+    => nrel_associative_connection: by_permissible_values_of_indicators;
+    => nrel_associative_connection: by_risk_identification;
+    => nrel_associative_connection: by_risk_indicators;
+    => nrel_associative_connection: by_criteria_for_assessing_the_degree_of_risk;
+    => nrel_associative_connection: by_risk_area;
+    => nrel_associative_connection: by_risk_objects;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_risk_assessment_system;
+
+    => nrel_legal_act: by_act_c21800043;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27632?langname=ru];
+    => nrel_etalon_online_idx: [27632];;

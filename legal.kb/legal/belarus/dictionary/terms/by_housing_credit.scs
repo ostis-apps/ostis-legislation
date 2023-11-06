@@ -1,0 +1,34 @@
+
+by_housing_credit
+    => nrel_main_idtf: [housing credit] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилищный кредит] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллёвы крэдыт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_credit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_housing_construction_savings_hcs;
+    => nrel_associative_connection: by_the_normative_value_of_the_indicator;
+    => nrel_associative_connection: by_preliminary_loan;
+    => nrel_associative_connection: by_intermediate_credit;
+
+    => nrel_legal_act: by_act_p32000382;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36241?langname=ru];
+    => nrel_etalon_online_idx: [36241];;

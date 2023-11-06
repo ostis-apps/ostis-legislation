@@ -1,0 +1,24 @@
+
+by_credit_card_conversation
+    => nrel_main_idtf: [credit card conversation] (* <- lang_en;; *);
+    => nrel_main_idtf: [разговор по кредитной карточке] (* <- lang_ru;; *);
+    => nrel_main_idtf: [размова па крэдытнай картцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_unit_tarification_connections;
+    => nrel_associative_connection: by_personal_talk;
+    => nrel_associative_connection: by_timebased_tarification;
+    => nrel_associative_connection: by_tariff_plan;
+    => nrel_associative_connection: by_service_of_providing_access_to_the_local_telephone_network;
+    => nrel_associative_connection: by_service_of_provision_of_international_telephone_connection;
+    => nrel_associative_connection: by_service_of_provision_of_local_telephone_connection;
+    => nrel_associative_connection: by_telephone_service;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22016?langname=ru];
+    => nrel_etalon_online_idx: [22016];;

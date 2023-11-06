@@ -1,0 +1,35 @@
+
+by_security_forms_and_documents_with_a_defined_degree_of_protection
+    => nrel_main_idtf: [security forms and documents with a defined degree of protection] (* <- lang_en;; *);
+    => nrel_main_idtf: [бланки ценных бумаг и документы с определенной степенью защиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бланкі каштоўных папер і дакументы з вызначанай ступенню абароны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_security_forms_and_documents_with_a_defined_degree_of_protection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_standard_document_form;
+    => nrel_associative_connection: by_department_of_state_signs_of_the_ministry_of_finance_of_the_republic_of_belarus_with_the_rights_of_a_legal_entity;
+    => nrel_associative_connection: by_derivative_securities;
+    => nrel_associative_connection: by_security;
+    => nrel_associative_connection: by_issue_securities;
+
+    => nrel_legal_act: by_act_c20101419;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26217?langname=ru];
+    => nrel_etalon_online_idx: [26217];;

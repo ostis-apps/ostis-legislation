@@ -1,0 +1,35 @@
+
+by_hospitality
+    => nrel_main_idtf: [hospitality] (* <- lang_en;; *);
+    => nrel_main_idtf: [гостеприимство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гасціннасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hospitality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_executor_of_excursion_services;
+    => nrel_associative_connection: by_necessary_information_about_travel_services;
+    => nrel_associative_connection: by_tourism;
+    => nrel_associative_connection: by_travel_activities;
+    => nrel_associative_connection: by_excursion_service;
+
+    => nrel_legal_act: by_act_w22136634p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37677?langname=ru];
+    => nrel_etalon_online_idx: [37677];;

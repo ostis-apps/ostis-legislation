@@ -1,0 +1,69 @@
+
+by_act
+    => nrel_main_idtf: [act] (* <- lang_en;; *);
+    => nrel_main_idtf: [акт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_act_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_act_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_act_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_act_of_interdepartmental_nature_of_ministries_other_republican_bodies_of_state_administration;
+    => nrel_associative_connection: by_act_of_illegal_interference_in_aviation_activity;
+    => nrel_associative_connection: by_inspection_act_of_electrical_installations;
+    => nrel_associative_connection: by_act_of_distinction_of_balance_belonging_of_electric_networks_and_operational_liability_of_the_parties;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_local_legal_acts;
+    => nrel_associative_connection: by_organization__administrative_documents;
+
+    => nrel_legal_act: by_act_h11400124;
+    => nrel_legal_act: by_act_w21630862;
+    => nrel_legal_act: by_act_w20920434;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8128?langname=ru];
+    => nrel_etalon_online_idx: [8128];;

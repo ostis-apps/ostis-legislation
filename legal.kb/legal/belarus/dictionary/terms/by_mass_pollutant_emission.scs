@@ -1,0 +1,45 @@
+
+by_mass_pollutant_emission
+    => nrel_main_idtf: [mass pollutant emission ] (* <- lang_en;; *);
+    => nrel_main_idtf: [массовый выброс загрязняющего вещества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [масавы выкід забруджваючага рэчыва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mass_pollutant_emission_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_release_of_pollutants_into_the_atmospheric_air;
+    => nrel_associative_connection: by_gross_emission_of_pollutant;
+    => nrel_associative_connection: by_air_pollutant_emissions;
+    => nrel_associative_connection: by_gasair_mixture;
+    => nrel_associative_connection: by_pollutant;
+    => nrel_associative_connection: by_polluting_substances;
+    => nrel_associative_connection: by_major_emission_of_pollutants_into_the_air;
+    => nrel_associative_connection: by_sources_of_small_power_emissions;
+    => nrel_associative_connection: by_emission_nonstationarity;
+    => nrel_associative_connection: by_user_of_natural_resources;
+    => nrel_associative_connection: by_production_site;
+    => nrel_associative_connection: by_developer;
+    => nrel_associative_connection: by_reflector_action_of_a_pollutant;
+    => nrel_associative_connection: by_sanitaryhygienic_zone;
+    => nrel_associative_connection: by_technical_modernization;
+
+    => nrel_legal_act: by_act_w20921379;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16923?langname=ru];
+    => nrel_etalon_online_idx: [16923];;

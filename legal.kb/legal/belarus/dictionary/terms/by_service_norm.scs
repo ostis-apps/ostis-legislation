@@ -1,0 +1,18 @@
+
+by_service_norm
+    => nrel_main_idtf: [service norm] (* <- lang_en;; *);
+    => nrel_main_idtf: [норма обслуживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [норма абслугоўвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_erroneous_norms;
+    => nrel_associative_connection: by_working_hours;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18254?langname=ru];
+    => nrel_etalon_online_idx: [18254];;

@@ -1,0 +1,36 @@
+
+by_natural_decline
+    => nrel_main_idtf: [natural decline] (* <- lang_en;; *);
+    => nrel_main_idtf: [естественная убыль] (* <- lang_ru;; *);
+    => nrel_main_idtf: [натуральная змяншэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_natural_decline_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_annual_producing_capacity;
+    => nrel_associative_connection: by_natural_decline_of_processed_vegetables_and_fruits_during_long_storage;
+    => nrel_associative_connection: by_natural_decline_of_fresh_potatoes_fresh_vegetables_and_fruits_in_transit;
+    => nrel_associative_connection: by_natural_decline_of_fresh_potatoes_vegetables_and_fruits;
+    => nrel_associative_connection: by_impairment_loss_of_consumer_qualities;
+    => nrel_associative_connection: by_products;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14626?langname=ru];
+    => nrel_etalon_online_idx: [14626];;

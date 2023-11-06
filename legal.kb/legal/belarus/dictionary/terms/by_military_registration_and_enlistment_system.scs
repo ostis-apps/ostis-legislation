@@ -1,0 +1,58 @@
+
+by_military_registration_and_enlistment_system
+    => nrel_main_idtf: [military registration and enlistment system] (* <- lang_en;; *);
+    => nrel_main_idtf: [воинский учет] (* <- lang_ru;; *);
+    => nrel_main_idtf: [воінскі ўлік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_registration_and_enlistment_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_registration_and_enlistment_system_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_alternative_service;
+    => nrel_associative_connection: by_keeping_records_of_reservists;
+    => nrel_associative_connection: by_person_liable_for_military_service;
+    => nrel_associative_connection: by_military_account_specialty_mas;
+    => nrel_associative_connection: by_military_service_id;
+    => nrel_associative_connection: by_military_obligation;
+    => nrel_associative_connection: by_military_units;
+    => nrel_associative_connection: by_document_of_military_registration;
+    => nrel_associative_connection: by_military_registration_and_enlistment_system_organization;
+    => nrel_associative_connection: by_recruit;
+    => nrel_associative_connection: by_appendice_composition;
+    => nrel_associative_connection: by_record_cabinet;
+
+    => nrel_legal_act: by_act_v19201914;
+    => nrel_legal_act: by_act_c20301662;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1250?langname=ru];
+    => nrel_etalon_online_idx: [1250];;

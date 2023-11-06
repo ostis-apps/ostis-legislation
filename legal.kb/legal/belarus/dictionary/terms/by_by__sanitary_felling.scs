@@ -1,0 +1,36 @@
+
+by_by__sanitary_felling
+    => nrel_main_idtf: [by__sanitary_felling] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарная рубка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарная высечка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by__sanitary_felling_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_forest_removal;
+    => nrel_associative_connection: by_forest_protection_measures;
+    => nrel_associative_connection: by_total_shedding;
+    => nrel_associative_connection: by_forest_pest_and_disease_pockets;
+    => nrel_associative_connection: by_sanitary_condition_of_forest_plants;
+    => nrel_associative_connection: by_sanitary_and_improving_activities;
+
+    => nrel_legal_act: by_act_w21631603;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36573?langname=ru];
+    => nrel_etalon_online_idx: [36573];;

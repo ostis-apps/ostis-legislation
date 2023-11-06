@@ -1,0 +1,48 @@
+
+by_general_public_information
+    => nrel_main_idtf: [general public information] (* <- lang_en;; *);
+    => nrel_main_idtf: [общедоступная информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агульнадаступная інфармацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_public_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_general_public_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_supplementary_information;
+    => nrel_associative_connection: by_publicly_available_information_on_securities_market;
+
+    => nrel_legal_act: by_act_h10800455;
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6371?langname=ru];
+    => nrel_etalon_online_idx: [6371];;

@@ -1,0 +1,33 @@
+
+by_spinal_cord_dysfunction
+    => nrel_main_idtf: [spinal cord dysfunction] (* <- lang_en;; *);
+    => nrel_main_idtf: [нарушение функций спинного мозга] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парушэнне функцый спіннога мозга] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_spinal_cord_dysfunction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sudden_illness;
+    => nrel_associative_connection: by_illness;
+    => nrel_associative_connection: by_bursting_of_the_organ;
+
+    => nrel_legal_act: by_act_t21603582;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11611?langname=ru];
+    => nrel_etalon_online_idx: [11611];;

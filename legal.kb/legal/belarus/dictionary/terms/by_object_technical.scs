@@ -1,0 +1,22 @@
+
+by_object_technical
+    => nrel_main_idtf: [object (technical)] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект (технический)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект (тэхнічны)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_reliability;
+    => nrel_associative_connection: by_designated_service_life_period;
+    => nrel_associative_connection: by_refusal;
+    => nrel_associative_connection: by_limiting_condition;
+    => nrel_associative_connection: by_workable_state;
+    => nrel_associative_connection: by_ageing;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30802?langname=ru];
+    => nrel_etalon_online_idx: [30802];;

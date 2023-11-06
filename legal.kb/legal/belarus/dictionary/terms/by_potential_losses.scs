@@ -1,0 +1,21 @@
+
+by_potential_losses
+    => nrel_main_idtf: [potential losses] (* <- lang_en;; *);
+    => nrel_main_idtf: [потенциальные потери] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патэнцыяльныя страты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_normative_loss;
+    => nrel_associative_connection: by_normative_losses;
+    => nrel_associative_connection: by_operational_incident;
+    => nrel_associative_connection: by_excessive_losses;
+    => nrel_associative_connection: by_actual_losses;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8257?langname=ru];
+    => nrel_etalon_online_idx: [8257];;

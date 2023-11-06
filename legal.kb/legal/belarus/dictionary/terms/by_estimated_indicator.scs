@@ -1,0 +1,33 @@
+
+by_estimated_indicator
+    => nrel_main_idtf: [estimated indicator] (* <- lang_en;; *);
+    => nrel_main_idtf: [оценочный показатель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацэначны паказчык] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_estimated_indicator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_the_normative_value_of_the_indicator;
+    => nrel_associative_connection: by_original_creditor;
+    => nrel_associative_connection: by_intermediate_credit;
+
+    => nrel_legal_act: by_act_p32000382;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36245?langname=ru];
+    => nrel_etalon_online_idx: [36245];;

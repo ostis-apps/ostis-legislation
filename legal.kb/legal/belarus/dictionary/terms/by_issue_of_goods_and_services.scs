@@ -1,0 +1,60 @@
+
+by_issue_of_goods_and_services
+    => nrel_main_idtf: [issue of goods and services] (* <- lang_en;; *);
+    => nrel_main_idtf: [выпуск товаров и услуг] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпуск тавараў і паслуг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_issue_of_goods_and_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_issue_of_goods_and_services_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_introduction_of_products_technology_service_organizational_and_technical_decision_in_civil_turnover;
+    => nrel_associative_connection: by_release;
+    => nrel_associative_connection: by_release_of_goods_and_or_services_for_own_final_consumption;
+    => nrel_associative_connection: by_expensive_commodity;
+    => nrel_associative_connection: by_evolution_coefficient_in_the_specific_weight_of_intermediate_consumption_in_the_release;
+    => nrel_associative_connection: by_coefficient_of_change_in_the_share_of_intermediate_consumption_in_the_output_of_goods_and_or_services;
+    => nrel_associative_connection: by_nonmarket_issue;
+    => nrel_associative_connection: by_nonmarket_production_of_goods_and_or_services;
+    => nrel_associative_connection: by_release_of_goods_works_services;
+    => nrel_associative_connection: by_services_manufacturer;
+    => nrel_associative_connection: by_market_for_goods_works_services;
+    => nrel_associative_connection: by_service_market;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_goods;
+
+    => nrel_legal_act: by_act_t22104723p;
+    => nrel_legal_act: by_act_t21603362p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7418?langname=ru];
+    => nrel_etalon_online_idx: [7418];;

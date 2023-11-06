@@ -1,0 +1,35 @@
+
+by_measuring_channel_system
+    => nrel_main_idtf: [measuring channel system ] (* <- lang_en;; *);
+    => nrel_main_idtf: [измерительный канал системы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вымяральны канал сістэмы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_measuring_channel_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unit_of_measurement;
+    => nrel_associative_connection: by_traceability_of_measurements;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_technical_means;
+
+    => nrel_legal_act: by_act_w21224814;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15131?langname=ru];
+    => nrel_etalon_online_idx: [15131];;

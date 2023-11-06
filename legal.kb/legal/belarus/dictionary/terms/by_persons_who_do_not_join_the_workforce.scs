@@ -1,0 +1,33 @@
+
+by_persons_who_do_not_join_the_workforce
+    => nrel_main_idtf: [persons who do not join the workforce] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица, не входящие в состав рабочей силы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, не ўваходныя ў склад рабочай сілы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_who_do_not_join_the_workforce_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_employed_population;
+    => nrel_associative_connection: by_unemployed_population;
+    => nrel_associative_connection: by_informal_employment;
+
+    => nrel_legal_act: by_act_t21201734p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31922?langname=ru];
+    => nrel_etalon_online_idx: [31922];;

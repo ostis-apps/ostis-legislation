@@ -1,0 +1,39 @@
+
+by_fire_rescue_rope
+    => nrel_main_idtf: [fire rescue rope] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарная спасательная веревка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарная выратавальная вяроўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_rescue_rope_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_rescue_operations;
+    => nrel_associative_connection: by_emergency_situations_liquidation;
+    => nrel_associative_connection: by_fire_site;
+    => nrel_associative_connection: by_fire;
+    => nrel_associative_connection: by_fire_rescue_rope_of_normal_performance_frr;
+    => nrel_associative_connection: by_fire_safety_equipment;
+    => nrel_associative_connection: by_firefighter;
+    => nrel_associative_connection: by_fire_rescue_belt;
+    => nrel_associative_connection: by_fire_extinction;
+
+    => nrel_legal_act: by_act_w01934511p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33017?langname=ru];
+    => nrel_etalon_online_idx: [33017];;

@@ -1,0 +1,43 @@
+
+by_weapons_lot
+    => nrel_main_idtf: [weapons lot] (* <- lang_en;; *);
+    => nrel_main_idtf: [партия оружия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [партыя зброі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_weapons_lot_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_combat_weapon;
+    => nrel_associative_connection: by_gas_spray_gun;
+    => nrel_associative_connection: by_civil_weapons;
+    => nrel_associative_connection: by_weapon_model_execution_modification_of_the_weapon_model;
+    => nrel_associative_connection: by_weapon_labeling;
+    => nrel_associative_connection: by_trafficking_in_firearms_and_ammunition;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_lot;
+    => nrel_associative_connection: by_ammunition_lot;
+    => nrel_associative_connection: by_products_lot;
+    => nrel_associative_connection: by_consignment;
+    => nrel_associative_connection: by_confirmation_of_weapons_and_ammunition_conformity;
+    => nrel_associative_connection: by_arms_and_ammunition_production;
+
+    => nrel_legal_act: by_act_p30200473;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19814?langname=ru];
+    => nrel_etalon_online_idx: [19814];;

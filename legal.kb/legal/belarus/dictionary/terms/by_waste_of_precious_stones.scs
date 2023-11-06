@@ -1,0 +1,54 @@
+
+by_waste_of_precious_stones
+    => nrel_main_idtf: [waste of precious stones] (* <- lang_en;; *);
+    => nrel_main_idtf: [отходы драгоценных камней] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адходы каштоўных камянёў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_of_precious_stones_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waste_of_precious_stones_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_stones;
+    => nrel_associative_connection: by_precious_stones_diamonds;
+    => nrel_associative_connection: by_use_of_precious_metals_and_precious_stones;
+    => nrel_associative_connection: by_scrap_and_waste_of_precious_metals;
+    => nrel_associative_connection: by_waste_containing_precious_metals;
+    => nrel_associative_connection: by_production_of_precious_metals;
+    => nrel_associative_connection: by_recuperation_of_precious_stones;
+    => nrel_associative_connection: by_waste_owner;
+
+    => nrel_legal_act: by_act_h10200110;
+    => nrel_legal_act: by_act_f01900537;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10589?langname=ru];
+    => nrel_etalon_online_idx: [10589];;

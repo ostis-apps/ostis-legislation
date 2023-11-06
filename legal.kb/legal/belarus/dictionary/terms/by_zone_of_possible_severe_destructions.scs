@@ -1,0 +1,34 @@
+
+by_zone_of_possible_severe_destructions
+    => nrel_main_idtf: [zone of possible severe destructions] (* <- lang_en;; *);
+    => nrel_main_idtf: [зона возможных сильных разрушений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зона магчымых моцных разбурэнняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_zone_of_possible_severe_destructions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_building;
+    => nrel_associative_connection: by_zone_of_possible_destructions;
+    => nrel_associative_connection: by_zone_of_possible_weak_destructions;
+    => nrel_associative_connection: by_higher_danger_zone;
+
+    => nrel_legal_act: by_act_w22136472p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37221?langname=ru];
+    => nrel_etalon_online_idx: [37221];;

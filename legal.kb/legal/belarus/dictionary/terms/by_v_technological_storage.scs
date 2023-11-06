@@ -1,0 +1,38 @@
+
+by_v_technological_storage
+    => nrel_main_idtf: [v technological storage] (* <- lang_en;; *);
+    => nrel_main_idtf: [v технологический уклад] (* <- lang_ru;; *);
+    => nrel_main_idtf: [v тэхналагічны уклад] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_v_technological_storage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vi_technological_storage;
+    => nrel_associative_connection: by_biotechnologies;
+    => nrel_associative_connection: by_biotechnology;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_information_and_communication_technologies;
+    => nrel_associative_connection: by_technological_order;
+    => nrel_associative_connection: by_technology;
+    => nrel_associative_connection: by_electrotechnology;
+
+    => nrel_legal_act: by_act_c21001420;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12251?langname=ru];
+    => nrel_etalon_online_idx: [12251];;

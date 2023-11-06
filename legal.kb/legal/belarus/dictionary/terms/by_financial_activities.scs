@@ -1,0 +1,88 @@
+
+by_financial_activities
+    => nrel_main_idtf: [financial activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [финансовая деятельность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фінансавая дзейнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_activities_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_activities_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_financial_activities_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authenticity_of_the_accounting_financial_statements;
+    => nrel_associative_connection: by_singletype_financial_operations;
+    => nrel_associative_connection: by_operations;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_systematic_nature_of_financial_operations_performance;
+    => nrel_associative_connection: by_sum_of_the_financial_operation;
+    => nrel_associative_connection: by_current_activity;
+    => nrel_associative_connection: by_participant_of_financial_transaction;
+    => nrel_associative_connection: by_financial_literacy;
+    => nrel_associative_connection: by_financial_transaction;
+
+    => nrel_legal_act: by_act_w22137287p;
+    => nrel_legal_act: by_act_b207p0340;
+    => nrel_legal_act: by_act_w21631602;
+    => nrel_legal_act: by_act_w21224697;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7140?langname=ru];
+    => nrel_etalon_online_idx: [7140];;

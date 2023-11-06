@@ -1,0 +1,37 @@
+
+by_low_noise_equipment
+    => nrel_main_idtf: [low noise equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [малошумное оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [малашумнае абсталяванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_low_noise_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vibration_isolation;
+    => nrel_associative_connection: by_sound_pressure_p;
+    => nrel_associative_connection: by_impulsed_noise;
+    => nrel_associative_connection: by_intermittent_noise;
+    => nrel_associative_connection: by_maximum_noise_level;
+    => nrel_associative_connection: by_noise_sound;
+    => nrel_associative_connection: by_noisy_equipment_aggregates;
+
+    => nrel_legal_act: by_act_w22035998p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35727?langname=ru];
+    => nrel_etalon_online_idx: [35727];;

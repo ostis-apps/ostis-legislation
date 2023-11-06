@@ -1,0 +1,35 @@
+
+by_avoidance_from_work
+    => nrel_main_idtf: [avoidance from work] (* <- lang_en;; *);
+    => nrel_main_idtf: [уклонение от работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ухіленне ад работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_avoidance_from_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_working_citizens;
+    => nrel_associative_connection: by_working_citizen;
+    => nrel_associative_connection: by_labor_activity;
+    => nrel_associative_connection: by_valid_reasons;
+
+    => nrel_legal_act: by_act_hk2100091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41327?langname=ru];
+    => nrel_etalon_online_idx: [41327];;

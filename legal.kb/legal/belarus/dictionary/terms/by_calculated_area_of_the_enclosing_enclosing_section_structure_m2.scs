@@ -1,0 +1,37 @@
+
+by_calculated_area_of_the_enclosing_enclosing_section_structure_m2
+    => nrel_main_idtf: [calculated area of the enclosing (enclosing section) structure, m2] (* <- lang_en;; *);
+    => nrel_main_idtf: [расчетная площадь ограждающей (участка ограждающей) конструкции, м2] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разліковая плошча агароджваючай (участка якая агароджвае) канструкцыі, м2] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_calculated_area_of_the_enclosing_enclosing_section_structure_m2_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_enclosing_structure;
+    => nrel_associative_connection: by_reference_value_of_reduced_heat_transfer_resistance;
+    => nrel_associative_connection: by_external_enclosing_structure;
+    => nrel_associative_connection: by_enveloped_structure;
+    => nrel_associative_connection: by_calculated_plot_of_the_enclosing_structure_calculated_plot;
+    => nrel_associative_connection: by_thermal_engineering_heterogeneous_envelope_structure;
+    => nrel_associative_connection: by_heattechnically_homogeneous_enveloped_structure;
+
+    => nrel_legal_act: by_act_w220p0513;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37068?langname=ru];
+    => nrel_etalon_online_idx: [37068];;

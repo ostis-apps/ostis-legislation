@@ -1,0 +1,33 @@
+
+by_territories_of_small_and_mediumsized_settlements
+    => nrel_main_idtf: [territories of small and medium-sized settlements] (* <- lang_en;; *);
+    => nrel_main_idtf: [территории малых и средних населенных пунктов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрыторыі малых і сярэдніх населеных пунктаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_territories_of_small_and_mediumsized_settlements_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_border_of_populated_area;
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_objects_of_external_improvement;
+
+    => nrel_legal_act: by_act_p32000478;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36268?langname=ru];
+    => nrel_etalon_online_idx: [36268];;

@@ -1,0 +1,33 @@
+
+by_tax_rate
+    => nrel_main_idtf: [tax rate] (* <- lang_en;; *);
+    => nrel_main_idtf: [налоговая ставка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [падатковая стаўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_rate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_taxation_base;
+    => nrel_associative_connection: by_calculated_value_added_tax_rate;
+
+    => nrel_legal_act: by_act_hk0200166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2840?langname=ru];
+    => nrel_etalon_online_idx: [2840];;

@@ -1,0 +1,34 @@
+
+by_review_points
+    => nrel_main_idtf: [review points] (* <- lang_en;; *);
+    => nrel_main_idtf: [обзорные точки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аглядны пункт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_review_points_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_visibility;
+    => nrel_associative_connection: by_rightofway;
+    => nrel_associative_connection: by_canvas_of_ecological_trail;
+    => nrel_associative_connection: by_stopping_point_station;
+
+    => nrel_legal_act: by_act_w21123228;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18412?langname=ru];
+    => nrel_etalon_online_idx: [18412];;

@@ -1,0 +1,20 @@
+
+by_head_manager
+    => nrel_main_idtf: [head manager] (* <- lang_en;; *);
+    => nrel_main_idtf: [руководитель управляющего] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кіраўнік упраўляючага] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bankruptcy;
+    => nrel_associative_connection: by_crisis_manager;
+    => nrel_associative_connection: by_creditor_manager_bankruptcy_creditor_manager;
+    => nrel_associative_connection: by_economic_failure;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10966?langname=ru];
+    => nrel_etalon_online_idx: [10966];;

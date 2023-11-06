@@ -1,0 +1,34 @@
+
+by_status_of_orphaned_children
+    => nrel_main_idtf: [status of orphaned children] (* <- lang_en;; *);
+    => nrel_main_idtf: [статус детей-сирот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [статус дзяцей-сірот] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_status_of_orphaned_children_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_guarantees_for_social_protection_of_orphaned_children_children_without_parental_care_and_also_persons_from_the_number_of_orphaned_children_and_children_without_parental_care;
+    => nrel_associative_connection: by_childrens_home;
+    => nrel_associative_connection: by_persons_from_the_number_of_orphans_and_children_without_parental_care;
+    => nrel_associative_connection: by_republican_databank_of_adoption_of_orphanced_children_and_children_without_parental_care;
+
+    => nrel_legal_act: by_act_h10500073;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24199?langname=ru];
+    => nrel_etalon_online_idx: [24199];;

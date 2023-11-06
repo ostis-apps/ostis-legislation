@@ -1,0 +1,35 @@
+
+by_forest_zones
+    => nrel_main_idtf: [forest zones] (* <- lang_en;; *);
+    => nrel_main_idtf: [лесохозяйственные зоны] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лесагаспадарчыя зоны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_forest_zones_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_zones_of_urban_planning_development_of_settlements;
+    => nrel_associative_connection: by_accommodation_zones_for_gardening_partnerships_and_country_cooperatives;
+    => nrel_associative_connection: by_public_and_business_zones;
+    => nrel_associative_connection: by_protected_and_recreational_areas;
+    => nrel_associative_connection: by_agricultural_zones;
+
+    => nrel_legal_act: by_act_h10400300;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36682?langname=ru];
+    => nrel_etalon_online_idx: [36682];;

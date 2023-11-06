@@ -1,0 +1,32 @@
+
+by_lawmaking_process
+    => nrel_main_idtf: [law-making process] (* <- lang_en;; *);
+    => nrel_main_idtf: [законотворческий процесс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [законатворчы працэс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lawmaking_process_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lawmaking_activity;
+    => nrel_associative_connection: by_subjects_of_normmaking_activity;
+
+    => nrel_legal_act: by_act_h11800130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30810?langname=ru];
+    => nrel_etalon_online_idx: [30810];;

@@ -1,0 +1,35 @@
+
+by_authorized_state_body
+    => nrel_main_idtf: [authorized state body] (* <- lang_en;; *);
+    => nrel_main_idtf: [уполномоченный госорган] (* <- lang_ru;; *);
+    => nrel_main_idtf: [упаўнаважаны дзяржорган] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_authorized_state_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_agencyrapporteur;
+    => nrel_associative_connection: by_normmaking_activity;
+    => nrel_associative_connection: by_urgent_project;
+    => nrel_associative_connection: by_subjects_of_normmaking_initiative;
+    => nrel_associative_connection: by_authorized_bodies;
+
+    => nrel_legal_act: by_act_p32000415;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35562?langname=ru];
+    => nrel_etalon_online_idx: [35562];;

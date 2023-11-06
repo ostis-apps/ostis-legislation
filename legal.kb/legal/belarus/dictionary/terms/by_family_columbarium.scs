@@ -1,0 +1,34 @@
+
+by_family_columbarium
+    => nrel_main_idtf: [family columbarium] (* <- lang_en;; *);
+    => nrel_main_idtf: [семейный колумбарий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сямейны калумбарый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_family_columbarium_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_burial;
+    => nrel_associative_connection: by_columbarium;
+    => nrel_associative_connection: by_cremation;
+    => nrel_associative_connection: by_site_for_burial;
+
+    => nrel_legal_act: by_act_h10100055;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38261?langname=ru];
+    => nrel_etalon_online_idx: [38261];;

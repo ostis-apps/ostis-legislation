@@ -1,0 +1,35 @@
+
+by_binspecific_energy_efficiency_ratio
+    => nrel_main_idtf: [bin-specific energy efficiency ratio] (* <- lang_en;; *);
+    => nrel_main_idtf: [обусловленный бином коэффициент энергоэффективности в режиме охлаждения; eerbin(tj) (bin-specific energy efficiency ratio)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абумоўлены біном каэфіцыент энергаэфектыўнасці ў рэжыме ахаладжэння; eerbin(tj) (bin-specific energy efficiency ratio)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_binspecific_energy_efficiency_ratio_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_reference_annual_cooling_demand;
+    => nrel_associative_connection: by_annual_electricity_consumption_for_heating;
+    => nrel_associative_connection: by_annual_electricity_consumption_for_cooling;
+    => nrel_associative_connection: by_rated_power_input_for_cooling;
+    => nrel_associative_connection: by_rated_energy_efficiency_ratio;
+
+    => nrel_legal_act: by_act_w02035831p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35058?langname=ru];
+    => nrel_etalon_online_idx: [35058];;

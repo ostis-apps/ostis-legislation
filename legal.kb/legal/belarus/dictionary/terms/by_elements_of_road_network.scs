@@ -1,0 +1,36 @@
+
+by_elements_of_road_network
+    => nrel_main_idtf: [elements of road network] (* <- lang_en;; *);
+    => nrel_main_idtf: [элементы улично-дорожной сети] (* <- lang_ru;; *);
+    => nrel_main_idtf: [элементы вулічна-дарожнай сеткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_elements_of_road_network_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_populated_area;
+    => nrel_associative_connection: by_register_of_streets_and_roads;
+    => nrel_associative_connection: by_maintenance_operation_of_objects_of_the_street_and_road_network_of_settlements;
+    => nrel_associative_connection: by_components_of_settlements;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_of_the_street_and_road_network;
+    => nrel_associative_connection: by_street_and_road_activity;
+
+    => nrel_legal_act: by_act_p31200160;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10785?langname=ru];
+    => nrel_etalon_online_idx: [10785];;

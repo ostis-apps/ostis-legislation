@@ -1,0 +1,72 @@
+
+by_labor_agreement
+    => nrel_main_idtf: [labor agreement] (* <- lang_en;; *);
+    => nrel_main_idtf: [трудовой договор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [працоўны дагавор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_labor_agreement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_labor_agreement_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_internal_labor_plan;
+    => nrel_associative_connection: by_remote_work;
+    => nrel_associative_connection: by_contract_of_employment;
+    => nrel_associative_connection: by_domestic_workers;
+    => nrel_associative_connection: by_performance_of_the_obligations_of_a_temporarily_absent_employee;
+    => nrel_associative_connection: by_collective_agreement;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_mass_employees_layoffs;
+    => nrel_associative_connection: by_employer;
+    => nrel_associative_connection: by_employers_association;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_transfer;
+    => nrel_associative_connection: by_adoption_family;
+    => nrel_associative_connection: by_workers_profession;
+    => nrel_associative_connection: by_domestic_labor;
+    => nrel_associative_connection: by_working_citizen;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_outworkers;
+    => nrel_associative_connection: by_working_hours;
+    => nrel_associative_connection: by_expansion_of_service_area_increased_work;
+    => nrel_associative_connection: by_service_performance;
+    => nrel_associative_connection: by_combining_jobs;
+    => nrel_associative_connection: by_combination_of_employee_posts_of_worker_professions;
+    => nrel_associative_connection: by_social_partnership;
+    => nrel_associative_connection: by_parties_to_labor_agreement;
+    => nrel_associative_connection: by_working_conditions;
+
+    => nrel_legal_act: by_act_hk9900296;
+    => nrel_legal_act: by_act_n22000112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2104?langname=ru];
+    => nrel_etalon_online_idx: [2104];;

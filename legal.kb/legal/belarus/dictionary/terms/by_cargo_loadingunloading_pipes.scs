@@ -1,0 +1,25 @@
+
+by_cargo_loadingunloading_pipes
+    => nrel_main_idtf: [cargo (loading-unloading) pipes] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовые (погрузочно-разгрузочные) трубопроводы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавыя (пагрузачна-разгрузачныя) трубаправоды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_suction_piping;
+    => nrel_associative_connection: by_loader;
+    => nrel_associative_connection: by_loadingunloading_point;
+    => nrel_associative_connection: by_calculated_thickness_of_the_pipeline_wall;
+    => nrel_associative_connection: by_repair_of_pipelines;
+    => nrel_associative_connection: by_stripping_system;
+    => nrel_associative_connection: by_flanged_connection;
+    => nrel_associative_connection: by_pipeline;
+    => nrel_associative_connection: by_operating_conditions_of_the_pipeline;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13892?langname=ru];
+    => nrel_etalon_online_idx: [13892];;

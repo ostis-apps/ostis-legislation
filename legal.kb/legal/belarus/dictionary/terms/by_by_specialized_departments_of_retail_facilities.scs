@@ -1,0 +1,37 @@
+
+by_by_specialized_departments_of_retail_facilities
+    => nrel_main_idtf: [by_specialized_departments_of_retail_facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [специализированные отделы торговых объектов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыялізаваныя аддзелы гандлёвых аб'ектаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_specialized_departments_of_retail_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_culinary_shop_department;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_stationary_trade_object;
+    => nrel_associative_connection: by_commodity_department;
+    => nrel_associative_connection: by_commodity_department_section;
+    => nrel_associative_connection: by_trade_at_stationary_trade_objects;
+    => nrel_associative_connection: by_trade_object;
+
+    => nrel_legal_act: by_act_c20401537;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43414?langname=ru];
+    => nrel_etalon_online_idx: [43414];;

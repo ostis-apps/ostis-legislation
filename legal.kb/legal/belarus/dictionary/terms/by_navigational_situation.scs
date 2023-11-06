@@ -1,0 +1,75 @@
+
+by_navigational_situation
+    => nrel_main_idtf: [navigational situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [навигационная обстановка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [навігацыйная абстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigational_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigational_situation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_navigational_situation_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner_of_navigation_resources;
+    => nrel_associative_connection: by_aerial_navigation;
+    => nrel_associative_connection: by_exit_to_the_designated_object;
+    => nrel_associative_connection: by_state_navigation_map;
+    => nrel_associative_connection: by_zonal_navigation;
+    => nrel_associative_connection: by_navigational_activity;
+    => nrel_associative_connection: by_navigational_information;
+    => nrel_associative_connection: by_navigational_error;
+    => nrel_associative_connection: by_navigational_and_temporary_provision;
+    => nrel_associative_connection: by_navigational_field;
+    => nrel_associative_connection: by_navigational_period;
+    => nrel_associative_connection: by_navigational_period_navigation;
+    => nrel_associative_connection: by_navigation;
+
+    => nrel_legal_act: by_act_w22238995p;
+    => nrel_legal_act: by_act_w204p0291;
+    => nrel_legal_act: by_act_w20615080;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17578?langname=ru];
+    => nrel_etalon_online_idx: [17578];;

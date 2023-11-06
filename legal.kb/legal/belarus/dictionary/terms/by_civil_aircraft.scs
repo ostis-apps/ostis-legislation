@@ -1,0 +1,73 @@
+
+by_civil_aircraft
+    => nrel_main_idtf: [civil aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [гражданское воздушное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грамадзянскае паветранае судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_civil_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatically_detachable_flight_recorder;
+    => nrel_associative_connection: by_flight_data_analysis;
+    => nrel_associative_connection: by_aerodrome_heliport_basing;
+    => nrel_associative_connection: by_aerodrome_suitable_for_meteorological_conditions;
+    => nrel_associative_connection: by_airport_basing;
+    => nrel_associative_connection: by_barometric_altitude;
+    => nrel_associative_connection: by_safe_forced_landing;
+    => nrel_associative_connection: by_favorable_environment;
+    => nrel_associative_connection: by_helicodeck;
+    => nrel_associative_connection: by_takeoff_weight_of_the_aircraft;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_human_capabilities;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_state_of_the_aerodrome;
+    => nrel_associative_connection: by_state_of_departure;
+    => nrel_associative_connection: by_state_of_registration;
+    => nrel_associative_connection: by_state_of_the_aircraft_operator;
+    => nrel_associative_connection: by_civil_aviation;
+    => nrel_associative_connection: by_civil_aircraft_of_foreign_state;
+    => nrel_associative_connection: by_densely_populated_area;
+    => nrel_associative_connection: by_an_obstaclefree_zone;
+    => nrel_associative_connection: by_apron_inspection;
+    => nrel_associative_connection: by_commercial_air_transport;
+    => nrel_associative_connection: by_commercial_aircraft_loading;
+    => nrel_associative_connection: by_final_airport;
+    => nrel_associative_connection: by_critical_fuel_reserve_for_flights_with_extended_departure_time_to_the_emergency_aerodrome_edto;
+    => nrel_associative_connection: by_medical_passenger;
+    => nrel_associative_connection: by_international_aircraft_flight;
+    => nrel_associative_connection: by_navigation_specification;
+    => nrel_associative_connection: by_ground_handling;
+    => nrel_associative_connection: by_bottom_edge_of_cloud_cover;
+    => nrel_associative_connection: by_aircraft_test_flight;
+    => nrel_associative_connection: by_object_in_the_open_sea;
+    => nrel_associative_connection: by_designated_helicopter_lifting_location_hho;
+    => nrel_associative_connection: by_main_place_of_activity;
+    => nrel_associative_connection: by_helicopter_hoisting_flight;
+    => nrel_associative_connection: by_flight_with_auxiliary_night_vision_visualization_system_nvis;
+    => nrel_associative_connection: by_low_visibility_flights;
+    => nrel_associative_connection: by_certificate_for_noise_on_the_terrain;
+    => nrel_associative_connection: by_type_certificate;
+    => nrel_associative_connection: by_vessel_owner;
+    => nrel_associative_connection: by_aircraft_crew_member;
+
+    => nrel_legal_act: by_act_hk0600117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5630?langname=ru];
+    => nrel_etalon_online_idx: [5630];;

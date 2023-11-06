@@ -1,0 +1,37 @@
+
+by_external_system
+    => nrel_main_idtf: [external system] (* <- lang_en;; *);
+    => nrel_main_idtf: [внешняя система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знешняя сістэма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_external_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bonus;
+    => nrel_associative_connection: by_jackpot;
+    => nrel_associative_connection: by_game_program;
+    => nrel_associative_connection: by_game_machine;
+    => nrel_associative_connection: by_accumulated_counters;
+    => nrel_associative_connection: by_management_bodies_of_game_machine;
+    => nrel_associative_connection: by_software_verification_tools;
+
+    => nrel_legal_act: by_act_c21900137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30921?langname=ru];
+    => nrel_etalon_online_idx: [30921];;

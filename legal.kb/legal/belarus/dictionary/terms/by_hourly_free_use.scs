@@ -1,0 +1,36 @@
+
+by_hourly_free_use
+    => nrel_main_idtf: [hourly free use] (* <- lang_en;; *);
+    => nrel_main_idtf: [почасовое безвозмездное пользование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагадзіннае бязвыплатнае карыстанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hourly_free_use_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unified_base;
+    => nrel_associative_connection: by_periodic_free_use;
+    => nrel_associative_connection: by_area_transferred_for_free_use;
+    => nrel_associative_connection: by_hourly_rent;
+    => nrel_associative_connection: by_expenses_on_maintenance_of_the_premises_transferred_for_free_use;
+    => nrel_associative_connection: by_purpose_use_of_objects_transferred_for_free_use;
+
+    => nrel_legal_act: by_act_p32300138;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42518?langname=ru];
+    => nrel_etalon_online_idx: [42518];;

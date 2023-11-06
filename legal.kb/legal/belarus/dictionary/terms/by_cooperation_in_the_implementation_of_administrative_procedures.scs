@@ -1,0 +1,35 @@
+
+by_cooperation_in_the_implementation_of_administrative_procedures
+    => nrel_main_idtf: [cooperation in the implementation of administrative procedures] (* <- lang_en;; *);
+    => nrel_main_idtf: [сотрудничество при осуществлении административных процедур] (* <- lang_ru;; *);
+    => nrel_main_idtf: [супрацоўніцтва пры ажыццяўленні адміністрацыйных працэдур] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cooperation_in_the_implementation_of_administrative_procedures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_day_for_implementation_of_the_administrative_procedure;
+    => nrel_associative_connection: by_day_of_administrative_procedure_completion;
+    => nrel_associative_connection: by_priority_of_interests_of_interested_persons;
+    => nrel_associative_connection: by_agreement_on_cooperation;
+    => nrel_associative_connection: by_territorial_accessibility_of_the_administrative_procedure;
+
+    => nrel_legal_act: by_act_h10800433;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23640?langname=ru];
+    => nrel_etalon_online_idx: [23640];;

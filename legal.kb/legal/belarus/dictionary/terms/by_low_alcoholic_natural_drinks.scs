@@ -1,0 +1,38 @@
+
+by_low_alcoholic_natural_drinks
+    => nrel_main_idtf: [low alcoholic natural drinks] (* <- lang_en;; *);
+    => nrel_main_idtf: [слабоалкогольные натуральные напитки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [слабаалкагольныя натуральныя напоі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_low_alcoholic_natural_drinks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tasting_of_alcoholic_beverages_and_or_beer_in_marketing_purposes;
+    => nrel_associative_connection: by_tasting_of_alcoholic_beverages_and_beer_in_marketing_purposes;
+    => nrel_associative_connection: by_other_lowalcohol_drinks;
+    => nrel_associative_connection: by_nonfood_ethyl_alcohol;
+    => nrel_associative_connection: by_beer_cocktail;
+    => nrel_associative_connection: by_beer;
+    => nrel_associative_connection: by_lowalcohol_drinks;
+    => nrel_associative_connection: by_lowalcohol_drink;
+
+    => nrel_legal_act: by_act_hk0900071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23313?langname=ru];
+    => nrel_etalon_online_idx: [23313];;

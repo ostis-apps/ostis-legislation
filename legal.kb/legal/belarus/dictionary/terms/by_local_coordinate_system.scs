@@ -1,0 +1,41 @@
+
+by_local_coordinate_system
+    => nrel_main_idtf: [local coordinate system] (* <- lang_en;; *);
+    => nrel_main_idtf: [местная система координат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовая сістэма каардынат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_local_coordinate_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geodesy;
+    => nrel_associative_connection: by_state_systems_of_geodesic_coordinates_heights_gravimetric_measurements;
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_study_of_the_territory_of_the_proposed_construction;
+    => nrel_associative_connection: by_cartography;
+    => nrel_associative_connection: by_compilation;
+    => nrel_associative_connection: by_local_coordinate_reference_system;
+    => nrel_associative_connection: by_axial_meridian;
+    => nrel_associative_connection: by_relevance_surface;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_system_of_geodesic_coordinates;
+
+    => nrel_legal_act: by_act_w22035551p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17231?langname=ru];
+    => nrel_etalon_online_idx: [17231];;

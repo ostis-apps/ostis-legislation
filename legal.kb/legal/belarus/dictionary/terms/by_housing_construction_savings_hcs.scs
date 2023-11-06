@@ -1,0 +1,37 @@
+
+by_housing_construction_savings_hcs
+    => nrel_main_idtf: [housing construction savings (hcs)] (* <- lang_en;; *);
+    => nrel_main_idtf: [жилищные строительные сбережения (жсс)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [жыллёвыя будаўнічыя захаванні (жбз)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_construction_savings_hcs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_system_of_housing_construction_savings;
+    => nrel_associative_connection: by_housing_construction_savings_contract;
+    => nrel_associative_connection: by_the_amount_of_the_contract;
+    => nrel_associative_connection: by_housing_credit;
+    => nrel_associative_connection: by_minimum_required_amount_of_housing_construction_savings;
+    => nrel_associative_connection: by_period_of_accumulation_of_housing_construction_savings;
+    => nrel_associative_connection: by_participants_of_the_state_system_of_housing_construction_savings;
+
+    => nrel_legal_act: by_act_p32000382;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36242?langname=ru];
+    => nrel_etalon_online_idx: [36242];;

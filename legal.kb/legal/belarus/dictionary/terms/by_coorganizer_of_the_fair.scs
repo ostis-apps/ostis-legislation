@@ -1,0 +1,38 @@
+
+by_coorganizer_of_the_fair
+    => nrel_main_idtf: [co-organizer of the fair] (* <- lang_en;; *);
+    => nrel_main_idtf: [соорганизатор ярмарки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [суарганізатар кірмашу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_coorganizer_of_the_fair_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_exhibition_fair;
+    => nrel_associative_connection: by_fair_organizer;
+    => nrel_associative_connection: by_theme_of_fair;
+    => nrel_associative_connection: by_fair_territory;
+    => nrel_associative_connection: by_technical_operator;
+    => nrel_associative_connection: by_trade_at_fairs;
+    => nrel_associative_connection: by_universal_fair;
+    => nrel_associative_connection: by_participant_of_the_fair;
+
+    => nrel_legal_act: by_act_c21900101;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31038?langname=ru];
+    => nrel_etalon_online_idx: [31038];;

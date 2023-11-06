@@ -1,0 +1,19 @@
+
+by_taximeter
+    => nrel_main_idtf: [taximeter] (* <- lang_en;; *);
+    => nrel_main_idtf: [таксометр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таксометр] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_taxicab;
+    => nrel_associative_connection: by_dispatch_of_road_transportation_of_passengers_by_vehiclestaxi;
+    => nrel_associative_connection: by_taxi_terminal;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24617?langname=ru];
+    => nrel_etalon_online_idx: [24617];;

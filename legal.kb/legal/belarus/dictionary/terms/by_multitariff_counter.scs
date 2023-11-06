@@ -1,0 +1,35 @@
+
+by_multitariff_counter
+    => nrel_main_idtf: [multi-tariff counter] (* <- lang_en;; *);
+    => nrel_main_idtf: [многотарифный счетчик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шматтарыфны лічыльнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multitariff_counter_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_induction_counter;
+    => nrel_associative_connection: by_totalizing_counter;
+    => nrel_associative_connection: by_electric_energy_counter;
+    => nrel_associative_connection: by_electricity_measurement_point;
+    => nrel_associative_connection: by_accounting_for_electricity;
+
+    => nrel_legal_act: by_act_w21224814;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17431?langname=ru];
+    => nrel_etalon_online_idx: [17431];;

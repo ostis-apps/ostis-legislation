@@ -1,0 +1,35 @@
+
+by_organization_of_passengers_transportation_by_city_electric_transport
+    => nrel_main_idtf: [organization of passengers transportation by city electric transport] (* <- lang_en;; *);
+    => nrel_main_idtf: [организация перевозок пассажиров городским электрическим транспортом] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыя перавозак пасажыраў гарадскім электрычным транспартам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organization_of_passengers_transportation_by_city_electric_transport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_urban_electric_transport;
+    => nrel_associative_connection: by_passenger_transportation_index_and_passenger_turnover_index;
+    => nrel_associative_connection: by_carriage;
+    => nrel_associative_connection: by_public_transport_carriage;
+    => nrel_associative_connection: by_transportation_organization;
+
+    => nrel_legal_act: by_act_c21401088;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19225?langname=ru];
+    => nrel_etalon_online_idx: [19225];;

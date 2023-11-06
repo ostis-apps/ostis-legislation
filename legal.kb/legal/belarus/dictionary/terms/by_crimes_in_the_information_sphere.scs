@@ -1,0 +1,36 @@
+
+by_crimes_in_the_information_sphere
+    => nrel_main_idtf: [crimes in the information sphere] (* <- lang_en;; *);
+    => nrel_main_idtf: [преступления в информационной сфере] (* <- lang_ru;; *);
+    => nrel_main_idtf: [злачынствы ў інфармацыйнай сферы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crimes_in_the_information_sphere_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_destructive_information_impact;
+    => nrel_associative_connection: by_cyber_attack;
+    => nrel_associative_connection: by_cybersecurity;
+    => nrel_associative_connection: by_cyberincident;
+    => nrel_associative_connection: by_cyber_terrorism;
+    => nrel_associative_connection: by_cyberresilience;
+
+    => nrel_legal_act: by_act_p219s0001;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31350?langname=ru];
+    => nrel_etalon_online_idx: [31350];;

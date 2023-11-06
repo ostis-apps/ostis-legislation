@@ -1,0 +1,35 @@
+
+by_interbank_loan_deposit
+    => nrel_main_idtf: [interbank loan, deposit] (* <- lang_en;; *);
+    => nrel_main_idtf: [межбанковский кредит, вклад (депозит)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжбанкаўскі крэдыт, уклад (дэпазіт)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_interbank_loan_deposit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_other_contribution_deposit;
+    => nrel_associative_connection: by_new_loan;
+    => nrel_associative_connection: by_liabilities_of_the_bank;
+    => nrel_associative_connection: by_interest_rate_for_use_of_interbank_credit_contribution_deposit;
+    => nrel_associative_connection: by_interest_rate_for_the_use_of_a_new_loan_for_a_new_bank_deposit_deposit_in_the_reporting_period;
+
+    => nrel_legal_act: by_act_b21934719;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41871?langname=ru];
+    => nrel_etalon_online_idx: [41871];;

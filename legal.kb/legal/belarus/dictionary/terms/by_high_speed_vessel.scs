@@ -1,0 +1,38 @@
+
+by_high_speed_vessel
+    => nrel_main_idtf: [high speed vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [высокоскоростное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [высакахуткаснае судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_high_speed_vessel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_minimum_speed;
+    => nrel_associative_connection: by_crossing_courses;
+    => nrel_associative_connection: by_selfpropelled_vessel;
+    => nrel_associative_connection: by_vessel_owner;
+    => nrel_associative_connection: by_vessel;
+    => nrel_associative_connection: by_inland_waterway_vessel;
+    => nrel_associative_connection: by_vessel_on_the_move;
+
+    => nrel_legal_act: by_act_w20514238;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13396?langname=ru];
+    => nrel_etalon_online_idx: [13396];;

@@ -1,0 +1,52 @@
+
+by_multiple_units_rolling_stock
+    => nrel_main_idtf: [multiple units rolling stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [моторвагонный подвижной состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маторвагонны рухомы састаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multiple_units_rolling_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_multiple_units_rolling_stock_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unit_of_rolling_stock;
+    => nrel_associative_connection: by_railway_rolling_stock;
+    => nrel_associative_connection: by_railway;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_locomotive;
+    => nrel_associative_connection: by_train;
+
+    => nrel_legal_act: by_act_w21833702p;
+    => nrel_legal_act: by_act_w21530414p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30754?langname=ru];
+    => nrel_etalon_online_idx: [30754];;

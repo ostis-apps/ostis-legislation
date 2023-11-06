@@ -1,0 +1,20 @@
+
+by_fraudulent_actions_of_card_holder
+    => nrel_main_idtf: [fraudulent actions of card holder] (* <- lang_en;; *);
+    => nrel_main_idtf: [мошеннические действия держателя карточки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [махлярскія дзеянні трымальніка карткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_cardholder;
+    => nrel_associative_connection: by_cardholder_identification;
+    => nrel_associative_connection: by_fraud;
+    => nrel_associative_connection: by_card_details;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11160?langname=ru];
+    => nrel_etalon_online_idx: [11160];;

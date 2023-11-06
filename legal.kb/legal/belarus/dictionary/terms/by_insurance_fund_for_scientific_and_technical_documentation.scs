@@ -1,0 +1,37 @@
+
+by_insurance_fund_for_scientific_and_technical_documentation
+    => nrel_main_idtf: [insurance fund for scientific and technical documentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [страховой фонд научно-технической документации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страхавы фонд навукова-тэхнічнай дакументацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_insurance_fund_for_scientific_and_technical_documentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_documented_scientific_and_technical_information;
+    => nrel_associative_connection: by_use_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_originals_of_scientific_and_technical_documents;
+    => nrel_associative_connection: by_storage_modes_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_resources_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_scientific_and_technical_information_system;
+    => nrel_associative_connection: by_insurance_fund_of_documents;
+
+    => nrel_legal_act: by_act_w20716244;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24337?langname=ru];
+    => nrel_etalon_online_idx: [24337];;

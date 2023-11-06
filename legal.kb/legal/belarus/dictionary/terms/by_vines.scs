@@ -1,0 +1,37 @@
+
+by_vines
+    => nrel_main_idtf: [vines] (* <- lang_en;; *);
+    => nrel_main_idtf: [лианы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліяны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_vines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_perennial_plantings;
+    => nrel_associative_connection: by_decorative_deciduous_shrubs;
+    => nrel_associative_connection: by_beautiful_flowering_shrubs;
+    => nrel_associative_connection: by_perennial_plantings;
+    => nrel_associative_connection: by_objects_of_vegetable_world;
+    => nrel_associative_connection: by_residual_fertilizing_period;
+    => nrel_associative_connection: by_flower_garden;
+
+    => nrel_legal_act: by_act_w01933903p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33863?langname=ru];
+    => nrel_etalon_online_idx: [33863];;

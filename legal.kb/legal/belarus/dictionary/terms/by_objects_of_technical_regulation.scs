@@ -1,0 +1,36 @@
+
+by_objects_of_technical_regulation
+    => nrel_main_idtf: [objects of technical regulation] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты технического нормирования] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты тэхнічнага нарміравання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_of_technical_regulation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_objects_of_standardization;
+    => nrel_associative_connection: by_verification_of_the_technical_normative_legal_act_in_the_area_of_technical_regulation_and_standardization;
+    => nrel_associative_connection: by_system_of_integrated_information_support_in_the_area_of_technical_regulation_and_standardization;
+    => nrel_associative_connection: by_technical_normative_legal_acts_in_the_area_of_technical_regulation_and_standardization;
+    => nrel_associative_connection: by_output_rates_setting;
+    => nrel_associative_connection: by_technical_norming_and_standardization_in_the_military_sphere;
+
+    => nrel_legal_act: by_act_h10400262;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18785?langname=ru];
+    => nrel_etalon_online_idx: [18785];;

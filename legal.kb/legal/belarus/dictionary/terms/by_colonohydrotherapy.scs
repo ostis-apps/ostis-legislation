@@ -1,0 +1,37 @@
+
+by_colonohydrotherapy
+    => nrel_main_idtf: [colonohydrotherapy] (* <- lang_en;; *);
+    => nrel_main_idtf: [колоногидротерапия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [коланагідратэрапія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_colonohydrotherapy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrotherapy;
+    => nrel_associative_connection: by_hypoxytherapy;
+    => nrel_associative_connection: by_immunotherapy;
+    => nrel_associative_connection: by_colopexy;
+    => nrel_associative_connection: by_cryotherapy;
+    => nrel_associative_connection: by_laser_therapy;
+    => nrel_associative_connection: by_pathogenetic_therapy;
+
+    => nrel_legal_act: by_act_w22035574p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35329?langname=ru];
+    => nrel_etalon_online_idx: [35329];;

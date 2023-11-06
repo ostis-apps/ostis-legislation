@@ -1,0 +1,35 @@
+
+by_mineralized_industrial_waters
+    => nrel_main_idtf: [mineralized industrial waters] (* <- lang_en;; *);
+    => nrel_main_idtf: [минерализованные промышленные воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінералізаваныя прамысловыя воды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mineralized_industrial_waters_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_well_flow_rate;
+    => nrel_associative_connection: by_artificially_mineralized_drinking_water;
+    => nrel_associative_connection: by_deposit_its_part_of_groundwater_of_the_second_group_of_complexity;
+    => nrel_associative_connection: by_deposit_its_part_of_groundwater_of_the_first_group_of_complexity;
+    => nrel_associative_connection: by_deposit_its_part_of_groundwater_of_the_third_group_of_complexity;
+
+    => nrel_legal_act: by_act_w22136415p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36906?langname=ru];
+    => nrel_etalon_online_idx: [36906];;

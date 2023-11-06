@@ -1,0 +1,34 @@
+
+by_safe_place
+    => nrel_main_idtf: [safe place] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасное место] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспечнае месца] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safe_place_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_insulator;
+    => nrel_associative_connection: by_premise;
+    => nrel_associative_connection: by_detention;
+
+    => nrel_legal_act: by_act_c21600044;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10272?langname=ru];
+    => nrel_etalon_online_idx: [10272];;

@@ -1,0 +1,52 @@
+
+by_ecological_trail
+    => nrel_main_idtf: [ecological trail] (* <- lang_en;; *);
+    => nrel_main_idtf: [экологическая тропа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экалагічная сцежка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ecological_trail_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ecological_trail_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_route_corridor;
+    => nrel_associative_connection: by_rightofway;
+    => nrel_associative_connection: by_canvas_of_ecological_trail;
+    => nrel_associative_connection: by_stopping_point_station;
+    => nrel_associative_connection: by_excursion_routes;
+
+    => nrel_legal_act: by_act_w21123228;
+    => nrel_legal_act: by_act_n21900105;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26449?langname=ru];
+    => nrel_etalon_online_idx: [26449];;

@@ -1,0 +1,33 @@
+
+by_waiting_location_on_the_traffic_route
+    => nrel_main_idtf: [waiting location on the traffic route] (* <- lang_en;; *);
+    => nrel_main_idtf: [место ожидания на маршруте движения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца чакання на маршруце руху] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_waiting_location_on_the_traffic_route_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_traffic_route;
+    => nrel_associative_connection: by_runway_waiting_point;
+    => nrel_associative_connection: by_platform;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41071?langname=ru];
+    => nrel_etalon_online_idx: [41071];;

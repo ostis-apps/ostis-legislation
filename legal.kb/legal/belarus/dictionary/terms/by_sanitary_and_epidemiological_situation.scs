@@ -1,0 +1,36 @@
+
+by_sanitary_and_epidemiological_situation
+    => nrel_main_idtf: [sanitary and epidemiological situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарно-эпидемиологическая обстановка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарна-эпідэміялагічная абстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitary_and_epidemiological_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_production_control;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_requirements;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_audit;
+    => nrel_associative_connection: by_infection_security;
+    => nrel_associative_connection: by_sanitary_norms_rules_andhygienic_standards;
+    => nrel_associative_connection: by_epidemiological_tracking;
+
+    => nrel_legal_act: by_act_h11200340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10585?langname=ru];
+    => nrel_etalon_online_idx: [10585];;

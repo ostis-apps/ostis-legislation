@@ -1,0 +1,56 @@
+
+by_obvious_mistakes
+    => nrel_main_idtf: [obvious mistakes] (* <- lang_en;; *);
+    => nrel_main_idtf: [очевидные ошибки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [відавочныя памылкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obvious_mistakes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_obvious_mistakes_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_error;
+    => nrel_associative_connection: by_anomalous_error;
+    => nrel_associative_connection: by_sampling_error;
+    => nrel_associative_connection: by_permissible_error;
+    => nrel_associative_connection: by_error_of_nontechnical_character;
+    => nrel_associative_connection: by_general_error;
+    => nrel_associative_connection: by_expected_error;
+    => nrel_associative_connection: by_representative_error;
+    => nrel_associative_connection: by_erroneous_note;
+    => nrel_associative_connection: by_technical_errors;
+
+    => nrel_legal_act: by_act_c21100121;
+    => nrel_legal_act: by_act_c21100120;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19735?langname=ru];
+    => nrel_etalon_online_idx: [19735];;

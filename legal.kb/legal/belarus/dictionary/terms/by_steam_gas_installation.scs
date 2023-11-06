@@ -1,0 +1,55 @@
+
+by_steam_gas_installation
+    => nrel_main_idtf: [steam gas installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [парогазовая установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [парагазавая ўстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_steam_gas_installation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_steam_gas_installation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gas_turbine;
+    => nrel_associative_connection: by_gas_equipment;
+    => nrel_associative_connection: by_gas_heating_device;
+    => nrel_associative_connection: by_gas_hazardous_works;
+    => nrel_associative_connection: by_protective_ignition_device;
+    => nrel_associative_connection: by_dangerous_gas_concentration;
+    => nrel_associative_connection: by_steam_turbine_installation;
+    => nrel_associative_connection: by_steam_turbine_power_plant;
+    => nrel_associative_connection: by_installation;
+
+    => nrel_legal_act: by_act_w22339537p;
+    => nrel_legal_act: by_act_w20411180;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19802?langname=ru];
+    => nrel_etalon_online_idx: [19802];;

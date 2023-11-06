@@ -1,0 +1,23 @@
+
+by_sending_bank
+    => nrel_main_idtf: [sending bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-отправитель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-адпраўшчык] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_intrastate_bank_transfer;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_senders;
+    => nrel_associative_connection: by_sender;
+    => nrel_associative_connection: by_bank_transfer_participant;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8358?langname=ru];
+    => nrel_etalon_online_idx: [8358];;

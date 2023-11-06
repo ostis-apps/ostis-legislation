@@ -1,0 +1,35 @@
+
+by_reweighting
+    => nrel_main_idtf: [re-weighting] (* <- lang_en;; *);
+    => nrel_main_idtf: [повторное взвешивание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паўторнае важанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reweighting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_weighing_receipt;
+    => nrel_associative_connection: by_mobile_post_of_weight_and_dimension_control;
+    => nrel_associative_connection: by_weighing_certificate;
+    => nrel_associative_connection: by_stationary_control_point;
+    => nrel_associative_connection: by_heavy_and_or_largesized_vehicle;
+
+    => nrel_legal_act: by_act_c21400071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20304?langname=ru];
+    => nrel_etalon_online_idx: [20304];;

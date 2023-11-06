@@ -1,0 +1,35 @@
+
+by_gauge_of_railway_rolling_stock
+    => nrel_main_idtf: [gauge of railway rolling stock] (* <- lang_en;; *);
+    => nrel_main_idtf: [габарит железнодорожного подвижного состава] (* <- lang_ru;; *);
+    => nrel_main_idtf: [габарыт чыгуначнага рухомага складу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gauge_of_railway_rolling_stock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_freight_wagons;
+    => nrel_associative_connection: by_unit_of_railway_rolling_stock;
+    => nrel_associative_connection: by_railway_crossing;
+    => nrel_associative_connection: by_railway_pedestrian_crossing;
+    => nrel_associative_connection: by_railway_rolling_stock;
+
+    => nrel_legal_act: by_act_w21530414p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33885?langname=ru];
+    => nrel_etalon_online_idx: [33885];;

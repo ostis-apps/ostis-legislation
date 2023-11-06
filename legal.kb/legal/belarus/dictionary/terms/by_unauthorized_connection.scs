@@ -1,0 +1,42 @@
+
+by_unauthorized_connection
+    => nrel_main_idtf: [unauthorized connection] (* <- lang_en;; *);
+    => nrel_main_idtf: [самовольное подключение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [самавольнае падключэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unauthorized_connection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_disposal;
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_organization_of_watersewer_economy;
+    => nrel_associative_connection: by_organization_of_watersewer_economy__wse_organization;
+    => nrel_associative_connection: by_connection_to_centralized_water_supply_systems_and_or_water_disposal_sewage;
+    => nrel_associative_connection: by_water_supply_and_sewerage_enterprises;
+    => nrel_associative_connection: by_public_water_supply_system;
+    => nrel_associative_connection: by_drinking_water_supply_system;
+    => nrel_associative_connection: by_technical_conditions_for_connection_to_the_systems_of_water_supply_water_discharge_sewer_rain_sewer;
+    => nrel_associative_connection: by_centralized_water_disposal_sewer;
+    => nrel_associative_connection: by_centralized_water_supply_system;
+    => nrel_associative_connection: by_centralized_water_supply_drainage_system;
+
+    => nrel_legal_act: by_act_c21600788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22787?langname=ru];
+    => nrel_etalon_online_idx: [22787];;

@@ -1,0 +1,35 @@
+
+by_military_construction_construction_of_military_organization_of_the_state
+    => nrel_main_idtf: [military construction (construction of military organization of the state)] (* <- lang_en;; *);
+    => nrel_main_idtf: [военное строительство (строительство военной организации государства)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваеннае будаўніцтва (будаўніцтва ваеннай арганізацыі дзяржавы)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_construction_construction_of_military_organization_of_the_state_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_organization_of_state;
+    => nrel_associative_connection: by_military_and_technical_property_mtp;
+    => nrel_associative_connection: by_military_objects;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_h11600412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10279?langname=ru];
+    => nrel_etalon_online_idx: [10279];;

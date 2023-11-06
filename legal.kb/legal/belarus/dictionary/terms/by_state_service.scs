@@ -1,0 +1,65 @@
+
+by_state_service
+    => nrel_main_idtf: [state service] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная служба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная служба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_service_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_alternative_service;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_military_service;
+    => nrel_associative_connection: by_state_aviation;
+    => nrel_associative_connection: by_state_position;
+    => nrel_associative_connection: by_state_officials;
+    => nrel_associative_connection: by_state_employee;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_position;
+    => nrel_associative_connection: by_personnel_registry;
+    => nrel_associative_connection: by_qualification_directory__state_positions_of_public_service;
+    => nrel_associative_connection: by_persons_entered_in_the_state_civil_service_by_election;
+    => nrel_associative_connection: by_persons_received_to_the_state_service_by_election;
+    => nrel_associative_connection: by_service;
+    => nrel_associative_connection: by_service_in_military_organizations;
+    => nrel_associative_connection: by_service_at_the_state_committee_of_forensic_expertise;
+    => nrel_associative_connection: by_service_in_the_bodies_of_the_internal_affairs;
+    => nrel_associative_connection: by_service_in_bodies_and_units_for_emergency_situations;
+    => nrel_associative_connection: by_service_in_financial_investigation_authorities;
+
+    => nrel_legal_act: by_act_h12200175;
+    => nrel_legal_act: by_act_n29800104;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2437?langname=ru];
+    => nrel_etalon_online_idx: [2437];;

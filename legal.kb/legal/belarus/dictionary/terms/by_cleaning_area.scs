@@ -1,0 +1,31 @@
+
+by_cleaning_area
+    => nrel_main_idtf: [cleaning area] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадь уборки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плошча уборкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cleaning_area_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_t21503248p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42425?langname=ru];
+    => nrel_etalon_online_idx: [42425];;

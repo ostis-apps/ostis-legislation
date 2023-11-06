@@ -1,0 +1,35 @@
+
+by_automated_information_system_for_presenting_bank_information
+    => nrel_main_idtf: [automated information system for presenting bank information] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматизированная информационная система представления банковской информации ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматызаваная інфармацыйная сістэма прадстаўлення банкаўскай інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automated_information_system_for_presenting_bank_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_banks;
+    => nrel_associative_connection: by_bank_information;
+    => nrel_associative_connection: by_documentation_of_automated_information_system_representation_of_bank_information;
+    => nrel_associative_connection: by_client;
+    => nrel_associative_connection: by_recipients_of_bank_information;
+
+    => nrel_legal_act: by_act_b21833555;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30471?langname=ru];
+    => nrel_etalon_online_idx: [30471];;

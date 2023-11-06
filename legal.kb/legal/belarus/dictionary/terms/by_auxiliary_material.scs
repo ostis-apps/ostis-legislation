@@ -1,0 +1,52 @@
+
+by_auxiliary_material
+    => nrel_main_idtf: [auxiliary material] (* <- lang_en;; *);
+    => nrel_main_idtf: [вспомогательный материал] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапаможны матэрыял] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auxiliary_material_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_auxiliary_material_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_material;
+    => nrel_associative_connection: by_scientific_and_accessorial_material;
+    => nrel_associative_connection: by_other_materials;
+    => nrel_associative_connection: by_consumables;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_z61400189;
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13304?langname=ru];
+    => nrel_etalon_online_idx: [13304];;

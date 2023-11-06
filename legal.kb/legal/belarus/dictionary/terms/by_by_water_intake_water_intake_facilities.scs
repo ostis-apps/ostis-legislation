@@ -1,0 +1,20 @@
+
+by_by_water_intake_water_intake_facilities
+    => nrel_main_idtf: [by_water_intake_water_intake_facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [водозабор (водозаборные сооружения)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водазабор (водазаборныя збудаванні)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_bucket_type_water_intake;
+    => nrel_associative_connection: by_diversion_facility;
+    => nrel_associative_connection: by_straightening_works;
+    => nrel_associative_connection: by_street_vodorazbor;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13156?langname=ru];
+    => nrel_etalon_online_idx: [13156];;

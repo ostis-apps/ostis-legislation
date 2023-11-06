@@ -1,0 +1,34 @@
+
+by_international_standard_atmosphere
+    => nrel_main_idtf: [international standard atmosphere] (* <- lang_en;; *);
+    => nrel_main_idtf: [международная стандартная атмосфера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [міжнародная стандартная атмасфера] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_international_standard_atmosphere_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_barometric_altitude;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_cruising_echelon;
+    => nrel_associative_connection: by_bottom_edge_of_cloud_cover;
+
+    => nrel_legal_act: by_act_w22137064p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38435?langname=ru];
+    => nrel_etalon_online_idx: [38435];;

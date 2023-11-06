@@ -1,0 +1,35 @@
+
+by_donor_operator
+    => nrel_main_idtf: [donor operator] (* <- lang_en;; *);
+    => nrel_main_idtf: [оператор-донор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператар-донар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_donor_operator_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_donor;
+    => nrel_associative_connection: by_blood_donor_its_components;
+    => nrel_associative_connection: by_sex_germ_cell_donor;
+    => nrel_associative_connection: by_donorship_of_blood_its_components;
+    => nrel_associative_connection: by_sex_germ_cell_donorship;
+
+    => nrel_legal_act: by_act_c20601055;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18979?langname=ru];
+    => nrel_etalon_online_idx: [18979];;

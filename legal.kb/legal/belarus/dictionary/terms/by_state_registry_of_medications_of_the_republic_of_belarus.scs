@@ -1,0 +1,35 @@
+
+by_state_registry_of_medications_of_the_republic_of_belarus
+    => nrel_main_idtf: [state registry of medications of the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный реестр лекарственных средств республики беларусь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны рэестр лекавых сродкаў рэспублікі беларусь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_registry_of_medications_of_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_medications;
+    => nrel_associative_connection: by_permission_to_use_a_medicinal_product;
+    => nrel_associative_connection: by_republican_record_sheet_of_medicines;
+    => nrel_associative_connection: by_adulterated_medical_drug;
+
+    => nrel_legal_act: by_act_h10600161;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5621?langname=ru];
+    => nrel_etalon_online_idx: [5621];;

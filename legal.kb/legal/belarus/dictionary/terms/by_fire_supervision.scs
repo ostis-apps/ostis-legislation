@@ -1,0 +1,45 @@
+
+by_fire_supervision
+    => nrel_main_idtf: [fire supervision] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарный надзор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарны нагляд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_supervision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_fire_safety_norms;
+    => nrel_associative_connection: by_fire_evacuation_plan;
+    => nrel_associative_connection: by_fire_safety;
+    => nrel_associative_connection: by_fire_prevention;
+    => nrel_associative_connection: by_fire_teams;
+    => nrel_associative_connection: by_fire_safety_rules;
+    => nrel_associative_connection: by_forecasting_of_forest_fires;
+    => nrel_associative_connection: by_fire_protection;
+    => nrel_associative_connection: by_fireprevention_arrangements;
+    => nrel_associative_connection: by_fire_prevention_mode;
+    => nrel_associative_connection: by_system_of_ensuring_the_fire_safety;
+    => nrel_associative_connection: by_fire_safety_system;
+    => nrel_associative_connection: by_fire_prevention_system;
+    => nrel_associative_connection: by_fire_safety_requirement;
+    => nrel_associative_connection: by_fire_safety_requirements;
+
+    => nrel_legal_act: by_act_w60716496;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20475?langname=ru];
+    => nrel_etalon_online_idx: [20475];;

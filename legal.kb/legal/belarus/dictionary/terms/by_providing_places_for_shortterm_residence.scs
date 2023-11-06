@@ -1,0 +1,33 @@
+
+by_providing_places_for_shortterm_residence
+    => nrel_main_idtf: [providing places for short-term residence] (* <- lang_en;; *);
+    => nrel_main_idtf: [предоставление мест для краткосрочного проживания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадастаўленне месцаў для кароткатэрміновага пражывання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_providing_places_for_shortterm_residence_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accommodation_rent_contract;
+    => nrel_associative_connection: by_subrent_agreement;
+    => nrel_associative_connection: by_sojourn_permit;
+
+    => nrel_legal_act: by_act_hk1200428;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7675?langname=ru];
+    => nrel_etalon_online_idx: [7675];;

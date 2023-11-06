@@ -1,0 +1,36 @@
+
+by_refurbishment_of_property_repair
+    => nrel_main_idtf: [refurbishment of property (repair)] (* <- lang_en;; *);
+    => nrel_main_idtf: [восстановительный ремонт имущества (ремонт)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аднаўленчы рамонт маёмасці (рамонт)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_refurbishment_of_property_repair_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_serviceable_property;
+    => nrel_associative_connection: by_lost_destroyed_property;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_cost_of_property_repair;
+
+    => nrel_legal_act: by_act_z61400189;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13235?langname=ru];
+    => nrel_etalon_online_idx: [13235];;

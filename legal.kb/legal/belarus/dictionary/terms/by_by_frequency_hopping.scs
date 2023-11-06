@@ -1,0 +1,35 @@
+
+by_by_frequency_hopping
+    => nrel_main_idtf: [by_frequency_hopping] (* <- lang_en;; *);
+    => nrel_main_idtf: [скачкообразная перестройка частоты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скачкападобная перабудова частаты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_frequency_hopping_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_frequency_switching_time;
+    => nrel_associative_connection: by_relative_width_of_frequency_band;
+    => nrel_associative_connection: by_real_time_bandwidth;
+    => nrel_associative_connection: by_frequency_synthesizer;
+    => nrel_associative_connection: by_stability_parameter;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23279?langname=ru];
+    => nrel_etalon_online_idx: [23279];;

@@ -1,0 +1,38 @@
+
+by_national_cataloguing_body
+    => nrel_main_idtf: [national cataloguing body] (* <- lang_en;; *);
+    => nrel_main_idtf: [национальный орган каталогизации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нацыянальны орган каталагізацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_national_cataloguing_body_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_cataloguing_products_system;
+    => nrel_associative_connection: by_cataloging_of_audiovisual_documents;
+    => nrel_associative_connection: by_cataloguing_of_museum_items_accessorial_scientific_and_raw_materials;
+    => nrel_associative_connection: by_cataloging_of_scientific_and_technical_documentation;
+    => nrel_associative_connection: by_product_cataloging;
+    => nrel_associative_connection: by_national_cataloguing_system;
+    => nrel_associative_connection: by_national_cataloguing_center;
+    => nrel_associative_connection: by_specialized_organization_on_cataloguing;
+
+    => nrel_legal_act: by_act_c21301065;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17839?langname=ru];
+    => nrel_etalon_online_idx: [17839];;

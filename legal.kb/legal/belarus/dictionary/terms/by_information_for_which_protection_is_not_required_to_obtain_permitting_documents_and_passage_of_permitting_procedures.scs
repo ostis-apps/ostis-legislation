@@ -1,0 +1,32 @@
+
+by_information_for_which_protection_is_not_required_to_obtain_permitting_documents_and_passage_of_permitting_procedures
+    => nrel_main_idtf: [information for which protection is not required to obtain permitting documents and passage of permitting procedures] (* <- lang_en;; *);
+    => nrel_main_idtf: [информация, для защиты которой не требуются получение разрешительных документов и прохождение разрешительных процедур] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыя, для абароны якой не патрабуюцца атрыманне дазвольных дакументаў і праходжанне дазвольных працэдур] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_for_which_protection_is_not_required_to_obtain_permitting_documents_and_passage_of_permitting_procedures_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_approval_documents;
+    => nrel_associative_connection: by_approval_procedures;
+
+    => nrel_legal_act: by_act_pd1700008;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27571?langname=ru];
+    => nrel_etalon_online_idx: [27571];;

@@ -1,0 +1,23 @@
+
+by_sale_of_goods_as_per_specimens
+    => nrel_main_idtf: [sale of goods as per specimens] (* <- lang_en;; *);
+    => nrel_main_idtf: [продажа товаров по образцам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [продаж тавараў па ўзорах] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_sellingexhibition_of_goods;
+    => nrel_associative_connection: by_demonstration;
+    => nrel_associative_connection: by_method_of_goods_sale;
+    => nrel_associative_connection: by_sale;
+    => nrel_associative_connection: by_sale_of_goods;
+    => nrel_associative_connection: by_transaction_for_the_sales_of_goods_works_services;
+    => nrel_associative_connection: by_trade_by_sample;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9674?langname=ru];
+    => nrel_etalon_online_idx: [9674];;

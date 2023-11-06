@@ -1,0 +1,20 @@
+
+by_machine_room
+    => nrel_main_idtf: [machine room] (* <- lang_en;; *);
+    => nrel_main_idtf: [машинное помещение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [машыннае памяшканне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_cabin;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_engine_room;
+    => nrel_associative_connection: by_service_premise;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11951?langname=ru];
+    => nrel_etalon_online_idx: [11951];;

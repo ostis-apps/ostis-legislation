@@ -1,0 +1,80 @@
+
+by_trainer
+    => nrel_main_idtf: [trainer] (* <- lang_en;; *);
+    => nrel_main_idtf: [тренер] (* <- lang_ru;; *);
+    => nrel_main_idtf: [трэнер] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trainer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trainer_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trainer_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_coaches;
+    => nrel_associative_connection: by_national_and_combined_sport_teams_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_pedagogical_activity_in_the_sphere_of_physical_culture_and_sport;
+    => nrel_associative_connection: by_review_of_named_scholarships_of_the_president_of_the_republic_of_belarus_in_the_field_of_physical_culture_and_sport_appointed_to_athletes_coaches_and_other_specialists;
+    => nrel_associative_connection: by_sportsman_staff;
+    => nrel_associative_connection: by_honorary_titles;
+    => nrel_associative_connection: by_professional_coach;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_mass_sport_work;
+    => nrel_associative_connection: by_sport_regime;
+    => nrel_associative_connection: by_sport_reserve;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_highest_class_sportsmen;
+    => nrel_associative_connection: by_sport_judge;
+    => nrel_associative_connection: by_coachteacher_of_sports_for_related_types_of_training;
+    => nrel_associative_connection: by_educational_and_training_process;
+
+    => nrel_legal_act: by_act_h11400125;
+    => nrel_legal_act: by_act_c21300383;
+    => nrel_legal_act: by_act_n20900109;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7718?langname=ru];
+    => nrel_etalon_online_idx: [7718];;

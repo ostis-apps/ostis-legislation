@@ -1,0 +1,35 @@
+
+by_by_pain_behind_the_sternum
+    => nrel_main_idtf: [by_pain_behind_the_sternum] (* <- lang_en;; *);
+    => nrel_main_idtf: [боли за грудиной] (* <- lang_ru;; *);
+    => nrel_main_idtf: [болі за грудзінай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pain_behind_the_sternum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gastrooesophageal_reflux_disease;
+    => nrel_associative_connection: by_gastroesophageal_reflux;
+    => nrel_associative_connection: by_gastroenterology;
+    => nrel_associative_connection: by_hypersensitive_esophagus;
+    => nrel_associative_connection: by_dysphagia;
+
+    => nrel_legal_act: by_act_w22340053p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42636?langname=ru];
+    => nrel_etalon_online_idx: [42636];;

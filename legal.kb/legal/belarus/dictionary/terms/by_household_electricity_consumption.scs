@@ -1,0 +1,36 @@
+
+by_household_electricity_consumption
+    => nrel_main_idtf: [household electricity consumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [бытовое потребление электрической энергии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бытавое спажыванне электрычнай энергіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_household_electricity_consumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unrecorded_consumption_of_public_services;
+    => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_household_abonent;
+    => nrel_associative_connection: by_household_users;
+    => nrel_associative_connection: by_unified_operational_dispatch_control_in_the_electric_power_industry;
+    => nrel_associative_connection: by_limit_value_of_active_power_consumption_for_consumers_with_connected_power_of_250_kva_and_above;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8456?langname=ru];
+    => nrel_etalon_online_idx: [8456];;

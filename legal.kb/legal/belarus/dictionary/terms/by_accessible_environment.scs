@@ -1,0 +1,39 @@
+
+by_accessible_environment
+    => nrel_main_idtf: [accessible environment] (* <- lang_en;; *);
+    => nrel_main_idtf: [доступная среда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [даступнае асяроддзе] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accessible_environment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_assistive_devices_and_technologies;
+    => nrel_associative_connection: by_audio_description;
+    => nrel_associative_connection: by_maximum_possible_degree;
+    => nrel_associative_connection: by_limitation_of_life_activity;
+    => nrel_associative_connection: by_rampant;
+    => nrel_associative_connection: by_sound_appliance;
+    => nrel_associative_connection: by_social_support_for_persons_with_disabilities;
+    => nrel_associative_connection: by_elements_of_accessible_environment;
+    => nrel_associative_connection: by_clear_language;
+
+    => nrel_legal_act: by_act_h12200183;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40719?langname=ru];
+    => nrel_etalon_online_idx: [40719];;

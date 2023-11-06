@@ -1,0 +1,53 @@
+
+by_means_of_technical_protection_of_information
+    => nrel_main_idtf: [means of technical protection of information] (* <- lang_en;; *);
+    => nrel_main_idtf: [средства технической защиты информации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сродкі тэхнічнай абароны інфармацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_technical_protection_of_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_means_of_technical_protection_of_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_protection;
+    => nrel_associative_connection: by_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_system_of_information_protection;
+    => nrel_associative_connection: by_information_protection_means;
+    => nrel_associative_connection: by_means_of_cryptographic_protection_of_information;
+    => nrel_associative_connection: by_technical_protection_of_information;
+    => nrel_associative_connection: by_leakage_of_information_through_technical_channels;
+
+    => nrel_legal_act: by_act_p31300196;
+    => nrel_legal_act: by_act_i00000136;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24053?langname=ru];
+    => nrel_etalon_online_idx: [24053];;

@@ -1,0 +1,55 @@
+
+by_archive_documents_users
+    => nrel_main_idtf: [archive documents users] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователь архивных документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнік архіўных дакументаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_documents_users_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_documents_users_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive_document;
+    => nrel_associative_connection: by_document_of_the_national_archive_fund;
+    => nrel_associative_connection: by_national_archive_fund;
+    => nrel_associative_connection: by_review_of_archival_documents;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_permanent_storage_of_archive_documents;
+    => nrel_associative_connection: by_publication_activity_of_the_archive;
+    => nrel_associative_connection: by_owner_of_the_documents_of_the_national_archive_fund;
+
+    => nrel_legal_act: by_act_h11100323;
+    => nrel_legal_act: by_act_n29900018;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7662?langname=ru];
+    => nrel_etalon_online_idx: [7662];;

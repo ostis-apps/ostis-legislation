@@ -1,0 +1,38 @@
+
+by_passenger_turnover
+    => nrel_main_idtf: [passenger turnover] (* <- lang_en;; *);
+    => nrel_main_idtf: [пассажирооборот] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пасажыраабарот] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_turnover_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_passenger_transportation_index_and_passenger_turnover_index;
+    => nrel_associative_connection: by_passenger_service;
+    => nrel_associative_connection: by_volume_of_passenger_transportation;
+    => nrel_associative_connection: by_passenger;
+    => nrel_associative_connection: by_passenger_transportation_at_destination_return_unladen;
+    => nrel_associative_connection: by_passenger_transportation_by_inland_water_transport_of_general_use;
+    => nrel_associative_connection: by_passenger_transportation_by_trams_in_suburban_communication;
+    => nrel_associative_connection: by_visitor_capacity;
+
+    => nrel_legal_act: by_act_t21803947p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27679?langname=ru];
+    => nrel_etalon_online_idx: [27679];;

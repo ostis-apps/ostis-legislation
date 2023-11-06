@@ -1,0 +1,36 @@
+
+by_granulate
+    => nrel_main_idtf: [granulate] (* <- lang_en;; *);
+    => nrel_main_idtf: [гранулят] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гранулят] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_granulate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_suspended_particle;
+    => nrel_associative_connection: by_emission_of_pollutants;
+    => nrel_associative_connection: by_dosage_form;
+    => nrel_associative_connection: by_industrial_production_of_medicinal_products;
+    => nrel_associative_connection: by_tablet_mass;
+    => nrel_associative_connection: by_particle;
+
+    => nrel_legal_act: by_act_w20004452;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41499?langname=ru];
+    => nrel_etalon_online_idx: [41499];;

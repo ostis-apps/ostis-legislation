@@ -1,0 +1,68 @@
+
+by_variable_interest_income
+    => nrel_main_idtf: [variable interest income] (* <- lang_en;; *);
+    => nrel_main_idtf: [переменный процентный доход] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пераменны працэнтны даход] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_interest_income_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_interest_income_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_variable_interest_income_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_income;
+    => nrel_associative_connection: by_permanent_interest_income;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interest_income;
+    => nrel_associative_connection: by_interest_risk_of_the_bank_portfolio;
+    => nrel_associative_connection: by_current_cost;
+
+    => nrel_legal_act: by_act_w21833340;
+    => nrel_legal_act: by_act_w21732286;
+    => nrel_legal_act: by_act_b21631370;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8249?langname=ru];
+    => nrel_etalon_online_idx: [8249];;

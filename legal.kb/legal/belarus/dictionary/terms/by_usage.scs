@@ -1,0 +1,70 @@
+
+by_usage
+    => nrel_main_idtf: [usage] (* <- lang_en;; *);
+    => nrel_main_idtf: [использование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выкарыстанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_usage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_usage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_usage_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_exploitation_of_the_air_space_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_use_of_renewable_energy_sources;
+    => nrel_associative_connection: by_use_of_precious_metals_and_precious_stones;
+    => nrel_associative_connection: by_use_of_narcotic_drugs_psychotropic_substances_their_precursors_analogues;
+    => nrel_associative_connection: by_use_of_ozonedepleting_substances;
+    => nrel_associative_connection: by_use_of_waste;
+    => nrel_associative_connection: by_usage_of_radio_spectrum;
+    => nrel_associative_connection: by_radiofrequency;
+
+    => nrel_legal_act: by_act_w20817945;
+    => nrel_legal_act: by_act_i01600045;
+    => nrel_legal_act: by_act_i00500047;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9217?langname=ru];
+    => nrel_etalon_online_idx: [9217];;

@@ -1,0 +1,37 @@
+
+by_nominal_speed
+    => nrel_main_idtf: [nominal speed] (* <- lang_en;; *);
+    => nrel_main_idtf: [номинальная скорость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [намінальная хуткасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nominal_speed_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cabin;
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_hydraulic_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_nominal_load_capacity;
+    => nrel_associative_connection: by_nominal_burden;
+    => nrel_associative_connection: by_nominal_speed;
+
+    => nrel_legal_act: by_act_w22339538p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11987?langname=ru];
+    => nrel_etalon_online_idx: [11987];;

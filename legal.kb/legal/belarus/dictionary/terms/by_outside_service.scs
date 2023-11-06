@@ -1,0 +1,33 @@
+
+by_outside_service
+    => nrel_main_idtf: [outside service] (* <- lang_en;; *);
+    => nrel_main_idtf: [выездное обслуживание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выязное абслугоўванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_outside_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_outreach_services_of_consumers_with_rural_complex_reception_point_to_receive_orders_to_provide_domestic_services;
+    => nrel_associative_connection: by_selfservice;
+    => nrel_associative_connection: by_social_service;
+
+    => nrel_legal_act: by_act_c20401590;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42481?langname=ru];
+    => nrel_etalon_online_idx: [42481];;

@@ -1,0 +1,40 @@
+
+by_scene_tablet
+    => nrel_main_idtf: [scene tablet] (* <- lang_en;; *);
+    => nrel_main_idtf: [планшет сцены] (* <- lang_ru;; *);
+    => nrel_main_idtf: [планшэт сцэны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_scene_tablet_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tour_events;
+    => nrel_associative_connection: by_decoration;
+    => nrel_associative_connection: by_gridirons;
+    => nrel_associative_connection: by_portal_gap_portal;
+    => nrel_associative_connection: by_proscenium;
+    => nrel_associative_connection: by_ramp;
+    => nrel_associative_connection: by_own_stage;
+    => nrel_associative_connection: by_sofits;
+    => nrel_associative_connection: by_stage;
+    => nrel_associative_connection: by_variety;
+
+    => nrel_legal_act: by_act_w20613774;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20200?langname=ru];
+    => nrel_etalon_online_idx: [20200];;

@@ -1,0 +1,22 @@
+
+by_informatization_object_owner
+    => nrel_main_idtf: [informatization object owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец объекта информатизации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік аб'екта інфарматызацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_information_technology;
+    => nrel_associative_connection: by_informatization_object_categorization;
+    => nrel_associative_connection: by_object_of_informatization;
+    => nrel_associative_connection: by_informatization_objects;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13045?langname=ru];
+    => nrel_etalon_online_idx: [13045];;

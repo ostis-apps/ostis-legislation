@@ -1,0 +1,38 @@
+
+by_pyrotechnic_composition
+    => nrel_main_idtf: [pyrotechnic composition] (* <- lang_en;; *);
+    => nrel_main_idtf: [пиротехнический состав] (* <- lang_ru;; *);
+    => nrel_main_idtf: [піратэхнічны састаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pyrotechnic_composition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_manufacturing_of_industrial_explosives;
+    => nrel_associative_connection: by_individual_explosive;
+    => nrel_associative_connection: by_pyrotechnic_products;
+    => nrel_associative_connection: by_pyrotechnic_substances;
+    => nrel_associative_connection: by_pyrotechnic_element;
+    => nrel_associative_connection: by_pyrotechnic_substance;
+    => nrel_associative_connection: by_firework;
+    => nrel_associative_connection: by_fireworks;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8955?langname=ru];
+    => nrel_etalon_online_idx: [8955];;

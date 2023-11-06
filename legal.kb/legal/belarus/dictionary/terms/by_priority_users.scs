@@ -1,0 +1,40 @@
+
+by_priority_users
+    => nrel_main_idtf: [priority users] (* <- lang_en;; *);
+    => nrel_main_idtf: [приоритетные пользователи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прыярытэтныя карыстальнікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_priority_users_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_limitation_of_networks_and_telecommunication_means_use;
+    => nrel_associative_connection: by_telecommunications_operator;
+    => nrel_associative_connection: by_package_of_telecommunication_services;
+    => nrel_associative_connection: by_telecommunication_services_user;
+    => nrel_associative_connection: by_electronic_communication_service_provider;
+    => nrel_associative_connection: by_priority_use_of_networks_and_telecommunications;
+    => nrel_associative_connection: by_suspension_of_use_of_telecommunication_networks_and_facilities;
+    => nrel_associative_connection: by_telecommunications_network;
+    => nrel_associative_connection: by_telecommunication_services;
+    => nrel_associative_connection: by_telecommunication_network_operation_center;
+
+    => nrel_legal_act: by_act_w20716241;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21336?langname=ru];
+    => nrel_etalon_online_idx: [21336];;

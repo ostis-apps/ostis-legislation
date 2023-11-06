@@ -1,0 +1,41 @@
+
+by_card_with_original_mark
+    => nrel_main_idtf: [card with original mark] (* <- lang_en;; *);
+    => nrel_main_idtf: [карточка с оригинальной маркой] (* <- lang_ru;; *);
+    => nrel_main_idtf: [картка з арыгінальнай маркай] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_card_with_original_mark_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_signs_of_postal_payment;
+    => nrel_associative_connection: by_envelope_with_original_stamp;
+    => nrel_associative_connection: by_marked_postcard;
+    => nrel_associative_connection: by_marked_postal_set;
+    => nrel_associative_connection: by_overprint_on_postage_stamp;
+    => nrel_associative_connection: by_postage_stamp;
+    => nrel_associative_connection: by_postal_communication;
+    => nrel_associative_connection: by_mails;
+    => nrel_associative_connection: by_standard_postal_stamp;
+    => nrel_associative_connection: by_artistic_labeled_postcard;
+    => nrel_associative_connection: by_art_postage_stamps;
+
+    => nrel_legal_act: by_act_w20819574;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15787?langname=ru];
+    => nrel_etalon_online_idx: [15787];;

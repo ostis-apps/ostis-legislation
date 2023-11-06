@@ -1,0 +1,36 @@
+
+by_by_safety_when_handling_radioactive_waste
+    => nrel_main_idtf: [by_safety_when_handling_radioactive_waste] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасность при обращении с радиоактивными отходами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспека пры звароце з радыеактыўнымі адходамі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_safety_when_handling_radioactive_waste_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_deep_disposal_of_radioactive_waste;
+    => nrel_associative_connection: by_bloadcoeled_protection;
+    => nrel_associative_connection: by_radioactive_waste_disposal;
+    => nrel_associative_connection: by_container_for_radioactive_waste_waster_drum;
+    => nrel_associative_connection: by_radioactive_waste_treatment;
+    => nrel_associative_connection: by_period_of_potential_danger_of_radioactive_waste;
+
+    => nrel_legal_act: by_act_w210p0293;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43375?langname=ru];
+    => nrel_etalon_online_idx: [43375];;

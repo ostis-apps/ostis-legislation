@@ -1,0 +1,36 @@
+
+by_by_clinical_and_functional_diagnosis
+    => nrel_main_idtf: [by_clinical_and_functional_diagnosis] (* <- lang_en;; *);
+    => nrel_main_idtf: [клинико-функциональный диагноз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клініка-функцыянальны дыягназ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_clinical_and_functional_diagnosis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_diagnosis;
+    => nrel_associative_connection: by_final_diagnosis;
+    => nrel_associative_connection: by_clinical_diagnosis;
+    => nrel_associative_connection: by_laboratory_criteria_for_confirming_the_diagnosis_of_congenital_rubella_syndrome;
+    => nrel_associative_connection: by_final_diagnosis;
+    => nrel_associative_connection: by_preliminary_diagnosis;
+
+    => nrel_legal_act: by_act_w22340418;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43459?langname=ru];
+    => nrel_etalon_online_idx: [43459];;

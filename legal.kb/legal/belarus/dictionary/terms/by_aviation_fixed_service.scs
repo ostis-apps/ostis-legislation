@@ -1,0 +1,19 @@
+
+by_aviation_fixed_service
+    => nrel_main_idtf: [aviation fixed service] (* <- lang_en;; *);
+    => nrel_main_idtf: [авиационная фиксированная служба] (* <- lang_ru;; *);
+    => nrel_main_idtf: [авіяцыйная фіксаваная служба] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_air_navigation_servicing;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_navigation_equipment;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4676?langname=ru];
+    => nrel_etalon_online_idx: [4676];;

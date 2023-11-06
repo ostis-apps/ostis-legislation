@@ -1,0 +1,70 @@
+
+by_state_needs
+    => nrel_main_idtf: [state needs] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственные нужды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўныя патрэбы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_needs_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_needs_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_needs_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_contract_for_the_delivery_of_goods_for_public_needs;
+    => nrel_associative_connection: by_local_needs;
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_defense_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_environmental_protection;
+    => nrel_associative_connection: by_crop_production_of_the_2016_harvest_supplied_for_republican_state_needs;
+    => nrel_associative_connection: by_mining;
+    => nrel_associative_connection: by_special_cargoes;
+
+    => nrel_legal_act: by_act_hk1400149;
+    => nrel_legal_act: by_act_hk0800425;
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5071?langname=ru];
+    => nrel_etalon_online_idx: [5071];;

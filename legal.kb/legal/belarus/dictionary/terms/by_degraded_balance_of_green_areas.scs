@@ -1,0 +1,38 @@
+
+by_degraded_balance_of_green_areas
+    => nrel_main_idtf: [degraded balance of green areas] (* <- lang_en;; *);
+    => nrel_main_idtf: [ухудшение баланса озелененной территории] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пагаршэнне балансу азялененай тэрыторыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_degraded_balance_of_green_areas_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_landscaped_green_space;
+    => nrel_associative_connection: by_trees_bushes_pruning;
+    => nrel_associative_connection: by_planting_of_greenery;
+    => nrel_associative_connection: by_greened_territory;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_flora;
+    => nrel_associative_connection: by_green_territories_system;
+    => nrel_associative_connection: by_environment_of_growth_of_objects_of_flora;
+
+    => nrel_legal_act: by_act_h10300205;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26181?langname=ru];
+    => nrel_etalon_online_idx: [26181];;

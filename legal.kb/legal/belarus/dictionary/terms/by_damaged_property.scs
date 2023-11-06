@@ -1,0 +1,46 @@
+
+by_damaged_property
+    => nrel_main_idtf: [damaged property] (* <- lang_en;; *);
+    => nrel_main_idtf: [поврежденное имущество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пашкоджаная маёмасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_damaged_property_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_loss_of_property;
+    => nrel_associative_connection: by_exploitation_defect;
+    => nrel_associative_connection: by_property_identification;
+    => nrel_associative_connection: by_property_conclusion_on_the_destruction_damage_of_property_belonging_to_the_insured_person_or_its_relatives_in_connection_with_perfomance_of_duties_of_military_service;
+    => nrel_associative_connection: by_serviceable_property;
+    => nrel_associative_connection: by_quality_of_property;
+    => nrel_associative_connection: by_mechanical_flaw;
+    => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_lost_destroyed_property;
+    => nrel_associative_connection: by_repair_materials;
+    => nrel_associative_connection: by_risk_of_accidental_loss_of_property;
+    => nrel_associative_connection: by_cost_of_elimination_of_defects_in_operation;
+    => nrel_associative_connection: by_destruction_of_property;
+    => nrel_associative_connection: by_destroyed_dead_property;
+    => nrel_associative_connection: by_disposal_of_property;
+    => nrel_associative_connection: by_part_component_of_the_property;
+
+    => nrel_legal_act: by_act_z61400189;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20292?langname=ru];
+    => nrel_etalon_online_idx: [20292];;

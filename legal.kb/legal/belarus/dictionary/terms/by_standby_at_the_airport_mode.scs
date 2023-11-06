@@ -1,0 +1,35 @@
+
+by_standby_at_the_airport_mode
+    => nrel_main_idtf: [standby at the airport mode] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим ожидания в аэропорту] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым чакання ў аэрапорце] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_standby_at_the_airport_mode_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_flying_hours;
+    => nrel_associative_connection: by_preflight_training;
+    => nrel_associative_connection: by_standby_mode;
+    => nrel_associative_connection: by_management_system_for_risk_factors_associated_with_fatigue;
+    => nrel_associative_connection: by_service_time;
+
+    => nrel_legal_act: by_act_w22339535;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42302?langname=ru];
+    => nrel_etalon_online_idx: [42302];;

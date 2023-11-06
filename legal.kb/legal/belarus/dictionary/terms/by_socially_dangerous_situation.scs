@@ -1,0 +1,35 @@
+
+by_socially_dangerous_situation
+    => nrel_main_idtf: [socially dangerous situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [социально опасное положение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сацыяльна небяспечнае становішча] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_socially_dangerous_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_policy_on_supporting_children_in_socially_dangerous_situations_and_children_in_need_of_special_parenting;
+    => nrel_associative_connection: by_minors_being_in_a_socially_dangerous_situation;
+    => nrel_associative_connection: by_support_of_children_at_social_risk_and_children_in_need_of_special_parenting;
+    => nrel_associative_connection: by_support_for_children_recognized_as_being_in_a_socially_dangerous_situation_children_recognized_as_in_need_of_state_protection_and_children_in_need_of_special_conditions_of_upbringing;
+    => nrel_associative_connection: by_child_in_a_socially_dangerous_situation;
+
+    => nrel_legal_act: by_act_hk9900278;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23681?langname=ru];
+    => nrel_etalon_online_idx: [23681];;

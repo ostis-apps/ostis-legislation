@@ -1,0 +1,39 @@
+
+by_heating_appliances
+    => nrel_main_idtf: [heating appliances] (* <- lang_en;; *);
+    => nrel_main_idtf: [отопительные приборы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ацяпляльныя прыборы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_heating_appliances_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_operation_mode_of_thermal_generation_devices;
+    => nrel_associative_connection: by_burner_of_infrared_radiation;
+    => nrel_associative_connection: by_nonheating_furnace;
+    => nrel_associative_connection: by_hot_works;
+    => nrel_associative_connection: by_heating;
+    => nrel_associative_connection: by_dust_preparation_plant;
+    => nrel_associative_connection: by_heat_distributors_on_heating_appliances;
+    => nrel_associative_connection: by_heat_generating_devices;
+    => nrel_associative_connection: by_electric_heating;
+
+    => nrel_legal_act: by_act_w22035259p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29045?langname=ru];
+    => nrel_etalon_online_idx: [29045];;

@@ -1,0 +1,56 @@
+
+by_floating_object
+    => nrel_main_idtf: [floating object] (* <- lang_en;; *);
+    => nrel_main_idtf: [плавучий объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плывучы аб'ект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_floating_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_floating_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_towed_convoy;
+    => nrel_associative_connection: by_use_of_mechanical_vehicles_that_are_not_subject_to_use_on_roads_as_well_as_floating_objects;
+    => nrel_associative_connection: by_crossing_courses;
+    => nrel_associative_connection: by_floating_establishment;
+    => nrel_associative_connection: by_floating_equipment;
+    => nrel_associative_connection: by_jetty_facilities;
+    => nrel_associative_connection: by_maintenance_of_motor_vehicles_that_are_not_subject_to_use_on_roads_as_well_as_floating_objects;
+    => nrel_associative_connection: by_connection_of_floating_material;
+    => nrel_associative_connection: by_rack_unit;
+    => nrel_associative_connection: by_successful_group;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_n21900092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20158?langname=ru];
+    => nrel_etalon_online_idx: [20158];;

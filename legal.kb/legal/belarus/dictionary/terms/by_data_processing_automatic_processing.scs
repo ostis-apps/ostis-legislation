@@ -1,0 +1,34 @@
+
+by_data_processing_automatic_processing
+    => nrel_main_idtf: [data processing (automatic processing)] (* <- lang_en;; *);
+    => nrel_main_idtf: [обработка данных (автоматическая обработка)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [апрацоўка даных (аўтаматычная апрацоўка)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_data_processing_automatic_processing_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hardware_and_software_complex_of_data_processing_centers;
+    => nrel_associative_connection: by_hardware;
+    => nrel_associative_connection: by_data_processing;
+    => nrel_associative_connection: by_information_processing;
+
+    => nrel_legal_act: by_act_w21934635p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33121?langname=ru];
+    => nrel_etalon_online_idx: [33121];;

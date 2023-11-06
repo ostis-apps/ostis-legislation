@@ -1,0 +1,38 @@
+
+by_economic_company_bodies
+    => nrel_main_idtf: [economic company bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы хозяйственного общества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы гаспадарчага таварыства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_economic_company_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_documents_of_the_governing_body_of_the_economic_company;
+    => nrel_associative_connection: by_executive_body_of_economic_company;
+    => nrel_associative_connection: by_full_form_of_general_meeting_of_participants_of_business_entity_implementation;
+    => nrel_associative_connection: by_authorized_meeting_of_the_board_of_economic_company_directors;
+    => nrel_associative_connection: by_authorized_general_meeting_of_participants_of_economic_company;
+    => nrel_associative_connection: by_representative_office_of_economic_company;
+    => nrel_associative_connection: by_business_entities;
+    => nrel_associative_connection: by_business_entities_established_in_accordance_with_the_legislation_on_privatization;
+
+    => nrel_legal_act: by_act_v19202020;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19301?langname=ru];
+    => nrel_etalon_online_idx: [19301];;

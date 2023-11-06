@@ -1,0 +1,35 @@
+
+by_by_labor_rate_setting
+    => nrel_main_idtf: [by_labor_rate_setting] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормирование труда] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарміраванне працы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_labor_rate_setting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_interbranch_standards_for_labor_normalization;
+    => nrel_associative_connection: by_method_of_labor_normalization;
+    => nrel_associative_connection: by_normative_materials_for_labor_normalization;
+    => nrel_associative_connection: by_worktime_standards;
+    => nrel_associative_connection: by_branch_normatives_for_labor_normalization;
+
+    => nrel_legal_act: by_act_w22340380p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43565?langname=ru];
+    => nrel_etalon_online_idx: [43565];;

@@ -1,0 +1,36 @@
+
+by_stock_of_fire_extinguishing_agent
+    => nrel_main_idtf: [stock of fire extinguishing agent] (* <- lang_en;; *);
+    => nrel_main_idtf: [запас огнетушащего вещества] (* <- lang_ru;; *);
+    => nrel_main_idtf: [запас вогнегасільнага рэчыва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_stock_of_fire_extinguishing_agent_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intensity_of_supply_of_fire_extinguishing_substance;
+    => nrel_associative_connection: by_normative_intensity_of_supply_of_fire_extinguishing_substance;
+    => nrel_associative_connection: by_calculated_quantity_of_extinguishing_agents;
+    => nrel_associative_connection: by_fire_extinguishing_standard_mass_concentration;
+    => nrel_associative_connection: by_nozzle_head;
+    => nrel_associative_connection: by_fire_automatic;
+
+    => nrel_legal_act: by_act_w22035463p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40860?langname=ru];
+    => nrel_etalon_online_idx: [40860];;

@@ -1,0 +1,36 @@
+
+by_truck_tracktor
+    => nrel_main_idtf: [truck tracktor] (* <- lang_en;; *);
+    => nrel_main_idtf: [автомобиль-тягач] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтамабіль-цягач] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_truck_tracktor_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automobile;
+    => nrel_associative_connection: by_towage_contract;
+    => nrel_associative_connection: by_towing_of_vehicle_without_placing_it_in_secured_car_parking;
+    => nrel_associative_connection: by_forced_towing_evacuation_of_the_vehicle;
+    => nrel_associative_connection: by_saddle_road_train;
+    => nrel_associative_connection: by_saddle_tractor;
+
+    => nrel_legal_act: by_act_p31900239;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7499?langname=ru];
+    => nrel_etalon_online_idx: [7499];;

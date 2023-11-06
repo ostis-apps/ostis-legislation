@@ -1,0 +1,39 @@
+
+by_destruction_of_food_products
+    => nrel_main_idtf: [destruction of food products] (* <- lang_en;; *);
+    => nrel_main_idtf: [уничтожение пищевой продукции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [знішчэнне харчовай прадукцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_destruction_of_food_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner_of_food_products;
+    => nrel_associative_connection: by_return_of_food_products;
+    => nrel_associative_connection: by_release_of_food_products_in_circulation;
+    => nrel_associative_connection: by_withdrawal_of_food_products;
+    => nrel_associative_connection: by_food_additive;
+    => nrel_associative_connection: by_food_product_of_slaughter;
+    => nrel_associative_connection: by_business_subject_that_issued_food_products_into_circulation;
+    => nrel_associative_connection: by_established_requirements;
+    => nrel_associative_connection: by_disposal_of_food_products;
+
+    => nrel_legal_act: by_act_c21900035;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31698?langname=ru];
+    => nrel_etalon_online_idx: [31698];;

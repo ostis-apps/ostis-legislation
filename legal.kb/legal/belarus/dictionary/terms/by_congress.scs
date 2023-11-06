@@ -1,0 +1,54 @@
+
+by_congress
+    => nrel_main_idtf: [congress] (* <- lang_en;; *);
+    => nrel_main_idtf: [съезд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [з'езд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_congress_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_congress_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_supreme_governing_body_of_an_economic_company;
+    => nrel_associative_connection: by_control_and_revision_commission;
+    => nrel_associative_connection: by_supervisory_board;
+    => nrel_associative_connection: by_governing_body;
+    => nrel_associative_connection: by_management_board;
+    => nrel_associative_connection: by_presidium_of_the_board;
+    => nrel_associative_connection: by_chamber_of_commerce_and_industry;
+    => nrel_associative_connection: by_transport_interchange_at_different_levels;
+
+    => nrel_legal_act: by_act_h10300208;
+    => nrel_legal_act: by_act_p30700472;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24593?langname=ru];
+    => nrel_etalon_online_idx: [24593];;

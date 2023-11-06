@@ -1,0 +1,38 @@
+
+by_protection_of_information_of_the_electronic_data_bank
+    => nrel_main_idtf: [protection of information of the electronic data bank] (* <- lang_en;; *);
+    => nrel_main_idtf: [защита информации электронного банка данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абарона інфармацыі электроннага банка дадзеных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_protection_of_information_of_the_electronic_data_bank_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_databank;
+    => nrel_associative_connection: by_maintenance_of_electronic_databank;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_documentation;
+    => nrel_associative_connection: by_unauthorized_influence_on_information;
+    => nrel_associative_connection: by_organizational_measures_for_information_protection;
+    => nrel_associative_connection: by_system_of_information_protection;
+    => nrel_associative_connection: by_electronic_databank;
+
+    => nrel_legal_act: by_act_c21100912;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27944?langname=ru];
+    => nrel_etalon_online_idx: [27944];;

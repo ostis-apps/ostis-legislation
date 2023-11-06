@@ -1,0 +1,36 @@
+
+by_fire_and_technical_minimum
+    => nrel_main_idtf: [fire and technical minimum] (* <- lang_en;; *);
+    => nrel_main_idtf: [пожарно-технический минимум] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пажарна-тэхнічны мінімум] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fire_and_technical_minimum_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hot_works;
+    => nrel_associative_connection: by_fire_hazardous_production;
+    => nrel_associative_connection: by_fire_hazard;
+    => nrel_associative_connection: by_fire_hazardous_works;
+    => nrel_associative_connection: by_fire_drill;
+    => nrel_associative_connection: by_fire_prevention_mode;
+
+    => nrel_legal_act: by_act_pd1700007;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41580?langname=ru];
+    => nrel_etalon_online_idx: [41580];;

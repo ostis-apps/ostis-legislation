@@ -1,0 +1,42 @@
+
+by_creditability
+    => nrel_main_idtf: [creditability] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредитоспособность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдытаздольнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_creditability_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_differentiated_payments;
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_credit_history;
+    => nrel_associative_connection: by_credit_contract;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_creditor;
+    => nrel_associative_connection: by_assessment_of_the_creditworthiness_of_the_applicant_borrower;
+    => nrel_associative_connection: by_solvency;
+    => nrel_associative_connection: by_payments_in_equal_shares;
+    => nrel_associative_connection: by_budgeted_balance_sheet;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_scoring_of_creditability;
+
+    => nrel_legal_act: by_act_b21832980;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1708?langname=ru];
+    => nrel_etalon_online_idx: [1708];;

@@ -1,0 +1,48 @@
+
+by_users_of_highways
+    => nrel_main_idtf: [users of highways] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователи автомобильных дорог] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнікі аўтамабільных дарог] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_users_of_highways_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_road_of_restricted_use;
+    => nrel_associative_connection: by_public_highway;
+    => nrel_associative_connection: by_owners_of_roads;
+    => nrel_associative_connection: by_military_highway;
+    => nrel_associative_connection: by_railways_and_automobile_roads_survivability_their_sections_objects;
+    => nrel_associative_connection: by_barrage_of_railways_and_automobile_roads_their_sections_objects;
+    => nrel_associative_connection: by_collateral_cost;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_user_of_tollroad;
+    => nrel_associative_connection: by_representative_of_technical_supervision;
+    => nrel_associative_connection: by_demining_of_railway_and_highways_their_sites_objects;
+    => nrel_associative_connection: by_reserve_area;
+    => nrel_associative_connection: by_technical_support_service;
+    => nrel_associative_connection: by_road_maintenance;
+    => nrel_associative_connection: by_maintenance_of_roads;
+    => nrel_associative_connection: by_road_owner_price;
+
+    => nrel_legal_act: by_act_v19403434;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20600?langname=ru];
+    => nrel_etalon_online_idx: [20600];;

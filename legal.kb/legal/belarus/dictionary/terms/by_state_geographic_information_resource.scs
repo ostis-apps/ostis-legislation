@@ -1,0 +1,35 @@
+
+by_state_geographic_information_resource
+    => nrel_main_idtf: [state geographic information resource] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный географический информационный ресурс ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны геаграфічны інфармацыйны рэсурс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_geographic_information_resource_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geographic_information_system;
+    => nrel_associative_connection: by_geographical_information_resource;
+    => nrel_associative_connection: by_geographical_information_resource_of_earth_remote_sensing_data;
+    => nrel_associative_connection: by_geographical_information_resource_for_special_purpose;
+    => nrel_associative_connection: by_state_atlas_information_system_national_atlas_of_belarus;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41146?langname=ru];
+    => nrel_etalon_online_idx: [41146];;

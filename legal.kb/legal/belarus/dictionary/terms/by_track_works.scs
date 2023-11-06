@@ -1,0 +1,55 @@
+
+by_track_works
+    => nrel_main_idtf: [track works] (* <- lang_en;; *);
+    => nrel_main_idtf: [путевые работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пуцявыя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_track_works_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_track_works_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_straightening_works;
+    => nrel_associative_connection: by_bottom_cleaning_works;
+    => nrel_associative_connection: by_dredging;
+    => nrel_associative_connection: by_survey_works;
+    => nrel_associative_connection: by_works;
+    => nrel_associative_connection: by_content_of_navigation_equipment;
+    => nrel_associative_connection: by_maintenance_of_navigable_hydraulic_structures;
+    => nrel_associative_connection: by_navigable_hydraulic_structures;
+    => nrel_associative_connection: by_trawl_work;
+
+    => nrel_legal_act: by_act_hk0200118;
+    => nrel_legal_act: by_act_n21900092;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21876?langname=ru];
+    => nrel_etalon_online_idx: [21876];;

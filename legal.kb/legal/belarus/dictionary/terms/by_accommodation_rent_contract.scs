@@ -1,0 +1,43 @@
+
+by_accommodation_rent_contract
+    => nrel_main_idtf: [accommodation rent contract] (* <- lang_en;; *);
+    => nrel_main_idtf: [договор найма жилого помещения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дагавор найму жылога памяшкання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accommodation_rent_contract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_accommodation_rent_contract_lease_contract;
+    => nrel_associative_connection: by_subrent_agreement;
+    => nrel_associative_connection: by_documents_establishing_the_right_to_own_or_use_of_housing_premises;
+    => nrel_associative_connection: by_residential_premise;
+    => nrel_associative_connection: by_residential_premises_in_a_dormitory;
+    => nrel_associative_connection: by_residential_premises_of_commercial_use;
+    => nrel_associative_connection: by_residential_premises_of_mobile_fund;
+    => nrel_associative_connection: by_social_housing_premise;
+    => nrel_associative_connection: by_residential_premises_of_special_housing_fund;
+    => nrel_associative_connection: by_residential_premises;
+    => nrel_associative_connection: by_renter;
+    => nrel_associative_connection: by_providing_places_for_shortterm_residence;
+
+    => nrel_legal_act: by_act_hk1200428;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/1443?langname=ru];
+    => nrel_etalon_online_idx: [1443];;

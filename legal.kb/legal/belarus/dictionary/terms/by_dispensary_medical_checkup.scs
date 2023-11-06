@@ -1,0 +1,28 @@
+
+by_dispensary_medical_checkup
+    => nrel_main_idtf: [dispensary medical checkup] (* <- lang_en;; *);
+    => nrel_main_idtf: [диспансерный медицинский осмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дыспансерны медыцынскі агляд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_group_of_dispensary_observation;
+    => nrel_associative_connection: by_preventive_medical_examination;
+    => nrel_associative_connection: by_dispensary_observation;
+    => nrel_associative_connection: by_dispensary_observation_for_narcological_patients;
+    => nrel_associative_connection: by_performance_criteria;
+    => nrel_associative_connection: by_medical_inspection;
+    => nrel_associative_connection: by_oncological_dispensary_regional_urban_interdistrict;
+    => nrel_associative_connection: by_risk_factor_assessment;
+    => nrel_associative_connection: by_the_first_group_of_health_i;
+    => nrel_associative_connection: by_periodical_medical_inspection;
+    => nrel_associative_connection: by_permanent_medical_observation;
+    => nrel_associative_connection: by_syndrome_of_dependence_on_alcohol_narcotic_drugs_psychotropic_substances_their_analogues;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11543?langname=ru];
+    => nrel_etalon_online_idx: [11543];;

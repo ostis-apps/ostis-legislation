@@ -1,0 +1,36 @@
+
+by_cost_of_the_basic_analogue_of_the_vehicle
+    => nrel_main_idtf: [cost of the basic analogue of the vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [стоимость базового аналога транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кошт базавага аналагу транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cost_of_the_basic_analogue_of_the_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analogous_vehicle;
+    => nrel_associative_connection: by_basic_serial_trim_level_of_the_vehicle;
+    => nrel_associative_connection: by_base_analogue_of_the_vehicle;
+    => nrel_associative_connection: by_payers_of_motor_vehicle_purchase_tax;
+    => nrel_associative_connection: by_representative_sample;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24237?langname=ru];
+    => nrel_etalon_online_idx: [24237];;

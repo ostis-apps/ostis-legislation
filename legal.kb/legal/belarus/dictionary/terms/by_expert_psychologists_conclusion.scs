@@ -1,0 +1,35 @@
+
+by_expert_psychologists_conclusion
+    => nrel_main_idtf: [expert psychologist's conclusion] (* <- lang_en;; *);
+    => nrel_main_idtf: [заключение эксперта-психолога] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заключэнне эксперта-псіхолага] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expert_psychologists_conclusion_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_psychiatristnarcologist_psychologist;
+    => nrel_associative_connection: by_psychotherapist_psychologist;
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_conclusion_of_the_expertpsychiatrist;
+    => nrel_associative_connection: by_expert;
+
+    => nrel_legal_act: by_act_w21327502p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40821?langname=ru];
+    => nrel_etalon_online_idx: [40821];;

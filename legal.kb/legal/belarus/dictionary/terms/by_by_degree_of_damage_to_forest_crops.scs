@@ -1,0 +1,23 @@
+
+by_by_degree_of_damage_to_forest_crops
+    => nrel_main_idtf: [by_degree_of_damage_to_forest_crops] (* <- lang_en;; *);
+    => nrel_main_idtf: [степень повреждения лесных культур] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ступень пашкоджання лясных культур] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_plantation_forest_plants;
+    => nrel_associative_connection: by_damage_to_crops;
+    => nrel_associative_connection: by_damage_to_forest_crops;
+    => nrel_associative_connection: by_damaged_crops;
+    => nrel_associative_connection: by_damaged_forest_plantations;
+    => nrel_associative_connection: by_reconstruction_of_forest_crops;
+    => nrel_associative_connection: by_reconstruction_of_lowvalue_forest_plantations;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24230?langname=ru];
+    => nrel_etalon_online_idx: [24230];;

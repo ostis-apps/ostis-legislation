@@ -1,0 +1,39 @@
+
+by_precious_metal_mass
+    => nrel_main_idtf: [precious metal mass] (* <- lang_en;; *);
+    => nrel_main_idtf: [масса драгоценного металла] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маса каштоўнага металу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_precious_metal_mass_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_makeweight;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_mass_in_ligature;
+    => nrel_associative_connection: by_mass_in_cleanness;
+    => nrel_associative_connection: by_ligature_mass;
+    => nrel_associative_connection: by_total_mass;
+    => nrel_associative_connection: by_platinum;
+    => nrel_associative_connection: by_estimated_price_for_precious_metal_alloy;
+    => nrel_associative_connection: by_excessive_losses;
+
+    => nrel_legal_act: by_act_w20716834;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16912?langname=ru];
+    => nrel_etalon_online_idx: [16912];;

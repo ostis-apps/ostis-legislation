@@ -1,0 +1,35 @@
+
+by_containment
+    => nrel_main_idtf: [containment] (* <- lang_en;; *);
+    => nrel_main_idtf: [контейнмент (containment – герметичная оболочка) ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантэйнмент (containment – герметычная абалонка)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_containment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_environment;
+    => nrel_associative_connection: by_radiation_safety;
+    => nrel_associative_connection: by_radiation_protection;
+    => nrel_associative_connection: by_security_system;
+    => nrel_associative_connection: by_nuclear_reactor;
+
+    => nrel_legal_act: by_act_c21800211;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28234?langname=ru];
+    => nrel_etalon_online_idx: [28234];;

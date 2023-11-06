@@ -1,0 +1,40 @@
+
+by_compressive_strength_class_of_concrete_concrete_class
+    => nrel_main_idtf: [compressive strength class of concrete (concrete class)] (* <- lang_en;; *);
+    => nrel_main_idtf: [класс бетона по прочности на сжатие (класс бетона)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клас бетону па моцы на скарачэнне (клас бетону)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compressive_strength_class_of_concrete_concrete_class_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mesh_reinforcement;
+    => nrel_associative_connection: by_reinforcing_cage;
+    => nrel_associative_connection: by_basic_shrinkage_of_concrete;
+    => nrel_associative_connection: by_guaranteed_strength_of_concrete_for_axial_compression;
+    => nrel_associative_connection: by_lightweight_concrete_density_class;
+    => nrel_associative_connection: by_structural_fittings;
+    => nrel_associative_connection: by_mark_of_stressed_concrete_by_selfstressing;
+    => nrel_associative_connection: by_tensioned_reinforcement;
+    => nrel_associative_connection: by_calculated_strength_of_nonstressed_reinforcement;
+    => nrel_associative_connection: by_characteristic_reinforcement_strength;
+
+    => nrel_legal_act: by_act_w220p0511;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35663?langname=ru];
+    => nrel_etalon_online_idx: [35663];;

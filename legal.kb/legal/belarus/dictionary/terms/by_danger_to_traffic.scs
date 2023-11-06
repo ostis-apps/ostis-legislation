@@ -1,0 +1,35 @@
+
+by_danger_to_traffic
+    => nrel_main_idtf: [danger to traffic] (* <- lang_en;; *);
+    => nrel_main_idtf: [опасность для движения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [небяспека для руху] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_danger_to_traffic_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_hazardous_factor;
+    => nrel_associative_connection: by_obstacle_to_road_traffic;
+    => nrel_associative_connection: by_participant_of_road_traffic;
+    => nrel_associative_connection: by_road_users;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18944?langname=ru];
+    => nrel_etalon_online_idx: [18944];;

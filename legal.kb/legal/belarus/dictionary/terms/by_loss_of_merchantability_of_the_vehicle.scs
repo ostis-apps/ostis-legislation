@@ -1,0 +1,36 @@
+
+by_loss_of_merchantability_of_the_vehicle
+    => nrel_main_idtf: [loss of merchantability of the vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [утрата товарной стоимости транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [страта таварнага кошту транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_loss_of_merchantability_of_the_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vehicle_inspection;
+    => nrel_associative_connection: by_damaged_vehicle;
+    => nrel_associative_connection: by_reasonable_availability_of_car_service_organization;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+    => nrel_associative_connection: by_physical_deterioration;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25723?langname=ru];
+    => nrel_etalon_online_idx: [25723];;

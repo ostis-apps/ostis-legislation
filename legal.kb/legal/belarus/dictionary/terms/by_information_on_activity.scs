@@ -1,0 +1,41 @@
+
+by_information_on_activity
+    => nrel_main_idtf: [information on activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [информация о деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інфармацыя аб дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_information_on_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_group;
+    => nrel_associative_connection: by_bank_holding;
+    => nrel_associative_connection: by_information_on_activity_of_the_bank;
+    => nrel_associative_connection: by_information_on_activity_of_a_bank_group_and_or_bank_holding;
+    => nrel_associative_connection: by_information_on_the_activity_of_insurance_broker;
+    => nrel_associative_connection: by_information_on_the_activity_of_insurance_company;
+    => nrel_associative_connection: by_consolidated_statements;
+    => nrel_associative_connection: by_consolidated_reporting_on_the_activity_of_bank_group_and_or_bank_holding;
+    => nrel_associative_connection: by_primary_activity;
+    => nrel_associative_connection: by_participant_of_bank_holding;
+    => nrel_associative_connection: by_participant_of_bank_group;
+
+    => nrel_legal_act: by_act_b20716052;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15487?langname=ru];
+    => nrel_etalon_online_idx: [15487];;

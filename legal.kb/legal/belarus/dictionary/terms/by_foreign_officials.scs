@@ -1,0 +1,34 @@
+
+by_foreign_officials
+    => nrel_main_idtf: [foreign officials] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранные должностные лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежныя службовыя асобы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_foreign_officials_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_officials;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_persons_from_foreign_states_committing_unfriendly_acts;
+
+    => nrel_legal_act: by_act_h11500305;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5900?langname=ru];
+    => nrel_etalon_online_idx: [5900];;

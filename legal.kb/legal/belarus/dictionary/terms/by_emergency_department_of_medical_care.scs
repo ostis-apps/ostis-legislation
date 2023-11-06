@@ -1,0 +1,20 @@
+
+by_emergency_department_of_medical_care
+    => nrel_main_idtf: [emergency department of medical care] (* <- lang_en;; *);
+    => nrel_main_idtf: [отделение скорой (неотложной) медицинской помощи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аддзяленне хуткай (неадкладнай) медыцынскай дапамогі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_ambulance_brigade_exit;
+    => nrel_associative_connection: by_ambulance_brigade_call;
+    => nrel_associative_connection: by_branch;
+    => nrel_associative_connection: by_ambulance_emergency_medical_care_substation;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19485?langname=ru];
+    => nrel_etalon_online_idx: [19485];;

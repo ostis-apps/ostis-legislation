@@ -1,0 +1,57 @@
+
+by_disabled_citizen
+    => nrel_main_idtf: [disabled citizen] (* <- lang_en;; *);
+    => nrel_main_idtf: [нетрудоспособный гражданин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [непрацаздольны грамадзянін] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_disabled_citizen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_disabled_citizen_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_citizen;
+    => nrel_associative_connection: by_document_certificating_temporary_incapacity_for_work;
+    => nrel_associative_connection: by_persons_with_disabilities;
+    => nrel_associative_connection: by_nonworking_citizens;
+    => nrel_associative_connection: by_disability_family;
+    => nrel_associative_connection: by_persons_incapable_of_work;
+    => nrel_associative_connection: by_destitute_senior_people_and_disabled_citizens;
+    => nrel_associative_connection: by_single_disabled_citizen;
+    => nrel_associative_connection: by_child_with_disabilities;
+    => nrel_associative_connection: by_adult_disabled_citizens;
+
+    => nrel_legal_act: by_act_w21934603p;
+    => nrel_legal_act: by_act_w21327424;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11414?langname=ru];
+    => nrel_etalon_online_idx: [11414];;

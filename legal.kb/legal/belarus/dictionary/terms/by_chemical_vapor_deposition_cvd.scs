@@ -1,0 +1,34 @@
+
+by_chemical_vapor_deposition_cvd
+    => nrel_main_idtf: [chemical vapor deposition (cvd)] (* <- lang_en;; *);
+    => nrel_main_idtf: [химическое осаждение из паровой фазы (cvd)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хімічнае асаджэнне з паравой фазы (cvd)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemical_vapor_deposition_cvd_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ion_implantation;
+    => nrel_associative_connection: by_ion_deposition;
+    => nrel_associative_connection: by_metal_products;
+    => nrel_associative_connection: by_physical_vapour_deposition_obtained_by_heating;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26134?langname=ru];
+    => nrel_etalon_online_idx: [26134];;

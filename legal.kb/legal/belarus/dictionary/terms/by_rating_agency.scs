@@ -1,0 +1,37 @@
+
+by_rating_agency
+    => nrel_main_idtf: [rating agency] (* <- lang_en;; *);
+    => nrel_main_idtf: [рейтинговое агентство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэйтынгавае агенцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rating_agency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_leading_rating_analyst;
+    => nrel_associative_connection: by_foreign_international_rating_agency;
+    => nrel_associative_connection: by_departure_from_methodology;
+    => nrel_associative_connection: by_confirmation;
+    => nrel_associative_connection: by_staff_of_the_rating_agency;
+    => nrel_associative_connection: by_rating_activity;
+    => nrel_associative_connection: by_rating_analyst;
+
+    => nrel_legal_act: by_act_c21900530;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32360?langname=ru];
+    => nrel_etalon_online_idx: [32360];;

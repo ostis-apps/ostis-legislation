@@ -1,0 +1,37 @@
+
+by_persons_equated_to_state_officials_equated_to_them_persons
+    => nrel_main_idtf: [persons equated to state officials (equated to them persons)] (* <- lang_en;; *);
+    => nrel_main_idtf: [лица, приравненные к государственным должностным лицам (приравненные к ним лица)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобы, прыраўнаваныя да дзяржаўных службовых асоб (прыраўнаваныя да іх асобы)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_persons_equated_to_state_officials_equated_to_them_persons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_deputy;
+    => nrel_associative_connection: by_deputy_of_a_local_council_of_deputies;
+    => nrel_associative_connection: by_deputy_of_the_house_of_representatives_of_the_national_assembly_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_the_council_of_the_republic;
+    => nrel_associative_connection: by_member_of_the_council_of_the_republic;
+
+    => nrel_legal_act: by_act_h11500305;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16680?langname=ru];
+    => nrel_etalon_online_idx: [16680];;

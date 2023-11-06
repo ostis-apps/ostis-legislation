@@ -1,0 +1,33 @@
+
+by_platform_for_automobile_tanks_for_fuel_transportation
+    => nrel_main_idtf: [platform for automobile tanks for fuel transportation] (* <- lang_en;; *);
+    => nrel_main_idtf: [площадка для автомобильной цистерны для транспортирования топлива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пляцоўка для аўтамабільнай цыстэрны для транспартавання паліва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_platform_for_automobile_tanks_for_fuel_transportation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_filling_station;
+    => nrel_associative_connection: by_engine_fuel;
+    => nrel_associative_connection: by_filling_island;
+
+    => nrel_legal_act: by_act_w22136505p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37054?langname=ru];
+    => nrel_etalon_online_idx: [37054];;

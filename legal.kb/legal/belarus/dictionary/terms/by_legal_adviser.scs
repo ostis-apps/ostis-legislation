@@ -1,0 +1,32 @@
+
+by_legal_adviser
+    => nrel_main_idtf: [legal adviser] (* <- lang_en;; *);
+    => nrel_main_idtf: [юридический советник] (* <- lang_ru;; *);
+    => nrel_main_idtf: [юрыдычны саветнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_legal_adviser_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_servicemen;
+    => nrel_associative_connection: by_armed_forces_of_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_w20920969;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9120?langname=ru];
+    => nrel_etalon_online_idx: [9120];;

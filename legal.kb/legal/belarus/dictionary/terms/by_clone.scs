@@ -1,0 +1,51 @@
+
+by_clone
+    => nrel_main_idtf: [clone] (* <- lang_en;; *);
+    => nrel_main_idtf: [клон] (* <- lang_ru;; *);
+    => nrel_main_idtf: [клон] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_clone_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive_of_plus_trees_clones;
+    => nrel_associative_connection: by_forest_plants;
+    => nrel_associative_connection: by_plants;
+    => nrel_associative_connection: by_selection_achievements_in_plant_growing;
+    => nrel_associative_connection: by_plant_seeds;
+
+    => nrel_legal_act: by_act_w21631597;
+    => nrel_legal_act: by_act_w21631600;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12044?langname=ru];
+    => nrel_etalon_online_idx: [12044];;

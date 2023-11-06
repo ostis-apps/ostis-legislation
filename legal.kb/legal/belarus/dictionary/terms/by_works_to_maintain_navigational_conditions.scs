@@ -1,0 +1,34 @@
+
+by_works_to_maintain_navigational_conditions
+    => nrel_main_idtf: [works to maintain navigational conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [работы по поддержанию навигационных условий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работы па падтрыманні навігацыйных умоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_works_to_maintain_navigational_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_navigation_map;
+    => nrel_associative_connection: by_dredging;
+    => nrel_associative_connection: by_content_of_navigation_equipment;
+    => nrel_associative_connection: by_maintenance_of_navigable_hydraulic_structures;
+
+    => nrel_legal_act: by_act_w22036204;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36313?langname=ru];
+    => nrel_etalon_online_idx: [36313];;

@@ -1,0 +1,34 @@
+
+by_group_cylinder_installation
+    => nrel_main_idtf: [group cylinder installation] (* <- lang_en;; *);
+    => nrel_main_idtf: [групповая баллонная установка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [групавая балонная ўстаноўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_group_cylinder_installation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_cylinder;
+    => nrel_associative_connection: by_gas_supply;
+    => nrel_associative_connection: by_individual_balloon_installation;
+    => nrel_associative_connection: by_gas_supply_system;
+
+    => nrel_legal_act: by_act_w22339537p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42187?langname=ru];
+    => nrel_etalon_online_idx: [42187];;

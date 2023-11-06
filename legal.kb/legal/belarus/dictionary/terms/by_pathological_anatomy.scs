@@ -1,0 +1,38 @@
+
+by_pathological_anatomy
+    => nrel_main_idtf: [pathological anatomy] (* <- lang_en;; *);
+    => nrel_main_idtf: [патологическая анатомия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паталагічная анатомія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pathological_anatomy_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_antimite_processing;
+    => nrel_associative_connection: by_asphyxia;
+    => nrel_associative_connection: by_doctor_pathologist;
+    => nrel_associative_connection: by_materials_of_pathologoanatomical_expertise;
+    => nrel_associative_connection: by_objects_of_pathologoanatomical_expertise;
+    => nrel_associative_connection: by_compulsory_autopsy;
+    => nrel_associative_connection: by_postmortem_examination;
+    => nrel_associative_connection: by_sectioning_material;
+
+    => nrel_legal_act: by_act_w22035541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33746?langname=ru];
+    => nrel_etalon_online_idx: [33746];;

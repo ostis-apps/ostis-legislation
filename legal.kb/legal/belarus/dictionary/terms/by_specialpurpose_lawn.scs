@@ -1,0 +1,38 @@
+
+by_specialpurpose_lawn
+    => nrel_main_idtf: [special-purpose lawn] (* <- lang_en;; *);
+    => nrel_main_idtf: [газон специального назначения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газон спецыяльнага прызначэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_specialpurpose_lawn_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bonity_of_garden;
+    => nrel_associative_connection: by_decorative_deciduous_shrubs;
+    => nrel_associative_connection: by_wood_species;
+    => nrel_associative_connection: by_protective_plantations;
+    => nrel_associative_connection: by_meadow_lawn;
+    => nrel_associative_connection: by_mauritanian_lawn;
+    => nrel_associative_connection: by_ordinary_lawn;
+    => nrel_associative_connection: by_parterre_lawn;
+
+    => nrel_legal_act: by_act_w01933903p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33847?langname=ru];
+    => nrel_etalon_online_idx: [33847];;

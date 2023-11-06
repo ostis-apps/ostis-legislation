@@ -1,0 +1,37 @@
+
+by_passenger_train_with_increased_length
+    => nrel_main_idtf: [passenger train with increased length] (* <- lang_en;; *);
+    => nrel_main_idtf: [поезд пассажирский повышенной длины] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягнік пасажырскі павышанай даўжыні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_passenger_train_with_increased_length_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_passenger_carriages;
+    => nrel_associative_connection: by_passenger_train;
+    => nrel_associative_connection: by_highspeed_passenger_train;
+    => nrel_associative_connection: by_longpassenger_train;
+    => nrel_associative_connection: by_high_speed_passenger_train;
+    => nrel_associative_connection: by_connected_passenger_train;
+    => nrel_associative_connection: by_postbaggage_train;
+
+    => nrel_legal_act: by_act_w21530414p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34223?langname=ru];
+    => nrel_etalon_online_idx: [34223];;

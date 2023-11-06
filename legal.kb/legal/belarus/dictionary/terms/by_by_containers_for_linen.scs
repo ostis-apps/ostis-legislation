@@ -1,0 +1,35 @@
+
+by_by_containers_for_linen
+    => nrel_main_idtf: [by_containers_for_linen] (* <- lang_en;; *);
+    => nrel_main_idtf: [тара для белья] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тара для бялізны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_containers_for_linen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hospital_institution;
+    => nrel_associative_connection: by_closed_container;
+    => nrel_associative_connection: by_bag;
+    => nrel_associative_connection: by_containers_for_waste_medical_devices_body_fluids_medical_waste_cytostatic_drugs;
+    => nrel_associative_connection: by_pure_zone;
+
+    => nrel_legal_act: by_act_c22000130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32917?langname=ru];
+    => nrel_etalon_online_idx: [32917];;

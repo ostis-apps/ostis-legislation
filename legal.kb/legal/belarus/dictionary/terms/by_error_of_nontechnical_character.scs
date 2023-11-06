@@ -1,0 +1,38 @@
+
+by_error_of_nontechnical_character
+    => nrel_main_idtf: [error of non-technical character] (* <- lang_en;; *);
+    => nrel_main_idtf: [ошибка нетехнического характера] (* <- lang_ru;; *);
+    => nrel_main_idtf: [памылка нетэхнічнага характару] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_error_of_nontechnical_character_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_uniformity;
+    => nrel_associative_connection: by_obvious_mistakes;
+    => nrel_associative_connection: by_error;
+    => nrel_associative_connection: by_general_error;
+    => nrel_associative_connection: by_technical_error;
+    => nrel_associative_connection: by_erroneous_note;
+    => nrel_associative_connection: by_technical_error;
+    => nrel_associative_connection: by_technical_errors;
+
+    => nrel_legal_act: by_act_h10200133;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19749?langname=ru];
+    => nrel_etalon_online_idx: [19749];;

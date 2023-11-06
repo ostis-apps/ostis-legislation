@@ -1,0 +1,39 @@
+
+by_source_of_emergency_situation
+    => nrel_main_idtf: [source of emergency situation] (* <- lang_en;; *);
+    => nrel_main_idtf: [источник чрезвычайной ситуации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыніца надзвычайнай сітуацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_source_of_emergency_situation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_zone;
+    => nrel_associative_connection: by_information_resources_of_monitoring_and_forecasting_system_of_emergency_situations;
+    => nrel_associative_connection: by_emergency_situations_liquidation;
+    => nrel_associative_connection: by_local_emergency_situation;
+    => nrel_associative_connection: by_local_emergency_situation;
+    => nrel_associative_connection: by_violation_of_peoples_living_conditions;
+    => nrel_associative_connection: by_prevention_of_emergency_situations;
+    => nrel_associative_connection: by_situation_headquarters_for_response_emergency_management_of_the_republican_level;
+    => nrel_associative_connection: by_emergency;
+
+    => nrel_legal_act: by_act_w20818675;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15667?langname=ru];
+    => nrel_etalon_online_idx: [15667];;

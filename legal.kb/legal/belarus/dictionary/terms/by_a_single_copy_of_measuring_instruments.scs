@@ -1,0 +1,38 @@
+
+by_a_single_copy_of_measuring_instruments
+    => nrel_main_idtf: [a single copy of measuring instruments] (* <- lang_en;; *);
+    => nrel_main_idtf: [единичный экземпляр средств измерений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адзінкавы экзэмпляр сродкаў вымярэнняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_a_single_copy_of_measuring_instruments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_a_single_copy_of_the_standard_sample;
+    => nrel_associative_connection: by_sign_of_approval_of_the_type_of_measuring_instruments_reference_samples;
+    => nrel_associative_connection: by_measuring_instrument_design;
+    => nrel_associative_connection: by_modification_of_the_measuring_instrument;
+    => nrel_associative_connection: by_certified_reference_material;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_type_of_measuring_instrument;
+    => nrel_associative_connection: by_type_of_reference_sample;
+
+    => nrel_legal_act: by_act_w22136831;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38155?langname=ru];
+    => nrel_etalon_online_idx: [38155];;

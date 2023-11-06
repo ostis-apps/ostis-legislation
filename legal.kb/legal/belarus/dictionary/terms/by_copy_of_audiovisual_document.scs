@@ -1,0 +1,41 @@
+
+by_copy_of_audiovisual_document
+    => nrel_main_idtf: [copy of audiovisual document] (* <- lang_en;; *);
+    => nrel_main_idtf: [копия аудиовизуального документа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [копія аўдыявізуальнага дакумента] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_copy_of_audiovisual_document_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_platter;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_record_on_electronic_media;
+    => nrel_associative_connection: by_internegative;
+    => nrel_associative_connection: by_interpositive;
+    => nrel_associative_connection: by_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by_maintenance_of_audiovisual_documents_safe;
+    => nrel_associative_connection: by_originals_of_audiovisual_documents;
+    => nrel_associative_connection: by_thematic_selection_of_copies_of_audiovisual_documents;
+    => nrel_associative_connection: by____;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16316?langname=ru];
+    => nrel_etalon_online_idx: [16316];;

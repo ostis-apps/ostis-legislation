@@ -1,0 +1,36 @@
+
+by_by_permanent_geodetic_point
+    => nrel_main_idtf: [by_permanent_geodetic_point] (* <- lang_en;; *);
+    => nrel_main_idtf: [постоянно действующий геодезический пункт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пастаянна дзеючы геадэзічны пункт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_permanent_geodetic_point_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_geodesic_and_mapping_activity;
+    => nrel_associative_connection: by_geodetic_station;
+    => nrel_associative_connection: by_border_of_geodesic_point;
+    => nrel_associative_connection: by_catalogue_of_geodesic_points_coordinates;
+    => nrel_associative_connection: by_geodetic_point;
+    => nrel_associative_connection: by_center_of_geodesic_point;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41159?langname=ru];
+    => nrel_etalon_online_idx: [41159];;

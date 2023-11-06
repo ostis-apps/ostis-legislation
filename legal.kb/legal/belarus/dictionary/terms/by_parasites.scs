@@ -1,0 +1,37 @@
+
+by_parasites
+    => nrel_main_idtf: [parasites] (* <- lang_en;; *);
+    => nrel_main_idtf: [паразиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паразіты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_parasites_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bacteremia;
+    => nrel_associative_connection: by_type_of_microorganism_pathogenparasite;
+    => nrel_associative_connection: by_doctor_parasitologist;
+    => nrel_associative_connection: by_helminths;
+    => nrel_associative_connection: by_definitive_hosts;
+    => nrel_associative_connection: by_ixodidae_tick;
+    => nrel_associative_connection: by_focus_of_malaria;
+
+    => nrel_legal_act: by_act_w22035541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33730?langname=ru];
+    => nrel_etalon_online_idx: [33730];;

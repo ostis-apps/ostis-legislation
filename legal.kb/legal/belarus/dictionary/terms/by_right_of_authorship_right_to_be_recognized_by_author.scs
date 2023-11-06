@@ -1,0 +1,38 @@
+
+by_right_of_authorship_right_to_be_recognized_by_author
+    => nrel_main_idtf: [right of authorship (right to be recognized by author)] (* <- lang_en;; *);
+    => nrel_main_idtf: [право авторства (право признаваться автором)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [права аўтарства (права прызнавацца аўтарам)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_right_of_authorship_right_to_be_recognized_by_author_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_author;
+    => nrel_associative_connection: by_author_authors_collective;
+    => nrel_associative_connection: by_author_coauthors_of_scientific_and_technical_information;
+    => nrel_associative_connection: by_author_of_invention_utility_model_industrial_design;
+    => nrel_associative_connection: by_author_of_topology;
+    => nrel_associative_connection: by_authors_certificate_for_invention;
+    => nrel_associative_connection: by_intellectual_property;
+    => nrel_associative_connection: by_right_of_authorship;
+
+    => nrel_legal_act: by_act_h10200160;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20910?langname=ru];
+    => nrel_etalon_online_idx: [20910];;

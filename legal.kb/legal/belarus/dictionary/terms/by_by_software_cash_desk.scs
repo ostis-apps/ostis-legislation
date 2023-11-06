@@ -1,0 +1,39 @@
+
+by_by_software_cash_desk
+    => nrel_main_idtf: [by_software_cash_desk] (* <- lang_en;; *);
+    => nrel_main_idtf: [программная касса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграмная каса] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_software_cash_desk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_information_system_of_the_software_cash_register_system;
+    => nrel_associative_connection: by_cash_office;
+    => nrel_associative_connection: by_cash_equipment;
+    => nrel_associative_connection: by_cash_operations;
+    => nrel_associative_connection: by_operating_cash_office;
+    => nrel_associative_connection: by_user_of_the_software_cash_register;
+    => nrel_associative_connection: by_software_cashier_system;
+    => nrel_associative_connection: by_operator_control_tool;
+    => nrel_associative_connection: by_data_processing_center_for_software_cash_system_operator;
+
+    => nrel_legal_act: by_act_c21100924;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28427?langname=ru];
+    => nrel_etalon_online_idx: [28427];;

@@ -1,0 +1,35 @@
+
+by_unique_scientific_equipment
+    => nrel_main_idtf: [unique scientific equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [уникальное научное оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унікальнае навуковае абсталяванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unique_scientific_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_use_of_equipment;
+    => nrel_associative_connection: by_equipment;
+    => nrel_associative_connection: by_software;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_center_for_shared_use_of_unique_scientific_equipment;
+
+    => nrel_legal_act: by_act_w21732196;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25459?langname=ru];
+    => nrel_etalon_online_idx: [25459];;

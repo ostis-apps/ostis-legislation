@@ -1,0 +1,33 @@
+
+by_by_pedagogical_activity_of_specialists
+    => nrel_main_idtf: [by_pedagogical_activity_of_specialists] (* <- lang_en;; *);
+    => nrel_main_idtf: [педагогическая деятельность специалистов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [педагагічная дзейнасць спецыялістаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pedagogical_activity_of_specialists_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_pedagogical__activity;
+    => nrel_associative_connection: by_pedagogical_diagnostics;
+    => nrel_associative_connection: by__pedagogical_skill;
+
+    => nrel_legal_act: by_act_w22340350p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43424?langname=ru];
+    => nrel_etalon_online_idx: [43424];;

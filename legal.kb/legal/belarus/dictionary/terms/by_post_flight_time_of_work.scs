@@ -1,0 +1,26 @@
+
+by_post_flight_time_of_work
+    => nrel_main_idtf: [post flight time of work ] (* <- lang_en;; *);
+    => nrel_main_idtf: [время послеполетной работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [час пасляпалётнай работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_basic_time;
+    => nrel_associative_connection: by_aircraft_flight_time;
+    => nrel_associative_connection: by_postflight_rest_time;
+    => nrel_associative_connection: by_time_of_preflight_rest;
+    => nrel_associative_connection: by_preflight_preparation_time;
+    => nrel_associative_connection: by_working_time_on_the_ground;
+    => nrel_associative_connection: by_flight_crew;
+    => nrel_associative_connection: by_aircraft_flight;
+    => nrel_associative_connection: by_afterflight_training_in_the_crew_flight_debrief;
+    => nrel_associative_connection: by_increased_flying_time_per_month;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13287?langname=ru];
+    => nrel_etalon_online_idx: [13287];;

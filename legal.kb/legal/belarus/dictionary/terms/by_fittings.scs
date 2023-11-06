@@ -1,0 +1,75 @@
+
+by_fittings
+    => nrel_main_idtf: [fittings] (* <- lang_en;; *);
+    => nrel_main_idtf: [арматура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арматура] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fittings_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fittings_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fittings_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mesh_reinforcement;
+    => nrel_associative_connection: by_reinforcement_product;
+    => nrel_associative_connection: by_reinforcing_cage;
+    => nrel_associative_connection: by_reinforced_stonemasonry;
+    => nrel_associative_connection: by_shutoff_valves;
+    => nrel_associative_connection: by_reinforcement_class_for_tensile_strength_reinforcement_class;
+    => nrel_associative_connection: by_tensioned_reinforcement;
+    => nrel_associative_connection: by_simple_reinforcement_works;
+    => nrel_associative_connection: by_working_fittings;
+    => nrel_associative_connection: by_calculated_strength_of_nonstressed_reinforcement;
+    => nrel_associative_connection: by_complex_reinforcement_works;
+    => nrel_associative_connection: by_characteristic_reinforcement_strength;
+    => nrel_associative_connection: by_partial_coefficient_gs_for_reinforcement;
+
+    => nrel_legal_act: by_act_w221p0028;
+    => nrel_legal_act: by_act_w220p0511;
+    => nrel_legal_act: by_act_f91300137;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/35648?langname=ru];
+    => nrel_etalon_online_idx: [35648];;

@@ -1,0 +1,33 @@
+
+by_by_conference_research_competition
+    => nrel_main_idtf: [by_conference_research_competition] (* <- lang_en;; *);
+    => nrel_main_idtf: [конференция (конкурс работ исследовательского характера)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [канферэнцыя (конкурс работ даследчага характару)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_conference_research_competition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_research;
+    => nrel_associative_connection: by_scientific_research_works;
+    => nrel_associative_connection: by_tournament;
+
+    => nrel_legal_act: by_act_w21328005;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43581?langname=ru];
+    => nrel_etalon_online_idx: [43581];;

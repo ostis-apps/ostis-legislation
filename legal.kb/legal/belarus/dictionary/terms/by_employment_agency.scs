@@ -1,0 +1,38 @@
+
+by_employment_agency
+    => nrel_main_idtf: [employment agency] (* <- lang_en;; *);
+    => nrel_main_idtf: [агентство по трудоустройству] (* <- lang_ru;; *);
+    => nrel_main_idtf: [агенцтва па працаўладкаванні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_employment_agency_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agent;
+    => nrel_associative_connection: by_agency;
+    => nrel_associative_connection: by_contract;
+    => nrel_associative_connection: by_employment_assistance_contract;
+    => nrel_associative_connection: by_contract_of_employment;
+    => nrel_associative_connection: by_work;
+    => nrel_associative_connection: by_legal_entities;
+    => nrel_associative_connection: by_legal_entity;
+
+    => nrel_legal_act: by_act_h10600125;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12350?langname=ru];
+    => nrel_etalon_online_idx: [12350];;

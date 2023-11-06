@@ -1,0 +1,33 @@
+
+by_automatic_radio_direction_finder
+    => nrel_main_idtf: [automatic radio direction finder] (* <- lang_en;; *);
+    => nrel_main_idtf: [автоматический радиопеленгатор] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аўтаматычны радыепеленгатар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_automatic_radio_direction_finder_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aviation_station;
+    => nrel_associative_connection: by_automated_system_of_air_traffic_control;
+    => nrel_associative_connection: by_ground_means_of_radiotechnical_provision_of_flights_and_aviation_telecommunications;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31097?langname=ru];
+    => nrel_etalon_online_idx: [31097];;

@@ -1,0 +1,36 @@
+
+by_ergonomic_overall_parameters
+    => nrel_main_idtf: [ergonomic overall parameters] (* <- lang_en;; *);
+    => nrel_main_idtf: [параметры габаритные эргономические] (* <- lang_ru;; *);
+    => nrel_main_idtf: [параметры габарытныя эрганамічныя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ergonomic_overall_parameters_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_functional_block_of_premises;
+    => nrel_associative_connection: by_house_of_night_stay;
+    => nrel_associative_connection: by_reach_area;
+    => nrel_associative_connection: by_functional_zone_zone_of_a_particular_purpose;
+    => nrel_associative_connection: by_disabled;
+    => nrel_associative_connection: by_lane;
+
+    => nrel_legal_act: by_act_w02035800p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37808?langname=ru];
+    => nrel_etalon_online_idx: [37808];;

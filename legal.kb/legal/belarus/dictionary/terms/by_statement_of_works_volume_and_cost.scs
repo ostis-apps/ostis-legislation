@@ -1,0 +1,36 @@
+
+by_statement_of_works_volume_and_cost
+    => nrel_main_idtf: [statement of works volume and cost ] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведомость объемов и стоимости работ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ведамасць аб'ёмаў і кошту работ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_of_works_volume_and_cost_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_statement_of_estimated_cost_of_startingup_and_adjustment_works_and_costs_for_the_commissioning_of_objects_including_in_the_launch_complex;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_local_estimate_local_estimated_calculation_resource_and_estimate_calculation;
+    => nrel_associative_connection: by_estimate;
+    => nrel_associative_connection: by_estimate_estimate_documentation;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_w20817958;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12907?langname=ru];
+    => nrel_etalon_online_idx: [12907];;

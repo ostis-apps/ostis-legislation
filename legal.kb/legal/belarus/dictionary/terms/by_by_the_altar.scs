@@ -1,0 +1,35 @@
+
+by_by_the_altar
+    => nrel_main_idtf: [by_the_altar] (* <- lang_en;; *);
+    => nrel_main_idtf: [алтарь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [алтар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_the_altar_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_altar_barrier;
+    => nrel_associative_connection: by_amwon;
+    => nrel_associative_connection: by_mezzanine;
+    => nrel_associative_connection: by_horne_place;
+    => nrel_associative_connection: by_clyrose;
+
+    => nrel_legal_act: by_act_w222p0022;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/44001?langname=ru];
+    => nrel_etalon_online_idx: [44001];;

@@ -1,0 +1,51 @@
+
+by_commodity_exchange
+    => nrel_main_idtf: [commodity exchange] (* <- lang_en;; *);
+    => nrel_main_idtf: [товарная биржа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [таварная біржа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_commodity_exchange_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stock_exchange_trade;
+    => nrel_associative_connection: by_stock_exchange_broker;
+    => nrel_associative_connection: by_stock_exchange_carrier;
+    => nrel_associative_connection: by_stock_exchange_charge;
+    => nrel_associative_connection: by_stock_exchange_warehouse;
+    => nrel_associative_connection: by_stock_exchange_goods;
+    => nrel_associative_connection: by_exchange_expert;
+    => nrel_associative_connection: by_exchange_committees;
+    => nrel_associative_connection: by_annual_exchange_trades;
+    => nrel_associative_connection: by_information_trade_system_of_commodity_exchange;
+    => nrel_associative_connection: by_coordination_council_on_stock_exchange_trade;
+    => nrel_associative_connection: by_broker;
+    => nrel_associative_connection: by_separate_stock_exchange_personal_account;
+    => nrel_associative_connection: by_transaction_passport;
+    => nrel_associative_connection: by_visitor_of_stock_exchange_trading_sessions;
+    => nrel_associative_connection: by_real_goods;
+    => nrel_associative_connection: by_standard_contract;
+    => nrel_associative_connection: by_goods_admitted_to_exchange_trades;
+    => nrel_associative_connection: by_commodity_exchange_trade_system;
+    => nrel_associative_connection: by_trade_day;
+    => nrel_associative_connection: by_authorized_employee_of_the_exchange;
+
+    => nrel_legal_act: by_act_h10900010;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7039?langname=ru];
+    => nrel_etalon_online_idx: [7039];;

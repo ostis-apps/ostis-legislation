@@ -1,0 +1,53 @@
+
+by_organizational_and_legal_road_safety
+    => nrel_main_idtf: [organizational and legal road safety] (* <- lang_en;; *);
+    => nrel_main_idtf: [организационно-правовое обеспечение безопасности дорожного движения ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арганізацыйна-прававое забеспячэнне бяспекі дарожнага руху] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizational_and_legal_road_safety_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_organizational_and_legal_road_safety_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_road_traffic_safety;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_road_accident;
+    => nrel_associative_connection: by_public_safety;
+    => nrel_associative_connection: by_public_order;
+    => nrel_associative_connection: by_protection_of_public_order_and_safety_maintenance;
+
+    => nrel_legal_act: by_act_w22340331p;
+    => nrel_legal_act: by_act_w21833465p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30388?langname=ru];
+    => nrel_etalon_online_idx: [30388];;

@@ -1,0 +1,37 @@
+
+by_military_departments
+    => nrel_main_idtf: [military departments] (* <- lang_en;; *);
+    => nrel_main_idtf: [военные кафедры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ваенныя кафедры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_military_departments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_account_specialty_mas;
+    => nrel_associative_connection: by_military_departments_of_civil_institutions_providing_the_higher_and_secondary_special_education;
+    => nrel_associative_connection: by_military_faculty_in_the_institution_of_education_minsk_state_higher_aviation_college;
+    => nrel_associative_connection: by_military_onthejob_training;
+    => nrel_associative_connection: by_department;
+    => nrel_associative_connection: by_officer_courses;
+    => nrel_associative_connection: by_institution_of_specialized_secondary_education;
+
+    => nrel_legal_act: by_act_v19201914;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8686?langname=ru];
+    => nrel_etalon_online_idx: [8686];;

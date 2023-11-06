@@ -1,0 +1,37 @@
+
+by_by_isoimmunization
+    => nrel_main_idtf: [by_isoimmunization] (* <- lang_en;; *);
+    => nrel_main_idtf: [изоиммунизация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ізаімунізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_isoimmunization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_isoimmune_antibodies;
+    => nrel_associative_connection: by_donor_immunization;
+    => nrel_associative_connection: by_immune_antibodies;
+    => nrel_associative_connection: by_blood_isoimmune;
+    => nrel_associative_connection: by_mobilization_of_donor_leukopoiesis;
+    => nrel_associative_connection: by_plasma_isoimmune;
+    => nrel_associative_connection: by_donor_reimmunization;
+
+    => nrel_legal_act: by_act_w22340363;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43408?langname=ru];
+    => nrel_etalon_online_idx: [43408];;

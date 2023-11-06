@@ -1,0 +1,48 @@
+
+by_infection_security
+    => nrel_main_idtf: [infection security] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарно-эпидемическое благополучие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спрыяльныя санітарна-эпідэмічныя ўмовы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infection_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analysis_of_risks;
+    => nrel_associative_connection: by_state_sanitary_and_hygienic_examination;
+    => nrel_associative_connection: by_group_diseases;
+    => nrel_associative_connection: by_disinfection_disinsection_and_deratization_activities;
+    => nrel_associative_connection: by_medical_activity;
+    => nrel_associative_connection: by_urgent_works_in_emergency_situation_zone;
+    => nrel_associative_connection: by_production_control;
+    => nrel_associative_connection: by_vaccinations;
+    => nrel_associative_connection: by_sanitaryhygienic_zone;
+    => nrel_associative_connection: by_sanitaryquarantine_control;
+    => nrel_associative_connection: by_sanitaryantiepidemic_activities;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_situation;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_requirements;
+    => nrel_associative_connection: by_sanitary_and_epidemiological_safety_of_the_population;
+    => nrel_associative_connection: by_sanitary_norms_rules_andhygienic_standards;
+    => nrel_associative_connection: by_human_habitat;
+    => nrel_associative_connection: by_factor_of_the_human_environment;
+    => nrel_associative_connection: by_environmental_safety;
+
+    => nrel_legal_act: by_act_w20309982;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3343?langname=ru];
+    => nrel_etalon_online_idx: [3343];;

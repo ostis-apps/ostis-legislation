@@ -1,0 +1,34 @@
+
+by_road_machinery_and_equipment
+    => nrel_main_idtf: [road machinery and equipment] (* <- lang_en;; *);
+    => nrel_main_idtf: [дорожные машины и оборудование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дарожныя машыны і абсталяванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_road_machinery_and_equipment_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_automobile_vehicle;
+    => nrel_associative_connection: by_earthmoving_machine;
+    => nrel_associative_connection: by_lifting_and_transport_machines;
+
+    => nrel_legal_act: by_act_w22136503p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37366?langname=ru];
+    => nrel_etalon_online_idx: [37366];;

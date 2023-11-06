@@ -1,0 +1,42 @@
+
+by_state_statistics
+    => nrel_main_idtf: [state statistics] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная статистика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная статыстыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_statistics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_statistical_activity;
+    => nrel_associative_connection: by_state_organizations_authorized_to_conduct_the_state_statistics;
+    => nrel_associative_connection: by_state_statistical_surveys;
+    => nrel_associative_connection: by_total;
+    => nrel_associative_connection: by_noncentralized_state_statistical_observations;
+    => nrel_associative_connection: by_official_statistical_information;
+    => nrel_associative_connection: by_official_statistical_methodology;
+    => nrel_associative_connection: by_census_of_population;
+    => nrel_associative_connection: by_personal_data_of_physical_persons;
+    => nrel_associative_connection: by_program_of_statistical_works;
+    => nrel_associative_connection: by_statistical_indicator;
+    => nrel_associative_connection: by_centralized_state_statistical_observations;
+
+    => nrel_legal_act: by_act_h10400345;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5586?langname=ru];
+    => nrel_etalon_online_idx: [5586];;

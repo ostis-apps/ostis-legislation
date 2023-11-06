@@ -1,0 +1,44 @@
+
+by_fishermen
+    => nrel_main_idtf: [fishermen] (* <- lang_en;; *);
+    => nrel_main_idtf: [рыболовы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рыбаловы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fishermen_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_citizens;
+    => nrel_associative_connection: by_amateur_fishery;
+    => nrel_associative_connection: by_modal_size_group;
+    => nrel_associative_connection: by_fish_production_catch_rate;
+    => nrel_associative_connection: by_caught_herd;
+    => nrel_associative_connection: by_search_of_fish;
+    => nrel_associative_connection: by_commercial_fishing;
+    => nrel_associative_connection: by_fishing_effort;
+    => nrel_associative_connection: by_fishing_gear;
+    => nrel_associative_connection: by_republican_state_public_association_belarusian_society_of_hunters_and_fisherman;
+    => nrel_associative_connection: by_pisciculture_for_recreational_purposes;
+    => nrel_associative_connection: by_fishing_brigade;
+    => nrel_associative_connection: by_fishery;
+    => nrel_associative_connection: by_certificate_for_the_right_of_underwater_hunting;
+
+    => nrel_legal_act: by_act_p32100284;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10185?langname=ru];
+    => nrel_etalon_online_idx: [10185];;

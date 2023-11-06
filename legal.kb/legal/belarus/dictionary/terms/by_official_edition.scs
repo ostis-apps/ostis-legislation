@@ -1,0 +1,40 @@
+
+by_official_edition
+    => nrel_main_idtf: [official edition] (* <- lang_en;; *);
+    => nrel_main_idtf: [официальное издание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [афіцыйнае выданне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_official_edition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_departmental_edition;
+    => nrel_associative_connection: by_report;
+    => nrel_associative_connection: by_edition;
+    => nrel_associative_connection: by_editions_for_persons_with_disabilities_on_sight_and_visually_impaired;
+    => nrel_associative_connection: by_official_publication_of_regulatory_legal_acts;
+    => nrel_associative_connection: by_official_publication_of_legal_acts_included_in_the_national_registry_of_legal_acts_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_official_editions_of_the_national_intellectual_property_center;
+    => nrel_associative_connection: by_official_bulletin;
+    => nrel_associative_connection: by_digital_edition;
+    => nrel_associative_connection: by_electronic_publications;
+
+    => nrel_legal_act: by_act_h10400262;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19648?langname=ru];
+    => nrel_etalon_online_idx: [19648];;

@@ -1,0 +1,20 @@
+
+by_platoon
+    => nrel_main_idtf: [platoon] (* <- lang_en;; *);
+    => nrel_main_idtf: [взвод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [узвод] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_subcritical_stand;
+    => nrel_associative_connection: by_working_body_of_the_control_and_protection_system;
+    => nrel_associative_connection: by_control_and_protection_system;
+    => nrel_associative_connection: by_nuclear_security;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38633?langname=ru];
+    => nrel_etalon_online_idx: [38633];;

@@ -1,0 +1,67 @@
+
+by_chemically_hazardous_object
+    => nrel_main_idtf: [chemically hazardous object] (* <- lang_en;; *);
+    => nrel_main_idtf: [химически опасный объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [хімічна небяспечны аб'ект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemically_hazardous_object_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemically_hazardous_object_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_chemically_hazardous_object_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_zone_of_possible_chemical_contamination;
+    => nrel_associative_connection: by_facility_of_use_of_atomic_energy_fuae;
+    => nrel_associative_connection: by_chemical_production;
+    => nrel_associative_connection: by_spill_of_hazardous_chemicals;
+    => nrel_associative_connection: by_radiation_dangerous_object;
+
+    => nrel_legal_act: by_act_c21201066;
+    => nrel_legal_act: by_act_w22136472p;
+    => nrel_legal_act: by_act_w20512226;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/26129?langname=ru];
+    => nrel_etalon_online_idx: [26129];;

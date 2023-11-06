@@ -1,0 +1,42 @@
+
+by_officials_of_law_enforcement_bodies
+    => nrel_main_idtf: [officials of law enforcement bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [должностные лица правоохранительных органов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [службовыя асобы праваахоўных органаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_officials_of_law_enforcement_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_officials;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_officials_of_control_supervision_bodies;
+    => nrel_associative_connection: by_law_enforcement_bodies;
+    => nrel_associative_connection: by_prosecutor;
+    => nrel_associative_connection: by_prosecutors_office_employee;
+    => nrel_associative_connection: by_service_in_the_bodies_of_the_internal_affairs;
+    => nrel_associative_connection: by_office_discipline;
+    => nrel_associative_connection: by_employee_of_the_internal_affairs_bodies;
+    => nrel_associative_connection: by_judicial_executors;
+    => nrel_associative_connection: by_judicial_experts_of_the_state_forensic_examination_committee;
+    => nrel_associative_connection: by_officer_of_justice;
+
+    => nrel_legal_act: by_act_h19900340;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14380?langname=ru];
+    => nrel_etalon_online_idx: [14380];;

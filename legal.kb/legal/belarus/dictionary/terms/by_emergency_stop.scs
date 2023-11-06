@@ -1,0 +1,41 @@
+
+by_emergency_stop
+    => nrel_main_idtf: [emergency stop] (* <- lang_en;; *);
+    => nrel_main_idtf: [аварийный останов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аварыйны супын] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_emergency_stop_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_emergency_protection;
+    => nrel_associative_connection: by_accident_situation;
+    => nrel_associative_connection: by_emergency_response;
+    => nrel_associative_connection: by_accident;
+    => nrel_associative_connection: by_stop;
+    => nrel_associative_connection: by_emergency_shutdown;
+    => nrel_associative_connection: by_shutdown_of_research_nuclear_facilities;
+    => nrel_associative_connection: by_planned_shutdown;
+    => nrel_associative_connection: by_subcritical_stand_shutdown;
+    => nrel_associative_connection: by_labor_protection;
+    => nrel_associative_connection: by_safety_device;
+
+    => nrel_legal_act: by_act_w20613989;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12269?langname=ru];
+    => nrel_etalon_online_idx: [12269];;

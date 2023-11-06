@@ -1,0 +1,32 @@
+
+by_open_api
+    => nrel_main_idtf: [open api] (* <- lang_en;; *);
+    => nrel_main_idtf: [открытый api] (* <- lang_ru;; *);
+    => nrel_main_idtf: [адкрыты api] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_open_api_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_api;
+    => nrel_associative_connection: by_payment_api;
+
+    => nrel_legal_act: by_act_b22035074p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41843?langname=ru];
+    => nrel_etalon_online_idx: [41843];;

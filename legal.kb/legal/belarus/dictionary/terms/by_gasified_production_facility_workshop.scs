@@ -1,0 +1,21 @@
+
+by_gasified_production_facility_workshop
+    => nrel_main_idtf: [gasified production facility, workshop] (* <- lang_en;; *);
+    => nrel_main_idtf: [газифицированное производственное помещение, цех] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газіфікаванае вытворчае памяшканне, цэх] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_gasified_industrial_boiler_room;
+    => nrel_associative_connection: by_gas_equipment;
+    => nrel_associative_connection: by_gas_powered_equipment;
+    => nrel_associative_connection: by_gas_using_equipment_installation;
+    => nrel_associative_connection: by_block_gas_regulatory_point;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42178?langname=ru];
+    => nrel_etalon_online_idx: [42178];;

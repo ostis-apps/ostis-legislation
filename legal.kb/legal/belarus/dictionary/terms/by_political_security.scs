@@ -1,0 +1,37 @@
+
+by_political_security
+    => nrel_main_idtf: [political security] (* <- lang_en;; *);
+    => nrel_main_idtf: [политическая безопасность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палітычная бяспека] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_political_security_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_and_political_situation;
+    => nrel_associative_connection: by_demographic_security;
+    => nrel_associative_connection: by_source_of_national_security_threat;
+    => nrel_associative_connection: by_national_security;
+    => nrel_associative_connection: by_national_interests;
+    => nrel_associative_connection: by_social_safety;
+    => nrel_associative_connection: by_threat_to_national_security;
+
+    => nrel_legal_act: by_act_p31000575;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20527?langname=ru];
+    => nrel_etalon_online_idx: [20527];;

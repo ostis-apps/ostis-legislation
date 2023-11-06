@@ -1,0 +1,21 @@
+
+by_form_of_servicing_buyers
+    => nrel_main_idtf: [form of servicing buyers] (* <- lang_en;; *);
+    => nrel_main_idtf: [форма обслуживания покупателей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [форма абслугоўвання пакупнікоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_method_of_customer_service;
+    => nrel_associative_connection: by_independent_buyer;
+    => nrel_associative_connection: by_buyer;
+    => nrel_associative_connection: by_counter;
+    => nrel_associative_connection: by_trade_services;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11749?langname=ru];
+    => nrel_etalon_online_idx: [11749];;

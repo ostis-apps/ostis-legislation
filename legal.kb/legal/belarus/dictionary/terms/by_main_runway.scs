@@ -1,0 +1,42 @@
+
+by_main_runway
+    => nrel_main_idtf: [main runway] (* <- lang_en;; *);
+    => nrel_main_idtf: [главная взлетно-посадочная полоса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [галоўная ўзлётна-пасадачная паласа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_runway_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_autonomous_warning_system_for_unauthorized_exit_to_the_runway;
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_lateral_safety_strip;
+    => nrel_associative_connection: by_runway_strip;
+    => nrel_associative_connection: by_altitude_exceeding_of_the_aerodrome;
+    => nrel_associative_connection: by_civil_aviation;
+    => nrel_associative_connection: by_runway_surface_state_descriptors;
+    => nrel_associative_connection: by_contaminated_runway;
+    => nrel_associative_connection: by_taking_off_and_landing_zone;
+    => nrel_associative_connection: by_final_approach_section;
+    => nrel_associative_connection: by_wet_runway;
+    => nrel_associative_connection: by_strip_of_air_approaches;
+
+    => nrel_legal_act: by_act_w21934330p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8709?langname=ru];
+    => nrel_etalon_online_idx: [8709];;

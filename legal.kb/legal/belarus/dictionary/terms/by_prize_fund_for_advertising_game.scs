@@ -1,0 +1,38 @@
+
+by_prize_fund_for_advertising_game
+    => nrel_main_idtf: [prize fund for advertising game] (* <- lang_en;; *);
+    => nrel_main_idtf: [призовой фонд рекламной игры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прызавы фонд рэкламнай гульні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_prize_fund_for_advertising_game_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_win;
+    => nrel_associative_connection: by_advertising_game_organizer;
+    => nrel_associative_connection: by_prize_fund_of_the_lottery;
+    => nrel_associative_connection: by_advertising_game;
+    => nrel_associative_connection: by_drawing_the_winning_fund;
+    => nrel_associative_connection: by_prize_fund_draw;
+    => nrel_associative_connection: by_lottery_prize_fund_draw;
+    => nrel_associative_connection: by_participant_of_advertising_game;
+
+    => nrel_legal_act: by_act_p30300051;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21257?langname=ru];
+    => nrel_etalon_online_idx: [21257];;

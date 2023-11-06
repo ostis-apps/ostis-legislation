@@ -1,0 +1,34 @@
+
+by_secondary_school
+    => nrel_main_idtf: [secondary school] (* <- lang_en;; *);
+    => nrel_main_idtf: [средняя школа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэдняя школа] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_secondary_school_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_objects_specially_designed_for_childrens_stay;
+    => nrel_associative_connection: by_student;
+    => nrel_associative_connection: by_education_institution;
+    => nrel_associative_connection: by_institution_of_general_secondary_education;
+
+    => nrel_legal_act: by_act_hk1100243;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3410?langname=ru];
+    => nrel_etalon_online_idx: [3410];;

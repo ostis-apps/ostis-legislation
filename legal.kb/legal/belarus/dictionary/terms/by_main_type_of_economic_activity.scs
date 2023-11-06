@@ -1,0 +1,33 @@
+
+by_main_type_of_economic_activity
+    => nrel_main_idtf: [main type of economic activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [основной вид экономической деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асноўны від эканамічнай дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_main_type_of_economic_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_economic_activity_agriculture;
+    => nrel_associative_connection: by_release_of_goods_and_or_services;
+    => nrel_associative_connection: by_main_type_of_economic_activity_of_legal_entity_individual_entrepreneur;
+
+    => nrel_legal_act: by_act_w21731918;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19380?langname=ru];
+    => nrel_etalon_online_idx: [19380];;

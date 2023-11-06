@@ -1,0 +1,21 @@
+
+by_term_market
+    => nrel_main_idtf: [term market] (* <- lang_en;; *);
+    => nrel_main_idtf: [срочный рынок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэрміновы рынак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_foreign_currency;
+    => nrel_associative_connection: by_foreign_currency_conversion;
+    => nrel_associative_connection: by_purchase_of_foreign_currency;
+    => nrel_associative_connection: by_foreign_currency_sale;
+    => nrel_associative_connection: by_market;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28249?langname=ru];
+    => nrel_etalon_online_idx: [28249];;

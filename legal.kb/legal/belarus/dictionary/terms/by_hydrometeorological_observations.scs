@@ -1,0 +1,68 @@
+
+by_hydrometeorological_observations
+    => nrel_main_idtf: [hydrometeorological observations] (* <- lang_en;; *);
+    => nrel_main_idtf: [гидрометеорологические наблюдения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гідраметэаралагічныя назіранні] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrometeorological_observations_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hydrometeorological_observations_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hydrometeorological_meteorological_service;
+    => nrel_associative_connection: by_hydrometeorological_safety;
+    => nrel_associative_connection: by_hydrometeorological_activity;
+    => nrel_associative_connection: by_hydrometeorological_information_of_general_purpose;
+    => nrel_associative_connection: by_hydrometeorological_service;
+    => nrel_associative_connection: by_hydrometeorological_objects;
+    => nrel_associative_connection: by_hydrometeorological_works;
+    => nrel_associative_connection: by_state_hydrometeorological_service;
+    => nrel_associative_connection: by_state_network_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_state_hydrometeorological_fund;
+    => nrel_associative_connection: by_state_climate_registry;
+    => nrel_associative_connection: by_meteorological_elements;
+    => nrel_associative_connection: by_provision_of_hydrometeorological_information_to_aviation;
+    => nrel_associative_connection: by_holders_of_hydrometeorological_information;
+    => nrel_associative_connection: by_protective_zone_around_the_stationary_observation_point;
+    => nrel_associative_connection: by_mobile_point_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_provision_of_hydrometeorological_information;
+    => nrel_associative_connection: by_natural_environment;
+    => nrel_associative_connection: by_hydrometeorological_observation_point;
+    => nrel_associative_connection: by_dissemination_of_hydrometeorological_information;
+    => nrel_associative_connection: by_network_of_hydrometeorological_observations;
+    => nrel_associative_connection: by_stationary_point_for_hydrometeorological_observations;
+
+    => nrel_legal_act: by_act_h10600093;
+    => nrel_legal_act: by_act_w20819258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8699?langname=ru];
+    => nrel_etalon_online_idx: [8699];;

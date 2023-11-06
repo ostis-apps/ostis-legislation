@@ -1,0 +1,19 @@
+
+by_integrated_monitoring
+    => nrel_main_idtf: [integrated monitoring] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплексный мониторинг ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [комплексны маніторынг] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_monitoring;
+    => nrel_associative_connection: by_observation;
+    => nrel_associative_connection: by_thermal_modernization_of_the_building_construction;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9272?langname=ru];
+    => nrel_etalon_online_idx: [9272];;

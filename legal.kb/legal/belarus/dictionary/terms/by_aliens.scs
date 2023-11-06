@@ -1,0 +1,42 @@
+
+by_aliens
+    => nrel_main_idtf: [aliens] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранцы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [іншаземцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aliens_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreigner_temporary_residing_in_the_republic_of_belarus;
+    => nrel_associative_connection: by_expulsion_of_a_foreigner_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_protection_of_information_about_foreigners_contained_in_the_list;
+    => nrel_associative_connection: by_identification_of_foreigner_personality;
+    => nrel_associative_connection: by_isolation;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_integration_of_foreigners_granted_refugee_status_additional_protection_or_refuge;
+    => nrel_associative_connection: by_bodies_for_registration_of_foreigners_temporarily_staying_in_the_republic_of_belarus;
+    => nrel_associative_connection: by_registration_of_the_foreigner_temporarily_staying_in_the_republic_of_belarus;
+    => nrel_associative_connection: by_transit_of_foreigners_through_the_territory_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_members_of_a_foreign_citizens_family;
+    => nrel_associative_connection: by_legal_or_individuals_applying_for_a_foreigners_entry_to_the_republic_of_belarus_stay_or_residence_in_the_republic_of_belarus;
+
+    => nrel_legal_act: by_act_c21001065;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28606?langname=ru];
+    => nrel_etalon_online_idx: [28606];;

@@ -1,0 +1,40 @@
+
+by_nature_monument
+    => nrel_main_idtf: [nature monument] (* <- lang_en;; *);
+    => nrel_main_idtf: [памятник природы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [помнік прыроды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nature_monument_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_botanical_monuments_of_nature;
+    => nrel_associative_connection: by_nature_reserve;
+    => nrel_associative_connection: by_historical_and_cultural_nature_reserve;
+    => nrel_associative_connection: by_specially_protected_natural_territories;
+    => nrel_associative_connection: by_specially_protected_natural_territories_spnt;
+    => nrel_associative_connection: by_protection_of_specially_protected_natural_territories;
+    => nrel_associative_connection: by_natural_object;
+    => nrel_associative_connection: by_system_of_specially_protected_natural_territories;
+    => nrel_associative_connection: by_management_of_specially_protected_natural_territories;
+    => nrel_associative_connection: by_ecotourism;
+
+    => nrel_legal_act: by_act_h11800150;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19778?langname=ru];
+    => nrel_etalon_online_idx: [19778];;

@@ -1,0 +1,42 @@
+
+by_dermatomycosis
+    => nrel_main_idtf: [dermatomycosis] (* <- lang_en;; *);
+    => nrel_main_idtf: [дерматомикозы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэрматамікозы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dermatomycosis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_anogenital_wart;
+    => nrel_associative_connection: by_atopic_dermatitis;
+    => nrel_associative_connection: by_object_favorable_for_dermatophitosis;
+    => nrel_associative_connection: by_susceptible_to_dermatomycosis_dermatophytosis_animal_species;
+    => nrel_associative_connection: by_susceptible_to_dermatomycosis_animal_species;
+    => nrel_associative_connection: by_dermatovenerologist;
+    => nrel_associative_connection: by_dermatitis;
+    => nrel_associative_connection: by_true_pemphigus;
+    => nrel_associative_connection: by_candidiasis;
+    => nrel_associative_connection: by_troubled_by_dermatomycosis_dermatophytosis_object;
+    => nrel_associative_connection: by_dermatophytosisdeficient_object;
+    => nrel_associative_connection: by_episootic_focus_of_dermatomycosis_dermatophytosis;
+
+    => nrel_legal_act: by_act_w22035542p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34091?langname=ru];
+    => nrel_etalon_online_idx: [34091];;

@@ -1,0 +1,43 @@
+
+by_permanent_aerodrome_heliport
+    => nrel_main_idtf: [permanent aerodrome (heliport)] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэродром (вертодром) постоянный] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэрадром (вертадром) пастаянны] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permanent_aerodrome_heliport_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome;
+    => nrel_associative_connection: by_temporary_aerodrome_heliport;
+    => nrel_associative_connection: by_aerodrome_heliport_of_state_aviation;
+    => nrel_associative_connection: by_aerodrome_heliport_cobasing;
+    => nrel_associative_connection: by_aerodrome_heliport_of_joint_use;
+    => nrel_associative_connection: by_aerodrome_for_demonstration_flights;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_aerodrome_permanent;
+    => nrel_associative_connection: by_owner_of_aerodrome_heliport_of_state_aviation;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_state_registry_of_aerodrome_heliport_of_state_aviation_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_emergency_aerodrome;
+    => nrel_associative_connection: by_aerodrome_area;
+
+    => nrel_legal_act: by_act_hk0600117;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8281?langname=ru];
+    => nrel_etalon_online_idx: [8281];;

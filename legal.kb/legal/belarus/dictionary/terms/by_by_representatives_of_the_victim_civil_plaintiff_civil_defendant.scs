@@ -1,0 +1,35 @@
+
+by_by_representatives_of_the_victim_civil_plaintiff_civil_defendant
+    => nrel_main_idtf: [by_representatives_of_the_victim_civil_plaintiff_civil_defendant] (* <- lang_en;; *);
+    => nrel_main_idtf: [представители потерпевшего, гражданского истца, гражданского ответчика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўнікі пацярпелага, грамадзянскага істца, грамадзянскага адказчыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_representatives_of_the_victim_civil_plaintiff_civil_defendant_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_civil_claimant;
+    => nrel_associative_connection: by_civil_defendant;
+    => nrel_associative_connection: by_casualty;
+    => nrel_associative_connection: by_representative;
+    => nrel_associative_connection: by_criminal_proceedings;
+
+    => nrel_legal_act: by_act_hk9900295;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40921?langname=ru];
+    => nrel_etalon_online_idx: [40921];;

@@ -1,0 +1,33 @@
+
+by_biometric_residence_permit_in_the_republic_of_belarus_of_a_stateless_person
+    => nrel_main_idtf: [biometric residence permit in the republic of belarus of a stateless person] (* <- lang_en;; *);
+    => nrel_main_idtf: [биометрический вид на жительство в республике беларусь лица без гражданства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біяметрычны від на жыхарства ў рэспубліцы беларусь асобы без грамадзянства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biometric_residence_permit_in_the_republic_of_belarus_of_a_stateless_person_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_biometric_residence_permit_in_the_republic_of_belarus_of_a_foreign_citizen;
+    => nrel_associative_connection: by_residence_permit_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_identity_document;
+
+    => nrel_legal_act: by_act_h11000105;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42593?langname=ru];
+    => nrel_etalon_online_idx: [42593];;

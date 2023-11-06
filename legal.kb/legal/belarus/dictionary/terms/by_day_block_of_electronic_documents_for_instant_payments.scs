@@ -1,0 +1,34 @@
+
+by_day_block_of_electronic_documents_for_instant_payments
+    => nrel_main_idtf: [day block of electronic documents for instant payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [дневной блок электронных документов по мгновенным платежам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзённы блок электронных дакументаў па імгненных выплатах] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_day_block_of_electronic_documents_for_instant_payments_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_daytime_block_of_electronic_documents;
+    => nrel_associative_connection: by_day_block_of_electronic_documents_on_performance_of_monetary_obligations;
+    => nrel_associative_connection: by_day_block_of_electronic_documents_for_interbank_settlements;
+    => nrel_associative_connection: by_inventory_of_electronic_documents;
+
+    => nrel_legal_act: by_act_b20921644;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32487?langname=ru];
+    => nrel_etalon_online_idx: [32487];;

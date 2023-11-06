@@ -1,0 +1,36 @@
+
+by_individual_sports_training_plan_for_an_athlete
+    => nrel_main_idtf: [individual sports training plan for an athlete] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный план спортивной подготовки спортсмена] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальны план спартыўнай падрыхтоўкі спартсмена] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_sports_training_plan_for_an_athlete_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_model_for_the_preparation_of_national_and_national_teams;
+    => nrel_associative_connection: by_sport;
+    => nrel_associative_connection: by_sport_training;
+    => nrel_associative_connection: by_sports_competition;
+    => nrel_associative_connection: by_sportsman;
+    => nrel_associative_connection: by_coachteacher_of_sports_for_related_types_of_training;
+
+    => nrel_legal_act: by_act_p31900329;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41606?langname=ru];
+    => nrel_etalon_online_idx: [41606];;

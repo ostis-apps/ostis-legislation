@@ -1,0 +1,37 @@
+
+by_reduced_vertical_separation_minimum_rvsm
+    => nrel_main_idtf: [reduced vertical separation minimum (rvsm)] (* <- lang_en;; *);
+    => nrel_main_idtf: [сокращенный минимум вертикального эшелонирования (rvsm)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скарочаны мінімум вертыкальнага эшаланіравання (rvsm)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reduced_vertical_separation_minimum_rvsm_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerial_navigation;
+    => nrel_associative_connection: by_rvsm_airspace;
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_nonradiolocation_separation;
+    => nrel_associative_connection: by_flight_plan;
+    => nrel_associative_connection: by_radar_escheloning;
+    => nrel_associative_connection: by_airplane_mode;
+
+    => nrel_legal_act: by_act_c20601471;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23549?langname=ru];
+    => nrel_etalon_online_idx: [23549];;

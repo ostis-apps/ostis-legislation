@@ -1,0 +1,19 @@
+
+by_obligatory_requisites
+    => nrel_main_idtf: [obligatory requisites] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательные реквизиты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязковыя рэквізіты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_copy_of_electronic_payment_instruction_other_electronic_document_message;
+    => nrel_associative_connection: by_interbank_payment_instruction;
+    => nrel_associative_connection: by_obligatory_requisites_of_settlement_documents;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11070?langname=ru];
+    => nrel_etalon_online_idx: [11070];;

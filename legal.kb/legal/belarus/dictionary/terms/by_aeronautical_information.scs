@@ -1,0 +1,73 @@
+
+by_aeronautical_information
+    => nrel_main_idtf: [aeronautical information] (* <- lang_en;; *);
+    => nrel_main_idtf: [аэронавигационная информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аэранавігацыйная інфармацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aeronautical_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aeronautical_information_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_aeronautical_information_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerodrome_sign;
+    => nrel_associative_connection: by_air_navigation_system;
+    => nrel_associative_connection: by_air_navigation_servicing;
+    => nrel_associative_connection: by_air_navigation;
+    => nrel_associative_connection: by_air_traffic;
+    => nrel_associative_connection: by_airspace_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_aeronautical_information_document;
+    => nrel_associative_connection: by_obstruction_light_beacon;
+    => nrel_associative_connection: by_marking_sign_marking;
+    => nrel_associative_connection: by_notam;
+    => nrel_associative_connection: by_required_navigation_performance_rnp;
+
+    => nrel_legal_act: by_act_w22035421p;
+    => nrel_legal_act: by_act_w22035421p;
+    => nrel_legal_act: by_act_n00000025;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4821?langname=ru];
+    => nrel_etalon_online_idx: [4821];;

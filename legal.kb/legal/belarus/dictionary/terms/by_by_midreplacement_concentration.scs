@@ -1,0 +1,33 @@
+
+by_by_midreplacement_concentration
+    => nrel_main_idtf: [by_midreplacement_concentration] (* <- lang_en;; *);
+    => nrel_main_idtf: [среднесменная концентрация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сярэднязменная канцэнтрацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_midreplacement_concentration_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permissible_concentration_of_polluting_substances_in_the_composition_of_industrial_waste_water_of_the_subscriber;
+    => nrel_associative_connection: by_maximum_onetime_concentration;
+    => nrel_associative_connection: by_medium_shift_air_temperature;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43157?langname=ru];
+    => nrel_etalon_online_idx: [43157];;

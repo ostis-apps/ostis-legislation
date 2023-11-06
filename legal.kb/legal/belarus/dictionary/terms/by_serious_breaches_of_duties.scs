@@ -1,0 +1,36 @@
+
+by_serious_breaches_of_duties
+    => nrel_main_idtf: [serious breaches of duties] (* <- lang_en;; *);
+    => nrel_main_idtf: [грубое нарушение должностных обязанностей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грубае парушэнне службовых абавязкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_serious_breaches_of_duties_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_failure_of_official_to_act;
+    => nrel_associative_connection: by_actions_committed_in_contravention_of_service_interests;
+    => nrel_associative_connection: by_official;
+    => nrel_associative_connection: by_officials;
+    => nrel_associative_connection: by_excess_of_power_or_official_authority;
+    => nrel_associative_connection: by_misconduct_incompatible_with_employment;
+
+    => nrel_legal_act: by_act_p31100098;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13862?langname=ru];
+    => nrel_etalon_online_idx: [13862];;

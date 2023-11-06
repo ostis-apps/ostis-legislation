@@ -1,0 +1,35 @@
+
+by_crosstransplantation
+    => nrel_main_idtf: [cross-transplantation] (* <- lang_en;; *);
+    => nrel_main_idtf: [перекрестная трансплантация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перакрыжаваная трансплантацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_crosstransplantation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_living_donor;
+    => nrel_associative_connection: by_organ_intake;
+    => nrel_associative_connection: by_kidney_transplant_waiting_list;
+    => nrel_associative_connection: by_transplantation;
+    => nrel_associative_connection: by_embryo_transplantation;
+
+    => nrel_legal_act: by_act_h19700028;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32197?langname=ru];
+    => nrel_etalon_online_idx: [32197];;

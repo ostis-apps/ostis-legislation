@@ -1,0 +1,34 @@
+
+by_master_classes
+    => nrel_main_idtf: [master classes] (* <- lang_en;; *);
+    => nrel_main_idtf: [мастер-классы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [майстар-класы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_master_classes_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_agricultural_and_ecological_tourism;
+    => nrel_associative_connection: by_agricultural_and_ecological_tourist;
+    => nrel_associative_connection: by_activity_in_rendering_services_in_the_sphere_of_agricultural_and_ecological_tourism;
+    => nrel_associative_connection: by_objects_of_agricultural_and_ecological_tourism;
+
+    => nrel_legal_act: by_act_p32200351;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41510?langname=ru];
+    => nrel_etalon_online_idx: [41510];;

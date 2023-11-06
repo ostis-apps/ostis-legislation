@@ -1,0 +1,18 @@
+
+by_systemically_important_borrower
+    => nrel_main_idtf: [systemically important borrower] (* <- lang_en;; *);
+    => nrel_main_idtf: [системно значимый заемщик] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэмна значны пазычальнік] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_loan_contract;
+    => nrel_associative_connection: by_legal_entity;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23267?langname=ru];
+    => nrel_etalon_online_idx: [23267];;

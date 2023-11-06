@@ -1,0 +1,32 @@
+
+by_services_of_transportation_of_oil_and_or_oil_products
+    => nrel_main_idtf: [services of transportation of oil and (or) oil products] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги по транспортировке нефти и (или) нефтепродуктов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі па транспарціроўцы нафты і (або) нафтапрадуктаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_services_of_transportation_of_oil_and_or_oil_products_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_consumer_access_to_services_of_transportation_of_oil_and_or_oil_products_through_main_pipelines;
+    => nrel_associative_connection: by_delivery_point_of_oil_and_or_oil_products;
+
+    => nrel_legal_act: by_act_c21500205;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5228?langname=ru];
+    => nrel_etalon_online_idx: [5228];;

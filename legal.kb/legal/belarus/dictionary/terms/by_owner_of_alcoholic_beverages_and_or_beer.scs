@@ -1,0 +1,43 @@
+
+by_owner_of_alcoholic_beverages_and_or_beer
+    => nrel_main_idtf: [owner of alcoholic beverages and (or) beer] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец алкогольных напитков и (или) пива] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік алкагольных напояў і (або) піва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_alcoholic_beverages_and_or_beer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_alcohol_products;
+    => nrel_associative_connection: by_alcoholic_beverages;
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owner_of_alcoholic_beverages_and_beer;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_other_lowalcohol_drinks;
+    => nrel_associative_connection: by_strong_alcoholic_beverages;
+    => nrel_associative_connection: by_original_alcoholic_beverages;
+    => nrel_associative_connection: by_beer_cocktail;
+    => nrel_associative_connection: by_beer;
+    => nrel_associative_connection: by_lowalcohol_drinks;
+    => nrel_associative_connection: by_lowalcohol_drink;
+    => nrel_associative_connection: by_falsified_alcoholic_beverages;
+
+    => nrel_legal_act: by_act_c20300193;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13022?langname=ru];
+    => nrel_etalon_online_idx: [13022];;

@@ -1,0 +1,67 @@
+
+by_machine_teaching
+    => nrel_main_idtf: [machine teaching] (* <- lang_en;; *);
+    => nrel_main_idtf: [машинное обучение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [машыннае навучанне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_machine_teaching_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_machine_teaching_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_machine_teaching_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_a_graph;
+    => nrel_associative_connection: by_distance_teaching;
+    => nrel_associative_connection: by_artificial_intelligence;
+    => nrel_associative_connection: by_informal_teaching;
+    => nrel_associative_connection: by_teaching;
+
+    => nrel_legal_act: by_act_w22340360p;
+    => nrel_legal_act: by_act_w22238427p;
+    => nrel_legal_act: by_act_w21934552p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32316?langname=ru];
+    => nrel_etalon_online_idx: [32316];;

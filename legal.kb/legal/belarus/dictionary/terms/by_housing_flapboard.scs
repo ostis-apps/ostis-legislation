@@ -1,0 +1,37 @@
+
+by_housing_flapboard
+    => nrel_main_idtf: [housing flapboard] (* <- lang_en;; *);
+    => nrel_main_idtf: [квартирный щиток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кватэрны шчыток] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_housing_flapboard_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_main_switchboard;
+    => nrel_associative_connection: by_grounding;
+    => nrel_associative_connection: by_cable_line;
+    => nrel_associative_connection: by_electric_energy_counter;
+    => nrel_associative_connection: by_electricity_consumption_metering_point;
+    => nrel_associative_connection: by_electric_network;
+    => nrel_associative_connection: by_electrical_switchgear;
+
+    => nrel_legal_act: by_act_w21226193p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27926?langname=ru];
+    => nrel_etalon_online_idx: [27926];;

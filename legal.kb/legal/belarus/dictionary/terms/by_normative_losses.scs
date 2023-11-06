@@ -1,0 +1,37 @@
+
+by_normative_losses
+    => nrel_main_idtf: [normative losses] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормативные потери] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыўныя страты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_normative_losses_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_precious_stones;
+    => nrel_associative_connection: by_precious_metals;
+    => nrel_associative_connection: by_normative_loss;
+    => nrel_associative_connection: by_potential_losses;
+    => nrel_associative_connection: by_excessive_losses;
+    => nrel_associative_connection: by_actual_losses;
+    => nrel_associative_connection: by_jewellery_and_other_household_goods;
+
+    => nrel_legal_act: by_act_w20716834;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18294?langname=ru];
+    => nrel_etalon_online_idx: [18294];;

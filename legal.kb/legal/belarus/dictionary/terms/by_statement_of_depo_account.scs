@@ -1,0 +1,37 @@
+
+by_statement_of_depo_account
+    => nrel_main_idtf: [statement of "depo" account] (* <- lang_en;; *);
+    => nrel_main_idtf: [выписка о состоянии счета "депо"] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выпіска аб стане рахунка "дэпо"] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_statement_of_depo_account_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_balance_depot;
+    => nrel_associative_connection: by_depot_account_entry;
+    => nrel_associative_connection: by_storage_account_depot;
+    => nrel_associative_connection: by_depot_account_operator;
+    => nrel_associative_connection: by_instruction_depot;
+    => nrel_associative_connection: by_depot_account_section;
+    => nrel_associative_connection: by_depot_account;
+
+    => nrel_legal_act: by_act_h11500231;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27813?langname=ru];
+    => nrel_etalon_online_idx: [27813];;

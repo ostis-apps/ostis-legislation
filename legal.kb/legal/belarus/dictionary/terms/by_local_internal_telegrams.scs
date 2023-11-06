@@ -1,0 +1,24 @@
+
+by_local_internal_telegrams
+    => nrel_main_idtf: [local internal telegrams] (* <- lang_en;; *);
+    => nrel_main_idtf: [местные внутренние телеграммы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мясцовыя ўнутраныя тэлеграмы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_internal_interurban_telegrams;
+    => nrel_associative_connection: by_internal_local_telegrams;
+    => nrel_associative_connection: by_internal_telegrams;
+    => nrel_associative_connection: by_incoming_telegrams;
+    => nrel_associative_connection: by_outgoing_telegrams;
+    => nrel_associative_connection: by_interurban_internal_telegrams;
+    => nrel_associative_connection: by_urgent_telegram;
+    => nrel_associative_connection: by_telegram;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17239?langname=ru];
+    => nrel_etalon_online_idx: [17239];;

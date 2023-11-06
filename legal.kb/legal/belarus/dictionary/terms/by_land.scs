@@ -1,0 +1,71 @@
+
+by_land
+    => nrel_main_idtf: [land] (* <- lang_en;; *);
+    => nrel_main_idtf: [земля (земли)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [зямля (землі)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_land_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_type_of_land;
+    => nrel_associative_connection: by_type_of_forest_fund_lands;
+    => nrel_associative_connection: by_degraded_lands;
+    => nrel_associative_connection: by_land_use_use_of_land_plots;
+    => nrel_associative_connection: by_land_management_documentation;
+    => nrel_associative_connection: by_land_management_business;
+    => nrel_associative_connection: by_lands_of_water_fund;
+    => nrel_associative_connection: by_railway_transport_lands_of_general_use;
+    => nrel_associative_connection: by_reserve_lands;
+    => nrel_associative_connection: by_lands_used_for_historic_and_cultural_purposes;
+    => nrel_associative_connection: by_lands_of_forest_fund;
+    => nrel_associative_connection: by_lands_of_population_settlements_horticultural_partnerships_countryside_cooperatives;
+    => nrel_associative_connection: by_generaluse_lands;
+    => nrel_associative_connection: by_lands_of_healthimproving_purpose;
+    => nrel_associative_connection: by_lands_under_swamps;
+    => nrel_associative_connection: by_lands_under_roads_and_other_transport_communications;
+    => nrel_associative_connection: by_lands_under_tree_and_shrubbery_vegetation_plantations;
+    => nrel_associative_connection: by_land_for_builtup;
+    => nrel_associative_connection: by_lands_under_surface_water_objects;
+    => nrel_associative_connection: by_lands_under_permanent_cultures;
+    => nrel_associative_connection: by_lands_used_for_nature_protection_purposes;
+    => nrel_associative_connection: by_lands_of_industry_transport_communication_energy_defense_and_other_purpose;
+    => nrel_associative_connection: by_lands_used_for_recreational_purposes;
+    => nrel_associative_connection: by_lands_used_for_agricultural_purposes;
+    => nrel_associative_connection: by_information_resource_of_land_monitoring;
+    => nrel_associative_connection: by_other_lands;
+    => nrel_associative_connection: by_cadastral_cost_of_the_land_plot;
+    => nrel_associative_connection: by_agrarian_culture;
+    => nrel_associative_connection: by_forest_lands;
+    => nrel_associative_connection: by_meadow_lands;
+    => nrel_associative_connection: by_reclaimed_lands;
+    => nrel_associative_connection: by_meliorized_lands;
+    => nrel_associative_connection: by_managing_disorder_on_the_land;
+    => nrel_associative_connection: by_disturbed_lands;
+    => nrel_associative_connection: by_idle_lands;
+    => nrel_associative_connection: by_nonforest_lands;
+    => nrel_associative_connection: by_planning_land_mark;
+    => nrel_associative_connection: by_arable_land;
+    => nrel_associative_connection: by_agricultural_lands;
+    => nrel_associative_connection: by_improvement_of_land;
+    => nrel_associative_connection: by_efficient_use_of_land;
+
+    => nrel_legal_act: by_act_hk0800425;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14987?langname=ru];
+    => nrel_etalon_online_idx: [14987];;

@@ -1,0 +1,36 @@
+
+by_task_for_a_budgetary_organization_recipient_of_innovation_funds
+    => nrel_main_idtf: [task for a budgetary organization, recipient of innovation funds] (* <- lang_en;; *);
+    => nrel_main_idtf: [задание для бюджетной организации, получателя средств инновационных фондов ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заданне для бюджэтнай арганізацыі, атрымальніка сродкаў інавацыйных фондаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_task_for_a_budgetary_organization_recipient_of_innovation_funds_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_customer;
+    => nrel_associative_connection: by_use_of_results_of_scientific_and_technical_activity_for_own_needs;
+    => nrel_associative_connection: by_provision_of_commercialization_of_scientifictechnical_activity_results;
+    => nrel_associative_connection: by_transfer_of_property_rights_to_result_of_scientific_and_technical_activity;
+    => nrel_associative_connection: by_results_of_scientific_and_technical_activity;
+    => nrel_associative_connection: by_social_effect;
+
+    => nrel_legal_act: by_act_p31300059;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/30306?langname=ru];
+    => nrel_etalon_online_idx: [30306];;

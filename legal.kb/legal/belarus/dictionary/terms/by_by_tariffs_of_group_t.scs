@@ -1,0 +1,22 @@
+
+by_by_tariffs_of_group_t
+    => nrel_main_idtf: [by_tariffs_of_group_t] (* <- lang_en;; *);
+    => nrel_main_idtf: [тарифы группы т] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тарыфы групы т] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_carriage_charge_for_carriage;
+    => nrel_associative_connection: by_carriage_charges;
+    => nrel_associative_connection: by_tariffs_of_group_b;
+    => nrel_associative_connection: by_tariffs_of_the_zi_group;
+    => nrel_associative_connection: by_tariffs_of_opv_group;
+    => nrel_associative_connection: by_tariffs_of_the_opl_group;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24704?langname=ru];
+    => nrel_etalon_online_idx: [24704];;

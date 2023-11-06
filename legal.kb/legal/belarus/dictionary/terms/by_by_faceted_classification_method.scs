@@ -1,0 +1,49 @@
+
+by_by_faceted_classification_method
+    => nrel_main_idtf: [by_faceted_classification_method] (* <- lang_en;; *);
+    => nrel_main_idtf: [фасетный метод классификации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фасетный метад класіфікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_faceted_classification_method_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_faceted_classification_method_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hierarchical_classification_method;
+    => nrel_associative_connection: by_classification_grouping;
+    => nrel_associative_connection: by_classification;
+
+    => nrel_legal_act: by_act_w20004008;
+    => nrel_legal_act: by_act_f91700253;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27122?langname=ru];
+    => nrel_etalon_online_idx: [27122];;

@@ -1,0 +1,33 @@
+
+by_closed_carbine
+    => nrel_main_idtf: [closed carbine] (* <- lang_en;; *);
+    => nrel_main_idtf: [замкнутый карабин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замкнёны карабін] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_closed_carbine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_major_axis;
+    => nrel_associative_connection: by_locking_joint;
+    => nrel_associative_connection: by_hook;
+
+    => nrel_legal_act: by_act_w01934752p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32000?langname=ru];
+    => nrel_etalon_online_idx: [32000];;

@@ -1,0 +1,33 @@
+
+by_bacteriological_analysis
+    => nrel_main_idtf: [bacteriological analysis] (* <- lang_en;; *);
+    => nrel_main_idtf: [бактериологический анализ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бактэрыялагічны аналіз] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bacteriological_analysis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_analysis;
+    => nrel_associative_connection: by_quarantine_phytosanitary_examination;
+    => nrel_associative_connection: by_agriculture;
+
+    => nrel_legal_act: by_act_w21731787;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8326?langname=ru];
+    => nrel_etalon_online_idx: [8326];;

@@ -1,0 +1,32 @@
+
+by_rendering_special_communication_services_by_courier
+    => nrel_main_idtf: [rendering special communication services by courier] (* <- lang_en;; *);
+    => nrel_main_idtf: [оказание услуг специальной связи нарочным] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аказанне паслуг спецыяльнай сувязі нарачным] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_rendering_special_communication_services_by_courier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_service_delivery;
+    => nrel_associative_connection: by_user_of_special_communication_services;
+
+    => nrel_legal_act: by_act_c21400563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18906?langname=ru];
+    => nrel_etalon_online_idx: [18906];;

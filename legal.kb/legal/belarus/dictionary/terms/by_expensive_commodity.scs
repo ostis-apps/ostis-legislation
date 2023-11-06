@@ -1,0 +1,40 @@
+
+by_expensive_commodity
+    => nrel_main_idtf: [expensive commodity] (* <- lang_en;; *);
+    => nrel_main_idtf: [дорогостоящий товар] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дорагакаштуючы тавар] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_expensive_commodity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_equivalent;
+    => nrel_associative_connection: by_similar_goods;
+    => nrel_associative_connection: by_issue_of_goods_and_services;
+    => nrel_associative_connection: by_quality_of_goods_work_services;
+    => nrel_associative_connection: by_largesize_product;
+    => nrel_associative_connection: by_similar_goods;
+    => nrel_associative_connection: by_purchase_of_goods_works_services;
+    => nrel_associative_connection: by_cost;
+    => nrel_associative_connection: by_good_work_service;
+    => nrel_associative_connection: by_price_of_goods;
+
+    => nrel_legal_act: by_act_h10200090;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14452?langname=ru];
+    => nrel_etalon_online_idx: [14452];;

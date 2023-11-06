@@ -1,0 +1,40 @@
+
+by_reasonable_availability_of_car_service_organization
+    => nrel_main_idtf: [reasonable availability of car service organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [разумная доступность организации автосервиса] (* <- lang_ru;; *);
+    => nrel_main_idtf: [разумная даступнасць арганізацыі аўтасэрвісу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reasonable_availability_of_car_service_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_car_service;
+    => nrel_associative_connection: by_administrator_of_the_server_of_market_prices_of_vehicle_parts_materials_and_cost_of_standard_hour_of_work_on_repair_of_vehicles_in_car_service_organizations;
+    => nrel_associative_connection: by_server_of_market_prices_of_vehicle_parts_materials_and_cost_of_normohour_of_work_on_repair_of_vehicles_in_car_service_organizations;
+    => nrel_associative_connection: by_average_statistical_vehicle_mileage;
+    => nrel_associative_connection: by_cost_of_vehicle_repair;
+    => nrel_associative_connection: by_market_cost_of_vehicle_vehicle_cost;
+    => nrel_associative_connection: by_scrap_cost_of_the_vehicle;
+    => nrel_associative_connection: by_recycling_cost_of_vehicle;
+    => nrel_associative_connection: by_cost_of_elimination_of_defects_in_operation;
+    => nrel_associative_connection: by_loss_of_merchantability_of_the_vehicle;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31389?langname=ru];
+    => nrel_etalon_online_idx: [31389];;

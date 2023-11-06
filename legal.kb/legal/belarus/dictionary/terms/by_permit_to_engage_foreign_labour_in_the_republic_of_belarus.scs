@@ -1,0 +1,37 @@
+
+by_permit_to_engage_foreign_labour_in_the_republic_of_belarus
+    => nrel_main_idtf: [permit to engage foreign labour in the republic of belarus] (* <- lang_en;; *);
+    => nrel_main_idtf: [разрешение на привлечение в республику беларусь иностранной рабочей силы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дазвол на прыцягненне ў рэспубліку беларусь замежнай рабочай сілы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_permit_to_engage_foreign_labour_in_the_republic_of_belarus_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_employment_state;
+    => nrel_associative_connection: by_foreign_employer;
+    => nrel_associative_connection: by_permission;
+    => nrel_associative_connection: by_special_permission_for_labor_activity_in_the_republic_of_belarus;
+    => nrel_associative_connection: by_labor_activity;
+    => nrel_associative_connection: by_working_immigrant;
+    => nrel_associative_connection: by_working_emigrant;
+
+    => nrel_legal_act: by_act_h11000225;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10560?langname=ru];
+    => nrel_etalon_online_idx: [10560];;

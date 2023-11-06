@@ -1,0 +1,35 @@
+
+by_consultant_of_the_stateprivate_partnership_project
+    => nrel_main_idtf: [consultant of the state-private partnership project] (* <- lang_en;; *);
+    => nrel_main_idtf: [консультант проекта государственно-частного партнерства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кансультант праекта дзяржаўна-прыватнага партнёрства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_consultant_of_the_stateprivate_partnership_project_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_stateprivate_partnership;
+    => nrel_associative_connection: by_state_partner;
+    => nrel_associative_connection: by_consultations;
+    => nrel_associative_connection: by_consultation_services;
+    => nrel_associative_connection: by_publicprivate_partnership_project;
+
+    => nrel_legal_act: by_act_h11500345;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16159?langname=ru];
+    => nrel_etalon_online_idx: [16159];;

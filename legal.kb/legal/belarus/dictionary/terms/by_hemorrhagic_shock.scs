@@ -1,0 +1,35 @@
+
+by_hemorrhagic_shock
+    => nrel_main_idtf: [hemorrhagic shock] (* <- lang_en;; *);
+    => nrel_main_idtf: [геморрагический шок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гемарагічны шок] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_hemorrhagic_shock_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_anaphylactic_shock;
+    => nrel_associative_connection: by_hematopoietic_depression;
+    => nrel_associative_connection: by_donorship_of_blood_its_components;
+    => nrel_associative_connection: by_blood;
+    => nrel_associative_connection: by_hemodynamic_instability;
+
+    => nrel_legal_act: by_act_w22035542p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34129?langname=ru];
+    => nrel_etalon_online_idx: [34129];;

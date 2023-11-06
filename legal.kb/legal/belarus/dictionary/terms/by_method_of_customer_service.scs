@@ -1,0 +1,23 @@
+
+by_method_of_customer_service
+    => nrel_main_idtf: [method of customer service] (* <- lang_en;; *);
+    => nrel_main_idtf: [метод обслуживания покупателей] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метад абслугоўвання пакупнікоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_independent_buyer;
+    => nrel_associative_connection: by_tent;
+    => nrel_associative_connection: by_counter;
+    => nrel_associative_connection: by_selfservice;
+    => nrel_associative_connection: by_trade_services;
+    => nrel_associative_connection: by_traditional_service;
+    => nrel_associative_connection: by_form_of_servicing_buyers;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10862?langname=ru];
+    => nrel_etalon_online_idx: [10862];;

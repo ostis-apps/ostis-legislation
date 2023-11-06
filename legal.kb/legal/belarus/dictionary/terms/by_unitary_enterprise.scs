@@ -1,0 +1,38 @@
+
+by_unitary_enterprise
+    => nrel_main_idtf: [unitary enterprise] (* <- lang_en;; *);
+    => nrel_main_idtf: [унитарное предприятие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [унітарнае прадпрыемства] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_unitary_enterprise_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_affiliates_of_the_economic_society;
+    => nrel_associative_connection: by_gas_supply_organizations;
+    => nrel_associative_connection: by_state_organization;
+    => nrel_associative_connection: by_property;
+    => nrel_associative_connection: by_enterprise;
+    => nrel_associative_connection: by_project_for_conversion_of_the_republican_unitary_enterprise_into_an_open_jointstock_company;
+    => nrel_associative_connection: by_rupoblenergo;
+    => nrel_associative_connection: by_lossmaking_governmental_organization;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4073?langname=ru];
+    => nrel_etalon_online_idx: [4073];;

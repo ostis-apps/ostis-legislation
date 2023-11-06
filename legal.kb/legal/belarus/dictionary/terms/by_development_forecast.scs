@@ -1,0 +1,36 @@
+
+by_development_forecast
+    => nrel_main_idtf: [development forecast] (* <- lang_en;; *);
+    => nrel_main_idtf: [прогноз развития] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прагноз развіцця] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_development_forecast_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_business_plan;
+    => nrel_associative_connection: by_financial_results_forecast;
+    => nrel_associative_connection: by_prospective_financial_information;
+    => nrel_associative_connection: by_budgeted_balance_sheet;
+    => nrel_associative_connection: by_entrepreneurship_development_council;
+    => nrel_associative_connection: by_effective_development;
+
+    => nrel_legal_act: by_act_w206p0194;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21420?langname=ru];
+    => nrel_etalon_online_idx: [21420];;

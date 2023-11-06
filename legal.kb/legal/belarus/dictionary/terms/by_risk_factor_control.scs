@@ -1,0 +1,39 @@
+
+by_risk_factor_control
+    => nrel_main_idtf: [risk factor control] (* <- lang_en;; *);
+    => nrel_main_idtf: [контроль факторов риска] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кантроль фактараў рызыкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_risk_factor_control_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit_iin_the_area_of_compliance_with_safety_requirements;
+    => nrel_associative_connection: by_achieved_safety;
+    => nrel_associative_connection: by_eurocontrol;
+    => nrel_associative_connection: by_classification_of_risks;
+    => nrel_associative_connection: by_risk_assessment;
+    => nrel_associative_connection: by_acceptable_level_of_security;
+    => nrel_associative_connection: by_risk;
+    => nrel_associative_connection: by_risk_reduction;
+    => nrel_associative_connection: by_security_situation;
+
+    => nrel_legal_act: by_act_c21900563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31545?langname=ru];
+    => nrel_etalon_online_idx: [31545];;

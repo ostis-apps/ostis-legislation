@@ -1,0 +1,37 @@
+
+by_kerma
+    => nrel_main_idtf: [kerma] (* <- lang_en;; *);
+    => nrel_main_idtf: [керма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [керма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_kerma_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_radiologist;
+    => nrel_associative_connection: by_gamma_radiation;
+    => nrel_associative_connection: by_isobars;
+    => nrel_associative_connection: by_isomers;
+    => nrel_associative_connection: by_isotopes;
+    => nrel_associative_connection: by_corpuscular_radiation;
+    => nrel_associative_connection: by_kerma_power;
+
+    => nrel_legal_act: by_act_w22035542p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/34163?langname=ru];
+    => nrel_etalon_online_idx: [34163];;

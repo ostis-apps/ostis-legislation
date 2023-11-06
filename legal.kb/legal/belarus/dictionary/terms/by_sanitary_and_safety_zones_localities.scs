@@ -1,0 +1,35 @@
+
+by_sanitary_and_safety_zones_localities
+    => nrel_main_idtf: [sanitary and safety zones (localities)] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарные и безопасные зоны (местности)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарныя і бяспечныя зоны (мясцовасці)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitary_and_safety_zones_localities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medical_formations;
+    => nrel_associative_connection: by_medical_personnel;
+    => nrel_associative_connection: by_objects_under_protection_of_international_humanitarian_law;
+    => nrel_associative_connection: by_identification_of_objects_personnel_of_medical_and_spiritual_services_civil_defense_protection_of_cultural_values_and_especially_dangerous_objects;
+    => nrel_associative_connection: by_injured_and_sick;
+
+    => nrel_legal_act: by_act_w20920969;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22828?langname=ru];
+    => nrel_etalon_online_idx: [22828];;

@@ -1,0 +1,42 @@
+
+by_recreational_load
+    => nrel_main_idtf: [recreational load] (* <- lang_en;; *);
+    => nrel_main_idtf: [рекреационная нагрузка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэкрэацыйная нагрузка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_recreational_load_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permissible_recreational_load_on_surface_water_body;
+    => nrel_associative_connection: by_resort;
+    => nrel_associative_connection: by_resort_of_local_meaning;
+    => nrel_associative_connection: by_resort_of_the_republic_meaning;
+    => nrel_associative_connection: by_resort_zone_resort_region;
+    => nrel_associative_connection: by_naturalrecreation_zone_recreation_area_of_local_importance;
+    => nrel_associative_connection: by_naturalrecreation_zone_recreation_zone_of_republican_significance;
+    => nrel_associative_connection: by_recreational_capacity;
+    => nrel_associative_connection: by_recreational_zones;
+    => nrel_associative_connection: by_special_tourist_and_recreation_park;
+    => nrel_associative_connection: by_touristic_area;
+    => nrel_associative_connection: by_tourist_and_recreational_territory;
+
+    => nrel_legal_act: by_act_c21601031;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22524?langname=ru];
+    => nrel_etalon_online_idx: [22524];;

@@ -1,0 +1,85 @@
+
+by_construction_site
+    => nrel_main_idtf: [construction site] (* <- lang_en;; *);
+    => nrel_main_idtf: [строительная площадка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [будаўнічая пляцоўка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_site_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_site_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_site_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_construction_site_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_tanker;
+    => nrel_associative_connection: by_installation_works;
+    => nrel_associative_connection: by_ring;
+    => nrel_associative_connection: by_binding_of_the_project_recommended_for_reapplication;
+    => nrel_associative_connection: by_means_of_conditioning;
+    => nrel_associative_connection: by_construction_activities_construction;
+    => nrel_associative_connection: by_construction;
+
+    => nrel_legal_act: by_act_h10400300;
+    => nrel_legal_act: by_act_c21900779;
+    => nrel_legal_act: by_act_w21630909p;
+    => nrel_legal_act: by_act_i08800006;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24355?langname=ru];
+    => nrel_etalon_online_idx: [24355];;

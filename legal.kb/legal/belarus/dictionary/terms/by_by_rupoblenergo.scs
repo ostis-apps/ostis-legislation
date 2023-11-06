@@ -1,0 +1,35 @@
+
+by_by_rupoblenergo
+    => nrel_main_idtf: [by_rupoblenergo] (* <- lang_en;; *);
+    => nrel_main_idtf: [руп-облэнерго] (* <- lang_ru;; *);
+    => nrel_main_idtf: [руп-облэнерга] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_rupoblenergo_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_electric_network_owner;
+    => nrel_associative_connection: by_electricity_supply_contract;
+    => nrel_associative_connection: by_available_throughput_of_electric_network;
+    => nrel_associative_connection: by_electricity_supply_system;
+    => nrel_associative_connection: by_unitary_enterprise;
+
+    => nrel_legal_act: by_act_c21101394;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22738?langname=ru];
+    => nrel_etalon_online_idx: [22738];;

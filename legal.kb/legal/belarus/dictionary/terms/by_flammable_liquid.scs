@@ -1,0 +1,34 @@
+
+by_flammable_liquid
+    => nrel_main_idtf: [flammable liquid] (* <- lang_en;; *);
+    => nrel_main_idtf: [легковоспламеняющаяся жидкость] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вадкасць, лёгкая на загаранне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flammable_liquid_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_paint_material;
+    => nrel_associative_connection: by_flammable_gases;
+    => nrel_associative_connection: by_flammable_component_for_aerosols;
+    => nrel_associative_connection: by_storage_offuels_and_lubricants;
+
+    => nrel_legal_act: by_act_c22000042;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32618?langname=ru];
+    => nrel_etalon_online_idx: [32618];;

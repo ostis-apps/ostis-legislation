@@ -1,0 +1,41 @@
+
+by_cycle_track
+    => nrel_main_idtf: [cycle track] (* <- lang_en;; *);
+    => nrel_main_idtf: [велосипедная дорожка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [веласіпедная дарожка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cycle_track_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bicycle_cycle_mobile;
+    => nrel_associative_connection: by_bicycle_parking;
+    => nrel_associative_connection: by_bike_crossing;
+    => nrel_associative_connection: by_aerial_taxiway;
+    => nrel_associative_connection: by_track;
+    => nrel_associative_connection: by_road_traffic;
+    => nrel_associative_connection: by_objects_of_transport_infrastructure_of_industrial_park;
+    => nrel_associative_connection: by_footpath;
+    => nrel_associative_connection: by_pedestrian_zone;
+    => nrel_associative_connection: by_participant_of_road_traffic;
+    => nrel_associative_connection: by_road_users;
+
+    => nrel_legal_act: by_act_p30500551;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12923?langname=ru];
+    => nrel_etalon_online_idx: [12923];;

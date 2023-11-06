@@ -1,0 +1,36 @@
+
+by_maintenance_of_list
+    => nrel_main_idtf: [maintenance of list ] (* <- lang_en;; *);
+    => nrel_main_idtf: [ведение списка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вядзенне спіса] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintenance_of_list_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_database;
+    => nrel_associative_connection: by_databank;
+    => nrel_associative_connection: by_record_in_data_bank;
+    => nrel_associative_connection: by_record_in_list;
+    => nrel_associative_connection: by_protection_of_information_about_foreigners_contained_in_the_list;
+    => nrel_associative_connection: by_list;
+
+    => nrel_legal_act: by_act_c21001054;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12906?langname=ru];
+    => nrel_etalon_online_idx: [12906];;

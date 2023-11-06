@@ -1,0 +1,53 @@
+
+by_by_polytrauma
+    => nrel_main_idtf: [by_polytrauma] (* <- lang_en;; *);
+    => nrel_main_idtf: [политравма] (* <- lang_ru;; *);
+    => nrel_main_idtf: [палітраўма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_polytrauma_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_polytrauma_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lifegenerating_effects_of_injuries;
+    => nrel_associative_connection: by_erbgoldflam;
+    => nrel_associative_connection: by_inj_multiple;
+    => nrel_associative_connection: by_burn_injury;
+    => nrel_associative_connection: by_occupational_injury;
+    => nrel_associative_connection: by_sports_injury;
+    => nrel_associative_connection: by_injury;
+
+    => nrel_legal_act: by_act_w22340484p;
+    => nrel_legal_act: by_act_w22340389p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43549?langname=ru];
+    => nrel_etalon_online_idx: [43549];;

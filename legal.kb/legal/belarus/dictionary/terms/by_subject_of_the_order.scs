@@ -1,0 +1,24 @@
+
+by_subject_of_the_order
+    => nrel_main_idtf: [subject of the order] (* <- lang_en;; *);
+    => nrel_main_idtf: [предмет заказа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадмет заказу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_procurement_of_goods_for_construction;
+    => nrel_associative_connection: by_purchase_of_goods_works_and_services;
+    => nrel_associative_connection: by_bid;
+    => nrel_associative_connection: by_board_lot;
+    => nrel_associative_connection: by_contract_bidding;
+    => nrel_associative_connection: by_offer_for_negotiations;
+    => nrel_associative_connection: by_turnkey_construction_object;
+    => nrel_associative_connection: by_order_price;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21026?langname=ru];
+    => nrel_etalon_online_idx: [21026];;

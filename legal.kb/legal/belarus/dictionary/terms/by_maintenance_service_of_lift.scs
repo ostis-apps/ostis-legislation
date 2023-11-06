@@ -1,0 +1,54 @@
+
+by_maintenance_service_of_lift
+    => nrel_main_idtf: [maintenance service of lift] (* <- lang_en;; *);
+    => nrel_main_idtf: [техническое обслуживание лифта ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэхнічнае абслугоўванне ліфта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintenance_service_of_lift_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_maintenance_service_of_lift_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_lift;
+    => nrel_associative_connection: by_small_cargo_lift;
+    => nrel_associative_connection: by_electric_lift;
+    => nrel_associative_connection: by_lift_modernization;
+    => nrel_associative_connection: by_accident_in_lifts_elevators_operating;
+    => nrel_associative_connection: by_damage_of_lift_elevator_of_i_degree;
+    => nrel_associative_connection: by_damage_of_lift_elevator_of_ii_degree;
+    => nrel_associative_connection: by_maintenance_service;
+
+    => nrel_legal_act: by_act_hk1200428;
+    => nrel_legal_act: by_act_C21800433;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32343?langname=ru];
+    => nrel_etalon_online_idx: [32343];;

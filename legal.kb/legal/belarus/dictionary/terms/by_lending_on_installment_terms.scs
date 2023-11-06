@@ -1,0 +1,35 @@
+
+by_lending_on_installment_terms
+    => nrel_main_idtf: [lending on installment terms] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредитование на условиях рассрочки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдытаванне на ўмовах растэрміноўкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lending_on_installment_terms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_lending_to_individuals_on_installment_terms;
+    => nrel_associative_connection: by_interest_rate_for_use_of_interbank_credit_contribution_deposit;
+    => nrel_associative_connection: by_arithmetic_mean_of_daily_balance_sheets_in_currency_units;
+    => nrel_associative_connection: by_arithmetic_mean_of_daily_balance_balances_in_the_equivalent_of_belarusian_rubles;
+
+    => nrel_legal_act: by_act_b21934719;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41870?langname=ru];
+    => nrel_etalon_online_idx: [41870];;

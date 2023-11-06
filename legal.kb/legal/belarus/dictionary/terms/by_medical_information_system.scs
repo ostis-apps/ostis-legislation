@@ -1,0 +1,34 @@
+
+by_medical_information_system
+    => nrel_main_idtf: [medical information system] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинская информационная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынская інфармацыйная сістэма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_information_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_healthcare;
+    => nrel_associative_connection: by_online_pharmacy;
+    => nrel_associative_connection: by_retail_sale_of_medicines_by_remote_method;
+    => nrel_associative_connection: by_decisionmaking_support_system;
+
+    => nrel_legal_act: by_act_c22100267;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42520?langname=ru];
+    => nrel_etalon_online_idx: [42520];;

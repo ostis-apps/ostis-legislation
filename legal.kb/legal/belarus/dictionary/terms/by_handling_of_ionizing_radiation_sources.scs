@@ -1,0 +1,41 @@
+
+by_handling_of_ionizing_radiation_sources
+    => nrel_main_idtf: [handling of ionizing radiation sources] (* <- lang_en;; *);
+    => nrel_main_idtf: [обращение с источниками ионизирующего излучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абыходжанне з крыніцамі іанізуючага выпраменьвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_handling_of_ionizing_radiation_sources_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_ownerless_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_dosimetry_of_ionizing_radiation;
+    => nrel_associative_connection: by_enclosed_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_ionizing_radiation;
+    => nrel_associative_connection: by_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_appointed_service_life_of_a_secured_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_open_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_users_of_sources_of_ionizing_radiation;
+    => nrel_associative_connection: by_user_of_the_ionizing_radiation_source;
+    => nrel_associative_connection: by_type_of_ionizing_radiation_source;
+    => nrel_associative_connection: by_transboundary_movement_of_ionizing_radiation_sources;
+
+    => nrel_legal_act: by_act_h11900198;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18537?langname=ru];
+    => nrel_etalon_online_idx: [18537];;

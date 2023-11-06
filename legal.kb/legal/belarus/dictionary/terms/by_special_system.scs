@@ -1,0 +1,35 @@
+
+by_special_system
+    => nrel_main_idtf: [special system] (* <- lang_en;; *);
+    => nrel_main_idtf: [специальная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [спецыяльная сістэма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_special_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_activity_in_the_sphere_of_gambling_business;
+    => nrel_associative_connection: by_offence;
+    => nrel_associative_connection: by_offences;
+    => nrel_associative_connection: by_special_computer_cash_system;
+
+    => nrel_legal_act: by_act_hk2100091;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41324?langname=ru];
+    => nrel_etalon_online_idx: [41324];;

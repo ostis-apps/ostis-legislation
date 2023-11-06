@@ -1,0 +1,50 @@
+
+by_representation
+    => nrel_main_idtf: [representation] (* <- lang_en;; *);
+    => nrel_main_idtf: [представление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прадстаўленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_representation_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_rotation_machines;
+    => nrel_associative_connection: by_proper_representation;
+    => nrel_associative_connection: by_representing_bank;
+    => nrel_associative_connection: by_own_auditorium;
+
+    => nrel_legal_act: by_act_h10700220;
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/727?langname=ru];
+    => nrel_etalon_online_idx: [727];;

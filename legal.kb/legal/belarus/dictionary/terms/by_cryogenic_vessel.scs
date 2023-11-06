@@ -1,0 +1,20 @@
+
+by_cryogenic_vessel
+    => nrel_main_idtf: [cryogenic vessel] (* <- lang_en;; *);
+    => nrel_main_idtf: [криогенный сосуд] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крыягенны сасуд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_internal_vessel;
+    => nrel_associative_connection: by_liquefied_gas;
+    => nrel_associative_connection: by_high_pressure_liquefied_gas;
+    => nrel_associative_connection: by_low_pressure_liquefied_gas;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16424?langname=ru];
+    => nrel_etalon_online_idx: [16424];;

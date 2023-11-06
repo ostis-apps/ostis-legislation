@@ -1,0 +1,35 @@
+
+by_by_base_active_zone
+    => nrel_main_idtf: [by_base_active_zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [активная зона основания] (* <- lang_ru;; *);
+    => nrel_main_idtf: [актыўная зона падставы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_base_active_zone_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vertical_impact_v;
+    => nrel_associative_connection: by_impact_unstrong;
+    => nrel_associative_connection: by_exposure_to_force;
+    => nrel_associative_connection: by_geotechnical_works;
+    => nrel_associative_connection: by_geotechnical_monitoring_gm;
+
+    => nrel_legal_act: by_act_w223p0021;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43803?langname=ru];
+    => nrel_etalon_online_idx: [43803];;

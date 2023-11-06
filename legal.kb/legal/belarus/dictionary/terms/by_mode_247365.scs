@@ -1,0 +1,35 @@
+
+by_mode_247365
+    => nrel_main_idtf: [mode 24/7/365] (* <- lang_en;; *);
+    => nrel_main_idtf: [режим 24/7/365] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжым 24/7/365] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_mode_247365_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_information_message;
+    => nrel_associative_connection: by_finality_of_payment_for_intra_crossborder_instantaneous_payment;
+    => nrel_associative_connection: by_operating_day_of_the_sistem_of_instant_payment;
+    => nrel_associative_connection: by_nearreal_time_mode;
+    => nrel_associative_connection: by_information_support_service_for_instant_payments;
+
+    => nrel_legal_act: by_act_b22238823;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41814?langname=ru];
+    => nrel_etalon_online_idx: [41814];;

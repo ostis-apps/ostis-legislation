@@ -1,0 +1,35 @@
+
+by_gaseous_fuel
+    => nrel_main_idtf: [gaseous fuel] (* <- lang_en;; *);
+    => nrel_main_idtf: [газообразное топливо] (* <- lang_ru;; *);
+    => nrel_main_idtf: [газападобнае паліва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gaseous_fuel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerosols_dust_of_predominantly_fibrogenic_action;
+    => nrel_associative_connection: by_concentration_of_pollutant_in_exhaust_gases_mgm3;
+    => nrel_associative_connection: by_volatile_organic_compounds_voc;
+    => nrel_associative_connection: by_normal_conditions;
+    => nrel_associative_connection: by_general_organic_carbon;
+
+    => nrel_legal_act: by_act_w22339600p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32631?langname=ru];
+    => nrel_etalon_online_idx: [32631];;

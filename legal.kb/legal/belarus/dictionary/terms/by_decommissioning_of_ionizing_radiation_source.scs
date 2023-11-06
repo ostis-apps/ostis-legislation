@@ -1,0 +1,37 @@
+
+by_decommissioning_of_ionizing_radiation_source
+    => nrel_main_idtf: [decommissioning of ionizing radiation source] (* <- lang_en;; *);
+    => nrel_main_idtf: [вывод из эксплуатации источника ионизирующего излучения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вывад з эксплуатацыі крыніцы іанізуючага выпраменьвання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_decommissioning_of_ionizing_radiation_source_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_block_of_closed_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_ionizing_radiation;
+    => nrel_associative_connection: by_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_preparation_for_putting_into_operation_source_of_ionizing_radiation;
+    => nrel_associative_connection: by_users_of_sources_of_ionizing_radiation;
+    => nrel_associative_connection: by_user_of_the_ionizing_radiation_source;
+    => nrel_associative_connection: by_type_of_ionizing_radiation_source;
+
+    => nrel_legal_act: by_act_w22036169p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36568?langname=ru];
+    => nrel_etalon_online_idx: [36568];;

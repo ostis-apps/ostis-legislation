@@ -1,0 +1,37 @@
+
+by_immovable_property_not_used
+    => nrel_main_idtf: [immovable property not used] (* <- lang_en;; *);
+    => nrel_main_idtf: [неиспользуемое недвижимое имущество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [невыкарыстоўваемая нерухомая маёмасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_immovable_property_not_used_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_newly_formed_real_estate_property;
+    => nrel_associative_connection: by_real_estate;
+    => nrel_associative_connection: by_immovable_property_immovable_thing;
+    => nrel_associative_connection: by_immovable_things;
+    => nrel_associative_connection: by_unused_property_in_republic_property;
+    => nrel_associative_connection: by_unused_objects;
+    => nrel_associative_connection: by_passport_of_the_unused_object;
+
+    => nrel_legal_act: by_act_c21200590;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18032?langname=ru];
+    => nrel_etalon_online_idx: [18032];;

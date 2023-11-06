@@ -1,0 +1,36 @@
+
+by_objectanalogue_of_vehicle
+    => nrel_main_idtf: [object-analogue of vehicle] (* <- lang_en;; *);
+    => nrel_main_idtf: [объект-аналог транспортного средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'ект-аналаг транспартнага сродку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objectanalogue_of_vehicle_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_objectanalogue;
+    => nrel_associative_connection: by_history_of_vehicle_damages;
+    => nrel_associative_connection: by_objectanalogue;
+    => nrel_associative_connection: by_representative_sample;
+    => nrel_associative_connection: by_vehicle;
+    => nrel_associative_connection: by_vehicles;
+
+    => nrel_legal_act: by_act_z60400069;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18688?langname=ru];
+    => nrel_etalon_online_idx: [18688];;

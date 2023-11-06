@@ -1,0 +1,20 @@
+
+by_by_fixing_points
+    => nrel_main_idtf: [by_fixing_points] (* <- lang_en;; *);
+    => nrel_main_idtf: [фиксажные пункты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [фіксажныя пункты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_observer;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_fixation_points;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25963?langname=ru];
+    => nrel_etalon_online_idx: [25963];;

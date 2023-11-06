@@ -1,0 +1,56 @@
+
+by_upbringing_process
+    => nrel_main_idtf: [upbringing process] (* <- lang_en;; *);
+    => nrel_main_idtf: [воспитательный процесс] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выхаваўчы працэс] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_upbringing_process_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_upbringing_process_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upringing_work;
+    => nrel_associative_connection: by_educational_work_with_convicted;
+    => nrel_associative_connection: by_educational_impact;
+    => nrel_associative_connection: by_educational_activities;
+    => nrel_associative_connection: by_children_in_need_of_recreation;
+    => nrel_associative_connection: by_individual_educative_measure_with_the_convicted;
+    => nrel_associative_connection: by_encouragement_motivation;
+    => nrel_associative_connection: by_upbringing_program;
+    => nrel_associative_connection: by_program_and_planning_documentation_of_upbringing;
+    => nrel_associative_connection: by_education_institution;
+
+    => nrel_legal_act: by_act_hk1100243;
+    => nrel_legal_act: by_act_n22000128;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4101?langname=ru];
+    => nrel_etalon_online_idx: [4101];;

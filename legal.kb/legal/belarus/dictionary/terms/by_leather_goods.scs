@@ -1,0 +1,50 @@
+
+by_leather_goods
+    => nrel_main_idtf: [leather goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [кожгалантерейное изделие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [скургалантарэйны выраб] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leather_goods_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_leather_goods_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_product_quality;
+    => nrel_associative_connection: by_leather_galvanized_production;
+    => nrel_associative_connection: by_design_of_footwear_and_leather_goods;
+    => nrel_associative_connection: by_shoe_and_leather_industry;
+
+    => nrel_legal_act: by_act_w22136462p;
+    => nrel_legal_act: by_act_w21934324p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31532?langname=ru];
+    => nrel_etalon_online_idx: [31532];;

@@ -1,0 +1,37 @@
+
+by_printing_machine
+    => nrel_main_idtf: [printing machine] (* <- lang_en;; *);
+    => nrel_main_idtf: [печатная машина ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [друкарская машына] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_printing_machine_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_printing_print;
+    => nrel_associative_connection: by_printing_processes;
+    => nrel_associative_connection: by_flat_printing;
+    => nrel_associative_connection: by_polygraphic_machine_installation_device;
+    => nrel_associative_connection: by_polygraphic_process;
+    => nrel_associative_connection: by_polygraphic_equipment;
+    => nrel_associative_connection: by_polygraphic_enterprise_or_printing_house;
+
+    => nrel_legal_act: by_act_w22035365p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33569?langname=ru];
+    => nrel_etalon_online_idx: [33569];;

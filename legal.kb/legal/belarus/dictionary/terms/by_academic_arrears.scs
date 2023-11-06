@@ -1,0 +1,21 @@
+
+by_academic_arrears
+    => nrel_main_idtf: [academic arrears] (* <- lang_en;; *);
+    => nrel_main_idtf: [академическая задолженность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [акадэмічная запазычанасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_debts;
+    => nrel_associative_connection: by_educational_program;
+    => nrel_associative_connection: by_scholarship;
+    => nrel_associative_connection: by_curriculum;
+    => nrel_associative_connection: by_educational_plan;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7527?langname=ru];
+    => nrel_etalon_online_idx: [7527];;

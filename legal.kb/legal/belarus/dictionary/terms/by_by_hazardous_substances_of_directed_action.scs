@@ -1,0 +1,33 @@
+
+by_by_hazardous_substances_of_directed_action
+    => nrel_main_idtf: [by_hazardous_substances_of_directed_action] (* <- lang_en;; *);
+    => nrel_main_idtf: [вредные вещества остронаправленного действия ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шкодныя рэчывы востранакіраванага дзеяння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_hazardous_substances_of_directed_action_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_harmful_substances;
+    => nrel_associative_connection: by_unidirectional_hazardous_substances;
+    => nrel_associative_connection: by_harmful_substances_with_irritating_effect;
+
+    => nrel_legal_act: by_act_c22100037;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43151?langname=ru];
+    => nrel_etalon_online_idx: [43151];;

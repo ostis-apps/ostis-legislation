@@ -1,0 +1,42 @@
+
+by_trains_of_interregional_lines
+    => nrel_main_idtf: [trains of interregional lines] (* <- lang_en;; *);
+    => nrel_main_idtf: [поезда межрегиональных линий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цягнікі міжрэгіянальных ліній] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_trains_of_interregional_lines_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_train_traffic_schedule;
+    => nrel_associative_connection: by_railway_transport;
+    => nrel_associative_connection: by_interregional_communication_interregional_lines;
+    => nrel_associative_connection: by_train;
+    => nrel_associative_connection: by_freight_train;
+    => nrel_associative_connection: by_freight_transporting_long_train;
+    => nrel_associative_connection: by_cargopassenger_train;
+    => nrel_associative_connection: by_passenger_train;
+    => nrel_associative_connection: by_trains_of_city_lines;
+    => nrel_associative_connection: by_trains_of_commercial_lines;
+    => nrel_associative_connection: by_trains_of_international_lines;
+    => nrel_associative_connection: by_regional_communication_regional_lines;
+
+    => nrel_legal_act: by_act_c29901196;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20460?langname=ru];
+    => nrel_etalon_online_idx: [20460];;

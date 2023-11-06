@@ -1,0 +1,51 @@
+
+by_archive_extract
+    => nrel_main_idtf: [archive extract] (* <- lang_en;; *);
+    => nrel_main_idtf: [архивная выписка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [архіўная выпіска] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_extract_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_archive_extract_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_archive;
+    => nrel_associative_connection: by_archival_certificate_in_the_form_according_to_annex_57;
+    => nrel_associative_connection: by_archive_documents;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_historical_and_archival_reference;
+
+    => nrel_legal_act: by_act_c22000727;
+    => nrel_legal_act: by_act_w22238797;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8134?langname=ru];
+    => nrel_etalon_online_idx: [8134];;

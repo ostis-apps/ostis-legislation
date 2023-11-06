@@ -1,0 +1,35 @@
+
+by_debt_of_local_government_and_selfgovernment_authorities
+    => nrel_main_idtf: [debt of local government and self-government authorities] (* <- lang_en;; *);
+    => nrel_main_idtf: [долг органов местного управления и самоуправления] (* <- lang_ru;; *);
+    => nrel_main_idtf: [доўг органаў мясцовага кіравання і самакіравання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_debt_of_local_government_and_selfgovernment_authorities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_domestic_government_loans;
+    => nrel_associative_connection: by_debt_guaranteed_by_local_executive_and_administrative_bodies;
+    => nrel_associative_connection: by_limit_of_the_debt_of_local_authorities_and_bodies_of_selfgovernment;
+    => nrel_associative_connection: by_limit_of_the_debt_guaranteed_by_local_executive_and_administrative_bodies;
+    => nrel_associative_connection: by_bodies_of_local_government_and_selfgovernment;
+
+    => nrel_legal_act: by_act_hk0800412;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/3710?langname=ru];
+    => nrel_etalon_online_idx: [3710];;

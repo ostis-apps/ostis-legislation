@@ -1,0 +1,19 @@
+
+by_material_assistance
+    => nrel_main_idtf: [material assistance] (* <- lang_en;; *);
+    => nrel_main_idtf: [материальная помощь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэрыяльная дапамога] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_humanitarian_activity;
+    => nrel_associative_connection: by_monthly_social_allowance;
+    => nrel_associative_connection: by_personal_anniversary;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/2758?langname=ru];
+    => nrel_etalon_online_idx: [2758];;

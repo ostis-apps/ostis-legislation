@@ -1,0 +1,25 @@
+
+by_executor_of_administrative_violation
+    => nrel_main_idtf: [executor of administrative violation] (* <- lang_en;; *);
+    => nrel_main_idtf: [исполнитель административного правонорушения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выканаўца адміністрацыйнага правонорушения] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_administrative_offence;
+    => nrel_associative_connection: by_administrative_offence_committed_deliberately;
+    => nrel_associative_connection: by_proceedings_of_an_administrative_offence;
+    => nrel_associative_connection: by_continuous_administrative_offence;
+    => nrel_associative_connection: by_organizer_of_administrative_violation;
+    => nrel_associative_connection: by_related_to_the_case_of_administrative_violation_evidence;
+    => nrel_associative_connection: by_attempt_to_commit_administrative_offence;
+    => nrel_associative_connection: by_accomplice_of_administrative_offence;
+    => nrel_associative_connection: by_accompliceship_in_administrative_violation;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15565?langname=ru];
+    => nrel_etalon_online_idx: [15565];;

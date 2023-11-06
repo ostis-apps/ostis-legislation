@@ -1,0 +1,51 @@
+
+by_harmful_substance
+    => nrel_main_idtf: [harmful substance] (* <- lang_en;; *);
+    => nrel_main_idtf: [вредное вещество] (* <- lang_ru;; *);
+    => nrel_main_idtf: [шкоднае рэчыва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_harmful_substance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_harmful_substance_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_damage;
+    => nrel_associative_connection: by_harmful_substances;
+    => nrel_associative_connection: by_unidirectional_hazardous_substances;
+    => nrel_associative_connection: by_safety_data_sheet;
+    => nrel_associative_connection: by_maximum_permissible_concentrations_of_hazardous_substances_in_the_air_of_working_area;
+
+    => nrel_legal_act: by_act_w20819258;
+    => nrel_legal_act: by_act_n20600147;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13250?langname=ru];
+    => nrel_etalon_online_idx: [13250];;

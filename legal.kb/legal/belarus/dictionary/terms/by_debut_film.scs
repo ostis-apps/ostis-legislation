@@ -1,0 +1,34 @@
+
+by_debut_film
+    => nrel_main_idtf: [debut film] (* <- lang_en;; *);
+    => nrel_main_idtf: [дебютный фильм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэбютны фільм] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_debut_film_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_authors_film;
+    => nrel_associative_connection: by_film_almanac_of_student_films;
+    => nrel_associative_connection: by_cinema_chronicle;
+    => nrel_associative_connection: by_film;
+
+    => nrel_legal_act: by_act_p32100146;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38918?langname=ru];
+    => nrel_etalon_online_idx: [38918];;

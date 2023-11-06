@@ -1,0 +1,37 @@
+
+by_water_consumers
+    => nrel_main_idtf: [water consumers] (* <- lang_en;; *);
+    => nrel_main_idtf: [водопользователи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водакарыстальнікі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_consumers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_resources;
+    => nrel_associative_connection: by_water_use;
+    => nrel_associative_connection: by_public_water_consumption;
+    => nrel_associative_connection: by_sectoral_technological_standards_for_water_use;
+    => nrel_associative_connection: by_users_of_land_plots_and_or_water_objects;
+    => nrel_associative_connection: by_users_of_land_plots_or_water_objects;
+    => nrel_associative_connection: by_user_of_natural_resources;
+
+    => nrel_legal_act: by_act_hk1400149;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13163?langname=ru];
+    => nrel_etalon_online_idx: [13163];;

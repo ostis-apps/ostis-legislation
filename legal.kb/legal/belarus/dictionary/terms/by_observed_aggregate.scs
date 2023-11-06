@@ -1,0 +1,34 @@
+
+by_observed_aggregate
+    => nrel_main_idtf: [observed aggregate] (* <- lang_en;; *);
+    => nrel_main_idtf: [наблюдаемая совокупность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сукупнасць, якая знаходзіцца пад наглядам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_observed_aggregate_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_sample;
+    => nrel_associative_connection: by_sample_sampling;
+    => nrel_associative_connection: by_unit_of_observed_aggregate;
+    => nrel_associative_connection: by_microfiles;
+
+    => nrel_legal_act: by_act_h10400345;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10311?langname=ru];
+    => nrel_etalon_online_idx: [10311];;

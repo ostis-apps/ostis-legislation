@@ -1,0 +1,35 @@
+
+by_initial_price_of_object_of_electronic_trading
+    => nrel_main_idtf: [initial price of object of electronic trading] (* <- lang_en;; *);
+    => nrel_main_idtf: [начальная цена предмета электронных торгов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пачатковая цана прадмета электронных таргоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_initial_price_of_object_of_electronic_trading_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_initial_cost;
+    => nrel_associative_connection: by_winner_of_electronic_bidding;
+    => nrel_associative_connection: by_object_of_electronic_bidding;
+    => nrel_associative_connection: by_step_of_electronic_bidding;
+    => nrel_associative_connection: by_electronic_bidding;
+
+    => nrel_legal_act: by_act_c21300608;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10358?langname=ru];
+    => nrel_etalon_online_idx: [10358];;

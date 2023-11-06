@@ -1,0 +1,32 @@
+
+by_by_extradition_to_interested_parties
+    => nrel_main_idtf: [by_extradition_to_interested_parties] (* <- lang_en;; *);
+    => nrel_main_idtf: [выдача заинтересованным лицам] (* <- lang_ru;; *);
+    => nrel_main_idtf: [выдача зацікаўленым асобам] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_extradition_to_interested_parties_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_permit_for_admission_of_a_vehicle_to_participate_in_road_traffic;
+    => nrel_associative_connection: by_certificate_of_admission_of_a_vehicle_for_the_carriage_of_certain_dangerous_goods;
+
+    => nrel_legal_act: by_act_c29801996;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/42758?langname=ru];
+    => nrel_etalon_online_idx: [42758];;

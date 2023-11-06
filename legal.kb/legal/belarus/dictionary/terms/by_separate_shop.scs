@@ -1,0 +1,22 @@
+
+by_separate_shop
+    => nrel_main_idtf: [separate shop] (* <- lang_en;; *);
+    => nrel_main_idtf: [отдельно стоящий магазин] (* <- lang_ru;; *);
+    => nrel_main_idtf: [асобна стаячы магазін] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_autonomous_shop;
+    => nrel_associative_connection: by_discount_shop;
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_storewarehouse;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_specialized_shop;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19489?langname=ru];
+    => nrel_etalon_online_idx: [19489];;

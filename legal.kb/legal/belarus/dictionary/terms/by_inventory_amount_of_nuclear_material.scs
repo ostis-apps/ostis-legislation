@@ -1,0 +1,23 @@
+
+by_inventory_amount_of_nuclear_material
+    => nrel_main_idtf: [inventory amount of nuclear material] (* <- lang_en;; *);
+    => nrel_main_idtf: [инвентарное количество ядерного материала] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інвентарная колькасць ядзернага матэрыялу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_anomaly_in_the_accounting_of_nuclear_materials_and_controlling_of_them;
+    => nrel_associative_connection: by_key_measurement_point;
+    => nrel_associative_connection: by_amount_of_unaccounted_material;
+    => nrel_associative_connection: by_control_over_nuclear_material;
+    => nrel_associative_connection: by_spent_nuclear_material;
+    => nrel_associative_connection: by_accounting_report;
+    => nrel_associative_connection: by_nuclear_material;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10725?langname=ru];
+    => nrel_etalon_online_idx: [10725];;

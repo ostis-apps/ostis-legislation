@@ -1,0 +1,36 @@
+
+by_compliancerisk
+    => nrel_main_idtf: [compliance-risk] (* <- lang_en;; *);
+    => nrel_main_idtf: [комплаенс-риск] (* <- lang_ru;; *);
+    => nrel_main_idtf: [комплаенс-рызыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compliancerisk_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_contractual_risk;
+    => nrel_associative_connection: by_reputation_risk;
+    => nrel_associative_connection: by_risk_of_access;
+    => nrel_associative_connection: by_counterparty_risk;
+    => nrel_associative_connection: by_the_risk_of_not_having_a_strategy_for_withdrawing_from_the_outsourcing_contract;
+    => nrel_associative_connection: by_country_risk;
+
+    => nrel_legal_act: by_act_b22035029;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32774?langname=ru];
+    => nrel_etalon_online_idx: [32774];;

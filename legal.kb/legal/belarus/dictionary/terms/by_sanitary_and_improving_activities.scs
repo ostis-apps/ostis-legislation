@@ -1,0 +1,35 @@
+
+by_sanitary_and_improving_activities
+    => nrel_main_idtf: [sanitary and improving activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [санитарно-оздоровительные мероприятия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [санітарна-аздараўленчыя мерапрыемствы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_sanitary_and_improving_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_laying_out_of_trapping_wood_trees;
+    => nrel_associative_connection: by_forest_pathological_state_of_forest_plants;
+    => nrel_associative_connection: by_lost_forest_plantations;
+    => nrel_associative_connection: by__sanitary_felling;
+    => nrel_associative_connection: by_sanitary_condition_of_forest_plants;
+
+    => nrel_legal_act: by_act_w21631603;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36575?langname=ru];
+    => nrel_etalon_online_idx: [36575];;

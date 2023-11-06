@@ -1,0 +1,39 @@
+
+by_by_foreign_subdivision
+    => nrel_main_idtf: [by_foreign_subdivision] (* <- lang_en;; *);
+    => nrel_main_idtf: [иностранное подразделение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [замежнае падраздзяленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_foreign_subdivision_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_foreign_activities;
+    => nrel_associative_connection: by_a_foreign_company;
+    => nrel_associative_connection: by_foreign_banks;
+    => nrel_associative_connection: by_foreign_bank;
+    => nrel_associative_connection: by_separate_subdivision;
+    => nrel_associative_connection: by_separate_subdivisions;
+    => nrel_associative_connection: by_subdivision;
+    => nrel_associative_connection: by_subdivisions;
+    => nrel_associative_connection: by_bank_branch;
+
+    => nrel_legal_act: by_act_b207p0341;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43498?langname=ru];
+    => nrel_etalon_online_idx: [43498];;

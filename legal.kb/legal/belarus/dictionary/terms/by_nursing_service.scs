@@ -1,0 +1,34 @@
+
+by_nursing_service
+    => nrel_main_idtf: [nursing service] (* <- lang_en;; *);
+    => nrel_main_idtf: [услуги сиделки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паслугі сядзелкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_nursing_service_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_social_domestic_services;
+    => nrel_associative_connection: by_social_service;
+    => nrel_associative_connection: by_selfmaintenance_capability;
+    => nrel_associative_connection: by_personal_assistant_services;
+
+    => nrel_legal_act: by_act_h10000395;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10872?langname=ru];
+    => nrel_etalon_online_idx: [10872];;

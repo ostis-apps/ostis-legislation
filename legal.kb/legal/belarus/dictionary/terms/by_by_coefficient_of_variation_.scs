@@ -1,0 +1,31 @@
+
+by_by_coefficient_of_variation_
+    => nrel_main_idtf: [by_coefficient_of_variation_] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент вариации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент варыяцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_coefficient_of_variation__0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_probability_of_selection;
+
+    => nrel_legal_act: by_act_t21402840p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/43752?langname=ru];
+    => nrel_etalon_online_idx: [43752];;

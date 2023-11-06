@@ -1,0 +1,36 @@
+
+by_fraudulent_financial_reporting
+    => nrel_main_idtf: [fraudulent financial reporting] (* <- lang_en;; *);
+    => nrel_main_idtf: [недобросовестное составление бухгалтерской (финансовой) отчетности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нядобрасумленнае стварэнне бухгалтарскай (фінансавай) справаздачнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_fraudulent_financial_reporting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_index_of_accounting_financial_reporting;
+    => nrel_associative_connection: by_date_of_accounting_financial_reporting_preparation;
+    => nrel_associative_connection: by_date_of_accounting_financial_reporting_submission;
+    => nrel_associative_connection: by_distortion_of_accounting_financial_reporting;
+    => nrel_associative_connection: by_fraud;
+    => nrel_associative_connection: by_prerequisites_for_the_preparation_of_accounting_and_or_financial_statements;
+
+    => nrel_legal_act: by_act_w20614278;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17946?langname=ru];
+    => nrel_etalon_online_idx: [17946];;

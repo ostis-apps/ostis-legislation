@@ -1,0 +1,53 @@
+
+by_depot_tracks
+    => nrel_main_idtf: [depot tracks] (* <- lang_en;; *);
+    => nrel_main_idtf: [деповские пути] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дэпоўскія шляхі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depot_tracks_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_depot_tracks_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_gap_of_the_contact_rail_agcr;
+    => nrel_associative_connection: by_main_ways_of_the_line;
+    => nrel_associative_connection: by_depot;
+    => nrel_associative_connection: by_depot_repair;
+    => nrel_associative_connection: by_railways;
+    => nrel_associative_connection: by_railway_crossing;
+    => nrel_associative_connection: by_camera_ramps;
+
+    => nrel_legal_act: by_act_w22136324p;
+    => nrel_legal_act: by_act_w02035789p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14086?langname=ru];
+    => nrel_etalon_online_idx: [14086];;

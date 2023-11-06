@@ -1,0 +1,38 @@
+
+by_biotechnologies
+    => nrel_main_idtf: [biotechnologies] (* <- lang_en;; *);
+    => nrel_main_idtf: [биотехнологии] (* <- lang_ru;; *);
+    => nrel_main_idtf: [біятэхналогіі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_biotechnologies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_v_technological_storage;
+    => nrel_associative_connection: by_vi_technological_storage;
+    => nrel_associative_connection: by_biotechnological_products;
+    => nrel_associative_connection: by_biotechnological_medicine;
+    => nrel_associative_connection: by_biotechnological_medicine;
+    => nrel_associative_connection: by_biotechnology;
+    => nrel_associative_connection: by_cellular_biotechnologies;
+    => nrel_associative_connection: by_technology;
+
+    => nrel_legal_act: by_act_c20901386;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12765?langname=ru];
+    => nrel_etalon_online_idx: [12765];;

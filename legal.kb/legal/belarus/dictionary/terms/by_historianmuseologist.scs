@@ -1,0 +1,38 @@
+
+by_historianmuseologist
+    => nrel_main_idtf: [historian-museologist] (* <- lang_en;; *);
+    => nrel_main_idtf: [историк-музеолог ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гісторык-музеёлаг ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_historianmuseologist_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_art_historianmuseologist;
+    => nrel_associative_connection: by_historian;
+    => nrel_associative_connection: by_historianarchivist;
+    => nrel_associative_connection: by_history;
+    => nrel_associative_connection: by_curator;
+    => nrel_associative_connection: by_museum_business;
+    => nrel_associative_connection: by_museum_business_and_protection_of_historical_and_cultural_heritage;
+    => nrel_associative_connection: by_protection_of__historic_and_cultural_heritage;
+
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29272?langname=ru];
+    => nrel_etalon_online_idx: [29272];;

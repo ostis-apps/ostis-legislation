@@ -1,0 +1,36 @@
+
+by_lending_to_individuals_on_installment_terms
+    => nrel_main_idtf: [lending to individuals on installment terms] (* <- lang_en;; *);
+    => nrel_main_idtf: [кредитование физических лиц на условиях рассрочки] (* <- lang_ru;; *);
+    => nrel_main_idtf: [крэдытаванне фізічных асоб на ўмовах растэрміноўкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lending_to_individuals_on_installment_terms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_credit_contract;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_lending_on_installment_terms;
+    => nrel_associative_connection: by_assessment_of_the_creditworthiness_of_the_applicant_borrower;
+    => nrel_associative_connection: by_installment_payment_under_the_loan_agreement;
+    => nrel_associative_connection: by_physical_persons;
+
+    => nrel_legal_act: by_act_b22035303;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33149?langname=ru];
+    => nrel_etalon_online_idx: [33149];;

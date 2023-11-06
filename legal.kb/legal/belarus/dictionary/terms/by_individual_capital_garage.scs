@@ -1,0 +1,34 @@
+
+by_individual_capital_garage
+    => nrel_main_idtf: [individual capital garage] (* <- lang_en;; *);
+    => nrel_main_idtf: [индивидуальный капитальный гараж] (* <- lang_ru;; *);
+    => nrel_main_idtf: [індывідуальны капітальны гараж] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_individual_capital_garage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_garages_block;
+    => nrel_associative_connection: by_temporary_individual_garage;
+    => nrel_associative_connection: by_garage;
+    => nrel_associative_connection: by_individual_isolated_garage;
+
+    => nrel_legal_act: by_act_w21529886;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28437?langname=ru];
+    => nrel_etalon_online_idx: [28437];;

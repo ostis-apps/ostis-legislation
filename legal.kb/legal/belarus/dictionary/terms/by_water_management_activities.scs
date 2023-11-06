@@ -1,0 +1,36 @@
+
+by_water_management_activities
+    => nrel_main_idtf: [water management activities] (* <- lang_en;; *);
+    => nrel_main_idtf: [водохозяйственные работы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [водагаспадарчыя работы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_water_management_activities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_supply;
+    => nrel_associative_connection: by_agriculture;
+    => nrel_associative_connection: by_meloriative_works;
+    => nrel_associative_connection: by_melioration_and_water_household;
+    => nrel_associative_connection: by_mechanization_of_meloriative_works;
+    => nrel_associative_connection: by_soil;
+
+    => nrel_legal_act: by_act_w22035283p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33385?langname=ru];
+    => nrel_etalon_online_idx: [33385];;

@@ -1,0 +1,56 @@
+
+by_bank_issuer
+    => nrel_main_idtf: [bank issuer] (* <- lang_en;; *);
+    => nrel_main_idtf: [банк-эмитент] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банк-эмітэнт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_issuer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_issuer_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank;
+    => nrel_associative_connection: by_applicants_bank;
+    => nrel_associative_connection: by_nonresident_bank;
+    => nrel_associative_connection: by_collecting_bank;
+    => nrel_associative_connection: by_credit_authorization;
+    => nrel_associative_connection: by_confirming_bank;
+    => nrel_associative_connection: by_postfinancing;
+    => nrel_associative_connection: by_issue;
+    => nrel_associative_connection: by_issuer;
+    => nrel_associative_connection: by_issuernonresident;
+
+    => nrel_legal_act: by_act_b22239056;
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10831?langname=ru];
+    => nrel_etalon_online_idx: [10831];;

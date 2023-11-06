@@ -1,0 +1,55 @@
+
+by_wood_whip
+    => nrel_main_idtf: [wood whip] (* <- lang_en;; *);
+    => nrel_main_idtf: [древесный хлыст] (* <- lang_ru;; *);
+    => nrel_main_idtf: [драўняны дубец] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_whip_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_wood_whip_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_upper_warehouse;
+    => nrel_associative_connection: by_timber;
+    => nrel_associative_connection: by_wood_in_cutted_type;
+    => nrel_associative_connection: by_fuelwood;
+    => nrel_associative_connection: by_firewood;
+    => nrel_associative_connection: by_marking_of_timbers_whips;
+    => nrel_associative_connection: by_srtaight_method_for_determining_the_volume_of_round_forest_materials_whips;
+    => nrel_associative_connection: by_treelength;
+    => nrel_associative_connection: by_stack_of_timber_whips;
+
+    => nrel_legal_act: by_act_p32000437;
+    => nrel_legal_act: by_act_p31000102;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14522?langname=ru];
+    => nrel_etalon_online_idx: [14522];;

@@ -1,0 +1,33 @@
+
+by_pretrial_rehabilitation
+    => nrel_main_idtf: [pre-trial rehabilitation] (* <- lang_en;; *);
+    => nrel_main_idtf: [досудебное оздоровление] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дасудовае аздараўленне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_pretrial_rehabilitation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_crisis_manager;
+    => nrel_associative_connection: by_protect_period;
+    => nrel_associative_connection: by_solvency;
+
+    => nrel_legal_act: by_act_h12200227;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5759?langname=ru];
+    => nrel_etalon_online_idx: [5759];;

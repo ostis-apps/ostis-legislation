@@ -1,0 +1,35 @@
+
+by_location_number
+    => nrel_main_idtf: [location number] (* <- lang_en;; *);
+    => nrel_main_idtf: [номер расположения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нумар размяшчэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_location_number_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_international_commodity_numbering_system;
+    => nrel_associative_connection: by_numbering;
+    => nrel_associative_connection: by_ean_system_of_belarus;
+    => nrel_associative_connection: by_commodity_numbering;
+
+    => nrel_legal_act: by_act_c20000748;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18237?langname=ru];
+    => nrel_etalon_online_idx: [18237];;

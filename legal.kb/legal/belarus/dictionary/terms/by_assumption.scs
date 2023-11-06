@@ -1,0 +1,33 @@
+
+by_assumption
+    => nrel_main_idtf: [assumption] (* <- lang_en;; *);
+    => nrel_main_idtf: [допущение] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дапушчэнне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_assumption_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_project_management_plan;
+    => nrel_associative_connection: by_change_in_a_project;
+    => nrel_associative_connection: by_limitation;
+
+    => nrel_legal_act: by_act_w01933958p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33091?langname=ru];
+    => nrel_etalon_online_idx: [33091];;

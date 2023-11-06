@@ -1,0 +1,34 @@
+
+by_objects_affecting_water_bodies
+    => nrel_main_idtf: [objects affecting water bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [объекты, оказывающие воздействие на водные объекты] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'екты, якія аказваюць уздзеянне на водныя аб'екты] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_objects_affecting_water_bodies_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_water_object;
+    => nrel_associative_connection: by_environmental_impact;
+    => nrel_associative_connection: by_environmental_impact_assessment;
+    => nrel_associative_connection: by_hit_intake_of_waste_in_a_surface_water_object;
+
+    => nrel_legal_act: by_act_hk1400149;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10493?langname=ru];
+    => nrel_etalon_online_idx: [10493];;

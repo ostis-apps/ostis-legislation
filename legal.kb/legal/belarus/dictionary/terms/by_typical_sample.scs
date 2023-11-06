@@ -1,0 +1,65 @@
+
+by_typical_sample
+    => nrel_main_idtf: [typical sample] (* <- lang_en;; *);
+    => nrel_main_idtf: [типовой образец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тыпавы ўзор] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_typical_sample_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_typical_sample_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_typical_sample_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_release_of_products;
+    => nrel_associative_connection: by_products;
+    => nrel_associative_connection: by_specialized_food_products;
+
+    => nrel_legal_act: by_act_w21732456;
+    => nrel_legal_act: by_act_f91100165;
+    => nrel_legal_act: by_act_f91000052;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27264?langname=ru];
+    => nrel_etalon_online_idx: [27264];;

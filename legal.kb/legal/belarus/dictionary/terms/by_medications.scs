@@ -1,0 +1,120 @@
+
+by_medications
+    => nrel_main_idtf: [medications] (* <- lang_en;; *);
+    => nrel_main_idtf: [лекарственные средства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лекавыя сродкі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medications_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medications_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_adhesive_medicines;
+    => nrel_associative_connection: by_antiretroviral_therapy;
+    => nrel_associative_connection: by_antiretroviral_medicine;
+    => nrel_associative_connection: by_antiseptic_medicine;
+    => nrel_associative_connection: by_pharmacy;
+    => nrel_associative_connection: by_pharmaceutical_warehouse;
+    => nrel_associative_connection: by_safety_of_medicine;
+    => nrel_associative_connection: by_biologically_active_substances;
+    => nrel_associative_connection: by_biological_medicine;
+    => nrel_associative_connection: by_biotechnological_medicine;
+    => nrel_associative_connection: by_vaccines;
+    => nrel_associative_connection: by_introduction_of_hemostatic_medications_on_request;
+    => nrel_associative_connection: by_adjuvant;
+    => nrel_associative_connection: by_product_line_series_of_medicine_issued_by_the_manufacturer;
+    => nrel_associative_connection: by_generic_medicine;
+    => nrel_associative_connection: by_homeopathic_medication;
+    => nrel_associative_connection: by_state_registration_of_medicine;
+    => nrel_associative_connection: by_state_registry_of_medications_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_finished_medicinal_product;
+    => nrel_associative_connection: by_day_of_introduction;
+    => nrel_associative_connection: by_immunobiological_medicine;
+    => nrel_associative_connection: by_instruction_for_medical_use_leaflet;
+    => nrel_associative_connection: by_quality_of_medicinal_product;
+    => nrel_associative_connection: by_clinical_trials_of_medications;
+    => nrel_associative_connection: by_commission_for_determining_priority_purchases;
+    => nrel_associative_connection: by_container_primary_packaging;
+    => nrel_associative_connection: by_dosage_form;
+    => nrel_associative_connection: by_pharmaceutical_plantbased_raw_material;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_international_nonproprietary_name_of_medicine;
+    => nrel_associative_connection: by_proper_pharmacy_practice;
+    => nrel_associative_connection: by_proper_laboratory_practice;
+    => nrel_associative_connection: by_proper_wholesale_distribution_practice;
+    => nrel_associative_connection: by_adverse_reaction;
+    => nrel_associative_connection: by_circulation_of_medications;
+    => nrel_associative_connection: by_opioid_analgesics;
+    => nrel_associative_connection: by_organic_chemistry;
+    => nrel_associative_connection: by_original_medicine;
+    => nrel_associative_connection: by_orphan_medicine;
+    => nrel_associative_connection: by_the_basis;
+    => nrel_associative_connection: by_first_series_line_of_medicine;
+    => nrel_associative_connection: by_list_of_essential_medicines;
+    => nrel_associative_connection: by_side_effect;
+    => nrel_associative_connection: by_manufacturer_of_medicinal_products;
+    => nrel_associative_connection: by_industrial_production_of_medicinal_products;
+    => nrel_associative_connection: by_radiopharmaceutical_medicine;
+    => nrel_associative_connection: by_rational_use_of_medicines;
+    => nrel_associative_connection: by_republican_record_sheet_of_medicines;
+    => nrel_associative_connection: by_expiry_date_of_medication;
+    => nrel_associative_connection: by_technological_instructions;
+    => nrel_associative_connection: by_destruction_of_medications;
+    => nrel_associative_connection: by_adulterated_medical_drug;
+    => nrel_associative_connection: by_pharmacological_activity;
+    => nrel_associative_connection: by_pharmacopeial_article;
+    => nrel_associative_connection: by_pharmaceutical_activities;
+    => nrel_associative_connection: by_pharmaceutical_substance;
+    => nrel_associative_connection: by_cytostatic_drugs;
+    => nrel_associative_connection: by_medicine_efficiency;
+
+    => nrel_legal_act: by_act_w20817945;
+    => nrel_legal_act: by_act_n21200130;
+    => nrel_legal_act: by_act_f20800028;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6061?langname=ru];
+    => nrel_etalon_online_idx: [6061];;

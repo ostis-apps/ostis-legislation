@@ -1,0 +1,46 @@
+
+by_production_practice
+    => nrel_main_idtf: [production practice] (* <- lang_en;; *);
+    => nrel_main_idtf: [производственная практика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вытворчая практыка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_production_practice_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_military_onthejob_training;
+    => nrel_associative_connection: by_summer_pedagogical_practice;
+    => nrel_associative_connection: by_location_of_practice;
+    => nrel_associative_connection: by_proper_manufacturing_practice;
+    => nrel_associative_connection: by_direct_practice_leader;
+    => nrel_associative_connection: by_direct_practice_leader_from_organization;
+    => nrel_associative_connection: by_practice;
+    => nrel_associative_connection: by_trainee;
+    => nrel_associative_connection: by_practical_work;
+    => nrel_associative_connection: by_head_of_the_practice_from_military_educational_institution;
+    => nrel_associative_connection: by_head_of_the_practice_fromdepartment;
+    => nrel_associative_connection: by_head_of_the_practice_from_pedagogy_department;
+    => nrel_associative_connection: by_head_of_the_practice_from_psychology_department;
+    => nrel_associative_connection: by_head_of_the_practice_from_faculty;
+    => nrel_associative_connection: by_model_curriculum_for_practice;
+    => nrel_associative_connection: by_training_practice;
+
+    => nrel_legal_act: by_act_w20615125;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21577?langname=ru];
+    => nrel_etalon_online_idx: [21577];;

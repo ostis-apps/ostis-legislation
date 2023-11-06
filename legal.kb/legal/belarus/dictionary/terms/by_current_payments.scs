@@ -1,0 +1,18 @@
+
+by_current_payments
+    => nrel_main_idtf: [current payments] (* <- lang_en;; *);
+    => nrel_main_idtf: [текущие платежи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бягучыя плацяжы ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_payment;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24741?langname=ru];
+    => nrel_etalon_online_idx: [24741];;

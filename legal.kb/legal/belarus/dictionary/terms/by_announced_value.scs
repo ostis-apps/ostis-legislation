@@ -1,0 +1,34 @@
+
+by_announced_value
+    => nrel_main_idtf: [announced value] (* <- lang_en;; *);
+    => nrel_main_idtf: [объявленная ценность] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аб'яўленая каштоўнасць] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_announced_value_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_currency_values;
+    => nrel_associative_connection: by_historical_and_cultural_value;
+    => nrel_associative_connection: by_cultural_value;
+    => nrel_associative_connection: by_values;
+
+    => nrel_legal_act: by_act_c21400563;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18811?langname=ru];
+    => nrel_etalon_online_idx: [18811];;

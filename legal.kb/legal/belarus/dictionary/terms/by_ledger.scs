@@ -1,0 +1,34 @@
+
+by_ledger
+    => nrel_main_idtf: [ledger] (* <- lang_en;; *);
+    => nrel_main_idtf: [регистр бухгалтерского учета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэгістр бухгалтарскага ўліку] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ledger_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_accounting;
+    => nrel_associative_connection: by_accounting_plan;
+    => nrel_associative_connection: by_form_of_accounting;
+    => nrel_associative_connection: by_centralized_accounting;
+
+    => nrel_legal_act: by_act_h11300057;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10564?langname=ru];
+    => nrel_etalon_online_idx: [10564];;

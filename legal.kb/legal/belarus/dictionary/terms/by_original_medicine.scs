@@ -1,0 +1,23 @@
+
+by_original_medicine
+    => nrel_main_idtf: [original medicine] (* <- lang_en;; *);
+    => nrel_main_idtf: [оригинальное лекарственное средство] (* <- lang_ru;; *);
+    => nrel_main_idtf: [арыгінальны лекавы сродак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_biologically_analogous_medicine_bioanalogue;
+    => nrel_associative_connection: by_generic_medicine;
+    => nrel_associative_connection: by_preclinical_nonclinical_study_of_medicine;
+    => nrel_associative_connection: by_investigational_product;
+    => nrel_associative_connection: by_medicine_without_added_isotope_transporter;
+    => nrel_associative_connection: by_isotope_transporter_free_medicinal_product;
+    => nrel_associative_connection: by_medications;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5141?langname=ru];
+    => nrel_etalon_online_idx: [5141];;

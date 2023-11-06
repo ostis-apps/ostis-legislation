@@ -1,0 +1,51 @@
+
+by_lands
+    => nrel_main_idtf: [lands] (* <- lang_en;; *);
+    => nrel_main_idtf: [угодья] (* <- lang_ru;; *);
+    => nrel_main_idtf: [угоддзі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lands_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_lands_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_moving_in_of_wild_animals;
+    => nrel_associative_connection: by_wild_animals;
+    => nrel_associative_connection: by_caught_herd;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_hunting_lands;
+
+    => nrel_legal_act: by_act_h10700257;
+    => nrel_legal_act: by_act_c20600699;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9089?langname=ru];
+    => nrel_etalon_online_idx: [9089];;

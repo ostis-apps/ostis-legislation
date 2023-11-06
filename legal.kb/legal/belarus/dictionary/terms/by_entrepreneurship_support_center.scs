@@ -1,0 +1,34 @@
+
+by_entrepreneurship_support_center
+    => nrel_main_idtf: [entrepreneurship support center] (* <- lang_en;; *);
+    => nrel_main_idtf: [центр поддержки предпринимательства] (* <- lang_ru;; *);
+    => nrel_main_idtf: [цэнтр падтрымкі прадпрымальніцтва] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_entrepreneurship_support_center_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_basic_center_of_entrepreneurship_support_of_the_region_minsk_city;
+    => nrel_associative_connection: by_support_of_small_and_medium_entrepreneurship;
+    => nrel_associative_connection: by_entrepreneurial_activity;
+    => nrel_associative_connection: by_center;
+
+    => nrel_legal_act: by_act_h11000148;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/7190?langname=ru];
+    => nrel_etalon_online_idx: [7190];;

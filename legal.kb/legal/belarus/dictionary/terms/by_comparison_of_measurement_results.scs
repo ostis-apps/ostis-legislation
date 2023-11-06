@@ -1,0 +1,38 @@
+
+by_comparison_of_measurement_results
+    => nrel_main_idtf: [comparison of measurement results] (* <- lang_en;; *);
+    => nrel_main_idtf: [сличение результатов измерений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [параўнанне вынікаў вымярэнняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_comparison_of_measurement_results_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_transmission_of_a_units_of_value;
+    => nrel_associative_connection: by_verification_of_instrumentations;
+    => nrel_associative_connection: by_comparison_monitoring_of_borders_of_land_plots;
+    => nrel_associative_connection: by_comparison_of_land_types;
+    => nrel_associative_connection: by_comparison_of_standards_of_units_of_values;
+    => nrel_associative_connection: by_layer_comparing_the_borders_of_land_plots;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_accuracy_of_measurements;
+
+    => nrel_legal_act: by_act_v19503848;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32086?langname=ru];
+    => nrel_etalon_online_idx: [32086];;

@@ -1,0 +1,21 @@
+
+by_noncash_foreign_currency
+    => nrel_main_idtf: [noncash foreign currency] (* <- lang_en;; *);
+    => nrel_main_idtf: [безналичная иностранная валюта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [безнаяўная замежная валюта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_foreign_currency;
+    => nrel_associative_connection: by_cash_foreign_currency;
+    => nrel_associative_connection: by_purchase_of_foreign_currency;
+    => nrel_associative_connection: by_payments_in_noncash_form;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8368?langname=ru];
+    => nrel_etalon_online_idx: [8368];;

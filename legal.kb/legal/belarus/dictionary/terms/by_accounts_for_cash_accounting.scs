@@ -1,0 +1,35 @@
+
+by_accounts_for_cash_accounting
+    => nrel_main_idtf: [accounts for cash accounting] (* <- lang_en;; *);
+    => nrel_main_idtf: [счета по учету денежных средств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рахункі па ўліку грашовых сродкаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_accounts_for_cash_accounting_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_monetary_funds;
+    => nrel_associative_connection: by_monetary_funds_currency;
+    => nrel_associative_connection: by_correspondent_account;
+    => nrel_associative_connection: by_accounts;
+    => nrel_associative_connection: by_account;
+
+    => nrel_legal_act: by_act_b21123670;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24590?langname=ru];
+    => nrel_etalon_online_idx: [24590];;

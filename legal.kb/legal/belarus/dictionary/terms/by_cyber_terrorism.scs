@@ -1,0 +1,36 @@
+
+by_cyber_terrorism
+    => nrel_main_idtf: [cyber terrorism] (* <- lang_en;; *);
+    => nrel_main_idtf: [кибертерроризм] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кібертэрарызм] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cyber_terrorism_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_information_system;
+    => nrel_associative_connection: by_cyber_attack;
+    => nrel_associative_connection: by_cybersecurity;
+    => nrel_associative_connection: by_cyberincident;
+    => nrel_associative_connection: by_cyberresilience;
+    => nrel_associative_connection: by_crimes_in_the_information_sphere;
+
+    => nrel_legal_act: by_act_p219s0001;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31348?langname=ru];
+    => nrel_etalon_online_idx: [31348];;

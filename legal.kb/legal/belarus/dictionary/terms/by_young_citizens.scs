@@ -1,0 +1,70 @@
+
+by_young_citizens
+    => nrel_main_idtf: [young citizens] (* <- lang_en;; *);
+    => nrel_main_idtf: [молодые граждане] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маладыя грамадзяне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_young_citizens_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_young_citizens_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_young_citizens_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_youth_policy;
+    => nrel_associative_connection: by_citizens_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_deological_and_educational_work;
+    => nrel_associative_connection: by_foreign_citizen;
+    => nrel_associative_connection: by_stateless_person;
+    => nrel_associative_connection: by_youth_initiatives;
+    => nrel_associative_connection: by_organization_of_work_with_youth;
+    => nrel_associative_connection: by_subjects_of_youth_initiatives;
+
+    => nrel_legal_act: by_act_h10900065;
+    => nrel_legal_act: by_act_p31200013;
+    => nrel_legal_act: by_act_w22035917p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/6209?langname=ru];
+    => nrel_etalon_online_idx: [6209];;

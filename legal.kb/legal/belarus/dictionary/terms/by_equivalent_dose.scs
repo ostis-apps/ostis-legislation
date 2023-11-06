@@ -1,0 +1,34 @@
+
+by_equivalent_dose
+    => nrel_main_idtf: [equivalent dose] (* <- lang_en;; *);
+    => nrel_main_idtf: [эквивалентная доза] (* <- lang_ru;; *);
+    => nrel_main_idtf: [эквівалентная доза] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_equivalent_dose_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_dose_received;
+    => nrel_associative_connection: by_projected_dose;
+    => nrel_associative_connection: by_average_annual_effective_radiation_dose_of_population;
+    => nrel_associative_connection: by_effective_dose;
+
+    => nrel_legal_act: by_act_c21800211;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28248?langname=ru];
+    => nrel_etalon_online_idx: [28248];;

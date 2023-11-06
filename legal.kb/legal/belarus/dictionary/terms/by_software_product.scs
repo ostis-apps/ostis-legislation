@@ -1,0 +1,43 @@
+
+by_software_product
+    => nrel_main_idtf: [software product] (* <- lang_en;; *);
+    => nrel_main_idtf: [программный продукт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [праграмны прадукт] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_software_product_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_installation;
+    => nrel_associative_connection: by_computer_program;
+    => nrel_associative_connection: by_microprogram;
+    => nrel_associative_connection: by_problemoriented_language;
+    => nrel_associative_connection: by_program;
+    => nrel_associative_connection: by_program_computer;
+    => nrel_associative_connection: by_software;
+    => nrel_associative_connection: by_software_and_maintenance_of_computer_equipment;
+    => nrel_associative_connection: by_software_module;
+    => nrel_associative_connection: by_software_module_electronic_technical_committees;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_programming_system;
+    => nrel_associative_connection: by_expert_systems;
+
+    => nrel_legal_act: by_act_w207p0083;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21460?langname=ru];
+    => nrel_etalon_online_idx: [21460];;

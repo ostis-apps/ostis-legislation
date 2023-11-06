@@ -1,0 +1,49 @@
+
+by_medical_physics
+    => nrel_main_idtf: [medical physics] (* <- lang_en;; *);
+    => nrel_main_idtf: [медицинская физика] (* <- lang_ru;; *);
+    => nrel_main_idtf: [медыцынская фізіка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_physics_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medical_physics_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medical_radiology;
+    => nrel_associative_connection: by_medical_physician;
+    => nrel_associative_connection: by_medical_radiation;
+
+    => nrel_legal_act: by_act_w21934552p;
+    => nrel_legal_act: by_act_w21933907p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31839?langname=ru];
+    => nrel_etalon_online_idx: [31839];;

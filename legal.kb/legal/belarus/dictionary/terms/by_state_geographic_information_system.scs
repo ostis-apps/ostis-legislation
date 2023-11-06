@@ -1,0 +1,38 @@
+
+by_state_geographic_information_system
+    => nrel_main_idtf: [state geographic information system] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственная географическая информационная система] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўная геаграфічная інфармацыйная сістэма] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_geographic_information_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automated_system;
+    => nrel_associative_connection: by_geographic_information_system;
+    => nrel_associative_connection: by_geographic_objects;
+    => nrel_associative_connection: by_geographic_objects_outside_the_territory_of_the_republic_of_belarus_opened_by_belarus_researchers;
+    => nrel_associative_connection: by_geomatics;
+    => nrel_associative_connection: by_state_atlas_information_system_national_atlas_of_belarus;
+    => nrel_associative_connection: by_state_information_system;
+    => nrel_associative_connection: by_state_reference_system_of_coordinates_state_reference_system_of_heights_state_reference_system_of_gravimetric_measurements;
+
+    => nrel_legal_act: by_act_h10800396;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13605?langname=ru];
+    => nrel_etalon_online_idx: [13605];;

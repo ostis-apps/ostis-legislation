@@ -1,0 +1,35 @@
+
+by_industrial_waste_waters_treated_to_standard_quality
+    => nrel_main_idtf: [industrial waste waters treated to standard quality] (* <- lang_en;; *);
+    => nrel_main_idtf: [нормативно-очищенные производственные сточные воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нарматыўна-ачышчаныя вытворчыя сцёкавыя воды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_industrial_waste_waters_treated_to_standard_quality_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_industrial_waste_waters_not_requiring_treatment;
+    => nrel_associative_connection: by_normative_standards_of_water_disposal_discharge_of_waste_waters;
+    => nrel_associative_connection: by_waste_water_discharge;
+    => nrel_associative_connection: by_waste_waters;
+    => nrel_associative_connection: by_conditionally_clean_industrial_wastewater;
+
+    => nrel_legal_act: by_act_c21600788;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11991?langname=ru];
+    => nrel_etalon_online_idx: [11991];;

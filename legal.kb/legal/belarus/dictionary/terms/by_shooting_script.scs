@@ -1,0 +1,35 @@
+
+by_shooting_script
+    => nrel_main_idtf: [shooting script] (* <- lang_en;; *);
+    => nrel_main_idtf: [режиссерский сценарий] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэжысёрскі сцэнарый] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_shooting_script_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_drama;
+    => nrel_associative_connection: by_entertainment_establishment;
+    => nrel_associative_connection: by_screenplay;
+    => nrel_associative_connection: by_original_screenplay;
+    => nrel_associative_connection: by_director_of_the_performance;
+
+    => nrel_legal_act: by_act_c21201039;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/12179?langname=ru];
+    => nrel_etalon_online_idx: [12179];;

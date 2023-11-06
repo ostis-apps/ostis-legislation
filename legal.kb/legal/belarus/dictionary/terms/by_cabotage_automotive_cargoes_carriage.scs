@@ -1,0 +1,53 @@
+
+by_cabotage_automotive_cargoes_carriage
+    => nrel_main_idtf: [cabotage automotive cargoes carriage] (* <- lang_en;; *);
+    => nrel_main_idtf: [каботажная автомобильная перевозка грузов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кабатажная аўтамабільная перавозка грузаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cabotage_automotive_cargoes_carriage_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_cabotage_automotive_cargoes_carriage_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automotive_transportation;
+    => nrel_associative_connection: by_automobile_carrier;
+    => nrel_associative_connection: by_motor_transport;
+    => nrel_associative_connection: by_contract_of_carriage;
+    => nrel_associative_connection: by_international_carriage_of_goods_by_road;
+    => nrel_associative_connection: by_cargoes_carriage;
+    => nrel_associative_connection: by_carrier;
+
+    => nrel_legal_act: by_act_t22205223p;
+    => nrel_legal_act: by_act_i02300030;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/15700?langname=ru];
+    => nrel_etalon_online_idx: [15700];;

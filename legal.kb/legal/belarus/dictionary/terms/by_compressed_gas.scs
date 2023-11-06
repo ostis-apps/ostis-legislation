@@ -1,0 +1,38 @@
+
+by_compressed_gas
+    => nrel_main_idtf: [compressed gas] (* <- lang_en;; *);
+    => nrel_main_idtf: [сжатый газ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сціснуты газ] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compressed_gas_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_aerosol_or_aerosol_spray;
+    => nrel_associative_connection: by_cylinder;
+    => nrel_associative_connection: by_hazardous_cargo;
+    => nrel_associative_connection: by_list_of_hazardous_cargo;
+    => nrel_associative_connection: by_list_of_hazardous_cargo_accepted_for_carriage;
+    => nrel_associative_connection: by_pneumatic_transport;
+    => nrel_associative_connection: by_dissolved_gas;
+    => nrel_associative_connection: by_pressure_vessel;
+
+    => nrel_legal_act: by_act_f91600332;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23113?langname=ru];
+    => nrel_etalon_online_idx: [23113];;

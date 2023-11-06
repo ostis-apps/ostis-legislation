@@ -1,0 +1,35 @@
+
+by_thematic_selection_of_copies_of_audiovisual_documents
+    => nrel_main_idtf: [thematic selection of copies of audiovisual documents] (* <- lang_en;; *);
+    => nrel_main_idtf: [тематическая подборка копий аудиовизуальных документов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [тэматычная падборка копій аўдыявізуальных дакументаў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_thematic_selection_of_copies_of_audiovisual_documents_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audiovisual_document;
+    => nrel_associative_connection: by_document;
+    => nrel_associative_connection: by_cataloging_of_audiovisual_documents;
+    => nrel_associative_connection: by_copy_of_audiovisual_document;
+    => nrel_associative_connection: by____;
+
+    => nrel_legal_act: by_act_w20716255;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24774?langname=ru];
+    => nrel_etalon_online_idx: [24774];;

@@ -1,0 +1,36 @@
+
+by_public_prosecutors_worker
+    => nrel_main_idtf: [public prosecutor's worker] (* <- lang_en;; *);
+    => nrel_main_idtf: [работник прокуратуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работнік пракуратуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_prosecutors_worker_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_fingerprint_registration;
+    => nrel_associative_connection: by_persons_authorized_in_the_prescribed_manner_on_accomplishment_of_legally_important_actions;
+    => nrel_associative_connection: by_prosecutors_office_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_employee;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_uniform;
+
+    => nrel_legal_act: by_act_h10700220;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/855?langname=ru];
+    => nrel_etalon_online_idx: [855];;

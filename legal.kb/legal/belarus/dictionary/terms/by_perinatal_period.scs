@@ -1,0 +1,34 @@
+
+by_perinatal_period
+    => nrel_main_idtf: [perinatal period] (* <- lang_en;; *);
+    => nrel_main_idtf: [перинатальный период] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перынатальны перыяд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_perinatal_period_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_intrauterine_infection_of_the_fetus_and_newborn;
+    => nrel_associative_connection: by_intrauterine_growth_retardation;
+    => nrel_associative_connection: by_neonatal_period;
+    => nrel_associative_connection: by_late_neonatal_period;
+
+    => nrel_legal_act: by_act_w22035541p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33775?langname=ru];
+    => nrel_etalon_online_idx: [33775];;

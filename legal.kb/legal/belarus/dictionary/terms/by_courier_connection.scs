@@ -1,0 +1,34 @@
+
+by_courier_connection
+    => nrel_main_idtf: [courier connection] (* <- lang_en;; *);
+    => nrel_main_idtf: [курьерская связь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [кур'ерская сувязь] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_courier_connection_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_addressee;
+    => nrel_associative_connection: by_internal_mailing;
+    => nrel_associative_connection: by_courier_sendings;
+    => nrel_associative_connection: by_courier_services;
+
+    => nrel_legal_act: by_act_h10300258;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/9471?langname=ru];
+    => nrel_etalon_online_idx: [9471];;

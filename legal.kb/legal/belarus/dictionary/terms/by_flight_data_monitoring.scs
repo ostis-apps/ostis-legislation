@@ -1,0 +1,35 @@
+
+by_flight_data_monitoring
+    => nrel_main_idtf: [flight data monitoring] (* <- lang_en;; *);
+    => nrel_main_idtf: [мониторинг полетных данных] (* <- lang_ru;; *);
+    => nrel_main_idtf: [маніторынг палётных даных] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_flight_data_monitoring_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_automatically_detachable_flight_recorder;
+    => nrel_associative_connection: by_flight_data_analysis;
+    => nrel_associative_connection: by_barometric_altitude;
+    => nrel_associative_connection: by_flight_recorder;
+    => nrel_associative_connection: by_air_vehicle;
+
+    => nrel_legal_act: by_act_w22137064p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/38437?langname=ru];
+    => nrel_etalon_online_idx: [38437];;

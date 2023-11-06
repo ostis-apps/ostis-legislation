@@ -1,0 +1,34 @@
+
+by_neurogenic_erectile_disfunction
+    => nrel_main_idtf: [neurogenic erectile disfunction] (* <- lang_en;; *);
+    => nrel_main_idtf: [нейрогенная эректильная дисфункция] (* <- lang_ru;; *);
+    => nrel_main_idtf: [нейрагенная эрэктыльная дысфункцыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_neurogenic_erectile_disfunction_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_vasculogenic_erectile_dysfunction;
+    => nrel_associative_connection: by_diagnostic_criteria;
+    => nrel_associative_connection: by_dishormonal_erectile_dysfunction;
+    => nrel_associative_connection: by_clinical_criteria;
+
+    => nrel_legal_act: by_act_w21833243p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29075?langname=ru];
+    => nrel_etalon_online_idx: [29075];;

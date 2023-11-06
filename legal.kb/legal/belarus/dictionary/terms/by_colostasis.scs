@@ -1,0 +1,38 @@
+
+by_colostasis
+    => nrel_main_idtf: [colostasis] (* <- lang_en;; *);
+    => nrel_main_idtf: [колостаз] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каластаз] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_colostasis_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_hemorrhoids;
+    => nrel_associative_connection: by_diverticulum;
+    => nrel_associative_connection: by_diverticular_disease;
+    => nrel_associative_connection: by_diffuse_familial_adenomatous_polyposis_of_the_colon;
+    => nrel_associative_connection: by_irrigoscopy;
+    => nrel_associative_connection: by_colonoscopy;
+    => nrel_associative_connection: by_colopexy;
+    => nrel_associative_connection: by_megacolon;
+
+    => nrel_legal_act: by_act_w22035605p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/36289?langname=ru];
+    => nrel_etalon_online_idx: [36289];;

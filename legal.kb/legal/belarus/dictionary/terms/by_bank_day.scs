@@ -1,0 +1,47 @@
+
+by_bank_day
+    => nrel_main_idtf: [bank day] (* <- lang_en;; *);
+    => nrel_main_idtf: [банковский день] (* <- lang_ru;; *);
+    => nrel_main_idtf: [банкаўскі дзень] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_day_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_bank_day_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_b21428262;
+    => nrel_legal_act: by_act_w09802506;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8351?langname=ru];
+    => nrel_etalon_online_idx: [8351];;

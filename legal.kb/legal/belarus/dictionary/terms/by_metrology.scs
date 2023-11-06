@@ -1,0 +1,74 @@
+
+by_metrology
+    => nrel_main_idtf: [metrology] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрология] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралогія] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrology_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrology_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrology_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_metrological_supervision;
+    => nrel_associative_connection: by_metrological_evaluation;
+    => nrel_associative_connection: by_metrological_traceability;
+    => nrel_associative_connection: by_metrological_service;
+    => nrel_associative_connection: by_metrological_characteristics_of_measuring_instruments;
+    => nrel_associative_connection: by_metrological_expertise;
+    => nrel_associative_connection: by_metrological_requirements;
+    => nrel_associative_connection: by_metrological_control;
+    => nrel_associative_connection: by_metrological_support;
+    => nrel_associative_connection: by_metrological_support_of_arms_and_military_equipment;
+    => nrel_associative_connection: by_measurement_management_system;
+    => nrel_associative_connection: by_sphere_of_legislative_metrology;
+
+    => nrel_legal_act: by_act_v19503848;
+    => nrel_legal_act: by_act_w21934021p;
+    => nrel_legal_act: by_act_w21327502p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11593?langname=ru];
+    => nrel_etalon_online_idx: [11593];;

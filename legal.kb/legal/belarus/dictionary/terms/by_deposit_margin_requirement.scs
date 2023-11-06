@@ -1,0 +1,31 @@
+
+by_deposit_margin_requirement
+    => nrel_main_idtf: [deposit margin requirement] (* <- lang_en;; *);
+    => nrel_main_idtf: [требование к депозитной марже] (* <- lang_ru;; *);
+    => nrel_main_idtf: [патрабаванне да дэпазітнай маржы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_deposit_margin_requirement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_deposit_margin;
+
+    => nrel_legal_act: by_act_b22339812;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25259?langname=ru];
+    => nrel_etalon_online_idx: [25259];;

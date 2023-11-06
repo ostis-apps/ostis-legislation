@@ -1,0 +1,40 @@
+
+by_by_pretrip_pretrip_medical_examination
+    => nrel_main_idtf: [by_pretrip_pretrip_medical_examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [предрейсовый (предсменный) медицинский осмотр] (* <- lang_ru;; *);
+    => nrel_main_idtf: [перадрэйсавы (перадзменны) медыцынскі агляд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_pretrip_pretrip_medical_examination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_driver;
+    => nrel_associative_connection: by_conclusion_about_vocational_aptitude;
+    => nrel_associative_connection: by_medical_expertise_of_vocational_aptitude;
+    => nrel_associative_connection: by_obligatory_medical_examination;
+    => nrel_associative_connection: by_periodical_medical_inspection;
+    => nrel_associative_connection: by_preassessment;
+    => nrel_associative_connection: by_route;
+    => nrel_associative_connection: by_state_of_alcoholic_intoxication;
+    => nrel_associative_connection: by_state_of_narcotic_or_toxic_intoxication;
+    => nrel_associative_connection: by_vehicle_control;
+
+    => nrel_legal_act: by_act_w21327151;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21085?langname=ru];
+    => nrel_etalon_online_idx: [21085];;

@@ -1,0 +1,34 @@
+
+by_judicial_executors
+    => nrel_main_idtf: [judicial executors] (* <- lang_en;; *);
+    => nrel_main_idtf: [судебные исполнители] (* <- lang_ru;; *);
+    => nrel_main_idtf: [судовыя выканаўцы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_judicial_executors_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_officials_of_law_enforcement_bodies;
+    => nrel_associative_connection: by_executors;
+    => nrel_associative_connection: by_resolution_of_the_court_executor;
+    => nrel_associative_connection: by_head_of_the_enforcement_body;
+
+    => nrel_legal_act: by_act_h11600440;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24484?langname=ru];
+    => nrel_etalon_online_idx: [24484];;

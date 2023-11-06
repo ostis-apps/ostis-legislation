@@ -1,0 +1,36 @@
+
+by_state_employment_assistance_fund
+    => nrel_main_idtf: [state employment assistance fund] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственный фонд содействия занятости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўны фонд садзейнічання занятасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_employment_assistance_fund_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_unemployment;
+    => nrel_associative_connection: by_state_target_budgetary_fund;
+    => nrel_associative_connection: by_employment;
+    => nrel_associative_connection: by_professional_informing;
+    => nrel_associative_connection: by_professional_counseling;
+    => nrel_associative_connection: by_fund;
+
+    => nrel_legal_act: by_act_h10600125;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8771?langname=ru];
+    => nrel_etalon_online_idx: [8771];;

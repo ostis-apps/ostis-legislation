@@ -1,0 +1,69 @@
+
+by_communication_to_the_public
+    => nrel_main_idtf: [communication to the public] (* <- lang_en;; *);
+    => nrel_main_idtf: [сообщение для всеобщего сведения ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [паведамленне для ўсеагульнай звесткі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_communication_to_the_public_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_communication_to_the_public_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_communication_to_the_public_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audiovisual_work;
+    => nrel_associative_connection: by_reproduction;
+    => nrel_associative_connection: by_publication_of_work;
+    => nrel_associative_connection: by_broadcasting_air_broadcasting;
+    => nrel_associative_connection: by_transfer_of_organization_of_air_or_cable_broadcasting;
+    => nrel_associative_connection: by_cable_transmission_cable_broadcasting;
+    => nrel_associative_connection: by_phonogram;
+
+    => nrel_legal_act: by_act_h11100262;
+    => nrel_legal_act: by_act_n20500165;
+    => nrel_legal_act: by_act_i09600048;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10603?langname=ru];
+    => nrel_etalon_online_idx: [10603];;

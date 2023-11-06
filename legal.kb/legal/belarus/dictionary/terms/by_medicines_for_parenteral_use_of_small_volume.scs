@@ -1,0 +1,34 @@
+
+by_medicines_for_parenteral_use_of_small_volume
+    => nrel_main_idtf: [medicines for parenteral use of small volume] (* <- lang_en;; *);
+    => nrel_main_idtf: [лекарственные препараты для парентерального применения малого объема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лекавыя прэпараты для парэнтэральнага прымянення малога аб'ёму] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_medicines_for_parenteral_use_of_small_volume_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_medicines;
+    => nrel_associative_connection: by_medicines_for_parenteral_use_of_large_volume;
+    => nrel_associative_connection: by_medicine;
+    => nrel_associative_connection: by_pharmacopeial_article;
+
+    => nrel_legal_act: by_act_w62035404a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41224?langname=ru];
+    => nrel_etalon_online_idx: [41224];;

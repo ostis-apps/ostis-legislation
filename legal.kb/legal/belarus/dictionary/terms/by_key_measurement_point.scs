@@ -1,0 +1,20 @@
+
+by_key_measurement_point
+    => nrel_main_idtf: [key measurement point] (* <- lang_en;; *);
+    => nrel_main_idtf: [ключевая точка измерения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ключавая кропка вымярэння] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_inventory_amount_of_nuclear_material;
+    => nrel_associative_connection: by_confirming_measurements;
+    => nrel_associative_connection: by_nuclear_installation;
+    => nrel_associative_connection: by_nuclear_material;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10248?langname=ru];
+    => nrel_etalon_online_idx: [10248];;

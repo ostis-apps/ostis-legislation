@@ -1,0 +1,34 @@
+
+by_corrigible_defect
+    => nrel_main_idtf: [corrigible defect] (* <- lang_en;; *);
+    => nrel_main_idtf: [исправимый брак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [папраўны брак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_corrigible_defect_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_mechanical_flaw;
+    => nrel_associative_connection: by_incorrigible_defect;
+    => nrel_associative_connection: by_product;
+    => nrel_associative_connection: by_production;
+
+    => nrel_legal_act: by_act_c20501194;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27135?langname=ru];
+    => nrel_etalon_online_idx: [27135];;

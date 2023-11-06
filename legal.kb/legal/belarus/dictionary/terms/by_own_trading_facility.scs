@@ -1,0 +1,36 @@
+
+by_own_trading_facility
+    => nrel_main_idtf: [own trading facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [собственный торговый объект] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уласны гандлёвы аб'ект] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_own_trading_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_nonisolated_trade_object;
+    => nrel_associative_connection: by_nonstationary_trade_object;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_own__facility_of_public_catering;
+    => nrel_associative_connection: by_stationary_trade_object;
+    => nrel_associative_connection: by_trade_object;
+
+    => nrel_legal_act: by_act_w21022783;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41931?langname=ru];
+    => nrel_etalon_online_idx: [41931];;

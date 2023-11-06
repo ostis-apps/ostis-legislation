@@ -1,0 +1,36 @@
+
+by_gamekeeper_services
+    => nrel_main_idtf: [gamekeeper services] (* <- lang_en;; *);
+    => nrel_main_idtf: [егерские услуги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [егерскія паслугі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gamekeeper_services_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gamekeeper;
+    => nrel_associative_connection: by_driven_hunting;
+    => nrel_associative_connection: by_hunt;
+    => nrel_associative_connection: by_hunting_tour;
+    => nrel_associative_connection: by_hunting_animals;
+    => nrel_associative_connection: by_cutting_of_hunting_products;
+
+    => nrel_legal_act: by_act_p31800112;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10661?langname=ru];
+    => nrel_etalon_online_idx: [10661];;

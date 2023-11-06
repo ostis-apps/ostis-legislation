@@ -1,0 +1,36 @@
+
+by_venue_of_sport_event_venue_of_sports_competition
+    => nrel_main_idtf: [venue of sport event (venue of sports competition)] (* <- lang_en;; *);
+    => nrel_main_idtf: [место проведения спортивно-массового мероприятия (место проведения спортивного соревнования)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [месца правядзення спартыўна-масавага мерапрыемства (месца правядзення спартыўнага спаборніцтва)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_venue_of_sport_event_venue_of_sports_competition_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_organizer_of_sport_event;
+    => nrel_associative_connection: by_sport_event;
+    => nrel_associative_connection: by_sports_events;
+    => nrel_associative_connection: by_sporting_events_outside_the_republic_of_belarus;
+    => nrel_associative_connection: by_participants_of_sports_events;
+    => nrel_associative_connection: by_sport_and_recreation_and_sport_activities;
+
+    => nrel_legal_act: by_act_h11400125;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/28421?langname=ru];
+    => nrel_etalon_online_idx: [28421];;

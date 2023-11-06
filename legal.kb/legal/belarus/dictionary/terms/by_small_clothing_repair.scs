@@ -1,0 +1,37 @@
+
+by_small_clothing_repair
+    => nrel_main_idtf: [small clothing repair ] (* <- lang_en;; *);
+    => nrel_main_idtf: [мелкий ремонт одежды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дробны рамонт адзення] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_small_clothing_repair_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_household_service;
+    => nrel_associative_connection: by_domestic_services;
+    => nrel_associative_connection: by_type_of_personal_services;
+    => nrel_associative_connection: by_reception_point;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_organization;
+    => nrel_associative_connection: by_rural_integrated_receiving_point_for_receiving_orders_for_provision_of_household_services;
+
+    => nrel_legal_act: by_act_c20401590;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17190?langname=ru];
+    => nrel_etalon_online_idx: [17190];;

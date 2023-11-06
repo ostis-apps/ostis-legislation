@@ -1,0 +1,33 @@
+
+by_operation_between_related_parties
+    => nrel_main_idtf: [operation between related parties] (* <- lang_en;; *);
+    => nrel_main_idtf: [операция между связанными сторонами] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аперацыя паміж звязанымі бакамі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_operation_between_related_parties_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_audit;
+    => nrel_associative_connection: by_audit_activity;
+    => nrel_associative_connection: by_related_parties;
+
+    => nrel_legal_act: by_act_w20207892;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19049?langname=ru];
+    => nrel_etalon_online_idx: [19049];;

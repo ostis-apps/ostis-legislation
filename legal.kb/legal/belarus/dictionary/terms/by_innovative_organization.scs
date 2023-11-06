@@ -1,0 +1,47 @@
+
+by_innovative_organization
+    => nrel_main_idtf: [innovative organization] (* <- lang_en;; *);
+    => nrel_main_idtf: [инновационная организация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [інавацыйная арганізацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_innovative_organization_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_art_management;
+    => nrel_associative_connection: by_venture_project;
+    => nrel_associative_connection: by_high_tech;
+    => nrel_associative_connection: by_hitech_production;
+    => nrel_associative_connection: by_innovative_infrastructure;
+    => nrel_associative_connection: by_innovation_active_enterprises;
+    => nrel_associative_connection: by_innovative_industrial_cluster;
+    => nrel_associative_connection: by_innovation_and_technological_monitoring;
+    => nrel_associative_connection: by_innovation_project;
+    => nrel_associative_connection: by_innovation;
+    => nrel_associative_connection: by_national_innovation_system;
+    => nrel_associative_connection: by_portfolio_of_venture_projects;
+    => nrel_associative_connection: by_prediction_of_technological_development;
+    => nrel_associative_connection: by_resident_of_the_science_and_technology_park;
+    => nrel_associative_connection: by_risk_of_innovative_activity;
+    => nrel_associative_connection: by_subject_of_the_innovation_activity;
+    => nrel_associative_connection: by_subject_of_the_innovation_infrastructure;
+
+    => nrel_legal_act: by_act_n21200130;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8855?langname=ru];
+    => nrel_etalon_online_idx: [8855];;

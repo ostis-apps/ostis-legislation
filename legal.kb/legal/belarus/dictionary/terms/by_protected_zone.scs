@@ -1,0 +1,24 @@
+
+by_protected_zone
+    => nrel_main_idtf: [protected zone] (* <- lang_en;; *);
+    => nrel_main_idtf: [защищенная зона] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абароненая зона] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_access;
+    => nrel_associative_connection: by_protected_object;
+    => nrel_associative_connection: by_zone;
+    => nrel_associative_connection: by_restricted_area;
+    => nrel_associative_connection: by_zone_of_especial_importance;
+    => nrel_associative_connection: by_physical_protection_system;
+    => nrel_associative_connection: by_territory;
+    => nrel_associative_connection: by_physical_barrier;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14925?langname=ru];
+    => nrel_etalon_online_idx: [14925];;

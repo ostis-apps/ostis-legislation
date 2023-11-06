@@ -1,0 +1,31 @@
+
+by_task_force
+    => nrel_main_idtf: [task force] (* <- lang_en;; *);
+    => nrel_main_idtf: [оперативная группа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [аператыўная група] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_task_force_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+
+
+    => nrel_legal_act: by_act_w20716241;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18957?langname=ru];
+    => nrel_etalon_online_idx: [18957];;

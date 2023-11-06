@@ -1,0 +1,23 @@
+
+by_types_of_thermal_loads
+    => nrel_main_idtf: [types of thermal loads] (* <- lang_en;; *);
+    => nrel_main_idtf: [виды тепловых нагрузок] (* <- lang_ru;; *);
+    => nrel_main_idtf: [віды цеплавых нагрузак] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_admission_to_operation_of_the_metering__system_unit;
+    => nrel_associative_connection: by_single_heat_meter;
+    => nrel_associative_connection: by_heating;
+    => nrel_associative_connection: by_heat_supply_system;
+    => nrel_associative_connection: by_heat_network;
+    => nrel_associative_connection: by_heat_item;
+    => nrel_associative_connection: by_heat_carrying_agent;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31875?langname=ru];
+    => nrel_etalon_online_idx: [31875];;

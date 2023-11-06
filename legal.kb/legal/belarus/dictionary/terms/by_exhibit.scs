@@ -1,0 +1,22 @@
+
+by_exhibit
+    => nrel_main_idtf: [exhibit] (* <- lang_en;; *);
+    => nrel_main_idtf: [экспонат] (* <- lang_ru;; *);
+    => nrel_main_idtf: [экспанат] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_exhibition;
+    => nrel_associative_connection: by_exhibition_fair;
+    => nrel_associative_connection: by_goods;
+    => nrel_associative_connection: by_exposition;
+    => nrel_associative_connection: by_exposure;
+    => nrel_associative_connection: by_fair;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10256?langname=ru];
+    => nrel_etalon_online_idx: [10256];;

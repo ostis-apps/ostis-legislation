@@ -1,0 +1,66 @@
+
+by_drainage_water
+    => nrel_main_idtf: [drainage water] (* <- lang_en;; *);
+    => nrel_main_idtf: [дренажные воды] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дрэнажныя воды] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drainage_water_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drainage_water_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_drainage_water_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_buffer_strip_zone;
+    => nrel_associative_connection: by_water_disposal;
+    => nrel_associative_connection: by_hydrotechnical_constructions;
+    => nrel_associative_connection: by_hydrotechnical_structures_and_devices;
+
+    => nrel_legal_act: by_act_hk1400149;
+    => nrel_legal_act: by_act_n21500095;
+    => nrel_legal_act: by_act_n20600147;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14523?langname=ru];
+    => nrel_etalon_online_idx: [14523];;

@@ -1,0 +1,40 @@
+
+by_metrological_attestation_of_instrumentation
+    => nrel_main_idtf: [metrological attestation of instrumentation] (* <- lang_en;; *);
+    => nrel_main_idtf: [метрологическая аттестация средств измерений] (* <- lang_ru;; *);
+    => nrel_main_idtf: [метралагічная атэстацыя сродкаў вымярэнняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_metrological_attestation_of_instrumentation_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_check_mark;
+    => nrel_associative_connection: by_calibration;
+    => nrel_associative_connection: by_metrological_equipment;
+    => nrel_associative_connection: by_metrological_service_of_measuring_instruments_measuring_complexes;
+    => nrel_associative_connection: by_metrological_confirmation_of_the_suitability_of_measurement_techniques;
+    => nrel_associative_connection: by_verification;
+    => nrel_associative_connection: by_adjustment_of_measuring_instruments;
+    => nrel_associative_connection: by_repair_of_measuring_instruments;
+    => nrel_associative_connection: by_measuring_instrument;
+    => nrel_associative_connection: by_measurement_instrument_that_is_the_object_of_study;
+
+    => nrel_legal_act: by_act_V19503848;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/17323?langname=ru];
+    => nrel_etalon_online_idx: [17323];;

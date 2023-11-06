@@ -1,0 +1,38 @@
+
+by_compulsory_medical_reexamination
+    => nrel_main_idtf: [compulsory medical re-examination] (* <- lang_en;; *);
+    => nrel_main_idtf: [обязательное медицинское переосвидетельствование ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [абавязковы медыцынскі пераагляд] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_compulsory_medical_reexamination_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_voluntary_medical_examination;
+    => nrel_associative_connection: by_conclusion_about_vocational_aptitude;
+    => nrel_associative_connection: by_medical_inspection;
+    => nrel_associative_connection: by_medical_reexamination;
+    => nrel_associative_connection: by_compulsory_medical_examination;
+    => nrel_associative_connection: by_obligatory_medical_examination;
+    => nrel_associative_connection: by_refusal_to_undergo_examination_in_due_course;
+    => nrel_associative_connection: by_periodical_medical_inspection;
+
+    => nrel_legal_act: by_act_w21327151;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10704?langname=ru];
+    => nrel_etalon_online_idx: [10704];;

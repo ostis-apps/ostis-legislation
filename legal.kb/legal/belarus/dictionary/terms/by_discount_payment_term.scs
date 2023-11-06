@@ -1,0 +1,37 @@
+
+by_discount_payment_term
+    => nrel_main_idtf: [discount payment term] (* <- lang_en;; *);
+    => nrel_main_idtf: [дисконтный срок окупаемости] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дысконтны тэрмін акупнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_discount_payment_term_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_discounting;
+    => nrel_associative_connection: by_discount_income;
+    => nrel_associative_connection: by_present_discounted_cost;
+    => nrel_associative_connection: by_financial_results_forecast;
+    => nrel_associative_connection: by_enterprise_expansion;
+    => nrel_associative_connection: by_payback_time;
+    => nrel_associative_connection: by_current_present_discounted_present_cost;
+
+    => nrel_legal_act: by_act_w00003138;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14183?langname=ru];
+    => nrel_etalon_online_idx: [14183];;

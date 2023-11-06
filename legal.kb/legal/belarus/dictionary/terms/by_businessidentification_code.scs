@@ -1,0 +1,36 @@
+
+by_businessidentification_code
+    => nrel_main_idtf: [business-identification code] (* <- lang_en;; *);
+    => nrel_main_idtf: [бизнес-идентификационный код] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бізнес-ідэнтыфікацыйны код] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_businessidentification_code_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_bank_identification_code;
+    => nrel_associative_connection: by_identification_code;
+    => nrel_associative_connection: by_identification;
+    => nrel_associative_connection: by_code;
+    => nrel_associative_connection: by_interbank_settlements;
+    => nrel_associative_connection: by_conditional_number_of_the_participant_of_settlements_conditional_system_number;
+
+    => nrel_legal_act: by_act_b21530229;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/27792?langname=ru];
+    => nrel_etalon_online_idx: [27792];;

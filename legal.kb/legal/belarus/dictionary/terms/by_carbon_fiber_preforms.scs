@@ -1,0 +1,39 @@
+
+by_carbon_fiber_preforms
+    => nrel_main_idtf: [carbon fiber preforms] (* <- lang_en;; *);
+    => nrel_main_idtf: [углеродные волокнистые преформы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [вугляродныя валакністыя прэформы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_carbon_fiber_preforms_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_additional_reserve_account_of_carbon_units;
+    => nrel_associative_connection: by_reserve_account_of_carbon_units;
+    => nrel_associative_connection: by_bonded_fibers;
+    => nrel_associative_connection: by_certified_emission_reduction_unit;
+    => nrel_associative_connection: by_account_of_removals_from_circulation_of_carbon_units;
+    => nrel_associative_connection: by_carbon_cancellation_accounts;
+    => nrel_associative_connection: by_current_carbon_units_account;
+    => nrel_associative_connection: by_titanium_alloys;
+    => nrel_associative_connection: by_carbon_units;
+
+    => nrel_legal_act: by_act_w20817945;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/25365?langname=ru];
+    => nrel_etalon_online_idx: [25365];;

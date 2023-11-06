@@ -1,0 +1,24 @@
+
+by_trolley_for_sales_of_goods
+    => nrel_main_idtf: [trolley for sales of goods] (* <- lang_en;; *);
+    => nrel_main_idtf: [тележка для продажи товаров] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каляска для продажу тавараў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_capacity_for_storage_and_sale_of_goods;
+    => nrel_associative_connection: by_basket_for_sale_goods;
+    => nrel_associative_connection: by_large_shop;
+    => nrel_associative_connection: by_shop;
+    => nrel_associative_connection: by_selfservice;
+    => nrel_associative_connection: by_chain_shop;
+    => nrel_associative_connection: by_supermarket;
+    => nrel_associative_connection: by_shopping_trolley;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/24760?langname=ru];
+    => nrel_etalon_online_idx: [24760];;

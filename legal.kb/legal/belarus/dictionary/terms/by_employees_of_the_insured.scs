@@ -1,0 +1,36 @@
+
+by_employees_of_the_insured
+    => nrel_main_idtf: [employees of the insured] (* <- lang_en;; *);
+    => nrel_main_idtf: [работники страхователя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [работнікі страхавальніка] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_employees_of_the_insured_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_insured_person;
+    => nrel_associative_connection: by_insured_persons;
+    => nrel_associative_connection: by_insurance_counterparty;
+    => nrel_associative_connection: by_employees;
+    => nrel_associative_connection: by_insurants;
+    => nrel_associative_connection: by_insurant;
+
+    => nrel_legal_act: by_act_p30600530;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21910?langname=ru];
+    => nrel_etalon_online_idx: [21910];;

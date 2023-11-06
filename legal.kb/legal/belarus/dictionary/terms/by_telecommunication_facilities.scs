@@ -1,0 +1,35 @@
+
+by_telecommunication_facilities
+    => nrel_main_idtf: [telecommunication facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [сооружения электросвязи] (* <- lang_ru;; *);
+    => nrel_main_idtf: [збудаванні электрасувязі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_telecommunication_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_national_telecommunication_operator;
+    => nrel_associative_connection: by_national_control_center_of_the_republican_unitary_telecommunication_enterprise_beltelecom;
+    => nrel_associative_connection: by_granting_access_to_linecable_telecommunication_facilities;
+    => nrel_associative_connection: by_design_construction_installation_of_radio_electronic_equipment;
+    => nrel_associative_connection: by_network_termination;
+
+    => nrel_legal_act: by_act_h10500045;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/23563?langname=ru];
+    => nrel_etalon_online_idx: [23563];;

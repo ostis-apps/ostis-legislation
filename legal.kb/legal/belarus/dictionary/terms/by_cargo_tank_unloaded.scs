@@ -1,0 +1,22 @@
+
+by_cargo_tank_unloaded
+    => nrel_main_idtf: [cargo tank (unloaded)] (* <- lang_en;; *);
+    => nrel_main_idtf: [грузовой танк (разгруженный)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [грузавы танк (разгружаны)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_independent_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank;
+    => nrel_associative_connection: by_cargo_tank_gasfree;
+    => nrel_associative_connection: by_cargo_tank_empty;
+    => nrel_associative_connection: by_stripping_system;
+    => nrel_associative_connection: by_tanker;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13890?langname=ru];
+    => nrel_etalon_online_idx: [13890];;

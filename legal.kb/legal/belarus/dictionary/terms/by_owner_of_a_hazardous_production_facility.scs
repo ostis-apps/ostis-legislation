@@ -1,0 +1,34 @@
+
+by_owner_of_a_hazardous_production_facility
+    => nrel_main_idtf: [owner of a hazardous production facility] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец опасного производственного объекта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік небяспечнага вытворчага аб'екта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_owner_of_a_hazardous_production_facility_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_commissioning_of_a_hazardous_production_facility;
+    => nrel_associative_connection: by_dangerous_production_facility;
+    => nrel_associative_connection: by_hazardous_production_factor;
+    => nrel_associative_connection: by_industrial_safety_regulations;
+
+    => nrel_legal_act: by_act_w22238156p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/40052?langname=ru];
+    => nrel_etalon_online_idx: [40052];;

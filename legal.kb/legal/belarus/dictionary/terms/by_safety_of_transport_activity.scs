@@ -1,0 +1,35 @@
+
+by_safety_of_transport_activity
+    => nrel_main_idtf: [safety of transport activity] (* <- lang_en;; *);
+    => nrel_main_idtf: [безопасность транспортной деятельности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бяспека транспартнай дзейнасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_safety_of_transport_activity_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_safe_speed;
+    => nrel_associative_connection: by_safety;
+    => nrel_associative_connection: by_system_of_active_vehicle_safety;
+    => nrel_associative_connection: by_subjects_of_transport_activities;
+    => nrel_associative_connection: by_transport_activities;
+
+    => nrel_legal_act: by_act_h19800140;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8387?langname=ru];
+    => nrel_etalon_online_idx: [8387];;

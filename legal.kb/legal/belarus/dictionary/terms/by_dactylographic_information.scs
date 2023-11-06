@@ -1,0 +1,36 @@
+
+by_dactylographic_information
+    => nrel_main_idtf: [dactylographic information] (* <- lang_en;; *);
+    => nrel_main_idtf: [дактилоскопическая информация] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дактыласкапічная інфармацыя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_dactylographic_information_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_fingerprint_registration;
+    => nrel_associative_connection: by_fingerprinting;
+    => nrel_associative_connection: by_fingerprint;
+    => nrel_associative_connection: by_identification_of_foreigner_personality;
+    => nrel_associative_connection: by_person;
+    => nrel_associative_connection: by_information;
+
+    => nrel_legal_act: by_act_h10300236;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10973?langname=ru];
+    => nrel_etalon_online_idx: [10973];;

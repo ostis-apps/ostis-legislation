@@ -1,0 +1,39 @@
+
+by_conclusion_about_vocational_aptitude
+    => nrel_main_idtf: [conclusion about vocational aptitude] (* <- lang_en;; *);
+    => nrel_main_idtf: [заключение о профессиональной пригодности] (* <- lang_ru;; *);
+    => nrel_main_idtf: [заключэнне аб прафесійнай прыгоднасці] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_conclusion_about_vocational_aptitude_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_conclusion;
+    => nrel_associative_connection: by_medical_expertise_of_vocational_aptitude;
+    => nrel_associative_connection: by_medical_reexamination;
+    => nrel_associative_connection: by_compulsory_medical_examination;
+    => nrel_associative_connection: by_obligatory_medical_examination;
+    => nrel_associative_connection: by_compulsory_medical_reexamination;
+    => nrel_associative_connection: by_periodical_medical_inspection;
+    => nrel_associative_connection: by_preassessment;
+    => nrel_associative_connection: by_pretrip_pretrip_medical_examination;
+
+    => nrel_legal_act: by_act_w21327151;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/14786?langname=ru];
+    => nrel_etalon_online_idx: [14786];;

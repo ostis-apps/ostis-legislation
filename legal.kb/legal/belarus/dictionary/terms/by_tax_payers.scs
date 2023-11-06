@@ -1,0 +1,49 @@
+
+by_tax_payers
+    => nrel_main_idtf: [tax payers] (* <- lang_en;; *);
+    => nrel_main_idtf: [плательщики налогов, сборов (пошлин)] (* <- lang_ru;; *);
+    => nrel_main_idtf: [плацельшчыкі падаткаў, збораў (пошлін)] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_tax_payers_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_collection_of_tax_due_duty_penalty;
+    => nrel_associative_connection: by_tax_debt;
+    => nrel_associative_connection: by_fulfillment_of_tax_obligations;
+    => nrel_associative_connection: by_tax;
+    => nrel_associative_connection: by_tax_obligation;
+    => nrel_associative_connection: by_tax_residents_of_the_republic_of_belarus;
+    => nrel_associative_connection: by_tax_agent;
+    => nrel_associative_connection: by_payer;
+    => nrel_associative_connection: by_payers;
+    => nrel_associative_connection: by_resort_levy_payers;
+    => nrel_associative_connection: by_payers_of_local_taxes_and_fees;
+    => nrel_associative_connection: by_tax_payers_on_currency_purchase_operations_at_the_stock_exchange;
+    => nrel_associative_connection: by_payers_of_tax_on_petrol_and_diesel_fuel_purchase;
+    => nrel_associative_connection: by_payers_of_service_tax;
+    => nrel_associative_connection: by_retail_sales_tax_payers;
+    => nrel_associative_connection: by_payers_of_patent_taxes;
+    => nrel_associative_connection: by_payers_of_target_collection_on_maintaining_childrens_preschool_institutions;
+    => nrel_associative_connection: by_target_collection_payers;
+    => nrel_associative_connection: by_participants_of_tax_relations;
+
+    => nrel_legal_act: by_act_hk0200166;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/564?langname=ru];
+    => nrel_etalon_online_idx: [564];;

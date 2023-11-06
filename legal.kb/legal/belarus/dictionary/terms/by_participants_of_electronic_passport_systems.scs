@@ -1,0 +1,33 @@
+
+by_participants_of_electronic_passport_systems
+    => nrel_main_idtf: [participants of electronic passport systems] (* <- lang_en;; *);
+    => nrel_main_idtf: [участники систем электронных паспортов] (* <- lang_ru;; *);
+    => nrel_main_idtf: [удзельнікі сістэм электронных пашпартоў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_participants_of_electronic_passport_systems_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_passport;
+    => nrel_associative_connection: by_selfpropelled_machine;
+    => nrel_associative_connection: by_vehicle;
+
+    => nrel_legal_act: by_act_c22000254;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/33150?langname=ru];
+    => nrel_etalon_online_idx: [33150];;

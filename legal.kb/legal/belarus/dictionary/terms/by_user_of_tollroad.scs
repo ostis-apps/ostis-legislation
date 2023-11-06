@@ -1,0 +1,44 @@
+
+by_user_of_tollroad
+    => nrel_main_idtf: [user of toll-road] (* <- lang_en;; *);
+    => nrel_main_idtf: [пользователь платной автомобильной дороги] (* <- lang_ru;; *);
+    => nrel_main_idtf: [карыстальнік платнай аўтамабільнай дарогі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_user_of_tollroad_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_road_funds;
+    => nrel_associative_connection: by_collateral_cost;
+    => nrel_associative_connection: by_increased_payment;
+    => nrel_associative_connection: by_toll_highway;
+    => nrel_associative_connection: by_toll_roads;
+    => nrel_associative_connection: by_users;
+    => nrel_associative_connection: by_users_of_highways;
+    => nrel_associative_connection: by_user;
+    => nrel_associative_connection: by_toll_road_user;
+    => nrel_associative_connection: by_technical_support_service;
+    => nrel_associative_connection: by_fuel_card;
+    => nrel_associative_connection: by_participant_of_road_traffic;
+    => nrel_associative_connection: by_road_users;
+
+    => nrel_legal_act: by_act_p31200426;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20630?langname=ru];
+    => nrel_etalon_online_idx: [20630];;

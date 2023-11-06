@@ -1,0 +1,52 @@
+
+by_ballroom_dance
+    => nrel_main_idtf: [ballroom dance] (* <- lang_en;; *);
+    => nrel_main_idtf: [бальный танец] (* <- lang_ru;; *);
+    => nrel_main_idtf: [бальны танец] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ballroom_dance_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_ballroom_dance_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_culture_and_art_practitioner;
+    => nrel_associative_connection: by_art;
+    => nrel_associative_connection: by_choreographic_art;
+    => nrel_associative_connection: by_art_of_variety;
+    => nrel_associative_connection: by_classical_dance;
+    => nrel_associative_connection: by_folk_dance;
+
+    => nrel_legal_act: by_act_w22036052p;
+    => nrel_legal_act: by_act_w21328044a;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/29225?langname=ru];
+    => nrel_etalon_online_idx: [29225];;

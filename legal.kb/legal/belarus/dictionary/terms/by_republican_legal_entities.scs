@@ -1,0 +1,49 @@
+
+by_republican_legal_entities
+    => nrel_main_idtf: [republican legal entities] (* <- lang_en;; *);
+    => nrel_main_idtf: [республиканские юридические лица] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рэспубліканскія юрыдычныя асобы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_legal_entities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_republican_legal_entities_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_state_bodies_and_organizations;
+    => nrel_associative_connection: by_state_legal_entities;
+    => nrel_associative_connection: by_nonstate_legal_entities;
+
+    => nrel_legal_act: by_act_p32200330;
+    => nrel_legal_act: by_act_c21900764;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/32039?langname=ru];
+    => nrel_etalon_online_idx: [32039];;

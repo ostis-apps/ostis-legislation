@@ -1,0 +1,51 @@
+
+by_gross_income_coefficient_gross_yield_multiplier
+    => nrel_main_idtf: [gross income coefficient; gross yield multiplier] (* <- lang_en;; *);
+    => nrel_main_idtf: [коэффициент валового дохода; мультипликатор валового дохода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [каэфіцыент валавога даходу; мультыплікатар валавога даходу] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_income_coefficient_gross_yield_multiplier_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_gross_income_coefficient_gross_yield_multiplier_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gross_profit;
+    => nrel_associative_connection: by_gross_income;
+    => nrel_associative_connection: by_investments_in_real_estate_object;
+    => nrel_associative_connection: by_other_immovable_property_object;
+    => nrel_associative_connection: by_gross_basis_calculation;
+
+    => nrel_legal_act: by_act_w02136594p;
+    => nrel_legal_act: by_act_w01933901p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/31170?langname=ru];
+    => nrel_etalon_online_idx: [31170];;

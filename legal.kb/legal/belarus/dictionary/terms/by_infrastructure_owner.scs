@@ -1,0 +1,67 @@
+
+by_infrastructure_owner
+    => nrel_main_idtf: [infrastructure owner] (* <- lang_en;; *);
+    => nrel_main_idtf: [владелец инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [уладальнік інфраструктуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infrastructure_owner_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_infrastructure_owner_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_owner;
+    => nrel_associative_connection: by_owners;
+    => nrel_associative_connection: by_access_to_infrastructure_services;
+    => nrel_associative_connection: by_engineering_infrastructure;
+    => nrel_associative_connection: by_innovative_infrastructure;
+    => nrel_associative_connection: by_infrastructure;
+    => nrel_associative_connection: by_infrastructure_of_the_state_border;
+    => nrel_associative_connection: by_infrastructure_of_the_state_personnel_policy;
+    => nrel_associative_connection: by_infrastructure_of_railway_transport_of_general_use;
+    => nrel_associative_connection: by_infrastructure_of_the_border_area;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_modernization_of_infrastructure_object;
+    => nrel_associative_connection: by_cloud_infrastructure;
+    => nrel_associative_connection: by_defence_infrastructure;
+    => nrel_associative_connection: by_infrastructure_object;
+    => nrel_associative_connection: by_infrastructure_objects;
+    => nrel_associative_connection: by_production_infrastructure;
+    => nrel_associative_connection: by_creating_an_infrastructure_facility;
+    => nrel_associative_connection: by_social_infrastructure;
+    => nrel_associative_connection: by_customs_infrastructure;
+    => nrel_associative_connection: by_transport_infrastructure;
+
+    => nrel_legal_act: by_act_h19900237;
+    => nrel_legal_act: by_act_n21200181;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/13038?langname=ru];
+    => nrel_etalon_online_idx: [13038];;

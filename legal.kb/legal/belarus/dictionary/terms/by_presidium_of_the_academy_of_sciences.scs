@@ -1,0 +1,52 @@
+
+by_presidium_of_the_academy_of_sciences
+    => nrel_main_idtf: [presidium of the academy of sciences] (* <- lang_en;; *);
+    => nrel_main_idtf: [президиум академии наук] (* <- lang_ru;; *);
+    => nrel_main_idtf: [прэзідыум акадэміі навук] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_presidium_of_the_academy_of_sciences_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_presidium_of_the_academy_of_sciences_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_academy_of_sciences;
+    => nrel_associative_connection: by_bureau_of_the_academy_of_science_presidium;
+    => nrel_associative_connection: by_national_academy_of_sciences_of_belarus;
+    => nrel_associative_connection: by_general_meeting_of_the_academy_of_sciences;
+    => nrel_associative_connection: by_presidium;
+    => nrel_associative_connection: by_regional_branches_of_the_academy_of_sciences;
+
+    => nrel_legal_act: by_act_h19800159;
+    => nrel_legal_act: by_act_p31900197;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/21145?langname=ru];
+    => nrel_etalon_online_idx: [21145];;

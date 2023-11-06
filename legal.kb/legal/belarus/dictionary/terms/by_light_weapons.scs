@@ -1,0 +1,54 @@
+
+by_light_weapons
+    => nrel_main_idtf: [light weapons] (* <- lang_en;; *);
+    => nrel_main_idtf: [легкое оружие] (* <- lang_ru;; *);
+    => nrel_main_idtf: [лёгкая зброя] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_light_weapons_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_light_weapons_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_combat_weapon;
+    => nrel_associative_connection: by_ammunition;
+    => nrel_associative_connection: by_ammunition_to_weapons;
+    => nrel_associative_connection: by_movement_of_weapons_and_ammunition;
+    => nrel_associative_connection: by_nomenclature_of_arms_and_ammunition;
+    => nrel_associative_connection: by_operations_with_arms_and_ammunition;
+    => nrel_associative_connection: by_weapon;
+    => nrel_associative_connection: by_component_parts_and_components_of_the_weapon;
+
+    => nrel_legal_act: by_act_w22035341;
+    => nrel_legal_act: by_act_w21934743;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16540?langname=ru];
+    => nrel_etalon_online_idx: [16540];;

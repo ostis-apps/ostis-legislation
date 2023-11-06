@@ -1,0 +1,33 @@
+
+by_public_offer
+    => nrel_main_idtf: [public offer] (* <- lang_en;; *);
+    => nrel_main_idtf: [публичная оферта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [публічная аферта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_public_offer_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_retail_purchase_and_sale_agreement;
+    => nrel_associative_connection: by_offer;
+    => nrel_associative_connection: by_advertising;
+
+    => nrel_legal_act: by_act_hk9800218;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/4006?langname=ru];
+    => nrel_etalon_online_idx: [4006];;

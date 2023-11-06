@@ -1,0 +1,39 @@
+
+by_reimbursement
+    => nrel_main_idtf: [reimbursement ] (* <- lang_en;; *);
+    => nrel_main_idtf: [рамбурсирование] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамбурсаванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_reimbursement_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_letter_of_credit;
+    => nrel_associative_connection: by_documentary_operations;
+    => nrel_associative_connection: by_letter_of_credit_execution;
+    => nrel_associative_connection: by_executing_bank;
+    => nrel_associative_connection: by_reimbursing_bank;
+    => nrel_associative_connection: by_reimbursement_undertaking;
+    => nrel_associative_connection: by_reimbursement_requirement;
+    => nrel_associative_connection: by_ramburger_powers;
+    => nrel_associative_connection: by_requiring_bank;
+
+    => nrel_legal_act: by_act_b20105544;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22110?langname=ru];
+    => nrel_etalon_online_idx: [22110];;

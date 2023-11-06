@@ -1,0 +1,37 @@
+
+by_day_of_granting_credit
+    => nrel_main_idtf: [day of granting credit] (* <- lang_en;; *);
+    => nrel_main_idtf: [день предоставления кредита] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзень прадастаўлення крэдыту] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_day_of_granting_credit_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_credit;
+    => nrel_associative_connection: by_crediting;
+    => nrel_associative_connection: by_borrower;
+    => nrel_associative_connection: by_credits;
+    => nrel_associative_connection: by_cash_monetary_means;
+    => nrel_associative_connection: by_prolonged_credits;
+    => nrel_associative_connection: by_calculated_document;
+
+    => nrel_legal_act: by_act_hk0000441;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/11848?langname=ru];
+    => nrel_etalon_online_idx: [11848];;

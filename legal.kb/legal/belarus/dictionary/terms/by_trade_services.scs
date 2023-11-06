@@ -1,0 +1,27 @@
+
+by_trade_services
+    => nrel_main_idtf: [trade services] (* <- lang_en;; *);
+    => nrel_main_idtf: [торговое обслуживание] (* <- lang_ru;; *);
+    => nrel_main_idtf: [гандлёвае абслугоўванне] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_method_of_customer_service;
+    => nrel_associative_connection: by_servicing_in_public_catering;
+    => nrel_associative_connection: by_tent;
+    => nrel_associative_connection: by_buyer;
+    => nrel_associative_connection: by_counter;
+    => nrel_associative_connection: by_seller;
+    => nrel_associative_connection: by_sellers_employee;
+    => nrel_associative_connection: by_retail_trade_object;
+    => nrel_associative_connection: by_trade;
+    => nrel_associative_connection: by_trade_equipment;
+    => nrel_associative_connection: by_form_of_servicing_buyers;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10261?langname=ru];
+    => nrel_etalon_online_idx: [10261];;

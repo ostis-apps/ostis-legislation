@@ -1,0 +1,21 @@
+
+by_port_state_control_bodies
+    => nrel_main_idtf: [port state control bodies] (* <- lang_en;; *);
+    => nrel_main_idtf: [органы контроля государства порта] (* <- lang_ru;; *);
+    => nrel_main_idtf: [органы кантролю дзяржавы порта] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+
+    => nrel_associative_connection: by_port;
+    => nrel_associative_connection: by_public_port;
+    => nrel_associative_connection: by_home_ship_port;
+    => nrel_associative_connection: by_recognized_organization;
+    => nrel_associative_connection: by_voyage_of_foreign_navigation_for_belarusian_vessels;
+
+
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/19279?langname=ru];
+    => nrel_etalon_online_idx: [19279];;

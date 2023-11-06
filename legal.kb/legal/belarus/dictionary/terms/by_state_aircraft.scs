@@ -1,0 +1,88 @@
+
+by_state_aircraft
+    => nrel_main_idtf: [state aircraft] (* <- lang_en;; *);
+    => nrel_main_idtf: [государственное воздушное судно] (* <- lang_ru;; *);
+    => nrel_main_idtf: [дзяржаўнае паветранае судна] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_aircraft_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_aircraft_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_aircraft_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_state_aircraft_3.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_air_vehicle;
+    => nrel_associative_connection: by_state_aviation;
+    => nrel_associative_connection: by_state_registration_of_vessel_and_rights_to_it;
+    => nrel_associative_connection: by_state_registry;
+    => nrel_associative_connection: by_state_operating_the_aircraft;
+    => nrel_associative_connection: by_state_of_registration_of_the_aircraft;
+    => nrel_associative_connection: by_commercial_aircraft_loading;
+    => nrel_associative_connection: by_final_airport;
+    => nrel_associative_connection: by_international_aircraft_flight;
+    => nrel_associative_connection: by_aircraft_test_flight;
+
+    => nrel_legal_act: by_act_hk0600117;
+    => nrel_legal_act: by_act_i01900022;
+    => nrel_legal_act: by_act_i01100017;
+    => nrel_legal_act: by_act_n00900674;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/5589?langname=ru];
+    => nrel_etalon_online_idx: [5589];;

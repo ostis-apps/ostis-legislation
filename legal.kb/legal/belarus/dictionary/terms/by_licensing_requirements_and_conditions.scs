@@ -1,0 +1,53 @@
+
+by_licensing_requirements_and_conditions
+    => nrel_main_idtf: [licensing requirements and conditions] (* <- lang_en;; *);
+    => nrel_main_idtf: [лицензионные требования и условия] (* <- lang_ru;; *);
+    => nrel_main_idtf: [ліцэнзійныя патрабаванні і ўмовы] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_requirements_and_conditions_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_licensing_requirements_and_conditions_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_gross_violation_of_licensing_legislation;
+    => nrel_associative_connection: by_licensee;
+    => nrel_associative_connection: by_licensing;
+    => nrel_associative_connection: by_licensing_bodies;
+    => nrel_associative_connection: by_licensing_body;
+    => nrel_associative_connection: by_license;
+    => nrel_associative_connection: by_license_applicant;
+
+    => nrel_legal_act: by_act_P32100137;
+    => nrel_legal_act: by_act_p31200071;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/8882?langname=ru];
+    => nrel_etalon_online_idx: [8882];;

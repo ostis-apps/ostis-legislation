@@ -1,0 +1,72 @@
+
+by_communications
+    => nrel_main_idtf: [communications] (* <- lang_en;; *);
+    => nrel_main_idtf: [коммуникации] (* <- lang_ru;; *);
+    => nrel_main_idtf: [камунікацыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_communications_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_communications_1.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_communications_2.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_road_of_restricted_use;
+    => nrel_associative_connection: by_public_highway;
+    => nrel_associative_connection: by_automotive_transportation;
+    => nrel_associative_connection: by_owner_of_engineering_communications;
+    => nrel_associative_connection: by_communication_owner;
+    => nrel_associative_connection: by_lands_under_roads_and_other_transport_communications;
+    => nrel_associative_connection: by_communications_of_urban_electric_transport;
+    => nrel_associative_connection: by_metro_communications;
+    => nrel_associative_connection: by_specialized_organizations_for_the_maintenance_operation_of_underground_engineering_utilities;
+
+    => nrel_legal_act: by_act_h10700278;
+    => nrel_legal_act: by_act_w21934552p;
+    => nrel_legal_act: by_act_n22000128;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/16046?langname=ru];
+    => nrel_etalon_online_idx: [16046];;

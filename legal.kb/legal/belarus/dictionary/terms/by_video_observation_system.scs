@@ -1,0 +1,41 @@
+
+by_video_observation_system
+    => nrel_main_idtf: [video observation system] (* <- lang_en;; *);
+    => nrel_main_idtf: [система видеонаблюдения] (* <- lang_ru;; *);
+    => nrel_main_idtf: [сістэма відэаназірання] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_video_observation_system_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_surveillance_zone;
+    => nrel_associative_connection: by_controlled_zone;
+    => nrel_associative_connection: by_dead_zone;
+    => nrel_associative_connection: by_observation;
+    => nrel_associative_connection: by_objects_installation_locations;
+    => nrel_associative_connection: by_rotating_device_with__control;
+    => nrel_associative_connection: by_users_of_monitoring_system;
+    => nrel_associative_connection: by_network_of_observation_points;
+    => nrel_associative_connection: by_system;
+    => nrel_associative_connection: by_security_system;
+    => nrel_associative_connection: by_owner_of_object_of_installation_location;
+
+    => nrel_legal_act: by_act_c21201135;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/10078?langname=ru];
+    => nrel_etalon_online_idx: [10078];;

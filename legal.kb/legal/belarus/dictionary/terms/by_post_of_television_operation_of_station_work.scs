@@ -1,0 +1,40 @@
+
+by_post_of_television_operation_of_station_work
+    => nrel_main_idtf: [post of television operation of station work] (* <- lang_en;; *);
+    => nrel_main_idtf: [пост телеуправления работой станции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [пост тэлекіравання работай станцыі] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_post_of_television_operation_of_station_work_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_schedule_of_electric_train_traffic;
+    => nrel_associative_connection: by_traffic_control_station;
+    => nrel_associative_connection: by_metro_communications;
+    => nrel_associative_connection: by_metro_lines;
+    => nrel_associative_connection: by_metro;
+    => nrel_associative_connection: by_organization_of_passengers_transportation_by_metropolitan;
+    => nrel_associative_connection: by_post;
+    => nrel_associative_connection: by_centralization_post;
+    => nrel_associative_connection: by_metro_territory;
+    => nrel_associative_connection: by_central_post;
+
+    => nrel_legal_act: by_act_c21401088;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/20733?langname=ru];
+    => nrel_etalon_online_idx: [20733];;

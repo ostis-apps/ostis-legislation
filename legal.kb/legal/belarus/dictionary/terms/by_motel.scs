@@ -1,0 +1,37 @@
+
+by_motel
+    => nrel_main_idtf: [motel] (* <- lang_en;; *);
+    => nrel_main_idtf: [мотель] (* <- lang_ru;; *);
+    => nrel_main_idtf: [матэль] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_motel_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_highway;
+    => nrel_associative_connection: by_car_parking;
+    => nrel_associative_connection: by_hotel;
+    => nrel_associative_connection: by_hotel_industry;
+    => nrel_associative_connection: by_category_of_hotel_motel;
+    => nrel_associative_connection: by_minibar;
+    => nrel_associative_connection: by_accommodation_facilities;
+
+    => nrel_legal_act: by_act_w22036206p;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/37777?langname=ru];
+    => nrel_etalon_online_idx: [37777];;

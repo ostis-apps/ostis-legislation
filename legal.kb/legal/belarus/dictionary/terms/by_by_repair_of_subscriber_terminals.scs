@@ -1,0 +1,41 @@
+
+by_by_repair_of_subscriber_terminals
+    => nrel_main_idtf: [by_repair_of_subscriber_terminals] (* <- lang_en;; *);
+    => nrel_main_idtf: [ремонт оконечных абонентских устройств] (* <- lang_ru;; *);
+    => nrel_main_idtf: [рамонт канцавых абаненцкіх прыстасаванняў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_by_repair_of_subscriber_terminals_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_workshop_for_repair_of_terminal_subscriber_devices;
+    => nrel_associative_connection: by_inmarsat_subscribers_unit;
+    => nrel_associative_connection: by_inmarsat_subscribers_unit_terminal;
+    => nrel_associative_connection: by_main_inmarsat_devices;
+    => nrel_associative_connection: by_parallel_inmarsat_devices;
+    => nrel_associative_connection: by_reception_point;
+    => nrel_associative_connection: by_repair;
+    => nrel_associative_connection: by_repair_organization;
+    => nrel_associative_connection: by_repair_works;
+    => nrel_associative_connection: by_repair_service;
+    => nrel_associative_connection: by_service_for_providing_access_to_the_network_of_stationary_telecommunications_using_a_terminal_subscriber_device;
+
+    => nrel_legal_act: by_act_c20700393;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/22538?langname=ru];
+    => nrel_etalon_online_idx: [22538];;

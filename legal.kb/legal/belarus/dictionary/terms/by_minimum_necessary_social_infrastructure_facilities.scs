@@ -1,0 +1,38 @@
+
+by_minimum_necessary_social_infrastructure_facilities
+    => nrel_main_idtf: [minimum necessary social infrastructure facilities] (* <- lang_en;; *);
+    => nrel_main_idtf: [минимально необходимые объекты социальной инфраструктуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [мінімальна неабходныя аб'екты сацыяльнай інфраструктуры] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_minimum_necessary_social_infrastructure_facilities_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_object_of_consumer_services;
+    => nrel_associative_connection: by_objects_of_postal_communication;
+    => nrel_associative_connection: by_objects_of_social_infrastructure;
+    => nrel_associative_connection: by_social_infrastructure;
+    => nrel_associative_connection: by_trade_object;
+    => nrel_associative_connection: by_preschool_institution;
+    => nrel_associative_connection: by_institution_of_general_secondary_education;
+    => nrel_associative_connection: by_elements_of_accessible_environment;
+
+    => nrel_legal_act: by_act_p30600072;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/41541?langname=ru];
+    => nrel_etalon_online_idx: [41541];;

@@ -1,0 +1,38 @@
+
+by_illegal_sale_of_narcotic_drugs_psychotropic_substances_or_precursors_potent_and_poison_substances
+    => nrel_main_idtf: [illegal sale of narcotic drugs, psychotropic substances or precursors, potent and poison substances] (* <- lang_en;; *);
+    => nrel_main_idtf: [незаконный сбыт наркотических средств, психотропных веществ или прекурсоров, сильнодействующих и ядовитых веществ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [незаконны збыт наркатычных сродкаў, псіхатропных рэчываў або прэкурсораў, моцнадзеючых і ядавітых рэчываў] (* <- lang_by;; *);
+
+    <- legal_term;
+    <- by_legal_term;
+
+    
+    <- rrel_key_sc_element: ...
+        (*
+            <- sc_definition;;
+            <- sc_explanation;;
+            <= nrel_sc_text_translation: ...
+            (*
+                -> rrel_example: "file://content/by_illegal_sale_of_narcotic_drugs_psychotropic_substances_or_precursors_potent_and_poison_substances_0.html"
+                (*
+                    <- lang_ru;;
+                    => nrel_format: format_html;;
+                *);;
+            *);;
+        *);
+
+
+    => nrel_associative_connection: by_narcotic_drugs_psychotropic_substances;
+    => nrel_associative_connection: by_narcotic_drugs_psychotropic_substances_precursors;
+    => nrel_associative_connection: by_illegal_production_of_drugs_psychotropic_substances_or_precursors_potent_or_poisonous_substances;
+    => nrel_associative_connection: by_illegal_purchase_of_drugs_psychotropic_substances_or__precursors_potent_or_poisonous_substances;
+    => nrel_associative_connection: by_illegal_storage_of_drugs_psychotropic_substances_or__precursors_potent_or_poisonous_substances;
+    => nrel_associative_connection: by_illicit_traffic_of_narcotic_drugs_psychotropic_substances_their_precursors_analogues;
+    => nrel_associative_connection: by_illicit_trafficking_of_potent_or_poison_substances;
+    => nrel_associative_connection: by_precursor;
+
+    => nrel_legal_act: by_act_s20300001;
+
+    => nrel_etalon_online_link: [http://multilang.etalonline.by/ru/term/index/18015?langname=ru];
+    => nrel_etalon_online_idx: [18015];;
