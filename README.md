@@ -39,7 +39,7 @@ After that launch sc-web interface:
 ```
 
 To check that everything is fine open localhost:8000 in your browser.
-![](https://i.imgur.com/6SehI5s.png)
+![](https://i.imgur.com/zOQ7H6U.png)
 
 ## Project Structure
 
