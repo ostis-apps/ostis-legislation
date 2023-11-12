@@ -1,0 +1,29 @@
+section_law_belarus_marriage_dict
+=> nrel_main_idtf: [Раздел. Словарь по законодательству о браке и семье Республики Беларусь] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Section. Dictionary on the legislation on marriage and family of the Republic of Belarus] (* <- lang_en;; *);
+=> nrel_main_idtf: [Раздзел. Слоўнік па заканадаўстве аб шлюбе і сям'і Рэспублікі Беларусь] (* <- lang_by;; *);
+
+-> rrel_key_sc_element:
+
+  concept_marriage_belarus (*
+    => nrel_main_idtf: [брак (Беларусь)] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [marriage (Belarus)] (* <- lang_en;; *);;
+    => nrel_main_idtf: [брак (Беларусь)] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Брак – это добровольный союз женщины и мужчины, который заключается на условиях, предусмотренных настоящим Кодексом, направлен на создание семьи и порождает для сторон взаимные права и обязанности.] (* <- lang_ru;; *);;
+            -> rrel_example: [Шлюб - гэта добраахвотны саюз жанчыны і мужчыны, які заключаецца на ўмовах, прадугледжаных гэтым Кодэксам, накіраваны на стварэнне сям'і і спараджае для бакоў узаемныя правы і абавязкі.] (* <- lang_by;; *);;
+            -> rrel_example: [Marriage is a voluntary union of a woman and a man, which is concluded on the terms provided for by this Code, is aimed at creating a family and gives rise to mutual rights and obligations for the parties.] (* <- lang_en;; *);;
+					*);;
+			*);;
+
+    <- concept_marriage;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);;
