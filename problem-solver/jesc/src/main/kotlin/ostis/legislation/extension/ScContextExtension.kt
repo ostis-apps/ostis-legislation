@@ -56,6 +56,9 @@ fun ScContext.getRoleRelationTarget(addr: Long, rrelAddr: Long) =
 fun ScContext.getRoleRelationSource(addr: Long, rrelAddr: Long) =
     getRelationSource(addr, rrelAddr, ScType.EDGE_ACCESS_VAR_POS_PERM)
 
+fun ScContext.getNoRoleRelationTargets(addr: Long, nrelAddr: Long) =
+    getRelationTargets(addr, nrelAddr, ScType.EDGE_D_COMMON_VAR)
+
 fun ScContext.getNoRoleRelationTarget(addr: Long, nrelAddr: Long) =
     getRelationTarget(addr, nrelAddr, ScType.EDGE_D_COMMON_VAR)
 

@@ -20,13 +20,27 @@ class TelegramSendAnswerAgent(
     override fun onTrigger(event: ScEvent) {
         val answerRelation = event.payload[2]
 
-        val addrs = context.api.searchByTemplate()
-            .references(
-                ScReference.type(ScType.VAR),
-                ScReference.addr(answerRelation),
-                ScReference.type(ScType.LINK_VAR)
-            )
-            .execute().payload.addrs[0]
+        val addrs = try {
+            context.api.searchByTemplate()
+                .references(
+                    ScReference.type(ScType.VAR),
+                    ScReference.addr(answerRelation),
+                    ScReference.type(ScType.VAR)
+                )
+                .execute().payload.addrs[0]
+        } catch (e: IndexOutOfBoundsException) {
+            // TODO: Probably, for some reason event for edge creation is emitted before edge is actually created.
+            // TODO: If so, then it is a bug in SC-machine.
+            println("TODO: Fix this bug, dunno why it happens yet.")
+            Thread.sleep(3000)
+            context.api.searchByTemplate()
+                .references(
+                    ScReference.type(ScType.VAR),
+                    ScReference.addr(answerRelation),
+                    ScReference.type(ScType.VAR)
+                )
+                .execute().payload.addrs[0]
+        }
 
         val telegramId = context.getRoleRelationTarget(addrs[0], rrelTelegramChatId)
             .let { context.getLinkContent(it).asLong() }
