@@ -24,7 +24,12 @@ class WitAISCQueryCreator(
         ctx.resolveBySystemIdentifier("question_natural_lang", ScType.NODE_CONST_CLASS)
     private val questionJescFirstLetterSearch =
         ctx.resolveBySystemIdentifier("question_jesc_first_letter_search", ScType.NODE_CONST_CLASS)
-
+    private val questionJescSectionDefinitionsSearch =
+        ctx.resolveBySystemIdentifier("question_jesc_section_definitions_search", ScType.NODE_CONST_CLASS)
+    private val questionJescAllSectionsSearch =
+        ctx.resolveBySystemIdentifier("question_jesc_all_sections_search", ScType.NODE_CONST_CLASS)
+    private val questionJescAllActsSearch =
+        ctx.resolveBySystemIdentifier("question_jesc_all_acts_search", ScType.NODE_CONST_CLASS)
 
     private val rrelTelegramChatId =
         ctx.resolveBySystemIdentifier("rrel_telegram_chat_id", ScType.NODE_CONST_ROLE)
@@ -37,16 +42,92 @@ class WitAISCQueryCreator(
         ctx.resolveBySystemIdentifier("intent_what_is", ScType.NODE_CONST)
     private val intentFirstLetterSearch =
         ctx.resolveBySystemIdentifier("intent_first_letter_search", ScType.NODE_CONST)
+    private val intentSectionDefinitionsSearch =
+        ctx.resolveBySystemIdentifier("intent_section_definitions_search", ScType.NODE_CONST)
+    private val intentAllSectionsSearch =
+        ctx.resolveBySystemIdentifier("intent_all_sections_search", ScType.NODE_CONST)
+    private val intentAllActsSearch =
+        ctx.resolveBySystemIdentifier("intent_all_acts_search", ScType.NODE_CONST)
+
 
     override fun createQuery(naturalQuery: String) {
         val witAIResult = witAI.process(naturalQuery)
-
         when (witAIResult.intents[0].name) {
             "what_is" -> whatIsHandler(witAIResult, naturalQuery)
             "first_letter_search" -> firstLetterSearchHandler(witAIResult, naturalQuery)
+            "section_definitions_search" -> sectionDefinitionsSearch(witAIResult, naturalQuery)
+            "all_sections_search" -> allSectionsSearch(witAIResult, naturalQuery)
+            "number_of_acts" -> allActsSearch(witAIResult, naturalQuery)
         }
 
     }
+
+    private fun allActsSearch(witAIResult: WitAIResponse, naturalQuery: String) {
+        ctx.api.createElements()
+            .node(ScType.NODE_CONST) // 0
+            .link(ScType.LINK_CONST, witAIResult.entities["codex:codex"]!![0].body, ScContentType.STRING) // 1
+            .link(ScType.LINK_CONST, telegramChatId, ScContentType.INT) // 2
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.addr(intentAllActsSearch)) // 3
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(1)) // 4
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(2)) // 5
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelIntent), ScReference.ref(3))//6
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelFirstArgument), ScReference.ref(4))//7
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelTelegramChatId), ScReference.ref(5))//8
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(questionJescAllActsSearch), ScReference.ref(0))//9
+
+            .link(ScType.LINK_CONST, "Запрос на естественном языке: $naturalQuery", ScContentType.STRING) // 10
+            .edge(ScType.EDGE_D_COMMON_CONST, ScReference.ref(0), ScReference.ref(10)) // 11
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(nrelMainIdtf), ScReference.ref(11)) // 12
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(langRu), ScReference.ref(10))
+
+            .execute()
+    }
+
+    private fun allSectionsSearch(witAIResult: WitAIResponse, naturalQuery: String) {
+        ctx.api.createElements()
+            .node(ScType.NODE_CONST)//0
+            .link(ScType.LINK_CONST, telegramChatId, ScContentType.INT)// 1
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.addr(intentAllSectionsSearch)) // 2
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(1)) // 3
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelIntent), ScReference.ref(2))//4
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelTelegramChatId), ScReference.ref(3))//5
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(questionJescAllSectionsSearch), ScReference.ref(0))//6
+
+            .link(ScType.LINK_CONST, "Запрос на естественном языке: $naturalQuery", ScContentType.STRING) // 7
+            .edge(ScType.EDGE_D_COMMON_CONST, ScReference.ref(0), ScReference.ref(7)) // 8
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(nrelMainIdtf), ScReference.ref(8)) // 9
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(langRu), ScReference.ref(7))//10
+
+            .execute()
+    }
+
+    private fun sectionDefinitionsSearch(witAIResult: WitAIResponse, naturalQuery: String) {
+        ctx.api.createElements()
+            .node(ScType.NODE_CONST) // 0
+            .link(ScType.LINK_CONST, witAIResult.entities["section:section"]!![0].body, ScContentType.STRING) // 1
+            .link(ScType.LINK_CONST, telegramChatId, ScContentType.INT) // 2
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.addr(intentSectionDefinitionsSearch)) // 3
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(1)) // 4
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(2)) // 5
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelIntent), ScReference.ref(3))//6
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelFirstArgument), ScReference.ref(4))//7
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelTelegramChatId), ScReference.ref(5))//8
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(questionJescSectionDefinitionsSearch), ScReference.ref(0))//9
+
+            .link(ScType.LINK_CONST, "Запрос на естественном языке: $naturalQuery", ScContentType.STRING) // 10
+            .edge(ScType.EDGE_D_COMMON_CONST, ScReference.ref(0), ScReference.ref(10)) // 11
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(nrelMainIdtf), ScReference.ref(11)) // 12
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(langRu), ScReference.ref(10))
+
+            .execute()
+    }
+
 
     private fun firstLetterSearchHandler(witAIResult: WitAIResponse, naturalQuery: String) {
         ctx.api.createElements()
