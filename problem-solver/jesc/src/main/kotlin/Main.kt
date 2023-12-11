@@ -10,6 +10,7 @@ import ostis.legislation.agent.ArticleContentAgent
 import ostis.legislation.agent.FirstLetterSearchAgent
 import ostis.legislation.agent.TelegramSendAnswerAgent
 import ostis.legislation.agent.WhatIsAgent
+import ostis.legislation.agent.*
 import ostis.legislation.thirdparty.telegram.Telegram
 import ostis.legislation.thirdparty.witai.WitAI
 
@@ -34,7 +35,10 @@ data class Events(
     val naturalLangNewQuestion: Long,
     val naturalLangResultReady: Long,
     val firstLetterSearchNewQuestionEvent: Long,
-    val articleContentNewQuestionEvent: Long
+    val articleContentNewQuestionEvent: Long,
+    val allDefinitionsSearchNewQuestionEvent: Long,
+    val allSectionsSearchNewQuestionEvent: Long,
+    val allActsSearchEvent: Long
 )
 
 fun prepareEvents(context: ScContext): Events {
@@ -45,12 +49,29 @@ fun prepareEvents(context: ScContext): Events {
         ScType.NODE_CLASS
     )
     val questionJescArticleContent = context.resolveBySystemIdentifier("question_jesc_article_content", ScType.NODE_CONST_CLASS)
+    val questionJescAllDefinitionsSearch = context.resolveBySystemIdentifier(
+        "question_jesc_section_definitions_search",
+        ScType.NODE_CLASS
+    )
+
+    val questionJescAllSectionsSearch = context.resolveBySystemIdentifier(
+        "question_jesc_all_sections_search",
+        ScType.NODE_CLASS
+    )
+
+    val questionJescAllActsSearch = context.resolveBySystemIdentifier(
+        "question_jesc_all_acts_search",
+        ScType.NODE_CLASS
+    )
 
     return Events(
         naturalLangNewQuestion = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionNaturalLang),
         naturalLangResultReady = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, rrelAnswerNaturalLang),
         firstLetterSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescFirstLetterSearch),
-        articleContentNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescArticleContent)
+        articleContentNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescArticleContent),
+        allDefinitionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllDefinitionsSearch),
+        allSectionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllSectionsSearch),
+        allActsSearchEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllActsSearch)
     )
 }
 
@@ -66,12 +87,14 @@ fun main() {
     agentRegistry.registerAgent(TelegramSendAnswerAgent(telegram, events.naturalLangResultReady, context.api.client))
     agentRegistry.registerAgent(FirstLetterSearchAgent(events.firstLetterSearchNewQuestionEvent, context.api.client))
     agentRegistry.registerAgent(ArticleContentAgent(events.articleContentNewQuestionEvent, context.api.client))
+    agentRegistry.registerAgent(SectionDefinitionsAgent(events.allDefinitionsSearchNewQuestionEvent, context.api.client))
+    agentRegistry.registerAgent(AllSectionsSearchAgent(events.allSectionsSearchNewQuestionEvent,context.api.client))
+    agentRegistry.registerAgent(NumberOfActsOfSectionAgent(events.allActsSearchEvent, context.api.client))
 
     Runtime.getRuntime().addShutdownHook(Thread {
         println("Shutting down JESC agents.")
     })
 }
 
-const val TELEGRAM_TOKEN = "6081951550:AAEE8-kfLbUCexhDgnpyY87VzrLxs5ufmg8"
-//const val TELEGRAM_TOKEN = "6130969742:AAFRmCjEQF37J4SIQQnPMmG_k--YdlGNR-I"
+const val TELEGRAM_TOKEN = "6130969742:AAFRmCjEQF37J4SIQQnPMmG_k--YdlGNR-I"
 const val WIT_AI_TOKEN = "OCBKFILCPZAW4KVB4PWIMZXKVAFDRBUN"

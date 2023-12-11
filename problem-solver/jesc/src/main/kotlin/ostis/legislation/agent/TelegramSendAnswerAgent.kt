@@ -32,7 +32,7 @@ class TelegramSendAnswerAgent(
             // TODO: Probably, for some reason event for edge creation is emitted before edge is actually created.
             // TODO: If so, then it is a bug in SC-machine.
             println("TODO: Fix this bug, dunno why it happens yet.")
-            Thread.sleep(3000)
+            Thread.sleep(6000)
             context.api.searchByTemplate()
                 .references(
                     ScReference.type(ScType.VAR),
