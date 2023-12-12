@@ -38,7 +38,8 @@ data class Events(
     val articleContentNewQuestionEvent: Long,
     val allDefinitionsSearchNewQuestionEvent: Long,
     val allSectionsSearchNewQuestionEvent: Long,
-    val allActsSearchEvent: Long
+    val allActsSearchEvent: Long,
+    val numberOfDefinitionsOfSectionNewQuestionEvent: Long
 )
 
 fun prepareEvents(context: ScContext): Events {
@@ -64,6 +65,11 @@ fun prepareEvents(context: ScContext): Events {
         ScType.NODE_CLASS
     )
 
+    val questionJescNumberOfDefinitions = context.resolveBySystemIdentifier(
+        "question_jesc_number_of_definitions_search",
+        ScType.NODE_CLASS
+    )
+
     return Events(
         naturalLangNewQuestion = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionNaturalLang),
         naturalLangResultReady = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, rrelAnswerNaturalLang),
@@ -71,7 +77,8 @@ fun prepareEvents(context: ScContext): Events {
         articleContentNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescArticleContent),
         allDefinitionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllDefinitionsSearch),
         allSectionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllSectionsSearch),
-        allActsSearchEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllActsSearch)
+        allActsSearchEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllActsSearch),
+        numberOfDefinitionsOfSectionNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescNumberOfDefinitions)
     )
 }
 
@@ -90,6 +97,7 @@ fun main() {
     agentRegistry.registerAgent(SectionDefinitionsAgent(events.allDefinitionsSearchNewQuestionEvent, context.api.client))
     agentRegistry.registerAgent(AllSectionsSearchAgent(events.allSectionsSearchNewQuestionEvent,context.api.client))
     agentRegistry.registerAgent(NumberOfActsOfSectionAgent(events.allActsSearchEvent, context.api.client))
+    agentRegistry.registerAgent(NumberOfDefinitionsOfSectionAgent(events.numberOfDefinitionsOfSectionNewQuestionEvent, context.api.client))
 
     Runtime.getRuntime().addShutdownHook(Thread {
         println("Shutting down JESC agents.")
