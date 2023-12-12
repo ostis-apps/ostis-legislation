@@ -23,4 +23,10 @@ public class ScAgentRegistry {
         
     }
 
+    public void registerAgents(ScAgent... agents) {
+        for (ScAgent agent : agents) {
+            registerAgent(agent);
+        }
+    }
+
 }

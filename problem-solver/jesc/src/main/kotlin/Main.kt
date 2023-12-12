@@ -21,14 +21,12 @@ fun prepareContext(): ScContext {
 }
 
 fun prepareTelegram(context: ScContext, witAI: WitAI) = Telegram(TELEGRAM_TOKEN).apply {
-
     newUpdateHandler {
         if (it.hasMessage()) {
             val queryCreator = WitAISCQueryCreator(context, witAI, it.message.chatId)
             queryCreator.createQuery(it.message.text)
         }
     }
-
 }
 
 data class Events(
@@ -38,31 +36,19 @@ data class Events(
     val articleContentNewQuestionEvent: Long,
     val allDefinitionsSearchNewQuestionEvent: Long,
     val allSectionsSearchNewQuestionEvent: Long,
-    val allActsSearchEvent: Long
+    val allActsSearchEvent: Long,
+    val findOriginQuestionEvent: Long
 )
 
 fun prepareEvents(context: ScContext): Events {
     val questionNaturalLang = context.resolveBySystemIdentifier("question_natural_lang", ScType.NODE_CONST_CLASS)
     val rrelAnswerNaturalLang = context.resolveBySystemIdentifier("rrel_answer_natural_lang", ScType.NODE_CONST_ROLE)
-    val questionJescFirstLetterSearch = context.resolveBySystemIdentifier(
-        "question_jesc_first_letter_search",
-        ScType.NODE_CLASS
-    )
+    val questionJescFirstLetterSearch = context.resolveBySystemIdentifier("question_jesc_first_letter_search", ScType.NODE_CLASS)
     val questionJescArticleContent = context.resolveBySystemIdentifier("question_jesc_article_content", ScType.NODE_CONST_CLASS)
-    val questionJescAllDefinitionsSearch = context.resolveBySystemIdentifier(
-        "question_jesc_section_definitions_search",
-        ScType.NODE_CLASS
-    )
-
-    val questionJescAllSectionsSearch = context.resolveBySystemIdentifier(
-        "question_jesc_all_sections_search",
-        ScType.NODE_CLASS
-    )
-
-    val questionJescAllActsSearch = context.resolveBySystemIdentifier(
-        "question_jesc_all_acts_search",
-        ScType.NODE_CLASS
-    )
+    val questionJescAllDefinitionsSearch = context.resolveBySystemIdentifier("question_jesc_section_definitions_search", ScType.NODE_CLASS)
+    val questionJescAllSectionsSearch = context.resolveBySystemIdentifier("question_jesc_all_sections_search", ScType.NODE_CLASS)
+    val questionJescAllActsSearch = context.resolveBySystemIdentifier("question_jesc_all_acts_search", ScType.NODE_CLASS)
+    val questionJescFindOrigin = context.resolveBySystemIdentifier("question_jesc_find_origin", ScType.NODE_CLASS)
 
     return Events(
         naturalLangNewQuestion = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionNaturalLang),
@@ -71,7 +57,8 @@ fun prepareEvents(context: ScContext): Events {
         articleContentNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescArticleContent),
         allDefinitionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllDefinitionsSearch),
         allSectionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllSectionsSearch),
-        allActsSearchEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllActsSearch)
+        allActsSearchEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllActsSearch),
+        findOriginQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescFindOrigin)
     )
 }
 
@@ -83,13 +70,16 @@ fun main() {
     val telegram = prepareTelegram(context, witAI)
     val events = prepareEvents(context)
 
-    agentRegistry.registerAgent(WhatIsAgent(events.naturalLangNewQuestion, context.api.client))
-    agentRegistry.registerAgent(TelegramSendAnswerAgent(telegram, events.naturalLangResultReady, context.api.client))
-    agentRegistry.registerAgent(FirstLetterSearchAgent(events.firstLetterSearchNewQuestionEvent, context.api.client))
-    agentRegistry.registerAgent(ArticleContentAgent(events.articleContentNewQuestionEvent, context.api.client))
-    agentRegistry.registerAgent(SectionDefinitionsAgent(events.allDefinitionsSearchNewQuestionEvent, context.api.client))
-    agentRegistry.registerAgent(AllSectionsSearchAgent(events.allSectionsSearchNewQuestionEvent,context.api.client))
-    agentRegistry.registerAgent(NumberOfActsOfSectionAgent(events.allActsSearchEvent, context.api.client))
+    agentRegistry.registerAgents(
+        WhatIsAgent(events.naturalLangNewQuestion, context.api.client),
+        TelegramSendAnswerAgent(telegram, events.naturalLangResultReady, context.api.client),
+        FirstLetterSearchAgent(events.firstLetterSearchNewQuestionEvent, context.api.client),
+        ArticleContentAgent(events.articleContentNewQuestionEvent, context.api.client),
+        SectionDefinitionsAgent(events.allDefinitionsSearchNewQuestionEvent, context.api.client),
+        AllSectionsSearchAgent(events.allSectionsSearchNewQuestionEvent,context.api.client),
+        NumberOfActsOfSectionAgent(events.allActsSearchEvent, context.api.client),
+        FindOriginAgent(events.findOriginQuestionEvent, context.api.client)
+    )
 
     Runtime.getRuntime().addShutdownHook(Thread {
         println("Shutting down JESC agents.")

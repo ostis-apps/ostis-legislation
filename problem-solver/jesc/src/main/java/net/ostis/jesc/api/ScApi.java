@@ -23,7 +23,7 @@ public class ScApi {
 
     private final ScClient scClient;
 
-    private Long idCounter = 0L;
+    private static Long idCounter = 0L;
 
     public ScApi(ScClient scClient) {
         this.scClient = scClient;
