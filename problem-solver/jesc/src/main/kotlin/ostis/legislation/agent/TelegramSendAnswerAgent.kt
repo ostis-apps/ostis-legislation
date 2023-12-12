@@ -18,6 +18,7 @@ class TelegramSendAnswerAgent(
         context.resolveBySystemIdentifier("rrel_telegram_chat_id", ScType.NODE_CONST_ROLE)
 
     override fun onTrigger(event: ScEvent) {
+        Thread.sleep(1000)
         val answerRelation = event.payload[2]
 
         val addrs = try {
