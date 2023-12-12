@@ -37,6 +37,7 @@ data class Events(
     val allDefinitionsSearchNewQuestionEvent: Long,
     val allSectionsSearchNewQuestionEvent: Long,
     val allActsSearchEvent: Long,
+    val numberOfDefinitionsOfSectionNewQuestionEvent: Long,
     val findOriginQuestionEvent: Long
 )
 
@@ -50,6 +51,11 @@ fun prepareEvents(context: ScContext): Events {
     val questionJescAllActsSearch = context.resolveBySystemIdentifier("question_jesc_all_acts_search", ScType.NODE_CLASS)
     val questionJescFindOrigin = context.resolveBySystemIdentifier("question_jesc_find_origin", ScType.NODE_CLASS)
 
+    val questionJescNumberOfDefinitions = context.resolveBySystemIdentifier(
+        "question_jesc_number_of_definitions_search",
+        ScType.NODE_CLASS
+    )
+
     return Events(
         naturalLangNewQuestion = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionNaturalLang),
         naturalLangResultReady = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, rrelAnswerNaturalLang),
@@ -58,6 +64,7 @@ fun prepareEvents(context: ScContext): Events {
         allDefinitionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllDefinitionsSearch),
         allSectionsSearchNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllSectionsSearch),
         allActsSearchEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescAllActsSearch),
+        numberOfDefinitionsOfSectionNewQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescNumberOfDefinitions),
         findOriginQuestionEvent = context.createEvent(ScEventType.ADD_OUTGOING_EDGE, questionJescFindOrigin)
     )
 }
@@ -78,7 +85,8 @@ fun main() {
         SectionDefinitionsAgent(events.allDefinitionsSearchNewQuestionEvent, context.api.client),
         AllSectionsSearchAgent(events.allSectionsSearchNewQuestionEvent,context.api.client),
         NumberOfActsOfSectionAgent(events.allActsSearchEvent, context.api.client),
-        FindOriginAgent(events.findOriginQuestionEvent, context.api.client)
+        FindOriginAgent(events.findOriginQuestionEvent, context.api.client),
+        NumberOfDefinitionsOfSectionAgent(events.numberOfDefinitionsOfSectionNewQuestionEvent, context.api.client)
     )
 
     Runtime.getRuntime().addShutdownHook(Thread {

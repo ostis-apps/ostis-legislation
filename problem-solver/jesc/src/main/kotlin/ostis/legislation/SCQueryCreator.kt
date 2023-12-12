@@ -32,6 +32,11 @@ class WitAISCQueryCreator(
         ctx.resolveBySystemIdentifier("question_jesc_all_sections_search", ScType.NODE_CONST_CLASS)
     private val questionJescAllActsSearch =
         ctx.resolveBySystemIdentifier("question_jesc_all_acts_search", ScType.NODE_CONST_CLASS)
+    private val questionJescNumberOfDefinitions =
+        ctx.resolveBySystemIdentifier(
+        "question_jesc_number_of_definitions_search",
+        ScType.NODE_CONST_CLASS
+    )
     private val questionJescFindOrigin =
         ctx.resolveBySystemIdentifier("question_jesc_find_origin", ScType.NODE_CONST_CLASS)
 
@@ -56,6 +61,8 @@ class WitAISCQueryCreator(
         ctx.resolveBySystemIdentifier("intent_all_sections_search", ScType.NODE_CONST)
     private val intentAllActsSearch =
         ctx.resolveBySystemIdentifier("intent_all_acts_search", ScType.NODE_CONST)
+    private val intentNumberDefinitionsSearch =
+        ctx.resolveBySystemIdentifier("intent_number_definition_search", ScType.NODE_CONST)
     private val intentFindOrigin =
         ctx.resolveBySystemIdentifier("intent_find_origin", ScType.NODE_CONST)
 
@@ -69,9 +76,33 @@ class WitAISCQueryCreator(
             "section_definitions_search" -> sectionDefinitionsSearch(witAIResult, naturalQuery)
             "all_sections_search" -> allSectionsSearch(naturalQuery)
             "number_of_acts" -> allActsSearch(witAIResult, naturalQuery)
+            "number_of_definitions" -> allDefinitionsSearch(witAIResult, naturalQuery)
             "find_origin" -> findOriginHandler(witAIResult, naturalQuery)
             else -> println("Unsupported intent: ${witAIResult.intents[0].name}");
         }
+    }
+
+    private fun allDefinitionsSearch(witAIResult: WitAIResponse, naturalQuery: String) {
+        ctx.api.createElements()
+            .node(ScType.NODE_CONST) // 0
+            .link(ScType.LINK_CONST, witAIResult.entities["section:section"]!![0].body, ScContentType.STRING) // 1
+            .link(ScType.LINK_CONST, telegramChatId, ScContentType.INT) // 2
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.addr(intentNumberDefinitionsSearch)) // 3
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(1)) // 4
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.ref(0), ScReference.ref(2)) // 5
+
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelIntent), ScReference.ref(3))//6
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelFirstArgument), ScReference.ref(4))//7
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(rrelTelegramChatId), ScReference.ref(5))//8
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(questionJescNumberOfDefinitions), ScReference.ref(0))//9
+
+            .link(ScType.LINK_CONST, "Запрос на естественном языке: $naturalQuery", ScContentType.STRING) // 10
+            .edge(ScType.EDGE_D_COMMON_CONST, ScReference.ref(0), ScReference.ref(10)) // 11
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(nrelMainIdtf), ScReference.ref(11)) // 12
+            .edge(ScType.EDGE_ACCESS_CONST_POS_PERM, ScReference.addr(langRu), ScReference.ref(10))
+
+            .execute()
     }
 
     private fun articleContentHandler(witAIResult: WitAIResponse, naturalQuery: String) {
