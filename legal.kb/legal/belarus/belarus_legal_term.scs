@@ -1,0 +1,57 @@
+belarus_legal_term
+=> nrel_main_idtf: [понятие из юриспруденции Республики Беларуси] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Section. Dictionary for technical regulations of the Republic of Belarus] (* <- lang_en;; *);
+=> nrel_main_idtf: [паняцце з юрыспрудэнцыі Рэспублікі Беларусь] (* <- lang_by;; *);
+<- rrel_key_sc_element:
+...
+(*
+  <- definition;;
+  <= nrel_sc_text_translation: ...
+    (*
+      -> rrel_example: [понятие из юриспруденции Республики Беларусь — это основополагающее определение или термин, используемый в правовой системе Республики Беларусь, объясняющий правовые принципы, институты или нормы, применяемые в этой стране.] (* <- lang_ru;; *);;
+      -> rrel_example: [a concept from the jurisprudence of the Republic of Belarus - a fundamental definition or term used in the legal system of the Republic of Belarus, explaining the legal principles, institutions, or norms applied in this country.] (* <- lang_en;; *);;
+      -> rrel_example: [паняцце з юрыспрудэнцыі Рэспублікі Беларусь — гэта асноватворнае вызначэнне або тэрмін, які выкарыстоўваецца ў прававой сістэме Рэспублікі Беларусь, тлумачачы прававыя прынцыпы, інстытуты або нормы, што прымяняюцца ў гэтай краіне.] (* <- lang_by;; *);;
+  *);;
+*);;
+
+nrel_related_concept
+	=> nrel_main_idtf: [связанное понятие] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [related concept] (* <- lang_en;; *);
+	=> nrel_main_idtf: [звязанае паняцце] (* <- lang_by;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: [cвязанное понятие — это термин или определение, которое имеет общие черты, пересекается или взаимодействует с другими понятиями или статьями в рамках определенной области знаний или дисциплины.] (* <- lang_ru;; *);;
+			-> rrel_example: [related concept - a term or definition that shares, overlaps, or interacts with other concepts or entries within a particular field of knowledge or discipline.] (* <- lang_en;; *);;
+			-> rrel_example: [звязанае паняцце - гэта тэрмін або вызначэнне, якое мае агульныя рысы, перасякаецца або ўзаемадзейнічае з іншымі паняццямі або артыкуламі ў рамках пэўнай вобласці ведаў або дысцыпліны.] (* <- lang_by;; *);;
+		*);;
+		*);
+	<- sc_node_norole_relation;
+	<- binary_relation;
+	<- oriented_relation;
+	<- asymmetric_relation;
+	<- antitransitive_relation;;
+
+nrel_related_concepts
+	=> nrel_main_idtf: [связанное понятие] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [related concept] (* <- lang_en;; *);
+	=> nrel_main_idtf: [звязанае паняцце] (* <- lang_by;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: [cвязанное понятие — это термин или определение, которое имеет общие черты, пересекается или взаимодействует с другими понятиями или статьями в рамках определенной области знаний или дисциплины.] (* <- lang_ru;; *);;
+			-> rrel_example: [related concept - a term or definition that shares, overlaps, or interacts with other concepts or entries within a particular field of knowledge or discipline.] (* <- lang_en;; *);;
+			-> rrel_example: [звязанае паняцце - гэта тэрмін або вызначэнне, якое мае агульныя рысы, перасякаецца або ўзаемадзейнічае з іншымі паняццямі або артыкуламі ў рамках пэўнай вобласці ведаў або дысцыпліны.] (* <- lang_by;; *);;
+		*);;
+		*);
+	<- sc_node_norole_relation;
+	<- binary_relation;
+	<- oriented_relation;
+	<- asymmetric_relation;
+	<- antitransitive_relation;;

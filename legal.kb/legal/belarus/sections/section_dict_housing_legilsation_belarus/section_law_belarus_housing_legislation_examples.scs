@@ -1,0 +1,457 @@
+ concept_living_space_belarus
+	-> rrel_example:
+
+		concept_penthouse_living_space(*
+			=> nrel_main_idtf: [пентхаус] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [penthouse] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [пентхаус] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Пентхаус - это многокомнатная квартира на верхних этажах дома, выходящая на плоскую крышу] (* <- lang_ru;; *);;
+						-> rrel_example: [A penthouse is a multi-room apartment on the upper floors of a building, overlooking a flat roof] (* <- lang_en;; *);;
+						-> rrel_example: [Пентхаус - гэта шматпакаёвая кватэра на верхніх паверхах дома, якая выходзіць на плоскі дах.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+
+concept_auxiliary_premises_belarus
+	-> rrel_example:
+
+		concept_the_vestibule_auxiliary_premises_belarus(*
+			=> nrel_main_idtf: [вестибюль] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [the vestibule] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [вестыбюль] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Вестибюль - это большое помещение перед входом во внутренние части какого-нибудь, преимущественно общественного  здания.] (* <- lang_ru;; *);;
+						-> rrel_example: [The vestibule is a large room at the entrance to the internal parts of a building, mainly a public one.] (* <- lang_en;; *);;
+						-> rrel_example: [Вестыбюль - гэта вялікае памяшканне перад уваходам ва ўнутраныя часткі якога-небудзь, пераважна грамадскага будынка.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_a_corridor_auxiliary_premises_belarus(*
+			=> nrel_main_idtf: [коридор] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [a corridor] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [калідор] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Коридор - это проход, соединяющий отдельные части квартиры, здания.] (* <- lang_ru;; *);;
+						-> rrel_example: [A corridor is a passage connecting individual parts of an apartment or building.] (* <- lang_en;; *);;
+						-> rrel_example: [Калідор - гэта праход, які злучае асобныя часткі кватэры, будынкі.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_a_gallery_auxiliary_premises_belarus(*
+			=> nrel_main_idtf: [галерея] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [a gallery] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [галерэя] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Галерея - это узкое крытое помещение, соединяющее части здания, а также длинный балкон вдоль здания.] (* <- lang_ru;; *);;
+						-> rrel_example: [A gallery is a narrow covered space connecting parts of a building, as well as a long balcony along the building.] (* <- lang_en;; *);;
+						-> rrel_example: [Галерэя - гэта вузкае крытае памяшканне, якое злучае часткі будынка, а таксама доўгі балкон уздоўж будынка.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+concept_close_relatives_belarus
+	-> rrel_example:
+
+		concept_grandfather_close_relatives_belarus(*
+			=> nrel_main_idtf: [дед] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [grandfather] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [дзед] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [дед - это отец отца или матери.] (* <- lang_ru;; *);;
+						-> rrel_example: [grandfather is the father of the father or mother.] (* <- lang_en;; *);;
+						-> rrel_example: [дзед - гэта бацька бацькі ці маці.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_grandmother_close_relatives_belarus(*
+			=> nrel_main_idtf: [бабка] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [grandmother] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [бабка] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [бабка - это мать отца или матери.] (* <- lang_ru;; *);;
+						-> rrel_example: [grandmother is the mother of the father or mother.] (* <- lang_en;; *);;
+						-> rrel_example: [бабка - гэта маці бацькі ці маці.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_a_grandson_close_relatives_belarus(*
+			=> nrel_main_idtf: [внук] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [a grandson] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [унук] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [внук - это сын сына или дочери.] (* <- lang_ru;; *);;
+						-> rrel_example: [a grandson is the son of a son or daughter.] (* <- lang_en;; *);;
+						-> rrel_example: [унук - гэта сын сына ці дачкі.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_a_granddaughter_close_relatives_belarus(*
+			=> nrel_main_idtf: [внучка] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [a granddaughter] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [унучка] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [внучка - это дочка сына или дочери.] (* <- lang_ru;; *);;
+						-> rrel_example: [a granddaughter is the daughter of a son or daughter.] (* <- lang_en;; *);;
+						-> rrel_example: [унучка - гэта дачка сына ці дачкі.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+ concept_utilities_belarus
+	-> rrel_example:
+
+		concept_hot_water_supply_utilities_belarus(*
+			=> nrel_main_idtf: [горячее водоснабжение] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [hot water supply] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [гарачае водазабеспячэнне] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Горячее водоснабжение – это система, которая обеспечивает подачу горячей воды в жилые и коммерческие помещения для бытовых и санитарных нужд, таких как мытье, приготовление пищи и уборка. Вода нагревается либо в центральных тепловых пунктах, либо локально в бойлерах.] (* <- lang_ru;; *);;
+						-> rrel_example: [Hot water supply is a system that supplies hot water to residential and commercial premises for domestic and sanitary purposes such as washing, cooking and cleaning. Water is heated either in central heating points or locally in boilers.] (* <- lang_en;; *);;
+						-> rrel_example: [Гарачае водазабеспячэнне - гэта сістэма, якая забяспечвае падачу гарачай вады ў жылыя і камерцыйныя памяшканні для бытавых і санітарных патрэб, такіх як мыццё, прыгатаванне ежы і ўборка. Вада награваецца альбо ў цэнтральных цеплавых пунктах, альбо лакальна ў бойлерах.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_cold_water_supply_utilities_belarus(*
+			=> nrel_main_idtf: [холодное водоснабжение] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [cold water supply] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [халоднае водазабеспячэнне] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Холодное водоснабжение – это система, обеспечивающая подачу холодной воды, используемой для питья, приготовления пищи, санитарных нужд, а также для различных технических целей.] (* <- lang_ru;; *);;
+						-> rrel_example: [Cold water supply is a system that supplies cold water used for drinking, cooking, sanitary needs, as well as for various technical purposes.] (* <- lang_en;; *);;
+						-> rrel_example: [Халоднае водазабеспячэнне - гэта сістэма, якая забяспечвае падачу халоднай вады, якая выкарыстоўваецца для пітва, прыгатавання ежы, санітарных патрэб, а таксама для розных тэхнічных мэт.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_sewerage_utilities_belarus(*
+			=> nrel_main_idtf: [канализация] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [sewerage] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [каналізацыя] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Канализация – это система трубопроводов, сооружений и оборудования, предназначенная для сбора, транспортировки и очистки сточных вод, образующихся в результате бытовой, производственной и ливневой деятельности. Водоотведение включает удаление сточных вод из зданий и их последующую очистку и утилизацию.] (* <- lang_ru;; *);;
+						-> rrel_example: [Sewerage is a system of pipelines, structures and equipment designed to collect, transport and treat wastewater generated as a result of domestic, industrial and stormwater activities. Wastewater disposal involves the removal of wastewater from buildings and its subsequent treatment and disposal.] (* <- lang_en;; *);;
+						-> rrel_example: [Каналізацыя - гэта сістэма трубаправодаў, збудаванняў і абсталявання, прызначаная для збору, транспарціроўкі і ачысткі сцёкавых вод, якія ўтвараюцца ў выніку бытавой, вытворчай і ліўневай дзейнасці. Водаадвядзенне ўключае выдаленне сцёкавых вод з будынкаў і іх наступную ачыстку і ўтылізацыю.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_gas_supply_utilities_belarus(*
+			=> nrel_main_idtf: [газоснабжение] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [gas supply] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [газазабеспячэнне] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Газоснабжение – система, обеспечивающая подачу природного или сжиженного углеводородного газа для бытовых, промышленных и коммерческих нужд, таких как отопление, приготовление пищи и работа различных газовых приборов.] (* <- lang_ru;; *);;
+						-> rrel_example: [Gas supply is a system that provides the supply of natural or liquefied petroleum gas for domestic, industrial and commercial needs, such as heating, cooking and the operation of various gas appliances.] (* <- lang_en;; *);;
+						-> rrel_example: [Газазабеспячэнне - сістэма, якая забяспечвае падачу прыроднага або звадкаванага вуглевадароднага газу для бытавых, прамысловых і камерцыйных патрэб, такіх як ацяпленне, прыгатаванне ежы і праца розных газавых прыбораў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_power_supply_utilities_belarus(*
+			=> nrel_main_idtf: [электроснабжение] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [power supply] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [электразабеспячэнне] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Электроснабжение – система, обеспечивающая подачу электроэнергии для освещения, работы бытовых и промышленных электроприборов, оборудования и прочих нужд. Электроснабжение может быть централизованным (от электростанций) или автономным (генераторы, солнечные панели).] (* <- lang_ru;; *);;
+						-> rrel_example: [Power supply is a system that provides electricity for lighting, operation of household and industrial electrical appliances, equipment and other needs. Electricity supply can be centralized (from power plants) or autonomous (generators, solar panels).] (* <- lang_en;; *);;
+						-> rrel_example: [Электразабеспячэнне - сістэма, якая забяспечвае падачу электраэнергіі для асвятлення, працы бытавых і прамысловых электрапрыбораў, абсталявання і іншых патрэб. Электразабеспячэнне можа быць цэнтралізаваным (ад электрастанцый) або аўтаномным (генератары, сонечныя панэлі).] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_heat_supply_utilities_belarus(*
+			=> nrel_main_idtf: [теплоснабжение] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [heat supply] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [цеплазабеспячэнне] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Теплоснабжение – система, обеспечивающая подачу тепловой энергии для отопления помещений и горячего водоснабжения. Источником тепла могут быть котельные, тепловые электростанции или тепловые насосы.] (* <- lang_ru;; *);;
+						-> rrel_example: [Heat supply is a system that supplies thermal energy for space heating and hot water supply. The heat source can be boiler houses, thermal power plants or heat pumps.] (* <- lang_en;; *);;
+						-> rrel_example: [Цеплазабеспячэнне - сістэма, якая забяспечвае падачу цеплавой энергіі для ацяплення памяшканняў і гарачага водазабеспячэння. Крыніцай цяпла могуць быць кацельні, цеплавыя электрастанцыі ці цеплавыя помпы.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_supply_of_liquefied_petroleum_gas_from_cylinders_or_tanks_utilities_belarus(*
+			=> nrel_main_idtf: [снабжение сжиженным углеводородным газом от баллонов или резервуаров] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [supply of liquefied petroleum gas from cylinders or tanks] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [забеспячэнне звадкаваным вуглевадародным газам ад балонаў або рэзервуараў] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Снабжение сжиженным углеводородным газом от баллонов или резервуаров – система, обеспечивающая подачу сжиженного углеводородного газа (пропан-бутана) из индивидуальных баллонов или резервуаров, используемая в домах и на предприятиях, где нет центрального газоснабжения. Это может включать газовые плиты, отопительные котлы и другие газовые приборы.] (* <- lang_ru;; *);;
+						-> rrel_example: [Supply of liquefied petroleum gas from cylinders or tanks - a system that provides the supply of liquefied petroleum gas (propane-butane) from individual cylinders or tanks, used in homes and businesses where there is no central gas supply. This may include gas stoves, heating boilers and other gas appliances.] (* <- lang_en;; *);;
+						-> rrel_example: [Забеспячэнне звадкаваным вуглевадародным газам ад балонаў або рэзервуараў - сістэма, якая забяспечвае падачу звадкаванага вуглевадароднага газу (прапан-бутану) з індывідуальных балонаў або рэзервуараў, якая выкарыстоўваецца ў дамах і на прадпрыемствах, дзе няма цэнтральнага газазабеспячэння. Гэта можа ўключаць газавыя пліты, ацяпляльныя катлы і іншыя газавыя прыборы.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_municipal_solid_waste_management_utilities_belarus(*
+			=> nrel_main_idtf: [обращение с твердыми коммунальными отходами] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [municipal solid waste management] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [зварот з цвёрдымі камунальнымі адходамі] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Обращение с твердыми коммунальными отходами – система сбора, транспортировки, утилизации и переработки бытовых отходов, образующихся в результате жизнедеятельности людей. Это включает вывоз мусора, его сортировку, переработку и безопасную утилизацию.] (* <- lang_ru;; *);;
+						-> rrel_example: [Municipal solid waste management is a system for collecting, transporting, recycling and processing household waste generated as a result of human activity. This includes waste removal, sorting, recycling and safe disposal.] (* <- lang_en;; *);;
+						-> rrel_example: [Зварот з цвёрдымі камунальнымі адходамі - сістэма збору, транспарціроўкі, утылізацыі і перапрацоўкі бытавых адходаў, якія ўтвараюцца ў выніку жыццядзейнасці людзей. Гэта ўключае вываз смецця, яго сартаванне, перапрацоўку і бяспечную ўтылізацыю.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+ concept_structural_elements_belarus
+	-> rrel_example:
+
+		concept_foundations_structural_elements_belarus(*
+			=> nrel_main_idtf: [фундаменты] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [foundations] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [падмуркі] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Фундаменты – это подземные конструкции, на которых основывается здание. Они переносят нагрузку от здания на грунт и обеспечивают его устойчивость. Фундаменты могут быть ленточными, столбчатыми, плитными и свайными.] (* <- lang_ru;; *);;
+						-> rrel_example: [Foundations are underground structures that support a building. They transfer the load from the building to the ground and ensure its stability. Foundations can be strip, columnar, slab or field.] (* <- lang_en;; *);;
+						-> rrel_example: [Падмуркі - гэта падземныя канструкцыі, на якіх грунтуецца будынак. Яны пераносяць нагрузку ад будынка на грунт і забяспечваюць яго ўстойлівасць. Падмуркі могуць быць істужачнымі, столбчатыми, плітнымі і палевых.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_walls_structural_elements_belarus(*
+			=> nrel_main_idtf: [стены] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [walls] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [сцены] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Стены – вертикальные конструкции, ограждающие и разделяющие помещения, а также несущие нагрузки от перекрытий и крыши. Стены бывают несущими, самонесущими и ненесущими. Материалы для стен могут включать кирпич, бетон, дерево, гипсокартон и другие.] (* <- lang_ru;; *);;
+						-> rrel_example: [Walls are vertical structures that enclose and separate rooms, and also carry loads from floors and roofs. Walls can be load-bearing, self-supporting and non-load-bearing. Wall materials can include brick, concrete, wood, drywall and others.] (* <- lang_en;; *);;
+						-> rrel_example: [Сцены - вертыкальныя канструкцыі, якія агароджваюць і падзяляюць памяшканні, а таксама апорныя нагрузкі ад перакрыццяў і дахі. Сцены бываюць апорнымі, саманясучай і неапорнымі. Матэрыялы для сцен могуць уключаць цэглу, бетон, дрэва, гіпсакардон і іншыя.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_interfloor_ceilings_structural_elements_belarus(*
+			=> nrel_main_idtf: [междуэтажные перекрытия] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [interfloor ceilings] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [міжпавярховыя перакрыцці] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Междуэтажные перекрытия – горизонтальные конструкции, разделяющие этажи здания. Они передают нагрузки от верхних этажей на стены и фундаменты. Перекрытия могут быть выполнены из железобетона, дерева, металла и комбинированных материалов.] (* <- lang_ru;; *);;
+						-> rrel_example: [Interfloor ceilings are horizontal structures separating the floors of a building. They transfer loads from the upper floors to the walls and foundation. Ceilings can be made of reinforced concrete, wood, metal and combined materials.] (* <- lang_en;; *);;
+						-> rrel_example: [Міжпавярховыя перакрыцці - гарызантальныя канструкцыі, якія падзяляюць паверхі будынка. Яны перадаюць нагрузкі ад верхніх паверхаў на сцены і падмуркі. Перакрыцці могуць быць выкананы з жалезабетону, дрэва, металу і камбінаваных матэрыялаў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_roofs_structural_elements_belarus(*
+			=> nrel_main_idtf: [крыши] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [roofs] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [дахі] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Крыши – верхние конструкции зданий, защищающие внутренние помещения от погодных воздействий. Крыши состоят из стропильной системы, кровельного покрытия и утеплителя. Виды крыш включают скатные, плоские и мансардные.] (* <- lang_ru;; *);;
+						-> rrel_example: [Roofs are the upper structures of buildings that protect the interior from the weather. The roof consists of a rafter system, roofing and insulation. Roof types include pitched, flat and mansard.] (* <- lang_en;; *);;
+						-> rrel_example: [Дахі - верхнія канструкцыі будынкаў, якія абараняюць унутраныя памяшканні ад пагодных уздзеянняў. Дахі складаюцца з кроквеннай сістэмы, дахавага пакрыцця і ўцяпляльніка. Выгляды дахаў уключаюць скатныя, плоскія і мансардныя.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_windows_structural_elements_belarus(*
+			=> nrel_main_idtf: [окна] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [windows] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [вокны] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Окна – проемы в стенах здания, оборудованные стеклянными конструкциями, обеспечивающие освещение, вентиляцию и видимость. Окна состоят из рамы, стеклопакетов и фурнитуры.] (* <- lang_ru;; *);;
+						-> rrel_example: [Windows are openings in the walls of a building equipped with glass structures that provide lighting, ventilation and visibility. Windows consist of a frame, double-glazed windows and fittings.] (* <- lang_en;; *);;
+						-> rrel_example: [Вокны - праёмы ў сценах будынка, абсталяваныя шклянымі канструкцыямі, якія забяспечваюць асвятленне, вентыляцыю і бачнасць. Вокны складаюцца з рамы, шклопакетаў і фурнітуры.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_doors_structural_elements_belarus(*
+			=> nrel_main_idtf: [двери] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [doors] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [дзверы] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Двери – конструкции, установленные в проемах стен, предназначенные для входа и выхода, а также для разделения помещений. Двери состоят из дверного полотна, коробки и фурнитуры (замки, петли и т. д.).] (* <- lang_ru;; *);;
+						-> rrel_example: [Doors are structures installed in wall openings intended for entry and exit, as well as for separating rooms. A door consists of a door leaf, frame and fittings (locks, hinges, etc.).] (* <- lang_en;; *);;
+						-> rrel_example: [Дзверы - канструкцыі, усталяваныя ў праёмах сцен, прызначаныя для ўваходу і вынахаду, а таксама для падзелу памяшканняў. Дзверы складаюцца з дзвярнога палатна, скрынкі і фурнітуры (замкі, завесы і т. д.).] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_stoves_structural_elements_belarus(*
+			=> nrel_main_idtf: [печи] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [stoves] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [печы] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Печи – устройства для отопления помещений и приготовления пищи. Печи могут быть дровяными, угольными, газовыми или электрическими и устанавливаются внутри помещений.] (* <- lang_ru;; *);;
+						-> rrel_example: [Stoves are devices for heating rooms and cooking food. Stoves can be wood, coal, gas or electric and are installed indoors.] (* <- lang_en;; *);;
+						-> rrel_example: [Печы - прылады для апалу памяшканняў і падрыхтоўкі ежы. Печы могуць быць дроўнымі, вугальнымі, газавымі ці электрычнымі і ўсталёўваюцца ўсярэдзіне памяшканняў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_balconies_structural_elements_belarus(*
+			=> nrel_main_idtf: [балконы] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [balconies] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [гаўбцы] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Балконы – выступающие из стены здания площадки, огражденные перилами, используемые для отдыха и других нужд. Балконные ограждения – это конструкции, обеспечивающие безопасность, предотвращая падение с балкона.] (* <- lang_ru;; *);;
+						-> rrel_example: [Balconies are protrusions from the wall of a site building, surrounded by railings, which are used for relaxation and other needs. Balcony railings are structures that provide safety and prevent falls from the balcony.] (* <- lang_en;; *);;
+						-> rrel_example: [Гаўбцы - выступоўцы са сцяны будынка пляцоўкі, агароджаныя парэнчамі, якія выкарыстоўваюцца для адпачынку і іншых патрэб. Гаўбечныя агароджы - гэта канструкцыі, якія забяспечваюць бяспеку, прадухіляючы падзенне з гаўбца.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_loggias_structural_elements_belarus(*
+			=> nrel_main_idtf: [лоджии] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [loggias] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [лоджыі] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Лоджии – углубленные в стену здания балконы, с одной или нескольких сторон закрытые стенами. Лоджии часто застекляются для использования в качестве дополнительного помещения.] (* <- lang_ru;; *);;
+						-> rrel_example: [Loggias are balconies recessed into the wall of a building, covered with walls on one or more sides. Loggias are often glazed for use as an additional room.] (* <- lang_en;; *);;
+						-> rrel_example: [Лоджыі - паглыбленыя ў сцяну будынка гаўбцы, з аднаго або некалькіх бакоў зачыненыя сценамі. Лоджыі часта зашкляюцца для выкарыстання ў якасці дадатковага памяшкання.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_abutments_structural_elements_belarus(*
+			=> nrel_main_idtf: [отмостки] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [abutments] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [отмосткі] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Отмостки – горизонтальные или слегка наклонные полосы, обустроенные вокруг фундамента здания. Они предназначены для отвода дождевой и талой воды от стен и фундамента, предотвращая их разрушение и обеспечивая долговечность здания. Отмостки выполняются из асфальта, бетона, плитки и других материалов.] (* <- lang_ru;; *);;
+						-> rrel_example: [Abutments are horizontal or slightly inclined strips placed around the foundation of a building. They are designed to drain rain and melt water from walls and foundations, preventing their destruction and ensuring the durability of the building. Sidewalks are made of asphalt, concrete, tiles and other materials.] (* <- lang_en;; *);;
+						-> rrel_example: [Отмосткі - гарызантальныя або злёгку нахільныя палосы, уладкаваныя вакол падмурка будынка. Яны прызначаны для адводу дажджавой і адталай вады ад сцен і падмурка, прадухіляючы іх разбурэнне і забяспечваючы даўгавечнасць будынка. Отмостки выконваюцца з асфальта, бетону, пліткі і іншых матэрыялаў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;

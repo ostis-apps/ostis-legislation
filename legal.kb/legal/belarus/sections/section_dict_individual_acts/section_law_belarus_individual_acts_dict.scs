@@ -1,4 +1,636 @@
 section_law_belarus_individual_acts_dict
 => nrel_main_idtf: [Раздел. Словарь по правовым актам индивидуального применения и разового характера Республики Беларусь] (* <- lang_ru;; *);
 => nrel_main_idtf: [Section. Dictionary of legal acts of individual application and one-time nature of the Republic of Belarus] (* <- lang_en;; *);
-=> nrel_main_idtf: [Раздзел. Слоўнік па прававых актах індывідуальнага прымянення і разавага характару Рэспублікі Беларусь] (* <- lang_by;; *);;
+=> nrel_main_idtf: [Раздзел. Слоўнік па прававых актах індывідуальнага прымянення і разавага характару Рэспублікі Беларусь] (* <- lang_by;; *);
+
+
+-> rrel_key_sc_element:
+    concept_act_belarus(*
+      => nrel_main_idtf: [акт] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [act] (* <- lang_en;; *);;
+      => nrel_main_idtf: [акт] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [акт - документ, составленный несколькими лицами и подтверждающий установленные факты или события.] (* <- lang_ru;; *);;
+            -> rrel_example: [act is a document drawn up by several persons and confirming established facts or events.] (* <- lang_en;; *);;
+            -> rrel_example: [акт - дакумент, складзены некалькімі асобамі і які пацвярджае ўсталяваныя факты ці падзеі.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+
+concept_admin_act_belarus(*
+      => nrel_main_idtf: [административный акт] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [administrative act] (* <- lang_en;; *);;
+      => nrel_main_idtf: [адміністратыўны акт] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Административный акт — это правовой акт, принимаемый субъектами публичного управления, по итогам административной процедуры, порождающий правовые последствия для определенного лица, индивидуально определенного круга лиц или неопределенного круга лиц.] (* <- lang_ru;; *);;
+            -> rrel_example: [An administrative act is a legal act adopted by subjects of public administration, based on the results of an administrative procedure, giving rise to legal consequences for a certain person, an individually defined circle of persons or an indefinite circle of persons.] (* <- lang_en;; *);;
+            -> rrel_example: [Адміністрацыйны акт - гэта прававы акт, які прымаецца суб'ектамі публічнага кіравання, па выніках адміністрацыйнай працэдуры, які спараджае прававыя наступствы для пэўнай асобы, індывідуальна вызначанага круга асоб або нявызначанага круга асоб.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_debt_for_fuel(*
+=> nrel_main_idtf: [задолженность за топливно-энергетичные ресурсы] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [debt for fuel and energy resources] (* <- lang_en;; *);;
+      => nrel_main_idtf: [запазычанасць за паліўна-энергетычныя рэсурсы] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [задолженность за топливно-энергетические ресурсы – сумма не уплаченных в установленный срок платежей за потребленные природный газ, электрическую и тепловую энергию перед РПУП.] (* <- lang_ru;; *);;
+            -> rrel_example: [debt for fuel and energy resources - the amount of unpaid payments for consumed natural gas, electric and thermal energy to Republican Unitary Enterprise not paid on time] (* <- lang_en;; *);;
+            -> rrel_example: [запазычанасць за паліўна-энергетычныя рэсурсы - сума не выплачаных ва ўстаноўлены тэрмін плацяжоў за спажытыя прыродны газ, электрычную і цеплавую энергію перад РВУП.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+concept_electrical_energy(*
+=> nrel_main_idtf: [электрическая энергия] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [electrical energy] (* <- lang_en;; *);;
+      => nrel_main_idtf: [электрычная энэргiя] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Электрическая энергия - особого вида товар, характеризующийся одновременностью его производства и потребления и требующий постоянного и непрерывного поддержания его параметров в заданных пределах.] (* <- lang_ru;; *);;
+            -> rrel_example: [Electrical energy is a special type of product, characterized by the simultaneity of its production and consumption and requiring constant and continuous maintenance of its parameters within specified limits.] (* <- lang_en;; *);;
+            -> rrel_example: [Электрычная энергія - асаблівага віду тавар, які характарызуецца адначасовасцю яго вытворчасці і спажывання і патрабуе пастаяннага і бесперапыннага падтрымання яго параметраў у зададзеных межах.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_gas(*
+=> nrel_main_idtf: [газ] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [gas] (* <- lang_en;; *);;
+      => nrel_main_idtf: [газ] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Газ – природный газ, нефтяной (попутный) газ, отбензиненный сухой газ, сжиженный нефтяной газ, добываемый и собираемый газонефтедобывающими организациями или вырабатываемый газонефтеперерабатывающими организациями.] (* <- lang_ru;; *);;
+            -> rrel_example: [Gas – natural gas, petroleum (associated) gas, stripped dry gas, liquefied petroleum gas produced and collected by gas and oil producing organizations or produced by gas and oil refining organizations.] (* <- lang_en;; *);;
+            -> rrel_example: [Газ - прыродны газ, нафтавы (спадарожны) газ, адбензінаваны сухі газ, звадкаваны нафтавы газ, які здабываецца і збіраецца газанафтаздабыўнымі арганізацыямі або выпрацоўваемы газанафтаперапрацоўчымі арганізацыямі.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+concept_care_for_fruit(*
+=> nrel_main_idtf: [уход за плодово-ягодными культурами] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [care for fruit and berry crops] (* <- lang_en;; *);;
+      => nrel_main_idtf: [догляд за пладова-ягаднымі культурамі] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [под уходом за плодово-ягодными культурами понимается приобретение ограждений (столбы, сетка, ворота, проволока), биологических и химических средств защиты растений, минеральных удобрений и микроудобрений, шпалер, кольев, садовой краски, садового инвентаря, других материалов, используемых для осуществления непрерывного технологического процесса в текущем и последующих годах в соответствии с организационно-технологическими нормативами возделывания овощных, плодовых, ягодных культур и выращивания посадочного материала.] (* <- lang_ru;; *);;
+            -> rrel_example: [caring for fruit and berry crops means purchasing fences (poles, mesh, gates, wire), biological and chemical plant protection products, mineral fertilizers and microfertilizers, trellises, stakes, garden paint, garden tools, and other materials used for continuous technological process in the current and subsequent years in accordance with the organizational and technological standards for the cultivation of vegetable, fruit, berry crops and the cultivation of planting material.] (* <- lang_en;; *);;
+            -> rrel_example: [пад доглядам пладова-ягадных культур разумеецца набыццё агародж (слупы, сетка, вароты, дрот), біялагічных і хімічных сродкаў аховы раслін, мінеральных угнаенняў і мікраўгнаенняў, шпалер, калоў, садовай фарбы, садовага інвентара, іншых матэрыялаў, якія выкарыстоўваюцца для ажыццяўлення бесперапыннага тэхналагічнага. працэсу ў бягучым і наступных гадах у адпаведнасці з арганізацыйна-тэхналагічнымі нарматывамі апрацоўкі агароднінных, пладовых, ягадных культур і вырошчвання пасадачнага матэрыялу.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_plant(*
+=> nrel_main_idtf: [растениеводство] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [crop production] (* <- lang_en;; *);;
+      => nrel_main_idtf: [раслiнаводства] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Растениеводство — отрасль сельского хозяйства, занимающаяся возделыванием культурных растений, а также раздел агрономии.] (* <- lang_ru;; *);;
+            -> rrel_example: [Plant growing is a branch of agriculture dealing with the cultivation of cultivated plants, as well as a branch of agronomy.] (* <- lang_en;; *);;
+            -> rrel_example: [Раслінаводства - галіна сельскай гаспадаркі, якая займаецца апрацоўкай культурных раслін, а таксама раздзел аграноміі.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_forest(*
+=> nrel_main_idtf: [лес] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [forest] (* <- lang_en;; *);;
+      => nrel_main_idtf: [лес] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Лес – совокупность древесно-кустарниковой растительности, живого напочвенного покрова, диких животных и микроорганизмов, образующая природный комплекс.] (* <- lang_ru;; *);;
+            -> rrel_example: [Forest is a collection of trees and shrubs, living ground cover, wild animals and microorganisms, forming a natural complex.] (* <- lang_en;; *);;
+            -> rrel_example: [Лес - сукупнасць драўняна-хмызняковай расліннасці, жывога надглебавага покрыва, дзікіх жывёл і мікраарганізмаў, якая ўтварае прыродны комплекс.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_payment(*
+=> nrel_main_idtf: [платеж] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [payment] (* <- lang_en;; *);;
+      => nrel_main_idtf: [плацеж] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Платеж – процесс исполнения инициатором платежа, поставщиком платежных услуг, получателем платежа денежных обязательств с использованием платежных инструментов и (или) средств платежа.] (* <- lang_ru;; *);;
+            -> rrel_example: [Payment is the process of fulfillment by the payment initiator, payment service provider, payment recipient of monetary obligations using payment instruments and (or) means of payment.] (* <- lang_en;; *);;
+            -> rrel_example: [Плацёж - працэс выканання ініцыятарам плацяжу, пастаўшчыком плацежных паслуг, атрымальнікам плацяжу грашовых абавязацельстваў з выкарыстаннем плацежных інструментаў і (або) сродкаў плацяжу.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+concept_debt(*
+=> nrel_main_idtf: [задолженность] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [debts] (* <- lang_en;; *);;
+      => nrel_main_idtf: [запазычанасць] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Задолженность – подлежащая уплате субъектом кредитной истории сумма денежных обязательств, предусмотренных кредитной сделкой.] (* <- lang_ru;; *);;
+            -> rrel_example: [Debt is the amount of monetary obligations stipulated by the credit transaction subject to payment by the subject of credit history.] (* <- lang_en;; *);;
+            -> rrel_example: [Запазычанасць - сума грашовых абавязацельстваў, што падлягае выплаце суб'ектам крэдытнай гісторыі, прадугледжаных крэдытнай здзелкай.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+concept_capital(*
+=> nrel_main_idtf: [капитал] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [capital] (* <- lang_en;; *);;
+      => nrel_main_idtf: [капiтал] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Капитал — стоимость, используемая для получения прибыли посредством производственной и экономической деятельности, основанной на добровольном обмене.] (* <- lang_ru;; *);;
+            -> rrel_example: [Capital is value used to generate profit through production and economic activity based on voluntary exchange.] (* <- lang_en;; *);;
+            -> rrel_example: [Капітал — кошт, які выкарыстоўваецца для атрымання прыбытку з дапамогай вытворчай і эканамічнай дзейнасці, заснаванай на добраахвотным абмене.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+concept_fund_capital(*
+=> nrel_main_idtf: [инвестированный капитал] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [investment capital] (* <- lang_en;; *);;
+      => nrel_main_idtf: [iнвеставаны капiтал] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Инвестированный капитал - это сумма всего долгосрочного капитала предприятия, отражаемая в балансе.] (* <- lang_ru;; *);;
+            -> rrel_example: [Invested capital is the sum of a business's total long-term capital as shown on the balance sheet.] (* <- lang_en;; *);;
+            -> rrel_example: [Інвеставаны капітал - гэта сума ўсяго доўгатэрміновага капіталу прадпрыемства, якая адлюстроўваецца ў балансе.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);    
+    
+    
+concept_build_project(*
+=> nrel_main_idtf: [строительный проект] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [construction project] (* <- lang_en;; *);;
+      => nrel_main_idtf: [будаўнiчы праект] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Строительный проект – проектная документация, обеспечивающая реализацию решений утвержденного архитектурного проекта и (или) технических решений по объекту, необходимых для выполнения строительно-монтажных, пусконаладочных работ, обеспечения строительства оборудованием, изделиями и материалами.] (* <- lang_ru;; *);;
+            -> rrel_example: [Construction project - design documentation that ensures the implementation of the approved architectural design and (or) technical solutions for the facility, necessary to carry out construction, installation, commissioning work, and provide construction with equipment, products and materials.] (* <- lang_en;; *);;
+            -> rrel_example: [Будаўнічы праект - праектная дакументацыя, якая забяспечвае рэалізацыю рашэнняў зацверджанага архітэктурнага праекта і (або) тэхнічных рашэнняў па аб'екце, неабходных для выканання будаўніча-мантажных, пусканаладачных работ, забеспячэння будаўніцтва абсталяваннем, вырабамі і матэрыяламі.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);    
+
+    
+
+concept_current_payments(*
+=> nrel_main_idtf: [текущие платежи] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [current payments] (* <- lang_en;; *);;
+      => nrel_main_idtf: [бягучыя плацяжы] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [под текущими платежами понимаются налоги и иные обязательные платежи в республиканский и местные бюджеты, осуществляемые республиканским унитарным предприятием в период действия отсрочки и рассрочки, предоставленных в соответствии с настоящим Указом.] (* <- lang_ru;; *);;
+            -> rrel_example: [current payments mean taxes and other obligatory payments to the republican and local budgets made by the republican unitary enterprise during the period of deferment and installment plans provided in accordance with this Decree.] (* <- lang_en;; *);;
+            -> rrel_example: [пад бягучымі плацяжамі разумеюцца падаткі і іншыя абавязковыя плацяжы ў рэспубліканскі і мясцовыя бюджэты, якія ажыццяўляюцца рэспубліканскім унітарным прадпрыемствам у перыяд дзеяння адтэрміноўкі і растэрміноўкі, прадастаўленых у адпаведнасці з гэтым Указам.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_dosaaf(*
+=> nrel_main_idtf: [Республиканское государственно-общественное объединение "Добровольное общество содействия армии, авиации и флоту Республики Беларусь"] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [The Republican State Public Association "Voluntary Society for Assistance to the Army, Aviation and Navy of the Republic of Belarus"] (* <- lang_en;; *);;
+      => nrel_main_idtf: [Рэспубліканскае дзяржаўна-грамадскае аб'яднанне "Добраахвотнае таварыства садзейнічання арміі, авіяцыі і флоту Рэспублікі Беларусь"] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Республиканское государственно-общественное объединение "Добровольное общество содействия армии, авиации и флоту Республики Беларусь" (далее – ДОСААФ) – некоммерческая организация, основанная на членстве юридических и физических лиц.] (* <- lang_ru;; *);;
+            -> rrel_example: [The Republican State Public Association "Voluntary Society for Assistance to the Army, Aviation and Navy of the Republic of Belarus" (hereinafter referred to as DOSAAF) is a non-profit organization based on the membership of legal entities and individuals.] (* <- lang_en;; *);;
+            -> rrel_example: [Рэспубліканскае дзяржаўна-грамадскае аб'яднанне "Добраахвотнае таварыства садзейнічання арміі, авіяцыі і флоту Рэспублікі Беларусь" (далей - ДТСААФ) - некамерцыйная арганізацыя, заснаваная на членстве юрыдычных і фізічных асоб.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_factory_begin_costs(*
+=> nrel_main_idtf: [нормативные оборотные средства для начала производства] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [standard working capital for starting production] (* <- lang_en;; *);;
+      => nrel_main_idtf: [нарматыўныя абаротныя сродкі для пачатку вытворчасці] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Под нормативными оборотными средствами для начала производства понимаются минимально необходимые оборотные средства юридического лица, обеспечивающие непрерывное и стабильное функционирование объектов, предусмотренных инвестиционным проектом.] (* <- lang_ru;; *);;
+            -> rrel_example: [Regulatory working capital for starting production refers to the minimum required working capital of a legal entity, ensuring the continuous and stable operation of the facilities provided for by the investment project.] (* <- lang_en;; *);;
+            -> rrel_example: [Пад нарматыўнымі абаротнымі сродкамі для пачатку вытворчасці разумеюцца мінімальна неабходныя абаротныя сродкі юрыдычнай асобы, якія забяспечваюць бесперапыннае і стабільнае функцыянаванне аб'ектаў, прадугледжаных інвестыцыйным праектам.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_capital_costs(*
+=> nrel_main_idtf: [затраты по оборотному капиталу юридического лица на стадии строительства] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [working capital costs of a legal entity at the construction stage] (* <- lang_en;; *);;
+      => nrel_main_idtf: [выдаткі па абаротным капітале юрыдычнай асобы на стадыі будаўніцтва] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [другие расходы, связанные с эксплуатацией, капитальным ремонтом, реконструкцией, модернизацией и сносом зданий, сооружений, передаточных устройств, входящих в состав имущественного комплекса, которые после строительства объектов, предусмотренных инвестиционным проектом, не будут включены в их стоимость.] (* <- lang_ru;; *);;
+            -> rrel_example: [other expenses associated with the operation, major repairs, reconstruction, modernization and demolition of buildings, structures, transmission devices that are part of the property complex, which after the construction of the objects provided for by the investment project will not be included in their cost.] (* <- lang_en;; *);;
+            -> rrel_example: [іншыя расходы, звязаныя з эксплуатацыяй, капітальным рамонтам, рэканструкцыяй, мадэрнізацыяй і зносам будынкаў, збудаванняў, перадаткавых устройстваў, якія ўваходзяць у склад маёмаснага комплексу, якія пасля будаўніцтва аб'ектаў, прадугледжаных інвестыцыйным праектам, не будуць уключаны ў іх кошт.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+
+
+concept_norm_belarus(*
+      => nrel_main_idtf: [норма] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [norm] (* <- lang_en;; *);;
+      => nrel_main_idtf: [норма] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [норма – это общеобязательное, установленное или санкционированное и охраняемое государством правило поведения, выражающее обусловленную материальными условиями жизни общества волю и интересы народа, активно воздействующее на общественные отношения в целях их упорядочения.] (* <- lang_ru;; *);;
+            -> rrel_example: [norm is a generally binding rule of behavior established or sanctioned and protected by the state, expressing the will and interests of the people determined by the material conditions of society, actively influencing social relations in order to streamline them.] (* <- lang_en;; *);;
+            -> rrel_example: [норма - гэта агульнаабавязковае, устаноўленае або санкцыянаванае і ахоўнае дзяржавай правіла паводзін, якое выказвае абумоўленую матэрыяльнымі ўмовамі жыцця грамадства волю і інтарэсы народа, якое актыўна ўздзейнічае на грамадскія адносіны ў мэтах іх упарадкавання.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+concept_applicant_individual_belarus(*
+      => nrel_main_idtf: [заявитель] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [applicant] (* <- lang_en;; *);;
+      => nrel_main_idtf: [заяўнік] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [заявитель - это всякое лицо, обратившееся в суд или орган уголовного преследования в порядке, установленном настоящим Кодексом, за защитой своего действительного или предполагаемого права либо сообщившее об известном ему готовящемся, совершаемом или совершенном общественно опасном деянии, предусмотренном уголовным законом.] (* <- lang_ru;; *);;
+            -> rrel_example: [an applicant is any person who has applied to a court or criminal prosecution body in the manner established by this Code for the protection of his actual or prospective right, or who has reported about an imminent, ongoing or committed socially dangerous act, as provided for by criminal law, known to him.] (* <- lang_en;; *);;
+            -> rrel_example: [заяўнік - гэта ўсякая асоба, якая звярнулася ў суд або орган крымінальнага пераследу ў парадку, устаноўленым гэтым Кодэксам, за абаронай свайго сапраўднага або меркаванага права або паведаміла аб вядомай яму падрыхтоўцы, учыненым або ўчыненым грамадска небяспечным дзеянні, прадугледжаным крымінальным законам.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+concept_court_belarus(*
+      => nrel_main_idtf: [суд] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [court] (* <- lang_en;; *);;
+      => nrel_main_idtf: [суд] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [суд — орган государственной власти, осуществляющий правосудие в форме рассмотрения и разрешения уголовных, гражданских, административных и иных категорий дел в установленном законом конкретного государства процессуальном порядке.] (* <- lang_ru;; *);;
+            -> rrel_example: [court is a government body that administers justice in the form of consideration and resolution of criminal, civil, administrative and other categories of cases in the procedural order established by the law of a particular state.] (* <- lang_en;; *);;
+            -> rrel_example: [суд - орган дзяржаўнай улады, які ажыццяўляе правасуддзе ў форме разгляду і дазволу крымінальных, грамадзянскіх, адміністрацыйных і іншых катэгорый спраў ва ўстаноўленым законам канкрэтнай дзяржавы працэсуальным парадку.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    concept_complaint_belarus(*
+      => nrel_main_idtf: [жалоба] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [complaint] (* <- lang_en;; *);;
+      => nrel_main_idtf: [скарга] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [жалоба - это требование о восстановлении прав, свобод и (или) законных интересов заявителя, нарушенных действиями (бездействием) организаций, граждан, в том числе индивидуальных предпринимателей.] (* <- lang_ru;; *);;
+            -> rrel_example: [complaint is a demand for the restoration of the rights, freedoms and (or) legitimate interests of the applicant violated by the actions (inaction) of organizations, citizens, including individual entrepreneurs.] (* <- lang_en;; *);;
+            -> rrel_example: [скарга - гэта патрабаванне аб аднаўленні правоў, свабод і (або) законных інтарэсаў заяўніка, парушаных дзеяннямі (бяздзеяннем) арганізацый, грамадзян, у тым ліку індывідуальных прадпрымальнікаў.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    
+    concept_official_belarus(*
+      => nrel_main_idtf: [должностное лицо] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [official] (* <- lang_en;; *);;
+      => nrel_main_idtf: [службовая асоба] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [должностное лицо - лицо, постоянно, временно или в соответствии со специальными полномочиями осуществляющее функции представителя власти.] (* <- lang_ru;; *);;
+            -> rrel_example: [official - a person who permanently, temporarily or in accordance with special powers exercises the functions of a representative of government.] (* <- lang_en;; *);;
+            -> rrel_example: [службовая асоба - асоба, якая пастаянна, часова або ў адпаведнасці са спецыяльнымі паўнамоцтвамі ажыццяўляе функцыі прадстаўніка ўлады.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    
+    concept_legal_entity_belarus(*
+      => nrel_main_idtf: [юридическое лицо] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [legal entity] (* <- lang_en;; *);;
+      => nrel_main_idtf: [юрыдычная асоба] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [юридическое лицо - это организация, которая имеет в собственности, хозяйственном ведении или оперативном управлении обособленное имущество, несет самостоятельную ответственность по своим обязательствам, может от своего имени приобретать и осуществлять имущественные и личные неимущественные права, исполнять обязанности, быть истцом и ответчиком в суде, прошедшая в установленном порядке государственную регистрацию в качестве юридического лица либо признанная таковым законодательным актом.] (* <- lang_ru;; *);;
+            -> rrel_example: [legal entity is an organization that has separate property in ownership, economic management or operational management, bears independent responsibility for its obligations, can, in its own name, acquire and exercise property and personal non-property rights, perform duties, be a plaintiff and defendant in court, passed in accordance with the established procedure, state registration as a legal entity or recognized as such by a legislative act.] (* <- lang_en;; *);;
+            -> rrel_example: [юрыдычная асоба - гэта арганізацыя, якая мае ва ўласнасці, гаспадарчым вядзенні або аператыўным кіраванні адасобленую маёмасць, нясе самастойную адказнасць па сваіх абавязацельствах, можа ад свайго імя набываць і ажыццяўляць маёмасныя і асабістыя немаёмасныя правы, выконваць абавязкі, быць істцом і адказчыкам у судзе, якая прайшла ва ўстаноўленым парадку дзяржаўную рэгістрацыю ў якасці юрыдычнай асобы або прызнаная такім заканадаўчым актам.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    concept_individual_entrepreneur_belarus(*
+      => nrel_main_idtf: [индивидуальный предприниматель] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [individual entrepreneur] (* <- lang_en;; *);;
+      => nrel_main_idtf: [індывідуальны прадпрымальнік] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [индивидуальный предприниматель – это лицо самостоятельно занимающееся предпринимательской деятельностью.] (* <- lang_ru;; *);;
+            -> rrel_example: [individual entrepreneur is a person independently engaged in entrepreneurial activity.] (* <- lang_en;; *);;
+            -> rrel_example: [індывідуальны прадпрымальнік - гэта асоба самастойна займаецца прадпрымальніцкай дзейнасцю.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    
+    concept_citizen_belarus(*
+      => nrel_main_idtf: [гражданин] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [citizen] (* <- lang_en;; *);;
+      => nrel_main_idtf: [грамадзянін] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [гражданин - лицо, принадлежащее к населению данного государства, пользующееся всеми правами и исполняющее все обязанности, установленные законами государства.] (* <- lang_ru;; *);;
+            -> rrel_example: [citizen - a person belonging to the population of a given state, enjoying all rights and performing all duties established by the laws of the state.] (* <- lang_en;; *);;
+            -> rrel_example: [грамадзянін - асоба, якая належыць да насельніцтва дадзенай дзяржавы, якая карыстаецца ўсімі правамі і выконвае ўсе абавязкі, устаноўленыя законамі дзяржавы.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    concept_prosecutor_belarus(*
+      => nrel_main_idtf: [прокурор] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [prosecutor] (* <- lang_en;; *);;
+      => nrel_main_idtf: [пракурор] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [прокурор - лицо, осуществляющее государственный надзор за точным исполнением законов.] (* <- lang_ru;; *);;
+            -> rrel_example: [prosecutor - a person exercising state supervision over the accurate implementation of laws.] (* <- lang_en;; *);;
+            -> rrel_example: [пракурор - асоба, якая ажыццяўляе дзяржаўны нагляд за дакладным выкананнем законаў.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    concept_judge_belarus(*
+      => nrel_main_idtf: [судья] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [judge] (* <- lang_en;; *);;
+      => nrel_main_idtf: [суддзя] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [Судья – лицо, назначенное (избранное) на должность судьи в установленном Конституцией Республики Беларусь, настоящим Кодексом и Законом Республики Беларусь от 7 февраля 2023 г. № 248-З "О Всебелорусском народном собрании" порядке для осуществления обязанностей судьи на профессиональной основе.] (* <- lang_ru;; *);;
+            -> rrel_example: [Judge is a person appointed (elected) to the position of a judge in the manner established by the Constitution of the Republic of Belarus, this Code and the Law of the Republic of Belarus dated February 7, 2023 No. 248-Z “On the All-Belarusian People’s Assembly” to perform the duties of a judge on a professional basis.] (* <- lang_en;; *);;
+            -> rrel_example: [Суддзя - асоба, прызначаная (абраная) на пасаду суддзі ва ўстаноўленым Канстытуцыяй Рэспублікі Беларусь, гэтым Кодэксам і Законам Рэспублікі Беларусь ад 7 лютага 2023 г. № 248-З "Аб Усебеларускім народным сходзе" парадку для ажыццяўлення абавязкаў суддзі на прафесійнай аснове.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    concept_non_normative_legal_act_belarus(*
+      => nrel_main_idtf: [ненормативный правовой акт] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [non-normative legal act] (* <- lang_en;; *);;
+      => nrel_main_idtf: [ненарматыўны прававы акт] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [ненормативный правовой акт - правовой акт регламентированной формы, изданный в установленном порядке уполномоченным лицом (органом), содержащий индивидуальные предписания, рассчитанные на однократное применение и адресованные конкретному лицу (лицам).] (* <- lang_ru;; *);;
+            -> rrel_example: [non-normative legal act - a legal act of a regulated form, issued in the prescribed manner by an authorized person (body), containing individual instructions, designed for one-time use and addressed to a specific person (persons).] (* <- lang_en;; *);;
+            -> rrel_example: [ненарматыўны прававы акт - прававы акт рэгламентаванай формы, выдадзены ва ўстаноўленым парадку ўпаўнаважанай асобай (органам), які змяшчае індывідуальныя прадпісанні, разлічаныя на аднаразовае прымяненне і адрасаваныя канкрэтнай асобе (асобам).] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    concept_official_document_belarus(*
+      => nrel_main_idtf: [официальный документ] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [official document] (* <- lang_en;; *);;
+      => nrel_main_idtf: [афіцыйны дакумент] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [официальный документ – документ, созданный организацией или должностным лицом и оформленный в установленном порядке.] (* <- lang_ru;; *);;
+            -> rrel_example: [official document – ​​a document created by an organization or official and executed in the prescribed manner.] (* <- lang_en;; *);;
+            -> rrel_example: [афіцыйны дакумент - дакумент, створаны арганізацыяй або службовай асобай і аформлены ва ўстаноўленым парадку.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    
+    concept_debt_to_pay_penalties_on_taxes_belarus(*
+      => nrel_main_idtf: [задолженность по уплате пеней по налогам] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [debt to pay penalties on taxes] (* <- lang_en;; *);;
+      => nrel_main_idtf: [запазычанасць па выплаце пеняў па падатках] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [задолженность по уплате пеней по налогам - сумма неуплаченных пеней, начисленных за несвоевременную уплату налогов, сборов и иных обязательных платежей, контроль за исчислением и уплатой которых возложен на налоговые органы.] (* <- lang_ru;; *);;
+            -> rrel_example: [arrears of tax penalties - the amount of unpaid penalties accrued for late payment of taxes, fees and other obligatory payments, control over the calculation and payment of which is entrusted to the tax authorities.] (* <- lang_en;; *);;
+            -> rrel_example: [запазычанасць па выплаце пеняў па падатках - сума нявыплачаных пеняў, налічаных за несвоечасовую выплату падаткаў, збораў і іншых абавязковых плацяжоў, кантроль за вылічэннем і выплатай якіх ускладзены на падатковыя органы.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);
+    
+    
+    concept_tax_debt_belarus(*
+      => nrel_main_idtf: [задолженность по налогам] (* <- lang_ru;; *);;
+      => nrel_main_idtf: [tax debt] (* <- lang_en;; *);;
+      => nrel_main_idtf: [запазычанасць па падатках] (* <- lang_by;; *);;
+      <- rrel_key_sc_element:
+      ...
+      (*
+        <- definition;;
+        <= nrel_sc_text_translation: ...
+          (*
+            -> rrel_example: [задолженность по налогам - обязательства по уплате налогов, сборов, контроль за исчислением и уплатой которых возложен на налоговые органы.] (* <- lang_ru;; *);;
+            -> rrel_example: [tax debt - obligations to pay taxes, fees, control over the calculation and payment of which is assigned to the tax authorities.] (* <- lang_en;; *);;
+            -> rrel_example: [запазычанасць па падатках - абавязацельствы па выплаце падаткаў, збораў, кантроль за вылічэннем і выплатай якіх ускладзены на падатковыя органы.] (* <- lang_by;; *);;
+        *);;
+      *);;
+      <- belarus_legal_term;;
+      <- sc_node_not_relation;;
+    *);;
+

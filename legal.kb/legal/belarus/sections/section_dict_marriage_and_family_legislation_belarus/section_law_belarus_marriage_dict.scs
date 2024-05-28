@@ -4,7 +4,6 @@ section_law_belarus_marriage_dict
 => nrel_main_idtf: [Раздзел. Слоўнік па заканадаўстве аб шлюбе і сям'і Рэспублікі Беларусь] (* <- lang_by;; *);
 
 -> rrel_key_sc_element:
-
   concept_marriage_belarus (*
     => nrel_main_idtf: [брак] (* <- lang_ru;; *);;
     => nrel_main_idtf: [marriage] (* <- lang_en;; *);;
@@ -29,7 +28,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
 
-      concept_near_relativity_belarus (*
+  concept_near_relativity_belarus (*
     => nrel_main_idtf: [близкое родство] (* <- lang_ru;; *);;
     => nrel_main_idtf: [immediate relationship] (* <- lang_en;; *);;
     => nrel_main_idtf: [блізкае сваяцтва] (* <- lang_by;; *);;
@@ -51,29 +50,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_marriage_belarus (*
-    => nrel_main_idtf: [брак] (* <- lang_ru;; *);;
-    => nrel_main_idtf: [marriage] (* <- lang_en;; *);;
-    => nrel_main_idtf: [шлюб] (* <- lang_by;; *);;
-
-    <- rrel_key_sc_element:
-			... 
-			(*
-				<- definition;;
-				<= nrel_sc_text_translation: ...
-					(*
-						-> rrel_example: [Брак – это добровольный союз женщины и мужчины, который заключается на условиях, предусмотренных настоящим Кодексом, направлен на создание семьи и порождает для сторон взаимные права и обязанности.] (* <- lang_ru;; *);;
-					*);;
-			*);;
-
-    <- concept_marriage;;
-    => nrel_legal_act: by_act_hk9900278;;
-
-    <- belarus_legal_term;;
-    <- sc_node_not_relation;;
-  *);
-  
-    concept_marriage_contract_belarus (*
+  concept_marriage_contract_belarus (*
     => nrel_main_idtf: [брачный договор] (* <- lang_ru;; *);;
     => nrel_main_idtf: [marriage contract] (* <- lang_en;; *);;
     => nrel_main_idtf: [шлюбны дагавор] (* <- lang_by;; *);;
@@ -95,7 +72,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_raising_belarus (*
+  concept_raising_belarus (*
     => nrel_main_idtf: [воспитание] (* <- lang_ru;; *);;
     => nrel_main_idtf: [upbringing] (* <- lang_en;; *);;
     => nrel_main_idtf: [выхаванне] (* <- lang_by;; *);;
@@ -116,8 +93,96 @@ section_law_belarus_marriage_dict
     <- belarus_legal_term;;
     <- sc_node_not_relation;;
   *);
-  
-    concept_property_rights_of_parents_belarus (*
+
+  concept_reproductive_technologies_belarus (*
+    => nrel_main_idtf: [вспомогательные репродуктивные технологии] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [assisted reproductive technologies] (* <- lang_en;; *);;
+    => nrel_main_idtf: [дапаможныя рэпрадуктыўныя тэхналогіі] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Вспомогательные репродуктивные технологии – методы оказания медицинской помощи, при которых отдельные или все этапы зачатия и (или) раннего развития эмбриона (эмбрионов) до переноса его (их) в матку осуществляются в лабораторных условиях.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_reproductive_technologies;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_genetic_mother_belarus (*
+    => nrel_main_idtf: [генетическая мать] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [genetic mother] (* <- lang_en;; *);;
+    => nrel_main_idtf: [генетычная маці] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Генетическая мать – женщина, с участием половой клетки которой образовался эмбрион и носителем генотипа которой является будущий ребенок.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_genetic_mother;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_germ_cell_donor_belarus (*
+    => nrel_main_idtf: [донор половых клеток] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [germ cell donor] (* <- lang_en;; *);;
+    => nrel_main_idtf: [донар палавых клетак] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Донор половых клеток – лицо, добровольно предоставляющее свои половые клетки.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_germ_cell_donor;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_germ_cell_donation_belarus (*
+    => nrel_main_idtf: [донорство половых клеток] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [germ cell donation] (* <- lang_en;; *);;
+    => nrel_main_idtf: [донарства палавых клетак] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Донорство половых клеток – добровольное предоставление донором своих половых клеток.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_germ_cell_donation;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_property_rights_of_parents_belarus (*
     => nrel_main_idtf: [имущественные права и обязанности родителей] (* <- lang_ru;; *);;
     => nrel_main_idtf: [property rights and duties of parents] (* <- lang_en;; *);;
     => nrel_main_idtf: [маёмасныя правы і абавязкі бацькоў] (* <- lang_by;; *);;
@@ -138,8 +203,52 @@ section_law_belarus_marriage_dict
     <- belarus_legal_term;;
     <- sc_node_not_relation;;
   *);
-  
-    concept_underage_belarus (*
+
+  concept_artificial_insemination_belarus (*
+    => nrel_main_idtf: [искусственная инсеминация] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [artificial insemination] (* <- lang_en;; *);;
+    => nrel_main_idtf: [штучная інсемінацыя] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Искусственная инсеминация – вид вспомогательных репродуктивных технологий, заключающийся во введении мужских половых клеток в матку искусственным путем.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_artificial_insemination;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_cryopreservation_belarus (*
+    => nrel_main_idtf: [криоконсервация] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [cryopreservation] (* <- lang_en;; *);;
+    => nrel_main_idtf: [крыякансервацыя] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Криоконсервация – замораживание половых клеток, эмбрионов.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_cryopreservation;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_underage_belarus (*
     => nrel_main_idtf: [малолетний] (* <- lang_ru;; *);;
     => nrel_main_idtf: [juvenile] (* <- lang_en;; *);;
     => nrel_main_idtf: [малалетні] (* <- lang_by;; *);;
@@ -161,7 +270,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_large_family_belarus (*
+  concept_large_family_belarus (*
     => nrel_main_idtf: [многодетная семья] (* <- lang_ru;; *);;
     => nrel_main_idtf: [family with many children] (* <- lang_en;; *);;
     => nrel_main_idtf: [шматдзетная сям'я] (* <- lang_by;; *);;
@@ -183,7 +292,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_single_parent_family_belarus (*
+  concept_single_parent_family_belarus (*
     => nrel_main_idtf: [неполная семья] (* <- lang_ru;; *);;
     => nrel_main_idtf: [single-parent family] (* <- lang_en;; *);;
     => nrel_main_idtf: [няпоўная сям'я] (* <- lang_by;; *);;
@@ -211,7 +320,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_minor_person_belarus (*
+  concept_minor_person_belarus (*
     => nrel_main_idtf: [несовершеннолетний] (* <- lang_ru;; *);;
     => nrel_main_idtf: [minor] (* <- lang_en;; *);;
     => nrel_main_idtf: [непаўналетні] (* <- lang_by;; *);;
@@ -233,7 +342,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_common_property_of_spouses_belarus (*
+  concept_common_property_of_spouses_belarus (*
     => nrel_main_idtf: [общая совместная собственность супругов] (* <- lang_ru;; *);;
     => nrel_main_idtf: [joint property of marital partners] (* <- lang_en;; *);;
     => nrel_main_idtf: [агульная сумесная ўласнасць сужэнцаў] (* <- lang_by;; *);;
@@ -255,7 +364,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_foster_care_belarus (*
+  concept_foster_care_belarus (*
     => nrel_main_idtf: [патронатное воспитание] (* <- lang_ru;; *);;
     => nrel_main_idtf: [foster care] (* <- lang_en;; *);;
     => nrel_main_idtf: [патранатнае выхаванне] (* <- lang_by;; *);;
@@ -277,7 +386,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_teenager_belarus (*
+  concept_teenager_belarus (*
     => nrel_main_idtf: [подросток] (* <- lang_ru;; *);;
     => nrel_main_idtf: [teenager] (* <- lang_en;; *);;
     => nrel_main_idtf: [падлетак] (* <- lang_by;; *);;
@@ -299,7 +408,29 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_foster_family_belarus (*
+  concept_germ_cells_belarus (*
+    => nrel_main_idtf: [половые клетки] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [germ cells] (* <- lang_en;; *);;
+    => nrel_main_idtf: [палавыя клеткі] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Половые клетки – сперматозоиды (у мужчин), яйцеклетки (у женщин).] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_germ_cells;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_foster_family_belarus (*
     => nrel_main_idtf: [приемная семья, детский дом семейного типа] (* <- lang_ru;; *);;
     => nrel_main_idtf: [foster family, family-type children's home] (* <- lang_en;; *);;
     => nrel_main_idtf: [прыёмная сям'я, дзіцячы дом сямейнага тыпа] (* <- lang_by;; *);;
@@ -320,8 +451,30 @@ section_law_belarus_marriage_dict
     <- belarus_legal_term;;
     <- sc_node_not_relation;;
   *);
+
+  concept_relatives_family_belarus (*
+    => nrel_main_idtf: [родственники] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [relatives] (* <- lang_en;; *);;
+    => nrel_main_idtf: [родзічы] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Родственники – лица, находящиеся в кровном родстве, имеющие общих предков до прадеда и прабабки включительно.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_relatives;;
+    => nrel_legal_act: by_act_hk9900278;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
   
-    concept_property_belarus (*
+  concept_property_belarus (*
     => nrel_main_idtf: [свойство] (* <- lang_ru;; *);;
     => nrel_main_idtf: [affinity] (* <- lang_en;; *);;
     => nrel_main_idtf: [сваяцтва] (* <- lang_by;; *);;
@@ -343,7 +496,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_family_belarus (*
+  concept_family_belarus (*
     => nrel_main_idtf: [семья] (* <- lang_ru;; *);;
     => nrel_main_idtf: [family] (* <- lang_en;; *);;
     => nrel_main_idtf: [сям'я] (* <- lang_by;; *);;
@@ -365,7 +518,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_property_of_spouses_belarus (*
+  concept_property_of_spouses_belarus (*
     => nrel_main_idtf: [собственность супругов] (* <- lang_ru;; *);;
     => nrel_main_idtf: [property of spouses] (* <- lang_en;; *);;
     => nrel_main_idtf: [уласнасць сужэнцаў] (* <- lang_by;; *);;
@@ -387,7 +540,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_socially_dangerous_situation_belarus (*
+  concept_socially_dangerous_situation_belarus (*
     => nrel_main_idtf: [социально опасное положение] (* <- lang_ru;; *);;
     => nrel_main_idtf: [socially dangerous situation] (* <- lang_en;; *);;
     => nrel_main_idtf: [сацыяльна небяспечнае становішча] (* <- lang_by;; *);;
@@ -412,7 +565,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_socially_dangerous_situation_for_kid_belarus (*
+  concept_socially_dangerous_situation_for_kid_belarus (*
     => nrel_main_idtf: [социально опасное положение ребенка] (* <- lang_ru;; *);;
     => nrel_main_idtf: [social risk of a child] (* <- lang_en;; *);;
     => nrel_main_idtf: [сацыяльна небяспечнае становішча дзіцяці] (* <- lang_by;; *);;
@@ -436,8 +589,52 @@ section_law_belarus_marriage_dict
     <- belarus_legal_term;;
     <- sc_node_not_relation;;
   *);
+
+  concept_surrogate_mother_belarus (*
+    => nrel_main_idtf: [суррогатная мать] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [surrogate mother] (* <- lang_en;; *);;
+    => nrel_main_idtf: [сурагатная маці] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Суррогатная мать – женщина, которая по договору суррогатного материнства вынашивает и рождает ребенка, не являющегося носителем ее генотипа.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_surrogate_mother;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_surrogacy_belarus (*
+    => nrel_main_idtf: [суррогатное материнство] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [surrogacy] (* <- lang_en;; *);;
+    => nrel_main_idtf: [сурагатнае мацярынства] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Суррогатное материнство – вид вспомогательных репродуктивных технологий, заключающийся в соединении сперматозоида и яйцеклетки, изъятой из организма генетической матери, или донорской яйцеклетки вне организма женщины, развитии образовавшегося в результате этого соединения эмбриона, дальнейшем переносе данного эмбриона в матку суррогатной матери, вынашивании и рождении ею ребенка.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_surrogacy;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
   
-    concept_adoption_belarus (*
+  concept_adoption_belarus (*
     => nrel_main_idtf: [усыновление] (* <- lang_ru;; *);;
     => nrel_main_idtf: [adoption] (* <- lang_en;; *);;
     => nrel_main_idtf: [усынаўленне] (* <- lang_by;; *);;
@@ -459,7 +656,7 @@ section_law_belarus_marriage_dict
     <- sc_node_not_relation;;
   *);
   
-    concept_fictitious_marriage_belarus (*
+  concept_fictitious_marriage_belarus (*
     => nrel_main_idtf: [фиктивный брак] (* <- lang_ru;; *);;
     => nrel_main_idtf: [fictitious marriage] (* <- lang_en;; *);;
     => nrel_main_idtf: [фіктыўны шлюб] (* <- lang_by;; *);;
@@ -476,6 +673,50 @@ section_law_belarus_marriage_dict
 
     <- concept_fictitious_marriage;;
     => nrel_legal_act: by_act_hk9900278;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_in_vitro_fertilization_belarus (*
+    => nrel_main_idtf: [экстракорпоральное оплодотворение] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [in vitro fertilization] (* <- lang_en;; *);;
+    => nrel_main_idtf: [экстракарпаральнае апладненне] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Экстракорпоральное оплодотворение – вид вспомогательных репродуктивных технологий, заключающийся в соединении сперматозоида и яйцеклетки вне организма женщины, развитии образовавшегося в результате этого соединения эмбриона и дальнейшем переносе данного эмбриона в матку.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_in_vitro_fertilization;;
+    => nrel_legal_act: by_act_h11200341;;
+
+    <- belarus_legal_term;;
+    <- sc_node_not_relation;;
+  *);
+
+  concept_embryo_belarus (*
+    => nrel_main_idtf: [эмбрион] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [embryo] (* <- lang_en;; *);;
+    => nrel_main_idtf: [эмбрыён] (* <- lang_by;; *);;
+
+    <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Эмбрион – ранняя стадия развития живого организма.] (* <- lang_ru;; *);;
+					*);;
+			*);;
+
+    <- concept_embryo;;
+    => nrel_legal_act: by_act_h11200341;;
 
     <- belarus_legal_term;;
     <- sc_node_not_relation;;
