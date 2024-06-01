@@ -14,6 +14,19 @@ services:
       machine:
         condition: service_healthy
 
+  web-react:
+     image: ostis/sc-web:0.8.1-Unlock
+     build:
+       context: ./sc-web
+     restart: unless-stopped
+     networks:
+      - sc-machine
+     command:
+       - "--server-host=machine"
+       - "--allowed_origins=http://localhost:3000" # <- add this line
+     ports:
+       - "8001:8000"
+
   machine:
     image: ostis/sc-machine:0.8.0-Fusion
     build:

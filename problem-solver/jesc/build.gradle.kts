@@ -24,6 +24,11 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind:2.13.4.2")
     implementation("org.java-websocket:Java-WebSocket:1.5.3")
     implementation("com.google.guava:guava:31.1-jre")
+
+    implementation("io.ktor:ktor-server-netty:1.6.4")
+    implementation("io.ktor:ktor-jackson:1.6.4")
+    implementation("io.ktor:ktor-features:1.6.4")
+
     implementation("ch.qos.logback:logback-classic:1.4.7")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.14.2")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2")

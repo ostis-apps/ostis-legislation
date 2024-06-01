@@ -6,10 +6,9 @@ import net.ostis.jesc.client.model.element.ScReference
 import net.ostis.jesc.client.model.response.ScEvent
 import net.ostis.jesc.client.model.type.ScType
 import ostis.legislation.extension.getRoleRelationTarget
-import ostis.legislation.thirdparty.telegram.Telegram
 
-class TelegramSendAnswerAgent(
-    private val telegram: Telegram,
+class HttpSendAnswerAgent(
+    private val answers: MutableMap<Long, String>,
     event: Long,
     client: ScClient
 ): ScAgent(setOf(event), client) {
@@ -47,7 +46,7 @@ class TelegramSendAnswerAgent(
             .let { context.getLinkContent(it).asLong() }
         val answerText = context.getLinkContent(addrs[2]).asText()
 
-        answerText.chunked(4096).forEach { telegram.sendMessage(telegramId, it) }
+        answers[telegramId] = answerText
     }
 
 }
