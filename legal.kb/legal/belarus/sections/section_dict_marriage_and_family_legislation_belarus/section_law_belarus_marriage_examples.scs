@@ -1,0 +1,266 @@
+concept_property_of_spouses_belarus
+	-> rrel_example:
+		concept_house(*
+			=> nrel_main_idtf: [дом] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [house] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [дом] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [место жительства, жилище; также любое здание или комплекс зданий.] (* <- lang_ru;; *);;
+						-> rrel_example: [place of residence, dwelling; also any building or complex of buildings.] (* <- lang_en;; *);;
+						-> rrel_example: [месца жыхарства, жыллё; таксама любы будынак або комплекс будынкаў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_flat(*
+			=> nrel_main_idtf: [квартира] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [flat] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [кватэра] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [отдельное жилое помещение в доме, обычно из нескольких комнат с кухней.] (* <- lang_ru;; *);;
+						-> rrel_example: [a separate living room in the house, usually consisting of several rooms with a kitchen.] (* <- lang_en;; *);;
+						-> rrel_example: [асобнае жылое памяшканне ў доме, звычайна з некалькіх пакояў з кухняй.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_car(*
+			=> nrel_main_idtf: [автомобиль] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [car] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [аўтамабіль] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [самодвижущееся транспортное средство с двигателем для перевозки грузов и пассажиров по безрельсовым путям.] (* <- lang_ru;; *);;
+						-> rrel_example: [a self-propelled vehicle with an engine for transporting goods and passengers on trackless tracks.] (* <- lang_en;; *);;
+						-> rrel_example: [самарушныя транспартны сродак з рухавіком для перавозкі грузаў і пасажыраў па бязрэйкавыя шляхах.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_laptop(*
+			=> nrel_main_idtf: [ноутбук] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [laptop] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [ноўтбук] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [небольшой портативный компьютер.] (* <- lang_ru;; *);;
+						-> rrel_example: [a small portable computer.] (* <- lang_en;; *);;
+						-> rrel_example: [невялікі партатыўны кампутар.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+concept_reproductive_technologies_belarus
+	-> rrel_example:
+		concept_germ_cell_donation_belarus;
+		concept_surrogacy_belarus;;
+
+concept_germ_cell_donor_belarus
+	-> rrel_example:
+		concept_man(*
+			=> nrel_main_idtf: [мужчина] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [man] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [мужчына] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Мужчина — человек мужского пола. Тот, кто обладает функциональными и морфологическими признаками, которые определяют мужской пол.] (* <- lang_ru;; *);;
+						-> rrel_example: [A man is a male person. One who possesses the functional and morphological characteristics that define male gender.] (* <- lang_en;; *);;
+						-> rrel_example: [Мужчына - чалавек мужчынскага полу. Той, хто валодае функцыянальнымі і марфалагічнымі прыкметамі, якія вызначаюць мужчынскі пол.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_woman(*
+			=> nrel_main_idtf: [женщина] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [woman] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [жанчына] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Женщина - лицо женского пола] (* <- lang_ru;; *);;
+						-> rrel_example: [Woman - female person] (* <- lang_en;; *);;
+						-> rrel_example: [Жанчына - твар жаночага полу] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+concept_germ_cells_belarus
+	-> rrel_example:
+		concept_spermatozoa(*
+			=> nrel_main_idtf: [сперматозоиды] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [spermatozoa] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [народкі] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Сперматозоид - это мужская половая клетка (гамета) размножающихся посредством оогамии организмов.] (* <- lang_ru;; *);;
+						-> rrel_example: [A sperm is a male reproductive cell (gamete) of organisms that reproduce through oogamy.] (* <- lang_en;; *);;
+						-> rrel_example: [Сперматозоід - гэта мужчынская палавая клетка (гамета) размножваюцца пасродкам агаміі арганізмаў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_egg(*
+			=> nrel_main_idtf: [яйцеклетка] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [egg] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [яйцеклетка] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Яйцеклетка - это женская половая клетка (гамета), относительно крупная, неподвижная клетка, являющаяся исходной при зарождении нового организма] (* <- lang_ru;; *);;
+						-> rrel_example: [An egg is a female reproductive cell (gamete), a relatively large, immobile cell that is the starting point for the birth of a new organism] (* <- lang_en;; *);;
+						-> rrel_example: [Яйкаклетка - гэта жаночая палавая клетка (гамета), адносна буйная, нерухомая клетка, якая з'яўляецца зыходнай пры зараджэнні новага арганізма] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+concept_surrogacy_belarus
+	-> rrel_example:
+		concept_surrogate_mother_belarus;;
+
+concept_near_relativity_belarus
+	-> rrel_example:
+		concept_brother(*
+			=> nrel_main_idtf: [брат] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [brother] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [брат] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Брат - это сын в отношении к другим детям одних родителей.] (* <- lang_ru;; *);;
+						-> rrel_example: [A brother is a son in relation to other children of the same parents.] (* <- lang_en;; *);;
+						-> rrel_example: [Брат - гэта сын у адносінах да іншых дзяцей адных бацькоў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+	
+		concept_sister(*
+			=> nrel_main_idtf: [сестра] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [sister] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [сястра] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Сестра - дочь тех же родителей или одного из них по отношению к другим их детям.] (* <- lang_ru;; *);;
+						-> rrel_example: [A sister is the daughter of the same parents or one of them in relation to their other children.] (* <- lang_en;; *);;
+						-> rrel_example: [Сястра - дачка тых жа бацькоў або аднаго з іх у адносінах да іншых іх дзяцей.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+	
+		concept_father(*
+			=> nrel_main_idtf: [отец] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [father] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [бацька] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Отец - мужчина по отношению к своим детям.] (* <- lang_ru;; *);;
+						-> rrel_example: [A father is a man in relation to his children.] (* <- lang_en;; *);;
+						-> rrel_example: [Бацька - мужчына ў адносінах да сваіх дзяцей.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_son(*
+			=> nrel_main_idtf: [сын] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [son] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [сын] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Сын - мужчина, мальчик по отношению к родителям.] (* <- lang_ru;; *);;
+						-> rrel_example: [A son is a man, a boy in relation to his parents.] (* <- lang_en;; *);;
+						-> rrel_example: [Сын - мужчына, хлопчык у адносінах да бацькоў.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+concept_underage_belarus
+	-> rrel_example:
+		concept_boy(*
+			=> nrel_main_idtf: [мальчик] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [boy] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [хлопчык] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Мальчик - ребёнок мужского пола, подросток.] (* <- lang_ru;; *);;
+						-> rrel_example: [A boy is a male child, a teenager.] (* <- lang_en;; *);;
+						-> rrel_example: [Хлопчык - дзіця мужчынскага полу, падлетак.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);
+
+		concept_girl(*
+			=> nrel_main_idtf: [девочка] (* <- lang_ru;; *);;
+			=> nrel_main_idtf: [girl] (* <- lang_en;; *);;
+			=> nrel_main_idtf: [дзяўчынка] (* <- lang_by;; *);;
+			<- rrel_key_sc_element:
+			...
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Девочка - ребёнок женского пола.] (* <- lang_ru;; *);;
+						-> rrel_example: [A girl is a female child.] (* <- lang_en;; *);;
+						-> rrel_example: [Дзяўчынка - дзіця жаночага полу.] (* <- lang_by;; *);;
+				*);;
+			*);;
+		*);;
+
+concept_minor_person_belarus
+	-> rrel_example:
+		concept_boy;
+		concept_girl;;
+
+concept_teenager_belarus
+	-> rrel_example:
+		concept_boy;
+		concept_girl;;
