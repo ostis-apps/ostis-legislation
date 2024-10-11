@@ -12,8 +12,8 @@ The OSTIS Legislation project aims to develop a personal legal assistant, provid
 
 For Ubuntu/Debian based distros:
 ```sh
-git clone https://github.com/ostis-apps/ostis-example-app.git
-cd ostis-example-app
+git clone https://github.com/ostis-apps/ostis-legislation.git
+cd ostis-legislation
 ./scripts/install.sh
 ```
 

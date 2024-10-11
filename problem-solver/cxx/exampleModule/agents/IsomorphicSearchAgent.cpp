@@ -1,84 +1,85 @@
+/*
+ * This source file is part of an OSTIS project. For the latest info, see
+ * http://ostis.net Distributed under the MIT License (See accompanying file
+ * COPYING.MIT or copy at http://opensource.org/licenses/MIT)
+ */
+
+#include "IsomorphicSearchAgent.hpp"
+
 #include <iostream>
 
 #include <sc-memory/sc_memory.hpp>
 #include <sc-memory/sc_stream.hpp>
-#include <sc-memory/sc_template_search.cpp>
 
 #include <sc-agents-common/utils/IteratorUtils.hpp>
-#include <sc-agents-common/utils/AgentUtils.hpp>
-
-#include "IsomorphicSearchAgent.hpp"
 
 using namespace std;
 using namespace utils;
 
-namespace exampleModule
+ScAddr IsomorphicSearchAgent::GetActionClass() const
 {
-SC_AGENT_IMPLEMENTATION(IsomorphicSearchAgent)
-{
-  SC_LOG_DEBUG("IsomorphicSearchAgent: started");
-  ScAddr actionNode = otherAddr;
+  return Keynodes::action_search_isomorphic_structures;
+}
 
-  ScAddr scTemplateNode = IteratorUtils::getAnyFromSet(ms_context.get(), actionNode);
+ScResult IsomorphicSearchAgent::DoProgram(ScAction & action)
+{
+  auto const & [scTemplateNode] = action.GetArguments<1>();
 
   if (!scTemplateNode.IsValid())
   {
-    SC_LOG_ERROR("IsomorphicSearchAgent: template argument is not found");
-    utils::AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, false);
-    return SC_RESULT_ERROR_INVALID_PARAMS;
+    SC_AGENT_LOG_ERROR("Template argument is not found");
+    return action.FinishWithError();
   }
 
-  ScAddrVector answerElements;
+  ScStructure result = m_context.GenerateStructure();
   try
   {
-    formSearchResults(scTemplateNode, answerElements);
+    formSearchResults(scTemplateNode, result);
   }
-  catch (exception & exc)
+  catch (ScException const & exception)
   {
-    SC_LOG_ERROR("IsomorphicSearchAgent: " << exc.what());
-    utils::AgentUtils::finishAgentWork(&m_memoryCtx, actionNode, false);
-    return SC_RESULT_ERROR;
+    SC_AGENT_LOG_ERROR(exception.Message());
+    return action.FinishWithError();
   }
 
-  utils::AgentUtils::finishAgentWork(ms_context.get(), actionNode, answerElements, true);
-  SC_LOG_DEBUG("IsomorphicSearchAgent: finished");
-  return SC_RESULT_OK;
+  action.SetResult(result);
+  return action.FinishSuccessfully();
 }
 
-void IsomorphicSearchAgent::formSearchResults(ScAddr const & scTemplateNode, ScAddrVector & answerElements)
+void IsomorphicSearchAgent::formSearchResults(ScAddr const & scTemplateNode, ScStructure & result)
 {
   clearPreviousSearchResults(scTemplateNode);
 
   ScTemplate scTemplate;
-  ms_context->HelperBuildTemplate(scTemplate, scTemplateNode);
+  m_context.BuildTemplate(scTemplate, scTemplateNode);
 
-  ScAddr const & resultsSet = formNewResultsSetConstruction(scTemplateNode, answerElements);
+  ScAddr const & resultsSet = formNewResultsSetConstruction(scTemplateNode, result);
 
   ScAddrVector searchResults;
-  ms_context->HelperSearchTemplate(scTemplate, [&searchResults, this](ScTemplateSearchResultItem const & item) {
+  m_context.SearchByTemplate(scTemplate, [&searchResults, this](ScTemplateSearchResultItem const & item) {
     searchResults.push_back(emplaceItemElementsInStructure(item));
   });
 
   if (searchResults.empty())
   {
-    ScAddr const & accessArc = m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, Keynodes::empty_set, resultsSet);
-    answerElements.insert(answerElements.end(), {accessArc, Keynodes::empty_set});
-    SC_LOG_DEBUG("IsomorphicSearchAgent: structures have not been found");
+    ScAddr const & accessArc = m_context.GenerateConnector(ScType::EdgeAccessConstPosPerm, Keynodes::empty_set, resultsSet);
+    result << accessArc << Keynodes::empty_set;
+    SC_AGENT_LOG_DEBUG("Structures have not been found");
   }
   else
   {
-    for (auto const & result : searchResults)
+    for (auto const & resultAddr : searchResults)
     {
-      ScAddr const & accessArc = m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, resultsSet, result);
-      answerElements.insert(answerElements.end(), {accessArc, result});
+      ScAddr const & accessArc = m_context.GenerateConnector(ScType::EdgeAccessConstPosPerm, resultsSet, result);
+      result << accessArc << resultAddr;
     }
-    SC_LOG_DEBUG("IsomorphicSearchAgent: structures have been found");
+    SC_AGENT_LOG_DEBUG("Structures have been found");
   }
 }
 
 void IsomorphicSearchAgent::clearPreviousSearchResults(ScAddr const & scTemplateNode)
 {
-  ScIterator5Ptr previousResultsStructuresSetsIterator = m_memoryCtx.Iterator5(
+  ScIterator5Ptr previousResultsStructuresSetsIterator = m_context.CreateIterator5(
       scTemplateNode,
       ScType::EdgeDCommonConst,
       ScType::NodeConst,
@@ -86,40 +87,37 @@ void IsomorphicSearchAgent::clearPreviousSearchResults(ScAddr const & scTemplate
       Keynodes::nrel_search_result);
   while (previousResultsStructuresSetsIterator->Next())
   {
-    ScIterator3Ptr previousResultsSetElementsIterator = m_memoryCtx.Iterator3(
+    ScIterator3Ptr previousResultsSetElementsIterator = m_context.CreateIterator3(
         previousResultsStructuresSetsIterator->Get(2), ScType::EdgeAccessConstPosPerm, ScType::NodeConstStruct);
     while (previousResultsSetElementsIterator->Next())
-      m_memoryCtx.EraseElement(previousResultsSetElementsIterator->Get(2));
+      m_context.EraseElement(previousResultsSetElementsIterator->Get(2));
 
-    m_memoryCtx.EraseElement(previousResultsStructuresSetsIterator->Get(1));
-    m_memoryCtx.EraseElement(previousResultsStructuresSetsIterator->Get(2));
+    m_context.EraseElement(previousResultsStructuresSetsIterator->Get(1));
+    m_context.EraseElement(previousResultsStructuresSetsIterator->Get(2));
   }
 }
 
 ScAddr IsomorphicSearchAgent::formNewResultsSetConstruction(
     ScAddr const & scTemplateNode,
-    ScAddrVector & answerElements)
+    ScStructure & result)
 {
-  ScAddr const & resultsSetTuple = m_memoryCtx.CreateNode(ScType::NodeConstTuple);
+  ScAddr const & resultsSetTuple = m_context.GenerateNode(ScType::NodeConstTuple);
   ScAddr const & searchResultRelationPair =
-      m_memoryCtx.CreateEdge(ScType::EdgeDCommonConst, scTemplateNode, resultsSetTuple);
+      m_context.GenerateConnector(ScType::EdgeDCommonConst, scTemplateNode, resultsSetTuple);
   ScAddr const & relationAccessArc =
-      m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, Keynodes::nrel_search_result, searchResultRelationPair);
+      m_context.GenerateConnector(ScType::EdgeAccessConstPosPerm, Keynodes::nrel_search_result, searchResultRelationPair);
 
-  answerElements.insert(answerElements.end(), {resultsSetTuple, searchResultRelationPair, relationAccessArc});
-
+  result << resultsSetTuple << searchResultRelationPair << relationAccessArc;
   return resultsSetTuple;
 }
 
 ScAddr IsomorphicSearchAgent::emplaceItemElementsInStructure(ScTemplateSearchResultItem const & item)
 {
-  ScAddr const & searchResultStructure = m_memoryCtx.CreateNode(ScType::NodeConstStruct);
+  ScAddr const & searchResultStructure = m_context.GenerateNode(ScType::NodeConstStruct);
 
   size_t const searchResultItemSize = item.Size();
   for (size_t elementIndex = 0; elementIndex < searchResultItemSize; elementIndex++)
-    m_memoryCtx.CreateEdge(ScType::EdgeAccessConstPosPerm, searchResultStructure, item[elementIndex]);
+    m_context.GenerateConnector(ScType::EdgeAccessConstPosPerm, searchResultStructure, item[elementIndex]);
 
   return searchResultStructure;
 }
-
-}  // namespace exampleModule
