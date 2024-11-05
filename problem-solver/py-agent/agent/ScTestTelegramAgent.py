@@ -1,14 +1,14 @@
 import threading
 import logging
-import telebot
+from telegram_data import start_bot
+from sc_kpm.identifiers import CommonIdentifiers
 from sc_client.client import template_search, create_elements
-from telebot import types
 from sc_client.client import create_elements, get_link_content
 from sc_client.constants import sc_types
 from sc_client.models import ScAddr, ScTemplateResult, ScTemplate,ScConstruction,ScLinkContent, ScLinkContentType
 from sc_kpm.sc_sets import ScSet
 from sc_client.constants import sc_types
-from sc_kpm.utils import create_node, create_nodes
+from sc_kpm.utils import create_node, create_nodes, create_link
 from sc_client.constants.common import ScEventType
 from sc_kpm import ScAgentClassic, ScModule, ScResult, ScServer, ScKeynodes
 from sc_kpm.utils.action_utils import (
@@ -20,19 +20,11 @@ from sc_kpm.utils.action_utils import (
 )
 logging.basicConfig(level=logging.INFO)
 
-bot = telebot.TeleBot('7779388088:AAEtaxwQcH43XNAuKuHLRFZsWDdtObTH__Q')
-
 
 str_content = ScLinkContent("OSTIS LEGISLATION TEST AGENT", ScLinkContentType.STRING)
 link_addr = ScAddr()
 link_content = ScLinkContent(12, ScLinkContentType.STRING, link_addr)
 
-@bot.message_handler(commands=['start'])
-def start(message):
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    btn1 = types.KeyboardButton("👋 Привет! Я " + str_content.data)
-    markup.add(btn1)
-    bot.send_message(message.from_user.id, "👋 Привет! Я " + str_content.data, reply_markup=markup)
 
 class TestScAgent(ScAgentClassic):
     def on_event(self, event_element: ScAddr, event_edge: ScAddr, action_element: ScAddr) -> ScResult:
@@ -48,13 +40,6 @@ class TestScAgent(ScAgentClassic):
         self.logger.info("Bot started by TG Agent")
         return ScResult.OK
 
-
-def start_bot():
-    try:
-        bot.polling(non_stop=True)
-    except Exception as e:
-        print("Не удалось запустить бота:", e)
-
 def main():
     SC_SERVER_URL = "ws://localhost:8090/ws_json"
     server = ScServer(SC_SERVER_URL)
@@ -63,25 +48,22 @@ def main():
         agent = TestScAgent(action_class_name, "ScEventType.ADD_OUTGOING_EDGE")
         module = ScModule(agent)
         server.add_modules(module)
+#TODO разобраться с запуском прямо вместе с сервером
         with server.register_modules():
-            # Запуск потока для бота
             bot_thread = threading.Thread(target=start_bot)
             bot_thread.start()
-
-            # Проверка, успешно ли запущен бот
             if bot_thread.is_alive():
                 print("Бот успешно запущен.")
             else:
                 print("Не удалось запустить бота.")
-
-            # Выполнение действия агента
             action, is_successful = execute_agent(
-                arguments={},
-                concepts=[],
-                initiation=action_class_name,
+                arguments={
+                    create_link(2, ScLinkContentType.INT): False,
+                    create_link(3, ScLinkContentType.INT): False,
+                },
+                concepts=[CommonIdentifiers.ACTION, action_class_name],
                 wait_time=1,
             )
-            # Поддерживаем основную программу активной, чтобы бот продолжал работать
             bot_thread.join()
 
 main()
