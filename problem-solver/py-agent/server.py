@@ -3,9 +3,17 @@ import threading
 from modules.telegram_data import start_bot
 from sc_kpm import ScServer
 from modules.MessageProcessingModule import MessageProcessingModule
-
+from sc_kpm.utils import create_link, get_link_content_data, create_node
 from pathlib import Path
 from modules.ScTestTelegramAgent import TestScAgent
+
+from sc_kpm.utils.action_utils import (
+    execute_agent,
+    call_agent,
+    finish_action_with_status,
+    get_action_arguments,
+)
+
 SC_SERVER_PROTOCOL = "protocol"
 SC_SERVER_HOST = "host"
 SC_SERVER_PORT = "port"
@@ -25,6 +33,12 @@ def main(args: dict):
         ]
         server.add_modules(*modules)
         with server.register_modules():
+            action = call_agent(
+                arguments={
+                },
+                concepts=[],
+                initiation="telegram_start_agent",
+            )
             bot_thread = threading.Thread(target=start_bot)
             bot_thread.start()
             if bot_thread.is_alive():

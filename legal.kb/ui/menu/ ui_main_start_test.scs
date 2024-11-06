@@ -1,0 +1,12 @@
+ui_menu_start_text
+<- ui_user_command_class_noatom;
+=> nrel_main_idtf:
+  [Пройти тест по юриспруденции] (* <- lang_ru;; *);
+  [Complete test on legislation] (* <- lang_en;; *);
+  [Выканаць тэст па юрыспрудэнцыi] (* <- lang_by;; *);
+
+<= nrel_ui_commands_decomposition: {
+  ui_menu_na_view_kb_extended;
+  ui_menu_na_keynodes;
+  ui_menu_na_acts
+};;
