@@ -1,18 +1,17 @@
 import argparse
-import threading
-from modules.telegram_data import start_bot
-from sc_kpm import ScServer
-from modules.MessageProcessingModule import MessageProcessingModule
-from sc_kpm.utils import create_link, get_link_content_data, create_node
-from pathlib import Path
-from modules.ScTestTelegramAgent import TestScAgent
+import time
+from argparse import Action
+from threading import Thread
 
-from sc_kpm.utils.action_utils import (
-    execute_agent,
-    call_agent,
-    finish_action_with_status,
-    get_action_arguments,
-)
+import sc_kpm
+from sc_client.client import create_elements
+from sc_client.models import ScConstruction
+from sc_client.constants import sc_types
+from sc_kpm import ScServer, ScAgentClassic
+from sc_kpm.identifiers import ActionStatus
+from sc_kpm.utils import create_node, create_edge
+
+from modules.AgentProcessingModule import AgentProcessingModule
 
 SC_SERVER_PROTOCOL = "protocol"
 SC_SERVER_HOST = "host"
@@ -23,29 +22,30 @@ SC_SERVER_HOST_DEFAULT = "localhost"
 SC_SERVER_PORT_DEFAULT = "8090"
 
 
+def init_agent():
+    time.sleep(2.5)
+    construction = ScConstruction()
+    action_initiated_addr = sc_kpm.ScKeynodes[ActionStatus.ACTION_INITIATED]
+    agent_call_addr = sc_kpm.ScKeynodes['telegram_start_agent']
+    agent_node = create_node(sc_types.NODE_CONST)
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, agent_call_addr, agent_node)
+
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, agent_node)
+    #construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, agent_call_addr)
+    addrs = create_elements(construction)
+
 def main(args: dict):
     server = ScServer(
         f"{args[SC_SERVER_PROTOCOL]}://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
-
     with server.connect():
         modules = [
-            MessageProcessingModule()
+            AgentProcessingModule()
         ]
         server.add_modules(*modules)
+        thread = Thread(target = init_agent)
+        thread.start()
         with server.register_modules():
-            action = call_agent(
-                arguments={
-                },
-                concepts=[],
-                initiation="telegram_start_agent",
-            )
-            bot_thread = threading.Thread(target=start_bot)
-            bot_thread.start()
-            if bot_thread.is_alive():
-                print("Бот успешно запущен.")
-            else:
-                print("Не удалось запустить бота.")
-            bot_thread.join()
+           server.serve()
 
 
 if __name__ == '__main__':

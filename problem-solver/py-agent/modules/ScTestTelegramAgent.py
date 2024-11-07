@@ -1,24 +1,15 @@
-import threading
 import logging
-from sc_kpm.identifiers import CommonIdentifiers
-from sc_client.client import template_search, create_elements
-from sc_client.client import create_elements, get_link_content
-from sc_client.constants import sc_types
-from sc_client.models import ScAddr, ScTemplateResult, ScTemplate,ScConstruction,ScLinkContent, ScLinkContentType
-from sc_kpm.sc_sets import ScSet
-from sc_client.constants import sc_types
-from sc_kpm.utils import create_node, create_nodes, create_link, create_edge
-from sc_client.constants.common import ScEventType
-from sc_kpm import ScAgentClassic, ScModule, ScResult, ScServer, ScKeynodes
+from threading import Thread
+from .telegram_data import start_bot
+from sc_client.models import ScAddr
+from sc_kpm import ScAgentClassic, ScResult
 from sc_kpm.utils.action_utils import (
-    create_action_answer,
-    execute_agent,
     finish_action_with_status,
-    get_action_answer,
-    get_action_arguments, create_action,
 )
 logging.basicConfig(level=logging.INFO)
-class TestScAgent(ScAgentClassic):
+
+
+class TelegramScAgent(ScAgentClassic):
     def __init__(self):
         super().__init__("telegram_start_agent")
 
@@ -32,5 +23,7 @@ class TestScAgent(ScAgentClassic):
 
     def run(self, action_node: ScAddr) -> ScResult:
         self.logger.info("TG Agent began to run")
+        bot_thread = Thread(target = start_bot)
+        bot_thread.start()
         self.logger.info("Bot started by TG Agent")
         return ScResult.OK
