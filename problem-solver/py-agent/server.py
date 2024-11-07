@@ -1,15 +1,12 @@
 import argparse
 import time
-from argparse import Action
 from threading import Thread
 
 import sc_kpm
 from sc_client.client import create_elements
 from sc_client.models import ScConstruction
 from sc_client.constants import sc_types
-from sc_kpm import ScServer, ScAgentClassic
-from sc_kpm.identifiers import ActionStatus
-from sc_kpm.utils import create_node, create_edge
+from sc_kpm import ScServer
 
 from modules.AgentProcessingModule import AgentProcessingModule
 
@@ -24,14 +21,14 @@ SC_SERVER_PORT_DEFAULT = "8090"
 
 def init_agent():
     time.sleep(2.5)
-    construction = ScConstruction()
-    action_initiated_addr = sc_kpm.ScKeynodes[ActionStatus.ACTION_INITIATED]
-    agent_call_addr = sc_kpm.ScKeynodes['telegram_start_agent']
-    agent_node = create_node(sc_types.NODE_CONST)
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, agent_call_addr, agent_node)
 
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, agent_node)
-    #construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, agent_call_addr)
+    construction = ScConstruction()  # First you need initialize
+
+    action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
+    telegram_addr = sc_kpm.ScKeynodes['telegram_start_agent']
+
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, telegram_addr)
+
     addrs = create_elements(construction)
 
 def main(args: dict):

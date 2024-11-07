@@ -1,5 +1,5 @@
 from sc_kpm import ScModule
-from .ScTestTelegramAgent import TelegramScAgent
+from ScTestTelegramAgent import TelegramScAgent
 
 
 class AgentProcessingModule(ScModule):
