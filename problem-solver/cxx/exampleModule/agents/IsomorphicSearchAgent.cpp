@@ -70,7 +70,7 @@ void IsomorphicSearchAgent::formSearchResults(ScAddr const & scTemplateNode, ScS
   {
     for (auto const & resultAddr : searchResults)
     {
-      ScAddr const & accessArc = m_context.GenerateConnector(ScType::EdgeAccessConstPosPerm, resultsSet, result);
+      ScAddr const & accessArc = m_context.GenerateConnector(ScType::EdgeAccessConstPosPerm, resultsSet, resultAddr);
       result << accessArc << resultAddr;
     }
     SC_AGENT_LOG_DEBUG("Structures have been found");

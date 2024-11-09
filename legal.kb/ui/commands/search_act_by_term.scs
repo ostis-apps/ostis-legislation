@@ -29,8 +29,8 @@ search_act_by_term = [*
 
     => ui_nrel_command_template:
       [*
-        question_search_act_by_term _-> ._question_search_act_by_term_instance (* _-> ui_arg_1;; *);;
-        ._question_search_act_by_term_instance _<- question;;
+        action_search_act_by_term _-> ._action_search_act_by_term_instance (* _-> ui_arg_1;; *);;
+        ._action_search_act_by_term_instance _<- action;;
       *];
   
     => ui_nrel_command_lang_template:
