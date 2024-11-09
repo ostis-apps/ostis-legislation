@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
+set(CMAKE_CXX_STANDARD 17)
 project(ostis-legislation)
 
 set(SC_MACHINE_PATH "${CMAKE_CURRENT_LIST_DIR}/ostis-web-platform/sc-machine")
-include("${SC_MACHINE_PATH}/CMakeLists.txt")
+add_subdirectory("${SC_MACHINE_PATH}")
 
 # platform doesn't support multi-extensions. Have to put project binaries to sc-machine extensions
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/bin/extensions")
