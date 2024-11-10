@@ -1,8 +1,11 @@
 import logging
+import time
 from sc_client.models import ScAddr
 from sc_kpm import ScAgentClassic, ScResult
 from modules.telegram_data import start_bot
 import threading
+from shutdown_manager import shutdown_manager
+
 
 logging.basicConfig(level=logging.INFO)
 
@@ -18,12 +21,14 @@ class TelegramScAgent(ScAgentClassic):
         return result
 
     def __run(self) -> ScResult:
-        self.logger.info("TG Agent began to run")
-        bot_thread = threading.Thread(target = start_bot)
+        self.logger.info("TG Agent started")
+        bot_thread = threading.Thread(target=start_bot)
         bot_thread.start()
-        if bot_thread.is_alive():
-            print("Бот успешно запущен.")
-        else:
-            print("Не удалось запустить бота.")
-        self.logger.info("Bot started by TG Agent")
+
+        try:
+            while not shutdown_manager.is_stopped():
+                time.sleep(0.5)
+        finally:
+            bot_thread.join()
+            self.logger.info("TG Agent stopped")
         return ScResult.OK

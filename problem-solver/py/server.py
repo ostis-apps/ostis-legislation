@@ -1,5 +1,7 @@
 import argparse
 import time
+import sys
+import threading
 from threading import Thread
 import sc_kpm
 from sc_client.client import create_elements, delete_elements
@@ -7,14 +9,16 @@ from sc_client.models import ScConstruction
 from sc_client.constants import sc_types
 from sc_kpm import ScServer
 from sc_kpm.utils import create_node
-from sc_kpm.utils.action_utils import get_action_answer, check_action_class
-
+import signal
 from modules.AgentProcessingModule import AgentProcessingModule
+from shutdown_manager import shutdown_manager
 
 
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
+
+stop_event = threading.Event()
 SC_SERVER_PROTOCOL = "protocol"
 SC_SERVER_HOST = "host"
 SC_SERVER_PORT = "port"
@@ -42,18 +46,32 @@ def init_agent():
     addrs = create_elements(construction)
 
 
+def signal_handler(sig, frame):
+    shutdown_manager.stop()
+
 
 def main(args: dict):
-    server = ScServer(f"{args[SC_SERVER_PROTOCOL]}://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
-    with server.connect():
-        modules = [
-            AgentProcessingModule()
-        ]
-        server.add_modules(*modules)
-        thread = Thread(target = init_agent)
-        thread.start()
-        with server.register_modules():
-           server.serve()
+    signal.signal(signal.SIGINT, signal_handler)
+    server = ScServer(f"{args['protocol']}://{args['host']}:{args['port']}")
+
+    try:
+        with server.connect():
+            modules = [AgentProcessingModule()]
+            server.add_modules(*modules)
+            init_thread = Thread(target=init_agent)
+            init_thread.start()
+            with server.register_modules():
+                while not shutdown_manager.is_stopped():
+                    time.sleep(0.5)
+            init_thread.join()
+
+    except Exception as e:
+        logging.error(f"Error in main execution: {e}")
+    finally:
+        logging.info("Shutting down server...")
+        server.serve()
+
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

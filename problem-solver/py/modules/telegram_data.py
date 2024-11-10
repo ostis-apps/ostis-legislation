@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
-
+import time
+from shutdown_manager import shutdown_manager
 
 bot = telebot.TeleBot('7779388088:AAEtaxwQcH43XNAuKuHLRFZsWDdtObTH__Q')
 
@@ -16,11 +17,15 @@ def start(message):
 def callback(call):
     if call.message:
         if call.data == 'que':
-            bot.send_message(call.message.chat.id,'Nachnem')
+            message = bot.send_message(call.message.chat.id, 'Nachnem')
+            time.sleep(1)
+            bot.delete_message(call.message.chat.id, message.message_id)
 
 
 def start_bot():
-    try:
-        bot.polling(non_stop=True)
-    except Exception as e:
-        print("Не удалось запустить бота:", e)
+    while not shutdown_manager.is_stopped():
+        try:
+            bot.polling(none_stop=True, interval=0.5)
+        except Exception as e:
+            time.sleep(1)
+    bot.stop_polling()
