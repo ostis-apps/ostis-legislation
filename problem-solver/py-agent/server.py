@@ -1,14 +1,19 @@
 import argparse
 import time
 from threading import Thread
-
 import sc_kpm
-from sc_client.client import create_elements
+from sc_client.client import create_elements, delete_elements
 from sc_client.models import ScConstruction
 from sc_client.constants import sc_types
 from sc_kpm import ScServer
+from sc_kpm.utils import create_node
+from sc_kpm.utils.action_utils import get_action_answer, check_action_class
 
 from modules.AgentProcessingModule import AgentProcessingModule
+
+
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 SC_SERVER_PROTOCOL = "protocol"
 SC_SERVER_HOST = "host"
@@ -25,15 +30,21 @@ def init_agent():
     construction = ScConstruction()  # First you need initialize
 
     action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
-    telegram_addr = sc_kpm.ScKeynodes['telegram_start_agent']
+    telegram_addr = sc_kpm.ScKeynodes['action_start_agent']
+    action_addr = sc_kpm.ScKeynodes['action']
 
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, telegram_addr)
+    class_node = create_node(sc_types.NODE_CONST)
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, class_node)
 
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, action_initiated_addr)
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, class_node)
+    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_addr, class_node)
     addrs = create_elements(construction)
 
+
+
 def main(args: dict):
-    server = ScServer(
-        f"{args[SC_SERVER_PROTOCOL]}://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
+    server = ScServer(f"{args[SC_SERVER_PROTOCOL]}://{args[SC_SERVER_HOST]}:{args[SC_SERVER_PORT]}")
     with server.connect():
         modules = [
             AgentProcessingModule()
@@ -43,7 +54,6 @@ def main(args: dict):
         thread.start()
         with server.register_modules():
            server.serve()
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
