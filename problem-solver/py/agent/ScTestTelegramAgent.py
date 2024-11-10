@@ -21,14 +21,19 @@ class TelegramScAgent(ScAgentClassic):
         return result
 
     def __run(self) -> ScResult:
-        self.logger.info("TG Agent started")
+        self.logger.info("TG Agent began to run")
         bot_thread = threading.Thread(target=start_bot)
         bot_thread.start()
 
-        try:
-            while not shutdown_manager.is_stopped():
-                time.sleep(0.5)
-        finally:
-            bot_thread.join()
-            self.logger.info("TG Agent stopped")
+        if bot_thread.is_alive():
+            print("Бот успешно запущен.")
+        else:
+            print("Не удалось запустить бота.")
+        while not shutdown_manager.is_stopped():
+            time.sleep(0.5)
+
+        print("Остановка бота...")
+        bot_thread.join()
+
+        self.logger.info("Bot started by TG Agent")
         return ScResult.OK

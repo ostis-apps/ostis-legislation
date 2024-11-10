@@ -53,24 +53,16 @@ def signal_handler(sig, frame):
 def main(args: dict):
     signal.signal(signal.SIGINT, signal_handler)
     server = ScServer(f"{args['protocol']}://{args['host']}:{args['port']}")
-
-    try:
-        with server.connect():
-            modules = [AgentProcessingModule()]
-            server.add_modules(*modules)
-            init_thread = Thread(target=init_agent)
-            init_thread.start()
-            with server.register_modules():
-                while not shutdown_manager.is_stopped():
-                    time.sleep(0.5)
-            init_thread.join()
-
-    except Exception as e:
-        logging.error(f"Error in main execution: {e}")
-    finally:
-        logging.info("Shutting down server...")
-        server.serve()
-
+    with server.connect():
+        modules = [AgentProcessingModule()]
+        server.add_modules(*modules)
+        init_thread = Thread(target=init_agent)
+        init_thread.start()
+        with server.register_modules():
+            while not shutdown_manager.is_stopped():
+                time.sleep(0.5)
+        init_thread.join()
+    server.serve()
 
 
 if __name__ == '__main__':
