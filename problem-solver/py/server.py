@@ -5,8 +5,8 @@ import threading
 from threading import Thread
 import sc_kpm
 from sc_client.client import create_elements, delete_elements
+from sc_client.constants.sc_type import sc_type
 from sc_client.models import ScConstruction
-from sc_client.constants import sc_types
 from sc_kpm import ScServer
 from sc_kpm.utils import create_node
 import signal
@@ -29,20 +29,19 @@ SC_SERVER_PORT_DEFAULT = "8090"
 
 
 def init_agent():
-    time.sleep(2.5)
+    time.sleep(1)
 
-    construction = ScConstruction()  # First you need initialize
-
+    construction = ScConstruction()
     action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
     telegram_addr = sc_kpm.ScKeynodes['action_start_agent']
     action_addr = sc_kpm.ScKeynodes['action']
 
-    class_node = create_node(sc_types.NODE_CONST)
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, class_node)
+    class_node = create_node(sc_type.CONST_NODE)
+    construction.create_edge(sc_type.CONST_PERM_POS_ARC, telegram_addr, class_node)
 
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, action_initiated_addr)
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, class_node)
-    construction.create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_addr, class_node)
+    construction.create_edge(sc_type.CONST_PERM_POS_ARC, telegram_addr, action_initiated_addr)
+    construction.create_edge(sc_type.CONST_PERM_POS_ARC, action_initiated_addr, class_node)
+    construction.create_edge(sc_type.CONST_PERM_POS_ARC, action_addr, class_node)
     addrs = create_elements(construction)
 
 
@@ -61,7 +60,6 @@ def main(args: dict):
         with server.register_modules():
             while not shutdown_manager.is_stopped():
                 time.sleep(0.5)
-        init_thread.join()
     server.serve()
 
 

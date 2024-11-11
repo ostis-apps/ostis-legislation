@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import time
-from shutdown_manager import shutdown_manager
+#from shutdown_manager import shutdown_manager
 
 bot = telebot.TeleBot('7779388088:AAEtaxwQcH43XNAuKuHLRFZsWDdtObTH__Q')
 
@@ -15,6 +15,7 @@ questions = [
     {"text": "Вопрос 7: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
     {"text": "Вопрос 8: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
     {"text": "Вопрос 9: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
+    {"text": "Вопрос 10: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]}
 ]
 
 user_data = {}
@@ -101,7 +102,7 @@ def callback(call):
 
 
 def start_bot():
-    while not shutdown_manager.is_stopped():
+    while True:
         try:
             bot.polling(none_stop=True, interval=0.5)
         except Exception as e:
