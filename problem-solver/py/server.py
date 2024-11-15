@@ -34,10 +34,8 @@ def init_agent():
     action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
     telegram_addr = sc_kpm.ScKeynodes['action_start_agent']
     action_addr = sc_kpm.ScKeynodes['action']
-
     class_node = create_node(sc_types.NODE_CONST)
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, class_node)
-
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, action_initiated_addr)
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, class_node)
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_addr, class_node)
@@ -52,14 +50,14 @@ def main(args: dict):
     signal.signal(signal.SIGINT, signal_handler)
     server = ScServer(f"{args['protocol']}://{args['host']}:{args['port']}")
     with server.connect():
-        modules = [AgentProcessingModule()]
+        modules = [
+            AgentProcessingModule()
+        ]
         server.add_modules(*modules)
         init_thread = Thread(target=init_agent)
         init_thread.start()
         with server.register_modules():
-            while not shutdown_manager.is_stopped():
-                time.sleep(0.5)
-    server.serve()
+            server.serve()
 
 
 if __name__ == '__main__':

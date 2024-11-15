@@ -1,11 +1,10 @@
 import telebot
 from telebot import types
-import time
 from ScTestQuestionClass import ScTestQuestionClass
-from agent.ScTestTelegramAgent import question_list
+from data import question_list
 import random
+from data import bot
 
-bot = telebot.TeleBot('7779388088:AAEtaxwQcH43XNAuKuHLRFZsWDdtObTH__Q')
 
 class Telegram:
     def __init__(self, sc_tg_question: list[ScTestQuestionClass]):
@@ -36,6 +35,10 @@ class Telegram:
 
 @bot.message_handler(commands=['start'])
 def start(message):
+    if not question_list:
+        bot.send_message(message.chat.id, "Вопросы не загружены. Выполните ребилд БЗ.")
+        return
+
     markup = types.InlineKeyboardMarkup()
     btn1 = types.InlineKeyboardButton("Начать тест!", callback_data='que_0')
     markup.add(btn1)
@@ -45,9 +48,12 @@ def start(message):
         reply_markup=markup
     )
 
-telegram_questions = Telegram(sc_tg_question=question_list)
 
 user_states = {}
+telegram_questions = Telegram(sc_tg_question=question_list)
+print(f"Вопросы: {question_list}")
+print(f"Количество вопросов: {len(question_list)}")
+
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
@@ -57,12 +63,24 @@ def callback(call):
         user_states[user_id] = 0
         send_question(call.message, user_id)
     else:
+        _, current_index, original_index = call.data.split('_')
+        current_index = int(current_index)
+        original_index = int(original_index)
 
-        current_index = user_states.get(user_id, 0)
         question = telegram_questions.sc_tg_question[current_index]
         correct_answer = question.correct_answer
+        answers = question.incorrect_answers + [correct_answer]
 
-        if call.data == correct_answer:
+        # After shuffling, we know the correct answer index is the same as original_index
+        shuffled_answers = random.sample(answers, len(answers))
+        selected_answer = shuffled_answers[original_index]
+
+        # Debugging output
+        print(
+            f"Пользователь: {user_id}, Вопрос: {question.question}, Правильный ответ: {correct_answer}, Выбранный ответ: {selected_answer}"
+        )
+
+        if selected_answer == correct_answer:
             bot.answer_callback_query(call.id, "✅ Правильно!")
         else:
             bot.answer_callback_query(call.id, "❌ Неправильно!")
@@ -76,19 +94,48 @@ def callback(call):
 
 
 def send_question(message, user_id):
-    current_index = user_states[user_id]
+    current_index = user_states.get(user_id, 0)
+    if current_index >= len(telegram_questions.sc_tg_question):
+        bot.send_message(message.chat.id, "Ошибка: больше вопросов нет.")
+        return
+
     question = telegram_questions.sc_tg_question[current_index]
+    correct_answer = question.correct_answer
+    answers = question.incorrect_answers + [correct_answer]
 
+    # Create a list of tuples (answer, original_index)
+    answers_with_index = [(answer, idx) for idx, answer in enumerate(answers)]
+
+    # Shuffle answers with their indices
+    random.shuffle(answers_with_index)
+
+    # Create the markup and encode the shuffled answer index in the callback_data
     markup = types.InlineKeyboardMarkup()
-    answers = question.incorrect_answers + [question.correct_answer]
-    random.shuffle(answers)
+    for i, (answer, original_index) in enumerate(answers_with_index):
+        callback_data = f"answer_{current_index}_{original_index}"  # Use the original index here
+        markup.add(types.InlineKeyboardButton(f"Вариант {i + 1}", callback_data=callback_data))
 
-    for answer in answers:
-        markup.add(types.InlineKeyboardButton(answer, callback_data=answer))
+    # Prepare the answer text for display
+    answers_text = "\n\n".join([f"Вариант {i + 1}: {answer}" for i, (answer, _) in enumerate(answers_with_index)])
+    try:
+        bot.send_message(
+            message.chat.id,
+            f"{question.question}\n\n{answers_text}",
+            reply_markup=markup
+        )
+    except Exception as e:
+        print(f"Ошибка при отправке вопроса: {e}")
 
-    bot.send_message(
-        message.chat.id,
-        question.question,
-        reply_markup=markup
-    )
 
+def start_bot():
+    while True:
+        try:
+            bot.polling(none_stop=True, interval=0.5)
+        except Exception as e:
+            print(f"Ошибка в боте: {e}")
+    print("Bot finished")
+    bot.stop_polling()
+
+
+#todo: намутить фикс правильных ответов и вопросов
+#todo: добавить удаление кнопок и приветственного сообщения

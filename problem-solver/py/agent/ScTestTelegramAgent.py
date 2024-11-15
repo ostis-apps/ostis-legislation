@@ -11,10 +11,11 @@ from sc_kpm.sc_sets import ScNumberedSet
 import threading
 import sc_kpm.utils as utils
 from sc_kpm.utils import create_node, create_edge
+from modules.telegram_data import start_bot
+from data import question_list
 
 logging.basicConfig(level=logging.INFO)
-bot = telebot.TeleBot('7779388088:AAEtaxwQcH43XNAuKuHLRFZsWDdtObTH__Q')
-question_list = []
+
 
 class TelegramScAgent(ScAgentClassic):
     def __init__(self) -> None:
@@ -23,17 +24,26 @@ class TelegramScAgent(ScAgentClassic):
     def on_event(self, event_element: ScAddr, event_edge: ScAddr, action_element: ScAddr) -> ScResult:
         self.logger.info("TG Agent was called")
         result = self.__run()
-        is_successful = result == ScResult.OK
         self.logger.info("TG Agent finished %s")
         return result
 
 
     def __run(self) -> ScResult:
         self.logger.info("TG Agent began to run")
+
+        question_thread = threading.Thread(target=self.generate_questions)
+        question_thread.start()
+
+        question_thread.join()
+
         bot_thread = threading.Thread(target=start_bot)
         bot_thread.start()
 
+        self.logger.info("Bot finished by TG Agent")
+        return ScResult.OK
 
+
+    def generate_questions(self):
         class_node = create_node(sc_types.NODE_VAR)
         action_initiated = sc_kpm.ScKeynodes["action_initiated"]
         question_node = sc_kpm.ScKeynodes["action_generate_questions"]
@@ -89,20 +99,6 @@ class TelegramScAgent(ScAgentClassic):
             question_str = get_link_content(question_search[0].get(2))
             answer_str = get_link_content(answer_search[0].get(2))
 
-            question_obj = ScTestQuestionClass(question_str[0].data, answer_str[0].data,["","","",""])
+            question_obj = ScTestQuestionClass(question_str[0].data, answer_str[0].data,["тут","будет","текст"])
 
             question_list.append(question_obj)
-        bot_thread.join()
-        self.logger.info("Bot finished by TG Agent")
-        return ScResult.OK
-
-
-def start_bot():
-    while True:
-        try:
-            bot.polling(none_stop=True, interval=0.5)
-        except Exception as e:
-            print(f"Ошибка в боте: {e}")
-            time.sleep(1)
-            bot.stop_polling()
-#todo: добавить итератор и пихать в словарь
