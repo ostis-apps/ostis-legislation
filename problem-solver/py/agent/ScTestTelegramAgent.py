@@ -2,7 +2,7 @@ import logging
 from re import search
 from tabnanny import check
 
-from sc_client.client import create_elements, generate_elements, search_by_template, get_link_content
+from sc_client.client import create_elements, generate_elements, search_by_template, get_link_content, delete_elements
 import time
 import sc_kpm
 from typing import Dict, List, Tuple, Union
@@ -33,26 +33,6 @@ class TelegramScAgent(ScAgentClassic):
         self.logger.info("TG Agent finished %s")
         return result
 
-    def execute_generate_question_agent(self) -> Tuple[list[ScAddr], bool]:
-
-        construction = ScConstruction()
-        action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
-        action_gen_questions = sc_kpm.ScKeynodes['action_generate_questions']
-        question_model_addr = sc_kpm.ScKeynodes['question_model']
-        action_addr = sc_kpm.ScKeynodes['action']
-        class_node = sc_types.NODE_CONST
-        rrel_node = sc_types.NODE_CONST_ROLE
-
-        construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM,action_gen_questions, class_node)
-
-        #sync with KB
-
-        construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, class_node)
-        construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_addr, class_node)
-        addrs = generate_elements(construction)
-
-        result = check_edge(sc_types.EDGE_ACCESS_VAR_POS_PERM, action_addr, class_node)
-        return addrs, result
 
     def __run(self) -> ScResult:
         self.logger.info("TG Agent began to run")
@@ -80,9 +60,6 @@ class TelegramScAgent(ScAgentClassic):
         search = search_by_template(template)
         get_struct = search[0].get(2)
 
-
-        #result_struct = ScStructure(set_node=get_struct)
-
         result_temp = ScTemplate()
         result_temp.triple(
             get_struct,
@@ -94,37 +71,34 @@ class TelegramScAgent(ScAgentClassic):
 
         result_set = ScNumberedSet(set_node = result_search)
 
-        # generated_question = sc_kpm.ScKeynodes["generated_question"]
-        # print(ScKeynodes["generated_question"])
-        # question_set = create_node(sc_types.NODE_VAR)
-        #
-        # question_template = ScTemplate()
-        # question_template.quintuple(
-        #     generated_question,
-        #     sc_types.EDGE_ACCESS_VAR_POS_PERM,
-        #     sc_types.NODE_VAR,
-        #     sc_types.EDGE_ACCESS_VAR_POS_PERM,
-        #     get_struct
-        # )
-        # search_question = search_by_template(question_template)
-        # question = search_question[0]
-        # question = question.get(2)
-        # test_question = ScTemplate()
-        # nrel_node = sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
-        # test_question.quintuple(
-        #     question,
-        #     sc_types.EDGE_D_COMMON_VAR,
-        #     sc_types.LINK_VAR,
-        #     sc_types.EDGE_ACCESS_VAR_POS_PERM,
-        #     nrel_node
-        # )
-        # test = search_by_template(test_question)
-        # test = test[0]
-        # test = test.get(2)
-        # question_string = get_link_content(test)[0].data
-        # print(question_string)
+        nrel_gen_question = sc_kpm.ScKeynodes["nrel_generated_question_text"]
+        nrel_corr_answer = sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
+
+        question_form = ScTemplate()
+        question_form.quintuple(
+            result_set[0],
+            sc_types.EDGE_D_COMMON_VAR,
+            sc_types.LINK_VAR,
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            nrel_gen_question
+        )
+        question_search = search_by_template(question_form)
+
+        answer_form = ScTemplate()
+        answer_form.quintuple(
+            result_set[0],
+            sc_types.EDGE_D_COMMON_VAR,
+            sc_types.LINK_VAR,
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            nrel_corr_answer
+        )
+        answer_search = search_by_template(answer_form)
+
+
+        first = get_link_content(question_search[0].get(2))
+        second = get_link_content(answer_search[0].get(2))
+
         self.logger.info("Bot finished by TG Agent")
         return ScResult.OK
 
-#todo: намутить нормальный парсер, который пихал бы ответы и вопросы в словарь
-#todo: интегрировать с телегой
+#todo: добавить итератор и пихать в словарь
