@@ -1,24 +1,37 @@
 import telebot
 from telebot import types
 import time
-#from shutdown_manager import shutdown_manager
+from ScTestQuestionClass import ScTestQuestionClass
+from agent.ScTestTelegramAgent import question_list
+import random
 
 bot = telebot.TeleBot('7779388088:AAEtaxwQcH43XNAuKuHLRFZsWDdtObTH__Q')
 
-questions = [
-    {"text": "Вопрос 1: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 2: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 3: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 4: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 5: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 6: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 7: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 8: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 9: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]},
-    {"text": "Вопрос 10: ", "options": ["Ответ 1", "Ответ 2", "Ответ 3", "Ответ 4", "Ответ 5"]}
-]
+class Telegram:
+    def __init__(self, sc_tg_question: list[ScTestQuestionClass]):
+        self.__sc_tg_question = sc_tg_question
 
-user_data = {}
+    @property
+    def sc_tg_question(self) -> list[ScTestQuestionClass]:
+        return self.__sc_tg_question
+
+    @sc_tg_question.setter
+    def sc_tg_question(self, value: list[ScTestQuestionClass]):
+        self.__sc_tg_question = value
+
+    def get_question_by_text(self, text: str) -> ScTestQuestionClass:
+        for question in self.__sc_tg_question:
+            if question.question == text:
+                return question
+        raise ValueError("Вопрос с таким текстом не найден.")
+
+    def get_correct_answer(self, question_text: str) -> str:
+        question = self.get_question_by_text(question_text)
+        return question.correct_answer
+
+    def get_incorrect_answers(self, question_text: str) -> list[str]:
+        question = self.get_question_by_text(question_text)
+        return question.incorrect_answers
 
 
 @bot.message_handler(commands=['start'])
@@ -32,65 +45,50 @@ def start(message):
         reply_markup=markup
     )
 
+telegram_questions = Telegram(sc_tg_question=question_list)
+
+user_states = {}
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
-    if call.data.startswith("que_"):
-        question_index = int(call.data.split("_")[1])
+    user_id = call.from_user.id
 
-        if question_index < len(questions):
-            question = questions[question_index]
-            question_text = question["text"]
-            options = question["options"]
+    if call.data == "que_0":
+        user_states[user_id] = 0
+        send_question(call.message, user_id)
+    else:
 
-            markup = types.InlineKeyboardMarkup()
-            for i, option in enumerate(options):
-                btn = types.InlineKeyboardButton(option, callback_data=f'ans_{question_index}_{i}')
-                markup.add(btn)
+        current_index = user_states.get(user_id, 0)
+        question = telegram_questions.sc_tg_question[current_index]
+        correct_answer = question.correct_answer
 
-            bot.send_message(call.message.chat.id, question_text, reply_markup=markup)
+        if call.data == correct_answer:
+            bot.answer_callback_query(call.id, "✅ Правильно!")
         else:
-            bot.send_message(call.message.chat.id, "Тест завершен. Спасибо за участие!")
+            bot.answer_callback_query(call.id, "❌ Неправильно!")
 
-    elif call.data.startswith("ans_"):
-        _, question_index, answer_index = call.data.split("_")
-        question_index = int(question_index)
-        answer_index = int(answer_index)
-
-        user_id = call.message.chat.id
-        if user_id not in user_data:
-            user_data[user_id] = []
-        user_data[user_id].append((question_index, answer_index))
-
-        selected_option = questions[question_index]["options"][answer_index]
-
-        answer_confirmation_text = f"{call.message.text}\nОтвет записан - ваш ответ: {selected_option}"
-
-        bot.edit_message_reply_markup(call.message.chat.id, call.message.message_id, reply_markup=None)
-
-        bot.edit_message_text(answer_confirmation_text, call.message.chat.id, call.message.message_id)
-
-        next_question_index = question_index + 1
-        if next_question_index < len(questions):
-            question = questions[next_question_index]
-            question_text = question["text"]
-            options = question["options"]
-
-            markup = types.InlineKeyboardMarkup()
-            for i, option in enumerate(options):
-                btn = types.InlineKeyboardButton(option, callback_data=f'ans_{next_question_index}_{i}')
-                markup.add(btn)
-
-            bot.send_message(call.message.chat.id, question_text, reply_markup=markup)
+        user_states[user_id] += 1
+        if user_states[user_id] < len(telegram_questions.sc_tg_question):
+            send_question(call.message, user_id)
         else:
-            bot.send_message(call.message.chat.id, "Тест завершен. Благодарим за участие!")
+            bot.send_message(call.message.chat.id, "🎉 Тест завершен! Спасибо за участие.")
+            del user_states[user_id]
 
-def start_bot():
-    while True:
-        try:
-            bot.polling(none_stop=True, interval=0.5)
-        except Exception as e:
-            print(f"Ошибка в боте: {e}")
-            time.sleep(1)
-    print("Бот завершает работу.")
-    bot.stop_polling()
+
+def send_question(message, user_id):
+    current_index = user_states[user_id]
+    question = telegram_questions.sc_tg_question[current_index]
+
+    markup = types.InlineKeyboardMarkup()
+    answers = question.incorrect_answers + [question.correct_answer]
+    random.shuffle(answers)
+
+    for answer in answers:
+        markup.add(types.InlineKeyboardButton(answer, callback_data=answer))
+
+    bot.send_message(
+        message.chat.id,
+        question.question,
+        reply_markup=markup
+    )
+
