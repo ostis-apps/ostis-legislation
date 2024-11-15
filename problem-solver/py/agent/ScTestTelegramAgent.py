@@ -9,6 +9,8 @@ from typing import Dict, List, Tuple, Union
 from sc_client.models import ScAddr, ScConstruction, ScTemplateResult, ScTemplate
 from sc_client.constants import sc_types
 from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
+from sc_kpm.sc_sets import ScStructure, ScNumberedSet, ScSet
+
 from modules.telegram_data import start_bot
 import threading
 import sc_kpm.utils as utils
@@ -76,43 +78,53 @@ class TelegramScAgent(ScAgentClassic):
             sc_types.NODE_VAR_NOROLE
         )
         search = search_by_template(template)
-        get_struct = search[0]
-        get_struct = get_struct.get(2)
+        get_struct = search[0].get(2)
 
 
-        generated_question = sc_kpm.ScKeynodes["generated_question"]
-        print(ScKeynodes["generated_question"])
-        question_set = create_node(sc_types.NODE_VAR)
+        #result_struct = ScStructure(set_node=get_struct)
 
-        question_template = ScTemplate()
-        question_template.quintuple(
-            generated_question,
+        result_temp = ScTemplate()
+        result_temp.triple(
+            get_struct,
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            sc_types.NODE_VAR,
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            get_struct
+            sc_types.NODE_VAR_TUPLE
         )
-        search_question = search_by_template(question_template)
-        question = search_question[0]
-        question = question.get(2)
-        test_question = ScTemplate()
-        nrel_node = sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
-        test_question.quintuple(
-            question,
-            sc_types.EDGE_D_COMMON_VAR,
-            sc_types.LINK_VAR,
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            nrel_node
-        )
-        test = search_by_template(test_question)
-        test = test[0]
-        test = test.get(2)
-        question_string = get_link_content(test)[0].data
-        print(question_string)
+        result_search = search_by_template(result_temp)
+        result_search = result_search[0].get(2)
+
+        result_set = ScNumberedSet(set_node = result_search)
+
+        # generated_question = sc_kpm.ScKeynodes["generated_question"]
+        # print(ScKeynodes["generated_question"])
+        # question_set = create_node(sc_types.NODE_VAR)
+        #
+        # question_template = ScTemplate()
+        # question_template.quintuple(
+        #     generated_question,
+        #     sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        #     sc_types.NODE_VAR,
+        #     sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        #     get_struct
+        # )
+        # search_question = search_by_template(question_template)
+        # question = search_question[0]
+        # question = question.get(2)
+        # test_question = ScTemplate()
+        # nrel_node = sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
+        # test_question.quintuple(
+        #     question,
+        #     sc_types.EDGE_D_COMMON_VAR,
+        #     sc_types.LINK_VAR,
+        #     sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        #     nrel_node
+        # )
+        # test = search_by_template(test_question)
+        # test = test[0]
+        # test = test.get(2)
+        # question_string = get_link_content(test)[0].data
+        # print(question_string)
         self.logger.info("Bot finished by TG Agent")
         return ScResult.OK
 
-#todo: возвращать все вопросы из агента
-#todo: уточнить как получить из класса всё что хочу
-#todo: упаковать и передавать всё полученное в ScTestQuestionClass
-#todo: profit
+#todo: намутить нормальный парсер, который пихал бы ответы и вопросы в словарь
+#todo: интегрировать с телегой
