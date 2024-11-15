@@ -2,7 +2,7 @@ import logging
 from re import search
 from tabnanny import check
 
-from sc_client.client import create_elements, generate_elements, search_by_template
+from sc_client.client import create_elements, generate_elements, search_by_template, get_link_content
 import time
 import sc_kpm
 from typing import Dict, List, Tuple, Union
@@ -75,28 +75,40 @@ class TelegramScAgent(ScAgentClassic):
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
             sc_types.NODE_VAR_NOROLE
         )
-
         search = search_by_template(template)
         get_struct = search[0]
         get_struct = get_struct.get(2)
+
+
         generated_question = sc_kpm.ScKeynodes["generated_question"]
         print(ScKeynodes["generated_question"])
         question_set = create_node(sc_types.NODE_VAR)
 
-
         question_template = ScTemplate()
-        question_template.triple(
-            get_struct,
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            question_set
-        )
-
-        question_template.triple(
+        question_template.quintuple(
             generated_question,
             sc_types.EDGE_ACCESS_VAR_POS_PERM,
-            question_set
+            sc_types.NODE_VAR,
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            get_struct
         )
         search_question = search_by_template(question_template)
+        question = search_question[0]
+        question = question.get(2)
+        test_question = ScTemplate()
+        nrel_node = sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
+        test_question.quintuple(
+            question,
+            sc_types.EDGE_D_COMMON_VAR,
+            sc_types.LINK_VAR,
+            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            nrel_node
+        )
+        test = search_by_template(test_question)
+        test = test[0]
+        test = test.get(2)
+        question_string = get_link_content(test)[0].data
+        print(question_string)
         self.logger.info("Bot finished by TG Agent")
         return ScResult.OK
 
