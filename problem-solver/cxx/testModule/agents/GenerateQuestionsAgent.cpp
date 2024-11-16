@@ -1,3 +1,5 @@
+#include <random>
+
 #include "GenerateQuestionsAgent.hpp"
 
 #include "keynodes/GenerateQuestionsKeynodes.hpp"
@@ -14,6 +16,16 @@ std::string replacePlaceholder(const std::string &str, const std::string &placeh
     return result;
 }
 
+int randomIntegerNumber(const int start, const int questionNumbers) {
+    std::random_device randomDevice;
+    std::mt19937 gen(randomDevice());
+    std::uniform_int_distribution<> distribution(start, questionNumbers - 1);
+
+    int randomIntegerNumber = distribution(gen);
+
+    return randomIntegerNumber;
+}
+
 ScAddr GenerateQuestionsAgent::GetActionClass() const {
     return GenerateQuestionsKeynodes::action_generate_questions;
 }
@@ -25,7 +37,7 @@ ScResult GenerateQuestionsAgent::DoProgram(ScAction &action) {
     ScIterator3Ptr const questionModelsIterator = m_context.CreateIterator3(
                 questionModelAddr,
                 ScType::ConstPermPosArc,
-                GenerateQuestionsKeynodes::define_model
+                ScType::ConstNode
             );
 
     // Заполнение итоговой структуры базовыми элементами
@@ -36,8 +48,13 @@ ScResult GenerateQuestionsAgent::DoProgram(ScAction &action) {
     scStructure.Append(questionsTupleConnector);
     scStructure.Append(GenerateQuestionsKeynodes::test);
 
+    int questionCount = 10;
+    int questionModelCount = 3;
+    int currentModelNumber = 0;
+
     // Проходим по всем моделям вопросов
     while (questionModelsIterator->Next()) {
+        currentModelNumber++;
         scStructure.Append(questionModelsIterator->Get(2));
         SC_LOG_INFO("Модель вопроса: " + m_context.GetElementSystemIdentifier(questionModelsIterator->Get(2)));
         // Итератор для обхода структур вопросов
@@ -90,12 +107,13 @@ ScResult GenerateQuestionsAgent::DoProgram(ScAction &action) {
             // Поиск результатов поиска по шаблону
             ScTemplateSearchResult result;
             m_context.SearchByTemplate(questionTemplate, result);
-            SC_LOG_INFO(result.Size());
+            int modelQuestionCount = randomIntegerNumber(0, questionCount / questionModelCount + 1);
+            modelQuestionCount = modelQuestionCount <= questionCount ? (currentModelNumber == questionModelCount ? questionCount : modelQuestionCount) : questionCount;
 
             // Генерация 10 вопросов по модели
-            for (size_t i = 0; i < 10; ++i) {
+            for (size_t i = 0; i < modelQuestionCount; ++i) {
                 ScTemplateResultItem concreteResult;
-                result.Get(i, concreteResult);
+                result.Get(randomIntegerNumber(0, result.Size()), concreteResult);
 
                 ScAddr questionStructAddr;
                 std::string placeholderText;
@@ -129,7 +147,7 @@ ScResult GenerateQuestionsAgent::DoProgram(ScAction &action) {
                 ScAddr questionTextLinkConnector = m_context.GenerateConnector(ScType::ConstCommonArc, generatedQuestionNode, questionTextLink);
                 ScAddr generatedQuestionCorrectAnswerNonRelationConnector = m_context.GenerateConnector(ScType::ConstPermPosArc, GenerateQuestionsKeynodes::nrel_generated_question_correct_answer, answerTermConnector);
                 ScAddr generatedQuestionTextNonRelationConnector = m_context.GenerateConnector(ScType::ConstPermPosArc, GenerateQuestionsKeynodes::nrel_generated_question_text, questionTextLinkConnector);
-                ScAddr questionOrderNode = m_context.SearchElementBySystemIdentifier("rrel_" + std::to_string(i + 1));
+                ScAddr questionOrderNode = m_context.SearchElementBySystemIdentifier("rrel_" + std::to_string(10 - questionCount + i + 1));
                 ScAddr tupleQuestionConnector = m_context.GenerateConnector(ScType::ConstPermPosArc, questionsTuple, generatedQuestionNode);
                 ScAddr questionOrderNodeNonRelationConnector = m_context.GenerateConnector(ScType::ConstPermPosArc, questionOrderNode, tupleQuestionConnector);
                 ScAddr generatedQuestionModelConnector = m_context.GenerateConnector(ScType::ConstCommonArc, generatedQuestionNode, questionModelsIterator->Get(2));
@@ -158,6 +176,7 @@ ScResult GenerateQuestionsAgent::DoProgram(ScAction &action) {
                 scStructure.Append(generatedQuestionModelConnectorNonRelationConnector);
                 scStructure.Append(generatedQuestionModelConnector);
             }
+            questionCount -= modelQuestionCount;
         }
     }
 

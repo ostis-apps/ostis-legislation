@@ -20,6 +20,7 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
             );
 
     while(generatedQuestionIterator->Next()) {
+        SC_LOG_INFO("generatedQuestionIterator: Enter");
         // Итератор по модели вопроса
         ScIterator5Ptr const questionModelIterator = m_context.CreateIterator5(
                 generatedQuestionIterator->Get(2),
@@ -31,6 +32,7 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
 
         ScAddr questionModel;
         while (questionModelIterator->Next()) {
+            SC_LOG_INFO("questionModelIterator: Enter");
             questionModel = questionModelIterator->Get(2);
         }
 
@@ -45,6 +47,7 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
 
         ScAddr answerTemplateAddr;
         while (answerStructIterator->Next()) {
+            SC_LOG_INFO("answerStructIterator: Enter");
             answerTemplateAddr = answerStructIterator->Get(2);
         }
 
@@ -58,6 +61,7 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
                 );
 
         while(relatedTermIterator->Next()) {
+            SC_LOG_INFO("relatedTermIterator: Enter");
             // Итератор по классу связанной сущности
             ScIterator3Ptr relatedTermClassIterator = m_context.CreateIterator3(
                     ScType::ConstNodeClass,
@@ -65,7 +69,8 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
                     relatedTermIterator->Get(2)
                     );
 
-            while (relatedTermIterator->Next()) {
+            while (relatedTermClassIterator->Next()) {
+                SC_LOG_INFO("relatedTermClassIterator: Enter");
                 // Итератор по всем одноклассовым понятиям
                 ScIterator3Ptr wrongAnswersIterator = m_context.CreateIterator3(
                         relatedTermClassIterator->Get(0),
@@ -73,6 +78,7 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
                         ScType::ConstNodeClass
                         );
                 while (wrongAnswersIterator->Next()) {
+                    SC_LOG_INFO("wrongAnswersIterator: Enter");
                     ScTemplate answerTemplate;
                     m_context.BuildTemplate(answerTemplate, answerTemplateAddr);
                     // Дополнение обычного шаблона для текста ответа принадлежностью к такому же классу
@@ -88,6 +94,7 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
                     SC_LOG_INFO(result.Size());
 
                     while (incorrectAnswersCount > 0) {
+                        SC_LOG_INFO("incorrectAnswersCount: Enter");
                         ScTemplateResultItem concreteIncorrectAnswer;
                         result.Get(incorrectAnswersCount, concreteIncorrectAnswer);
 

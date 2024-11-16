@@ -1,14 +1,15 @@
-import telebot
 from telebot import types
 from ScTestQuestionClass import ScTestQuestionClass
 from data import question_list
 import random
 from data import bot
-
+from ScTestTelegramAgent import TelegramScAgent as tg_agent
 
 class Telegram:
-    def __init__(self, sc_tg_question: list[ScTestQuestionClass]):
+    def __init__(self, agent: tg_agent(), sc_tg_question: list[ScTestQuestionClass]):
+        self.tg_agent = tg_agent()
         self.__sc_tg_question = sc_tg_question
+
 
     @property
     def sc_tg_question(self) -> list[ScTestQuestionClass]:
@@ -33,6 +34,7 @@ class Telegram:
         return question.incorrect_answers
 
 
+
 @bot.message_handler(commands=['start'])
 def start(message):
     if not question_list:
@@ -50,7 +52,7 @@ def start(message):
 
 
 user_states = {}
-telegram_questions = Telegram(sc_tg_question=question_list)
+telegram_questions = Telegram(tg_agent, sc_tg_question=question_list)
 print(f"Вопросы: {question_list}")
 print(f"Количество вопросов: {len(question_list)}")
 
@@ -71,19 +73,17 @@ def callback(call):
         correct_answer = question.correct_answer
         answers = question.incorrect_answers + [correct_answer]
 
-        # After shuffling, we know the correct answer index is the same as original_index
-        shuffled_answers = random.sample(answers, len(answers))
-        selected_answer = shuffled_answers[original_index]
+        selected_answer = answers[original_index]
 
-        # Debugging output
-        print(
-            f"Пользователь: {user_id}, Вопрос: {question.question}, Правильный ответ: {correct_answer}, Выбранный ответ: {selected_answer}"
-        )
+        print(f"Пользователь: {user_id}, Вопрос: {question.question}, Правильный ответ: {correct_answer}, Выбранный ответ: {selected_answer}")
 
         if selected_answer == correct_answer:
             bot.answer_callback_query(call.id, "✅ Правильно!")
+            tg_agent.add_answer_relation(tg_agent(),current_index, True)
+
         else:
             bot.answer_callback_query(call.id, "❌ Неправильно!")
+            tg_agent.add_answer_relation(tg_agent() ,current_index, False)
 
         user_states[user_id] += 1
         if user_states[user_id] < len(telegram_questions.sc_tg_question):
@@ -98,24 +98,15 @@ def send_question(message, user_id):
     if current_index >= len(telegram_questions.sc_tg_question):
         bot.send_message(message.chat.id, "Ошибка: больше вопросов нет.")
         return
-
     question = telegram_questions.sc_tg_question[current_index]
     correct_answer = question.correct_answer
     answers = question.incorrect_answers + [correct_answer]
-
-    # Create a list of tuples (answer, original_index)
     answers_with_index = [(answer, idx) for idx, answer in enumerate(answers)]
-
-    # Shuffle answers with their indices
     random.shuffle(answers_with_index)
-
-    # Create the markup and encode the shuffled answer index in the callback_data
     markup = types.InlineKeyboardMarkup()
     for i, (answer, original_index) in enumerate(answers_with_index):
-        callback_data = f"answer_{current_index}_{original_index}"  # Use the original index here
+        callback_data = f"answer_{current_index}_{original_index}"
         markup.add(types.InlineKeyboardButton(f"Вариант {i + 1}", callback_data=callback_data))
-
-    # Prepare the answer text for display
     answers_text = "\n\n".join([f"Вариант {i + 1}: {answer}" for i, (answer, _) in enumerate(answers_with_index)])
     try:
         bot.send_message(
@@ -125,7 +116,6 @@ def send_question(message, user_id):
         )
     except Exception as e:
         print(f"Ошибка при отправке вопроса: {e}")
-
 
 def start_bot():
     while True:
@@ -137,5 +127,4 @@ def start_bot():
     bot.stop_polling()
 
 
-#todo: намутить фикс правильных ответов и вопросов
 #todo: добавить удаление кнопок и приветственного сообщения
