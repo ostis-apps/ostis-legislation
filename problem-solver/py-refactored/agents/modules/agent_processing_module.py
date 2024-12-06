@@ -1,6 +1,5 @@
 from sc_kpm import ScModule
-from agent.ScTestTelegramAgent import TelegramScAgent
-
+from agents.model.sc_test_telegram_agent import TelegramScAgent
 import logging
 logging.basicConfig(level=logging.INFO)
 

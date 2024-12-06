@@ -1,8 +1,9 @@
 class ScTestQuestionClass:
-    def __init__(self, question: str, correct_answer: str, incorrect_answers: list[str]):
+    def __init__(self, question: str, correct_answer: str, incorrect_answers: list[str], message=""):
         self.__question = question
         self.__correct_answer = correct_answer
         self.__incorrect_answers = incorrect_answers
+        self.__message = message
 
     @property
     def question(self) -> str:

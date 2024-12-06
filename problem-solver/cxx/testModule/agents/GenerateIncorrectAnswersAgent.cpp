@@ -1,6 +1,28 @@
+#include <random>
+#include <set>
+
 #include "GenerateIncorrectAnswersAgent.hpp"
 
 #include "keynodes/GenerateIncorrectAnswersKeynodes.hpp"
+
+static int randomIntegerNumber(const int start, const int questionNumbers) {
+    std::random_device randomDevice;
+    std::mt19937 gen(randomDevice());
+    std::uniform_int_distribution<> distribution(start, questionNumbers - 1);
+
+    int randomIntegerNumber = distribution(gen);
+
+    return randomIntegerNumber;
+}
+
+bool contains(const std::vector<ScAddr>& vec, const ScAddr& item) {
+    for (const auto& element : vec) {
+        if (element == item) { // Сравниваем по полю id
+            return true;
+        }
+    }
+    return false;
+}
 
 ScAddr GenerateIncorrectAnswersAgent::GetActionClass() const {
     return GenerateIncorrectAnswersKeynodes::action_generate_incorrect_answers;
@@ -10,108 +32,102 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
     auto const & [generatedTestAddr] = action.GetArguments<1>();
     int incorrectAnswersCount = 3;
 
-    // Итератор по всем вопросам заданного теста
-    ScIterator5Ptr const generatedQuestionIterator = m_context.CreateIterator5(
-            ScType::ConstNodeTuple,
-            ScType::ConstPermPosArc,
-            ScType::ConstNode,
-            ScType::ConstPermPosArc,
-            generatedTestAddr
+    std::vector<ScAddr> incorrectAnswerAddrVector;
+
+    ScTemplate questionTemplate;
+    questionTemplate.Quintuple(
+                ScType::VarNodeTuple,
+                ScType::VarPermPosArc,
+                ScType::VarNode >> "_concrete_question",
+                ScType::VarPermPosArc,
+                generatedTestAddr
+            );
+    questionTemplate.Quintuple(
+                "_concrete_question",
+                ScType::VarCommonArc,
+                ScType::VarNodeClass >> "_related_term",
+                ScType::VarPermPosArc,
+                GenerateIncorrectAnswersKeynodes::nrel_related_term
+            );
+    questionTemplate.Quintuple(
+            "_concrete_question",
+            ScType::VarCommonArc,
+            ScType::VarNodeClass >> "_question_model",
+            ScType::VarPermPosArc,
+            GenerateIncorrectAnswersKeynodes::nrel_generated_question_model
+            );
+    questionTemplate.Quintuple(
+                "_question_model",
+                ScType::VarCommonArc,
+                ScType::VarNodeStructure >> "_question_struct",
+                ScType::VarPermPosArc,
+                GenerateIncorrectAnswersKeynodes::nrel_question_struct
+            );
+    questionTemplate.Quintuple(
+            "_question_model",
+            ScType::VarCommonArc,
+            ScType::VarNodeStructure >> "_answer_struct",
+            ScType::VarPermPosArc,
+            GenerateIncorrectAnswersKeynodes::nrel_answer_struct
             );
 
-    while(generatedQuestionIterator->Next()) {
-        SC_LOG_INFO("generatedQuestionIterator: Enter");
-        // Итератор по модели вопроса
-        ScIterator5Ptr const questionModelIterator = m_context.CreateIterator5(
-                generatedQuestionIterator->Get(2),
-                ScType::ConstCommonArc,
-                ScType::ConstNode,
-                ScType::ConstPermPosArc,
-                GenerateIncorrectAnswersKeynodes::nrel_generated_question_model
-        );
+    ScTemplateSearchResult questionTemplateSearchResult;
+    m_context.SearchByTemplate(questionTemplate, questionTemplateSearchResult);
+    SC_LOG_INFO(questionTemplateSearchResult.Size());
 
-        ScAddr questionModel;
-        while (questionModelIterator->Next()) {
-            SC_LOG_INFO("questionModelIterator: Enter");
-            questionModel = questionModelIterator->Get(2);
-        }
+    for (int i = 0; i < questionTemplateSearchResult.Size(); i++) {
+        ScTemplateResultItem questionResult;
+        questionTemplateSearchResult.Get(i, questionResult);
 
-        // Итератор для обхода структур ответов
-        ScIterator5Ptr const answerStructIterator = m_context.CreateIterator5(
-                questionModel,
-                ScType::ConstCommonArc,
-                ScType::ConstNodeStructure,
-                ScType::ConstPermPosArc,
-                GenerateIncorrectAnswersKeynodes::nrel_answer_struct
-        );
+        ScAddr questionAddr;
+        questionResult.Get("_concrete_question", questionAddr);
 
+        ScTemplateParams termPlaceholder;
+        ScAddr term;
+        questionResult.Get("_related_term", term);
+        termPlaceholder.Add("_term", term);
+
+        ScTemplateSearchResult sectionSearchResult;
+        ScTemplate answerTemplate;
         ScAddr answerTemplateAddr;
-        while (answerStructIterator->Next()) {
-            SC_LOG_INFO("answerStructIterator: Enter");
-            answerTemplateAddr = answerStructIterator->Get(2);
-        }
+        questionResult.Get("_answer_struct", answerTemplateAddr);
+        m_context.BuildTemplate(answerTemplate, answerTemplateAddr, termPlaceholder);
+        m_context.SearchByTemplate(answerTemplate, sectionSearchResult);
+        ScTemplateResultItem sectionResultItem;
+        sectionSearchResult.Get(0, sectionResultItem);
 
-        // Итератор для связанных понятий с вопросом
-        ScIterator5Ptr relatedTermIterator = m_context.CreateIterator5(
-                generatedQuestionIterator->Get(2),
-                ScType::ConstCommonArc,
-                ScType::ConstNodeClass,
-                ScType::ConstPermPosArc,
-                GenerateIncorrectAnswersKeynodes::nrel_related_term
-                );
+        ScAddr sectionAddr;
+        sectionResultItem.Get("_section", sectionAddr);
+        SC_LOG_INFO(m_context.GetElementSystemIdentifier(sectionAddr));
 
-        while(relatedTermIterator->Next()) {
-            SC_LOG_INFO("relatedTermIterator: Enter");
-            // Итератор по классу связанной сущности
-            ScIterator3Ptr relatedTermClassIterator = m_context.CreateIterator3(
-                    ScType::ConstNodeClass,
-                    ScType::ConstPermPosArc,
-                    relatedTermIterator->Get(2)
-                    );
+        ScTemplateParams sectionPlaceholder;
+        sectionPlaceholder.Add("_section", sectionAddr);
+        ScTemplate incorrectAnswerTemplate;
+        m_context.BuildTemplate(incorrectAnswerTemplate, answerTemplateAddr, sectionPlaceholder);
+        ScTemplateSearchResult incorrectAnswerSearchResult;
+        m_context.SearchByTemplate(incorrectAnswerTemplate, incorrectAnswerSearchResult);
+        SC_LOG_INFO(incorrectAnswerSearchResult.Size());
 
-            while (relatedTermClassIterator->Next()) {
-                SC_LOG_INFO("relatedTermClassIterator: Enter");
-                // Итератор по всем одноклассовым понятиям
-                ScIterator3Ptr wrongAnswersIterator = m_context.CreateIterator3(
-                        relatedTermClassIterator->Get(0),
-                        ScType::ConstPermPosArc,
-                        ScType::ConstNodeClass
-                        );
-                while (wrongAnswersIterator->Next()) {
-                    SC_LOG_INFO("wrongAnswersIterator: Enter");
-                    ScTemplate answerTemplate;
-                    m_context.BuildTemplate(answerTemplate, answerTemplateAddr);
-                    // Дополнение обычного шаблона для текста ответа принадлежностью к такому же классу
-                    answerTemplate.Triple(
-                            relatedTermClassIterator->Get(0),
-                            ScType::VarPermPosArc,
-                            "_term"
-                            );
-
-                    // Поиск результатов поиска по шаблону
-                    ScTemplateSearchResult result;
-                    m_context.SearchByTemplate(answerTemplate, result);
-                    SC_LOG_INFO(result.Size());
-
-                    while (incorrectAnswersCount > 0) {
-                        SC_LOG_INFO("incorrectAnswersCount: Enter");
-                        ScTemplateResultItem concreteIncorrectAnswer;
-                        result.Get(incorrectAnswersCount, concreteIncorrectAnswer);
-
-                        ScAddr concreteIncorrectAnswerTextAddr;
-                        concreteIncorrectAnswer.Get("_correct_answer", concreteIncorrectAnswerTextAddr);
-
-                        if (concreteIncorrectAnswerTextAddr == relatedTermIterator->Get(2)) {
-                            continue;
-                        }
-
-                        ScAddr incorrectAnswerConnector = m_context.GenerateConnector(ScType::ConstCommonArc, generatedQuestionIterator->Get(2), concreteIncorrectAnswerTextAddr);
-                        ScAddr nrelIncorrectAnswerConnector = m_context.GenerateConnector(ScType::ConstPermPosArc, GenerateIncorrectAnswersKeynodes::nrel_generated_question_incorrect_answer, incorrectAnswerConnector);
-
-                        incorrectAnswersCount--;
-                    }
-                }
+        std::set<int> answersIndexes;
+        for (int k = 0; k < incorrectAnswersCount; k++) {
+            int questionNumber = randomIntegerNumber(0, incorrectAnswerSearchResult.Size()-1);
+            ScTemplateResultItem incorrectAnswerResultItem;
+            incorrectAnswerSearchResult.Get(questionNumber, incorrectAnswerResultItem);
+            ScAddr incorrectAnswerTerm;
+            if (answersIndexes.find(questionNumber) == answersIndexes.end()) {
+                answersIndexes.insert(questionNumber);
+                ScAddr incorrectAnswerTextAddr;
+                incorrectAnswerResultItem.Get("_correct_answer", incorrectAnswerTextAddr);
+                std::string incorrectAnswerText;
+                m_context.GetLinkContent(incorrectAnswerTextAddr, incorrectAnswerText);
+                SC_LOG_INFO(incorrectAnswerText);
+                ScAddr incorrectAnswerLink = m_context.GenerateNode(ScType::ConstNodeLink);
+                m_context.SetLinkContent(incorrectAnswerLink, incorrectAnswerText);
+                ScAddr incorrectAnswerConnector = m_context.GenerateConnector(ScType::ConstCommonArc, questionAddr, incorrectAnswerLink);
+                ScAddr incorrectAnswerNonRoleConnector = m_context.GenerateConnector(ScType::ConstPermPosArc, GenerateIncorrectAnswersKeynodes::nrel_generated_question_incorrect_answer, incorrectAnswerConnector);
+                continue;
             }
+            k--;
         }
     }
 

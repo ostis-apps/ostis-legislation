@@ -16,6 +16,6 @@ public:
     static inline ScKeynode const nrel_generated_question_text{"nrel_generated_question_text", ScType::ConstNodeNonRole};
     static inline ScKeynode const test{"test", ScType::ConstNodeClass};
     static inline ScKeynode const nrel_generated_question_model{"nrel_generated_question_model", ScType::ConstNodeNonRole};
-    static inline ScKeynode const nrel_question_related_term{"nrel_question_related_term", ScType::ConstNodeNonRole};
+//    static inline ScKeynode const nrel_question_related_term{"nrel_question_related_term", ScType::ConstNodeNonRole};
     static inline ScKeynode const nrel_related_term{"nrel_related_term", ScType::ConstNodeNonRole};
 };

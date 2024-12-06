@@ -1,18 +1,14 @@
 import argparse
 import time
-import sys
 import threading
 from threading import Thread
 import sc_kpm
-from sc_client.client import create_elements, generate_elements
+from sc_client.client import generate_elements
 from sc_client.models import ScConstruction
 from sc_kpm import ScServer
 from sc_kpm.utils import create_node
-import signal
-from modules.AgentProcessingModule import AgentProcessingModule
-from shutdown_manager import shutdown_manager
+from modules.agent_processing_module import AgentProcessingModule
 from sc_client.constants import sc_types
-
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
@@ -29,7 +25,6 @@ SC_SERVER_PORT_DEFAULT = "8090"
 
 def init_agent():
     time.sleep(1)
-
     construction = ScConstruction()
     action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
     telegram_addr = sc_kpm.ScKeynodes['action_start_agent']
@@ -39,15 +34,11 @@ def init_agent():
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, action_initiated_addr)
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, class_node)
     construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_addr, class_node)
-    addrs = generate_elements(construction)
+    const: ScConstruction() = generate_elements(construction)
 
-
-def signal_handler(sig, frame):
-    shutdown_manager.stop()
 
 
 def main(args: dict):
-    signal.signal(signal.SIGINT, signal_handler)
     server = ScServer(f"{args['protocol']}://{args['host']}:{args['port']}")
     with server.connect():
         modules = [
@@ -57,6 +48,7 @@ def main(args: dict):
         init_thread = Thread(target=init_agent)
         init_thread.start()
         with server.register_modules():
+            print("111111")
             server.serve()
 
 
