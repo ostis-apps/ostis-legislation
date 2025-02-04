@@ -1,39 +1,57 @@
-FROM ubuntu:focal as base
+FROM ubuntu:noble AS base
 
 ENV CCACHE_DIR=/ccache
 USER root
 
-#install runtime dependencies
-COPY scripts /tmp/example-app/scripts
-COPY ostis-web-platform/scripts /tmp/example-app/ostis-web-platform/scripts
-COPY ostis-web-platform/sc-machine/scripts /tmp/example-app/ostis-web-platform/sc-machine/scripts
-COPY ostis-web-platform/sc-machine/requirements.txt /tmp/example-app/ostis-web-platform/sc-machine/requirements.txt
+COPY scripts /app/scripts
+COPY conanfile.py /app/conanfile.py
+COPY CMakePresets.json /app/CMakePresets.json
+COPY CMakeLists.txt /app/CMakeLists.txt
+COPY requirements.txt /app/requirements.txt
 
 # tini is an init system to forward interrupt signals properly
-RUN apt update && apt install -y --no-install-recommends sudo tini && \
-    /tmp/example-app/ostis-web-platform/sc-machine/scripts/install_deps_ubuntu.sh
+RUN apt update && apt install -y --no-install-recommends sudo tini curl ccache python3 python3-pip pipx cmake build-essential ninja-build
 
-#build using ccache
-FROM base as devdeps
-RUN /tmp/example-app/ostis-web-platform/sc-machine/scripts/install_deps_ubuntu.sh --dev
+# Install Conan
+RUN pipx install conan && \
+    pipx ensurepath
 
-FROM devdeps as devcontainer
-RUN apt install -y --no-install-recommends git cppcheck valgrind gdb bash-completion ninja-build curl
+FROM base AS devdeps
+WORKDIR /app
+
+SHELL ["/bin/bash", "-c"]
+RUN python3 -m venv /app/.venv && \
+    source /app/.venv/bin/activate && \
+    pip3 install -r /app/requirements.txt
+
+ENV PATH="/root/.local/bin:$PATH"
+RUN conan remote add ostis-ai https://conan.ostis.net/artifactory/api/conan/ostis-ai-sc-machine && \
+    conan profile detect && \
+    conan install . --build=missing
+
+# Install sc-machine binaries
+RUN curl -LO https://github.com/ostis-ai/sc-machine/releases/download/0.10.0/sc-machine-0.10.0-Linux.tar.gz && \
+    mkdir sc-machine && tar -xvzf sc-machine-0.10.0-Linux.tar.gz -C sc-machine --strip-components 1 && \
+    rm -rf sc-machine-0.10.0-Linux.tar.gz && rm -rf sc-machine/include
+
+FROM devdeps AS devcontainer
+RUN apt install -y --no-install-recommends cppcheck valgrind gdb bash-completion ninja-build curl
 ENTRYPOINT ["/bin/bash"]
 
-FROM devdeps as builder
-WORKDIR /example-app
+FROM devdeps AS builder
 COPY . .
-RUN --mount=type=cache,target=/ccache/ ./scripts/build_problem_solver.sh -r
+RUN --mount=type=cache,target=/ccache/ cmake --preset release-conan && cmake --build --preset release
 
-#Gathering all artifacts together
+# Gathering all artifacts together
 FROM base AS final
 
-COPY --from=builder /example-app/ostis-web-platform/sc-machine/scripts /example-app/ostis-web-platform/sc-machine/scripts
-COPY --from=builder /example-app/ostis-example-app.ini /example-app/ostis-example-app.ini
-COPY --from=builder /example-app/bin /example-app/bin
-WORKDIR /example-app
+COPY --from=builder /app/scripts /app/scripts
+COPY --from=builder /app/sc-machine /app/sc-machine
+COPY --from=builder /app/build/Release/extensions /app/build/Release/extensions
+COPY --from=builder /app/.venv /app/.venv
+
+WORKDIR /app
 
 EXPOSE 8090
 
-ENTRYPOINT ["/usr/bin/tini", "--", "/example-app/ostis-web-platform/sc-machine/scripts/docker_entrypoint.sh"]
+ENTRYPOINT ["/usr/bin/tini", "--", "/app/scripts/docker_entrypoint.sh"]
