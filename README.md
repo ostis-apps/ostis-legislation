@@ -4,57 +4,236 @@
 
 ## About
 
-OSTIS Legislation is an ostis-system based on [**ostis-web-platform**](https://github.com/ostis-ai/ostis-web-platform) and designed with [OSTIS Technology](https://github.com/ostis-ai).
+OSTIS Legislation is an ostis-system designed with [OSTIS Technology](https://github.com/ostis-ai).
 
 The OSTIS Legislation project aims to develop a personal legal assistant, providing individuals with a reliable and accessible source of legal information.
 
-## Installation
+## Docker
 
-For Ubuntu/Debian based distros:
+### Clone repository
+
+First, clone the repository and navigate to the project directory:
+
 ```sh
 git clone https://github.com/ostis-apps/ostis-legislation.git
 cd ostis-legislation
-./scripts/install.sh
+git checkout develop
+git submodule update --init --recursive
 ```
 
-## Build knowledge base
+To use Docker with ostis-legislation, follow these steps:
 
-Before first launch or after changes in KB you should build knowledge base. 
+1. Build the Docker images:
+
+    ```sh
+    docker compose build
+    ```
+
+2. Build the knowledge base:
+
+    ```sh
+    docker compose run --rm machine build
+    ```
+
+3. Start the ostis-system: 
+
+    ```sh
+    docker compose up
+    ```
+
+These commands will set up and run the entire ostis-system using Docker containers. The system will be accessible through the web interface at localhost:8000.
+
+If you need to rebuild the knowledge base after making changes, you can run the second command again. To stop the system, use:
 
 ```sh
-./scripts/build_kb.sh
+docker compose down
+```
+
+Note that you need to have Docker and Docker Compose installed on your system before running these commands.
+
+## Native
+
+### Clone repository
+
+First, clone the repository and navigate to the project directory:
+
+```sh
+git clone https://github.com/ostis-apps/ostis-legislation.git
+cd ostis-legislation
+git checkout develop
+git submodule update --init --recursive
+```
+
+### Install pipx
+
+To install pipx, use this guide: https://pipx.pypa.io/stable/installation/.
+
+### Install Conan
+
+Conan is a decentralized package manager for C/C++. It's used in this project to manage dependencies.
+
+```sh
+# Use pipx to install conan if not already installed
+pipx install conan
+pipx ensurepath
+```
+
+### Relaunch shell
+
+After installing Conan, relaunch your shell to ensure the new PATH is loaded:
+
+```sh
+exec $SHELL
+```
+
+### Install sc-machine libraries
+
+sc-machine libraries are the core components of the OSTIS Platform, used to develop C++ agents. They're installed using Conan:
+
+```sh
+conan remote add ostis-ai https://conan.ostis.net/artifactory/api/conan/ostis-ai-sc-machine
+conan profile detect
+conan install . --build=missing
+```
+
+### Install sc-machine binaries
+
+sc-machine binaries are pre-compiled executables that provide the runtime environment for the ostis-system: build knowledge base source and launch the ostis-system. The installation process differs slightly between Linux and macOS:
+
+#### Linux
+
+```sh
+curl -LO https://github.com/ostis-ai/sc-machine/releases/download/0.10.0/sc-machine-0.10.0-Linux.tar.gz
+mkdir sc-machine && tar -xvzf sc-machine-0.10.0-Linux.tar.gz -C sc-machine --strip-components 1
+rm -rf sc-machine-0.10.0-Linux.tar.gz && rm -rf sc-machine/include
+```
+
+#### macOS
+
+```sh
+curl -LO https://github.com/ostis-ai/sc-machine/releases/download/0.10.0/sc-machine-0.10.0-Darwin.tar.gz
+mkdir sc-machine && tar -xvzf sc-machine-0.10.0-Darwin.tar.gz -C sc-machine --strip-components 1
+rm -rf sc-machine-0.10.0-Darwin.tar.gz && rm -rf sc-machine/include
+```
+
+### Install Python problem-solver dependencies
+
+To install python dependencies, run:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r requirements.txt
+```
+
+### Install sc-web
+
+sc-web provides the web-based user interface for the ostis-system. The installation process includes setting up dependencies and building the interface:
+
+#### Ubuntu
+
+```sh
+cd interface/sc-web
+./scripts/install_deps_ubuntu.sh
+npm run build
+cd ../..
+```
+
+#### macOS
+
+```sh
+cd interface/sc-web
+./scripts/install_deps_macOS.sh
+npm run build
+cd ../..
+```
+
+## Build
+
+### Build C++ problem solver
+
+The problem solver contains custom agents for your ostis-system. Build it using CMake:
+
+```sh
+cmake --preset release-conan
+cmake --build --preset release
+```
+
+### Build knowledge base
+
+The knowledge base contains your custom knowledge represented in SC-code. It needs to be built before launching the system or after making changes:
+
+```sh
+./sc-machine/bin/sc-builder -i repo.path -o kb.bin --clear
 ```
 
 ## Usage
 
-To launch system you should start sc-server:
+To launch C++ problem solver you should start sc-machine in the first terminal:
 ```sh
-./scripts/run_sc_server.sh
+./sc-machine/bin/sc-machine -s kb.bin -e "sc-machine/lib/extensions;build/Release/extensions"
 ```
 
-After that launch sc-web interface:
+To launch Python problem solver you should start sc-machine in the second terminal:
+```sh
+source .venv/bin/activate && python3 problem-solver/py/server.py
+```
+
+After that launch sc-web interface in the third terminal:
 
 ```sh
-./scripts/run_sc_web.sh
+cd interface/sc-web
+source .venv/bin/activate && python3 server/app.py
 ```
 
 To check that everything is fine open localhost:8000 in your browser.
-![](https://i.imgur.com/zOQ7H6U.png)
+![](https://i.imgur.com/6SehI5s.png)
+
+## Documentation
+
+Run on Linux:
+```sh
+#Terminal
+pip3 install mkdocs markdown-include mkdocs-material
+mkdocs serve
+```
+
+Then open http://127.0.0.1:8005/ in your browser.
+
+Please note that the documentation for this project is still under development and contains only partial information.
 
 ## Project Structure
 
 ### Knowledge Base
 
-`kb` is the place for the knowledge base source text files of your app. Put your **.scs** and **.gwf** files here.
+`knowledge-base` is the place for the knowledge base source text files of your app. Put your .scs and .gwf files here.
+
+After updating your .scs and .gwf files you need to rebuild `knowledge-base`:
+
+```sh
+./sc-machine/bin/sc-builder -i repo.path -o kb.bin --clear
+```
 
 ### Problem Solver
 
 `problem-solver` is the place for the problem solver of your app. Put your agents here. After changes in problem-solver you should rebuild it:
+
+After updating your C++ code you need to rebuild `problem-solver`:
+
 ```sh
-./scripts/build_problem_solver.sh
+cmake --preset release-conan
+cmake --build --preset release
 ```
 
-To enable DEBUG set fields in ostis-example-app.ini:
+To build C++ code in debug mode, run:
+
+```sh
+conan install . --build=missing -s build_type=Debug
+cmake --preset debug-conan
+cmake --build --preset debug
+```
+
+To enable Debug logs set fields in ostis-legislation.ini:
 
 ```sh
 log_type = Console
@@ -62,23 +241,9 @@ log_file = sc-memory.log
 log_level = Debug
 ```
 
-### Interface
+## Codestyle
 
-`interface` is the place for your interface modules.
-
-To learn more about creating web components for the new web interface version follow this [link](https://github.com/MikhailSadovsky/sc-machine/tree/example/web/client)
-
-### Scripts
-
-`scripts` is the place for scripts files of your app. There are a few scripts already:
-
-* build_problem_solver.sh [-f, --full]
-
-Build the problem-solver of your app. Use an argument *-f* or *--full* for a complete rebuild of the problem-solver with the deleting of the *ostis-web-platform/sc-machine/bin* and *ostis-web-platform/sc-machine/build* folders.
-
-* install_submodules.sh
-
-Install or update the OSTIS platform.
+This project inherits codestyle from sc-machine, which can be found [here](https://ostis-ai.github.io/sc-machine/dev/codestyle/).
 
 ## Author
 
