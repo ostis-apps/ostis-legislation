@@ -3,7 +3,7 @@ import configparser
 
 class Config:
     config = configparser.ConfigParser()
-    config.read('cfg.ini')
+    config.read('problem-solver/py/cfg.ini')
 
     AGENTS_TO_LOAD = {
         "incorrect_answer_agent": "agents.ostis.ScGenerateIncorrectAnswerAgent",

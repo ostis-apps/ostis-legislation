@@ -1,4 +1,4 @@
-from agent_factory import load_agents
+from ..agent_factory import load_agents
 
 
 class RecommendationsAgentProxy:

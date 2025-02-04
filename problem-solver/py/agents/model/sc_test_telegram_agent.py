@@ -1,19 +1,17 @@
 import logging
-from sc_kpm.identifiers import CommonIdentifiers
-from agent_factory import load_agents
+from ..agent_factory import load_agents
 from agents.model.sc_test_question_class import ScTestQuestionClass
 from sc_client.client import search_by_template, get_link_content
 import time
 import sc_kpm
-from sc_client.models import ScAddr, ScTemplate, ScTemplateResult
-from sc_client.constants import sc_types
+from sc_client.models import ScAddr, ScTemplate
+from sc_client.constants import sc_type
 from sc_kpm import ScAgentClassic, ScResult, ScKeynodes
-from sc_kpm.sc_sets import ScNumberedSet, ScStructure
+from sc_kpm.sc_sets import ScNumberedSet
 import threading
 import sc_kpm.utils as utils
-from sc_kpm.utils import create_node, create_edge, get_element_by_norole_relation, delete_edges
-from model.telegram import run_bot, bot
-from cfg import Config
+from sc_kpm.utils import generate_connector
+from .telegram import run_bot, bot
 logging.basicConfig(level=logging.INFO)
 
 class TelegramScAgent(ScAgentClassic):
@@ -52,8 +50,8 @@ def get_question_agent_struct() -> ScAddr:
     template = ScTemplate()
     template.triple(
         ScKeynodes.get("action_generate_questions"),
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
-        sc_types.NODE_VAR
+        sc_type.VAR_PERM_POS_ARC,
+        sc_type.VAR_NODE
     )
     result = search_by_template(template)
     time.sleep(1)
@@ -62,9 +60,9 @@ def get_question_agent_struct() -> ScAddr:
     time.sleep(1)
     template.quintuple(
         node,
-        sc_types.EDGE_D_COMMON_VAR,
-        sc_types.NODE_VAR_STRUCT,
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        sc_type.VAR_COMMON_ARC,
+        sc_type.VAR_NODE_STRUCTURE,
+        sc_type.VAR_PERM_POS_ARC,
         ScKeynodes.get("nrel_result")
     )
     time.sleep(1)
@@ -77,8 +75,8 @@ def init_test_set(struct) -> list[ScAddr]:
     template = ScTemplate()
     template.triple(
         struct,
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
-        sc_types.NODE_VAR_TUPLE
+        sc_type.VAR_PERM_POS_ARC,
+        sc_type.VAR_NODE_TUPLE
     )
     result = search_by_template(template)
     result = result[0][2]
@@ -110,9 +108,9 @@ def parse_incorrect_answer(numbered_set: list[ScAddr]) -> list[str]:
     incorrect_form = ScTemplate()
     incorrect_form.quintuple(
         numbered_set[0],
-        sc_types.EDGE_D_COMMON_VAR,
-        sc_types.LINK_VAR,
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        sc_type.VAR_COMMON_ARC,
+        sc_type.VAR_NODE_LINK,
+        sc_type.VAR_PERM_POS_ARC,
         sc_kpm.ScKeynodes["nrel_generated_question_incorrect_answer"]
     )
     incorrect_search = search_by_template(incorrect_form)
@@ -124,9 +122,9 @@ def parse_correct_answer(numbered_set: list[ScAddr]) -> str:
     template = ScTemplate()
     template.quintuple(
         numbered_set[0],
-        sc_types.EDGE_D_COMMON_VAR,
-        sc_types.LINK_VAR,
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        sc_type.VAR_COMMON_ARC,
+        sc_type.VAR_NODE_LINK,
+        sc_type.VAR_PERM_POS_ARC,
         sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
     )
     question = search_by_template(template)
@@ -138,9 +136,9 @@ def parse_question(numbered_set: list[ScAddr]) -> str:
     template = ScTemplate()
     template.quintuple(
         numbered_set[0],
-        sc_types.EDGE_D_COMMON_VAR,
-        sc_types.LINK_VAR,
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        sc_type.VAR_COMMON_ARC,
+        sc_type.VAR_NODE_LINK,
+        sc_type.VAR_PERM_POS_ARC,
         sc_kpm.ScKeynodes["nrel_generated_question_text"]
     )
     question = search_by_template(template)
@@ -156,15 +154,15 @@ def add_pos_relation(question_index: int):
         answer = ScTemplate()
         answer.quintuple(
             question_node,
-            sc_types.EDGE_D_COMMON_VAR,
-            sc_types.LINK_VAR,
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            sc_type.VAR_COMMON_ARC,
+            sc_type.VAR_NODE_LINK,
+            sc_type.VAR_PERM_POS_ARC,
             sc_kpm.ScKeynodes["nrel_generated_question_correct_answer"]
         )
         answer_search = search_by_template(answer)
         if answer_search:
             binary_edge = answer_search[0].get(1)
-            create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, ScKeynodes.resolve("nrel_user_answer", sc_types.NODE_CONST_NOROLE), binary_edge)
+            generate_connector(sc_type.CONST_PERM_POS_ARC, ScKeynodes.resolve("nrel_user_answer", sc_type.CONST_NODE_NON_ROLE), binary_edge)
     else:
         logging.error(f"Invalid question index: {question_index}. It should be less than {len(numbered_set)}.")
 
@@ -177,14 +175,14 @@ def add_neg_relation(question_index: int):
         answer = ScTemplate()
         answer.quintuple(
             question_node,
-            sc_types.EDGE_D_COMMON_VAR,
-            sc_types.LINK_VAR,
-            sc_types.EDGE_ACCESS_VAR_POS_PERM,
+            sc_type.VAR_COMMON_ARC,
+            sc_type.VAR_NODE_LINK,
+            sc_type.VAR_PERM_POS_ARC,
             sc_kpm.ScKeynodes["nrel_generated_question_incorrect_answer"]
         )
         answer_search = search_by_template(answer)
         if answer_search:
             binary_edge = answer_search[0].get(1)
-            create_edge(sc_types.EDGE_ACCESS_CONST_POS_PERM, ScKeynodes.resolve("nrel_user_answer", sc_types.NODE_CONST_NOROLE), binary_edge)
+            generate_connector(sc_type.CONST_PERM_POS_ARC, ScKeynodes.resolve("nrel_user_answer", sc_type.CONST_NODE_NON_ROLE), binary_edge)
     else:
         logging.error(f"Invalid question index: {question_index}. It should be less than {len(numbered_set)}.")

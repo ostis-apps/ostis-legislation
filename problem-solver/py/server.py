@@ -6,9 +6,9 @@ import sc_kpm
 from sc_client.client import generate_elements
 from sc_client.models import ScConstruction
 from sc_kpm import ScServer
-from sc_kpm.utils import create_node
-from modules.agent_processing_module import AgentProcessingModule
-from sc_client.constants import sc_types
+from sc_kpm.utils import generate_node
+from agents.modules.agent_processing_module import AgentProcessingModule
+from sc_client.constants import sc_type
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
@@ -29,12 +29,12 @@ def init_agent():
     action_initiated_addr = sc_kpm.ScKeynodes['action_initiated']
     telegram_addr = sc_kpm.ScKeynodes['action_start_agent']
     action_addr = sc_kpm.ScKeynodes['action']
-    class_node = create_node(sc_types.NODE_CONST)
-    construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, class_node)
-    construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, telegram_addr, action_initiated_addr)
-    construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_initiated_addr, class_node)
-    construction.generate_connector(sc_types.EDGE_ACCESS_CONST_POS_PERM, action_addr, class_node)
-    const: ScConstruction() = generate_elements(construction)
+    class_node = generate_node(sc_type.CONST_NODE)
+    construction.generate_connector(sc_type.CONST_PERM_POS_ARC, telegram_addr, class_node)
+    construction.generate_connector(sc_type.CONST_PERM_POS_ARC, telegram_addr, action_initiated_addr)
+    construction.generate_connector(sc_type.CONST_PERM_POS_ARC, action_initiated_addr, class_node)
+    construction.generate_connector(sc_type.CONST_PERM_POS_ARC, action_addr, class_node)
+    generate_elements(construction)
 
 
 
@@ -48,7 +48,6 @@ def main(args: dict):
         init_thread = Thread(target=init_agent)
         init_thread.start()
         with server.register_modules():
-            print("111111")
             server.serve()
 
 

@@ -1,15 +1,15 @@
 import random
 import threading
 from sc_client.client import search_by_template, get_link_content
-from sc_client.constants import sc_types
+from sc_client.constants import sc_type
 import sc_kpm
 import telebot
 from sc_client.models import ScTemplate
 from telebot import types
 from cfg import Config
-from model.proxy_clearing import ClearingProxy
-from model.proxy_relation import RelationHandler
-from model.proxy_recommendations import RecommendationsAgentProxy
+from .proxy_clearing import ClearingProxy
+from .proxy_relation import RelationHandler
+from .proxy_recommendations import RecommendationsAgentProxy
 
 shutdown_event = threading.Event()
 
@@ -154,9 +154,9 @@ def get_recommendation_text() -> str:
     template = ScTemplate()
     template.quintuple(
         sc_kpm.ScKeynodes["test"],
-        sc_types.EDGE_D_COMMON_VAR,
-        sc_types.LINK_VAR,
-        sc_types.EDGE_ACCESS_VAR_POS_PERM,
+        sc_type.VAR_COMMON_ARC,
+        sc_type.VAR_NODE_LINK,
+        sc_type.VAR_PERM_POS_ARC,
         sc_kpm.ScKeynodes["nrel_test_recommendations"]
     )
     result = search_by_template(template)
