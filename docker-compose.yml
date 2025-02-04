@@ -1,8 +1,8 @@
 services:
   web:
-    image: ostis/sc-web:0.8.0-Fusion
+    image: ostis/sc-web:0.9.0
     build:
-      context: ./ostis-web-platform/sc-web
+      context: ./interface/sc-web
     restart: unless-stopped
     ports:
       - "8000:8000"
@@ -15,31 +15,34 @@ services:
         condition: service_healthy
 
   machine:
-    image: ostis/sc-machine:0.8.0-Fusion
+    image: ostis/sc-machine:0.10.0
     build:
       context: ./
     restart: unless-stopped
     volumes:
-      - ./:/kb
+      # TODO(NikitaZotov): Don't load all project sources to volume to build knowledge-base.
+      - ./:/knowledge-base
       - kb-binary:/kb.bin
     networks:
       - sc-machine
     ports:
       - "8090:8090"
     healthcheck:
-      test: "python3 /example-app/ostis-web-platform/sc-machine/scripts/healthcheck.py"
+      test: "/bin/bash -c 'source /app/.venv/bin/activate && python3 /app/scripts/healthcheck.py'"
       interval: 5s
       timeout: 10s
       retries: 3
-      start_period: 120s
+      # start_period: 120s
     environment:
-      # Use the commented env variable if you need to rebuild KB every startup.
+      # Use the commented env variable if you need to rebuild KB every startup. Also, use commented start period.
       #- "REBUILD_KB=1"
-      - "KB_PATH=/kb/repo.path"
-      - "BINARY_PATH=/example-app/bin"
-      - "CONFIG_PATH=/kb/ostis-example-app.ini"
+      - "KB_PATH=/knowledge-base/repo.path"
+      - "BINARY_PATH=/app/sc-machine/bin"
+      - "CONFIG_PATH=/knowledge-base/ostis-legislation.ini"
+      - "EXTENSIONS_PATH=/app/build/Release/extensions;/app/sc-machine/lib/extensions"
+      - "SC_SERVER_HOST=0.0.0.0"
     command:
-      - "serve"
+      - "run"
 
 volumes:
   kb-binary: {}
