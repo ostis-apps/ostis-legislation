@@ -7,3 +7,4 @@ then
 fi
 
 "${PLATFORM_PATH}/scripts/build_sc_machine.sh" "$@"
+"${APP_ROOT_PATH}/scripts/build_py_agents.sh"

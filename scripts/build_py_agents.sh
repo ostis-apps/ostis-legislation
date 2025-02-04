@@ -9,7 +9,6 @@ fi
 
 original_dir=$(pwd)
 
-cd "${APP_ROOT_PATH}/problem-solver/jesc"
-./gradlew shadowJars
+cd "${APP_ROOT_PATH}/problem-solver/py-agent/agent"
 
 cd "$original_dir"
