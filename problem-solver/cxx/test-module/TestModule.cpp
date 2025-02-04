@@ -5,6 +5,6 @@
 #include "agents/GenerateRecommendationsAgent.hpp"
 
 SC_MODULE_REGISTER(TestModule)
-->Agent<GenerateQuestionsAgent>()
-->Agent<GenerateIncorrectAnswersAgent>()
-->Agent<GenerateRecommendationsAgent>();
+    ->Agent<GenerateQuestionsAgent>()
+    ->Agent<GenerateIncorrectAnswersAgent>()
+    ->Agent<GenerateRecommendationsAgent>();
