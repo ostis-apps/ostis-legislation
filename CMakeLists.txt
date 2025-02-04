@@ -33,4 +33,4 @@ endif()
 
 find_package(sc-machine REQUIRED)
 
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/problem-solver)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/problem-solver/cxx)
