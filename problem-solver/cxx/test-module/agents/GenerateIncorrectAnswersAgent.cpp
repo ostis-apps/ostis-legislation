@@ -133,4 +133,3 @@ ScResult GenerateIncorrectAnswersAgent::DoProgram(ScAction &action) {
 
     return action.FinishSuccessfully();
 }
-
