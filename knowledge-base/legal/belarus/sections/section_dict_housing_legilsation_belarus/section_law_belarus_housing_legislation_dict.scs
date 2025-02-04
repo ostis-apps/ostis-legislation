@@ -1,0 +1,1296 @@
+section_law_belarus_housing_legislation_dict
+=> nrel_main_idtf: [Раздел. Словарь по жилищному законодательству Республики Беларусь] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Section. Dictionary of housing legislation of the Republic of Belarus] (* <- lang_en;; *);
+=> nrel_main_idtf: [Раздзел. Слоўнік па жыллёвым заканадаўстве Рэспублікі Беларусь] (* <- lang_by;; *);
+
+<-concept_dictionary;
+
+-> rrel_key_sc_element:
+    concept_rental_housing_belarus(*
+        => nrel_main_idtf: [арендное жилье] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [rental housing] (* <- lang_en;; *);;
+        => nrel_main_idtf: [арэнднае жыллё] (* <- lang_by;; *);;
+
+        <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Арендное жилье – жилые помещения государственного жилищного фонда, предоставляемые гражданам на условиях договора найма арендного жилья.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Арэнднае жыллё - жылыя памяшканні дзяржаўнага жыллёвага фонду, якія прадстаўляюцца грамадзянам на ўмовах дагавора найму арэнднага жылля.] (* <- lang_by;; *);;
+                        -> rrel_example: [Rental housing – residential premises of the state housing stock, provided to citizens under the terms of a rental housing lease agreement.] (* <- lang_en;; *);;
+					*);;
+			*);;
+    
+        <- concept_housing;;
+
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_close_relatives_belarus(*
+        => nrel_main_idtf: [близкие родственники] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [блізкія сваякі] (* <- lang_by;; *);;
+        => nrel_main_idtf: [close relatives] (* <- lang_en;; *);;
+
+        <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+				        -> rrel_example: [Близкие родственники – супруг (супруга), родители, усыновители (удочерители), дети, в том числе усыновленные (удочеренные), родные братья и сестры, дед, бабка и внуки.] (* <- lang_ru;; *);;
+				        -> rrel_example: [Блізкія сваякі - муж (жонка), бацькі, усынавіцелі (удачарыцелі), дзеці, у тым ліку ўсыноўленыя (удачараваныя), родныя браты і сёстры, дзед, бабка і ўнукі.] (* <- lang_by;; *);;
+				        -> rrel_example: [Close relatives - spouse, parents, adoptive parents, children, including adopted children, siblings, grandparents and grandchildren.] (* <- lang_en;; *);;
+					*);;
+			*);;
+    
+        <- concept_housing;;
+
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_blocked_residential_building_belarus(*
+        => nrel_main_idtf: [блокированный жилой дом] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [blocked residential building] (* <- lang_en;; *);;
+        => nrel_main_idtf: [блакаваны жылы дом] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Блокированный жилой дом – жилой дом, состоящий из двух и более квартир или двух и более квартир и вспомогательных помещений, каждая из которых имеет вход непосредственно с придомовой территории.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Blocked residential building - a residential building consisting of two or more apartments or two or more apartments and auxiliary premises, each of which has an entrance directly from the local area.] (* <- lang_en;; *);;
+                        -> rrel_example: [Блакаваны жылы дом - жылы дом, які складаецца з двух і больш кватэр або двух і больш кватэр і дапаможных памяшканняў, кожная з якіх мае ўваход непасрэдна з прыдамавой тэрыторыі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_former_family_member_belarus(*
+        => nrel_main_idtf: [бывший член семьи] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [былы член сям'і] (* <- lang_by;; *);;
+        => nrel_main_idtf: [a former family member] (* <- lang_en;; *);;
+
+        <- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			<= nrel_sc_text_translation: ...
+            (*
+				-> rrel_example: [Бывший член семьи – гражданин Республики Беларусь, а также иностранный гражданин, лицо без гражданства (далее, если иное не установлено настоящим Кодексом, – гражданин), утратившие статус члена семьи собственника, нанимателя жилого помещения, гражданина, являющегося членом организации застройщиков, лизингополучателя жилого помещения в результате расторжения брака, лишения родительских прав, расторжения письменного соглашения о признании членом семьи или по иным основаниям, предусмотренным законодательством, и продолжающие проживать в жилом помещении собственника, нанимателя жилого помещения, гражданина, являющегося членом организации застройщиков, лизингополучателя жилого помещения.] (* <- lang_ru;; *);;
+				-> rrel_example: [Былы член сям'і - грамадзянін Рэспублікі Беларусь, а таксама замежны грамадзянін, асоба без грамадзянства (далей, калі іншая не ўстаноўлена гэтым Кодэксам, - грамадзянін), якія страцілі статус члена сям'і ўласніка, наймальніка жылога памяшкання, грамадзяніна, які з'яўляецца членам арганізацыі забудоўшчыкаў, лізінгаатрымальніка жылога памяшкання ў выніку скасавання шлюбу, пазбаўлення бацькоўскіх правоў, скасавання пісьмовага пагаднення аб прызнанні членам сям'і або па іншых падставах, прадугледжаных заканадаўствам, і прадаўжаючыя пражываць у жылым памяшканні ўласніка, наймальніка жылога памяшкання, грамадзяніна, які з'яўляецца членам арганізацыі забудоўшчыкаў, лізінгаатрымальніка.] (* <- lang_by;; *);;
+				-> rrel_example: [A former family member is a citizen of the Republic of Belarus, as well as a foreign citizen, a stateless person (hereinafter, unless otherwise established by this Code, a citizen), who have lost the status of a family member of the owner, tenant of a residential premises, citizen who is a member of a developer organization, lessee residential premises as a result of divorce, deprivation of parental rights, termination of a written agreement on recognition as a family member or on other grounds provided for by law, and continuing to live in the residential premises of the owner, tenant of the residential premises, citizen who is a member of the organization of developers, lessee of the residential premises.] (* <- lang_en;; *);;
+			*);;
+		*);;
+
+        <- concept_housing;;
+
+        <- belarus_legal_term;;
+		<- sc_node_not_relation;;
+    *);
+
+
+    concept_auxiliary_premises_belarus(*
+        => nrel_main_idtf: [вспомогательное помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [auxiliary premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [дапаможнае памяшканне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Вспомогательное помещение – помещение, расположенное внутри блокированного, многоквартирного жилого дома, общежития за пределами жилых и (или) нежилых помещений, предназначенное для обеспечения эксплуатации жилого дома (вестибюль, коридор, галерея, лестничные марши и площадки, проходы, запасные выходы, лифтовые холлы и другие помещения).] (* <- lang_ru;; *);;
+                        -> rrel_example: [Auxiliary premises - a room located inside a blocked, multi-apartment residential building, dormitory outside residential and (or) non-residential premises, intended to ensure the operation of a residential building (lobby, corridor, gallery, flights of stairs and landings, passages, emergency exits, elevator halls and other rooms).] (* <- lang_en;; *);;
+                        -> rrel_example: [Дапаможнае памяшканне - памяшканне, размешчанае ўнутры блакіраванага, шматкватэрнага жылога дома, інтэрнаты за межамі жылых і (або) нежылых памяшканняў, прызначанае для забеспячэння эксплуатацыі жылога дома (вестыбюль, калідор, галерэя, лесвічныя маршы і пляцоўкі, праходы, запасныя выхады, ліфтавыя хол іншыя памяшканні).] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_entry_fee_belarus(*
+        => nrel_main_idtf: [вступительный взнос] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [entry fee] (* <- lang_en;; *);;
+        => nrel_main_idtf: [уступны ўзнос] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Вступительный взнос – сумма денежных средств, вносимая гражданином, в том числе индивидуальным предпринимателем, юридическим лицом при вступлении в организацию застройщиков, товарищество собственников (далее, если иное не установлено настоящим Кодексом, – организация собственников) и предназначенная для покрытия расходов, связанных с деятельностью организации собственников.] (* <- lang_ru;; *);;
+					-> rrel_example: [Уступны ўзнос - сума грашовых сродкаў, якая ўносіцца грамадзянінам, у тым ліку індывідуальным прадпрымальнікам, юрыдычнай асобай пры ўступленні ў арганізацыю забудоўшчыкаў, таварыства ўласнікаў (далей, калі іншае не ўстаноўлена гэтым Кодэксам, - арганізацыя ўласнікаў) і прызначаная для пакрыцця расходаў, звязаных з дзейнасцю арганізацыі ўласнікаў.] (* <- lang_by;; *);;
+					-> rrel_example: [Entry fee - the amount of money contributed by a citizen, including an individual entrepreneur, a legal entity upon joining a developer organization, an owner’s association (hereinafter, unless otherwise established by this Code, an owner’s organization) and intended to cover expenses associated with activities of the owners' organization.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+    
+
+    concept_state_support_for_the_construction_reconstruction_or_acquisition_of_residential_premises_belarus(*
+        => nrel_main_idtf: [государственная поддержка при строительстве (реконструкции) или приобретении жилых помещений] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [state support for the construction (reconstruction) or acquisition of residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [дзяржаўная падтрымка пры будаўніцтве (рэканструкцыі) або набыцці жылых памяшканняў] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Государственная поддержка при строительстве (реконструкции) или приобретении жилых помещений – комплекс мер, направленных на оказание гражданам, состоящим на учете нуждающихся в улучшении жилищных условий, поддержки государства (льготные кредиты, одноразовые субсидии на строительство (реконструкцию) или приобретение жилых помещений, субсидии на уплату части процентов за пользование кредитами, выдаваемыми банками на строительство (реконструкцию) жилых помещений, субсидии на погашение основного долга по этим кредитам и другие виды государственной поддержки в соответствии с законодательными актами) при строительстве (реконструкции) или приобретении жилых помещений, а также финансовая помощь государства в погашении задолженности по льготным кредитам, полученным на указанные цели.] (* <- lang_ru;; *);;
+					-> rrel_example: [Дзяржаўная падтрымка пры будаўніцтве (рэканструкцыі) або набыцці жылых памяшканняў - комплекс мер, накіраваных на аказанне грамадзянам, якія стаяць на ўліку маючых патрэбу ў паляпшэнні жыллёвых умоў, падтрымкі дзяржавы (льготныя крэдыты, аднаразовыя субсідыі на будаўніцтва (рэканструкцыю) або набыццё жылых памяшканняў, субсідыі на выплату часткі працэнтаў за карыстанне крэдытамі, якія выдаюцца банкамі на будаўніцтва (рэканструкцыю) жылых памяшканняў, субсідыі на пагашэнне асноўнага доўгу па гэтых крэдытах і іншыя віды дзяржаўнай падтрымкі ў адпаведнасці з заканадаўчымі актамі) пры будаўніцтве (рэканструкцыі) або набыцці жылых памяшканняў, а таксама фінансавая дапамога дзяржавы ў пагашэнні запазычанасці па льготных крэдытах, атрыманых на названыя мэты.] (* <- lang_by;; *);;
+					-> rrel_example: [State support for the construction (reconstruction) or acquisition of residential premises - a set of measures aimed at providing citizens registered as needing improved housing conditions with state support (preferential loans, one-time subsidies for the construction (reconstruction) or acquisition of residential premises, subsidies to pay part of the interest for the use of loans issued by banks for the construction (reconstruction) of residential premises, subsidies for repayment of the principal debt on these loans and other types of state support in accordance with legislative acts) during the construction (reconstruction) or acquisition of residential premises, as well as financial state assistance in repaying debts on soft loans received for these purposes.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_living_room_belarus(*
+        => nrel_main_idtf: [жилая комната] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [living room] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылы пакой] (* <- lang_by;; *);;
+
+        <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Жилая комната – жилое помещение, находящееся внутри квартиры или жилого дома, иного капитального строения (здания, сооружения).] (* <- lang_ru;; *);;
+                        -> rrel_example: [Жылы пакой - жылое памяшканне, якое знаходзіцца ўнутры кватэры або жылога дома, іншага капітальнага будынка (будынка, збудаванні).] (* <- lang_by;; *);;
+                        -> rrel_example: [Living room is a living space located inside an apartment or residential building, or other permanent structure (building, structure).] (* <- lang_en;; *);;
+					*);;
+			*);;
+    
+        <- concept_housing;;
+
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_living_space_houseroom_belarus(*
+        => nrel_main_idtf: [жилая площадь] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [living space] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылы пляц] (* <- lang_by;; *);;
+
+        <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Жилая площадь – сумма площадей пола жилых комнат.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Жылая плошча - сума плошчаў падлогі жылых пакояў.] (* <- lang_by;; *);;
+                        -> rrel_example: [Living area is the sum of the floor areas of living rooms.] (* <- lang_en;; *);;
+					*);;
+			*);;
+    
+        <- concept_housing;;
+
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_housing_and_communal_services_belarus(*
+        => nrel_main_idtf: [жилищно-коммунальные услуги] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [housing and communal services] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жыллёва-камунальныя паслугі] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Жилищно-коммунальные услуги – услуги по поддержанию и (или) восстановлению надлежащего санитарного и (или) технического состояния жилых домов, иных капитальных строений (зданий, сооружений), жилых и (или) нежилых, вспомогательных помещений, по обеспечению их благоустроенности, благоприятных и безопасных условий для проживания граждан, включающие в себя коммунальные услуги, техническое обслуживание, техническое обслуживание лифта, текущий ремонт, капитальный ремонт, санитарное содержание вспомогательных помещений и иные жилищно-коммунальные услуги, предоставляемые в соответствии с договорами.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Housing and communal services - services for maintaining and (or) restoring the proper sanitary and (or) technical condition of residential buildings, other permanent structures (buildings, structures), residential and (or) non-residential, auxiliary premises, ensuring their livability, favorable and safe living conditions for citizens, including utilities, maintenance, elevator maintenance, routine repairs, major repairs, sanitary maintenance of auxiliary premises and other housing and communal services provided in accordance with contracts.] (* <- lang_en;; *);;
+                        -> rrel_example: [Жыллёва-камунальныя паслугі – паслугі па падтрыманні і (або) аднаўленні належнага санітарнага і (або) тэхнічнага стану жылых дамоў, іншых капітальных пабудоў (будынкаў, збудаванняў), жылых і (або) нежылых, дапаможных памяшканняў, па забеспячэнні іх добраўпарадкаванасці, спрыяльных і бяспечных умоў для пражывання грамадзян, якія ўключаюць у сябе камунальныя паслугі, тэхнічнае абслугоўванне, тэхнічнае абслугоўванне ліфта, бягучы рамонт, капітальны рамонт, санітарны змест дапаможных памяшканняў і іншыя жыллёва-камунальныя паслугі, якія прадстаўляюцца ў адпаведнасці з дагаворамі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_housing_and_construction_cooperative_belarus(*
+        => nrel_main_idtf: [жилищно-строительный кооператив] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [жыллёва-будаўнічы кааператыў] (* <- lang_en;; *);;
+        => nrel_main_idtf: [housing and construction cooperative] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Жилищно-строительный кооператив – организация застройщиков, создаваемая для строительства жилых домов (дома), приобретения не завершенных строительством капитальных строений (зданий, сооружений) и (или) капитальных строений (зданий, сооружений), подлежащих реконструкции или капитальному ремонту, и завершения их строительства (реконструкции, капитального ремонта), а также для последующей их эксплуатации и управления ими.] (* <- lang_ru;; *);;
+					-> rrel_example: [Жыллёва-будаўнічы кааператыў - арганізацыя забудоўшчыкаў, якая ствараецца для будаўніцтва жылых дамоў (дома), набыцця не завершаных будаўніцтвам капітальных будынкаў (будынкаў, збудаванняў) і (або) капітальных будынкаў (будынкаў, збудаванняў), якія падлягаюць рэканструкцыі або капітальнаму рамонту, і завяршэння іх будаўніцтва (рэканструкцыі, капітальнага рамонту), а таксама для наступнай іх эксплуатацыі і кіраванні імі.] (* <- lang_by;; *);;
+					-> rrel_example: [Housing and construction cooperative - an organization of developers created for the construction of residential buildings (houses), the acquisition of unfinished capital structures (buildings, structures) and (or) capital structures (buildings, structures) subject to reconstruction or major repairs, and completion their construction (reconstruction, major repairs), as well as for their subsequent operation and management.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_housing_cooperative_belarus(*
+        => nrel_main_idtf: [жилищный кооператив] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [a housing cooperative] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жыллёвы кааператыў] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Жилищный кооператив – организация застройщиков, создаваемая для приобретения завершенных строительством или капитально отремонтированных, реконструированных жилых домов (дома), а также для последующей их эксплуатации и управления ими.] (* <- lang_ru;; *);;
+                        -> rrel_example: [A housing cooperative is an organization of developers created for the acquisition of completed construction or capitally repaired, reconstructed residential buildings (houses), as well as for their subsequent operation and management.] (* <- lang_en;; *);;
+                        -> rrel_example: [Жыллёвы кааператыў - арганізацыя забудоўшчыкаў, якая ствараецца для набыцця завершаных будаўніцтвам або капітальна адрамантаваных, рэканструяваных жылых дамоў (дома), а таксама для наступнай іх эксплуатацыі і кіравання імі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_housing_stock_belarus(*
+        => nrel_main_idtf: [жилищный фонд] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [housing stock] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жыллёвы фонд] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Жилищный фонд – совокупность жилых помещений государственного и частного жилищных фондов.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Housing stock – a combination of residential premises of state and private housing stock.] (* <- lang_en;; *);;
+                        -> rrel_example: [Жыллёвы фонд - сукупнасць жылых памяшканняў дзяржаўнага і прыватнага жыллёвых фондаў.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_living_space_belarus(*
+        => nrel_main_idtf: [жилое помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [living space] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылое памяшканне] (* <- lang_by;; *);;
+
+        <- rrel_key_sc_element:
+			... 
+			(*
+				<- definition;;
+				<= nrel_sc_text_translation: ...
+					(*
+						-> rrel_example: [Жилое помещение – предназначенное для проживания граждан помещение, отапливаемое, имеющее естественное освещение и соответствующее обязательным для соблюдения санитарным нормам и правилам, гигиеническим нормативам и иным обязательным для соблюдения техническим нормативным правовым актам, содержащим требования, предъявляемые к жилым помещениям] (* <- lang_ru;; *);;
+                        -> rrel_example: [Жылое памяшканне - прызначанае для пражывання грамадзян памяшканне, ацяплянае, якое мае натуральнае асвятленне і адпаведнае абавязковым для захавання санітарным нормам і правілам, гігіенічным нарматывам і іншым абавязковым для захавання тэхнічным нарматыўным прававым актам, якія змяшчаюць патрабаванні, што прад'яўляюцца да жылых памяшканняў.] (* <- lang_by;; *);;
+                        -> rrel_example: [Residential premises - a premises intended for the residence of citizens, heated, having natural light and complying with mandatory sanitary standards and rules, hygienic standards and other mandatory technical regulatory legal acts containing the requirements for residential premises] (* <- lang_en;; *);;
+					*);;
+			*);;
+    
+        <- concept_housing;;
+
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);  
+
+
+    concept_residental_premises_in_a_dormitory_belarus(*
+        => nrel_main_idtf: [жилое помещение в общежитии] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [residential premises in a dormitory] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылое памяшканне ў інтэрнаце] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Жилое помещение в общежитии – жилое помещение либо его часть, предоставляемые гражданам на условиях договора найма жилого помещения в общежитии.] (* <- lang_ru;; *);;
+					-> rrel_example: [Жылое памяшканне ў інтэрнаце - жылое памяшканне або яго частка, якія прадстаўляюцца грамадзянам на ўмовах дагавора найму жылога памяшкання ў інтэрнаце.] (* <- lang_by;; *);;
+					-> rrel_example: [Residential premises in a dormitory – residential premises or part thereof provided to citizens under the terms of a rental agreement for residential premises in a dormitory.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+    
+
+    concept_residential_premises_of_the_maneuverable_stock_belarus(*
+        => nrel_main_idtf: [жилое помещение маневренного фонда] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [residential premises of the maneuverable stock] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылое памяшканне манеўранага фонду] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Жилое помещение маневренного фонда – специальное жилое помещение государственного жилищного фонда, предоставляемое гражданам на условиях договора найма специального жилого помещения государственного жилищного фонда и предназначенное для временного проживания граждан, выселенных из жилых домов в связи с капитальным ремонтом или реконструкцией, нанимателей жилых помещений частного жилищного фонда и членов их семей при изъятии земельных участков для государственных нужд, которое связано со сносом или иным уничтожением жилых домов, собственники которых не обнаружены в результате проведенных в соответствии с законодательством мероприятий, а также для временного проживания граждан, жилые помещения которых стали непригодными для проживания вследствие пожаров, чрезвычайных ситуаций природного и техногенного характера, боевых действий и актов терроризма.] (* <- lang_ru;; *);;
+					-> rrel_example: [Жылое памяшканне манеўранага фонду - спецыяльнае жылое памяшканне дзяржаўнага жыллёвага фонду, якое прадастаўляецца грамадзянам на ўмовах дагавора найму спецыяльнага жылога памяшкання дзяржаўнага жыллёвага фонду і прызначанае для часовага пражывання грамадзян, выселеных з жылых дамоў у сувязі з капітальным рамонтам або рэканструкцыяй, наймальнікаў жылых памяшканняў. фонду і членаў іх сем'яў пры адабранні зямельных участкаў для дзяржаўных патрэб, якое звязана са зносам або іншым знішчэннем жылых дамоў, уласнікі якіх не знойдзены ў выніку праведзеных у адпаведнасці з заканадаўствам мерапрыемстваў, а таксама для часовага пражывання грамадзян, жылыя памяшканні якіх сталі непрыдатнымі для пражывання. з прычыны пажараў, надзвычайных сітуацый прыроднага і тэхнагеннага характару, баявых дзеянняў і актаў тэрарызму.] (* <- lang_by;; *);;
+					-> rrel_example: [Residential premises of the maneuverable stock - special residential premises of the state housing stock, provided to citizens under the terms of a lease agreement for special residential premises of the state housing stock and intended for temporary residence of citizens evicted from residential buildings in connection with major repairs or reconstruction, tenants of residential premises of private housing fund and members of their families during the seizure of land plots for state needs, which is associated with the demolition or other destruction of residential buildings, the owners of which were not found as a result of measures taken in accordance with the law, as well as for the temporary residence of citizens whose residential premises have become unsuitable for habitation due to fires, natural and man-made emergencies, military operations and acts of terrorism.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+    
+
+    concept_residential_premises_for_social_use_belarus(*
+        => nrel_main_idtf: [жилое помещение социального пользования] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [residential premises for social use] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылое памяшканне сацыяльнага карыстання] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Жилое помещение социального пользования – жилое помещение типовых потребительских качеств государственного жилищного фонда, предоставляемое гражданам на условиях договора найма жилого помещения социального пользования государственного жилищного фонда без взимания платы за пользование жилым помещением.] (* <- lang_ru;; *);;
+					-> rrel_example: [Жылое памяшканне сацыяльнага карыстання - жылое памяшканне тыпавых спажывецкіх якасцей дзяржаўнага жыллёвага фонду, якое прадастаўляецца грамадзянам на ўмовах дагавора найму жылога памяшкання сацыяльнага карыстання дзяржаўнага жыллёвага фонду без спагнання платы за карыстанне жылым памяшканнем.] (* <- lang_by;; *);;
+					-> rrel_example: [Residential premises for social use - residential premises of standard consumer qualities of the state housing stock, provided to citizens under the terms of a rental agreement for residential premises for social use of the state housing stock without charging a fee for the use of the residential premises.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_residential_premises_of_standard_consumer_qualities_belarus(*
+        => nrel_main_idtf: [жилое помещение типовых потребительских качеств] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [residential premises of standard consumer qualities] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылое памяшканне тыпавых спажывецкіх якасцей] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Жилое помещение типовых потребительских качеств – жилое помещение, благоустроенное применительно к условиям соответствующего населенного пункта.] (* <- lang_ru;; *);;
+					-> rrel_example: [Жылое памяшканне тыпавых спажывецкіх якасцей - жылое памяшканне, добраўпарадкаванае ў дачыненні да ўмоў адпаведнага населенага пункта.] (* <- lang_by;; *);;
+					-> rrel_example: [Residential premises of standard consumer qualities - residential premises, landscaped in relation to the conditions of the relevant locality.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_residential_building_belarus(*
+        => nrel_main_idtf: [жилой дом] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [a residential building] (* <- lang_en;; *);;
+        => nrel_main_idtf: [жылы дом] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Жилой дом – капитальное строение (здание, сооружение), половину или более половины общей площади которого составляет площадь жилых помещений.] (* <- lang_ru;; *);;
+                        -> rrel_example: [A residential building is a permanent structure (building, structure), half or more than half of the total area of ​​which is the area of ​​residential premises.] (* <- lang_en;; *);;
+                        -> rrel_example: [Жылы дом - капітальнае будынак (будынак, збудаванне), палову або больш за палову агульнай плошчы якога складае плошчу жылых памяшканняў.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_isolated_living_room_belarus(*
+        => nrel_main_idtf: [изолированная жилая комната] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [isolated living room] (* <- lang_en;; *);;
+        => nrel_main_idtf: [iзаляваны жылы пакой] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Изолированная жилая комната – жилая комната, не связанная с другой жилой комнатой общим входом.] (* <- lang_ru;; *);;
+					-> rrel_example: [Ізаляваны жылы пакой - жылы пакой, не звязаная з іншым жылым пакоем агульным уваходам.] (* <- lang_by;; *);;
+					-> rrel_example: [Isolated living room - a living room that is not connected to another living room by a common entrance.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_isolated_residential_premises_belarus(*
+        => nrel_main_idtf: [изолированное жилое помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [isolated residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [iзаляванае жылое памяшканне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Изолированное жилое помещение – жилое помещение, расположенное внутри жилого дома, иного капитального строения (здания, сооружения), отделенное от других помещений жилого дома, иного капитального строения (здания, сооружения) перекрытиями, стенами, перегородками и имеющее вход из вспомогательного помещения либо непосредственно с придомовой территории.] (* <- lang_ru;; *);;
+					-> rrel_example: [Ізаляванае жылое памяшканне - жылое памяшканне, размешчанае ўнутры жылога дома, іншага капітальнага будынка (будынка, збудаванні), аддзеленае ад іншых памяшканняў жылога дома, іншага капітальнага будынка (будынка, збудаванні) перакрыццямі, сценамі, перагародкамі і якое мае ўваход з дапаможнага памяшкання або непасрэдна з прыдамавой тэрыторыі.] (* <- lang_by;; *);;
+					-> rrel_example: [Isolated residential premises - residential premises located inside a residential building, other permanent structure (building, structure), separated from other premises of a residential building, other permanent structure (building, structure) by ceilings, walls, partitions and having an entrance from an auxiliary premises or directly from the local area.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_engineering_systems_belarus(*
+        => nrel_main_idtf: [инженерные системы] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [engineering systems] (* <- lang_en;; *);;
+        => nrel_main_idtf: [iнжынерныя сістэмы] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Инженерные системы – системы отопления, горячего и холодного водоснабжения, водоотведения (канализации), газо-, электроснабжения, вентиляции, мусоропроводы, лифты и иные системы жилого дома, обеспечивающие установленные для проживания санитарные и технические требования.] (* <- lang_ru;; *);;
+					-> rrel_example: [Інжынерныя сістэмы - сістэмы ацяплення, гарачага і халоднага водазабеспячэння, водаадвядзення (каналізацыі), газа-, электразабеспячэння, вентыляцыі, смеццеправоды, ліфты і іншыя сістэмы жылога дома, якія забяспечваюць устаноўленыя для пражывання санітарныя і тэхнічныя патрабаванні.] (* <- lang_by;; *);;
+					-> rrel_example: [Engineering systems - heating systems, hot and cold water supply, water disposal (sewerage), gas, electricity supply, ventilation, garbage chutes, elevators and other systems of a residential building that provide the sanitary and technical requirements established for living.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_major_repairs_belarus(*
+        => nrel_main_idtf: [капитальный ремонт] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [major repairs] (* <- lang_en;; *);;
+        => nrel_main_idtf: [капітальны рамонт] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Капитальный ремонт – основная жилищно-коммунальная услуга по восстановлению основных физико-технических, эстетических и потребительских качеств жилого дома, иного капитального строения (здания, сооружения), их конструктивных элементов, инженерных систем, утраченных в процессе эксплуатации.] (* <- lang_ru;; *);;
+					-> rrel_example: [Капітальны рамонт - асноўная жыллёва-камунальная паслуга па аднаўленні асноўных фізіка-тэхнічных, эстэтычных і спажывецкіх якасцей жылога дома, іншага капітальнага будынка (будынка, збудаванні), іх канструктыўных элементаў, інжынерных сістэм, страчаных у працэсе эксплуатацыі.] (* <- lang_by;; *);;
+					-> rrel_example: [Major repairs are the main housing and communal services for the restoration of the basic physical, technical, aesthetic and consumer qualities of a residential building, other capital structure (building, structure), their structural elements, engineering systems lost during operation.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_an_apartment_belarus(*
+        => nrel_main_idtf: [квартира] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [an apartment] (* <- lang_en;; *);;
+        => nrel_main_idtf: [кватэра] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Квартира – изолированное жилое помещение, состоящее из одной или нескольких жилых комнат и подсобных помещений.] (* <- lang_ru;; *);;
+                        -> rrel_example: [An apartment is an isolated living space consisting of one or more living rooms and utility rooms.] (* <- lang_en;; *);;
+                        -> rrel_example: [Кватэра - ізаляванае жылое памяшканне, якое складаецца з адной або некалькіх жылых пакояў і дапаможных памяшканняў.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_utilities_belarus(*
+        => nrel_main_idtf: [коммунальные услуги] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [utilities] (* <- lang_en;; *);;
+        => nrel_main_idtf: [камунальныя паслугі] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Коммунальные услуги – горячее и холодное водоснабжение, водоотведение (канализация), газо-, электро-, теплоснабжение, снабжение сжиженным углеводородным газом от индивидуальных баллонных или резервуарных установок, обращение с твердыми коммунальными отходами.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Utilities – hot and cold water supply, water disposal (sewerage), gas, electricity, heat supply, supply of liquefied petroleum gas from individual bottled or tank installations, management of municipal solid waste.] (* <- lang_en;; *);;
+                        -> rrel_example: [Камунальныя паслугі - гарачае і халоднае водазабеспячэнне, водаадвядзенне (каналізацыя), газа-, электра-, цеплазабеспячэнне, забеспячэнне звадкаваным вуглевадародным газам ад індывідуальных балонных або рэзервуарных установак, абыходжанне з цвёрдымі камунальнымі адходамі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_structural_elements_belarus(*
+        => nrel_main_idtf: [конструктивные элементы] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [structural elements] (* <- lang_en;; *);;
+        => nrel_main_idtf: [канструктыўныя элементы] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Конструктивные элементы – фундаменты, стены, междуэтажные перекрытия, крыши, окна, двери, печи, балконы и балконные ограждения, лоджии, отмостки вокруг жилых домов, иных капитальных строений (зданий, сооружений) и иные элементы.] (* <- lang_ru;; *);;
+					-> rrel_example: [Канструктыўныя элементы - падмуркі, сцены, міжпавярховыя перакрыцці, дахі, вокны, дзверы, печы, балконы і гаўбечныя агароджы, лоджыі, отмостки вакол жылых дамоў, іншых капітальных будынкаў (будынкаў, збудаванняў) і іншыя элементы.] (* <- lang_by;; *);;
+					-> rrel_example: [Structural elements - foundations, walls, interfloor ceilings, roofs, windows, doors, stoves, balconies and balcony railings, loggias, blind areas around residential buildings, other permanent structures (buildings, structures) and other elements.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_multi_apartment_residential_building_belarus(*
+        => nrel_main_idtf: [многоквартирный жилой дом] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [multi-apartment residential building] (* <- lang_en;; *);;
+        => nrel_main_idtf: [шматкватэрны жылы дом] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Многоквартирный жилой дом – жилой дом, состоящий из вспомогательных помещений, а также двух и более квартир, каждая из которых имеет вход из вспомогательного помещения.] (* <- lang_ru;; *);;
+					-> rrel_example: [Шматкватэрны жылы дом - жылы дом, які складаецца з дапаможных памяшканняў, а таксама двух і больш кватэр, кожная з якіх мае ўваход з дапаможнага памяшкання.] (* <- lang_by;; *);;
+					-> rrel_example: [Multi-apartment residential building - a residential building consisting of auxiliary premises, as well as two or more apartments, each of which has an entrance from the auxiliary premises.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_non_residential_premises_belarus(*
+        => nrel_main_idtf: [нежилое помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [non-residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [нежылое памяшканне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Нежилое помещение – помещение, не предназначенное для постоянного проживания граждан.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Non-residential premises are premises not intended for permanent residence of citizens.] (* <- lang_en;; *);;
+                        -> rrel_example: [Нежылое памяшканне - памяшканне, не прызначанае для пастаяннага пражывання грамадзян.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_non_isolated_living_room_belarus(*
+        => nrel_main_idtf: [неизолированная жилая комната] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [non-isolated living room] (* <- lang_en;; *);;
+        => nrel_main_idtf: [неізаляваны жылы пакой] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Неизолированная жилая комната – жилая комната, связанная с другой жилой комнатой общим входом.] (* <- lang_ru;; *);;
+					-> rrel_example: [Неізаляваны жылы пакой - жылы пакой, звязаная з іншым жылым пакоем агульным уваходам.] (* <- lang_by;; *);;
+					-> rrel_example: [Non-isolated living room - a living room connected to another living room by a common entrance.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_the_total_area_of_a_residential_premises_belarus(*
+        => nrel_main_idtf: [общая площадь жилого помещения] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [the total area of ​​a residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [агульная плошча жылога памяшкання] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Общая площадь жилого помещения – сумма жилой площади и площади пола подсобных помещений, кроме площади пола балконов, лоджий, террас и неотапливаемых (холодных) помещений.] (* <- lang_ru;; *);;
+                        -> rrel_example: [The total area of ​​a residential premises is the sum of the living area and the floor area of ​​utility rooms, excluding the floor area of ​​balconies, loggias, terraces and unheated (cold) rooms.] (* <- lang_en;; *);;
+                        -> rrel_example: [Агульная плошча жылога памяшкання - сума жылой плошчы і плошчы падлогі дапаможных памяшканняў, акрамя плошчы падлогі балконаў, лоджый, тэрас і халодных памяшканняў.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_common_property_of_joint_household_ownership_belarus(*
+        => nrel_main_idtf: [общее имущество совместного домовладения] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [common property of joint household ownership] (* <- lang_en;; *);;
+        => nrel_main_idtf: [агульная маёмасць сумеснага домаўладання] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Общее имущество совместного домовладения – помещения, расположенные за пределами квартир и (или) нежилых помещений и предназначенные для обслуживания двух и более жилых и (или) нежилых помещений в многоквартирном жилом доме, нескольких одноквартирных, блокированных жилых домов, а также крыши, ограждающие несущие и ненесущие конструкции, механическое, электрическое, санитарно-техническое и иное оборудование, обслуживающее два и более жилых и (или) нежилых помещения и находящееся внутри или за пределами многоквартирного жилого дома, одноквартирных, блокированных жилых домов, иных капитальных строений (зданий, сооружений), групповые приборы учета расхода воды, тепловой и электрической энергии, газа, а также объекты, предназначенные для обслуживания, эксплуатации и благоустройства нескольких одноквартирных, блокированных жилых домов, иных капитальных строений (зданий, сооружений), находящихся на смежных земельных участках, либо многоквартирного жилого дома, иных капитальных строений (зданий, сооружений), расположенных на придомовой территории, переданной в аренду или для обслуживания жилых домов организациям собственников, организациям, имеющим в собственности, владении либо пользовании объекты жилищного фонда.] (* <- lang_ru;; *);;
+					-> rrel_example: [Агульная маёмасць сумеснага домаўладання - памяшканні, размешчаныя за межамі кватэр і (або) нежылых памяшканняў і прызначаныя для абслугоўвання двух і больш жылых і (або) нежылых памяшканняў у шматкватэрным жылым доме, некалькіх аднакватэрных, блакіраваных жылых дамоў, а таксама дахі, якія агароджваюць апорныя і ненясучыя канструкцыі, механічнае, электрычнае, санітарна-тэхнічнае і іншае абсталяванне, якое абслугоўвае два і больш жылых і (або) нежылых памяшкання і знаходзіцца ўнутры або за межамі шматкватэрнага жылога дома, аднакватэрных, блакіраваных жылых дамоў, іншых капітальных будынкаў (будынкаў, збудаванняў). ), групавыя прыборы ўліку расходу вады, цеплавой і электрычнай энергіі, газу, а таксама аб'екты, прызначаныя для абслугоўвання, эксплуатацыі і добраўпарадкавання некалькіх аднакватэрных, блакіраваных жылых дамоў, іншых капітальных пабудоў (будынкаў, збудаванняў), якія знаходзяцца на сумежных зямельных участках, або шматкватэрнага жылога дома, іншых капітальных пабудоў (будынкаў, збудаванняў), размешчаных на прыдамавой тэрыторыі, перададзенай у арэнду або для абслугоўвання жылых дамоў арганізацыям уласнікаў, арганізацыям, якія маюць ва ўласнасці, валоданні або карыстанні аб'екты жыллёвага фонду.] (* <- lang_by;; *);;
+					-> rrel_example: [Common property of joint household ownership - premises located outside apartments and (or) non-residential premises and intended to serve two or more residential and (or) non-residential premises in a multi-apartment residential building, several single-apartment, blocked residential buildings, as well as roofs enclosing load-bearing and non-load-bearing structures, mechanical, electrical, sanitary and other equipment serving two or more residential and (or) non-residential premises and located inside or outside an apartment building, single-apartment, blocked residential buildings, other permanent structures (buildings, structures ), group metering devices for the consumption of water, heat and electricity, gas, as well as objects intended for the maintenance, operation and improvement of several single-apartment, blocked residential buildings, other permanent structures (buildings, structures) located on adjacent land plots, or multi-apartment a residential building, other capital structures (buildings, structures) located in the local area, leased or for the maintenance of residential buildings to organizations of owners, organizations that own, possess or use housing facilities.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_dormitory_belarus(*
+        => nrel_main_idtf: [общежитие] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [dormitory] (* <- lang_en;; *);;
+        => nrel_main_idtf: [iнтэрнат] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Общежитие – жилой дом (его часть), специально построенный или переоборудованный для проживания граждан на период их работы (службы), учебы, прохождения клинической ординатуры, спортивной подготовки, а также в иных случаях, установленных законодательными актами.] (* <- lang_ru;; *);;
+					-> rrel_example: [Інтэрнат - жылы дом (яго частка), спецыяльна пабудаваны або пераабсталяваны для пражывання грамадзян на перыяд іх працы (службы), вучобы, праходжання клінічнай ардынатуры, спартыўнай падрыхтоўкі, а таксама ў іншых выпадках, устаноўленых заканадаўчымі актамі.] (* <- lang_by;; *);;
+					-> rrel_example: [Dormitory - a residential building (part of it), specially built or converted for the residence of citizens during the period of their work (service), study, clinical residency, sports training, as well as in other cases established by legislative acts.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_real_estate_objects_belarus(*
+        => nrel_main_idtf: [объекты недвижимого имущества] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [real estate objects] (* <- lang_en;; *);;
+        => nrel_main_idtf: [аб'екты нерухомай маёмасці] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Объекты недвижимого имущества – жилые дома, квартиры и нежилые помещения в блокированных или многоквартирных жилых домах, а также капитальные строения (здания, сооружения), расположенные на придомовой территории.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Real estate objects - residential buildings, apartments and non-residential premises in blocked or multi-apartment residential buildings, as well as permanent structures (buildings, structures) located in the local area.] (* <- lang_en;; *);;
+                        -> rrel_example: [Аб'екты нерухомай маёмасці - жылыя дамы, кватэры і нежылыя памяшканні ў блакіраваных або шматкватэрных жылых дамах, а таксама капітальныя будынкі (будынка, збудаванні), размешчаныя на прыдамавой тэрыторыі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_single_apartment_residential_building_belarus(*
+        => nrel_main_idtf: [одноквартирный жилой дом] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [a single-apartment residential building] (* <- lang_en;; *);;
+        => nrel_main_idtf: [аднакватэрны жылы дом] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Одноквартирный жилой дом – жилой дом, состоящий из одной квартиры, имеющей вход непосредственно с придомовой территории.] (* <- lang_ru;; *);;
+                        -> rrel_example: [A single-apartment residential building is a residential building consisting of one apartment with an entrance directly from the local area.] (* <- lang_en;; *);;
+                        -> rrel_example: [Аднакватэрны жылы дом - жылы дом, які складаецца з адной кватэры, якая мае ўваход непасрэдна з прыдамавой тэрыторыі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_organization_of_developers_belarus(*
+        => nrel_main_idtf: [организация застройщиков] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [organization of developers] (* <- lang_en;; *);;
+        => nrel_main_idtf: [арганізацыя забудоўшчыкаў] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Организация застройщиков – потребительский кооператив, являющийся добровольным объединением граждан либо граждан и юридических лиц, создаваемый для строительства (реконструкции, капитального ремонта), завершения строительства (реконструкции, капитального ремонта) жилых домов, иных капитальных строений (зданий, сооружений) либо приобретения завершенных строительством или капитально отремонтированных, реконструированных жилых домов, а также для последующей их эксплуатации и управления ими.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Арганізацыя забудоўшчыкаў - спажывецкі кааператыў, які з'яўляецца добраахвотным аб'яднаннем грамадзян або грамадзян і юрыдычных асоб, які ствараецца для будаўніцтва (рэканструкцыі, капітальнага рамонту), завяршэння будаўніцтва (рэканструкцыі, капітальнага рамонту) жылых дамоў, іншых капітальных будынкаў (будынкаў, збудаванняў) або набыцця завершаных будаўніцтвам або капітальна адрамантаваных, рэканструяваных жылых дамоў, а таксама для далейшай іх эксплуатацыі і кіравання імі.] (* <- lang_by;; *);;
+                        -> rrel_example: [Organization of developers - a consumer cooperative, which is a voluntary association of citizens or citizens and legal entities, created for the construction (reconstruction, major repairs), completion of construction (reconstruction, major repairs) of residential buildings, other capital structures (buildings, structures) or the acquisition of completed construction or overhauled, reconstructed residential buildings, as well as for their subsequent operation and management.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_an_organization_that_carries_out_accounting_calculation_and_charging_of_fees_for_housing_and_communal_services_and_fees_for_the_use_of_residential_premises_belarus(*
+        => nrel_main_idtf: [организация, осуществляющая учет, расчет и начисление платы за жилищно-коммунальные услуги и платы за пользование жилым помещением] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [an organization that carries out accounting, calculation and charging of fees for housing and communal services and fees for the use of residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [арганізацыя, якая ажыццяўляе ўлік, разлік і налічэнне платы за жыллёва-камунальныя паслугі і платы за карыстанне жылым памяшканнем] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Организация, осуществляющая учет, расчет и начисление платы за жилищно-коммунальные услуги и платы за пользование жилым помещением, – организация, оказывающая жилищно-коммунальные услуги и (или) осуществляющая функции учета, расчета и начисления платы за жилищно-коммунальные услуги, платы за пользование жилым помещением, возмещения расходов организаций, осуществляющих эксплуатацию жилищного фонда и (или) предоставляющих жилищно-коммунальные услуги, на электроэнергию, потребляемую на освещение вспомогательных помещений и работу оборудования в многоквартирных жилых домах (далее, если иное не установлено настоящим Кодексом, – возмещение расходов на электроэнергию), а также функции по начислению безналичных жилищных субсидий и взысканию задолженности по плате за жилищно-коммунальные услуги, плате за пользование жилым помещением, возмещению расходов на электроэнергию.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Арганізацыя, якая ажыццяўляе ўлік, разлік і налічэнне платы за жыллёва-камунальныя паслугі і платы за карыстанне жылым памяшканнем, - арганізацыя, якая аказвае жыллёва-камунальныя паслугі і (або) ажыццяўляе функцыі ўліку, разліку і налічэння платы за жыллёва-камунальныя паслугі, платы за карыстанне жылым памяшканнем, кампенсацыі расходаў арганізацый, якія ажыццяўляюць эксплуатацыю жыллёвага фонду і (або) прадастаўляюць жыллёва-камунальныя паслугі, на электраэнергію, што спажываецца на асвятленне дапаможных памяшканняў і работу абсталявання ў шматкватэрных жылых дамах (далей, калі іншае не ўстаноўлена гэтым Кодэксам, - кампенсацыя расходаў на электраэнергію), а таксама функцыі па налічэнні безнаяўных жыллёвых субсідый і спагнанні запазычанасці па плаце за жыллёва-камунальныя паслугі, плаце за карыстанне жылым памяшканнем, кампенсацыі расходаў на электраэнергію.] (* <- lang_by;; *);;
+                        -> rrel_example: [An organization that carries out accounting, calculation and charging of fees for housing and communal services and fees for the use of residential premises - an organization that provides housing and communal services and (or) carries out the functions of accounting, calculation and charging of fees for housing and communal services, fees for the use of residential premises, reimbursement of expenses of organizations operating the housing stock and (or) providing housing and communal services for electricity consumed for lighting of auxiliary premises and operation of equipment in multi-apartment residential buildings (hereinafter, unless otherwise established by this Code - reimbursement expenses for electricity), as well as functions for calculating non-cash housing subsidies and collecting debts on payments for housing and communal services, fees for the use of residential premises, and reimbursement of electricity costs.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_an_organization_that_operates_the_housing_stock_and_or_provides_housing_and_communal_services_belarus(*
+        => nrel_main_idtf: [организация, осуществляющая эксплуатацию жилищного фонда и (или) предоставляющая жилищно-коммунальные услуги] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [an organization that operates the housing stock and (or) provides housing and communal services] (* <- lang_en;; *);;
+        => nrel_main_idtf: [арганізацыя, якая ажыццяўляе эксплуатацыю жыллёвага фонду і (або) прадастаўляе жыллёва-камунальныя паслугі] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Организация, осуществляющая эксплуатацию жилищного фонда и (или) предоставляющая жилищно-коммунальные услуги, – организация, осуществляющая эксплуатацию жилищного фонда в соответствии с требованиями актов законодательства, в том числе обязательных для соблюдения технических нормативных правовых актов, и (или) оказывающая жилищно-коммунальные услуги, и (или) осуществляющая управление общим имуществом совместного домовладения.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Арганізацыя, якая ажыццяўляе эксплуатацыю жыллёвага фонду і (або) прадастаўляе жыллёва-камунальныя паслугі, - арганізацыя, якая ажыццяўляе эксплуатацыю жыллёвага фонду ў адпаведнасці з патрабаваннямі актаў заканадаўства, у тым ліку абавязковых для захавання тэхнічных нарматыўных прававых актаў, і (або) аказвае жыллёва- камунальныя паслугі, і (або) ажыццяўляе кіраванне агульнай маёмасцю сумеснага домаўладання.] (* <- lang_by;; *);;
+                        -> rrel_example: [An organization that operates the housing stock and (or) provides housing and communal services - an organization that operates the housing stock in accordance with the requirements of legislative acts, including those mandatory for compliance with technical regulatory legal acts, and (or) provides housing and communal services. utilities, and (or) managing the common property of a joint household.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_share_contribution_belarus(*
+        => nrel_main_idtf: [паевой взнос] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [share contribution] (* <- lang_en;; *);;
+        => nrel_main_idtf: [паявы ўзнос] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Паевой взнос – денежные средства, единовременно или периодически вносимые организации застройщиков ее членом на финансирование строительства (реконструкции, капитального ремонта) или приобретения жилого дома, иного капитального строения (здания, сооружения) (при финансировании строительства (реконструкции, капитального ремонта) или приобретения жилого дома, иного капитального строения (здания, сооружения) организацией застройщиков).] (* <- lang_ru;; *);;
+					-> rrel_example: [Паявы ўзнос - грашовыя сродкі, якія адначасова або перыядычна ўносяцца арганізацыі забудоўшчыкаў яе членам на фінансаванне будаўніцтва (рэканструкцыі, капітальнага рамонту) або набыцця жылога дома, іншага капітальнага будынка (будынка, збудаванні) (пры фінансаванні будаўніцтва (рэканструкцыі, капітальнага рамонту) або набыцця жылога дома, іншага капітальнага збудавання (будынка, збудаванні) арганізацыяй забудоўшчыкаў).] (* <- lang_by;; *);;
+					-> rrel_example: [Share contribution - funds contributed one-time or periodically to a developer organization by its member to finance the construction (reconstruction, major repairs) or acquisition of a residential building, other permanent structure (building, structure) (when financing construction (reconstruction, major repairs) or acquisition residential building, other capital structure (building, structure) by a developer organization).] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_savings_belarus(*
+        => nrel_main_idtf: [паенакопления] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [savings] (* <- lang_en;; *);;
+        => nrel_main_idtf: [паеназапашвання] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Паенакопления – сумма денежных средств, внесенных организации застройщиков ее членом на конкретный календарный месяц и год на финансирование строительства (реконструкции, капитального ремонта) или приобретения жилого дома, иного капитального строения (здания, сооружения) (при финансировании строительства (реконструкции, капитального ремонта) или приобретения жилого дома, иного капитального строения (здания, сооружения) организацией застройщиков).] (* <- lang_ru;; *);;
+					-> rrel_example: [Паеназапашвання - сума грашовых сродкаў, унесеных арганізацыі забудоўшчыкаў яе членам на канкрэтны каляндарны месяц і год на фінансаванне будаўніцтва (рэканструкцыі, капітальнага рамонту) або набыцця жылога дома, іншага капітальнага будынка (будынка, збудаванні) (пры фінансаванні будаўніцтва (рэканструкцыі, капітальнага рамонту) ) або набыцця жылога дома, іншага капітальнага будынка (будынка, збудаванні) арганізацыяй забудоўшчыкаў).] (* <- lang_by;; *);;
+					-> rrel_example: [Savings - the amount of money contributed to a developer organization by its member for a specific calendar month and year to finance the construction (reconstruction, major repairs) or purchase of a residential building, other capital structure (building, structure) (when financing construction (reconstruction, major repairs) ) or the acquisition of a residential building or other capital structure (building, structure) by a developer organization).] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_redevelopment_belarus(*
+        => nrel_main_idtf: [перепланировка] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [redevelopment] (* <- lang_en;; *);;
+        => nrel_main_idtf: [перапланіроўка] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Перепланировка – изменение планировочных решений жилого и (или) нежилого помещений в процессе выполнения ремонтно-строительных работ.] (* <- lang_ru;; *);;
+					-> rrel_example: [Перапланіроўка - змяненне планіровачных рашэнняў жылога і (або) нежылога памяшканняў у працэсе выканання рамонтна-будаўнічых работ.] (* <- lang_by;; *);;
+					-> rrel_example: [Redevelopment - changing the planning decisions of residential and (or) non-residential premises in the process of performing repair and construction work.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_reconstruction_belarus(*
+        => nrel_main_idtf: [переустройство] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [reconstruction] (* <- lang_en;; *);;
+        => nrel_main_idtf: [перабудова] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Переустройство – изменение инженерных систем (демонтаж, установка, замена или перенос инженерных сетей, электрического, санитарно-технического или иного оборудования) в жилом и (или) нежилом помещениях и (или) конструктивных элементов в процессе выполнения ремонтно-строительных работ.] (* <- lang_ru;; *);;
+					-> rrel_example: [Перабудова - змяненне інжынерных сістэм (дэмантаж, устаноўка, замена або перанос інжынерных сетак, электрычнага, санітарна-тэхнічнага або іншага абсталявання) у жылым і (або) нежылым памяшканнях і (або) канструктыўных элементаў у працэсе выканання рамонтна-будаўнічых работ.] (* <- lang_by;; *);;
+					-> rrel_example: [Reconstruction is a change in engineering systems (dismantling, installing, replacing or moving utility networks, electrical, sanitary or other equipment) in residential and (or) non-residential premises and (or) structural elements in the process of performing repair and construction work.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_written_agreement_on_the_procedure_for_using_residential_premises_belarus(*
+        => nrel_main_idtf: [письменное соглашение о порядке пользования жилым помещением] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [a written agreement on the procedure for using residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [пісьмовае пагадненне аб парадку карыстання жылым памяшканнем] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Письменное соглашение о порядке пользования жилым помещением – соглашение, заключаемое между собственником, нанимателем жилого помещения, гражданином, являющимся членом организации застройщиков, лизингополучателем жилого помещения и совершеннолетними членами, бывшими членами его семьи, другими гражданами, имеющими право пользования жилым помещением, устанавливающее взаимные права и обязанности по владению и пользованию жилым помещением.Самовольные переустройство и (или) перепланировка – переустройство и (или) перепланировка, произведенные без согласования (разрешения) с соответствующим местным исполнительным и распорядительным органом в случаях, когда получение такого согласования (разрешения) предусмотрено актами законодательства.] (* <- lang_ru;; *);;
+                        -> rrel_example: [A written agreement on the procedure for using residential premises is an agreement concluded between the owner, the tenant of residential premises, a citizen who is a member of a developer organization, the lessee of residential premises and adult members, former members of his family, other citizens who have the right to use residential premises, establishing mutual rights and responsibilities for ownership and use of residential premises. Unauthorized reconstruction and (or) redevelopment - reconstruction and (or) redevelopment carried out without coordination (permission) with the relevant local executive and administrative body in cases where obtaining such approval (permission) is provided for by acts of legislation.] (* <- lang_en;; *);;
+                        -> rrel_example: [Пісьмовае пагадненне аб парадку карыстання жылым памяшканнем – пагадненне, якое заключаецца паміж уласнікам, наймальнікам жылога памяшкання, грамадзянінам, які з'яўляецца членам арганізацыі забудоўшчыкаў, лізінгаатрымальнікам жылога памяшкання і паўналетнімі членамі, былымі членамі яго сям'і, іншымі грамадзянамі, якія маюць права карыстання жылым памяшканнем. абавязкі па валоданні і карыстанні жылым памяшканнем. Самавольныя пераўладкаванне і (або) перапланіроўка – пераўладкаванне і (або) перапланіроўка, праведзеныя без узгаднення (дазволу) з адпаведным мясцовым выканаўчым і распарадчым органам у выпадках, калі атрыманне такога ўзгаднення (дазволу) прадугледжана актамі заканадаўства.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_written_agreement_on_recognition_as_a_family_member_belarus(*
+        => nrel_main_idtf: [письменное соглашение о признании членом семьи] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [a written agreement on recognition as a family member] (* <- lang_en;; *);;
+        => nrel_main_idtf: [пісьмовае пагадненне аб прызнанні членам сям'і] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Письменное соглашение о признании членом семьи – соглашение между собственником, нанимателем жилого помещения, гражданином, являющимся членом организации застройщиков, лизингополучателем жилого помещения и его родственником, свойственником, нетрудоспособным иждивенцем или его законным представителем о признании этого родственника, свойственника, нетрудоспособного иждивенца членом семьи собственника, нанимателя жилого помещения, гражданина, являющегося членом организации застройщиков, лизингополучателя жилого помещения.] (* <- lang_ru;; *);;
+					-> rrel_example: [Пісьмовае пагадненне аб прызнанні членам сям'і - пагадненне паміж уласнікам, наймальнікам жылога памяшкання, грамадзянінам, які з'яўляецца членам арганізацыі забудоўшчыкаў, лізінгаатрымальнікам жылога памяшкання і яго сваяком, уласцівым, непрацаздольным утрыманцам або яго законным прадстаўніком аб прызнанні гэтага сваяка, уласцівым сваякам, уласцівым уласніка, наймальніка жылога памяшкання, грамадзяніна, які з'яўляецца членам арганізацыі забудоўшчыкаў, лізінгаатрымальніка жылога памяшкання.] (* <- lang_by;; *);;
+					-> rrel_example: [Written agreement on recognition as a family member - an agreement between the owner, tenant of a residential premises, a citizen who is a member of a developer organization, lessee of a residential premises and his relative, in-law, disabled dependent or his legal representative on recognition of this relative, in-law, disabled dependent as a family member owner, tenant of residential premises, citizen who is a member of a developer organization, lessee of residential premises.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_utility_room_belarus(*
+        => nrel_main_idtf: [подсобное помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [utility room] (* <- lang_en;; *);;
+        => nrel_main_idtf: [дапаможнае памяшканне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Подсобное помещение – помещение, находящееся внутри квартиры, одноквартирного жилого дома и предназначенное для обеспечения хозяйственно-бытовых нужд проживающих в них граждан.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Utility room is a room located inside an apartment, single-apartment residential building and intended to meet the household needs of the citizens living in them.] (* <- lang_en;; *);;
+                        -> rrel_example: [Дапаможнае памяшканне - памяшканне, якое знаходзіцца ўнутры кватэры, аднакватэрнага жылога дома і прызначанае для забеспячэння гаспадарча-бытавых патрэб грамадзян, якія ў іх пражываюць.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_a_room_belarus(*
+        => nrel_main_idtf: [помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [a room] (* <- lang_en;; *);;
+        => nrel_main_idtf: [памяшканне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Помещение – внутренняя пространственная часть капитального строения (здания, сооружения), имеющая определенное функциональное назначение.] (* <- lang_ru;; *);;
+                        -> rrel_example: [A room is an internal spatial part of a capital structure (building, structure) that has a specific functional purpose.] (* <- lang_en;; *);;
+                        -> rrel_example: [Памяшканне - унутраная прасторавая частка капітальнага будынка (будынка, збудаванні), якая мае пэўнае функцыянальнае прызначэнне.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_providing_places_for_short_term_residence_belarus(*
+        => nrel_main_idtf: [предоставление мест для краткосрочного проживания] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [providing places for short-term residence] (* <- lang_en;; *);;
+        => nrel_main_idtf: [прадастаўленне месцаў для кароткатэрміновага пражывання] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Предоставление мест для краткосрочного проживания – предоставление принадлежащих на праве собственности гражданам Республики Беларусь, иностранным гражданам и лицам без гражданства, постоянно проживающим в Республике Беларусь, жилых помещений иным гражданам для краткосрочного проживания по заключенным в календарном году двум и более договорам найма жилых помещений частного жилищного фонда, срок действия каждого из которых не превышает пятнадцати дней.] (* <- lang_ru;; *);;
+					-> rrel_example: [​​Прадастаўленне месцаў для кароткатэрміновага пражывання - прадастаўленне прыналежных на праве ўласнасці грамадзянам Рэспублікі Беларусь, замежным грамадзянам і асобам без грамадзянства, якія пастаянна пражываюць у Рэспубліцы Беларусь, жылых памяшканняў іншым грамадзянам для кароткатэрміновага пражывання па заключаных у каляндарным годзе двух і больш дагаворах найму жылых памяшканняў прыватнага жыллёвага фонду, тэрмін дзеяння кожнага з якіх не перавышае пятнаццаці дзён.] (* <- lang_by;; *);;
+					-> rrel_example: [​​Providing places for short-term residence - provision of residential premises owned by citizens of the Republic of Belarus, foreign citizens and stateless persons permanently residing in the Republic of Belarus, to other citizens for short-term residence under two or more private rental agreements for residential premises concluded in a calendar year housing stock, the validity period of each of which does not exceed fifteen days.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_adjacent_territory_belarus(*
+        => nrel_main_idtf: [придомовая территория] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [adjacent territory] (* <- lang_en;; *);;
+        => nrel_main_idtf: [прыдамавая тэрыторыя] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Придомовая территория – земельный участок, предоставленный для строительства и (или) обслуживания недвижимого имущества землепользователям в соответствии с законодательными актами в области охраны и использования земель.] (* <- lang_ru;; *);;
+					-> rrel_example: [Прыдамавая тэрыторыя - зямельны ўчастак, прадастаўлены для будаўніцтва і (або) абслугоўвання нерухомай маёмасці землекарыстальнікам у адпаведнасці з заканадаўчымі актамі ў галіне аховы і выкарыстання зямель.] (* <- lang_by;; *);;
+					-> rrel_example: [Adjacent territory is a land plot provided for the construction and (or) maintenance of real estate to land users in accordance with legislative acts in the field of protection and use of land.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_relatives_belarus(*
+        => nrel_main_idtf: [родственники] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [relatives] (* <- lang_en;; *);;
+        => nrel_main_idtf: [сваякі] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Родственники – близкие родственники, а также иные граждане, находящиеся в родственной связи, имеющие общих предков до прадеда и прабабки включительно.] (* <- lang_ru;; *);;
+					-> rrel_example: [Сваякі - блізкія сваякі, а таксама іншыя грамадзяне, якія знаходзяцца ў роднаснай сувязі, якія маюць агульных продкаў да прадзеда і прабабкі ўключна.] (* <- lang_by;; *);;
+					-> rrel_example: [Relatives - close relatives, as well as other citizens who are related, having common ancestors up to and including great-grandfather and great-grandmother.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_unauthorized_reconstruction_and_or_redevelopment_belarus(*
+        => nrel_main_idtf: [самовольные переустройство и (или) перепланировка] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [unauthorized reconstruction and (or) redevelopment] (* <- lang_en;; *);;
+        => nrel_main_idtf: [самавольныя пераўладкаванне і (або) перапланіроўка] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Самовольные переустройство и (или) перепланировка – переустройство и (или) перепланировка, произведенные без согласования (разрешения) с соответствующим местным исполнительным и распорядительным органом в случаях, когда получение такого согласования (разрешения) предусмотрено актами законодательства.] (* <- lang_ru;; *);;
+					-> rrel_example: [Самавольныя пераўладкаванне і (або) перапланіроўка - пераўладкаванне і (або) перапланіроўка, праведзеныя без узгаднення (дазволу) з адпаведным мясцовым выканаўчым і распарадчым органам у выпадках, калі атрыманне такога ўзгаднення (дазволу) прадугледжана актамі заканадаўства.] (* <- lang_by;; *);;
+					-> rrel_example: [Unauthorized reconstruction and (or) redevelopment - reconstruction and (or) redevelopment carried out without coordination (permission) with the relevant local executive and administrative body in cases where obtaining such approval (permission) is provided for by acts of legislation.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_sanitary_maintenance_of_auxiliary_premises_of_a_residential_building_belarus(*
+        => nrel_main_idtf: [санитарное содержание вспомогательных помещений жилого дома] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [sanitary maintenance of auxiliary premises of a residential building] (* <- lang_en;; *);;
+        => nrel_main_idtf: [санітарнае ўтрыманне дапаможных памяшканняў жылога дом] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+					-> rrel_example: [Санитарное содержание вспомогательных помещений жилого дома – основная жилищно-коммунальная услуга по санитарной обработке (уборке) вспомогательных помещений жилого дома, их конструктивных элементов, инженерных систем, в том числе мойка или иная обработка поверхностей вспомогательных помещений, включая дезинфекцию, дезинсекцию, дератизацию, для приведения этих помещений в соответствие с установленными санитарными нормами и правилами, гигиеническими нормативами.] (* <- lang_ru;; *);;
+					-> rrel_example: [Санітарнае ўтрыманне дапаможных памяшканняў жылога дома – асноўная жыллёва-камунальная паслуга па санітарнай апрацоўцы (уборцы) дапаможных памяшканняў жылога дома, іх канструктыўных элементаў, інжынерных сістэм, у тым ліку мыйка або іншая апрацоўка паверхняў дапаможных памяшканняў, уключаючы для прывядзення гэтых памяшканняў у адпаведнасць з устаноўленымі санітарнымі нормамі і правіламі, гігіенічнымі нарматывамі.] (* <- lang_by;; *);;
+					-> rrel_example: [Sanitary maintenance of auxiliary premises of a residential building is the main housing and communal service for sanitary treatment (cleaning) of auxiliary premises of a residential building, their structural elements, engineering systems, including washing or other treatment of the surfaces of auxiliary premises, including disinfection, disinfestation, deratization, to bring these premises into compliance with established sanitary standards and rules, hygienic standards.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_in_laws_belarus(*
+        => nrel_main_idtf: [свойственники] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [relatives] (* <- lang_en;; *);;
+        => nrel_main_idtf: [уласнікі] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Свойственники – родители, усыновители (удочерители), дети, в том числе усыновленные (удочеренные), родные братья и сестры, дед, бабка и внуки супруга (супруги), а также супруг (супруга) детей.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Relatives - parents, adoptive parents, children, including adopted children, siblings, grandparents and grandchildren of the spouse, as well as the spouse of children.] (* <- lang_en;; *);;
+                        -> rrel_example: [Уласнікі - бацькі, усынавіцелі (удачарыцелі), дзеці, у тым ліку ўсыноўленыя (удачараваныя), родныя браты і сёстры, дзед, бабка і ўнукі мужа (жонкі), а таксама муж (жонка) дзяцей.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_joint_homeownership_belarus(*
+        => nrel_main_idtf: [совместное домовладение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [joint homeownership] (* <- lang_en;; *);;
+        => nrel_main_idtf: [сумеснае домаўладанне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Совместное домовладение – правоотношения собственников объектов недвижимого имущества, находящихся в собственности двух и более собственников.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Joint homeownership is a legal relationship between the owners of real estate objects owned by two or more owners.] (* <- lang_en;; *);;
+                        -> rrel_example: [Сумеснае домаўладанне - праваадносіны уласнікаў аб'ектаў нерухомай маёмасці, якія знаходзяцца ва ўласнасці двух і больш уласнікаў.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_special_residential_premises_belarus(*
+        => nrel_main_idtf: [специальное жилое помещение] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [special residential premises] (* <- lang_en;; *);;
+        => nrel_main_idtf: [спецыяльнае жылое памяшканне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Специальное жилое помещение – жилое помещение государственного жилищного фонда, предназначенное для постоянного или временного проживания отдельных категорий граждан при наличии у них оснований для проживания в специальном жилом помещении.] (* <- lang_ru;; *);;
+                        -> rrel_example: [Special residential premises - residential premises of the state housing stock, intended for permanent or temporary residence of certain categories of citizens if they have grounds for living in special residential premises.] (* <- lang_en;; *);;
+                        -> rrel_example: [Спецыяльнае жылое памяшканне - жылое памяшканне дзяржаўнага жыллёвага фонду, прызначанае для пастаяннага або часовага пражывання асобных катэгорый грамадзян пры наяўнасці ў іх падстаў для пражывання ў спецыяльным жылым памяшканні.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_routine_repairs_belarus(*
+        => nrel_main_idtf: [текущий ремонт] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [routine repairs] (* <- lang_en;; *);;
+        => nrel_main_idtf: [бягучы рамонт] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [Текущий ремонт – основная жилищно-коммунальная услуга по предотвращению интенсивного износа, восстановлению исправности и устранению повреждений конструктивных элементов, инженерных систем жилого дома.] (* <- lang_ru;; *);;
+                        -> rrel_example: [routine repairs are the main housing and communal services to prevent intensive wear and tear, restore serviceability and eliminate damage to structural elements and engineering systems of a residential building.] (* <- lang_en;; *);;
+                        -> rrel_example: [бягучы рамонт - асноўная жыллёва-камунальная паслуга па прадухіленні інтэнсіўнага зносу, аднаўленні спраўнасці і ліквідацыі пашкоджанняў канструктыўных элементаў, інжынерных сістэм жылога дома.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_maintenance_belarus(*
+        => nrel_main_idtf: [техническое обслуживание] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [maintenance] (* <- lang_en;; *);;
+        => nrel_main_idtf: [тэхнічнае абслугоўванне] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Техническое обслуживание – основная жилищно-коммунальная услуга, включающая работы по поддержанию в исправном и работоспособном состоянии конструктивных элементов, инженерных систем, за исключением лифтов, обеспечению установленных параметров и режимов работы инженерных систем, за исключением лифтов, подготовке жилых домов к условиям весенне-летнего и осенне-зимнего периодов года.] (* <- lang_ru;; *);;
+					-> rrel_example: [Тэхнічнае абслугоўванне – асноўная жыллёва-камунальная паслуга, якая ўключае работы па падтрыманні ў спраўным і працаздольным стане канструктыўных элементаў, інжынерных сістэм, за выключэннем ліфтаў, забеспячэнню ўстаноўленых параметраў і рэжымаў работы інжынерных сістэм, за выключэннем ліфтаў, падрыхтоўцы жылых дамоў да ўмоў вясенне- летняга і асенне-зімовага перыядаў года.] (* <- lang_by;; *);;
+					-> rrel_example: [Maintenance is the main housing and communal service, including work to maintain structural elements and engineering systems, with the exception of elevators, in good working order and operational condition, ensuring the established parameters and operating modes of engineering systems, with the exception of elevators, preparing residential buildings for spring conditions. summer and autumn-winter periods of the year.] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_elevator_maintenance_belarus(*
+        => nrel_main_idtf: [техническое обслуживание лифта] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [elevator maintenance] (* <- lang_en;; *);;
+        => nrel_main_idtf: [тэхнічнае абслугоўванне ліфта] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [техническое обслуживание лифта – основная жилищно-коммунальная услуга, включающая работы по поддержанию работоспособности лифта при его эксплуатации.] (* <- lang_ru;; *);;
+                        -> rrel_example: [elevator maintenance is a basic housing and communal service, including work to maintain the operation of the elevator during its operation.] (* <- lang_en;; *);;
+                        -> rrel_example: [тэхнічнае абслугоўванне ліфта - асноўная жыллёва-камунальная паслуга, якая ўключае работы па падтрыманні працаздольнасці ліфта пры яго эксплуатацыі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_partnership_of_owners_belarus(*
+        => nrel_main_idtf: [товарищество собственников] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [partnership of owners] (* <- lang_en;; *);;
+        => nrel_main_idtf: [таварыства ўласнікаў] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [товарищество собственников – юридическое лицо, создаваемое собственниками жилых и (или) нежилых помещений, расположенных в одном многоквартирном жилом доме на одной придомовой территории или нескольких одноквартирных, блокированных жилых домах, находящихся на смежных земельных участках, в целях сохранения и содержания общего имущества совместного домовладения, владения и пользования им, а также в иных целях, предусмотренных настоящим Кодексом и уставом товарищества собственников.] (* <- lang_ru;; *);;
+                        -> rrel_example: [partnership of owners - a legal entity created by the owners of residential and (or) non-residential premises located in one multi-apartment residential building on one local area or several single-apartment, blocked residential buildings located on adjacent land plots, in order to preserve and maintain the common property of the joint home ownership, possession and use thereof, as well as for other purposes provided for by this Code and the charter of the owners’ association.] (* <- lang_en;; *);;
+                        -> rrel_example: [таварыства ўласнікаў - юрыдычная асоба, якая ствараецца ўласнікамі жылых і (або) нежылых памяшканняў, размешчаных у адным шматкватэрным жылым доме на адной прыдамавой тэрыторыі або некалькіх аднакватэрных, блакіраваных жылых дамах, якія знаходзяцца на сумежных зямельных участках, у мэтах захавання і ўтрымання агульнай маёмасці сумеснай. домаўладання, валоданні і карыстанні ім, а таксама ў іншых мэтах, прадугледжаных гэтым Кодэксам і статутам таварыства ўласнікаў.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_management_of_common_property_of_a_joint_household_belarus(*
+        => nrel_main_idtf: [управление общим имуществом совместного домовладения] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [management of common property of a joint household] (* <- lang_en;; *);;
+        => nrel_main_idtf: [упраўленне агульнай маёмасцю сумеснага домаўладання] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [управление общим имуществом совместного домовладения – услуга по осуществлению деятельности в целях обеспечения эксплуатации общего имущества совместного домовладения, реализации собственниками прав пользования объектами недвижимого имущества и общим имуществом совместного домовладения.] (* <- lang_ru;; *);;
+                        -> rrel_example: [management of common property of a joint household is a service for carrying out activities in order to ensure the operation of the common property of a joint household, the implementation by owners of the rights to use real estate objects and the common property of a joint household.] (* <- lang_en;; *);;
+                        -> rrel_example: [упраўленне агульнай маёмасцю сумеснага домаўладання – паслуга па ажыццяўленні дзейнасці ў мэтах забеспячэння эксплуатацыі агульнай маёмасці сумеснага домаўладання, рэалізацыі ўласнікамі правоў карыстання аб'ектамі нерухомай маёмасці і агульнай маёмасцю сумеснага домаўладання.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_target_contribution_belarus(*
+        => nrel_main_idtf: [целевой взнос] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [target contribution] (* <- lang_en;; *);;
+        => nrel_main_idtf: [мэтавы ўзнос] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [целевой взнос – денежные средства, вносимые членом организации собственников на основании решения общего собрания (собрания уполномоченных) членов организации собственников для дополнительного финансирования работ и мероприятий, связанных с эксплуатацией общего имущества совместного домовладения и управлением им. ] (* <- lang_ru;; *);;
+                        -> rrel_example: [target contribution - funds contributed by a member of the owners’ organization on the basis of a decision of the general meeting (meeting of authorized) members of the owners’ organization for additional financing of work and activities related to the operation and management of the common property of a joint household. ] (* <- lang_en;; *);;
+                        -> rrel_example: [мэтавы ўзнос - грашовыя сродкі, якія ўносяцца членам арганізацыі ўласнікаў на падставе рашэння агульнага сходу (сходу ўпаўнаважаных) членаў арганізацыі ўласнікаў для дадатковага фінансавання работ і мерапрыемстваў, звязаных з эксплуатацыяй агульнай маёмасці сумеснага домаўладання і кіраваннем ім. ] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_membership_fee_belarus(*
+        => nrel_main_idtf: [членский взнос] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [membership fee] (* <- lang_en;; *);;
+        => nrel_main_idtf: [членскі ўзнос] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [членский взнос – денежные средства, периодически вносимые членом организации собственников на цели, связанные с деятельностью организации собственников, в том числе на оплату труда работников, вознаграждение членов правления, членов ревизионной комиссии.] (* <- lang_ru;; *);;
+                        -> rrel_example: [membership fee – funds periodically contributed by a member of the owners’ organization for purposes related to the activities of the owners’ organization, including remuneration of employees, remuneration of board members, members of the audit commission.] (* <- lang_en;; *);;
+                        -> rrel_example: [членскі ўзнос – грашовыя сродкі, якія перыядычна ўносяцца членам арганізацыі ўласнікаў на мэты, звязаныя з дзейнасцю арганізацыі ўласнікаў, у тым ліку на аплату працы работнікаў, узнагароджанне членаў праўлення, членаў рэвізійнай камісіі.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_members_of_the_developer_organization_belarus(*
+        => nrel_main_idtf: [члены организации застройщиков] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [members of the developer organization] (* <- lang_en;; *);;
+        => nrel_main_idtf: [члены арганізацыі забудоўшчыкаў] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        -> rrel_example: [члены организации застройщиков – граждане, в том числе индивидуальные предприниматели, юридические лица, самостоятельно осуществляющие финансирование строительства (реконструкции, капитального ремонта) либо приобретения жилого дома, иного капитального строения (здания, сооружения) в составе организации застройщиков за счет собственных, привлеченных денежных средств или перечисляющие этой организации паевые взносы на такие цели.] (* <- lang_ru;; *);;
+                        -> rrel_example: [members of the developer organization are citizens, including individual entrepreneurs, legal entities, who independently finance the construction (reconstruction, major repairs) or purchase of a residential building, other permanent structure (building, structure) as part of the developer organization at the expense of their own, attracted funds funds or transferring shares to this organization for such purposes.] (* <- lang_en;; *);;
+                        -> rrel_example: [члены арганізацыі забудоўшчыкаў - грамадзяне, у тым ліку індывідуальныя прадпрымальнікі, юрыдычныя асобы, якія самастойна ажыццяўляюць фінансаванне будаўніцтва (рэканструкцыі, капітальнага рамонту) або набыцця жылога дома, іншага капітальнага будынка (будынка, збудаванні) у складзе арганізацыі забудоўшчыкаў за кошт уласных, прыцягнутых грашовых. сродкаў або якія пералічваюць гэтай арганізацыі паявыя ўзносы на такія мэты.] (* <- lang_by;; *);;
+                *);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_family_members_of_a_citizen_who_is_a_member_of_a_developer_organization_whose_residential_building_has_not_been_completed_belarus(*
+        => nrel_main_idtf: [члены семьи гражданина, являющегося членом организации застройщиков, жилой дом которой не завершен строительством (реконструкция жилого дома которой не завершена)] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [family members of a citizen who is a member of a developer organization whose residential building has not been completed (the reconstruction of whose residential building has not been completed)] (* <- lang_en;; *);;
+        => nrel_main_idtf: [члены сям'і грамадзяніна, які з'яўляецца членам арганізацыі забудоўшчыкаў, жылы дом якой не завершаны будаўніцтвам (рэканструкцыя жылога дома якой не завершана)] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Члены семьи гражданина, являющегося членом организации застройщиков, жилой дом которой не завершен строительством (реконструкция жилого дома которой не завершена), – супруг (супруга), их дети, в том числе усыновленные (удочеренные), родители, усыновители (удочерители), иные родственники, свойственники, нетрудоспособные иждивенцы, бывшие члены семьи, состоящие на учете нуждающихся в улучшении жилищных условий с гражданином, являющимся членом организации застройщиков, жилой дом которой не завершен строительством (реконструкция жилого дома которой не завершена).] (* <- lang_ru;; *);;
+					-> rrel_example: [Члены сям'і грамадзяніна, які з'яўляецца членам арганізацыі забудоўшчыкаў, жылы дом якой не завершаны будаўніцтвам (рэканструкцыя жылога дома якой не завершана), - муж (жонка), іх дзеці, у тым ліку ўсыноўленыя (удачараныя), бацькі, усынавіцелі (удачарыцелі), іншыя сваякі, уласцівыя, непрацаздольныя ўтрыманцы, былыя члены сям'і, якія знаходзяцца на ўліку маючых патрэбу ў паляпшэнні жыллёвых умоў з грамадзянінам, які з'яўляецца членам арганізацыі забудоўшчыкаў, жылы дом якой не завершаны будаўніцтвам (рэканструкцыя жылога дома якой не завершана).] (* <- lang_by;; *);;
+					-> rrel_example: [Family members of a citizen who is a member of a developer organization whose residential building has not been completed (the reconstruction of whose residential building has not been completed)Family members of a citizen who is a member of a developer organization whose residential building has not been completed (the reconstruction of whose residential building has not been completed) - spouse, their children, including adopted children, parents, adoptive parents, other relatives, in-laws, disabled dependents, former family members registered as needing improved housing conditions with a citizen who is a member of a developer organization whose residential building has not been completed (the reconstruction of whose residential building has not been completed).] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);
+
+
+    concept_operation_of_the_housing_stock_belarus(*
+        => nrel_main_idtf: [эксплуатация жилищного фонда] (* <- lang_ru;; *);;
+        => nrel_main_idtf: [operation of the housing stock] (* <- lang_en;; *);;
+        => nrel_main_idtf: [эксплуатацыя жыллёвага фонду] (* <- lang_by;; *);;
+        <- rrel_key_sc_element:
+            ...
+            (*
+                <- definition;;
+                <= nrel_sc_text_translation: ...
+				    (*
+					-> rrel_example: [Эксплуатация жилищного фонда – использование по назначению жилищного фонда с систематическим осуществлением комплекса организационно-технических мероприятий по содержанию, техническому обслуживанию, техническому обслуживанию лифтов, текущему ремонту, капитальному ремонту жилых домов, иных капитальных строений (зданий, сооружений).] (* <- lang_ru;; *);;
+					-> rrel_example: [Эксплуатацыя жыллёвага фонду - выкарыстанне па назначэнню жыллёвага фонду з сістэматычным ажыццяўленнем комплексу арганізацыйна-тэхнічных мерапрыемстваў па ўтрыманні, тэхнічным абслугоўванні, тэхнічным абслугоўванні ліфтаў, бягучым рамонце, капітальным рамонце жылых дамоў, іншых капітальных будынкаў (будынкаў, збудаванняў).] (* <- lang_by;; *);;
+					-> rrel_example: [Operation of the housing stock – use of the housing stock for its intended purpose with the systematic implementation of a set of organizational and technical measures for maintenance, maintenance, maintenance of elevators, routine repairs, major repairs of residential buildings and other permanent structures (buildings, structures).] (* <- lang_en;; *);;
+				*);;
+            *);;
+        <- belarus_legal_term;;
+        <- sc_node_not_relation;;
+    *);;
+
+
+concept_dictionary
+    => nrel_main_idtf: [Словарь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Dictionary] (* <- lang_en;; *);
+    => nrel_main_idtf: [Слоўнік] (* <- lang_by;; *);;

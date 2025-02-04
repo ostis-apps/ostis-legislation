@@ -1,0 +1,57 @@
+nrel_related_article
+	=> nrel_main_idtf: [связанная статья] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [related article] (* <- lang_en;; *);
+	=> nrel_main_idtf: [звязаны артыкул] (* <- lang_by;; *);
+		<- rrel_key_sc_element:
+		...
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: [связанная статья — это статья, которая имеет общие темы, пересекающиеся вопросы или взаимосвязанные аспекты, и может дополнять или расширять содержание друой статьи или понятия в рамках определенной области знаний или публикаций.] (* <- lang_ru;; *);;
+			-> rrel_example: [related article - an article that has common themes, overlapping issues, or interrelated aspects, and may complement or extend the content of another article within a specific area of ​​knowledge or publication.] (* <- lang_en;; *);;
+			-> rrel_example: [звязаны артыкул — гэта артыкул, які мае агульныя тэмы, перасякальныя пытанні ці ўзаемазвязаныя аспекты, і можа дапаўняць або пашыраць змест другога артыкула ў рамках пэўнай галіны ведаў або публікацый.] (* <- lang_by;; *);;
+		*);;
+		*);
+	<- sc_node_norole_relation;
+	<- binary_relation;
+	<- oriented_relation;
+	<- asymmetric_relation;
+	<- antitransitive_relation;;
+
+belarus_legal_article
+=> nrel_main_idtf: [правовая статья юриспруденции Республики Беларусь] (* <- lang_ru;; *);
+=> nrel_main_idtf: [legal article of jurisprudence of the Republic of Belarus] (* <- lang_en;; *);
+=> nrel_main_idtf: [прававы артыкул юрыспрудэнцыі Рэспублікі Беларусь] (* <- lang_by;; *);
+<- rrel_key_sc_element:
+...
+(*
+  <- definition;;
+  <= nrel_sc_text_translation: ...
+    (*
+      -> rrel_example: [правовая статья юриспруденции Республики Беларусь — это нормативно-правовой акт или его часть, содержащая правовые нормы, регулирующие общественные отношения в конкретной сфере, изданная уполномоченным государственным органом Республики Беларусь.] (* <- lang_ru;; *);;
+      -> rrel_example: [a legal article of jurisprudence in the Republic of Belarus - a normative legal act or part thereof containing legal norms regulating public relations in a specific area, issued by an authorized state body of the Republic of Belarus.] (* <- lang_en;; *);;
+      -> rrel_example: [прававая артыкул юрыспрудэнцыі Рэспублікі Беларусь — гэта нарматыўна-прававы акт або яго частка, якая змяшчае прававыя нормы, якія рэгулююць грамадскія адносіны ў канкрэтнай сферы, выдадзены ўпаўнаважаным дзяржаўным органам Рэспублікі Беларусь.] (* <- lang_by;; *);;
+  *);;
+*);;
+
+nrel_related_articles
+	=> nrel_main_idtf: [связанная статья] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [related article] (* <- lang_en;; *);
+	=> nrel_main_idtf: [звязаны артыкул] (* <- lang_by;; *);
+		<- rrel_key_sc_element:
+		...
+		(*
+		<- definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: [связанная статья — это статья, которая имеет общие темы, пересекающиеся вопросы или взаимосвязанные аспекты, и может дополнять или расширять содержание друой статьи или понятия в рамках определенной области знаний или публикаций.] (* <- lang_ru;; *);;
+			-> rrel_example: [related article - an article that has common themes, overlapping issues, or interrelated aspects, and may complement or extend the content of another article within a specific area of ​​knowledge or publication.] (* <- lang_en;; *);;
+			-> rrel_example: [звязаны артыкул — гэта артыкул, які мае агульныя тэмы, перасякальныя пытанні ці ўзаемазвязаныя аспекты, і можа дапаўняць або пашыраць змест другога артыкула ў рамках пэўнай галіны ведаў або публікацый.] (* <- lang_by;; *);;
+		*);;
+		*);
+	<- sc_node_norole_relation;
+	<- binary_relation;
+	<- oriented_relation;
+	<- asymmetric_relation;
+	<- antitransitive_relation;;
