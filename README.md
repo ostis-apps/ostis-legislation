@@ -91,7 +91,7 @@ exec $SHELL
 sc-machine libraries are the core components of the OSTIS Platform, used to develop C++ agents. They're installed using Conan:
 
 ```sh
-conan remote add ostis-ai https://conan.ostis.net/artifactory/api/conan/ostis-ai-sc-machine
+conan remote add ostis-ai https://conan.ostis.net/artifactory/api/conan/ostis-ai-library
 conan profile detect
 conan install . --build=missing
 ```
