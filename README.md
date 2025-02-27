@@ -189,19 +189,6 @@ source .venv/bin/activate && python3 server/app.py
 To check that everything is fine open localhost:8000 in your browser.
 ![](https://i.imgur.com/6SehI5s.png)
 
-## Documentation
-
-Run on Linux:
-```sh
-#Terminal
-pip3 install mkdocs markdown-include mkdocs-material
-mkdocs serve
-```
-
-Then open http://127.0.0.1:8005/ in your browser.
-
-Please note that the documentation for this project is still under development and contains only partial information.
-
 ## Project Structure
 
 ### Knowledge Base
