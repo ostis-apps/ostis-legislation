@@ -1,11 +1,30 @@
 #include "user_request_agent.hpp"
+#include <iostream>
+#include <cstdio>
+#include <memory>
+#include <stdexcept>
 #include <string>
+#include <array>
+#include <regex>
 #include <sc-memory/sc_memory_headers.hpp>
 #include "keynodes/user_request_keynodes.hpp"
 
 ScAddr ScUserRequestAgent::GetActionClass() const
 {
     return UserRequestKeynodes::action_user_request;
+}
+
+std::string exec(const std::string& cmd) {
+  std::array<char, 128> buffer;
+  std::string result;
+  std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd.c_str(), "r"), pclose);
+  if (!pipe) {
+      throw std::runtime_error("popen() failed!");
+  }
+  while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
+      result += buffer.data();
+  }
+  return result;
 }
 
 std::vector<std::string> LemmaProcessing(const std::string &input)
@@ -20,6 +39,20 @@ std::vector<std::string> LemmaProcessing(const std::string &input)
     }
     
     return words;
+}
+
+std::vector<std::string> splitString(const std::string& input) {
+  std::vector<std::string> result;
+  std::regex rgx("\"([^\"]+)\"");
+  auto begin = std::sregex_iterator(input.begin(), input.end(), rgx);
+  auto end = std::sregex_iterator();
+  
+  for (std::sregex_iterator i = begin; i != end; ++i) {
+      std::smatch match = *i;
+      result.push_back(match.str(1)); // Добавляем найденную строку без кавычек
+  }
+  
+  return result;
 }
 
 std::string getFirstWord(const std::string& input) {
@@ -109,17 +142,23 @@ ScResult ScUserRequestAgent::DoProgram(ScAction & action)
   bool const stringContentExist = m_context.GetLinkContent(requestAddr, stringContent);
 
   SC_LOG_INFO(stringContent);
+  std::string command = "python3 problem-solver/py//utils/string_processing.py \"" + stringContent + "\"";
+  std::string output = exec(command);
+  
+  SC_LOG_INFO(output);
 
-  std::vector<std::string> lemma_vec = LemmaProcessing(stringContent);
 
-  for (auto item : lemma_vec)
+  std::vector<std::string> words = splitString(output);
+  SC_LOG_INFO(words.size()); 
+  
+  for (auto item : words)
   { 
     SC_LOG_INFO(item);
     ScAddrSet const & linkAddrs1 = m_context.SearchLinksByContent(item);
     if(linkAddrs1.size() > 0)
     {
       stringContent = item;
-      SC_LOG_INFO("SCLINK NOW" + item);
+      SC_LOG_INFO("SCLINK NOW " + item);
     }
 
   }
@@ -140,7 +179,7 @@ ScResult ScUserRequestAgent::DoProgram(ScAction & action)
 
   // SC_LOG_INFO("For text empty?" << FindTemplateForText.IsEmpty());
   // SC_LOG_INFO("Text temp size" << std::to_string(FindTemplateForText.Size()));
-  SC_LOG_INFO("Text temp size" << std::to_string(FindTemplate.Size()));
+  SC_LOG_INFO("Text temp size " << std::to_string(FindTemplate.Size()));
 
   ScTemplateSearchResult FindTemplateSearchResult;
   m_context.SearchByTemplate(FindTemplate, FindTemplateSearchResult);
@@ -179,7 +218,7 @@ ScResult ScUserRequestAgent::DoProgram(ScAction & action)
     }
   }
 
-  SC_LOG_INFO("total" + std::to_string(count));
+  SC_LOG_INFO("total " + std::to_string(count));
   action.SetResult(resultStruct);
   return action.FinishSuccessfully();
 }
