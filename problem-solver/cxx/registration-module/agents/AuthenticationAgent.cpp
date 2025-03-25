@@ -1,0 +1,97 @@
+#include "AuthenticationAgent.hpp"
+#include "keynodes/RegistrationKeynodes.hpp"
+
+std::string HashPassword(const std::string password) {
+  unsigned char hash[SHA256_DIGEST_LENGTH];
+  SHA256_CTX sha256;
+  SHA256_Init(&sha256);
+  SHA256_Update(&sha256, password.c_str(), password.length());
+  SHA256_Final(hash, &sha256);
+
+  std::stringstream ss;
+  for(int i = 0; i < SHA256_DIGEST_LENGTH; i++) {
+    ss << std::hex << std::setw(2) << std::setfill('0') << (int)hash[i];
+  }
+  return ss.str();
+}
+
+ScTemplate generateTemplateForUserLogin(ScAddr const & loginAddr) {
+  ScTemplate templateForUserLogin;
+
+  templateForUserLogin.Triple(
+      RegistrationKeynodes::REGISTERED_JURISPRUDENCE_USER,
+      ScType::VarPermPosArc,
+      loginAddr
+  );
+
+  return templateForUserLogin;
+}
+
+ScAddr AuthenticationAgent::GetActionClass() const
+{
+  return RegistrationKeynodes::action_authentication;
+}
+
+ScResult AuthenticationAgent::DoProgram(ScAction & action)
+{
+  auto const & [loginAddr, passwordAddr] = action.GetArguments<2>();
+
+  // Логин и пароль
+  std::string login;
+  std::string password;
+
+  m_context.GetLinkContent(loginAddr, login);
+  m_context.GetLinkContent(passwordAddr, password);
+  std::string hashedPassword = HashPassword(password);
+
+  SC_LOG_INFO("Логин: " + login);
+  SC_LOG_INFO("Хэшированный пароль: " + hashedPassword);
+
+  ScTemplate userTemplate = generateTemplateForUserLogin(loginAddr);
+
+  ScTemplateSearchResult userTemplateSearchResult;
+  m_context.SearchByTemplate(userTemplate, userTemplateSearchResult);
+
+  if (userTemplateSearchResult.IsEmpty()) {
+    SC_LOG_ERROR("Пользователь с таким логином не найден.");
+    return action.FinishUnsuccessfully();
+  }
+
+  ScTemplateResultItem userTemplateResultItem;
+  userTemplateSearchResult.Get(0, userTemplateResultItem);
+
+  ScAddr userAddr;
+  userTemplateResultItem.Get(loginAddr, userAddr);
+
+  ScTemplate passwordTemplate;
+  passwordTemplate.Triple(
+      userAddr,
+      ScType::VarPermPosArc,
+      ScType::LinkVar >> "_password"
+  );
+
+  ScTemplateSearchResult passwordTemplateSearchResult;
+  m_context.SearchByTemplate(passwordTemplate, passwordTemplateSearchResult);
+
+  if (passwordTemplateSearchResult.IsEmpty()) {
+    SC_LOG_ERROR("Пароль пользователя не найден.");
+    return action.FinishUnsuccessfully();
+  }
+
+  ScTemplateResultItem passwordTemplateResultItem;
+  passwordTemplateSearchResult.Get(0, passwordTemplateResultItem);
+
+  ScAddr passwordLinkAddr;
+  passwordTemplateResultItem.Get("_password", passwordLinkAddr);
+
+  std::string storedPassword;
+  m_context.GetLinkContent(passwordLinkAddr, storedPassword);
+
+  if (storedPassword == hashedPassword) {
+    SC_LOG_INFO("Авторизация успешна!");
+    return action.FinishSuccessfully();
+  } else {
+    SC_LOG_ERROR("Неверный пароль.");
+    return action.FinishUnsuccessfully();
+  }
+}
