@@ -19,31 +19,45 @@ std::string HashPassword(const std::string password) {
   return ss.str();
 }
 
-bool isUserWithLoginExist(ScAgentContext& context, ScAddr const & loginAddr, ScAddr& userAddr) {
-  ScTemplate templateForUserLogin;
+bool isCorrectLoginAndPassword(ScAgentContext& context, const std::string& login, const std::string& password) {
+  ScTemplate templateToCheckPassword;
 
-  templateForUserLogin.Triple(
+  templateToCheckPassword.Triple(
       RegistrationKeynodes::REGISTERED_JURISPRUDENCE_USER,
       ScType::VarPermPosArc,
-      ScType::VarNode >> "_login"
+      ScType::VarNode >> "_user"
   );
 
-  ScTemplateSearchResult userTemplateSearchResult;
-  context.SearchByTemplate(templateForUserLogin, userTemplateSearchResult);
+  templateToCheckPassword.Quintuple(
+    "_user",
+    ScType::VarCommonArc,
+    ScType::VarNodeLink >> "_password",
+    ScType::VarPermPosArc,
+    RegistrationKeynodes::NREL_USER_PASSWORD
+  );
 
-  if (!userTemplateSearchResult.IsEmpty()) {
-    for (size_t i = 0; i < userTemplateSearchResult.Size(); i++) {
-      ScTemplateResultItem userTemplateResultItem;
-      userTemplateSearchResult.Get(i, userTemplateResultItem);
+  ScTemplateSearchResult templateToCheckPasswordSearchResult;
+  context.SearchByTemplate(templateToCheckPassword, templateToCheckPasswordSearchResult);
 
-      ScAddr login;
-      userTemplateResultItem.Get("_login", login);
+  if (!templateToCheckPasswordSearchResult.IsEmpty()) {
+    for (int i = 0; i < templateToCheckPasswordSearchResult.Size(); i++) {
+      ScTemplateResultItem templateToCheckPasswordResultItem;
+      templateToCheckPasswordSearchResult.Get(i, templateToCheckPasswordResultItem);
 
-      std::string inputLogin;
-      context.GetLinkContent(loginAddr, inputLogin);
+      ScAddr loginAddr;
+      templateToCheckPasswordResultItem.Get("_user", loginAddr);
 
-      if (context.GetElementSystemIdentifier(login) == inputLogin) {
-        userTemplateResultItem.Get("_login", userAddr);
+      ScAddr passwordAddr;
+      std::string passwordInKnowledgeBase;
+      templateToCheckPasswordResultItem.Get("_password", passwordAddr);
+      context.GetLinkContent(passwordAddr, passwordInKnowledgeBase);
+
+      SC_LOG_INFO("Пользователь " + std::to_string(i));
+      SC_LOG_INFO("Логин в БЗ: " + context.GetElementSystemIdentifier(loginAddr));
+      SC_LOG_INFO("Пароль в БЗ " + passwordInKnowledgeBase);
+
+      if (context.GetElementSystemIdentifier(loginAddr) == login &&
+        passwordInKnowledgeBase == password) {
         return true;
       }
     }
@@ -69,46 +83,10 @@ ScResult AuthenticationAgent::DoProgram(ScAction & action) {
   SC_LOG_INFO("Логин: " + login);
   SC_LOG_INFO("Хэшированный пароль: " + hashedPassword);
 
-  ScAddr userAddr;
-  if (isUserWithLoginExist(m_context, loginAddr, userAddr)) {
-    SC_LOG_INFO("Пользователь с таким логином найден.");
-
-    ScTemplate passwordTemplate;
-    passwordTemplate.Quintuple(
-        userAddr,
-        ScType::CommonArc,
-        ScType::VarNode >> "_password",
-        ScType::VarPermPosArc,
-        RegistrationKeynodes::NREL_USER_PASSWORD
-    );
-
-    ScTemplateSearchResult passwordTemplateSearchResult;
-    m_context.SearchByTemplate(passwordTemplate, passwordTemplateSearchResult);
-
-    if (passwordTemplateSearchResult.IsEmpty()) {
-      SC_LOG_ERROR("Пароль пользователя не найден.");
-      return action.FinishUnsuccessfully();
-    }
-
-    ScTemplateResultItem passwordTemplateResultItem;
-    passwordTemplateSearchResult.Get(0, passwordTemplateResultItem);
-
-    ScAddr passwordLinkAddr;
-    passwordTemplateResultItem.Get("_password", passwordLinkAddr);
-
-    std::string storedPassword;
-    m_context.GetLinkContent(passwordLinkAddr, storedPassword);
-
-    if (storedPassword == hashedPassword) {
-      SC_LOG_INFO("Авторизация успешна!");
-      return action.FinishSuccessfully();
-    } else {
-      SC_LOG_ERROR("Неверный пароль.");
-      return action.FinishUnsuccessfully();
-    }
-
-  } else {
-    SC_LOG_ERROR("Пользователь с таким логином не найден.");
-    return action.FinishUnsuccessfully();
+  if (isCorrectLoginAndPassword(m_context, login, hashedPassword)) {
+    SC_LOG_INFO("Автризация упешна!");
+    return action.FinishSuccessfully();
   }
+  SC_LOG_INFO("Авторизация безуспешна.");
+  return action.FinishUnsuccessfully();
 }
