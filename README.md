@@ -198,7 +198,7 @@ Steps for installing and running the application directly on your system.
     pip3 install -r requirements.txt
     ```
 
-10.  **Install sc-web:**
+10. **Install sc-web:**
 
     sc-web provides the web-based user interface for the ostis-system. The installation process includes setting up dependencies and building the interface:
 
@@ -322,7 +322,7 @@ This project inherits codestyle from sc-machine, which can be found [here](https
 
 ## Author
 
-* GitHub: [@ostis-apps](https://github.com/ostis-apps), [@ostis-ai](https://github.com/ostis-ai)
+* GitHub: [@ostis-apps](https://github.com/ostis-apps)
 
 ## Show your support
 
