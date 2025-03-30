@@ -20,6 +20,10 @@ public:
   static inline ScKeynode const RREL_USER_MONTH{"rrel_user_month", ScType::ConstNodeRole};
   static inline ScKeynode const RREL_USER_YEAR{"rrel_user_year", ScType::ConstNodeRole};
 
-  // Узел действия агента
+  // Узел действия агента регистрации
   static inline ScKeynode const action_register{"action_register", ScType::NodeConstClass};
+
+  // Узел действия агента аутентификации
+  static inline ScKeynode const action_authentication{"action_authentication", ScType::NodeConstClass};
+
 };
