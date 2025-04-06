@@ -1,2 +1,4 @@
 add_subdirectory(test-module)
 add_subdirectory(registration-module)
+add_subdirectory(addEvent-module)
+add_subdirectory(delEvent-module)
