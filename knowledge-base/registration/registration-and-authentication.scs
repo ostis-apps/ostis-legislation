@@ -1,0 +1,71 @@
+registered_jurisprudence_user
+    => nrel_main_idtf: [пользователь, зарегистрированный в системе по юриспруденции] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user registered in the system for jurisprudence] (* <- lang_en;; *);
+    => nrel_main_idtf: [карыстальнік, зарэгістраваны ў сістэме па юрыспрудэнцыі] (* <- lang_by;; *);
+    <- sc_node_class;;
+
+nrel_user_password
+    => nrel_main_idtf: [зашифрованный пароль пользователя] (* <- lang_ru;; *);
+    => nrel_main_idtf: [encrypted user password] (* <- lang_en;; *);
+    => nrel_main_idtf: [зашыфраваны пароль карыстальніка] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+nrel_user_login
+    => nrel_main_idtf: [логин пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [login in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [лагін карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+nrel_user_name
+    => nrel_main_idtf: [имя пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user name in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [імя карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+nrel_user_surname
+    => nrel_main_idtf: [фамилия пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user surname in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [прозвішча карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+nrel_user_patronymic
+    => nrel_main_idtf: [отчество пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user patronymic in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [імя па бацьку карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+nrel_user_birthdate
+    => nrel_main_idtf: [день рождения пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user birthdate in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [дзень нараджэння карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+rrel_user_day
+    => nrel_main_idtf: [день] (* <- lang_ru;; *);
+    => nrel_main_idtf: [day] (* <- lang_en;; *);
+    => nrel_main_idtf: [дзень] (* <- lang_by;; *);
+    <- sc_node_role_relation;;
+
+rrel_user_month
+    => nrel_main_idtf: [месяц] (* <- lang_ru;; *);
+    => nrel_main_idtf: [month] (* <- lang_en;; *);
+    => nrel_main_idtf: [месяц] (* <- lang_by;; *);
+    <- sc_node_role_relation;;
+
+rrel_user_year
+    => nrel_main_idtf: [год] (* <- lang_ru;; *);
+    => nrel_main_idtf: [year] (* <- lang_en;; *);
+    => nrel_main_idtf: [год] (* <- lang_by;; *);
+    <- sc_node_role_relation;;
+
+nrel_user_address
+    => nrel_main_idtf: [адрес прописки пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user registration address in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [адрас прапіскі карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
+
+nrel_user_gender
+    => nrel_main_idtf: [пол пользователя в системе] (* <- lang_ru;; *);
+    => nrel_main_idtf: [user gender address in the system] (* <- lang_en;; *);
+    => nrel_main_idtf: [падлогу карыстальніка ў сістэме] (* <- lang_by;; *);
+    <- sc_node_non_role_relation;;
