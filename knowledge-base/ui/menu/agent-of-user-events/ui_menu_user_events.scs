@@ -1,0 +1,31 @@
+lib_component_ui_menu_user_events = [*
+ui_menu_user_events <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_user_events
+=> nrel_main_idtf: 
+	[Какие события соеденены с пользователем?]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиска событий соеденённых с пользователем]
+	(* <- lang_ru;; *);;
+
+ui_menu_user_events
+=> nrel_main_idtf: 
+	[What events connected to user?]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for events connected to user]
+	(* <- lang_en;; *);;
+
+ui_menu_user_events => ui_nrel_command_template:
+	[*
+		action_user_events _-> ._action_user_events_instance
+			(*
+				_-> rrel_1:: ui_arg_1;;
+			*);;
+		._action_user_events_instance <-_ action;;
+	*];;
+
+ui_menu_user_events => ui_nrel_command_lang_template: [Какие события соеденены с пользователем $ui_arg_1?] (* <- lang_ru;; *);;
+ui_menu_user_events => ui_nrel_command_lang_template: [What events are connected to user $ui_arg_1?] (* <- lang_en;; *);;
+*];;
