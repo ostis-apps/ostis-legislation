@@ -183,7 +183,7 @@ ScResult RegistrationAgent::DoProgram(ScAction & action)
   ScAddr userSurnameAddr = m_context.GenerateLink();
   ScAddr userNameAddr = m_context.GenerateLink();
   ScAddr userPatronymicAddr = m_context.GenerateLink();
-  ScAddr userBirthdayAddr = m_context.GenerateNode(ScType::ConstNodeTuple);
+  ScAddr userBirthdayAddr = m_context.GenerateLink();
   ScAddr userAddressAddr = m_context.GenerateLink();
 
   // Заполнение узлов для хранения пользователя
@@ -194,6 +194,7 @@ ScResult RegistrationAgent::DoProgram(ScAction & action)
   m_context.SetLinkContent(userNameAddr, name);
   m_context.SetLinkContent(userPatronymicAddr, patronymic);
   m_context.SetLinkContent(userAddressAddr, address);
+  m_context.SetLinkContent(userBirthdayAddr, birthDay + "." + birthMonth + "." + birthYear);
 
   // Ребра от узла пользователя к его параметрам
   ScAddr userRegisteredClassToUserNodeConnectorAddr = m_context.GenerateConnector(ScType::ConstPermPosArc, RegistrationKeynodes::REGISTERED_JURISPRUDENCE_USER, userAddr);
