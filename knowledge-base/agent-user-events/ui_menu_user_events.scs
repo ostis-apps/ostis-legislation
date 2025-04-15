@@ -1,0 +1,32 @@
+lib_component_ui_menu_question_stats_tracker = [*
+ui_menu_question_stats_tracker <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_question_stats_tracker
+=> nrel_main_idtf: 
+	[Обновить статистику правильных ответов для пользователя]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Обновить статистику правильных ответов для пользователя]
+	(* <- lang_ru;; *);;
+
+ui_menu_question_stats_tracker 
+=> nrel_main_idtf: 
+	[Update question stats for user]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Update question stats for user]
+	(* <- lang_en;; *);;
+
+ui_menu_question_stats_tracker  => ui_nrel_command_template:
+	[*
+		action_question_stats_tracker  _-> ._action_question_stats_tracker_instance
+			(*
+				 _-> rrel_1:: ui_arg_1;;
+			*);;
+		._action_question_stats_tracker_instance _<- action;;
+	*];;
+
+ui_menu_question_stats_tracker => ui_nrel_command_lang_template: [Обновить стастику пользователя $ui_arg_1 для множества вопросов $ui_arg_2?] (* <- lang_ru;; *);;
+ui_menu_question_stats_tracker => ui_nrel_command_lang_template: [Updates $ui_arg_1 user stats for set of questions $ui_arg_2] (* <- lang_en;; *);;
+*];;
+

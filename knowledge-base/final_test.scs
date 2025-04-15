@@ -1,0 +1,24 @@
+final_test_user <- concept_user;;
+
+final_test_user => nrel_user_event: great_event;;
+final_test_user => nrel_user_event: minor_event;;
+
+great_event => nrel_event_name: [Great event];;
+great_event => nrel_event_description: [A very great event];;
+great_event => nrel_event_date:
+	...
+	(*
+		-> rrel_event_day: [1];;
+		-> rrel_event_month: [12];;
+		-> rrel_event_year: [2020];;
+	*);;
+	
+minor_event => nrel_event_name: [Minor event];;
+minor_event => nrel_event_description: [Too minor event];;
+minor_event => nrel_event_date:
+	...
+	(*
+		-> rrel_event_day: [32];;
+		-> rrel_event_month: [2];;
+		-> rrel_event_year: [2007];;
+	*);;
