@@ -1,6 +1,7 @@
 #include "user_request_agent.hpp"
 #include <iostream>
 #include <cstdio>
+#include <cstring>
 #include <memory>
 #include <stdexcept>
 #include <string>
@@ -14,39 +15,17 @@ ScAddr ScUserRequestAgent::GetActionClass() const
     return UserRequestKeynodes::action_user_request;
 }
 
-std::vector<std::string> LemmaProcessing(const std::string &input)
-{ 
-  std::vector<std::string> words;
-    std::istringstream stream(input);
-    std::string word;
-    
-    while (stream >> word) {
-        words.push_back(word);
-        SC_LOG_INFO(word);
-    }
-    
-    return words;
-}
-
-std::vector<std::string> splitString(const std::string& input) {
-  std::vector<std::string> result;
-  std::regex rgx("\"([^\"]+)\"");
-  auto begin = std::sregex_iterator(input.begin(), input.end(), rgx);
-  auto end = std::sregex_iterator();
-  
-  for (std::sregex_iterator i = begin; i != end; ++i) {
-      std::smatch match = *i;
-      result.push_back(match.str(1)); // Добавляем найденную строку без кавычек
-  }
-  
-  return result;
-}
-
 std::string getFirstWord(const std::string& input) {
   std::istringstream stream(input);
   std::string firstWord;
   stream >> firstWord;
   return firstWord;
+}
+
+std::string str_tolower(std::string str) {
+  std::transform(str.begin(), str.end(), str.begin(), 
+                [](unsigned char c){ return std::tolower(c); });
+  return str;
 }
 
 bool isSubstring(const std::string& textToSearch, const std::string& fullText) {
@@ -65,136 +44,137 @@ bool areEqual(const std::string& str1, const std::string& str2) {
   return str1 == str2;
 }
 
-void generateCommonTemplateFromTitle(ScTemplate& inputTemplate) {
+void generateCommonTemplate(ScTemplate& inputTemplate, ScAddr& item) {
   inputTemplate.Quintuple(
-      ScType::VarNode >> "_concept",
-      ScType::VarCommonArc,
-      ScType::VarNodeLink >> "_title",
-      ScType::VarPermPosArc,
-      UserRequestKeynodes::nrel_main_idtf
+    ScType::VarNode >> "_main_node",
+    ScType::VarCommonArc,
+    item >> "_title_link",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_main_idtf
+  );
+
+  inputTemplate.Quintuple(
+    ScType::NodeVarClass >> "_concept",
+    ScType::EdgeDCommonVar,
+    "_main_node",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_related_concept
+  );
+
+  inputTemplate.Quintuple(
+    "_main_node",
+    ScType::EdgeDCommonVar,
+    ScType::NodeVar >> "_article",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_related_article
   );
 
   inputTemplate.Triple(
-      UserRequestKeynodes::belarus_legal_term,
-      ScType::VarPermPosArc,
-      ScType::VarNode >> "_concept"
+    UserRequestKeynodes::lang_ru,
+    ScType::VarPermPosArc,
+    "_title_link"
   );
+
+  inputTemplate.Triple(
+    UserRequestKeynodes::belarus_legal_term,
+    ScType::VarPermPosArc,
+    "_main_node"
+  );
+
+  inputTemplate.Quintuple(
+    ScType::VarNode >> "_1",
+    ScType::VarPermPosArc,
+    "_main_node",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::rrel_key_sc_element
+  );
+
+  inputTemplate.Quintuple(
+    ScType::VarNode >> "_2",
+    ScType::VarCommonArc,
+    "_1",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_sc_text_translation
+  );
+
+  inputTemplate.Quintuple(
+    "_2",
+    ScType::VarPermPosArc,
+    ScType::VarNodeLink >> "_def_link",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::rrel_example
+  );
+
+  inputTemplate.Triple(
+    UserRequestKeynodes::lang_ru,
+    ScType::VarPermPosArc,
+    "_def_link"
+  );
+  
 };
-
-void generateCommonTemplateFromBody(ScTemplate& inputTemplate) {
-  inputTemplate.Quintuple(
-      ScType::VarNode >> "_1",
-      ScType::VarPermPosArc,
-      ScType::VarNode >> "_concept",
-      ScType::VarPermPosArc,
-      UserRequestKeynodes::rrel_key_sc_element
-  );
-
-  inputTemplate.Quintuple(
-      ScType::VarNode >> "_2",
-      ScType::VarCommonArc,
-      "_1",
-      ScType::VarPermPosArc,
-      UserRequestKeynodes::nrel_sc_text_translation
-  );
-
-  inputTemplate.Quintuple(
-      "_2",
-      ScType::VarPermPosArc,
-      ScType::VarNodeLink >> "_body",
-      ScType::VarPermPosArc,
-      UserRequestKeynodes::rrel_example
-  );
-}
-
-void applyLangParams(ScTemplate& inputTemplateTitle, ScTemplate& inputTemplateText, const ScKeynode lang_node)
-{
-  inputTemplateTitle.Triple(
-    lang_node,
-    ScType::VarPermPosArc,
-    ScType::VarNodeLink >> "_title"
-);
-  inputTemplateText.Triple(
-    lang_node,
-    ScType::VarPermPosArc,
-    ScType::VarNodeLink >> "_body"
-);
-}
 
 ScResult ScUserRequestAgent::DoProgram(ScAction & action)
 {
   auto const & [requestAddr] = action.GetArguments<1>(); 
-  int count = 0;
+  
   std::string stringContent;
+  
   bool const stringContentExist = m_context.GetLinkContent(requestAddr, stringContent);
-  for (auto item : stringContent)
-  { 
-    SC_LOG_INFO(item);
-    ScAddrSet const & linkAddrs1 = m_context.SearchLinksByContent(item);
-    if(linkAddrs1.size() > 0)
-    {
-      stringContent = item;
-      SC_LOG_INFO("SCLINK NOW " + item);
-    }
 
-  }
-
-  ScTemplate FindTemplateForTitle;
-  ScTemplate FindTemplateForText;
-
-  ScTemplate FindTemplate;
-
+  ScAddrSet const & linkAddrs1 = m_context.SearchLinksByContent(stringContent);
+  
   ScStructure resultStruct = m_context.GenerateStructure();
-
-  generateCommonTemplateFromTitle(FindTemplate);
-  generateCommonTemplateFromBody(FindTemplate);
-  applyLangParams(FindTemplate, FindTemplate, UserRequestKeynodes::lang_ru);
-
-  // SC_LOG_INFO("For title empty?" << FindTemplateForTitle.IsEmpty());
-  // SC_LOG_INFO("Title temp size" << std::to_string(FindTemplateForTitle.Size()));
-
-  // SC_LOG_INFO("For text empty?" << FindTemplateForText.IsEmpty());
-  // SC_LOG_INFO("Text temp size" << std::to_string(FindTemplateForText.Size()));
-  SC_LOG_INFO("Text temp size " << std::to_string(FindTemplate.Size()));
-
-  ScTemplateSearchResult FindTemplateSearchResult;
-  m_context.SearchByTemplate(FindTemplate, FindTemplateSearchResult);
-  for (int i = 0; i < FindTemplateSearchResult.Size(); i++) {
-    ScTemplateResultItem FindTemplateSearchResultItem;
-    FindTemplateSearchResult.Get(i, FindTemplateSearchResultItem);
-
-    ScAddr conceptOfFoundArticle;
-    ScAddr bodyTextAddr;
-    ScAddr titleTextAddr;
-    FindTemplateSearchResultItem.Get("_concept", conceptOfFoundArticle);
-    FindTemplateSearchResultItem.Get("_body", bodyTextAddr);
-    FindTemplateSearchResultItem.Get("_title", titleTextAddr);
-    // SC_LOG_INFO(m_context.GetElementType(conceptOfFoundArticle));
-    // SC_LOG_INFO(m_context.GetElementType(bodyTextAddr));
-    // SC_LOG_INFO(m_context.GetElementType(titleTextAddr));
-    
-
-    std::string bodyText;
-    std::string titleText;
-    m_context.GetLinkContent(bodyTextAddr, bodyText);
-    m_context.GetLinkContent(titleTextAddr, titleText);
-    
-    // SC_LOG_INFO(m_context.GetElementSystemIdentifier(conceptOfFoundArticle));
-    // SC_LOG_INFO(bodyText);
-    // SC_LOG_INFO(titleText);
-
-    bodyText = getFirstWord(bodyText);
-    if ((areEqual(stringContent, titleText)) && (areEqual(stringContent, bodyText)))
+  
+  if (linkAddrs1.size() > 1)
+  {
+    SC_LOG_INFO(linkAddrs1.size());
+    for (auto item : linkAddrs1)
     {
-      count++;
-      // SC_LOG_INFO("title: " + titleText);
-      // SC_LOG_INFO("idtf: " + m_context.GetElementSystemIdentifier(conceptOfFoundArticle));
-      // SC_LOG_INFO("body: " + bodyText);
-      resultStruct.Append(bodyTextAddr);
+      ScTemplate FindTemplate;
+    
+      generateCommonTemplate(FindTemplate, item);
+    
+      ScTemplateSearchResult FindTemplateSearchResult;
+    
+      m_context.SearchByTemplate(FindTemplate, FindTemplateSearchResult);
+    
+      for (int i = 0; i < FindTemplateSearchResult.Size(); i++) {
+        ScTemplateResultItem FindTemplateSearchResultItem;
+    
+        FindTemplateSearchResult.Get(i, FindTemplateSearchResultItem);
+    
+        ScAddr titleTextAddr;
+        ScAddr defTextAddr;
+        ScAddr conceptAddr;
+        ScAddr articleAddr;
+
+        FindTemplateSearchResultItem.Get("_title_link", titleTextAddr);
+        
+        FindTemplateSearchResultItem.Get("_def_link", defTextAddr); 
+        
+        FindTemplateSearchResultItem.Get("_concept", conceptAddr);
+        
+        FindTemplateSearchResultItem.Get("_article", articleAddr);
+    
+        std::string titleText;
+        std::string defText;
+    
+        m_context.GetLinkContent(titleTextAddr, titleText);
+        m_context.GetLinkContent(defTextAddr, defText);
+    
+        defText = getFirstWord(defText);
+        
+        resultStruct.Append(defTextAddr);
+        resultStruct.Append(conceptAddr);
+        resultStruct.Append(articleAddr);
+      }
     }
   }
+  else
+  {
+    return action.FinishUnsuccessfully();
+  }
 
-  SC_LOG_INFO("total " + std::to_string(count));
   action.SetResult(resultStruct);
   return action.FinishSuccessfully();
 }

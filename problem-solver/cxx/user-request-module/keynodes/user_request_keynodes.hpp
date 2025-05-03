@@ -17,6 +17,10 @@ public:
     "rrel_example", ScType::ConstNodeRole};
   static inline ScKeynode const nrel_sc_text_translation{
     "nrel_sc_text_translation", ScType::ConstNodeNonRole};
+  static inline ScKeynode const nrel_related_concept{
+    "nrel_related_concept", ScType::ConstNodeNonRole};
+  static inline ScKeynode const nrel_related_article{
+    "nrel_related_article", ScType::ConstNodeNonRole};
   static inline ScKeynode const belarus_legal_term{
     "belarus_legal_term", ScType::ConstNodeClass};
   static inline ScKeynode const lang_ru{
