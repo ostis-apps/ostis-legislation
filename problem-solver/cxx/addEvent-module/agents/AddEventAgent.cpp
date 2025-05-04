@@ -93,48 +93,51 @@ ScAddr AddEventAgent::GetActionClass() const
 
 ScResult AddEventAgent::DoProgram(ScAction & action)
 {
+  auto const & [userAddr, nameAddr, eventdateAddr, descriptionAddr] = action.GetArguments<4>();
 
-  auto const & [nameAddr, eventdateAddr, descriptionAddr] = action.GetArguments<3>();
+  //Проверка на корректность пользователя
+  if (!m_context.HelperCheckEdge(AddEventKeynodes::REGISTERED_USER, userAddr, ScType::ConstPermPosArc))
+  {
+    SC_LOG_ERROR("Provided address is not recognized as a user.");
+    return action.FinishUnsuccessfully();
+  }
 
-  // Данные события
   std::string name;
   std::string description;
-  std::string eventDay;
-  std::string eventMonth;
-  std::string eventYear;
+  std::string eventDay = getEventDay(m_context, eventdateAddr);
+  std::string eventMonth = getEventMonth(m_context, eventdateAddr);
+  std::string eventYear = getEventYear(m_context, eventdateAddr);
 
-  // Получение данных в переменные
   m_context.GetLinkContent(nameAddr, name);
   m_context.GetLinkContent(descriptionAddr, description);
-  eventDay = getEventDay(m_context, eventdateAddr);
-  eventMonth = getEventMonth(m_context, eventdateAddr);
-  eventYear = getEventYear(m_context, eventdateAddr);
 
   SC_LOG_INFO("Название: " + name);
   SC_LOG_INFO("Описание: " + description);
   SC_LOG_INFO("Дата события: " + eventDay + "." + eventMonth + "." + eventYear);
 
-
-  // Генерация узлов для хранения события
   ScAddr eventAddr = m_context.GenerateNode(ScType::ConstNode);
   ScAddr eventNameAddr = m_context.GenerateLink();
   ScAddr eventDescriptionAddr = m_context.GenerateLink();
   ScAddr eventDateAddr = m_context.GenerateNode(ScType::ConstNodeTuple);
 
-  // Заполнение узлов для хранения события
   m_context.SetLinkContent(eventNameAddr, name);
   m_context.SetLinkContent(eventDescriptionAddr, description);
 
-  // Ребра от узла события к его параметрам
-  ScAddr eventAddEventToEventNodeConnectorAddr = m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::ADD_EVENT, eventAddr);
+  // Связи события с параметрами
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::ADD_EVENT, eventAddr);
   ScAddr eventNodeToEventNameAddr = m_context.GenerateConnector(ScType::ConstCommonArc, eventAddr, eventNameAddr);
   ScAddr eventNodeToEventDateAddr = m_context.GenerateConnector(ScType::ConstCommonArc, eventAddr, eventDateAddr);
   ScAddr eventNodeToEventDescriptionAddr = m_context.GenerateConnector(ScType::ConstCommonArc, eventAddr, eventDescriptionAddr);
 
-  // Ребра от узлов отношений к ребрам
-  ScAddr eventNameNonRoleAddr = m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_NAME, eventNodeToEventNameAddr);
-  ScAddr eventDateNonRoleAddr = m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_DATE, eventNodeToEventDateAddr);
-  ScAddr eventDescriptionNonRoleAddr = m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_DESCRIPTION, eventNodeToEventDescriptionAddr);
-  
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_NAME, eventNodeToEventNameAddr);
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_DATE, eventNodeToEventDateAddr);
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_DESCRIPTION, eventNodeToEventDescriptionAddr);
+
+  // Привязка события к пользователю
+  ScAddr userEventEdge = m_context.GenerateConnector(ScType::ConstCommonArc, userAddr, eventAddr);
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_USER_EVENT, userEventEdge);
+
+  SC_LOG_INFO("Событие успешно создано и привязано к пользователю.");
+
   return action.FinishSuccessfully();
 }
