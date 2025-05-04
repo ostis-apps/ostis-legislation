@@ -15,36 +15,42 @@ ScAddr ScUserRequestAgent::GetActionClass() const
     return UserRequestKeynodes::action_user_request;
 }
 
-std::string getFirstWord(const std::string& input) {
+std::string getFirstWord(const std::string& input) 
+{
   std::istringstream stream(input);
   std::string firstWord;
   stream >> firstWord;
   return firstWord;
 }
 
-std::string str_tolower(std::string str) {
+std::string str_tolower(std::string str) 
+{
   std::transform(str.begin(), str.end(), str.begin(), 
                 [](unsigned char c){ return std::tolower(c); });
   return str;
 }
 
-bool isSubstring(const std::string& textToSearch, const std::string& fullText) {
-  if (textToSearch.empty()) {
+bool isSubstring(const std::string& textToSearch, const std::string& fullText) 
+{
+  if (textToSearch.empty()) 
+  {
     return true;
   }
 
-  if (fullText.length() < textToSearch.length()) {
+  if (fullText.length() < textToSearch.length()) 
+  {
     return false;
   }
 
   return fullText.find(textToSearch) != std::string::npos;
 }
 
-bool areEqual(const std::string& str1, const std::string& str2) {
+bool areEqual(const std::string& str1, const std::string& str2) 
+{
   return str1 == str2;
 }
 
-void generateCommonTemplate(ScTemplate& inputTemplate, ScAddr& item) {
+void generateCommonDirectTemplate(ScTemplate& inputTemplate, ScAddr& item) {
   inputTemplate.Quintuple(
     ScType::VarNode >> "_main_node",
     ScType::VarCommonArc,
@@ -57,6 +63,75 @@ void generateCommonTemplate(ScTemplate& inputTemplate, ScAddr& item) {
     ScType::NodeVarClass >> "_concept",
     ScType::EdgeDCommonVar,
     "_main_node",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_related_concept
+  );
+
+  inputTemplate.Quintuple(
+    "_main_node",
+    ScType::EdgeDCommonVar,
+    ScType::NodeVar >> "_article",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_related_article
+  );
+
+  inputTemplate.Triple(
+    UserRequestKeynodes::lang_ru,
+    ScType::VarPermPosArc,
+    "_title_link"
+  );
+
+  inputTemplate.Triple(
+    UserRequestKeynodes::belarus_legal_term,
+    ScType::VarPermPosArc,
+    "_main_node"
+  );
+
+  inputTemplate.Quintuple(
+    ScType::VarNode >> "_1",
+    ScType::VarPermPosArc,
+    "_main_node",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::rrel_key_sc_element
+  );
+
+  inputTemplate.Quintuple(
+    ScType::VarNode >> "_2",
+    ScType::VarCommonArc,
+    "_1",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_sc_text_translation
+  );
+
+  inputTemplate.Quintuple(
+    "_2",
+    ScType::VarPermPosArc,
+    ScType::VarNodeLink >> "_def_link",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::rrel_example
+  );
+
+  inputTemplate.Triple(
+    UserRequestKeynodes::lang_ru,
+    ScType::VarPermPosArc,
+    "_def_link"
+  );
+  
+};
+
+void generateCommonReversedTemplate(ScTemplate& inputTemplate, ScAddr& item) {
+  inputTemplate.Quintuple(
+    ScType::VarNode >> "_main_node",
+    ScType::VarCommonArc,
+    item >> "_title_link",
+    ScType::VarPermPosArc,
+    UserRequestKeynodes::nrel_main_idtf
+  );
+
+  inputTemplate.Quintuple(
+    "_main_node",
+    ScType::EdgeDCommonVar,
+    ScType::NodeVarClass >> "_concept",
     ScType::VarPermPosArc,
     UserRequestKeynodes::nrel_related_concept
   );
@@ -127,18 +202,28 @@ ScResult ScUserRequestAgent::DoProgram(ScAction & action)
   
   if (linkAddrs1.size() > 1)
   {
-    SC_LOG_INFO(linkAddrs1.size());
     for (auto item : linkAddrs1)
     {
+
       ScTemplate FindTemplate;
     
-      generateCommonTemplate(FindTemplate, item);
+      generateCommonReversedTemplate(FindTemplate, item);
     
       ScTemplateSearchResult FindTemplateSearchResult;
     
       m_context.SearchByTemplate(FindTemplate, FindTemplateSearchResult);
+      SC_LOG_INFO("before");
+      SC_LOG_INFO(FindTemplateSearchResult.Size());
+      if (FindTemplateSearchResult.Size() == 0)
+      {
+        generateCommonReversedTemplate(FindTemplate, item);
+        m_context.SearchByTemplate(FindTemplate, FindTemplateSearchResult);
+        SC_LOG_INFO("after");
+        SC_LOG_INFO(FindTemplateSearchResult.Size());
+      }
     
-      for (int i = 0; i < FindTemplateSearchResult.Size(); i++) {
+      for (int i = 0; i < FindTemplateSearchResult.Size(); i++) 
+      {
         ScTemplateResultItem FindTemplateSearchResultItem;
     
         FindTemplateSearchResult.Get(i, FindTemplateSearchResultItem);
@@ -167,6 +252,10 @@ ScResult ScUserRequestAgent::DoProgram(ScAction & action)
         resultStruct.Append(defTextAddr);
         resultStruct.Append(conceptAddr);
         resultStruct.Append(articleAddr);
+
+        SC_LOG_INFO(titleText);
+        SC_LOG_INFO(defText);
+
       }
     }
   }
