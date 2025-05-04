@@ -1,7 +1,7 @@
 #include "RegistrationAgent.hpp"
 #include "keynodes/RegistrationKeynodes.hpp"
 #include <openssl/sha.h>
-
+#include <iomanip>
 std::string hashPassword(const std::string password) {
   unsigned char hash[SHA256_DIGEST_LENGTH];
   SHA256_CTX sha256;
