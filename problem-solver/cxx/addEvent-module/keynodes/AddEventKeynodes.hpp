@@ -19,4 +19,8 @@ public:
   // Узел действия агента добавления
   static inline ScKeynode const action_add_event{"action_add_event", ScType::NodeConstClass};
 
+  static inline ScKeynode const REGISTERED_USER{"registered_jurisprudence_user", ScType::NodeConstClass};
+
+  static inline ScKeynode const CONCEPT_USER{"concept_user", ScType::NodeConstClass};
+  static inline ScKeynode const NREL_USER_EVENT{"nrel_user_event", ScType::NodeConstNoRole};
 };
