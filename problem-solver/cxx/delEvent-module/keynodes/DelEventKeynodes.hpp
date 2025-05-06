@@ -4,11 +4,8 @@
 
 class DelEventKeynodes : public ScKeynodes {
 public:
-  // Узел действия агента удаления
   static inline ScKeynode const action_del_event{"action_del_event", ScType::NodeConstClass};
-
-  // Данные для ввода пользователем
-  static inline ScKeynode const NREL_EVENT_NAME{"nrel_event_name", ScType::ConstNodeNonRole};
-  static inline ScKeynode const NREL_USER_EVENT{"nrel_user_event", ScType::NodeConstNoRole};
-  static inline ScKeynode const REGISTERED_USER{"registered_jurisprudence_user", ScType::NodeConstClass};
+  static inline ScKeynode const nrel_user_event{"nrel_user_event", ScType::NodeConstNoRole};
+  static inline ScKeynode const nrel_event_name{"nrel_event_name", ScType::NodeConstNoRole};
+  static inline ScKeynode const registered_user{"registered_jurisprudence_user", ScType::NodeConstClass};
 };
