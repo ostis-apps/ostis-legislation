@@ -21,7 +21,6 @@ std::string getEventDay(ScAgentContext& context, const ScAddr& eventdateTuple) {
     eventDayTemplateSearchResult.Get(0, eventDayTemplateResultItem);
 
     ScAddr eventDayAddr;
-
     eventDayTemplateResultItem.Get("_event_day", eventDayAddr);
 
     return context.GetElementSystemIdentifier(eventDayAddr);
@@ -49,7 +48,6 @@ std::string getEventMonth(ScAgentContext& context, const ScAddr& eventdateTuple)
     eventMonthTemplateSearchResult.Get(0, eventMonthTemplateResultItem);
 
     ScAddr eventMonthAddr;
-
     eventMonthTemplateResultItem.Get("_event_month", eventMonthAddr);
 
     return context.GetElementSystemIdentifier(eventMonthAddr);
@@ -77,7 +75,6 @@ std::string getEventYear(ScAgentContext& context, const ScAddr& eventdateTuple) 
     eventYearTemplateSearchResult.Get(0, eventYearTemplateResultItem);
 
     ScAddr eventYearAddr;
-
     eventYearTemplateResultItem.Get("_event_year", eventYearAddr);
 
     return context.GetElementSystemIdentifier(eventYearAddr);
@@ -95,7 +92,7 @@ ScResult AddEventAgent::DoProgram(ScAction & action)
 {
   auto const & [userAddr, nameAddr, eventdateAddr, descriptionAddr] = action.GetArguments<4>();
 
-  //Проверка на корректность пользователя
+  // Проверка на корректность пользователя
   if (!m_context.HelperCheckEdge(AddEventKeynodes::REGISTERED_USER, userAddr, ScType::ConstPermPosArc))
   {
     SC_LOG_ERROR("Provided address is not recognized as a user.");
@@ -132,6 +129,25 @@ ScResult AddEventAgent::DoProgram(ScAction & action)
   m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_NAME, eventNodeToEventNameAddr);
   m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_DATE, eventNodeToEventDateAddr);
   m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::NREL_EVENT_DESCRIPTION, eventNodeToEventDescriptionAddr);
+
+  // Создание ссылок для дня, месяца и года
+  ScAddr eventDayLink = m_context.GenerateLink();
+  ScAddr eventMonthLink = m_context.GenerateLink();
+  ScAddr eventYearLink = m_context.GenerateLink();
+
+  // Установка значений для дня, месяца и года
+  m_context.SetLinkContent(eventDayLink, eventDay);
+  m_context.SetLinkContent(eventMonthLink, eventMonth);
+  m_context.SetLinkContent(eventYearLink, eventYear);
+
+  // Связывание ссылок с кортежем даты
+  ScAddr dateToDayEdge = m_context.GenerateConnector(ScType::ConstPermPosArc, eventDateAddr, eventDayLink);
+  ScAddr dateToMonthEdge = m_context.GenerateConnector(ScType::ConstPermPosArc, eventDateAddr, eventMonthLink);
+  ScAddr dateToYearEdge = m_context.GenerateConnector(ScType::ConstPermPosArc, eventDateAddr, eventYearLink);
+
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::RREL_EVENT_DAY, dateToDayEdge);
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::RREL_EVENT_MONTH, dateToMonthEdge);
+  m_context.GenerateConnector(ScType::ConstPermPosArc, AddEventKeynodes::RREL_EVENT_YEAR, dateToYearEdge);
 
   // Привязка события к пользователю
   ScAddr userEventEdge = m_context.GenerateConnector(ScType::ConstCommonArc, userAddr, eventAddr);
