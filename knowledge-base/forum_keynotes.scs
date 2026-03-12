@@ -1,0 +1,64 @@
+// Форум - основные концепты
+
+concept_topic <- sc_node_class;
+=> nrel_main_idtf:
+    [топик*]
+    (* <- lang_ru;; *);
+    [topic*]
+    (* <- lang_en;; *);;
+
+concept_message <- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение*]
+    (* <- lang_ru;; *);
+    [message*]
+    (* <- lang_en;; *);;
+
+nrel_topic_title <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [заголовок топика*]
+    (* <- lang_ru;; *);
+    [topic title*]
+    (* <- lang_en;; *);;
+
+nrel_topic_description <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [описание топика*]
+    (* <- lang_ru;; *);
+    [topic description*]
+    (* <- lang_en;; *);;
+
+nrel_author <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [автор*]
+    (* <- lang_ru;; *);
+    [author*]
+    (* <- lang_en;; *);;
+
+nrel_message_content <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [содержимое сообщения*]
+    (* <- lang_ru;; *);
+    [message content*]
+    (* <- lang_en;; *);;
+
+nrel_message_author <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [автор сообщения*]
+    (* <- lang_ru;; *);
+    [message author*]
+    (* <- lang_en;; *);;
+
+action_add_topic <- sc_node_class;
+=> nrel_main_idtf:
+    [действие. добавить топик]
+    (* <- lang_ru;; *);
+    [action. add topic]
+    (* <- lang_en;; *);;
+
+action_add_message <- sc_node_class;
+=> nrel_main_idtf:
+    [действие. добавить сообщение]
+    (* <- lang_ru;; *);
+    [action. add message]
+    (* <- lang_en;; *);;
