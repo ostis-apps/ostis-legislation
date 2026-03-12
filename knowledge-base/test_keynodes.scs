@@ -1,0 +1,135 @@
+action_choice_next_question
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [действие выбора следующего вопроса] 
+    (* <- lang_ru;; *);
+    [action choice next question] 
+    (* <- lang_en;; *);;
+
+concept_question
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [вопрос] 
+    (* <- lang_ru;; *);
+    [question] 
+    (* <- lang_en;; *);;
+
+nrel_current_question
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [текущий вопрос*] 
+    (* <- lang_ru;; *);
+    [current question*] 
+    (* <- lang_en;; *);;
+
+nrel_asked_questions
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [заданные вопросы*] 
+    (* <- lang_ru;; *);
+    [asked questions*] 
+    (* <- lang_en;; *);;
+
+action_save_answer
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [действие сохранения ответа] 
+    (* <- lang_ru;; *);
+    [action save answer] 
+    (* <- lang_en;; *);;
+
+nrel_selected_answers
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [выбранные ответы*] 
+    (* <- lang_ru;; *);
+    [selected answers*] 
+    (* <- lang_en;; *);;
+
+action_search_answers_for_question
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [действие поиска ответов на вопрос] 
+    (* <- lang_ru;; *);
+    [action search answers for question] 
+    (* <- lang_en;; *);;
+
+nrel_answer
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [ответ*] 
+    (* <- lang_ru;; *);
+    [answer*] 
+    (* <- lang_en;; *);;
+
+action_check_answer
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [действие проверки ответа] 
+    (* <- lang_ru;; *);
+    [action check answer] 
+    (* <- lang_en;; *);;
+
+concept_correct_answer
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [правильный ответ] 
+    (* <- lang_ru;; *);
+    [correct answer] 
+    (* <- lang_en;; *);;
+
+concept_correct_user_answer
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [правильный ответ пользователя] 
+    (* <- lang_ru;; *);
+    [correct user answer] 
+    (* <- lang_en;; *);;
+
+concept_incorrect_user_answer
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [неправильный ответ пользователя] 
+    (* <- lang_ru;; *);
+    [incorrect user answer] 
+    (* <- lang_en;; *);;
+
+action_update_rating
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [действие обновления рейтинга] 
+    (* <- lang_ru;; *);
+    [action update rating] 
+    (* <- lang_en;; *);;
+
+nrel_user_rating
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [рейтинг пользователя*] 
+    (* <- lang_ru;; *);
+    [user rating*] 
+    (* <- lang_en;; *);;
+
+action_delete_old_nodes
+<- sc_node_class;
+=> nrel_main_idtf: 
+    [действие удаления старых узлов] 
+    (* <- lang_ru;; *);
+    [action delete old nodes] 
+    (* <- lang_en;; *);;
+
+nrel_asked_questions
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [заданные вопросы*] 
+    (* <- lang_ru;; *);
+    [asked questions*] 
+    (* <- lang_en;; *);;
+
+nrel_selected_answers
+<- sc_node_norole_relation;
+=> nrel_main_idtf: 
+    [выбранные ответы*] 
+    (* <- lang_ru;; *);
+    [selected answers*] 
+    (* <- lang_en;; *);;

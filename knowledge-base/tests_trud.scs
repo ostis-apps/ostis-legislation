@@ -1,0 +1,800 @@
+concept_difficulty
+	=> nrel_main_idtf: [Сложность] (* <- lang_ru;; *); [Difficulty] (* <- lang_en;; *);
+	-> concept_begginer;
+	-> concept_intermediate;
+	-> concept_advanced;;
+	
+
+concept_tests => nrel_main_idtf: [Тесты] (* <- lang_ru;; *); [Tests] (* <- lang_en;; *);;
+concept_correct_answer => nrel_main_idtf: [Правильный ответ] (* <- lang_ru;; *); [Correct answer] (* <- lang_en;; *);;	
+
+
+concept_labor_law
+	=> nrel_main_idtf: [Трудовое право] (* <- lang_ru;; *); [Labor law] (* <- lang_en;; *);
+	<- concept_test;
+	
+	-> cl_d1 (*
+		<- sc_node_tuple;;
+		<- concept_begginer;;
+		-> ll_d1_v1;;
+		-> ll_d1_v2;;
+		-> ll_d1_v3;;
+		-> ll_d1_v4;;
+		-> ll_d1_v5;;
+		-> ll_d1_v6;;
+		-> ll_d1_v7;;
+		-> ll_d1_v8;;
+		-> ll_d1_v9;;
+		-> ll_d1_v10;;
+	*);;
+	
+	
+ll_d1_v1
+	=> nrel_content: [Трудовой кодекс Республики Беларусь применяется в отношении:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v1_a1 (*
+			=> nrel_content: [всех работающих и работодателей ] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v1_a2 (*
+			=> nrel_content: [работников и нанимателей–организаций любых организационно-правовых форм] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v1_a3 (*
+			=> nrel_content: [работников и нанимателей–государственных организаций] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v1_a4 (*
+			=> nrel_content: [всех работников и нанимателей] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ll_d1_v2
+	=> nrel_content: [В случае противоречия норм законодательства о труде равной юридической силы:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v2_a1 (*
+			=> nrel_content: [применяется норма, содержащая более льготные условия для работников] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v2_a2 (*
+			=> nrel_content: [применяется норма, содержащая равные условия для работников и нанимателей] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v2_a3 (*
+			=> nrel_content: [применяется норма, содержащая более льготные условия для нанимателей] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v2_a4 (*
+			=> nrel_content: [применяется Конституция Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+		
+		
+		
+		
+ll_d1_v3
+	=> nrel_content: [Локальные  правовые акты:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v3_a1 (*
+			=> nrel_content: [содержащие условия, ухудшающие положение работников по сравнению с законодательством о труде, являются недействительными] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v3_a2 (*
+			=> nrel_content: [содержащие условия, ухудшающие положение работников по сравнению с законодательством о труде, являются действительными] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v3_a3 (*
+			=> nrel_content: [содержащие условия, улучшающие положение работников по сравнению с законодательством о труде, являются недействительными] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v3_a4 (*
+			=> nrel_content: [не содержащие условия, улучшающие положение работников по сравнению с законодательством о труде, являются действительными] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+		
+		
+ll_d1_v4
+	=> nrel_content: [Какие из перечисленных актов не являются нормативными?] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v4_a1 (*
+			=> nrel_content: [трудовые договоры] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v4_a2 (*
+			=> nrel_content: [конвенция Международной организации труда,  участницей которой является Республика Беларусь] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v4_a3 (*
+			=> nrel_content: [коллективные договоры, соглашения] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v4_a4 (*
+			=> nrel_content: [международные договоры Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+		
+		
+ll_d1_v5
+	=> nrel_content: [Наниматель – это:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v5_a1 (*
+			=> nrel_content: [юридическое или физическое лицо, которому законодательством предоставлено право заключения и прекращения трудового договора с работником] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v5_a2 (*
+			=> nrel_content: [физическое лицо, которому законодательством предоставлено право заключения и прекращения трудового договора с работником] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v5_a3 (*
+			=> nrel_content: [юридическое лицо, которому законодательством предоставлено право заключения и прекращения трудового договора с работником] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v5_a4 (*
+			=> nrel_content: [Республика Беларусь и её административно-территориальные единицы, которым законодательством предоставлено право заключения и прекращения трудового договора с работником] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+
+
+
+	ll_d1_v6
+	=> nrel_content: [Установленный по общему правилу возраст наступления трудовой правосубъектности гражданина:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v6_a1 (*
+			=> nrel_content: [может быть снижен с письменного согласия одного из родителей (усыновителя, попечителя), для выполнения лёгкого труда, не причиняющего вреда здоровью и не нарушающего процесса обучения] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v6_a2 (*
+			=> nrel_content: [может быть снижен с письменного согласия обоих родителей (усыновителей, попечителей), для выполнения лёгкого труда, не причиняющего вреда здоровью и не нарушающего процесса обучения] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v6_a3 (*
+			=> nrel_content: [может быть снижен по решению органов опеки и попечительства, для выполнения труда, не причиняющего вреда здоровью и не нарушающего процесса обучения] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v6_a4 (*
+			=> nrel_content: [не может быть снижен, потому что трудовая правосубъектность возникает с рождения] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+
+
+
+ll_d1_v7
+	=> nrel_content: [Работник – это:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v7_a1 (*
+			=> nrel_content: [лицо, состоящее в трудовых отношениях с нанимателем на основании заключённого трудового договора] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v7_a2 (*
+			=> nrel_content: [лицо, состоящее в трудовых отношениях с нанимателем на основании членства (участия) в организации] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v7_a3 (*
+			=> nrel_content: [юридическое лицо, состоящее в отношениях с нанимателем на основании заключённого договора] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v7_a4 (*
+			=> nrel_content: [лицо, состоящее в трудовых отношениях с работодателем на основании заключённого трудового договора] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+		
+		
+		
+ll_d1_v8
+	=> nrel_content: [Лица, заключившие трудовой договор с нанимателем о выполнении работы на дому личным трудом из материалов и с использованием оборудования, инструментов, механизмов и приспособлений, выделяемых нанимателем либо приобретаемых за счет средств этого нанимателя:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v8_a1 (*
+			=> nrel_content: [работники-надомники] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v8_a2 (*
+			=> nrel_content: [сезонные работники] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v8_a3 (*
+			=> nrel_content: [домашние работники] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v8_a4 (*
+			=> nrel_content: [временные работники] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+		
+		
+ll_d1_v9
+	=> nrel_content: [Коллективный договор в соответствии с Трудовым кодексом Республики Беларусь – это:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v9_a1 (*
+			=> nrel_content: [локальный правовой акт, регулирующий трудовые и социально-экономические отношения между нанимателем и работающими у него работниками] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v9_a2 (*
+			=> nrel_content: [нормативный правовой акт, регулирующий отношения в социально-трудовой сфере внутри организации] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v9_a3 (*
+			=> nrel_content: [нормативный правовой акт, регулирующий социально-экономические отношения между нанимателем и работающими у него работниками] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v9_a4 (*
+			=> nrel_content: [    • локальный нормативный правовой акт, регулирующий трудовые отношения между нанимателем и работающими у него работниками] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+
+ll_d1_v10
+	=> nrel_content: [Трудовые отношения отбывающих наказание по приговору суда в виде исправительных работ:] (* <- lang_ru;; *);
+	<- concept_question;
+	
+	=> nrel_answer:
+		ll_d1_v10_a1 (*
+			=> nrel_content: [не регулируются Трудовым кодексом Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answer;;
+			<- concept_correct_answer;;
+		*);
+		ll_d1_v10_a2 (*
+			=> nrel_content: [регулируются Трудовым кодексом Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v10_a3 (*
+			=> nrel_content: [регулируются правилами внутреннего трудового распорядка] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);
+		ll_d1_v10_a4 (*
+			=> nrel_content: [регулируются законодательством о занятости населения] (* <- lang_ru;; *);;
+			<- concept_answer;;
+		*);;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ll_d2_v1
+	=> nrel_content: [За соблюдением законодательства об охране труда общественный контроль в форме проведения проверок по общему правилу уполномочены осуществлять:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v1_a1 (*
+			=> nrel_content: [технические инспекторы труда профсоюзов] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v1_a2 (*
+			=> nrel_content: [Министерство труда и социальной защиты Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v1_a3 (*
+			=> nrel_content: [правовые инспекторы труда профсоюзов] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v1_a4 (*
+			=> nrel_content: [Комитет государственного контроля Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			
+		*);;
+		
+		
+ll_d2_v2
+	=> nrel_content: [Обязательным квалификационным требованием к техническому инспектору труда профсоюзов:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v2_a1 (*
+			=> nrel_content: [является наличие у него высшего технического образования] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v2_a2 (*
+			=> nrel_content: [является наличие у него высшего юридического образования] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v2_a3 (*
+			=> nrel_content: [является наличие у него высшего юридического и (или) высшего технического образования] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v2_a4 (*
+			=> nrel_content: [является наличие у него высшего экономического образования] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+			
+
+ll_d2_v3
+	=> nrel_content: [За соблюдением законодательства о труде и о профсоюзах общественный контроль в форме проведения проверок по общему правилу уполномочены осуществлять:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v3_a1 (*
+			=> nrel_content: [правовые инспекторы труда профсоюзов] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v3_a2 (*
+			=> nrel_content: [технические инспекторы труда профсоюзов] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v3_a3 (*
+			=> nrel_content: [Комитет государственного контроля Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v3_a4 (*
+			=> nrel_content: [Генеральная прокуратура Республики Беларусь] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+
+
+
+
+
+
+
+
+ll_d2_v4
+	=> nrel_content: [В случае непредоставления средств индивидуальной защиты, непосредственно обеспечивающих безопасность труда:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v4_a1 (*
+			=> nrel_content: [работник имеет право на отказ от выполнения порученной работы] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v4_a2 (*
+			=> nrel_content: [работник не имеет права отказаться от выполнения порученной работы (оказания услуги)] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v4_a3 (*
+			=> nrel_content: [работник имеет право отказаться от выполнения порученной работы (оказания услуги) после предварительного уведомления нанимателя в течение одного часа] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v4_a4 (*
+			=> nrel_content: [гражданин Республики Беларусь имеет право отказаться от выполнения порученной работы (оказания услуги) после уведомления уполномоченного должностного лица нанимателя в течение одного часа, для иностранных граждан и лиц без гражданства установлен иной порядок] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+
+
+
+
+
+ll_d2_v5
+	=> nrel_content: [По общему правилу должность специалиста по охране труда в организациях производственной сферы вводится при численности работающих:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v5_a1 (*
+			=> nrel_content: [свыше 100 человек] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v5_a2 (*
+			=> nrel_content: [свыше 10 человек] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v5_a3 (*
+			=> nrel_content: [свыше 20 человек] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v5_a4 (*
+			=> nrel_content: [в законодательстве данный вопрос не урегулирован] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+			
+
+ll_d2_v6
+	=> nrel_content: [Предусматривает ли Трудовой кодекс Республики Беларусь при рассмотрении индивидуальных трудовых споров освобождение от уплаты судебных расходов?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v6_a1 (*
+			=> nrel_content: [предусматривает для работников] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v6_a2 (*
+			=> nrel_content: [предусматривает для нанимателей] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v6_a3 (*
+			=> nrel_content: [предусматривает для любых лиц] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v6_a4 (*
+			=> nrel_content: [не предусматривает] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+
+ll_d2_v7
+	=> nrel_content: [Кто вправе обращаться в комиссию по трудовым спорам с заявлением о разрешении трудового спора?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v7_a1 (*
+			=> nrel_content: [только заинтересованный работник] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v7_a2 (*
+			=> nrel_content: [только наниматель] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v7_a3 (*
+			=> nrel_content: [заинтересованный работник или наниматель] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v7_a4 (*
+			=> nrel_content: [заинтересованный работник, наниматель или профсоюз] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+			
+ll_d2_v8
+	=> nrel_content: [В течение какого срока подлежит исполнению решение органа по рассмотрению трудовых споров о восстановлении на работе незаконно уволенного работника?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v8_a1 (*
+			=> nrel_content: [немедленно] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v8_a2 (*
+			=> nrel_content: [в трёхдневный срок] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v8_a3 (*
+			=> nrel_content: [в десятидневный срок] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v8_a4 (*
+			=> nrel_content: [в пятидневный срок] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+			
+ll_d2_v9
+	=> nrel_content: [В каком из перечисленных случаев будет наступать ограниченная материальная ответственность работника за ущерб, причинённый нанимателю?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v9_a1 (*
+			=> nrel_content: [за порчу или уничтожение по небрежности инструментов, выданных нанимателем работнику в пользование] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v9_a2 (*
+			=> nrel_content: [за порчу или уничтожение по небрежности любого имущества нанимателя] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v9_a3 (*
+			=> nrel_content: [когда ущерб причинён не при исполнении трудовых обязанностей] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v9_a4 (*
+			=> nrel_content: [когда ущерб причинён недостачей инструментов, выданных нанимателем работнику в пользование] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+
+ll_d2_v10
+	=> nrel_content: [Замена отпуска сотрудников органов внутренних дел денежной компенсацией:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d2_v10_a1 (*
+			=> nrel_content: [допускается только для основного отпуска, за исключением семи календарных дней] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d2_v10_a2 (*
+			=> nrel_content: [допускается только для основного отпуска, за исключением десяти календарных дней] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v10_a3 (*
+			=> nrel_content: [допускается только для основного отпуска, за исключением четырнадцати календарных дней] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d2_v10_a4 (*
+			=> nrel_content: [не допускается] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+ll_d3_v1
+	=> nrel_content: [Мастер допустил работника Петрова к работе без оформления в отделе кадров. Через три дня выяснилось, что место уже занято распределённым специалистом. Петров обратился в суд. Какое решение примет суд?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v1_a1 (*
+			=> nrel_content: [ Признает, что допуск был незаконным, и откажет в иске ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v1_a2 (*
+			=> nrel_content: [Обяжет нанимателя заключить договор с Петровым] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v1_a3 (*
+			=> nrel_content: [ Обяжет уволить распределённого специалиста] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v1_a4 (*
+			=> nrel_content: [Предоставит Петрову компенсацию] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+ll_d3_v2
+	=> nrel_content: [Сколько раз и с какой периодичностью работник обязан проходить аттестацию при контрактной форме найма (если иной срок не установлен Президентом)?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v2_a1 (*
+			=> nrel_content: [Раз в 3 года] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v2_a2 (*
+			=> nrel_content: [Раз в 5 лет] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v2_a3 (*
+			=> nrel_content: [ Раз в 2 года] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v2_a4 (*
+			=> nrel_content: [По решению нанимателя] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+			
+ll_d3_v3
+	=> nrel_content: [Отпуск отцу (отчиму) при рождении ребёнка предоставляется:] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v3_a1 (*
+			=> nrel_content: [По усмотрению нанимателя, срок до 30 дней] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v3_a2 (*
+			=> nrel_content: [Обязательно, срок до 14 календарных дней ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v3_a3 (*
+			=> nrel_content: [Только по согласованию с профсоюзом] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v3_a4 (*
+			=> nrel_content: [Обязательно, срок до 30 календарных дней] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+
+			
+ll_d3_v4
+	=> nrel_content: [Работник был уволен за прогул. Через месяц он устроился на руководящую должность в другой организации. Каковы последствия?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v4_a1 (*
+			=> nrel_content: [Должен быть уволен по решению нового нанимателя ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v4_a2 (*
+			=> nrel_content: [Всё законно] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v4_a3 (*
+			=> nrel_content: [Должен быть уволен только по решению суда] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v4_a4 (*
+			=> nrel_content: [Может работать, если согласен профсоюз] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;			
+ll_d3_v5
+	=> nrel_content: [Работник заключил контракт на 5 лет. Через 3 года его хотят уволить по сокращению штата. Какое решение правомерно?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v5_a1 (*
+			=> nrel_content: [Увольнение возможно досрочно при сокращении штата ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v5_a2 (*
+			=> nrel_content: [Увольнение по сокращению возможно только по истечении контракта] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v5_a3 (*
+			=> nrel_content: [Увольнение невозможно без согласия работника] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v5_a4 (*
+			=> nrel_content: [Контракт должен быть досрочно расторгнут по соглашению сторон] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;			
+ll_d3_v6
+	=> nrel_content: [Работник был допущен к работе уполномоченным лицом, но без оформления. Через месяц наниматель заявил, что договор не заключался. Как решит суд?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v6_a1 (*
+			=> nrel_content: [Работник считается принятым на работу ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v6_a2 (*
+			=> nrel_content: [Работник считается стажёром] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v6_a3 (*
+			=> nrel_content: [ Работнику выплатят компенсацию, но договор не признают] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v6_a4 (*
+			=> nrel_content: [Суд откажет в иске] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;			
+ll_d3_v7
+	=> nrel_content: [Hаботник был переведён временно к другому нанимателю без его согласия. Какой максимальный срок такого перевода допускается?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v7_a1 (*
+			=> nrel_content: [1 месяц ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v7_a2 (*
+			=> nrel_content: [Такое невозможно] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v7_a3 (*
+			=> nrel_content: [ 2 месяца] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v7_a4 (*
+			=> nrel_content: [3 месяца] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;			
+ll_d3_v8
+	=> nrel_content: [СРаботник опоздал на 3 часа. Наниматель издал приказ об увольнении за прогул. Работник обжаловал. Как решит суд?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v8_a1 (*
+			=> nrel_content: [Признает увольнение законным] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v8_a2 (*
+			=> nrel_content: [Признает незаконным, т.к. прогул — от 4 часов] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v8_a3 (*
+			=> nrel_content: [Признает незаконным, т.к. это опоздание, а не прогул] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v8_a4 (*
+			=> nrel_content: [Признает незаконным, т.к. нет объяснительной] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;
+			
+			
+ll_d3_v9
+	=> nrel_content: [Работнику изменили график сменности без предупреждения за месяц. Работник обратился в суд. Как решит суд?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v9_a1 (*
+			=> nrel_content: [Изменение законно] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v9_a2 (*
+			=> nrel_content: [Это не существенное условие труда ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v9_a3 (*
+			=> nrel_content: [ Суд обяжет восстановить прежний график] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v9_a4 (*
+			=> nrel_content: [Суд отменит изменения] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;	
+			
+ll_d3_v10
+	=> nrel_content: [Работник повредил оборудование на сумму 4 среднемесячных заработка. Наниматель хочет удержать из зарплаты. Как правильно?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		ll_d3_v10_a1 (*
+			=> nrel_content: [Взыскать только через суд ] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			<- concept_correct_answer;;
+		*);
+		ll_d3_v10_a2 (*
+			=> nrel_content: [Удержать по приказу] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v10_a3 (*
+			=> nrel_content: [Удержать с согласия работника] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		ll_d3_v10_a4 (*
+			=> nrel_content: [Взыскать через КТС] (* <- lang_ru;; *);;
+			<- concept_answers;;
+			*);;	
