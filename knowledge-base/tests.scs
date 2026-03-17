@@ -1,0 +1,61 @@
+concept_difficulty
+	=> nrel_main_idtf: [Сложность] (* <- lang_ru;; *); [Difficulty] (* <- lang_en;; *);
+	-> concept_begginer;
+	-> concept_intermediate;
+	-> concept_advanced;;
+	
+
+concept_tests => nrel_main_idtf: [Тесты] (* <- lang_ru;; *); [Tests] (* <- lang_en;; *);;
+	
+	
+
+
+concept_criminal_law
+	=> nrel_main_idtf: [Уголовное право] (* <- lang_ru;; *); [Criminal law] (* <- lang_en;; *);
+	<- concept_tests;
+	
+	-> c1_d1 (*
+		<- sc_node_tuple;;
+		<- concept_begginer;;
+		-> cl_d1_v1;;
+		-> cl_d1_v2;;
+		-> cl_d1_v3;;
+		-> cl_d1_v4;;
+		-> cl_d1_v5;;
+		-> cl_d1_v6;;
+		-> cl_d1_v7;;
+		-> cl_d1_v8;;
+		-> cl_d1_v9;;
+		-> cl_d1_v10;;
+	*);;
+	
+	
+cl_d1_v1
+	=> nrel_content: [Какой максимальный срок наказания в виде лишения свободы может быть назначен лицу, совершившему преступление в возрасте до 18 лет, при отсутствии совокупности преступлений или приговоров?] (* <- lang_ru;; *);
+	<- concept_questions;
+	
+	=> nrel_answers:
+		cl_d1_v1_a1 (*
+			=> nrel_content: [7 лет] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		cl_d1_v1_a2 (*
+			=> nrel_content: [10 лет] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		cl_d1_v1_a3 (*
+			=> nrel_content: [15 лет] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);
+		cl_d1_v1_a4 (*
+			=> nrel_content: [20 лет] (* <- lang_ru;; *);;
+			<- concept_answers;;
+		*);;
+
+nrel_user_answer
+=> nrel_main_idtf: 
+    [ответ пользователя*] (* <- lang_ru;; *);
+    [user answer*] (* <- lang_en;; *);
+<- sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;;

@@ -1,8 +1,11 @@
 #include "RegistrationModule.hpp"
 
-#include "agents/AuthenticationAgent.hpp"
-#include "agents/RegistrationAgent.hpp"
+#include <sc-memory/sc_agent.hpp>
+#include "agent/registration_agent.hpp"
+#include "agent/VerificationAgent.hpp"
+#include "agent/AuthenticationAgent.hpp"
 
 SC_MODULE_REGISTER(RegistrationModule)
-  ->Agent<RegistrationAgent>()
+  ->Agent<ScRegistrationAgent>()
+  ->Agent<VerificationAgent>()
   ->Agent<AuthenticationAgent>();
