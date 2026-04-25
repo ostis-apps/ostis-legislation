@@ -62,3 +62,24 @@ action_add_message <- sc_node_class;
     (* <- lang_ru;; *);
     [action. add message]
     (* <- lang_en;; *);;
+
+nrel_likes <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [лайки*]
+    (* <- lang_ru;; *);
+    [likes*]
+    (* <- lang_en;; *);;
+
+nrel_dislikes <- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [дизлайки*]
+    (* <- lang_ru;; *);
+    [dislikes*]
+    (* <- lang_en;; *);;
+
+action_rate_message <- sc_node_class;
+=> nrel_main_idtf:
+    [действие. оценить сообщение]
+    (* <- lang_ru;; *);
+    [action. rate message]
+    (* <- lang_en;; *);;
