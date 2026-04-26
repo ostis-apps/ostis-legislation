@@ -1,0 +1,59 @@
+// Bookmarks schema for personal cabinet
+// Stores user's saved articles and documents
+
+concept_bookmark <- sc_node_class;;
+concept_bookmark => nrel_main_idtf:
+    [Закладка] (* <- lang_ru;; *);
+    [Bookmark] (* <- lang_en;; *);
+    [Закладка] (* <- lang_by;; *);;
+
+// Relation: user -> bookmarks
+nrel_user_bookmarks <- sc_node_norole_relation;;
+nrel_user_bookmarks => nrel_main_idtf:
+    [закладки пользователя*] (* <- lang_ru;; *);
+    [user bookmarks*] (* <- lang_en;; *);;
+
+// Bookmark -> article reference
+nrel_bookmark_article <- sc_node_norole_relation;;
+nrel_bookmark_article => nrel_main_idtf:
+    [статья закладки*] (* <- lang_ru;; *);
+    [bookmark article*] (* <- lang_en;; *);;
+
+// Bookmark title (cached for display)
+nrel_bookmark_title <- sc_node_norole_relation;;
+nrel_bookmark_title => nrel_main_idtf:
+    [название закладки*] (* <- lang_ru;; *);
+    [bookmark title*] (* <- lang_en;; *);;
+
+// Bookmark tags (comma-separated or set)
+nrel_bookmark_tags <- sc_node_norole_relation;;
+nrel_bookmark_tags => nrel_main_idtf:
+    [теги закладки*] (* <- lang_ru;; *);
+    [bookmark tags*] (* <- lang_en;; *);;
+
+// Creation date
+nrel_bookmark_date <- sc_node_norole_relation;;
+nrel_bookmark_date => nrel_main_idtf:
+    [дата добавления закладки*] (* <- lang_ru;; *);
+    [bookmark date*] (* <- lang_en;; *);;
+
+// Common tags
+tag_civil_law <- sc_node_not_relation;;
+tag_civil_law => nrel_main_idtf:
+    [Гражданское право] (* <- lang_ru;; *);
+    [Civil law] (* <- lang_en;; *);;
+
+tag_labor_law <- sc_node_not_relation;;
+tag_labor_law => nrel_main_idtf:
+    [Трудовое право] (* <- lang_ru;; *);
+    [Labor law] (* <- lang_en;; *);;
+
+tag_land_law <- sc_node_not_relation;;
+tag_land_law => nrel_main_idtf:
+    [Земельное право] (* <- lang_ru;; *);
+    [Land law] (* <- lang_en;; *);;
+
+tag_rb <- sc_node_not_relation;;
+tag_rb => nrel_main_idtf:
+    [РБ] (* <- lang_ru;; *);
+    [RB] (* <- lang_en;; *);;

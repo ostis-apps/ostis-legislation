@@ -1,0 +1,44 @@
+// Notes schema for personal cabinet
+// Stores user's personal notes attached to articles
+
+concept_user_note <- sc_node_class;;
+concept_user_note => nrel_main_idtf:
+    [Заметка пользователя] (* <- lang_ru;; *);
+    [User note] (* <- lang_en;; *);
+    [Нататка карыстальніка] (* <- lang_by;; *);;
+
+// Relation: user -> notes
+nrel_user_notes <- sc_node_norole_relation;;
+nrel_user_notes => nrel_main_idtf:
+    [заметки пользователя*] (* <- lang_ru;; *);
+    [user notes*] (* <- lang_en;; *);;
+
+// Note -> article reference
+nrel_note_article <- sc_node_norole_relation;;
+nrel_note_article => nrel_main_idtf:
+    [статья заметки*] (* <- lang_ru;; *);
+    [note article*] (* <- lang_en;; *);;
+
+// Article title (cached for display)
+nrel_note_article_title <- sc_node_norole_relation;;
+nrel_note_article_title => nrel_main_idtf:
+    [название статьи заметки*] (* <- lang_ru;; *);
+    [note article title*] (* <- lang_en;; *);;
+
+// Note text content
+nrel_note_text <- sc_node_norole_relation;;
+nrel_note_text => nrel_main_idtf:
+    [текст заметки*] (* <- lang_ru;; *);
+    [note text*] (* <- lang_en;; *);;
+
+// Creation timestamp
+nrel_note_created <- sc_node_norole_relation;;
+nrel_note_created => nrel_main_idtf:
+    [дата создания заметки*] (* <- lang_ru;; *);
+    [note created date*] (* <- lang_en;; *);;
+
+// Last update timestamp
+nrel_note_updated <- sc_node_norole_relation;;
+nrel_note_updated => nrel_main_idtf:
+    [дата обновления заметки*] (* <- lang_ru;; *);
+    [note updated date*] (* <- lang_en;; *);;

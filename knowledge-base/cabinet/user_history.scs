@@ -1,0 +1,54 @@
+// User history schema for personal cabinet
+// Stores search queries and viewed articles
+
+concept_user_query <- sc_node_class;;
+concept_user_query => nrel_main_idtf:
+    [Запрос пользователя] (* <- lang_ru;; *);
+    [User query] (* <- lang_en;; *);
+    [Запыт карыстальніка] (* <- lang_by;; *);;
+
+concept_article_view <- sc_node_class;;
+concept_article_view => nrel_main_idtf:
+    [Просмотр статьи] (* <- lang_ru;; *);
+    [Article view] (* <- lang_en;; *);;
+
+// Relation: user -> query history
+nrel_query_history <- sc_node_norole_relation;;
+nrel_query_history => nrel_main_idtf:
+    [история запросов*] (* <- lang_ru;; *);
+    [query history*] (* <- lang_en;; *);;
+
+// Query text content
+nrel_query_text <- sc_node_norole_relation;;
+nrel_query_text => nrel_main_idtf:
+    [текст запроса*] (* <- lang_ru;; *);
+    [query text*] (* <- lang_en;; *);;
+
+// Query type (search, article_view)
+nrel_query_type <- sc_node_norole_relation;;
+nrel_query_type => nrel_main_idtf:
+    [тип запроса*] (* <- lang_ru;; *);
+    [query type*] (* <- lang_en;; *);;
+
+// Timestamp
+nrel_query_timestamp <- sc_node_norole_relation;;
+nrel_query_timestamp => nrel_main_idtf:
+    [время запроса*] (* <- lang_ru;; *);
+    [query timestamp*] (* <- lang_en;; *);;
+
+// Related article (for article_view type)
+nrel_viewed_article <- sc_node_norole_relation;;
+nrel_viewed_article => nrel_main_idtf:
+    [просмотренная статья*] (* <- lang_ru;; *);
+    [viewed article*] (* <- lang_en;; *);;
+
+// Query type constants
+query_type_search <- sc_node_not_relation;;
+query_type_search => nrel_main_idtf:
+    [Поиск] (* <- lang_ru;; *);
+    [Search] (* <- lang_en;; *);;
+
+query_type_article_view <- sc_node_not_relation;;
+query_type_article_view => nrel_main_idtf:
+    [Просмотр статьи] (* <- lang_ru;; *);
+    [Article view] (* <- lang_en;; *);;

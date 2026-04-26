@@ -1,0 +1,70 @@
+// User settings schema for personal cabinet
+// Defines relations for storing user preferences
+
+concept_user_settings <- sc_node_class;;
+concept_user_settings => nrel_main_idtf:
+    [Настройки пользователя] (* <- lang_ru;; *);
+    [User settings] (* <- lang_en;; *);
+    [Налады карыстальніка] (* <- lang_by;; *);;
+
+// Relation: user -> settings
+nrel_user_settings <- sc_node_norole_relation;;
+nrel_user_settings => nrel_main_idtf:
+    [настройки пользователя*] (* <- lang_ru;; *);
+    [user settings*] (* <- lang_en;; *);;
+
+// Default jurisdiction (BY, RU, EU, US)
+nrel_default_jurisdiction <- sc_node_norole_relation;;
+nrel_default_jurisdiction => nrel_main_idtf:
+    [юрисдикция по умолчанию*] (* <- lang_ru;; *);
+    [default jurisdiction*] (* <- lang_en;; *);;
+
+// UI theme (system, light, dark)
+nrel_ui_theme <- sc_node_norole_relation;;
+nrel_ui_theme => nrel_main_idtf:
+    [тема интерфейса*] (* <- lang_ru;; *);
+    [UI theme*] (* <- lang_en;; *);;
+
+// Font size (small, normal, large)
+nrel_font_size <- sc_node_norole_relation;;
+nrel_font_size => nrel_main_idtf:
+    [размер шрифта*] (* <- lang_ru;; *);
+    [font size*] (* <- lang_en;; *);;
+
+// Save history flag
+nrel_save_history <- sc_node_norole_relation;;
+nrel_save_history => nrel_main_idtf:
+    [сохранять историю*] (* <- lang_ru;; *);
+    [save history*] (* <- lang_en;; *);;
+
+// High contrast mode
+nrel_high_contrast <- sc_node_norole_relation;;
+nrel_high_contrast => nrel_main_idtf:
+    [высокий контраст*] (* <- lang_ru;; *);
+    [high contrast*] (* <- lang_en;; *);;
+
+// Custom display name (any user can set a display name in cabinet)
+nrel_user_name <- sc_node_norole_relation;;
+nrel_user_name => nrel_main_idtf:
+    [имя пользователя*] (* <- lang_ru;; *);
+    [user display name*] (* <- lang_en;; *);
+    [імя карыстальніка*] (* <- lang_by;; *);;
+
+// Jurisdiction options
+jurisdiction_belarus <- sc_node_not_relation;;
+jurisdiction_belarus => nrel_main_idtf:
+    [Беларусь] (* <- lang_ru;; *);
+    [Belarus] (* <- lang_en;; *);;
+jurisdiction_belarus => nrel_idtf: [BY];;
+
+jurisdiction_russia <- sc_node_not_relation;;
+jurisdiction_russia => nrel_main_idtf:
+    [Россия] (* <- lang_ru;; *);
+    [Russia] (* <- lang_en;; *);;
+jurisdiction_russia => nrel_idtf: [RU];;
+
+jurisdiction_eu <- sc_node_not_relation;;
+jurisdiction_eu => nrel_main_idtf:
+    [Европейский союз] (* <- lang_ru;; *);
+    [European Union] (* <- lang_en;; *);;
+jurisdiction_eu => nrel_idtf: [EU];;

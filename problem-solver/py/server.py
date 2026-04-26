@@ -1,6 +1,7 @@
 import argparse
 from sc_kpm import ScServer
 from modules.messagePreprocessingModule.MessageProcessingModule import MessageProcessingModule
+from modules.newsModule.NewsModule import NewsModule
 
 from pathlib import Path
 
@@ -19,7 +20,8 @@ def main(args: dict):
 
     with server.connect():
         modules = [
-            MessageProcessingModule()
+            MessageProcessingModule(),
+            NewsModule()
         ]
         server.add_modules(*modules)
         with server.register_modules():
